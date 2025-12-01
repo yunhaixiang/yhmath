@@ -1,0 +1,3 @@
+[submodule "themes/texify"]
+	path = themes/texify
+	url = https://github.com/michaelneuper/hugo-texify3
