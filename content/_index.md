@@ -1,23 +1,9 @@
-A minimal, $\LaTeX$-style hugo theme for personal blogging.
-Visit the [wiki](https://github.com/michaelneuper/hugo-texify3/wiki) for information on how to install and configure.
 
----
 
-## Features
 
-- Any comment engine (giscus, remark42, hyvor, etc.)
-- [Mermaid](https://mermaid.js.org) support
-- DuckDuckGo search
-- Buymeacoffee widget
-- Auto numbered subtitles
-- [Disqus](https://disqus.com/) & Google Analytics
-- Render math equations with [KaTeX](https://katex.org/)
-- [PostCSS](https://postcss.org/) to make writing CSS easier
-- Dark mode toggle
-- Citations
 
----
-
-## Acknowledgement
-
-This is a fork of the [TeXify2](https://github.com/weastur/hugo-texify2) theme.
+Hello! My name is Yunhai Xiang (in Chinese: 项云海, pronounced as “yee-o-en-hi si-ang”), and I also go by Daniel. 
+I'm a Ph.D. student in pure mathematics at University of Western Ontario. My advisor is Prof. Chris Hall. 
+I can be reached by [email](mailto:yxiang72@uwo.ca). Here is my [curriculum vitae](assets/CV.pdf). Here is my GitHub page. 
+In my free time, I enjoy films, anime, video games, reading, writing, and magic tricks. 
+Here are some links that you might find useful. 

@@ -16,7 +16,7 @@ categories = "categories"
 
 
 [params]
-title="Yunhai Xiang"
+title = "Yunhai Xiang"
 author = "Yunhai Xiang"
 description = ""
 footnote = """
@@ -32,3 +32,4 @@ rootFontSize = "105%"
 math = true
 enableDuckDuckGoSearchBox = true
 numberedSubtitles = true
+
