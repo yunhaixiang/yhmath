@@ -30,6 +30,6 @@ emphasisWithDots = true
 toc = true
 rootFontSize = "105%"
 math = true
-enableDuckDuckGoSearchBox = true
+enableDuckDuckGoSearchBox = false
 numberedSubtitles = true
 
