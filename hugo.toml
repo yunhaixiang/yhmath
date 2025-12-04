@@ -7,7 +7,7 @@ title = 'Yunhai Xiang'
 theme = 'texify'
 
 [pagination]
-pagerSize = 5
+pagerSize = 10
 
 
 [taxonomies]
@@ -25,7 +25,7 @@ Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_b
 """
 customCSS = []
 customJS = []
-dateFormat = "2 January 2006"
+dateFormat = "January 2, 2006"
 emphasisWithDots = true
 toc = true
 rootFontSize = "105%"
