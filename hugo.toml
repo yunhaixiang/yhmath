@@ -32,4 +32,4 @@ rootFontSize = "105%"
 math = true
 enableDuckDuckGoSearchBox = false
 numberedSubtitles = true
-
+enableEmoji = true
