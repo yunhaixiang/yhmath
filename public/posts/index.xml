@@ -420,7 +420,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Here we test various theorem, example, definition, remark, etc, environments. &lt;a href=&#34;#bib-Ser79&#34; class=&#34;bib-cite&#34;&gt;[Ser79]&lt;/a&gt;
 .&lt;/p&gt;
 &lt;p&gt;Currently, they cannot process shortcodes within them. This is not easy to solve, so i can only leave it as it is right now.&lt;/p&gt;
-
+&lt;p&gt;
 
 
 
@@ -440,6 +440,17 @@ is a discrete valuation ring.&lt;/p&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;proof-env&#34;&gt;
+  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body proof-body&#34;&gt;
+    Only the main idea will be explained here… $E=mc^2$.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condimentum sapien, non posuere sapien finibus eget. In vel rutrum massa, non vulputate augue. Quisque at gravida elit. Nam blandit, nunc et fringilla ultrices, massa tortor molestie tortor, in feugiat leo justo nec orci. Etiam molestie ultricies mauris,
+  &lt;/span&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 
 
 
@@ -454,7 +465,7 @@ is a discrete valuation ring.&lt;/p&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-
+&lt;p&gt;
 
 
 
@@ -472,6 +483,16 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;proof-env&#34;&gt;
+  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;证明.&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body proof-body&#34;&gt;
+    Yada Yada.
+  &lt;/span&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 
 
 
@@ -514,7 +535,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
-
+&lt;p&gt;
 
 
 
@@ -528,7 +549,17 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
-
+&lt;div class=&#34;solution-env&#34;&gt;
+  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
+    &lt;span class=&#34;solution-title&#34;&gt;Solution.&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body solution-body&#34;&gt;
+    Blah Blah blah.
+  &lt;/span&gt;
+  &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -542,6 +573,16 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;solution-env&#34;&gt;
+  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
+    &lt;span class=&#34;solution-title&#34;&gt;解.&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body solution-body&#34;&gt;
+    Blah Blah blah.
+  &lt;/span&gt;
+  &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 
 
 
@@ -567,6 +608,86 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
   &lt;span class=&#34;thm-body&#34;&gt;
     Throughout these notes, $p$ will always denote a rational prime &lt;a href=&#34;#bib-Knu86&#34;&gt;[Knu86]&lt;/a&gt;, and $v_p$ the associated $p$-adic valuation on $\mathbb{Q}$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Exercise&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    Idk what some exercise i guess
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;断言&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    对所有 $p$ 进数域都成立。
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    Every finite extension of $\mathbb{Q}_p$ is complete.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;3&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    The extension need not be Galois; only normal extensions enjoy this property.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Toy example)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    &lt;ol&gt;
+&lt;li&gt;$i \gets 10$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \ge 5$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$\quad i \gets i - 1$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;else&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \le 3$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$\quad i \gets i + 2$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;end if&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;end if&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 

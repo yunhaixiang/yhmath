@@ -57,10 +57,14 @@ I was teaching assistant for the following courses, for which I graded assignmen
 
 ### Conference Talks
 
+Here are the talks I gave on conferences.
+
 1. _Rigid Analytic Geometry_, Summer 2024, Ontario Graduate Mathematics Conference, UWaterloo
 1. _Cohomology of Grassmannians_, Summer 2022, Canadian Undergraduate Mathematics Conference, Université Laval
 
 ### Seminars Talks
+
+Here are the talks I gave on seminars. 
 
 1. _Weyl Group and Root Datum_, Summer 2025, Algebraic Groups Seminar, UWO
 1. _Hecke Operators_, Summer 2025, Algebraic Groups Seminar, UWO
@@ -73,6 +77,8 @@ I was teaching assistant for the following courses, for which I graded assignmen
 1. _Derived Categories_, Fall 2022, Algebraic Geometry Working Seminar, UWaterloo
 
 ### Other Conference Attendances
+
+Here are other conferences I have attended. 
 
 1. Coming soon
 

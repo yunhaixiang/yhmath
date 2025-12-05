@@ -1,7 +1,6 @@
 ---
 title: "Math Test"
 date: "2019-03-11"
-categories: ["english", "math"]
 ---
 
 In this post, we test mathematical typesettings.
@@ -85,6 +84,10 @@ $$
 $$
 is a discrete valuation ring.
 {{< /theorem >}}
+{{< proof note="Sketch" >}}
+Only the main idea will be explained here… $E=mc^2$. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condimentum sapien, non posuere sapien finibus eget. In vel rutrum massa, non vulputate augue. Quisque at gravida elit. Nam blandit, nunc et fringilla ultrices, massa tortor molestie tortor, in feugiat leo justo nec orci. Etiam molestie ultricies mauris,
+{{< /proof >}}
 
 {{< lemma level=2 >}}
 Let $R$ be a discrete valuation ring with maximal ideal $\mathfrak{m}$. Then every nonzero ideal of $R$ is of the form $\mathfrak{m}^n$ for a unique integer $n \ge 0$.
@@ -97,6 +100,9 @@ x = u \pi^n
 $$
 with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.
 {{< /proposition >}}
+{{< proof lang="zh">}}
+Yada Yada.
+{{< /proof>}}
 
 {{< corollary level=2 >}}
 With notation as above, the valuation $v : K^\times \to \mathbb{Z}$ defined by $x = u\pi^{v(x)}$ is well-defined and surjective.
@@ -113,10 +119,14 @@ The $p$-adic numbers $\mathbb{Q}_p$ and the field of Laurent series $\mathbb{F}_
 {{< question level=3 >}}
 Is every finite extension of a local field again a local field?
 {{< /question >}}
+{{< solution >}}Blah Blah blah.
+{{< /solution>}}
 
 {{< conjecture lang="zh" level=2 note="fake" >}}
 Every interesting number theorist secretly prefers nonarchimedean fields.
 {{< /conjecture >}}
+{{< solution lang="zh">}}Blah Blah blah.
+{{< /solution>}}
 
 {{< remark level=2 >}}
 The classification of local fields shows that up to isomorphism there are only three kinds: $\mathbb{R}$, $\mathbb{C}$, and the nonarchimedean ones (which are exactly the finite extensions of $\mathbb{Q}_p$ or $\mathbb{F}_q((t))$).
@@ -126,6 +136,32 @@ The classification of local fields shows that up to isomorphism there are only t
 Throughout these notes, $p$ will always denote a rational prime [[Knu86]](#bib-Knu86), and $v_p$ the associated $p$-adic valuation on $\mathbb{Q}$.
 {{< /convention >}}
 
+{{< exercise level=3 >}}
+Idk what some exercise i guess
+{{< /exercise>}}
+
+{{< claim lang="zh" >}}
+对所有 $p$ 进数域都成立。
+{{< /claim >}}
+
+{{< fact >}}
+Every finite extension of $\mathbb{Q}_p$ is complete.
+{{< /fact >}}
+
+{{< caveat >}}
+The extension need not be Galois; only normal extensions enjoy this property.
+{{< /caveat >}}
+
+{{< algorithm note="Toy example" >}}
+1. $i \gets 10$
+2. **if** $i \ge 5$ **then**
+3. $\quad i \gets i - 1$
+4. **else**
+5. **if** $i \le 3$ **then**
+6. $\quad i \gets i + 2$
+7. **end if**
+8. **end if**
+{{< /algorithm >}}
 
 
 ## Figures
