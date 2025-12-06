@@ -195,12 +195,208 @@
     </item>
     
     <item>
+      <title>Links</title>
+      <link>http://localhost:1313/posts/links/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/links/</guid>
+      <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://terrytao.wordpress.com&#34;&gt;What&amp;rsquo;s New&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.neverendingbooks.org&#34;&gt;Neverending Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thehighergeometer.wordpress.com/&#34;&gt;The Higher Geometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xorshammer.com&#34;&gt;XOR&amp;rsquo;s Hammer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.logicmatters.net&#34;&gt;Logic Matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homotopytypetheory.org/blog/&#34;&gt;Homotopy Type Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xenaproject.wordpress.com&#34;&gt;Xena project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qchu.wordpress.com&#34;&gt;Annoying Precision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math3ma.com&#34;&gt;Math3ma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://antimeta.wordpress.com&#34;&gt;Antimeta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sbseminar.wordpress.com&#34;&gt;Secret Blogging Seminar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rigtriv.wordpress.com&#34;&gt;Rigorous Trivialities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://theoreticalatlas.wordpress.com&#34;&gt;Theoretical Atlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lovelylittlelemmas.rjprojects.net&#34;&gt;Lovely Little Lemmas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://totallydisconnected.wordpress.com&#34;&gt;Totally Disconnected&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.daniellitt.com/blog&#34;&gt;Daniel Litt&amp;rsquo;s Betalog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://burttotaro.wordpress.com/&#34;&gt;Geometry Bulletin Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mathcounterexamples.net&#34;&gt;Math Counterexamples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://differentialgeometri.wordpress.com&#34;&gt;Gabe Khan&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.akalin.com&#34;&gt;Fred Akalin&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aliennumbers.wordpress.com&#34;&gt;The Alien Number&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.roice3.org/&#34;&gt;Roice Nelson&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ayoucis.wordpress.com/&#34;&gt;Hard Arithmetic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ahilado.wordpress.com/&#34;&gt;Theories and Theorems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math.columbia.edu/~woit/wordpress/&#34;&gt;Not Even Wrong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gregegan.net/&#34;&gt;Greg Egan&amp;rsquo;s Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wikis-and-archives&#34;&gt;Wikis and Archives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Page&#34;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wikiwand.com&#34;&gt;Wikiwand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikisource.org/wiki/Main_Page&#34;&gt;WikiSource&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ncatlab.org/nlab/show/HomePage&#34;&gt;nLab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;Stacks Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kerodon.net&#34;&gt;Kerodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://clowderproject.com/index.html&#34;&gt;Clowder Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://automorphic.jh.edu/&#34;&gt;Automorphic Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cs.uwaterloo.ca/~plragde/flaneries/LACI/index.html&#34;&gt;Logic and Computation Intertwined&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org&#34;&gt;Arxiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathbases.org/&#34;&gt;MathBases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://topology.pi-base.org/&#34;&gt;Pi-Base&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zbmath.org&#34;&gt;ZBMATH Open&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.connectedpapers.com&#34;&gt;Connected Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.litmaps.co&#34;&gt;Litmaps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com&#34;&gt;ScienceDirect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathscinet.ams.org/mathscinet/&#34;&gt;MathSciNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oa.mg&#34;&gt;OA.mg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.semanticscholar.org&#34;&gt;Semantic Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://academic.oup.com/&#34;&gt;Oxford Academic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://philpapers.org&#34;&gt;PhilPapers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lmfdb.org&#34;&gt;The L-functions and Modular Forms Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fanography.info/&#34;&gt;Fanography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.grassmannian.info/&#34;&gt;Grassmannian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hyperkaehler.info/&#34;&gt;Hyperkaehler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://manypoints.org/&#34;&gt;ManyPoints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://3-dimensional.space/&#34;&gt;3-Dimensional&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mgnbar.info/&#34;&gt;Mgnbar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://superficie.info/&#34;&gt;Superficie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ringtheory.herokuapp.com&#34;&gt;Database of Ring Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cut-the-knot.org/&#34;&gt;Cut the Knot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://katlas.org/wiki/Main_Page&#34;&gt;The Knot Atlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://planetmath.org&#34;&gt;Planet Math&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://calimath.org/&#34;&gt;Calimath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://approach0.xyz/search/&#34;&gt;Approach Zero&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mathgenealogy.org/index.php&#34;&gt;Mathematics Genealogy Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.numdam.org/?lang=en&#34;&gt;Numdam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gutenberg.org&#34;&gt;Project Gutenberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oeis.org&#34;&gt;On-Line Encyclopedia of Integer Sequences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://proofwiki.org/wiki/Main_Page&#34;&gt;Proof Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mathonline.wikidot.com&#34;&gt;Mathonline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sunsite.ubc.ca/DigitalMathArchive/&#34;&gt;Digital Mathematics Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dlmf.nist.gov/&#34;&gt;Digital Library for Mathematical Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jessetvogel.nl/math-definitions/&#34;&gt;Math Definitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t5k.org/&#34;&gt;PrimePages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adjectivesproject.org/&#34;&gt;Adjectives Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.erdosproblems.com/&#34;&gt;Erdos Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bananaspace.org/&#34;&gt;Banana Space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathpickle.com&#34;&gt;MathPickle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aareyanmanzoor.github.io/Texromancers.html&#34;&gt;The TeXromancers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/cgi-bin/notices/amsnotices.pl?article_id=whatis&amp;amp;article_type=gallery&amp;amp;gallery_type=whatis&#34;&gt;Collection of &lt;em&gt;What is&amp;hellip;&lt;/em&gt; Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kconrad.math.uconn.edu/blurbs/&#34;&gt;Keith Conrad&amp;rsquo;s Expository Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@stormentas2/analytic-philosophy-reading-list-for-the-self-taught-3bb5e44a6b7f&#34;&gt;Analytic Philosophy Reading List for the Self Taught&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plato.stanford.edu/index.html&#34;&gt;Stanford Encyclopedia of Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iep.utm.edu&#34;&gt;Internet Encyclopedia of Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classicalarchives.com/newca/#!/&#34;&gt;Classical Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://senseis.xmp.net&#34;&gt;Sensei&amp;rsquo;s Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com&#34;&gt;Goodreads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mubi.com/en/ca&#34;&gt;MUBI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.azquotes.com&#34;&gt;AZ Quotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conjuringarchive.com&#34;&gt;Conjuring Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geniimagazine.com/wiki/index.php&#34;&gt;MagicPedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lingolia.com/en/&#34;&gt;Lingolia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tools-and-softwares&#34;&gt;Tools and Softwares&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://quicklatex.com/&#34;&gt;Quick Latex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hash.mwt.me/&#34;&gt;Hash Viewer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.underleaf.ai/&#34;&gt;Underleaf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sharelatex.com&#34;&gt;ShareLaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cocalc.com&#34;&gt;CoCalc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wolframalpha.com&#34;&gt;WolframAlpha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathpix.com&#34;&gt;Mathpix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://texmacs.org/tmweb/home/welcome.en.html&#34;&gt;TeXmacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org&#34;&gt;LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gerby-project.github.io&#34;&gt;Gerby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.forester-notes.org/index/index.xml&#34;&gt;Forester&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pubpub.org/&#34;&gt;PubPub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pretextbook.org/&#34;&gt;PreTeXt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quarto.org/&#34;&gt;Quarto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodnotes.com&#34;&gt;GoodNotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://notability.com/&#34;&gt;Notability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jupyter.org&#34;&gt;Jupyter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.portal.chalmers.se/agda/Main/HomePage&#34;&gt;Agda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leanprover-community.github.io/&#34;&gt;LeanProver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sagemath.org/&#34;&gt;SageMath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oscar-system.org/&#34;&gt;OSCAR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cocoa.dima.unige.it/cocoa/&#34;&gt;CoCoA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.macaulay2.com/&#34;&gt;Macaulay2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://magma.maths.usyd.edu.au/magma/&#34;&gt;Magma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wolfram.com/mathematica/&#34;&gt;Wolfram Mathematica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.maplesoft.com/products/Maple/&#34;&gt;Maple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.desmos.com&#34;&gt;Desmos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geogebra.org&#34;&gt;GeoGebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thatsmathematics.com/mathgen/&#34;&gt;Mathgen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://math.jhu.edu/~savitt/GTM.html&#34;&gt;The Springer GTM Test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linggle.com&#34;&gt;Linggle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manim.community&#34;&gt;Manim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://reanimate.github.io&#34;&gt;Reanimate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://visualpde.com/&#34;&gt;VisualPDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sidefx.com/products/houdini/&#34;&gt;SideFx Houdini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.maxon.net/en/cinema-4d&#34;&gt;Cinema 4D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blender.org&#34;&gt;Blender&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.unrealengine.com/en-US&#34;&gt;Unreal Engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godotengine.org&#34;&gt;Godot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mathcha.io&#34;&gt;MathCha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://texnique.xyz&#34;&gt;TeXnique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexo.io/index.html&#34;&gt;Hexo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;media-and-socials&#34;&gt;Media and Socials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathoverflow.net&#34;&gt;Mathoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://math.stackexchange.com&#34;&gt;Mathematics Stack Exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://physics.stackexchange.com/&#34;&gt;Physics Stack Exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://philosophy.stackexchange.com/&#34;&gt;Philosophy Stack Exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thuses.com/&#34;&gt;Thuses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://researchseminars.org&#34;&gt;Research Seminars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quantamagazine.org&#34;&gt;Quanta Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nautil.us/&#34;&gt;Nautilus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bigthink.com/&#34;&gt;Big Think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathstodon.xyz/about&#34;&gt;Mathsodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookwyrm.social&#34;&gt;BookWyrm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://locusmag.com/&#34;&gt;Locus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://artofproblemsolving.com/&#34;&gt;Art of Problem Solving&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/publications/journals/journalsframework/aboutbull&#34;&gt;AMS Bulletin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/notices&#34;&gt;AMS Notices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://online-go.com&#34;&gt;Online Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lrb.co.uk&#34;&gt;London Review of Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nybooks.com/&#34;&gt;New York Review of Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oneahead.com&#34;&gt;One Ahead&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathmeetings.net&#34;&gt;MathMeetings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://younghomseminar.github.io&#34;&gt;YoungHom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/jmra/home&#34;&gt;JMRA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.numberphile.com&#34;&gt;Numberphile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.3blue1brown.com&#34;&gt;3Blue1Brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathdash.live/&#34;&gt;MathDash&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cantorsparadise.com/&#34;&gt;Cantor&amp;rsquo;s Paradise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Magic Tricks</title>
       <link>http://localhost:1313/posts/magic-tricks/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/magic-tricks/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I will update this page with more stuff in the future.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/posts/music/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/music/</guid>
+      <description>&lt;p&gt;I love music. Will add more later.&lt;/p&gt;
 </description>
     </item>
     

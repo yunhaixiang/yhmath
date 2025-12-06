@@ -7,9 +7,6 @@ title = 'Yunhai Xiang'
 theme = 'texify'
 ignoreLogs = ['warning-goldmark-raw-html']
 
-[pagination]
-pagerSize = 10
-
 
 [taxonomies]
 tags = "tags"
@@ -34,3 +31,7 @@ math = true
 enableDuckDuckGoSearchBox = false
 numberedSubtitles = true
 enableEmoji = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

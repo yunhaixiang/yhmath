@@ -1,7 +1,7 @@
 ---
 title: "Markdown Test"
 date: "2019-03-11"
-categories: ["media", "expositions", "essays", "prose", "poems", "journals", "archives", "stories", "notes", "reviews", "projects"]
+categories: ["media", "expositions", "essays", "prose", "poems", "journals", "archives", "stories", "reviews", "projects"]
 tags: ["math", "philosophy", "music", "films", "video-games", "anime", "magic-tricks", "coding", "number-theory", "algebraic-geometry", "algebra", "existentialism", "epistemology", "logic", "linguistics", "french-learning", "novels"]
 ---
 
