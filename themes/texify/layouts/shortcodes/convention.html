@@ -1,0 +1,13 @@
+{{/* layouts/shortcodes/convention.html */}}
+{{ $level := .Get "level" | default "3" }}
+{{ $lang := .Get "lang" | default "en" }}
+
+<div class="thm-env thm-remark" data-level="{{ $level }}">
+  <span class="thm-heading">
+    <span class="thm-title"
+          data-label='{{ if eq $lang "zh" }}约定{{ else }}Convention{{ end }}'></span>{{ with .Get "note" }} <span class="thm-note">({{ . }})</span>{{ end }}
+  </span>
+  <span class="thm-body">
+    {{ .Inner | markdownify }}
+  </span>
+</div>

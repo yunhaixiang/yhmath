@@ -1,0 +1,7 @@
+{{/* layouts/shortcodes/bibitem.html */}}
+{{- $key := .Get "key" -}}
+
+<li id="bib-{{ $key }}">
+  <span class="bib-label">[{{ $key }}]</span>
+  {{ .Inner | markdownify }}
+</li>

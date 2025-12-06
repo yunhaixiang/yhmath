@@ -1,0 +1,4 @@
+name = "TeXify3"
+license = "MIT"
+description = "A latex-style hugo theme with the gruvbox color scheme for personal blogging"
+

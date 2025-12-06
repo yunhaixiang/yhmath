@@ -1,0 +1,23 @@
+{{/* layouts/shortcodes/figure.html — self-closing version */}}
+{{- $level   := .Get "level"   | default "3"    -}}
+{{- $src     := .Get "src"     | default ""     -}}
+{{- $alt     := .Get "alt"     | default ""     -}}
+{{- $caption := .Get "caption" | default ""     -}}
+{{- $width   := .Get "width"   | default "60%"  -}}
+
+<div class="fig-env" data-level="{{ $level }}">
+  <div class="fig-body">
+    {{- with $src -}}
+      <img
+        src="{{ . }}"
+        alt="{{ $alt }}"
+        style="max-width: {{ $width }}; height: auto; display: block; margin: 0 auto;"
+      >
+    {{- end -}}
+  </div>
+
+  <div class="fig-caption">
+    <span class="fig-label"></span>
+    <span class="fig-text">{{ $caption }}</span>
+  </div>
+</div>

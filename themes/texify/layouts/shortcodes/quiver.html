@@ -1,0 +1,14 @@
+{{/* layouts/shortcodes/quiver.html */}}
+
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "400px" -}}
+
+<figure class="quiver-wrapper">
+  <iframe
+    src="{{ $src }}"
+    loading="lazy"
+    style="width: {{ $width }}; height: {{ $height }}; border: 0;"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</figure>

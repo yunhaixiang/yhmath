@@ -1,0 +1,4 @@
+{{/* layouts/shortcodes/cite.html */}}
+{{- $key := .Get "key" | default (.Get 0) -}}
+
+<a href="#bib-{{ $key }}" class="bib-cite">[{{ $key }}]</a>

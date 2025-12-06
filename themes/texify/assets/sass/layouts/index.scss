@@ -1,0 +1,257 @@
+@use "sass:math";
+
+@use "../vars" as *;
+
+.grid-container {
+  display: block
+  
+}
+
+/* global counters for headings and theorems */
+body {
+  counter-reset: h1 h2 h3 h4 thm fig;
+}
+
+h1 {
+  counter-increment: h1;
+  counter-reset: h2 h3 h4 thm fig;
+}
+
+h2 {
+  counter-increment: h2;
+  counter-reset: h3 h4 thm fig;
+}
+
+h3 {
+  counter-increment: h3;
+  counter-reset: h4 thm fig;
+}
+
+h4 {
+  counter-increment: h4;
+  counter-reset: thm fig;
+}
+
+/* every environment increments the shared theorem counter */
+.thm-env {
+  counter-increment: thm;
+  margin: 1.5rem 0;
+}
+
+
+/* every environment increments shared theorem counter */
+.thm-env {
+  counter-increment: thm;
+  margin: 1.5rem 0;
+}
+
+/* level 1: just theorem counter */
+.thm-env[data-level="1"] .thm-title::before {
+  content: attr(data-label) " " counter(thm) ".";
+}
+
+/* level 2: h2.theorem */
+.thm-env[data-level="2"] .thm-title::before {
+  content: attr(data-label) " " counter(h2) "." counter(thm) ".";
+}
+
+/* level 3: h2.h3.theorem */
+.thm-env[data-level="3"] .thm-title::before {
+  content: attr(data-label) " " counter(h2) "." counter(h3) "." counter(thm) ".";
+}
+
+/* level 4: h2.h3.h4.theorem */
+.thm-env[data-level="4"] .thm-title::before {
+  content: attr(data-label) " " counter(h2) "." counter(h3) "." counter(h4) "." counter(thm) ".";
+}
+
+/* heading + body structure */
+.thm-heading {
+  display: inline;
+  margin: 0;
+  margin-right: 0.25em;
+  /* margin: 0 0 0.25rem; */
+}
+
+.thm-body {
+  margin: 0;
+  display: inline;
+}
+
+.thm-body p {
+  display: inline;
+  margin: 0;
+}
+
+
+/* optional note: (Euler, 1888) */
+.thm-note {
+  font-weight: 400;   /* normal weight */
+  font-style: normal;
+  margin-left: 0em;
+}
+/* add the final dot after the note text */
+.thm-note::after {
+  content: ".";
+}
+
+/* --- theoremstyle{plain}: theorem / lemma / proposition / corollary --- */
+
+.thm-plain .thm-heading {
+  font-weight: 600;   /* bold label + number */
+  font-style: normal;
+}
+
+.thm-plain .thm-body {
+  font-style: italic; /* italic body */
+}
+
+/* --- theoremstyle{definition}: definition / example / question / conjecture --- */
+
+.thm-defn .thm-heading {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.thm-defn .thm-body {
+  font-style: normal;
+}
+
+/* --- theoremstyle{remark}: remark / convention --- */
+
+.thm-remark .thm-heading {
+  font-weight: 400;
+  font-style: italic;   /* label+number italic */
+}
+
+.thm-remark .thm-body {
+  font-style: normal;
+}
+
+/* Proof / Solution environments */
+
+.proof-env,
+.solution-env {
+  margin: 1.2rem 0;
+}
+
+/* reuse inline layout from .thm-heading / .thm-body */
+.proof-heading,
+.solution-heading {
+  /* .thm-heading already has display:inline etc., so usually nothing else needed */
+}
+
+.proof-body,
+.solution-body {
+  /* ensure proof text is upright roman, not italic */
+  font-style: normal;
+}
+
+/* labels: Proof. / Solution. in italic, like LaTeX */
+.proof-title,
+.solution-title {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* notes: (Sketch), (of Theorem 1.2.3), (略) etc., in normal text */
+.proof-note,
+.solution-note {
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* end-of-proof symbol; change □ to ∎ if you like */
+.proof-qed::before,
+.solution-qed::before {
+  content: "□";
+  font-size: 0.9em;
+  margin-left: 0.4em;
+}
+
+/* --- Figure 环境 --- */
+
+.fig-env {
+  counter-increment: fig;       /* 每个 figure 都让 fig++ */
+  margin: 1.5rem auto;
+  text-align: center;           /* 图居中，可改 */
+}
+
+.fig-content {
+  /* 这里放真正的图片/图表，保持居中 */
+}
+
+.fig-caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Figure 标号前缀：按 level 决定几级编号 */
+
+/* level 1：只用图的计数 => Figure 3: ... */
+.fig-env[data-level="1"] .fig-label::before {
+  content: "Figure " counter(fig) ": ";
+  font-weight: 600;
+}
+
+/* level 2：section.figure => Figure 2.3: ... */
+.fig-env[data-level="2"] .fig-label::before {
+  content: "Figure " counter(h2) "." counter(fig) ": ";
+  font-weight: 600;
+}
+
+/* level 3：section.subsection.figure => Figure 2.1.3: ... */
+.fig-env[data-level="3"] .fig-label::before {
+  content: "Figure " counter(h2) "." counter(h3) "." counter(fig) ": ";
+  font-weight: 600;
+}
+
+/* level 4：section.subsection.subsubsection.figure => Figure 2.1.4.3: ... */
+.fig-env[data-level="4"] .fig-label::before {
+  content: "Figure " counter(h2) "." counter(h3) "." counter(h4) "." counter(fig) ": ";
+  font-weight: 600;
+}
+
+.quiver-wrapper {
+  margin: 0rem 0;
+  overflow: visible;
+  text-align: center;      /* 容器内容居中 */
+}
+
+.quiver-wrapper iframe {
+  display: block; 
+  margin: 0 auto;
+}
+
+.bib-env {
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.bib-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bib-list li {
+  margin-bottom: 0.25rem;
+}
+
+/* [Knu86] label */
+.bib-label {
+  font-weight: 500;
+  margin-right: 0.35em;
+}
+
+/* inline [Knu86] in text */
+.bib-cite {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bib-cite:hover {
+  text-decoration: underline;
+}
+

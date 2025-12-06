@@ -1,0 +1,146 @@
+
+
+@use "../vars" as *;
+
+#main {
+  & > .post-group {
+    & > ul {
+      border-left: var(--fg4) solid $border;
+      list-style-type: none;
+      margin-left: 0.5rem;
+      padding-left: $margin;
+
+      & > li {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 1.6;
+
+        & > time {
+          text-align: right;
+        }
+      }
+
+      @media screen and (min-width: $mobile-breakpoint) {
+        margin-left: 1rem;
+        padding-left: 2rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      transition: text-decoration 0.3s ease;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#searchbox {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: $margin;
+
+  #ddgSearch {
+    position: relative;
+    display: inline-block;
+
+    input {
+      color: var(--fg1);
+      background-color: var(--bg_s);
+      font-family: sans-serif;
+      padding-left: 10px;
+      width: 200px;
+      height: 1.8rem;
+      border: $border solid var(--fg4);
+      border-radius: $radius;
+
+      &:focus {
+        outline: 1px solid var(--fg1);
+      }
+    }
+
+    button {
+      position: absolute;
+      aspect-ratio: 1rem;
+      right: 1em;
+      top: 5.3px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+      svg {
+        fill: var(--fg1);
+      }
+    }
+  }
+}
+
+
+
+.yh-taxonomy-info {
+  margin: 0 0 1.5rem;
+  font-size: 1rem;
+  color: inherit;
+}
+
+.yh-taxonomy-info a {
+  color: var(--blue-dim);
+  text-decoration: underline;
+}
+
+.yh-taxonomy-info a:hover {
+  color: var(--blue-dim);
+  color: color-mix(in srgb, var(--blue-dim) 80%, white 20%);
+  text-decoration: none;
+}
+
+/* Colored tag/category labels */
+.yh-tag-label {
+  color: var(--blue-dim);   /* blue */
+  font-weight: 500;
+}
+
+.yh-category-label {
+  color: var(--blue-dim);   /* red */
+  font-weight: 500;
+}
+
+.post-taxonomy-line {
+  margin-bottom: 0.2rem;  /* small vertical spacing between the two lines */
+}
+
+/* If you want a bit of space below the block as a whole */
+.post-taxonomy-overview {
+  margin-bottom: 0.5rem;
+}
+
+.post-taxonomy-overview .link.tag {
+  display: inline-block;
+
+  /* copied from single.html */
+  background-color: var(--bg_s);
+  border-radius: 0.25rem;
+  padding: 0.2em 0.3em;
+
+  /* slightly smaller gap between chips */
+  margin-right: 0em;
+
+  color: var(--blue-dim);
+  text-decoration: none;
+  margin-bottom: 0.2rem;
+}
+
+.post-taxonomy-overview .link.tag:hover {
+  text-decoration: underline;
+}
+
+.post-taxonomy-overview .post-taxonomy-line + .post-taxonomy-line {
+  margin-top: -0.2rem;  /* tweak: -0.05rem ~ -0.15rem to taste */
+}

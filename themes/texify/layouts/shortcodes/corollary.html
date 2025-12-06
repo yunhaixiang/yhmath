@@ -1,0 +1,13 @@
+{{/* layouts/shortcodes/corollary.html */}}
+{{ $level := .Get "level" | default "3" }}
+{{ $lang := .Get "lang" | default "en" }}
+
+<div class="thm-env thm-plain" data-level="{{ $level }}">
+  <span class="thm-heading">
+    <span class="thm-title"
+          data-label='{{ if eq $lang "zh" }}推论{{ else }}Corollary{{ end }}'></span>{{ with .Get "note" }} <span class="thm-note">({{ . }})</span>{{ end }}
+  </span>
+  <span class="thm-body">
+    {{ .Inner | markdownify }}
+  </span>
+</div>

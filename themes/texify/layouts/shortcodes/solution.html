@@ -1,0 +1,14 @@
+{{/* layouts/shortcodes/solution.html */}}
+{{- $lang := .Get "lang" | default "en" -}}
+
+<div class="solution-env">
+  <span class="thm-heading solution-heading">
+    <span class="solution-title">
+      {{- if eq $lang "zh" -}}解.{{- else -}}Solution.{{- end -}}
+    </span>{{ with .Get "note" }} <span class="solution-note">({{ . }})</span>{{ end }}
+  </span>
+  <span class="thm-body solution-body">
+    {{ .Inner | markdownify }}
+  </span>
+  <span class="solution-qed"></span>
+</div>

@@ -1,0 +1,70 @@
+{{/* layouts/partials/pagination.html */}}
+{{ $paginator := .Paginator }}
+
+{{ $adjacent_links := 1 }}
+{{ $max_links := (add (mul $adjacent_links 2) 1) }}
+{{ $lower_limit := 1 }}
+{{ $upper_limit := $paginator.TotalPages }}
+{{ $include_lower_ellipsis := false }}
+{{ $include_upper_ellipsis := false }}
+
+{{ if gt $paginator.TotalPages (add $max_links 2) }}
+  {{ if ge $paginator.PageNumber $adjacent_links }}
+    {{ $lower_limit = sub $paginator.PageNumber $adjacent_links }}
+    {{ if lt (sub $paginator.TotalPages $lower_limit) $max_links }}
+      {{ $lower_limit = add 1 (sub $paginator.TotalPages $max_links) }}
+    {{ end }}
+    {{ if gt (sub $lower_limit 1) 1 }}
+      {{ $include_lower_ellipsis = true }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (sub $paginator.TotalPages $paginator.PageNumber) $adjacent_links }}
+    {{ $upper_limit = add $paginator.PageNumber $adjacent_links }}
+    {{ if le $upper_limit $max_links }}
+      {{ $upper_limit = $max_links }}
+    {{ end }}
+    {{ if gt (sub $paginator.TotalPages $upper_limit) 1 }}
+      {{ $include_upper_ellipsis = true }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="yh-pagination" aria-label="Blog pagination">
+  <!-- Prev -->
+  <a class="yh-pagination-prev{{ if not $paginator.HasPrev }} yh-pagination-disabled{{ end }}"
+     {{ if $paginator.HasPrev }}href="{{ $paginator.Prev.URL }}"{{ end }}>
+    ‹ Prev
+  </a>
+
+  <!-- Page numbers -->
+  <ul class="yh-pagination-list">
+    {{ range $paginator.Pagers }}
+      {{ if or (or (eq .PageNumber 1) (eq .PageNumber $paginator.TotalPages))
+                (and (ge .PageNumber $lower_limit) (le .PageNumber $upper_limit)) }}
+        <li>
+          <a href="{{ .URL }}"
+             class="yh-pagination-link{{ if eq $paginator.PageNumber .PageNumber }} yh-pagination-link-current{{ end }}">
+            {{ .PageNumber }}
+          </a>
+        </li>
+
+        {{ if or (and (eq .PageNumber 1) (eq $include_lower_ellipsis true))
+                  (and (eq .PageNumber $upper_limit) (eq $include_upper_ellipsis true)) }}
+          <li>
+            <!-- The "..." with tooltip (like Preline) -->
+            <span class="yh-pagination-ellipsis" data-tooltip="More pages">…</span>
+          </li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+
+  <!-- Next -->
+  <a class="yh-pagination-next{{ if not $paginator.HasNext }} yh-pagination-disabled{{ end }}"
+     {{ if $paginator.HasNext }}href="{{ $paginator.Next.URL }}"{{ end }}>
+    Next ›
+  </a>
+</nav>
+{{ end }}

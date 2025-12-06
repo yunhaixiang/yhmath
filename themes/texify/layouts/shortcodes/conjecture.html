@@ -1,0 +1,13 @@
+{{/* layouts/shortcodes/conjecture.html */}}
+{{ $level := .Get "level" | default "3" }}
+{{ $lang := .Get "lang" | default "en" }}
+
+<div class="thm-env thm-defn" data-level="{{ $level }}">
+  <span class="thm-heading">
+    <span class="thm-title"
+          data-label='{{ if eq $lang "zh" }}猜想{{ else }}Conjecture{{ end }}'></span>{{ with .Get "note" }} <span class="thm-note">({{ . }})</span>{{ end }}
+  </span>
+  <span class="thm-body">
+    {{ .Inner | markdownify }}
+  </span>
+</div>
