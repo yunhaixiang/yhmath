@@ -340,10 +340,10 @@ button.copy-button {
   line-height: 1;          /* avoid extra vertical space */
   display: inline-block;   /* so transform & vertical-align behave */
   vertical-align: middle;  /* align with the line box */
-  transform: translateY(0.25em); /* nudge a bit up; tweak this if needed */
+  transform: translateY(0.2em); /* nudge a bit up; tweak this if needed */
 
   text-decoration: none;
-  padding: 0 0rem;
+  padding: 0 0;
   color: #4b5563; /* slate-ish */
   transition: background-color 0.15s ease, color 0.15s ease;
 }
