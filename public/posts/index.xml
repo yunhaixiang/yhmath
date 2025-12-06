@@ -1741,10 +1741,12 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;/div&gt;
 
 &lt;h2 id=&#34;figures&#34;&gt;Figures&lt;/h2&gt;
-
-
 &lt;div class=&#34;fig-env&#34; data-level=&#34;2&#34;&gt;
-  &lt;div class=&#34;fig-body&#34;&gt;&lt;img src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34; alt=&#34;Klein Bottle&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img
+        src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34;
+        alt=&#34;Klein Bottle&#34;
+        style=&#34;max-width: 30%; height: auto; display: block; margin: 0 auto;&#34;
+      &gt;&lt;/div&gt;
 
   &lt;div class=&#34;fig-caption&#34;&gt;
     &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;

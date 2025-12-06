@@ -166,12 +166,12 @@ The extension need not be Galois; only normal extensions enjoy this property.
 
 ## Figures
 
-
-
-{{< figure level=2 caption="This is an image of Klein bottle" >}}
-![Klein Bottle](https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg)
-{{< /figure >}}
-
+{{< figure
+    level=2
+    src="https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg"
+    alt="Klein Bottle"
+    caption="This is an image of Klein bottle"
+    width="30%">}}
 
 ## Commutative diagrams
 

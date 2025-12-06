@@ -8,7 +8,7 @@ title: "Yunhai Xiang"
     alt="Klein Bottle"
     caption="Local nerd showing off his Klein bottle"
     width="30%">}}
-{{< /figure >}}
+
 
 Hello! My name is Yunhai Xiang (in Chinese: 项云海, pronounced as “yee-o-en-hi si-ang”), and I also go by Daniel. I'm from the city of Wenzhou in Zhejiang, China. 
 I'm a Ph.D. student in pure mathematics at University of Western Ontario under Prof. Chris Hall. Previously, I obtained my M.Sc. in Mathematics at University of Western Ontario and B.Math. in Pure Mathematics (with Distinction) at University of Waterloo. 
