@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap");
 
 @font-face {
   font-family: "SourceHanSerifSCWeb";
@@ -73,7 +74,8 @@
 }
 
 .link .arrow-icon {
-  font-family: -apple-system, BlinkMacSystemFont,
+  font-family: "Noto Sans Symbols 2",
+                -apple-system, BlinkMacSystemFont,
                "Segoe UI", "Noto Sans",
                system-ui, sans-serif;
   margin-right: 0.2em;      /* 让箭头和 Back 稍微空一点，可调整 */
@@ -81,8 +83,4 @@
   /* 可选：稍微微调一下竖直对齐 */
   transform: translateY(0.04em);
 }
-.nice-arrow {
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Segoe UI", "Noto Sans",
-               system-ui, sans-serif;
-}
+

@@ -147,13 +147,15 @@
 
 
 /* 分页的上一页/下一页箭头 */
+/* 分页箭头专用字体：符号字体，支持 🢠🢡 这些 */
 .yh-page-arrow {
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Segoe UI", "Noto Sans",
+  font-family: "Noto Sans Symbols 2",
+               -apple-system, BlinkMacSystemFont,
                system-ui, sans-serif;
-  /* 可选：让箭头稍微大一点好点按 */
-  /* font-size: 1.1em; */
+  /* 其它样式照旧，比如 */
+  /* font-size、颜色、padding 不用动 */
 }
+
 
 /* 如果有禁用态，可以顺便调点颜色/透明度 */
 .yh-page-arrow-disabled {
