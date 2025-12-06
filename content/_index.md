@@ -7,7 +7,7 @@ title: "Yunhai Xiang"
     src="/img/nerd.jpg"
     alt="Klein Bottle"
     caption="Local nerd showing off his Klein bottle"
-    width="30%">}}
+    width="300px">}}
 
 
 Hello! My name is Yunhai Xiang (in Chinese: 项云海, pronounced as “yee-o-en-hi si-ang”), and I also go by Daniel. I'm from the city of Wenzhou in Zhejiang, China. 
