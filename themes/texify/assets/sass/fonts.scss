@@ -78,9 +78,11 @@
                 -apple-system, BlinkMacSystemFont,
                "Segoe UI", "Noto Sans",
                system-ui, sans-serif;
-  margin-right: 0.2em;      /* 让箭头和 Back 稍微空一点，可调整 */
+  font-size: 1em;
+  line-height: 1; 
+  margin-right: 0em;      /* 让箭头和 Back 稍微空一点，可调整 */
   display: inline-block;
   /* 可选：稍微微调一下竖直对齐 */
-  transform: translateY(0.04em);
+  /*transform: translateY(-0.05em);*/
 }
 

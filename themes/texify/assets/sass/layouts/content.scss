@@ -331,20 +331,33 @@ button.copy-button {
 
 /* Arrows (‹ and ›) */
 .yh-page-arrow {
+  font-family: "Noto Sans Symbols 2",
+               -apple-system, BlinkMacSystemFont,
+               system-ui, sans-serif;
+
+  /* size + alignment tweaks */
+  font-size: 0.85em;        /* slightly smaller than the numbers */
+  line-height: 1;          /* avoid extra vertical space */
+  display: inline-block;   /* so transform & vertical-align behave */
+  vertical-align: middle;  /* align with the line box */
+  transform: translateY(0.25em); /* nudge a bit up; tweak this if needed */
+
   text-decoration: none;
-  padding: 0 0.25rem;
+  padding: 0 0rem;
   color: #4b5563; /* slate-ish */
   transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.yh-page-arrow:hover {
-  color: #111827;
 }
 
 .yh-page-arrow-disabled {
   opacity: 0.3;
   pointer-events: none;
 }
+
+
+.yh-page-arrow:hover {
+  color: #111827;
+}
+
 
 /* Page links: default (not current) */
 .yh-page-link {
