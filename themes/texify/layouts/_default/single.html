@@ -95,12 +95,12 @@
   {{ partial "sharingbuttons.html" . }}
   <div class="paginator">
     {{ if .PrevInSection }}
-    <a class="link" href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">🢠 Back</a>
+    <a class="link" href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}"><span class="arrow-icon">🢠</span> Back</a>
     {{ else }}
     <a></a>
     {{ end }}
     {{ if .NextInSection }}
-    <a class="link" href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">Next 🢡</a>
+    <a class="link" href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">Next <span class="arrow-icon">🢡</span></a>
     {{ else }}
     <a></a>
     {{ end }}

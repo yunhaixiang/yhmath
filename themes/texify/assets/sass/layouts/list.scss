@@ -144,3 +144,19 @@
 .post-taxonomy-overview .post-taxonomy-line + .post-taxonomy-line {
   margin-top: -0.2rem;  /* tweak: -0.05rem ~ -0.15rem to taste */
 }
+
+
+/* 分页的上一页/下一页箭头 */
+.yh-page-arrow {
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", "Noto Sans",
+               system-ui, sans-serif;
+  /* 可选：让箭头稍微大一点好点按 */
+  /* font-size: 1.1em; */
+}
+
+/* 如果有禁用态，可以顺便调点颜色/透明度 */
+.yh-page-arrow-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
