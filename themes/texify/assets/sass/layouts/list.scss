@@ -145,3 +145,84 @@
   margin-top: -0.2rem;  /* tweak: -0.05rem ~ -0.15rem to taste */
 }
 
+
+/* Pagination container */
+.yh-pagination {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+}
+
+/* The group of page numbers */
+.yh-page-list {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+/* Arrows (‹ and ›) */
+.yh-page-arrow {
+  font-family: "Noto Sans Symbols 2",
+               -apple-system, BlinkMacSystemFont,
+               system-ui, sans-serif;
+
+  /* size + alignment tweaks */
+  font-size: 1.5em;        /* slightly smaller than the numbers */
+  line-height: 1;          /* avoid extra vertical space */
+  display: inline-block;   /* so transform & vertical-align behave */
+  vertical-align: middle;  /* align with the line box */
+  transform: translateY(2.5px); 
+
+  text-decoration: none;
+  padding: 0 0;
+  color: #4b5563; /* slate-ish */
+  transition: background-color 0.15s ease, color 0.15s ease;
+  
+}
+
+.yh-page-arrow-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+
+.yh-page-arrow:hover {
+  color: #111827;
+}
+
+
+/* Page links: default (not current) */
+.yh-page-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #4b5563;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Hover chip for non-current pages */
+.yh-page-link:hover {
+  background-color: #f3f4f6; /* light gray */
+  color: #111827;
+}
+
+/* Current page chip: like Preline's grey square */
+.yh-page-link-current {
+  background-color: #f4e4b5; /* slightly darker grey */
+  color: #111827;
+  font-weight: 500;
+}
+
+/* Ellipsis: just subtle text */
+.yh-page-ellipsis {
+  color: #9ca3af;
+  letter-spacing: 0.15em;
+}
