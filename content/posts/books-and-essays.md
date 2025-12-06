@@ -1,0 +1,68 @@
+---
+layout: post
+title: Books and Essays
+date: 2023-01-06 00:00:00 +0000
+tags: []
+categories: [archives]
+---
+
+## Books I Want to Read
+- Saul Kripke, _Naming and Necessity_ (1980)
+- Herman Melville, _Moby Dick_ (1851)
+- Virginia Woolf, _To the Lighthouse_ (1927)
+- Isaac Asimov, _Foundation_ (1951)
+- J. D. Salinger, _The Catcher in the Rye_ (1951)
+
+## Books I Recommend (Fiction)
+- Liu Cixin, _The Three-Body Problem_ (2006)
+- Greg Egan, _Axiomatic_ (1995)
+- Franz Kafka, _The Metamorphosis_ (1916)
+- Shuzo Oshimi, _Inside Mari_ (2012)
+
+## Books I Recommend (Non-Fiction)
+- Duncan Pritchard, *What is this Thing Called Knowledge?* (2006)
+- Paul Lockhart, _A Mathematician's Lament_ (2009)
+- George Lakoff, _Where Mathematics Come From_ (2000)
+- Edward Frenkel, *Love and Math: The Heart of Hidden Reality* (2013)
+- Alexander Grothendieck, *Récoltes et Semailles* (1986)
+- Morris Kline, *Mathematics: The Loss of Certainty* (1980)
+- Martin Aigner, Günter M. Ziegler, *Proofs from THE BOOK* (1998)
+- Dmitry Fuchs, Serge Tabachnikov, *Mathematical Omnibus* (2007)
+- V. B. Alekseev, Francesca Aicardi, *Abel's Theorem in Problems and Solutions* (2004)
+- Mark Levi, *The Mathematical Mechanic* (2009)
+- Timothy Gowers et al., *The Princeton Companion to Mathematics* (2007)
+- Răzvan Gelca, Titu Andreescu, *Putnam and Beyond* (2017)
+- Paul Zeitz, *The Art and Craft of Problem Solving* (1999)
+- E. R. Berlekamp, David Wolfe, *Mathematical Go: Chilling Gets the Last Point* (1994)
+- E. R. Berlekamp, J. Conway, R. Guy, *Winning Ways for Your Mathematical Plays* (1982)
+- Peter Winkler, *Mathematical Puzzles: A Connoisseur's Collection* (2003)
+- Martin Gardner, *Mathematics, Magic and Mystery* (1956)
+- Martin Gardner, *Mathematical Magic Show* (1977)
+- Colm Mulcahy, *Mathematical Card Magic: Fifty-Two New Effects* (2013)
+- Matt Cook, *Sleight of Mind* (2021)
+- Clément Deslandes, Guillaume Deslandes, *The Price of Cake* (2023)
+- Jonas Peters, Nicolai Meinshausen, *The Raven's Hat* (2021)
+-  Satyan Devadoss, Matthew Harvey, *Mage Merlin's Unsolved Mathematical Mysteries* (2020)
+- Alexander Bogomolny, *Cut the Knot* (2020)
+- David Ruelle, *The Mathematician's Brain* (2007)
+- Mikhail Shifman, *You Failed Your Math Test, Comrade Einstein* (2005)
+- David Ruelle, *The Mathematician's Brain* (2018)
+- Jacques Hadamard, *The Psychology of Invention in the Mathematical Field* (1945)
+- George Polya, _How to Solve It: A New Aspect of Mathematical Method_ (2015)
+- George Polya, _Mathematical Discovery_ (1991)
+- Thomas Lam, _The CMUMC POTD Book_ (2025)
+- Gian-Carlo Rota, _Indiscrete Thoughts_ (1996)
+- Philip J. Davis, Reuben Hersh, _The Mathematical Experience_ (1981)
+- Paul Benacerraf, Hilary Putnam, _Philosophy of Mathematics: Selected Readings_ (1984)
+- Reuben Hersh, _18 Unconventional Essays on the Nature of Mathematics_ (2006)
+
+## Essays I Recommend
+- Walter Benjamin, _The Work of Art in the Age of Mechanical Reproduction_ (1935)
+- Guy Debord, _The Society of the Spectacle_ (1967)
+- G. H. Hardy, _A Mathematician's Apology_ (1940)
+- Eugenia Cheng, _Mathematics, Morally_ (2004)
+- W. T. Gowers, _The Two Cultures of Mathematics_ (2007)
+- Kevin Buzzard, _Grothendieck’s Use of Equality_ (2024)
+- Paul Benacerraf, _What Numbers Could not Be_ (1965)
+- W. V. O. Quine, _Two Dogmas of Empiricism_ (1951)
+- William P. Thurston, _On Proof and Progress in Mathematics_ (1994)

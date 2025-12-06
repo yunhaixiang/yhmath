@@ -6,384 +6,262 @@
     <description>Recent content in Prose on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/prose/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/prose/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Math Test</title>
-      <link>http://localhost:1313/posts/math-test/</link>
+      <title>失眠</title>
+      <link>http://localhost:1313/posts/shimian/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/shimian/</guid>
+      <description>&lt;div class=&#34;wenkai&#34;&gt;
+  &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
+无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
+走到落地窗旁，俯瞰附近的公园，只几盏路灯，和洒落在远处的阑珊灯火。
+这每个星星的灯火处，是否也是和我一样的不眠之人？
+此时此刻，是在梦乡，还是在想着什么呢？
+小伦敦这个城市五十万之人口，每天起床、刷牙、吃饭、上班、下班、睡觉，如此循环往复。
+为什么？是什么促使着他们每天起床呢？
+若是问这城市的人，「为什么每天起床？」也许会换来迷惑的目光，「那不然呢？」
+我在想，也许我们不过都是遵循自然法则的生物，脑子里内置了特殊的时钟。
+到了时间就想睡觉、想起床、想考大学、想恋爱、想成家、想上班，等等。
+也许我的时钟坏了吧。想到这里，把我自己都蠢笑了。&lt;/p&gt;
+&lt;p&gt;  滴滴答答，那是雨声。这雨声的节奏不似鼓点，没有特别的规律，但莫名其妙的受用。
+小伦敦的糟糕气候，下雨本是司空见惯的。但不知怎的，我突发奇想，盘腿坐在窗旁，闭上眼，屏息听那雨声敲打玻璃。
+一滴一答，一答一滴。
+不经意间，狂风掀起，雷声轰鸣。
+好像是从深沉的独奏，突然换成了狂野不羁的摇滚乐。
+我想起来以前偶然了解到的一种叫Math Rock的音乐。
+Math Rock以节奏复杂古怪著称。
+这种音乐有时鼓点甚至按照不同的质数为节拍，节奏永不重复。
+但若是任何乐队能够演出这种音乐，想必他们也必是古怪到极致的人吧。
+奇怪，今日的雨，和别日也并无区别，但我却忍不住继续听。
+我总觉得，这雨声中藏着什么，是酸楚吗，还是迷茫？
+雨又为什么下呢？还是他也不过是遵循着自然的法则罢了？
+我又为什么在听着雨呢？想必我也是古怪的人吧。
+几刻钟，几小时过去了？不清楚，也不重要，只盘着的大腿似乎有些酸痛。
+雷声早已远去，而雨声也逐渐温柔，想必也已疲惫了吧。&lt;/p&gt;
+&lt;p&gt;  天边渐红，我艰难地起身，把酸疼的腿拖回床上。
+活了这么多年，这么细致地听雨声，好像是第一次。
+可是下雨原是再普通不过的事，真奇了怪了。
+这世上，有的人每天起床是为了养家糊口，有人为了出人头地，有人为了实现大而远的理想。
+但可有人，每天起床是为了听那雨声？
+想到这里，我心头缠绕的思绪好像突然解开了。&lt;/p&gt;
+&lt;p&gt;  躺在床上，伴着逐渐远去的雨声，我渐渐睡去。&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown Test</title>
+      <link>http://localhost:1313/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/math-test/</guid>
-      <description>&lt;p&gt;In this post, we test mathematical typesettings.&lt;/p&gt;
-&lt;h2 id=&#34;basic-katex&#34;&gt;Basic KaTeX&lt;/h2&gt;
-&lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
-&lt;p&gt;This is some random math $\zeta(s)=\sum_{n=1}^\infty \frac{1}{n^s}$ and here is more text.&lt;/p&gt;
-&lt;p&gt;How about block math, does it look okay? Let $H_n=1+\frac{1}{2}+\cdots+\frac{1}{n}$ be the harmonic numbers, show that&lt;/p&gt;
-&lt;p&gt;$$\lim_{k\rightarrow\infty} \sum_{n_1=1}^\infty \sum_{n_2=1}^\infty \cdots\sum_{n_k=1}^\infty (-1)^{n_1+\cdots+n_k}\frac{H_{n_1}H_{n_2}\cdots H_{n_k}}{1+n_1+n_2+\cdots+n_k}=0$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Never use double dollar sign inline, always use in newline. How about matrices, does this look good?&lt;/p&gt;
-&lt;p&gt;$$\det \begin{pmatrix}
-\gcd(1,1)&amp;amp; \gcd (1,2)&amp;amp; \cdots &amp;amp;\gcd(1,n)\\
-\gcd(2,1)&amp;amp;\gcd(2,2)&amp;amp; \cdots &amp;amp;\gcd(2,n)\\
-\vdots &amp;amp;\ddots &amp;amp; \vdots&amp;amp; \vdots\\
-\gcd(n,1)&amp;amp;\gcd(n,2)&amp;amp;\cdots&amp;amp;\gcd(n,n)
-\end{pmatrix}=\varphi(1)\varphi(2)\cdots \varphi(n)$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; it seems that you must use three backslashes for new row.&lt;/p&gt;
-&lt;p&gt;Now I&amp;rsquo;m going to stress test it with very long formulas, does it overflow? can it slide left and right?&lt;/p&gt;
-&lt;p&gt;$$
-\frac{1}{2 \pi i} \int_{|s|=1 / \mathcal{L}} \frac{\vartheta_1(d, s) G_1(s)}{\zeta(1+s)^{k_0}} \frac{(D / d)^s d s}{s^{k_0+l_0+1}}-\frac{1}{2 \pi i} \vartheta_1(d) \mathfrak{S} \int_{|s|=1 / \mathcal{L}} \frac{(D / d)^s d s}{s^{l_0+1}} \ll \mathcal{L}^{l_0-1+\varepsilon}= \sum_{\psi \in \Psi_1} \sum_{\rho \in \mathcal{Z}(\psi)} \mathcal{C}^*(\rho, \psi)\left|H_1(\rho, \psi)+Z(\rho, \chi \psi) \overline{H_2(\rho, \psi)}\right|^2 \omega(\rho)&amp;lt;0.001 \mathfrak{a} \mathcal{P},
-$$&lt;/p&gt;
-&lt;p&gt;Now I want to test if &lt;code&gt;\align&lt;/code&gt; and &lt;code&gt;\alignat&lt;/code&gt; work? Firstly,&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align}
-a&amp;amp;=b+c \\
-d+e&amp;amp;=f
-\end{align}
-$$&lt;/p&gt;
-&lt;p&gt;Secondly,&lt;/p&gt;
-&lt;p&gt;$$
-\begin{alignat}{2}
-10&amp;amp;x+&amp;amp;3&amp;amp;y=2\\
-3&amp;amp;x+&amp;amp;13&amp;amp;y=4
-\end{alignat}
-$$&lt;/p&gt;
-&lt;p&gt;How about different mathematical fonts&lt;/p&gt;
-&lt;p&gt;$$ABC, \mathcal{ABC}, \mathrm{ABC}, \mathbf{ABC}, \mathfrak{ABC}, \mathbb{ABC}, \mathscr{ABC}, $$&lt;/p&gt;
-&lt;p&gt;Hebrew letters fine? $\aleph,\beth, \gimel, \daleth, \gimel$, seems good. Greek letters? $\alpha, \beta, \gamma, \Gamma, \Sigma$. How about variants? $\varphi, \varepsilon, \vartheta$.&lt;/p&gt;
-&lt;p&gt;中文行不行？我来试试中文的行间数学公式 $e^{i\theta}=\cos\theta+i\sin\theta$ 后面再来一点文字。是否能在TeX中用中文？&lt;/p&gt;
-&lt;p&gt;$$\textrm{古来云海茫茫，道山绛阙知何处？}$$&lt;/p&gt;
-&lt;p&gt;能不能使用中文角标？测试一下$F_{浮}=\rho_{液}gV_{排}$&lt;/p&gt;
-&lt;p&gt;Emojis in math $😀^2+😛^2=😚^2$&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h2 id=&#34;environments&#34;&gt;Environments&lt;/h2&gt;
-&lt;p&gt;Here we test various theorem, example, definition, remark, etc, environments. &lt;a href=&#34;#bib-Ser79&#34; class=&#34;bib-cite&#34;&gt;[Ser79]&lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;Currently, they cannot process shortcodes within them. This is not easy to solve, so i can only leave it as it is right now.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Euler, 1888)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    &lt;p&gt;Let $K$ be a number field and let $\mathfrak{p}$ be a nonzero prime ideal of $\mathcal{O}_K$.&lt;/p&gt;
-&lt;p&gt;Then
-$$
-\mathcal{O}_{K,\mathfrak{p}}
-$$
-is a discrete valuation ring.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
-    Only the main idea will be explained here… $E=mc^2$.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condimentum sapien, non posuere sapien finibus eget. In vel rutrum massa, non vulputate augue. Quisque at gravida elit. Nam blandit, nunc et fringilla ultrices, massa tortor molestie tortor, in feugiat leo justo nec orci. Etiam molestie ultricies mauris,
-  &lt;/span&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Let $R$ be a discrete valuation ring with maximal ideal $\mathfrak{m}$. Then every nonzero ideal of $R$ is of the form $\mathfrak{m}^n$ for a unique integer $n \ge 0$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Standard folklore)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Let $K$ be the fraction field of a discrete valuation ring $R$. Then every nonzero $x \in K^\times$ can be written uniquely as
-$$
-x = u \pi^n
-$$
-with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;证明.&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
-    Yada Yada.
-  &lt;/span&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    With notation as above, the valuation $v : K^\times \to \mathbb{Z}$ defined by $x = u\pi^{v(x)}$ is well-defined and surjective.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    A &lt;strong&gt;local field&lt;/strong&gt; is a field $K$ which is complete with respect to a discrete valuation $v$ and whose residue field is finite.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;例子&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    The $p$-adic numbers $\mathbb{Q}_p$ and the field of Laurent series $\mathbb{F}_q((t))$ over a finite field are examples of local fields.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Question&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Is every finite extension of a local field again a local field?
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;solution-env&#34;&gt;
-  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
-    &lt;span class=&#34;solution-title&#34;&gt;Solution.&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body solution-body&#34;&gt;
-    Blah Blah blah.
-  &lt;/span&gt;
-  &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;猜想&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(fake)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Every interesting number theorist secretly prefers nonarchimedean fields.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;solution-env&#34;&gt;
-  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
-    &lt;span class=&#34;solution-title&#34;&gt;解.&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body solution-body&#34;&gt;
-    Blah Blah blah.
-  &lt;/span&gt;
-  &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    The classification of local fields shows that up to isomorphism there are only three kinds: $\mathbb{R}$, $\mathbb{C}$, and the nonarchimedean ones (which are exactly the finite extensions of $\mathbb{Q}_p$ or $\mathbb{F}_q((t))$).
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Convention&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Throughout these notes, $p$ will always denote a rational prime &lt;a href=&#34;#bib-Knu86&#34;&gt;[Knu86]&lt;/a&gt;, and $v_p$ the associated $p$-adic valuation on $\mathbb{Q}$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Exercise&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Idk what some exercise i guess
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;断言&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    对所有 $p$ 进数域都成立。
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Every finite extension of $\mathbb{Q}_p$ is complete.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    The extension need not be Galois; only normal extensions enjoy this property.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Toy example)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;$i \gets 10$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \ge 5$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;$\quad i \gets i - 1$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;else&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \le 3$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;$\quad i \gets i + 2$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;end if&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;end if&lt;/strong&gt;&lt;/li&gt;
+      <guid>http://localhost:1313/posts/markdown-test/</guid>
+      <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;ldquo;sitiae dolessi aut parist&amp;rdquo; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
+&lt;p&gt;中文段落测试。&lt;em&gt;君不见黄河之水天上来&lt;/em&gt;，&lt;strong&gt;奔流到海不复回&lt;/strong&gt;。
+&lt;strong&gt;&lt;em&gt;君不见高堂明镜悲白发，朝如青丝暮成雪&lt;/em&gt;&lt;/strong&gt;。
+人生得意须尽欢，&lt;code&gt;莫使金樽空对月&lt;/code&gt;。
+天生我材必有用，千金散尽还复来。
+烹羊宰牛且为乐，会须一饮三百杯。
+岑夫子，丹丘生，将进酒，杯莫停。&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+&lt;h3 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; that you can put a blockquote inside a blockquote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+— Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bob&lt;/td&gt;
+          &lt;td&gt;27&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Alice&lt;/td&gt;
+          &lt;td&gt;23&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Italics&lt;/th&gt;
+          &lt;th&gt;Bold&lt;/th&gt;
+          &lt;th&gt;Code&lt;/th&gt;
+          &lt;th&gt;Strikethrough&lt;/th&gt;
+          &lt;th&gt;Underline&lt;/th&gt;
+          &lt;th&gt;Highlight&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;underline&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;highlight&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h3 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Item 1
+&lt;ol&gt;
+&lt;li&gt;Sub-item 1.1&lt;/li&gt;
+&lt;li&gt;Sub-item 1.2&lt;/li&gt;
+&lt;li&gt;Sub-item 1.3&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;checklist&#34;&gt;Checklist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item 1&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item 2
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sub-item 2.1&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sub-item 2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;symbols&#34;&gt;Symbols&lt;/h2&gt;
+&lt;p&gt;You can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (©), you can copy and paste the HTML entity for copyright &lt;code&gt;(&amp;amp;copy;)&lt;/code&gt; into your Markdown document.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Copyright (©) — &amp;amp;copy;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Registered trademark (®) — &amp;amp;reg;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Trademark (™) — &amp;amp;trade;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Euro (€) — &amp;amp;euro;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Left arrow (←) — &amp;amp;larr;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Up arrow (↑) — &amp;amp;uarr;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Right arrow (→) — &amp;amp;rarr;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Down arrow (↓) — &amp;amp;darr;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Degree (°) — &amp;amp;#176;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Pi (π) — &amp;amp;#960;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a complete list of available HTML entities, refer to Wikipedia’s page on &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references&#34;&gt;HTML entities&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
-  &lt;/span&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
+&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+          &lt;a href=&#34;https://vimeo.com/48912912&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
+            &lt;img src=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us&#34; srcset=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 2x&#34; alt=&#34;Sing Jan Swing - Kinetic Type&#34;&gt;
+            &lt;div class=&#34;play&#34;&gt;
+              &lt;svg version=&#34;1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 61 61&#34;&gt;&lt;circle cx=&#34;30.5&#34; cy=&#34;30.5&#34; r=&#34;30.5&#34; opacity=&#34;.8&#34; fill=&#34;#000&#34;&gt;&lt;/circle&gt;&lt;path d=&#34;M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z&#34; fill=&#34;#fff&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;wenkai-paragraph&#34;&gt;Wenkai paragraph&lt;/h2&gt;
+&lt;div class=&#34;wenkai&#34;&gt;
+  &lt;p&gt;　　&lt;em&gt;列位看官&lt;/em&gt;，&lt;strong&gt;你道此书&lt;/strong&gt;从何而来？说起根由&lt;em&gt;&lt;strong&gt;虽近荒唐&lt;/strong&gt;&lt;/em&gt;，细谙则深有趣味。待在下将此来历注明，方使闻者了然不惑。&lt;/p&gt;
+&lt;p&gt;　　原来，当年女娲氏炼石补天之时，于大荒山无稽崖炼成高经十二丈，方经二十四丈顽石三万六千五百零一块。娲皇氏只用了三万六千五百块，只单单剩了一块未用，便弃在此山青埂峰下。谁知此石自经煅炼之后，灵性已通，因见众石俱得补天，独自己无材不堪入选，遂自怨自嗟，日夜悲号惭愧。&lt;/p&gt;
+&lt;p&gt;　　一日，正当嗟悼之馀，俄见一僧一道远远而来，生得骨骼不凡，丰神迥异，说说笑笑来至峰下，坐于石边高谈快论。先是说些云山雾海神仙玄幻之事，后便说到红尘中荣华富贵。此石听了，不觉打动凡心，也想要到人间去享一享这荣华富贵，但自恨粗蠢，不得已，便口吐人言，向那僧道说道：“大师，弟子蠢物，不能见礼了。适闻二位谈那人世间荣耀繁华，心切慕之。弟子质虽粗蠢，性却稍通，况见二师仙形道体，定非凡品，必有补天济世之材，利物济人之德。如蒙发一点慈心，携带弟子得入红尘，在那富贵场中，温柔乡里受享几年，自当永佩洪恩，万劫不忘也。”二仙师听毕，齐憨笑道：“善哉，善哉！那红尘中有却有些乐事，但不能永远依恃。况又有美中不足、好事多魔八个字紧相连属，瞬息间则又乐极悲生，人非物换，究竟是到头一梦，万境归空，倒不如不去的好。”这石凡心已炽，那里听得进这话去，乃复苦求再四。二仙知不可强制，乃叹道：“此亦静极思动，无中生有之数也。既如此，我们便携你去受享受享，只是到不得意时，切莫后悔。”石道：“自然，自然。”那僧又道：“若说你性灵，却又如此质蠢，并更无奇贵之处。如此也只好踮脚而已。也罢，我如今大施佛法助你助，待劫终之日，复还本质，以了此案。你道好否？”石头听了，感谢不尽。那僧便念咒书符，大展幻术，将一块大石登时变成一块鲜明莹洁的美玉，且又缩成扇坠大小的可佩可拿。那僧托于掌上，笑道：“形体倒也是个宝物了！还只没有实在的好处，须得再镌上数字，使人一见便知是奇物方妙。然后携你到那昌明隆盛之邦，诗礼簪缨之族，花锦繁华之地，温柔富贵之乡去安身乐业。”石头听了，喜不能禁，乃问：“不知弟子那几件奇处，又不知携了弟子到何处？望乞明示，使弟子不惑。”那僧笑道：“你且莫问，日后自然明白的。”说着，便袖了那石，同那道人飘然而去，竟不知投奔何方何舍。&lt;/p&gt;
+
 &lt;/div&gt;
+&lt;h2 id=&#34;palatino-paragraph&#34;&gt;Palatino Paragraph&lt;/h2&gt;
+&lt;div class=&#34;palatino&#34;&gt;
+  &lt;p&gt;　　&lt;em&gt;Call me Ishmael&lt;/em&gt;. &lt;strong&gt;Some years&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;ago—never&lt;/em&gt;&lt;/strong&gt; mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.&lt;/p&gt;
+&lt;p&gt;　　There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there.&lt;/p&gt;
+&lt;p&gt;　　Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward. What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here?&lt;/p&gt;
 
-&lt;h2 id=&#34;figures&#34;&gt;Figures&lt;/h2&gt;
-
-
-&lt;figure class=&#34;fig-env&#34; data-level=&#34;2&#34;&gt;
-  &lt;div class=&#34;fig-content&#34;&gt;
-    &lt;img src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34; alt=&#34;Klein Bottle&#34;&gt;
-  &lt;/div&gt;
-  &lt;figcaption class=&#34;fig-caption&#34;&gt;
-    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;This is an image of Klein bottle
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;commutative-diagrams&#34;&gt;Commutative diagrams&lt;/h2&gt;
-&lt;p&gt;$\KaTeX$ supports simple commutative diagrams, but it does not allow advanced features like diagonal or curved arrows. See &lt;a href=&#34;https://redgregory.notion.site/Diagrams-With-KaTeX-9166ebfa650a463dbdf67357143ebaed&#34;&gt;here&lt;/a&gt;. However, for some reason I could not get that to even work here. This is weird. Instead I can use &lt;a href=&#34;https://q.uiver.app/&#34;&gt;quiver&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;&gt;
-  &lt;iframe
-    src=&#34;https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQiJdLFsxLDEsIkMiXSxbMiwwLCJEIl0sWzAsMSwiIiwwLHsiY3VydmUiOi0yfV0sWzAsMSwiIiwyLHsiY3VydmUiOjJ9XSxbMSwyXSxbMiwzXSxbMSwzXV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    style=&#34;width: 60%; height: 200px; border: 0;&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I wrote a shortcode for it to avoid the iframe being escaped by the theme.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Citing can be done with a shortcode &lt;code&gt;cite&lt;/code&gt;. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&amp;rsquo;t work). For the latter, opt instead for generic markdown links i.e. &lt;code&gt;[[Knu86]](#bib-Knu86)&lt;/code&gt;.&lt;/p&gt;
-
-
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-    
-  &lt;li id=&#34;bib-Knu86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Knu86]&lt;/span&gt;
-  Donald E. Knuth, &lt;em&gt;The TeXbook&lt;/em&gt;, Addison-Wesley, 1986.
-&lt;/li&gt;
-
-  &lt;li id=&#34;bib-Ser79&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser79]&lt;/span&gt;
-  Jean-Pierre Serre, &lt;em&gt;Local Fields&lt;/em&gt;, Springer, 1979.
-&lt;/li&gt;
-
-  &lt;li id=&#34;bib-Neu99&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Neu99]&lt;/span&gt;
-  Jürgen Neukirch, &lt;em&gt;Algebraic Number Theory&lt;/em&gt;, Springer, 1999.
-&lt;/li&gt;
-
-  &lt;/ul&gt;
 &lt;/div&gt;
-
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;This is a footnote.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;This is another footnote with latex $1+1=2$&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>

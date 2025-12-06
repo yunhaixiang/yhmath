@@ -1,0 +1,56 @@
+---
+layout: post
+title: Films
+date: 2023-01-06 00:00:00 +0000
+tags: [films]
+categories: [archives]
+---
+## Films I Want to Watch
+- *The Act of Killing* (2012)
+- *Vertigo* (1958)
+- *Ikiru* (1952)
+- *Ran* (1985)
+
+## Films I Recommend (Fiction)
+- [*Spirited Away* (2001)](https://www.imdb.com/title/tt0245429/)
+- [*3 Idiots* (2009)](https://www.imdb.com/title/tt1187043/)
+- [*Paprika* (2006)](https://www.imdb.com/title/tt0851578/)
+- [*Ip Man* (2008)](https://www.imdb.com/title/tt1220719/)
+- [*Everything Everywhere All at Once* (2022)](https://www.imdb.com/title/tt6710474/)
+- [*The Chorus* (2004)](https://www.imdb.com/title/tt0372824/)
+- [*Life of Brian* (1979)](https://www.imdb.com/title/tt0079470/)
+- [*Taxi Driver* (1976)](https://www.imdb.com/title/tt0075314/)
+- [*Seven Samurai* (1954)](https://www.imdb.com/title/tt0047478/)
+- [*Once Upon a Time in the West* (1968)](https://www.imdb.com/title/tt0064116/)
+- [*The Good, the Bad, and the Ugly* (1966)](https://www.imdb.com/title/tt0060196/)
+- [*Crouching Tiger Hidden Dragon* (2000)](https://www.imdb.com/title/tt0190332/)
+- [*Farewell My Concubine* (1993)](https://www.imdb.com/title/tt0106332/)
+- [*Harakiri* (1962)](https://www.imdb.com/title/tt0056058/)
+- [*Kung Fu Hustle* (2004)](https://www.imdb.com/title/tt0373074/)
+- [*Soul* (2020)](https://www.imdb.com/title/tt2948372/)
+- [*Brokeback Mountain* (2005)](https://www.imdb.com/title/tt0388795/)
+- [*Amadeus* (1984)](https://www.imdb.com/title/tt0086879/)
+- [*Whiplash* (2014)](https://www.imdb.com/title/tt2582802/)
+- [*Citizen Kane* (1941)](https://www.imdb.com/title/tt0033467/)
+- [*Inception* (2010)](https://www.imdb.com/title/tt1375666/)
+- [*Raging Bull* (1980)](https://www.imdb.com/title/tt0081398/)
+- [*Full Metal Jacket* (1987)](https://www.imdb.com/title/tt0093058/)
+- [*The Shawshank Redemption* (1994)](https://www.imdb.com/title/tt0111161/)
+- [*The Truman Show* (1998)](https://www.imdb.com/title/tt0120382/)
+- [*The Lobster* (2015)](https://www.imdb.com/title/tt3464902/)
+- [*Watchmen* (2009)](https://www.imdb.com/title/tt0409459/)
+- [*American Psycho* (2000)](https://www.imdb.com/title/tt0144084/)
+- [*Dead Poet Society* (1989)](https://www.imdb.com/title/tt0097165/)
+- [*The Tale of the Princess Kaguya* (2013)](https://www.imdb.com/title/tt2576852/)
+- [*Loving Vincent* (2017)](https://www.imdb.com/title/tt3262342/)
+- [*Fight Club* (1999)](https://www.imdb.com/title/tt0137523/)
+
+## Films I Recommend (Non-Fiction)
+- [*Dealt* (2017)](https://www.imdb.com/title/tt3127902/)
+- [*AlphaGo* (2017)](https://www.imdb.com/title/tt6700846/)
+- [*Free Solo* (2018)](https://www.imdb.com/title/tt7775622/)
+- [*The Walk* (2015)](https://www.imdb.com/title/tt3488710/)
+- [*The Surrounding Game* (2018)](https://www.imdb.com/title/tt3973724/)
+- [*The Pervert's Guide to Ideology* (2012)](https://www.imdb.com/title/tt2152198/)
+- [*The Pervert's Guide to Cinema* (2006)](https://www.imdb.com/title/tt0828154/)
+- [*N Is a Number: A Portrait of Paul Erdös* (1993)](https://www.imdb.com/title/tt0125425/)

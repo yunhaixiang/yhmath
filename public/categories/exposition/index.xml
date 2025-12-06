@@ -6,387 +6,485 @@
     <description>Recent content in Exposition on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/exposition/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/exposition/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Math Test</title>
-      <link>http://localhost:1313/posts/math-test/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Learning French Part I</title>
+      <link>http://localhost:1313/posts/french1/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/math-test/</guid>
-      <description>&lt;p&gt;In this post, we test mathematical typesettings.&lt;/p&gt;
-&lt;h2 id=&#34;basic-katex&#34;&gt;Basic KaTeX&lt;/h2&gt;
-&lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
-&lt;p&gt;This is some random math $\zeta(s)=\sum_{n=1}^\infty \frac{1}{n^s}$ and here is more text.&lt;/p&gt;
-&lt;p&gt;How about block math, does it look okay? Let $H_n=1+\frac{1}{2}+\cdots+\frac{1}{n}$ be the harmonic numbers, show that&lt;/p&gt;
-&lt;p&gt;$$\lim_{k\rightarrow\infty} \sum_{n_1=1}^\infty \sum_{n_2=1}^\infty \cdots\sum_{n_k=1}^\infty (-1)^{n_1+\cdots+n_k}\frac{H_{n_1}H_{n_2}\cdots H_{n_k}}{1+n_1+n_2+\cdots+n_k}=0$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Never use double dollar sign inline, always use in newline. How about matrices, does this look good?&lt;/p&gt;
-&lt;p&gt;$$\det \begin{pmatrix}
-\gcd(1,1)&amp;amp; \gcd (1,2)&amp;amp; \cdots &amp;amp;\gcd(1,n)\\
-\gcd(2,1)&amp;amp;\gcd(2,2)&amp;amp; \cdots &amp;amp;\gcd(2,n)\\
-\vdots &amp;amp;\ddots &amp;amp; \vdots&amp;amp; \vdots\\
-\gcd(n,1)&amp;amp;\gcd(n,2)&amp;amp;\cdots&amp;amp;\gcd(n,n)
-\end{pmatrix}=\varphi(1)\varphi(2)\cdots \varphi(n)$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; it seems that you must use three backslashes for new row.&lt;/p&gt;
-&lt;p&gt;Now I&amp;rsquo;m going to stress test it with very long formulas, does it overflow? can it slide left and right?&lt;/p&gt;
-&lt;p&gt;$$
-\frac{1}{2 \pi i} \int_{|s|=1 / \mathcal{L}} \frac{\vartheta_1(d, s) G_1(s)}{\zeta(1+s)^{k_0}} \frac{(D / d)^s d s}{s^{k_0+l_0+1}}-\frac{1}{2 \pi i} \vartheta_1(d) \mathfrak{S} \int_{|s|=1 / \mathcal{L}} \frac{(D / d)^s d s}{s^{l_0+1}} \ll \mathcal{L}^{l_0-1+\varepsilon}= \sum_{\psi \in \Psi_1} \sum_{\rho \in \mathcal{Z}(\psi)} \mathcal{C}^*(\rho, \psi)\left|H_1(\rho, \psi)+Z(\rho, \chi \psi) \overline{H_2(\rho, \psi)}\right|^2 \omega(\rho)&amp;lt;0.001 \mathfrak{a} \mathcal{P},
-$$&lt;/p&gt;
-&lt;p&gt;Now I want to test if &lt;code&gt;\align&lt;/code&gt; and &lt;code&gt;\alignat&lt;/code&gt; work? Firstly,&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align}
-a&amp;amp;=b+c \\
-d+e&amp;amp;=f
-\end{align}
-$$&lt;/p&gt;
-&lt;p&gt;Secondly,&lt;/p&gt;
-&lt;p&gt;$$
-\begin{alignat}{2}
-10&amp;amp;x+&amp;amp;3&amp;amp;y=2\\
-3&amp;amp;x+&amp;amp;13&amp;amp;y=4
-\end{alignat}
-$$&lt;/p&gt;
-&lt;p&gt;How about different mathematical fonts&lt;/p&gt;
-&lt;p&gt;$$ABC, \mathcal{ABC}, \mathrm{ABC}, \mathbf{ABC}, \mathfrak{ABC}, \mathbb{ABC}, \mathscr{ABC}, $$&lt;/p&gt;
-&lt;p&gt;Hebrew letters fine? $\aleph,\beth, \gimel, \daleth, \gimel$, seems good. Greek letters? $\alpha, \beta, \gamma, \Gamma, \Sigma$. How about variants? $\varphi, \varepsilon, \vartheta$.&lt;/p&gt;
-&lt;p&gt;中文行不行？我来试试中文的行间数学公式 $e^{i\theta}=\cos\theta+i\sin\theta$ 后面再来一点文字。是否能在TeX中用中文？&lt;/p&gt;
-&lt;p&gt;$$\textrm{古来云海茫茫，道山绛阙知何处？}$$&lt;/p&gt;
-&lt;p&gt;能不能使用中文角标？测试一下$F_{浮}=\rho_{液}gV_{排}$&lt;/p&gt;
-&lt;p&gt;Emojis in math $😀^2+😛^2=😚^2$&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h2 id=&#34;environments&#34;&gt;Environments&lt;/h2&gt;
-&lt;p&gt;Here we test various theorem, example, definition, remark, etc, environments. &lt;a href=&#34;#bib-Ser79&#34; class=&#34;bib-cite&#34;&gt;[Ser79]&lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;Currently, they cannot process shortcodes within them. This is not easy to solve, so i can only leave it as it is right now.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Euler, 1888)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    &lt;p&gt;Let $K$ be a number field and let $\mathfrak{p}$ be a nonzero prime ideal of $\mathcal{O}_K$.&lt;/p&gt;
-&lt;p&gt;Then
-$$
-\mathcal{O}_{K,\mathfrak{p}}
-$$
-is a discrete valuation ring.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
-    Only the main idea will be explained here… $E=mc^2$.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condimentum sapien, non posuere sapien finibus eget. In vel rutrum massa, non vulputate augue. Quisque at gravida elit. Nam blandit, nunc et fringilla ultrices, massa tortor molestie tortor, in feugiat leo justo nec orci. Etiam molestie ultricies mauris,
-  &lt;/span&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Let $R$ be a discrete valuation ring with maximal ideal $\mathfrak{m}$. Then every nonzero ideal of $R$ is of the form $\mathfrak{m}^n$ for a unique integer $n \ge 0$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Standard folklore)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Let $K$ be the fraction field of a discrete valuation ring $R$. Then every nonzero $x \in K^\times$ can be written uniquely as
-$$
-x = u \pi^n
-$$
-with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;证明.&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
-    Yada Yada.
-  &lt;/span&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    With notation as above, the valuation $v : K^\times \to \mathbb{Z}$ defined by $x = u\pi^{v(x)}$ is well-defined and surjective.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    A &lt;strong&gt;local field&lt;/strong&gt; is a field $K$ which is complete with respect to a discrete valuation $v$ and whose residue field is finite.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;例子&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    The $p$-adic numbers $\mathbb{Q}_p$ and the field of Laurent series $\mathbb{F}_q((t))$ over a finite field are examples of local fields.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Question&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Is every finite extension of a local field again a local field?
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;solution-env&#34;&gt;
-  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
-    &lt;span class=&#34;solution-title&#34;&gt;Solution.&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body solution-body&#34;&gt;
-    Blah Blah blah.
-  &lt;/span&gt;
-  &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;猜想&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(fake)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Every interesting number theorist secretly prefers nonarchimedean fields.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;solution-env&#34;&gt;
-  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
-    &lt;span class=&#34;solution-title&#34;&gt;解.&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body solution-body&#34;&gt;
-    Blah Blah blah.
-  &lt;/span&gt;
-  &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    The classification of local fields shows that up to isomorphism there are only three kinds: $\mathbb{R}$, $\mathbb{C}$, and the nonarchimedean ones (which are exactly the finite extensions of $\mathbb{Q}_p$ or $\mathbb{F}_q((t))$).
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Convention&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Throughout these notes, $p$ will always denote a rational prime &lt;a href=&#34;#bib-Knu86&#34;&gt;[Knu86]&lt;/a&gt;, and $v_p$ the associated $p$-adic valuation on $\mathbb{Q}$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Exercise&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Idk what some exercise i guess
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;断言&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    对所有 $p$ 进数域都成立。
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Every finite extension of $\mathbb{Q}_p$ is complete.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    The extension need not be Galois; only normal extensions enjoy this property.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Toy example)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;$i \gets 10$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \ge 5$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;$\quad i \gets i - 1$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;else&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \le 3$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;$\quad i \gets i + 2$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;end if&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;end if&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;figures&#34;&gt;Figures&lt;/h2&gt;
-
-
-&lt;figure class=&#34;fig-env&#34; data-level=&#34;2&#34;&gt;
-  &lt;div class=&#34;fig-content&#34;&gt;
-    &lt;img src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34; alt=&#34;Klein Bottle&#34;&gt;
-  &lt;/div&gt;
-  &lt;figcaption class=&#34;fig-caption&#34;&gt;
-    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;This is an image of Klein bottle
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;commutative-diagrams&#34;&gt;Commutative diagrams&lt;/h2&gt;
-&lt;p&gt;$\KaTeX$ supports simple commutative diagrams, but it does not allow advanced features like diagonal or curved arrows. See &lt;a href=&#34;https://redgregory.notion.site/Diagrams-With-KaTeX-9166ebfa650a463dbdf67357143ebaed&#34;&gt;here&lt;/a&gt;. However, for some reason I could not get that to even work here. This is weird. Instead I can use &lt;a href=&#34;https://q.uiver.app/&#34;&gt;quiver&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;&gt;
-  &lt;iframe
-    src=&#34;https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQiJdLFsxLDEsIkMiXSxbMiwwLCJEIl0sWzAsMSwiIiwwLHsiY3VydmUiOi0yfV0sWzAsMSwiIiwyLHsiY3VydmUiOjJ9XSxbMSwyXSxbMiwzXSxbMSwzXV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    style=&#34;width: 60%; height: 200px; border: 0;&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I wrote a shortcode for it to avoid the iframe being escaped by the theme.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Citing can be done with a shortcode &lt;code&gt;cite&lt;/code&gt;. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&amp;rsquo;t work). For the latter, opt instead for generic markdown links i.e. &lt;code&gt;[[Knu86]](#bib-Knu86)&lt;/code&gt;.&lt;/p&gt;
-
-
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-    
-  &lt;li id=&#34;bib-Knu86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Knu86]&lt;/span&gt;
-  Donald E. Knuth, &lt;em&gt;The TeXbook&lt;/em&gt;, Addison-Wesley, 1986.
+      <guid>http://localhost:1313/posts/french1/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m learning french. Here&amp;rsquo;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
+&lt;h3 id=&#34;letters&#34;&gt;Letters&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Latin Letters&lt;/strong&gt;: a/A &amp;ldquo;ah&amp;rdquo;, b/B &amp;ldquo;bay&amp;rdquo;, c/C &amp;ldquo;say&amp;rdquo;, d/D &amp;ldquo;day&amp;rdquo;, e/E &amp;ldquo;uh&amp;rdquo;, f/F &amp;ldquo;ehf&amp;rdquo;, g/G &amp;ldquo;zhay&amp;rdquo;, h/H &amp;ldquo;ash&amp;rdquo;, i/I &amp;ldquo;ee&amp;rdquo;, j/J &amp;ldquo;zhee&amp;rdquo;, k/K &amp;ldquo;kah&amp;rdquo;, l/L &amp;ldquo;ehl&amp;rdquo;, m/M &amp;ldquo;ehm&amp;rdquo;, n/N &amp;ldquo;ehn&amp;rdquo;, o/O &amp;ldquo;oh&amp;rdquo;, p/P &amp;ldquo;pay&amp;rdquo;, q/Q &amp;ldquo;koo&amp;rdquo;, r/R &amp;ldquo;ehrRR&amp;rdquo;, s/S &amp;ldquo;ehs&amp;rdquo;, t/T &amp;ldquo;tay&amp;rdquo;, u/U &amp;ldquo;ü&amp;rdquo;, v/V &amp;ldquo;vay&amp;rdquo;, w/W &amp;ldquo;doo-bluh-vay&amp;rdquo;, x/X &amp;ldquo;eeks&amp;rdquo;, y/Y &amp;ldquo;ee-grek&amp;rdquo;, z/Z &amp;ldquo;zed&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accute Accents&lt;/strong&gt;: é/É &amp;ldquo;ay&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grave Accents&lt;/strong&gt;: à/À &amp;ldquo;ah&amp;rdquo;, è/È &amp;ldquo;eh&amp;rdquo;, ù/Ù &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Circumflexes&lt;/strong&gt;: â/Â &amp;ldquo;aah&amp;rdquo;, ê/Ê &amp;ldquo;eh&amp;rdquo;, î/Î &amp;ldquo;ee&amp;rdquo;, ô/Ô &amp;ldquo;ooh&amp;rdquo;, û/Û &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tréma (Indicating Vowel Hiatus)&lt;/strong&gt;: ë/Ë &amp;ldquo;eh&amp;rdquo;, ï/Ï &amp;ldquo;ee&amp;rdquo;, ü/Ü &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cedilla&lt;/strong&gt;: ç/Ç &amp;ldquo;ss&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ligature&lt;/strong&gt;: œ/Œ &amp;ldquo;euh&amp;rdquo;, æ/Æ &amp;ldquo;ay&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pronouns&#34;&gt;Pronouns&lt;/h3&gt;
+&lt;h4 id=&#34;subject-pronouns&#34;&gt;Subject Pronouns&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Singular&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;je/j&amp;rsquo; (sg.) = I&lt;/li&gt;
+&lt;li&gt;tu (sg.) = you&lt;/li&gt;
+&lt;li&gt;il (m.sg.) = he&lt;/li&gt;
+&lt;li&gt;elle (f.sg.) = she&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-
-  &lt;li id=&#34;bib-Ser79&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser79]&lt;/span&gt;
-  Jean-Pierre Serre, &lt;em&gt;Local Fields&lt;/em&gt;, Springer, 1979.
+&lt;li&gt;&lt;strong&gt;Plural&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;nous (pl.) = we&lt;/li&gt;
+&lt;li&gt;vous (pl.) = you (pl.)&lt;/li&gt;
+&lt;li&gt;ils (m.pl.), elles (f.pl.) = they&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-
-  &lt;li id=&#34;bib-Neu99&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Neu99]&lt;/span&gt;
-  Jürgen Neukirch, &lt;em&gt;Algebraic Number Theory&lt;/em&gt;, Springer, 1999.
+&lt;/ul&gt;
+&lt;h4 id=&#34;object-pronouns&#34;&gt;Object Pronouns&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clitic (Before Verbs Unless in Positive Affirmative Commands)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;me/m&amp;rsquo; (sg.) = (to +) me&lt;/li&gt;
+&lt;li&gt;te/t&amp;rsquo; (sg.infm.), vous (sg.form.) = (to +) you&lt;/li&gt;
+&lt;li&gt;vous (pl.) = (to +) you (pl.)&lt;/li&gt;
+&lt;li&gt;se/s&amp;rsquo; (ref.) = (to +) himself, (to +) herself, (to +) itself, (to +) themelves&lt;/li&gt;
+&lt;li&gt;nous (pl.) = (to +) us&lt;/li&gt;
+&lt;li&gt;le/l&amp;rsquo; (m.sg.) =  him, it&lt;/li&gt;
+&lt;li&gt;la/l&amp;rsquo; (f.sg.) = her, it&lt;/li&gt;
+&lt;li&gt;les (pl.) = them&lt;/li&gt;
+&lt;li&gt;lui (sg.) = to him, to her&lt;/li&gt;
+&lt;li&gt;leur (pl.) = to them&lt;/li&gt;
+&lt;li&gt;y = à + thing(s) = there, to it, to them, about it, about them&lt;/li&gt;
+&lt;li&gt;en = de + thing(s) = some, any, of it, of them, from it, from them&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tonic (After Prepositions and with Stress)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;moi (sg.) = me&lt;/li&gt;
+&lt;li&gt;toi (sg.) = you&lt;/li&gt;
+&lt;li&gt;lui (m.sg.) = him&lt;/li&gt;
+&lt;li&gt;elle (f.sg.) = her&lt;/li&gt;
+&lt;li&gt;nous (pl.) = us&lt;/li&gt;
+&lt;li&gt;vous (pl.) = you (pl.)&lt;/li&gt;
+&lt;li&gt;eux (m.pl.), elles (f.pl.) = them&lt;/li&gt;
+&lt;li&gt;soi (sg.ref.) = oneself, itself&lt;/li&gt;
+&lt;li&gt;-même = -self&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Important Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;This is a footnote.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;This is another footnote with latex $1+1=2$&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Positive affirmative commands do not follow the usual rules above, instead, pronouns comes after the verb connected with a hyphen, e.g. &amp;ldquo;Regarde-moi&amp;rdquo;, &amp;ldquo;Vas-y&amp;rdquo;, &amp;ldquo;Montre-la-leur&amp;rdquo;, and &amp;ldquo;Levons-nous&amp;rdquo;. In negatative affirmative commands, they revert to the usual order, e.g. &amp;ldquo;Ne parle pas&amp;rdquo; and &amp;ldquo;Ne t’en va pas&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Clitics must be ordered as (me / te / se / nous /vous) + (le / la / les) + (lui / leur) + y + en, e.g. &amp;ldquo;Je te le donne&amp;rdquo;, but you don&amp;rsquo;t need to worry about the order of two pronouns in the same slot.&lt;/li&gt;
+&lt;li&gt;Three or more clitics together is very rare and usually only occur in certain combos such as &amp;ldquo;Il m’y en a laissé&amp;rdquo;, so avoid three or more clitics together.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description>
+&lt;h4 id=&#34;possessive-pronouns&#34;&gt;Possessive Pronouns&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le mien (m.sg.), la mienne (f.sg.), les miens (m.pl.), les miennes (f.pl.) = mine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le tien (m.sg.), la tienne (f.sg.), les tiens (m.pl.), les tiennes (f.pl.) = yours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le sien (m.sg.), la sienne (f.sg.), les siens (m.pl.), les siennes (f.pl.) = his, hers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le nôtre (m.sg.), la nôtre (f.sg.), les nôtres (pl.) = ours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le vôtre (m.sg.), la vôtre (f.sg.), les vôtres (pl.) = yours (pl.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le leur (m.sg.), la leur (f.sg.), les leurs (pl.) = theirs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interrogative-and-exclamative-pronouns&#34;&gt;Interrogative and Exclamative Pronouns&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Interrogative Pronouns
+&lt;ul&gt;
+&lt;li&gt;qui = who&lt;/li&gt;
+&lt;li&gt;que/qu&amp;rsquo; (direct), quoi (indirect) = what&lt;/li&gt;
+&lt;li&gt;lequel (m.sg.), laquelle (f.sg.), lesquels (m.pl.), lesquelles (f.pl.) = which&lt;/li&gt;
+&lt;li&gt;qui est-ce qui = who (subject)&lt;/li&gt;
+&lt;li&gt;qui est-ce que = whom (direct object)&lt;/li&gt;
+&lt;li&gt;qu’est-ce qui = what (subject)&lt;/li&gt;
+&lt;li&gt;qu’est-ce que = what (direct object)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Exclamative Pronouns
+&lt;ul&gt;
+&lt;li&gt;quel (m.sg.), quelle (f.sg.), quels (m.pl.), quelles (f.pl.) = which, what&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;determiners&#34;&gt;Determiners&lt;/h3&gt;
+&lt;h4 id=&#34;articles&#34;&gt;Articles&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definite Articles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le/l&amp;rsquo; (m.sg.), la/l&amp;rsquo; (f.sg.), les (pl.) = the&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indefinite Articles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;un (m.sg.), une (f.sg.) = a&lt;/li&gt;
+&lt;li&gt;des (pl.) = some&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partitive Articles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;du/de l&amp;rsquo; (m.sg.), de la/de l&amp;rsquo; (f.sg.), des (pl.) = some of&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;possessive-determiners&#34;&gt;Possessive Determiners&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;mon (m.sg.), ma (f.sg.), mes (pl.) = my&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;ton (m.sg.infm.), ta (f.sg.infm.), tes (pl.infm.), votre (sg.form.), vos (pl.form.) = your&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;son (m.sg.), sa (f.sg.), ses (pl.) = his, her&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;notre (sg.), nos (pl.) = our&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;votre (sg.), vos (pl.) = your (pl.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;leur (sg.), leurs (pl.) = their&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; When the noun is feminine with a singular owner, and the very next word to the possessive determiner starts with a vowel or silent h, we use the masculine possessive determiner instead, e.g. &amp;ldquo;mon amie&amp;rdquo;, &amp;ldquo;ton autre idée&amp;rdquo;, and &amp;ldquo;son hache&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;demonstrative-determiners&#34;&gt;Demonstrative Determiners&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Demonstrative Determiners:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;ce/cet (m.sg.), cette (f.sg.) = this&lt;/li&gt;
+&lt;li&gt;ces (pl.) = these&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contractions:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;c&amp;rsquo;est (cont.) = ce + est = this is&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;quantifiers&#34;&gt;Quantifiers&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definite Quantifiers:&lt;/strong&gt; un = one, deux = two, trois = three, etc&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indefinite Quantity:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quelques (pl.) = some&lt;/li&gt;
+&lt;li&gt;plusieurs (pl.) = several&lt;/li&gt;
+&lt;li&gt;divers (m.pl.), diverses (f.pl.) = various&lt;/li&gt;
+&lt;li&gt;différents (m.pl.), différentes (f.pl.) = different&lt;/li&gt;
+&lt;li&gt;maint (m.sg.), mainte (f.sg.), maints (m.pl.), maintes (f.pl.) = many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vague Identity:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quelque (sg.) = some&lt;/li&gt;
+&lt;li&gt;certain (m.sg.), certaine (f.sg.), certains (m.pl.), certaines (f.pl.) = some of&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Absence and Negation:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;aucun (m.sg.), aucune (f.sg.) = no&lt;/li&gt;
+&lt;li&gt;nul (m.sg.), nulle (f.sg.) = none&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Totality and Enumeration:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;chaque (sg.) = each&lt;/li&gt;
+&lt;li&gt;tout (m.sg.), toute (f.sg.), tous (m.pl.), toutes (f.pl.) = all&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariable Adverbial Indefinite Quantifier + de (+ Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;assez de = enough&lt;/li&gt;
+&lt;li&gt;autant de = as much, as many&lt;/li&gt;
+&lt;li&gt;beaucoup de = a lot, many&lt;/li&gt;
+&lt;li&gt;combien de = how much, how many&lt;/li&gt;
+&lt;li&gt;moins de = less, fewer&lt;/li&gt;
+&lt;li&gt;plus de = more&lt;/li&gt;
+&lt;li&gt;peu de  = little, few&lt;/li&gt;
+&lt;li&gt;tant de = so much, so many&lt;/li&gt;
+&lt;li&gt;tellement de (infm.) = so much, so many&lt;/li&gt;
+&lt;li&gt;trop de = too much, too many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indefinite Quantifier + de (+ Full Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;certains de (m.pl.), certaines de (m.pl.) = some of&lt;/li&gt;
+&lt;li&gt;plusieurs de (pl.) = several of&lt;/li&gt;
+&lt;li&gt;quelques-uns de (m.pl.), quelques-unes de (f.pl.) = a few of&lt;/li&gt;
+&lt;li&gt;chacun de (m.sg.), chacune de (f.sg.) = each of&lt;/li&gt;
+&lt;li&gt;aucun de (m.sg.), aucune de (f.sg) = not any of&lt;/li&gt;
+&lt;li&gt;nul de (m.sg.), nulle de (f.sg.) = none of&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quantifying Noun Phrases + de (+ Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;un peu de = a little of&lt;/li&gt;
+&lt;li&gt;un tas de = a lot of&lt;/li&gt;
+&lt;li&gt;une quantité de = a quantity of&lt;/li&gt;
+&lt;li&gt;une foule de = a crowd of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partitive Noun Phrases + de (+ Full Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;la plupart de = the most of&lt;/li&gt;
+&lt;li&gt;la majorité de = the majority of&lt;/li&gt;
+&lt;li&gt;une minorité de = a minority of&lt;/li&gt;
+&lt;li&gt;une partie de = a part of&lt;/li&gt;
+&lt;li&gt;la moitié de = half the&lt;/li&gt;
+&lt;li&gt;un tiers de = a third of&lt;/li&gt;
+&lt;li&gt;le reste de = the rest of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; the last two categories are technically not determiners but noun phrases whose combination with de are functionally identical to determiners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interrogative-determiners&#34;&gt;Interrogative Determiners&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Interrogative Determiners:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quel (m.sg.), quelle (f.sg.), quels (m.pl.), quelles (f.pl.) = which, what&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interrogative Determiner Locution&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;combien de = how much, how many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;prepositions&#34;&gt;Prepositions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Prepositions (and Contractions):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;à = to, at, in (destination, place, time, indirect object)&lt;/li&gt;
+&lt;li&gt;au (cont.) = à + le&lt;/li&gt;
+&lt;li&gt;aux (cont.) = à + les&lt;/li&gt;
+&lt;li&gt;de = of, from (origin, possession, content)&lt;/li&gt;
+&lt;li&gt;du (cont.) = de + le&lt;/li&gt;
+&lt;li&gt;des (cont.) = de + les&lt;/li&gt;
+&lt;li&gt;dans = in (time from now until event), inside (specific location or space)&lt;/li&gt;
+&lt;li&gt;en = in (time duration, general timeframe, general location or space), of (material)&lt;/li&gt;
+&lt;li&gt;sur = on, on top of, about (topic)&lt;/li&gt;
+&lt;li&gt;sous = under&lt;/li&gt;
+&lt;li&gt;avec = with (accompaniment, instrument)&lt;/li&gt;
+&lt;li&gt;sans = without&lt;/li&gt;
+&lt;li&gt;pour = for, in order to&lt;/li&gt;
+&lt;li&gt;par = through, by, per, cause&lt;/li&gt;
+&lt;li&gt;chez = at (someone’s place), in (someone’s “domain”)&lt;/li&gt;
+&lt;li&gt;entre = between, among&lt;/li&gt;
+&lt;li&gt;parmi = among (group)&lt;/li&gt;
+&lt;li&gt;contre = against, leaning on, in exchange for&lt;/li&gt;
+&lt;li&gt;vers = towards, around (time)&lt;/li&gt;
+&lt;li&gt;après = after (time, sequence)&lt;/li&gt;
+&lt;li&gt;avant = before (time, order)&lt;/li&gt;
+&lt;li&gt;depuis = since, for (duration up to now)&lt;/li&gt;
+&lt;li&gt;pendant = during, for (limited duration)&lt;/li&gt;
+&lt;li&gt;durant (form.) = during&lt;/li&gt;
+&lt;li&gt;dès = as soon as, from (starting point)&lt;/li&gt;
+&lt;li&gt;devant = in front of (literal or figurative)&lt;/li&gt;
+&lt;li&gt;derrière = behind&lt;/li&gt;
+&lt;li&gt;selon = according to, depending on&lt;/li&gt;
+&lt;li&gt;suivant = according to, following&lt;/li&gt;
+&lt;li&gt;envers = towards (attitude)&lt;/li&gt;
+&lt;li&gt;malgré = despite, in spite of&lt;/li&gt;
+&lt;li&gt;hors = outside (of), except&lt;/li&gt;
+&lt;li&gt;sauf, excepté, hormis (form.) = except&lt;/li&gt;
+&lt;li&gt;via = via, through&lt;/li&gt;
+&lt;li&gt;outre = besides, beyond&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X + de (+ Noun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;à cause de = because of (negative/neutral cause)&lt;/li&gt;
+&lt;li&gt;grâce à = thanks to (positive cause)&lt;/li&gt;
+&lt;li&gt;près de = near&lt;/li&gt;
+&lt;li&gt;loin de = far from&lt;/li&gt;
+&lt;li&gt;à côté de = next to&lt;/li&gt;
+&lt;li&gt;au milieu de = in the middle of&lt;/li&gt;
+&lt;li&gt;autour de = around&lt;/li&gt;
+&lt;li&gt;en face de = opposite&lt;/li&gt;
+&lt;li&gt;à propos de, au sujet de = about, regarding&lt;/li&gt;
+&lt;li&gt;en raison de (form.) = due to&lt;/li&gt;
+&lt;li&gt;en vue de (form.) = with a view to, in order to&lt;/li&gt;
+&lt;li&gt;en dépit de (form.) = in spite of&lt;/li&gt;
+&lt;li&gt;en cas de = in case of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X + à (+ Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quant à = as for&lt;/li&gt;
+&lt;li&gt;face à = faced with, in front of, vis-à-vis&lt;/li&gt;
+&lt;li&gt;par rapport à = in relation to, compared to&lt;/li&gt;
+&lt;li&gt;à partir de = starting from (time, space)&lt;/li&gt;
+&lt;li&gt;à l’égard de (form.) = with regard to&lt;/li&gt;
+&lt;li&gt;au lieu de = instead of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Infinitives:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;avant de + infinitif. = before ()-ing&lt;/li&gt;
+&lt;li&gt;après + infinitif. passé. = after ()-ing&lt;/li&gt;
+&lt;li&gt;sans + infinitif. = without ()-ing&lt;/li&gt;
+&lt;li&gt;pour + infinitif. = in order to ()&lt;/li&gt;
+&lt;li&gt;afin de + infinitif. (form.) = in order to ()&lt;/li&gt;
+&lt;li&gt;à + infinitif. = for () to be done&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Clauses:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;avant que + subj. = before ()&lt;/li&gt;
+&lt;li&gt;après que + indicatif. = after ()&lt;/li&gt;
+&lt;li&gt;à condition que + subj. = provided that ()&lt;/li&gt;
+&lt;li&gt;à moins que + subj. = unless ()&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nouns&#34;&gt;Nouns&lt;/h3&gt;
+&lt;h4 id=&#34;gender&#34;&gt;Gender&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tendencies by Ending:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Masculine:&lt;/strong&gt; -age, -ment, -isme, -oir, -eur, consonant endings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feminine:&lt;/strong&gt; -tion / -sion, -té, -ure, -ette, -esse, -ance / -ence, -rice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feminization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; +e&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular:&lt;/strong&gt; (-eur → -euse, -rice), (-teur → -trice), (-er, -ier → -ère, -ière)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular (Doubling):&lt;/strong&gt; (-en → -enne), (-on → -onne), (-an → -anne), (-in → -inne), (-el → -elle), (-eil → -eille), (-il → -ille), (-et → -ette), (-ot → -otte), (-as → -asse), (-os → -osse), (-ais / -ois → -aisse / -oisse)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; journaliste, secrétaire, architecte, élève, etc&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptions:&lt;/strong&gt; (époux → épouse), (roi → reine), (gars → fille), (homme → femme)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;number&#34;&gt;Number&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pluralization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; → +s&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular:&lt;/strong&gt; (-al, -ail → -aux), (-eu, -eau, -au, -ou, -eu → +x)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; -s, -x, -z → invariant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptions:&lt;/strong&gt; (œil → yeux), (ciel → cieux), (Monsieur → Messieurs), (Madame → Mesdames), (Mademoiselle → Mesdemoiselles)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;derivation&#34;&gt;Derivation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;From Verbs:&lt;/strong&gt; -tion / -sion, -age, -ment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;From Adjectives:&lt;/strong&gt; -té, -eur / -rice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;adjectives&#34;&gt;Adjectives&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pluralization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; → +s&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; -s, -x, -z → invariant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feminization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; → +e&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular:&lt;/strong&gt; (-eux → -euse), (-if → -ive), (-er → -ère), (-el → -elle), (-il → -ille), (-en → -enne), (-on → -onne), (-as → -asse), (-os → -osse), (-et → -ette), (-c → -que), (-g → -gue)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; -e → invariant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptions:&lt;/strong&gt; (bon → bonne), (blanc → blanche), (fou → folle), (beau → belle), (nouveau → nouvelle), (vieux → vieille), (sec → sèche)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Substantivization:&lt;/strong&gt; With a determiner, adj. becomes noun phrase, e.g. les riches, les pauvres, un jeune (garçon), une jeune (fille), les jeunes, les vieux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparatives and Superlatives:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparatives: (plus / aussi / moins) + adj + que&lt;/li&gt;
+&lt;li&gt;Irregular Comparatives: (bon → meilleur(e)), (bien → mieux), (mauvais → pire / plus mauvais)&lt;/li&gt;
+&lt;li&gt;Superlatives: (le / la / les) + (plus / moins) + adj&lt;/li&gt;
+&lt;li&gt;Irregular Superlatives: bon → (le / la / les) + meilleur(e)(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Past Participles as Adjectives:&lt;/strong&gt; Fully adjectival past participle can be treated same as adjectives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;adverbs&#34;&gt;Adverbs&lt;/h3&gt;
+&lt;h3 id=&#34;simple-adverbs-and-derived-adverbs&#34;&gt;Simple Adverbs and Derived Adverbs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Adverbs:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;bien, mal, vite, très, peu, déjà, souvent, toujours, bientôt, hier, demain, ici, là, partout, ailleurs, tôt, tard, encore, alors, donc, enfin, peut-être, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adverbs Derived from Adjectives:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;If the adjective has a distinct feminine form → use the feminine as the base + ment: lent → lente → lentement&lt;/li&gt;
+&lt;li&gt;Irregulars: (-ant → -amment), (-ent → -emment)&lt;/li&gt;
+&lt;li&gt;A small group with -ément: bref → brièvement, énorme → énormément, profond → profondément, précis → précisément.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interrogative-and-negative-adverbs&#34;&gt;Interrogative and Negative Adverbs&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Interrogative Adverbs:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;comment = how, in what way&lt;/li&gt;
+&lt;li&gt;où = where&lt;/li&gt;
+&lt;li&gt;quand = when&lt;/li&gt;
+&lt;li&gt;pourquoi = why&lt;/li&gt;
+&lt;li&gt;combien = how much, how many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locutional Interrogative Adverbs:&lt;/strong&gt; built on simple interrogative adverbs with prepositions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Negative Adverbs (ne &amp;hellip; X):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;pas, plus, jamais, guère, point, rien, personne (rien &amp;amp; personne are pronoun-like but function as negative adverbials in “ne … rien / ne … personne”).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;verbs&#34;&gt;Verbs&lt;/h3&gt;
+&lt;p&gt;Verbs carry and conjugate according to person (1,2,3), number (sg.pl.), tense (present, future, etc), and mood (indicative, imperative, subjunctive, etc), where the first two need to agree with subject. Every verb has four non-finite forms: Infinitive, Past participle, Present participle (-ant), Gérondif (en + present participle). They are categoriesed into three groups: 1. -er (except aller), 2. -ir, 3. all others. These are complicated and will be an entire new post.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -5,6 +5,7 @@ hasCJKLanguage = true
 languageCode = 'en-us'
 title = 'Yunhai Xiang'
 theme = 'texify'
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [pagination]
 pagerSize = 10

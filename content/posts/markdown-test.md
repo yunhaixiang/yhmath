@@ -1,8 +1,8 @@
 ---
 title: "Markdown Test"
 date: "2019-03-11"
-categories: ["media", "expositions", "essays", "proses", "poems", "journals", "archives", "stories", "notes", "reviews", "meta", "projects"]
-tags: ["math", "philosophy", "music", "films", "video-games", "anime", "magic-tricks", "coding", "number-theory", "algebraic-geometry", "algebra", "existentialism", "epistemology", "logic", "linguistics", "french-learning"]
+categories: ["media", "expositions", "essays", "prose", "poems", "journals", "archives", "stories", "notes", "reviews", "projects"]
+tags: ["math", "philosophy", "music", "films", "video-games", "anime", "magic-tricks", "coding", "number-theory", "algebraic-geometry", "algebra", "existentialism", "epistemology", "logic", "linguistics", "french-learning", "novels"]
 ---
 
 In this post we test markdown syntax. 
@@ -169,7 +169,7 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 
 ## Twitter Simple Shortcode
 
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 <br>
 

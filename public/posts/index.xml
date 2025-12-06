@@ -6,7 +6,1046 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>做数学科研一定要在学术界吗</title>
+      <link>http://localhost:1313/posts/keyan/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/keyan/</guid>
+      <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
+&lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
+&lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着几乎不可能谈长期恋爱，长期的孤独在心理上我觉得，至少对我来说会造成很大的困扰。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。&lt;/p&gt;
+&lt;p&gt;  相比起来，如果在做quant的同时副业做数学科研，只是每周工作时间肝了一些，好像确实是更好的选择。我也不想成为什么大数学家，只是思考数学问题我就蛮开心的。如果四十岁能赚到足够的fuck-off money，那么甚至可以辞了工作专注数学和其他爱好。我也有想过要不要做一些和纯数学相近的业界的工作。比如cryptography，不过现在好像和cryptography沾边的公司要的都是需要懂cybersecurity的那种计算机出身的人。如果只是懂mathematical cryptography的，要的地方一只手可以数得过来。要么就是那种IDA或者NSA的政府机构，需要clearance的，我必然不行。&lt;/p&gt;
+&lt;p&gt;  我现在也比较纠结。想来想去我觉得还是走着瞧吧，如果我这几年能出个自己满意的成果，那就看能不能在加拿大内做一站博后。如果屁也没憋出个，说明我本就没有什么才能，那就转quant拉倒算了。他妈的。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning French Part I</title>
+      <link>http://localhost:1313/posts/french1/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/french1/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m learning french. Here&amp;rsquo;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
+&lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Latin Letters&lt;/strong&gt;: a/A &amp;ldquo;ah&amp;rdquo;, b/B &amp;ldquo;bay&amp;rdquo;, c/C &amp;ldquo;say&amp;rdquo;, d/D &amp;ldquo;day&amp;rdquo;, e/E &amp;ldquo;uh&amp;rdquo;, f/F &amp;ldquo;ehf&amp;rdquo;, g/G &amp;ldquo;zhay&amp;rdquo;, h/H &amp;ldquo;ash&amp;rdquo;, i/I &amp;ldquo;ee&amp;rdquo;, j/J &amp;ldquo;zhee&amp;rdquo;, k/K &amp;ldquo;kah&amp;rdquo;, l/L &amp;ldquo;ehl&amp;rdquo;, m/M &amp;ldquo;ehm&amp;rdquo;, n/N &amp;ldquo;ehn&amp;rdquo;, o/O &amp;ldquo;oh&amp;rdquo;, p/P &amp;ldquo;pay&amp;rdquo;, q/Q &amp;ldquo;koo&amp;rdquo;, r/R &amp;ldquo;ehrRR&amp;rdquo;, s/S &amp;ldquo;ehs&amp;rdquo;, t/T &amp;ldquo;tay&amp;rdquo;, u/U &amp;ldquo;ü&amp;rdquo;, v/V &amp;ldquo;vay&amp;rdquo;, w/W &amp;ldquo;doo-bluh-vay&amp;rdquo;, x/X &amp;ldquo;eeks&amp;rdquo;, y/Y &amp;ldquo;ee-grek&amp;rdquo;, z/Z &amp;ldquo;zed&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accute Accents&lt;/strong&gt;: é/É &amp;ldquo;ay&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grave Accents&lt;/strong&gt;: à/À &amp;ldquo;ah&amp;rdquo;, è/È &amp;ldquo;eh&amp;rdquo;, ù/Ù &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Circumflexes&lt;/strong&gt;: â/Â &amp;ldquo;aah&amp;rdquo;, ê/Ê &amp;ldquo;eh&amp;rdquo;, î/Î &amp;ldquo;ee&amp;rdquo;, ô/Ô &amp;ldquo;ooh&amp;rdquo;, û/Û &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tréma (Indicating Vowel Hiatus)&lt;/strong&gt;: ë/Ë &amp;ldquo;eh&amp;rdquo;, ï/Ï &amp;ldquo;ee&amp;rdquo;, ü/Ü &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cedilla&lt;/strong&gt;: ç/Ç &amp;ldquo;ss&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ligature&lt;/strong&gt;: œ/Œ &amp;ldquo;euh&amp;rdquo;, æ/Æ &amp;ldquo;ay&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pronouns&#34;&gt;Pronouns&lt;/h2&gt;
+&lt;h3 id=&#34;subject-pronouns&#34;&gt;Subject Pronouns&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Singular&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;je/j&amp;rsquo; (sg.) = I&lt;/li&gt;
+&lt;li&gt;tu (sg.) = you&lt;/li&gt;
+&lt;li&gt;il (m.sg.) = he&lt;/li&gt;
+&lt;li&gt;elle (f.sg.) = she&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plural&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;nous (pl.) = we&lt;/li&gt;
+&lt;li&gt;vous (pl.) = you (pl.)&lt;/li&gt;
+&lt;li&gt;ils (m.pl.), elles (f.pl.) = they&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;object-pronouns&#34;&gt;Object Pronouns&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clitic (Before Verbs Unless in Positive Affirmative Commands)&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;me/m&amp;rsquo; (sg.) = (to +) me&lt;/li&gt;
+&lt;li&gt;te/t&amp;rsquo; (sg.infm.), vous (sg.form.) = (to +) you&lt;/li&gt;
+&lt;li&gt;vous (pl.) = (to +) you (pl.)&lt;/li&gt;
+&lt;li&gt;se/s&amp;rsquo; (ref.) = (to +) himself, (to +) herself, (to +) itself, (to +) themelves&lt;/li&gt;
+&lt;li&gt;nous (pl.) = (to +) us&lt;/li&gt;
+&lt;li&gt;le/l&amp;rsquo; (m.sg.) =  him, it&lt;/li&gt;
+&lt;li&gt;la/l&amp;rsquo; (f.sg.) = her, it&lt;/li&gt;
+&lt;li&gt;les (pl.) = them&lt;/li&gt;
+&lt;li&gt;lui (sg.) = to him, to her&lt;/li&gt;
+&lt;li&gt;leur (pl.) = to them&lt;/li&gt;
+&lt;li&gt;y = à + thing(s) = there, to it, to them, about it, about them&lt;/li&gt;
+&lt;li&gt;en = de + thing(s) = some, any, of it, of them, from it, from them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tonic (After Prepositions and with Stress)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;moi (sg.) = me&lt;/li&gt;
+&lt;li&gt;toi (sg.) = you&lt;/li&gt;
+&lt;li&gt;lui (m.sg.) = him&lt;/li&gt;
+&lt;li&gt;elle (f.sg.) = her&lt;/li&gt;
+&lt;li&gt;nous (pl.) = us&lt;/li&gt;
+&lt;li&gt;vous (pl.) = you (pl.)&lt;/li&gt;
+&lt;li&gt;eux (m.pl.), elles (f.pl.) = them&lt;/li&gt;
+&lt;li&gt;soi (sg.ref.) = oneself, itself&lt;/li&gt;
+&lt;li&gt;-même = -self&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Important Notes:&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;Positive affirmative commands do not follow the usual rules above, instead, pronouns comes after the verb connected with a hyphen, e.g. &amp;ldquo;Regarde-moi&amp;rdquo;, &amp;ldquo;Vas-y&amp;rdquo;, &amp;ldquo;Montre-la-leur&amp;rdquo;, and &amp;ldquo;Levons-nous&amp;rdquo;. In negatative affirmative commands, they revert to the usual order, e.g. &amp;ldquo;Ne parle pas&amp;rdquo; and &amp;ldquo;Ne t’en va pas&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Clitics must be ordered as (me / te / se / nous /vous) + (le / la / les) + (lui / leur) + y + en, e.g. &amp;ldquo;Je te le donne&amp;rdquo;, but you don&amp;rsquo;t need to worry about the order of two pronouns in the same slot.&lt;/li&gt;
+&lt;li&gt;Three or more clitics together is very rare and usually only occur in certain combos such as &amp;ldquo;Il m’y en a laissé&amp;rdquo;, so avoid three or more clitics together.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;possessive-pronouns&#34;&gt;Possessive Pronouns&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le mien (m.sg.), la mienne (f.sg.), les miens (m.pl.), les miennes (f.pl.) = mine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le tien (m.sg.), la tienne (f.sg.), les tiens (m.pl.), les tiennes (f.pl.) = yours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le sien (m.sg.), la sienne (f.sg.), les siens (m.pl.), les siennes (f.pl.) = his, hers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le nôtre (m.sg.), la nôtre (f.sg.), les nôtres (pl.) = ours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le vôtre (m.sg.), la vôtre (f.sg.), les vôtres (pl.) = yours (pl.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le leur (m.sg.), la leur (f.sg.), les leurs (pl.) = theirs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;interrogative-and-exclamative-pronouns&#34;&gt;Interrogative and Exclamative Pronouns&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Interrogative Pronouns
+&lt;ul&gt;
+&lt;li&gt;qui = who&lt;/li&gt;
+&lt;li&gt;que/qu&amp;rsquo; (direct), quoi (indirect) = what&lt;/li&gt;
+&lt;li&gt;lequel (m.sg.), laquelle (f.sg.), lesquels (m.pl.), lesquelles (f.pl.) = which&lt;/li&gt;
+&lt;li&gt;qui est-ce qui = who (subject)&lt;/li&gt;
+&lt;li&gt;qui est-ce que = whom (direct object)&lt;/li&gt;
+&lt;li&gt;qu’est-ce qui = what (subject)&lt;/li&gt;
+&lt;li&gt;qu’est-ce que = what (direct object)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Exclamative Pronouns
+&lt;ul&gt;
+&lt;li&gt;quel (m.sg.), quelle (f.sg.), quels (m.pl.), quelles (f.pl.) = which, what&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;determiners&#34;&gt;Determiners&lt;/h2&gt;
+&lt;h3 id=&#34;articles&#34;&gt;Articles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definite Articles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;le/l&amp;rsquo; (m.sg.), la/l&amp;rsquo; (f.sg.), les (pl.) = the&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indefinite Articles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;un (m.sg.), une (f.sg.) = a&lt;/li&gt;
+&lt;li&gt;des (pl.) = some&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partitive Articles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;du/de l&amp;rsquo; (m.sg.), de la/de l&amp;rsquo; (f.sg.), des (pl.) = some of&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;possessive-determiners&#34;&gt;Possessive Determiners&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;mon (m.sg.), ma (f.sg.), mes (pl.) = my&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;ton (m.sg.infm.), ta (f.sg.infm.), tes (pl.infm.), votre (sg.form.), vos (pl.form.) = your&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Singular Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;son (m.sg.), sa (f.sg.), ses (pl.) = his, her&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1st Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;notre (sg.), nos (pl.) = our&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2nd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;votre (sg.), vos (pl.) = your (pl.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3rd Person Plural Owner:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;leur (sg.), leurs (pl.) = their&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; When the noun is feminine with a singular owner, and the very next word to the possessive determiner starts with a vowel or silent h, we use the masculine possessive determiner instead, e.g. &amp;ldquo;mon amie&amp;rdquo;, &amp;ldquo;ton autre idée&amp;rdquo;, and &amp;ldquo;son hache&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;demonstrative-determiners&#34;&gt;Demonstrative Determiners&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Demonstrative Determiners:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;ce/cet (m.sg.), cette (f.sg.) = this&lt;/li&gt;
+&lt;li&gt;ces (pl.) = these&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contractions:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;c&amp;rsquo;est (cont.) = ce + est = this is&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quantifiers&#34;&gt;Quantifiers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definite Quantifiers:&lt;/strong&gt; un = one, deux = two, trois = three, etc&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indefinite Quantity:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quelques (pl.) = some&lt;/li&gt;
+&lt;li&gt;plusieurs (pl.) = several&lt;/li&gt;
+&lt;li&gt;divers (m.pl.), diverses (f.pl.) = various&lt;/li&gt;
+&lt;li&gt;différents (m.pl.), différentes (f.pl.) = different&lt;/li&gt;
+&lt;li&gt;maint (m.sg.), mainte (f.sg.), maints (m.pl.), maintes (f.pl.) = many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vague Identity:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quelque (sg.) = some&lt;/li&gt;
+&lt;li&gt;certain (m.sg.), certaine (f.sg.), certains (m.pl.), certaines (f.pl.) = some of&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Absence and Negation:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;aucun (m.sg.), aucune (f.sg.) = no&lt;/li&gt;
+&lt;li&gt;nul (m.sg.), nulle (f.sg.) = none&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Totality and Enumeration:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;chaque (sg.) = each&lt;/li&gt;
+&lt;li&gt;tout (m.sg.), toute (f.sg.), tous (m.pl.), toutes (f.pl.) = all&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariable Adverbial Indefinite Quantifier + de (+ Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;assez de = enough&lt;/li&gt;
+&lt;li&gt;autant de = as much, as many&lt;/li&gt;
+&lt;li&gt;beaucoup de = a lot, many&lt;/li&gt;
+&lt;li&gt;combien de = how much, how many&lt;/li&gt;
+&lt;li&gt;moins de = less, fewer&lt;/li&gt;
+&lt;li&gt;plus de = more&lt;/li&gt;
+&lt;li&gt;peu de  = little, few&lt;/li&gt;
+&lt;li&gt;tant de = so much, so many&lt;/li&gt;
+&lt;li&gt;tellement de (infm.) = so much, so many&lt;/li&gt;
+&lt;li&gt;trop de = too much, too many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indefinite Quantifier + de (+ Full Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;certains de (m.pl.), certaines de (m.pl.) = some of&lt;/li&gt;
+&lt;li&gt;plusieurs de (pl.) = several of&lt;/li&gt;
+&lt;li&gt;quelques-uns de (m.pl.), quelques-unes de (f.pl.) = a few of&lt;/li&gt;
+&lt;li&gt;chacun de (m.sg.), chacune de (f.sg.) = each of&lt;/li&gt;
+&lt;li&gt;aucun de (m.sg.), aucune de (f.sg) = not any of&lt;/li&gt;
+&lt;li&gt;nul de (m.sg.), nulle de (f.sg.) = none of&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quantifying Noun Phrases + de (+ Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;un peu de = a little of&lt;/li&gt;
+&lt;li&gt;un tas de = a lot of&lt;/li&gt;
+&lt;li&gt;une quantité de = a quantity of&lt;/li&gt;
+&lt;li&gt;une foule de = a crowd of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partitive Noun Phrases + de (+ Full Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;la plupart de = the most of&lt;/li&gt;
+&lt;li&gt;la majorité de = the majority of&lt;/li&gt;
+&lt;li&gt;une minorité de = a minority of&lt;/li&gt;
+&lt;li&gt;une partie de = a part of&lt;/li&gt;
+&lt;li&gt;la moitié de = half the&lt;/li&gt;
+&lt;li&gt;un tiers de = a third of&lt;/li&gt;
+&lt;li&gt;le reste de = the rest of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; the last two categories are technically not determiners but noun phrases whose combination with de are functionally identical to determiners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;interrogative-determiners&#34;&gt;Interrogative Determiners&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Interrogative Determiners:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quel (m.sg.), quelle (f.sg.), quels (m.pl.), quelles (f.pl.) = which, what&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interrogative Determiner Locution&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;combien de = how much, how many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;prepositions&#34;&gt;Prepositions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Prepositions (and Contractions):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;à = to, at, in (destination, place, time, indirect object)&lt;/li&gt;
+&lt;li&gt;au (cont.) = à + le&lt;/li&gt;
+&lt;li&gt;aux (cont.) = à + les&lt;/li&gt;
+&lt;li&gt;de = of, from (origin, possession, content)&lt;/li&gt;
+&lt;li&gt;du (cont.) = de + le&lt;/li&gt;
+&lt;li&gt;des (cont.) = de + les&lt;/li&gt;
+&lt;li&gt;dans = in (time from now until event), inside (specific location or space)&lt;/li&gt;
+&lt;li&gt;en = in (time duration, general timeframe, general location or space), of (material)&lt;/li&gt;
+&lt;li&gt;sur = on, on top of, about (topic)&lt;/li&gt;
+&lt;li&gt;sous = under&lt;/li&gt;
+&lt;li&gt;avec = with (accompaniment, instrument)&lt;/li&gt;
+&lt;li&gt;sans = without&lt;/li&gt;
+&lt;li&gt;pour = for, in order to&lt;/li&gt;
+&lt;li&gt;par = through, by, per, cause&lt;/li&gt;
+&lt;li&gt;chez = at (someone’s place), in (someone’s “domain”)&lt;/li&gt;
+&lt;li&gt;entre = between, among&lt;/li&gt;
+&lt;li&gt;parmi = among (group)&lt;/li&gt;
+&lt;li&gt;contre = against, leaning on, in exchange for&lt;/li&gt;
+&lt;li&gt;vers = towards, around (time)&lt;/li&gt;
+&lt;li&gt;après = after (time, sequence)&lt;/li&gt;
+&lt;li&gt;avant = before (time, order)&lt;/li&gt;
+&lt;li&gt;depuis = since, for (duration up to now)&lt;/li&gt;
+&lt;li&gt;pendant = during, for (limited duration)&lt;/li&gt;
+&lt;li&gt;durant (form.) = during&lt;/li&gt;
+&lt;li&gt;dès = as soon as, from (starting point)&lt;/li&gt;
+&lt;li&gt;devant = in front of (literal or figurative)&lt;/li&gt;
+&lt;li&gt;derrière = behind&lt;/li&gt;
+&lt;li&gt;selon = according to, depending on&lt;/li&gt;
+&lt;li&gt;suivant = according to, following&lt;/li&gt;
+&lt;li&gt;envers = towards (attitude)&lt;/li&gt;
+&lt;li&gt;malgré = despite, in spite of&lt;/li&gt;
+&lt;li&gt;hors = outside (of), except&lt;/li&gt;
+&lt;li&gt;sauf, excepté, hormis (form.) = except&lt;/li&gt;
+&lt;li&gt;via = via, through&lt;/li&gt;
+&lt;li&gt;outre = besides, beyond&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X + de (+ Noun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;à cause de = because of (negative/neutral cause)&lt;/li&gt;
+&lt;li&gt;grâce à = thanks to (positive cause)&lt;/li&gt;
+&lt;li&gt;près de = near&lt;/li&gt;
+&lt;li&gt;loin de = far from&lt;/li&gt;
+&lt;li&gt;à côté de = next to&lt;/li&gt;
+&lt;li&gt;au milieu de = in the middle of&lt;/li&gt;
+&lt;li&gt;autour de = around&lt;/li&gt;
+&lt;li&gt;en face de = opposite&lt;/li&gt;
+&lt;li&gt;à propos de, au sujet de = about, regarding&lt;/li&gt;
+&lt;li&gt;en raison de (form.) = due to&lt;/li&gt;
+&lt;li&gt;en vue de (form.) = with a view to, in order to&lt;/li&gt;
+&lt;li&gt;en dépit de (form.) = in spite of&lt;/li&gt;
+&lt;li&gt;en cas de = in case of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X + à (+ Noun Phrase or Pronoun Phrase):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;quant à = as for&lt;/li&gt;
+&lt;li&gt;face à = faced with, in front of, vis-à-vis&lt;/li&gt;
+&lt;li&gt;par rapport à = in relation to, compared to&lt;/li&gt;
+&lt;li&gt;à partir de = starting from (time, space)&lt;/li&gt;
+&lt;li&gt;à l’égard de (form.) = with regard to&lt;/li&gt;
+&lt;li&gt;au lieu de = instead of&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Infinitives:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;avant de + infinitif. = before ()-ing&lt;/li&gt;
+&lt;li&gt;après + infinitif. passé. = after ()-ing&lt;/li&gt;
+&lt;li&gt;sans + infinitif. = without ()-ing&lt;/li&gt;
+&lt;li&gt;pour + infinitif. = in order to ()&lt;/li&gt;
+&lt;li&gt;afin de + infinitif. (form.) = in order to ()&lt;/li&gt;
+&lt;li&gt;à + infinitif. = for () to be done&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Clauses:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;avant que + subj. = before ()&lt;/li&gt;
+&lt;li&gt;après que + indicatif. = after ()&lt;/li&gt;
+&lt;li&gt;à condition que + subj. = provided that ()&lt;/li&gt;
+&lt;li&gt;à moins que + subj. = unless ()&lt;/li&gt;
+&lt;li&gt;etc (incomplete list)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nouns&#34;&gt;Nouns&lt;/h2&gt;
+&lt;h3 id=&#34;gender&#34;&gt;Gender&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tendencies by Ending:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Masculine:&lt;/strong&gt; -age, -ment, -isme, -oir, -eur, consonant endings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feminine:&lt;/strong&gt; -tion / -sion, -té, -ure, -ette, -esse, -ance / -ence, -rice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feminization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; +e&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular:&lt;/strong&gt; (-eur → -euse, -rice), (-teur → -trice), (-er, -ier → -ère, -ière)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular (Doubling):&lt;/strong&gt; (-en → -enne), (-on → -onne), (-an → -anne), (-in → -inne), (-el → -elle), (-eil → -eille), (-il → -ille), (-et → -ette), (-ot → -otte), (-as → -asse), (-os → -osse), (-ais / -ois → -aisse / -oisse)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; journaliste, secrétaire, architecte, élève, etc&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptions:&lt;/strong&gt; (époux → épouse), (roi → reine), (gars → fille), (homme → femme)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;number&#34;&gt;Number&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pluralization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; → +s&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular:&lt;/strong&gt; (-al, -ail → -aux), (-eu, -eau, -au, -ou, -eu → +x)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; -s, -x, -z → invariant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptions:&lt;/strong&gt; (œil → yeux), (ciel → cieux), (Monsieur → Messieurs), (Madame → Mesdames), (Mademoiselle → Mesdemoiselles)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;derivation&#34;&gt;Derivation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;From Verbs:&lt;/strong&gt; -tion / -sion, -age, -ment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;From Adjectives:&lt;/strong&gt; -té, -eur / -rice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;adjectives&#34;&gt;Adjectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pluralization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; → +s&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; -s, -x, -z → invariant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feminization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Regular:&lt;/strong&gt; → +e&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irregular:&lt;/strong&gt; (-eux → -euse), (-if → -ive), (-er → -ère), (-el → -elle), (-il → -ille), (-en → -enne), (-on → -onne), (-as → -asse), (-os → -osse), (-et → -ette), (-c → -que), (-g → -gue)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invariant:&lt;/strong&gt; -e → invariant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptions:&lt;/strong&gt; (bon → bonne), (blanc → blanche), (fou → folle), (beau → belle), (nouveau → nouvelle), (vieux → vieille), (sec → sèche)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Substantivization:&lt;/strong&gt; With a determiner, adj. becomes noun phrase, e.g. les riches, les pauvres, un jeune (garçon), une jeune (fille), les jeunes, les vieux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparatives and Superlatives:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparatives: (plus / aussi / moins) + adj + que&lt;/li&gt;
+&lt;li&gt;Irregular Comparatives: (bon → meilleur(e)), (bien → mieux), (mauvais → pire / plus mauvais)&lt;/li&gt;
+&lt;li&gt;Superlatives: (le / la / les) + (plus / moins) + adj&lt;/li&gt;
+&lt;li&gt;Irregular Superlatives: bon → (le / la / les) + meilleur(e)(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Past Participles as Adjectives:&lt;/strong&gt; Fully adjectival past participle can be treated same as adjectives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;adverbs&#34;&gt;Adverbs&lt;/h2&gt;
+&lt;h3 id=&#34;simple-adverbs-and-derived-adverbs&#34;&gt;Simple Adverbs and Derived Adverbs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Adverbs:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;bien, mal, vite, très, peu, déjà, souvent, toujours, bientôt, hier, demain, ici, là, partout, ailleurs, tôt, tard, encore, alors, donc, enfin, peut-être, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adverbs Derived from Adjectives:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;If the adjective has a distinct feminine form → use the feminine as the base + ment: lent → lente → lentement&lt;/li&gt;
+&lt;li&gt;Irregulars: (-ant → -amment), (-ent → -emment)&lt;/li&gt;
+&lt;li&gt;A small group with -ément: bref → brièvement, énorme → énormément, profond → profondément, précis → précisément.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;interrogative-and-negative-adverbs&#34;&gt;Interrogative and Negative Adverbs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple Interrogative Adverbs:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;comment = how, in what way&lt;/li&gt;
+&lt;li&gt;où = where&lt;/li&gt;
+&lt;li&gt;quand = when&lt;/li&gt;
+&lt;li&gt;pourquoi = why&lt;/li&gt;
+&lt;li&gt;combien = how much, how many&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locutional Interrogative Adverbs:&lt;/strong&gt; built on simple interrogative adverbs with prepositions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Negative Adverbs (ne &amp;hellip; X):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;pas, plus, jamais, guère, point, rien, personne (rien &amp;amp; personne are pronoun-like but function as negative adverbials in “ne … rien / ne … personne”).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;verbs&#34;&gt;Verbs&lt;/h2&gt;
+&lt;p&gt;Verbs carry and conjugate according to person (1,2,3), number (sg.pl.), tense (present, future, etc), and mood (indicative, imperative, subjunctive, etc), where the first two need to agree with subject. Every verb has four non-finite forms: Infinitive, Past participle, Present participle (-ant), Gérondif (en + present participle). They are categoriesed into three groups: 1. -er (except aller), 2. -ir, 3. all others. These are complicated and will be an entire new post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>天空之王</title>
+      <link>http://localhost:1313/posts/tiankongzhiwang/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/tiankongzhiwang/</guid>
+      <description>&lt;div class=&#34;wenkai&#34;&gt;
+  &lt;p&gt;  那天，我看见一个自由的灵魂翱翔于西雅图的天空。他从云层的褶皱中钻出，夕阳点燃了他的翅膀。他大笑着，翻滚着，好像地上的熙熙攘攘都和他无关。地上的人听不到他的笑声，只忙于在灯火与钢铁中穿梭。偶尔有人抬头，也只觉得这天上的鸟儿飞得古怪。只有那个驻足在那里的牵着气球的小男孩，他看着那天空默默的怔了。&lt;/p&gt;
+&lt;p&gt;  一切都要从那个奇怪的无线电讯息说起。&lt;/p&gt;
+&lt;p&gt;  八月十日晚，我坐在西雅图航空交通管制塔上。那本是我换班前的几分钟，一切好像都如此平常。我的思绪早已飘到了家里的晚餐。我抬头看着时钟，那时针也倦了，似乎走的越来越慢。环顾四周，只有一张张被屏幕的冷光映出的木然的脸。那一张张面孔好像都是一个模子刻出来的，竟分不出谁是谁。不知什么时候开始，我好像只看见过这张木然的脸，不论是在工作中，在路上，在家里，还是在镜子中。&lt;/p&gt;
+&lt;p&gt;  我时常告诉自己，我的工作是重要的，我是重要的。没有我，谁会去告诉飞机何时起飞？何时下降？谁来保证飞机不会相撞？但事实上，我绝大多数时间干的事情和我现在在干的一样，只是静静的坐着，偶尔按几个按钮，其他的时候盯着面前的数字发呆。&lt;/p&gt;
+&lt;p&gt;  塔台外面的客机飞起又飞落，我已看习惯了。他们升，他们落，与我又有何关？一切都是章程、规则，皆是按部就班。有的时候我会想，如果在天上飞的是我又会怎么样呢？不是以乘客的身份，而是坐在那驾驶舱里。但是生活没有什么如果。有时，这塔台实在气闷，似一个鸟笼一般，但每当想要出去透透气时，我却不知为何地害怕起来。&lt;/p&gt;
+&lt;p&gt;  突然，一个不寻常的无线电频道响了起来「嘿，西雅图塔台，能、能听到我吗？」说话的人声音浑厚低沉，语气却不像个飞行员，倒似个闯了祸的小男孩。我颇感疑惑，回复道「停机坪频率是谁在占用？」「啊&amp;hellip;&amp;hellip;我是地勤人员，员工编号449-QX」他答道。我更加疑惑了，地勤人员一般是负责机场地面的调度和装卸工作的，怎么会跑到驾驶舱里呢？我问道「449，你是未经许可进入驾驶舱的吗？」只有静默。&lt;/p&gt;
+&lt;p&gt;  我操作面前的控制台，查询到刚刚的无线电讯息来自于一个停机坪上空置的庞巴迪冲8-Q400型号客机。不久前刚降落，好像机箱中仍剩余一些油。一个地勤人员进入了一个空置的客机的驾驶舱，这一切都太诡异了。我不禁打了个冷颤。我向塔台外望去，一架一架的去寻找这架飞机。夕阳下，只见一架客机好像喝醉似了的，东倒西歪地驶上了跑道。我仔细观察那客机，顿时心就沉了半分，在跑道上的偏偏正是那架Q400型客机！我意识到，大事不妙了。&lt;/p&gt;
+&lt;p&gt;  「跑道16C的Q400型客机，你没有得到起飞许可，请保持位置，不要起飞！」我用近乎恳求的语气呼叫到「重复一次，请务必不要起飞！」果然得不到回应。&lt;/p&gt;
+&lt;p&gt;  跑道的线灯在发动机的热浪中颤颤巍巍地抖动，涡桨的嘶鸣把窗格震得嗡嗡作响。我再次看向那跑道，那已经不是一架客机，而是一条巨龙。他吐息着，眼眸直射前方。是真是幻？是耶非耶？只见他并不理会我的恳求，径直的加速，趾高气昂地呼啸着。鳞片映着红霞，拉长成一道锐利的白光，窜入了天空。此时，已经没有谁能够阻止他了。&lt;/p&gt;
+&lt;p&gt;  我不禁冷汗直流，这个449到底是谁？他有什么目的？我努力压住颤抖的嗓音，怀着忐忑按下呼叫的按钮「塔台呼叫Q400，请问你叫什么名字？你有什么目的？」过了良久，无线电中传来了回复「啊，实在不好意思，我刚刚呕吐了一会儿。我叫里奇。」作为劫机者，他出乎意料的有礼貌。&lt;/p&gt;
+&lt;p&gt;  「里奇，你为什么要劫持这家客机？」「啊，是的，我好像闯祸了。」这个回答让我摸不着头脑，他难道不知道自己在做什么吗？「怎么说呢，我算是陷入了一些窘境吧。我现在只想开着这飞机四处转转。」「只是四处转转？」「是的，我玩过一些电子游戏，所以我对于开飞机心里有一点数。」「里奇，你知道你这么做的后果吗？」「大概是终生监禁吧，哈哈，像我这样的家伙，倒也算是活该吧。」我沉默了，不知如何回答。&lt;/p&gt;
+&lt;p&gt;  只是四处转转？我仍然不大相信。什么人会劫持飞机只为了四处转转？但要说他想去伤害别人，我却没法说服自己。心中怀抱着极大怨恨的人，无论怎么隐藏，言语中总会不知不觉的流出馊臭的酸味。而从他的语气中，我却听不到一丝一毫。不知怎的，我突然有种感觉，也许这个叫里奇的疯子其实不是个坏人。&lt;/p&gt;
+&lt;p&gt;  「嘿，塔台的哥们，我想去看看雷尼尔山，你知道它在哪吗？」雷尼尔山是西雅图著名的火山，我当然是知道的。但是，难道他想要做的就是去雷尼尔山兜兜风吗？我该不该告诉他呢？我心中的疑惑越积越多。鬼使神差地，我按下了通信的按钮「Q400，飞航向东南方150度，高度保持为六千五百英尺，十分钟后可抵达雷尼尔山。」我被自己的行为吓了一跳，我好像也不明白为什么自己想要帮助这个人。「收到！」他回复道，语气开心的像个孩子。&lt;/p&gt;
+&lt;p&gt;  突然，我的眼前被刺眼的光笼罩，我下意识地闭上了眼。朦胧中，四周的事物好像在加速的后退，空气突然变得刺骨。风拂过脸颊，先是细语般的微风，继而骤然加速，变成了呼啸的狂风，将我全身吞没。我感觉身体变得轻盈起来，脚似乎已经感觉不到了地面。我挣扎着睁开眼睛，眼前是无边无际的云海——我在飞！我想大声的叫喊，而喉咙却发不出声音。我看向自己的身体，本是手臂的地方变成了翅膀，本是皮肤的地方覆盖着羽毛。我是一只大雁。&lt;/p&gt;
+&lt;p&gt;  耳边的呼啸声不知什么时候已然止息，留下的只有平静。我任由风带着我向前。不知为何，我并不感觉到害怕，只觉得今天的夕阳甚是温柔。奇怪，平时我也是在这时辰下班，但从未在下班的路上这么仔细的看过它，也许是被那地上的灯火与钢铁遮住了双目。夕阳下，云海上飘着一块遥远的礁石。他逐渐的变大，慢慢的却更似鲸鱼的背鳍。我看清了！那是一座火山，那是雷尼尔山！&lt;/p&gt;
+&lt;p&gt;  「哇，我到了！雷尼尔山太美了！塔台的兄弟你有看到吗？」是啊，确实很美。那雷尼尔山的积雪和云层融为了一体，只有偶尔露出雪下灰黑的、久经风霜的肌肤。他的四周是草木葳蕤，但是那些植物都十分识趣，只长到山脚便不再前进，好像是害怕去招惹他。于是雷尼尔山虽然四周生机勃勃，而山上却孤孤零零地没一丝绿色。雷尼尔山是一座活火山。冰冷的外表下，他的内在是那炽热的、愤怒的岩浆。他坐在那里动也不动，像是在忍耐，控制着自己的愤怒。如果哪天爆发了，那想必是忍耐到达了极限了吧。他又有什么好苦闷的呢？他每天日复一日，好像都是同样的，只是静静地坐在那里。日起日落，一切都是按部就班。不知他是否想过，是为了什么而存在？不过这个问题太过于危险，最好不要去想。也许他某一天去想了，内在的岩浆就变得不再炽热，成为了死火山，那就太遗憾了。不过他的生与死，好像人们并不关心。也许他哪一天失掉了炽热，也最多只是成为了人们新闻播报中随口带过的一句话。他仍在那里坐着，他仍然美，他仍然被人们赞颂。有的时候，生与死好像并没有本质上的差别。&lt;/p&gt;
+&lt;p&gt;  我绕着雷尼尔山飞行，深吸一口气，尝到了淡淡的咸味。果然，他的后面不远处便是海。海是没有情感的，他能孕育万物，也能带来死亡。死与生对于海来说是平等的。我听说鲸鱼死的时候，尸体慢慢落到了海底最深处，便成为了方圆几公里海中其他生物的养料，这便是所谓的「鲸落」。所以说，死总是伴着生。「嘿、塔台的兄弟，你看到那只虎鲸了吗？那不是那只有名的虎鲸吗？」我看向海中，一片蔚蓝中确实有一块黑白相间的色块。我眯着眼睛，终于辨清了。那是一只母虎鲸，嘴里叼着一只小虎鲸。小虎鲸一动不动，显然已经死去多时了。我知道这只虎鲸，人们给了她一个名字叫Tahlequah。她的孩子出生便死了，于是她就一直叼着，到现在已经十多日了，仍然不愿松口。人们在社交媒体上热议，动物竟然也如此重情重义。但过了十日，二十日，还有几个人记得呢？恐怕人们又痴迷于社交媒体上什么其他的新鲜事物，把Tahlequah忘得一干二净了吧。从世界的尺度上，不论是你我，都是如此渺小、如此不重要。我不忍心多看，只调转了头，向相反的方向飞去。&lt;/p&gt;
+&lt;p&gt;  「嘿，兄弟，你知道这玩意能不能做个后空翻吗？」我不敢相信我的耳朵。但是，也许可以呢？我从来没尝试过。我奋力的扇动翅膀，向上倾斜着身体。随着角度逐渐增大，落日逐渐从下方消失，直到身体竖直地向上，只能看见满天的蔚蓝。我感觉到身体突然变得沉重，紧接着不受控制的倒转着开始下落。心砰砰的，似乎全身的血液似乎也要倒转。心里一个念头，也许这就是我的终点了吧。我会沉入海底，就像死去的鲸鱼一样，这好像也没什么不好。一个人不论生时是穷是富，是善是恶，是幸福还是痛苦，是子孙满堂还是孤独终老，终究会面向死亡。死亡是平等的，是那空洞的永恒的「无」。无论生时在追逐什么，钱财也好，知识也罢，总有死亡把一切一把抹除。我闭上眼，张开双臂，做好了准备。此时，一股风托起了我，让我从后仰的姿势重新恢复了平衡。落日也从上方回到了眼前。回过头来，我好像确实在天空中翻了个跟头。「里奇，我问问你，你为什么想做后空翻，你没想过坠落的可能吗？」「我不知道，我本也没计划过怎么降落。我是一个支离破碎的人，可能脑子里缺了根筋吧。在这之前，我自己都不知道。」&lt;/p&gt;
+&lt;p&gt;  我不禁笑出了声，他也大笑了起来。我们两个在海上放声大笑，仿佛世界都不在了。&lt;/p&gt;
+&lt;p&gt;  接下来的事情，我已记不清楚了。我只知道醒来我已在自己家里的床上。卧室的电视里播着昨天的新闻，一个疯子劫持了一架空置的客机，在西雅图附近飞了几圈，做了一个后空翻，然后就撞毁在了一座空岛上。除了他本人，别无其他伤亡。也许，他的故事只有我和他记得。&lt;/p&gt;
+&lt;p&gt;※改编自2018年地平线航空Q400事件。&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>论「纯粹」</title>
+      <link>http://localhost:1313/posts/lunchuncui/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/lunchuncui/</guid>
+      <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
+&lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
+&lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
+&lt;p&gt;  第三，一个纯粹的人一定在思想上有统一，也就是不自己骗自己。在现代的社会中，很多人受到异化和物化，进而对自己也进行异化和物化，但是心里深处又不愿放弃自我，于是活在了自我矛盾中，简单的说就是活的拧巴。『全金属外壳』的主角「小丑」（Private Joker）是典型的这种自我矛盾的人物：作为越战士兵，他受到战争对自己的异化，但仍旧保留着一丝人性；在头盔上写着「Born to Kill」，却在胸前别着和平符号。小丑是活在矛盾中的人物，是很多男性心中矛盾的缩影。现代社会将男性异化为工具，要么是是暴力的工具，要么是劳动力的工具，而压抑他的人格。这种现象的结果就是很多男性将自己被异化的工具性内化为自我价值，但是在内心深处仍然是反抗这种异化的，于是就形成了矛盾。对于现代社会中的女性，则有另外一个层面的自我矛盾。一方面是想要反抗父权主义，做独立女性，一方面没有勇气放下父权主义中的很多「利己」的方面，这种自我矛盾的结果就是把那些父权主义中「利己」的方面说成是进步的。这就是为什么现在一些所谓女权支持封建彩礼习俗；潜意识中，就是把结婚当做是自己吃亏，心里中已经内化了父权主义中女性作为被追求者的角色。这种人的典型就是『飘』的女主角郝思嘉，她爱的两个男人一个代表着传统（阿什利），一个代表着进步（白瑞德）。郝思嘉以为自己爱阿什利，求而不得，为物质而与白瑞德结婚，却又对阿什利恋恋不舍，在进步与传统中纠结挣扎，最后两者都失去了。女性在历史上一直受到系统性压迫，如今也存在相当多残余，所以我认为女权主义是十分必要和重要的。可是说实话现在国内很多所谓的女权更像是一种成功学的翻版，内核仍然是矛盾的。一个纯粹的人，必然会意识到自己思想上的自我矛盾，而去正视这些矛盾，而不是在留在思维的舒适区里。去正视自己思维中的矛盾是需要勇气的，一个纯粹的人必须要有这种勇气。&lt;/p&gt;
+&lt;p&gt;  对于我个人来说，我认为人生最纯粹的追求有三：一、探求世界最深刻的真理；二、表达人最真实的情感；三、与他人在精神以及情感上的真实地链接。第一点就是数学家、哲学家、科学家们一生追求的。朝闻道，夕死可矣。我们所处的世界如此复杂，而它的原理中蕴含着无穷无尽的美。去追求这种美，理解世界最底层的真理，是最为纯粹的事情。第二点就是文学家、艺术家、诗人们一生所追求的。去理解人与社会，去把他人和自己最复杂最炽热的情感通过艺术的方式表达出来，这也是很纯粹的事情。第三点并无前两点那么宏大，但生活中点点滴滴的小事，和身边的人一些共同的经历，即使是琐碎的，也是真实和纯粹的。当然，这里「身边的人」并不是指所有身边的人。人活在世上，有时难免需要带上面具，这也无可厚非，并非所有人都值得深交。但是我认为，纯粹的人应当对同样真诚的人真诚相待。当然，这三点也并非全部，也有一些人可能会认为去改变世界，让世界更美好，是他们的追求。这也是历史上一些革命家所追求的。我本人对此没有太大的兴趣，但是我可以认同这也是很纯粹的追求，可以作为第四点。子曰：「志于道，据于德，依于仁，游于艺。」有异曲同工之处。以上是我一点粗浅的见解。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>吹着口琴的人</title>
+      <link>http://localhost:1313/posts/harmonica/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/harmonica/</guid>
+      <description>&lt;div class=&#34;wenkai&#34;&gt;
+  &lt;p&gt;吹着口琴的人，&lt;br&gt;
+肩上撑着脚。&lt;br&gt;
+他倒在地上，&lt;br&gt;
+汗水溶于沙漠。&lt;/p&gt;
+&lt;p&gt;吹着口琴的人，&lt;br&gt;
+心中燃着火。&lt;br&gt;
+他凝望那人，&lt;br&gt;
+子弹破空长鸣。&lt;/p&gt;
+&lt;p&gt;※观『西部往事』电影有感而作&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>失眠</title>
+      <link>http://localhost:1313/posts/shimian/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/shimian/</guid>
+      <description>&lt;div class=&#34;wenkai&#34;&gt;
+  &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
+无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
+走到落地窗旁，俯瞰附近的公园，只几盏路灯，和洒落在远处的阑珊灯火。
+这每个星星的灯火处，是否也是和我一样的不眠之人？
+此时此刻，是在梦乡，还是在想着什么呢？
+小伦敦这个城市五十万之人口，每天起床、刷牙、吃饭、上班、下班、睡觉，如此循环往复。
+为什么？是什么促使着他们每天起床呢？
+若是问这城市的人，「为什么每天起床？」也许会换来迷惑的目光，「那不然呢？」
+我在想，也许我们不过都是遵循自然法则的生物，脑子里内置了特殊的时钟。
+到了时间就想睡觉、想起床、想考大学、想恋爱、想成家、想上班，等等。
+也许我的时钟坏了吧。想到这里，把我自己都蠢笑了。&lt;/p&gt;
+&lt;p&gt;  滴滴答答，那是雨声。这雨声的节奏不似鼓点，没有特别的规律，但莫名其妙的受用。
+小伦敦的糟糕气候，下雨本是司空见惯的。但不知怎的，我突发奇想，盘腿坐在窗旁，闭上眼，屏息听那雨声敲打玻璃。
+一滴一答，一答一滴。
+不经意间，狂风掀起，雷声轰鸣。
+好像是从深沉的独奏，突然换成了狂野不羁的摇滚乐。
+我想起来以前偶然了解到的一种叫Math Rock的音乐。
+Math Rock以节奏复杂古怪著称。
+这种音乐有时鼓点甚至按照不同的质数为节拍，节奏永不重复。
+但若是任何乐队能够演出这种音乐，想必他们也必是古怪到极致的人吧。
+奇怪，今日的雨，和别日也并无区别，但我却忍不住继续听。
+我总觉得，这雨声中藏着什么，是酸楚吗，还是迷茫？
+雨又为什么下呢？还是他也不过是遵循着自然的法则罢了？
+我又为什么在听着雨呢？想必我也是古怪的人吧。
+几刻钟，几小时过去了？不清楚，也不重要，只盘着的大腿似乎有些酸痛。
+雷声早已远去，而雨声也逐渐温柔，想必也已疲惫了吧。&lt;/p&gt;
+&lt;p&gt;  天边渐红，我艰难地起身，把酸疼的腿拖回床上。
+活了这么多年，这么细致地听雨声，好像是第一次。
+可是下雨原是再普通不过的事，真奇了怪了。
+这世上，有的人每天起床是为了养家糊口，有人为了出人头地，有人为了实现大而远的理想。
+但可有人，每天起床是为了听那雨声？
+想到这里，我心头缠绕的思绪好像突然解开了。&lt;/p&gt;
+&lt;p&gt;  躺在床上，伴着逐渐远去的雨声，我渐渐睡去。&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anime</title>
+      <link>http://localhost:1313/posts/anime/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/anime/</guid>
+      <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0426711/&#34;&gt;&lt;em&gt;Hikaru no Go&lt;/em&gt; (2001)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2098308/&#34;&gt;&lt;em&gt;Nichijou&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3592032/&#34;&gt;&lt;em&gt;Ping Pong the Animation&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0290223/&#34;&gt;&lt;em&gt;Inuyasha&lt;/em&gt; (2000)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0500092/&#34;&gt;&lt;em&gt;Serial Experiments Lain&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0810705/&#34;&gt;&lt;em&gt;NANA&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2341375/&#34;&gt;&lt;em&gt;Kids on the Slope&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;anime-i-recommend&#34;&gt;Anime I Recommend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1355642/&#34;&gt;&lt;em&gt;Fullmetal Alchemist: Brotherhood&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0994314/&#34;&gt;&lt;em&gt;Code Geass&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10233448/&#34;&gt;&lt;em&gt;Vinland Saga&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8515062/&#34;&gt;&lt;em&gt;Asobi Asobase&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3895150/&#34;&gt;&lt;em&gt;Your Lie in April&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0213338/&#34;&gt;&lt;em&gt;Cowboy Bebop&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3358020/&#34;&gt;&lt;em&gt;Parasyte: The Maxim&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3837246/&#34;&gt;&lt;em&gt;Assassination Classroom&lt;/em&gt; (2013)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2340841/&#34;&gt;&lt;em&gt;Hyouka&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2321542/&#34;&gt;&lt;em&gt;Love, Chunibyo &amp;amp; Other Delusions&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt13706018/&#34;&gt;&lt;em&gt;Spy x Family&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt16755706/&#34;&gt;&lt;em&gt;Lycoris Recoil&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt30217403/&#34;&gt;&lt;em&gt;Dandadan&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0423731/&#34;&gt;&lt;em&gt;Samurai Champloo&lt;/em&gt; (2004)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0112159/&#34;&gt;&lt;em&gt;Neon Genesis Evangelion&lt;/em&gt; (1995)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0877057/&#34;&gt;&lt;em&gt;Death Note&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt26743760/&#34;&gt;&lt;em&gt;The Apothecary Diaries&lt;/em&gt; (2023)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt21621494/&#34;&gt;&lt;em&gt;Delicious in Dungeon&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6074794/&#34;&gt;&lt;em&gt;March Comes in Like a Lion&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10384610/&#34;&gt;&lt;em&gt;Scissor Seven&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt32766897/&#34;&gt;&lt;em&gt;Ranma 1/2&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1515996/&#34;&gt;&lt;em&gt;A Certain Scientific Railgun&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&amp;rsquo;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1158671/&#34;&gt;&lt;em&gt;Spice and Wolf&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8253044/&#34;&gt;&lt;em&gt;Hinamatsuri&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt5897304/&#34;&gt;&lt;em&gt;Mob Psycho 100&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt38491451/&#34;&gt;&lt;em&gt;Tatsuki Fujimoto 17-26&lt;/em&gt; (2025)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt7155052/&#34;&gt;&lt;em&gt;Tsuredure Children&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Books and Essays</title>
+      <link>http://localhost:1313/posts/books-and-essays/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/books-and-essays/</guid>
+      <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
+&lt;li&gt;Herman Melville, &lt;em&gt;Moby Dick&lt;/em&gt; (1851)&lt;/li&gt;
+&lt;li&gt;Virginia Woolf, &lt;em&gt;To the Lighthouse&lt;/em&gt; (1927)&lt;/li&gt;
+&lt;li&gt;Isaac Asimov, &lt;em&gt;Foundation&lt;/em&gt; (1951)&lt;/li&gt;
+&lt;li&gt;J. D. Salinger, &lt;em&gt;The Catcher in the Rye&lt;/em&gt; (1951)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books-i-recommend-fiction&#34;&gt;Books I Recommend (Fiction)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Liu Cixin, &lt;em&gt;The Three-Body Problem&lt;/em&gt; (2006)&lt;/li&gt;
+&lt;li&gt;Greg Egan, &lt;em&gt;Axiomatic&lt;/em&gt; (1995)&lt;/li&gt;
+&lt;li&gt;Franz Kafka, &lt;em&gt;The Metamorphosis&lt;/em&gt; (1916)&lt;/li&gt;
+&lt;li&gt;Shuzo Oshimi, &lt;em&gt;Inside Mari&lt;/em&gt; (2012)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books-i-recommend-non-fiction&#34;&gt;Books I Recommend (Non-Fiction)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Duncan Pritchard, &lt;em&gt;What is this Thing Called Knowledge?&lt;/em&gt; (2006)&lt;/li&gt;
+&lt;li&gt;Paul Lockhart, &lt;em&gt;A Mathematician&amp;rsquo;s Lament&lt;/em&gt; (2009)&lt;/li&gt;
+&lt;li&gt;George Lakoff, &lt;em&gt;Where Mathematics Come From&lt;/em&gt; (2000)&lt;/li&gt;
+&lt;li&gt;Edward Frenkel, &lt;em&gt;Love and Math: The Heart of Hidden Reality&lt;/em&gt; (2013)&lt;/li&gt;
+&lt;li&gt;Alexander Grothendieck, &lt;em&gt;Récoltes et Semailles&lt;/em&gt; (1986)&lt;/li&gt;
+&lt;li&gt;Morris Kline, &lt;em&gt;Mathematics: The Loss of Certainty&lt;/em&gt; (1980)&lt;/li&gt;
+&lt;li&gt;Martin Aigner, Günter M. Ziegler, &lt;em&gt;Proofs from THE BOOK&lt;/em&gt; (1998)&lt;/li&gt;
+&lt;li&gt;Dmitry Fuchs, Serge Tabachnikov, &lt;em&gt;Mathematical Omnibus&lt;/em&gt; (2007)&lt;/li&gt;
+&lt;li&gt;V. B. Alekseev, Francesca Aicardi, &lt;em&gt;Abel&amp;rsquo;s Theorem in Problems and Solutions&lt;/em&gt; (2004)&lt;/li&gt;
+&lt;li&gt;Mark Levi, &lt;em&gt;The Mathematical Mechanic&lt;/em&gt; (2009)&lt;/li&gt;
+&lt;li&gt;Timothy Gowers et al., &lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt; (2007)&lt;/li&gt;
+&lt;li&gt;Răzvan Gelca, Titu Andreescu, &lt;em&gt;Putnam and Beyond&lt;/em&gt; (2017)&lt;/li&gt;
+&lt;li&gt;Paul Zeitz, &lt;em&gt;The Art and Craft of Problem Solving&lt;/em&gt; (1999)&lt;/li&gt;
+&lt;li&gt;E. R. Berlekamp, David Wolfe, &lt;em&gt;Mathematical Go: Chilling Gets the Last Point&lt;/em&gt; (1994)&lt;/li&gt;
+&lt;li&gt;E. R. Berlekamp, J. Conway, R. Guy, &lt;em&gt;Winning Ways for Your Mathematical Plays&lt;/em&gt; (1982)&lt;/li&gt;
+&lt;li&gt;Peter Winkler, &lt;em&gt;Mathematical Puzzles: A Connoisseur&amp;rsquo;s Collection&lt;/em&gt; (2003)&lt;/li&gt;
+&lt;li&gt;Martin Gardner, &lt;em&gt;Mathematics, Magic and Mystery&lt;/em&gt; (1956)&lt;/li&gt;
+&lt;li&gt;Martin Gardner, &lt;em&gt;Mathematical Magic Show&lt;/em&gt; (1977)&lt;/li&gt;
+&lt;li&gt;Colm Mulcahy, &lt;em&gt;Mathematical Card Magic: Fifty-Two New Effects&lt;/em&gt; (2013)&lt;/li&gt;
+&lt;li&gt;Matt Cook, &lt;em&gt;Sleight of Mind&lt;/em&gt; (2021)&lt;/li&gt;
+&lt;li&gt;Clément Deslandes, Guillaume Deslandes, &lt;em&gt;The Price of Cake&lt;/em&gt; (2023)&lt;/li&gt;
+&lt;li&gt;Jonas Peters, Nicolai Meinshausen, &lt;em&gt;The Raven&amp;rsquo;s Hat&lt;/em&gt; (2021)&lt;/li&gt;
+&lt;li&gt;Satyan Devadoss, Matthew Harvey, &lt;em&gt;Mage Merlin&amp;rsquo;s Unsolved Mathematical Mysteries&lt;/em&gt; (2020)&lt;/li&gt;
+&lt;li&gt;Alexander Bogomolny, &lt;em&gt;Cut the Knot&lt;/em&gt; (2020)&lt;/li&gt;
+&lt;li&gt;David Ruelle, &lt;em&gt;The Mathematician&amp;rsquo;s Brain&lt;/em&gt; (2007)&lt;/li&gt;
+&lt;li&gt;Mikhail Shifman, &lt;em&gt;You Failed Your Math Test, Comrade Einstein&lt;/em&gt; (2005)&lt;/li&gt;
+&lt;li&gt;David Ruelle, &lt;em&gt;The Mathematician&amp;rsquo;s Brain&lt;/em&gt; (2018)&lt;/li&gt;
+&lt;li&gt;Jacques Hadamard, &lt;em&gt;The Psychology of Invention in the Mathematical Field&lt;/em&gt; (1945)&lt;/li&gt;
+&lt;li&gt;George Polya, &lt;em&gt;How to Solve It: A New Aspect of Mathematical Method&lt;/em&gt; (2015)&lt;/li&gt;
+&lt;li&gt;George Polya, &lt;em&gt;Mathematical Discovery&lt;/em&gt; (1991)&lt;/li&gt;
+&lt;li&gt;Thomas Lam, &lt;em&gt;The CMUMC POTD Book&lt;/em&gt; (2025)&lt;/li&gt;
+&lt;li&gt;Gian-Carlo Rota, &lt;em&gt;Indiscrete Thoughts&lt;/em&gt; (1996)&lt;/li&gt;
+&lt;li&gt;Philip J. Davis, Reuben Hersh, &lt;em&gt;The Mathematical Experience&lt;/em&gt; (1981)&lt;/li&gt;
+&lt;li&gt;Paul Benacerraf, Hilary Putnam, &lt;em&gt;Philosophy of Mathematics: Selected Readings&lt;/em&gt; (1984)&lt;/li&gt;
+&lt;li&gt;Reuben Hersh, &lt;em&gt;18 Unconventional Essays on the Nature of Mathematics&lt;/em&gt; (2006)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;essays-i-recommend&#34;&gt;Essays I Recommend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Walter Benjamin, &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt; (1935)&lt;/li&gt;
+&lt;li&gt;Guy Debord, &lt;em&gt;The Society of the Spectacle&lt;/em&gt; (1967)&lt;/li&gt;
+&lt;li&gt;G. H. Hardy, &lt;em&gt;A Mathematician&amp;rsquo;s Apology&lt;/em&gt; (1940)&lt;/li&gt;
+&lt;li&gt;Eugenia Cheng, &lt;em&gt;Mathematics, Morally&lt;/em&gt; (2004)&lt;/li&gt;
+&lt;li&gt;W. T. Gowers, &lt;em&gt;The Two Cultures of Mathematics&lt;/em&gt; (2007)&lt;/li&gt;
+&lt;li&gt;Kevin Buzzard, &lt;em&gt;Grothendieck’s Use of Equality&lt;/em&gt; (2024)&lt;/li&gt;
+&lt;li&gt;Paul Benacerraf, &lt;em&gt;What Numbers Could not Be&lt;/em&gt; (1965)&lt;/li&gt;
+&lt;li&gt;W. V. O. Quine, &lt;em&gt;Two Dogmas of Empiricism&lt;/em&gt; (1951)&lt;/li&gt;
+&lt;li&gt;William P. Thurston, &lt;em&gt;On Proof and Progress in Mathematics&lt;/em&gt; (1994)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Films</title>
+      <link>http://localhost:1313/posts/films/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/films/</guid>
+      <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Vertigo&lt;/em&gt; (1958)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ikiru&lt;/em&gt; (1952)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ran&lt;/em&gt; (1985)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;films-i-recommend-fiction&#34;&gt;Films I Recommend (Fiction)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0245429/&#34;&gt;&lt;em&gt;Spirited Away&lt;/em&gt; (2001)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1187043/&#34;&gt;&lt;em&gt;3 Idiots&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0851578/&#34;&gt;&lt;em&gt;Paprika&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1220719/&#34;&gt;&lt;em&gt;Ip Man&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6710474/&#34;&gt;&lt;em&gt;Everything Everywhere All at Once&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0372824/&#34;&gt;&lt;em&gt;The Chorus&lt;/em&gt; (2004)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0079470/&#34;&gt;&lt;em&gt;Life of Brian&lt;/em&gt; (1979)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0075314/&#34;&gt;&lt;em&gt;Taxi Driver&lt;/em&gt; (1976)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0047478/&#34;&gt;&lt;em&gt;Seven Samurai&lt;/em&gt; (1954)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0064116/&#34;&gt;&lt;em&gt;Once Upon a Time in the West&lt;/em&gt; (1968)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0060196/&#34;&gt;&lt;em&gt;The Good, the Bad, and the Ugly&lt;/em&gt; (1966)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0190332/&#34;&gt;&lt;em&gt;Crouching Tiger Hidden Dragon&lt;/em&gt; (2000)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0106332/&#34;&gt;&lt;em&gt;Farewell My Concubine&lt;/em&gt; (1993)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0056058/&#34;&gt;&lt;em&gt;Harakiri&lt;/em&gt; (1962)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0373074/&#34;&gt;&lt;em&gt;Kung Fu Hustle&lt;/em&gt; (2004)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2948372/&#34;&gt;&lt;em&gt;Soul&lt;/em&gt; (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0388795/&#34;&gt;&lt;em&gt;Brokeback Mountain&lt;/em&gt; (2005)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0086879/&#34;&gt;&lt;em&gt;Amadeus&lt;/em&gt; (1984)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2582802/&#34;&gt;&lt;em&gt;Whiplash&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0033467/&#34;&gt;&lt;em&gt;Citizen Kane&lt;/em&gt; (1941)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1375666/&#34;&gt;&lt;em&gt;Inception&lt;/em&gt; (2010)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0081398/&#34;&gt;&lt;em&gt;Raging Bull&lt;/em&gt; (1980)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0093058/&#34;&gt;&lt;em&gt;Full Metal Jacket&lt;/em&gt; (1987)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0111161/&#34;&gt;&lt;em&gt;The Shawshank Redemption&lt;/em&gt; (1994)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0120382/&#34;&gt;&lt;em&gt;The Truman Show&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3464902/&#34;&gt;&lt;em&gt;The Lobster&lt;/em&gt; (2015)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0409459/&#34;&gt;&lt;em&gt;Watchmen&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0144084/&#34;&gt;&lt;em&gt;American Psycho&lt;/em&gt; (2000)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0097165/&#34;&gt;&lt;em&gt;Dead Poet Society&lt;/em&gt; (1989)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2576852/&#34;&gt;&lt;em&gt;The Tale of the Princess Kaguya&lt;/em&gt; (2013)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3262342/&#34;&gt;&lt;em&gt;Loving Vincent&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0137523/&#34;&gt;&lt;em&gt;Fight Club&lt;/em&gt; (1999)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;films-i-recommend-non-fiction&#34;&gt;Films I Recommend (Non-Fiction)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3127902/&#34;&gt;&lt;em&gt;Dealt&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6700846/&#34;&gt;&lt;em&gt;AlphaGo&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt7775622/&#34;&gt;&lt;em&gt;Free Solo&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3488710/&#34;&gt;&lt;em&gt;The Walk&lt;/em&gt; (2015)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3973724/&#34;&gt;&lt;em&gt;The Surrounding Game&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2152198/&#34;&gt;&lt;em&gt;The Pervert&amp;rsquo;s Guide to Ideology&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0828154/&#34;&gt;&lt;em&gt;The Pervert&amp;rsquo;s Guide to Cinema&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0125425/&#34;&gt;&lt;em&gt;N Is a Number: A Portrait of Paul Erdös&lt;/em&gt; (1993)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>http://localhost:1313/posts/links/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/links/</guid>
+      <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://terrytao.wordpress.com&#34;&gt;What&amp;rsquo;s New&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.neverendingbooks.org&#34;&gt;Neverending Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thehighergeometer.wordpress.com/&#34;&gt;The Higher Geometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xorshammer.com&#34;&gt;XOR&amp;rsquo;s Hammer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.logicmatters.net&#34;&gt;Logic Matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homotopytypetheory.org/blog/&#34;&gt;Homotopy Type Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xenaproject.wordpress.com&#34;&gt;Xena project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qchu.wordpress.com&#34;&gt;Annoying Precision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math3ma.com&#34;&gt;Math3ma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://antimeta.wordpress.com&#34;&gt;Antimeta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sbseminar.wordpress.com&#34;&gt;Secret Blogging Seminar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rigtriv.wordpress.com&#34;&gt;Rigorous Trivialities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://theoreticalatlas.wordpress.com&#34;&gt;Theoretical Atlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lovelylittlelemmas.rjprojects.net&#34;&gt;Lovely Little Lemmas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://totallydisconnected.wordpress.com&#34;&gt;Totally Disconnected&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.daniellitt.com/blog&#34;&gt;Daniel Litt&amp;rsquo;s Betalog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://burttotaro.wordpress.com/&#34;&gt;Geometry Bulletin Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mathcounterexamples.net&#34;&gt;Math Counterexamples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://differentialgeometri.wordpress.com&#34;&gt;Gabe Khan&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.akalin.com&#34;&gt;Fred Akalin&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aliennumbers.wordpress.com&#34;&gt;The Alien Number&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.roice3.org/&#34;&gt;Roice Nelson&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ayoucis.wordpress.com/&#34;&gt;Hard Arithmetic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ahilado.wordpress.com/&#34;&gt;Theories and Theorems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math.columbia.edu/~woit/wordpress/&#34;&gt;Not Even Wrong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gregegan.net/&#34;&gt;Greg Egan&amp;rsquo;s Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wikis-and-archives&#34;&gt;Wikis and Archives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Page&#34;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wikiwand.com&#34;&gt;Wikiwand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikisource.org/wiki/Main_Page&#34;&gt;WikiSource&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ncatlab.org/nlab/show/HomePage&#34;&gt;nLab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;Stacks Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kerodon.net&#34;&gt;Kerodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://clowderproject.com/index.html&#34;&gt;Clowder Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://automorphic.jh.edu/&#34;&gt;Automorphic Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cs.uwaterloo.ca/~plragde/flaneries/LACI/index.html&#34;&gt;Logic and Computation Intertwined&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org&#34;&gt;Arxiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathbases.org/&#34;&gt;MathBases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://topology.pi-base.org/&#34;&gt;Pi-Base&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zbmath.org&#34;&gt;ZBMATH Open&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.connectedpapers.com&#34;&gt;Connected Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.litmaps.co&#34;&gt;Litmaps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com&#34;&gt;ScienceDirect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathscinet.ams.org/mathscinet/&#34;&gt;MathSciNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oa.mg&#34;&gt;OA.mg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.semanticscholar.org&#34;&gt;Semantic Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://academic.oup.com/&#34;&gt;Oxford Academic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://philpapers.org&#34;&gt;PhilPapers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lmfdb.org&#34;&gt;The L-functions and Modular Forms Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fanography.info/&#34;&gt;Fanography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.grassmannian.info/&#34;&gt;Grassmannian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hyperkaehler.info/&#34;&gt;Hyperkaehler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://manypoints.org/&#34;&gt;ManyPoints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://3-dimensional.space/&#34;&gt;3-Dimensional&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mgnbar.info/&#34;&gt;Mgnbar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://superficie.info/&#34;&gt;Superficie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ringtheory.herokuapp.com&#34;&gt;Database of Ring Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cut-the-knot.org/&#34;&gt;Cut the Knot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://katlas.org/wiki/Main_Page&#34;&gt;The Knot Atlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://planetmath.org&#34;&gt;Planet Math&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://calimath.org/&#34;&gt;Calimath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://approach0.xyz/search/&#34;&gt;Approach Zero&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mathgenealogy.org/index.php&#34;&gt;Mathematics Genealogy Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.numdam.org/?lang=en&#34;&gt;Numdam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gutenberg.org&#34;&gt;Project Gutenberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oeis.org&#34;&gt;On-Line Encyclopedia of Integer Sequences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://proofwiki.org/wiki/Main_Page&#34;&gt;Proof Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mathonline.wikidot.com&#34;&gt;Mathonline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sunsite.ubc.ca/DigitalMathArchive/&#34;&gt;Digital Mathematics Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dlmf.nist.gov/&#34;&gt;Digital Library for Mathematical Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jessetvogel.nl/math-definitions/&#34;&gt;Math Definitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t5k.org/&#34;&gt;PrimePages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adjectivesproject.org/&#34;&gt;Adjectives Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.erdosproblems.com/&#34;&gt;Erdos Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bananaspace.org/&#34;&gt;Banana Space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathpickle.com&#34;&gt;MathPickle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aareyanmanzoor.github.io/Texromancers.html&#34;&gt;The TeXromancers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/cgi-bin/notices/amsnotices.pl?article_id=whatis&amp;amp;article_type=gallery&amp;amp;gallery_type=whatis&#34;&gt;Collection of &lt;em&gt;What is&amp;hellip;&lt;/em&gt; Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kconrad.math.uconn.edu/blurbs/&#34;&gt;Keith Conrad&amp;rsquo;s Expository Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@stormentas2/analytic-philosophy-reading-list-for-the-self-taught-3bb5e44a6b7f&#34;&gt;Analytic Philosophy Reading List for the Self Taught&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plato.stanford.edu/index.html&#34;&gt;Stanford Encyclopedia of Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iep.utm.edu&#34;&gt;Internet Encyclopedia of Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classicalarchives.com/newca/#!/&#34;&gt;Classical Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://senseis.xmp.net&#34;&gt;Sensei&amp;rsquo;s Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com&#34;&gt;Goodreads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mubi.com/en/ca&#34;&gt;MUBI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.azquotes.com&#34;&gt;AZ Quotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conjuringarchive.com&#34;&gt;Conjuring Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geniimagazine.com/wiki/index.php&#34;&gt;MagicPedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lingolia.com/en/&#34;&gt;Lingolia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tools-and-softwares&#34;&gt;Tools and Softwares&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://quicklatex.com/&#34;&gt;Quick Latex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hash.mwt.me/&#34;&gt;Hash Viewer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.underleaf.ai/&#34;&gt;Underleaf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sharelatex.com&#34;&gt;ShareLaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cocalc.com&#34;&gt;CoCalc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wolframalpha.com&#34;&gt;WolframAlpha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathpix.com&#34;&gt;Mathpix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://texmacs.org/tmweb/home/welcome.en.html&#34;&gt;TeXmacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org&#34;&gt;LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gerby-project.github.io&#34;&gt;Gerby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.forester-notes.org/index/index.xml&#34;&gt;Forester&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pubpub.org/&#34;&gt;PubPub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pretextbook.org/&#34;&gt;PreTeXt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quarto.org/&#34;&gt;Quarto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodnotes.com&#34;&gt;GoodNotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://notability.com/&#34;&gt;Notability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jupyter.org&#34;&gt;Jupyter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.portal.chalmers.se/agda/Main/HomePage&#34;&gt;Agda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leanprover-community.github.io/&#34;&gt;LeanProver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sagemath.org/&#34;&gt;SageMath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oscar-system.org/&#34;&gt;OSCAR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cocoa.dima.unige.it/cocoa/&#34;&gt;CoCoA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.macaulay2.com/&#34;&gt;Macaulay2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://magma.maths.usyd.edu.au/magma/&#34;&gt;Magma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wolfram.com/mathematica/&#34;&gt;Wolfram Mathematica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.maplesoft.com/products/Maple/&#34;&gt;Maple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.desmos.com&#34;&gt;Desmos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geogebra.org&#34;&gt;GeoGebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thatsmathematics.com/mathgen/&#34;&gt;Mathgen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://math.jhu.edu/~savitt/GTM.html&#34;&gt;The Springer GTM Test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linggle.com&#34;&gt;Linggle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manim.community&#34;&gt;Manim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://reanimate.github.io&#34;&gt;Reanimate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://visualpde.com/&#34;&gt;VisualPDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sidefx.com/products/houdini/&#34;&gt;SideFx Houdini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.maxon.net/en/cinema-4d&#34;&gt;Cinema 4D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blender.org&#34;&gt;Blender&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.unrealengine.com/en-US&#34;&gt;Unreal Engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godotengine.org&#34;&gt;Godot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mathcha.io&#34;&gt;MathCha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://texnique.xyz&#34;&gt;TeXnique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexo.io/index.html&#34;&gt;Hexo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;media-and-socials&#34;&gt;Media and Socials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathoverflow.net&#34;&gt;Mathoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://math.stackexchange.com&#34;&gt;Mathematics Stack Exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://physics.stackexchange.com/&#34;&gt;Physics Stack Exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://philosophy.stackexchange.com/&#34;&gt;Philosophy Stack Exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thuses.com/&#34;&gt;Thuses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://researchseminars.org&#34;&gt;Research Seminars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quantamagazine.org&#34;&gt;Quanta Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nautil.us/&#34;&gt;Nautilus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bigthink.com/&#34;&gt;Big Think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathstodon.xyz/about&#34;&gt;Mathsodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookwyrm.social&#34;&gt;BookWyrm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://locusmag.com/&#34;&gt;Locus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://artofproblemsolving.com/&#34;&gt;Art of Problem Solving&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/publications/journals/journalsframework/aboutbull&#34;&gt;AMS Bulletin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/notices&#34;&gt;AMS Notices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://online-go.com&#34;&gt;Online Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lrb.co.uk&#34;&gt;London Review of Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nybooks.com/&#34;&gt;New York Review of Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oneahead.com&#34;&gt;One Ahead&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathmeetings.net&#34;&gt;MathMeetings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://younghomseminar.github.io&#34;&gt;YoungHom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/jmra/home&#34;&gt;JMRA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.numberphile.com&#34;&gt;Numberphile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.3blue1brown.com&#34;&gt;3Blue1Brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathdash.live/&#34;&gt;MathDash&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cantorsparadise.com/&#34;&gt;Cantor&amp;rsquo;s Paradise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Magic Tricks</title>
+      <link>http://localhost:1313/posts/magic-tricks/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/magic-tricks/</guid>
+      <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I will update this page with more stuff in the future.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Video Games</title>
+      <link>http://localhost:1313/posts/video-games/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/video-games/</guid>
+      <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Undertale&lt;/em&gt; (2015)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sifu&lt;/em&gt; (2022)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Death Stranding&lt;/em&gt; (2019)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video-games-i-recommend&#34;&gt;Video Games I Recommend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/nier-automata&#34;&gt;&lt;em&gt;Nier: Automata&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/gris&#34;&gt;&lt;em&gt;GRIS&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/disco-elysium&#34;&gt;&lt;em&gt;Disco Elysium&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/uncharted-4-a-thief-s-end&#34;&gt;&lt;em&gt;Uncharted 4: A Thief&amp;rsquo;s End&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/minecraft--1&#34;&gt;&lt;em&gt;Minecraft&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/black-myth-wukong&#34;&gt;&lt;em&gt;Black Myth: Wukong&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/sekiro-shadows-die-twice&#34;&gt;&lt;em&gt;Sekiro: Shadow Die Twice&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/god-of-war--1&#34;&gt;&lt;em&gt;God of War&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writings</title>
+      <link>http://localhost:1313/posts/writings/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/writings/</guid>
+      <description>&lt;h2 id=&#34;novelettes&#34;&gt;Novelettes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/tiankongzhiwang&#34;&gt;天空之王&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;essays&#34;&gt;Essays&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/lunchuncui&#34;&gt;论「纯粹」&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;poems&#34;&gt;Poems&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/harmonica&#34;&gt;吹着口琴的人&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;prose&#34;&gt;Prose&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/shimian&#34;&gt;失眠&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
     <item>
       <title>Mermaid Diagrams</title>
       <link>http://localhost:1313/posts/mermaid-diagrams/</link>
@@ -694,14 +1733,14 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;h2 id=&#34;figures&#34;&gt;Figures&lt;/h2&gt;
 
 
-&lt;figure class=&#34;fig-env&#34; data-level=&#34;2&#34;&gt;
-  &lt;div class=&#34;fig-content&#34;&gt;
-    &lt;img src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34; alt=&#34;Klein Bottle&#34;&gt;
+&lt;div class=&#34;fig-env&#34; data-level=&#34;2&#34;&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34; alt=&#34;Klein Bottle&#34;&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;fig-caption&#34;&gt;
+    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;fig-text&#34;&gt;This is an image of Klein bottle&lt;/span&gt;
   &lt;/div&gt;
-  &lt;figcaption class=&#34;fig-caption&#34;&gt;
-    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;This is an image of Klein bottle
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&#34;commutative-diagrams&#34;&gt;Commutative diagrams&lt;/h2&gt;
 &lt;p&gt;$\KaTeX$ supports simple commutative diagrams, but it does not allow advanced features like diagonal or curved arrows. See &lt;a href=&#34;https://redgregory.notion.site/Diagrams-With-KaTeX-9166ebfa650a463dbdf67357143ebaed&#34;&gt;here&lt;/a&gt;. However, for some reason I could not get that to even work here. This is weird. Instead I can use &lt;a href=&#34;https://q.uiver.app/&#34;&gt;quiver&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
