@@ -1,6 +1,6 @@
 ---
 title: "Math Test"
-date: "2019-03-11"
+date: "2019-03-12"
 ---
 
 In this post, we test mathematical typesettings.

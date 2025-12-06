@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Magic Tricks
-date: 2023-01-06 00:00:00 +0000
+date: 2023-01-13 00:00:00 +0000
 categories: [archives]
 tags: [magic-tricks]
 

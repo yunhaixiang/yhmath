@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anime
-date: 2023-01-06 00:00:00 +0000
+date: 2023-01-09 00:00:00 +0000
 categories: [archives]
 tags: [anime]
 

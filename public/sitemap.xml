@@ -59,28 +59,28 @@
     <loc>http://localhost:1313/posts/shimian/</loc>
     <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/anime/</loc>
-    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/anime/</loc>
-    <lastmod>2025-12-06T12:38:29-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/archives/</loc>
     <lastmod>2025-12-06T12:38:29-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/books-and-essays/</loc>
-    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/films/</loc>
-    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/links/</loc>
-    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/magic-tricks/</loc>
     <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/magic-tricks/</loc>
+    <lastmod>2025-12-06T12:38:29-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/links/</loc>
+    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/films/</loc>
+    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/books-and-essays/</loc>
+    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/anime/</loc>
+    <lastmod>2025-12-06T01:30:36-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/anime/</loc>
     <lastmod>2025-12-06T12:38:29-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/music/</loc>

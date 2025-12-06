@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video Games
-date: 2023-01-06 00:00:00 +0000
+date: 2023-01-07 00:00:00 +0000
 tags: [video-games]
 categories: [archives]
 ---

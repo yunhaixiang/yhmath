@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books and Essays
-date: 2023-01-06 00:00:00 +0000
+date: 2023-01-10 00:00:00 +0000
 tags: []
 categories: [archives]
 ---
