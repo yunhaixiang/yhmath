@@ -2,7 +2,7 @@
 layout: post
 title: Links
 date: 2023-01-12 00:00:00 +0000
-tags: []
+tags: [math, philosophy]
 categories: [archives]
 ---
 

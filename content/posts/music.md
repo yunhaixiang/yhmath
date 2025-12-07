@@ -7,4 +7,12 @@ tags: [music]
 
 ---
 
-I love music. Will add more later.
+My favorite genres of music are jazz and rock. I hope to one day be able to compose music myself. Here are my favorite artists. 
+
+## Jazz
+
+1. Will add more later
+
+## Rock
+
+1. Will add more later

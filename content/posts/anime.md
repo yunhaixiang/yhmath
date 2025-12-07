@@ -4,8 +4,8 @@ title: Anime
 date: 2023-01-09 00:00:00 +0000
 categories: [archives]
 tags: [anime]
-
 ---
+
 ## Anime I Want to Watch
 - [*Legend of the Galactic Heroes* (1988)](https://www.imdb.com/title/tt0096633/)
 - [*Hikaru no Go* (2001)](https://www.imdb.com/title/tt0426711/)

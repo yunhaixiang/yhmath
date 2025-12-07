@@ -6,6 +6,8 @@ tags: [video-games]
 categories: [archives]
 ---
 
+I like playing video games, especially single player action or story-driven games.
+
 ## Video Games I Want to Play
 - *Planescape: Torment* (1999)
 - *Undertale* (2015)
