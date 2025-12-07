@@ -18,7 +18,7 @@ defaultMarkdownHandler = "goldmark"
   startLevel = 2
 
 [params]
-  postsPerPage = 3
+  postsPerPage = 12
 
 [taxonomies]
 tags = "tags"
