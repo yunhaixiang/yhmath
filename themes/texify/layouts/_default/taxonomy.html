@@ -72,7 +72,7 @@
     <a
       class="yh-page-arrow yh-page-arrow-prev{{ if not $paginator.HasPrev }} yh-page-arrow-disabled{{ end }}"
       {{ if $paginator.HasPrev }}href="{{ $paginator.Prev.URL }}"{{ end }}>
-      &laquo;
+      ‹
     </a>
 
     <!-- Page numbers with smart ... -->
@@ -90,7 +90,7 @@
 
           {{ $last := $s.Get "lastShown" }}
           {{ if and (gt $n 1) (gt (sub $n $last) 1) }}
-            <span class="yh-page-ellipsis" title="More pages">…</span>
+            <span class="yh-page-ellipsis" title="More pages">⋯</span>
           {{ end }}
 
           <a
@@ -108,7 +108,7 @@
     <a
       class="yh-page-arrow yh-page-arrow-next{{ if not $paginator.HasNext }} yh-page-arrow-disabled{{ end }}"
       {{ if $paginator.HasNext }}href="{{ $paginator.Next.URL }}"{{ end }}>
-      &raquo;
+      ›
     </a>
   </nav>
   {{ end }}
