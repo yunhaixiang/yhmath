@@ -13,7 +13,7 @@
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/magic-tricks/</guid>
-      <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I will update this page with more stuff in the future.&lt;/p&gt;
+      <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I was inspired by many magicians, some of them are mathemagicians (magicians who are also mathematicians).&lt;/p&gt;
 </description>
     </item>
     
@@ -398,7 +398,15 @@
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/music/</guid>
-      <description>&lt;p&gt;My favorite genres of music are jazz and rock.&lt;/p&gt;
+      <description>&lt;p&gt;My favorite genres of music are jazz and rock. I hope to one day be able to compose music myself. Here are my favorite artists.&lt;/p&gt;
+&lt;h2 id=&#34;jazz&#34;&gt;Jazz&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Will add more later&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;rock&#34;&gt;Rock&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Will add more later&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -408,7 +416,8 @@
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/video-games/</guid>
-      <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
+      <description>&lt;p&gt;I like playing video games, especially single player action or story-driven games.&lt;/p&gt;
+&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Undertale&lt;/em&gt; (2015)&lt;/li&gt;

@@ -7,4 +7,7 @@ tags: [magic-tricks]
 
 ---
 
-Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I will update this page with more stuff in the future. 
+Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future. 
+
+
+
