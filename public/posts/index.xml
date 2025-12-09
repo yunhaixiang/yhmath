@@ -997,6 +997,32 @@ Math Rock以节奏复杂古怪著称。
     </item>
     
     <item>
+      <title>Music</title>
+      <link>http://localhost:1313/posts/music/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/music/</guid>
+      <description>&lt;p&gt;I love music, especially jazz and rock. Here are some of my favorite artists.&lt;/p&gt;
+&lt;h2 id=&#34;jazz&#34;&gt;Jazz&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Luca Sustak&lt;/li&gt;
+&lt;li&gt;Emma Nissen&lt;/li&gt;
+&lt;li&gt;Doreen Ketchens&lt;/li&gt;
+&lt;li&gt;Hiromi&lt;/li&gt;
+&lt;li&gt;Cory Wong&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rock&#34;&gt;Rock&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Metallica&lt;/li&gt;
+&lt;li&gt;Bôa&lt;/li&gt;
+&lt;li&gt;Radiohead&lt;/li&gt;
+&lt;li&gt;Nirvana&lt;/li&gt;
+&lt;li&gt;The Animals&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Video Games</title>
       <link>http://localhost:1313/posts/video-games/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
@@ -1020,31 +1046,6 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/black-myth-wukong&#34;&gt;&lt;em&gt;Black Myth: Wukong&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/sekiro-shadows-die-twice&#34;&gt;&lt;em&gt;Sekiro: Shadow Die Twice&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/god-of-war--1&#34;&gt;&lt;em&gt;God of War&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writings</title>
-      <link>http://localhost:1313/posts/writings/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/writings/</guid>
-      <description>&lt;h2 id=&#34;novelettes&#34;&gt;Novelettes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/tiankongzhiwang&#34;&gt;天空之王&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;essays&#34;&gt;Essays&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/lunchuncui&#34;&gt;论「纯粹」&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;poems&#34;&gt;Poems&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/harmonica&#34;&gt;吹着口琴的人&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;prose&#34;&gt;Prose&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/shimian&#34;&gt;失眠&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

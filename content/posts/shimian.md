@@ -3,7 +3,7 @@ layout: post
 title: 失眠
 date: 2025-08-15 00:00:00 +0000
 tags: [existentialism]
-categories: [prose]
+categories: [stories]
 ---
 {{< wenkai >}}
 &emsp;&emsp;长夜不能眠。罢了，清净的夜也是想事的好时机。
