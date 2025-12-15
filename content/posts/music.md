@@ -10,8 +10,12 @@ I love music, especially jazz and rock. Here are some of my favorite artists.
 
 ## Jazz
 
-- Luca Sustak
-- Emma Nissen
+
+- Dave Brubeck
+- Miles Davis
+- John Coltrane
+- Oscar Peterson
+- Bill Evans
 - Doreen Ketchens
 - Hiromi
 - Cory Wong

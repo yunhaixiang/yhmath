@@ -14,7 +14,7 @@ tags: [anime]
 - [*Inuyasha* (2000)](https://www.imdb.com/title/tt0290223/)
 - [*Serial Experiments Lain* (1998)](https://www.imdb.com/title/tt0500092/)
 - [*NANA* (2006)](https://www.imdb.com/title/tt0810705/)
-- [*Kids on the Slope* (2012)](https://www.imdb.com/title/tt2341375/)
+
 
 ## Anime I Recommend
 - [*Fullmetal Alchemist: Brotherhood* (2009)](https://www.imdb.com/title/tt1355642/)
@@ -45,3 +45,4 @@ tags: [anime]
 - [*Mob Psycho 100* (2016)](https://www.imdb.com/title/tt5897304/)
 - [*Tatsuki Fujimoto 17-26* (2025)](https://www.imdb.com/title/tt38491451/)
 - [*Tsuredure Children* (2017)](https://www.imdb.com/title/tt7155052/)
+- [*Kids on the Slope* (2012)](https://www.imdb.com/title/tt2341375/)

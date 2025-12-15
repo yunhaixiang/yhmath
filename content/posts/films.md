@@ -45,6 +45,7 @@ categories: [archives]
 - [*The Tale of the Princess Kaguya* (2013)](https://www.imdb.com/title/tt2576852/)
 - [*Loving Vincent* (2017)](https://www.imdb.com/title/tt3262342/)
 - [*Fight Club* (1999)](https://www.imdb.com/title/tt0137523/)
+- [*Blue Giant* (2023)](https://www.imdb.com/title/tt15737898/)
 
 ## Films I Recommend (Non-Fiction)
 - [*Dealt* (2017)](https://www.imdb.com/title/tt3127902/)
