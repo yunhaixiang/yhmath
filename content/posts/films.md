@@ -46,6 +46,7 @@ categories: [archives]
 - [*Loving Vincent* (2017)](https://www.imdb.com/title/tt3262342/)
 - [*Fight Club* (1999)](https://www.imdb.com/title/tt0137523/)
 - [*Blue Giant* (2023)](https://www.imdb.com/title/tt15737898/)
+- [*Ghost in the Shell* (1995)](https://www.imdb.com/title/tt0113568/)
 
 ## Films I Recommend (Non-Fiction)
 - [*Dealt* (2017)](https://www.imdb.com/title/tt3127902/)
