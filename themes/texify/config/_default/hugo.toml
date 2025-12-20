@@ -3,6 +3,8 @@ defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      typographer = false
 
   [markup.highlight]
   codeFences = true
@@ -16,6 +18,8 @@ defaultMarkdownHandler = "goldmark"
   endLevel = 6
   ordered = false
   startLevel = 2
+
+  
 
 [params]
   postsPerPage = 12

@@ -6,7 +6,55 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brauer Groups Part I</title>
+      <link>http://localhost:1313/posts/brauer1/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <description>&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;a href=&#34;#bib-Poo17&#34; class=&#34;bib-cite&#34;&gt;[Poo17]&lt;/a&gt;
+ with some other sources as supplements.&lt;/p&gt;
+&lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring
+$$
+\mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\}
+$$
+with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product
+$$
+\mathbb A_{K,S}=
+$$&lt;/p&gt;
+&lt;h2 id=&#34;central-simple-algebras&#34;&gt;Central Simple Algebras&lt;/h2&gt;
+
+
+
+
+&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    This is a definition
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+    
+  &lt;li id=&#34;bib-Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  Bjorn Poonen, &lt;em&gt;Rational Points on Varieties&lt;/em&gt;, American Mathematical Soc., 2017.
+&lt;/li&gt;
+
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>做数学科研一定要在学术界吗</title>
       <link>http://localhost:1313/posts/keyan/</link>
@@ -1463,7 +1511,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 
 
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
+&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
   &lt;span class=&#34;thm-heading&#34;&gt;
     &lt;span class=&#34;thm-title&#34;
           data-label=&#39;断言&#39;&gt;&lt;/span&gt;
@@ -1477,7 +1525,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 
 
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;3&#34;&gt;
+&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
   &lt;span class=&#34;thm-heading&#34;&gt;
     &lt;span class=&#34;thm-title&#34;
           data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
@@ -1491,7 +1539,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 
 
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;3&#34;&gt;
+&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
   &lt;span class=&#34;thm-heading&#34;&gt;
     &lt;span class=&#34;thm-title&#34;
           data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
@@ -1505,7 +1553,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 
 
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
+&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
   &lt;span class=&#34;thm-heading&#34;&gt;
     &lt;span class=&#34;thm-title&#34;
           data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Toy example)&lt;/span&gt;

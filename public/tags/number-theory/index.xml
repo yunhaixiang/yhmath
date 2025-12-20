@@ -6,7 +6,34 @@
     <description>Recent content in Number-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brauer Groups Part I</title>
+      <link>http://localhost:1313/posts/brauer1/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <description>&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;a href=&#34;#bib-Poo17&#34; class=&#34;bib-cite&#34;&gt;[Poo17]&lt;/a&gt;
+ with some other sources as supplements.&lt;/p&gt;
+&lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}&lt;em&gt;K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $K$ be the set of its places, $S&lt;/em&gt;{\infty}\subset L$ the set of archimedean places, and $S$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ containing $S$.&lt;/p&gt;
+&lt;h2 id=&#34;central-simple-algebras&#34;&gt;Central Simple Algebras&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+    
+  &lt;li id=&#34;bib-Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  Bjorn Poonen, &lt;em&gt;Rational Points on Varieties&lt;/em&gt;, American Mathematical Soc., 2017.
+&lt;/li&gt;
+
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Markdown Test</title>
       <link>http://localhost:1313/posts/markdown-test/</link>
