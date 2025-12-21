@@ -9,25 +9,37 @@ categories: [expositions]
 
 Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow {{< cite "Poo17" >}} with some other sources as supplements.
 
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}\_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega\_K$ be the set of its places, $S\_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega\_K$ is said to be an *admissible* set of places of $K$ if it contains $S\_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring 
-$$
-\mathbb Z\_{K,S}=\\{a\in K:|a|\_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega\_K\setminus S\\}
-$$
-with $\mathbb Z\_K=\mathbb Z\_{K,S\_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product
-$$
-\mathbb A\_{K,S}=
-$$
+We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}\_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega\_K$ be the set of its places, $S\_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega\_K$ is said to be an *admissible* set of places of $K$ if it contains $S\_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O\_{K, S}$ the $S$-integers of $K$ with $\mathcal O\_K=\mathcal O\_{K,S\_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega\_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A\_{K,S}$ and the usual adeles $\mathbb A\_K$. Denote $\mathbb I\_{K,S}$ the $S$-ideles and $\mathbb I\_K$ the usual ideles. 
 
-## Central Simple Algebras
 
+## Galois Theory of Étale Algebras
+The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes\_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
 {{< definition >}}
-This is a definition
+A $K$-algebra $L$ is said to be *étale* if any of the following equivalent conditions are satisfied
+1. $L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,
+1. $L$ is a direct product of finite separable extensions of $K$,
+1. the induced map $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is finite and étale.
 {{< /definition >}}
+The following is Grothendieck's generalization of Galois theory.
+
+{{< theorem >}}
+There is an equivalence of categories between $\\{\textrm{finite }\mathrm G\_K\textrm{-sets}\\}^{\mathrm{op}}$ and $\\{\textrm{étale }K\textrm{-algebras}\\}$ given by the functors that take $S$, a finite $\mathrm G\_K$-set, to the étale $K$-algebra $\mathrm{Hom}\_{\mathrm G\_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G\_K$-set $\mathrm{Hom}\_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
+{{< /theorem >}}
+{{< proof >}}
+See [[GR71, V.7 and Proposition V.8.1]](#bib-GR71).
+{{< /proof >}}
+
+{{< example >}}
+Suppose $S$ is a transitive $\mathrm G\_K$-set, then $S=\mathrm G\_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}\_{\mathrm G\_K\textrm{-sets}}(\mathrm G\_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S\_i$, so $S$ corresponds to the étale algebra $\prod L\_i$ where $L\_i$ is the finite separable extension corresponding to $S\_i$. 
+{{< /example >}}
 
 ## References
 
 {{< bibliography >}}
   {{< bibitem key="Poo17" >}}
   Bjorn Poonen, *Rational Points on Varieties*, American Mathematical Soc., 2017.
+  {{< /bibitem >}}
+  {{< bibitem key="GR71" >}}
+  Alexander Grothendieck, Michèle Raynaud, *Revêtements étales et groupe fondamental (SGA I)*, Lecture Notes in Mathematics 224, Springer, 1971.
   {{< /bibitem >}}
 {{< /bibliography >}}

@@ -12,14 +12,7 @@
   
   <meta name="description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow [Poo17]
  with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring
-$$
-\mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\}
-$$
-with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product
-$$
-\mathbb A_{K,S}=
-$$">
+We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O_{K, S}$ the $S$-integers of $K$ with $\mathcal O_K=\mathcal O_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
   
 
   
@@ -60,12 +53,12 @@ $$">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Brauer Groups Part I">
   <meta property="og:description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow [Poo17] with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring $$ \mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\} $$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product $$ \mathbb A_{K,S}= $$">
+We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O_{K, S}$ the $S$-integers of $K$ with $\mathcal O_K=\mathcal O_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-12-19T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-12-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-19T22:31:46-05:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebra">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -80,10 +73,10 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
   
   <meta itemprop="name" content="Brauer Groups Part I">
   <meta itemprop="description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow [Poo17] with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring $$ \mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\} $$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product $$ \mathbb A_{K,S}= $$">
+We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O_{K, S}$ the $S$-integers of $K$ with $\mathcal O_K=\mathcal O_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
   <meta itemprop="datePublished" content="2025-12-19T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-12-19T00:00:00+00:00">
-  <meta itemprop="wordCount" content="179">
+  <meta itemprop="dateModified" content="2025-12-19T22:31:46-05:00">
+  <meta itemprop="wordCount" content="438">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -107,13 +100,13 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Brauer Groups Part I">
   <meta name="twitter:description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow [Poo17] with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring $$ \mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\} $$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product $$ \mathbb A_{K,S}= $$">
+We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O_{K, S}$ the $S$-integers of $K$ with $\mathcal O_K=\mathcal O_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
 
 
   
 
 
-  <link rel="stylesheet" href="/css/single.min.52dc7304db049d72dfd085a0dde947eaa80e8c4af056e8446fe2f4988c2400a0.css" integrity="sha256-UtxzBNsEnXLf0IWg3elH6qgOjErwVuhEb&#43;L0mIwkAKA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.b056d7db231bad7e5bce83d1e69447f949920f2975f718d06a4d6ca386cf06ed.css" integrity="sha256-sFbX2yMbrX5bzoPR5pRH&#43;UmSDyl19xjQak1so4bPBu0=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -200,7 +193,7 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          179 words
+          438 words
         </span>
       
       
@@ -213,7 +206,7 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~1 min
+          ~3 mins
         </span>
       
     </div>
@@ -254,7 +247,7 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
     </summary>
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
-    <li><a href="#central-simple-algebras">Central Simple Algebras</a></li>
+    <li><a href="#galois-theory-of-étale-algebras">Galois Theory of Étale Algebras</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -265,15 +258,9 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
     
     <p>Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow <a href="#bib-Poo17" class="bib-cite">[Poo17]</a>
  with some other sources as supplements.</p>
-<p>We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an <em>admissible</em> set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring
-$$
-\mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\}
-$$
-with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product
-$$
-\mathbb A_{K,S}=
-$$</p>
-<h2 id="central-simple-algebras">Central Simple Algebras</h2>
+<p>We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an <em>admissible</em> set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O_{K, S}$ the $S$-integers of $K$ with $\mathcal O_K=\mathcal O_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.</p>
+<h2 id="galois-theory-of-étale-algebras">Galois Theory of Étale Algebras</h2>
+<p>The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
 
 
 
@@ -284,7 +271,51 @@ $$</p>
           data-label='Definition'></span>
   </span>
   <span class="thm-body">
-    This is a definition
+    <p>A $K$-algebra $L$ is said to be <em>étale</em> if any of the following equivalent conditions are satisfied</p>
+<ol>
+<li>$L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,</li>
+<li>$L$ is a direct product of finite separable extensions of $K$,</li>
+<li>the induced map $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is finite and étale.</li>
+</ol>
+  </span>
+</div>
+
+The following is Grothendieck&rsquo;s generalization of Galois theory.</p>
+<p>
+
+
+
+<div class="thm-env thm-plain" data-level="2">
+  <span class="thm-heading">
+    <span class="thm-title"
+          data-label='Theorem'></span>
+  </span>
+  <span class="thm-body">
+    There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
+  </span>
+</div>
+
+<div class="proof-env">
+  <span class="thm-heading proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+  <span class="thm-body proof-body">
+    See <a href="#bib-GR71">[GR71, V.7 and Proposition V.8.1]</a>.
+  </span>
+  <span class="proof-qed"></span>
+</div>
+</p>
+
+
+
+
+<div class="thm-env thm-defn" data-level="2">
+  <span class="thm-heading">
+    <span class="thm-title"
+          data-label='Example'></span>
+  </span>
+  <span class="thm-body">
+    Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
   </span>
 </div>
 
@@ -297,6 +328,10 @@ $$</p>
   <li id="bib-Poo17">
   <span class="bib-label">[Poo17]</span>
   Bjorn Poonen, <em>Rational Points on Varieties</em>, American Mathematical Soc., 2017.
+</li>
+  <li id="bib-GR71">
+  <span class="bib-label">[GR71]</span>
+  Alexander Grothendieck, Michèle Raynaud, <em>Revêtements étales et groupe fondamental (SGA I)</em>, Lecture Notes in Mathematics 224, Springer, 1971.
 </li>
 
   </ul>

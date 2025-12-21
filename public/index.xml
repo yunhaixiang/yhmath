@@ -14,15 +14,9 @@
       <guid>http://localhost:1313/posts/brauer1/</guid>
       <description>&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;a href=&#34;#bib-Poo17&#34; class=&#34;bib-cite&#34;&gt;[Poo17]&lt;/a&gt;
  with some other sources as supplements.&lt;/p&gt;
-&lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, the $S$-integers of $K$ is the ring
-$$
-\mathbb Z_{K,S}=\{a\in K:|a|_{\mathfrak p}\le 1 \textrm{ for all }\mathfrak p\in\Omega_K\setminus S\}
-$$
-with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. Let the ring of $S$-adeles be the restricted direct product
-$$
-\mathbb A_{K,S}=
-$$&lt;/p&gt;
-&lt;h2 id=&#34;central-simple-algebras&#34;&gt;Central Simple Algebras&lt;/h2&gt;
+&lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathcal O_{K, S}$ the $S$-integers of $K$ with $\mathcal O_K=\mathcal O_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.&lt;/p&gt;
+&lt;h2 id=&#34;galois-theory-of-étale-algebras&#34;&gt;Galois Theory of Étale Algebras&lt;/h2&gt;
+&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
 
 
 
@@ -33,7 +27,51 @@ $$&lt;/p&gt;
           data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;thm-body&#34;&gt;
-    This is a definition
+    &lt;p&gt;A $K$-algebra $L$ is said to be &lt;em&gt;étale&lt;/em&gt; if any of the following equivalent conditions are satisfied&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,&lt;/li&gt;
+&lt;li&gt;$L$ is a direct product of finite separable extensions of $K$,&lt;/li&gt;
+&lt;li&gt;the induced map $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is finite and étale.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+The following is Grothendieck&amp;rsquo;s generalization of Galois theory.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34;&gt;
+  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body proof-body&#34;&gt;
+    See &lt;a href=&#34;#bib-GR71&#34;&gt;[GR71, V.7 and Proposition V.8.1]&lt;/a&gt;.
+  &lt;/span&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
+  &lt;span class=&#34;thm-heading&#34;&gt;
+    &lt;span class=&#34;thm-title&#34;
+          data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;thm-body&#34;&gt;
+    Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
   &lt;/span&gt;
 &lt;/div&gt;
 
@@ -46,6 +84,10 @@ $$&lt;/p&gt;
   &lt;li id=&#34;bib-Poo17&#34;&gt;
   &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   Bjorn Poonen, &lt;em&gt;Rational Points on Varieties&lt;/em&gt;, American Mathematical Soc., 2017.
+&lt;/li&gt;
+  &lt;li id=&#34;bib-GR71&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
+  Alexander Grothendieck, Michèle Raynaud, &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;, Lecture Notes in Mathematics 224, Springer, 1971.
 &lt;/li&gt;
 
   &lt;/ul&gt;

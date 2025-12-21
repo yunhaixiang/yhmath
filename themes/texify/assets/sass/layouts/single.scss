@@ -129,15 +129,9 @@ h4 {
 /* every environment increments the shared theorem counter */
 .thm-env {
   counter-increment: thm;
-  margin: 1.5rem 0;
+  margin: 0 0;
 }
 
-
-/* every environment increments shared theorem counter */
-.thm-env {
-  counter-increment: thm;
-  margin: 1.5rem 0;
-}
 
 /* level 1: just theorem counter */
 .thm-env[data-level="1"] .thm-title::before {
