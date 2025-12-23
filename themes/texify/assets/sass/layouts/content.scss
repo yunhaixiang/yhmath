@@ -39,7 +39,7 @@
     overflow-x: auto;
     overflow-y: hidden;
   }
-
+  /* Force symmetric spacing around display math */
   :last-child {
     margin-bottom: 0;
   }
@@ -345,14 +345,10 @@ button.copy-button {
   }
 }
 
-.post-content {
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  overflow-wrap: break-word;
 
-  hyphenate-limit-chars: 6 3 3;  /* min word / before / after */
-}
-
-.post-content p {
-  hyphens: auto;
+/* force symmetric space around KaTeX display math */
+span.katex-display {
+  display: block !important;
+  margin-top: 0.7rem !important;
+  margin-bottom: 0.7rem !important;
 }
