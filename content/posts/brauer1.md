@@ -29,10 +29,10 @@ There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\tex
 {{< /theorem >}}
 
 {{< proof >}}
-See {{< cite key="GR71" note="V.7 and Proposition V.8.1" >}}. {{< refer "example1">}} with some text. Updated.
+See {{< cite key="GR71" note="V.7 and Proposition V.8.1" >}}. 
 {{< /proof >}}
 
-{{< example id="example1" >}}
+{{< example >}}
 Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$. 
 {{< /example >}}
 
