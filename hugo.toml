@@ -25,6 +25,11 @@ defaultMarkdownHandler = "goldmark"
 tags = "tags"
 categories = "categories"
 
+[minify]
+  disableHTML = false
+
+[minify.tdewolff.html]
+  keepWhitespace = true
 
 [params]
 title = "Yunhai Xiang"
