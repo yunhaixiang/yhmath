@@ -220,6 +220,12 @@
   margin-left: 0.4em;
 }
 
+/* Tighten spacing when a proof/solution immediately follows a theorem */
+.math-env + .proof-env,
+.math-env + .solution-env {
+  margin-top: -0.75rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
+}
+
 body { counter-reset: fig; }
 
 .fig-env {
