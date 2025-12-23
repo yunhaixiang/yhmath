@@ -51,10 +51,8 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
 &lt;/div&gt;
 
 &lt;p&gt;Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the category of groups, which is a free product with amalgamation,&lt;/p&gt;
-
-
 &lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0.5rem;&#34;&gt;
+        style=&#34;--quiver-radius: 0rem;&#34;&gt;
   &lt;iframe
     class=&#34;quiver-embed&#34;
     src=&#34;https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
@@ -64,7 +62,10 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
       width: 100%;
       height: 180px;
       border: 0;
-      transform: scale(1.5);
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.5);
       transform-origin: center;
     &#34;
   &gt;&lt;/iframe&gt;

@@ -261,7 +261,12 @@ body { counter-reset: fig; }
   text-align: center;      /* 容器内容居中 */
 }
 
+/* Disable q.uiver watermarks */
 .quiver-wrapper iframe { pointer-events: none; }
+
+@media (max-width: 768px), (pointer: coarse) {
+  .quiver-wrapper iframe { pointer-events: none; }
+}
 
 .quiver-wrapper iframe {
   display: block; 
