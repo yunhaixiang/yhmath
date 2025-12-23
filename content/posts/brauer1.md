@@ -6,7 +6,7 @@ tags: [math, algebra, algebraic-geometry, number-theory]
 categories: [expositions]
 ---
 
-Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow {{< cite "Poo17" >}} with some other sources as supplements.
+Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow {{< cite "Poo17" >}}  with some other sources as supplements.
 
 We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an *admissible* set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.
 
@@ -27,6 +27,7 @@ A $K$-algebra $L$ is said to be *étale* if any of the following equivalent cond
 {{< theorem >}}
 There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
 {{< /theorem >}}
+
 {{< proof >}}
 See {{< cite key="GR71" note="V.7 and Proposition V.8.1" >}}. 
 {{< /proof >}}

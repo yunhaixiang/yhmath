@@ -4,6 +4,13 @@
 @use "../syntax" as *;
 
 .content {
+  .content p {
+    letter-spacing: normal;
+    word-spacing: normal;
+  }
+  .content p a + text {
+    letter-spacing: normal;
+  }
   .wenkai {
     font-family: "LXGW WenKai",
                "Songti SC", "STSong",
