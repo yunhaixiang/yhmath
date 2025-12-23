@@ -1,0 +1,14 @@
+{{/* layouts/shortcodes/pullquote.html */}}
+
+{{- $author := .Get "author" | default "" -}}
+{{- $width := .Get "width" | default "50%" -}} 
+
+<aside class="yh-pullquote" style="--yh-pullquote-w: {{ $width }};">
+  <div class="yh-pullquote-text">
+    {{ .Inner | markdownify }}
+  </div>
+
+  {{- if $author -}}
+    <div class="yh-pullquote-attrib">— {{ $author }}</div>
+  {{- end -}}
+</aside>

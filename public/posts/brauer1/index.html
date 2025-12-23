@@ -10,10 +10,13 @@
 
   
   
-  <meta name="description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow 
+  <meta name="description" content="
+  
+    The introduction of cohomology is a technique for making the invisible visible.
+  — Alexander Grothendieck
+Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow 
   ⟦cite:Poo17⟧
- with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
+ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
   
 
   
@@ -53,13 +56,12 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
   <meta property="og:url" content="http://localhost:1313/posts/brauer1/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Brauer Groups Part I">
-  <meta property="og:description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
+  <meta property="og:description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-12-19T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-12-23T02:43:08-05:00">
+    <meta property="article:modified_time" content="2025-12-23T03:34:20-05:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebra">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -73,11 +75,10 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
   
   
   <meta itemprop="name" content="Brauer Groups Part I">
-  <meta itemprop="description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
+  <meta itemprop="description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
   <meta itemprop="datePublished" content="2025-12-19T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-12-23T02:43:08-05:00">
-  <meta itemprop="wordCount" content="533">
+  <meta itemprop="dateModified" content="2025-12-23T03:34:20-05:00">
+  <meta itemprop="wordCount" content="508">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -88,7 +89,7 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
 
   
   
-    <link rel="stylesheet" href="/css/content.min.aa8bcb23cd15d5173166cd4a090d6c8d9b364a1b538cf8db50e122448571b477.css" integrity="sha256-qovLI80V1RcxZs1KCQ1sjZs2ShtTjPjbUOEiRIVxtHc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.6542b8a683f0d8641049176d38949688d9ac2189edc2e6e5aa169c0da7398442.css" integrity="sha256-ZUK4poPw2GQQSRdtOJSWiNmsIYntwublqhacDac5hEI=" crossorigin="anonymous">
   
 
   
@@ -100,8 +101,7 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Brauer Groups Part I">
-  <meta name="twitter:description" content="Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with some other sources as supplements.
-We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an admissible set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.">
+  <meta name="twitter:description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
 
 
   
@@ -194,7 +194,7 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          533 words
+          508 words
         </span>
       
       
@@ -257,11 +257,15 @@ We fix some notation and terminology. We fix a field $K$ with algebraic closure 
   
   <article class="content numbered-subtitles">
     
-    <p>Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow <span class="yh-ref" data-ref-kind="bib"
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    The introduction of cohomology is a <em>technique</em> for making the invisible visible.
+  </div><div class="yh-pullquote-attrib">— Alexander Grothendieck</div></aside>
+<p>Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow <span class="yh-ref" data-ref-kind="bib"
       data-cite-key="Poo17">
   ⟦cite:Poo17⟧
-</span> with some other sources as supplements.</p>
-<p>We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an <em>admissible</em> set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.</p>
+</span> with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.</p>
+<p>We begin by fixing some notation and terminology common in algebraic number theory. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an <em>admissible</em> set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.</p>
 <h2 id="galois-theory-of-étale-algebras">Galois Theory of Étale Algebras</h2>
 <p>The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras in <span class="yh-ref" data-ref-kind="math" data-ref-id="def-etale">⟦ref:def-etale⟧</span>, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
 <div class="math-env style-defn" 
@@ -309,19 +313,6 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   </span>
   <span class="proof-qed"></span>
 </div>
-<div class="math-env style-defn" 
-    
-     data-kind="example"
-     data-lang="en">
-  <span class="math-heading">
-  <span class="math-title"
-        data-label='Example'></span>
-  </span>
-  <span class="math-body">
-    Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
-  </span>
-</div>
-
 <div class="math-env style-defn" 
     
      data-kind="example"

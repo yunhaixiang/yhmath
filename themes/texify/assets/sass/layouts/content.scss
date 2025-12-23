@@ -312,3 +312,35 @@ button.copy-button {
     }
   }
 }
+
+
+.yh-pullquote{
+  float: right;
+  width: var(--yh-pullquote-w, 14rem);
+  margin: 0.2rem 0 0.25rem 0.75rem; /* top right bottom left */
+  padding: 0.6rem 0.8rem;
+  border-left: 3px solid rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.03);
+  border-radius: 0.5rem;
+}
+
+.yh-pullquote-text{
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.yh-pullquote-attrib{
+  margin-top: 0.4rem;
+  text-align: right;     /* right aligned */
+  font-style: normal;    /* normal attribution */
+  opacity: 0.85;
+}
+
+/* Mobile: don’t squeeze the text; drop quote to normal flow */
+@media (max-width: 700px){
+  .yh-pullquote{
+    float: none;
+    width: auto;
+    margin: 0.75rem 0;
+  }
+}
