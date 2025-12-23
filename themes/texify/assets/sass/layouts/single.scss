@@ -265,7 +265,24 @@ body { counter-reset: fig; }
 .quiver-wrapper iframe { pointer-events: none; }
 
 @media (max-width: 768px), (pointer: coarse) {
-  .quiver-wrapper iframe { pointer-events: none; }
+  .quiver-wrapper {
+    position: relative;
+  }
+
+  /* transparent overlay that blocks taps but allows page scroll */
+  .quiver-wrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: auto;
+    touch-action: pan-y;   /* allow vertical scrolling */
+    background: transparent;
+  }
+
+  /* keep iframe normal so scrolling isn’t borked */
+  .quiver-wrapper iframe {
+    pointer-events: auto;
+  }
 }
 
 .quiver-wrapper iframe {
