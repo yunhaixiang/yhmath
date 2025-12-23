@@ -336,6 +336,21 @@ button.copy-button {
   opacity: 0.85;
 }
 
+/* --- Pullquote: dark mode contrast fix (keeps your layout unchanged) --- */
+body.darkmode .yh-pullquote{
+  border-left: 3px solid rgba(251,241,199,0.22);   /* #fbf1c7 tint */
+  background: rgba(251,241,199,0.06);
+}
+
+body.darkmode .yh-pullquote-attrib{
+  opacity: 0.9;  /* slightly clearer in dark */
+}
+
+body.darkmode .yh-pullquote{
+  background: rgba(251,241,199,0.09);
+  border-left: 3px solid rgba(251,241,199,0.28);
+}
+
 /* Mobile: don’t squeeze the text; drop quote to normal flow */
 @media (max-width: 700px){
   .yh-pullquote{
