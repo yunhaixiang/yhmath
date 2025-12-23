@@ -12,17 +12,15 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/brauer1/</guid>
-      <description>
-
-&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 16rem;&#34;&gt;
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
 &lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
-&lt;/span&gt; with some other sources as supplements.&lt;/p&gt;
-&lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.&lt;/p&gt;
+&lt;/span&gt; with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.&lt;/p&gt;
+&lt;p&gt;We begin by fixing some notation and terminology common in algebraic number theory. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.&lt;/p&gt;
 &lt;h2 id=&#34;galois-theory-of-étale-algebras&#34;&gt;Galois Theory of Étale Algebras&lt;/h2&gt;
 &lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-etale&#34;&gt;⟦ref:def-etale⟧&lt;/span&gt;, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
 &lt;div class=&#34;math-env style-defn&#34; 
