@@ -2,9 +2,13 @@
 
 {{- $src := .Get "src" | default (.Get 0) -}}
 {{- $width := .Get "width" | default "100%" -}}
-{{- $height := .Get "height" | default "400px" -}}
-{{- $scale := .Get "scale" | default "1" -}}         {{/* e.g. 1.05 */}}
-{{- $radius := .Get "radius" | default "0.5rem" -}}  {{/* optional */}}
+{{- $height := .Get "height" | default "180px" -}}
+
+{{- $scale := .Get "scale" | default "1" -}}
+{{- $tx := .Get "tx" | default "0" -}}   {{/* e.g. "10px", "-0.5rem" */}}
+{{- $ty := .Get "ty" | default "0" -}}   {{/* e.g. "6px" */}}
+
+{{- $radius := .Get "radius" | default "0rem" -}}
 
 <figure class="quiver-wrapper"
         style="--quiver-radius: {{ $radius }};">
@@ -17,7 +21,10 @@
       width: {{ $width }};
       height: {{ $height }};
       border: 0;
-      transform: scale({{ $scale }});
+      transform:
+        translateX({{ $tx }})
+        translateY({{ $ty }})
+        scale({{ $scale }});
       transform-origin: center;
     "
   ></iframe>

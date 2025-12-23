@@ -182,8 +182,8 @@ $\KaTeX$ supports simple commutative diagrams, but it does not allow advanced fe
 
 {{< quiver
     src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQiJdLFsxLDEsIkMiXSxbMiwwLCJEIl0sWzAsMSwiIiwwLHsiY3VydmUiOi0yfV0sWzAsMSwiIiwyLHsiY3VydmUiOjJ9XSxbMSwyXSxbMiwzXSxbMSwzXV0=&embed"
-    width="60%"
-    height="200px">}}
+    scale="1.4"
+    ty="10px">}}
 
 I wrote a shortcode for it to avoid the iframe being escaped by the theme. 
 

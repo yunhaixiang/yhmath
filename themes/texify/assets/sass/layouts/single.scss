@@ -261,6 +261,8 @@ body { counter-reset: fig; }
   text-align: center;      /* 容器内容居中 */
 }
 
+.quiver-wrapper iframe { pointer-events: none; }
+
 .quiver-wrapper iframe {
   display: block; 
   margin: 0 auto;
