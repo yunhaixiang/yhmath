@@ -5,6 +5,11 @@ defaultMarkdownHandler = "goldmark"
       unsafe = true
     [markup.goldmark.extensions]
       typographer = false
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          inline = [["$", "$"], ["\\(", "\\)"]]
+          block  = [["$$", "$$"], ["\\[", "\\]"]]
 
   [markup.highlight]
   codeFences = true

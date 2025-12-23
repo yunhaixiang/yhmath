@@ -68,7 +68,7 @@
   <meta itemprop="description" content="In this post, we test mathematical typesettings.">
   <meta itemprop="datePublished" content="2019-03-12T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-12-06T16:58:46-05:00">
-  <meta itemprop="wordCount" content="916">
+  <meta itemprop="wordCount" content="934">
 
   
   
@@ -78,7 +78,7 @@
 
   
   
-    <link rel="stylesheet" href="/css/content.min.82f4c312cddd46e1ef74cd737dea5164511d9cfd1bf45d66054d2d4fd4fead38.css" integrity="sha256-gvTDEs3dRuHvdM1zfepRZFEdnP0b9F1mBU0tT9T&#43;rTg=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.aa8bcb23cd15d5173166cd4a090d6c8d9b364a1b538cf8db50e122448571b477.css" integrity="sha256-qovLI80V1RcxZs1KCQ1sjZs2ShtTjPjbUOEiRIVxtHc=" crossorigin="anonymous">
   
 
   
@@ -96,7 +96,7 @@
   
 
 
-  <link rel="stylesheet" href="/css/single.min.b056d7db231bad7e5bce83d1e69447f949920f2975f718d06a4d6ca386cf06ed.css" integrity="sha256-sFbX2yMbrX5bzoPR5pRH&#43;UmSDyl19xjQak1so4bPBu0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.5f35fb6b67a3a8fac5c4dec59567c62c33cee0afdda5dc64e932dee99694974c.css" integrity="sha256-XzX7a2ejqPrFxN7FlWfGLDPO4K/dpdxk6TLe6ZaUl0w=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -183,7 +183,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          916 words
+          934 words
         </span>
       
       
@@ -232,301 +232,284 @@
 <p>We use $\KaTeX$. First we test inline math</p>
 <p>This is some random math $\zeta(s)=\sum_{n=1}^\infty \frac{1}{n^s}$ and here is more text.</p>
 <p>How about block math, does it look okay? Let $H_n=1+\frac{1}{2}+\cdots+\frac{1}{n}$ be the harmonic numbers, show that</p>
-<p>$$\lim_{k\rightarrow\infty} \sum_{n_1=1}^\infty \sum_{n_2=1}^\infty \cdots\sum_{n_k=1}^\infty (-1)^{n_1+\cdots+n_k}\frac{H_{n_1}H_{n_2}\cdots H_{n_k}}{1+n_1+n_2+\cdots+n_k}=0$$</p>
-<p><strong>Note:</strong> Never use double dollar sign inline, always use in newline. How about matrices, does this look good?</p>
-<p>$$\det \begin{pmatrix}
-\gcd(1,1)&amp; \gcd (1,2)&amp; \cdots &amp;\gcd(1,n)\\
-\gcd(2,1)&amp;\gcd(2,2)&amp; \cdots &amp;\gcd(2,n)\\
-\vdots &amp;\ddots &amp; \vdots&amp; \vdots\\
-\gcd(n,1)&amp;\gcd(n,2)&amp;\cdots&amp;\gcd(n,n)
-\end{pmatrix}=\varphi(1)\varphi(2)\cdots \varphi(n)$$</p>
-<p><strong>Note:</strong> it seems that you must use three backslashes for new row.</p>
-<p>Now I&rsquo;m going to stress test it with very long formulas, does it overflow? can it slide left and right?</p>
-<p>$$
-\frac{1}{2 \pi i} \int_{|s|=1 / \mathcal{L}} \frac{\vartheta_1(d, s) G_1(s)}{\zeta(1+s)^{k_0}} \frac{(D / d)^s d s}{s^{k_0+l_0+1}}-\frac{1}{2 \pi i} \vartheta_1(d) \mathfrak{S} \int_{|s|=1 / \mathcal{L}} \frac{(D / d)^s d s}{s^{l_0+1}} \ll \mathcal{L}^{l_0-1+\varepsilon}= \sum_{\psi \in \Psi_1} \sum_{\rho \in \mathcal{Z}(\psi)} \mathcal{C}^*(\rho, \psi)\left|H_1(\rho, \psi)+Z(\rho, \chi \psi) \overline{H_2(\rho, \psi)}\right|^2 \omega(\rho)&lt;0.001 \mathfrak{a} \mathcal{P},
-$$</p>
-<p>Now I want to test if <code>\align</code> and <code>\alignat</code> work? Firstly,</p>
-<p>$$
+$$\lim_{k\rightarrow\infty} \sum_{n_1=1}^\infty \sum_{n_2=1}^\infty \cdots\sum_{n_k=1}^\infty (-1)^{n_1+\cdots+n_k}\frac{H_{n_1}H_{n_2}\cdots H_{n_k}}{1+n_1+n_2+\cdots+n_k}=0$$<p><strong>Note:</strong> Never use double dollar sign inline, always use in newline. How about matrices, does this look good?</p>
+$$\det \begin{pmatrix}
+\gcd(1,1)& \gcd (1,2)& \cdots &\gcd(1,n)\\\
+\gcd(2,1)&\gcd(2,2)& \cdots &\gcd(2,n)\\\
+\vdots &\ddots & \vdots& \vdots\\\
+\gcd(n,1)&\gcd(n,2)&\cdots&\gcd(n,n) 
+\end{pmatrix}=\varphi(1)\varphi(2)\cdots \varphi(n)$$<p><strong>Note:</strong> it seems that you must use three backslashes for new row.</p>
+<p>Now I'm going to stress test it with very long formulas, does it overflow? can it slide left and right?</p>
+$$
+\frac{1}{2 \pi i} \int_{|s|=1 / \mathcal{L}} \frac{\vartheta_1(d, s) G_1(s)}{\zeta(1+s)^{k_0}} \frac{(D / d)^s d s}{s^{k_0+l_0+1}}-\frac{1}{2 \pi i} \vartheta_1(d) \mathfrak{S} \int_{|s|=1 / \mathcal{L}} \frac{(D / d)^s d s}{s^{l_0+1}} \ll \mathcal{L}^{l_0-1+\varepsilon}= \sum_{\psi \in \Psi_1} \sum_{\rho \in \mathcal{Z}(\psi)} \mathcal{C}^*(\rho, \psi)\left|H_1(\rho, \psi)+Z(\rho, \chi \psi) \overline{H_2(\rho, \psi)}\right|^2 \omega(\rho)<0.001 \mathfrak{a} \mathcal{P},
+$$<p>Now I want to test if <code>\align</code> and <code>\alignat</code> work? Firstly,</p>
+$$
 \begin{align}
-a&amp;=b+c \\
-d+e&amp;=f
+   a&=b+c \\\
+   d+e&=f
 \end{align}
-$$</p>
-<p>Secondly,</p>
-<p>$$
+$$<p>Secondly,</p>
+$$
 \begin{alignat}{2}
-10&amp;x+&amp;3&amp;y=2\\
-3&amp;x+&amp;13&amp;y=4
+   10&x+&3&y=2\\\
+   3&x+&13&y=4
 \end{alignat}
-$$</p>
-<p>How about different mathematical fonts</p>
-<p>$$ABC, \mathcal{ABC}, \mathrm{ABC}, \mathbf{ABC}, \mathfrak{ABC}, \mathbb{ABC}, \mathscr{ABC}, $$</p>
-<p>Hebrew letters fine? $\aleph,\beth, \gimel, \daleth, \gimel$, seems good. Greek letters? $\alpha, \beta, \gamma, \Gamma, \Sigma$. How about variants? $\varphi, \varepsilon, \vartheta$.</p>
+$$<p>How about different mathematical fonts</p>
+$$ABC, \mathcal{ABC}, \mathrm{ABC}, \mathbf{ABC}, \mathfrak{ABC}, \mathbb{ABC}, \mathscr{ABC}, $$<p>Hebrew letters fine? $\aleph,\beth, \gimel, \daleth, \gimel$, seems good. Greek letters? $\alpha, \beta, \gamma, \Gamma, \Sigma$. How about variants? $\varphi, \varepsilon, \vartheta$.</p>
 <p>中文行不行？我来试试中文的行间数学公式 $e^{i\theta}=\cos\theta+i\sin\theta$ 后面再来一点文字。是否能在TeX中用中文？</p>
-<p>$$\textrm{古来云海茫茫，道山绛阙知何处？}$$</p>
-<p>能不能使用中文角标？测试一下$F_{浮}=\rho_{液}gV_{排}$</p>
+$$\textrm{古来云海茫茫，道山绛阙知何处？}$$<p>能不能使用中文角标？测试一下$F_{浮}=\rho_{液}gV_{排}$</p>
 <p>Emojis in math $😀^2+😛^2=😚^2$<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h2 id="environments">Environments</h2>
-<p>Here we test various theorem, example, definition, remark, etc, environments. <a href="#bib-Ser79" class="bib-cite">[Ser79]</a>
-.</p>
+<p>Here we test various theorem, example, definition, remark, etc, environments. <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Ser79">
+  ⟦cite:Ser79⟧
+</span>.</p>
 <p>Currently, they cannot process shortcodes within them. This is not easy to solve, so i can only leave it as it is right now.</p>
-<p>
-
-
-
-<div class="thm-env thm-plain" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Theorem'></span> <span class="thm-note">(Euler, 1888)</span>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Euler, 1888)</span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     <p>Let $K$ be a number field and let $\mathfrak{p}$ be a nonzero prime ideal of $\mathcal{O}_K$.</p>
 <p>Then
+</p>
 $$
 \mathcal{O}_{K,\mathfrak{p}}
-$$
+$$<p>
 is a discrete valuation ring.</p>
 
   </span>
 </div>
 
 <div class="proof-env">
-  <span class="thm-heading proof-heading">
+  <span class="proof-heading">
     <span class="proof-title">Proof.</span> <span class="proof-note">(Sketch)</span>
   </span>
-  <span class="thm-body proof-body">
+
+  <span class="proof-body">
     Only the main idea will be explained here… $E=mc^2$.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condimentum sapien, non posuere sapien finibus eget. In vel rutrum massa, non vulputate augue. Quisque at gravida elit. Nam blandit, nunc et fringilla ultrices, massa tortor molestie tortor, in feugiat leo justo nec orci. Etiam molestie ultricies mauris,
   </span>
   <span class="proof-qed"></span>
-</div>
-</p>
-
-
-
-
-<div class="thm-env thm-plain" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Lemma'></span>
+</div></p>
+<div class="math-env style-plain" 
+    
+     data-kind="lemma"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     Let $R$ be a discrete valuation ring with maximal ideal $\mathfrak{m}$. Then every nonzero ideal of $R$ is of the form $\mathfrak{m}^n$ for a unique integer $n \ge 0$.
   </span>
 </div>
 
-<p>
-
-
-
-<div class="thm-env thm-plain" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Proposition'></span> <span class="thm-note">(Standard folklore)</span>
+<p><div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span> <span class="math-note">(Standard folklore)</span>
   </span>
-  <span class="thm-body">
-    Let $K$ be the fraction field of a discrete valuation ring $R$. Then every nonzero $x \in K^\times$ can be written uniquely as
+  <span class="math-body">
+    <p>Let $K$ be the fraction field of a discrete valuation ring $R$. Then every nonzero $x \in K^\times$ can be written uniquely as
+</p>
 $$
 x = u \pi^n
-$$
-with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.
+$$<p>
+with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.</p>
+
   </span>
 </div>
 
 <div class="proof-env">
-  <span class="thm-heading proof-heading">
+  <span class="proof-heading">
     <span class="proof-title">证明.</span>
   </span>
-  <span class="thm-body proof-body">
+
+  <span class="proof-body">
     Yada Yada.
   </span>
   <span class="proof-qed"></span>
-</div>
-</p>
-
-
-
-
-<div class="thm-env thm-plain" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Corollary'></span>
+</div></p>
+<div class="math-env style-plain" 
+    
+     data-kind="corollary"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Corollary'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     With notation as above, the valuation $v : K^\times \to \mathbb{Z}$ defined by $x = u\pi^{v(x)}$ is well-defined and surjective.
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-defn" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Definition'></span>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     A <strong>local field</strong> is a field $K$ which is complete with respect to a discrete valuation $v$ and whose residue field is finite.
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-defn" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='例子'></span>
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="zh">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='例子'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     The $p$-adic numbers $\mathbb{Q}_p$ and the field of Laurent series $\mathbb{F}_q((t))$ over a finite field are examples of local fields.
   </span>
 </div>
 
-<p>
-
-
-
-<div class="thm-env thm-defn" data-level="3">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Question'></span>
+<p><div class="math-env style-defn" 
+    
+     data-kind="question"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Question'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     Is every finite extension of a local field again a local field?
   </span>
 </div>
 
 <div class="solution-env">
-  <span class="thm-heading solution-heading">
+  <span class="solution-heading">
     <span class="solution-title">Solution.</span>
   </span>
-  <span class="thm-body solution-body">
+  <span class="solution-body">
     Blah Blah blah.
   </span>
   <span class="solution-qed"></span>
 </div>
 </p>
-<p>
-
-
-
-<div class="thm-env thm-defn" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='猜想'></span> <span class="thm-note">(fake)</span>
+<p><div class="math-env style-defn" 
+    
+     data-kind="conjecture"
+     data-lang="zh">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='猜想'></span> <span class="math-note">(fake)</span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     Every interesting number theorist secretly prefers nonarchimedean fields.
   </span>
 </div>
 
 <div class="solution-env">
-  <span class="thm-heading solution-heading">
+  <span class="solution-heading">
     <span class="solution-title">解.</span>
   </span>
-  <span class="thm-body solution-body">
+  <span class="solution-body">
     Blah Blah blah.
   </span>
   <span class="solution-qed"></span>
 </div>
 </p>
-
-
-
-
-<div class="thm-env thm-remark" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Remark'></span>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     The classification of local fields shows that up to isomorphism there are only three kinds: $\mathbb{R}$, $\mathbb{C}$, and the nonarchimedean ones (which are exactly the finite extensions of $\mathbb{Q}_p$ or $\mathbb{F}_q((t))$).
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-remark" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Convention'></span>
+<div class="math-env style-remark" 
+    
+     data-kind="convention"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Convention'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     Throughout these notes, $p$ will always denote a rational prime <a href="#bib-Knu86">[Knu86]</a>, and $v_p$ the associated $p$-adic valuation on $\mathbb{Q}$.
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-defn" data-level="3">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Exercise'></span>
+<div class="math-env style-defn" 
+    
+     data-kind="exercise"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Exercise'></span>
   </span>
-  <span class="thm-body">
-    Idk what some exercise i guess
+  <span class="math-body">
+    Idk what some exercise i guess <span class="yh-ref" data-ref-kind="fig" data-fig-id="Klein-1">⟦fig:Klein-1⟧</span>
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-plain" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='断言'></span>
+<div class="math-env style-plain" 
+    
+     data-kind="claim"
+     data-lang="zh">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='断言'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     对所有 $p$ 进数域都成立。
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-plain" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Fact'></span>
+<div class="math-env style-defn" 
+    
+     data-kind="fact"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Fact'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     Every finite extension of $\mathbb{Q}_p$ is complete.
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-remark" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Caveat'></span>
+<div class="math-env style-remark" 
+    
+     data-kind="caveat"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Caveat'></span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     The extension need not be Galois; only normal extensions enjoy this property.
   </span>
 </div>
 
-
-
-
-
-<div class="thm-env thm-defn" data-level="2">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='Algorithm'></span> <span class="thm-note">(Toy example)</span>
+<div class="math-env style-defn" 
+    
+     data-kind="algorithm"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Algorithm'></span> <span class="math-note">(Toy example)</span>
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     <ol>
 <li>$i \gets 10$</li>
 <li><strong>if</strong> $i \ge 5$ <strong>then</strong></li>
@@ -542,7 +525,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 </div>
 
 <h2 id="figures">Figures</h2>
-<div class="fig-env" data-level="2">
+<div class="fig-env" id="Klein-1" data-lang="en">
   <div class="fig-body"><img
         src="https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg"
         alt="Klein Bottle"
@@ -568,7 +551,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 <p>I wrote a shortcode for it to avoid the iframe being escaped by the theme.</p>
 <h2 id="references">References</h2>
-<p>Citing can be done with a shortcode <code>cite</code>. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&rsquo;t work). For the latter, opt instead for generic markdown links i.e. <code>[[Knu86]](#bib-Knu86)</code>.</p>
+<p>Citing can be done with a shortcode <code>cite</code>. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won't work). For the latter, opt instead for generic markdown links i.e. <code>[[Knu86]](#bib-Knu86)</code>.</p>
 
 
 <div class="bib-env">
@@ -678,6 +661,9 @@ Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_b
     <span>Copyright © 2025 </span>
   </div>
 </footer>
+
+<script src="/js/math-env.js"></script>
+<script src="/js/fig-env.js"></script>
 
   </div>
 

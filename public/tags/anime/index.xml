@@ -46,7 +46,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10384610/&#34;&gt;&lt;em&gt;Scissor Seven&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt32766897/&#34;&gt;&lt;em&gt;Ranma 1/2&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1515996/&#34;&gt;&lt;em&gt;A Certain Scientific Railgun&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&amp;rsquo;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&#39;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1158671/&#34;&gt;&lt;em&gt;Spice and Wolf&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8253044/&#34;&gt;&lt;em&gt;Hinamatsuri&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt5897304/&#34;&gt;&lt;em&gt;Mob Psycho 100&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
@@ -66,7 +66,7 @@
       <guid>http://localhost:1313/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;ldquo;sitiae dolessi aut parist&amp;rdquo; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
 &lt;p&gt;中文段落测试。&lt;em&gt;君不见黄河之水天上来&lt;/em&gt;，&lt;strong&gt;奔流到海不复回&lt;/strong&gt;。
 &lt;strong&gt;&lt;em&gt;君不见高堂明镜悲白发，朝如青丝暮成雪&lt;/em&gt;&lt;/strong&gt;。
 人生得意须尽欢，&lt;code&gt;莫使金樽空对月&lt;/code&gt;。
@@ -84,11 +84,11 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Don&#39;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
 — Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
-&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
+&lt;p&gt;Tables aren&#39;t part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -125,8 +125,8 @@
           &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
           &lt;td&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;underline&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;highlight&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;ins&gt;underline&lt;/ins&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -154,7 +154,7 @@
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h3&gt;
+&lt;h3 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&#39;s internal highlight shortcode&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
@@ -219,24 +219,24 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Pi (π) — &amp;amp;#960;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a complete list of available HTML entities, refer to Wikipedia’s page on &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references&#34;&gt;HTML entities&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
 &lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
 &lt;div class=&#34;s_video_simple __h_video&#34;&gt;
@@ -247,7 +247,7 @@
             &lt;/div&gt;
           &lt;/a&gt;
         &lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;wenkai-paragraph&#34;&gt;Wenkai paragraph&lt;/h2&gt;
 &lt;div class=&#34;wenkai&#34;&gt;
@@ -267,7 +267,7 @@
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>

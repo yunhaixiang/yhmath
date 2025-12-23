@@ -1,0 +1,3 @@
+{{/* layouts/shortcodes/refer.html */}}
+{{- $id := (.Get 0) | default (.Get "id") | default "" -}}
+<span class="yh-ref" data-ref-kind="math" data-ref-id="{{ $id }}">⟦ref:{{ $id }}⟧</span>

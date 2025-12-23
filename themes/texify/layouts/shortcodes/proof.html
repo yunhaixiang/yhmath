@@ -1,13 +1,15 @@
 {{/* layouts/shortcodes/proof.html */}}
-{{- $lang := .Get "lang" | default "en" -}}
+{{- $lang := .Get "lang" | default .Page.Language.Lang -}}
+{{- $inner := .Inner -}}
 
 <div class="proof-env">
-  <span class="thm-heading proof-heading">
+  <span class="proof-heading">
     <span class="proof-title">
       {{- if eq $lang "zh" -}}证明.{{- else -}}Proof.{{- end -}}
     </span>{{ with .Get "note" }} <span class="proof-note">({{ . }})</span>{{ end }}
   </span>
-  <span class="thm-body proof-body">
+
+  <span class="proof-body">
     {{ .Inner | markdownify }}
   </span>
   <span class="proof-qed"></span>

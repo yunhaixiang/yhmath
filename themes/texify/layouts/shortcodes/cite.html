@@ -1,4 +1,8 @@
 {{/* layouts/shortcodes/cite.html */}}
-{{- $key := .Get "key" | default (.Get 0) -}}
+{{- $key  := .Get "key"  | default (.Get 0) -}}
+{{- $note := .Get "note" | default (.Get 1) | default "" -}}
 
-<a href="#bib-{{ $key }}" class="bib-cite">[{{ $key }}]</a>
+<span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="{{ $key }}"{{ with $note }} data-cite-note="{{ . }}"{{ end }}>
+  ⟦cite:{{ $key }}⟧
+</span>

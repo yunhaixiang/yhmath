@@ -1,11 +1,12 @@
-{{/* layouts/shortcodes/figure.html — self-closing version */}}
-{{- $level   := .Get "level"   | default "2"    -}}
-{{- $src     := .Get "src"     | default ""     -}}
-{{- $alt     := .Get "alt"     | default ""     -}}
-{{- $caption := .Get "caption" | default ""     -}}
-{{- $width   := .Get "width"   | default "60%"  -}}
+{{/* layouts/shortcodes/figure.html */}}
+{{- $id      := .Get "id"      | default "" -}}
+{{- $src     := .Get "src"     | default "" -}}
+{{- $alt     := .Get "alt"     | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $width   := .Get "width"   | default "60%" -}}
+{{- $lang    := .Get "lang"    | default .Page.Language.Lang -}}
 
-<div class="fig-env" data-level="{{ $level }}">
+<div class="fig-env" {{ with $id }}id="{{ . }}"{{ end }} data-lang="{{ $lang }}">
   <div class="fig-body">
     {{- with $src -}}
       <img

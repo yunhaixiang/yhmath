@@ -13,21 +13,22 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/brauer1/</guid>
-      <description>&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;a href=&#34;#bib-Poo17&#34; class=&#34;bib-cite&#34;&gt;[Poo17]&lt;/a&gt;
- with some other sources as supplements.&lt;/p&gt;
+      <description>&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Poo17&#34;&gt;
+  ⟦cite:Poo17⟧
+&lt;/span&gt; with some other sources as supplements.&lt;/p&gt;
 &lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.&lt;/p&gt;
 &lt;h2 id=&#34;galois-theory-of-étale-algebras&#34;&gt;Galois Theory of Étale Algebras&lt;/h2&gt;
-&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-etale&#34;&gt;⟦ref:def-etale⟧&lt;/span&gt;, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-etale&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     &lt;p&gt;A $K$-algebra $L$ is said to be &lt;em&gt;étale&lt;/em&gt; if any of the following equivalent conditions are satisfied&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,&lt;/li&gt;
@@ -37,41 +38,42 @@
   &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&amp;rsquo;s generalization of Galois theory.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+&lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
-    See &lt;a href=&#34;#bib-GR71&#34;&gt;[GR71, V.7 and Proposition V.8.1]&lt;/a&gt;.
+
+  &lt;span class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
+⟦cite:GR71⟧
+&lt;/span&gt;.
   &lt;/span&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
   &lt;/span&gt;
 &lt;/div&gt;
@@ -117,23 +119,23 @@
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/french1/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m learning french. Here&amp;rsquo;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
+      <description>&lt;p&gt;I&#39;m learning french. Here&#39;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
 &lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Latin Letters&lt;/strong&gt;: a/A &amp;ldquo;ah&amp;rdquo;, b/B &amp;ldquo;bay&amp;rdquo;, c/C &amp;ldquo;say&amp;rdquo;, d/D &amp;ldquo;day&amp;rdquo;, e/E &amp;ldquo;uh&amp;rdquo;, f/F &amp;ldquo;ehf&amp;rdquo;, g/G &amp;ldquo;zhay&amp;rdquo;, h/H &amp;ldquo;ash&amp;rdquo;, i/I &amp;ldquo;ee&amp;rdquo;, j/J &amp;ldquo;zhee&amp;rdquo;, k/K &amp;ldquo;kah&amp;rdquo;, l/L &amp;ldquo;ehl&amp;rdquo;, m/M &amp;ldquo;ehm&amp;rdquo;, n/N &amp;ldquo;ehn&amp;rdquo;, o/O &amp;ldquo;oh&amp;rdquo;, p/P &amp;ldquo;pay&amp;rdquo;, q/Q &amp;ldquo;koo&amp;rdquo;, r/R &amp;ldquo;ehrRR&amp;rdquo;, s/S &amp;ldquo;ehs&amp;rdquo;, t/T &amp;ldquo;tay&amp;rdquo;, u/U &amp;ldquo;ü&amp;rdquo;, v/V &amp;ldquo;vay&amp;rdquo;, w/W &amp;ldquo;doo-bluh-vay&amp;rdquo;, x/X &amp;ldquo;eeks&amp;rdquo;, y/Y &amp;ldquo;ee-grek&amp;rdquo;, z/Z &amp;ldquo;zed&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Accute Accents&lt;/strong&gt;: é/É &amp;ldquo;ay&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grave Accents&lt;/strong&gt;: à/À &amp;ldquo;ah&amp;rdquo;, è/È &amp;ldquo;eh&amp;rdquo;, ù/Ù &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Circumflexes&lt;/strong&gt;: â/Â &amp;ldquo;aah&amp;rdquo;, ê/Ê &amp;ldquo;eh&amp;rdquo;, î/Î &amp;ldquo;ee&amp;rdquo;, ô/Ô &amp;ldquo;ooh&amp;rdquo;, û/Û &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tréma (Indicating Vowel Hiatus)&lt;/strong&gt;: ë/Ë &amp;ldquo;eh&amp;rdquo;, ï/Ï &amp;ldquo;ee&amp;rdquo;, ü/Ü &amp;ldquo;ü&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cedilla&lt;/strong&gt;: ç/Ç &amp;ldquo;ss&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ligature&lt;/strong&gt;: œ/Œ &amp;ldquo;euh&amp;rdquo;, æ/Æ &amp;ldquo;ay&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latin Letters&lt;/strong&gt;: a/A &amp;quot;ah&amp;quot;, b/B &amp;quot;bay&amp;quot;, c/C &amp;quot;say&amp;quot;, d/D &amp;quot;day&amp;quot;, e/E &amp;quot;uh&amp;quot;, f/F &amp;quot;ehf&amp;quot;, g/G &amp;quot;zhay&amp;quot;, h/H &amp;quot;ash&amp;quot;, i/I &amp;quot;ee&amp;quot;, j/J &amp;quot;zhee&amp;quot;, k/K &amp;quot;kah&amp;quot;, l/L &amp;quot;ehl&amp;quot;, m/M &amp;quot;ehm&amp;quot;, n/N &amp;quot;ehn&amp;quot;, o/O &amp;quot;oh&amp;quot;, p/P &amp;quot;pay&amp;quot;, q/Q &amp;quot;koo&amp;quot;, r/R &amp;quot;ehrRR&amp;quot;, s/S &amp;quot;ehs&amp;quot;, t/T &amp;quot;tay&amp;quot;, u/U &amp;quot;ü&amp;quot;, v/V &amp;quot;vay&amp;quot;, w/W &amp;quot;doo-bluh-vay&amp;quot;, x/X &amp;quot;eeks&amp;quot;, y/Y &amp;quot;ee-grek&amp;quot;, z/Z &amp;quot;zed&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accute Accents&lt;/strong&gt;: é/É &amp;quot;ay&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grave Accents&lt;/strong&gt;: à/À &amp;quot;ah&amp;quot;, è/È &amp;quot;eh&amp;quot;, ù/Ù &amp;quot;ü&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Circumflexes&lt;/strong&gt;: â/Â &amp;quot;aah&amp;quot;, ê/Ê &amp;quot;eh&amp;quot;, î/Î &amp;quot;ee&amp;quot;, ô/Ô &amp;quot;ooh&amp;quot;, û/Û &amp;quot;ü&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tréma (Indicating Vowel Hiatus)&lt;/strong&gt;: ë/Ë &amp;quot;eh&amp;quot;, ï/Ï &amp;quot;ee&amp;quot;, ü/Ü &amp;quot;ü&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cedilla&lt;/strong&gt;: ç/Ç &amp;quot;ss&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ligature&lt;/strong&gt;: œ/Œ &amp;quot;euh&amp;quot;, æ/Æ &amp;quot;ay&amp;quot;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pronouns&#34;&gt;Pronouns&lt;/h2&gt;
 &lt;h3 id=&#34;subject-pronouns&#34;&gt;Subject Pronouns&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Singular&lt;/strong&gt;:
 &lt;ul&gt;
-&lt;li&gt;je/j&amp;rsquo; (sg.) = I&lt;/li&gt;
+&lt;li&gt;je/j&#39; (sg.) = I&lt;/li&gt;
 &lt;li&gt;tu (sg.) = you&lt;/li&gt;
 &lt;li&gt;il (m.sg.) = he&lt;/li&gt;
 &lt;li&gt;elle (f.sg.) = she&lt;/li&gt;
@@ -151,13 +153,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Clitic (Before Verbs Unless in Positive Affirmative Commands)&lt;/strong&gt;:
 &lt;ul&gt;
-&lt;li&gt;me/m&amp;rsquo; (sg.) = (to +) me&lt;/li&gt;
-&lt;li&gt;te/t&amp;rsquo; (sg.infm.), vous (sg.form.) = (to +) you&lt;/li&gt;
+&lt;li&gt;me/m&#39; (sg.) = (to +) me&lt;/li&gt;
+&lt;li&gt;te/t&#39; (sg.infm.), vous (sg.form.) = (to +) you&lt;/li&gt;
 &lt;li&gt;vous (pl.) = (to +) you (pl.)&lt;/li&gt;
-&lt;li&gt;se/s&amp;rsquo; (ref.) = (to +) himself, (to +) herself, (to +) itself, (to +) themelves&lt;/li&gt;
+&lt;li&gt;se/s&#39; (ref.) = (to +) himself, (to +) herself, (to +) itself, (to +) themelves&lt;/li&gt;
 &lt;li&gt;nous (pl.) = (to +) us&lt;/li&gt;
-&lt;li&gt;le/l&amp;rsquo; (m.sg.) =  him, it&lt;/li&gt;
-&lt;li&gt;la/l&amp;rsquo; (f.sg.) = her, it&lt;/li&gt;
+&lt;li&gt;le/l&#39; (m.sg.) =  him, it&lt;/li&gt;
+&lt;li&gt;la/l&#39; (f.sg.) = her, it&lt;/li&gt;
 &lt;li&gt;les (pl.) = them&lt;/li&gt;
 &lt;li&gt;lui (sg.) = to him, to her&lt;/li&gt;
 &lt;li&gt;leur (pl.) = to them&lt;/li&gt;
@@ -180,9 +182,9 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Important Notes:&lt;/strong&gt;
 &lt;ol&gt;
-&lt;li&gt;Positive affirmative commands do not follow the usual rules above, instead, pronouns comes after the verb connected with a hyphen, e.g. &amp;ldquo;Regarde-moi&amp;rdquo;, &amp;ldquo;Vas-y&amp;rdquo;, &amp;ldquo;Montre-la-leur&amp;rdquo;, and &amp;ldquo;Levons-nous&amp;rdquo;. In negatative affirmative commands, they revert to the usual order, e.g. &amp;ldquo;Ne parle pas&amp;rdquo; and &amp;ldquo;Ne t’en va pas&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Clitics must be ordered as (me / te / se / nous /vous) + (le / la / les) + (lui / leur) + y + en, e.g. &amp;ldquo;Je te le donne&amp;rdquo;, but you don&amp;rsquo;t need to worry about the order of two pronouns in the same slot.&lt;/li&gt;
-&lt;li&gt;Three or more clitics together is very rare and usually only occur in certain combos such as &amp;ldquo;Il m’y en a laissé&amp;rdquo;, so avoid three or more clitics together.&lt;/li&gt;
+&lt;li&gt;Positive affirmative commands do not follow the usual rules above, instead, pronouns comes after the verb connected with a hyphen, e.g. &amp;quot;Regarde-moi&amp;quot;, &amp;quot;Vas-y&amp;quot;, &amp;quot;Montre-la-leur&amp;quot;, and &amp;quot;Levons-nous&amp;quot;. In negatative affirmative commands, they revert to the usual order, e.g. &amp;quot;Ne parle pas&amp;quot; and &amp;quot;Ne t’en va pas&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Clitics must be ordered as (me / te / se / nous /vous) + (le / la / les) + (lui / leur) + y + en, e.g. &amp;quot;Je te le donne&amp;quot;, but you don&#39;t need to worry about the order of two pronouns in the same slot.&lt;/li&gt;
+&lt;li&gt;Three or more clitics together is very rare and usually only occur in certain combos such as &amp;quot;Il m’y en a laissé&amp;quot;, so avoid three or more clitics together.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -224,7 +226,7 @@
 &lt;li&gt;Interrogative Pronouns
 &lt;ul&gt;
 &lt;li&gt;qui = who&lt;/li&gt;
-&lt;li&gt;que/qu&amp;rsquo; (direct), quoi (indirect) = what&lt;/li&gt;
+&lt;li&gt;que/qu&#39; (direct), quoi (indirect) = what&lt;/li&gt;
 &lt;li&gt;lequel (m.sg.), laquelle (f.sg.), lesquels (m.pl.), lesquelles (f.pl.) = which&lt;/li&gt;
 &lt;li&gt;qui est-ce qui = who (subject)&lt;/li&gt;
 &lt;li&gt;qui est-ce que = whom (direct object)&lt;/li&gt;
@@ -243,7 +245,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Definite Articles:&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;le/l&amp;rsquo; (m.sg.), la/l&amp;rsquo; (f.sg.), les (pl.) = the&lt;/li&gt;
+&lt;li&gt;le/l&#39; (m.sg.), la/l&#39; (f.sg.), les (pl.) = the&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Indefinite Articles:&lt;/strong&gt;
@@ -254,7 +256,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Partitive Articles:&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;du/de l&amp;rsquo; (m.sg.), de la/de l&amp;rsquo; (f.sg.), des (pl.) = some of&lt;/li&gt;
+&lt;li&gt;du/de l&#39; (m.sg.), de la/de l&#39; (f.sg.), des (pl.) = some of&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -290,7 +292,7 @@
 &lt;li&gt;leur (sg.), leurs (pl.) = their&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; When the noun is feminine with a singular owner, and the very next word to the possessive determiner starts with a vowel or silent h, we use the masculine possessive determiner instead, e.g. &amp;ldquo;mon amie&amp;rdquo;, &amp;ldquo;ton autre idée&amp;rdquo;, and &amp;ldquo;son hache&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; When the noun is feminine with a singular owner, and the very next word to the possessive determiner starts with a vowel or silent h, we use the masculine possessive determiner instead, e.g. &amp;quot;mon amie&amp;quot;, &amp;quot;ton autre idée&amp;quot;, and &amp;quot;son hache&amp;quot;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;demonstrative-determiners&#34;&gt;Demonstrative Determiners&lt;/h3&gt;
 &lt;ul&gt;
@@ -302,7 +304,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Contractions:&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;c&amp;rsquo;est (cont.) = ce + est = this is&lt;/li&gt;
+&lt;li&gt;c&#39;est (cont.) = ce + est = this is&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -577,7 +579,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Locutional Interrogative Adverbs:&lt;/strong&gt; built on simple interrogative adverbs with prepositions.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Negative Adverbs (ne &amp;hellip; X):&lt;/strong&gt;
+&lt;li&gt;&lt;strong&gt;Negative Adverbs (ne ... X):&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;pas, plus, jamais, guère, point, rien, personne (rien &amp;amp; personne are pronoun-like but function as negative adverbials in “ne … rien / ne … personne”).&lt;/li&gt;
 &lt;/ul&gt;
@@ -600,7 +602,7 @@
 &lt;p&gt;  八月十日晚，我坐在西雅图航空交通管制塔上。那本是我换班前的几分钟，一切好像都如此平常。我的思绪早已飘到了家里的晚餐。我抬头看着时钟，那时针也倦了，似乎走的越来越慢。环顾四周，只有一张张被屏幕的冷光映出的木然的脸。那一张张面孔好像都是一个模子刻出来的，竟分不出谁是谁。不知什么时候开始，我好像只看见过这张木然的脸，不论是在工作中，在路上，在家里，还是在镜子中。&lt;/p&gt;
 &lt;p&gt;  我时常告诉自己，我的工作是重要的，我是重要的。没有我，谁会去告诉飞机何时起飞？何时下降？谁来保证飞机不会相撞？但事实上，我绝大多数时间干的事情和我现在在干的一样，只是静静的坐着，偶尔按几个按钮，其他的时候盯着面前的数字发呆。&lt;/p&gt;
 &lt;p&gt;  塔台外面的客机飞起又飞落，我已看习惯了。他们升，他们落，与我又有何关？一切都是章程、规则，皆是按部就班。有的时候我会想，如果在天上飞的是我又会怎么样呢？不是以乘客的身份，而是坐在那驾驶舱里。但是生活没有什么如果。有时，这塔台实在气闷，似一个鸟笼一般，但每当想要出去透透气时，我却不知为何地害怕起来。&lt;/p&gt;
-&lt;p&gt;  突然，一个不寻常的无线电频道响了起来「嘿，西雅图塔台，能、能听到我吗？」说话的人声音浑厚低沉，语气却不像个飞行员，倒似个闯了祸的小男孩。我颇感疑惑，回复道「停机坪频率是谁在占用？」「啊&amp;hellip;&amp;hellip;我是地勤人员，员工编号449-QX」他答道。我更加疑惑了，地勤人员一般是负责机场地面的调度和装卸工作的，怎么会跑到驾驶舱里呢？我问道「449，你是未经许可进入驾驶舱的吗？」只有静默。&lt;/p&gt;
+&lt;p&gt;  突然，一个不寻常的无线电频道响了起来「嘿，西雅图塔台，能、能听到我吗？」说话的人声音浑厚低沉，语气却不像个飞行员，倒似个闯了祸的小男孩。我颇感疑惑，回复道「停机坪频率是谁在占用？」「啊......我是地勤人员，员工编号449-QX」他答道。我更加疑惑了，地勤人员一般是负责机场地面的调度和装卸工作的，怎么会跑到驾驶舱里呢？我问道「449，你是未经许可进入驾驶舱的吗？」只有静默。&lt;/p&gt;
 &lt;p&gt;  我操作面前的控制台，查询到刚刚的无线电讯息来自于一个停机坪上空置的庞巴迪冲8-Q400型号客机。不久前刚降落，好像机箱中仍剩余一些油。一个地勤人员进入了一个空置的客机的驾驶舱，这一切都太诡异了。我不禁打了个冷颤。我向塔台外望去，一架一架的去寻找这架飞机。夕阳下，只见一架客机好像喝醉似了的，东倒西歪地驶上了跑道。我仔细观察那客机，顿时心就沉了半分，在跑道上的偏偏正是那架Q400型客机！我意识到，大事不妙了。&lt;/p&gt;
 &lt;p&gt;  「跑道16C的Q400型客机，你没有得到起飞许可，请保持位置，不要起飞！」我用近乎恳求的语气呼叫到「重复一次，请务必不要起飞！」果然得不到回应。&lt;/p&gt;
 &lt;p&gt;  跑道的线灯在发动机的热浪中颤颤巍巍地抖动，涡桨的嘶鸣把窗格震得嗡嗡作响。我再次看向那跑道，那已经不是一架客机，而是一条巨龙。他吐息着，眼眸直射前方。是真是幻？是耶非耶？只见他并不理会我的恳求，径直的加速，趾高气昂地呼啸着。鳞片映着红霞，拉长成一道锐利的白光，窜入了天空。此时，已经没有谁能够阻止他了。&lt;/p&gt;
@@ -720,10 +722,10 @@ Math Rock以节奏复杂古怪著称。
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://terrytao.wordpress.com&#34;&gt;What&amp;rsquo;s New&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://terrytao.wordpress.com&#34;&gt;What&#39;s New&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.neverendingbooks.org&#34;&gt;Neverending Books&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://thehighergeometer.wordpress.com/&#34;&gt;The Higher Geometer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://xorshammer.com&#34;&gt;XOR&amp;rsquo;s Hammer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xorshammer.com&#34;&gt;XOR&#39;s Hammer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.logicmatters.net&#34;&gt;Logic Matters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://homotopytypetheory.org/blog/&#34;&gt;Homotopy Type Theory&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://xenaproject.wordpress.com&#34;&gt;Xena project&lt;/a&gt;&lt;/li&gt;
@@ -735,17 +737,17 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://theoreticalatlas.wordpress.com&#34;&gt;Theoretical Atlas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lovelylittlelemmas.rjprojects.net&#34;&gt;Lovely Little Lemmas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://totallydisconnected.wordpress.com&#34;&gt;Totally Disconnected&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.daniellitt.com/blog&#34;&gt;Daniel Litt&amp;rsquo;s Betalog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.daniellitt.com/blog&#34;&gt;Daniel Litt&#39;s Betalog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://burttotaro.wordpress.com/&#34;&gt;Geometry Bulletin Board&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.mathcounterexamples.net&#34;&gt;Math Counterexamples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://differentialgeometri.wordpress.com&#34;&gt;Gabe Khan&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.akalin.com&#34;&gt;Fred Akalin&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://differentialgeometri.wordpress.com&#34;&gt;Gabe Khan&#39;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.akalin.com&#34;&gt;Fred Akalin&#39;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://aliennumbers.wordpress.com&#34;&gt;The Alien Number&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.roice3.org/&#34;&gt;Roice Nelson&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.roice3.org/&#34;&gt;Roice Nelson&#39;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ayoucis.wordpress.com/&#34;&gt;Hard Arithmetic&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ahilado.wordpress.com/&#34;&gt;Theories and Theorems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.math.columbia.edu/~woit/wordpress/&#34;&gt;Not Even Wrong&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gregegan.net/&#34;&gt;Greg Egan&amp;rsquo;s Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gregegan.net/&#34;&gt;Greg Egan&#39;s Website&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;wikis-and-archives&#34;&gt;Wikis and Archives&lt;/h2&gt;
 &lt;ul&gt;
@@ -800,13 +802,13 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.bananaspace.org/&#34;&gt;Banana Space&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mathpickle.com&#34;&gt;MathPickle&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://aareyanmanzoor.github.io/Texromancers.html&#34;&gt;The TeXromancers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ams.org/cgi-bin/notices/amsnotices.pl?article_id=whatis&amp;amp;article_type=gallery&amp;amp;gallery_type=whatis&#34;&gt;Collection of &lt;em&gt;What is&amp;hellip;&lt;/em&gt; Column&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kconrad.math.uconn.edu/blurbs/&#34;&gt;Keith Conrad&amp;rsquo;s Expository Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ams.org/cgi-bin/notices/amsnotices.pl?article_id=whatis&amp;amp;article_type=gallery&amp;amp;gallery_type=whatis&#34;&gt;Collection of &lt;em&gt;What is...&lt;/em&gt; Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kconrad.math.uconn.edu/blurbs/&#34;&gt;Keith Conrad&#39;s Expository Papers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@stormentas2/analytic-philosophy-reading-list-for-the-self-taught-3bb5e44a6b7f&#34;&gt;Analytic Philosophy Reading List for the Self Taught&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://plato.stanford.edu/index.html&#34;&gt;Stanford Encyclopedia of Philosophy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://iep.utm.edu&#34;&gt;Internet Encyclopedia of Philosophy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.classicalarchives.com/newca/#!/&#34;&gt;Classical Archives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://senseis.xmp.net&#34;&gt;Sensei&amp;rsquo;s Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://senseis.xmp.net&#34;&gt;Sensei&#39;s Library&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.goodreads.com&#34;&gt;Goodreads&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mubi.com/en/ca&#34;&gt;MUBI&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.azquotes.com&#34;&gt;AZ Quotes&lt;/a&gt;&lt;/li&gt;
@@ -893,7 +895,7 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.numberphile.com&#34;&gt;Numberphile&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.3blue1brown.com&#34;&gt;3Blue1Brown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mathdash.live/&#34;&gt;MathDash&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cantorsparadise.com/&#34;&gt;Cantor&amp;rsquo;s Paradise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cantorsparadise.com/&#34;&gt;Cantor&#39;s Paradise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -955,8 +957,8 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt7775622/&#34;&gt;&lt;em&gt;Free Solo&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3488710/&#34;&gt;&lt;em&gt;The Walk&lt;/em&gt; (2015)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3973724/&#34;&gt;&lt;em&gt;The Surrounding Game&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2152198/&#34;&gt;&lt;em&gt;The Pervert&amp;rsquo;s Guide to Ideology&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0828154/&#34;&gt;&lt;em&gt;The Pervert&amp;rsquo;s Guide to Cinema&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2152198/&#34;&gt;&lt;em&gt;The Pervert&#39;s Guide to Ideology&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0828154/&#34;&gt;&lt;em&gt;The Pervert&#39;s Guide to Cinema&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0125425/&#34;&gt;&lt;em&gt;N Is a Number: A Portrait of Paul Erdös&lt;/em&gt; (1993)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -986,13 +988,13 @@ Math Rock以节奏复杂古怪著称。
 &lt;h2 id=&#34;books-i-recommend-non-fiction&#34;&gt;Books I Recommend (Non-Fiction)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Duncan Pritchard, &lt;em&gt;What is this Thing Called Knowledge?&lt;/em&gt; (2006)&lt;/li&gt;
-&lt;li&gt;Paul Lockhart, &lt;em&gt;A Mathematician&amp;rsquo;s Lament&lt;/em&gt; (2009)&lt;/li&gt;
+&lt;li&gt;Paul Lockhart, &lt;em&gt;A Mathematician&#39;s Lament&lt;/em&gt; (2009)&lt;/li&gt;
 &lt;li&gt;George Lakoff, &lt;em&gt;Where Mathematics Come From&lt;/em&gt; (2000)&lt;/li&gt;
 &lt;li&gt;Edward Frenkel, &lt;em&gt;Love and Math: The Heart of Hidden Reality&lt;/em&gt; (2013)&lt;/li&gt;
 &lt;li&gt;Alexander Grothendieck, &lt;em&gt;Récoltes et Semailles&lt;/em&gt; (1986)&lt;/li&gt;
 &lt;li&gt;Morris Kline, &lt;em&gt;Mathematics: The Loss of Certainty&lt;/em&gt; (1980)&lt;/li&gt;
 &lt;li&gt;Timothy Gowers et al., &lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt; (2007)&lt;/li&gt;
-&lt;li&gt;David Ruelle, &lt;em&gt;The Mathematician&amp;rsquo;s Brain&lt;/em&gt; (2007)&lt;/li&gt;
+&lt;li&gt;David Ruelle, &lt;em&gt;The Mathematician&#39;s Brain&lt;/em&gt; (2007)&lt;/li&gt;
 &lt;li&gt;Jacques Hadamard, &lt;em&gt;The Psychology of Invention in the Mathematical Field&lt;/em&gt; (1945)&lt;/li&gt;
 &lt;li&gt;Gian-Carlo Rota, &lt;em&gt;Indiscrete Thoughts&lt;/em&gt; (1996)&lt;/li&gt;
 &lt;li&gt;Philip J. Davis, Reuben Hersh, &lt;em&gt;The Mathematical Experience&lt;/em&gt; (1981)&lt;/li&gt;
@@ -1003,20 +1005,20 @@ Math Rock以节奏复杂古怪著称。
 &lt;ul&gt;
 &lt;li&gt;Martin Aigner, Günter M. Ziegler, &lt;em&gt;Proofs from THE BOOK&lt;/em&gt; (1998)&lt;/li&gt;
 &lt;li&gt;Dmitry Fuchs, Serge Tabachnikov, &lt;em&gt;Mathematical Omnibus&lt;/em&gt; (2007)&lt;/li&gt;
-&lt;li&gt;V. B. Alekseev, Francesca Aicardi, &lt;em&gt;Abel&amp;rsquo;s Theorem in Problems and Solutions&lt;/em&gt; (2004)&lt;/li&gt;
+&lt;li&gt;V. B. Alekseev, Francesca Aicardi, &lt;em&gt;Abel&#39;s Theorem in Problems and Solutions&lt;/em&gt; (2004)&lt;/li&gt;
 &lt;li&gt;Mark Levi, &lt;em&gt;The Mathematical Mechanic&lt;/em&gt; (2009)&lt;/li&gt;
 &lt;li&gt;Răzvan Gelca, Titu Andreescu, &lt;em&gt;Putnam and Beyond&lt;/em&gt; (2017)&lt;/li&gt;
 &lt;li&gt;Paul Zeitz, &lt;em&gt;The Art and Craft of Problem Solving&lt;/em&gt; (1999)&lt;/li&gt;
 &lt;li&gt;E. R. Berlekamp, David Wolfe, &lt;em&gt;Mathematical Go: Chilling Gets the Last Point&lt;/em&gt; (1994)&lt;/li&gt;
 &lt;li&gt;E. R. Berlekamp, J. Conway, R. Guy, &lt;em&gt;Winning Ways for Your Mathematical Plays&lt;/em&gt; (1982)&lt;/li&gt;
-&lt;li&gt;Peter Winkler, &lt;em&gt;Mathematical Puzzles: A Connoisseur&amp;rsquo;s Collection&lt;/em&gt; (2003)&lt;/li&gt;
+&lt;li&gt;Peter Winkler, &lt;em&gt;Mathematical Puzzles: A Connoisseur&#39;s Collection&lt;/em&gt; (2003)&lt;/li&gt;
 &lt;li&gt;Martin Gardner, &lt;em&gt;Mathematics, Magic and Mystery&lt;/em&gt; (1956)&lt;/li&gt;
 &lt;li&gt;Martin Gardner, &lt;em&gt;Mathematical Magic Show&lt;/em&gt; (1977)&lt;/li&gt;
 &lt;li&gt;Colm Mulcahy, &lt;em&gt;Mathematical Card Magic: Fifty-Two New Effects&lt;/em&gt; (2013)&lt;/li&gt;
 &lt;li&gt;Matt Cook, &lt;em&gt;Sleight of Mind&lt;/em&gt; (2021)&lt;/li&gt;
 &lt;li&gt;Clément Deslandes, Guillaume Deslandes, &lt;em&gt;The Price of Cake&lt;/em&gt; (2023)&lt;/li&gt;
-&lt;li&gt;Jonas Peters, Nicolai Meinshausen, &lt;em&gt;The Raven&amp;rsquo;s Hat&lt;/em&gt; (2021)&lt;/li&gt;
-&lt;li&gt;Satyan Devadoss, Matthew Harvey, &lt;em&gt;Mage Merlin&amp;rsquo;s Unsolved Mathematical Mysteries&lt;/em&gt; (2020)&lt;/li&gt;
+&lt;li&gt;Jonas Peters, Nicolai Meinshausen, &lt;em&gt;The Raven&#39;s Hat&lt;/em&gt; (2021)&lt;/li&gt;
+&lt;li&gt;Satyan Devadoss, Matthew Harvey, &lt;em&gt;Mage Merlin&#39;s Unsolved Mathematical Mysteries&lt;/em&gt; (2020)&lt;/li&gt;
 &lt;li&gt;Alexander Bogomolny, &lt;em&gt;Cut the Knot&lt;/em&gt; (2020)&lt;/li&gt;
 &lt;li&gt;Mikhail Shifman, &lt;em&gt;You Failed Your Math Test, Comrade Einstein&lt;/em&gt; (2005)&lt;/li&gt;
 &lt;li&gt;George Polya, &lt;em&gt;How to Solve It: A New Aspect of Mathematical Method&lt;/em&gt; (2015)&lt;/li&gt;
@@ -1027,7 +1029,7 @@ Math Rock以节奏复杂古怪著称。
 &lt;ul&gt;
 &lt;li&gt;Walter Benjamin, &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt; (1935)&lt;/li&gt;
 &lt;li&gt;Guy Debord, &lt;em&gt;The Society of the Spectacle&lt;/em&gt; (1967)&lt;/li&gt;
-&lt;li&gt;G. H. Hardy, &lt;em&gt;A Mathematician&amp;rsquo;s Apology&lt;/em&gt; (1940)&lt;/li&gt;
+&lt;li&gt;G. H. Hardy, &lt;em&gt;A Mathematician&#39;s Apology&lt;/em&gt; (1940)&lt;/li&gt;
 &lt;li&gt;Eugenia Cheng, &lt;em&gt;Mathematics, Morally&lt;/em&gt; (2004)&lt;/li&gt;
 &lt;li&gt;W. T. Gowers, &lt;em&gt;The Two Cultures of Mathematics&lt;/em&gt; (2007)&lt;/li&gt;
 &lt;li&gt;Kevin Buzzard, &lt;em&gt;Grothendieck’s Use of Equality&lt;/em&gt; (2024)&lt;/li&gt;
@@ -1077,7 +1079,7 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10384610/&#34;&gt;&lt;em&gt;Scissor Seven&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt32766897/&#34;&gt;&lt;em&gt;Ranma 1/2&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1515996/&#34;&gt;&lt;em&gt;A Certain Scientific Railgun&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&amp;rsquo;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&#39;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1158671/&#34;&gt;&lt;em&gt;Spice and Wolf&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8253044/&#34;&gt;&lt;em&gt;Hinamatsuri&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt5897304/&#34;&gt;&lt;em&gt;Mob Psycho 100&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
@@ -1137,7 +1139,7 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/nier-automata&#34;&gt;&lt;em&gt;Nier: Automata&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/gris&#34;&gt;&lt;em&gt;GRIS&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/disco-elysium&#34;&gt;&lt;em&gt;Disco Elysium&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/uncharted-4-a-thief-s-end&#34;&gt;&lt;em&gt;Uncharted 4: A Thief&amp;rsquo;s End&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/uncharted-4-a-thief-s-end&#34;&gt;&lt;em&gt;Uncharted 4: A Thief&#39;s End&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/minecraft--1&#34;&gt;&lt;em&gt;Minecraft&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/black-myth-wukong&#34;&gt;&lt;em&gt;Black Myth: Wukong&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/sekiro-shadows-die-twice&#34;&gt;&lt;em&gt;Sekiro: Shadow Die Twice&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
@@ -1306,301 +1308,284 @@ test_entity - satisfies -&gt; test_req
 &lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
 &lt;p&gt;This is some random math $\zeta(s)=\sum_{n=1}^\infty \frac{1}{n^s}$ and here is more text.&lt;/p&gt;
 &lt;p&gt;How about block math, does it look okay? Let $H_n=1+\frac{1}{2}+\cdots+\frac{1}{n}$ be the harmonic numbers, show that&lt;/p&gt;
-&lt;p&gt;$$\lim_{k\rightarrow\infty} \sum_{n_1=1}^\infty \sum_{n_2=1}^\infty \cdots\sum_{n_k=1}^\infty (-1)^{n_1+\cdots+n_k}\frac{H_{n_1}H_{n_2}\cdots H_{n_k}}{1+n_1+n_2+\cdots+n_k}=0$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Never use double dollar sign inline, always use in newline. How about matrices, does this look good?&lt;/p&gt;
-&lt;p&gt;$$\det \begin{pmatrix}
-\gcd(1,1)&amp;amp; \gcd (1,2)&amp;amp; \cdots &amp;amp;\gcd(1,n)\\
-\gcd(2,1)&amp;amp;\gcd(2,2)&amp;amp; \cdots &amp;amp;\gcd(2,n)\\
-\vdots &amp;amp;\ddots &amp;amp; \vdots&amp;amp; \vdots\\
-\gcd(n,1)&amp;amp;\gcd(n,2)&amp;amp;\cdots&amp;amp;\gcd(n,n)
-\end{pmatrix}=\varphi(1)\varphi(2)\cdots \varphi(n)$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; it seems that you must use three backslashes for new row.&lt;/p&gt;
-&lt;p&gt;Now I&amp;rsquo;m going to stress test it with very long formulas, does it overflow? can it slide left and right?&lt;/p&gt;
-&lt;p&gt;$$
-\frac{1}{2 \pi i} \int_{|s|=1 / \mathcal{L}} \frac{\vartheta_1(d, s) G_1(s)}{\zeta(1+s)^{k_0}} \frac{(D / d)^s d s}{s^{k_0+l_0+1}}-\frac{1}{2 \pi i} \vartheta_1(d) \mathfrak{S} \int_{|s|=1 / \mathcal{L}} \frac{(D / d)^s d s}{s^{l_0+1}} \ll \mathcal{L}^{l_0-1+\varepsilon}= \sum_{\psi \in \Psi_1} \sum_{\rho \in \mathcal{Z}(\psi)} \mathcal{C}^*(\rho, \psi)\left|H_1(\rho, \psi)+Z(\rho, \chi \psi) \overline{H_2(\rho, \psi)}\right|^2 \omega(\rho)&amp;lt;0.001 \mathfrak{a} \mathcal{P},
-$$&lt;/p&gt;
-&lt;p&gt;Now I want to test if &lt;code&gt;\align&lt;/code&gt; and &lt;code&gt;\alignat&lt;/code&gt; work? Firstly,&lt;/p&gt;
-&lt;p&gt;$$
+$$\lim_{k\rightarrow\infty} \sum_{n_1=1}^\infty \sum_{n_2=1}^\infty \cdots\sum_{n_k=1}^\infty (-1)^{n_1+\cdots+n_k}\frac{H_{n_1}H_{n_2}\cdots H_{n_k}}{1+n_1+n_2+\cdots+n_k}=0$$&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Never use double dollar sign inline, always use in newline. How about matrices, does this look good?&lt;/p&gt;
+$$\det \begin{pmatrix}
+\gcd(1,1)&amp; \gcd (1,2)&amp; \cdots &amp;\gcd(1,n)\\\
+\gcd(2,1)&amp;\gcd(2,2)&amp; \cdots &amp;\gcd(2,n)\\\
+\vdots &amp;\ddots &amp; \vdots&amp; \vdots\\\
+\gcd(n,1)&amp;\gcd(n,2)&amp;\cdots&amp;\gcd(n,n) 
+\end{pmatrix}=\varphi(1)\varphi(2)\cdots \varphi(n)$$&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; it seems that you must use three backslashes for new row.&lt;/p&gt;
+&lt;p&gt;Now I&#39;m going to stress test it with very long formulas, does it overflow? can it slide left and right?&lt;/p&gt;
+$$
+\frac{1}{2 \pi i} \int_{|s|=1 / \mathcal{L}} \frac{\vartheta_1(d, s) G_1(s)}{\zeta(1+s)^{k_0}} \frac{(D / d)^s d s}{s^{k_0+l_0+1}}-\frac{1}{2 \pi i} \vartheta_1(d) \mathfrak{S} \int_{|s|=1 / \mathcal{L}} \frac{(D / d)^s d s}{s^{l_0+1}} \ll \mathcal{L}^{l_0-1+\varepsilon}= \sum_{\psi \in \Psi_1} \sum_{\rho \in \mathcal{Z}(\psi)} \mathcal{C}^*(\rho, \psi)\left|H_1(\rho, \psi)+Z(\rho, \chi \psi) \overline{H_2(\rho, \psi)}\right|^2 \omega(\rho)&lt;0.001 \mathfrak{a} \mathcal{P},
+$$&lt;p&gt;Now I want to test if &lt;code&gt;\align&lt;/code&gt; and &lt;code&gt;\alignat&lt;/code&gt; work? Firstly,&lt;/p&gt;
+$$
 \begin{align}
-a&amp;amp;=b+c \\
-d+e&amp;amp;=f
+   a&amp;=b+c \\\
+   d+e&amp;=f
 \end{align}
-$$&lt;/p&gt;
-&lt;p&gt;Secondly,&lt;/p&gt;
-&lt;p&gt;$$
+$$&lt;p&gt;Secondly,&lt;/p&gt;
+$$
 \begin{alignat}{2}
-10&amp;amp;x+&amp;amp;3&amp;amp;y=2\\
-3&amp;amp;x+&amp;amp;13&amp;amp;y=4
+   10&amp;x+&amp;3&amp;y=2\\\
+   3&amp;x+&amp;13&amp;y=4
 \end{alignat}
-$$&lt;/p&gt;
-&lt;p&gt;How about different mathematical fonts&lt;/p&gt;
-&lt;p&gt;$$ABC, \mathcal{ABC}, \mathrm{ABC}, \mathbf{ABC}, \mathfrak{ABC}, \mathbb{ABC}, \mathscr{ABC}, $$&lt;/p&gt;
-&lt;p&gt;Hebrew letters fine? $\aleph,\beth, \gimel, \daleth, \gimel$, seems good. Greek letters? $\alpha, \beta, \gamma, \Gamma, \Sigma$. How about variants? $\varphi, \varepsilon, \vartheta$.&lt;/p&gt;
+$$&lt;p&gt;How about different mathematical fonts&lt;/p&gt;
+$$ABC, \mathcal{ABC}, \mathrm{ABC}, \mathbf{ABC}, \mathfrak{ABC}, \mathbb{ABC}, \mathscr{ABC}, $$&lt;p&gt;Hebrew letters fine? $\aleph,\beth, \gimel, \daleth, \gimel$, seems good. Greek letters? $\alpha, \beta, \gamma, \Gamma, \Sigma$. How about variants? $\varphi, \varepsilon, \vartheta$.&lt;/p&gt;
 &lt;p&gt;中文行不行？我来试试中文的行间数学公式 $e^{i\theta}=\cos\theta+i\sin\theta$ 后面再来一点文字。是否能在TeX中用中文？&lt;/p&gt;
-&lt;p&gt;$$\textrm{古来云海茫茫，道山绛阙知何处？}$$&lt;/p&gt;
-&lt;p&gt;能不能使用中文角标？测试一下$F_{浮}=\rho_{液}gV_{排}$&lt;/p&gt;
+$$\textrm{古来云海茫茫，道山绛阙知何处？}$$&lt;p&gt;能不能使用中文角标？测试一下$F_{浮}=\rho_{液}gV_{排}$&lt;/p&gt;
 &lt;p&gt;Emojis in math $😀^2+😛^2=😚^2$&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;environments&#34;&gt;Environments&lt;/h2&gt;
-&lt;p&gt;Here we test various theorem, example, definition, remark, etc, environments. &lt;a href=&#34;#bib-Ser79&#34; class=&#34;bib-cite&#34;&gt;[Ser79]&lt;/a&gt;
-.&lt;/p&gt;
+&lt;p&gt;Here we test various theorem, example, definition, remark, etc, environments. &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Ser79&#34;&gt;
+  ⟦cite:Ser79⟧
+&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Currently, they cannot process shortcodes within them. This is not easy to solve, so i can only leave it as it is right now.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Euler, 1888)&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Euler, 1888)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $K$ be a number field and let $\mathfrak{p}$ be a nonzero prime ideal of $\mathcal{O}_K$.&lt;/p&gt;
 &lt;p&gt;Then
+&lt;/p&gt;
 $$
 \mathcal{O}_{K,\mathfrak{p}}
-$$
+$$&lt;p&gt;
 is a discrete valuation ring.&lt;/p&gt;
 
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
+
+  &lt;span class=&#34;proof-body&#34;&gt;
     Only the main idea will be explained here… $E=mc^2$.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condimentum sapien, non posuere sapien finibus eget. In vel rutrum massa, non vulputate augue. Quisque at gravida elit. Nam blandit, nunc et fringilla ultrices, massa tortor molestie tortor, in feugiat leo justo nec orci. Etiam molestie ultricies mauris,
   &lt;/span&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     Let $R$ be a discrete valuation ring with maximal ideal $\mathfrak{m}$. Then every nonzero ideal of $R$ is of the form $\mathfrak{m}^n$ for a unique integer $n \ge 0$.
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Standard folklore)&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Standard folklore)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Let $K$ be the fraction field of a discrete valuation ring $R$. Then every nonzero $x \in K^\times$ can be written uniquely as
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $K$ be the fraction field of a discrete valuation ring $R$. Then every nonzero $x \in K^\times$ can be written uniquely as
+&lt;/p&gt;
 $$
 x = u \pi^n
-$$
-with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.
+$$&lt;p&gt;
+with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed uniformizer.&lt;/p&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;thm-heading proof-heading&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;证明.&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body proof-body&#34;&gt;
+
+  &lt;span class=&#34;proof-body&#34;&gt;
     Yada Yada.
   &lt;/span&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;corollary&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     With notation as above, the valuation $v : K^\times \to \mathbb{Z}$ defined by $x = u\pi^{v(x)}$ is well-defined and surjective.
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     A &lt;strong&gt;local field&lt;/strong&gt; is a field $K$ which is complete with respect to a discrete valuation $v$ and whose residue field is finite.
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;例子&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;zh&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;例子&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     The $p$-adic numbers $\mathbb{Q}_p$ and the field of Laurent series $\mathbb{F}_q((t))$ over a finite field are examples of local fields.
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Question&#39;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;question&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Question&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     Is every finite extension of a local field again a local field?
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;solution-env&#34;&gt;
-  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
+  &lt;span class=&#34;solution-heading&#34;&gt;
     &lt;span class=&#34;solution-title&#34;&gt;Solution.&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body solution-body&#34;&gt;
+  &lt;span class=&#34;solution-body&#34;&gt;
     Blah Blah blah.
   &lt;/span&gt;
   &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;猜想&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(fake)&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;conjecture&#34;
+     data-lang=&#34;zh&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;猜想&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(fake)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     Every interesting number theorist secretly prefers nonarchimedean fields.
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;solution-env&#34;&gt;
-  &lt;span class=&#34;thm-heading solution-heading&#34;&gt;
+  &lt;span class=&#34;solution-heading&#34;&gt;
     &lt;span class=&#34;solution-title&#34;&gt;解.&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body solution-body&#34;&gt;
+  &lt;span class=&#34;solution-body&#34;&gt;
     Blah Blah blah.
   &lt;/span&gt;
   &lt;span class=&#34;solution-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     The classification of local fields shows that up to isomorphism there are only three kinds: $\mathbb{R}$, $\mathbb{C}$, and the nonarchimedean ones (which are exactly the finite extensions of $\mathbb{Q}_p$ or $\mathbb{F}_q((t))$).
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Convention&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;convention&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Convention&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     Throughout these notes, $p$ will always denote a rational prime &lt;a href=&#34;#bib-Knu86&#34;&gt;[Knu86]&lt;/a&gt;, and $v_p$ the associated $p$-adic valuation on $\mathbb{Q}$.
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;3&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Exercise&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;exercise&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Exercise&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
-    Idk what some exercise i guess
+  &lt;span class=&#34;math-body&#34;&gt;
+    Idk what some exercise i guess &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;fig&#34; data-fig-id=&#34;Klein-1&#34;&gt;⟦fig:Klein-1⟧&lt;/span&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;断言&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;claim&#34;
+     data-lang=&#34;zh&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;断言&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     对所有 $p$ 进数域都成立。
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-plain&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;fact&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     Every finite extension of $\mathbb{Q}_p$ is complete.
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-remark&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;caveat&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     The extension need not be Galois; only normal extensions enjoy this property.
   &lt;/span&gt;
 &lt;/div&gt;
 
-
-
-
-
-&lt;div class=&#34;thm-env thm-defn&#34; data-level=&#34;2&#34;&gt;
-  &lt;span class=&#34;thm-heading&#34;&gt;
-    &lt;span class=&#34;thm-title&#34;
-          data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;thm-note&#34;&gt;(Toy example)&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;algorithm&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Toy example)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;thm-body&#34;&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
     &lt;ol&gt;
 &lt;li&gt;$i \gets 10$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;if&lt;/strong&gt; $i \ge 5$ &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
@@ -1616,7 +1601,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;/div&gt;
 
 &lt;h2 id=&#34;figures&#34;&gt;Figures&lt;/h2&gt;
-&lt;div class=&#34;fig-env&#34; data-level=&#34;2&#34;&gt;
+&lt;div class=&#34;fig-env&#34; id=&#34;Klein-1&#34; data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
         src=&#34;https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg&#34;
         alt=&#34;Klein Bottle&#34;
@@ -1642,7 +1627,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 &lt;p&gt;I wrote a shortcode for it to avoid the iframe being escaped by the theme.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Citing can be done with a shortcode &lt;code&gt;cite&lt;/code&gt;. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&amp;rsquo;t work). For the latter, opt instead for generic markdown links i.e. &lt;code&gt;[[Knu86]](#bib-Knu86)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Citing can be done with a shortcode &lt;code&gt;cite&lt;/code&gt;. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&#39;t work). For the latter, opt instead for generic markdown links i.e. &lt;code&gt;[[Knu86]](#bib-Knu86)&lt;/code&gt;.&lt;/p&gt;
 
 
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -1687,7 +1672,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
       <guid>http://localhost:1313/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;ldquo;sitiae dolessi aut parist&amp;rdquo; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
 &lt;p&gt;中文段落测试。&lt;em&gt;君不见黄河之水天上来&lt;/em&gt;，&lt;strong&gt;奔流到海不复回&lt;/strong&gt;。
 &lt;strong&gt;&lt;em&gt;君不见高堂明镜悲白发，朝如青丝暮成雪&lt;/em&gt;&lt;/strong&gt;。
 人生得意须尽欢，&lt;code&gt;莫使金樽空对月&lt;/code&gt;。
@@ -1705,11 +1690,11 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Don&#39;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
 — Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
-&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
+&lt;p&gt;Tables aren&#39;t part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1746,8 +1731,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
           &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
           &lt;td&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;underline&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;highlight&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;ins&gt;underline&lt;/ins&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1775,7 +1760,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h3&gt;
+&lt;h3 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&#39;s internal highlight shortcode&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
@@ -1840,24 +1825,24 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Pi (π) — &amp;amp;#960;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a complete list of available HTML entities, refer to Wikipedia’s page on &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references&#34;&gt;HTML entities&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
 &lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
 &lt;div class=&#34;s_video_simple __h_video&#34;&gt;
@@ -1868,7 +1853,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
             &lt;/div&gt;
           &lt;/a&gt;
         &lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;wenkai-paragraph&#34;&gt;Wenkai paragraph&lt;/h2&gt;
 &lt;div class=&#34;wenkai&#34;&gt;
@@ -1888,7 +1873,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>

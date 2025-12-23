@@ -1,13 +1,15 @@
-{{/* layouts/shortcodes/proposition.html */}}
-{{ $level := .Get "level" | default "2" }}
-{{ $lang := .Get "lang" | default "en" }}
+{{ $lang := .Get "lang" | default .Page.Language.Lang }}
+{{- $id := .Get "id" | default "" -}}
 
-<div class="thm-env thm-plain" data-level="{{ $level }}">
-  <span class="thm-heading">
-    <span class="thm-title"
-          data-label='{{ if eq $lang "zh" }}命题{{ else }}Proposition{{ end }}'></span>{{ with .Get "note" }} <span class="thm-note">({{ . }})</span>{{ end }}
+<div class="math-env style-plain" 
+    {{ with $id }}id="{{ . }}"{{ end }}
+     data-kind="proposition"
+     data-lang="{{ $lang }}">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='{{ if eq $lang "zh" }}命题{{ else }}Proposition{{ end }}'></span>{{ with .Get "note" }} <span class="math-note">({{ . }})</span>{{ end }}
   </span>
-  <span class="thm-body">
+  <span class="math-body">
     {{ .Inner | markdownify }}
   </span>
 </div>

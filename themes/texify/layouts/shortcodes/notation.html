@@ -1,0 +1,15 @@
+{{ $lang := .Get "lang" | default .Page.Language.Lang }}
+{{- $id := .Get "id" | default "" -}}
+
+<div class="math-env style-remark" 
+    {{ with $id }}id="{{ . }}"{{ end }}
+     data-kind="notation"
+     data-lang="{{ $lang }}">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='{{ if eq $lang "zh" }}记号{{ else }}Notation{{ end }}'></span>{{ with .Get "note" }} <span class="math-note">({{ . }})</span>{{ end }}
+  </span>
+  <span class="math-body">
+    {{ .Inner | markdownify }}
+  </span>
+</div>

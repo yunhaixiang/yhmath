@@ -137,7 +137,7 @@ Throughout these notes, $p$ will always denote a rational prime [[Knu86]](#bib-K
 {{< /convention >}}
 
 {{< exercise level=3 >}}
-Idk what some exercise i guess
+Idk what some exercise i guess {{< figref "Klein-1">}}
 {{< /exercise>}}
 
 {{< claim lang="zh" >}}
@@ -167,7 +167,7 @@ The extension need not be Galois; only normal extensions enjoy this property.
 ## Figures
 
 {{< figure
-    level=2
+    id="Klein-1"
     src="https://mathworld.wolfram.com/images/eps-svg/KleinBottle_1200.svg"
     alt="Klein Bottle"
     caption="This is an image of Klein bottle"
