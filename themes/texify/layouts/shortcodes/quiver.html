@@ -3,12 +3,22 @@
 {{- $src := .Get "src" | default (.Get 0) -}}
 {{- $width := .Get "width" | default "100%" -}}
 {{- $height := .Get "height" | default "400px" -}}
+{{- $scale := .Get "scale" | default "1" -}}         {{/* e.g. 1.05 */}}
+{{- $radius := .Get "radius" | default "0.5rem" -}}  {{/* optional */}}
 
-<figure class="quiver-wrapper">
+<figure class="quiver-wrapper"
+        style="--quiver-radius: {{ $radius }};">
   <iframe
+    class="quiver-embed"
     src="{{ $src }}"
     loading="lazy"
-    style="width: {{ $width }}; height: {{ $height }}; border: 0;"
     referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: {{ $width }};
+      height: {{ $height }};
+      border: 0;
+      transform: scale({{ $scale }});
+      transform-origin: center;
+    "
   ></iframe>
 </figure>

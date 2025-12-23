@@ -31,8 +31,9 @@ Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the categor
 
 {{< quiver
     src="https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&embed"
-    width="60%"
-    height="250px">}}
+    height="180px"
+    scale="1.5"
+    >}}
 
 The homomorphisms $h_1,h_2$ determine $G$-coverings $Y_1\rightarrow U$ and $Y_2\rightarrow V$. The commutativity of the square means that their restrictions to $U\cap V$ are isomorphic $G$-coverings, thus by previous work, they glue to a covering which restricts to $U,V$. This is given by a $h:\pi_1(X,x)\rightarrow G$ which is precisely the morphism desired. 
 

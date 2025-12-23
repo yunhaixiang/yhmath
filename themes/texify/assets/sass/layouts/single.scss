@@ -256,13 +256,16 @@ body { counter-reset: fig; }
 .quiver-wrapper {
   margin: 0rem 0;
   margin-bottom: 1rem;
-  overflow: visible;
+  overflow: hidden;
+  border-radius: var(--quiver-radius, 0.5rem);
   text-align: center;      /* 容器内容居中 */
 }
 
 .quiver-wrapper iframe {
   display: block; 
   margin: 0 auto;
+  transform: scale(1.35);
+  transform-origin: center;
 }
 
 .bib-env {

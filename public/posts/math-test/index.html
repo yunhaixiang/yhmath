@@ -96,7 +96,7 @@
   
 
 
-  <link rel="stylesheet" href="/css/single.min.824790f47b7f5224ba058aa8a0bd8c99c8ad4b8968888ac4c92a752a3cf6781a.css" integrity="sha256-gkeQ9Ht/UiS6BYqooL2MmcitS4loiIrEySp1Kjz2eBo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.591854444863eff7ed7c5ba4cd6f4e30df78a85b965e77dd71ff5d8c212ee5d7.css" integrity="sha256-WRhUREhj7/ftfFukzW9OMN94qFuWXnfdcf9djCEu5dc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -540,15 +540,24 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 <h2 id="commutative-diagrams">Commutative diagrams</h2>
 <p>$\KaTeX$ supports simple commutative diagrams, but it does not allow advanced features like diagonal or curved arrows. See <a href="https://redgregory.notion.site/Diagrams-With-KaTeX-9166ebfa650a463dbdf67357143ebaed">here</a>. However, for some reason I could not get that to even work here. This is weird. Instead I can use <a href="https://q.uiver.app/">quiver</a> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
-<figure class="quiver-wrapper">
+
+
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 0.5rem;">
   <iframe
+    class="quiver-embed"
     src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQiJdLFsxLDEsIkMiXSxbMiwwLCJEIl0sWzAsMSwiIiwwLHsiY3VydmUiOi0yfV0sWzAsMSwiIiwyLHsiY3VydmUiOjJ9XSxbMSwyXSxbMiwzXSxbMSwzXV0=&amp;embed"
     loading="lazy"
-    style="width: 60%; height: 200px; border: 0;"
     referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 60%;
+      height: 200px;
+      border: 0;
+      transform: scale(1);
+      transform-origin: center;
+    "
   ></iframe>
 </figure>
-
 <p>I wrote a shortcode for it to avoid the iframe being escaped by the theme.</p>
 <h2 id="references">References</h2>
 <p>Citing can be done with a shortcode <code>cite</code>. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won't work). For the latter, opt instead for generic markdown links i.e. <code>[[Knu86]](#bib-Knu86)</code>.</p>

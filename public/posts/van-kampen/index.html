@@ -103,7 +103,7 @@ This is an old post from 2024. In this post, we present a proof of van Kampen th
   
 
 
-  <link rel="stylesheet" href="/css/single.min.824790f47b7f5224ba058aa8a0bd8c99c8ad4b8968888ac4c92a752a3cf6781a.css" integrity="sha256-gkeQ9Ht/UiS6BYqooL2MmcitS4loiIrEySp1Kjz2eBo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.591854444863eff7ed7c5ba4cd6f4e30df78a85b965e77dd71ff5d8c212ee5d7.css" integrity="sha256-WRhUREhj7/ftfFukzW9OMN94qFuWXnfdcf9djCEu5dc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -275,15 +275,24 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
 </div>
 
 <p>Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the category of groups, which is a free product with amalgamation,</p>
-<figure class="quiver-wrapper">
+
+
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 0.5rem;">
   <iframe
+    class="quiver-embed"
     src="https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;embed"
     loading="lazy"
-    style="width: 60%; height: 250px; border: 0;"
     referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 100%;
+      height: 180px;
+      border: 0;
+      transform: scale(1.5);
+      transform-origin: center;
+    "
   ></iframe>
 </figure>
-
 <p>The homomorphisms $h_1,h_2$ determine $G$-coverings $Y_1\rightarrow U$ and $Y_2\rightarrow V$. The commutativity of the square means that their restrictions to $U\cap V$ are isomorphic $G$-coverings, thus by previous work, they glue to a covering which restricts to $U,V$. This is given by a $h:\pi_1(X,x)\rightarrow G$ which is precisely the morphism desired.</p>
 <div class="math-env style-plain" 
     
