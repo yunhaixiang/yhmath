@@ -1,8 +1,12 @@
 console.log("collapsible js loaded");
 
 (function () {
+  function getLinkColor(ctx) {
+    // Prefer an existing real link in the same container (matches theme selectors best)
+    const realLink = ctx.querySelector("a");
+    if (realLink) return getComputedStyle(realLink).color;
 
-  function applyLinkColorLikeA(head) {
+    // Fallback: temporary <a> inside ctx
     const a = document.createElement("a");
     a.href = "#";
     a.textContent = "x";
@@ -10,110 +14,71 @@ console.log("collapsible js loaded");
     a.style.left = "-9999px";
     a.style.top = "0";
     a.style.pointerEvents = "none";
-
-    const parent = head.parentElement || document.body;
-    parent.appendChild(a);
-
-    const linkColor = getComputedStyle(a).color;
-    parent.removeChild(a);
-
-    head.style.color = linkColor;
+    ctx.appendChild(a);
+    const c = getComputedStyle(a).color;
+    a.remove();
+    return c;
   }
 
-  function ensureBreakAfter(root, open) {
-    const id = root.getAttribute("data-break-id");
-    if (!id) return;
-
-    // existing markers (if any)
-    let br = document.querySelector(`br[data-for="${id}"]`);
-    let gap = document.querySelector(`[data-gap-for="${id}"]`);
-
-    if (!open) {
-      if (br) br.remove();
-      if (gap) gap.remove();
-      return;
-    }
-
-    // We need to know what comes next (before we insert anything)
-    const nextEl = root.nextElementSibling;
-    const nextIsHint = nextEl && nextEl.classList && nextEl.classList.contains("yh-collapsible");
-
-    // 1) Always insert a <br> after the open hint
-    if (!br) {
-      br = document.createElement("br");
-      br.setAttribute("data-for", id);
-      root.after(br);
-    }
-
-    // 2) Insert a vertical-gap spacer ONLY if the next element is NOT another hint
-    if (!nextIsHint) {
-      if (!gap) {
-        gap = document.createElement("span");
-        gap.className = "yh-collapsible-aftergap";
-        gap.setAttribute("data-gap-for", id);
-        br.after(gap);
-      }
-    } else {
-      if (gap) gap.remove();
-    }
-  }
-
-  function setOpen(root, open) {
-    const head = root.querySelector("[data-collapsible-toggle]");
-    const body = root.querySelector("[data-collapsible-body]");
+  function setOpen(row, open) {
+    const head = row.querySelector("[data-hint-toggle]");
+    const body = row.querySelector("[data-hint-body]");
     if (!head || !body) return;
-    
+
     head.setAttribute("aria-expanded", open ? "true" : "false");
-    body.style.display = open ? "inline" : "none";
-    ensureBreakAfter(root, open);
+    body.style.display = open ? "inline-block" : "none";
   }
 
-  function toggle(head) {
-    const root = head.closest("[data-collapsible]");
-    if (!root) return;
+  function initOne(row) {
+    const head = row.querySelector("[data-hint-toggle]");
+    if (!head) return;
+
+    // Apply link color (force priority so theme can't override it)
+    const ctx = row.closest(".post-content, .content, .markdown, article, main") || document.body;
+    const linkColor = getLinkColor(ctx);
+    head.style.setProperty("color", linkColor, "important");
+
+    // Initial open/closed state
     const open = head.getAttribute("aria-expanded") === "true";
-    setOpen(root, !open);
-  }
+    setOpen(row, open);
 
-  function init() {
-    document.querySelectorAll("[data-collapsible]").forEach((root) => {
-      const head = root.querySelector("[data-collapsible-toggle]");
-      if (!head) return;
-
-      // 🔑 restore exact link color
-      applyLinkColorLikeA(head);
-
-      const open = head.getAttribute("aria-expanded") === "true";
-      setOpen(root, open);
-    });
-  }
-
-  document.addEventListener(
-    "click",
-    (e) => {
-      const head = e.target.closest("[data-collapsible-toggle]");
-      if (head) toggle(head);
-    },
-    true
-  );
-
-  document.addEventListener(
-    "keydown",
-    (e) => {
-      const head = e.target.closest("[data-collapsible-toggle]");
-      if (!head) return;
-      if (e.key === "Enter" || e.key === " ") {
+    // Direct listeners (reliable even if other scripts stop propagation)
+    head.addEventListener(
+      "click",
+      (e) => {
         e.preventDefault();
-        toggle(head);
-      }
-    },
-    true
-  );
+        const nowOpen = head.getAttribute("aria-expanded") === "true";
+        setOpen(row, !nowOpen);
+      },
+      true
+    );
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
-    init();
+    head.addEventListener(
+      "keydown",
+      (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          const nowOpen = head.getAttribute("aria-expanded") === "true";
+          setOpen(row, !nowOpen);
+        }
+      },
+      true
+    );
   }
 
+  function initAll() {
+    const rows = document.querySelectorAll("[data-hint-row]");
+    console.log("hint rows found:", rows.length);
+    rows.forEach(initOne);
+  }
+
+  try {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initAll);
+    } else {
+      initAll();
+    }
+  } catch (err) {
+    console.error("collapsible init failed:", err);
+  }
 })();
