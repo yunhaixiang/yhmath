@@ -29,7 +29,7 @@ There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\tex
 {{< /theorem >}}
 
 {{< proof >}}
-See {{< cite key="GR71" note="V.7 and Proposition V.8.1" >}}. {{< refer "example1">}} with some text.
+See {{< cite key="GR71" note="V.7 and Proposition V.8.1" >}}. {{< refer "example1">}} with some text. Updated.
 {{< /proof >}}
 
 {{< example id="example1" >}}
