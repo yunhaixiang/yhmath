@@ -224,3 +224,8 @@ main {
 .row {
   margin-left: 2rem;
 }
+
+summary::marker {
+  font-family: "Noto Sans Symbols 2", ui-sans-serif, system-ui, sans-serif;
+  font-variant-emoji: text;
+}
