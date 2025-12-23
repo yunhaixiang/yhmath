@@ -7,7 +7,25 @@
   
 }
 
+a {
+    text-decoration: none;
 
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.footnote-ref {
+      text-decoration: none;
+
+      &::before {
+        content: "[";
+      }
+      &::after {
+        content: "]";
+      }
+    }
+  }
+  
 body { counter-reset: fig; }
 
 .fig-env {
