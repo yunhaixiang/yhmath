@@ -19,9 +19,9 @@
 &lt;/span&gt; with some other sources as supplements.&lt;/p&gt;
 &lt;p&gt;We fix some notation and terminology. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.&lt;/p&gt;
 &lt;h2 id=&#34;galois-theory-of-étale-algebras&#34;&gt;Galois Theory of Étale Algebras&lt;/h2&gt;
-&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
+&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-etale&#34;&gt;⟦ref:def-etale⟧&lt;/span&gt;, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
 &lt;div class=&#34;math-env style-defn&#34; 
-    
+    id=&#34;def-etale&#34;
      data-kind=&#34;definition&#34;
      data-lang=&#34;en&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
@@ -38,8 +38,7 @@
   &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.
-&lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;some-example&#34;&gt;⟦ref:some-example⟧&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
@@ -59,15 +58,15 @@
   &lt;/span&gt;
 
   &lt;span class=&#34;proof-body&#34;&gt;
-    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;some-example&#34;&gt;⟦ref:some-example⟧&lt;/span&gt; $a+b$. Here is some more latex $\sum_{i=1}^\infty$. and here some text $A_2$ &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-data-cite-key=&#34;GR71&#34; data-cite-note=&#34;haha&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
 &lt;/span&gt;.
   &lt;/span&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
-    id=&#34;some-example&#34;
+    
      data-kind=&#34;example&#34;
      data-lang=&#34;en&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;

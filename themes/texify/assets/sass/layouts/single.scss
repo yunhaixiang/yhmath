@@ -26,6 +26,14 @@
     border-radius: $radius;
     padding: 0.2em 0.3em; 
   }
+  a.tag {
+    text-decoration: none;
+  }
+
+  a.tag:hover,
+  a.tag:focus {
+    text-decoration: underline;
+  }
 
   summary > b {
     cursor: pointer;
