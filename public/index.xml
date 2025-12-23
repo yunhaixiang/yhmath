@@ -44,7 +44,7 @@
      data-lang=&#34;en&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
     There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
@@ -64,19 +64,19 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/span&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;div class=&#34;proof-env&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;span class=&#34;proof-body&#34;&gt;
-    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
-⟦cite:GR71⟧
-&lt;/span&gt;.
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
   &lt;/span&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
+
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;

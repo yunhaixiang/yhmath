@@ -307,3 +307,52 @@ body { counter-reset: fig; }
   /* 可选：稍微微调一下竖直对齐 */
   /*transform: translateY(-0.05em);*/
 }
+
+
+/* --- Collapsible appearance --- */
+.yh-collapsible {
+  display: inline-block;           /* needed so vertical spacing tweaks can work */
+}
+
+.yh-collapsible-head {
+  display: inline;
+  cursor: pointer;
+  font-style: italic;
+
+  /* link-like hover underline (color handled by your JS) */
+  text-decoration: none;
+}
+
+.yh-collapsible-head:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.yh-collapsible-body {
+  display: inline;
+  margin-left: 0.35em;
+}
+
+/* --- Tighten vertical spacing around collapsibles --- */
+
+/* 1) math-env → collapsible : REMOVE gap */
+.math-env:has(+ .yh-collapsible) {
+  margin-bottom: 0;
+}
+
+/* 2) collapsible → collapsible : REMOVE gap */
+.yh-collapsible:has(+ .yh-collapsible) {
+  margin-bottom: 0;
+}
+
+/* 3) collapsible → math-env : KEEP gap (explicitly restore) */
+.yh-collapsible + .math-env {
+  margin-top: var(--math-env-gap, 1rem);
+}
+
+/* block spacer inserted after an OPEN collapsible when the next element is not another hint */
+.yh-collapsible-aftergap {
+  display: block;
+  height: 0;
+  margin-bottom: var(--yh-block-gap, 1rem); /* set to whatever your normal example gap is */
+}

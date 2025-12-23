@@ -1,0 +1,28 @@
+{{/* layouts/shortcodes/collapsible.html */}}
+
+{{- $title := .Get "title" | default "Hint" -}}
+{{- $open  := .Get "open"  | default "false" -}}
+{{- $isOpen := or (eq $open true) (eq $open "true") -}}
+{{- $uid := printf "yh-collapsible-%d" .Ordinal -}}
+
+{{- $inner := .Inner | markdownify -}}
+{{- $inner = $inner | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
+
+<span class="yh-collapsible"
+      data-collapsible
+      data-break-id="{{ $uid }}">
+  <span class="yh-collapsible-head"
+        role="button"
+        tabindex="0"
+        aria-expanded="{{ if $isOpen }}true{{ else }}false{{ end }}"
+        data-collapsible-toggle>
+    <span class="yh-collapsible-title">{{ $title }}.</span>
+  </span>
+
+  <span id="{{ $uid }}"
+        class="yh-collapsible-body"
+        data-collapsible-body
+        style="{{ if $isOpen }}display:inline;{{ else }}display:none;{{ end }}">
+    {{- $inner | safeHTML -}}
+  </span>
+</span>
