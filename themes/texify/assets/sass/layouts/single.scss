@@ -302,7 +302,7 @@ body { counter-reset: fig; }
 }
 
 /* Dark mode: computed to land on #fbf1c7 (assuming inverted strokes are ~white) */
-
+/*
 @media (max-width: 768px), (pointer: coarse) {
   .darkmode .quiver-wrapper iframe{
     filter:
@@ -315,14 +315,14 @@ body { counter-reset: fig; }
       !important;
   }
 }
-
+*/
 
 .darkmode .quiver-wrapper iframe{
   filter:
     invert(1)
     sepia(0.58)
-    saturate(3.1)
-    hue-rotate(14deg)
+    saturate(5.75)
+    hue-rotate(0deg)
     brightness(1.01)
     contrast(0.88)
     !important;
