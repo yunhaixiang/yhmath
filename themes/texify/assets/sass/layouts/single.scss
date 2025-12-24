@@ -323,10 +323,10 @@ body { counter-reset: fig; }
     filter:
       invert(1)
       sepia(0.58)
-      saturate(0.8)
-      hue-rotate(-5deg)
+      saturate(0.7)
+      hue-rotate(-18deg)
       brightness(1.01)
-      contrast(0.88)
+      contrast(0.8)
       !important;
   }
 }
