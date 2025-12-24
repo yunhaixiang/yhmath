@@ -284,11 +284,7 @@ body { counter-reset: fig; }
     pointer-events: auto;
   }
 }
-@media (max-width: 768px), (pointer: coarse) {
-  .quiver-wrapper::after {
-    touch-action: pan-x pan-y; /* allow scrolling; browser can still page-zoom */
-  }
-}
+
 .quiver-wrapper iframe {
   display: block; 
   margin: 0 auto;
@@ -323,7 +319,7 @@ body { counter-reset: fig; }
     filter:
       invert(1)
       sepia(0.58)
-      saturate(0.8)
+      saturate(1)
       hue-rotate(0deg)
       brightness(1.01)
       contrast(0.88)
