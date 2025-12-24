@@ -319,10 +319,10 @@ body { counter-reset: fig; }
     filter:
       invert(1)
       sepia(0.58)
-      saturate(4.75)
-      hue-rotate(-5deg)
-      brightness(1.01)
-      contrast(0.88)
+      saturate(3)
+      hue-rotate(-28deg)
+      brightness(0.98)
+      contrast(1)
       !important;
   }
 }
