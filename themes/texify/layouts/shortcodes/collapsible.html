@@ -19,10 +19,10 @@
     <span class="yh-hint-title">{{ $title }}.</span>
   </span>
 
-  <span id="{{ $uid }}"
-        class="yh-hint-body"
-        data-hint-body
-        style="{{ if $isOpen }}display:inline-block;{{ else }}display:none;{{ end }}">
+  <div id="{{ $uid }}"
+       class="yh-hint-body"
+       data-hint-body
+       style="{{ if $isOpen }}display:block;{{ else }}display:none;{{ end }}">
     {{- $inner | safeHTML -}}
-  </span>
+  </div>
 </div>

@@ -7,8 +7,8 @@
       {{- if eq $lang "zh" -}}解.{{- else -}}Solution.{{- end -}}
     </span>{{ with .Get "note" }} <span class="solution-note">({{ . }})</span>{{ end }}
   </span>
-  <span class="solution-body">
+  <div class="solution-body">
     {{ .Inner | markdownify }}
-  </span>
+  </div>
   <span class="solution-qed"></span>
 </div>

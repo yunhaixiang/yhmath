@@ -26,7 +26,7 @@ console.log("collapsible js loaded");
     if (!head || !body) return;
 
     head.setAttribute("aria-expanded", open ? "true" : "false");
-    body.style.display = open ? "inline-block" : "none";
+    body.style.display = open ? "block" : "none";
   }
 
   function initOne(row) {

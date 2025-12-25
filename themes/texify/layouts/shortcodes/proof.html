@@ -9,8 +9,8 @@
     </span>{{ with .Get "note" }} <span class="proof-note">({{ . }})</span>{{ end }}
   </span>
 
-  <span class="proof-body">
+  <div class="proof-body">
     {{ .Inner | markdownify }}
-  </span>
+  </div>
   <span class="proof-qed"></span>
 </div>

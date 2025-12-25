@@ -196,6 +196,30 @@
   font-style: normal;
 }
 
+/* keep Proof. on same line as the first paragraph and QED on the last line */
+.proof-body > p,
+.solution-body > p {
+  display: block;
+  margin: 0 0 0.75rem;
+}
+
+.proof-body > p:first-child,
+.solution-body > p:first-child {
+  display: inline;
+  margin: 0;
+}
+
+.proof-body > p:first-child + p,
+.solution-body > p:first-child + p {
+  margin-top: 0.75rem;
+}
+
+.proof-body > p:last-child,
+.solution-body > p:last-child {
+  display: inline;
+  margin: 0;
+}
+
 
 
 /* labels: Proof. / Solution. in italic, like LaTeX */
@@ -384,10 +408,11 @@ body { counter-reset: fig; }
 
 /* clickable title */
 .yh-hint-head{
-  display: inline;
+  display: block;
   cursor: pointer;
   font-style: italic;
   text-decoration: none;
+  vertical-align: top;
 }
 .yh-hint-head:hover{
   text-decoration: underline;
@@ -396,10 +421,21 @@ body { counter-reset: fig; }
 
 /* body starts on same line after title */
 .yh-hint-body{
-  display: inline-block;     /* allows block children (math-env) safely */
-  margin-left: 0em;
-  vertical-align: baseline;
+  display: block;
+  margin-top: 0.35rem;
+  margin-left: 0;
+  padding-left: 1rem;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
   min-width: 0;
+}
+
+/* keep display math centered within the indented block */
+.yh-hint-body .MathJax,
+.yh-hint-body .katex-display {
+  width: 100%;
+  text-align: center;
 }
 
 /* remove annoying extra margins inside the hint body */
@@ -408,7 +444,7 @@ body { counter-reset: fig; }
 
 /* If markdown still wraps in <p>, kill its margins inside the hint body */
 .yh-hint-body p{
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 /* ============================================================
