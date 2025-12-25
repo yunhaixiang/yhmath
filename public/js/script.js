@@ -42,6 +42,105 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Collapse long taxonomy lines on the blog list page.
+document.addEventListener("DOMContentLoaded", function () {
+  const lines = document.querySelectorAll(
+    ".post-taxonomy-overview .post-taxonomy-line"
+  );
+
+  if (!lines.length) {
+    return;
+  }
+
+  const refreshLine = (line) => {
+    const tags = Array.from(line.querySelectorAll("a.link.tag"));
+    if (!tags.length) {
+      return;
+    }
+
+    const existingToggle = line.querySelector(".taxonomy-toggle");
+    if (existingToggle) {
+      existingToggle.remove();
+    }
+
+    const isExpanded = line.dataset.expanded === "true";
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "taxonomy-toggle";
+    toggle.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+    toggle.textContent = isExpanded ? "↩" : "⋯";
+    toggle.setAttribute(
+      "aria-label",
+      isExpanded ? "Collapse list" : "Expand list"
+    );
+
+    tags.forEach((tag) => {
+      tag.hidden = false;
+      tag.classList.remove("yh-taxonomy-hidden");
+    });
+    line.classList.remove("is-collapsed", "is-expanded");
+    line.appendChild(toggle);
+
+    const firstTop = tags[0].offsetTop;
+    const wrapped = tags.some((tag) => tag.offsetTop > firstTop);
+
+    if (!wrapped) {
+      toggle.remove();
+      delete line.dataset.expanded;
+      return;
+    }
+
+    if (!isExpanded) {
+      line.classList.add("is-collapsed");
+    } else {
+      line.classList.add("is-expanded");
+    }
+
+    toggle.addEventListener("click", () => {
+      line.dataset.expanded = isExpanded ? "false" : "true";
+      refreshLine(line);
+    });
+
+    if (!isExpanded) {
+      const toggleWidth = toggle.getBoundingClientRect().width;
+      const availableWidth = line.clientWidth - toggleWidth;
+      let usedWidth = 0;
+      let visibleCount = 0;
+
+      tags.forEach((tag) => {
+        const style = window.getComputedStyle(tag);
+        const marginLeft = parseFloat(style.marginLeft) || 0;
+        const marginRight = parseFloat(style.marginRight) || 0;
+        const tagWidth =
+          tag.getBoundingClientRect().width + marginLeft + marginRight;
+
+        if (usedWidth + tagWidth <= availableWidth || visibleCount === 0) {
+          usedWidth += tagWidth;
+          visibleCount += 1;
+          tag.hidden = false;
+          tag.classList.remove("yh-taxonomy-hidden");
+        } else {
+          tag.hidden = true;
+          tag.classList.add("yh-taxonomy-hidden");
+        }
+      });
+    }
+  };
+
+  const refreshAll = () => {
+    lines.forEach((line) => refreshLine(line));
+  };
+
+  refreshAll();
+  window.addEventListener("load", refreshAll);
+
+  let resizeTimer = null;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(refreshAll, 120);
+  });
+});
+
 // Dark mode toggle
 let darkMode = localStorage.getItem("darkMode");
 const darkModeToggle = document.querySelectorAll("#dark-mode-toggle");
