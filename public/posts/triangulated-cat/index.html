@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="">
+
+  
+  
+  <meta name="description" content="
+  
+    It is impossible to be a mathematician without being a poet in soul.
+  — Sofia Kovalevskaya
+This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &quot;distinguished triangles&quot;, which are similar to exact sequences.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/triangulated-cat/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Triangulated Categories">
+  <meta property="og:description" content="It is impossible to be a mathematician without being a poet in soul. — Sofia Kovalevskaya This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &#34;distinguished triangles&#34;, which are similar to exact sequences.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-10T20:00:36+00:00">
+    <meta property="article:modified_time" content="2025-12-10T20:00:36+00:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Category-Theory">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/triangulated-cat/">
+
+  
+  
+  
+  <meta itemprop="name" content="Triangulated Categories">
+  <meta itemprop="description" content="It is impossible to be a mathematician without being a poet in soul. — Sofia Kovalevskaya This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &#34;distinguished triangles&#34;, which are similar to exact sequences.">
+  <meta itemprop="datePublished" content="2025-12-10T20:00:36+00:00">
+  <meta itemprop="dateModified" content="2025-12-10T20:00:36+00:00">
+  <meta itemprop="wordCount" content="994">
+  <meta itemprop="keywords" content="Math,Category-Theory">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.d1c6c8d65e229959eff764447727f8962d31e7be88bc0e23ab11a904225112f3.css" integrity="sha256-0cbI1l4imVnv92REdyf4li0x576IvA4jqxGpBCJREvM=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.a4d00243f9fd222ee7c3b7b3faf2b3057c3842bcb9099ff5fac50970d89a7ab9.css" integrity="sha256-pNACQ/n9Ii7nw7ez&#43;vKzBXw4Qry5CZ/1&#43;sUJcNiaerk=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Triangulated Categories - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Triangulated Categories">
+  <meta name="twitter:description" content="It is impossible to be a mathematician without being a poet in soul. — Sofia Kovalevskaya This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &#34;distinguished triangles&#34;, which are similar to exact sequences.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.4b9e54db44c364c5907751ed6be0226a53a775c5e4060c13c9d4a7e6e7cb83ff.css" integrity="sha256-S55U20TDZMWQd1Hta&#43;AialOndcXkBgwTydSn5ufLg/8=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Triangulated Categories</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      December 10, 2025
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          994 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~5 mins
+        </span>
+      
+    </div>
+  </div>
+
+  
+
+  
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/category-theory'>#category-theory</a>
+        
+      
+
+      <br></br>
+    </div>
+  
+
+
+  
+  
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    It is impossible to be a mathematician without being a poet in soul.
+  </div><div class="yh-pullquote-attrib">— Sofia Kovalevskaya</div></aside>
+<p>This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don't really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &quot;distinguished triangles&quot;, which are similar to exact sequences.</p>
+<p>A translation functor on an additive category $\mathcal C$ is an automorphism $T:\mathcal C\rightarrow\mathcal C$ where we denote $T^n(X)=X[n]$ and $T^nf=f[n]$ for $n\in\mathbb Z$. A <em>triangle</em> is a diagram $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, and a morphism of triangles is a diagram</p>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 0px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3Il0sWzMsNywidVsxXSJdXQ==&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+<p>which commutes. A triangulated category is an additive category $\mathcal C$ with a translation functor and a family of triangles called <em>distinguished triangles</em> such that the following axioms are satisfied.</p>
+<ol>
+<li>For any $X\in\mathcal C$, the triangle $X\xrightarrow{\mathbf 1_X} X\rightarrow \mathbf 0\rightarrow X[1]$ is distinguished.</li>
+<li>Any triangle isomorphic to a distinguished triangle is distinguished.</li>
+<li>Any morphism $X\rightarrow Y$ can be completed to a distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$.</li>
+<li>(Rotation axiom) A triangle $X\xrightarrow{u} Y\rightarrow Z\rightarrow X[1]$ is distinguished iff $Y\rightarrow Z\rightarrow X[1]\xrightarrow{-u[1]}Y[1]$ is.</li>
+<li>Suppose the rows in the diagram</li>
+</ol>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 8px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywidVsxXSJdXQ==&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+<p>are distinguished, and the left square commutes, then there exists a morphism $w:Z\rightarrow Z^\prime$ (not necessarily unique) completing the diagram into a morphism of triangles.
+6. (Octahedral axiom) Suppose the first three rows are distinguished and the left two squares commute, then there exists morphisms $u,v,w$ completing the diagram into two morphisms of triangles and the whole diagram commutes and the last row is also distinguished</p>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 8px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/?q=WzAsMTYsWzAsMCwiWCJdLFsxLDAsIlkiXSxbMiwwLCJaXlxccHJpbWUiXSxbMywwLCJYWzFdIl0sWzAsMSwiWCJdLFsxLDEsIloiXSxbMiwxLCJZXlxccHJpbWUiXSxbMywxLCJYWzFdIl0sWzAsMiwiWSJdLFsxLDIsIloiXSxbMiwyLCJYXlxccHJpbWUiXSxbMywyLCJZWzFdIl0sWzAsMywiWl5cXHByaW1lIl0sWzEsMywiWV5cXHByaW1lIl0sWzIsMywiWF5cXHByaW1lIl0sWzMsMywiWl5cXHByaW1lWzFdIl0sWzAsNCwiXFxtYXRoYmYgMV9YIl0sWzEsNSwiZyJdLFs0LDgsImciXSxbNSw5LCJcXG1hdGhiZiAxX1oiXSxbMCwxLCJmIl0sWzEsMiwiYSJdLFsyLDNdLFs0LDVdLFs1LDYsImIiXSxbNiw3XSxbOCw5LCJnIl0sWzksMTAsImMiXSxbMTAsMTFdLFszLDcsIlxcbWF0aGJmIDFfe1hbMV19Il0sWzcsMTEsImZbMV0iXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzYsMTAsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTAsMTQsIlxcbWF0aGJmIDFfe1heXFxwcmltZX0iXSxbMTIsMTMsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTMsMTQsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTQsMTUsInciLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTEsMTUsImFbMV0iXSxbOCwxMiwiYSJdLFs5LDEzLCJiIl1d&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 300px;
+      height: 300px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+<p>If all but the last axiom is satisfied, then it is known as a <em>pre-triangulated category</em>. It is conjectured that pre-triangulated categories are triangulated, i.e. the last axiom is redundant. The general concensus seems to be that this is not true.</p>
+<p>An additive functor between triangulated categories $F:\mathcal C\rightarrow\mathcal D$ is said to <em>commute with translation</em> if there is a natural isomorphism $FT_{\mathcal C}\cong T_{\mathcal D} F$, and $F$ is said to be <em>exact</em> or <em>triangulated</em> if it commutes with translation and takes distinguished triangles to distinguished triangles. Let $F,G:\mathcal C\rightarrow\mathcal D$ be exact functors, and $\eta_{F}:FT_{\mathcal C}\rightarrow T_{\mathcal D}F$ and $\eta_{G}:GT_{\mathcal C}\rightarrow T_{\mathcal D}G$ be natural isomorphisms, then a natural transformation $w:F\rightarrow G$ is <em>graded</em> if for $X\in\mathcal C$</p>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 8px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJGVF97XFxtYXRoY2FsIEN9WCJdLFsxLDAsIlRfe1xcbWF0aGNhbCBEfUZYIl0sWzAsMSwiR1RfXFxtYXRoY2Fse0N9WCJdLFsxLDEsIlRfXFxtYXRoY2FsIERGWCJdLFswLDEsIlxcZXRhX3tGLFh9Il0sWzAsMiwid197VF9cXG1hdGhjYWwgQ1h9IiwyXSxbMSwzLCJUX1xcbWF0aGNhbCBEd19YIl0sWzIsMywiXFxldGFfe0csWH0iLDJdXQ==&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 180px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+<p>commutes.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>In a (pre)triangulated category $\mathcal C$, if $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X[1]$ is distinguished, then</p>
+<ol>
+<li>$vu=0$ and $wv=0$</li>
+<li>any change of sign of exactly two of $u,v,w$ is distinguished,</li>
+<li>if $U\in\mathcal C$, then there exists long exact sequences of abelian groups $$\begin{aligned}&\cdots\rightarrow\mathrm{Hom}(U,X[i])\xrightarrow{u[i]_*}\mathrm{Hom}(U,Y[i])\xrightarrow{v[i]_*} \mathrm{Hom}(U,Z[i])\xrightarrow{w[i]_*}\mathrm{Hom}(U,X[i+1])\rightarrow\cdots\\\ &\cdots\leftarrow\mathrm{Hom}(X[i],U)\xleftarrow{u[i]^*}\mathrm{Hom}(Y[i],U)\xleftarrow{v[i]^*} \mathrm{Hom}(Z[i],U)\xleftarrow{w[i]^*}\mathrm{Hom}(X[i+1],U)\leftarrow\cdots\end{aligned}$$
+where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.</li>
+<li>(triangulated 5-lemma) Consider a morphism of distinguished triangles, and let its components be $f:X\rightarrow X^\prime,g:Y\rightarrow Y^\prime,h:Z\rightarrow Z^\prime$, then if any two of them are isomorphisms, so is the third.</li>
+<li>$u$ is an isomorphism iff $Z\cong\mathbf{0}$</li>
+</ol>
+  </span>
+</div>
+
+<div class="proof-env">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <ol>
+<li>It suffice to show $vu=0$, and $wv=0$ can be obtained from the rotation axiom. To show this, we first note that $Z\rightarrow Z\rightarrow \mathbf 0\rightarrow Z[1]$ is distinguished. The triangle $Y\rightarrow Z\rightarrow X[1]\rightarrow Y[1]$ is distinguished by axiom 4, and we construct a morphism between them via axiom 5, and then we can obtain $vu=0$ from the commutativity of a square in the diagram.</li>
+<li>Straightforwardly, the triangle obtained by changing exactly two signs is isomorphic to the original triangle by an obvious morphism of triangles, so it is still distinguished.</li>
+<li>We will only prove the first one, and the second one is proved dually. Since $vu=0$, we have $(v[i])(u[i])=0$, so $\mathrm{Im}(u[i]_*)\subseteq \mathrm{Ker}(v[i]_*)$. Conversely, suppose $f\in \mathrm{Ker}(v[i]_*)$, so $f(v[i])=0$. Consider the diagram as follows</li>
+</ol>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 8px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/?q=WzAsOCxbMCwwLCJVWy1pXSJdLFsxLDAsIlxcbWF0aGJmezB9Il0sWzIsMCwiVVstaSsxXSJdLFszLDAsIlVbLWkrMV0iXSxbMCwxLCJZIl0sWzEsMSwiWiJdLFsyLDEsIlhbMV0iXSxbMywxLCJZWzFdIl0sWzAsMV0sWzEsMl0sWzIsMywiLVxcbWF0aGJmezF9Il0sWzQsNSwidiJdLFs1LDYsInciXSxbNiw3LCItdVsxXSJdLFswLDQsImZbLWldIl0sWzEsNV0sWzMsNywiZlstaSsxXSJdXQ==&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 360px;
+      height: 200px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+which we can complete to a morphism of triangles with some $h:U[-i+1]\rightarrow X[1]$. By the commutativity of the rightmost square, $-f[-i+1]=-(u[i])h$ so $f=(u[i])(h[-i+1])$, so $f\in \mathrm{Im}(u[i]_*)$. By the rotation axiom, since we proved a short exact sequence, we have the exactness of the long exact sequence.
+4. By the rotation axiom, it suffice to show the case where the first two are isomorphisms. By using (3), we have a long exact sequence, and we can obtain the isomorphism using the usual 5-lemma, details ommited.
+5. A striaghtforward corollary.
+
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<p>Let $\mathcal C$ be a triangulated category and $\mathcal A$ an abelian category, then an additive functor $H:\mathcal C\rightarrow\mathcal A$ is called <em>cohomological</em> if for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, the sequence $H(X)\rightarrow H(Y)\rightarrow H(Z)$ is exact. It is then a straightforward consequence by the rotation axiom that for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, we have the following long exact sequence
+</p>
+$$\cdots\rightarrow H(X[i])\xrightarrow{H(u[i])} H(Y[i])\xrightarrow{H(v[i])}H(Z[i])\xrightarrow{H(w[i])}H(X[i+1])\rightarrow\cdots$$<p>
+What we just proved in part 3 of the previous theorem is that the Hom-functor is cohomological.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    An object in an abelian category is <em>simple</em> if the only subobjects are zero and the object itself, and semisimple if it is a coproduct of simple objects. An abelian category is semisimple if every short exact sequence splits.
+  </span>
+</div>
+
+<p>Caution: some authors call a category semisimple if all objects are semisimple, which is a stronger definition and is NOT equivalent to our definition. Every semisimple abelian category has a triangulated structure. To do this, we let the translation functor be the identity functor, and we declare a triangle $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X$ distinguished if it is &quot;exact&quot; at $X$, i.e. $\mathrm{Ker}(u)=\mathrm{Im}(w)$. Verifying this is a triangulated category is a tedious, and we will not do it here. Moreover, all abelian triangulated categories are semisimple. We will not prove this either. In fact, the homotopy category of complexes $K(\mathcal A)$ is triangulated. To see this, we set the distinguished triangles to be the ones isomorphic to a standard triangle of the form </p>
+$$X^\bullet\xrightarrow{f^\bullet} Y^\bullet \xrightarrow{i_f^\bullet} \mathrm{Cone}(f^\bullet)\xrightarrow{p_f^\bullet} X^\bullet[1]$$<p>
+and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$ is cohomological.</p>
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/derived-cat/" title="Derived Category"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/fppf-site/" title="Fppf Site, Faithfully Flat Descent, and Fibred Categories">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  <div>
+    <span>Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
+Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+</span>
+  </div>
+  <div>
+    <span>Copyright © 2025 </span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
