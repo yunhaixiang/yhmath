@@ -127,7 +127,7 @@
   /* copied from single.html */
   background-color: var(--bg_s);
   border-radius: 0.25rem;
-  padding: 0.2em 0.3em;
+  padding: 0em 0.3em 0.1em;
 
   /* slightly smaller gap between chips */
   margin-right: 0em;
@@ -146,7 +146,7 @@
   background-color: var(--bg_s);
   border: none;
   border-radius: 0.25rem;
-  padding: 0.2em 0.3em;
+  padding: 0.19em 0.3em;
   color: var(--blue-dim);
   cursor: pointer;
   font-family: "Noto Sans Symbols 2",
@@ -155,8 +155,9 @@
                "Segoe UI Symbol",
                "Apple Symbols",
                sans-serif;
-  font-size: 1.15em;
-  line-height: 1.2;
+  font-size: 1.1em;
+  line-height: 1;
+  vertical-align: middle;
   margin-bottom: 0.2rem;
   transform: translateY(-0.5px);
 }
