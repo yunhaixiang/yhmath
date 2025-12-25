@@ -164,6 +164,14 @@
   /*transform: translateY(-0.5px);*/
 }
 
+@media screen and (max-width: $mobile-breakpoint) {
+  .post-taxonomy-overview .taxonomy-toggle {
+    padding-bottom: 0.2em;
+  }
+}
+
+
+
 .post-taxonomy-overview .taxonomy-toggle:hover {
   color: color-mix(in srgb, var(--blue-dim) 80%, white 20%);
   text-decoration: underline;
