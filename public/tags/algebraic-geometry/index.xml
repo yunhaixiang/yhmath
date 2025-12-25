@@ -61,14 +61,15 @@
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
 
-  &lt;span class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;proof-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
 &lt;/span&gt;.
-  &lt;/span&gt;
+  &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
+
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
@@ -224,12 +225,12 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
     referrerpolicy=&#34;no-referrer-when-downgrade&#34;
     style=&#34;
       width: 100%;
-      height: 180px;
+      height: 125px;
       border: 0;
       transform:
         translateX(0)
         translateY(0)
-        scale(1.5);
+        scale(1.7);
       transform-origin: center;
     &#34;
   &gt;&lt;/iframe&gt;
@@ -253,13 +254,13 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
 
-  &lt;span class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;proof-body&#34;&gt;
     &lt;p&gt;We construct this functor concretely. For each $U\in\mathcal D$, let $\mathcal I_U$ be the category where objects are pairs $\langle V,\rho\rangle$ where $V\in\mathcal C$ and $\rho\in \mathrm{Mor}_\mathcal{D}(U,f(V))$, and a morphism $g:\langle V_1,\rho_1\rangle \rightarrow \langle V_2,\rho_2\rangle$ is a morphism $g:V_1\rightarrow V_2$ in $\mathcal C$ such that $(fg)\circ\rho_1=\rho_2$. We define
 &lt;/p&gt;
 $$f^* (\mathscr{F})(U)=\lim_{\stackrel{\longrightarrow}{\langle V,\rho\rangle\in\mathcal I_{U}^\mathrm{op}}}\mathscr{F}(V)$$&lt;p&gt;
 and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal I_{U_2}\rightarrow \mathcal I_{U_1}$ given by $\langle V,\rho\rangle\mapsto \langle V,\rho\circ h\rangle$ which induces a morphism $f^*(\mathscr{F})(U_2)\rightarrow f^*(\mathscr{F})(U_1)$. We can check that this is well-defined.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;</description>
     </item>

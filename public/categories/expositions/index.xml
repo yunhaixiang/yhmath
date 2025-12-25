@@ -61,14 +61,15 @@
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
 
-  &lt;span class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;proof-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
 &lt;/span&gt;.
-  &lt;/span&gt;
+  &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
+
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
@@ -270,12 +271,12 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
     referrerpolicy=&#34;no-referrer-when-downgrade&#34;
     style=&#34;
       width: 100%;
-      height: 180px;
+      height: 125px;
       border: 0;
       transform:
         translateX(0)
         translateY(0)
-        scale(1.5);
+        scale(1.7);
       transform-origin: center;
     &#34;
   &gt;&lt;/iframe&gt;
@@ -299,13 +300,13 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
 
-  &lt;span class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;proof-body&#34;&gt;
     &lt;p&gt;We construct this functor concretely. For each $U\in\mathcal D$, let $\mathcal I_U$ be the category where objects are pairs $\langle V,\rho\rangle$ where $V\in\mathcal C$ and $\rho\in \mathrm{Mor}_\mathcal{D}(U,f(V))$, and a morphism $g:\langle V_1,\rho_1\rangle \rightarrow \langle V_2,\rho_2\rangle$ is a morphism $g:V_1\rightarrow V_2$ in $\mathcal C$ such that $(fg)\circ\rho_1=\rho_2$. We define
 &lt;/p&gt;
 $$f^* (\mathscr{F})(U)=\lim_{\stackrel{\longrightarrow}{\langle V,\rho\rangle\in\mathcal I_{U}^\mathrm{op}}}\mathscr{F}(V)$$&lt;p&gt;
 and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal I_{U_2}\rightarrow \mathcal I_{U_1}$ given by $\langle V,\rho\rangle\mapsto \langle V,\rho\circ h\rangle$ which induces a morphism $f^*(\mathscr{F})(U_2)\rightarrow f^*(\mathscr{F})(U_1)$. We can check that this is well-defined.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;</description>
     </item>
@@ -1225,6 +1226,39 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Symmetric Polynomials</title>
+      <link>http://localhost:1313/posts/sym-poly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is $f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$ such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta&#39;s relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;{{ theorem note=&amp;quot;Fundamental Theorem of Symmetric Polynomials&amp;quot;}}
+For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
+{{ /theorem }}&lt;/p&gt;
+&lt;p&gt;Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
+&lt;/p&gt;
+$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.&lt;/p&gt;
+&lt;p&gt;A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis&lt;/p&gt;
+&lt;p&gt;{{ theorem note=&amp;quot;First Jacobi-Trudi Identity&amp;quot;}}
+&lt;/p&gt;
+$$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$&lt;p&gt;
+{{ /theorem }}&lt;/p&gt;
+&lt;p&gt;There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.&lt;/p&gt;
+&lt;p&gt;{{ theorem note=&amp;quot;Pieri Formulas&amp;quot;}}
+Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).&lt;/p&gt;
+$$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$&lt;p&gt;
+{{ /theorem }}&lt;/p&gt;
+&lt;p&gt;Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.&lt;/p&gt;
+&lt;p&gt;One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href=&#34;https://arxiv.org/pdf/1301.7116&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

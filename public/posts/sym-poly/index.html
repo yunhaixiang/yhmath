@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="">
+
+  
+  
+  <meta name="description" content="
+  
+    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&quot;
+  — Alexander Grothendieck
+This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is ">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/sym-poly/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Symmetric Polynomials">
+  <meta property="og:description" content="“And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&#34; — Alexander Grothendieck This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-05T00:00:00+00:00">
+    <meta property="article:tag" content="Combinatorics">
+    <meta property="article:tag" content="Algebra">
+    <meta property="article:tag" content="Math">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/sym-poly/">
+
+  
+  
+  
+  <meta itemprop="name" content="Symmetric Polynomials">
+  <meta itemprop="description" content="“And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&#34; — Alexander Grothendieck This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is">
+  <meta itemprop="datePublished" content="2025-12-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-12-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="752">
+  <meta itemprop="keywords" content="Combinatorics,Algebra,Math">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.d1c6c8d65e229959eff764447727f8962d31e7be88bc0e23ab11a904225112f3.css" integrity="sha256-0cbI1l4imVnv92REdyf4li0x576IvA4jqxGpBCJREvM=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.a4d00243f9fd222ee7c3b7b3faf2b3057c3842bcb9099ff5fac50970d89a7ab9.css" integrity="sha256-pNACQ/n9Ii7nw7ez&#43;vKzBXw4Qry5CZ/1&#43;sUJcNiaerk=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Symmetric Polynomials - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Symmetric Polynomials">
+  <meta name="twitter:description" content="“And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&#34; — Alexander Grothendieck This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.4b9e54db44c364c5907751ed6be0226a53a775c5e4060c13c9d4a7e6e7cb83ff.css" integrity="sha256-S55U20TDZMWQd1Hta&#43;AialOndcXkBgwTydSn5ufLg/8=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Symmetric Polynomials</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      December 5, 2025
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          752 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~4 mins
+        </span>
+      
+    </div>
+  </div>
+
+  
+
+  
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/combinatorics'>#combinatorics</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebra'>#algebra</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+      
+
+      <br></br>
+    </div>
+  
+
+
+  
+  
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&quot;
+  </div><div class="yh-pullquote-attrib">— Alexander Grothendieck</div></aside>
+<p>This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is </p>
+$$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$<p> such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1<\cdots< i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta's relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.</p>
+<!-- more -->
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Fundamental Theorem of Symmetric Polynomials)</span>
+  </span>
+  <span class="math-body">
+    For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
+  </span>
+</div>
+
+<p>Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
+</p>
+$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$<p>Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.</p>
+<p>A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis</p>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(First Jacobi-Trudi Identity)</span>
+  </span>
+  <span class="math-body">
+    $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} & h_{\lambda_1+1} & \ldots & h_{\lambda_1+n-1} \\ h_{\lambda_2-1} & h_{\lambda_2} & \ldots & h_{\lambda_2+n-2} \\ \vdots & \vdots & \ddots & \vdots \\ h_{\lambda_n-n+1} & h_{\lambda_n-n+2} & \ldots & h_{\lambda_n}\end{array}\right) .$$
+  </span>
+</div>
+
+<p>There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.</p>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Pieri Formulas)</span>
+  </span>
+  <span class="math-body">
+    <p>Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).</p>
+$$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
+  </span>
+</div>
+
+<p>Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.</p>
+<p>One application of symmetric polynomials is Lagrange's solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read <a href="https://arxiv.org/pdf/1301.7116">this</a>.</p>
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/gro-top-and-topoi/" title="Grothendieck Topology, Sites, and Topoi"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/knowledge/" title="What is This Thing Called Knowledge?">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  <div>
+    <span>Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
+Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+</span>
+  </div>
+  <div>
+    <span>Copyright © 2025 </span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>

@@ -61,14 +61,15 @@
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
 
-  &lt;span class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;proof-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
 &lt;/span&gt;.
-  &lt;/span&gt;
+  &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
+
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;

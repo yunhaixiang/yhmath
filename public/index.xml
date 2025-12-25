@@ -150,6 +150,154 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
     </item>
     
     <item>
+      <title>Grothendieck-Witt Ring</title>
+      <link>http://localhost:1313/posts/gw-ring/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/gw-ring/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Shakuntala Devi&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}+a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;$f(x,y)=xy$ and $g(x,y)=x^2-y^2$ are equivalent by change of variables $x\mapsto x+y$ and $y\mapsto x-y$. Their associated matrices are
+&lt;/p&gt;
+$$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pmatrix}1 &amp; 0\\\ 0 &amp; -1\end{pmatrix}$$&lt;p&gt; and the change of variable matrix $A=\begin{pmatrix}1 &amp; 1\\\ 1 &amp; -1\end{pmatrix}$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal form.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A quadratic form $f$ represents some $d\in k^\times$ if there exists $\lambda\in k^n$ with $f(\lambda)=d$. Let $D(f)$ be the subset of $k^\times$ represented by $f$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear form).&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For a quadratic form $f$ on $V$, some $d\in k^\times$ is representable iff $V\cong \langle d\rangle\otimes W$ for $W$ another quadratic space. As a result, $V\cong \langle a_1,\dots,a_n\rangle $ for some $a_i$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotropic.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Decomposition)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Each quadratic space is a orthogonal sum of a totally isotropic space, a hyperbolic space, and an anisotropic space, all unique up to equivalence.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Cancellation)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $q\oplus q_1\cong q\oplus q_2$ then $q_1\cong q_2$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read &lt;a href=&#34;https://kyleormsby.github.io/files/quadratic_TNR.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Symmetric Polynomials</title>
+      <link>http://localhost:1313/posts/sym-poly/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is &lt;/p&gt;
+$$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta&#39;s relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
+&lt;/p&gt;
+$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.&lt;/p&gt;
+&lt;p&gt;A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Pieri Formulas)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).&lt;/p&gt;
+$$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.&lt;/p&gt;
+&lt;p&gt;One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href=&#34;https://arxiv.org/pdf/1301.7116&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
       <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
       <pubDate>Thu, 04 Dec 2025 11:15:32 +0000</pubDate>

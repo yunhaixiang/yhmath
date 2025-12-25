@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="">
+
+  
+  
+  <meta name="description" content="
+  
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
+  — Shakuntala Devi
+This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}&#43;a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/gw-ring/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Grothendieck-Witt Ring">
+  <meta property="og:description" content="What is mathematics? It is only a systematic effort of solving puzzles posed by nature. — Shakuntala Devi This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}&#43;a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-06T00:00:00+00:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Algebraic-Geometry">
+    <meta property="article:tag" content="Number-Theory">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/gw-ring/">
+
+  
+  
+  
+  <meta itemprop="name" content="Grothendieck-Witt Ring">
+  <meta itemprop="description" content="What is mathematics? It is only a systematic effort of solving puzzles posed by nature. — Shakuntala Devi This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}&#43;a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.">
+  <meta itemprop="datePublished" content="2025-12-06T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-12-06T00:00:00+00:00">
+  <meta itemprop="wordCount" content="722">
+  <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.d1c6c8d65e229959eff764447727f8962d31e7be88bc0e23ab11a904225112f3.css" integrity="sha256-0cbI1l4imVnv92REdyf4li0x576IvA4jqxGpBCJREvM=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.a4d00243f9fd222ee7c3b7b3faf2b3057c3842bcb9099ff5fac50970d89a7ab9.css" integrity="sha256-pNACQ/n9Ii7nw7ez&#43;vKzBXw4Qry5CZ/1&#43;sUJcNiaerk=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Grothendieck-Witt Ring - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Grothendieck-Witt Ring">
+  <meta name="twitter:description" content="What is mathematics? It is only a systematic effort of solving puzzles posed by nature. — Shakuntala Devi This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}&#43;a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.4b9e54db44c364c5907751ed6be0226a53a775c5e4060c13c9d4a7e6e7cb83ff.css" integrity="sha256-S55U20TDZMWQd1Hta&#43;AialOndcXkBgwTydSn5ufLg/8=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Grothendieck-Witt Ring</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      December 6, 2025
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          722 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~4 mins
+        </span>
+      
+    </div>
+  </div>
+
+  
+
+  
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/number-theory'>#number-theory</a>
+        
+      
+
+      <br></br>
+    </div>
+  
+
+
+  
+  
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
+  </div><div class="yh-pullquote-attrib">— Shakuntala Devi</div></aside>
+<p>This is an old post from 2024. Recently I've been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}+a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <span class="math-body">
+    <p>$f(x,y)=xy$ and $g(x,y)=x^2-y^2$ are equivalent by change of variables $x\mapsto x+y$ and $y\mapsto x-y$. Their associated matrices are
+</p>
+$$M_f=\begin{pmatrix}0 & 1/2\\\ 1/2 & 0\end{pmatrix}\quad M_g=\begin{pmatrix}1 & 0\\\ 0 & -1\end{pmatrix}$$<p> and the change of variable matrix $A=\begin{pmatrix}1 & 1\\\ 1 & -1\end{pmatrix}$.</p>
+
+  </span>
+</div>
+
+<p>In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal form.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    A quadratic form $f$ represents some $d\in k^\times$ if there exists $\lambda\in k^n$ with $f(\lambda)=d$. Let $D(f)$ be the subset of $k^\times$ represented by $f$.
+  </span>
+</div>
+
+<p>For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear form).</p>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    For a quadratic form $f$ on $V$, some $d\in k^\times$ is representable iff $V\cong \langle d\rangle\otimes W$ for $W$ another quadratic space. As a result, $V\cong \langle a_1,\dots,a_n\rangle $ for some $a_i$.
+  </span>
+</div>
+
+<p>Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotropic.</p>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Witt Decomposition)</span>
+  </span>
+  <span class="math-body">
+    Each quadratic space is a orthogonal sum of a totally isotropic space, a hyperbolic space, and an anisotropic space, all unique up to equivalence.
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Witt Cancellation)</span>
+  </span>
+  <span class="math-body">
+    If $q\oplus q_1\cong q\oplus q_2$ then $q_1\cong q_2$.
+  </span>
+</div>
+
+<p>We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read <a href="https://kyleormsby.github.io/files/quadratic_TNR.pdf">here</a>.</p>
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/sym-poly/" title="Symmetric Polynomials"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/knowledge/" title="What is This Thing Called Knowledge?">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  <div>
+    <span>Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
+Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+</span>
+  </div>
+  <div>
+    <span>Copyright © 2025 </span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
