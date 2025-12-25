@@ -103,20 +103,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!isExpanded) {
       const toggleWidth = toggle.getBoundingClientRect().width;
-      const availableWidth = line.clientWidth - toggleWidth;
-      let usedWidth = 0;
-      let visibleCount = 0;
+      const lineRect = line.getBoundingClientRect();
+      const cutoff = line.clientWidth - toggleWidth;
 
       tags.forEach((tag) => {
         const style = window.getComputedStyle(tag);
-        const marginLeft = parseFloat(style.marginLeft) || 0;
         const marginRight = parseFloat(style.marginRight) || 0;
-        const tagWidth =
-          tag.getBoundingClientRect().width + marginLeft + marginRight;
+        const rect = tag.getBoundingClientRect();
+        const rightEdge = rect.right - lineRect.left + marginRight;
 
-        if (usedWidth + tagWidth <= availableWidth || visibleCount === 0) {
-          usedWidth += tagWidth;
-          visibleCount += 1;
+        if (rightEdge <= cutoff || tag === tags[0]) {
           tag.hidden = false;
           tag.classList.remove("yh-taxonomy-hidden");
         } else {
