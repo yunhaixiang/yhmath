@@ -20,6 +20,12 @@ defaultMarkdownHandler = "goldmark"
         [markup.goldmark.extensions.passthrough.delimiters]
           inline = [["$", "$"], ["\\(", "\\)"]]
           block  = [["$$", "$$"], ["\\[", "\\]"]]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
+  style = "gruvbox"
           
 [taxonomies]
 tags = "tags"
