@@ -92,10 +92,10 @@ Let $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ be a morphism of fibred catego
 Recall the classical Yoneda lemma: for each object $A\in\mathcal C$ we have a natural isomorphism between the collection of natural transformations $\mathrm{Nat}(\mathscr{F},\mathscr{H}^A)$, and the set $\mathscr{F}(A)$. This point of view is crucial for the development of algebraic spaces, and also for fibred categories we need a variant of this lemma.
 
 {{< theorem note="2-Yoneda lemma" >}}
-Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence
-{{< /theorem >}}
-$$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$
+Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence $$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$
 given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.
+{{< /theorem >}}
+
 
 {{< proof >}}
 {{< cite key="Ols16" note="Proposition 3.2.2" >}}.
