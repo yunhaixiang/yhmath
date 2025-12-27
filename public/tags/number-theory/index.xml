@@ -27,7 +27,8 @@
 &lt;div class=&#34;math-env style-defn&#34; 
     id=&#34;def-etale&#34;
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -43,10 +44,11 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
@@ -56,7 +58,7 @@
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -69,11 +71,12 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
@@ -84,21 +87,15 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-    
-  &lt;li id=&#34;bib-Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
-  Bjorn Poonen, &lt;em&gt;Rational Points on Varieties&lt;/em&gt;, American Mathematical Soc., 2017.
-&lt;/li&gt;
-  &lt;li id=&#34;bib-GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
-  Alexander Grothendieck, Michèle Raynaud, &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;, Lecture Notes in Mathematics 224, Springer, 1971.
-&lt;/li&gt;
+  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Soc.. 2017.&lt;/li&gt;
 
-  &lt;/ul&gt;
+  &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/li&gt;
+
+&lt;/ul&gt;
 &lt;/div&gt;
 
 </description>
@@ -118,7 +115,8 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
@@ -135,7 +133,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -149,7 +148,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -163,7 +163,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Decomposition)&lt;/span&gt;
@@ -176,7 +177,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Cancellation)&lt;/span&gt;
@@ -205,7 +207,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cauchy)&lt;/span&gt;
@@ -221,7 +224,8 @@ $$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\om
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -237,7 +241,8 @@ $$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$&lt;p&gt; Conside
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -255,7 +260,8 @@ $$\wp(z)=\frac{1}{z^2}+\sum_{n=1}^{\infty}(2 n+1) G_{2 n+2}(L) z^{2 n}$$&lt;p&gt
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -392,6 +398,73 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
 &lt;li&gt;Item 2&lt;/li&gt;
 &lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;enumerate-shortcode&#34;&gt;Enumerate Shortcode&lt;/h3&gt;
+&lt;ol class=&#34;yh-enum&#34;
+    data-token=&#34;1&#34;
+    style=&#34;--yh-enum-indent: 1rem; --yh-enum-prefix: ZgotmplZ; --yh-enum-suffix: ZgotmplZ;&#34;&gt;
+  
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  First
+&lt;/li&gt;
+
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  Second
+&lt;/li&gt;
+
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  &lt;p&gt;Nested&lt;/p&gt;
+&lt;ol class=&#34;yh-enum&#34;
+    data-token=&#34;a&#34;
+    style=&#34;--yh-enum-indent: 1rem; --yh-enum-prefix: ZgotmplZ; --yh-enum-suffix: ZgotmplZ;&#34;&gt;
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  First
+&lt;/li&gt;
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  Second
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+
+
+&lt;/ol&gt;
+
+&lt;ol class=&#34;yh-enum&#34;
+    data-token=&#34;i&#34;
+    style=&#34;--yh-enum-indent: 1.5rem; --yh-enum-prefix: ZgotmplZ; --yh-enum-suffix: ZgotmplZ;&#34;&gt;
+  
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  Alpha
+&lt;/li&gt;
+
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  Beta
+&lt;/li&gt;
+
+
+&lt;/ol&gt;
+
+&lt;ol class=&#34;yh-enum&#34;
+    data-token=&#34;1&#34;
+    style=&#34;--yh-enum-indent: 1rem; --yh-enum-prefix: ZgotmplZ; --yh-enum-suffix: ZgotmplZ;&#34;&gt;
+  
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  First axiom
+&lt;/li&gt;
+
+
+&lt;li class=&#34;yh-enum-item&#34;&gt;
+  Second axiom
+&lt;/li&gt;
+
+
+&lt;/ol&gt;
+
 &lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fruit

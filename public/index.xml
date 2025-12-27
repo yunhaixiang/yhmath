@@ -26,7 +26,8 @@
 &lt;div class=&#34;math-env style-defn&#34; 
     id=&#34;def-etale&#34;
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -42,10 +43,11 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
@@ -55,7 +57,7 @@
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -68,11 +70,12 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
@@ -83,21 +86,15 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-    
-  &lt;li id=&#34;bib-Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
-  Bjorn Poonen, &lt;em&gt;Rational Points on Varieties&lt;/em&gt;, American Mathematical Soc., 2017.
-&lt;/li&gt;
-  &lt;li id=&#34;bib-GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
-  Alexander Grothendieck, Michèle Raynaud, &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;, Lecture Notes in Mathematics 224, Springer, 1971.
-&lt;/li&gt;
+  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Soc.. 2017.&lt;/li&gt;
 
-  &lt;/ul&gt;
+  &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/li&gt;
+
+&lt;/ul&gt;
 &lt;/div&gt;
 
 </description>
@@ -119,7 +116,8 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -129,7 +127,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -212,7 +210,8 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
@@ -231,7 +230,8 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -258,7 +258,8 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
@@ -272,7 +273,7 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -290,7 +291,8 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Lemma 3.1.8&#34;&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(2-Yoneda lemma)&lt;/span&gt;
@@ -303,7 +305,7 @@ given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.&lt;/p&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -322,21 +324,15 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
   ⟦cite:Ols16⟧
 &lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-    
-  &lt;li id=&#34;bib-Ols16&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;
-  Martin Olsson, &lt;em&gt;Algebraic Spaces and Stacks&lt;/em&gt;, American Mathematical Society, 2016.
-&lt;/li&gt;
-  &lt;li id=&#34;bib-Stacks&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;
-  The Stacks Project, &lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;https://stacks.math.columbia.edu&lt;/a&gt;
-&lt;/li&gt;
+  &lt;li id=&#34;bib-Ols16&#34; data-bib-key=&#34;Ols16&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;Martin Olsson. &lt;em&gt;Algebraic Spaces and Stacks&lt;/em&gt;. American Mathematical Society. 2016.&lt;/li&gt;
 
-  &lt;/ul&gt;
+  &lt;li id=&#34;bib-Stacks&#34; data-bib-key=&#34;Stacks&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;&lt;em&gt;The Stacks Project&lt;/em&gt;. &lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;https://stacks.math.columbia.edu&lt;/a&gt;.&lt;/li&gt;
+
+&lt;/ul&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -444,7 +440,8 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -462,7 +459,7 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -507,7 +504,8 @@ What we just proved in part 3 of the previous theorem is that the Hom-functor is
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -536,7 +534,8 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -648,7 +647,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -658,7 +658,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -699,7 +699,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -713,7 +714,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -723,7 +725,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -750,7 +752,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -812,7 +815,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -833,7 +837,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
@@ -849,7 +854,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -871,7 +876,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First isomorphism theorem)&lt;/span&gt;
@@ -881,7 +887,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -939,7 +945,8 @@ is called a &lt;em&gt;(co)chain complex&lt;/em&gt; if each three term subsequenc
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -976,7 +983,8 @@ as the $n$-th cohomology object. In fact, for a chain map $f^\bullet: A^\bullet\
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1001,7 +1009,8 @@ Hence this induces a long exact sequence on cohomology objects. Working out the 
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1065,7 +1074,8 @@ Note that $\mathscr{F}$ is exact iff $R^1\mathscr{F}=0$, so in a sense the right
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1085,7 +1095,8 @@ for $i\ge 0$. Left derived functors $L_i\mathscr{F}$ are defined dually via proj
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1103,7 +1114,8 @@ for all $i\ge 0$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
@@ -1122,7 +1134,8 @@ for all $i\ge 0$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1198,7 +1211,8 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
@@ -1215,7 +1229,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1229,7 +1244,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -1243,7 +1259,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Decomposition)&lt;/span&gt;
@@ -1256,7 +1273,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Cancellation)&lt;/span&gt;
@@ -1285,7 +1303,8 @@ $$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any perm
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
@@ -1302,7 +1321,8 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
@@ -1316,7 +1336,8 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Pieri Formulas)&lt;/span&gt;
@@ -1347,7 +1368,8 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1369,7 +1391,8 @@ A morphism of schemes $f:X\rightarrow Y$ is &lt;em&gt;étale&lt;/em&gt; if one o
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
@@ -1391,7 +1414,8 @@ A morphism of schemes $f:X\rightarrow Y$ is &lt;em&gt;étale&lt;/em&gt; if one o
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1414,7 +1438,8 @@ $$\{\mathrm{Zariski\ cover}\}\hookrightarrow\{\mathrm{étale\ cover}\}\hookright
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1430,7 +1455,8 @@ $$\{\mathrm{sheaves}\}\hookrightarrow\{\mathrm{separated\ presheaves}\}\hookrigh
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1467,7 +1493,8 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
@@ -1477,7 +1504,7 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -1509,7 +1536,8 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -1526,7 +1554,8 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(van Kampen)&lt;/span&gt;
@@ -1560,7 +1589,8 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;corollary&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
@@ -1597,7 +1627,8 @@ $$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightar
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1613,7 +1644,8 @@ $$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightar
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1651,7 +1683,8 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cauchy)&lt;/span&gt;
@@ -1667,7 +1700,8 @@ $$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\om
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1683,7 +1717,8 @@ $$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$&lt;p&gt; Conside
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -1701,7 +1736,8 @@ $$\wp(z)=\frac{1}{z^2}+\sum_{n=1}^{\infty}(2 n+1) G_{2 n+2}(L) z^{2 n}$$&lt;p&gt
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -2963,7 +2999,8 @@ $$\textrm{古来云海茫茫，道山绛阙知何处？}$$&lt;p&gt;能不能使�
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Euler, 1888)&lt;/span&gt;
@@ -2980,7 +3017,7 @@ is a discrete valuation ring.&lt;/p&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
   &lt;/span&gt;
@@ -2995,7 +3032,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condiment
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
@@ -3008,7 +3046,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue condiment
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Standard folklore)&lt;/span&gt;
@@ -3024,7 +3063,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;证明.&lt;/span&gt;
   &lt;/span&gt;
@@ -3038,7 +3077,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;corollary&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
@@ -3051,7 +3091,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -3064,7 +3105,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;zh&#34;&gt;
+     data-lang=&#34;zh&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;例子&#39;&gt;&lt;/span&gt;
@@ -3077,7 +3119,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;question&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Question&#39;&gt;&lt;/span&gt;
@@ -3087,7 +3130,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;solution-env&#34;&gt;
+&lt;div class=&#34;solution-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;solution-heading&#34;&gt;
     &lt;span class=&#34;solution-title&#34;&gt;Solution.&lt;/span&gt;
   &lt;/span&gt;
@@ -3100,7 +3143,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;conjecture&#34;
-     data-lang=&#34;zh&#34;&gt;
+     data-lang=&#34;zh&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;猜想&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(fake)&lt;/span&gt;
@@ -3110,7 +3154,7 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;solution-env&#34;&gt;
+&lt;div class=&#34;solution-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;solution-heading&#34;&gt;
     &lt;span class=&#34;solution-title&#34;&gt;解.&lt;/span&gt;
   &lt;/span&gt;
@@ -3123,7 +3167,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-remark&#34; 
     
      data-kind=&#34;remark&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
@@ -3136,7 +3181,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-remark&#34; 
     
      data-kind=&#34;convention&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Convention&#39;&gt;&lt;/span&gt;
@@ -3149,7 +3195,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;exercise&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Exercise&#39;&gt;&lt;/span&gt;
@@ -3162,7 +3209,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;claim&#34;
-     data-lang=&#34;zh&#34;&gt;
+     data-lang=&#34;zh&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;断言&#39;&gt;&lt;/span&gt;
@@ -3175,7 +3223,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;fact&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Fact&#39;&gt;&lt;/span&gt;
@@ -3188,7 +3237,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-remark&#34; 
     
      data-kind=&#34;caveat&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
@@ -3201,7 +3251,8 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;algorithm&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Algorithm&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Toy example)&lt;/span&gt;
@@ -3259,27 +3310,45 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;p&gt;I wrote a shortcode for it to avoid the iframe being escaped by the theme.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;p&gt;Citing can be done with a shortcode &lt;code&gt;cite&lt;/code&gt;. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&#39;t work). For the latter, opt instead for generic markdown links i.e. &lt;code&gt;[[Knu86]](#bib-Knu86)&lt;/code&gt;.&lt;/p&gt;
-
-
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-    
-  &lt;li id=&#34;bib-Knu86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Knu86]&lt;/span&gt;
-  Donald E. Knuth, &lt;em&gt;The TeXbook&lt;/em&gt;, Addison-Wesley, 1986.
-&lt;/li&gt;
+  &lt;li id=&#34;bib-Knu86&#34; data-bib-key=&#34;Knu86&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Knu86]&lt;/span&gt;Donald E. Knuth. &lt;em&gt;The TeXbook&lt;/em&gt;. Addison-Wesley. 1986.&lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ser79&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser79]&lt;/span&gt;
-  Jean-Pierre Serre, &lt;em&gt;Local Fields&lt;/em&gt;, Springer, 1979.
-&lt;/li&gt;
 
-  &lt;li id=&#34;bib-Neu99&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Neu99]&lt;/span&gt;
-  Jürgen Neukirch, &lt;em&gt;Algebraic Number Theory&lt;/em&gt;, Springer, 1999.
-&lt;/li&gt;
+  &lt;li id=&#34;bib-Ser79&#34; data-bib-key=&#34;Ser79&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ser79]&lt;/span&gt;Jean-Pierre Serre. &lt;em&gt;Local Fields&lt;/em&gt;. Springer. 1979.&lt;/li&gt;
 
-  &lt;/ul&gt;
+
+  &lt;li id=&#34;bib-Neu99&#34; data-bib-key=&#34;Neu99&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Neu99]&lt;/span&gt;Jürgen Neukirch. &lt;em&gt;Algebraic Number Theory&lt;/em&gt;. Springer. 1999.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;bibliography-test-cases&#34;&gt;Bibliography Test Cases&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;&lt;li id=&#34;bib-Doe20&#34; data-bib-key=&#34;Doe20&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Doe20]&lt;/span&gt;Jane Doe and John Roe. &lt;em&gt;A Test Article: Extended Subtitle&lt;/em&gt;. Journal of Tests. 42(3). pp. 1--20. March 2020. ISSN: 1234-5678. Language: English. &lt;a href=&#34;https://doi.org/10.1000/testdoi&#34;&gt;doi:10.1000/testdoi&lt;/a&gt;.&lt;/li&gt;
+&lt;li id=&#34;bib-Foo21&#34; data-bib-key=&#34;Foo21&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Foo21]&lt;/span&gt;Foo Bar. Edith Editor (ed.). Translated by Tina Translator. &lt;em&gt;Testing BibTeX: A Subtitle&lt;/em&gt;. Test Series. 2 ed. Vol. 5. No. 7. Ch. 3. Test Press. Test City. July 2021. ISBN: 978-1-2345-6789-0. Language: English.&lt;/li&gt;
+&lt;li id=&#34;bib-Baz22&#34; data-bib-key=&#34;Baz22&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Baz22]&lt;/span&gt;Alice Baz. &lt;em&gt;Conference Paper Title&lt;/em&gt;. In &lt;em&gt;Proceedings of the Test Conf&lt;/em&gt;. pp. 100--110. Test Society. Conference Press. October 2022. &lt;a href=&#34;https://example.com/paper&#34;&gt;https://example.com/paper&lt;/a&gt;.&lt;/li&gt;
+&lt;li id=&#34;bib-Qux19&#34; data-bib-key=&#34;Qux19&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Qux19]&lt;/span&gt;Quinn Qux. &lt;em&gt;On Testing&lt;/em&gt;. PhD thesis. Test University. Test Institute. Test City. May 2019.&lt;/li&gt;
+&lt;li id=&#34;bib-Web23&#34; data-bib-key=&#34;Web23&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Web23]&lt;/span&gt;Web Writer. &lt;em&gt;Testing Online Source&lt;/em&gt;. Online resource. 2023. Online resource. &lt;a href=&#34;https://example.com/online&#34;&gt;https://example.com/online&lt;/a&gt;. Accessed 2024-01-15.&lt;/li&gt;
+&lt;li id=&#34;bib-Tech18&#34; data-bib-key=&#34;Tech18&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Tech18]&lt;/span&gt;Tech Author. &lt;em&gt;A Technical Report&lt;/em&gt;. No. TR-2018-01. 2018. Internal report.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-OverrideMe&#34; data-bib-key=&#34;OverrideMe&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[OverrideMe]&lt;/span&gt;New Author. &lt;em&gt;Overridden Entry Title&lt;/em&gt;. Override Press. 2024.&lt;/li&gt;
+
+
+  &lt;li id=&#34;bib-InlineAll&#34; data-bib-key=&#34;InlineAll&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[InlineAll]&lt;/span&gt;Inline Author. Inline Editor (ed.). Translated by Inline Translator. &lt;em&gt;Inline Title: An Inline Subtitle&lt;/em&gt;. Inline Series. 3 ed. Vol. 2. No. 4. Ch. 7. Inline Press. Inline City. December 2025. ISBN: 978-0-0000-0000-0. ISSN: 9876-5432. Language: English. Special note. &lt;a href=&#34;https://doi.org/10.1000/inline-doi&#34;&gt;doi:10.1000/inline-doi&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2401.00001&#34;&gt;arXiv:2401.00001&lt;/a&gt;. &lt;a href=&#34;https://example.com/inline&#34;&gt;https://example.com/inline&lt;/a&gt;. Accessed 2025-01-01.&lt;/li&gt;
+
+&lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

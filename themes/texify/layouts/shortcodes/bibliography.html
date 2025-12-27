@@ -1,7 +1,37 @@
 {{/* layouts/shortcodes/bibliography.html */}}
+{{- $load := .Get "load" | default "" -}}
+{{- $inner := .Inner -}}
+{{- $innerKeys := slice -}}
+{{- range findRE `data-bib-key="[^"]+"` $inner -}}
+  {{- $key := replaceRE `^data-bib-key="([^"]+)"$` `$1` . -}}
+  {{- $innerKeys = $innerKeys | append $key -}}
+{{- end -}}
 
 <div class="bib-env">
   <ul class="bib-list">
-    {{ .Inner }}
+    {{- if $load -}}
+      {{- $bib := readFile $load -}}
+      {{- $entries := findRE `@\w+\s*\{[^@]+\}` $bib -}}
+      {{- range $entries -}}
+        {{- $entry := . -}}
+        {{- $type := lower (replaceRE `(?s)^@([A-Za-z]+).*$` `$1` $entry) -}}
+        {{- $key := replaceRE `(?s)^@[^{]+\{\s*([^,\s]+).*$` `$1` $entry -}}
+        {{- if not (in $innerKeys $key) -}}
+          {{- $item := dict "key" $key "type" $type -}}
+          {{- range findRE `(?is)[A-Za-z]+\s*=\s*(\{[^}]*\}|"[^"]*")` $entry -}}
+            {{- $name := lower (replaceRE `(?is)^([A-Za-z]+)\s*=.*$` `$1` .) -}}
+            {{- if eq $name "author" -}}
+              {{- $name = "authors" -}}
+            {{- end -}}
+            {{- $raw := replaceRE `(?is)^[A-Za-z]+\s*=\s*` `` . -}}
+            {{- $raw = replaceRE `^\{(.*)\}$` `$1` $raw -}}
+            {{- $raw = replaceRE `^"(.*)"$` `$1` $raw -}}
+            {{- $item = merge $item (dict $name $raw) -}}
+          {{- end -}}
+          {{- partial "bibitem-render.html" $item -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $inner -}}
   </ul>
 </div>

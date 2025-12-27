@@ -23,7 +23,8 @@ $$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any perm
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
@@ -40,7 +41,8 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
@@ -54,7 +56,8 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Pieri Formulas)&lt;/span&gt;

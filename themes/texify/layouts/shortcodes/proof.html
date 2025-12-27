@@ -1,8 +1,9 @@
 {{/* layouts/shortcodes/proof.html */}}
 {{- $lang := .Get "lang" | default .Page.Language.Lang -}}
+{{- $compact := .Get "compact" | default "true" -}}
 {{- $inner := .Inner -}}
 
-<div class="proof-env">
+<div class="proof-env" data-compact="{{ $compact }}">
   <span class="proof-heading">
     <span class="proof-title">
       {{- if eq $lang "zh" -}}证明.{{- else -}}Proof.{{- end -}}

@@ -111,7 +111,8 @@
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -129,7 +130,7 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -174,7 +175,8 @@ What we just proved in part 3 of the previous theorem is that the Hom-functor is
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -203,7 +205,8 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -315,7 +318,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -325,7 +329,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -366,7 +370,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -380,7 +385,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -390,7 +396,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -417,7 +423,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -479,7 +486,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -500,7 +508,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
@@ -516,7 +525,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -538,7 +547,8 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First isomorphism theorem)&lt;/span&gt;
@@ -548,7 +558,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34;&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
@@ -606,7 +616,8 @@ is called a &lt;em&gt;(co)chain complex&lt;/em&gt; if each three term subsequenc
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -643,7 +654,8 @@ as the $n$-th cohomology object. In fact, for a chain map $f^\bullet: A^\bullet\
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -668,7 +680,8 @@ Hence this induces a long exact sequence on cohomology objects. Working out the 
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -732,7 +745,8 @@ Note that $\mathscr{F}$ is exact iff $R^1\mathscr{F}=0$, so in a sense the right
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -752,7 +766,8 @@ for $i\ge 0$. Left derived functors $L_i\mathscr{F}$ are defined dually via proj
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
@@ -770,7 +785,8 @@ for all $i\ge 0$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
@@ -789,7 +805,8 @@ for all $i\ge 0$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;

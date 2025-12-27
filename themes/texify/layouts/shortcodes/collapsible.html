@@ -3,13 +3,14 @@
 {{- $title := .Get "title" | default "Hint" -}}
 {{- $open  := .Get "open"  | default "false" -}}
 {{- $isOpen := or (eq $open true) (eq $open "true") -}}
+{{- $compact := .Get "compact" | default "true" -}}
 {{- $uid := printf "yh-hint-%d" .Ordinal -}}
 
 {{- $inner := .Inner | markdownify -}}
 {{- /* strip ONE outer <p> so inline start looks clean */ -}}
 {{- $inner = $inner | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
 
-<div class="yh-hint-row" data-hint-row>
+<div class="yh-hint-row" data-hint-row data-compact="{{ $compact }}">
   <span class="yh-hint-head"
         role="button"
         tabindex="0"

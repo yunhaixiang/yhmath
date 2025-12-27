@@ -193,15 +193,51 @@ I wrote a shortcode for it to avoid the iframe being escaped by the theme.
 Citing can be done with a shortcode `cite`. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won't work). For the latter, opt instead for generic markdown links i.e. `[[Knu86]](#bib-Knu86)`.
 
 {{< bibliography >}}
-  {{< bibitem key="Knu86" >}}
-  Donald E. Knuth, *The TeXbook*, Addison-Wesley, 1986.
+  {{< bibitem key="Knu86" authors="Donald E. Knuth" type="book" publisher="Addison-Wesley" year="1986" >}}
+  The TeXbook
   {{< /bibitem >}}
 
-  {{< bibitem key="Ser79" >}}
-  Jean-Pierre Serre, *Local Fields*, Springer, 1979.
+  {{< bibitem key="Ser79" authors="Jean-Pierre Serre" type="book" publisher="Springer" year="1979" >}}
+  Local Fields
   {{< /bibitem >}}
 
-  {{< bibitem key="Neu99" >}}
-  Jürgen Neukirch, *Algebraic Number Theory*, Springer, 1999.
+  {{< bibitem key="Neu99" authors="Jürgen Neukirch" type="book" publisher="Springer" year="1999" >}}
+  Algebraic Number Theory
+  {{< /bibitem >}}
+{{< /bibliography >}}
+
+## Bibliography Test Cases
+
+{{< bibliography load="content/bib/test.bib" >}}
+  {{< bibitem key="OverrideMe" authors="New Author" type="book" publisher="Override Press" year="2024" >}}
+  Overridden Entry Title
+  {{< /bibitem >}}
+
+  {{< bibitem
+      key="InlineAll"
+      authors="Inline Author"
+      editor="Inline Editor"
+      translator="Inline Translator"
+      type="book"
+      subtitle="An Inline Subtitle"
+      series="Inline Series"
+      edition="3"
+      volume="2"
+      number="4"
+      chapter="7"
+      publisher="Inline Press"
+      address="Inline City"
+      month="December"
+      year="2025"
+      isbn="978-0-0000-0000-0"
+      issn="9876-5432"
+      language="English"
+      note="Special note"
+      url="https://example.com/inline"
+      urldate="2025-01-01"
+      doi="10.1000/inline-doi"
+      eprint="2401.00001"
+  >}}
+  Inline Title
   {{< /bibitem >}}
 {{< /bibliography >}}

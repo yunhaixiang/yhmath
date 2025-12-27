@@ -1,10 +1,12 @@
 {{ $lang := .Get "lang" | default .Page.Language.Lang }}
 {{- $id := .Get "id" | default "" -}}
+{{- $numbered := .Get "numbered" | default "true" -}}
 
 <div class="math-env style-defn" 
     {{ with $id }}id="{{ . }}"{{ end }}
      data-kind="conjecture"
-     data-lang="{{ $lang }}">
+     data-lang="{{ $lang }}"
+     data-numbered="{{ $numbered }}">
   <span class="math-heading">
   <span class="math-title"
         data-label='{{ if eq $lang "zh" }}猜想{{ else }}Conjecture{{ end }}'></span>{{ with .Get "note" }} <span class="math-note">({{ . }})</span>{{ end }}

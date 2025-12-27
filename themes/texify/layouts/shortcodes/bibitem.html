@@ -1,7 +1,70 @@
 {{/* layouts/shortcodes/bibitem.html */}}
 {{- $key := .Get "key" -}}
+{{- $type := .Get "type" | default "book" -}}
+{{- $authors := .Get "authors" | default "" -}}
+{{- $editor := .Get "editor" | default "" -}}
+{{- $subtitle := .Get "subtitle" | default "" -}}
+{{- $translator := .Get "translator" | default "" -}}
+{{- $series := .Get "series" | default "" -}}
+{{- $publisher := .Get "publisher" | default "" -}}
+{{- $year := .Get "year" | default "" -}}
+{{- $month := .Get "month" | default "" -}}
+{{- $journal := .Get "journal" | default "" -}}
+{{- $booktitle := .Get "booktitle" | default "" -}}
+{{- $pages := .Get "pages" | default "" -}}
+{{- $chapter := .Get "chapter" | default "" -}}
+{{- $volume := .Get "volume" | default "" -}}
+{{- $number := .Get "number" | default "" -}}
+{{- $edition := .Get "edition" | default "" -}}
+{{- $address := .Get "address" | default "" -}}
+{{- $doi := .Get "doi" | default "" -}}
+{{- $eprint := .Get "eprint" | default "" -}}
+{{- $eprinttype := .Get "eprinttype" | default "arXiv" -}}
+{{- $isbn := .Get "isbn" | default "" -}}
+{{- $issn := .Get "issn" | default "" -}}
+{{- $note := .Get "note" | default "" -}}
+{{- $url := .Get "url" | default "" -}}
+{{- $school := .Get "school" | default "" -}}
+{{- $institution := .Get "institution" | default "" -}}
+{{- $organization := .Get "organization" | default "" -}}
+{{- $language := .Get "language" | default "" -}}
+{{- $urldate := .Get "urldate" | default "" -}}
+{{- $accessed := .Get "accessed" | default "" -}}
 
-<li id="bib-{{ $key }}">
-  <span class="bib-label">[{{ $key }}]</span>
-  {{ .Inner | markdownify }}
-</li>
+{{- $title := .Inner | markdownify -}}
+{{- $title = $title | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
+
+{{- partial "bibitem-render.html" (dict
+  "key" $key
+  "title" $title
+  "type" $type
+  "authors" $authors
+  "editor" $editor
+  "subtitle" $subtitle
+  "translator" $translator
+  "series" $series
+  "publisher" $publisher
+  "year" $year
+  "month" $month
+  "journal" $journal
+  "booktitle" $booktitle
+  "pages" $pages
+  "chapter" $chapter
+  "volume" $volume
+  "number" $number
+  "edition" $edition
+  "address" $address
+  "doi" $doi
+  "eprint" $eprint
+  "eprinttype" $eprinttype
+  "isbn" $isbn
+  "issn" $issn
+  "note" $note
+  "url" $url
+  "school" $school
+  "institution" $institution
+  "organization" $organization
+  "language" $language
+  "urldate" $urldate
+  "accessed" $accessed
+) -}}

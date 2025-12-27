@@ -1,0 +1,195 @@
+{{- $key := .key -}}
+{{- $title := .title | default "" -}}
+{{- $subtitle := .subtitle | default "" -}}
+{{- $authors := .authors | default "" -}}
+{{- $editor := .editor | default "" -}}
+{{- $translator := .translator | default "" -}}
+{{- $type := .type | default "book" | lower -}}
+{{- $series := .series | default "" -}}
+{{- $publisher := .publisher | default "" -}}
+{{- $year := .year | default "" -}}
+{{- $month := .month | default "" -}}
+{{- $journal := .journal | default "" -}}
+{{- $booktitle := .booktitle | default "" -}}
+{{- $pages := .pages | default "" -}}
+{{- $chapter := .chapter | default "" -}}
+{{- $volume := .volume | default "" -}}
+{{- $number := .number | default "" -}}
+{{- $edition := .edition | default "" -}}
+{{- $address := .address | default "" -}}
+{{- $doi := .doi | default "" -}}
+{{- $eprint := .eprint | default "" -}}
+{{- $eprinttype := .eprinttype | default "arXiv" -}}
+{{- $isbn := .isbn | default "" -}}
+{{- $issn := .issn | default "" -}}
+{{- $note := .note | default "" -}}
+{{- $url := .url | default "" -}}
+{{- $school := .school | default "" -}}
+{{- $institution := .institution | default "" -}}
+{{- $organization := .organization | default "" -}}
+{{- $language := .language | default "" -}}
+{{- $urldate := .urldate | default "" -}}
+{{- $accessed := .accessed | default "" -}}
+
+{{- $parts := slice -}}
+{{- if $authors -}}
+  {{- $parts = $parts | append (printf "%s." $authors) -}}
+{{- end -}}
+{{- if $editor -}}
+  {{- $parts = $parts | append (printf "%s (ed.)." $editor) -}}
+{{- end -}}
+{{- if $translator -}}
+  {{- $parts = $parts | append (printf "Translated by %s." $translator) -}}
+{{- end -}}
+{{- if $title -}}
+  {{- if $subtitle -}}
+    {{- $parts = $parts | append (printf "<em>%s: %s</em>." $title $subtitle) -}}
+  {{- else -}}
+    {{- $parts = $parts | append (printf "<em>%s</em>." $title) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if eq $type "article" -}}
+  {{- if $journal -}}{{- $parts = $parts | append (printf "%s." $journal) -}}{{- end -}}
+  {{- $volnum := "" -}}
+  {{- if $volume -}}{{- $volnum = printf "%s" $volume -}}{{- end -}}
+  {{- if $number -}}
+    {{- if $volnum -}}
+      {{- $volnum = printf "%s(%s)" $volnum $number -}}
+    {{- else -}}
+      {{- $volnum = printf "(%s)" $number -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $volnum -}}{{- $parts = $parts | append (printf "%s." $volnum) -}}{{- end -}}
+  {{- if $pages -}}{{- $parts = $parts | append (printf "pp. %s." $pages) -}}{{- end -}}
+  {{- if or $month $year -}}
+    {{- $when := "" -}}
+    {{- if $month -}}{{- $when = $month -}}{{- end -}}
+    {{- if $year -}}
+      {{- if $when -}}
+        {{- $when = printf "%s %s" $when $year -}}
+      {{- else -}}
+        {{- $when = $year -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $parts = $parts | append (printf "%s." $when) -}}
+  {{- end -}}
+{{- else if or (eq $type "inproceedings") (eq $type "incollection") -}}
+  {{- if $booktitle -}}
+    {{- $parts = $parts | append (printf "In <em>%s</em>." $booktitle) -}}
+  {{- end -}}
+  {{- if $pages -}}{{- $parts = $parts | append (printf "pp. %s." $pages) -}}{{- end -}}
+  {{- if $organization -}}{{- $parts = $parts | append (printf "%s." $organization) -}}{{- end -}}
+  {{- if $publisher -}}{{- $parts = $parts | append (printf "%s." $publisher) -}}{{- end -}}
+  {{- if or $month $year -}}
+    {{- $when := "" -}}
+    {{- if $month -}}{{- $when = $month -}}{{- end -}}
+    {{- if $year -}}
+      {{- if $when -}}
+        {{- $when = printf "%s %s" $when $year -}}
+      {{- else -}}
+        {{- $when = $year -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $parts = $parts | append (printf "%s." $when) -}}
+  {{- end -}}
+{{- else if or (eq $type "phdthesis") (eq $type "mastersthesis") -}}
+  {{- if eq $type "phdthesis" -}}
+    {{- $parts = $parts | append "PhD thesis." -}}
+  {{- else -}}
+    {{- $parts = $parts | append "Master's thesis." -}}
+  {{- end -}}
+  {{- if $school -}}{{- $parts = $parts | append (printf "%s." $school) -}}{{- end -}}
+  {{- if $institution -}}{{- $parts = $parts | append (printf "%s." $institution) -}}{{- end -}}
+  {{- if $address -}}{{- $parts = $parts | append (printf "%s." $address) -}}{{- end -}}
+  {{- if or $month $year -}}
+    {{- $when := "" -}}
+    {{- if $month -}}{{- $when = $month -}}{{- end -}}
+    {{- if $year -}}
+      {{- if $when -}}
+        {{- $when = printf "%s %s" $when $year -}}
+      {{- else -}}
+        {{- $when = $year -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $parts = $parts | append (printf "%s." $when) -}}
+  {{- end -}}
+{{- else if eq $type "online" -}}
+  {{- if $note -}}{{- $parts = $parts | append (printf "%s." $note) -}}{{- end -}}
+  {{- if or $month $year -}}
+    {{- $when := "" -}}
+    {{- if $month -}}{{- $when = $month -}}{{- end -}}
+    {{- if $year -}}
+      {{- if $when -}}
+        {{- $when = printf "%s %s" $when $year -}}
+      {{- else -}}
+        {{- $when = $year -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $parts = $parts | append (printf "%s." $when) -}}
+  {{- end -}}
+{{- else -}}
+  {{- if $series -}}{{- $parts = $parts | append (printf "%s." $series) -}}{{- end -}}
+  {{- if $edition -}}{{- $parts = $parts | append (printf "%s ed." $edition) -}}{{- end -}}
+  {{- if $volume -}}{{- $parts = $parts | append (printf "Vol. %s." $volume) -}}{{- end -}}
+  {{- if $number -}}{{- $parts = $parts | append (printf "No. %s." $number) -}}{{- end -}}
+  {{- if $chapter -}}{{- $parts = $parts | append (printf "Ch. %s." $chapter) -}}{{- end -}}
+  {{- if $publisher -}}{{- $parts = $parts | append (printf "%s." $publisher) -}}{{- end -}}
+  {{- if $address -}}{{- $parts = $parts | append (printf "%s." $address) -}}{{- end -}}
+  {{- if or $month $year -}}
+    {{- $when := "" -}}
+    {{- if $month -}}{{- $when = $month -}}{{- end -}}
+    {{- if $year -}}
+      {{- if $when -}}
+        {{- $when = printf "%s %s" $when $year -}}
+      {{- else -}}
+        {{- $when = $year -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $parts = $parts | append (printf "%s." $when) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $isbn -}}
+  {{- $parts = $parts | append (printf "ISBN: %s." $isbn) -}}
+{{- end -}}
+{{- if $issn -}}
+  {{- $parts = $parts | append (printf "ISSN: %s." $issn) -}}
+{{- end -}}
+{{- if $language -}}
+  {{- $parts = $parts | append (printf "Language: %s." $language) -}}
+{{- end -}}
+{{- if $note -}}
+  {{- $parts = $parts | append (printf "%s." $note) -}}
+{{- end -}}
+
+{{- if $doi -}}
+  {{- $parts = $parts | append (printf "<a href=\"https://doi.org/%s\">doi:%s</a>." $doi $doi) -}}
+{{- end -}}
+{{- if $eprint -}}
+  {{- $eprintLabel := $eprinttype -}}
+  {{- $eprintHref := $eprint -}}
+  {{- if not (hasPrefix $eprint "http://") -}}
+    {{- if not (hasPrefix $eprint "https://") -}}
+      {{- $eprintHref = printf "https://arxiv.org/abs/%s" $eprint -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $eprintLabel -}}
+    {{- $eprintLabel = "arXiv" -}}
+  {{- end -}}
+  {{- $parts = $parts | append (printf "<a href=\"%s\">%s:%s</a>." $eprintHref $eprintLabel $eprint) -}}
+{{- end -}}
+{{- if $url -}}
+  {{- $parts = $parts | append (printf "<a href=\"%s\">%s</a>." $url $url) -}}
+{{- end -}}
+{{- if $urldate -}}
+  {{- $parts = $parts | append (printf "Accessed %s." $urldate) -}}
+{{- end -}}
+{{- if and (not $urldate) $accessed -}}
+  {{- $parts = $parts | append (printf "Accessed %s." $accessed) -}}
+{{- end -}}
+
+<li id="bib-{{ $key }}" data-bib-key="{{ $key }}">
+  <span class="bib-label">[{{ $key }}]</span>
+  {{- delimit $parts " " | safeHTML -}}
+</li>

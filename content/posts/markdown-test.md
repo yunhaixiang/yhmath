@@ -106,6 +106,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 2. Item 2
 3. Item 3
 
+
 ### Unordered List
 
 - Fruit

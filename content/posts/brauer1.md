@@ -28,11 +28,10 @@ A $K$-algebra $L$ is said to be *étale* if any of the following equivalent cond
 
 Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck's generalization of Galois theory. 
 
-{{< theorem note="Grothendieck">}}
+{{< theorem note="Grothendieck" >}}
 There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$. 
 {{< /theorem >}}
-
-{{< proof >}}
+{{< proof>}}
 See {{< cite key="GR71" note="V.7 and Proposition V.8.1" >}}. 
 {{< /proof >}}
 
@@ -46,10 +45,10 @@ Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some o
 ## References
 
 {{< bibliography >}}
-  {{< bibitem key="Poo17" >}}
-  Bjorn Poonen, *Rational Points on Varieties*, American Mathematical Soc., 2017.
+  {{< bibitem key="Poo17" authors="Bjorn Poonen" type="book" publisher="American Mathematical Soc." year="2017" >}}
+  Rational Points on Varieties
   {{< /bibitem >}}
-  {{< bibitem key="GR71" >}}
-  Alexander Grothendieck, Michèle Raynaud, *Revêtements étales et groupe fondamental (SGA I)*, Lecture Notes in Mathematics 224, Springer, 1971.
+  {{< bibitem key="GR71" authors="Alexander Grothendieck, Michèle Raynaud" type="book" series="Lecture Notes in Mathematics 224" publisher="Springer" year="1971" >}}
+  Revêtements étales et groupe fondamental (SGA I)
   {{< /bibitem >}}
 {{< /bibliography >}}

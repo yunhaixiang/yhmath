@@ -27,8 +27,21 @@
     const lang = (env.getAttribute("data-lang") || "en").toLowerCase();
     return lang === "zh" ? "zh" : "en";
   }
+  function isNumbered(env) {
+    const value = (env.getAttribute("data-numbered") || "true").toLowerCase();
+    return value !== "false";
+  }
   function getKind(env) { return (env.getAttribute("data-kind") || "theorem").toLowerCase(); }
-  function getLabel(kind, lang) { return (LABELS[kind] || LABELS.theorem)[lang] || (LABELS[kind] || LABELS.theorem).en; }
+  function getLabel(env) {
+    const custom = (env.getAttribute("data-label") || "").trim();
+    if (custom) return custom;
+    const titleEl = env.querySelector(".math-title");
+    const titleLabel = titleEl ? (titleEl.getAttribute("data-label") || "").trim() : "";
+    if (titleLabel) return titleLabel;
+    const kind = getKind(env);
+    const lang = getLang(env);
+    return (LABELS[kind] || LABELS.theorem)[lang] || (LABELS[kind] || LABELS.theorem).en;
+  }
 
   function buildPrefix(c) {
     const parts = [];
@@ -56,11 +69,18 @@
 
       if (!node.classList.contains("math-env")) return;
 
+      const label = getLabel(node);
+      if (!isNumbered(node)) {
+        const titleEl = node.querySelector(".math-title");
+        if (titleEl) titleEl.textContent = `${label}.`;
+        node.dataset.mathLabel = label;
+        delete node.dataset.mathNum;
+        return;
+      }
+
       envCounter += 1;
       const prefix = buildPrefix(c);
       const num = prefix.length ? `${prefix.join(".")}.${envCounter}` : `${envCounter}`;
-
-      const label = getLabel(getKind(node), getLang(node));
 
       const titleEl = node.querySelector(".math-title");
       if (titleEl) titleEl.textContent = `${label} ${num}.`;

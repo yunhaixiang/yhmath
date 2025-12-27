@@ -23,7 +23,8 @@
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
@@ -40,7 +41,8 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(van Kampen)&lt;/span&gt;
@@ -74,7 +76,8 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;corollary&#34;
-     data-lang=&#34;en&#34;&gt;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;

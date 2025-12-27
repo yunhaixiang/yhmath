@@ -1,7 +1,8 @@
 {{/* layouts/shortcodes/solution.html */}}
 {{- $lang := .Get "lang" | default .Page.Language.Lang -}}
+{{- $compact := .Get "compact" | default "true" -}}
 
-<div class="solution-env">
+<div class="solution-env" data-compact="{{ $compact }}">
   <span class="solution-heading">
     <span class="solution-title">
       {{- if eq $lang "zh" -}}解.{{- else -}}Solution.{{- end -}}

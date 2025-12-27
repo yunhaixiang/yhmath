@@ -106,10 +106,10 @@ It is often useful to think of a fibred category as the collection of categories
 ## References
 
 {{< bibliography >}}
-  {{< bibitem key="Ols16" >}}
-  Martin Olsson, *Algebraic Spaces and Stacks*, American Mathematical Society, 2016.
+  {{< bibitem key="Ols16" authors="Martin Olsson" type="book" publisher="American Mathematical Society" year="2016" >}}
+  Algebraic Spaces and Stacks
   {{< /bibitem >}}
-  {{< bibitem key="Stacks" >}}
-  The Stacks Project, https://stacks.math.columbia.edu
+  {{< bibitem key="Stacks" type="online" url="https://stacks.math.columbia.edu" >}}
+  The Stacks Project
   {{< /bibitem >}}
 {{< /bibliography >}}
