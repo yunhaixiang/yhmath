@@ -287,7 +287,7 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Lemma 3.1.8&#34;&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Recall the classical Yoneda lemma: for each object $A\in\mathcal C$ we have a natural isomorphism between the collection of natural transformations $\mathrm{Nat}(\mathscr{F},\mathscr{H}^A)$, and the set $\mathscr{F}(A)$. This point of view is crucial for the development of algebraic spaces, and also for fibred categories we need a variant of this lemma.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;&gt;
@@ -296,13 +296,13 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Lemma 3.1.8&#34;&gt;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(2-Yoneda lemma)&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence
+    &lt;p&gt;Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence &lt;/p&gt;
+$$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$&lt;p&gt;
+given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.&lt;/p&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
-$$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$&lt;p&gt;
-given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.&lt;/p&gt;
 &lt;div class=&#34;proof-env&#34;&gt;
   &lt;span class=&#34;proof-heading&#34;&gt;
     &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
