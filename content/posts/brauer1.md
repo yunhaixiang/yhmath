@@ -45,10 +45,10 @@ Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some o
 ## References
 
 {{< bibliography >}}
-  {{< bibitem key="Poo17" authors="Bjorn Poonen" type="book" publisher="American Mathematical Society" year="2017" >}}
+  {{< bibitem key="Poo17" author="Bjorn Poonen" type="book" publisher="American Mathematical Society" year="2017" >}}
   Rational Points on Varieties
   {{< /bibitem >}}
-  {{< bibitem key="GR71" authors="Alexander Grothendieck, Michèle Raynaud" type="book" series="Lecture Notes in Mathematics 224" publisher="Springer" year="1971" >}}
+  {{< bibitem key="GR71" author="Alexander Grothendieck, Michèle Raynaud" type="book" series="Lecture Notes in Mathematics 224" publisher="Springer" year="1971" >}}
   Revêtements étales et groupe fondamental (SGA I)
   {{< /bibitem >}}
 {{< /bibliography >}}

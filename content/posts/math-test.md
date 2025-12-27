@@ -193,15 +193,15 @@ I wrote a shortcode for it to avoid the iframe being escaped by the theme.
 Citing can be done with a shortcode `cite`. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won't work). For the latter, opt instead for generic markdown links i.e. `[[Knu86]](#bib-Knu86)`.
 
 {{< bibliography >}}
-  {{< bibitem key="Knu86" authors="Donald E. Knuth" type="book" publisher="Addison-Wesley" year="1986" >}}
+  {{< bibitem key="Knu86" author="Donald E. Knuth" type="book" publisher="Addison-Wesley" year="1986" >}}
   The TeXbook
   {{< /bibitem >}}
 
-  {{< bibitem key="Ser79" authors="Jean-Pierre Serre" type="book" publisher="Springer" year="1979" >}}
+  {{< bibitem key="Ser79" author="Jean-Pierre Serre" type="book" publisher="Springer" year="1979" >}}
   Local Fields
   {{< /bibitem >}}
 
-  {{< bibitem key="Neu99" authors="Jürgen Neukirch" type="book" publisher="Springer" year="1999" >}}
+  {{< bibitem key="Neu99" author="Jürgen Neukirch" type="book" publisher="Springer" year="1999" >}}
   Algebraic Number Theory
   {{< /bibitem >}}
 {{< /bibliography >}}
@@ -209,13 +209,13 @@ Citing can be done with a shortcode `cite`. However, this does not work within a
 ## Bibliography Test Cases
 
 {{< bibliography load="content/bib/test.bib" >}}
-  {{< bibitem key="OverrideMe" authors="New Author" type="book" publisher="Override Press" year="2024" >}}
+  {{< bibitem key="OverrideMe" author="New Author" type="book" publisher="Override Press" year="2024" >}}
   Overridden Entry Title
   {{< /bibitem >}}
 
   {{< bibitem
       key="InlineAll"
-      authors="Inline Author"
+      author="Inline Author"
       editor="Inline Editor"
       translator="Inline Translator"
       type="book"

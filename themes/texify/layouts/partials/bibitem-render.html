@@ -1,7 +1,7 @@
 {{- $key := .key -}}
 {{- $title := .title | default "" -}}
 {{- $subtitle := .subtitle | default "" -}}
-{{- $authors := .authors | default "" -}}
+{{- $authors := .authors | default .author | default "" -}}
 {{- $editor := .editor | default "" -}}
 {{- $translator := .translator | default "" -}}
 {{- $type := .type | default "book" | lower -}}

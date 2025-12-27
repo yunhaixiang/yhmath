@@ -1,7 +1,7 @@
 {{/* layouts/shortcodes/bibitem.html */}}
 {{- $key := .Get "key" -}}
 {{- $type := .Get "type" | default "book" -}}
-{{- $authors := .Get "authors" | default "" -}}
+{{- $authors := .Get "authors" | default (.Get "author") | default "" -}}
 {{- $editor := .Get "editor" | default "" -}}
 {{- $subtitle := .Get "subtitle" | default "" -}}
 {{- $translator := .Get "translator" | default "" -}}
