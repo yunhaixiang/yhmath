@@ -12,7 +12,7 @@ More specifically, some topics that I especially want to understand are
 3. Enumerative geometry over arbitrary ground fields
 4. Galois representations, étale sheaves, and ramification theory
 
-Outside my primary interests, I would also love to learn more about representation theory, combinatorics, mathematical logic, and mathematics related to artificial intelligence. At heart, I am an algebraist, and I have general interests in all kinds of mathematics of an algebraic or “conceptual” flavor. I'm also interested in how artificial intelligence can be applied to mathematical research.
+Outside my primary interests, I would also love to learn more about representation theory, combinatorics, mathematical logic, and mathematics related to artificial intelligence. At heart, I am an algebraist, and I have general interests in all kinds of mathematics of an algebraic or “conceptual” flavor. I am also interested in how artificial intelligence can be applied to mathematical research.
 
 ## Publications
 
@@ -25,7 +25,3 @@ I write and continue to update self-contained notes on various mathematical topi
 1. _Linear Algebraic Groups and Representation Theory_ (coming soon)
 2. _Algebraic Curves and Abelian Varieties_ (coming soon)
 3. _Algebraic Number Theory_ (coming soon)
-
-Here are some on very specific topics which are on the shorter side. 
-
-1. _Brauer Groups_ (coming soon)
