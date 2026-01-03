@@ -54,6 +54,9 @@
 
   
 
+  {{- $tocEnabled := cond (ne .Params.toc nil) .Params.toc .Site.Params.toc -}}
+  {{- $hasToc := and $tocEnabled (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") -}}
+
   {{ if or .Params.categories .Params.tags }}
     <div class="post-taxonomy-line">
       {{ with .Params.categories }}
@@ -68,20 +71,22 @@
         {{ end }}
       {{ end }}
 
+      {{ if $hasToc }}
       <br></br>
+      {{ else }}
+      <span class="post-taxonomy-gap"></span>
+      {{ end }}
     </div>
   {{ end }}
 
 
-  {{ if cond (ne .Params.toc nil) .Params.toc .Site.Params.toc }}
-  {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+  {{ if $hasToc }}
   <details>
     <summary>
       <b>Table of Contents</b>
     </summary>
     <div class="toc {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">{{ .TableOfContents }}</div>
   </details>
-  {{ end }}
   {{ end }}
   <article class="content {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">
     {{ if .Site.Params.emphasisWithDots }}
