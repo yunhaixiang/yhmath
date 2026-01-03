@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebra on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/algebra/</link>
+    <link>http://localhost:54440/tags/algebra/</link>
     <description>Recent content in Algebra on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:54440/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/brauer1/</link>
+      <link>http://localhost:54440/posts/brauer1/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <guid>http://localhost:54440/posts/brauer1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -103,10 +103,10 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:1313/posts/sym-poly/</link>
+      <link>http://localhost:54440/posts/sym-poly/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <guid>http://localhost:54440/posts/sym-poly/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
@@ -169,10 +169,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
+      <link>http://localhost:54440/posts/bundles-and-divisors/</link>
       <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
+      <guid>http://localhost:54440/posts/bundles-and-divisors/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -229,10 +229,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/markdown-test/</link>
+      <link>http://localhost:54440/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown-test/</guid>
+      <guid>http://localhost:54440/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
