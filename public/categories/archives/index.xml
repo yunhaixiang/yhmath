@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Yunhai Xiang</title>
-    <link>http://localhost:54440/categories/archives/</link>
+    <link>http://localhost:64574/categories/archives/</link>
     <description>Recent content in Archives on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:54440/categories/archives/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:64574/categories/archives/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magic Tricks</title>
-      <link>http://localhost:54440/posts/magic-tricks/</link>
+      <link>http://localhost:64574/posts/magic-tricks/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/magic-tricks/</guid>
+      <guid>http://localhost:64574/posts/magic-tricks/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://localhost:54440/posts/links/</link>
+      <link>http://localhost:64574/posts/links/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/links/</guid>
+      <guid>http://localhost:64574/posts/links/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
@@ -206,10 +206,10 @@
     
     <item>
       <title>Films</title>
-      <link>http://localhost:54440/posts/films/</link>
+      <link>http://localhost:64574/posts/films/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/films/</guid>
+      <guid>http://localhost:64574/posts/films/</guid>
       <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
@@ -270,10 +270,10 @@
     
     <item>
       <title>Books and Essays</title>
-      <link>http://localhost:54440/posts/books-and-essays/</link>
+      <link>http://localhost:64574/posts/books-and-essays/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/books-and-essays/</guid>
+      <guid>http://localhost:64574/posts/books-and-essays/</guid>
       <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
@@ -346,10 +346,10 @@
     
     <item>
       <title>Anime</title>
-      <link>http://localhost:54440/posts/anime/</link>
+      <link>http://localhost:64574/posts/anime/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/anime/</guid>
+      <guid>http://localhost:64574/posts/anime/</guid>
       <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
@@ -397,10 +397,10 @@
     
     <item>
       <title>Music</title>
-      <link>http://localhost:54440/posts/music/</link>
+      <link>http://localhost:64574/posts/music/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/music/</guid>
+      <guid>http://localhost:64574/posts/music/</guid>
       <description>&lt;p&gt;I love music, especially jazz and rock. Here are some of my favorite artists.&lt;/p&gt;
 &lt;h2 id=&#34;jazz&#34;&gt;Jazz&lt;/h2&gt;
 &lt;ul&gt;
@@ -426,10 +426,10 @@
     
     <item>
       <title>Video Games</title>
-      <link>http://localhost:54440/posts/video-games/</link>
+      <link>http://localhost:64574/posts/video-games/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/video-games/</guid>
+      <guid>http://localhost:64574/posts/video-games/</guid>
       <description>&lt;p&gt;I like playing video games, especially single player action or story-driven games.&lt;/p&gt;
 &lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
@@ -454,10 +454,10 @@
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:54440/posts/markdown-test/</link>
+      <link>http://localhost:64574/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:54440/posts/markdown-test/</guid>
+      <guid>http://localhost:64574/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
