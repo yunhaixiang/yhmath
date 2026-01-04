@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic-Geometry on Yunhai Xiang</title>
-    <link>http://localhost:64574/tags/algebraic-geometry/</link>
+    <link>http://localhost:1313/tags/algebraic-geometry/</link>
     <description>Recent content in Algebraic-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:64574/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:64574/posts/brauer1/</link>
+      <link>http://localhost:1313/posts/brauer1/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:64574/posts/brauer1/</guid>
+      <guid>http://localhost:1313/posts/brauer1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -103,10 +103,10 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:64574/posts/fppf-site/</link>
+      <link>http://localhost:1313/posts/fppf-site/</link>
       <pubDate>Thu, 11 Dec 2025 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:64574/posts/fppf-site/</guid>
+      <guid>http://localhost:1313/posts/fppf-site/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -339,10 +339,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:64574/posts/gw-ring/</link>
+      <link>http://localhost:1313/posts/gw-ring/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:64574/posts/gw-ring/</guid>
+      <guid>http://localhost:1313/posts/gw-ring/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -429,10 +429,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:64574/posts/gro-top-and-topoi/</link>
+      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
       <pubDate>Thu, 04 Dec 2025 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:64574/posts/gro-top-and-topoi/</guid>
+      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -596,10 +596,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:64574/posts/bundles-and-divisors/</link>
+      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
       <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:64574/posts/bundles-and-divisors/</guid>
+      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -656,10 +656,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:64574/posts/markdown-test/</link>
+      <link>http://localhost:1313/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:64574/posts/markdown-test/</guid>
+      <guid>http://localhost:1313/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
