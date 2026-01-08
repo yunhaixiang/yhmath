@@ -87,7 +87,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
-    
+    id=&#34;def-galois-etale&#34;
      data-kind=&#34;definition&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -96,10 +96,156 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a finite field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$. We say $L$ is a &lt;em&gt;Galois étale algebra&lt;/em&gt; with Galois group $G$ if
+    Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a &lt;em&gt;Galois étale algebra&lt;/em&gt; with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;caveat&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The group $\mathrm{Aut}(L/K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L/K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If one such $M$ in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-galois-etale&#34;&gt;⟦ref:def-galois-etale⟧&lt;/span&gt; exists, then one can take $M=K^{\mathrm{sep}}$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;galois-descent&#34;&gt;Galois Descent&lt;/h2&gt;
+&lt;p&gt;If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L/K)$-action. Recall that:
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;semi-linear-action&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L\mid K$ be a finite Galois extension with Galois group $G$. A &lt;em&gt;semi-linear action&lt;/em&gt; of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$.
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Let $W^G$ be the fixed vector space.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-gal-des-1&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-gal-des-2&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;corollary&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    This follows from there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert&#39;s Theorem 90&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
