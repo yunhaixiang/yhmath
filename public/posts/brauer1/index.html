@@ -78,7 +78,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
   <meta itemprop="description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras (or Azumaya algebras) over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
   <meta itemprop="datePublished" content="2025-12-19T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-12-27T17:12:58-05:00">
-  <meta itemprop="wordCount" content="509">
+  <meta itemprop="wordCount" content="992">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -194,7 +194,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          509 words
+          992 words
         </span>
       
       
@@ -207,7 +207,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~3 mins
+          ~5 mins
         </span>
       
     </div>
@@ -246,6 +246,8 @@ Today we study the Brauer group of a field, which classifies central simple alge
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
     <li><a href="#galois-theory-of-étale-algebras">Galois Theory of Étale Algebras</a></li>
+    <li><a href="#galois-descent">Galois Descent</a></li>
+    <li><a href="#hilberts-theorem-90">Hilbert's Theorem 90</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -326,6 +328,166 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   </span>
 </div>
 
+<div class="math-env style-defn" 
+    id="def-galois-etale"
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a <em>Galois étale algebra</em> with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
+  </span>
+</div>
+
+<div class="math-env style-remark" 
+    
+     data-kind="caveat"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Caveat'></span>
+  </span>
+  <span class="math-body">
+    The group $\mathrm{Aut}(L/K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L/K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
+  </span>
+</div>
+
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    If one such $M$ in <span class="yh-ref" data-ref-kind="math" data-ref-id="def-galois-etale">⟦ref:def-galois-etale⟧</span> exists, then one can take $M=K^{\mathrm{sep}}$.
+  </span>
+</div>
+
+<h2 id="galois-descent">Galois Descent</h2>
+<p>If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L/K)$-action. Recall that:
+<div class="math-env style-defn" 
+    id="semi-linear-action"
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Let $L\mid K$ be a finite Galois extension with Galois group $G$. A <em>semi-linear action</em> of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$.
+  </span>
+</div>
+</p>
+<p>Let $W^G$ be the fixed vector space.</p>
+<div class="math-env style-plain" 
+    id="lem-gal-des-1"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span>
+  </span>
+  <span class="math-body">
+    Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+
+<div class="math-env style-plain" 
+    id="lem-gal-des-2"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span>
+  </span>
+  <span class="math-body">
+    Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    The two compositions are identities by <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-gal-des-1">⟦ref:lem-gal-des-1⟧</span> and <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-gal-des-2">⟦ref:lem-gal-des-2⟧</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-plain" 
+    
+     data-kind="corollary"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Corollary'></span>
+  </span>
+  <span class="math-body">
+    For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    This follows from there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+
+<h2 id="hilberts-theorem-90">Hilbert's Theorem 90</h2>
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">

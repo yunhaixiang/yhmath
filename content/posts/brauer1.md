@@ -41,6 +41,60 @@ Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some o
 {{< /example >}}
 
 
+{{< definition id="def-galois-etale" >}}
+Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a *Galois étale algebra* with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
+{{< /definition >}}
+
+{{< caveat >}}
+The group $\mathrm{Aut}(L/K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L/K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
+{{< /caveat >}}
+
+{{< remark >}}
+If one such $M$ in {{< refer "def-galois-etale" >}} exists, then one can take $M=K^{\mathrm{sep}}$. 
+{{< /remark >}}
+
+## Galois Descent
+
+If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L/K)$-action. Recall that:
+{{< definition id="semi-linear-action" >}}
+Let $L\mid K$ be a finite Galois extension with Galois group $G$. A *semi-linear action* of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$. 
+{{< /definition >}}
+
+Let $W^G$ be the fixed vector space.
+
+{{< lemma id="lem-gal-des-1" >}}
+Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
+{{< /lemma >}}
+
+{{< proof >}}
+The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+{{< /proof >}}
+
+{{< lemma id="lem-gal-des-2" >}}
+Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
+{{< /lemma >}}
+
+{{< proof >}}
+Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+{{< /proof >}}
+
+{{< theorem >}}The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
+{{< /theorem >}}
+{{< proof >}}
+The two compositions are identities by {{< refer id="lem-gal-des-1" >}} and {{< refer id="lem-gal-des-2" >}}.
+{{< /proof >}}
+
+{{< corollary >}}
+For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
+{{< /corollary >}}
+
+{{< proof >}}
+This follows from there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+{{< /proof >}}
+
+
+## Hilbert's Theorem 90
+
 
 ## References
 
