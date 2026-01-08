@@ -101,7 +101,7 @@ We will abuse notation and use $L$ to also denote the additive group structure. 
 Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
 {{< /lemma>}}
 {{< proof >}}
-
+See {{< cite key="Mil22" note="Theorem 5.18" >}}.
 {{< /proof >}}
 
 {{< proposition id="prop-hilbert-90" note="Hilbert's Theorem 90" >}}
@@ -123,5 +123,8 @@ Assume $[L:K]<\infty$, and take direct limit for the general case.
   {{< /bibitem >}}
   {{< bibitem key="GR71" author="Alexander Grothendieck, Michèle Raynaud" type="book" series="Lecture Notes in Mathematics 224" publisher="Springer" year="1971" >}}
   Revêtements étales et groupe fondamental (SGA I)
+  {{< /bibitem >}}
+  {{< bibitem key="Mil22" author="James S. Milne" type="book" year="2022" publisher="Kea Books" >}}
+  Fields and Galois Theory
   {{< /bibitem >}}
 {{< /bibliography >}}
