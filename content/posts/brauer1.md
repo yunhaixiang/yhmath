@@ -46,7 +46,7 @@ Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K
 {{< /definition >}}
 
 {{< caveat >}}
-The group $\mathrm{Aut}(L/K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L/K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
+The group $\mathrm{Aut}(L \mid K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L \mid K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
 {{< /caveat >}}
 
 {{< remark >}}
@@ -55,12 +55,12 @@ If one such $M$ in {{< refer "def-galois-etale" >}} exists, then one can take $M
 
 ## Galois Descent
 
-If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L/K)$-action. Recall that:
+If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L \mid K)$-action. Recall that:
 {{< definition id="semi-linear-action" >}}
 Let $L\mid K$ be a finite Galois extension with Galois group $G$. A *semi-linear action* of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$. 
 {{< /definition >}}
 
-Let $W^G$ be the fixed vector space.
+Let $W^G$ be the fixed vector space for any vector space $W$ with $G$-action.
 
 {{< lemma id="lem-gal-des-1" >}}
 Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
@@ -97,8 +97,17 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 
 We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.
 
+{{< proposition id="prop-hilbert-90" note="Hilbert's Theorem 90" >}}
+Suppose $L\mid K$ Galois, we have
+1. $\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.
+2. $\mathrm H^1(\mathrm{Gal}(L \mid K), L^{\times})=0$, and in particular, $\mathrm H^1(K,\mathbb G_m)=0$.
+3. $\mathrm H^1(\mathrm{Gal}(L \mid K), \mathrm{GL}_r(L))=0$ for each $r\in\mathbb N$, and in particular, $\mathrm H^1(K,\mathrm{GL}_r)=0$.
+{{< /proposition >}}
 
-
+{{< proof >}}
+Assume $[L:K]<\infty$, and take direct limit for the general case.
+1. a
+{{< /proof >}}
 ## References
 
 {{< bibliography >}}

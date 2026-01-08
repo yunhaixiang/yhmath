@@ -78,7 +78,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
   <meta itemprop="description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras (or Azumaya algebras) over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
   <meta itemprop="datePublished" content="2025-12-19T00:00:00+00:00">
   <meta itemprop="dateModified" content="2026-01-08T00:24:46-05:00">
-  <meta itemprop="wordCount" content="1038">
+  <meta itemprop="wordCount" content="1116">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -194,7 +194,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1038 words
+          1116 words
         </span>
       
       
@@ -207,7 +207,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~5 mins
+          ~6 mins
         </span>
       
     </div>
@@ -352,7 +352,7 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
         data-label='Caveat'></span>
   </span>
   <span class="math-body">
-    The group $\mathrm{Aut}(L/K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L/K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
+    The group $\mathrm{Aut}(L \mid K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L \mid K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
   </span>
 </div>
 
@@ -371,7 +371,7 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
 </div>
 
 <h2 id="galois-descent">Galois Descent</h2>
-<p>If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L/K)$-action. Recall that:
+<p>If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L \mid K)$-action. Recall that:
 <div class="math-env style-defn" 
     id="semi-linear-action"
      data-kind="definition"
@@ -386,7 +386,7 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   </span>
 </div>
 </p>
-<p>Let $W^G$ be the fixed vector space.</p>
+<p>Let $W^G$ be the fixed vector space for any vector space $W$ with $G$-action.</p>
 <div class="math-env style-plain" 
     id="lem-gal-des-1"
      data-kind="lemma"
@@ -489,6 +489,39 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
 
 <h2 id="hilberts-theorem-90">Hilbert's Theorem 90</h2>
 <p>We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.</p>
+<div class="math-env style-plain" 
+    id="prop-hilbert-90"
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span> <span class="math-note">(Hilbert&#39;s Theorem 90)</span>
+  </span>
+  <span class="math-body">
+    <p>Suppose $L\mid K$ Galois, we have</p>
+<ol>
+<li>$\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.</li>
+<li>$\mathrm H^1(\mathrm{Gal}(L \mid K), L^{\times})=0$, and in particular, $\mathrm H^1(K,\mathbb G_m)=0$.</li>
+<li>$\mathrm H^1(\mathrm{Gal}(L \mid K), \mathrm{GL}_r(L))=0$ for each $r\in\mathbb N$, and in particular, $\mathrm H^1(K,\mathrm{GL}_r)=0$.</li>
+</ol>
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>Assume $[L:K]<\infty$, and take direct limit for the general case.</p>
+<ol>
+<li>a</li>
+</ol>
+  </div>
+  <span class="proof-qed"></span>
+</div>
+
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
@@ -570,7 +603,7 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
     <footer id="footer">
   
   <div>
-    <span>Copyright © 2026 Yunhai Xiang | Powered by Hugo | All Rights Reserved</span>
+    <span>Copyright © 2026 Yunhai Xiang</span>
   </div>
 </footer>
 
