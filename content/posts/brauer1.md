@@ -97,6 +97,13 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 
 We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.
 
+{{< lemma id="thm-normal-basis" note="Normal Basis Theorem" >}}
+Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
+{{< /lemma>}}
+{{< proof >}}
+
+{{< /proof >}}
+
 {{< proposition id="prop-hilbert-90" note="Hilbert's Theorem 90" >}}
 Suppose $L\mid K$ Galois, we have
 1. $\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.
