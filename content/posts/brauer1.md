@@ -89,11 +89,14 @@ For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space wit
 {{< /corollary >}}
 
 {{< proof >}}
-This follows from there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
 {{< /proof >}}
 
 
 ## Hilbert's Theorem 90
+
+We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.
+
 
 
 ## References

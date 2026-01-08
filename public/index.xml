@@ -239,12 +239,13 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    This follows from there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+    This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert&#39;s Theorem 90&lt;/h2&gt;
+&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
