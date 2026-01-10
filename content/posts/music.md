@@ -18,6 +18,7 @@ I love music, especially jazz and rock. Here are some of my favorite artists.
 - Bill Evans
 - Doreen Ketchens
 - Hiromi
+- Yoko Kanno
 - Cory Wong
 
 ## Rock

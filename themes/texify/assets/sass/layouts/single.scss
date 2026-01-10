@@ -252,12 +252,12 @@
 /* Tighten spacing when a proof/solution immediately follows a theorem */
 .math-env + .proof-env[data-compact="true"],
 .math-env + .solution-env[data-compact="true"] {
-  margin-top: -0.75rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
+  margin-top: -0.8rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
 }
 /* Tighten spacing when a second proof/solution immediately a previous proof/solution */
 .proof-env + .proof-env[data-compact="true"],
 .solution-env + .solution-env[data-compact="true"] {
-  margin-top: -0.75rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
+  margin-top: -0.8rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
 }
 
 body { counter-reset: fig; }
