@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Combinatorics on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/combinatorics/</link>
+    <link>http://localhost:54123/tags/combinatorics/</link>
     <description>Recent content in Combinatorics on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:54123/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:1313/posts/sym-poly/</link>
+      <link>http://localhost:54123/posts/sym-poly/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <guid>http://localhost:54123/posts/sym-poly/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;

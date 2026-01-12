@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yunhai Xiang</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:54123/</link>
     <description>Recent content on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:54123/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/brauer1/</link>
+      <link>http://localhost:54123/posts/brauer1/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <guid>http://localhost:54123/posts/brauer1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -245,8 +245,8 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert&#39;s Theorem 90&lt;/h2&gt;
-&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $H^1$ can still be defined the same way.
+&lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;thm-normal-basis&#34;
      data-kind=&#34;lemma&#34;
      data-lang=&#34;en&#34;
@@ -274,6 +274,20 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-shapiro&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Shapiro)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;prop-hilbert-90&#34;
      data-kind=&#34;proposition&#34;
@@ -327,10 +341,10 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:1313/posts/fppf-site/</link>
+      <link>http://localhost:54123/posts/fppf-site/</link>
       <pubDate>Thu, 11 Dec 2025 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fppf-site/</guid>
+      <guid>http://localhost:54123/posts/fppf-site/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -563,10 +577,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:1313/posts/triangulated-cat/</link>
+      <link>http://localhost:54123/posts/triangulated-cat/</link>
       <pubDate>Wed, 10 Dec 2025 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/triangulated-cat/</guid>
+      <guid>http://localhost:54123/posts/triangulated-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -747,10 +761,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:1313/posts/derived-cat/</link>
+      <link>http://localhost:54123/posts/derived-cat/</link>
       <pubDate>Tue, 09 Dec 2025 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/derived-cat/</guid>
+      <guid>http://localhost:54123/posts/derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -965,10 +979,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:1313/posts/abelian-cat-and-derived-cat/</link>
+      <link>http://localhost:54123/posts/abelian-cat-and-derived-cat/</link>
       <pubDate>Mon, 08 Dec 2025 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/abelian-cat-and-derived-cat/</guid>
+      <guid>http://localhost:54123/posts/abelian-cat-and-derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
@@ -1378,10 +1392,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>What is This Thing Called Knowledge?</title>
-      <link>http://localhost:1313/posts/knowledge/</link>
+      <link>http://localhost:54123/posts/knowledge/</link>
       <pubDate>Sun, 07 Dec 2025 18:36:05 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/knowledge/</guid>
+      <guid>http://localhost:54123/posts/knowledge/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Epistemology without contact with science becomes an empty scheme. Science without epistemology is -- insofar as it is thinkable at all -- primitive and muddled.
@@ -1424,10 +1438,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:1313/posts/gw-ring/</link>
+      <link>http://localhost:54123/posts/gw-ring/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/gw-ring/</guid>
+      <guid>http://localhost:54123/posts/gw-ring/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -1514,10 +1528,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:1313/posts/sym-poly/</link>
+      <link>http://localhost:54123/posts/sym-poly/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <guid>http://localhost:54123/posts/sym-poly/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
@@ -1580,10 +1594,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
+      <link>http://localhost:54123/posts/gro-top-and-topoi/</link>
       <pubDate>Thu, 04 Dec 2025 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
+      <guid>http://localhost:54123/posts/gro-top-and-topoi/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -1747,10 +1761,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:1313/posts/van-kampen/</link>
+      <link>http://localhost:54123/posts/van-kampen/</link>
       <pubDate>Wed, 03 Dec 2025 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/van-kampen/</guid>
+      <guid>http://localhost:54123/posts/van-kampen/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
@@ -1834,10 +1848,10 @@ $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
+      <link>http://localhost:54123/posts/bundles-and-divisors/</link>
       <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
+      <guid>http://localhost:54123/posts/bundles-and-divisors/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -1894,10 +1908,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>http://localhost:1313/posts/uniformization/</link>
+      <link>http://localhost:54123/posts/uniformization/</link>
       <pubDate>Mon, 01 Dec 2025 00:10:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/uniformization/</guid>
+      <guid>http://localhost:54123/posts/uniformization/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
@@ -1981,10 +1995,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>做数学科研一定要在学术界吗</title>
-      <link>http://localhost:1313/posts/keyan/</link>
+      <link>http://localhost:54123/posts/keyan/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/keyan/</guid>
+      <guid>http://localhost:54123/posts/keyan/</guid>
       <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
 &lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
 &lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着几乎不可能谈长期恋爱，长期的孤独在心理上我觉得，至少对我来说会造成很大的困扰。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。第五、在学术界不意味着能够做喜欢的课题，往往需要追逐时髦，在非自己本职的领域内花时间也不太可能，而我往往只能花时间在自己感兴趣的课题上。&lt;/p&gt;
@@ -1995,10 +2009,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>Learning French Part I</title>
-      <link>http://localhost:1313/posts/french1/</link>
+      <link>http://localhost:54123/posts/french1/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/french1/</guid>
+      <guid>http://localhost:54123/posts/french1/</guid>
       <description>&lt;p&gt;I&#39;m learning french. Here&#39;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
 &lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
 &lt;ul&gt;
@@ -2472,10 +2486,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>天空之王</title>
-      <link>http://localhost:1313/posts/tiankongzhiwang/</link>
+      <link>http://localhost:54123/posts/tiankongzhiwang/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/tiankongzhiwang/</guid>
+      <guid>http://localhost:54123/posts/tiankongzhiwang/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  那天，我看见一个自由的灵魂翱翔于西雅图的天空。他从云层的褶皱中钻出，夕阳点燃了他的翅膀。他大笑着，翻滚着，好像地上的熙熙攘攘都和他无关。地上的人听不到他的笑声，只忙于在灯火与钢铁中穿梭。偶尔有人抬头，也只觉得这天上的鸟儿飞得古怪。只有那个驻足在那里的牵着气球的小男孩，他看着那天空默默的怔了。&lt;/p&gt;
 &lt;p&gt;  一切都要从那个奇怪的无线电讯息说起。&lt;/p&gt;
@@ -2505,10 +2519,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>论「纯粹」</title>
-      <link>http://localhost:1313/posts/lunchuncui/</link>
+      <link>http://localhost:54123/posts/lunchuncui/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/lunchuncui/</guid>
+      <guid>http://localhost:54123/posts/lunchuncui/</guid>
       <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
 &lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
 &lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
@@ -2519,10 +2533,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>吹着口琴的人</title>
-      <link>http://localhost:1313/posts/harmonica/</link>
+      <link>http://localhost:54123/posts/harmonica/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/harmonica/</guid>
+      <guid>http://localhost:54123/posts/harmonica/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;吹着口琴的人，&lt;br&gt;
 肩上撑着脚。&lt;br&gt;
@@ -2540,10 +2554,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>失眠</title>
-      <link>http://localhost:1313/posts/shimian/</link>
+      <link>http://localhost:54123/posts/shimian/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/shimian/</guid>
+      <guid>http://localhost:54123/posts/shimian/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
 无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
@@ -2585,20 +2599,20 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Magic Tricks</title>
-      <link>http://localhost:1313/posts/magic-tricks/</link>
+      <link>http://localhost:54123/posts/magic-tricks/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/magic-tricks/</guid>
+      <guid>http://localhost:54123/posts/magic-tricks/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/posts/links/</link>
+      <link>http://localhost:54123/posts/links/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/links/</guid>
+      <guid>http://localhost:54123/posts/links/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
@@ -2782,10 +2796,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Films</title>
-      <link>http://localhost:1313/posts/films/</link>
+      <link>http://localhost:54123/posts/films/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/films/</guid>
+      <guid>http://localhost:54123/posts/films/</guid>
       <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
@@ -2846,10 +2860,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Books and Essays</title>
-      <link>http://localhost:1313/posts/books-and-essays/</link>
+      <link>http://localhost:54123/posts/books-and-essays/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/books-and-essays/</guid>
+      <guid>http://localhost:54123/posts/books-and-essays/</guid>
       <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
@@ -2922,10 +2936,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Anime</title>
-      <link>http://localhost:1313/posts/anime/</link>
+      <link>http://localhost:54123/posts/anime/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/anime/</guid>
+      <guid>http://localhost:54123/posts/anime/</guid>
       <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
@@ -2973,10 +2987,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/posts/music/</link>
+      <link>http://localhost:54123/posts/music/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/music/</guid>
+      <guid>http://localhost:54123/posts/music/</guid>
       <description>&lt;p&gt;I love music, especially jazz and rock. Here are some of my favorite artists.&lt;/p&gt;
 &lt;h2 id=&#34;jazz&#34;&gt;Jazz&lt;/h2&gt;
 &lt;ul&gt;
@@ -3003,10 +3017,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Video Games</title>
-      <link>http://localhost:1313/posts/video-games/</link>
+      <link>http://localhost:54123/posts/video-games/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/video-games/</guid>
+      <guid>http://localhost:54123/posts/video-games/</guid>
       <description>&lt;p&gt;I like playing video games, especially single player action or story-driven games.&lt;/p&gt;
 &lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
@@ -3031,10 +3045,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Mermaid Diagrams</title>
-      <link>http://localhost:1313/posts/mermaid-diagrams/</link>
+      <link>http://localhost:54123/posts/mermaid-diagrams/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/mermaid-diagrams/</guid>
+      <guid>http://localhost:54123/posts/mermaid-diagrams/</guid>
       <description>&lt;h2 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h2&gt;
 &lt;div class=&#34;mermaid&#34;&gt;graph LR;
     A[Hard edge] --&gt;|Link text| B(Round edge)
@@ -3180,10 +3194,10 @@ test_entity - satisfies -&gt; test_req
     
     <item>
       <title>Math Test</title>
-      <link>http://localhost:1313/posts/math-test/</link>
+      <link>http://localhost:54123/posts/math-test/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/math-test/</guid>
+      <guid>http://localhost:54123/posts/math-test/</guid>
       <description>&lt;p&gt;In this post, we test mathematical typesettings.&lt;/p&gt;
 &lt;h2 id=&#34;basic-katex&#34;&gt;Basic KaTeX&lt;/h2&gt;
 &lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
@@ -3592,10 +3606,10 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/markdown-test/</link>
+      <link>http://localhost:54123/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown-test/</guid>
+      <guid>http://localhost:54123/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
