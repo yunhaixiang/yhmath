@@ -12,7 +12,7 @@ More specifically, some topics that I especially want to understand are
 3. Enumerative geometry over arbitrary ground fields
 4. Galois representations, étale sheaves, and ramification theory
 
-Outside my main interests, I'd love to learn more about representation theory, mathematical logic, formalization of mathematics, applications of machine learning to mathematical research, and computer graphics.
+Outside my main interests, I would also like to learn more about mathematical logic and the applications of artifical intelligence to mathematical research. Additionally, I have some interests in computer graphics as well.
 
 ## Publications
 
