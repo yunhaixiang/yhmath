@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category-Theory on Yunhai Xiang</title>
-    <link>http://localhost:54123/tags/category-theory/</link>
+    <link>http://localhost:1313/tags/category-theory/</link>
     <description>Recent content in Category-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2025 20:00:36 +0000</lastBuildDate><atom:link href="http://localhost:54123/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Dec 2025 20:00:36 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:54123/posts/triangulated-cat/</link>
+      <link>http://localhost:1313/posts/triangulated-cat/</link>
       <pubDate>Wed, 10 Dec 2025 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:54123/posts/triangulated-cat/</guid>
+      <guid>http://localhost:1313/posts/triangulated-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -193,10 +193,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:54123/posts/derived-cat/</link>
+      <link>http://localhost:1313/posts/derived-cat/</link>
       <pubDate>Tue, 09 Dec 2025 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:54123/posts/derived-cat/</guid>
+      <guid>http://localhost:1313/posts/derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -411,10 +411,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:54123/posts/abelian-cat-and-derived-cat/</link>
+      <link>http://localhost:1313/posts/abelian-cat-and-derived-cat/</link>
       <pubDate>Mon, 08 Dec 2025 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:54123/posts/abelian-cat-and-derived-cat/</guid>
+      <guid>http://localhost:1313/posts/abelian-cat-and-derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
