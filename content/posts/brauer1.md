@@ -93,7 +93,7 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 {{< /proof >}}
 
 
-## Hilbert's Theorem 90
+## Hilbert’s Theorem 90
 
 We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.
 {{< lemma id="thm-normal-basis" note="Normal Basis Theorem" >}}
@@ -104,7 +104,7 @@ See {{< cite key="Mil22" note="Theorem 5.18" >}}.
 {{< /proof >}}
 
 
-{{< proposition id="prop-hilbert-90" note="Hilbert's Theorem 90" >}}
+{{< proposition id="prop-hilbert-90" note="Hilbert’s Theorem 90" >}}
 Suppose $L\mid K$ Galois, we have
 1. $\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.
 2. $\mathrm H^1(\mathrm{Gal}(L \mid K), L^{\times})=0$, and in particular, $\mathrm H^1(K,\mathbb G_m)=0$.
@@ -115,7 +115,7 @@ Suppose $L\mid K$ Galois, we have
 Assume $[L:K]<\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.
 1. By {{< refer id="thm-normal-basis" >}}, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro's lemma c.f. {{< cite "Wei13" "Shapiro's Lemma 6.3.2">}}, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.
 2. This is a consequence of the next proof.
-3. Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, 
+3. Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be the $L$-vector space $L^r$ with the semilinear $G$-action given by $\sigma\cdot w=\xi_{\sigma}(\sigma w)$
 {{< /proof >}}
 ## References
 

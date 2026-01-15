@@ -307,7 +307,7 @@ data-cite-key=&#34;Wei13&#34; data-cite-note=&#34;Shapiro&amp;#39;s Lemma 6.3.2&
 ⟦cite:Wei13⟧
 &lt;/span&gt;, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.&lt;/li&gt;
 &lt;li&gt;This is a consequence of the next proof.&lt;/li&gt;
-&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain,&lt;/li&gt;
+&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be $L^r$ with the semilinear $G$-action given by $\sigma\cdot w=\xi_{\sigma}(\sigma w)$&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
