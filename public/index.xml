@@ -245,7 +245,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert&#39;s Theorem 90&lt;/h2&gt;
-&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $H^1$ can still be defined the same way.
+&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.
 &lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;thm-normal-basis&#34;
      data-kind=&#34;lemma&#34;

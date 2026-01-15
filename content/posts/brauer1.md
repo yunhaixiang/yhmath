@@ -95,7 +95,7 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 
 ## Hilbert's Theorem 90
 
-We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $H^1$ can still be defined the same way.
+We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.
 {{< lemma id="thm-normal-basis" note="Normal Basis Theorem" >}}
 Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
 {{< /lemma>}}
@@ -103,9 +103,6 @@ Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=
 See {{< cite key="Mil22" note="Theorem 5.18" >}}.
 {{< /proof >}}
 
-{{< lemma id="lem-shapiro" note="Shapiro" >}}
-
-{{< /lemma>}}
 
 {{< proposition id="prop-hilbert-90" note="Hilbert's Theorem 90" >}}
 Suppose $L\mid K$ Galois, we have
@@ -115,8 +112,10 @@ Suppose $L\mid K$ Galois, we have
 {{< /proposition >}}
 
 {{< proof >}}
-Assume $[L:K]<\infty$, and take direct limit for the general case.
-1. a
+Assume $[L:K]<\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.
+1. By {{< refer id="thm-normal-basis" >}}, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro's lemma c.f. {{< cite "Wei13" "Shapiro's Lemma 6.3.2">}}, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.
+2. This is a consequence of the next proof.
+3. Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, 
 {{< /proof >}}
 ## References
 
@@ -129,5 +128,8 @@ Assume $[L:K]<\infty$, and take direct limit for the general case.
   {{< /bibitem >}}
   {{< bibitem key="Mil22" author="James S. Milne" type="book" year="2022" publisher="Kea Books" >}}
   Fields and Galois Theory
+  {{< /bibitem >}}
+  {{< bibitem key="Wei13" author="Charles A. Weibel" type="book" year="2013" publisher="American Mathematical Society" >}}
+  An Introduction to Homological Algebra
   {{< /bibitem >}}
 {{< /bibliography >}}

@@ -4,7 +4,7 @@ title: "Math"
 
 ## Interests
 
-My main interests in mathematics lie in number theory and arithmetic geometry, which studies arithmetic by applying insights from geometry and topology. 
+My primary interests in mathematics lie in number theory and arithmetic geometry, which studies arithmetic by applying insights from geometry and topology. 
 More specifically, some topics that I especially want to understand are 
 
 1. Cohomology theories in arithmetic geometry
@@ -12,7 +12,7 @@ More specifically, some topics that I especially want to understand are
 3. Enumerative geometry over arbitrary ground fields
 4. Galois representations, étale sheaves, and ramification theory
 
-Outside my main interests, I would also like to learn more about mathematical logic and the applications of artifical intelligence to mathematical research. Additionally, I have some interests in computer graphics as well.
+I would also like to learn more about mathematical logic and the applications of artifical intelligence to mathematical research.
 
 ## Publications
 
