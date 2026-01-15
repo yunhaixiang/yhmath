@@ -275,20 +275,6 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
-    id=&#34;lem-shapiro&#34;
-     data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Shapiro)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;prop-hilbert-90&#34;
      data-kind=&#34;proposition&#34;
      data-lang=&#34;en&#34;
@@ -313,9 +299,14 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;p&gt;Assume $[L:K]&lt;\infty$, and take direct limit for the general case.&lt;/p&gt;
+    &lt;p&gt;Assume $[L:K]&lt;\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-normal-basis&#34;&gt;⟦ref:thm-normal-basis⟧&lt;/span&gt;, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro&#39;s lemma c.f. &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Wei13&#34; data-cite-note=&#34;Shapiro&amp;#39;s Lemma 6.3.2&#34;&gt;
+⟦cite:Wei13⟧
+&lt;/span&gt;, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.&lt;/li&gt;
+&lt;li&gt;This is a consequence of the next proof.&lt;/li&gt;
+&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain,&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
@@ -332,6 +323,9 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 
   &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
   &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
