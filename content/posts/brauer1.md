@@ -96,6 +96,11 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 ## Hilbert’s Theorem 90
 
 We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.
+
+{{< remark >}}
+We spell out how $\mathrm H^1(K,G)$ is defined when $G$ is not necessarily commutative. 
+{{< /remark>}}
+
 {{< lemma id="thm-normal-basis" note="Normal Basis Theorem" >}}
 Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
 {{< /lemma>}}
