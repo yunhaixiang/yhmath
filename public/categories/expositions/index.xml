@@ -245,7 +245,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert&#39;s Theorem 90&lt;/h2&gt;
+&lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert’s Theorem 90&lt;/h2&gt;
 &lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.
 &lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;thm-normal-basis&#34;
@@ -282,7 +282,7 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
      data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Hilbert&amp;#39;s Theorem 90)&lt;/span&gt;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Hilbert’s Theorem 90)&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
     &lt;p&gt;Suppose $L\mid K$ Galois, we have&lt;/p&gt;
@@ -307,7 +307,7 @@ data-cite-key=&#34;Wei13&#34; data-cite-note=&#34;Shapiro&amp;#39;s Lemma 6.3.2&
 ⟦cite:Wei13⟧
 &lt;/span&gt;, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.&lt;/li&gt;
 &lt;li&gt;This is a consequence of the next proof.&lt;/li&gt;
-&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be $L^r$ with the semilinear $G$-action given by $\sigma\cdot w=\xi_{\sigma}(\sigma w)$&lt;/li&gt;
+&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be the $L$-vector space $L^r$ with the semilinear $G$-action given by $\sigma\cdot w=\xi_{\sigma}(\sigma w)$&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
