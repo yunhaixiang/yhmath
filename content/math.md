@@ -4,7 +4,7 @@ title: "Math"
 
 ## Interests
 
-My primary interests in mathematics lie in number theory and arithmetic geometry, which studies arithmetic by applying insights from geometry and topology. 
+My primary interests in mathematics lie in number theory in particular arithmetic geometry, which studies arithmetic by applying insights from geometry and topology. 
 More specifically, some topics that I especially want to understand are 
 
 1. Cohomology theories in arithmetic geometry
