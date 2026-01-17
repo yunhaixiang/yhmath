@@ -22,7 +22,7 @@ Coming soon.
 
 I write and continue to update self-contained notes on various mathematical topics. Here are some that I have written.
 
-1. [_Linear Algebraic Groups and Representation Theory_](https://github.com/yunhaixiang/linalggrps/blob/main/linalggrps.pdf)
+1. [_Linear Algebraic Groups and Representation Theory_](https://yunhaixiang.github.io/linalggrps/linalggrps.pdf)
 2. _Algebraic Curves and Abelian Varieties_ (coming soon)
 3. _Algebraic Number Theory_ (coming soon)
 
