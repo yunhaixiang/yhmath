@@ -84,7 +84,7 @@ Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under
 The two compositions are identities by {{< refer id="lem-gal-des-1" >}} and {{< refer id="lem-gal-des-2" >}}.
 {{< /proof >}}
 
-{{< corollary >}}
+{{< corollary id="cor-unique-semi-linear" >}}
 For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
 {{< /corollary >}}
 
@@ -95,10 +95,10 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 
 ## Hilbert’s Theorem 90
 
-We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.
+We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. 
 
 {{< remark >}}
-We spell out how $\mathrm H^1(K,G)$ is defined when $G$ is not necessarily commutative. 
+We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition via derived functors.
 {{< /remark>}}
 
 {{< lemma id="thm-normal-basis" note="Normal Basis Theorem" >}}
@@ -120,7 +120,48 @@ Suppose $L\mid K$ Galois, we have
 Assume $[L:K]<\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.
 1. By {{< refer id="thm-normal-basis" >}}, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro's lemma c.f. {{< cite "Wei13" "Shapiro's Lemma 6.3.2">}}, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.
 2. This is a consequence of the next proof.
-3. Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be the $L$-vector space $L^r$ with the semilinear $G$-action given by $\sigma\cdot w=\xi_{\sigma}(\sigma w)$
+3. Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be the $L$-vector space $L^r$ with with $\sigma\cdot w=\xi_{\sigma}(\sigma w)$. We claim this is a semilinear $G$-action iff $\xi$ is a $1$-cocycle. The action is automatically semilinear,
+$$\sigma \cdot(a w)=\xi_\sigma(\sigma(a) \sigma(w))=\sigma(a) \xi_\sigma(\sigma(w))=\sigma(a)(\sigma \cdot w)$$
+Thus it suffice to check the cocycle condition. On LHS we have $(\sigma\tau)\cdot w=\xi_{\sigma\tau}((\sigma\tau) w)$, and on RHS we have
+$$\sigma \cdot(\tau \cdot w)=\sigma \cdot\left(\xi_\tau(\tau(w))\right)=\xi_\sigma\left(\sigma\left(\xi_\tau(\tau(w))\right)\right)=\xi_\sigma\left(\sigma\left(\xi_\tau\right)(\sigma \tau)(w)\right)=\left(\xi_\sigma \cdot \sigma\left(\xi_\tau\right)\right)(\sigma \tau)(w) .$$
+so equality is equivalent to the cocycle condition. We check that two cocycles $\xi$ and $\xi'$ are cohomologous iff $W_{\xi}\cong W_{\xi'}$ as $L$-vector spaces with semilinear $G$-action. Suppose there exists $A\in \mathrm{GL}_r(L)$ such that $\xi'_{\sigma}=A^{-1}\cdot \xi_{\sigma}\cdot \sigma(A)$ for all $\sigma\in G$, then the map $W_{\xi}\rightarrow W_{\xi'}$ sending $w\mapsto A(w)$ is an isomorphism of $L$-vector spaces with semilinear $G$-action. Conversely, suppose $\phi:W_{\xi}\rightarrow W_{\xi'}$ is such an isomorphism, let $A\in \mathrm{GL}_r(L)$ be the matrix representing $\phi$, then for all $\sigma\in G$ and $w\in W_{\xi}$, we have
+$$\xi'_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\xi_{\sigma}(\sigma(w))) .$$
+Thus $\xi'_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi'$ are cohomologous. By {{< refer id="cor-unique-semi-linear" >}}, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.
+{{< /proof >}}
+
+## Brauer Groups of Fields
+
+{{< definition id="def-azumaya">}}
+An *Azumaya algebra* over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$. 
+{{< /definition >}}
+
+Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse.
+
+{{< proposition id="prop-equiv-azumaya" >}}
+The following are equivalent for a $K$-algebra $A$:
+1. $A$ is an Azumaya algebra over $K$,
+2. there exists a finite separable extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$,
+3. there exists a finite extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$,
+4. $A$ is a finite-dimensional central simple algebra over $K$.
+5. there is a $K$-algebra isomorphism $A\cong \mathrm{M}_r(D)$ for some $r\ge 1$ and some finite-dimensional central division algebra $D$ over $K$.
+{{< /proposition >}}
+{{< proof >}}
+See {{< cite key="Poo17" note="Proposition 1.5.2" >}}.
+{{< /proof >}}
+
+Let $\mathbf{Az}_K$ denote the category of Azumaya algebras over $K$ with morphisms being $K$-algebra homomorphisms. The tensor product $\otimes_K$ endows $\mathbf{Az}_K$ with a monoidal structure with unit object $K$. A base change of Azumaya algebras is also Azumaya, and the opposite algebra $A^{\mathrm{opp}}$ of an Azumaya algebra, defined by reversing multiplication $a\cdot b=ba$, is Azumaya. The isomorphism classes of Azumaya algebras form a set, since for each $n\ge 1$, the size of the isomorphism class of Azuyama algebras of rank $n$ is determined by the size of all bilinear maps $\mathrm{Hom}_K(A\otimes A,A)\cong (K^{n})^3$, which is a set. 
+
+{{< example >}}
+A *quaternion algebra* over a field $K$ of characteristic other than $2$ is an Azumaya algebra of dimension $4$, e.g. the $K$-algebra generated by symbols $i,j$ with relations $i^2=j^2=-1$ and $ij=-ji$ is the Hamiltonian quaternions, and if $i^2=j^2=1$ it is the split quaternion algebra, isomorphic to $\mathrm{M}_2(K)$.
+{{< /example >}}
+
+{{< definition >}}Let $A$ be an Azumaya algebra over $K$, a splitting field of $A$ is a field extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$. If $L$ is a splitting field of $A$ we say $L$ splits $A$.
+{{< /definition >}}
+{{< proposition >}}
+Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
+{{< /proposition >}}
+{{< proof >}}
+
 {{< /proof >}}
 ## References
 
