@@ -180,7 +180,7 @@ The group operation is induced by the tensor product $\otimes_K$, the identity e
 
 {{< /definition >}}
 
-
+In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems (Skolem-Noether theorem, Wedderburn's theorem, etc.).
 ## References
 
 {{< bibliography >}}
