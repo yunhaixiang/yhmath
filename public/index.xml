@@ -347,7 +347,7 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse.&lt;/p&gt;
+&lt;p&gt;Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse. A division algebra is always simple.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;prop-equiv-azumaya&#34;
      data-kind=&#34;proposition&#34;
@@ -432,11 +432,36 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    
+    &lt;p&gt;Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality
+&lt;/p&gt;
+$$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$&lt;p&gt;
+Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;/p&gt;
+
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;p&gt;Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism, by a theorem we will talk about in the next post (Skolem-Noether). Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. The same can be used to define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-brauer-group&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The &lt;em&gt;Brauer group&lt;/em&gt; of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equivalence classes of Azumaya algebras over $K$ under the equivalence relation $A\sim B$ iff one of the following equivalent conditions hold:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,&lt;/li&gt;
+&lt;li&gt;there exists $m,n\ge 1$ such that $\mathrm M_n(A)\cong \mathrm M_m(B)$ as $K$-algebras.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $L\mid K$ is a field extension then there is a group homomorphism $\mathrm{Br}(K)\rightarrow \mathrm{Br}(L)$ sending the class of $A$ to the class of $A\otimes_K L$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
