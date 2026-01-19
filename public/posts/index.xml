@@ -20,7 +20,8 @@
 &lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
-&lt;/span&gt; from chapters 2 and 3.&lt;/p&gt;
+&lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.&lt;/p&gt;
+&lt;h2 id=&#34;examples-of-brauer-groups-of-fields&#34;&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
@@ -484,7 +485,7 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
 &lt;li&gt;there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,&lt;/li&gt;
 &lt;li&gt;there exists $m,n\ge 1$ such that $\mathrm M_n(A)\cong \mathrm M_m(B)$ as $K$-algebras.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $R\rightarrow S$ is a ring map then there is a group homomorphism $\mathrm{Br}(R)\rightarrow \mathrm{Br}(S)$ sending the class of $A$ to the class of $A\otimes_R S$, so $\mathrm{Br}:\mathbf{CRing}\rightarrow\mathbf{Ab}$ is functorial in rings.&lt;/p&gt;
+&lt;p&gt;The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $L\mid K$ is a field extension then there is a group homomorphism $\mathrm{Br}(K)\rightarrow \mathrm{Br}(L)$ induced by base change, so $\mathrm{Br}:\mathbf{Field}\rightarrow\mathbf{Ab}$ is functorial in fields.&lt;/p&gt;
 
   &lt;/span&gt;
 &lt;/div&gt;

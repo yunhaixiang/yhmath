@@ -10,8 +10,9 @@ categories: [expositions]
 The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
 {{< /pullquote >}}
 
-Continuing from [Part I](/posts/brauer1), we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to {{< cite key="Poo17" >}} from chapters 2 and 3.
+Continuing from [Part I](/posts/brauer1), we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to {{< cite key="Poo17" >}} from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.
 
+## Examples of Brauer Groups of Fields
 
 ## References
 

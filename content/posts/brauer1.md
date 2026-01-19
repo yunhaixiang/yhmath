@@ -176,7 +176,7 @@ The *Brauer group* of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equi
 1. there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,
 2. there exists $m,n\ge 1$ such that $\mathrm M_n(A)\cong \mathrm M_m(B)$ as $K$-algebras.  
 
-The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $R\rightarrow S$ is a ring map then there is a group homomorphism $\mathrm{Br}(R)\rightarrow \mathrm{Br}(S)$ sending the class of $A$ to the class of $A\otimes_R S$, so $\mathrm{Br}:\mathbf{CRing}\rightarrow\mathbf{Ab}$ is functorial in rings.
+The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $L\mid K$ is a field extension then there is a group homomorphism $\mathrm{Br}(K)\rightarrow \mathrm{Br}(L)$ induced by base change, so $\mathrm{Br}:\mathbf{Field}\rightarrow\mathbf{Ab}$ is functorial in fields.
 
 {{< /definition >}}
 
