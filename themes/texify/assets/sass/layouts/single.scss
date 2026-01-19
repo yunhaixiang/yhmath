@@ -254,6 +254,21 @@
 .math-env + .solution-env[data-compact="true"] {
   margin-top: -0.8rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
 }
+
+/* Trim bottom margin for lists inside math environments. */
+.math-env ol,
+.math-env ul {
+  margin-bottom: 0;
+}
+
+.proof-env ol,
+.proof-env ul,
+.solution-env ol,
+.solution-env ul {
+  margin-bottom: 0;
+}
+
+
 /* Tighten spacing when a second proof/solution immediately a previous proof/solution */
 .proof-env + .proof-env[data-compact="true"],
 .solution-env + .solution-env[data-compact="true"] {

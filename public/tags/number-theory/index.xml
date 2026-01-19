@@ -221,7 +221,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;cor-unique-semi-linear&#34;
      data-kind=&#34;corollary&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -246,7 +246,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert’s Theorem 90&lt;/h2&gt;
-&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. When $A$ is nonabelian $\mathrm H^1$ can still be defined the same way.&lt;/p&gt;
+&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.&lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
     
      data-kind=&#34;remark&#34;
@@ -257,7 +257,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    We spell out how $\mathrm H^1(G,H)$ is defined when $H$ is not necessarily commutative.
+    We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi&#39;$ are said to be cohomologous if there exists $a\in A$ such that $\xi&#39;_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition via derived functors.
   &lt;/span&gt;
 &lt;/div&gt;
 
@@ -321,12 +321,123 @@ data-cite-key=&#34;Wei13&#34; data-cite-note=&#34;Shapiro&amp;#39;s Lemma 6.3.2&
 ⟦cite:Wei13⟧
 &lt;/span&gt;, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.&lt;/li&gt;
 &lt;li&gt;This is a consequence of the next proof.&lt;/li&gt;
-&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be the $L$-vector space $L^r$ with the semilinear $G$-action given by $\sigma\cdot w=\xi_{\sigma}(\sigma w)$&lt;/li&gt;
+&lt;li&gt;Let $\xi:G\rightarrow\mathrm{GL}_r(L)$ be a $1$-cochain, and $W_{\xi}$ be the $L$-vector space $L^r$ with with $\sigma\cdot w=\xi_{\sigma}(\sigma w)$. We claim this is a semilinear $G$-action iff $\xi$ is a $1$-cocycle. The action is automatically semilinear,
+$$\sigma \cdot(a w)=\xi_\sigma(\sigma(a) \sigma(w))=\sigma(a) \xi_\sigma(\sigma(w))=\sigma(a)(\sigma \cdot w)$$
+Thus it suffice to check the cocycle condition. On LHS we have $(\sigma\tau)\cdot w=\xi_{\sigma\tau}((\sigma\tau) w)$, and on RHS we have
+$$\sigma \cdot(\tau \cdot w)=\sigma \cdot\left(\xi_\tau(\tau(w))\right)=\xi_\sigma\left(\sigma\left(\xi_\tau(\tau(w))\right)\right)=\xi_\sigma\left(\sigma\left(\xi_\tau\right)(\sigma \tau)(w)\right)=\left(\xi_\sigma \cdot \sigma\left(\xi_\tau\right)\right)(\sigma \tau)(w) .$$
+so equality is equivalent to the cocycle condition. We check that two cocycles $\xi$ and $\xi&#39;$ are cohomologous iff $W_{\xi}\cong W_{\xi&#39;}$ as $L$-vector spaces with semilinear $G$-action. Suppose there exists $A\in \mathrm{GL}_r(L)$ such that $\xi&#39;_{\sigma}=A^{-1}\cdot \xi_{\sigma}\cdot \sigma(A)$ for all $\sigma\in G$, then the map $W_{\xi}\rightarrow W_{\xi&#39;}$ sending $w\mapsto A(w)$ is an isomorphism of $L$-vector spaces with semilinear $G$-action. Conversely, suppose $\phi:W_{\xi}\rightarrow W_{\xi&#39;}$ is such an isomorphism, let $A\in \mathrm{GL}_r(L)$ be the matrix representing $\phi$, then for all $\sigma\in G$ and $w\in W_{\xi}$, we have
+$$\xi&#39;_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\xi_{\sigma}(\sigma(w))) .$$
+Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
+&lt;h2 id=&#34;brauer-groups-of-fields&#34;&gt;Brauer Groups of Fields&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-azumaya&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    An &lt;em&gt;Azumaya algebra&lt;/em&gt; over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;prop-equiv-azumaya&#34;
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The following are equivalent for a $K$-algebra $A$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$A$ is an Azumaya algebra over $K$,&lt;/li&gt;
+&lt;li&gt;there exists a finite separable extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$,&lt;/li&gt;
+&lt;li&gt;there exists a finite extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$,&lt;/li&gt;
+&lt;li&gt;$A$ is a finite-dimensional central simple algebra over $K$.&lt;/li&gt;
+&lt;li&gt;there is a $K$-algebra isomorphism $A\cong \mathrm{M}_r(D)$ for some $r\ge 1$ and some finite-dimensional central division algebra $D$ over $K$.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
+⟦cite:Poo17⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Let $\mathbf{Az}_K$ denote the category of Azumaya algebras over $K$ with morphisms being $K$-algebra homomorphisms. The tensor product $\otimes_K$ endows $\mathbf{Az}_K$ with a monoidal structure with unit object $K$. A base change of Azumaya algebras is also Azumaya, and the opposite algebra $A^{\mathrm{opp}}$ of an Azumaya algebra, defined by reversing multiplication $a\cdot b=ba$, is Azumaya. The isomorphism classes of Azumaya algebras form a set, since for each $n\ge 1$, the size of the isomorphism class of Azuyama algebras of rank $n$ is determined by the size of all bilinear maps $\mathrm{Hom}_K(A\otimes A,A)\cong (K^{n})^3$, which is a set.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A &lt;em&gt;quaternion algebra&lt;/em&gt; over a field $K$ of characteristic other than $2$ is an Azumaya algebra of dimension $4$, e.g. the $K$-algebra generated by symbols $i,j$ with relations $i^2=j^2=-1$ and $ij=-ji$ is the Hamiltonian quaternions, and if $i^2=j^2=1$ it is the split quaternion algebra, isomorphic to $\mathrm{M}_2(K)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $A$ be an Azumaya algebra over $K$, a splitting field of $A$ is a field extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$. If $L$ is a splitting field of $A$ we say $L$ splits $A$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;

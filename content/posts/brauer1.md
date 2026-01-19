@@ -6,6 +6,7 @@ tags: [math, algebra, algebraic-geometry, number-theory]
 categories: [expositions]
 ---
 
+
 {{< pullquote author="Alexander Grothendieck">}}
 The introduction of cohomology is a *technique* for making the invisible visible.
 {{< /pullquote >}}
@@ -135,7 +136,7 @@ Thus $\xi'_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i
 An *Azumaya algebra* over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$. 
 {{< /definition >}}
 
-Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse.
+Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse. A division algebra is always simple. 
 
 {{< proposition id="prop-equiv-azumaya" >}}
 The following are equivalent for a $K$-algebra $A$:
@@ -161,8 +162,25 @@ A *quaternion algebra* over a field $K$ of characteristic other than $2$ is an A
 Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
 {{< /proposition >}}
 {{< proof >}}
-
+Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality 
+$$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$
+Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.
 {{< /proof >}}
+
+Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism, by a theorem we will talk about in the next post (Skolem-Noether). Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. The same can be used to define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.
+
+{{< definition id="def-brauer-group" >}}
+
+The *Brauer group* of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equivalence classes of Azumaya algebras over $K$ under the equivalence relation $A\sim B$ iff one of the following equivalent conditions hold:
+
+1. there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,
+2. there exists $m,n\ge 1$ such that $\mathrm M_n(A)\cong \mathrm M_m(B)$ as $K$-algebras.  
+
+The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$.
+
+{{< /definition >}}
+
+
 ## References
 
 {{< bibliography >}}
