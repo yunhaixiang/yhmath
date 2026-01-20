@@ -14,9 +14,9 @@
   
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   — Thomas Hill
-Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to 
+Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to 
   ⟦cite:Poo17⟧
- from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.">
+ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   
 
   
@@ -56,12 +56,12 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <meta property="og:url" content="http://localhost:1313/posts/brauer2/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Brauer Groups Part II">
-  <meta property="og:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.">
+  <meta property="og:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-01-18T23:38:19-05:00">
-    <meta property="article:modified_time" content="2026-01-19T00:09:33-05:00">
+    <meta property="article:modified_time" content="2026-01-19T00:31:14-05:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebra">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -75,10 +75,10 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   
   
   <meta itemprop="name" content="Brauer Groups Part II">
-  <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.">
+  <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   <meta itemprop="datePublished" content="2026-01-18T23:38:19-05:00">
-  <meta itemprop="dateModified" content="2026-01-19T00:09:33-05:00">
-  <meta itemprop="wordCount" content="123">
+  <meta itemprop="dateModified" content="2026-01-19T00:31:14-05:00">
+  <meta itemprop="wordCount" content="290">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -89,7 +89,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
 
   
   
-    <link rel="stylesheet" href="/css/content.min.a4d00243f9fd222ee7c3b7b3faf2b3057c3842bcb9099ff5fac50970d89a7ab9.css" integrity="sha256-pNACQ/n9Ii7nw7ez&#43;vKzBXw4Qry5CZ/1&#43;sUJcNiaerk=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.6361b30770264342a8a9f76b7b1bc3ecdee3be0cabff52733e301c4141c13976.css" integrity="sha256-Y2GzB3AmQ0KoqfdrexvD7N7jvgyr/1JzPjAcQUHBOXY=" crossorigin="anonymous">
   
 
   
@@ -101,7 +101,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Brauer Groups Part II">
-  <meta name="twitter:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.">
+  <meta name="twitter:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
 
 
   
@@ -194,7 +194,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          123 words
+          290 words
         </span>
       
       
@@ -207,7 +207,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~1 min
+          ~2 mins
         </span>
       
     </div>
@@ -245,6 +245,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
     </summary>
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
+    <li><a href="#cohomological-interpretation-of-the-brauer-group">Cohomological Interpretation of the Brauer Group</a></li>
     <li><a href="#examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</a></li>
     <li><a href="#references">References</a></li>
   </ul>
@@ -257,10 +258,52 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <div class="yh-pullquote-text">
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   </div><div class="yh-pullquote-attrib">— Thomas Hill</div></aside>
-<p>Continuing from <a href="/posts/brauer1">Part I</a>, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to <span class="yh-ref" data-ref-kind="bib"
+<p>Continuing from <a href="/posts/brauer1">Part I</a>, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to <span class="yh-ref" data-ref-kind="bib"
       data-cite-key="Poo17">
   ⟦cite:Poo17⟧
-</span> from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.</p>
+</span> from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.</p>
+<h2 id="cohomological-interpretation-of-the-brauer-group">Cohomological Interpretation of the Brauer Group</h2>
+<p><div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    <p>For each $r\ge 1$, there is injection
+</p>
+$$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomorphism}}\hookrightarrow \mathrm{H}^1(K,\mathrm{PGL}_r)$$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
+  </span>
+</div>
+
 <h2 id="examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</h2>
 <h2 id="references">References</h2>
 <div class="bib-env">

@@ -96,10 +96,10 @@ This follows from the fact that there is only one $r$-dimensional $K$-vector spa
 
 ## Hilbert’s Theorem 90
 
-We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme. 
+We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme with an action by $\mathrm G_K$. 
 
 {{< remark >}}
-We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition via derived functors.
+We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
 {{< /remark>}}
 
 {{< lemma id="thm-normal-basis" note="Normal Basis Theorem" >}}
@@ -167,7 +167,17 @@ $$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$
 Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.
 {{< /proof >}}
 
-Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism, by a theorem we will talk about in the next post (Skolem-Noether). Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. The same can be used to define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.
+{{< theorem note="Skolem–Noether" id="thm-skolem-noether" >}}
+Let $A$ be an Azumaya algebra over $K$. Then 
+1. any $K$-algebra automorphism $\varphi: A \to A$ is an inner automorphism
+1. any two $K$-algebra embeddings $\varphi, \psi: L \hookrightarrow A$ of a field extension $L/K$ are conjugate by an element of $A^\times$. That is, there exists $u \in A^\times$ such that for all $x \in L$, $\psi(x) = u \varphi(x) u^{-1}$.
+{{< /theorem >}}
+{{< proof >}}
+See {{< cite key="GS06" note="Theorem 2.7.2" >}}.
+{{< /proof >}}
+
+
+Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism. Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. Similarly we define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.
 
 {{< definition id="def-brauer-group" >}}
 
@@ -180,7 +190,8 @@ The group operation is induced by the tensor product $\otimes_K$, the identity e
 
 {{< /definition >}}
 
-In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems (Skolem-Noether theorem, Wedderburn's theorem, etc.).
+In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.
+
 ## References
 
 {{< bibliography >}}
@@ -195,5 +206,8 @@ In the next post, we'll compute examples of Brauer groups of fields, relate them
   {{< /bibitem >}}
   {{< bibitem key="Wei13" author="Charles A. Weibel" type="book" year="2013" publisher="American Mathematical Society" >}}
   An Introduction to Homological Algebra
+  {{< /bibitem >}}
+  {{< bibitem key="GS06" author="Philippe Gille and Tamas Szamuely" type="book" publisher="Cambridge University Press" year="2006" series="Cambridge Studies in Advanced Mathematics" volume="101" >}}
+  Central Simple Algebras and Galois Cohomology
   {{< /bibitem >}}
 {{< /bibliography >}}

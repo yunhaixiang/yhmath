@@ -61,7 +61,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-12-19T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-01-18T23:33:44-05:00">
+    <meta property="article:modified_time" content="2026-01-19T00:31:14-05:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebra">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -77,8 +77,8 @@ Today we study the Brauer group of a field, which classifies central simple alge
   <meta itemprop="name" content="Brauer Groups Part I">
   <meta itemprop="description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras (or Azumaya algebras) over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
   <meta itemprop="datePublished" content="2025-12-19T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-01-18T23:33:44-05:00">
-  <meta itemprop="wordCount" content="2196">
+  <meta itemprop="dateModified" content="2026-01-19T00:31:14-05:00">
+  <meta itemprop="wordCount" content="2278">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -89,7 +89,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
 
   
   
-    <link rel="stylesheet" href="/css/content.min.a4d00243f9fd222ee7c3b7b3faf2b3057c3842bcb9099ff5fac50970d89a7ab9.css" integrity="sha256-pNACQ/n9Ii7nw7ez&#43;vKzBXw4Qry5CZ/1&#43;sUJcNiaerk=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.6361b30770264342a8a9f76b7b1bc3ecdee3be0cabff52733e301c4141c13976.css" integrity="sha256-Y2GzB3AmQ0KoqfdrexvD7N7jvgyr/1JzPjAcQUHBOXY=" crossorigin="anonymous">
   
 
   
@@ -194,7 +194,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2196 words
+          2278 words
         </span>
       
       
@@ -489,7 +489,7 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
 </div>
 
 <h2 id="hilberts-theorem-90">Hilbert’s Theorem 90</h2>
-<p>We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.</p>
+<p>We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme with an action by $\mathrm G_K$.</p>
 <div class="math-env style-remark" 
     
      data-kind="remark"
@@ -500,7 +500,7 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
         data-label='Remark'></span>
   </span>
   <span class="math-body">
-    We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition via derived functors.
+    We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
   </span>
 </div>
 
@@ -685,7 +685,39 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   <span class="proof-qed"></span>
 </div>
 </p>
-<p>Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism, by a theorem we will talk about in the next post (Skolem-Noether). Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. The same can be used to define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.</p>
+<p><div class="math-env style-plain" 
+    id="thm-skolem-noether"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Skolem–Noether)</span>
+  </span>
+  <span class="math-body">
+    <p>Let $A$ be an Azumaya algebra over $K$. Then</p>
+<ol>
+<li>any $K$-algebra automorphism $\varphi: A \to A$ is an inner automorphism</li>
+<li>any two $K$-algebra embeddings $\varphi, \psi: L \hookrightarrow A$ of a field extension $L/K$ are conjugate by an element of $A^\times$. That is, there exists $u \in A^\times$ such that for all $x \in L$, $\psi(x) = u \varphi(x) u^{-1}$.</li>
+</ol>
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="GS06" data-cite-note="Theorem 2.7.2">
+⟦cite:GS06⟧
+</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<p>Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism. Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. Similarly we define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.</p>
 <div class="math-env style-defn" 
     id="def-brauer-group"
      data-kind="definition"
@@ -706,7 +738,7 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   </span>
 </div>
 
-<p>In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems (Skolem-Noether theorem, Wedderburn's theorem, etc.).</p>
+<p>In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.</p>
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
@@ -721,6 +753,9 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
 
   <li id="bib-Wei13" data-bib-key="Wei13">
   <span class="bib-label">[Wei13]</span>Charles A. Weibel. <em>An Introduction to Homological Algebra</em>. American Mathematical Society. 2013.</li>
+
+  <li id="bib-GS06" data-bib-key="GS06">
+  <span class="bib-label">[GS06]</span>Philippe Gille and Tamas Szamuely. <em>Central Simple Algebras and Galois Cohomology</em>. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.</li>
 
 </ul>
 </div>

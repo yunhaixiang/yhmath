@@ -133,6 +133,70 @@
     margin-left: $margin+1rem;
   }
 
+  .enum-i { list-style-type: lower-roman; }
+  .enum-I { list-style-type: upper-roman; }
+  .enum-a { list-style-type: lower-alpha; }
+  .enum-A { list-style-type: upper-alpha; }
+  .enum-1 { list-style-type: decimal; }
+
+  .enum-i.surround-paren ::marker { content: "(" counter(list-item, lower-roman) ") "; }
+  .enum-I.surround-paren ::marker { content: "(" counter(list-item, upper-roman) ") "; }
+  .enum-a.surround-paren ::marker { content: "(" counter(list-item, lower-alpha) ") "; }
+  .enum-A.surround-paren ::marker { content: "(" counter(list-item, upper-alpha) ") "; }
+  .enum-1.surround-paren ::marker { content: "(" counter(list-item, decimal) ") "; }
+
+  .enum-i.surround-half ::marker { content: counter(list-item, lower-roman) ") "; }
+  .enum-I.surround-half ::marker { content: counter(list-item, upper-roman) ") "; }
+  .enum-a.surround-half ::marker { content: counter(list-item, lower-alpha) ") "; }
+  .enum-A.surround-half ::marker { content: counter(list-item, upper-alpha) ") "; }
+  .enum-1.surround-half ::marker { content: counter(list-item, decimal) ") "; }
+
+  .enum-i.surround-dot ::marker { content: counter(list-item, lower-roman) ". "; }
+  .enum-I.surround-dot ::marker { content: counter(list-item, upper-roman) ". "; }
+  .enum-a.surround-dot ::marker { content: counter(list-item, lower-alpha) ". "; }
+  .enum-A.surround-dot ::marker { content: counter(list-item, upper-alpha) ". "; }
+  .enum-1.surround-dot ::marker { content: counter(list-item, decimal) ". "; }
+
+  .bul-dash { list-style-type: disc; }
+  .bul-dash ::marker { content: "- "; }
+  .bul-dot ::marker { content: "· "; }
+  .bul-bullet ::marker { content: "• "; }
+  .bul-tri ::marker { content: "‣ "; }
+  .bul-square ::marker { content: "▪ "; }
+  .bul-square-open ::marker { content: "▫ "; }
+  .bul-diamond ::marker { content: "◆ "; }
+  .bul-circle-open ::marker { content: "◦ "; }
+  .bul-diamond-open ::marker { content: "◇ "; }
+  .bul-tri-solid ::marker { content: "▸ "; }
+  .bul-tri-open ::marker { content: "▹ "; }
+  .bul-arrow ::marker { content: "→ "; }
+  .bul-arrow-bold ::marker { content: "➔ "; }
+  .bul-star ::marker { content: "⋆ "; }
+  .bul-asterisk ::marker { content: "∗ "; }
+  .bul-odot ::marker { content: "⊙ "; }
+  .bul-tri-right ::marker { content: "⊳ "; }
+  .bul-square-in-square ::marker { content: "▣ "; }
+  .bul-dash-short ::marker { content: "‒ "; }
+  .bul-dot-mid ::marker { content: "∙ "; }
+  .bul-circle-solid ::marker { content: "◉ "; }
+  .bul-circle-double ::marker { content: "◎ "; }
+  .bul-circle-ring ::marker { content: "∘ "; }
+  .bul-circled-asterisk ::marker { content: "⊛ "; }
+  .bul-star-solid ::marker { content: "✦ "; }
+  .bul-star-open ::marker { content: "✶ "; }
+  .bul-diamond-fancy ::marker { content: "❖ "; }
+  .bul-tri-black ::marker { content: "▻ "; }
+  .bul-tri-white ::marker { content: "▷ "; }
+  .bul-diamond-open-alt ::marker { content: "⟡ "; }
+  .bul-starburst ::marker { content: "✺ "; }
+  .bul-star-circled ::marker { content: "✪ "; }
+  .bul-star-open-alt ::marker { content: "✧ "; }
+  .bul-diamond-target ::marker { content: "◈ "; }
+  .bul-dash-en ::marker { content: "– "; }
+  .bul-dash-em ::marker { content: "— "; }
+  .bul-dash-bar ::marker { content: "― "; }
+  .bul-hyphen-bullet ::marker { content: "⁃ "; }
+
   dt {
     font-weight: bold;
   }

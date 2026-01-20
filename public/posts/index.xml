@@ -17,10 +17,52 @@
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem-Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
-&lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs.&lt;/p&gt;
+&lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
+&lt;h2 id=&#34;cohomological-interpretation-of-the-brauer-group&#34;&gt;Cohomological Interpretation of the Brauer Group&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For each $r\ge 1$, there is injection
+&lt;/p&gt;
+$$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomorphism}}\hookrightarrow \mathrm{H}^1(K,\mathrm{PGL}_r)$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;examples-of-brauer-groups-of-fields&#34;&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -273,7 +315,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;/div&gt;
 
 &lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert’s Theorem 90&lt;/h2&gt;
-&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme.&lt;/p&gt;
+&lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme with an action by $\mathrm G_K$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
     
      data-kind=&#34;remark&#34;
@@ -284,7 +326,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi&#39;$ are said to be cohomologous if there exists $a\in A$ such that $\xi&#39;_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition via derived functors.
+    We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi&#39;$ are said to be cohomologous if there exists $a\in A$ such that $\xi&#39;_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
   &lt;/span&gt;
 &lt;/div&gt;
 
@@ -469,7 +511,39 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism, by a theorem we will talk about in the next post (Skolem-Noether). Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. The same can be used to define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;thm-skolem-noether&#34;
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Skolem–Noether)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $A$ be an Azumaya algebra over $K$. Then&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;any $K$-algebra automorphism $\varphi: A \to A$ is an inner automorphism&lt;/li&gt;
+&lt;li&gt;any two $K$-algebra embeddings $\varphi, \psi: L \hookrightarrow A$ of a field extension $L/K$ are conjugate by an element of $A^\times$. That is, there exists $u \in A^\times$ such that for all $x \in L$, $\psi(x) = u \varphi(x) u^{-1}$.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
+⟦cite:GS06⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism. Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. Similarly we define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     id=&#34;def-brauer-group&#34;
      data-kind=&#34;definition&#34;
@@ -490,7 +564,7 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;In the next post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems (Skolem-Noether theorem, Wedderburn&#39;s theorem, etc.).&lt;/p&gt;
+&lt;p&gt;In the next post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
@@ -505,6 +579,9 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
 
   &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
   &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
