@@ -61,7 +61,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-01-18T23:38:19-05:00">
-    <meta property="article:modified_time" content="2026-01-19T00:31:14-05:00">
+    <meta property="article:modified_time" content="2026-01-20T00:24:09-05:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebra">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -77,8 +77,8 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <meta itemprop="name" content="Brauer Groups Part II">
   <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   <meta itemprop="datePublished" content="2026-01-18T23:38:19-05:00">
-  <meta itemprop="dateModified" content="2026-01-19T00:31:14-05:00">
-  <meta itemprop="wordCount" content="290">
+  <meta itemprop="dateModified" content="2026-01-20T00:24:09-05:00">
+  <meta itemprop="wordCount" content="365">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -194,7 +194,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          290 words
+          365 words
         </span>
       
       
@@ -264,7 +264,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
 </span> from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.</p>
 <h2 id="cohomological-interpretation-of-the-brauer-group">Cohomological Interpretation of the Brauer Group</h2>
 <p><div class="math-env style-plain" 
-    
+    id="prop-azumaya-to-pglr"
      data-kind="proposition"
      data-lang="en"
      data-numbered="true">
@@ -304,6 +304,40 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
   </span>
 </div>
 
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>There is an isomorphism of abelian groups
+</p>
+$$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
+</p>
+$$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$<p>
+gives a long exact sequence
+</p>
+$$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$<p>
+Composing the injection from <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-azumaya-to-pglr">⟦ref:prop-azumaya-to-pglr⟧</span> with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective,</p>
+
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
 <h2 id="examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</h2>
 <h2 id="references">References</h2>
 <div class="bib-env">

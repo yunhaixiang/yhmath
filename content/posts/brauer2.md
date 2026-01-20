@@ -15,7 +15,7 @@ Continuing from [Part I](/posts/brauer1), we delve deeper into Brauer groups. In
 
 ## Cohomological Interpretation of the Brauer Group
 
-{{< proposition >}}
+{{< proposition id="prop-azumaya-to-pglr" >}}
 For each $r\ge 1$, there is injection
 $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomorphism}}\hookrightarrow \mathrm{H}^1(K,\mathrm{PGL}_r)$$
 {{< /proposition >}}
@@ -27,7 +27,22 @@ Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $
 The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
 {{< /remark >}}
 
+{{< theorem >}}
+There is an isomorphism of abelian groups
+$$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
+{{< /theorem >}}
+{{< proof >}}
+Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
+$$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$
+gives a long exact sequence
+$$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$
+Composing the injection from {{< refer id="prop-azumaya-to-pglr" >}} with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, 
+
+
+{{< /proof >}}
+
 ## Examples of Brauer Groups of Fields
+
 
 ## References
 
