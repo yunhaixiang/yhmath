@@ -36,7 +36,7 @@ Taking cohomology of the short exact sequence of algebraic groups over $K^{\math
 $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$
 gives a long exact sequence
 $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$
-Composing the injection from {{< refer id="prop-azumaya-to-pglr" >}} with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, 
+Composing the injection from {{< refer id="prop-azumaya-to-pglr" >}} with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $f:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra 
 
 
 {{< /proof >}}
