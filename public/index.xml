@@ -90,13 +90,50 @@ $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$&lt;p&gt;
 gives a long exact sequence
 &lt;/p&gt;
 $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$&lt;p&gt;
-Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective,&lt;/p&gt;
+Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;/p&gt;
 
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;examples-of-brauer-groups-of-fields&#34;&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $K$ be a field, then&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;If $\mathrm{char}(K)\nmid n$, then $\mathrm H^1(K, \mu_n)=K^\times/K^{\times n}$.&lt;/li&gt;
+&lt;li&gt;If $\mathrm{char}(K)\nmid n$, then $\mathrm H^2(K, \mu_n)\cong \mathrm{Br}(K)\left[n\right]$.&lt;/li&gt;
+&lt;li&gt;For any Galois extension $L\mid K$, we have $\mathrm H^2(\mathrm{Gal}(L\mid K), L^\times)=\mathrm{Ker}(\mathrm{Br}(K)\rightarrow\mathrm{Br}(L))$.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;Take short exact sequence&lt;/li&gt;
+&lt;li&gt;Same&lt;/li&gt;
+&lt;li&gt;Since&lt;/li&gt;
+&lt;/ol&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Brauer group of local fields, global fields, finite fields, real numbers, algebraically closed fields, etc.&lt;/p&gt;
+&lt;h2 id=&#34;period-and-index&#34;&gt;Period and Index&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
