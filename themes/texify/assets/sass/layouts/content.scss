@@ -145,6 +145,12 @@
   .enum-A.surround-paren ::marker { content: "(" counter(list-item, upper-alpha) ") "; }
   .enum-1.surround-paren ::marker { content: "(" counter(list-item, decimal) ") "; }
 
+  .enum-i.surround-bracket ::marker { content: "[" counter(list-item, lower-roman) "] "; }
+  .enum-I.surround-bracket ::marker { content: "[" counter(list-item, upper-roman) "] "; }
+  .enum-a.surround-bracket ::marker { content: "[" counter(list-item, lower-alpha) "] "; }
+  .enum-A.surround-bracket ::marker { content: "[" counter(list-item, upper-alpha) "] "; }
+  .enum-1.surround-bracket ::marker { content: "[" counter(list-item, decimal) "] "; }
+
   .enum-i.surround-half ::marker { content: counter(list-item, lower-roman) ") "; }
   .enum-I.surround-half ::marker { content: counter(list-item, upper-roman) ") "; }
   .enum-a.surround-half ::marker { content: counter(list-item, lower-alpha) ") "; }
@@ -156,6 +162,12 @@
   .enum-a.surround-dot ::marker { content: counter(list-item, lower-alpha) ". "; }
   .enum-A.surround-dot ::marker { content: counter(list-item, upper-alpha) ". "; }
   .enum-1.surround-dot ::marker { content: counter(list-item, decimal) ". "; }
+
+  .enum-i.surround-colon ::marker { content: counter(list-item, lower-roman) ": "; }
+  .enum-I.surround-colon ::marker { content: counter(list-item, upper-roman) ": "; }
+  .enum-a.surround-colon ::marker { content: counter(list-item, lower-alpha) ": "; }
+  .enum-A.surround-colon ::marker { content: counter(list-item, upper-alpha) ": "; }
+  .enum-1.surround-colon ::marker { content: counter(list-item, decimal) ": "; }
 
   .bul-dash { list-style-type: disc; }
   .bul-dash ::marker { content: "- "; }

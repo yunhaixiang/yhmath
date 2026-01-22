@@ -13,7 +13,7 @@ More specifically, some topics that I especially want to understand are
 1. Monodromy representations, étale sheaves, and ramification theory
 
 
-Outside of my main interests, I’m also interested in combinatorics, representation theory, mathematical logic, and the applications of artifical intelligence and machine learning to mathematics. Outside of pure math, I’m also curious about computer graphics.
+Outside of my main interests, I’m also interested in combinatorics, representation theory, mathematical logic, and the applications of artifical intelligence and machine learning to mathematics. 
 
 ## Publications
 

@@ -58,7 +58,7 @@ $$1\to \mu_n\to \mathbb{G}_m\xrightarrow{(\cdot)^n} \mathbb{G}_m\to 1$$
 and take cohomology to get long exact sequence
 $$\cdots \to \mathrm H^0(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^0(K, \mathbb{G}_m)\to \mathrm H^1(K, \mu_n)\to \mathrm H^1(K, \mathbb{G}_m)\to \cdots$$ then use Hilbert's Theorem 90 to conclude.
 2. Same idea as above, taking the same short exact sequence and taking cohomology to get long exact sequence
-$$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, \mathbb{G}_m)\to \mathrm H^2(K, \mu_n)\to \mathrm H^2(K, \mathbb{G}_m)\to \cdots$$ then use Hilbert's Theorem 90 to conclude.
+$$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, \mathbb{G}_m)\to \mathrm H^2(K, \mu_n)\to \mathrm H^2(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^2(K, \mathbb{G}_m) \to \cdots$$ then use Hilbert's Theorem 90 to conclude.
 3. Skipped
 {.enum-i .surround-paren}
 {{< /proof >}}
