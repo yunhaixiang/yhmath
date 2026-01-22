@@ -63,7 +63,7 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 {.enum-i .surround-paren}
 {{< /proof >}}
 
-Brauer group of local fields, global fields, finite fields, real numbers, algebraically closed fields, etc.
+
 
 ## Period and Index
 

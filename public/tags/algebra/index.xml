@@ -124,16 +124,19 @@ Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;
 
   &lt;div class=&#34;proof-body&#34;&gt;
     &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
-&lt;li&gt;Take short exact sequence&lt;/li&gt;
-&lt;li&gt;Same&lt;/li&gt;
-&lt;li&gt;Since&lt;/li&gt;
+&lt;li&gt;Take short exact sequence
+$$1\to \mu_n\to \mathbb{G}_m\xrightarrow{(\cdot)^n} \mathbb{G}_m\to 1$$
+and take cohomology to get long exact sequence
+$$\cdots \to \mathrm H^0(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^0(K, \mathbb{G}_m)\to \mathrm H^1(K, \mu_n)\to \mathrm H^1(K, \mathbb{G}_m)\to \cdots$$ then use Hilbert&#39;s Theorem 90 to conclude.&lt;/li&gt;
+&lt;li&gt;Same idea as above, taking the same short exact sequence and taking cohomology to get long exact sequence
+$$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, \mathbb{G}_m)\to \mathrm H^2(K, \mu_n)\to \mathrm H^2(K, \mathbb{G}_m)\to \cdots$$ then use Hilbert&#39;s Theorem 90 to conclude.&lt;/li&gt;
+&lt;li&gt;Skipped&lt;/li&gt;
 &lt;/ol&gt;
 
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Brauer group of local fields, global fields, finite fields, real numbers, algebraically closed fields, etc.&lt;/p&gt;
 &lt;h2 id=&#34;period-and-index&#34;&gt;Period and Index&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
