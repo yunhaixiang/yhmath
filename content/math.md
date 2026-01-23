@@ -7,7 +7,6 @@ title: "Math"
 My primary interests in mathematics lie in number theory in particular arithmetic geometry, which studies arithmetic by applying insights from geometry and topology. 
 More specifically, some topics that I especially want to understand are 
 
-1. Cohomology theories in arithmetic geometry
 1. Rational points on varieties and algebraic stacks
 1. Enumerative geometry over arbitrary ground fields
 1. Monodromy representations, étale sheaves, and ramification theory

@@ -136,6 +136,10 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;If $K$ is a finite field, then $\mathrm{Br}(K)=0$.&lt;/li&gt;
+&lt;li&gt;If $K=\mathbb{R}$, then&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;period-and-index&#34;&gt;Period and Index&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;

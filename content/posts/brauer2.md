@@ -63,7 +63,21 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 {.enum-i .surround-paren}
 {{< /proof >}}
 
+{{< proposition >}}
+Here are some examples of Brauer groups of fields:
+1. If $K$ is algebraically closed, $\mathrm{Br}(K)=0$,
+2. If $K$ is finite, then $\mathrm{Br}(K)=0$,
+3. If $K=\mathbb{R}$, then $\mathrm{Br}(\mathbb{R})\cong \mathbb{Z}/2\mathbb{Z}$,
+4. If $K$ is a non-archimedean local field, then $\mathrm{Br}(K)\cong \mathbb{Q}/\mathbb{Z}$,
+5. (Albert–Brauer–Hasse–Noether Theorem) If $K$ is a global field, then there is an exact sequence
+$$0\to \mathrm{Br}(K)\to \bigoplus_v \mathrm{Br}(K_v)\xrightarrow{\sum \mathrm{inv}_v} \mathbb{Q}/\mathbb{Z}\to 0$$
+where the sum is over all places $v$ of $K$.
+{.enum-i .surround-paren}
+{{< /proposition >}}
+{{< proof >}}
+{{< /proof >}}
 
+cohomological dimension.
 
 ## Period and Index
 
