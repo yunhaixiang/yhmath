@@ -64,7 +64,7 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;thm-brauer-cohomology&#34;
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -99,7 +99,7 @@ Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;
 &lt;/p&gt;
 &lt;h2 id=&#34;examples-of-brauer-groups-of-fields&#34;&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;prop-brauer-cohomology-mun&#34;
      data-kind=&#34;proposition&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -153,7 +153,7 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 &lt;li&gt;If $K$ is finite, then $\mathrm{Br}(K)=0$,&lt;/li&gt;
 &lt;li&gt;If $K=\mathbb{R}$, then $\mathrm{Br}(\mathbb{R})\cong \mathbb{Z}/2\mathbb{Z}$,&lt;/li&gt;
 &lt;li&gt;If $K$ is a non-archimedean local field, then $\mathrm{Br}(K)\cong \mathbb{Q}/\mathbb{Z}$,&lt;/li&gt;
-&lt;li&gt;(Albert–Brauer–Hasse–Noether Theorem) If $K$ is a global field, then there is an exact sequence
+&lt;li&gt;(Albert–Brauer–Hasse–Noether) If $K$ is a global field, then there is an exact sequence
 $$0\to \mathrm{Br}(K)\to \bigoplus_v \mathrm{Br}(K_v)\xrightarrow{\sum \mathrm{inv}_v} \mathbb{Q}/\mathbb{Z}\to 0$$
 where the sum is over all places $v$ of $K$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -166,13 +166,190 @@ where the sum is over all places $v$ of $K$.&lt;/li&gt;
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    
+    &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-brauer-cohomology&#34;&gt;⟦ref:thm-brauer-cohomology⟧&lt;/span&gt;, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.&lt;/li&gt;
+&lt;li&gt;Any central division algebra over a finite field is finite, hence by Wedderburn’s little theorem is a field, hence every Azumaya algebra over a finite field is some $\mathrm M_n(K)\sim K$, so the Brauer group is trivial.&lt;/li&gt;
+&lt;li&gt;The only Azumaya algebras over $\mathbb{R}$ are $\mathbb{R}$ and the Hamiltonian quaternions $\mathbb{H}$ so the Brauer group is $\mathbb{Z}/2\mathbb{Z}$.&lt;/li&gt;
+&lt;li&gt;It suffice to show for each $n\ge 1$ we have $\mathrm{Br}(K)[n]\cong \mathbb{Z}/n\mathbb{Z}$, so that
+$$\mathrm{Br}(K)=\lim_{\longrightarrow}\mathrm{Br}(K)[n]\cong\lim_{\longrightarrow}\mathbb{Z}/n\mathbb{Z}=\lim_{\longrightarrow} \frac{1}{n}\mathbb Z/\mathbb Z=\mathbb Q/\mathbb Z$$
+By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-brauer-cohomology-mun&#34;&gt;⟦ref:prop-brauer-cohomology-mun⟧&lt;/span&gt; part (ii), we have $\mathrm{Br}(K)[n]\cong \mathrm H^2(K, \mu_n)$. By Tate local duality from local class field theory, we have $\mathrm H^2(K, \mu_n)\cong \mathbb{Z}/n\mathbb{Z}$ as required.&lt;/li&gt;
+&lt;li&gt;Skipped&lt;/li&gt;
+&lt;/ol&gt;
+
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;cohomological dimension.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $G$ be a profinite group and $p$ a prime. The &lt;em&gt;$p$-cohomological dimension&lt;/em&gt; $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i&gt;n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n&gt;d^r$ has a nontrivial zero in $K$. The adjective &lt;em&gt;quasi-algebraically closed&lt;/em&gt; means $C_1$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;If $K$ is a $C_r$ field, $L\mid K$ an extension,&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;If $L$ is algebraic over $K$, then $L$ is $C_r$.&lt;/li&gt;
+&lt;li&gt;If $L$ is transcendental of trasncendence degree $s$ over $K$, then then $L$ is $C_{r+s}$.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Chevalley–Warning)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $K$ is a finite field, then $K$ is $C_1$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;period-and-index&#34;&gt;Period and Index&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The &lt;em&gt;index&lt;/em&gt; of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The &lt;em&gt;period&lt;/em&gt; of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. Then $D\otimes_K D^{\mathrm{op}}\cong \mathrm M_n(K)$, so the period of $D$ divides $n$.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;

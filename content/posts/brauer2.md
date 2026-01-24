@@ -27,7 +27,7 @@ Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $
 The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
 {{< /remark >}}
 
-{{< theorem >}}
+{{< theorem id="thm-brauer-cohomology" >}}
 There is an isomorphism of abelian groups
 $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
 {{< /theorem >}}
@@ -43,7 +43,7 @@ Composing the injection from {{< refer id="prop-azumaya-to-pglr" >}} with the ma
 
 ## Examples of Brauer Groups of Fields
 
-{{< proposition >}}
+{{< proposition id="prop-brauer-cohomology-mun" >}}
 Let $K$ be a field, then 
 
 1. If $\mathrm{char}(K)\nmid n$, then $\mathrm H^1(K, \mu_n)=K^\times/K^{\times n}$. 
@@ -69,18 +69,68 @@ Here are some examples of Brauer groups of fields:
 2. If $K$ is finite, then $\mathrm{Br}(K)=0$,
 3. If $K=\mathbb{R}$, then $\mathrm{Br}(\mathbb{R})\cong \mathbb{Z}/2\mathbb{Z}$,
 4. If $K$ is a non-archimedean local field, then $\mathrm{Br}(K)\cong \mathbb{Q}/\mathbb{Z}$,
-5. (Albert–Brauer–Hasse–Noether Theorem) If $K$ is a global field, then there is an exact sequence
+5. (Albert–Brauer–Hasse–Noether) If $K$ is a global field, then there is an exact sequence
 $$0\to \mathrm{Br}(K)\to \bigoplus_v \mathrm{Br}(K_v)\xrightarrow{\sum \mathrm{inv}_v} \mathbb{Q}/\mathbb{Z}\to 0$$
 where the sum is over all places $v$ of $K$.
 {.enum-i .surround-paren}
 {{< /proposition >}}
 {{< proof >}}
+1. By {{< refer id="thm-brauer-cohomology" >}}, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.
+2. Any central division algebra over a finite field is finite, hence by Wedderburn’s little theorem is a field, hence every Azumaya algebra over a finite field is some $\mathrm M_n(K)\sim K$, so the Brauer group is trivial.
+3. The only Azumaya algebras over $\mathbb{R}$ are $\mathbb{R}$ and the Hamiltonian quaternions $\mathbb{H}$ so the Brauer group is $\mathbb{Z}/2\mathbb{Z}$.
+4. It suffice to show for each $n\ge 1$ we have $\mathrm{Br}(K)[n]\cong \mathbb{Z}/n\mathbb{Z}$, so that 
+$$\mathrm{Br}(K)=\lim_{\longrightarrow}\mathrm{Br}(K)[n]\cong\lim_{\longrightarrow}\mathbb{Z}/n\mathbb{Z}=\lim_{\longrightarrow} \frac{1}{n}\mathbb Z/\mathbb Z=\mathbb Q/\mathbb Z$$
+By {{< refer id="prop-brauer-cohomology-mun" >}} part (ii), we have $\mathrm{Br}(K)[n]\cong \mathrm H^2(K, \mu_n)$. By Tate local duality from local class field theory, we have $\mathrm H^2(K, \mu_n)\cong \mathbb{Z}/n\mathbb{Z}$ as required.
+5. Skipped
+{.enum-i .surround-paren}
 {{< /proof >}}
 
-cohomological dimension.
+{{< definition >}}
+Let $G$ be a profinite group and $p$ a prime. The *$p$-cohomological dimension* $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i>n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
+{{< /definition >}}
+{{< proposition >}}
+For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
+{{< /proposition >}}
 
+{{< proposition >}}
+If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
+{{< /proposition >}}
+
+{{< proposition >}}
+If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
+{{< /proposition >}}
+
+{{< definition >}}
+A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n>d^r$ has a nontrivial zero in $K$. The adjective *quasi-algebraically closed* means $C_1$. 
+{{< /definition >}}
+
+{{< theorem >}}
+If $K$ is a $C_r$ field, $L\mid K$ an extension, 
+1. If $L$ is algebraic over $K$, then $L$ is $C_r$.
+2. If $L$ is transcendental of trasncendence degree $s$ over $K$, then then $L$ is $C_{r+s}$.
+{.enum-i .surround-paren}
+{{< /theorem >}}
+
+{{< theorem note="Chevalley–Warning" >}}
+If $K$ is a finite field, then $K$ is $C_1$.
+{{< /theorem >}}
+{{< theorem >}}
+If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
+{{< /theorem >}}
 ## Period and Index
 
+{{< definition >}}
+The *index* of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The *period* of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$. 
+{{< /definition >}}
+
+{{< theorem >}}
+For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
+{{< /theorem >}}
+{{< proof >}}
+We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. Then $D\otimes_K D^{\mathrm{op}}\cong \mathrm M_n(K)$, so the period of $D$ divides $n$.
+{{< /proof >}}
+{{< remark >}}Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
+{{< /remark >}}
 ## References
 
 {{< bibliography >}}

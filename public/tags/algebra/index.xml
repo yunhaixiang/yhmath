@@ -64,7 +64,7 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;thm-brauer-cohomology&#34;
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -166,7 +166,10 @@ where the sum is over all places $v$ of $K$.&lt;/li&gt;
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    
+    &lt;ol&gt;
+&lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-brauer-cohomology&#34;&gt;⟦ref:thm-brauer-cohomology⟧&lt;/span&gt;, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.&lt;/li&gt;
+&lt;/ol&gt;
+
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
