@@ -169,6 +169,25 @@
   .enum-A.surround-colon ::marker { content: counter(list-item, upper-alpha) ": "; }
   .enum-1.surround-colon ::marker { content: counter(list-item, decimal) ": "; }
 
+  @media (max-width: 700px){
+    ol.surround-paren,
+    ol.surround-bracket,
+    ol.surround-half,
+    ol.surround-dot,
+    ol.surround-colon {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .ol-inline-marker {
+      display: inline-block;
+      min-width: 2.2em;
+      margin-right: 0.35em;
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
+
   .bul-dash { list-style-type: disc; }
   .bul-dash ::marker { content: "- "; }
   .bul-dot ::marker { content: "· "; }
