@@ -14,7 +14,7 @@
   
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   — Thomas Hill
-Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to 
+Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to 
   ⟦cite:Poo17⟧
  from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   
@@ -56,12 +56,12 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <meta property="og:url" content="http://localhost:1313/posts/brauer2/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Brauer Groups Part II">
-  <meta property="og:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
+  <meta property="og:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-01-18T23:38:19-05:00">
-    <meta property="article:modified_time" content="2026-01-23T03:51:10-05:00">
+    <meta property="article:modified_time" content="2026-01-24T18:47:18-05:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebra">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -75,10 +75,10 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   
   
   <meta itemprop="name" content="Brauer Groups Part II">
-  <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
+  <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   <meta itemprop="datePublished" content="2026-01-18T23:38:19-05:00">
-  <meta itemprop="dateModified" content="2026-01-23T03:51:10-05:00">
-  <meta itemprop="wordCount" content="1144">
+  <meta itemprop="dateModified" content="2026-01-24T18:47:18-05:00">
+  <meta itemprop="wordCount" content="1612">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -101,7 +101,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Brauer Groups Part II">
-  <meta name="twitter:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
+  <meta name="twitter:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
 
 
   
@@ -194,7 +194,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1144 words
+          1612 words
         </span>
       
       
@@ -207,7 +207,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~6 mins
+          ~8 mins
         </span>
       
     </div>
@@ -248,6 +248,8 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
     <li><a href="#cohomological-interpretation-of-the-brauer-group">Cohomological Interpretation of the Brauer Group</a></li>
     <li><a href="#examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</a></li>
     <li><a href="#period-and-index">Period and Index</a></li>
+    <li><a href="#cyclic-algebras">Cyclic Algebras</a></li>
+    <li><a href="#brauer-groups-of-rings">Brauer Groups of Rings</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -259,7 +261,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <div class="yh-pullquote-text">
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   </div><div class="yh-pullquote-attrib">— Thomas Hill</div></aside>
-<p>Continuing from <a href="/posts/brauer1">Part I</a>, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to <span class="yh-ref" data-ref-kind="bib"
+<p>Continuing from <a href="/posts/brauer1">Part I</a>, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to <span class="yh-ref" data-ref-kind="bib"
       data-cite-key="Poo17">
   ⟦cite:Poo17⟧
 </span> from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.</p>
@@ -573,7 +575,10 @@ By <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-brauer-cohomology
   </span>
 
   <div class="proof-body">
-    We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. Then $D\otimes_K D^{\mathrm{op}}\cong \mathrm M_n(K)$, so the period of $D$ divides $n$.
+    <p>We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity </p>
+$$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$<p>
+we see that the period of $D$ divides $n$, as required.</p>
+
   </div>
   <span class="proof-qed"></span>
 </div>
@@ -592,6 +597,133 @@ By <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-brauer-cohomology
   </span>
 </div>
 </p>
+<h2 id="cyclic-algebras">Cyclic Algebras</h2>
+<p>Let $L\mid K$ be a degree $n$ cyclic extension, $a\in K^\times$ and $\sigma$ a generator of $\mathrm{Gal}(L\mid K)$. Let $L[x]_{\sigma}$ be the twisted polynomial ring with relation $x\ell=\sigma(\ell)x$ for all $\ell\in L$. Let $A=L[x]_{\sigma}/(x^n - a)$. It is straightforward to check that $A$ is a central simple algebra over $K$ of dimension $n^2$ that splits over $L$. Azumaya algebras of this form are called <em>cyclic algebras</em>. Generally, we have the following.</p>
+<p><div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The <em>cyclic algebra</em> associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
+$(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
+  </span>
+</div>
+
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    <p>Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
+</p>
+$$\mathrm H^1(K,\mu_n)\times \mathrm H^1(K,\mathbb Z/n\mathbb Z)\to \mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$$<p>
+the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$ that corresponds to the cyclic algebra $(\chi,a)$ up to a sign.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
+  </span>
+</div>
+</p>
+<h2 id="brauer-groups-of-rings">Brauer Groups of Rings</h2>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an <em>Azumaya algebra</em> over $R$ if</p>
+<ol class="enum-i surround-paren">
+<li>$A$ is finitely generated projective as an $R$-module,</li>
+<li>the natural map
+$A\otimes_R A^{\mathrm{op}}\to \mathrm{End}_R(A)$
+by sending $a\otimes b^{\mathrm{op}}\mapsto (x\mapsto axb)$
+is an isomorphism of $R$-algebras.</li>
+</ol>
+  </span>
+</div>
+
+<p><div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
+  </span>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Two Azumaya algebras $A$ and $B$ over $R$ are <em>Brauer equivalent</em> if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The <em>Brauer group</em> $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
+  </span>
+</div>
+</p>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}'(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}'(R)$ but it is not necessarily surjective. The same is true for schemes.
+  </span>
+</div>
+
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">

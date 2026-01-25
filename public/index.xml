@@ -330,7 +330,7 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. Then $D\otimes_K D^{\mathrm{op}}\cong \mathrm M_n(K)$, so the period of $D$ divides $n$.
+    We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$.
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;

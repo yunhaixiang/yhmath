@@ -10,7 +10,7 @@ categories: [expositions]
 The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
 {{< /pullquote >}}
 
-Continuing from [Part I](/posts/brauer1), we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to {{< cite key="Poo17" >}} from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.
+Continuing from [Part I](/posts/brauer1), we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to {{< cite key="Poo17" >}} from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.
 
 
 ## Cohomological Interpretation of the Brauer Group
@@ -127,9 +127,52 @@ The *index* of a finite dimensional central division algebra $D$ over a field $K
 For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
 {{< /theorem >}}
 {{< proof >}}
-We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. Then $D\otimes_K D^{\mathrm{op}}\cong \mathrm M_n(K)$, so the period of $D$ divides $n$.
+We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$
+we see that the period of $D$ divides $n$, as required.
 {{< /proof >}}
 {{< remark >}}Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
+{{< /remark >}}
+
+## Cyclic Algebras
+
+Let $L\mid K$ be a degree $n$ cyclic extension, $a\in K^\times$ and $\sigma$ a generator of $\mathrm{Gal}(L\mid K)$. Let $L[x]_{\sigma}$ be the twisted polynomial ring with relation $x\ell=\sigma(\ell)x$ for all $\ell\in L$. Let $A=L[x]_{\sigma}/(x^n - a)$. It is straightforward to check that $A$ is a central simple algebra over $K$ of dimension $n^2$ that splits over $L$. Azumaya algebras of this form are called *cyclic algebras*. Generally, we have the following.
+
+{{< definition >}}
+Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The *cyclic algebra* associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
+$(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
+{{< /definition >}}
+{{< remark >}}
+Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
+$$\mathrm H^1(K,\mu_n)\times \mathrm H^1(K,\mathbb Z/n\mathbb Z)\to \mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$$
+the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$ that corresponds to the cyclic algebra $(\chi,a)$ up to a sign.
+{{< /remark >}}
+{{< proposition >}}
+Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
+{{< /proposition>}}
+{{< proposition >}}
+Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
+{{< /proposition>}}
+## Brauer Groups of Rings
+
+{{< definition >}}
+Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an *Azumaya algebra* over $R$ if 
+1. $A$ is finitely generated projective as an $R$-module,
+2. the natural map
+$A\otimes_R A^{\mathrm{op}}\to \mathrm{End}_R(A)$
+by sending $a\otimes b^{\mathrm{op}}\mapsto (x\mapsto axb)$ 
+is an isomorphism of $R$-algebras.
+{.enum-i .surround-paren}
+{{< /definition >}}
+
+{{< remark >}}
+Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$. 
+{{< /remark>}}
+{{< definition >}}
+Two Azumaya algebras $A$ and $B$ over $R$ are *Brauer equivalent* if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The *Brauer group* $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
+{{< /definition >}}
+
+{{< remark >}}
+For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}'(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}'(R)$ but it is not necessarily surjective. The same is true for schemes.
 {{< /remark >}}
 ## References
 
