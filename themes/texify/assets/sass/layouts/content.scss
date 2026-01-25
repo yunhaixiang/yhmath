@@ -177,6 +177,7 @@
     ol.surround-colon {
       list-style: none;
       padding-left: 0;
+      margin-left: 0.2rem;
     }
 
     ol.surround-paren > li,
@@ -185,13 +186,13 @@
     ol.surround-dot > li,
     ol.surround-colon > li {
       position: relative;
-      padding-left: 2.3em;
+      padding-left: 2.0em;
     }
 
     .ol-inline-marker {
       position: absolute;
       left: 0;
-      width: 2em;
+      width: 1.7em;
       text-align: right;
       white-space: nowrap;
     }
