@@ -217,6 +217,19 @@
     ol.surround-dot,
     ol.surround-colon {
       list-style: none;
+      padding-left: 2.2em;
+    }
+
+    ol.surround-paren > li::before,
+    ol.surround-bracket > li::before,
+    ol.surround-half > li::before,
+    ol.surround-dot > li::before,
+    ol.surround-colon > li::before {
+      display: inline-block;
+      width: 2.2em;
+      margin-left: -2.2em;
+      text-align: right;
+      white-space: nowrap;
     }
 
     ol.surround-paren > li::before { content: "(" counter(list-item, decimal) ") "; }
