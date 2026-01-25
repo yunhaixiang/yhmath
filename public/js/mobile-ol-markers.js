@@ -90,9 +90,9 @@
 
           const first = item.firstElementChild;
           if (first && first.tagName === "P") {
-            first.prepend(marker, " ");
+            first.prepend(marker);
           } else {
-            item.prepend(marker, " ");
+            item.prepend(marker);
           }
         }
 

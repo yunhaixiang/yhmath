@@ -179,10 +179,19 @@
       padding-left: 0;
     }
 
+    ol.surround-paren > li,
+    ol.surround-bracket > li,
+    ol.surround-half > li,
+    ol.surround-dot > li,
+    ol.surround-colon > li {
+      position: relative;
+      padding-left: 2.2em;
+    }
+
     .ol-inline-marker {
-      display: inline-block;
-      min-width: 2.2em;
-      margin-right: 0.35em;
+      position: absolute;
+      left: 0;
+      width: 2.2em;
       text-align: right;
       white-space: nowrap;
     }
