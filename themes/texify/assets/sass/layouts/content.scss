@@ -218,7 +218,7 @@
     ol.surround-colon {
       list-style: none;
       padding-left: 0;
-      margin-left: 0.4rem;
+      margin-left: 0;
     }
 
     ol.surround-paren > li::before,
@@ -226,6 +226,7 @@
     ol.surround-half > li::before,
     ol.surround-dot > li::before,
     ol.surround-colon > li::before {
+      grid-column: 1;
       text-align: right;
       white-space: nowrap;
     }
@@ -236,7 +237,7 @@
     ol.surround-dot > li,
     ol.surround-colon > li {
       display: grid;
-      grid-template-columns: 2.1em 1fr;
+      grid-template-columns: 2.2em 1fr;
       column-gap: 0.35em;
     }
 
