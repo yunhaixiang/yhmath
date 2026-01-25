@@ -1,5 +1,5 @@
 {{/* layouts/shortcodes/bibitem.html */}}
-{{- $key := .Get "key" -}}
+{{- $explicitKey := .Get "key" -}}
 {{- $type := .Get "type" | default "book" -}}
 {{- $authors := .Get "authors" | default (.Get "author") | default "" -}}
 {{- $editor := .Get "editor" | default "" -}}
@@ -30,6 +30,90 @@
 {{- $language := .Get "language" | default "" -}}
 {{- $urldate := .Get "urldate" | default "" -}}
 {{- $accessed := .Get "accessed" | default "" -}}
+
+{{- $key := $explicitKey -}}
+{{- if not $key -}}
+  {{- $nameSource := $authors | default $editor -}}
+  {{- $yearSuffix := "00" -}}
+  {{- if $year -}}
+    {{- $yearStr := printf "%v" $year -}}
+    {{- if findRE `\d{4}` $yearStr -}}
+      {{- $yearDigits := replaceRE `^.*?(\d{4}).*$` `$1` $yearStr -}}
+      {{- $yearSuffix = replaceRE `^.*(\d{2})$` `$1` $yearDigits -}}
+    {{- else if findRE `\d{2}` $yearStr -}}
+      {{- $yearSuffix = replaceRE `^.*(\d{2}).*$` `$1` $yearStr -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $nameSource = replaceRE `\s+et al\.?$` `` $nameSource -}}
+  {{- $rawNames := slice -}}
+  {{- if in $nameSource " and " -}}
+    {{- range split $nameSource " and " -}}
+      {{- $rawNames = $rawNames | append . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- range split $nameSource "," -}}
+      {{- $rawNames = $rawNames | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $names := slice -}}
+  {{- range $rawNames -}}
+    {{- $clean := trim . " \t\n\r" -}}
+    {{- if $clean -}}
+      {{- $names = $names | append $clean -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $prefix := "" -}}
+  {{- if ge (len $names) 2 -}}
+    {{- $initials := "" -}}
+    {{- range first 4 $names -}}
+      {{- $parts := split . " " -}}
+      {{- $surname := "" -}}
+      {{- if gt (len $parts) 0 -}}
+        {{- $surname = index $parts (sub (len $parts) 1) -}}
+      {{- end -}}
+      {{- $surname = replaceRE `[^A-Za-z]` `` $surname -}}
+      {{- if $surname -}}
+        {{- $initials = printf "%s%s" $initials (upper (substr $surname 0 1)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $prefix = $initials -}}
+  {{- else if eq (len $names) 1 -}}
+    {{- $parts := split (index $names 0) " " -}}
+    {{- $surname := "" -}}
+    {{- if gt (len $parts) 0 -}}
+      {{- $surname = index $parts (sub (len $parts) 1) -}}
+    {{- end -}}
+    {{- $surname = replaceRE `[^A-Za-z]` `` $surname -}}
+    {{- $surnameLower := lower $surname -}}
+    {{- $prefixLen := 3 -}}
+    {{- if lt (len $surnameLower) 3 -}}
+      {{- $prefixLen = len $surnameLower -}}
+    {{- end -}}
+    {{- if gt $prefixLen 0 -}}
+      {{- $short := substr $surnameLower 0 $prefixLen -}}
+      {{- $first := upper (substr $short 0 1) -}}
+      {{- $rest := "" -}}
+      {{- if gt (len $short) 1 -}}
+        {{- $rest = substr $short 1 -}}
+      {{- end -}}
+      {{- $prefix = printf "%s%s" $first $rest -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $prefix -}}
+    {{- $prefix = "Anon" -}}
+  {{- end -}}
+  {{- $autoKey := printf "%s%s" $prefix $yearSuffix -}}
+  {{- $keyCounts := .Page.Scratch.Get "bibitem-auto-key-counts" | default (dict) -}}
+  {{- $count := index $keyCounts $autoKey | default 0 -}}
+  {{- if gt $count 0 -}}
+    {{- $suffix := printf "%c" (add 96 $count) -}}
+    {{- $key = printf "%s%s" $autoKey $suffix -}}
+  {{- else -}}
+    {{- $key = $autoKey -}}
+  {{- end -}}
+  {{- $keyCounts = merge $keyCounts (dict $autoKey (add $count 1)) -}}
+  {{- .Page.Scratch.Set "bibitem-auto-key-counts" $keyCounts -}}
+{{- end -}}
 
 {{- $title := .Inner | markdownify -}}
 {{- $title = $title | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}

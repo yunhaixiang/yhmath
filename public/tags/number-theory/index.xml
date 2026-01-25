@@ -6,7 +6,40 @@
     <description>Recent content in Number-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jan 2026 23:38:19 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 23:25:50 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expander Graphs</title>
+      <link>http://localhost:1313/posts/expander-graphs/</link>
+      <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/expander-graphs/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Hermann Weyl&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Expander graphs are sparse graphs with strong connectivity properties. They show up across combinatorics, theoretical computer science, and number theory, and they serve as a bridge between random-like behavior and explicit constructions. This post will collect definitions, basic examples, and a few standard criteria (spectral gap and etc). My main motivations will come from number theory, so there will be inclinations towards that. I will basically be following Kowalski&#39;s excellent notes on expander graphs &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Kow24&#34;&gt;
+  ⟦cite:Kow24⟧
+&lt;/span&gt;, with supplements from Godsil&#39;s textbook &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;God93&#34;&gt;
+  ⟦cite:God93⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-definitions&#34;&gt;Basic Definitions&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Kow24&#34; data-bib-key=&#34;Kow24&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Kow24]&lt;/span&gt;Emmanuel Kowalski. &lt;em&gt;An Introduction to Expander Graphs&lt;/em&gt;. 2024. &lt;a href=&#34;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&#34;&gt;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-God93&#34; data-bib-key=&#34;God93&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[God93]&lt;/span&gt;Chris Godsil. &lt;em&gt;Algebraic Combinatorics&lt;/em&gt;. Chapman and Hall. 1993.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Brauer Groups Part II</title>
       <link>http://localhost:1313/posts/brauer2/</link>
@@ -17,7 +50,7 @@
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to schemes. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -331,7 +364,10 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$.
+    &lt;p&gt;We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity &lt;/p&gt;
+$$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$&lt;p&gt;
+we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
+
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
@@ -350,6 +386,133 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;h2 id=&#34;cyclic-algebras&#34;&gt;Cyclic Algebras&lt;/h2&gt;
+&lt;p&gt;Let $L\mid K$ be a degree $n$ cyclic extension, $a\in K^\times$ and $\sigma$ a generator of $\mathrm{Gal}(L\mid K)$. Let $L[x]_{\sigma}$ be the twisted polynomial ring with relation $x\ell=\sigma(\ell)x$ for all $\ell\in L$. Let $A=L[x]_{\sigma}/(x^n - a)$. It is straightforward to check that $A$ is a central simple algebra over $K$ of dimension $n^2$ that splits over $L$. Azumaya algebras of this form are called &lt;em&gt;cyclic algebras&lt;/em&gt;. Generally, we have the following.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The &lt;em&gt;cyclic algebra&lt;/em&gt; associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
+$(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
+&lt;/p&gt;
+$$\mathrm H^1(K,\mu_n)\times \mathrm H^1(K,\mathbb Z/n\mathbb Z)\to \mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$$&lt;p&gt;
+the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$ that corresponds to the cyclic algebra $(\chi,a)$ up to a sign.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;brauer-groups-of-rings&#34;&gt;Brauer Groups of Rings&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an &lt;em&gt;Azumaya algebra&lt;/em&gt; over $R$ if&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;$A$ is finitely generated projective as an $R$-module,&lt;/li&gt;
+&lt;li&gt;the natural map
+$A\otimes_R A^{\mathrm{op}}\to \mathrm{End}_R(A)$
+by sending $a\otimes b^{\mathrm{op}}\mapsto (x\mapsto axb)$
+is an isomorphism of $R$-algebras.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Two Azumaya algebras $A$ and $B$ over $R$ are &lt;em&gt;Brauer equivalent&lt;/em&gt; if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The &lt;em&gt;Brauer group&lt;/em&gt; $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}&#39;(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}&#39;(R)$ but it is not necessarily surjective. The same is true for schemes.
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;

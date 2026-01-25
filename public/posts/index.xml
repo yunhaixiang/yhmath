@@ -6,7 +6,40 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jan 2026 23:38:19 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 23:25:50 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expander Graphs</title>
+      <link>http://localhost:1313/posts/expander-graphs/</link>
+      <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/expander-graphs/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Hermann Weyl&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Expander graphs are sparse graphs with strong connectivity properties. They show up across combinatorics, theoretical computer science, and number theory, and they serve as a bridge between random-like behavior and explicit constructions. This post will collect definitions, basic examples, and a few standard criteria (spectral gap and etc). My main motivations will come from number theory, so there will be inclinations towards that. I will basically be following Kowalski&#39;s excellent notes on expander graphs &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Kow24&#34;&gt;
+  ⟦cite:Kow24⟧
+&lt;/span&gt;, with supplements from Godsil&#39;s textbook &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;God93&#34;&gt;
+  ⟦cite:God93⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-definitions&#34;&gt;Basic Definitions&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Kow24&#34; data-bib-key=&#34;Kow24&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Kow24]&lt;/span&gt;Emmanuel Kowalski. &lt;em&gt;An Introduction to Expander Graphs&lt;/em&gt;. 2024. &lt;a href=&#34;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&#34;&gt;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-God93&#34; data-bib-key=&#34;God93&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[God93]&lt;/span&gt;Chris Godsil. &lt;em&gt;Algebraic Combinatorics&lt;/em&gt;. Chapman and Hall. 1993.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Brauer Groups Part II</title>
       <link>http://localhost:1313/posts/brauer2/</link>
