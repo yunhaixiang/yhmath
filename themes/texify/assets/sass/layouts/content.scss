@@ -217,7 +217,7 @@
     ol.surround-dot,
     ol.surround-colon {
       list-style: none;
-      padding-left: 1.8em;
+      padding-left: 0;
     }
 
     ol.surround-paren > li::before,
@@ -225,12 +225,18 @@
     ol.surround-half > li::before,
     ol.surround-dot > li::before,
     ol.surround-colon > li::before {
-      display: inline-block;
-      width: 1.8em;
-      margin-left: -1.8em;
-      margin-right: 0.35em;
-      text-align: right;
+      position: absolute;
+      left: 0;
       white-space: nowrap;
+    }
+
+    ol.surround-paren > li,
+    ol.surround-bracket > li,
+    ol.surround-half > li,
+    ol.surround-dot > li,
+    ol.surround-colon > li {
+      position: relative;
+      padding-left: 1.4em;
     }
 
     ol.surround-paren > li::before { content: "(" counter(list-item, decimal) ") "; }
