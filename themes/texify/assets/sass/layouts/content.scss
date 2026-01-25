@@ -209,6 +209,52 @@
   .bul-dash-bar ::marker { content: "― "; }
   .bul-hyphen-bullet ::marker { content: "⁃ "; }
 
+  /* Mobile fallback: ::marker content is unreliable on some browsers. */
+  @media (max-width: 700px){
+    ol.surround-paren,
+    ol.surround-bracket,
+    ol.surround-half,
+    ol.surround-dot,
+    ol.surround-colon {
+      list-style: none;
+    }
+
+    ol.surround-paren > li::before { content: "(" counter(list-item, decimal) ") "; }
+    ol.enum-i.surround-paren > li::before { content: "(" counter(list-item, lower-roman) ") "; }
+    ol.enum-I.surround-paren > li::before { content: "(" counter(list-item, upper-roman) ") "; }
+    ol.enum-a.surround-paren > li::before { content: "(" counter(list-item, lower-alpha) ") "; }
+    ol.enum-A.surround-paren > li::before { content: "(" counter(list-item, upper-alpha) ") "; }
+    ol.enum-1.surround-paren > li::before { content: "(" counter(list-item, decimal) ") "; }
+
+    ol.surround-bracket > li::before { content: "[" counter(list-item, decimal) "] "; }
+    ol.enum-i.surround-bracket > li::before { content: "[" counter(list-item, lower-roman) "] "; }
+    ol.enum-I.surround-bracket > li::before { content: "[" counter(list-item, upper-roman) "] "; }
+    ol.enum-a.surround-bracket > li::before { content: "[" counter(list-item, lower-alpha) "] "; }
+    ol.enum-A.surround-bracket > li::before { content: "[" counter(list-item, upper-alpha) "] "; }
+    ol.enum-1.surround-bracket > li::before { content: "[" counter(list-item, decimal) "] "; }
+
+    ol.surround-half > li::before { content: counter(list-item, decimal) ") "; }
+    ol.enum-i.surround-half > li::before { content: counter(list-item, lower-roman) ") "; }
+    ol.enum-I.surround-half > li::before { content: counter(list-item, upper-roman) ") "; }
+    ol.enum-a.surround-half > li::before { content: counter(list-item, lower-alpha) ") "; }
+    ol.enum-A.surround-half > li::before { content: counter(list-item, upper-alpha) ") "; }
+    ol.enum-1.surround-half > li::before { content: counter(list-item, decimal) ") "; }
+
+    ol.surround-dot > li::before { content: counter(list-item, decimal) ". "; }
+    ol.enum-i.surround-dot > li::before { content: counter(list-item, lower-roman) ". "; }
+    ol.enum-I.surround-dot > li::before { content: counter(list-item, upper-roman) ". "; }
+    ol.enum-a.surround-dot > li::before { content: counter(list-item, lower-alpha) ". "; }
+    ol.enum-A.surround-dot > li::before { content: counter(list-item, upper-alpha) ". "; }
+    ol.enum-1.surround-dot > li::before { content: counter(list-item, decimal) ". "; }
+
+    ol.surround-colon > li::before { content: counter(list-item, decimal) ": "; }
+    ol.enum-i.surround-colon > li::before { content: counter(list-item, lower-roman) ": "; }
+    ol.enum-I.surround-colon > li::before { content: counter(list-item, upper-roman) ": "; }
+    ol.enum-a.surround-colon > li::before { content: counter(list-item, lower-alpha) ": "; }
+    ol.enum-A.surround-colon > li::before { content: counter(list-item, upper-alpha) ": "; }
+    ol.enum-1.surround-colon > li::before { content: counter(list-item, decimal) ": "; }
+  }
+
   dt {
     font-weight: bold;
   }
