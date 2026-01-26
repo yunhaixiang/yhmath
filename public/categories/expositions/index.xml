@@ -25,6 +25,7 @@
   ⟦cite:God93⟧
 &lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;basic-definitions&#34;&gt;Basic Definitions&lt;/h2&gt;
+&lt;p&gt;By a graph we mean a undirected graph with loops and multiple edges allowed, which we write as $\Gamma=(V,E,\mathrm{ep})$&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
