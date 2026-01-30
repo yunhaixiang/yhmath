@@ -11,7 +11,7 @@ More specifically, the topics that I especially want to understand are
 1. Enumerative geometry over arbitrary ground fields
 1. Monodromy representations, $\ell$-adic sheaves, and ramification theory
 
-Outside of my main interests, I’m also interested in combinatorics, representation theory, mathematical logic, and the applications of artificial intelligence and machine learning to mathematical research (AI for Math). 
+I’m also interested in mathematical logic and the applications of AI and machine learning to mathematics (AI for Math). 
 
 ## Publications
 
