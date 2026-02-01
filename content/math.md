@@ -9,7 +9,7 @@ More specifically, the topics that I especially want to understand are
 
 1. Rational points on varieties and algebraic stacks
 1. Enumerative geometry over arbitrary ground fields
-1. Monodromy representations, $\ell$-adic sheaves, and ramification theory
+1. Galois representations, $\ell$-adic sheaves, and ramification theory
 
 I’m also interested in mathematical logic and the applications of AI and machine learning to mathematics (AI for Math). 
 
