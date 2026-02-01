@@ -7,9 +7,10 @@ title: "Math"
 My main interests in mathematics lie in [number theory](https://en.wikipedia.org/wiki/Number_theory) and particularly [arithmetic geometry](https://en.wikipedia.org/wiki/Arithmetic_geometry), which studies arithmetic by applying insights coming from geometry and topology. 
 More specifically, the topics that I especially want to understand are 
 
+1. Algebraic monodromy group of $\ell$-adic sheaves
 1. Rational points on varieties and algebraic stacks
 1. Enumerative geometry over arbitrary ground fields
-1. Monodromy group and ramification of $\ell$-adic sheaves
+
 
 I’m also interested in mathematical logic and the applications of AI and machine learning to mathematics (AI for Math). 
 
