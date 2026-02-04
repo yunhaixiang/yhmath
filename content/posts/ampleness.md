@@ -15,4 +15,4 @@ We’ll talk about ampleness in algebraic geometry and related concepts such as 
 
 <!-- more -->
 
-Let $X$ be a scheme over base scheme $S$. 
+Let $X$ be a scheme over field $K$. 
