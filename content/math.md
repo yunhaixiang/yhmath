@@ -11,7 +11,7 @@ More specifically, the topics that I especially want to understand are
 - Enumerative geometry over arbitrary ground fields
 - $\ell$-adic sheaves and their algebraic monodromy groups
 
-I’m also interested in artificial intelligence, machine learning and their applications to mathematics (AI for Math). 
+I’m also interested in artificial intelligence, machine learning, and their applications to mathematical research (AI for Math). 
 
 ## Publications
 
