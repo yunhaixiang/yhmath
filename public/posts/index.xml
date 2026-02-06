@@ -17,9 +17,21 @@
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alfred North Whitehead&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories.&lt;/p&gt;
+&lt;p&gt;Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;NSW08&#34;&gt;
+  ⟦cite:NSW08⟧
+&lt;/span&gt;.&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;h2 id=&#34;leray-spectral-sequence&#34;&gt;Leray Spectral Sequence&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-NSW08&#34; data-bib-key=&#34;NSW08&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;Juergen Neukirch, Alexander Schmidt, Kay Wingberg. &lt;em&gt;Cohomology of Number Fields&lt;/em&gt;. Springer. 2008.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

@@ -11,8 +11,17 @@ categories: [expositions]
 The pursuit of mathematics is a divine madness of the human spirit.
 {{< /pullquote >}}
 
-Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories.
+Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of {{< cite key="NSW08" >}}. 
 
 <!-- more -->
 
 ## Leray Spectral Sequence
+
+
+## References
+
+{{< bibliography >}}
+  {{< bibitem key="NSW08" author="Juergen Neukirch, Alexander Schmidt, Kay Wingberg" type="book" publisher="Springer" year="2008" >}}
+  Cohomology of Number Fields
+  {{< /bibitem >}}
+{{< /bibliography >}}
