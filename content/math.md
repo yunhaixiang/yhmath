@@ -12,7 +12,7 @@ More specifically, the topics that I especially want to understand are
 - Enumerative geometry over arbitrary ground fields
 
 
-I’m also interested in mathematical logic and applications of artificial intelligence to mathematical research (AI for Math). 
+I’m also interested in mathematical logic and the applications of artificial intelligence to mathematical research (AI for Math). 
 
 ## Publications
 
