@@ -9,7 +9,7 @@ More specifically, the topics that I especially want to understand are
 
 - Rational points on varieties and algebraic stacks
 - Enumerative geometry over arbitrary ground fields
-- $\ell$-adic sheaves and their monodromy representations
+- $\ell$-adic sheaves and $\ell$-adic monodromy representations
 
 
 I’m also interested in mathematical logic and the applications of artificial intelligence to mathematical research (AI for Math). 
