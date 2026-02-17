@@ -22,6 +22,7 @@ tags: [anime]
 - [*Asobi Asobase* (2018)](https://www.imdb.com/title/tt8515062/)
 - [*Your Lie in April* (2014)](https://www.imdb.com/title/tt3895150/)
 - [*Cowboy Bebop* (1998)](https://www.imdb.com/title/tt0213338/)
+- [*Puella Magi Madoka Magica* (2011)](https://www.imdb.com/title/tt1773185/)
 - [*Parasyte: The Maxim* (2014)](https://www.imdb.com/title/tt3358020/)
 - [*Assassination Classroom* (2013)](https://www.imdb.com/title/tt3837246/)
 - [*Hyouka* (2012)](https://www.imdb.com/title/tt2340841/)
