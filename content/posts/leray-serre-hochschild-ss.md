@@ -59,6 +59,20 @@ for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\
 
 Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.
 
+## Čech to Derived Spectral Sequence
+
+{{< theorem >}}
+Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
+$$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$
+which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.
+{{< /theorem >}}
+
+{{< example >}}
+The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q>0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
+$$\mathrm{H}^n(X, \mathcal F)\cong \check{\mathrm{H}}^n(\mathfrak U, \mathcal F)$$
+induced by the Čech to derived spectral sequence. This is a useful tool for computing cohomology groups in practice, especially when we have a good open cover of $X$ that allows us to compute the Čech cohomology easily.
+{{< /example >}}
+
 ## References
 
 {{< bibliography >}}

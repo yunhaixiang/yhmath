@@ -61,7 +61,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-02-02T01:07:48-05:00">
-    <meta property="article:modified_time" content="2026-02-06T17:32:03-05:00">
+    <meta property="article:modified_time" content="2026-02-20T20:51:57-05:00">
     <meta property="article:tag" content="Algebraic-Topology">
     <meta property="article:tag" content="Algebraic-Geometry">
 
@@ -75,8 +75,8 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   <meta itemprop="name" content="Leray and Serre–Hochschild Spectral Sequences">
   <meta itemprop="description" content="The pursuit of mathematics is a divine madness of the human spirit. — Alfred North Whitehead Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of ⟦cite:NSW08⟧ , along with many other sources here and there on general spectral sequences.">
   <meta itemprop="datePublished" content="2026-02-02T01:07:48-05:00">
-  <meta itemprop="dateModified" content="2026-02-06T17:32:03-05:00">
-  <meta itemprop="wordCount" content="560">
+  <meta itemprop="dateModified" content="2026-02-20T20:51:57-05:00">
+  <meta itemprop="wordCount" content="763">
   <meta itemprop="keywords" content="Algebraic-Topology,Algebraic-Geometry">
 
   
@@ -192,7 +192,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          560 words
+          763 words
         </span>
       
       
@@ -205,7 +205,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~3 mins
+          ~4 mins
         </span>
       
     </div>
@@ -241,6 +241,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   <ul>
     <li><a href="#serrehochschild-spectral-sequence">Serre–Hochschild Spectral Sequence</a></li>
     <li><a href="#leray-spectral-sequence">Leray Spectral Sequence</a></li>
+    <li><a href="#čech-to-derived-spectral-sequence">Čech to Derived Spectral Sequence</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -357,6 +358,43 @@ for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\
 </div>
 
 <p>Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.</p>
+<h2 id="čech-to-derived-spectral-sequence">Čech to Derived Spectral Sequence</h2>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
+</p>
+$$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$<p>
+which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <span class="math-body">
+    <p>The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q>0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
+</p>
+$$\mathrm{H}^n(X, \mathcal F)\cong \check{\mathrm{H}}^n(\mathfrak U, \mathcal F)$$<p>
+induced by the Čech to derived spectral sequence. This is a useful tool for computing cohomology groups in practice, especially when we have a good open cover of $X$ that allows us to compute the Čech cohomology easily.</p>
+
+  </span>
+</div>
+
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">

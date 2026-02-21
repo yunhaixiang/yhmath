@@ -122,6 +122,25 @@ for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\
 &lt;/div&gt;
 
 &lt;p&gt;Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.&lt;/p&gt;
+&lt;h2 id=&#34;čech-to-derived-spectral-sequence&#34;&gt;Čech to Derived Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
+&lt;/p&gt;
+$$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
+which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;

@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Leray and Serre–Hochschild Spectral Sequence</title>
+      <title>Leray and Serre–Hochschild Spectral Sequences</title>
       <link>http://localhost:1313/posts/leray-serre-hochschild-ss/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
@@ -22,8 +22,125 @@
   ⟦cite:NSW08⟧
 &lt;/span&gt;, along with many other sources here and there on general spectral sequences.&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h2 id=&#34;spectral-sequence&#34;&gt;Spectral Sequence&lt;/h2&gt;
-&lt;p&gt;Let $\mathcal A$ be an abelian category, a &lt;em&gt;filtration&lt;/em&gt; of $A\in\mathcal A$ is a family&lt;/p&gt;
+&lt;h2 id=&#34;serrehochschild-spectral-sequence&#34;&gt;Serre–Hochschild Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Serre–Hochschild)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $G$ be a profinite group and $H$ a closed normal subgroup, and $A$ a $G$-module, then we have a spectral sequence
+&lt;/p&gt;
+$$
+\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(G/H, \mathrm{H}^q(H,A))\Rightarrow \mathrm{H}^{p+q}(G,A)
+$$&lt;p&gt;
+which converges.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The above spectral sequence is called the &lt;em&gt;Serre–Hochschild spectral sequence&lt;/em&gt;. These are obtained from the double complex $\mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$ where $\mathrm{C}^p(G/H, -)$ is the standard complex for computing the cohomology of $G/H$ and $\mathrm{C}^q(H,A)$ is the standard complex for computing the cohomology of $H$. The differentials are given by the usual differentials in these complexes, and the spectral sequence arises from the filtration of the total complex &lt;/p&gt;
+$$\mathrm{Tot}^n = \bigoplus_{p+q=n} \mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$$&lt;p&gt; by the $p$-degree.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $K$ be a field and set $G=\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/ K)$ the absolute Galois group. If $K/k$ is Galois with $\Gamma=\mathrm{Gal}(K/k)$, then there is exact sequence
+&lt;/p&gt;
+\[1\to \mathrm{G}_K\to \mathrm{G}_k\to \Gamma\to 1\]&lt;p&gt;
+and we can apply the Serre–Hochschild spectral sequence to get
+&lt;/p&gt;
+$$\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(\Gamma, \mathrm{H}^q(\mathrm{G}_K,A))\Rightarrow \mathrm{H}^{p+q}(\mathrm{G}_k,A)$$&lt;p&gt;
+and this further implies the $5$-term exact sequence:
+&lt;/p&gt;
+$$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\to \mathrm{H}^1(\mathrm{G}_K, A)^{\Gamma}\to \mathrm{H}^2(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^2(\mathrm{G}_k, A)$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;leray-spectral-sequence&#34;&gt;Leray Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Leray)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $f:X\rightarrow Y$ a morphism of schemes and $\mathcal F$ a sheaf of abelian groups on any site over $X$, then there is a spectral sequence
+&lt;/p&gt;
+$$\mathrm{E}_2^{p,q}=\mathrm{H}^p(Y, \mathrm{R}^qf_*\mathcal F)\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
+which converges.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X$ be a smooth proper curve over a field $K$ with structure map $f:X\to \mathrm{Spec}(K)$, then we have the Leray spectral sequence
+&lt;/p&gt;
+$$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow \mathrm{H}_{\mathrm{ét}}^{p+q}(X, \mathbf Q_{\ell})$$&lt;p&gt;Here $\mathrm{R}^qf_*\mathbf Q_{\ell}$ corresponds to the Galois module $\mathrm{H}_{\mathrm{ét}}^q(X_{\overline K}, \mathbf Q_{\ell})$ where $\overline K$ is a separable closure of $K$. In particular, the Leray spectral sequence allows us to compute the étale cohomology of $X$ in terms of the Galois cohomology of $K$ with coefficients in the étale cohomology of the geometric fiber $X_{\overline K}$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal A,\mathcal B, \mathcal C$ be abelian categories with enough injectives, and $F:\mathcal A\to \mathcal B$ and $G:\mathcal B\to \mathcal C$ be left exact functors, which satisfies the condition that $F$ sends injective objects to $G$-acyclic objects (i.e. $\mathrm{R}^iG(F(I))=0$ for all $i&gt;0$ and all injective objects $I\in \mathcal A$), then we have the Grothendieck spectral sequence
+&lt;/p&gt;
+$$\mathrm{E}_2^{p,q}=\mathrm{R}^pG(\mathrm{R}^qF(A))\Rightarrow \mathrm{R}^{p+q}(G\circ F)(A)$$&lt;p&gt;
+for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\simeq \mathbf{R}G(\mathbf{R}F(A))$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.&lt;/p&gt;
+&lt;h2 id=&#34;čech-to-derived-spectral-sequence&#34;&gt;Čech to Derived Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
+&lt;/p&gt;
+$$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
+which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
