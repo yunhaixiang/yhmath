@@ -20,9 +20,10 @@
 &lt;p&gt;Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;NSW08&#34;&gt;
   ⟦cite:NSW08⟧
-&lt;/span&gt;.&lt;/p&gt;
+&lt;/span&gt;, along with many other sources here and there on general spectral sequences.&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h2 id=&#34;leray-spectral-sequence&#34;&gt;Leray Spectral Sequence&lt;/h2&gt;
+&lt;h2 id=&#34;spectral-sequence&#34;&gt;Spectral Sequence&lt;/h2&gt;
+&lt;p&gt;Let $\mathcal A$ be an abelian category, a &lt;em&gt;filtration&lt;/em&gt; of $A\in\mathcal A$ is a family&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
