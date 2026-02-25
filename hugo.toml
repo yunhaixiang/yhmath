@@ -51,7 +51,7 @@ description = ""
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a>
 """
-customCSS = []
+customCSS = ["/css/publications.css"]
 customJS = []
 dateFormat = "January 2, 2006"
 emphasisWithDots = true

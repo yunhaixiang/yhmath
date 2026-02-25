@@ -1,0 +1,5 @@
+{{- $inner := .Inner -}}
+{{- $count := len (findRE `<li class="publication-item">` $inner) -}}
+<ol class="publications-list" style="counter-reset: pub-item {{ add $count 1 }};" reversed>
+  {{- $inner -}}
+</ol>

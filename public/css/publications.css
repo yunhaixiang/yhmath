@@ -1,0 +1,46 @@
+.publications-list {
+  --pub-marker-width: 2.1rem;
+  --pub-marker-gap: 0.7rem;
+  margin-top: 0.15rem !important;
+  margin-bottom: 1rem !important;
+  margin-left: 0rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.publications-list > .publication-item {
+  counter-increment: pub-item -1;
+  margin: 0.38rem 0 !important;
+  padding: 0 0 0 calc(var(--pub-marker-width) + var(--pub-marker-gap)) !important;
+  position: relative;
+}
+
+.publications-list > .publication-item::before {
+  content: "[" counter(pub-item) "]";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: var(--pub-marker-width);
+  text-align: right;
+  white-space: nowrap;
+  line-height: 1.15;
+}
+
+.publication-title-line,
+.publication-coauthors-line,
+.publication-journal-line,
+.publication-links-line {
+  line-height: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.publication-coauthors-line,
+.publication-journal-line,
+.publication-links-line {
+  margin-top: 0 !important;
+}
+
+.publications-list > .publication-item + .publication-item {
+  margin-top: 1rem !important;
+}

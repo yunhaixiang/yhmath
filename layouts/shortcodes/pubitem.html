@@ -1,0 +1,30 @@
+{{- $titleRaw := .Get "title" | default "" -}}
+{{- $title := $titleRaw | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
+{{- $coauthors := .Get "coauthors" | default (.Get "authors") | default "" -}}
+{{- $arxiv := .Get "arxiv" | default "" -}}
+{{- $journalRaw := .Get "journal" | default "" -}}
+{{- $journal := $journalRaw | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
+{{- $doi := .Get "doi" | default "" -}}
+{{- $presentation := .Get "presentation" | default "" -}}
+
+<li class="publication-item">
+  <div class="publication-title-line">
+    <em>{{- $title | safeHTML -}}</em>
+  </div>
+
+  {{- if $coauthors -}}
+    <div class="publication-coauthors-line">Joint with {{ $coauthors }}</div>
+  {{- end -}}
+
+  {{- if $journal -}}
+    <div class="publication-journal-line"><em>{{- $journal | safeHTML -}}</em></div>
+  {{- end -}}
+
+  {{- if or $arxiv (or $doi $presentation) -}}
+    <div class="publication-links-line">
+      {{- if $arxiv -}}<a href="{{ $arxiv }}">[arxiv]</a>{{- end -}}
+      {{- if $doi -}}{{ if $arxiv }} {{ end }}<a href="{{ $doi }}">[doi]</a>{{- end -}}
+      {{- if $presentation -}}{{ if or $arxiv $doi }} {{ end }}<a href="{{ $presentation }}">[presentation]</a>{{- end -}}
+    </div>
+  {{- end -}}
+</li>

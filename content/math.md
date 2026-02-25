@@ -15,7 +15,12 @@ Outside my main interests, I am also interested in the applications of machine l
 
 ## Publications
 
-Coming soon.
+{{< publications >}}
+{{< pubitem
+  title="QEDBench: Quantifying the Alignment Gap in Automated Evaluation of University-Level Mathematical Proofs"
+  coauthors="Arman Cohan, Quanquan Liu, et al."
+  journal="Submitted.">}} 
+{{< /publications >}}
 
 ## Notes
 
