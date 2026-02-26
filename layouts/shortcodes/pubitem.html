@@ -2,6 +2,7 @@
 {{- $title := $titleRaw | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
 {{- $coauthors := .Get "coauthors" | default (.Get "authors") | default "" -}}
 {{- $arxiv := .Get "arxiv" | default "" -}}
+{{- $titleLink := .Get "title-link" | default "" -}}
 {{- $journalRaw := .Get "journal" | default "" -}}
 {{- $journal := $journalRaw | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
 {{- $doi := .Get "doi" | default "" -}}
@@ -9,7 +10,11 @@
 
 <li class="publication-item">
   <div class="publication-title-line">
-    <em>{{- $title | safeHTML -}}</em>
+    {{- if $titleLink -}}
+      <em><a href="{{ $titleLink }}">{{- $title | safeHTML -}}</a></em>
+    {{- else -}}
+      <em>{{- $title | safeHTML -}}</em>
+    {{- end -}}
   </div>
 
   {{- if $coauthors -}}
