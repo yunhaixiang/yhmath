@@ -18,7 +18,7 @@ Outside my main interests, I am also interested in the applications of machine l
 {{< publications >}}
 {{< pubitem
   title="QEDBench: Quantifying the Alignment Gap in Automated Evaluation of University-Level Mathematical Proofs"
-  coauthors="Arman Cohan, Quanquan Liu, et al."
+  coauthors="Santiago Gonzalez, Alireza Amiri Bavandpour, Peter Ye, Edward Zhang, et al."
   journal="Submitted."
   title-link="https://arxiv.org/abs/2602.20629">}} 
 {{< /publications >}}
