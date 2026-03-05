@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Yunhai Xiang</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in Ai on Yunhai Xiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Mar 2026 15:39:07 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI for Math</title>
+      <link>http://localhost:1313/posts/ai-for-math/</link>
+      <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/ai-for-math/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Angus K. Rodgers&lt;/div&gt;&lt;/aside&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

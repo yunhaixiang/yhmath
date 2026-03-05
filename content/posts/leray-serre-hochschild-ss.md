@@ -7,8 +7,8 @@ categories: [expositions]
 ---
 
 
-{{< pullquote author="Alfred North Whitehead">}}
-The pursuit of mathematics is a divine madness of the human spirit.
+{{< pullquote author="James J. Sylvester">}}
+Mathematics is the music of reason.
 {{< /pullquote >}}
 
 Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of {{< cite key="NSW08" >}}, along with many other sources here and there on general spectral sequences. 

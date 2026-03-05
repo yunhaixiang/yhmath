@@ -2,34 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-for-math/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/expositions/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-03-02T15:39:07-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
     <lastmod>2026-02-20T22:57:09-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/algebraic-topology/</loc>
     <lastmod>2026-02-20T22:57:09-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-20T22:57:09-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/expositions/</loc>
-    <lastmod>2026-02-20T22:57:09-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/leray-serre-hochschild-ss/</loc>
-    <lastmod>2026-02-20T22:57:09-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-02-20T22:57:09-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-02-20T22:57:09-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/combinatorics/</loc>
     <lastmod>2026-01-29T18:18:21-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/expander-graphs/</loc>
-    <lastmod>2026-01-29T18:18:21-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2026-01-29T18:18:21-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/number-theory/</loc>
