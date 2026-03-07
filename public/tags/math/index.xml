@@ -17,6 +17,55 @@
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Angus K. Rodgers&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently, a team of researchers at Deepmind released the paper &lt;a href=&#34;https://arxiv.org/abs/2602.21201&#34;&gt;&lt;em&gt;Aletheia tackles FirstProof autonomously&lt;/em&gt;&lt;/a&gt;, which has shook the mathematical community. This is a respose to the &lt;a href=&#34;https://1stproof.org/&#34;&gt;FirstProof&lt;/a&gt;, which is a challenge to see if an AI can solve a research level mathematical problem, by highly reputable mathematicians including a fields medalist. Aletheia is a AI model developed by Deepmind based on Gemini. Previously it had autonomously produced the paper &lt;a href=&#34;https://arxiv.org/pdf/2601.23245&#34;&gt;&lt;em&gt;Eigenweights for Arithmetic Hirzebruch Proportionality&lt;/em&gt;&lt;/a&gt;, calculating some constants called eigenweights. Alethia had successfully solved 6 out of 10 of the problems in First Proof (all of them way above my pay grade). All of this is undeniable evidence that AI will revolutionize how mathematics is done in the next decade and impact mathematics academia sociologically. In this post, I will give a very brief introduction to how AI works, and then discuss the impact of AI. I will be following Tony Feng&#39;s notes.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-machine-learn&#34;&gt;How does Machine Learn?&lt;/h2&gt;
+&lt;p&gt;In &lt;em&gt;supervised learning&lt;/em&gt;, we are given a set of data $\mathcal D=\{(x_i,y_i):i\in I\}$ where $x_i\in\mathbb R^n$ and $y_i\in \mathbb R^m$, where $n$ is called the number of features, and $m$ is called the dimension of outputs. We want to find a function $f:\mathbb R^n\rightarrow\mathbb R^m$ that approximates this data set. This is often done by setting up a family of hypothetical $f_\theta:\mathbb R^n\rightarrow\mathbb R^m$ where $\theta$ is a parameter with which it varies, and then optimize $\theta$ with respect to a loss function $\mathcal L_{\mathcal D}(\theta)$ which measures the error of $f_\theta$ in $\mathcal D$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Suppose $m=1$, and we set up $f_{\theta}:\mathbb R^n\rightarrow\mathbb R$ affine linear
+&lt;/p&gt;
+$$f_{\theta}(x)=xW+b$$&lt;p&gt;
+where $\theta=(W,b)$ for $W\in \mathrm{M}_{1,n}(\mathbb R)$ and $b\in\mathbb R$. For the loss function we use the mean square error
+&lt;/p&gt;
+$$\mathcal L_{\mathcal D}(\theta)=\frac{1}{|\mathcal D|}\sum_{i\in I}(f_\theta(x_i)-y_i)^2$$&lt;p&gt;
+Let $X=(x_i)_{i\in I}$ and $Y=(y_i)_{i\in I}$. We can always augment $W$ by $b$ and add $1$ to the end of each $x_i$ to get rid of the bias term, so we can assume $b=0$. Then we can rewrite the loss function as
+&lt;/p&gt;
+$$\mathcal L_{\mathcal D}(\theta)=\frac{1}{|\mathcal D|}\|XW-Y\|^2=\frac{1}{|\mathcal D|}(XW-Y)^T(XW-Y)$$&lt;p&gt;
+Differentiating with respct to $W$ we get
+&lt;/p&gt;
+$$
+\begin{aligned}
+\frac{\partial}{\partial W} \mathcal L_{\mathcal D}(\theta)= &amp; \frac{1}{n}\left[\frac{\partial}{\partial W}\left((Y-X W)^{\top}\right)(Y-X W)\right] 
+ +\frac{1}{n}\left[(Y-X W)^{\top} \frac{\partial}{\partial W}((Y-X W))\right] \\
+= &amp; \frac{1}{n}\left[-X^{\top}(Y-X W)\right]-\left[(Y-X W)^{\top} X\right] \\
+= &amp; -2 \frac{1}{n} X^{\top}(Y-X W)
+\end{aligned}$$&lt;p&gt;
+If $X^TX$ is invertible, then setting this to $0$ we get the optimal solution
+&lt;/p&gt;
+$$W=(X^TX)^{-1}X^TY$$&lt;p&gt;
+When is $X^TX$ invertible? It is invertible if and only if the columns of $X$ are linearly independent. This happens when the number of samples $|\mathcal D|$ is at least the number of features $n$, and the matrix $X$ has full column rank.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Contrary to supervized learning, &lt;em&gt;unsupervized learning&lt;/em&gt; does not require labeled data. Instead, it tries to find patterns or structures in the input data. For example, in &lt;em&gt;clustering&lt;/em&gt;, we want to group the data points into clusters based on their similarity, for example the $K$-means clustering algorithm. In &lt;em&gt;dimensionality reduction&lt;/em&gt;, we want to find a lower-dimensional representation of the data that preserves as much information as possible. In &lt;em&gt;reinforcement learning&lt;/em&gt;, an agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties. There&#39;s lots others, such as generative modeling, self-supervised learning, representation learning, etc.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Neural networks&lt;/em&gt; are essentially generalizations where we allow $f_\theta$ to be a composition of many simple functions, such as affine linear functions and nonlinear activation functions. The optimization process is usually done by a method called &lt;em&gt;stochastic gradient descent&lt;/em&gt;, which iteratively updates the parameters in the direction of the negative gradient of the loss function. &lt;em&gt;Deep learning&lt;/em&gt; refers to the use of neural networks with many layers, which can learn complex representations of data.&lt;/p&gt;
+&lt;p&gt;Formally, a neural network is a chain of functions
+&lt;/p&gt;
+$$\mathbb R^n\xrightarrow{f_1}\mathbb R^{d_1}\xrightarrow{f_2}\cdots\xrightarrow{f_k}\mathbb R^m$$&lt;p&gt;
+where each $f_i$ is a simple function, such as an affine linear function followed by a nonlinear activation function. The parameters $\theta$ of the neural network are the parameters of each $f_i$.&lt;/p&gt;
+&lt;h2 id=&#34;ai-for-math&#34;&gt;AI for Math&lt;/h2&gt;
+&lt;h2 id=&#34;academic-impact-and-existential-crisis&#34;&gt;Academic Impact and Existential Crisis&lt;/h2&gt;
+&lt;p&gt;sociological impact on academic
+anteater guy&lt;/p&gt;
 </description>
     </item>
     

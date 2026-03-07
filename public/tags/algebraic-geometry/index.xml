@@ -15,8 +15,8 @@
       <guid>http://localhost:1313/posts/leray-serre-hochschild-ss/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    The pursuit of mathematics is a divine madness of the human spirit.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alfred North Whitehead&lt;/div&gt;&lt;/aside&gt;
+    Mathematics is the music of reason.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— James J. Sylvester&lt;/div&gt;&lt;/aside&gt;
 &lt;p&gt;Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;NSW08&#34;&gt;
   ⟦cite:NSW08⟧
