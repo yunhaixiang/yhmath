@@ -59,7 +59,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-03-08T12:00:00-05:00">
-    <meta property="article:modified_time" content="2026-03-08T12:00:00-05:00">
+    <meta property="article:modified_time" content="2026-03-09T02:49:36-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Ai">
 
@@ -73,8 +73,8 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta itemprop="name" content="Formalization of a Result of Fibonacci Sequence">
   <meta itemprop="description" content="Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them. — Angus K. Rodgers Continuing my previous post on AI for math, I want to give a concrete example of how AI can be used to formalize a mathematical result. More specifically, in this post, I will be discussing the formalization of an elementary result about the Fibonacci sequence. The Fibbonaci sequence is a sequence $(f_n)_{n\in\mathbb Z}$ defined as follows: $f_0=0$, $f_1=1$, and $f_n=f_{n-1}&#43;f_{n-2}$ for $n\in\mathbb Z$. The result I want to formalize is a result I really liked: $f_{\gcd(m,n)}=\gcd(f_m,f_n)$ for all $m,n\in\mathbb N$, which is called the strong divisibility of Fibonacci sequence. In particular, this implies that if $n,m\in\mathbb N$ are such that $n\mid m$ then $f_n\mid f_m$. Along the way, I will formalize some other elementary results of Fibonacci sequence, such as the closed form formula for $f_n$. I will be using Lean proof assistant.">
   <meta itemprop="datePublished" content="2026-03-08T12:00:00-05:00">
-  <meta itemprop="dateModified" content="2026-03-08T12:00:00-05:00">
-  <meta itemprop="wordCount" content="623">
+  <meta itemprop="dateModified" content="2026-03-09T02:49:36-04:00">
+  <meta itemprop="wordCount" content="761">
   <meta itemprop="keywords" content="Math,Ai">
 
   
@@ -103,7 +103,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   
 
 
-  <link rel="stylesheet" href="/css/single.min.5a34175f01232dd3f8c27e4152be883054a1cc64ad41473a90a97073d77b2ad0.css" integrity="sha256-WjQXXwEjLdP4wn5BUr6IMFShzGStQUc6kKlwc9d7KtA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.ebcc9037c7bbbdb0ec05b1de58dc7d65c41165e047add351f71aa903418f8a70.css" integrity="sha256-68yQN8e7vbDsBbHeWNx9ZcQRZeBHrdNR9xqpA0GPinA=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -190,7 +190,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          623 words
+          761 words
         </span>
       
       
@@ -203,7 +203,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~3 mins
+          ~4 mins
         </span>
       
     </div>
@@ -281,10 +281,10 @@ $$A=\begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$$<p>
 then we have for all $n\ge 0$
 </p>
 $$A^n=\begin{pmatrix} f_{n+1} & f_n \\ f_n & f_{n-1} \end{pmatrix}\tag{3}$$<p>
-Since $\det A=-1$, $A$ is invertible, and its inverse must be such that
+Since $\det A=-1$, $A$ is invertible, and by (1) its inverse satisfies
 </p>
 $$\begin{pmatrix}f_{n}\\ f_{n-1}\end{pmatrix} = A^{-1} \begin{pmatrix}f_{n+1}\\ f_{n}\end{pmatrix} $$<p>
-for all $n\ge 0$.
+for all $n\ge 0$. Therefore equations (1) and (2) holds hold for all $n\in\mathbb Z$, and hence equation (3) hold for all $n\in\mathbb Z$ as well.
 <div class="math-env style-remark" 
     
      data-kind="remark"
@@ -295,10 +295,10 @@ for all $n\ge 0$.
         data-label='Remark'></span>
   </span>
   <span class="math-body">
-    <p>We can find $A^{-1}$ with a formula[^1], but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
+    <p>We can find $A^{-1}$ with a formula, but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
 </p>
 $$\begin{pmatrix}f_{n}\\ f_{n-1}\end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix}f_{n+1}\\ f_{n}\end{pmatrix} $$<p>
-This reverses what $A$ does, so we expect $B$ to be the inverse of $A$ where
+by definition of $f_n$. This reverses what $A$ does, so we expect $B$ to be the inverse of $A$ where
 </p>
 $$B=\begin{pmatrix} 0 & 1 \\ 1 & -1 \end{pmatrix}$$<p>
 Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ shifts the vector  $(f_n,f_{n-1})$ backwards to $(f_{n-1},f_{n-2})$, they cancel each other out. Therefore $AB$ and $BA$ fix the set of vectors $\{(f_{n+1},f_n):n\in\mathbb Z\}$, in particular they fix the standard basis vectors $(1,0)=(f_1,f_0)$ and $(0,1)=(f_0,f_{-1})$, hence $AB=BA=I$, and $B=A^{-1}$.</p>
@@ -306,7 +306,25 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
   </span>
 </div>
 </p>
-<p>Therefore equations (1) and (2) holds hold for all $n\in\mathbb Z$, and hence equation (3) hold for all $n\in\mathbb Z$ as well. This immediately gives the following consequence</p>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    <p>More abstractly, let $V$ be the vector space over $\mathbb Q$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of rational numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
+</p>
+$$\phi:V\rightarrow \mathbb Q^2\qquad \phi((a_n))=(a_0,a_1)$$<p>
+Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ then with respect to the ordered basis $((f_n)_n,(f_{n-1})_n)$, the operator $T$ has matrix $A$. It is easy to see $T$ is invertible, since shifting is reversable. It is also much more intuitive to see that in this same  basis $((f_n)_n,(f_{n-1})_n)$, we have $T^n$ has matrix that of in (3).</p>
+
+  </span>
+</div>
+
+<p>With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately.</p>
 <p><div class="math-env style-plain" 
     
      data-kind="theorem"
@@ -317,7 +335,7 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
         data-label='Theorem'></span> <span class="math-note">(Cassini)</span>
   </span>
   <span class="math-body">
-    For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$
+    For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$.
   </span>
 </div>
 
@@ -332,6 +350,34 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
   <span class="proof-qed"></span>
 </div>
 </p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(d&#39;Ocagne)</span>
+  </span>
+  <span class="math-body">
+    
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Fibonacci Addition Formula)</span>
+  </span>
+  <span class="math-body">
+    
+  </span>
+</div>
+</p>
 <div class="math-env style-plain" 
     
      data-kind="theorem"
@@ -342,7 +388,35 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
         data-label='Theorem'></span>
   </span>
   <span class="math-body">
-    If $n\mid m$ then $F_n\mid F_m$
+    For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
+  </span>
+</div>
+
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    Other identities like
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    For $n,m\in\mathbb Z$ we have $n\mid m$ iff $f_n\mid f_m$
   </span>
 </div>
 

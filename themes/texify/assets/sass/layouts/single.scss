@@ -121,7 +121,7 @@
 .math-heading {
   display: inline;
   margin: 0;
-  margin-right: 0.25em;
+  margin-right: 0.05em;
   /* margin: 0 0 0.25rem; */
 }
 
@@ -190,7 +190,7 @@
 /* reuse inline layout from .thm-heading / .thm-body */
 .proof-heading,
 .solution-heading {
-  display: inline; margin-right: 0.25em;
+  display: inline; margin-right: 0.05em;
   /* .thm-heading already has display:inline etc., so usually nothing else needed */
 }
 

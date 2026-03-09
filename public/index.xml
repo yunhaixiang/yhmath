@@ -48,10 +48,10 @@ $$A=\begin{pmatrix} 1 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}$$&lt;p&gt;
 then we have for all $n\ge 0$
 &lt;/p&gt;
 $$A^n=\begin{pmatrix} f_{n+1} &amp; f_n \\ f_n &amp; f_{n-1} \end{pmatrix}\tag{3}$$&lt;p&gt;
-Since $\det A=-1$, $A$ is invertible, and its inverse must be such that
+Since $\det A=-1$, $A$ is invertible, and by (1) its inverse satisfies
 &lt;/p&gt;
 $$\begin{pmatrix}f_{n}\\ f_{n-1}\end{pmatrix} = A^{-1} \begin{pmatrix}f_{n+1}\\ f_{n}\end{pmatrix} $$&lt;p&gt;
-for all $n\ge 0$.
+for all $n\ge 0$. Therefore equations (1) and (2) holds hold for all $n\in\mathbb Z$, and hence equation (3) hold for all $n\in\mathbb Z$ as well.
 &lt;div class=&#34;math-env style-remark&#34; 
     
      data-kind=&#34;remark&#34;
@@ -62,10 +62,10 @@ for all $n\ge 0$.
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;We can find $A^{-1}$ with a formula[^1], but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
+    &lt;p&gt;We can find $A^{-1}$ with a formula, but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
 &lt;/p&gt;
 $$\begin{pmatrix}f_{n}\\ f_{n-1}\end{pmatrix} = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; -1 \end{pmatrix} \begin{pmatrix}f_{n+1}\\ f_{n}\end{pmatrix} $$&lt;p&gt;
-This reverses what $A$ does, so we expect $B$ to be the inverse of $A$ where
+by definition of $f_n$. This reverses what $A$ does, so we expect $B$ to be the inverse of $A$ where
 &lt;/p&gt;
 $$B=\begin{pmatrix} 0 &amp; 1 \\ 1 &amp; -1 \end{pmatrix}$$&lt;p&gt;
 Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ shifts the vector  $(f_n,f_{n-1})$ backwards to $(f_{n-1},f_{n-2})$, they cancel each other out. Therefore $AB$ and $BA$ fix the set of vectors $\{(f_{n+1},f_n):n\in\mathbb Z\}$, in particular they fix the standard basis vectors $(1,0)=(f_1,f_0)$ and $(0,1)=(f_0,f_{-1})$, hence $AB=BA=I$, and $B=A^{-1}$.&lt;/p&gt;
@@ -73,7 +73,25 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
   &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Therefore equations (1) and (2) holds hold for all $n\in\mathbb Z$, and hence equation (3) hold for all $n\in\mathbb Z$ as well. This immediately gives the following consequence&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;More abstractly, let $V$ be the vector space over $\mathbb Q$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of rational numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
+&lt;/p&gt;
+$$\phi:V\rightarrow \mathbb Q^2\qquad \phi((a_n))=(a_0,a_1)$$&lt;p&gt;
+Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ then with respect to the ordered basis $((f_n)_n,(f_{n-1})_n)$, the operator $T$ has matrix $A$. It is easy to see $T$ is invertible, since shifting is reversable. It is also much more intuitive to see that in this same  basis $((f_n)_n,(f_{n-1})_n)$, we have $T^n$ has matrix that of in (3).&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
@@ -84,7 +102,7 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cassini)&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$
+    For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$.
   &lt;/span&gt;
 &lt;/div&gt;
 
@@ -99,6 +117,34 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(d&amp;#39;Ocagne)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fibonacci Addition Formula)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
@@ -109,7 +155,35 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    If $n\mid m$ then $F_n\mid F_m$
+    For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Other identities like
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For $n,m\in\mathbb Z$ we have $n\mid m$ iff $f_n\mid f_m$
   &lt;/span&gt;
 &lt;/div&gt;
 
