@@ -72,7 +72,7 @@ $$B=\begin{pmatrix} 0 & 1 \\ 1 & -1 \end{pmatrix}$$
 Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ shifts the vector  $(f_n,f_{n-1})$ backwards to $(f_{n-1},f_{n-2})$, they cancel each other out. Therefore $AB$ and $BA$ fix the set of vectors $\{(f_{n+1},f_n):n\in\mathbb Z\}$, in particular they fix the standard basis vectors $(1,0)=(f_1,f_0)$ and $(0,1)=(f_0,f_{-1})$, hence $AB=BA=I$, and $B=A^{-1}$. 
 {{< /remark >}}
 
-{{< remark >}}
+{{< remark id="rmk-vec">}}
 More abstractly, let $V$ be the vector space over $\mathbb Q$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of rational numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
 $$\phi:V\rightarrow \mathbb Q^2\qquad \phi((a_n))=(a_0,a_1)$$ 
 Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ then with respect to the ordered basis $((f_n)_n,(f_{n-1})_n)$, the operator $T$ has matrix $A$. It is easy to see $T$ is invertible, since shifting is reversable. It is also much more intuitive to see that in this same  basis $((f_n)_n,(f_{n-1})_n)$, we have $T^n$ has matrix that of in (3).
@@ -88,20 +88,35 @@ For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$.
 Using identity (3), taking determinants yields the result immediately, as $\det A=-1$. 
 {{< /proof >}}
 
-{{< theorem note="d'Ocagne">}}
+{{< theorem note="d'Ocagne">}}For $n,m\in\mathbb Z$, we have $f_{m+1}f_n-f_{m}f_{n+1}=(-1)^mf_{n-m}$
 {{< /theorem >}}
+{{< proof >}}
+For $n,m\in\mathbb Z$, we have $\det(A^ne_1,A^me_1)=\det(A^m)\det(A^{n-m}e_1,e_1)$. The result follows. 
+{{< /proof >}}
+{{< theorem note="Vajda">}}For $n,i,j\in\mathbb Z$, we have $f_{n+i}f_{n+j}-f_nf_{n+i+j}=(-1)^nf_if_j$
+{{< /theorem >}}
+{{< proof >}}
+By {{< refer id="rmk-vec">}}, the operator $T$ acts as shifting, with matrix $A$. We have
+$$A^n\begin{pmatrix}f_i\\0\end{pmatrix}=\begin{pmatrix}f_{n+i}\\ f_n\end{pmatrix}\quad\mathrm{and}\quad A^n\begin{pmatrix}f_{i+j}\\ f_j\end{pmatrix}=\begin{pmatrix}f_{n+i+j}\\ f_{n+j}\end{pmatrix}$$ 
+Therefore we have
+$$\det\begin{pmatrix}f_{n+i}&f_{n+i+j}\\ f_n&f_{n+j}\end{pmatrix}=\det A^n\det\begin{pmatrix}f_i&f_{i+j}\\0&f_j\end{pmatrix} $$
+and the result follows. 
+{{< /proof >}}
 {{< theorem note="Fibonacci Addition Formula">}}
+For $n,m\in\mathbb Z$, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$.
 {{< /theorem >}}
+{{< proof >}}
+For $n,m\in\mathbb Z$, we have $A^{m+n}=A^mA^n$. Use (3) then compare the $(2,1)$-entry, and the result follows.
+{{< /proof >}}
 
-
-
-{{< theorem >}}
+{{< theorem note="Fibonacci Negation Formula">}}
 For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
 {{< /theorem >}}
+{{< proof >}}
+By the $2$-by-$2$ inverse matrix formula on (3), we find 
+$$A^{-n}=$$
+{{< /proof >}}
 
-{{< remark >}}
-Other identities like 
-{{< /remark >}}
 
 
 {{< theorem >}}
