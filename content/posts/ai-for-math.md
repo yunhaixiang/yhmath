@@ -5,8 +5,8 @@ categories: [expositions]
 tags: [math, ai]
 ---
 
-{{< pullquote author="Angus K. Rodgers">}}
-Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
+{{< pullquote author="T. S. Eliot">}}
+This is the way the world ends. Not with a bang but a whimper.
 {{< /pullquote >}}
 
 Recently, a team of researchers at Deepmind released the paper [_Aletheia tackles FirstProof autonomously_](https://arxiv.org/abs/2602.21201), which has shook the mathematical community. This is a respose to the [FirstProof](https://1stproof.org/), which is a challenge to see if an AI can solve a research level mathematical problem, by highly reputable mathematicians including a fields medalist. Aletheia is a AI model developed by Deepmind based on Gemini. Previously it had autonomously produced the paper [_Eigenweights for Arithmetic Hirzebruch Proportionality_](https://arxiv.org/pdf/2601.23245), calculating some constants called eigenweights. Alethia had successfully solved 6 out of 10 of the problems in First Proof (all of them way above my pay grade). All of this is undeniable evidence that AI will revolutionize how mathematics is done in the next decade and impact mathematics academia sociologically. In this post, I will give a very brief introduction to how AI works, and then discuss the impact of AI. I will be following Tony Feng's notes {{< cite key="Fen25" >}}.

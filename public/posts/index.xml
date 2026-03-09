@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 15:39:07 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formalization of a Result of Fibbonacci Sequence</title>
+      <link>http://localhost:1313/posts/formalization-of-a-result-of-fibbonacci-sequence/</link>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/formalization-of-a-result-of-fibbonacci-sequence/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Angus K. Rodgers&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Continuing my previous post on AI for math, I want to give a concrete example of how AI can be used to formalize a mathematical result. More specifically, in this post, I will be discussing the formalization of an elementary result about the Fibonacci sequence. The Fibbonaci sequence is a sequence $(f_n)_{n\in\mathbb Z}$ defined as follows: $f_0=0$, $f_1=1$, and $f_n=f_{n-1}+f_{n-2}$ for $n\in\mathbb Z$. The result I want to formalize is a result I really liked: $f_{\gcd(m,n)}=\gcd(f_m,f_n)$ for all $m,n\in\mathbb N$, which is called the &lt;em&gt;strong divisibility&lt;/em&gt; of Fibbonacci sequence. In particular, this implies that if $n,m\in\mathbb N$ are such that $n\mid m$ then $f_n\mid f_m$. Along the way, I will formalize some other elementary results of Fibbonacci sequence, such as the closed form formula for $f_n$. I will be using Lean proof assistant.&lt;/p&gt;
+&lt;h2 id=&#34;lean-syntax&#34;&gt;Lean Syntax&lt;/h2&gt;
+</description>
+    </item>
+    
     <item>
       <title>AI for Math</title>
       <link>http://localhost:1313/posts/ai-for-math/</link>
@@ -15,8 +30,8 @@
       <guid>http://localhost:1313/posts/ai-for-math/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Angus K. Rodgers&lt;/div&gt;&lt;/aside&gt;
+    This is the way the world ends. Not with a bang but a whimper.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— T. S. Eliot&lt;/div&gt;&lt;/aside&gt;
 &lt;p&gt;Recently, a team of researchers at Deepmind released the paper &lt;a href=&#34;https://arxiv.org/abs/2602.21201&#34;&gt;&lt;em&gt;Aletheia tackles FirstProof autonomously&lt;/em&gt;&lt;/a&gt;, which has shook the mathematical community. This is a respose to the &lt;a href=&#34;https://1stproof.org/&#34;&gt;FirstProof&lt;/a&gt;, which is a challenge to see if an AI can solve a research level mathematical problem, by highly reputable mathematicians including a fields medalist. Aletheia is a AI model developed by Deepmind based on Gemini. Previously it had autonomously produced the paper &lt;a href=&#34;https://arxiv.org/pdf/2601.23245&#34;&gt;&lt;em&gt;Eigenweights for Arithmetic Hirzebruch Proportionality&lt;/em&gt;&lt;/a&gt;, calculating some constants called eigenweights. Alethia had successfully solved 6 out of 10 of the problems in First Proof (all of them way above my pay grade). All of this is undeniable evidence that AI will revolutionize how mathematics is done in the next decade and impact mathematics academia sociologically. In this post, I will give a very brief introduction to how AI works, and then discuss the impact of AI. I will be following Tony Feng&#39;s notes &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Fen25&#34;&gt;
   ⟦cite:Fen25⟧

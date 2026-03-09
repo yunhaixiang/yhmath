@@ -7,6 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Formalization of a Result of Fibbonacci Sequence</title>
+      <link>http://localhost:1313/posts/formalization-of-a-result-of-fibbonacci-sequence/</link>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/formalization-of-a-result-of-fibbonacci-sequence/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Angus K. Rodgers&lt;/div&gt;&lt;/aside&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AI for Math</title>
       <link>http://localhost:1313/posts/ai-for-math/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
@@ -14,8 +27,8 @@
       <guid>http://localhost:1313/posts/ai-for-math/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Angus K. Rodgers&lt;/div&gt;&lt;/aside&gt;
+    This is the way the world ends. Not with a bang but a whimper.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— T. S. Eliot&lt;/div&gt;&lt;/aside&gt;
 &lt;p&gt;Recently, a team of researchers at Deepmind released the paper &lt;a href=&#34;https://arxiv.org/abs/2602.21201&#34;&gt;&lt;em&gt;Aletheia tackles FirstProof autonomously&lt;/em&gt;&lt;/a&gt;, which has shook the mathematical community. This is a respose to the &lt;a href=&#34;https://1stproof.org/&#34;&gt;FirstProof&lt;/a&gt;, which is a challenge to see if an AI can solve a research level mathematical problem, by highly reputable mathematicians including a fields medalist. Aletheia is a AI model developed by Deepmind based on Gemini. Previously it had autonomously produced the paper &lt;a href=&#34;https://arxiv.org/pdf/2601.23245&#34;&gt;&lt;em&gt;Eigenweights for Arithmetic Hirzebruch Proportionality&lt;/em&gt;&lt;/a&gt;, calculating some constants called eigenweights. Alethia had successfully solved 6 out of 10 of the problems in First Proof (all of them way above my pay grade). All of this is undeniable evidence that AI will revolutionize how mathematics is done in the next decade and impact mathematics academia sociologically. In this post, I will give a very brief introduction to how AI works, and then discuss the impact of AI. I will be following Tony Feng&#39;s notes &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Fen25&#34;&gt;
   ⟦cite:Fen25⟧
@@ -88,8 +101,8 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;p&gt;Emotionally, this will be a existential crisis for many mathematicians. We have thought of ourselves as unique in our ability to do math, and now we are facing the reality that machines can do math as well. For many, math is more like an art. Doing math makes us feel alive. AI will force us to rethink our identity and our existence in the world.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;It still remains uncertain how strong AI will be in the future. It is not known, for example, whether AI is able to build grand theories like Grothendieck&#39;s theory of schemes on its own, or solve open problems at the highest level. If it still falls short of that, then there will still be a place for human mathematicians to do creative work. However, if AI can do that, then we might be in a post-mathematical world, where human mathematicians are no longer needed. In that case, we need to find new ways to find meaning and purpose in our lives, and to contribute to the world in other ways.&lt;/p&gt;
-&lt;p&gt;I realize this is not just happening to mathematicians. Artists, programmers, writers, and many other professions are also facing similar challenges with the rise of AI, and similar existential dread. It is a societal issue that we need to address together. I believe art is something that is truely unique to human, even if AI can be much more technically proficient than us. Art is not just about the final product, but also about the process, the intention, the experience, and the emotion behind it. AI can mimic the style of an artist, but it cannot replicate the human experience that gives art its meaning. And for myself, I would not want to do math if the creative aspects of it is stripped away, and all I do is verifying whether the proof generated by an AI is correct. If AI replaces me as a mathematician, I will probably devote myself to artistic pursuits like music, writing, and other things.&lt;/p&gt;
+&lt;p&gt;It still remains uncertain how strong AI will be in the future. It is not known, for example, whether AI is able to build grand theories like Grothendieck&#39;s theory of schemes on its own, or solve open problems at the highest level. If it still falls short of that, then there will still be a place for human mathematicians to do creative work. However, if AI can do that, then we might be in a post-mathematical world, where human mathematicians are no longer needed. And for myself personally, I would not want to be a mathematician if the creative aspects of the job is stripped away, and all I do is querying AI all day and verifying if it is correct. In that case, we need to find new ways to find meaning and purpose in our lives, and to contribute to the world in other ways.&lt;/p&gt;
+&lt;p&gt;I realize this is not just happening to mathematicians. Artists, programmers, writers, and many other professions are also facing similar challenges with the rise of AI, and similar existential dread. It is a societal issue that we need to address together. I believe art is something that is truely unique to human, even if AI can be much more technically proficient than us. Art is not just about the final product, but also about the process, the intention, the experience, and the emotion behind it. AI can mimic the style of an artist, but it cannot replicate the human experience that gives art its meaning. If AI replaces me as a mathematician, I will probably devote myself to artistic pursuits like music, writing, and other things.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
