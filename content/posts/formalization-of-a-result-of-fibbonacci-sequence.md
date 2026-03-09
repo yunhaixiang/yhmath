@@ -13,3 +13,32 @@ Continuing my previous post on AI for math, I want to give a concrete example of
 
 ## Lean Syntax
 
+We begin by defining Fibbonacci sequence. 
+
+```lean
+def fib : Nat -> Nat
+| 0 => 0
+| 1 => 1
+| n + 2 => fib (n + 1) + fib (n)
+
+#eval fib 10
+```
+
+One can use the middle line to indicate "divides"
+
+```lean
+example : 3 ∣ 12 := by
+  change ∃ k, 12 = 3 * k
+  exact ⟨4, rfl⟩
+```
+
+The `Nat` type already has gcd implemented
+
+```lean
+example : Nat.gcd 12 18 = 6 := by
+  rfl
+#eval Nat.gcd 12 18
+```
+
+## Proof of Strong Divisibility
+
