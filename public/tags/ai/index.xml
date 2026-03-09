@@ -58,10 +58,8 @@ When is $X^TX$ invertible? It is invertible if and only if the columns of $X$ ar
 
 &lt;p&gt;Contrary to supervized learning, &lt;em&gt;unsupervized learning&lt;/em&gt; does not require labeled data. Instead, it tries to find patterns or structures in the input data. For example, in &lt;em&gt;clustering&lt;/em&gt;, we want to group the data points into clusters based on their similarity, for example the $K$-means clustering algorithm. In &lt;em&gt;dimensionality reduction&lt;/em&gt;, we want to find a lower-dimensional representation of the data that preserves as much information as possible. In &lt;em&gt;reinforcement learning&lt;/em&gt;, an agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties. There&#39;s lots others, such as generative modeling, self-supervised learning, representation learning, etc.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Neural networks&lt;/em&gt; are essentially generalizations where we allow $f_\theta$ to be a composition of many simple functions, such as affine linear functions and nonlinear activation functions. The optimization process is usually done by a method called &lt;em&gt;stochastic gradient descent&lt;/em&gt;, which iteratively updates the parameters in the direction of the negative gradient of the loss function. &lt;em&gt;Deep learning&lt;/em&gt; refers to the use of neural networks with many layers, which can learn complex representations of data.&lt;/p&gt;
-&lt;p&gt;Formally, a neural network is a chain of functions
-&lt;/p&gt;
-$$\mathbb R^n\xrightarrow{f_1}\mathbb R^{d_1}\xrightarrow{f_2}\cdots\xrightarrow{f_k}\mathbb R^m$$&lt;p&gt;
-where each $f_i$ is a simple function, such as an affine linear function followed by a nonlinear activation function. The parameters $\theta$ of the neural network are the parameters of each $f_i$.&lt;/p&gt;
+&lt;p&gt;Formally, a neural network is a chain of functions&lt;/p&gt;
+&lt;p&gt;$$\mathbb R^n\rightarrow\mathbb R^{d_1}&lt;/p&gt;
 &lt;h2 id=&#34;ai-for-math&#34;&gt;AI for Math&lt;/h2&gt;
 &lt;h2 id=&#34;academic-impact-and-existential-crisis&#34;&gt;Academic Impact and Existential Crisis&lt;/h2&gt;
 &lt;p&gt;sociological impact on academic

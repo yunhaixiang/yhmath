@@ -9,9 +9,9 @@ tags: [math, ai]
 Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
 {{< /pullquote >}}
 
-Recently, a team of researchers at Deepmind released the paper [_Aletheia tackles FirstProof autonomously_](https://arxiv.org/abs/2602.21201), which has shook the mathematical community. This is a respose to the [FirstProof](https://1stproof.org/), which is a challenge to see if an AI can solve a research level mathematical problem, by highly reputable mathematicians including a fields medalist. Aletheia is a AI model developed by Deepmind based on Gemini. Previously it had autonomously produced the paper [_Eigenweights for Arithmetic Hirzebruch Proportionality_](https://arxiv.org/pdf/2601.23245), calculating some constants called eigenweights. Alethia had successfully solved 6 out of 10 of the problems in First Proof (all of them way above my pay grade). All of this is undeniable evidence that AI will revolutionize how mathematics is done in the next decade and impact mathematics academia sociologically. In this post, I will give a very brief introduction to how AI works, and then discuss the impact of AI. I will be following Tony Feng's notes.
+Recently, a team of researchers at Deepmind released the paper [_Aletheia tackles FirstProof autonomously_](https://arxiv.org/abs/2602.21201), which has shook the mathematical community. This is a respose to the [FirstProof](https://1stproof.org/), which is a challenge to see if an AI can solve a research level mathematical problem, by highly reputable mathematicians including a fields medalist. Aletheia is a AI model developed by Deepmind based on Gemini. Previously it had autonomously produced the paper [_Eigenweights for Arithmetic Hirzebruch Proportionality_](https://arxiv.org/pdf/2601.23245), calculating some constants called eigenweights. Alethia had successfully solved 6 out of 10 of the problems in First Proof (all of them way above my pay grade). All of this is undeniable evidence that AI will revolutionize how mathematics is done in the next decade and impact mathematics academia sociologically. In this post, I will give a very brief introduction to how AI works, and then discuss the impact of AI. I will be following Tony Feng's notes {{< cite key="Fen25" >}}.
 
-## How does Machine Learn?
+## How do Machines Learn?
 
 In _supervised learning_, we are given a set of data $\mathcal D=\{(x_i,y_i):i\in I\}$ where $x_i\in\mathbb R^n$ and $y_i\in \mathbb R^m$, where $n$ is called the number of features, and $m$ is called the dimension of outputs. We want to find a function $f:\mathbb R^n\rightarrow\mathbb R^m$ that approximates this data set. This is often done by setting up a family of hypothetical $f_\theta:\mathbb R^n\rightarrow\mathbb R^m$ where $\theta$ is a parameter with which it varies, and then optimize $\theta$ with respect to a loss function $\mathcal L_{\mathcal D}(\theta)$ which measures the error of $f_\theta$ in $\mathcal D$. 
 
@@ -40,12 +40,44 @@ Contrary to supervized learning, _unsupervized learning_ does not require labele
 _Neural networks_ are essentially generalizations where we allow $f_\theta$ to be a composition of many simple functions, such as affine linear functions and nonlinear activation functions. The optimization process is usually done by a method called _stochastic gradient descent_, which iteratively updates the parameters in the direction of the negative gradient of the loss function. _Deep learning_ refers to the use of neural networks with many layers, which can learn complex representations of data.
 
 Formally, a neural network is a chain of functions
-$$\mathbb R^n\xrightarrow{f_1}\mathbb R^{d_1}\xrightarrow{f_2}\cdots\xrightarrow{f_k}\mathbb R^m$$
-where each $f_i$ is a simple function, such as an affine linear function followed by a nonlinear activation function. The parameters $\theta$ of the neural network are the parameters of each $f_i$. 
+
+$$\mathbb R^n\xrightarrow{f^{(1)}_{\theta^{(1)}}}\mathbb R^{d_1}\xrightarrow{\sigma}\mathbb R^{d_1}\xrightarrow{f^{(2)}_{\theta^{(2)}}}\mathbb R^{d_2}\xrightarrow{\sigma}\mathbb R^{d_2}\xrightarrow{f^{(3)}_{\theta^{(3)}}}\cdots\xrightarrow{f^{(k)}_{\theta^{(k)}}}\mathbb R^m$$
+where each $f^{(i)}_{\theta^{(i)}}$ is an affine linear function, and $\sigma$ is a nonlinear activation function, such as the ReLU function $\sigma(x)=\max\{0,x\}$, for each entry. The parameters $\theta$ consist of the weights and biases of each layer. The output of the neural network is given by the composition of these functions. The depth of the network is the number of layers $k$, and the width of a layer is the dimension of layer. _Deep learning_ refers to the use of neural networks with many layers. The [Universal Approximation Theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) states that neural networks can approximate any continuous function on compact subsets, under mild assumptions on the activation function. 
+
+Given a loss function $\mathcal L$, Taylor approximation to the first order gives
+$$\mathcal L(\theta+\xi)\approx \mathcal L(\theta)+\mathrm d\mathcal L(\xi)\approx \mathcal L(\theta)+\langle\nabla_{\theta}\mathcal L,\xi\rangle$$
+
+By Cauchy-Schwarz inequality, the inner product is maximized when $\xi$ is in the direction of the negative gradient. This gives the "steepest descent", so we update $\theta$ by the formula
+$$\theta\mapsto \theta-\eta\nabla_{\theta}\mathcal L$$
+where $\eta$ is called the learning rate, which controls how much we update the parameters in each step.
+
+An efficient algorithm to implement gradient descent for neural networks is called _backpropagation_, which uses the chain rule of calculus to compute the gradient of the loss function with respect to each parameter in the network. This allows us to efficiently update all the parameters in the network during training.
 
 ## AI for Math
 
+Large Language Models (LLMs) are a type of neural network that are trained on a large corpus of text data to learn the statistical properties of language. LLMs recently have become really good at mathematical reasoning, and can solve complex mathematical problems, such as those in the FirstProof challenge. On the other hand, there are people who are working on formalization of mathematics such in software like Lean, which turns proofs into type theoretic formalisms. LLMs combined with formalization seems to be the promising direction for AI for Math. As I was writing this post, researchers have autoformalized the proof of Viazovska's solution to the sphere packing problem in 8 and 24 dimensions, and Donald Knuth has announced an open problem he was working on was [solved by an AI](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf). Even before AI, lean has seen success in formalizing difficult results, such as Liquid Tensor Experiment, a project that formalized a theorem in condensed mathematics developed by Scholze and Clausen. For my next post, I will write about formalizations in Lean. 
+
 ## Academic Impact and Existential Crisis
 
-sociological impact on academic
-anteater guy
+There is no doubt that AI will revolutionize how mathematics is done in the next decade. It will change the way we do research, the way we teach, and the way we communicate mathematics. Some of its impact I speculate are:
+
+1. Autoformalization will become standard. How mathematicians collaborate in the future might be similar to how programmers collaborate on GitHub, with the help of AI to formalize details and verify correctness of their proofs. One can also forsee this would shorten the time for peer review, and allow massive collaborations like in other sicences. 
+
+2. The academic job market will be extra competitive. With recent funding cuts in academia, the academic job market is already extremely competitive. Now with AI being able to solve highly difficult problems, the quality of ideas in paper will need to be higher. There will be little low hanging fruits for young mathematicians to work on, as they will mostly be picked by AI. 
+
+3. Much of teaching will be delegated to AI such as grading, giving feedback, and tutoring. This will influence how the new generations of mathematicians learn and think about mathematics. We also need to step up our game in teaching, and focus more on the creative and intuitive aspects of mathematics, which are harder for AI to replicate.
+
+4. Emotionally, this will be a existential crisis for many mathematicians. We have thought of ourselves as unique in our ability to do math, and now we are facing the reality that machines can do math as well. For many, math is more like an art. Doing math makes us feel alive. AI will force us to rethink our identity and our existence in the world.
+
+
+It still remains uncertain how strong AI will be in the future. It is not known, for example, whether AI is able to build grand theories like Grothendieck's theory of schemes on its own, or solve open problems at the highest level. If it still falls short of that, then there will still be a place for human mathematicians to do creative work. However, if AI can do that, then we might be in a post-mathematical world, where human mathematicians are no longer needed. In that case, we need to find new ways to find meaning and purpose in our lives, and to contribute to the world in other ways.
+
+I realize this is not just happening to mathematicians. Artists, programmers, writers, and many other professions are also facing similar challenges with the rise of AI, and similar existential dread. It is a societal issue that we need to address together. I believe art is something that is truely unique to human, even if AI can be much more technically proficient than us. Art is not just about the final product, but also about the process, the intention, the experience, and the emotion behind it. AI can mimic the style of an artist, but it cannot replicate the human experience that gives art its meaning. If AI replaces me as a mathematician, I will probably devote myself to artistic pursuits like music, writing, and other things. 
+
+## References
+
+{{< bibliography >}}
+  {{< bibitem author="Tony Feng" type="online" url="https://math.berkeley.edu/~fengt/2025F_270_notes.pdf" year="2025">}}
+  A Survey of Deep Learning for Mathematicians
+  {{< /bibitem >}}
+{{< /bibliography >}}
