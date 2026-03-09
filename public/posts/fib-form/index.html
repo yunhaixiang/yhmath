@@ -59,7 +59,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-03-08T12:00:00-05:00">
-    <meta property="article:modified_time" content="2026-03-09T04:20:13-04:00">
+    <meta property="article:modified_time" content="2026-03-09T13:53:45-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Ai">
 
@@ -73,8 +73,8 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta itemprop="name" content="Formalization of a Result of Fibonacci Sequence">
   <meta itemprop="description" content="Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them. — Angus K. Rodgers Continuing my previous post on AI for math, I want to give a concrete example of how AI can be used to formalize a mathematical result. More specifically, in this post, I will be discussing the formalization of an elementary result about the Fibonacci sequence. The Fibbonaci sequence is a sequence $(f_n)_{n\in\mathbb Z}$ defined as follows: $f_0=0$, $f_1=1$, and $f_n=f_{n-1}&#43;f_{n-2}$ for $n\in\mathbb Z$. The result I want to formalize is a result I really liked: $f_{\gcd(m,n)}=\gcd(f_m,f_n)$ for all $m,n\in\mathbb N$, which is called the strong divisibility of Fibonacci sequence. In particular, this implies that if $n,m\in\mathbb N$ are such that $n\mid m$ then $f_n\mid f_m$. Along the way, I will formalize some other elementary results of Fibonacci sequence, such as the closed form formula for $f_n$. I will be using Lean proof assistant.">
   <meta itemprop="datePublished" content="2026-03-08T12:00:00-05:00">
-  <meta itemprop="dateModified" content="2026-03-09T04:20:13-04:00">
-  <meta itemprop="wordCount" content="849">
+  <meta itemprop="dateModified" content="2026-03-09T13:53:45-04:00">
+  <meta itemprop="wordCount" content="1024">
   <meta itemprop="keywords" content="Math,Ai">
 
   
@@ -190,7 +190,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          849 words
+          1024 words
         </span>
       
       
@@ -203,7 +203,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~4 mins
+          ~5 mins
         </span>
       
     </div>
@@ -326,7 +326,7 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
 
 <p>With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately.</p>
 <p><div class="math-env style-plain" 
-    
+    id="thm-cas"
      data-kind="theorem"
      data-lang="en"
      data-numbered="true">
@@ -454,12 +454,57 @@ and the result follows.</p>
   <div class="proof-body">
     <p>By the $2$-by-$2$ inverse matrix formula on (3), we find
 </p>
-$$A^{-n}=$$
+$$A^{-n}=\frac{1}{f_{n-1}f_{n+1}-f_n^2}\begin{pmatrix}f_{n-1}&-f_n\\ -f_n&f_{n+1}\end{pmatrix}=\begin{pmatrix}(-1)^nf_{n-1}&(-1)^{n+1}f_n\\ (-1)^{n+1}f_n&(-1)^nf_{n+1}\end{pmatrix}$$<p>
+by <a href="#thm-cas">Cassini's identity</a>. Comparing $(2,1)$-entry with (3) then we are done.</p>
+
   </div>
   <span class="proof-qed"></span>
 </div>
 </p>
-<div class="math-env style-plain" 
+<p>We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
+</p>
+$$\mathrm M_2(\mathbb Z)\longrightarrow \mathrm M_2(\mathbb Z/n\mathbb Z)$$<p>
+reducing mod $n$ entry wise. Since matrix addition and multiplications are algebraic, this is a homomorphhism.</p>
+<p><div class="math-env style-plain" 
+    id="thm-div"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    For $n,m\in\mathbb Z$ with $n\ne 0$ we have if $n\mid m$ then $f_n\mid f_m$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    Converse to <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-div">⟦ref:thm-div⟧</span>, one has $f_n\mid f_m$ implies $n\mid m$ for all $n,m\in\mathbb Z$ with $|n|\ge 3$ (exercise).
+  </span>
+</div>
+
+<p><div class="math-env style-plain" 
     
      data-kind="theorem"
      data-lang="en"
@@ -469,10 +514,21 @@ $$A^{-n}=$$
         data-label='Theorem'></span>
   </span>
   <span class="math-body">
-    For $n,m\in\mathbb Z$ we have $n\mid m$ iff $f_n\mid f_m$
+    For $n,m\in\mathbb Z$, we have $\gcd(f_n,f_m)=f_{\gcd(n,m)}$.
   </span>
 </div>
 
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    It follows from <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-div">⟦ref:thm-div⟧</span> that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
 
     
   </article>

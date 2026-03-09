@@ -81,7 +81,7 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
 With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately. 
 
 
-{{< theorem note="Cassini" >}}
+{{< theorem note="Cassini" id="thm-cas" >}}
 For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$.
 {{< /theorem >}}
 {{< proof >}}
@@ -114,12 +114,28 @@ For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
 {{< /theorem >}}
 {{< proof >}}
 By the $2$-by-$2$ inverse matrix formula on (3), we find 
-$$A^{-n}=$$
+$$A^{-n}=\frac{1}{f_{n-1}f_{n+1}-f_n^2}\begin{pmatrix}f_{n-1}&-f_n\\ -f_n&f_{n+1}\end{pmatrix}=\begin{pmatrix}(-1)^nf_{n-1}&(-1)^{n+1}f_n\\ (-1)^{n+1}f_n&(-1)^nf_{n+1}\end{pmatrix}$$
+by [Cassini's identity](#thm-cas). Comparing $(2,1)$-entry with (3) then we are done.
 {{< /proof >}}
 
+We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
+$$\mathrm M_2(\mathbb Z)\longrightarrow \mathrm M_2(\mathbb Z/n\mathbb Z)$$
+reducing mod $n$ entry wise. Since matrix addition and multiplications are algebraic, this is a homomorphhism.
 
+{{< theorem id="thm-div">}}
+For $n,m\in\mathbb Z$ with $n\ne 0$ we have if $n\mid m$ then $f_n\mid f_m$
+{{< /theorem >}}
+{{< proof >}}
+Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$. 
+{{< /proof >}}
+
+{{< remark >}}
+Converse to {{< refer id="thm-div" >}}, one has $f_n\mid f_m$ implies $n\mid m$ for all $n,m\in\mathbb Z$ with $|n|\ge 3$ (exercise).
+{{< /remark >}}
 
 {{< theorem >}}
-For $n,m\in\mathbb Z$ we have $n\mid m$ iff $f_n\mid f_m$
+For $n,m\in\mathbb Z$, we have $\gcd(f_n,f_m)=f_{\gcd(n,m)}$.
 {{< /theorem >}}
-
+{{< proof >}}
+It follows from {{< refer id="thm-div" >}} that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$. 
+{{< /proof >}}
