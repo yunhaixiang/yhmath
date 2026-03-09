@@ -108,7 +108,9 @@ For $n,m\in\mathbb Z$, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$.
 {{< proof >}}
 For $n,m\in\mathbb Z$, we have $A^{m+n}=A^mA^n$. Use (3) then compare the $(2,1)$-entry, and the result follows.
 {{< /proof >}}
-
+{{< remark >}}
+The formula in {{< refer "thm-fib-add">}} admits a natural interpretation in terms of [domino tilings](https://math.berkeley.edu/~tb65536/Fibonacci_Exposition.pdf).
+{{< /remark >}}
 {{< theorem note="Fibonacci Negation Formula">}}
 For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
 {{< /theorem >}}

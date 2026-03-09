@@ -176,7 +176,7 @@ and the result follows.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;thm-fib-add&#34;
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -273,7 +273,7 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;thm-strong-div&#34;
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -297,6 +297,48 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Alternative to the proof in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-strong-div&#34;&gt;⟦ref:thm-strong-div⟧&lt;/span&gt; (and less elegant), one can prove the result by showing that $\gcd(f_{n},f_{m})=\gcd(f_{n-m},f_m)$ for all $m,n\in\mathbb Z$, which means we can run the Euclidean algorithm on the indices. This follows from the following.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For $m,n\in\mathbb Z$, we have $\gcd(f_{n+m},f_m)=\gcd(f_n,f_m)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By &lt;a href=&#34;#thm-cas&#34;&gt;Cassini&#39;s identity&lt;/a&gt;, $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By &lt;a href=&#34;#thm-fib-add&#34;&gt;Fibonacci addition formula&lt;/a&gt;, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;formalization&#34;&gt;Formalization&lt;/h2&gt;
+&lt;h2 id=&#34;formula-for-fibonacci-numbers&#34;&gt;Formula for Fibonacci Numbers&lt;/h2&gt;
+&lt;p&gt;One can also obtain the Binet formula for Fibonacci numbers with the same setup.&lt;/p&gt;
 </description>
     </item>
     
