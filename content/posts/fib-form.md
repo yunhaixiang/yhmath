@@ -43,6 +43,12 @@ example : Nat.gcd 12 18 = 6 := by
 Now we can try formalizing Bezout's lemma. 
 
 ```lean
+theorem bezout (a b : Nat) : ∃ x y : Int, (Nat.gcd a b : Int) = x * a + y * b := by
+  refine ⟨a.gcdA b, a.gcdB b, ?_⟩
+  -- `Nat.gcd_eq_gcd_ab` gives the Bezout identity with coefficients `gcdA` and `gcdB`.
+  calc
+    (Nat.gcd a b : Int) = (a : Int) * a.gcdA b + (b : Int) * a.gcdB b := Nat.gcd_eq_gcd_ab a b
+    _ = a.gcdA b * a + a.gcdB b * b := by ring
 
 ```
 
@@ -121,7 +127,7 @@ by [Cassini's identity](#thm-cas). Comparing $(2,1)$-entry with (3) then we are 
 {{< /proof >}}
 
 We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
-$$\mathrm M_2(\mathbb Z)\longrightarrow \mathrm M_2(\mathbb Z/n\mathbb Z)$$
+$$\mathrm M_2(\mathbb Z)\xrightarrow{\mathrm{mod\ }n} \mathrm M_2(\mathbb Z/n\mathbb Z)$$
 reducing mod $n$ entry wise. Since matrix addition and multiplications are algebraic, this is a homomorphhism.
 
 {{< theorem id="thm-div">}}

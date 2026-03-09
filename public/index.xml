@@ -198,8 +198,22 @@ and the result follows.&lt;/p&gt;
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The formula in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-fib-add&#34;&gt;⟦ref:thm-fib-add⟧&lt;/span&gt; admits a natural interpretation in terms of &lt;a href=&#34;https://math.berkeley.edu/~tb65536/Fibonacci_Exposition.pdf&#34;&gt;domino tilings&lt;/a&gt;.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -230,7 +244,7 @@ by &lt;a href=&#34;#thm-cas&#34;&gt;Cassini&#39;s identity&lt;/a&gt;. Comparing 
 &lt;/p&gt;
 &lt;p&gt;We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
 &lt;/p&gt;
-$$\mathrm M_2(\mathbb Z)\longrightarrow \mathrm M_2(\mathbb Z/n\mathbb Z)$$&lt;p&gt;
+$$\mathrm M_2(\mathbb Z)\xrightarrow{\pmod{n}} \mathrm M_2(\mathbb Z/n\mathbb Z)$$&lt;p&gt;
 reducing mod $n$ entry wise. Since matrix addition and multiplications are algebraic, this is a homomorphhism.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     id=&#34;thm-div&#34;
