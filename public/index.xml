@@ -93,7 +93,7 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
 
 &lt;p&gt;With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;thm-cas&#34;
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -221,12 +221,57 @@ and the result follows.&lt;/p&gt;
   &lt;div class=&#34;proof-body&#34;&gt;
     &lt;p&gt;By the $2$-by-$2$ inverse matrix formula on (3), we find
 &lt;/p&gt;
-$$A^{-n}=$$
+$$A^{-n}=\frac{1}{f_{n-1}f_{n+1}-f_n^2}\begin{pmatrix}f_{n-1}&amp;-f_n\\ -f_n&amp;f_{n+1}\end{pmatrix}=\begin{pmatrix}(-1)^nf_{n-1}&amp;(-1)^{n+1}f_n\\ (-1)^{n+1}f_n&amp;(-1)^nf_{n+1}\end{pmatrix}$$&lt;p&gt;
+by &lt;a href=&#34;#thm-cas&#34;&gt;Cassini&#39;s identity&lt;/a&gt;. Comparing $(2,1)$-entry with (3) then we are done.&lt;/p&gt;
+
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
+&lt;/p&gt;
+$$\mathrm M_2(\mathbb Z)\longrightarrow \mathrm M_2(\mathbb Z/n\mathbb Z)$$&lt;p&gt;
+reducing mod $n$ entry wise. Since matrix addition and multiplications are algebraic, this is a homomorphhism.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;thm-div&#34;
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For $n,m\in\mathbb Z$ we have if $n\mid m$ then $f_n\mid f_m$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Converse to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-div&#34;&gt;⟦ref:thm-div⟧&lt;/span&gt;, one has $f_n\mid f_m$ implies $n\mid m$ for all $n,m\in\mathbb Z$ with $|n|\ge 3$ (exercise).
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -236,10 +281,21 @@ $$A^{-n}=$$
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    For $n,m\in\mathbb Z$ we have $n\mid m$ iff $f_n\mid f_m$
+    For $n,m\in\mathbb Z$, we have $\gcd(f_n,f_m)=f_{\gcd(n,m)}$.
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    It follows from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-div&#34;&gt;⟦ref:thm-div⟧&lt;/span&gt; that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     

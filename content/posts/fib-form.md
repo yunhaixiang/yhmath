@@ -102,7 +102,7 @@ Therefore we have
 $$\det\begin{pmatrix}f_{n+i}&f_{n+i+j}\\ f_n&f_{n+j}\end{pmatrix}=\det A^n\det\begin{pmatrix}f_i&f_{i+j}\\0&f_j\end{pmatrix} $$
 and the result follows. 
 {{< /proof >}}
-{{< theorem note="Fibonacci Addition Formula">}}
+{{< theorem note="Fibonacci Addition Formula" id="thm-fib-add">}}
 For $n,m\in\mathbb Z$, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$.
 {{< /theorem >}}
 {{< proof >}}
@@ -123,7 +123,7 @@ $$\mathrm M_2(\mathbb Z)\longrightarrow \mathrm M_2(\mathbb Z/n\mathbb Z)$$
 reducing mod $n$ entry wise. Since matrix addition and multiplications are algebraic, this is a homomorphhism.
 
 {{< theorem id="thm-div">}}
-For $n,m\in\mathbb Z$ with $n\ne 0$ we have if $n\mid m$ then $f_n\mid f_m$
+For $n,m\in\mathbb Z$ we have if $n\mid m$ then $f_n\mid f_m$
 {{< /theorem >}}
 {{< proof >}}
 Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$. 
@@ -133,9 +133,28 @@ Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is
 Converse to {{< refer id="thm-div" >}}, one has $f_n\mid f_m$ implies $n\mid m$ for all $n,m\in\mathbb Z$ with $|n|\ge 3$ (exercise).
 {{< /remark >}}
 
-{{< theorem >}}
+{{< theorem id="thm-strong-div">}}
 For $n,m\in\mathbb Z$, we have $\gcd(f_n,f_m)=f_{\gcd(n,m)}$.
 {{< /theorem >}}
 {{< proof >}}
 It follows from {{< refer id="thm-div" >}} that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$. 
 {{< /proof >}}
+
+{{< remark >}}
+Alternative to the proof in {{< refer "thm-strong-div">}} (and less elegant), one can prove the result by showing that $\gcd(f_{n},f_{m})=\gcd(f_{n-m},f_m)$ for all $m,n\in\mathbb Z$, which means we can run the Euclidean algorithm on the indices. This follows from the following.
+{{< /remark >}}
+
+{{< lemma >}}
+For $m,n\in\mathbb Z$, we have $\gcd(f_{n+m},f_m)=\gcd(f_n,f_m)$. 
+{{< /lemma >}}
+{{< proof >}}
+We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By [Cassini's identity](#thm-cas), $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By [Fibonacci addition formula](#thm-fib-add), we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.
+{{< /proof >}}
+
+## Formalization
+
+
+## Formula for Fibonacci Numbers
+
+One can also obtain the Binet formula for Fibonacci numbers with the same setup.
+
