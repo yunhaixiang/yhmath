@@ -28,6 +28,8 @@ defaultMarkdownHandler = "goldmark"
   [markup.highlight]
   codeFences = true
   guessSyntax = true
+  lineNos = true
+  lineNumbersInTable = false
   noClasses = false
   style = "gruvbox"
           

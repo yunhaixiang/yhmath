@@ -48,17 +48,16 @@
 .content .highlight > pre,
 .content div.highlight > pre,
 .content pre.chroma {
-  background: #1f2430 !important;
-  border: 1px solid rgba(235, 239, 245, 0.14);
+  background: #2b303b !important;
+  border: 1px solid rgba(127, 143, 155, 0.18);
   border-radius: 16px;
   box-shadow:
-    0 10px 30px rgba(15, 23, 42, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
-  color: #d6deeb !important;
-  font-family: "Latin Modern Mono", "DejaVu Sans Mono", "Noto Sans Mono",
-    "Noto Sans Symbols 2", "STIX Two Math", "Cambria Math", "SFMono-Regular",
-    Consolas, monospace;
-  font-size: 0.95rem;
+    0 10px 30px rgba(28, 31, 38, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  color: #c0c5ce !important;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace, "Noto Sans Symbols 2", "STIX Two Math", "Cambria Math";
+  font-size: 0.86rem;
   font-variant-ligatures: none;
   line-height: 1.65;
   text-size-adjust: 100%;
@@ -70,7 +69,7 @@
 
 .content .highlight[data-language]::before,
 .content div.highlight[data-language]::before {
-  color: #8fa2bd;
+  color: #8fa1b3;
   content: attr(data-language);
   font-family: "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.72rem;
@@ -91,6 +90,7 @@
   background: transparent;
   color: inherit;
   display: block;
+  font-family: inherit;
   padding: 0;
 }
 
@@ -101,13 +101,17 @@
 
 .content .highlight .ln,
 .content .highlight .lnt {
-  color: #7f8ea3;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  color: #65737e;
+  font-size: 0.92em;
+  font-variant-ligatures: none;
   margin-right: 1rem;
   padding: 0 0.85rem 0 0;
 }
 
 .content .highlight .lntd:first-child {
-  border-right: 1px solid rgba(127, 142, 163, 0.22);
+  border-right: 1px solid rgba(101, 115, 126, 0.28);
   padding-right: 0.85rem;
 }
 
@@ -116,7 +120,7 @@
 }
 
 .content .highlight .hl {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(101, 115, 126, 0.18);
 }
 
 .content .highlight .c,
@@ -124,7 +128,7 @@
 .content .highlight .cm,
 .content .highlight .c1,
 .content .highlight .cs {
-  color: #758575;
+  color: #65737e;
   font-style: italic;
 }
 
@@ -136,7 +140,7 @@
 .content .highlight .kr,
 .content .highlight .ow,
 .content .highlight .o {
-  color: #ffb454;
+  color: #b48ead;
 }
 
 .content .highlight .kt,
@@ -144,12 +148,12 @@
 .content .highlight .ni,
 .content .highlight .nf,
 .content .highlight .fm {
-  color: #39bae6;
+  color: #8fa1b3;
 }
 
 .content .highlight .na,
 .content .highlight .nt {
-  color: #59c2ff;
+  color: #d08770;
 }
 
 .content .highlight .s,
@@ -165,7 +169,7 @@
 .content .highlight .sx,
 .content .highlight .sr,
 .content .highlight .s1 {
-  color: #aad94c;
+  color: #a3be8c;
 }
 
 .content .highlight .m,
@@ -176,85 +180,85 @@
 .content .highlight .il,
 .content .highlight .mo,
 .content .highlight .no {
-  color: #ff8f40;
+  color: #d08770;
 }
 
 .content .highlight .ne,
 .content .highlight .nl,
 .content .highlight .err {
-  color: #f07178;
+  color: #bf616a;
 }
 
 .content .highlight .ge {
-  color: #39bae6;
+  color: #8fa1b3;
   text-decoration: underline;
 }
 
 .content .highlight .gh,
 .content .highlight .gu {
-  color: #aad94c;
+  color: #8fa1b3;
   font-weight: 600;
 }
 
 .content .highlight .gi {
-  background: rgba(170, 217, 76, 0.16);
-  color: #aad94c;
+  background: rgba(163, 190, 140, 0.16);
+  color: #a3be8c;
 }
 
 .content .highlight .gd {
-  background: rgba(240, 113, 120, 0.16);
-  color: #f07178;
+  background: rgba(191, 97, 106, 0.16);
+  color: #bf616a;
 }
 
 .content .highlight .go,
 .content .highlight .gp,
 .content .highlight .w {
-  color: #d8dee9;
+  color: #c0c5ce;
 }
 
 body.darkmode .content .highlight > pre,
 body.darkmode .content div.highlight > pre,
 body.darkmode .content pre.chroma {
-  background: #f8fafc !important;
-  border-color: rgba(15, 23, 42, 0.12);
+  background: #eef2f5 !important;
+  border-color: rgba(101, 115, 126, 0.22);
   box-shadow:
-    0 10px 30px rgba(15, 23, 42, 0.08),
+    0 10px 30px rgba(28, 31, 38, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.75);
-  color: #334155 !important;
+  color: #4f5b66 !important;
 }
 
 body.darkmode .content .highlight[data-language]::before,
 body.darkmode .content div.highlight[data-language]::before {
-  color: #6b7a90;
+  color: #65737e;
 }
 
 body.darkmode .content button.copy-button {
-  background: rgba(15, 23, 42, 0.06);
-  border-color: rgba(15, 23, 42, 0.12);
-  color: #475569;
+  background: rgba(79, 91, 102, 0.07);
+  border-color: rgba(101, 115, 126, 0.18);
+  color: #65737e;
 }
 
 body.darkmode .content button.copy-button:hover {
-  background: rgba(15, 23, 42, 0.1);
-  border-color: rgba(15, 23, 42, 0.18);
-  color: #0f172a;
+  background: rgba(79, 91, 102, 0.12);
+  border-color: rgba(101, 115, 126, 0.24);
+  color: #2b303b;
 }
 
 body.darkmode .content button.copy-button .copied-icon {
-  color: #5f7d19;
+  color: #7b9a63;
 }
 
 body.darkmode .content .highlight .ln,
 body.darkmode .content .highlight .lnt {
-  color: #94a3b8;
+  color: #65737e;
 }
 
 body.darkmode .content .highlight .lntd:first-child {
-  border-right-color: rgba(148, 163, 184, 0.35);
+  border-right-color: rgba(101, 115, 126, 0.25);
 }
 
 body.darkmode .content .highlight .hl {
-  background: rgba(15, 23, 42, 0.05);
+  background: rgba(101, 115, 126, 0.12);
 }
 
 body.darkmode .content .highlight .c,
@@ -262,7 +266,7 @@ body.darkmode .content .highlight .ch,
 body.darkmode .content .highlight .cm,
 body.darkmode .content .highlight .c1,
 body.darkmode .content .highlight .cs {
-  color: #6f7b6b;
+  color: #65737e;
   font-style: italic;
 }
 
@@ -274,7 +278,7 @@ body.darkmode .content .highlight .kp,
 body.darkmode .content .highlight .kr,
 body.darkmode .content .highlight .ow,
 body.darkmode .content .highlight .o {
-  color: #b86e00;
+  color: #9a78a5;
 }
 
 body.darkmode .content .highlight .kt,
@@ -282,12 +286,12 @@ body.darkmode .content .highlight .nb,
 body.darkmode .content .highlight .ni,
 body.darkmode .content .highlight .nf,
 body.darkmode .content .highlight .fm {
-  color: #0f87a8;
+  color: #6f8597;
 }
 
 body.darkmode .content .highlight .na,
 body.darkmode .content .highlight .nt {
-  color: #006e90;
+  color: #b36b55;
 }
 
 body.darkmode .content .highlight .s,
@@ -303,7 +307,7 @@ body.darkmode .content .highlight .si,
 body.darkmode .content .highlight .sx,
 body.darkmode .content .highlight .sr,
 body.darkmode .content .highlight .s1 {
-  color: #5f7d19;
+  color: #7b9a63;
 }
 
 body.darkmode .content .highlight .m,
@@ -314,38 +318,38 @@ body.darkmode .content .highlight .mi,
 body.darkmode .content .highlight .il,
 body.darkmode .content .highlight .mo,
 body.darkmode .content .highlight .no {
-  color: #c25400;
+  color: #b36b55;
 }
 
 body.darkmode .content .highlight .ne,
 body.darkmode .content .highlight .nl,
 body.darkmode .content .highlight .err {
-  color: #d13d49;
+  color: #a85a62;
 }
 
 body.darkmode .content .highlight .ge {
-  color: #0f87a8;
+  color: #6f8597;
 }
 
 body.darkmode .content .highlight .gh,
 body.darkmode .content .highlight .gu {
-  color: #5f7d19;
+  color: #6f8597;
 }
 
 body.darkmode .content .highlight .gi {
-  background: rgba(95, 125, 25, 0.12);
-  color: #5f7d19;
+  background: rgba(123, 154, 99, 0.12);
+  color: #7b9a63;
 }
 
 body.darkmode .content .highlight .gd {
-  background: rgba(209, 61, 73, 0.12);
-  color: #d13d49;
+  background: rgba(168, 90, 98, 0.12);
+  color: #a85a62;
 }
 
 body.darkmode .content .highlight .go,
 body.darkmode .content .highlight .gp,
 body.darkmode .content .highlight .w {
-  color: #3d4b5a;
+  color: #4f5b66;
 }
 
 @media (max-width: 768px) {
@@ -353,7 +357,7 @@ body.darkmode .content .highlight .w {
   .content div.highlight > pre,
   .content pre.chroma {
     border-radius: 14px;
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     padding: 1rem;
     padding-top: 1.95rem;
   }
