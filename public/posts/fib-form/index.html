@@ -59,7 +59,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-03-08T12:00:00-05:00">
-    <meta property="article:modified_time" content="2026-03-09T23:03:59-04:00">
+    <meta property="article:modified_time" content="2026-03-09T23:12:03-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Ai">
 
@@ -73,7 +73,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta itemprop="name" content="Formalization of a Result of Fibonacci Sequence">
   <meta itemprop="description" content="Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them. — Angus K. Rodgers Continuing my previous post on AI for math, I want to give a concrete example of how AI can be used to formalize a mathematical result. More specifically, in this post, I will be formalizing an elementary result about the Fibonacci sequence that I really like. The Fibbonaci sequence is a sequence $(f_n)_{n\in\mathbb Z}$ defined as follows: $f_0=0$, $f_1=1$, and $f_n=f_{n-1}&#43;f_{n-2}$ for $n\in\mathbb Z$. The result I want to formalize is: $f_{\gcd(m,n)}=\gcd(f_m,f_n)$ for all $m,n\in\mathbb N$, which is called the strong divisibility of Fibonacci sequence. In particular, this implies that if $n,m\in\mathbb N$ are such that $n\mid m$ then $f_n\mid f_m$ -- This is known as weak divisbility. I will be using Lean proof assistant and Codex to vibe prove this result. Find the GitHub repo here.">
   <meta itemprop="datePublished" content="2026-03-08T12:00:00-05:00">
-  <meta itemprop="dateModified" content="2026-03-09T23:03:59-04:00">
+  <meta itemprop="dateModified" content="2026-03-09T23:12:03-04:00">
   <meta itemprop="wordCount" content="2835">
   <meta itemprop="keywords" content="Math,Ai">
 
@@ -850,6 +850,8 @@ First, lower right of power of diagonal is 0.</p>
   
   
   <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
   
 
   

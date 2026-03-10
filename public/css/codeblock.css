@@ -1,0 +1,272 @@
+.content .highlight {
+  margin: 1.4rem 0;
+}
+
+.content .highlight > pre,
+.content div.highlight > pre,
+.content pre.chroma {
+  background: #1f2430 !important;
+  border: 1px solid rgba(235, 239, 245, 0.14);
+  border-radius: 16px;
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  color: #d6deeb !important;
+  font-family: "Latin Modern Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  overflow-x: auto;
+  padding: 1.2rem 1.25rem;
+}
+
+.content .highlight > pre code,
+.content div.highlight > pre code,
+.content pre.chroma code {
+  background: transparent;
+  color: inherit;
+  display: block;
+  padding: 0;
+}
+
+.content .highlight .line,
+.content .highlight .cl {
+  min-height: 1.65em;
+}
+
+.content .highlight .ln,
+.content .highlight .lnt {
+  color: #7f8ea3;
+  margin-right: 1rem;
+  padding: 0 0.85rem 0 0;
+}
+
+.content .highlight .lntd:first-child {
+  border-right: 1px solid rgba(127, 142, 163, 0.22);
+  padding-right: 0.85rem;
+}
+
+.content .highlight .lntd:last-child {
+  padding-left: 0.85rem;
+}
+
+.content .highlight .hl {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.content .highlight .c,
+.content .highlight .ch,
+.content .highlight .cm,
+.content .highlight .c1,
+.content .highlight .cs {
+  color: #758575;
+  font-style: italic;
+}
+
+.content .highlight .k,
+.content .highlight .kc,
+.content .highlight .kd,
+.content .highlight .kn,
+.content .highlight .kp,
+.content .highlight .kr,
+.content .highlight .ow,
+.content .highlight .o {
+  color: #ffb454;
+}
+
+.content .highlight .kt,
+.content .highlight .nb,
+.content .highlight .ni,
+.content .highlight .nf,
+.content .highlight .fm {
+  color: #39bae6;
+}
+
+.content .highlight .na,
+.content .highlight .nt {
+  color: #59c2ff;
+}
+
+.content .highlight .s,
+.content .highlight .sa,
+.content .highlight .sb,
+.content .highlight .sc,
+.content .highlight .dl,
+.content .highlight .sd,
+.content .highlight .s2,
+.content .highlight .se,
+.content .highlight .sh,
+.content .highlight .si,
+.content .highlight .sx,
+.content .highlight .sr,
+.content .highlight .s1 {
+  color: #aad94c;
+}
+
+.content .highlight .m,
+.content .highlight .mb,
+.content .highlight .mf,
+.content .highlight .mh,
+.content .highlight .mi,
+.content .highlight .il,
+.content .highlight .mo,
+.content .highlight .no {
+  color: #ff8f40;
+}
+
+.content .highlight .ne,
+.content .highlight .nl,
+.content .highlight .err {
+  color: #f07178;
+}
+
+.content .highlight .ge {
+  color: #39bae6;
+  text-decoration: underline;
+}
+
+.content .highlight .gh,
+.content .highlight .gu {
+  color: #aad94c;
+  font-weight: 600;
+}
+
+.content .highlight .gi {
+  background: rgba(170, 217, 76, 0.16);
+  color: #aad94c;
+}
+
+.content .highlight .gd {
+  background: rgba(240, 113, 120, 0.16);
+  color: #f07178;
+}
+
+.content .highlight .go,
+.content .highlight .gp,
+.content .highlight .w {
+  color: #d8dee9;
+}
+
+body.darkmode .content .highlight > pre,
+body.darkmode .content div.highlight > pre,
+body.darkmode .content pre.chroma {
+  background: #f8fafc !important;
+  border-color: rgba(15, 23, 42, 0.12);
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #334155 !important;
+}
+
+body.darkmode .content .highlight .ln,
+body.darkmode .content .highlight .lnt {
+  color: #94a3b8;
+}
+
+body.darkmode .content .highlight .lntd:first-child {
+  border-right-color: rgba(148, 163, 184, 0.35);
+}
+
+body.darkmode .content .highlight .hl {
+  background: rgba(15, 23, 42, 0.05);
+}
+
+body.darkmode .content .highlight .c,
+body.darkmode .content .highlight .ch,
+body.darkmode .content .highlight .cm,
+body.darkmode .content .highlight .c1,
+body.darkmode .content .highlight .cs {
+  color: #6f7b6b;
+  font-style: italic;
+}
+
+body.darkmode .content .highlight .k,
+body.darkmode .content .highlight .kc,
+body.darkmode .content .highlight .kd,
+body.darkmode .content .highlight .kn,
+body.darkmode .content .highlight .kp,
+body.darkmode .content .highlight .kr,
+body.darkmode .content .highlight .ow,
+body.darkmode .content .highlight .o {
+  color: #b86e00;
+}
+
+body.darkmode .content .highlight .kt,
+body.darkmode .content .highlight .nb,
+body.darkmode .content .highlight .ni,
+body.darkmode .content .highlight .nf,
+body.darkmode .content .highlight .fm {
+  color: #0f87a8;
+}
+
+body.darkmode .content .highlight .na,
+body.darkmode .content .highlight .nt {
+  color: #006e90;
+}
+
+body.darkmode .content .highlight .s,
+body.darkmode .content .highlight .sa,
+body.darkmode .content .highlight .sb,
+body.darkmode .content .highlight .sc,
+body.darkmode .content .highlight .dl,
+body.darkmode .content .highlight .sd,
+body.darkmode .content .highlight .s2,
+body.darkmode .content .highlight .se,
+body.darkmode .content .highlight .sh,
+body.darkmode .content .highlight .si,
+body.darkmode .content .highlight .sx,
+body.darkmode .content .highlight .sr,
+body.darkmode .content .highlight .s1 {
+  color: #5f7d19;
+}
+
+body.darkmode .content .highlight .m,
+body.darkmode .content .highlight .mb,
+body.darkmode .content .highlight .mf,
+body.darkmode .content .highlight .mh,
+body.darkmode .content .highlight .mi,
+body.darkmode .content .highlight .il,
+body.darkmode .content .highlight .mo,
+body.darkmode .content .highlight .no {
+  color: #c25400;
+}
+
+body.darkmode .content .highlight .ne,
+body.darkmode .content .highlight .nl,
+body.darkmode .content .highlight .err {
+  color: #d13d49;
+}
+
+body.darkmode .content .highlight .ge {
+  color: #0f87a8;
+}
+
+body.darkmode .content .highlight .gh,
+body.darkmode .content .highlight .gu {
+  color: #5f7d19;
+}
+
+body.darkmode .content .highlight .gi {
+  background: rgba(95, 125, 25, 0.12);
+  color: #5f7d19;
+}
+
+body.darkmode .content .highlight .gd {
+  background: rgba(209, 61, 73, 0.12);
+  color: #d13d49;
+}
+
+body.darkmode .content .highlight .go,
+body.darkmode .content .highlight .gp,
+body.darkmode .content .highlight .w {
+  color: #3d4b5a;
+}
+
+@media (max-width: 768px) {
+  .content .highlight > pre,
+  .content div.highlight > pre,
+  .content pre.chroma {
+    border-radius: 14px;
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
