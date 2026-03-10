@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const language = explicitLang || classLang;
 
     if (language) {
-      block.dataset.language = language;
+      copyButtonHost.dataset.language = language;
     }
 
     // copy and check SVG icons

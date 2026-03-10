@@ -15,6 +15,7 @@
   justify-content: center;
   opacity: 0.92;
   padding: 0.38rem;
+  position: absolute;
   right: 0.85rem;
   top: 0.85rem;
   transition:
@@ -23,6 +24,7 @@
     color 0.2s ease,
     transform 0.2s ease,
     opacity 0.2s ease;
+  z-index: 2;
 }
 
 .content button.copy-button:hover {
@@ -66,9 +68,8 @@
   padding-top: 2.15rem;
 }
 
-.content .highlight > pre[data-language]::before,
-.content div.highlight > pre[data-language]::before,
-.content pre.chroma[data-language]::before {
+.content .highlight[data-language]::before,
+.content div.highlight[data-language]::before {
   color: #8fa2bd;
   content: attr(data-language);
   font-family: "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
@@ -77,9 +78,11 @@
   left: 1.25rem;
   letter-spacing: 0.06em;
   line-height: 1;
+  pointer-events: none;
   position: absolute;
   text-transform: uppercase;
   top: 0.8rem;
+  z-index: 1;
 }
 
 .content .highlight > pre code,
@@ -220,9 +223,8 @@ body.darkmode .content pre.chroma {
   color: #334155 !important;
 }
 
-body.darkmode .content .highlight > pre[data-language]::before,
-body.darkmode .content div.highlight > pre[data-language]::before,
-body.darkmode .content pre.chroma[data-language]::before {
+body.darkmode .content .highlight[data-language]::before,
+body.darkmode .content div.highlight[data-language]::before {
   color: #6b7a90;
 }
 
@@ -362,9 +364,8 @@ body.darkmode .content .highlight .w {
     top: 0.7rem;
   }
 
-  .content .highlight > pre[data-language]::before,
-  .content div.highlight > pre[data-language]::before,
-  .content pre.chroma[data-language]::before {
+  .content .highlight[data-language]::before,
+  .content div.highlight[data-language]::before {
     font-size: 0.68rem;
     left: 1rem;
     top: 0.72rem;
