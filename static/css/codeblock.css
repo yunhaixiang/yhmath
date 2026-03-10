@@ -3,6 +3,49 @@
   position: relative;
 }
 
+.content .yh-codeblock-with-title {
+  margin: 1.4rem 0;
+}
+
+.content .yh-codeblock-with-title > .yh-codeblock-title,
+.content .yh-codeblock-with-title > .yh-codeblock-filename,
+.content .yh-codeblock-with-title > .highlight {
+  margin-bottom: 0;
+}
+
+.content .yh-codeblock-with-title .highlight {
+  margin: 0;
+}
+
+.content .yh-codeblock-filename,
+.content .yh-codeblock-title {
+  background: #232830;
+  border: 1px solid rgba(127, 143, 155, 0.18);
+  color: #c0c5ce;
+  font-family: "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 0;
+  padding: 0.7rem 1rem;
+}
+
+.content .yh-codeblock-with-title > :first-child {
+  border-radius: 16px 16px 0 0;
+}
+
+.content .yh-codeblock-with-title > .yh-codeblock-filename:not(:last-of-type),
+.content .yh-codeblock-with-title > .yh-codeblock-title:not(:last-of-type) {
+  border-bottom: 0;
+}
+
+.content .yh-codeblock-filename {
+  color: #8fa1b3;
+  font-size: 0.72rem;
+  text-transform: none;
+}
+
 .content button.copy-button {
   align-items: center;
   backdrop-filter: blur(10px);
@@ -65,6 +108,12 @@
   overflow-x: auto;
   padding: 1.2rem 1.25rem;
   padding-top: 2.15rem;
+}
+
+.content .yh-codeblock-with-title .highlight > pre,
+.content .yh-codeblock-with-title div.highlight > pre,
+.content .yh-codeblock-with-title pre.chroma {
+  border-radius: 0 0 16px 16px;
 }
 
 .content .highlight[data-language]::before,
@@ -227,6 +276,17 @@ body.darkmode .content pre.chroma {
   color: #4f5b66 !important;
 }
 
+body.darkmode .content .yh-codeblock-filename,
+body.darkmode .content .yh-codeblock-title {
+  background: #e3e9ee;
+  border-color: rgba(101, 115, 126, 0.22);
+  color: #4f5b66;
+}
+
+body.darkmode .content .yh-codeblock-filename {
+  color: #65737e;
+}
+
 body.darkmode .content .highlight[data-language]::before,
 body.darkmode .content div.highlight[data-language]::before {
   color: #65737e;
@@ -353,6 +413,16 @@ body.darkmode .content .highlight .w {
 }
 
 @media (max-width: 768px) {
+  .content .yh-codeblock-filename,
+  .content .yh-codeblock-title {
+    font-size: 0.72rem;
+    padding: 0.62rem 0.85rem;
+  }
+
+  .content .yh-codeblock-with-title > :first-child {
+    border-radius: 14px 14px 0 0;
+  }
+
   .content .highlight > pre,
   .content div.highlight > pre,
   .content pre.chroma {
@@ -360,6 +430,12 @@ body.darkmode .content .highlight .w {
     font-size: 0.82rem;
     padding: 1rem;
     padding-top: 1.95rem;
+  }
+
+  .content .yh-codeblock-with-title .highlight > pre,
+  .content .yh-codeblock-with-title div.highlight > pre,
+  .content .yh-codeblock-with-title pre.chroma {
+    border-radius: 0 0 14px 14px;
   }
 
   .content button.copy-button {

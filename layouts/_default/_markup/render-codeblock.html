@@ -1,0 +1,12 @@
+{{- $result := transform.HighlightCodeBlock . -}}
+{{- $title := index .Attributes "title" -}}
+{{- $filename := index .Attributes "filename" -}}
+{{- if or $title $filename -}}
+  <div class="yh-codeblock-with-title">
+    {{- with $title }}<div class="yh-codeblock-title">{{ . }}</div>{{ end -}}
+    {{- with $filename }}<div class="yh-codeblock-filename">{{ . }}</div>{{ end -}}
+    {{- $result.Wrapped -}}
+  </div>
+{{- else -}}
+  {{- $result.Wrapped -}}
+{{- end -}}

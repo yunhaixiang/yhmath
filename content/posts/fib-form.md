@@ -201,7 +201,7 @@ theorem lowerLeft_diagonal_pow_zero {R : Type*} [Semiring R] (a b : R) (k : Nat)
 
 Then, with this the weak divisibility result follows.
 
-```lean
+```lean {collapsed=true}
 theorem fib_dvd_of_dvd {n m : Nat} (h : n ∣ m) : fib n ∣ fib m := by
   rcases h with ⟨k, rfl⟩
   cases n with
