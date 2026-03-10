@@ -12,9 +12,14 @@
     0 10px 30px rgba(15, 23, 42, 0.18),
     inset 0 1px 0 rgba(255, 255, 255, 0.04);
   color: #d6deeb !important;
-  font-family: "Latin Modern Mono", "SFMono-Regular", Consolas, monospace;
+  font-family: "Latin Modern Mono", "DejaVu Sans Mono", "Noto Sans Mono",
+    "Noto Sans Symbols 2", "STIX Two Math", "Cambria Math", "SFMono-Regular",
+    Consolas, monospace;
   font-size: 0.95rem;
+  font-variant-ligatures: none;
   line-height: 1.65;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   overflow-x: auto;
   padding: 1.2rem 1.25rem;
 }
