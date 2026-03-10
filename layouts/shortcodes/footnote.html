@@ -1,0 +1,8 @@
+{{- $id := (.Get 0) | default (.Get "id") | default (printf "fn-%d" .Ordinal) -}}
+{{- $num := add .Ordinal 1 -}}
+{{- .Page.Store.SetInMap "yhFootnotes" (printf "%06d" $num) (dict
+  "id" $id
+  "num" $num
+  "html" (.Inner | markdownify)
+) -}}
+<sup id="yh-fnref:{{ $id }}"><a href="#yh-fn:{{ $id }}" class="footnote-ref" role="doc-noteref">{{ $num }}</a></sup>

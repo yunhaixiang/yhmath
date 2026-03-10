@@ -71,7 +71,7 @@ Since $\det A=-1$, $A$ is invertible, and by (1) its inverse satisfies
 $$\begin{pmatrix}f_{n}\\ f_{n-1}\end{pmatrix} = A^{-1} \begin{pmatrix}f_{n+1}\\ f_{n}\end{pmatrix} $$
 for all $n\ge 0$. Therefore equations (1) and (2) holds hold for all $n\in\mathbb Z$, and hence equation (3) hold for all $n\in\mathbb Z$ as well. 
 {{< remark >}}
-We can find $A^{-1}$ with a formula, but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
+We can find $A^{-1}$ with a formula{{< footnote id="inv-formula" >}}The formula for the inverse of a $2$-by-$2$ matrix $\begin{pmatrix}a&b\\ c&d\end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix}d&-b\\ -c&a\end{pmatrix}$, which can be verified by direct computation.{{< /footnote >}}, but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
 $$\begin{pmatrix}f_{n}\\ f_{n-1}\end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix}f_{n+1}\\ f_{n}\end{pmatrix} $$
 by definition of $f_n$. This reverses what $A$ does, so we expect $B$ to be the inverse of $A$ where 
 $$B=\begin{pmatrix} 0 & 1 \\ 1 & -1 \end{pmatrix}$$
@@ -186,7 +186,7 @@ theorem fib_matrix_pow_succ (n : Nat) :
 ```
 
 Then we proceed to prove weak divisibility.
-First, lower right of power of diagonal is 0.
+First, lower left of power of diagonal is 0.
 
 ```lean
 theorem lowerLeft_diagonal_pow_zero {R : Type*} [Semiring R] (a b : R) (k : Nat) :
@@ -199,7 +199,7 @@ theorem lowerLeft_diagonal_pow_zero {R : Type*} [Semiring R] (a b : R) (k : Nat)
       simp [Matrix.mul_apply, Fin.sum_univ_two, ih]
 ```
 
-Then, with this the weak divisibility result follows.
+Then, with this the weak divisibility result follows. Prompting Codex to generate the theorem for weak divisibility took about 15 minutes, and the code could not run. After my corrections and some back and forth, it was able to produces the following code which runs. 
 
 ```lean {collapsible=true collapse_at_line=7}
 theorem fib_dvd_of_dvd {n m : Nat} (h : n ∣ m) : fib n ∣ fib m := by
@@ -232,7 +232,7 @@ theorem fib_dvd_of_dvd {n m : Nat} (h : n ∣ m) : fib n ∣ fib m := by
           simpa [d] using (ZMod.natCast_eq_zero_iff (fib ((n + 1) * (k + 1))) d).mp hzero
 ```
 
-Finally I fed the proof of strong divisibility to Codex and prompt it to generate a lean proof. After 31 minutes, it finally produced code that could run, it is the following.
+Finally I fed the proof of strong divisibility to Codex and prompt it to generate a lean proof. After 31 minutes and burning through a ton of tokens, it finally produced code that could run, it is the following.
 
 ```lean {collapsible=true collapse_at_line=10}
 theorem fib_eq_natFib : ∀ n : Nat, fib n = Nat.fib n

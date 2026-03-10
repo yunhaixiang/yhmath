@@ -94,6 +94,20 @@
     {{ else }}
     {{ .Content }}
     {{ end }}
+
+    {{ with .Page.Store.Get "yhFootnotes" }}
+    <div class="footnotes yh-generated-footnotes" role="doc-endnotes">
+      <hr>
+      <ol>
+        {{ range sort . }}
+        <li id="yh-fn:{{ .id }}">
+          {{ .html | safeHTML }}
+          <a href="#yh-fnref:{{ .id }}" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+    {{ end }}
   </article>
 
   
