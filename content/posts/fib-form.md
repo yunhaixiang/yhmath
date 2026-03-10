@@ -79,8 +79,8 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
 {{< /remark >}}
 
 {{< remark id="rmk-vec">}}
-More abstractly, let $V$ be the vector space over $\mathbb Q$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of rational numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
-$$\phi:V\rightarrow \mathbb Q^2\qquad \phi((a_n))=(a_0,a_1)$$ 
+More abstractly, let $V$ be the vector space over $\mathbb R$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of real numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
+$$\phi:V\rightarrow \mathbb R^2\qquad \phi((a_n))=(a_0,a_1)$$ 
 Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ then with respect to the ordered basis $((f_n)_n,(f_{n-1})_n)$, the operator $T$ has matrix $A$. It is easy to see $T$ is invertible, since shifting is reversable. It is also much more intuitive to see that in this same  basis $((f_n)_n,(f_{n-1})_n)$, we have $T^n$ has matrix that of in (3).
 {{< /remark >}}
 
@@ -159,10 +159,196 @@ For $m,n\in\mathbb Z$, we have $\gcd(f_{n+m},f_m)=\gcd(f_n,f_m)$.
 We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By [Cassini's identity](#thm-cas), $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By [Fibonacci addition formula](#thm-fib-add), we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.
 {{< /proof >}}
 
+We can even find a general formula for the Fibonacci numbers using the linear algebra developed above. Let $T$ be the operator in {{< refer "rmk-vec" >}}, it has minimal polynomial $x^2-x-1$ coming from the recurrence and eigenvalues $\varphi=\frac{1+\sqrt{5}}{2}$ and its conjugate $\overline{\varphi}=\frac{1-\sqrt{5}}{2}$. The sequences $(\varphi^n)_n$ and $(\overline{\varphi}^n)_n$ are linearly independent and both are elements of the vector space, hence they form a basis of the $2$-dimensional vector space $V$. Thus $f_n=A\varphi^n+B\overline{\varphi}_n$ for some real numbers $A,B$, which one can find by evaluating at $n=0,1$ and solving a system of linear equations. One finds the _Binet formula_:
+$$f_n=\frac{\varphi^n-\overline{\varphi}^n}{\sqrt{5}}$$
+for Fibonacci numbers. Generating function methods can also be used to arrive at this formula, but I will not expand on that.
+
 ## Formalization
 
+To make formalization easier, we show identity (3) with induction in lean.
 
-## Formula for Fibonacci Numbers
+```lean
+open Matrix
 
-One can also obtain the Binet formula for Fibonacci numbers with the same setup.
+def A : Matrix (Fin 2) (Fin 2) Nat := !![1, 1; 1, 0]
 
+theorem fib_matrix_pow_succ (n : Nat) :
+    A ^ (n + 1) = !![fib (n + 2), fib (n + 1); fib (n + 1), fib n] := by
+  induction n with
+  | zero =>
+      simp [A, fib]
+  | succ n ih =>
+      rw [pow_succ, ih]
+      ext i j
+      fin_cases i
+      · fin_cases j <;> simp [A, Matrix.mul_apply, Fin.sum_univ_two, fib, add_comm, add_left_comm]
+      · fin_cases j <;> simp [A, Matrix.mul_apply, Fin.sum_univ_two, fib, add_comm, add_left_comm]
+```
+
+Then we proceed to prove weak divisibility.
+First, lower right of power of diagonal is 0.
+
+```lean
+theorem lowerLeft_diagonal_pow_zero {R : Type*} [Semiring R] (a b : R) (k : Nat) :
+    (((!![a, 0; 0, b] : Matrix (Fin 2) (Fin 2) R) ^ k) 1 0) = 0 := by
+  induction k with
+  | zero =>
+      simp
+  | succ k ih =>
+      rw [pow_succ]
+      simp [Matrix.mul_apply, Fin.sum_univ_two, ih]
+```
+
+Then, with this the weak divisibility result follows.
+
+```lean
+theorem fib_dvd_of_dvd {n m : Nat} (h : n ∣ m) : fib n ∣ fib m := by
+  rcases h with ⟨k, rfl⟩
+  cases n with
+  | zero =>
+      simp [fib]
+  | succ n =>
+      cases k with
+      | zero =>
+          simp [fib]
+      | succ k =>
+          let d := fib (n + 1)
+          have hdiag :
+              AMod d ^ (n + 1) =
+                !![(fib (n + 2) : ZMod d), 0; 0, fib n] := by
+            simpa [d] using fib_matrix_pow_succ_mod d n
+          have hoff :
+              ((AMod d ^ ((n + 1) * (k + 1))) 1 0) = 0 := by
+            rw [pow_mul, hdiag]
+            exact lowerLeft_diagonal_pow_zero (fib (n + 2) : ZMod d) (fib n : ZMod d) (k + 1)
+          have hentry :
+              ((AMod d ^ ((n + 1) * (k + 1))) 1 0) =
+                (fib ((n + 1) * (k + 1)) : ZMod d) := by
+            have hpos : 0 < (n + 1) * (k + 1) := Nat.mul_pos (Nat.succ_pos _) (Nat.succ_pos _)
+            simpa [d] using congrArg (fun M => M 1 0) (fib_matrix_pow_mod (d := d) hpos)
+          have hzero : (fib ((n + 1) * (k + 1)) : ZMod d) = 0 := by
+            rw [← hentry]
+            exact hoff
+          simpa [d] using (ZMod.natCast_eq_zero_iff (fib ((n + 1) * (k + 1))) d).mp hzero
+```
+
+Finally I fed the proof of strong divisibility to Codex and prompt it to generate a lean proof. After 31 minutes, it finally produced code that could run, it is the following.
+
+```lean
+theorem fib_eq_natFib : ∀ n : Nat, fib n = Nat.fib n
+  | 0 => by simp [fib, Nat.fib_zero]
+  | 1 => by simp [fib, Nat.fib_one]
+  | n + 2 => by
+      rw [fib, fib_eq_natFib (n + 1), fib_eq_natFib n, Nat.fib_add_two, add_comm]
+
+theorem lowerLeft_diagonal_unit_combo_zero {R : Type*} [CommRing R]
+    (u v : (Fin 2 → R)ˣ) (x y : Int) :
+    ((((Units.map (Matrix.diagonalRingHom (Fin 2) R) u) ^ x *
+        (Units.map (Matrix.diagonalRingHom (Fin 2) R) v) ^ y :
+          Units (Matrix (Fin 2) (Fin 2) R)) :
+      Matrix (Fin 2) (Fin 2) R) 1 0) = 0 := by
+  let F : (Fin 2 → R)ˣ →* (Matrix (Fin 2) (Fin 2) R)ˣ :=
+    Units.map (Matrix.diagonalRingHom (Fin 2) R)
+  calc
+    ((((F u) ^ x * (F v) ^ y : Units (Matrix (Fin 2) (Fin 2) R)) :
+      Matrix (Fin 2) (Fin 2) R) 1 0)
+      = (((F (u ^ x * v ^ y) : Units (Matrix (Fin 2) (Fin 2) R)) :
+          Matrix (Fin 2) (Fin 2) R) 1 0) := by
+            rw [← map_zpow, ← map_zpow, ← map_mul]
+    _ = 0 := by
+      change (((Matrix.diagonal (((u ^ x) * (v ^ y) : (Fin 2 → R)ˣ) : Fin 2 → R)) :
+        Matrix (Fin 2) (Fin 2) R) 1 0) = 0
+      simp [Matrix.diagonal]
+
+theorem fib_gcd (m n : Nat) : Nat.gcd (fib m) (fib n) = fib (Nat.gcd m n) := by
+  apply Nat.dvd_antisymm
+  · rcases m.eq_zero_or_pos with rfl | hm
+    · simp [fib]
+    rcases n.eq_zero_or_pos with rfl | hn
+    · simp [fib]
+    let d := Nat.gcd (fib m) (fib n)
+    have hdm : d ∣ fib m := Nat.gcd_dvd_left (fib m) (fib n)
+    have hdn : d ∣ fib n := Nat.gcd_dvd_right (fib m) (fib n)
+    have hdet : IsUnit (Matrix.det (AMod d)) := by
+      simp [AMod, Matrix.det_fin_two_of]
+    let uA : (Matrix (Fin 2) (Fin 2) (ZMod d))ˣ := Matrix.nonsingInvUnit (AMod d) hdet
+    let F : (Fin 2 → ZMod d)ˣ →* (Matrix (Fin 2) (Fin 2) (ZMod d))ˣ :=
+      Units.map (Matrix.diagonalRingHom (Fin 2) (ZMod d))
+    have hm0 : (fib m : ZMod d) = 0 := (ZMod.natCast_eq_zero_iff (fib m) d).2 hdm
+    have hn0 : (fib n : ZMod d) = 0 := (ZMod.natCast_eq_zero_iff (fib n) d).2 hdn
+    have hdiagm_box : AMod d ^ m = !![(fib (m + 1) : ZMod d), 0; 0, fib (m - 1)] := by
+      simpa [hm0] using fib_matrix_pow_mod (d := d) hm
+    have hdiagn_box : AMod d ^ n = !![(fib (n + 1) : ZMod d), 0; 0, fib (n - 1)] := by
+      simpa [hn0] using fib_matrix_pow_mod (d := d) hn
+    have hdiagm : AMod d ^ m =
+        Matrix.diagonal ![(fib (m + 1) : ZMod d), fib (m - 1)] := by
+      calc
+        AMod d ^ m = !![(fib (m + 1) : ZMod d), 0; 0, fib (m - 1)] := hdiagm_box
+        _ = Matrix.diagonal ![(fib (m + 1) : ZMod d), fib (m - 1)] := by
+          ext i j
+          fin_cases i
+          · fin_cases j <;> simp [Matrix.diagonal]
+          · fin_cases j <;> simp [Matrix.diagonal]
+    have hdiagn : AMod d ^ n =
+        Matrix.diagonal ![(fib (n + 1) : ZMod d), fib (n - 1)] := by
+      calc
+        AMod d ^ n = !![(fib (n + 1) : ZMod d), 0; 0, fib (n - 1)] := hdiagn_box
+        _ = Matrix.diagonal ![(fib (n + 1) : ZMod d), fib (n - 1)] := by
+          ext i j
+          fin_cases i
+          · fin_cases j <;> simp [Matrix.diagonal]
+          · fin_cases j <;> simp [Matrix.diagonal]
+    have hum_raw :
+        (((uA ^ m : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+          Matrix (Fin 2) (Fin 2) (ZMod d))) =
+            Matrix.diagonal ![(fib (m + 1) : ZMod d), fib (m - 1)] := by
+      simpa [uA, Matrix.nonsingInvUnit] using hdiagm
+    have hun_raw :
+        (((uA ^ n : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+          Matrix (Fin 2) (Fin 2) (ZMod d))) =
+            Matrix.diagonal ![(fib (n + 1) : ZMod d), fib (n - 1)] := by
+      simpa [uA, Matrix.nonsingInvUnit] using hdiagn
+    let um : (Fin 2 → ZMod d)ˣ :=
+      (Matrix.isUnit_diagonal.mp (hum_raw ▸ (uA ^ m).isUnit)).unit
+    let un : (Fin 2 → ZMod d)ˣ :=
+      (Matrix.isUnit_diagonal.mp (hun_raw ▸ (uA ^ n).isUnit)).unit
+    have hum : uA ^ m = F um := by
+      apply Units.ext
+      calc
+        (((uA ^ m : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+          Matrix (Fin 2) (Fin 2) (ZMod d))) =
+            Matrix.diagonal ![(fib (m + 1) : ZMod d), fib (m - 1)] := hum_raw
+        _ = ((F um : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+              Matrix (Fin 2) (Fin 2) (ZMod d)) := by
+              simp [F, um, Matrix.diagonal]
+    have hun : uA ^ n = F un := by
+      apply Units.ext
+      calc
+        (((uA ^ n : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+          Matrix (Fin 2) (Fin 2) (ZMod d))) =
+            Matrix.diagonal ![(fib (n + 1) : ZMod d), fib (n - 1)] := hun_raw
+        _ = ((F un : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+              Matrix (Fin 2) (Fin 2) (ZMod d)) := by
+              simp [F, un, Matrix.diagonal]
+    obtain ⟨x, y, hbez⟩ := bezout m n
+    have hg0 :
+        (((uA ^ (Nat.gcd m n : Int) : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+          Matrix (Fin 2) (Fin 2) (ZMod d)) 1 0) = 0 := by
+      rw [hbez, _root_.zpow_add, _root_.zpow_mul', _root_.zpow_mul',
+        _root_.zpow_natCast, _root_.zpow_natCast, hum, hun]
+      simpa [F] using lowerLeft_diagonal_unit_combo_zero (R := ZMod d) um un x y
+    have hgpos : 0 < Nat.gcd m n := Nat.gcd_pos_of_pos_left n hm
+    have hentry :
+        (((uA ^ (Nat.gcd m n : Int) : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+          Matrix (Fin 2) (Fin 2) (ZMod d)) 1 0) =
+            (fib (Nat.gcd m n) : ZMod d) := by
+      simpa [uA] using congrArg (fun M => M 1 0) (fib_matrix_pow_mod (d := d) hgpos)
+    have hzero : (fib (Nat.gcd m n) : ZMod d) = 0 := by
+      calc
+        (fib (Nat.gcd m n) : ZMod d) =
+            (((uA ^ (Nat.gcd m n : Int) : Units (Matrix (Fin 2) (Fin 2) (ZMod d))) :
+              Matrix (Fin 2) (Fin 2) (ZMod d)) 1 0) := by symm; exact hentry
+        _ = 0 := hg0
+    exact (ZMod.natCast_eq_zero_iff (fib (Nat.gcd m n)) d).1 hzero
+  · exact Nat.dvd_gcd (fib_dvd_of_dvd (Nat.gcd_dvd_left m n)) (fib_dvd_of_dvd (Nat.gcd_dvd_right m n))
+```
