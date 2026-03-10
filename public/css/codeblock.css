@@ -1,5 +1,46 @@
 .content .highlight {
   margin: 1.4rem 0;
+  position: relative;
+}
+
+.content button.copy-button {
+  align-items: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  color: #d8dee9;
+  display: inline-flex;
+  justify-content: center;
+  opacity: 0.92;
+  padding: 0.38rem;
+  right: 0.85rem;
+  top: 0.85rem;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.content button.copy-button:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  opacity: 1;
+  transform: none;
+}
+
+.content button.copy-button .copy-icon {
+  display: block;
+  height: 0.95rem;
+  width: 0.95rem;
+}
+
+.content button.copy-button .copied-icon {
+  color: #aad94c;
 }
 
 .content .highlight > pre,
@@ -22,6 +63,23 @@
   -webkit-text-size-adjust: 100%;
   overflow-x: auto;
   padding: 1.2rem 1.25rem;
+  padding-top: 2.15rem;
+}
+
+.content .highlight > pre[data-language]::before,
+.content div.highlight > pre[data-language]::before,
+.content pre.chroma[data-language]::before {
+  color: #8fa2bd;
+  content: attr(data-language);
+  font-family: "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  left: 1.25rem;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0.8rem;
 }
 
 .content .highlight > pre code,
@@ -162,6 +220,28 @@ body.darkmode .content pre.chroma {
   color: #334155 !important;
 }
 
+body.darkmode .content .highlight > pre[data-language]::before,
+body.darkmode .content div.highlight > pre[data-language]::before,
+body.darkmode .content pre.chroma[data-language]::before {
+  color: #6b7a90;
+}
+
+body.darkmode .content button.copy-button {
+  background: rgba(15, 23, 42, 0.06);
+  border-color: rgba(15, 23, 42, 0.12);
+  color: #475569;
+}
+
+body.darkmode .content button.copy-button:hover {
+  background: rgba(15, 23, 42, 0.1);
+  border-color: rgba(15, 23, 42, 0.18);
+  color: #0f172a;
+}
+
+body.darkmode .content button.copy-button .copied-icon {
+  color: #5f7d19;
+}
+
 body.darkmode .content .highlight .ln,
 body.darkmode .content .highlight .lnt {
   color: #94a3b8;
@@ -273,5 +353,20 @@ body.darkmode .content .highlight .w {
     border-radius: 14px;
     font-size: 0.9rem;
     padding: 1rem;
+    padding-top: 1.95rem;
+  }
+
+  .content button.copy-button {
+    padding: 0.34rem;
+    right: 0.7rem;
+    top: 0.7rem;
+  }
+
+  .content .highlight > pre[data-language]::before,
+  .content div.highlight > pre[data-language]::before,
+  .content pre.chroma[data-language]::before {
+    font-size: 0.68rem;
+    left: 1rem;
+    top: 0.72rem;
   }
 }
