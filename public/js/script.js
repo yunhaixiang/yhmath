@@ -1,11 +1,20 @@
 // Add copy button to <pre> blocks
 document.addEventListener("DOMContentLoaded", function () {
   const preBlocks = document.querySelectorAll("pre");
+  const svgCopy =
+    '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="1rem" height="1rem" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" class="copy-icon"><rect x="9" y="9" width="10" height="10" rx="2"></rect><path d="M7 15H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v1"></path></svg>';
+  const svgCopied =
+    '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="1rem" height="1rem" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" class="copy-icon copied-icon"><path d="M5 12.5 9.2 16.7 19 7.5"></path></svg>';
+  const svgCollapse =
+    '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="1rem" height="1rem" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon collapse-icon"><path d="M7 17l5-5 5 5"></path><path d="M7 12l5-5 5 5"></path></svg>';
+  const svgExpand =
+    '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="1rem" height="1rem" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon expand-icon"><path d="M7 12l5 5 5-5"></path><path d="M7 7l5 5 5-5"></path></svg>';
 
   preBlocks.forEach(function (block) {
     const copyButton = document.createElement("button");
     copyButton.classList.add("copy-button");
     const copyButtonHost = block.closest(".highlight") || block.parentElement;
+    const collapsibleWrapper = block.closest(".yh-codeblock-collapsible");
     const codeElement = block.querySelector("code");
     const explicitLang = codeElement?.dataset.lang;
     const classLang = Array.from(codeElement?.classList || [])
@@ -17,18 +26,30 @@ document.addEventListener("DOMContentLoaded", function () {
       copyButtonHost.dataset.language = language;
     }
 
-    // copy and check SVG icons
-    // Previous GitHub-style icons kept here in case the new set feels off.
-    // const svgCopy =
-    //   '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 16 16" width="1rem" height="1rem" fill="currentColor" class="octicon octicon-copy"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path></svg>';
-    // const svgCopied =
-    //   '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 16 16" width="1rem" height="1rem" fill="currentColor" class="octicon octicon-check"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path></svg>';
-    const svgCopy =
-      '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="1rem" height="1rem" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" class="copy-icon"><rect x="9" y="9" width="10" height="10" rx="2"></rect><path d="M7 15H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v1"></path></svg>';
-    const svgCopied =
-      '<svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="1rem" height="1rem" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" class="copy-icon copied-icon"><path d="M5 12.5 9.2 16.7 19 7.5"></path></svg>';
+    if (collapsibleWrapper) {
+      const collapseAtLine = Number.parseInt(
+        collapsibleWrapper.dataset.collapseAtLine || "",
+        10
+      );
+      const computedStyle = window.getComputedStyle(block);
+      const lineHeight = Number.parseFloat(computedStyle.lineHeight);
+      const paddingTop = Number.parseFloat(computedStyle.paddingTop) || 0;
+      const paddingBottom = Number.parseFloat(computedStyle.paddingBottom) || 0;
+
+      if (Number.isFinite(collapseAtLine) && collapseAtLine > 0 && Number.isFinite(lineHeight)) {
+        const collapsedHeight =
+          paddingTop + paddingBottom + lineHeight * collapseAtLine;
+        collapsibleWrapper.style.setProperty(
+          "--yh-collapse-max-height",
+          `${collapsedHeight}px`
+        );
+      }
+    }
 
     copyButton.innerHTML = svgCopy;
+    if (collapsibleWrapper) {
+      copyButton.classList.add("copy-button-with-toggle");
+    }
 
     copyButton.addEventListener("click", function () {
       const textToCopy = block.innerText;
@@ -51,6 +72,35 @@ document.addEventListener("DOMContentLoaded", function () {
           }, 2000);
         });
     });
+
+    if (collapsibleWrapper && !copyButtonHost.querySelector(".collapse-button")) {
+      const collapseButton = document.createElement("button");
+      collapseButton.type = "button";
+      collapseButton.classList.add("collapse-button");
+
+      const syncCollapseButton = () => {
+        const isCollapsed = collapsibleWrapper.dataset.collapsed !== "false";
+        collapsibleWrapper.classList.toggle("is-collapsed", isCollapsed);
+        collapseButton.innerHTML = isCollapsed ? svgExpand : svgCollapse;
+        collapseButton.setAttribute(
+          "aria-label",
+          isCollapsed ? "Expand code block" : "Collapse code block"
+        );
+        collapseButton.setAttribute(
+          "aria-expanded",
+          isCollapsed ? "false" : "true"
+        );
+      };
+
+      collapseButton.addEventListener("click", function () {
+        const isCollapsed = collapsibleWrapper.dataset.collapsed !== "false";
+        collapsibleWrapper.dataset.collapsed = isCollapsed ? "false" : "true";
+        syncCollapseButton();
+      });
+
+      syncCollapseButton();
+      copyButtonHost.appendChild(collapseButton);
+    }
 
     copyButtonHost.appendChild(copyButton);
   });

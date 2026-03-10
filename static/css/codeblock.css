@@ -17,6 +17,46 @@
   margin: 0;
 }
 
+.content .yh-codeblock-collapsible.is-collapsed .highlight {
+  border-radius: 16px;
+}
+
+.content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed .highlight {
+  border-radius: 0 0 16px 16px;
+}
+
+.content .yh-codeblock-collapsible.is-collapsed .highlight::after {
+  display: none;
+}
+
+.content .yh-codeblock-collapsible.is-collapsed .highlight > pre::after,
+.content .yh-codeblock-collapsible.is-collapsed div.highlight > pre::after,
+.content .yh-codeblock-collapsible.is-collapsed pre.chroma::after {
+  background: linear-gradient(180deg, rgba(43, 48, 59, 0) 0%, #2b303b 100%);
+  bottom: 0;
+  content: "";
+  height: 4.5rem;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+.content .yh-codeblock-collapsible.is-collapsed .highlight > pre,
+.content .yh-codeblock-collapsible.is-collapsed div.highlight > pre,
+.content .yh-codeblock-collapsible.is-collapsed pre.chroma {
+  border-radius: 16px;
+  max-height: var(--yh-collapse-max-height, 18rem);
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed .highlight > pre,
+.content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed div.highlight > pre,
+.content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed pre.chroma {
+  border-radius: 0 0 16px 16px;
+}
+
 .content .yh-codeblock-filename,
 .content .yh-codeblock-title {
   background: #232830;
@@ -70,6 +110,41 @@
   z-index: 2;
 }
 
+.content button.copy-button.copy-button-with-toggle {
+  right: 0.85rem;
+}
+
+.content button.collapse-button {
+  align-items: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  color: #d8dee9;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  opacity: 0.92;
+  padding: 0.38rem;
+  position: absolute;
+  right: 3.15rem;
+  top: 0.85rem;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease;
+  z-index: 2;
+}
+
+.content button.collapse-button:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  opacity: 1;
+}
+
 .content button.copy-button:hover {
   background: rgba(255, 255, 255, 0.14);
   border-color: rgba(255, 255, 255, 0.22);
@@ -79,6 +154,12 @@
 }
 
 .content button.copy-button .copy-icon {
+  display: block;
+  height: 0.95rem;
+  width: 0.95rem;
+}
+
+.content button.collapse-button .toggle-icon {
   display: block;
   height: 0.95rem;
   width: 0.95rem;
@@ -289,6 +370,16 @@ body.darkmode .content .yh-codeblock-filename {
   color: #65737e;
 }
 
+body.darkmode .content .yh-codeblock-collapsible.is-collapsed .highlight::after {
+  display: none;
+}
+
+body.darkmode .content .yh-codeblock-collapsible.is-collapsed .highlight > pre::after,
+body.darkmode .content .yh-codeblock-collapsible.is-collapsed div.highlight > pre::after,
+body.darkmode .content .yh-codeblock-collapsible.is-collapsed pre.chroma::after {
+  background: linear-gradient(180deg, rgba(238, 242, 245, 0) 0%, #eef2f5 100%);
+}
+
 body.darkmode .content .highlight[data-language]::before,
 body.darkmode .content div.highlight[data-language]::before {
   color: #65737e;
@@ -300,7 +391,19 @@ body.darkmode .content button.copy-button {
   color: #65737e;
 }
 
+body.darkmode .content button.collapse-button {
+  background: rgba(79, 91, 102, 0.07);
+  border-color: rgba(101, 115, 126, 0.18);
+  color: #65737e;
+}
+
 body.darkmode .content button.copy-button:hover {
+  background: rgba(79, 91, 102, 0.12);
+  border-color: rgba(101, 115, 126, 0.24);
+  color: #2b303b;
+}
+
+body.darkmode .content button.collapse-button:hover {
   background: rgba(79, 91, 102, 0.12);
   border-color: rgba(101, 115, 126, 0.24);
   color: #2b303b;
@@ -440,9 +543,40 @@ body.darkmode .content .highlight .w {
     border-radius: 0 0 14px 14px;
   }
 
+  .content .yh-codeblock-collapsible.is-collapsed .highlight {
+    border-radius: 14px;
+  }
+
+  .content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed .highlight {
+    border-radius: 0 0 14px 14px;
+  }
+
+  .content .yh-codeblock-collapsible.is-collapsed .highlight > pre,
+  .content .yh-codeblock-collapsible.is-collapsed div.highlight > pre,
+  .content .yh-codeblock-collapsible.is-collapsed pre.chroma {
+    border-radius: 14px;
+    max-height: var(--yh-collapse-max-height, 14rem);
+  }
+
+  .content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed .highlight > pre,
+  .content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed div.highlight > pre,
+  .content .yh-codeblock-with-title.yh-codeblock-collapsible.is-collapsed pre.chroma {
+    border-radius: 0 0 14px 14px;
+  }
+
   .content button.copy-button {
     padding: 0.34rem;
     right: 0.7rem;
+    top: 0.7rem;
+  }
+
+  .content button.copy-button.copy-button-with-toggle {
+    right: 0.7rem;
+  }
+
+  .content button.collapse-button {
+    padding: 0.34rem;
+    right: 2.78rem;
     top: 0.7rem;
   }
 

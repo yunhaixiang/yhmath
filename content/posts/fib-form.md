@@ -201,7 +201,7 @@ theorem lowerLeft_diagonal_pow_zero {R : Type*} [Semiring R] (a b : R) (k : Nat)
 
 Then, with this the weak divisibility result follows.
 
-```lean
+```lean {collapsible=true collapse_at_line=7}
 theorem fib_dvd_of_dvd {n m : Nat} (h : n ∣ m) : fib n ∣ fib m := by
   rcases h with ⟨k, rfl⟩
   cases n with
@@ -234,7 +234,7 @@ theorem fib_dvd_of_dvd {n m : Nat} (h : n ∣ m) : fib n ∣ fib m := by
 
 Finally I fed the proof of strong divisibility to Codex and prompt it to generate a lean proof. After 31 minutes, it finally produced code that could run, it is the following.
 
-```lean
+```lean {collapsible=true collapse_at_line=10}
 theorem fib_eq_natFib : ∀ n : Nat, fib n = Nat.fib n
   | 0 => by simp [fib, Nat.fib_zero]
   | 1 => by simp [fib, Nat.fib_one]

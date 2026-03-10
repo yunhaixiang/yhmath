@@ -1,8 +1,14 @@
 {{- $result := transform.HighlightCodeBlock . -}}
 {{- $title := index .Attributes "title" -}}
 {{- $filename := index .Attributes "filename" -}}
-{{- if or $title $filename -}}
-  <div class="yh-codeblock-with-title">
+{{- $collapsibleRaw := lower (printf "%v" (or (index .Attributes "collapsible") "")) -}}
+{{- $isCollapsible := and (ne $collapsibleRaw "") (not (in (slice "false" "0" "no") $collapsibleRaw)) -}}
+{{- $collapsedRaw := lower (printf "%v" (or (index .Attributes "collapsed") "true")) -}}
+{{- $isCollapsed := and $isCollapsible (not (in (slice "false" "0" "no") $collapsedRaw)) -}}
+{{- $collapseAtLine := index .Attributes "collapse_at_line" -}}
+{{- $hasMeta := or $title $filename -}}
+{{- if or $hasMeta $isCollapsible -}}
+  <div class="{{ if $hasMeta }}yh-codeblock-with-title{{ end }}{{ if $isCollapsible }} yh-codeblock-collapsible{{ end }}{{ if $isCollapsed }} is-collapsed{{ end }}"{{ if $isCollapsible }} data-collapsible="true" data-collapsed="{{ if $isCollapsed }}true{{ else }}false{{ end }}"{{ with $collapseAtLine }} data-collapse-at-line="{{ . }}"{{ end }}{{ end }}>
     {{- with $title }}<div class="yh-codeblock-title">{{ . }}</div>{{ end -}}
     {{- with $filename }}<div class="yh-codeblock-filename">{{ . }}</div>{{ end -}}
     {{- $result.Wrapped -}}
