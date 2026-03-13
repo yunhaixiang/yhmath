@@ -69,6 +69,9 @@ There is no doubt that AI will revolutionize how mathematics is done in the next
 
 4. Emotionally, this will be a existential crisis for many mathematicians. We have thought of ourselves as unique in our ability to do math, and now we are facing the reality that machines can do math as well. For many, math is more like an art. Doing math makes us feel alive. AI will force us to rethink our identity and our existence in the world.
 
+5. If AI use becomes widespread, we might see a shift in the culture of mathematics, with more emphasis on creativity and conceptual depth and less on technical details and computations. 
+
+6. Currently Zermelo--Fraenkel set theory with choice (ZFC) is the standard foundation of mathematics, but it is not a foundation that works very well with computers. As AI and formalization progress, we might see a shift in the foundations of mathematics, perhaps in the direction of type theory or even something completely new that is more amenable to formalizations. 
 
 It still remains uncertain how strong AI will be in the future. It is not known, for example, whether AI is able to build grand theories like Grothendieck's theory of schemes on its own, or solve open problems at the highest level. If it still falls short of that, then there will still be a place for human mathematicians to do creative work. However, if AI can do that, then we might be in a post-mathematical world, where human mathematicians are no longer needed. And for myself personally, I would not want to be a mathematician if the creative aspects of the job is stripped away, and all I do is querying AI all day and verifying if it is correct. In that case, we need to find new ways to find meaning and purpose in our lives, and to contribute to the world in other ways.
 
