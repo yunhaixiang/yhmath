@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Mar 2027 16:42:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
       <link>http://localhost:1313/posts/fib-form/</link>
@@ -615,7 +615,7 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;p&gt;If AI use becomes widespread, we might see a shift in the culture of mathematics, with more emphasis on creativity and conceptual depth and less on technical details and computations, as they could be handled reliably by AI.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Currently, Zermelo--Fraenkel set theory with axiom of choice (ZFC) is the standard foundation of mathematics, but it is not a foundation that works very well with computers. As AI and formalization progress, we might see a shift in the foundations of mathematics, perhaps in the direction of type theory or even something completely new that is more amenable to formalizations.&lt;/p&gt;
+&lt;p&gt;Currently, Zermelo--Fraenkel set theory with axiom of choice (ZFC) is the standard foundation of mathematics, but it is not a foundation that works very well with computers. As AI and formalization progress, we might see a shift in the foundations of mathematics, perhaps in the direction of type theory or even something completely new that&#39;s more amenable to computers.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;It still remains uncertain how strong AI will be in the future. It is not known, for example, whether AI is able to build grand theories like Grothendieck&#39;s theory of schemes on its own, or solve open problems at the highest level, or perform visual reasoning as good as mathematicians in fields where that is prominent. If it still falls short of that, then there will still be a place for human mathematicians to do creative work. However, if AI can do that, then we might be in a post-mathematical world, where human mathematicians are no longer needed. And for myself personally, I would not want to be a mathematician if the creative aspects of the job is stripped away, and all I do is querying AI all day and verifying if it is correct. In that case, we need to find new ways to find meaning and purpose in our lives, and to contribute to the world in other ways.&lt;/p&gt;
