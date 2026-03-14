@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Yunhai Xiang</title>
-    <link>http://localhost:62506/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in Ai on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:62506/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>http://localhost:62506/posts/fib-form/</link>
+      <link>http://localhost:1313/posts/fib-form/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:62506/posts/fib-form/</guid>
+      <guid>http://localhost:1313/posts/fib-form/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -532,10 +532,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>http://localhost:62506/posts/ai-for-math/</link>
+      <link>http://localhost:1313/posts/ai-for-math/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>http://localhost:62506/posts/ai-for-math/</guid>
+      <guid>http://localhost:1313/posts/ai-for-math/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.
@@ -612,10 +612,10 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;p&gt;Emotionally, this will be a existential crisis for many mathematicians. We have thought of ourselves as unique in our ability to do math, and now we are facing the reality that machines can do math as well. For many, math is more like an art. Doing math makes us feel alive. AI will force us to rethink our identity and our existence in the world.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;If AI use becomes widespread, we might see a shift in the culture of mathematics, with more emphasis on creativity and conceptual depth and less on technical details and computations.&lt;/p&gt;
+&lt;p&gt;If AI use becomes widespread, we might see a shift in the culture of mathematics, with more emphasis on creativity and conceptual depth and less on technical details and computations, as they could be handled reliably by AI.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Currently Zermelo--Fraenkel set theory with choice (ZFC) is the standard foundation of mathematics, but it is not a foundation that works very well with computers. As AI and formalization progress, we might see a shift in the foundations of mathematics, perhaps in the direction of type theory or even something completely new that is more amenable to formalizations.&lt;/p&gt;
+&lt;p&gt;Currently, Zermelo--Fraenkel set theory with axiom of choice (ZFC) is the standard foundation of mathematics, but it is not a foundation that works very well with computers. As AI and formalization progress, we might see a shift in the foundations of mathematics, perhaps in the direction of type theory or even something completely new that is more amenable to formalizations.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;It still remains uncertain how strong AI will be in the future. It is not known, for example, whether AI is able to build grand theories like Grothendieck&#39;s theory of schemes on its own, or solve open problems at the highest level. If it still falls short of that, then there will still be a place for human mathematicians to do creative work. However, if AI can do that, then we might be in a post-mathematical world, where human mathematicians are no longer needed. And for myself personally, I would not want to be a mathematician if the creative aspects of the job is stripped away, and all I do is querying AI all day and verifying if it is correct. In that case, we need to find new ways to find meaning and purpose in our lives, and to contribute to the world in other ways.&lt;/p&gt;
