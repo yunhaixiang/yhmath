@@ -17,7 +17,7 @@ More specifically, topics that I am especially interested in include: rational p
   title-link="https://arxiv.org/abs/2602.20629">}} 
 {{< /publications >}}
 
-## Notes
+## Writing
 
 I write and continuously update self-contained notes on various mathematical topics. 
 
@@ -34,3 +34,4 @@ Here are my slides for past presentations
 
 1. [_Trace of Frobenius_](https://yunhaixiang.github.io/slides/trace_of_frob/main.pdf)
 
+You are welcome to point out any mistakes or typos. 
