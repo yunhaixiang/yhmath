@@ -25,4 +25,7 @@ I write and continuously update self-contained notes on various mathematical top
 2. _Arithmetic Geometry_ (coming soon)
 3. _Algebraic Number Theory_ (coming soon)
 
-You are welcome to point out any mistakes or typos. 
+Here are my slides for past presentations
+
+1. [_Trace of Frobenius_](https://yunhaixiang.github.io/slides/trace_of_frob/main.pdf)
+
