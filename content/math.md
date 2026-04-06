@@ -22,7 +22,7 @@ More specifically, topics that I am especially interested in include: rational p
 Here are my notes for various topics
 
 1. [_Linear Algebraic Groups_](https://yunhaixiang.github.io/linalggrps/linalggrps.pdf)
-2. _Arithmetic Geometry_ (coming soon)
+2. [_Algebraic Curves and Abelian Varieties_](https://yunhaixiang.github.io/acabv/acabv.pdf)
 3. _Algebraic Number Theory_ (coming soon)
 
 Here are my short notes for a few specific topics

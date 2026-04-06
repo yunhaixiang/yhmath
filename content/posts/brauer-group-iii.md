@@ -1,6 +1,6 @@
 ---
 title: Brauer Group III
-date: 2027-03-10 16:42:00 -0400
+date: 2027-04-10 16:42:00 -0400
 categories: [expositions]
 tags: [algebraic-geometry]
 ---
