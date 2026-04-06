@@ -21,9 +21,14 @@ More specifically, topics that I am especially interested in include: rational p
 
 I write and continuously update self-contained notes on various mathematical topics. 
 
-1. [_Linear Algebraic Groups_](https://yunhaixiang.github.io/linalggrps/linalggrps.pdf)   [[source]](https://github.com/yunhaixiang/linalggrps)
+1. [_Linear Algebraic Groups_](https://yunhaixiang.github.io/linalggrps/linalggrps.pdf)
 2. _Arithmetic Geometry_ (coming soon)
 3. _Algebraic Number Theory_ (coming soon)
+
+Here are my short notes for specific topics
+
+1. Coming soon
+
 
 Here are my slides for past presentations
 
