@@ -17,7 +17,7 @@ More specifically, topics that I am especially interested in include: rational p
   title-link="https://arxiv.org/abs/2602.20629">}} 
 {{< /publications >}}
 
-## Writing
+## Writings
 
 Here are my notes for various topics
 
