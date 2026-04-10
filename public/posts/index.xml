@@ -6,7 +6,55 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Apr 2027 16:42:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Apr 2026 16:42:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brauer Group III</title>
+      <link>http://localhost:1313/posts/brauer-group-iii/</link>
+      <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/brauer-group-iii/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;We continue with &lt;a href=&#34;brauer2.md&#34;&gt;Part II&lt;/a&gt; of our discussion of the Brauer group. In 1970, Manin explained how elements of $\mathrm{Br}(X)$ produces obstructions to local-global principles on $X$ in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Man71&#34;&gt;
+  ⟦cite:Man71⟧
+&lt;/span&gt;. On the other hand, it was shown that a torsor under an algebraic group $G$ over $X$ could give rise to an obstruction. In this post, we will explain these obstructions, and all related concepts. We will still be following &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Poo17&#34;&gt;
+  ⟦cite:Poo17⟧
+&lt;/span&gt;, mostly chapter 8.&lt;/p&gt;
+&lt;h2 id=&#34;obstructions-from-functors&#34;&gt;Obstructions from functors&lt;/h2&gt;
+&lt;p&gt;Let $K$ be a global field and $F:\mathbf{Sch}^{\mathrm{op}}\rightarrow\mathbf{Set}$ be a functor. Let $A\in F(L)$ for a $K$-algebra $L$, there is a map $\mathrm{ev}_A:X(L)\rightarrow F(L)$, by sending a point $x\in X(L)$ to the image of $A$ of the map $F(X)\rightarrow F(L)$ induced by $x$. Let $X(\mathbb{A}_K)^A$ be the adelic points of $X$ whose image under $\mathrm{ev}_A$ is contained in the image of $F(K)\rightarrow F(\mathbb{A}_K)$. Define $X(\mathbb{A}_K)^F=\bigcap_{A\in F(K)} X(\mathbb{A}_K)^A\supseteq X(K)$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $X(\mathbb{A}_K)\ne \emptyset$ but $X(\mathbb{A}_K)^F=\emptyset$, we say that there is an obstruction to the local-global principle on $X$ coming from $F$, in which case $X$ has no $K$-rational points.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Man71&#34; data-bib-key=&#34;Man71&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Man71]&lt;/span&gt;Y. I. Manin. &lt;em&gt;Le groupe de Brauer-Grothendieck en géométrie diophantienne&lt;/em&gt;. In &lt;em&gt;Actes du Congrès International des Mathématiciens (Nice, 1970), Tome 1&lt;/em&gt;. pp. 401--411. Gauthier-Villars. 1971.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
       <link>http://localhost:1313/posts/fib-form/</link>
