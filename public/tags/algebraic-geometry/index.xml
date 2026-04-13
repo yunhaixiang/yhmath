@@ -25,7 +25,21 @@
   ⟦cite:Poo17⟧
 &lt;/span&gt;, mostly chapter 8.&lt;/p&gt;
 &lt;h2 id=&#34;obstructions-from-functors&#34;&gt;Obstructions from functors&lt;/h2&gt;
-&lt;p&gt;Let $K$ be a global field and $F:\mathbf{Sch}^{\mathrm{op}}\rightarrow\mathbf{Set}$ be a functor. Let $A\in F(L)$ for a $K$-algebra $L$, there is a map $\mathrm{ev}_A:X(L)\rightarrow F(L)$, by sending a point $x\in X(L)$ to the image of $A$ of the map $F(X)\rightarrow F(L)$ induced by $x$.&lt;/p&gt;
+&lt;p&gt;Let $K$ be a global field and $F:\mathbf{Sch}^{\mathrm{op}}\rightarrow\mathbf{Set}$ be a functor. Let $A\in F(L)$ for a $K$-algebra $L$, there is a map $\mathrm{ev}_A:X(L)\rightarrow F(L)$, by sending a point $x\in X(L)$ to the image of $A$ of the map $F(X)\rightarrow F(L)$ induced by $x$. Let $X(\mathbb{A}_K)^A$ be the adelic points of $X$ whose image under $\mathrm{ev}_A$ is contained in the image of $F(K)\rightarrow F(\mathbb{A}_K)$. Define $X(\mathbb{A}_K)^F=\bigcap_{A\in F(K)} X(\mathbb{A}_K)^A\supseteq X(K)$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $X(\mathbb{A}_K)\ne \emptyset$ but $X(\mathbb{A}_K)^F=\emptyset$, we say that there is an obstruction to the local-global principle on $X$ coming from $F$, in which case $X$ has no $K$-rational points.
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;

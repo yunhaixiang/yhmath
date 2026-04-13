@@ -19,6 +19,9 @@ Let $K$ be a global field and $F:\mathbf{Sch}^{\mathrm{op}}\rightarrow\mathbf{Se
 If $X(\mathbb{A}_K)\ne \emptyset$ but $X(\mathbb{A}_K)^F=\emptyset$, we say that there is an obstruction to the local-global principle on $X$ coming from $F$, in which case $X$ has no $K$-rational points.
 {{< /definition >}}
 
+Unfinished. 
+
+
 ## References
 
 {{< bibliography >}}
