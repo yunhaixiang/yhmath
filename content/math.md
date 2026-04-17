@@ -19,7 +19,7 @@ Specifically, I am interested in the study of Galois representations (and more b
 
 ## Expositions
 
-Here are my notes for various topics
+Here are my (unfinished) notes for various topics
 
 1. [_Linear Algebraic Groups_](https://yunhaixiang.github.io/linalggrps/linalggrps.pdf)
 2. [_Algebraic Curves and Abelian Varieties_](https://yunhaixiang.github.io/acabv/acabv.pdf)
