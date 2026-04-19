@@ -40,7 +40,7 @@
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Unfinished.&lt;/p&gt;
+&lt;p&gt;Since $X(\mathbb{A}_K)\subseteq X(\prod_{v}K_v)=\prod_{v}X(K_v)$, we have $X(\mathbb{A}_K)^F\subseteq \prod_{v}X(K_v)^F$.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
