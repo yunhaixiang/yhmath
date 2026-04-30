@@ -13,7 +13,7 @@ Specifically, I am interested in the study of Galois representations (and more b
 {{< pubitem
   title="QEDBench: Quantifying the Alignment Gap in Automated Evaluation of University-Level Mathematical Proofs"
   coauthors="Santiago Gonzalez, Alireza Amiri Bavandpour, Peter Ye, Edward Zhang, et al."
-  journal="Submitted."
+  journal="International Conference on Machine Learning (ICML) 2026"
   title-link="https://arxiv.org/abs/2602.20629">}} 
 {{< /publications >}}
 

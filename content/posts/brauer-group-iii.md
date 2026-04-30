@@ -44,7 +44,8 @@ We have $X(\mathbb{A}_K)\subseteq X(\prod_{v}K_v)=\prod_{v}X(K_v)$ (if $X$ is pr
 Define $X(\prod_v K_v)^F=\bigcap_{A\in F(K)} X(\prod_v K_v)^A\subseteq X(\prod_v K_v)$ similarly. 
 {{< definition >}}
 If $X(\prod_v K_v)^F\subsetneq X(\prod_v K_v)$, we say that there is an obstruction to the local-global principle on $X$ coming from $F$, in which case $X(K)$ is not dense in $X(\prod_v K_v)$.
-{{< /definition>}}
+{{< /definition >}}
+
 
 
 ## References

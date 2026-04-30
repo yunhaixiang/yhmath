@@ -22,7 +22,7 @@
   {{- end -}}
 
   {{- if $journal -}}
-    <div class="publication-journal-line"><em>{{- $journal | safeHTML -}}</em></div>
+    <div class="publication-journal-line">{{- $journal | safeHTML -}}</div>
   {{- end -}}
 
   {{- if or $arxiv (or $doi $presentation) -}}
