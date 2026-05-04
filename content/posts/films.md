@@ -9,8 +9,6 @@ categories: [archives]
 ## Films I Want to Watch
 - *The Act of Killing* (2012)
 - *Vertigo* (1958)
-- *Ikiru* (1952)
-- *Ran* (1985)
 
 ## Films I Recommend (Fiction)
 - [*Spirited Away* (2001)](https://www.imdb.com/title/tt0245429/)
@@ -22,6 +20,9 @@ categories: [archives]
 - [*Life of Brian* (1979)](https://www.imdb.com/title/tt0079470/)
 - [*Taxi Driver* (1976)](https://www.imdb.com/title/tt0075314/)
 - [*Seven Samurai* (1954)](https://www.imdb.com/title/tt0047478/)
+- [*Ikiru* (1952)](https://www.imdb.com/title/tt0044741/)
+- [*A Clockwork Orange* (1971)](https://www.imdb.com/title/tt0066921/)
+- [*Dr. Strangelove* (1964)](https://www.imdb.com/title/tt0057012/)
 - [*Once Upon a Time in the West* (1968)](https://www.imdb.com/title/tt0064116/)
 - [*The Good, the Bad, and the Ugly* (1966)](https://www.imdb.com/title/tt0060196/)
 - [*Crouching Tiger Hidden Dragon* (2000)](https://www.imdb.com/title/tt0190332/)
