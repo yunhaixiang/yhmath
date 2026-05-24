@@ -6,7 +6,99 @@
     <description>Recent content in Expositions on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 16:42:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 14:28:09 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
+      <link>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
+      <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— André Weil&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s arithmetic and geometry. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.&lt;/p&gt;
+&lt;h2 id=&#34;semilinear-algebra&#34;&gt;Semilinear Algebra&lt;/h2&gt;
+&lt;p&gt;Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon}:=\varepsilon(a)$ for all $a \in K$. A map $T: V \to W$ between two $K$-vector spaces is called $\varepsilon$-semilinear if it satisfies the following properties for all $v, w \in V$ and $a \in K$: $T(v + w) = T(v) + T(w)$ and $T(av) = a^{\varepsilon} T(v)$. Let $E=(e_1, \ldots, e_n)$ and $F=(f_1,\dots,f_n)$ be an ordered basis for $V$, we represent a $\varepsilon$-semilinear map $T$ by a matrix $[T]_{E}^{F}$. Unlike in linear algebra, we have $[Tv]_{F} = [T]_{E}^{F} [v]_{E}^{\varepsilon}$, where $[v]_{E}^{\varepsilon}$ is obtained by applying $\varepsilon$ to each entry of $[v]_{E}$, and change of basis is: $[T]_{F}^{F} = [\mathrm{id}]_{E}^{F} [T]_E^E([\mathrm{id}]_{E}^{F})^{\varepsilon}$. Iteration is given by $[T^n]_{E}^{E} = [T]_E^E ([T]_E^E)^{\varepsilon} \cdots ([T]_E^E)^{\varepsilon^{n-1}}$.&lt;/p&gt;
+&lt;p&gt;Let $V^*$ be the dual of $V$ and $E^*=(e^1, \ldots, e^n)$ be the corresponding dual basis. If $T: V \to W$ is a $\varepsilon$-semilinear map, then its adjoint $T^*: W^* \to V^*$ is a $\varepsilon^{-1}$-semilinear map and is characterized by the property that $\langle Tv, w \rangle = \langle v, T^* w \rangle^{\varepsilon^{-1}}$ for all $v \in V$ and $w \in W^*$. In terms of matrices, we have $[T^*]_{F^*}^{E^*} = ([T]_E^F)^{t,\varepsilon^{-1}}$, where $t$ denotes the transpose.&lt;/p&gt;
+&lt;h2 id=&#34;hassewitt-matrix&#34;&gt;Hasse–Witt Matrix&lt;/h2&gt;
+&lt;p&gt;Let $k$ be a perfect field of characteristic $p &gt; 0$, and let $X$ be a smooth projective curve over $k$. Let $F: X \to X$ be the absolute Frobenius morphism, which raises functions to their $p$-th power. Let $\sigma:k\rightarrow k$ be the Frobenius automorphism of $k$ with inverse $\tau$. The absolute Frobenius $F:X \to X$ is defined to be the identity on the underlying topological space of $X$ and sends $f\mapsto f^p$ on sections. Recall that the coherent cohomology $H^i(X,\mathcal O_X)$ is a $k$-vector space via the following process: the structure map $X\rightarrow \mathrm{Spec}(k)$ induces $k=H^0(\mathrm{Spec}(k),\mathcal O_{\mathrm{Spec}(k)})\rightarrow H^0(X,\mathcal O_X)$, and for each $f\in H^0(X,\mathcal O_X)$, the multiplication map $m_f:\mathcal O_X \to \mathcal O_X$ by $f$ induces $m_f^i: H^i(X,\mathcal O_X) \to H^i(X,\mathcal O_X)$, and $f\cdot \alpha := m_f^i(\alpha)$ for $\alpha \in H^i(X,\mathcal O_X)$ makes $H^i(X,\mathcal O_X)$ a $H^0(X,\mathcal O_X)$-module, and hence by composition also a $k$-vector space. The absolute Frobenius $F$ induces a $\sigma$-semilinear map $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let $\Omega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator.&lt;/p&gt;
+&lt;h2 id=&#34;serre-duality-and-cartier-operator&#34;&gt;Serre Duality and Cartier Operator&lt;/h2&gt;
+&lt;p&gt;Recall that Serre duality gives a perfect pairing $H^0(X,\Omega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\Omega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the &lt;em&gt;local principal part&lt;/em&gt; of $\alpha$ at $P$, which we shall explain.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(X,\mathcal O_X(D))\cong \mathbb{A}_X/(\mathbb{A}_X(D)+\mathcal K(X))$, where $\mathcal K(X)$ embeds diagonally.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Serre Duality)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The &lt;em&gt;Cartier operator&lt;/em&gt; $C:H^0(X,\Omega^1_X) \to H^0(X,\Omega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\Omega^1_X)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;
+&lt;h2 id=&#34;arithmetic-of-hyperelliptic-curves&#34;&gt;Arithmetic of Hyperelliptic Curves&lt;/h2&gt;
+&lt;p&gt;Recall a hyperelliptic curve $C/\mathbb F_q$ is a smooth projective curve of genus $\ge 2$ with a degree $2$ map to $\mathbb P^1$. Assume the characteristic of $\mathbb F_q$ is odd, it has affine model $y^2=f(x)$, where $f(x)$ is square free.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Brauer Group III</title>
       <link>http://localhost:1313/posts/brauer-group-iii/</link>
