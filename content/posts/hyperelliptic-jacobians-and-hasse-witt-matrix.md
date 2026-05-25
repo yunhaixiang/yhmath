@@ -71,15 +71,24 @@ $$H^0\left(X, \mathbf{G}_m\right) \xrightarrow{\ell^n} H^0\left(X, \mathbf{G}_m\
 Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \operatorname{Pic}(X)\left[\ell^n\right]$. 
 {{< /proof >}}
 {{< lemma >}}For a smooth projective curve $C$ of genus $g$ and its Jacobian $J=\mathrm{Jac}(C)$, we have an isomorphism of $\mathrm{Gal}_k$-modules
-$$i^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$
-induced by the Abel-Jacobi map $i:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.
+$$\mathrm{AJ}^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$
+induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.
 {{< /lemma >}}
 {{< proof >}}
 We have 
-$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via the principal polarization. 
+$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.  
 {{< /proof >}}
 
-L-poly, Jacobian, 
+{{< definition >}}The L-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
+$$L_C(T)=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}({\mathrm{Jac}(C)}_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$
+where $\ell$ is an invertible prime in $C$. 
+{{< /definition >}}
+
+By Weil's conjecture, this polynomial appears in the numerator of the Weil zeta function
+
+$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$
+
+The Hasse-Witt matrix helps us determine this polynomial mod $p$. 
 
 ## Semilinear Algebra and Hasse–Witt Matrix
 
@@ -101,3 +110,6 @@ The _Cartier operator_ $C:H^0(X,\Omega^1_X) \to H^0(X,\Omega^1_X)$ is defined as
 {{< /definition >}}
 
 Concretely, we can derive a formula for the Cartier operator as follows. 
+
+
+## L-polynomials mod 2

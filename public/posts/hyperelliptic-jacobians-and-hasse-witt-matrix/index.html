@@ -75,7 +75,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta itemprop="description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.">
   <meta itemprop="datePublished" content="2026-05-15T14:28:09-04:00">
   <meta itemprop="dateModified" content="2026-05-24T17:22:46-04:00">
-  <meta itemprop="wordCount" content="1117">
+  <meta itemprop="wordCount" content="1241">
   <meta itemprop="keywords" content="Algebraic-Geometry,Number-Theory,Math">
 
   
@@ -191,7 +191,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1117 words
+          1241 words
         </span>
       
       
@@ -243,6 +243,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
     <li><a href="#serre-duality">Serre Duality</a></li>
     <li><a href="#arithmetic-of-hyperelliptic-curves">Arithmetic of Hyperelliptic Curves</a></li>
     <li><a href="#semilinear-algebra-and-hassewitt-matrix">Semilinear Algebra and Hasse–Witt Matrix</a></li>
+    <li><a href="#l-polynomials-mod-2">L-polynomials mod 2</a></li>
   </ul>
 </nav></div>
   </details>
@@ -400,8 +401,8 @@ Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \op
   <span class="math-body">
     <p>For a smooth projective curve $C$ of genus $g$ and its Jacobian $J=\mathrm{Jac}(C)$, we have an isomorphism of $\mathrm{Gal}_k$-modules
 </p>
-$$i^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$<p>
-induced by the Abel-Jacobi map $i:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.</p>
+$$\mathrm{AJ}^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$<p>
+induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.</p>
 
   </span>
 </div>
@@ -413,12 +414,31 @@ induced by the Abel-Jacobi map $i:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_
 
   <div class="proof-body">
     We have
-$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via the principal polarization.
+$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.
   </div>
   <span class="proof-qed"></span>
 </div>
 </p>
-<p>L-poly, Jacobian,</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>The L-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
+</p>
+$$L_C(T)=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}({\mathrm{Jac}(C)}_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$<p>
+where $\ell$ is an invertible prime in $C$.</p>
+
+  </span>
+</div>
+
+<p>By Weil's conjecture, this polynomial appears in the numerator of the Weil zeta function</p>
+$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$<p>The Hasse-Witt matrix helps us determine this polynomial mod $p$.</p>
 <h2 id="semilinear-algebra-and-hassewitt-matrix">Semilinear Algebra and Hasse–Witt Matrix</h2>
 <p>Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon}:=\varepsilon(a)$ for all $a \in K$. A map $T: V \to W$ between two $K$-vector spaces is called $\varepsilon$-semilinear if it satisfies the following properties for all $v, w \in V$ and $a \in K$: $T(v + w) = T(v) + T(w)$ and $T(av) = a^{\varepsilon} T(v)$. Let $E=(e_1, \ldots, e_n)$ and $F=(f_1,\dots,f_n)$ be an ordered basis for $V$, we represent a $\varepsilon$-semilinear map $T$ by a matrix $[T]_{E}^{F}$. Unlike in linear algebra, we have $[Tv]_{F} = [T]_{E}^{F} [v]_{E}^{\varepsilon}$, where $[v]_{E}^{\varepsilon}$ is obtained by applying $\varepsilon$ to each entry of $[v]_{E}$, and change of basis is: $[T]_{F}^{F} = [\mathrm{id}]_{E}^{F} [T]_E^E([\mathrm{id}]_{E}^{F})^{\varepsilon}$. Iteration is given by $[T^n]_{E}^{E} = [T]_E^E ([T]_E^E)^{\varepsilon} \cdots ([T]_E^E)^{\varepsilon^{n-1}}$.</p>
 <p>Let $V^*$ be the dual of $V$ and $E^*=(e^1, \ldots, e^n)$ be the corresponding dual basis. If $T: V \to W$ is a $\varepsilon$-semilinear map, then its adjoint $T^*: W^* \to V^*$ is a $\varepsilon^{-1}$-semilinear map and is characterized by the property that $\langle Tv, w \rangle = \langle v, T^* w \rangle^{\varepsilon^{-1}}$ for all $v \in V$ and $w \in W^*$. In terms of matrices, we have $[T^*]_{F^*}^{E^*} = ([T]_E^F)^{t,\varepsilon^{-1}}$, where $t$ denotes the transpose.</p>
@@ -453,6 +473,7 @@ $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\
 </div>
 
 <p>Concretely, we can derive a formula for the Cartier operator as follows.</p>
+<h2 id="l-polynomials-mod-2">L-polynomials mod 2</h2>
 
     
 
