@@ -164,8 +164,8 @@ Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \op
   &lt;span class=&#34;math-body&#34;&gt;
     &lt;p&gt;For a smooth projective curve $C$ of genus $g$ and its Jacobian $J=\mathrm{Jac}(C)$, we have an isomorphism of $\mathrm{Gal}_k$-modules
 &lt;/p&gt;
-$$i^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$&lt;p&gt;
-induced by the Abel-Jacobi map $i:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.&lt;/p&gt;
+$$\mathrm{AJ}^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$&lt;p&gt;
+induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.&lt;/p&gt;
 
   &lt;/span&gt;
 &lt;/div&gt;
@@ -177,12 +177,31 @@ induced by the Abel-Jacobi map $i:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_
 
   &lt;div class=&#34;proof-body&#34;&gt;
     We have
-$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via the principal polarization.
+$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;L-poly, Jacobian,&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The L-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
+&lt;/p&gt;
+$$L_C(T)=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}({\mathrm{Jac}(C)}_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$&lt;p&gt;
+where $\ell$ is an invertible prime in $C$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;By Weil&#39;s conjecture, this polynomial appears in the numerator of the Weil zeta function&lt;/p&gt;
+$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$&lt;p&gt;The Hasse-Witt matrix helps us determine this polynomial mod $p$.&lt;/p&gt;
 &lt;h2 id=&#34;semilinear-algebra-and-hassewitt-matrix&#34;&gt;Semilinear Algebra and Hasse–Witt Matrix&lt;/h2&gt;
 &lt;p&gt;Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon}:=\varepsilon(a)$ for all $a \in K$. A map $T: V \to W$ between two $K$-vector spaces is called $\varepsilon$-semilinear if it satisfies the following properties for all $v, w \in V$ and $a \in K$: $T(v + w) = T(v) + T(w)$ and $T(av) = a^{\varepsilon} T(v)$. Let $E=(e_1, \ldots, e_n)$ and $F=(f_1,\dots,f_n)$ be an ordered basis for $V$, we represent a $\varepsilon$-semilinear map $T$ by a matrix $[T]_{E}^{F}$. Unlike in linear algebra, we have $[Tv]_{F} = [T]_{E}^{F} [v]_{E}^{\varepsilon}$, where $[v]_{E}^{\varepsilon}$ is obtained by applying $\varepsilon$ to each entry of $[v]_{E}$, and change of basis is: $[T]_{F}^{F} = [\mathrm{id}]_{E}^{F} [T]_E^E([\mathrm{id}]_{E}^{F})^{\varepsilon}$. Iteration is given by $[T^n]_{E}^{E} = [T]_E^E ([T]_E^E)^{\varepsilon} \cdots ([T]_E^E)^{\varepsilon^{n-1}}$.&lt;/p&gt;
 &lt;p&gt;Let $V^*$ be the dual of $V$ and $E^*=(e^1, \ldots, e^n)$ be the corresponding dual basis. If $T: V \to W$ is a $\varepsilon$-semilinear map, then its adjoint $T^*: W^* \to V^*$ is a $\varepsilon^{-1}$-semilinear map and is characterized by the property that $\langle Tv, w \rangle = \langle v, T^* w \rangle^{\varepsilon^{-1}}$ for all $v \in V$ and $w \in W^*$. In terms of matrices, we have $[T^*]_{F^*}^{E^*} = ([T]_E^F)^{t,\varepsilon^{-1}}$, where $t$ denotes the transpose.&lt;/p&gt;
@@ -217,6 +236,7 @@ $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\
 &lt;/div&gt;
 
 &lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;
+&lt;h2 id=&#34;l-polynomials-mod-2&#34;&gt;L-polynomials mod 2&lt;/h2&gt;
 </description>
     </item>
     

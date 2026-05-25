@@ -88,6 +88,16 @@ By Weil's conjecture, this polynomial appears in the numerator of the Weil zeta 
 
 $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$
 
+{{< proposition >}}
+Same setting as above, then
+$$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
+where $\ell$ is a prime invertible in $\mathbb F_q$,
+{{< /proposition>}}
+{{< proof >}}
+
+{{< /proof >}}
+
+
 The Hasse-Witt matrix helps us determine this polynomial mod $p$. 
 
 ## Semilinear Algebra and Hasse–Witt Matrix
