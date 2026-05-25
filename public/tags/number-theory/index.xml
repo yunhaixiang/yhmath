@@ -126,7 +126,7 @@ where $F=\mathrm{Frob}_q^{-1}$ is the geometric Frobenius, $\ell$ is an invertib
 &lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;This polynomial appears in the numerator of the Weil zeta function&lt;/p&gt;
-$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$&lt;p&gt;by Weil's conjecture.&lt;/p&gt;
+$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$&lt;p&gt;by Weil's conjecture. Additionally, the $L$-polynomial (Weil polynomial) of an abelian variety determines it up to $\mathbb F_q$-isogeny. This is a very deep result of Honda-Tate theory.&lt;/p&gt;
 &lt;p&gt;&lt;div class="math-env style-plain"
 data-kind="proposition"
 data-lang="en"
@@ -155,7 +155,37 @@ $\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.&lt;/
 &lt;span class="proof-qed"&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Specifically, it is very fruitful to consider the $L$-polynomial mod $2$ (recall we are assuming odd characteristics).&lt;/p&gt;
+&lt;p&gt;Specifically, it turns out that it is very fruitful to consider the $L$-polynomial mod $2$ (recall we are assuming odd characteristics), as demonstrated by a paper by Costa–Donepudi–Fernando–Karemaker–Springer–West &lt;span class="yh-ref" data-ref-kind="bib"
+data-cite-key="CDFKSW22"&gt;
+⟦cite:CDFKSW22⟧
+&lt;/span&gt;. We present their main theorem.&lt;/p&gt;
+&lt;p&gt;&lt;div class="math-env style-plain"
+data-kind="theorem"
+data-lang="en"
+data-numbered="true"&gt;
+&lt;span class="math-heading"&gt;
+&lt;span class="math-title"
+data-label='Theorem'&gt;&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="math-body"&gt;
+&lt;p&gt;Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. Let the partition $(d_1,...,d_r)$ of $2g+2$ be the cycle type of the permutation of Frobenius on the $2g+2$ geometric branch points of $C\to \mathbb P^1$, then we have
+&lt;/p&gt;
+$$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="proof-env" data-compact="true"&gt;
+&lt;span class="proof-heading"&gt;
+&lt;span class="proof-title"&gt;Proof.&lt;/span&gt; &lt;span class="proof-note"&gt;(Sketch)&lt;/span&gt;
+&lt;/span&gt;
+&lt;div class="proof-body"&gt;
+We have the standard result that $J[2]$ is $2g$-dimensional over $\mathbb F_2$. Let $W$ be the $2g+2$ geometric branch points, then we have a vector space $\mathbb F_2^W=\mathbb F_2^{2g+2}$ with a Frobenius action. Straightforwardly, the Frobenius can be represented as a block diagonal matrix over $\mathbb F_2^W$ with blocks of sizes $d_1,...,d_r$, each one a cyclic permutation matrix. One easily finds the characteristic polynomial to be $\prod_{i=1}^r(1-T^{d_i})\in\mathbb F_2[T]$. A standard result of Mumford says $J[2]$ can be represented as $\mathbb F_2^W/(1,...,1)$ &lt;span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Mum07"&gt;
+⟦cite:Mum07⟧
+&lt;/span&gt;.
+&lt;/div&gt;
+&lt;span class="proof-qed"&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;The above analysis helps us understand the $L$-polynomial mod $\ell$, where $\ell\ne p$. However it does not help us understand it mod $p$. The Hasse-Witt matrix helps us understand the $L$-polynomial mod $p$.&lt;/p&gt;
 &lt;h2 id="semilinear-algebra-and-hassewitt-matrix"&gt;Semilinear Algebra and Hasse–Witt Matrix&lt;/h2&gt;
 &lt;p&gt;Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon}:=\varepsilon(a)$ for all $a \in K$. A map $T: V \to W$ between two $K$-vector spaces is called $\varepsilon$-semilinear if it satisfies the following properties for all $v, w \in V$ and $a \in K$: $T(v + w) = T(v) + T(w)$ and $T(av) = a^{\varepsilon} T(v)$. Let $E=(e_1, \ldots, e_n)$ and $F=(f_1,\dots,f_n)$ be an ordered basis for $V$, we represent a $\varepsilon$-semilinear map $T$ by a matrix $[T]_{E}^{F}$. Unlike in linear algebra, we have $[Tv]_{F} = [T]_{E}^{F} [v]_{E}^{\varepsilon}$, where $[v]_{E}^{\varepsilon}$ is obtained by applying $\varepsilon$ to each entry of $[v]_{E}$, and change of basis is: $[T]_{F}^{F} = [\mathrm{id}]_{E}^{F} [T]_E^E([\mathrm{id}]_{E}^{F})^{\varepsilon}$. Iteration is given by $[T^n]_{E}^{E} = [T]_E^E ([T]_E^E)^{\varepsilon} \cdots ([T]_E^E)^{\varepsilon^{n-1}}$.&lt;/p&gt;
@@ -219,7 +249,16 @@ data-label='Definition'&gt;&lt;/span&gt;
 The &lt;em&gt;Cartier operator&lt;/em&gt; $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
 &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;</description></item><item><title>Expander Graphs</title><link>https://yunhaimath.com/posts/expander-graphs/</link><pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate><guid>https://yunhaimath.com/posts/expander-graphs/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
+&lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;div class="bib-env"&gt;
+&lt;ul class="bib-list"&gt;
+&lt;li id="bib-Mum07" data-bib-key="Mum07"&gt;
+&lt;span class="bib-label"&gt;[Mum07]&lt;/span&gt;David Mumford. &lt;em&gt;Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations&lt;/em&gt;. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.&lt;/li&gt;
+&lt;li id="bib-CDFKSW22" data-bib-key="CDFKSW22"&gt;
+&lt;span class="bib-label"&gt;[CDFKSW22]&lt;/span&gt;Edgar Costa, Ravi Donepudi, Ravi Fernando, Valentijn Karemaker, Caleb Springer, and Mckenzie West. &lt;em&gt;Restrictions on Weil polynomials of Jacobians of hyperelliptic curves&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry, Number Theory, and Computation&lt;/em&gt;. pp. 259--276. Springer. 2022. &lt;a href="https://doi.org/10.1007/978-3-030-80914-0_7"&gt;doi:10.1007/978-3-030-80914-0_7&lt;/a&gt;. &lt;a href="https://arxiv.org/abs/2002.02067"&gt;arXiv:2002.02067&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description></item><item><title>Expander Graphs</title><link>https://yunhaimath.com/posts/expander-graphs/</link><pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate><guid>https://yunhaimath.com/posts/expander-graphs/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
 &lt;div class="yh-pullquote-text"&gt;
 Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
 &lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— Hermann Weyl&lt;/div&gt;&lt;/aside&gt;

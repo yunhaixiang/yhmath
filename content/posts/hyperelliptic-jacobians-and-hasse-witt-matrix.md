@@ -72,7 +72,7 @@ This polynomial appears in the numerator of the Weil zeta function
 
 $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$
 
-by Weil's conjecture.
+by Weil's conjecture. Additionally, the $L$-polynomial (Weil polynomial) of an abelian variety determines it up to $\mathbb F_q$-isogeny. This is a very deep result of Honda-Tate theory. 
 
 {{< proposition >}}
 Same setting as above, then
@@ -85,7 +85,26 @@ We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb 
 $\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done. 
 {{< /proof >}}
 
-Specifically, it is very fruitful to consider the $L$-polynomial mod $2$ (recall we are assuming odd characteristics). 
+Specifically, it turns out that it is very fruitful to consider the $L$-polynomial mod $2$ (recall we are assuming odd characteristics), as demonstrated by a paper by Costa–Donepudi–Fernando–Karemaker–Springer–West {{< cite key="CDFKSW22" >}}. We present their main theorem.
+
+{{< theorem id="thm-hyp">}}
+Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. Let the partition $(d_1,...,d_r)$ of $2g+2$ be the cycle type of the permutation of Frobenius on the $2g+2$ geometric branch points of $C\to \mathbb P^1$, then we have
+$$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
+{{< /theorem >}}
+{{< proof note="Sketch">}}
+We have the standard result that $J[2]$ is $2g$-dimensional over $\mathbb F_2$. Let $W$ be the $2g+2$ geometric branch points, then we have a vector space $\mathbb F_2^W=\mathbb F_2^{2g+2}$ with a Frobenius action. Straightforwardly, the Frobenius can be represented as a block diagonal matrix over $\mathbb F_2^W$ with blocks of sizes $d_1,...,d_r$, each one a cyclic permutation matrix. One easily finds the characteristic polynomial to be $\prod_{i=1}^r(1-T^{d_i})\in\mathbb F_2[T]$. A standard result of Mumford {{< cite key="Mum07" >}} says: if $e\in J[2]$, then as a divisor either $e=\sum_{P\in U}P-|U|(\infty)$ (if $\infty$ is ramified) or $e=\sum_{P\in U}P-\frac{|U|}{2}(\infty_1+\infty_2)$ (if $\infty$ splits in two), for some subset $U\subseteq W$ of even size, where two such representations agree iff $U_1=U_2$ or $U_1=W\setminus U_2$. Let $Z=\langle (1,\dots,1) \rangle$ and $Z^\perp$ be the orthogonal space then it is the subspace of vectors of an even number of nonzero entries. Frobenius acts stably and also invertibly on the quotient $\mathbb F_2^W/Z^{\perp}$, so one finds the characteristic polynomial of the Frobenius on $Z^{\perp}$ to be $(1-T)^{-1}\prod_{i=1}^r(1-T^{d_i})$ via the exact sequence. Similarly by considering $Z^{\perp}/Z$, one finds the characteristic polynomial $(1-T)^{-2}\prod_{i=1}^r(1-T^{d_i})$, and voila. 
+{{< /proof >}}
+
+Notably, this explains a numerical phenomenon when I was producing large amount of data. Still assuming odd characteristics:
+
+{{< proposition >}}
+Let $C/\mathbb F_q$ be a hyperelliptic curve of genus $g>2$ such that $L_C(T)=1+a_gT^g+q^gT^{2g}$, then $a_g$ is even. 
+{{< /proposition >}}
+{{< proof >}}
+Since $q^n$ is odd $L_C(T)\equiv 1+T^g+T^{2g}\pmod{2}$. By {{< refer id="thm-hyp" >}} we have in $\mathbb F_2[T]$
+$$(1+T)^2(1+T^g+T^{2g})=\prod_{i=1}^r(1+T^{d_i})$$
+swapping negative signs with positive ones. The LHS has exactly two linear factors, and the RHS $1+T^{d_i}$ contributes one linear factor if $d_i$ is odd and two if $d_i$ is even. Thus, the number of Frobenius cycles can only be $1$ or $2$, but then the RHS would not have $6$ terms, contradiction.  
+{{< /proof >}}
 
 The above analysis helps us understand the $L$-polynomial mod $\ell$, where $\ell\ne p$. However it does not help us understand it mod $p$. The Hasse-Witt matrix helps us understand the $L$-polynomial mod $p$. 
 
@@ -102,7 +121,7 @@ Let $k$ be a perfect field of characteristic $p > 0$, and let $X$ be a smooth pr
 Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$. 
 {{< /definition >}}
 
-Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to the Hasse-Witt matrix. 
+Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
 
 Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
 
@@ -123,4 +142,13 @@ The _Cartier operator_ $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defi
 
 Concretely, we can derive a formula for the Cartier operator as follows. 
 
+## References
 
+{{< bibliography >}}
+  {{< bibitem key="Mum07" author="David Mumford" type="book" series="Modern Birkhäuser Classics" publisher="Birkhäuser Boston" year="2007" >}}
+  Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations
+  {{< /bibitem >}}
+  {{< bibitem key="CDFKSW22" author="Edgar Costa, Ravi Donepudi, Ravi Fernando, Valentijn Karemaker, Caleb Springer, and Mckenzie West" type="incollection" booktitle="Arithmetic Geometry, Number Theory, and Computation" series="Simons Symposia" publisher="Springer" pages="259--276" year="2022" doi="10.1007/978-3-030-80914-0_7" eprint="2002.02067" >}}
+  Restrictions on Weil polynomials of Jacobians of hyperelliptic curves
+  {{< /bibitem >}}
+{{< /bibliography >}}
