@@ -14,22 +14,6 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
 
 
 
-
-## Serre Duality
-
-Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
-
-{{< lemma >}}
-For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(X,\mathcal O_X(D))\cong \mathbb{A}_X/(\mathbb{A}_X(D)+\mathcal K(X))$, where $\mathcal K(X)$ embeds diagonally. 
-{{< /lemma >}}
-{{< proof >}}
-
-{{< /proof >}}
-
-{{< theorem note="Serre Duality">}}
-{{< /theorem >}}
-
-
 ## Arithmetic of Hyperelliptic Curves
 
 Recall a hyperelliptic curve $C/\mathbb F_q$ is a smooth projective curve of genus $\ge 2$ with a degree $2$ map to $\mathbb P^1$. Assume the characteristic of $\mathbb F_q$ is odd, it has affine model $y^2=f(x)$, where $f(x)$ is square free. 
@@ -101,8 +85,9 @@ We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb 
 $\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done. 
 {{< /proof >}}
 
+Specifically, it is very fruitful to consider the $L$-polynomial mod $2$ (recall we are assuming odd characteristics). 
 
-The Hasse-Witt matrix helps us determine the $L$-polynomial mod $p$. 
+The above analysis helps us understand the $L$-polynomial mod $\ell$, where $\ell\ne p$. However it does not help us understand it mod $p$. The Hasse-Witt matrix helps us understand the $L$-polynomial mod $p$. 
 
 ## Semilinear Algebra and Hasse–Witt Matrix
 
@@ -117,7 +102,20 @@ Let $k$ be a perfect field of characteristic $p > 0$, and let $X$ be a smooth pr
 Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$. 
 {{< /definition >}}
 
-Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator. 
+Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to the Hasse-Witt matrix. 
+
+Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
+
+{{< lemma >}}
+For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(X,\mathcal O_X(D))\cong \mathbb{A}_X/(\mathbb{A}_X(D)+\mathcal K(X))$, where $\mathcal K(X)$ embeds diagonally. 
+{{< /lemma >}}
+{{< proof >}}
+
+{{< /proof >}}
+
+{{< theorem note="Serre Duality">}}
+{{< /theorem >}}
+
 
 {{< definition >}}
 The _Cartier operator_ $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
@@ -126,6 +124,3 @@ The _Cartier operator_ $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defi
 Concretely, we can derive a formula for the Cartier operator as follows. 
 
 
-## $L$-polynomials mod 2
-
-Now we try to understand the $L$-polynomial mod $2$. 
