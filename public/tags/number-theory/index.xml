@@ -17,9 +17,9 @@
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— André Weil&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.&lt;/p&gt;
+&lt;p&gt;Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.&lt;/p&gt;
 &lt;h2 id=&#34;serre-duality&#34;&gt;Serre Duality&lt;/h2&gt;
-&lt;p&gt;Recall that Serre duality gives a perfect pairing $H^0(X,\Omega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\Omega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the &lt;em&gt;local principal part&lt;/em&gt; of $\alpha$ at $P$, which we shall explain.&lt;/p&gt;
+&lt;p&gt;Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the &lt;em&gt;local principal part&lt;/em&gt; of $\alpha$ at $P$, which we shall explain.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
@@ -121,7 +121,7 @@ which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\righta
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
-    
+    id=&#34;lem-tors&#34;
      data-kind=&#34;lemma&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
@@ -192,16 +192,49 @@ $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;The L-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
+    &lt;p&gt;The $L$-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
 &lt;/p&gt;
-$$L_C(T)=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}({\mathrm{Jac}(C)}_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$&lt;p&gt;
-where $\ell$ is an invertible prime in $C$.&lt;/p&gt;
+$$L_C(T)=\mathrm{det}(1-TF|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-TF|\mathrm{H^1}(J_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$&lt;p&gt;
+where $F=\mathrm{Frob}_q^{-1}$ is the geometric Frobenius, $\ell$ is an invertible prime in $C$, and $J=\mathrm{Jac}(C)$.&lt;/p&gt;
 
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;By Weil&#39;s conjecture, this polynomial appears in the numerator of the Weil zeta function&lt;/p&gt;
-$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$&lt;p&gt;The Hasse-Witt matrix helps us determine this polynomial mod $p$.&lt;/p&gt;
+&lt;p&gt;This polynomial appears in the numerator of the Weil zeta function&lt;/p&gt;
+$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$&lt;p&gt;by Weil&#39;s conjecture.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Same setting as above, then
+&lt;/p&gt;
+$$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;Write $J[\ell]$ in terms of the Tate module $T_\ell J=\varprojlim J[\ell^n]$, as $J[\ell]\cong T_\ell J/\ell T_\ell J $, which is a $\mathrm{Gal}_k$-module isomorphism. Therefore
+&lt;/p&gt;
+$$\det (1-T\mathrm{Frob}_q|J[\ell])\equiv \det (1-T\mathrm{Frob}_q|T_\ell J/\ell T_\ell J )\equiv \det (1-T\mathrm{Frob}_q|T_\ell J )\pmod{\ell}$$&lt;p&gt;
+We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell)$ by showing $T_\ell J\cong H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell(1))$ and using Poincare duality, where we recall $\mathbb Z_\ell(1)=\varprojlim \mu_{\ell^n}$ is the Tate twist. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tors&#34;&gt;⟦ref:lem-tors⟧&lt;/span&gt;, we have $J[\ell^n]=\mathrm{Pic}(C)[\ell^n]=H^1(C,\mu_{\ell^n})=H^1(C,(\mathbb Z/\ell^n)(1))$, and passing to the limit we have $T_\ell J\cong H^1(C,\mathbb Z_\ell (1))\cong H^1(C,\mathbb Z_\ell)^\vee$. Therefore a matrix over $T_\ell J$ can be identified as its inverse transpose over $H^1(C,\mathbb Z_\ell)^\vee$. Transpose does not change characteristic polynomial, so
+$\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The Hasse-Witt matrix helps us determine the $L$-polynomial mod $p$.&lt;/p&gt;
 &lt;h2 id=&#34;semilinear-algebra-and-hassewitt-matrix&#34;&gt;Semilinear Algebra and Hasse–Witt Matrix&lt;/h2&gt;
 &lt;p&gt;Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon}:=\varepsilon(a)$ for all $a \in K$. A map $T: V \to W$ between two $K$-vector spaces is called $\varepsilon$-semilinear if it satisfies the following properties for all $v, w \in V$ and $a \in K$: $T(v + w) = T(v) + T(w)$ and $T(av) = a^{\varepsilon} T(v)$. Let $E=(e_1, \ldots, e_n)$ and $F=(f_1,\dots,f_n)$ be an ordered basis for $V$, we represent a $\varepsilon$-semilinear map $T$ by a matrix $[T]_{E}^{F}$. Unlike in linear algebra, we have $[Tv]_{F} = [T]_{E}^{F} [v]_{E}^{\varepsilon}$, where $[v]_{E}^{\varepsilon}$ is obtained by applying $\varepsilon$ to each entry of $[v]_{E}$, and change of basis is: $[T]_{F}^{F} = [\mathrm{id}]_{E}^{F} [T]_E^E([\mathrm{id}]_{E}^{F})^{\varepsilon}$. Iteration is given by $[T^n]_{E}^{E} = [T]_E^E ([T]_E^E)^{\varepsilon} \cdots ([T]_E^E)^{\varepsilon^{n-1}}$.&lt;/p&gt;
 &lt;p&gt;Let $V^*$ be the dual of $V$ and $E^*=(e^1, \ldots, e^n)$ be the corresponding dual basis. If $T: V \to W$ is a $\varepsilon$-semilinear map, then its adjoint $T^*: W^* \to V^*$ is a $\varepsilon^{-1}$-semilinear map and is characterized by the property that $\langle Tv, w \rangle = \langle v, T^* w \rangle^{\varepsilon^{-1}}$ for all $v \in V$ and $w \in W^*$. In terms of matrices, we have $[T^*]_{F^*}^{E^*} = ([T]_E^F)^{t,\varepsilon^{-1}}$, where $t$ denotes the transpose.&lt;/p&gt;
@@ -220,7 +253,7 @@ $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\fra
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Let $\Omega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator.&lt;/p&gt;
+&lt;p&gt;Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
@@ -231,12 +264,13 @@ $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\fra
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    The &lt;em&gt;Cartier operator&lt;/em&gt; $C:H^0(X,\Omega^1_X) \to H^0(X,\Omega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\Omega^1_X)$.
+    The &lt;em&gt;Cartier operator&lt;/em&gt; $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;
-&lt;h2 id=&#34;l-polynomials-mod-2&#34;&gt;L-polynomials mod 2&lt;/h2&gt;
+&lt;h2 id=&#34;-polynomials-mod-2&#34;&gt;$L$-polynomials mod 2&lt;/h2&gt;
+&lt;p&gt;Now we try to understand the $L$-polynomial mod $2$.&lt;/p&gt;
 </description>
     </item>
     

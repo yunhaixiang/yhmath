@@ -9,7 +9,7 @@ tags: ["algebraic-geometry", "number-theory", "math"]
 God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
 {{< /pullquote >}}
 
-Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve's Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.
+Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus. 
 
 
 
@@ -17,7 +17,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
 
 ## Serre Duality
 
-Recall that Serre duality gives a perfect pairing $H^0(X,\Omega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\Omega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
+Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
 
 {{< lemma >}}
 For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(X,\mathcal O_X(D))\cong \mathbb{A}_X/(\mathbb{A}_X(D)+\mathcal K(X))$, where $\mathcal K(X)$ embeds diagonally. 
@@ -60,7 +60,7 @@ This induces long exact sequence
 $$H^0\left(C, \mathcal{O}_{C_{\varepsilon}}^{\times}\right) \rightarrow H^0\left(C, \mathcal{O}_C^{\times}\right) \rightarrow H^1\left(C, \mathcal{O}_C\right) \longrightarrow H^1\left(C, \mathcal{O}_{C_{\varepsilon}}^{\times}\right)=\mathrm{Pic}(C_{\varepsilon}) \longrightarrow H^1\left(C, \mathcal{O}_C^{\times}\right)=\mathrm{Pic}(C)$$
 which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\rightarrow \mathrm{Pic}(C))=T_0\mathrm{Pic}_C$
 {{< /proof >}}
-{{< lemma >}}
+{{< lemma id="lem-tors">}}
 For smooth projective curve $X$ over $\overline{k}$ with $\ell$ an invertible prime, $H^1(X,\mu_{\ell^n})=\mathrm{Pic}(X)[\ell^n]$.
 {{< /lemma >}}
 {{< proof >}}
@@ -79,26 +79,30 @@ We have
 $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.  
 {{< /proof >}}
 
-{{< definition >}}The L-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
-$$L_C(T)=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}({\mathrm{Jac}(C)}_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$
-where $\ell$ is an invertible prime in $C$. 
+{{< definition >}}The $L$-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
+$$L_C(T)=\mathrm{det}(1-TF|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-TF|\mathrm{H^1}(J_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$
+where $F=\mathrm{Frob}_q^{-1}$ is the geometric Frobenius, $\ell$ is an invertible prime in $C$, and $J=\mathrm{Jac}(C)$. 
 {{< /definition >}}
 
-By Weil's conjecture, this polynomial appears in the numerator of the Weil zeta function
+This polynomial appears in the numerator of the Weil zeta function
 
 $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$
+
+by Weil's conjecture.
 
 {{< proposition >}}
 Same setting as above, then
 $$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
-where $\ell$ is a prime invertible in $\mathbb F_q$,
 {{< /proposition>}}
 {{< proof >}}
-
+Write $J[\ell]$ in terms of the Tate module $T_\ell J=\varprojlim J[\ell^n]$, as $J[\ell]\cong T_\ell J/\ell T_\ell J $, which is a $\mathrm{Gal}_k$-module isomorphism. Therefore
+$$\det (1-T\mathrm{Frob}_q|J[\ell])\equiv \det (1-T\mathrm{Frob}_q|T_\ell J/\ell T_\ell J )\equiv \det (1-T\mathrm{Frob}_q|T_\ell J )\pmod{\ell}$$
+We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell)$ by showing $T_\ell J\cong H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell(1))$ and using Poincare duality, where we recall $\mathbb Z_\ell(1)=\varprojlim \mu_{\ell^n}$ is the Tate twist. By {{< refer "lem-tors" >}}, we have $J[\ell^n]=\mathrm{Pic}(C)[\ell^n]=H^1(C,\mu_{\ell^n})=H^1(C,(\mathbb Z/\ell^n)(1))$, and passing to the limit we have $T_\ell J\cong H^1(C,\mathbb Z_\ell (1))\cong H^1(C,\mathbb Z_\ell)^\vee$. Therefore a matrix over $T_\ell J$ can be identified as its inverse transpose over $H^1(C,\mathbb Z_\ell)^\vee$. Transpose does not change characteristic polynomial, so 
+$\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done. 
 {{< /proof >}}
 
 
-The Hasse-Witt matrix helps us determine this polynomial mod $p$. 
+The Hasse-Witt matrix helps us determine the $L$-polynomial mod $p$. 
 
 ## Semilinear Algebra and Hasse–Witt Matrix
 
@@ -113,13 +117,15 @@ Let $k$ be a perfect field of characteristic $p > 0$, and let $X$ be a smooth pr
 Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$. 
 {{< /definition >}}
 
-Let $\Omega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator. 
+Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator. 
 
 {{< definition >}}
-The _Cartier operator_ $C:H^0(X,\Omega^1_X) \to H^0(X,\Omega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\Omega^1_X)$.
+The _Cartier operator_ $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
 {{< /definition >}}
 
 Concretely, we can derive a formula for the Cartier operator as follows. 
 
 
-## L-polynomials mod 2
+## $L$-polynomials mod 2
+
+Now we try to understand the $L$-polynomial mod $2$. 

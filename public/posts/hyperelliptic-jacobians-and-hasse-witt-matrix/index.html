@@ -14,7 +14,7 @@
   
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
   — André Weil
-Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.">
+Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
   
 
   
@@ -54,12 +54,12 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta property="og:url" content="http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Hyperelliptic Jacobians and Hasse–Witt Matrix">
-  <meta property="og:description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.">
+  <meta property="og:description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-05-15T14:28:09-04:00">
-    <meta property="article:modified_time" content="2026-05-24T20:09:54-04:00">
+    <meta property="article:modified_time" content="2026-05-24T20:47:11-04:00">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Number-Theory">
     <meta property="article:tag" content="Math">
@@ -72,10 +72,10 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   
   
   <meta itemprop="name" content="Hyperelliptic Jacobians and Hasse–Witt Matrix">
-  <meta itemprop="description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.">
+  <meta itemprop="description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
   <meta itemprop="datePublished" content="2026-05-15T14:28:09-04:00">
-  <meta itemprop="dateModified" content="2026-05-24T20:09:54-04:00">
-  <meta itemprop="wordCount" content="1260">
+  <meta itemprop="dateModified" content="2026-05-24T20:47:11-04:00">
+  <meta itemprop="wordCount" content="1395">
   <meta itemprop="keywords" content="Algebraic-Geometry,Number-Theory,Math">
 
   
@@ -98,7 +98,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Hyperelliptic Jacobians and Hasse–Witt Matrix">
-  <meta name="twitter:description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve&#39;s Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.">
+  <meta name="twitter:description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
 
 
   
@@ -191,7 +191,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1260 words
+          1395 words
         </span>
       
       
@@ -204,7 +204,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~6 mins
+          ~7 mins
         </span>
       
     </div>
@@ -243,7 +243,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
     <li><a href="#serre-duality">Serre Duality</a></li>
     <li><a href="#arithmetic-of-hyperelliptic-curves">Arithmetic of Hyperelliptic Curves</a></li>
     <li><a href="#semilinear-algebra-and-hassewitt-matrix">Semilinear Algebra and Hasse–Witt Matrix</a></li>
-    <li><a href="#l-polynomials-mod-2">L-polynomials mod 2</a></li>
+    <li><a href="#-polynomials-mod-2">-polynomials mod 2</a></li>
   </ul>
 </nav></div>
   </details>
@@ -254,9 +254,9 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <div class="yh-pullquote-text">
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
   </div><div class="yh-pullquote-attrib">— André Weil</div></aside>
-<p>Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes information about the curve's Jacobian. We will also explore some applications of the Hasse–Witt matrix in number theory and algebraic geometry.</p>
+<p>Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.</p>
 <h2 id="serre-duality">Serre Duality</h2>
-<p>Recall that Serre duality gives a perfect pairing $H^0(X,\Omega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\Omega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the <em>local principal part</em> of $\alpha$ at $P$, which we shall explain.</p>
+<p>Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, the description we shall use here is in terms of residue: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the <em>local principal part</em> of $\alpha$ at $P$, which we shall explain.</p>
 <p><div class="math-env style-plain" 
     
      data-kind="lemma"
@@ -358,7 +358,7 @@ which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\righta
 </div>
 
 <div class="math-env style-plain" 
-    
+    id="lem-tors"
      data-kind="lemma"
      data-lang="en"
      data-numbered="true">
@@ -429,16 +429,17 @@ $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\
         data-label='Definition'></span>
   </span>
   <span class="math-body">
-    <p>The L-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
+    <p>The $L$-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
 </p>
-$$L_C(T)=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-T\mathrm{Frob}_q|\mathrm{H^1}({\mathrm{Jac}(C)}_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$<p>
-where $\ell$ is an invertible prime in $C$.</p>
+$$L_C(T)=\mathrm{det}(1-TF|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-TF|\mathrm{H^1}(J_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$<p>
+where $F=\mathrm{Frob}_q^{-1}$ is the geometric Frobenius, $\ell$ is an invertible prime in $C$, and $J=\mathrm{Jac}(C)$.</p>
 
   </span>
 </div>
 
-<p>By Weil's conjecture, this polynomial appears in the numerator of the Weil zeta function</p>
-$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$<p><div class="math-env style-plain" 
+<p>This polynomial appears in the numerator of the Weil zeta function</p>
+$$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\frac{L_C(T)}{(1-T)(1-qT)}$$<p>by Weil's conjecture.</p>
+<p><div class="math-env style-plain" 
     
      data-kind="proposition"
      data-lang="en"
@@ -450,9 +451,7 @@ $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\fra
   <span class="math-body">
     <p>Same setting as above, then
 </p>
-$$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$<p>
-where $\ell$ is a prime invertible in $\mathbb F_q$,</p>
-
+$$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
   </span>
 </div>
 
@@ -462,12 +461,17 @@ where $\ell$ is a prime invertible in $\mathbb F_q$,</p>
   </span>
 
   <div class="proof-body">
-    
+    <p>Write $J[\ell]$ in terms of the Tate module $T_\ell J=\varprojlim J[\ell^n]$, as $J[\ell]\cong T_\ell J/\ell T_\ell J $, which is a $\mathrm{Gal}_k$-module isomorphism. Therefore
+</p>
+$$\det (1-T\mathrm{Frob}_q|J[\ell])\equiv \det (1-T\mathrm{Frob}_q|T_\ell J/\ell T_\ell J )\equiv \det (1-T\mathrm{Frob}_q|T_\ell J )\pmod{\ell}$$<p>
+We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell)$ by showing $T_\ell J\cong H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell(1))$ and using Poincare duality, where we recall $\mathbb Z_\ell(1)=\varprojlim \mu_{\ell^n}$ is the Tate twist. By <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tors">⟦ref:lem-tors⟧</span>, we have $J[\ell^n]=\mathrm{Pic}(C)[\ell^n]=H^1(C,\mu_{\ell^n})=H^1(C,(\mathbb Z/\ell^n)(1))$, and passing to the limit we have $T_\ell J\cong H^1(C,\mathbb Z_\ell (1))\cong H^1(C,\mathbb Z_\ell)^\vee$. Therefore a matrix over $T_\ell J$ can be identified as its inverse transpose over $H^1(C,\mathbb Z_\ell)^\vee$. Transpose does not change characteristic polynomial, so
+$\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.</p>
+
   </div>
   <span class="proof-qed"></span>
 </div>
 </p>
-<p>The Hasse-Witt matrix helps us determine this polynomial mod $p$.</p>
+<p>The Hasse-Witt matrix helps us determine the $L$-polynomial mod $p$.</p>
 <h2 id="semilinear-algebra-and-hassewitt-matrix">Semilinear Algebra and Hasse–Witt Matrix</h2>
 <p>Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon}:=\varepsilon(a)$ for all $a \in K$. A map $T: V \to W$ between two $K$-vector spaces is called $\varepsilon$-semilinear if it satisfies the following properties for all $v, w \in V$ and $a \in K$: $T(v + w) = T(v) + T(w)$ and $T(av) = a^{\varepsilon} T(v)$. Let $E=(e_1, \ldots, e_n)$ and $F=(f_1,\dots,f_n)$ be an ordered basis for $V$, we represent a $\varepsilon$-semilinear map $T$ by a matrix $[T]_{E}^{F}$. Unlike in linear algebra, we have $[Tv]_{F} = [T]_{E}^{F} [v]_{E}^{\varepsilon}$, where $[v]_{E}^{\varepsilon}$ is obtained by applying $\varepsilon$ to each entry of $[v]_{E}$, and change of basis is: $[T]_{F}^{F} = [\mathrm{id}]_{E}^{F} [T]_E^E([\mathrm{id}]_{E}^{F})^{\varepsilon}$. Iteration is given by $[T^n]_{E}^{E} = [T]_E^E ([T]_E^E)^{\varepsilon} \cdots ([T]_E^E)^{\varepsilon^{n-1}}$.</p>
 <p>Let $V^*$ be the dual of $V$ and $E^*=(e^1, \ldots, e^n)$ be the corresponding dual basis. If $T: V \to W$ is a $\varepsilon$-semilinear map, then its adjoint $T^*: W^* \to V^*$ is a $\varepsilon^{-1}$-semilinear map and is characterized by the property that $\langle Tv, w \rangle = \langle v, T^* w \rangle^{\varepsilon^{-1}}$ for all $v \in V$ and $w \in W^*$. In terms of matrices, we have $[T^*]_{F^*}^{E^*} = ([T]_E^F)^{t,\varepsilon^{-1}}$, where $t$ denotes the transpose.</p>
@@ -486,7 +490,7 @@ where $\ell$ is a prime invertible in $\mathbb F_q$,</p>
   </span>
 </div>
 
-<p>Let $\Omega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator.</p>
+<p>Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator.</p>
 <div class="math-env style-defn" 
     
      data-kind="definition"
@@ -497,12 +501,13 @@ where $\ell$ is a prime invertible in $\mathbb F_q$,</p>
         data-label='Definition'></span>
   </span>
   <span class="math-body">
-    The <em>Cartier operator</em> $C:H^0(X,\Omega^1_X) \to H^0(X,\Omega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\Omega^1_X)$.
+    The <em>Cartier operator</em> $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
   </span>
 </div>
 
 <p>Concretely, we can derive a formula for the Cartier operator as follows.</p>
-<h2 id="l-polynomials-mod-2">L-polynomials mod 2</h2>
+<h2 id="-polynomials-mod-2">$L$-polynomials mod 2</h2>
+<p>Now we try to understand the $L$-polynomial mod $2$.</p>
 
     
 
