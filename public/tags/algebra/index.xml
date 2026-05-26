@@ -1,128 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algebra on Yunhai Xiang</title><link>https://yunhaimath.com/tags/algebra/</link><description>Recent content in Algebra on Yunhai Xiang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 18 Jan 2026 23:38:19 -0500</lastBuildDate><atom:link href="https://yunhaimath.com/tags/algebra/index.xml" rel="self" type="application/rss+xml"/><item><title>Brauer Groups Part II</title><link>https://yunhaimath.com/posts/brauer2/</link><pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate><guid>https://yunhaimath.com/posts/brauer2/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
-&lt;div class="yh-pullquote-text"&gt;
-The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
-&lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href="https://yunhaimath.com/posts/brauer1"&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="Poo17"&gt;
-⟦cite:Poo17⟧
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algebra on Yunhai Xiang</title>
+    <link>http://localhost:1313/tags/algebra/</link>
+    <description>Recent content in Algebra on Yunhai Xiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jan 2026 23:38:19 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brauer Groups Part II</title>
+      <link>http://localhost:1313/posts/brauer2/</link>
+      <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/brauer2/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Poo17&#34;&gt;
+  ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
-&lt;h2 id="cohomological-interpretation-of-the-brauer-group"&gt;Cohomological Interpretation of the Brauer Group&lt;/h2&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-id="prop-azumaya-to-pglr"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;For each $r\ge 1$, there is injection
+&lt;h2 id=&#34;cohomological-interpretation-of-the-brauer-group&#34;&gt;Cohomological Interpretation of the Brauer Group&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;prop-azumaya-to-pglr&#34;
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For each $r\ge 1$, there is injection
 &lt;/p&gt;
 $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomorphism}}\hookrightarrow \mathrm{H}^1(K,\mathrm{PGL}_r)$$
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-id="thm-brauer-cohomology"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;There is an isomorphism of abelian groups
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;thm-brauer-cohomology&#34;
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;There is an isomorphism of abelian groups
 &lt;/p&gt;
 $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-&lt;p&gt;Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
 &lt;/p&gt;
 $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$&lt;p&gt;
 gives a long exact sequence
 &lt;/p&gt;
 $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$&lt;p&gt;
-Composing the injection from &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="prop-azumaya-to-pglr"&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;/p&gt;
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id="examples-of-brauer-groups-of-fields"&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-id="prop-brauer-cohomology-mun"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $K$ be a field, then&lt;/p&gt;
-&lt;ol class="enum-i surround-paren"&gt;
+&lt;h2 id=&#34;examples-of-brauer-groups-of-fields&#34;&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;prop-brauer-cohomology-mun&#34;
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $K$ be a field, then&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;If $\mathrm{char}(K)\nmid n$, then $\mathrm H^1(K, \mu_n)=K^\times/K^{\times n}$.&lt;/li&gt;
 &lt;li&gt;If $\mathrm{char}(K)\nmid n$, then $\mathrm H^2(K, \mu_n)\cong \mathrm{Br}(K)\left[n\right]$.&lt;/li&gt;
 &lt;li&gt;For any Galois extension $L\mid K$, we have $\mathrm H^2(\mathrm{Gal}(L\mid K), L^\times)=\mathrm{Ker}(\mathrm{Br}(K)\rightarrow\mathrm{Br}(L))$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-&lt;ol class="enum-i surround-paren"&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;Take short exact sequence
 $$1\to \mu_n\to \mathbb{G}_m\xrightarrow{(\cdot)^n} \mathbb{G}_m\to 1$$
 and take cohomology to get long exact sequence
-$$\cdots \to \mathrm H^0(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^0(K, \mathbb{G}_m)\to \mathrm H^1(K, \mu_n)\to \mathrm H^1(K, \mathbb{G}_m)\to \cdots$$ then use Hilbert's Theorem 90 to conclude.&lt;/li&gt;
+$$\cdots \to \mathrm H^0(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^0(K, \mathbb{G}_m)\to \mathrm H^1(K, \mu_n)\to \mathrm H^1(K, \mathbb{G}_m)\to \cdots$$ then use Hilbert&#39;s Theorem 90 to conclude.&lt;/li&gt;
 &lt;li&gt;Same idea as above, taking the same short exact sequence and taking cohomology to get long exact sequence
-$$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, \mathbb{G}_m)\to \mathrm H^2(K, \mu_n)\to \mathrm H^2(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^2(K, \mathbb{G}_m) \to \cdots$$ then use Hilbert's Theorem 90 to conclude.&lt;/li&gt;
+$$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, \mathbb{G}_m)\to \mathrm H^2(K, \mu_n)\to \mathrm H^2(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^2(K, \mathbb{G}_m) \to \cdots$$ then use Hilbert&#39;s Theorem 90 to conclude.&lt;/li&gt;
 &lt;li&gt;Skipped&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Here are some examples of Brauer groups of fields:&lt;/p&gt;
-&lt;ol class="enum-i surround-paren"&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Here are some examples of Brauer groups of fields:&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;If $K$ is algebraically closed, $\mathrm{Br}(K)=0$,&lt;/li&gt;
 &lt;li&gt;If $K$ is finite, then $\mathrm{Br}(K)=0$,&lt;/li&gt;
 &lt;li&gt;If $K=\mathbb{R}$, then $\mathrm{Br}(\mathbb{R})\cong \mathbb{Z}/2\mathbb{Z}$,&lt;/li&gt;
@@ -131,572 +157,652 @@ data-label='Proposition'&gt;&lt;/span&gt;
 $$0\to \mathrm{Br}(K)\to \bigoplus_v \mathrm{Br}(K_v)\xrightarrow{\sum \mathrm{inv}_v} \mathbb{Q}/\mathbb{Z}\to 0$$
 where the sum is over all places $v$ of $K$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-&lt;ol class="enum-i surround-paren"&gt;
-&lt;li&gt;By &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="thm-brauer-cohomology"&gt;⟦ref:thm-brauer-cohomology⟧&lt;/span&gt;, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.&lt;/li&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
+&lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-brauer-cohomology&#34;&gt;⟦ref:thm-brauer-cohomology⟧&lt;/span&gt;, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.&lt;/li&gt;
 &lt;li&gt;Any central division algebra over a finite field is finite, hence by Wedderburn’s little theorem is a field, hence every Azumaya algebra over a finite field is some $\mathrm M_n(K)\sim K$, so the Brauer group is trivial.&lt;/li&gt;
 &lt;li&gt;The only Azumaya algebras over $\mathbb{R}$ are $\mathbb{R}$ and the Hamiltonian quaternions $\mathbb{H}$ so the Brauer group is $\mathbb{Z}/2\mathbb{Z}$.&lt;/li&gt;
 &lt;li&gt;It suffice to show for each $n\ge 1$ we have $\mathrm{Br}(K)[n]\cong \mathbb{Z}/n\mathbb{Z}$, so that
 $$\mathrm{Br}(K)=\lim_{\longrightarrow}\mathrm{Br}(K)[n]\cong\lim_{\longrightarrow}\mathbb{Z}/n\mathbb{Z}=\lim_{\longrightarrow} \frac{1}{n}\mathbb Z/\mathbb Z=\mathbb Q/\mathbb Z$$
-By &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="prop-brauer-cohomology-mun"&gt;⟦ref:prop-brauer-cohomology-mun⟧&lt;/span&gt; part (ii), we have $\mathrm{Br}(K)[n]\cong \mathrm H^2(K, \mu_n)$. By Tate local duality from local class field theory, we have $\mathrm H^2(K, \mu_n)\cong \mathbb{Z}/n\mathbb{Z}$ as required.&lt;/li&gt;
+By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-brauer-cohomology-mun&#34;&gt;⟦ref:prop-brauer-cohomology-mun⟧&lt;/span&gt; part (ii), we have $\mathrm{Br}(K)[n]\cong \mathrm H^2(K, \mu_n)$. By Tate local duality from local class field theory, we have $\mathrm H^2(K, \mu_n)\cong \mathbb{Z}/n\mathbb{Z}$ as required.&lt;/li&gt;
 &lt;li&gt;Skipped&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $G$ be a profinite group and $p$ a prime. The &lt;em&gt;$p$-cohomological dimension&lt;/em&gt; $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i&gt;n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
-&lt;/span&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
-&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $G$ be a profinite group and $p$ a prime. The &lt;em&gt;$p$-cohomological dimension&lt;/em&gt; $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i&gt;n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n&gt;d^r$ has a nontrivial zero in $K$. The adjective &lt;em&gt;quasi-algebraically closed&lt;/em&gt; means $C_1$.
-&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;If $K$ is a $C_r$ field, $L\mid K$ an extension,&lt;/p&gt;
-&lt;ol class="enum-i surround-paren"&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n&gt;d^r$ has a nontrivial zero in $K$. The adjective &lt;em&gt;quasi-algebraically closed&lt;/em&gt; means $C_1$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;If $K$ is a $C_r$ field, $L\mid K$ an extension,&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;If $L$ is algebraic over $K$, then $L$ is $C_r$.&lt;/li&gt;
 &lt;li&gt;If $L$ is transcendental of trasncendence degree $s$ over $K$, then then $L$ is $C_{r+s}$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Chevalley–Warning)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-If $K$ is a finite field, then $K$ is $C_1$.
-&lt;/span&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Chevalley–Warning)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $K$ is a finite field, then $K$ is $C_1$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
+  &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id="period-and-index"&gt;Period and Index&lt;/h2&gt;
-&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-The &lt;em&gt;index&lt;/em&gt; of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The &lt;em&gt;period&lt;/em&gt; of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$.
-&lt;/span&gt;
+&lt;h2 id=&#34;period-and-index&#34;&gt;Period and Index&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The &lt;em&gt;index&lt;/em&gt; of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The &lt;em&gt;period&lt;/em&gt; of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
-&lt;/span&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-&lt;p&gt;We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity &lt;/p&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity &lt;/p&gt;
 $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$&lt;p&gt;
 we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
+  &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id="cyclic-algebras"&gt;Cyclic Algebras&lt;/h2&gt;
+&lt;h2 id=&#34;cyclic-algebras&#34;&gt;Cyclic Algebras&lt;/h2&gt;
 &lt;p&gt;Let $L\mid K$ be a degree $n$ cyclic extension, $a\in K^\times$ and $\sigma$ a generator of $\mathrm{Gal}(L\mid K)$. Let $L[x]_{\sigma}$ be the twisted polynomial ring with relation $x\ell=\sigma(\ell)x$ for all $\ell\in L$. Let $A=L[x]_{\sigma}/(x^n - a)$. It is straightforward to check that $A$ is a central simple algebra over $K$ of dimension $n^2$ that splits over $L$. Azumaya algebras of this form are called &lt;em&gt;cyclic algebras&lt;/em&gt;. Generally, we have the following.&lt;/p&gt;
-&lt;p&gt;&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The &lt;em&gt;cyclic algebra&lt;/em&gt; associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The &lt;em&gt;cyclic algebra&lt;/em&gt; associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
 $(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
 &lt;/p&gt;
 $$\mathrm H^1(K,\mu_n)\times \mathrm H^1(K,\mathbb Z/n\mathbb Z)\to \mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$$&lt;p&gt;
 the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$ that corresponds to the cyclic algebra $(\chi,a)$ up to a sign.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
+  &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id="brauer-groups-of-rings"&gt;Brauer Groups of Rings&lt;/h2&gt;
-&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an &lt;em&gt;Azumaya algebra&lt;/em&gt; over $R$ if&lt;/p&gt;
-&lt;ol class="enum-i surround-paren"&gt;
+&lt;h2 id=&#34;brauer-groups-of-rings&#34;&gt;Brauer Groups of Rings&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an &lt;em&gt;Azumaya algebra&lt;/em&gt; over $R$ if&lt;/p&gt;
+&lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;$A$ is finitely generated projective as an $R$-module,&lt;/li&gt;
 &lt;li&gt;the natural map
 $A\otimes_R A^{\mathrm{op}}\to \mathrm{End}_R(A)$
 by sending $a\otimes b^{\mathrm{op}}\mapsto (x\mapsto axb)$
 is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
-&lt;/span&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Two Azumaya algebras $A$ and $B$ over $R$ are &lt;em&gt;Brauer equivalent&lt;/em&gt; if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The &lt;em&gt;Brauer group&lt;/em&gt; $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Two Azumaya algebras $A$ and $B$ over $R$ are &lt;em&gt;Brauer equivalent&lt;/em&gt; if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The &lt;em&gt;Brauer group&lt;/em&gt; $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
+  &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}'(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}'(R)$ but it is not necessarily surjective. The same is true for schemes.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}&#39;(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}&#39;(R)$ but it is not necessarily surjective. The same is true for schemes.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;div class="bib-env"&gt;
-&lt;ul class="bib-list"&gt;
-&lt;li id="bib-Poo17" data-bib-key="Poo17"&gt;
-&lt;span class="bib-label"&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+
 &lt;/ul&gt;
-&lt;/div&gt;</description></item><item><title>Brauer Groups Part I</title><link>https://yunhaimath.com/posts/brauer1/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://yunhaimath.com/posts/brauer1/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
-&lt;div class="yh-pullquote-text"&gt;
-The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
-&lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras (or Azumaya algebras) over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="Poo17"&gt;
-⟦cite:Poo17⟧
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Brauer Groups Part I</title>
+      <link>http://localhost:1313/posts/brauer1/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Today we study the Brauer group of a field, which classifies central simple algebras (or Azumaya algebras) over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Poo17&#34;&gt;
+  ⟦cite:Poo17⟧
 &lt;/span&gt; with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.&lt;/p&gt;
 &lt;p&gt;We begin by fixing some notation and terminology common in algebraic number theory. We fix a field $K$ with algebraic closure $\overline{K}$, separable closure $K^{\mathrm{sep}}$, and perfect closure $K^{\mathrm{perf}}$. Denote the absolute Galois group as $\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/K)$. If $K$ is a global field, Let $\Omega_K$ be the set of its places, $S_{\infty}\subset L$ the set of archimedean places. And $S\subseteq \Omega_K$ is said to be an &lt;em&gt;admissible&lt;/em&gt; set of places of $K$ if it contains $S_\infty$. For an admissible set of places $S$ of $K$, denote by $\mathbb Z_{K, S}$ the $S$-integers of $K$ with $\mathbb Z_K=\mathbb Z_{K,S_{\infty}}$ the usual ring of integers. For $S\subseteq \Omega_K$ a finite set of places, denote the ring of $S$-adeles $\mathbb A_{K,S}$ and the usual adeles $\mathbb A_K$. Denote $\mathbb I_{K,S}$ the $S$-ideles and $\mathbb I_K$ the usual ideles.&lt;/p&gt;
-&lt;h2 id="galois-theory-of-étale-algebras"&gt;Galois Theory of Étale Algebras&lt;/h2&gt;
-&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras in &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="def-etale"&gt;⟦ref:def-etale⟧&lt;/span&gt;, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
-&lt;div class="math-env style-defn"
-id="def-etale"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;A $K$-algebra $L$ is said to be &lt;em&gt;étale&lt;/em&gt; if any of the following equivalent conditions are satisfied&lt;/p&gt;
+&lt;h2 id=&#34;galois-theory-of-étale-algebras&#34;&gt;Galois Theory of Étale Algebras&lt;/h2&gt;
+&lt;p&gt;The problem with field extensions $L \mid K$ is that if one has an extension $M\mid K$ then the base change $L\otimes_K M$ is not a field but a $M$-algebra. To solve this issue, we introduce the notion of étale algebras in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-etale&#34;&gt;⟦ref:def-etale⟧&lt;/span&gt;, which comes from étale maps i.e. local homeomorphisms in topology, indeed the notion of étale morphism $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is thought of as an analogy for that.
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-etale&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A $K$-algebra $L$ is said to be &lt;em&gt;étale&lt;/em&gt; if any of the following equivalent conditions are satisfied&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,&lt;/li&gt;
 &lt;li&gt;$L$ is a direct product of finite separable extensions of $K$,&lt;/li&gt;
 &lt;li&gt;the induced map $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is finite and étale.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck's generalization of Galois theory.&lt;/p&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Grothendieck)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
-&lt;/span&gt;
+&lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-See &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1"&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
 &lt;/span&gt;.
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class="math-env style-defn"
-data-kind="example"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Example'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-defn"
-id="def-galois-etale"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a &lt;em&gt;Galois étale algebra&lt;/em&gt; with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-galois-etale&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a &lt;em&gt;Galois étale algebra&lt;/em&gt; with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-remark"
-data-kind="caveat"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Caveat'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-The group $\mathrm{Aut}(L \mid K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L \mid K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;caveat&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The group $\mathrm{Aut}(L \mid K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L \mid K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-If one such $M$ in &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="def-galois-etale"&gt;⟦ref:def-galois-etale⟧&lt;/span&gt; exists, then one can take $M=K^{\mathrm{sep}}$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If one such $M$ in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-galois-etale&#34;&gt;⟦ref:def-galois-etale⟧&lt;/span&gt; exists, then one can take $M=K^{\mathrm{sep}}$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;h2 id="galois-descent"&gt;Galois Descent&lt;/h2&gt;
+
+&lt;h2 id=&#34;galois-descent&#34;&gt;Galois Descent&lt;/h2&gt;
 &lt;p&gt;If $V$ is any $K$-vector space, $L\mid K$ Galois, then $V\otimes_K L$ is a $L$-vector space with a semilinear $G=\mathrm{Gal}(L \mid K)$-action. Recall that:
-&lt;div class="math-env style-defn"
-id="semi-linear-action"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $L\mid K$ be a finite Galois extension with Galois group $G$. A &lt;em&gt;semi-linear action&lt;/em&gt; of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;semi-linear-action&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $L\mid K$ be a finite Galois extension with Galois group $G$. A &lt;em&gt;semi-linear action&lt;/em&gt; of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$.
+  &lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Let $W^G$ be the fixed vector space for any vector space $W$ with $G$-action.&lt;/p&gt;
-&lt;div class="math-env style-plain"
-id="lem-gal-des-1"
-data-kind="lemma"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Lemma'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-gal-des-1&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-gal-des-2&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-id="lem-gal-des-2"
-data-kind="lemma"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Lemma'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
-&lt;/span&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-The two compositions are identities by &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="lem-gal-des-1"&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="lem-gal-des-2"&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class="math-env style-plain"
-id="cor-unique-semi-linear"
-data-kind="corollary"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Corollary'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;cor-unique-semi-linear&#34;
+     data-kind=&#34;corollary&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;h2 id="hilberts-theorem-90"&gt;Hilbert’s Theorem 90&lt;/h2&gt;
+
+&lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert’s Theorem 90&lt;/h2&gt;
 &lt;p&gt;We will abuse notation and use $L$ to also denote the additive group structure. Let $n\in\mathbb N$ such that $n$ does not divide $\mathrm{char}(K)$. We denote by $\mathrm H^q(K,A)$ the Galois cohomology group $\mathrm H^q(\mathrm G_K, A(K^{\mathrm{sep}}))$, where $A$ a commutative group scheme with an action by $\mathrm G_K$.&lt;/p&gt;
-&lt;div class="math-env style-remark"
-data-kind="remark"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Remark'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi&#39;$ are said to be cohomologous if there exists $a\in A$ such that $\xi&#39;_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-id="thm-normal-basis"
-data-kind="lemma"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Lemma'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Normal Basis Theorem)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
-&lt;/span&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;thm-normal-basis&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Normal Basis Theorem)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-See &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="Mil22" data-cite-note="Theorem 5.18"&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 ⟦cite:Mil22⟧
 &lt;/span&gt;.
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class="math-env style-plain"
-id="prop-hilbert-90"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Hilbert’s Theorem 90)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Suppose $L\mid K$ Galois, we have&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;prop-hilbert-90&#34;
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Hilbert’s Theorem 90)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Suppose $L\mid K$ Galois, we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.&lt;/li&gt;
 &lt;li&gt;$\mathrm H^1(\mathrm{Gal}(L \mid K), L^{\times})=0$, and in particular, $\mathrm H^1(K,\mathbb G_m)=0$.&lt;/li&gt;
 &lt;li&gt;$\mathrm H^1(\mathrm{Gal}(L \mid K), \mathrm{GL}_r(L))=0$ for each $r\in\mathbb N$, and in particular, $\mathrm H^1(K,\mathrm{GL}_r)=0$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-&lt;p&gt;Assume $[L:K]&lt;\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.&lt;/p&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;Assume $[L:K]&lt;\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;By &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="thm-normal-basis"&gt;⟦ref:thm-normal-basis⟧&lt;/span&gt;, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro's lemma c.f. &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="Wei13" data-cite-note="Shapiro&amp;#39;s Lemma 6.3.2"&gt;
+&lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-normal-basis&#34;&gt;⟦ref:thm-normal-basis⟧&lt;/span&gt;, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro&#39;s lemma c.f. &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Wei13&#34; data-cite-note=&#34;Shapiro&amp;#39;s Lemma 6.3.2&#34;&gt;
 ⟦cite:Wei13⟧
 &lt;/span&gt;, we have $\mathrm H^q(G,L)\cong \mathrm H^q(\{1\},K)=0$ for all $q\ge 1$.&lt;/li&gt;
 &lt;li&gt;This is a consequence of the next proof.&lt;/li&gt;
@@ -704,39 +810,41 @@ data-cite-key="Wei13" data-cite-note="Shapiro&amp;#39;s Lemma 6.3.2"&gt;
 $$\sigma \cdot(a w)=\xi_\sigma(\sigma(a) \sigma(w))=\sigma(a) \xi_\sigma(\sigma(w))=\sigma(a)(\sigma \cdot w)$$
 Thus it suffice to check the cocycle condition. On LHS we have $(\sigma\tau)\cdot w=\xi_{\sigma\tau}((\sigma\tau) w)$, and on RHS we have
 $$\sigma \cdot(\tau \cdot w)=\sigma \cdot\left(\xi_\tau(\tau(w))\right)=\xi_\sigma\left(\sigma\left(\xi_\tau(\tau(w))\right)\right)=\xi_\sigma\left(\sigma\left(\xi_\tau\right)(\sigma \tau)(w)\right)=\left(\xi_\sigma \cdot \sigma\left(\xi_\tau\right)\right)(\sigma \tau)(w) .$$
-so equality is equivalent to the cocycle condition. We check that two cocycles $\xi$ and $\xi'$ are cohomologous iff $W_{\xi}\cong W_{\xi'}$ as $L$-vector spaces with semilinear $G$-action. Suppose there exists $A\in \mathrm{GL}_r(L)$ such that $\xi'_{\sigma}=A^{-1}\cdot \xi_{\sigma}\cdot \sigma(A)$ for all $\sigma\in G$, then the map $W_{\xi}\rightarrow W_{\xi'}$ sending $w\mapsto A(w)$ is an isomorphism of $L$-vector spaces with semilinear $G$-action. Conversely, suppose $\phi:W_{\xi}\rightarrow W_{\xi'}$ is such an isomorphism, let $A\in \mathrm{GL}_r(L)$ be the matrix representing $\phi$, then for all $\sigma\in G$ and $w\in W_{\xi}$, we have
-$$\xi'_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\xi_{\sigma}(\sigma(w))) .$$
-Thus $\xi'_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi'$ are cohomologous. By &lt;span class="yh-ref" data-ref-kind="math" data-ref-id="cor-unique-semi-linear"&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;/li&gt;
+so equality is equivalent to the cocycle condition. We check that two cocycles $\xi$ and $\xi&#39;$ are cohomologous iff $W_{\xi}\cong W_{\xi&#39;}$ as $L$-vector spaces with semilinear $G$-action. Suppose there exists $A\in \mathrm{GL}_r(L)$ such that $\xi&#39;_{\sigma}=A^{-1}\cdot \xi_{\sigma}\cdot \sigma(A)$ for all $\sigma\in G$, then the map $W_{\xi}\rightarrow W_{\xi&#39;}$ sending $w\mapsto A(w)$ is an isomorphism of $L$-vector spaces with semilinear $G$-action. Conversely, suppose $\phi:W_{\xi}\rightarrow W_{\xi&#39;}$ is such an isomorphism, let $A\in \mathrm{GL}_r(L)$ be the matrix representing $\phi$, then for all $\sigma\in G$ and $w\in W_{\xi}$, we have
+$$\xi&#39;_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\xi_{\sigma}(\sigma(w))) .$$
+Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;/li&gt;
 &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+
+&lt;h2 id=&#34;brauer-groups-of-fields&#34;&gt;Brauer Groups of Fields&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-azumaya&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    An &lt;em&gt;Azumaya algebra&lt;/em&gt; over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;h2 id="brauer-groups-of-fields"&gt;Brauer Groups of Fields&lt;/h2&gt;
-&lt;div class="math-env style-defn"
-id="def-azumaya"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-An &lt;em&gt;Azumaya algebra&lt;/em&gt; over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$.
-&lt;/span&gt;
-&lt;/div&gt;
+
 &lt;p&gt;Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse. A division algebra is always simple.&lt;/p&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-id="prop-equiv-azumaya"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;The following are equivalent for a $K$-algebra $A$:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;prop-equiv-azumaya&#34;
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The following are equivalent for a $K$-algebra $A$:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$A$ is an Azumaya algebra over $K$,&lt;/li&gt;
 &lt;li&gt;there exists a finite separable extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$,&lt;/li&gt;
@@ -744,223 +852,273 @@ data-label='Proposition'&gt;&lt;/span&gt;
 &lt;li&gt;$A$ is a finite-dimensional central simple algebra over $K$.&lt;/li&gt;
 &lt;li&gt;there is a $K$-algebra isomorphism $A\cong \mathrm{M}_r(D)$ for some $r\ge 1$ and some finite-dimensional central division algebra $D$ over $K$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-See &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="Poo17" data-cite-note="Proposition 1.5.2"&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
 ⟦cite:Poo17⟧
 &lt;/span&gt;.
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Let $\mathbf{Az}_K$ denote the category of Azumaya algebras over $K$ with morphisms being $K$-algebra homomorphisms. The tensor product $\otimes_K$ endows $\mathbf{Az}_K$ with a monoidal structure with unit object $K$. A base change of Azumaya algebras is also Azumaya, and the opposite algebra $A^{\mathrm{opp}}$ of an Azumaya algebra, defined by reversing multiplication $a\cdot b=ba$, is Azumaya. The isomorphism classes of Azumaya algebras form a set, since for each $n\ge 1$, the size of the isomorphism class of Azuyama algebras of rank $n$ is determined by the size of all bilinear maps $\mathrm{Hom}_K(A\otimes A,A)\cong (K^{n})^3$, which is a set.&lt;/p&gt;
-&lt;div class="math-env style-defn"
-data-kind="example"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Example'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-A &lt;em&gt;quaternion algebra&lt;/em&gt; over a field $K$ of characteristic other than $2$ is an Azumaya algebra of dimension $4$, e.g. the $K$-algebra generated by symbols $i,j$ with relations $i^2=j^2=-1$ and $ij=-ji$ is the &lt;em&gt;Hamiltonian quaternions&lt;/em&gt; $\mathbb H$, and if $i^2=j^2=1$ it is the &lt;em&gt;split quaternion algebra&lt;/em&gt;, isomorphic to $\mathrm{M}_2(K)$.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A &lt;em&gt;quaternion algebra&lt;/em&gt; over a field $K$ of characteristic other than $2$ is an Azumaya algebra of dimension $4$, e.g. the $K$-algebra generated by symbols $i,j$ with relations $i^2=j^2=-1$ and $ij=-ji$ is the &lt;em&gt;Hamiltonian quaternions&lt;/em&gt; $\mathbb  H$, and if $i^2=j^2=1$ it is the &lt;em&gt;split quaternion algebra&lt;/em&gt;, isomorphic to $\mathrm{M}_2(K)$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $A$ be an Azumaya algebra over $K$, a splitting field of $A$ is a field extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$. If $L$ is a splitting field of $A$ we say $L$ splits $A$.
-&lt;/span&gt;
+
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $A$ be an Azumaya algebra over $K$, a splitting field of $A$ is a field extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$. If $L$ is a splitting field of $A$ we say $L$ splits $A$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="proposition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Proposition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
-&lt;/span&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-&lt;p&gt;Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality
 &lt;/p&gt;
 $$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$&lt;p&gt;
 Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;/p&gt;
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;div class="math-env style-plain"
-id="thm-skolem-noether"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Skolem–Noether)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $A$ be an Azumaya algebra over $K$. Then&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;thm-skolem-noether&#34;
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Skolem–Noether)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $A$ be an Azumaya algebra over $K$. Then&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;any $K$-algebra automorphism $\varphi: A \to A$ is an inner automorphism&lt;/li&gt;
 &lt;li&gt;any two $K$-algebra embeddings $\varphi, \psi: L \hookrightarrow A$ of a field extension $L/K$ are conjugate by an element of $A^\times$. That is, there exists $u \in A^\times$ such that for all $x \in L$, $\psi(x) = u \varphi(x) u^{-1}$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="proof-env" data-compact="true"&gt;
-&lt;span class="proof-heading"&gt;
-&lt;span class="proof-title"&gt;Proof.&lt;/span&gt;
-&lt;/span&gt;
-&lt;div class="proof-body"&gt;
-See &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="GS06" data-cite-note="Theorem 2.7.2"&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 ⟦cite:GS06⟧
 &lt;/span&gt;.
-&lt;/div&gt;
-&lt;span class="proof-qed"&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism. Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$, $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. Similarly we define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.&lt;/p&gt;
-&lt;div class="math-env style-defn"
-id="def-brauer-group"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;The &lt;em&gt;Brauer group&lt;/em&gt; of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equivalence classes of Azumaya algebras over $K$ under the equivalence relation $A\sim B$ iff one of the following equivalent conditions hold:&lt;/p&gt;
+&lt;p&gt;Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism. Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. Similarly we define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;def-brauer-group&#34;
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The &lt;em&gt;Brauer group&lt;/em&gt; of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equivalence classes of Azumaya algebras over $K$ under the equivalence relation $A\sim B$ iff one of the following equivalent conditions hold:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,&lt;/li&gt;
 &lt;li&gt;there exists $m,n\ge 1$ such that $\mathrm M_n(A)\cong \mathrm M_m(B)$ as $K$-algebras.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $L\mid K$ is a field extension then there is a group homomorphism $\mathrm{Br}(K)\rightarrow \mathrm{Br}(L)$ induced by base change, so $\mathrm{Br}:\mathbf{Field}\rightarrow\mathbf{Ab}$ is functorial in fields.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.&lt;/p&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;div class="bib-env"&gt;
-&lt;ul class="bib-list"&gt;
-&lt;li id="bib-Poo17" data-bib-key="Poo17"&gt;
-&lt;span class="bib-label"&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
-&lt;li id="bib-GR71" data-bib-key="GR71"&gt;
-&lt;span class="bib-label"&gt;[GR71]&lt;/span&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/li&gt;
-&lt;li id="bib-Mil22" data-bib-key="Mil22"&gt;
-&lt;span class="bib-label"&gt;[Mil22]&lt;/span&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/li&gt;
-&lt;li id="bib-Wei13" data-bib-key="Wei13"&gt;
-&lt;span class="bib-label"&gt;[Wei13]&lt;/span&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/li&gt;
-&lt;li id="bib-GS06" data-bib-key="GS06"&gt;
-&lt;span class="bib-label"&gt;[GS06]&lt;/span&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/li&gt;
+
+&lt;p&gt;In the next post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/li&gt;
+
 &lt;/ul&gt;
-&lt;/div&gt;</description></item><item><title>Symmetric Polynomials</title><link>https://yunhaimath.com/posts/sym-poly/</link><pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate><guid>https://yunhaimath.com/posts/sym-poly/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
-&lt;div class="yh-pullquote-text"&gt;
-“And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
-&lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is &lt;/p&gt;
-$$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta's relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
-&lt;/span&gt;
 &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Symmetric Polynomials</title>
+      <link>http://localhost:1313/posts/sym-poly/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is &lt;/p&gt;
+$$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta&#39;s relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
 &lt;/p&gt;
 $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.&lt;/p&gt;
 &lt;p&gt;A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis&lt;/p&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-$$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.&lt;/p&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Pieri Formulas)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Pieri Formulas)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).&lt;/p&gt;
 $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.&lt;/p&gt;
-&lt;p&gt;One application of symmetric polynomials is Lagrange's solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href="https://arxiv.org/pdf/1301.7116"&gt;this&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Bundles and Divisors on Schemes</title><link>https://yunhaimath.com/posts/bundles-and-divisors/</link><pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate><guid>https://yunhaimath.com/posts/bundles-and-divisors/</guid><description>&lt;p&gt;&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
-&lt;div class="yh-pullquote-text"&gt;
-Algebra is but written geometry and geometry is but figured algebra.
-&lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— Sophie Germain&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href=&#34;https://arxiv.org/pdf/1301.7116&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bundles and Divisors on Schemes</title>
+      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
+      <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
+      <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Algebra is but written geometry and geometry is but figured algebra.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sophie Germain&lt;/div&gt;&lt;/aside&gt;
 This is an old post from 2023. Recall that for a topological space $X$, a fibre bundle of fibres $F$ where $F$ is a topological space, is a topological space $E$, with a surjective map $\pi: E\rightarrow X$ such that for all $x\in X$, exists an open nbhd $x\in U\subseteq X$ such that there is a homeomorphism $\varphi: \pi^{-1}(U)\rightarrow U\times F$ such that $\mathrm{pr}_U\circ \varphi=\pi|_{\pi^{-1}(U)}$ where $\mathrm{pr}_U:U\times F\rightarrow U$ is the projection onto $U$. Fibre bundles generalize vector bundles and covering spaces. In this post, we interpret this algebraically and generalize this notion to schemes.&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h2 id="symmetric-algebra-and-quasi-coherent-bundles"&gt;Symmetric Algebra and Quasi-coherent Bundles&lt;/h2&gt;
+&lt;h2 id=&#34;symmetric-algebra-and-quasi-coherent-bundles&#34;&gt;Symmetric Algebra and Quasi-coherent Bundles&lt;/h2&gt;
 &lt;p&gt;Recall that for $M$ an $A$-module, its tensor algebra is the graded algebra $T(M)=\bigoplus_{n\in\mathbb N}T^n(M)$ where $T^n(M)=M^{\otimes n}$. The symmetric algebra is the algebra $\mathrm{Sym}(M)=T(M)/I$ where $I$ is the ideal generated by the set $\{m\otimes n-n\otimes m:m,n\in M\}$, which is a graded algebra $\mathrm{Sym}(M)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(M)$ since $I$ is homogeneous. Note that $\mathrm{Sym}^0(M)=A$ and $\mathrm{Sym}^1(M)=M$, so there is a map $i:\mathrm{Sym}^1(M)=M\rightarrow \mathrm{Sym}(M)$. The symmetric algebra has the universal property that the precomposition $\varphi\mapsto \varphi\circ i$ induces a bijection for every $A$-algebra $B$.&lt;/p&gt;
 $$\mathrm{Hom}_{A-\mathrm{Alg}}(\mathrm{Sym}(M),B)\rightarrow\mathrm{Hom}_{A-\mathrm{Mod}}(M,B)$$&lt;p&gt;Setting $B=\mathrm{Sym}(N)$, we see from this that we can find $\mathrm{Sym}(u):\mathrm{Sym}(M)\rightarrow\mathrm{Sym}(N)$ which is a graded morphism, so $\mathrm{Sym}$ is a functor from the category of $A$-modules to the category of graded $A$-algebras. We globalize this construction to schemes. Let $X$ be a scheme (a more generally a ringed space), and $\mathcal E$ and $\mathcal O_X$-module, then define the graded $\mathcal O_X$-algebra $\mathrm{Sym}(\mathcal E)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(\mathcal E)$ be the sheafification of $U\mapsto \mathrm{Sym}_{\Gamma(U,\mathcal O_X)}(\Gamma(U,\mathcal E))$, and similarly we have a bijection&lt;/p&gt;
 $$\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathrm{Sym}(\mathcal E), \mathcal A)\rightarrow \mathrm{Hom}_{\mathcal O_X-\mathrm{Mod}}(\mathcal E, \mathcal A)$$&lt;p&gt;Let $\mathcal B$ be a quasicoherent $\mathcal O_X$-algebra. There exists an $X$-scheme $\underline{\mathrm{Spec}}(\mathcal B)$, such that for all $X$-schemes $f:T\rightarrow X$ there are bijections functorial in $T$ of the following form&lt;/p&gt;
 $$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightarrow\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathcal B,f_*\mathcal O_T)$$&lt;p&gt;In other words, the functor $(\mathrm{Sch}/X)^{\mathrm{op}}\rightarrow \mathbf{Set}$ given by $(f: T \rightarrow X) \mapsto \mathrm{Hom}_{\mathcal{O}_X-\mathrm{Alg}}\left(\mathcal{B}, f_* \mathcal{O}_T\right)$ is representable. To see this, we note that this is a sheaf on the Zariski site, since $f_*$ and $\mathrm{Hom}(\mathcal B,-)$ are left-exact. We also have this is covered by representable open subfunctors. More concretely, the points of $\underline{\mathrm{Spec}}(\mathcal B)$ above $x\in X$ is that of $\mathrm{Spec}(\mathcal \Gamma(B,\mathcal O_X)\otimes \kappa(p))$ and the topology above an open affine $U=\mathrm{Spec}(A)$ is $\mathrm{Spec}(\Gamma(U,\mathcal B))$. For every quasi-coherent $\mathcal O_X$-module $\mathcal E$, we define $\mathbb V(\mathcal E)=\underline{\mathrm{Spec}}(\mathrm{Sym}(\mathcal E))$ functorial in $E$ which the call the quasi-coherent bundle associated to $E$. When restricted to locally free $\mathcal O_X$-modules, this functor provides a correspondance to algebraic vector bundles, where algebraic vector bundles are understood as follows,&lt;/p&gt;
-&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-A vector bundle of rank $n\in\mathbb N$ on $X$ is an $X$-scheme $V$ with an equivalence class of families $(U_i, c_i)$ where $(U_i)_i$ is an open cover of $V$ and isomorphisms $c_i:V|_{U_i}\rightarrow \mathbb A^{n}_{U_i}$ of $U_i$-schemes, such that for all $i,j$, the automorphisms $c_i\circ c_j:\mathbb A^n_{U_i\cap U_j}\rightarrow \mathbb A^n_{U_i\cap U_j}$ are linear, where two such families, called atlases, are equivalent if their union is an atlas. Moreover, define a morphisms of vector bundles $(V,U_i,c_i)\rightarrow (V^\prime,U^\prime_i,c^\prime_i)$ as a $X$-morphism $f:V\rightarrow V^\prime$ such that $c^\prime_j\circ f\circ c_i^{-1}:\mathbb A^n_{U_i\cap U^\prime_j}\rightarrow \mathbb A^n_{U_i\cap U^\prime_j}$ is linear.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A vector bundle of rank $n\in\mathbb N$ on $X$ is an $X$-scheme $V$ with an equivalence class of families $(U_i, c_i)$ where $(U_i)_i$ is an open cover of $V$ and isomorphisms $c_i:V|_{U_i}\rightarrow \mathbb A^{n}_{U_i}$ of $U_i$-schemes, such that for all $i,j$, the automorphisms $c_i\circ c_j:\mathbb A^n_{U_i\cap U_j}\rightarrow \mathbb A^n_{U_i\cap U_j}$ are linear, where two such families, called atlases, are equivalent if their union is an atlas. Moreover, define a morphisms of vector bundles $(V,U_i,c_i)\rightarrow (V^\prime,U^\prime_i,c^\prime_i)$ as a $X$-morphism $f:V\rightarrow V^\prime$ such that $c^\prime_j\circ f\circ c_i^{-1}:\mathbb A^n_{U_i\cap U^\prime_j}\rightarrow \mathbb A^n_{U_i\cap U^\prime_j}$ is linear.
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;The locally free $\mathcal O_X$-modules are interpreted as sheaf of sections over the vector bundle. More specifically, for a vector bundle $E$ as above, we define a locally free $\mathcal O_X$-module $\mathcal E_V$ as the following. Define the sheaf $\mathcal P( V/X)$ of abelian groups by attaching to $U\subseteq X$ the sections of $V$ over $U$, that is, morphisms $s:U\rightarrow V|_U$ with $f\circ s=\mathrm{id}_U$, and restrictions are given by restrictions of scheme morphisms. Locally, this has the structure of $\mathcal O_X^n$ which gives the module structure. This gives the inverse to $\mathbb V(-)$. This correspondance is part of what is known as Serre-Swan theorem&lt;/p&gt;
-&lt;h2 id="cartier-divisors-and-weil-divisors"&gt;Cartier Divisors and Weil divisors&lt;/h2&gt;
+&lt;h2 id=&#34;cartier-divisors-and-weil-divisors&#34;&gt;Cartier Divisors and Weil divisors&lt;/h2&gt;
 &lt;p&gt;It is an important question to determine the configuration of zeros and poles of a rational (or meromorphic) function. Let $X$ be an integral scheme (i.e. reduced and irreducible). We denote by $\mathcal K_X$ the constant sheaf on $X$ with value the function field $K(X)$ of $X$.&lt;/p&gt;
-&lt;div class="math-env style-defn"
-data-kind="definition"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Definition'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-A Cartier divisor on $X$ is a family $(U_i,f_i)$ where $(U_i)_i$ is an open cover of $X$ and $f_i\in K(X)^\times$ with $f_if_j^{-1}\in \Gamma(U_i\cap U_j,\mathcal O_X^\times) $ for all $i,j$, where two families $(U_i,f_i)$, $(V_i,g_i)$ give rise to the same Cariter divisor if $f_ig_j^{-1}\in\Gamma(U_i\cap V_j,\mathcal O_X^\times)$ for all $i,j$. The Cartier divisors form an abelian group $\mathrm{Div}(X)$, where adding the family $(U_i,f_i)$ and $(V_i,g_i)$ gives $(U_i\cap V_j,f_ig_j)$. A Cartier divisor is principle if it is given by some $(X,f)$, and two divisors $D,E$ are linearly equivalent if $D-E$ is principle.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A Cartier divisor on $X$ is a family $(U_i,f_i)$ where $(U_i)_i$ is an open cover of $X$ and $f_i\in K(X)^\times$ with $f_if_j^{-1}\in \Gamma(U_i\cap U_j,\mathcal O_X^\times) $ for all $i,j$, where two families $(U_i,f_i)$, $(V_i,g_i)$ give rise to the same Cariter divisor if $f_ig_j^{-1}\in\Gamma(U_i\cap V_j,\mathcal O_X^\times)$ for all $i,j$. The Cartier divisors form an abelian group $\mathrm{Div}(X)$, where adding the family $(U_i,f_i)$ and $(V_i,g_i)$ gives $(U_i\cap V_j,f_ig_j)$. A Cartier divisor is principle if it is given by some $(X,f)$, and two divisors $D,E$ are linearly equivalent if $D-E$ is principle.
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Alernatively, we can set $\mathrm{Div}(X)=\Gamma(X,\mathcal K_X^\times/\mathcal O_X^\times)$, and principle divisors the ones in the image of $\Gamma(X,\mathcal K_X^\times)$. We call the ones in $\Gamma(X,(\mathcal K_X^\times\cap \mathcal O_X)/\mathcal O_X^\times)$ effective divisors and denote it by $D\ge 0$. Let $\mathrm{Cl}(X)$ denote $\mathrm{Div}(X)$ modulo the principle divisors, which we call the divisor class group. We have a short exact sequence.
 &lt;/p&gt;
 $$1\longrightarrow \Gamma(X,\mathcal O_X)^\times\longrightarrow K(X)\longrightarrow \mathrm{Div}(X) \longrightarrow \mathrm{Cl}(X)\longrightarrow 0$$&lt;p&gt;To a Cartier divisor $D$, we associate the line bundle $\mathcal O_X(D)$ for all open $V\subseteq X$.
@@ -968,9 +1126,19 @@ $$1\longrightarrow \Gamma(X,\mathcal O_X)^\times\longrightarrow K(X)\longrightar
 $$\Gamma(V,\mathcal O_X(D))=\{f\in K(X): \forall i,f_if\in \Gamma(U_i\cap V,\mathcal O_X)\}$$&lt;p&gt;This association $D\mapsto \mathcal O_X(D)$ induces an isomorphism $\mathrm{Cl}(X)\cong \mathrm{Pic}(X)$. Call an invertible $\mathcal O_X$-submodule of $\mathcal K_X$ an invertible fractional ideal of $\mathcal O_X$. Then we can associate a Cartier divisor $D$ an invertible fractional ideal $\mathcal F_X(D)$ such that $\mathcal F_X(D) (U_i)=f_i\mathcal O_X$. This correspondance provides an isomorphism between $\mathrm{Div}(X)$ and the invertible fractional ideal on $X$. Cartier divisors considered more geometrically is so called Weil divisors. Let $Z^k(X)$ be the free abelian group generated on the set of closed integral subscheme of codimension $k$. The elements of $Z^1(X)$ are then called Weil divisors and their generators called the prime divisors, and the ones with nonnegative coefficients are called the effective Weil divisors. We now connect Weil divisors with Cartier divisors with a homomorphism $\mathrm{cyc}: \mathrm{Div}(X)\rightarrow Z^1(X) $. To this end, we need to define, for a prime Weil divisor $C$, the order $\mathrm{ord}_C(f)$ for some meromorphic function $f\in \Gamma(U,\mathcal K_X)$ where the generic point $\xi$ of $C$ is contained in $C$. If the local ring $\mathcal O_{X,C}=\mathcal O_{X,\xi}$ is a DVR, for example, when $X$ is normal, then we can just set $\mathrm{ord}_C(f)=\nu (f)$ the normalized discrete valuation of $f$. In general, the local ring is a local noetherian ring of dimension $1$. For a nonzero $f\in \mathrm{Frac}(\mathcal O_{X,C})$ where $f=a/b$ we set $\mathrm{ord}_C(f)=\mathrm{lg}(\mathcal O_{X,C}/(a))-\mathrm{lg}(\mathcal O_{X,C}/(b))$. For a Cartier divisor $D$, we choose some element of its atlas $(U_i,f_i)$ where $\xi_C\in U_i$, and define $\mathrm{ord}_C(D)=\mathrm{ord}_C(f_i)$, and then we can define $\mathrm{cyc}(D)=\sum_C\mathrm{ord}_C(D)\left[C\right]$. This provides the desired correspondance. Like Cartier divisors, we can associate to each Weil divisor $D$, a fractional ideal $\mathcal L$ where
 &lt;/p&gt;
 $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&gt; which is the same one as the one with the corresponding Cartier divisor.&lt;/p&gt;
-&lt;h2 id="torsors"&gt;Torsors&lt;/h2&gt;
-&lt;p&gt;For a sheaf $T$ on some $X$ and a sheaf of groups $G$ on $X$, we say $T$ is a $G$-torsor if $G$ acts on $T$ simply transitively and $X$ has an open cover $(U_i)_i$ such that $T(U_i)$ is nonempty for all $i$. The sheaf cohomology $H^1(X,G)$ classifies the $G$-torsors. For a locally free $\mathcal O_X$-module $\mathcal E$ of rank $n$. The sheaf $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)$ is a $\mathrm{GL}_n(\mathcal O_X)$-torsor by $\mathrm{GL}_n(\mathcal O_X)(U)$ acts on $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)(U)$ by $g\cdot u\mapsto u\circ g^{-1}$. We have a bijection between rank $n$ vector bundles and $H^1(X,\mathrm{GL}_n(\mathcal O_X))$, so rank $n$ vector bundles are identified with $\mathrm{GL}_n(\mathcal O_X)$-torsors.&lt;/p&gt;</description></item><item><title>Markdown Test</title><link>https://yunhaimath.com/posts/markdown-test/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://yunhaimath.com/posts/markdown-test/</guid><description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
-&lt;h2 id="paragraph"&gt;Paragraph&lt;/h2&gt;
+&lt;h2 id=&#34;torsors&#34;&gt;Torsors&lt;/h2&gt;
+&lt;p&gt;For a sheaf $T$ on some $X$ and a sheaf of groups $G$ on $X$, we say $T$ is a $G$-torsor if $G$ acts on $T$ simply transitively and $X$ has an open cover $(U_i)_i$ such that $T(U_i)$ is nonempty for all $i$. The sheaf cohomology $H^1(X,G)$ classifies the $G$-torsors. For a locally free $\mathcal O_X$-module $\mathcal E$ of rank $n$. The sheaf $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)$ is a $\mathrm{GL}_n(\mathcal O_X)$-torsor by $\mathrm{GL}_n(\mathcal O_X)(U)$ acts on $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)(U)$ by $g\cdot u\mapsto u\circ g^{-1}$. We have a bijection between rank $n$ vector bundles and $H^1(X,\mathrm{GL}_n(\mathcal O_X))$, so rank $n$ vector bundles are identified with $\mathrm{GL}_n(\mathcal O_X)$-torsors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown Test</title>
+      <link>http://localhost:1313/posts/markdown-test/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/markdown-test/</guid>
+      <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
 &lt;p&gt;中文段落测试。&lt;em&gt;君不见黄河之水天上来&lt;/em&gt;，&lt;strong&gt;奔流到海不复回&lt;/strong&gt;。
 &lt;strong&gt;&lt;em&gt;君不见高堂明镜悲白发，朝如青丝暮成雪&lt;/em&gt;&lt;/strong&gt;。
@@ -978,8 +1146,8 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
 天生我材必有用，千金散尽还复来。
 烹羊宰牛且为乐，会须一饮三百杯。
 岑夫子，丹丘生，将进酒，杯莫停。&lt;/p&gt;
-&lt;h2 id="blockquotes"&gt;Blockquotes&lt;/h2&gt;
-&lt;h3 id="blockquote-without-attribution"&gt;Blockquote without attribution&lt;/h3&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+&lt;h3 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 &lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
@@ -987,90 +1155,90 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; that you can put a blockquote inside a blockquote&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
-&lt;h3 id="blockquote-with-attribution"&gt;Blockquote with attribution&lt;/h3&gt;
+&lt;h3 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Don't communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— Rob Pike&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Don&#39;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
+— Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id="tables"&gt;Tables&lt;/h2&gt;
-&lt;p&gt;Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Tables aren&#39;t part of the core Markdown spec, but Hugo supports them out-of-the-box.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;Age&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Bob&lt;/td&gt;
-&lt;td&gt;27&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Alice&lt;/td&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bob&lt;/td&gt;
+          &lt;td&gt;27&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Alice&lt;/td&gt;
+          &lt;td&gt;23&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="inline-markdown-within-tables"&gt;Inline Markdown within tables&lt;/h3&gt;
+&lt;h3 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Italics&lt;/th&gt;
-&lt;th&gt;Bold&lt;/th&gt;
-&lt;th&gt;Code&lt;/th&gt;
-&lt;th&gt;Strikethrough&lt;/th&gt;
-&lt;th&gt;Underline&lt;/th&gt;
-&lt;th&gt;Highlight&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/td&gt;
-&lt;td&gt;&lt;ins&gt;underline&lt;/ins&gt;&lt;/td&gt;
-&lt;td&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Italics&lt;/th&gt;
+          &lt;th&gt;Bold&lt;/th&gt;
+          &lt;th&gt;Code&lt;/th&gt;
+          &lt;th&gt;Strikethrough&lt;/th&gt;
+          &lt;th&gt;Underline&lt;/th&gt;
+          &lt;th&gt;Highlight&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;ins&gt;underline&lt;/ins&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="code-blocks"&gt;Code Blocks&lt;/h2&gt;
-&lt;h3 id="code-block-with-backticks"&gt;Code block with backticks&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 1&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 2&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt; &lt;span class="na"&gt;lang&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 3&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 4&lt;/span&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;meta&lt;/span&gt; &lt;span class="na"&gt;charset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 5&lt;/span&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 6&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 7&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 8&lt;/span&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Test&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 9&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;10&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="code-block-indented-with-four-spaces"&gt;Code block indented with four spaces&lt;/h3&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h3 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id="code-block-with-hugos-internal-highlight-shortcode"&gt;Code block with Hugo's internal highlight shortcode&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 1&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 2&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt; &lt;span class="na"&gt;lang&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 3&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 4&lt;/span&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;meta&lt;/span&gt; &lt;span class="na"&gt;charset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 5&lt;/span&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 6&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 7&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 8&lt;/span&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Test&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 9&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;10&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id="list-types"&gt;List Types&lt;/h2&gt;
-&lt;h3 id="ordered-list"&gt;Ordered List&lt;/h3&gt;
+&lt;h3 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&#39;s internal highlight shortcode&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Item 1
 &lt;ol&gt;
@@ -1082,7 +1250,7 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
 &lt;li&gt;Item 2&lt;/li&gt;
 &lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="unordered-list"&gt;Unordered List&lt;/h3&gt;
+&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fruit
 &lt;ul&gt;
@@ -1098,74 +1266,83 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="checklist"&gt;Checklist&lt;/h3&gt;
+&lt;h3 id=&#34;checklist&#34;&gt;Checklist&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Item 1&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Item 2
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item 1&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item 2
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Sub-item 2.1&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Sub-item 2.2&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sub-item 2.1&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sub-item 2.2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Item 3&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item 3&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="symbols"&gt;Symbols&lt;/h2&gt;
+&lt;h2 id=&#34;symbols&#34;&gt;Symbols&lt;/h2&gt;
 &lt;p&gt;You can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (©), you can copy and paste the HTML entity for copyright &lt;code&gt;(&amp;amp;copy;)&lt;/code&gt; into your Markdown document.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 1&lt;/span&gt;&lt;span class="cl"&gt;Copyright (©) — &amp;amp;copy;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 2&lt;/span&gt;&lt;span class="cl"&gt;Registered trademark (®) — &amp;amp;reg;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 3&lt;/span&gt;&lt;span class="cl"&gt;Trademark (™) — &amp;amp;trade;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 4&lt;/span&gt;&lt;span class="cl"&gt;Euro (€) — &amp;amp;euro;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 5&lt;/span&gt;&lt;span class="cl"&gt;Left arrow (←) — &amp;amp;larr;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 6&lt;/span&gt;&lt;span class="cl"&gt;Up arrow (↑) — &amp;amp;uarr;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 7&lt;/span&gt;&lt;span class="cl"&gt;Right arrow (→) — &amp;amp;rarr;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 8&lt;/span&gt;&lt;span class="cl"&gt;Down arrow (↓) — &amp;amp;darr;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 9&lt;/span&gt;&lt;span class="cl"&gt;Degree (°) — &amp;amp;&lt;span class="ni"&gt;#176&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;10&lt;/span&gt;&lt;span class="cl"&gt;Pi (π) — &amp;amp;&lt;span class="ni"&gt;#960&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a complete list of available HTML entities, refer to Wikipedia’s page on &lt;a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references"&gt;HTML entities&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark"&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
-&lt;p&gt;&lt;abbr title="Graphics Interchange Format"&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Copyright (©) — &amp;amp;copy;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Registered trademark (®) — &amp;amp;reg;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Trademark (™) — &amp;amp;trade;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Euro (€) — &amp;amp;euro;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Left arrow (←) — &amp;amp;larr;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Up arrow (↑) — &amp;amp;uarr;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Right arrow (→) — &amp;amp;rarr;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Down arrow (↓) — &amp;amp;darr;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Degree (°) — &amp;amp;&lt;span class=&#34;ni&#34;&gt;#176&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Pi (π) — &amp;amp;&lt;span class=&#34;ni&#34;&gt;#960&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a complete list of available HTML entities, refer to Wikipedia’s page on &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references&#34;&gt;HTML entities&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
 &lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
 &lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
 &lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
-&lt;h2 id="youtube-privacy-enhanced-shortcode"&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+&lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h2 id="twitter-simple-shortcode"&gt;Twitter Simple Shortcode&lt;/h2&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC"&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw"&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h2 id="vimeo-simple-shortcode"&gt;Vimeo Simple Shortcode&lt;/h2&gt;
-&lt;div class="s_video_simple __h_video"&gt;
-&lt;a href="https://vimeo.com/48912912" rel="noopener" target="_blank"&gt;
-&lt;img src="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us" srcset="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 2x" alt="Sing Jan Swing - Kinetic Type"&gt;
-&lt;div class="play"&gt;
-&lt;svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"&gt;&lt;circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"&gt;&lt;/circle&gt;&lt;path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"&gt;&lt;/path&gt;&lt;/svg&gt;
-&lt;/div&gt;
-&lt;/a&gt;
-&lt;/div&gt;
+&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
+&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+          &lt;a href=&#34;https://vimeo.com/48912912&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
+            &lt;img src=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us&#34; srcset=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 2x&#34; alt=&#34;Sing Jan Swing - Kinetic Type&#34;&gt;
+            &lt;div class=&#34;play&#34;&gt;
+              &lt;svg version=&#34;1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 61 61&#34;&gt;&lt;circle cx=&#34;30.5&#34; cy=&#34;30.5&#34; r=&#34;30.5&#34; opacity=&#34;.8&#34; fill=&#34;#000&#34;&gt;&lt;/circle&gt;&lt;path d=&#34;M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z&#34; fill=&#34;#fff&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h2 id="wenkai-paragraph"&gt;Wenkai paragraph&lt;/h2&gt;
-&lt;div class="wenkai"&gt;
-&lt;p&gt;　　&lt;em&gt;列位看官&lt;/em&gt;，&lt;strong&gt;你道此书&lt;/strong&gt;从何而来？说起根由&lt;em&gt;&lt;strong&gt;虽近荒唐&lt;/strong&gt;&lt;/em&gt;，细谙则深有趣味。待在下将此来历注明，方使闻者了然不惑。&lt;/p&gt;
+&lt;h2 id=&#34;wenkai-paragraph&#34;&gt;Wenkai paragraph&lt;/h2&gt;
+&lt;div class=&#34;wenkai&#34;&gt;
+  &lt;p&gt;　　&lt;em&gt;列位看官&lt;/em&gt;，&lt;strong&gt;你道此书&lt;/strong&gt;从何而来？说起根由&lt;em&gt;&lt;strong&gt;虽近荒唐&lt;/strong&gt;&lt;/em&gt;，细谙则深有趣味。待在下将此来历注明，方使闻者了然不惑。&lt;/p&gt;
 &lt;p&gt;　　原来，当年女娲氏炼石补天之时，于大荒山无稽崖炼成高经十二丈，方经二十四丈顽石三万六千五百零一块。娲皇氏只用了三万六千五百块，只单单剩了一块未用，便弃在此山青埂峰下。谁知此石自经煅炼之后，灵性已通，因见众石俱得补天，独自己无材不堪入选，遂自怨自嗟，日夜悲号惭愧。&lt;/p&gt;
 &lt;p&gt;　　一日，正当嗟悼之馀，俄见一僧一道远远而来，生得骨骼不凡，丰神迥异，说说笑笑来至峰下，坐于石边高谈快论。先是说些云山雾海神仙玄幻之事，后便说到红尘中荣华富贵。此石听了，不觉打动凡心，也想要到人间去享一享这荣华富贵，但自恨粗蠢，不得已，便口吐人言，向那僧道说道：“大师，弟子蠢物，不能见礼了。适闻二位谈那人世间荣耀繁华，心切慕之。弟子质虽粗蠢，性却稍通，况见二师仙形道体，定非凡品，必有补天济世之材，利物济人之德。如蒙发一点慈心，携带弟子得入红尘，在那富贵场中，温柔乡里受享几年，自当永佩洪恩，万劫不忘也。”二仙师听毕，齐憨笑道：“善哉，善哉！那红尘中有却有些乐事，但不能永远依恃。况又有美中不足、好事多魔八个字紧相连属，瞬息间则又乐极悲生，人非物换，究竟是到头一梦，万境归空，倒不如不去的好。”这石凡心已炽，那里听得进这话去，乃复苦求再四。二仙知不可强制，乃叹道：“此亦静极思动，无中生有之数也。既如此，我们便携你去受享受享，只是到不得意时，切莫后悔。”石道：“自然，自然。”那僧又道：“若说你性灵，却又如此质蠢，并更无奇贵之处。如此也只好踮脚而已。也罢，我如今大施佛法助你助，待劫终之日，复还本质，以了此案。你道好否？”石头听了，感谢不尽。那僧便念咒书符，大展幻术，将一块大石登时变成一块鲜明莹洁的美玉，且又缩成扇坠大小的可佩可拿。那僧托于掌上，笑道：“形体倒也是个宝物了！还只没有实在的好处，须得再镌上数字，使人一见便知是奇物方妙。然后携你到那昌明隆盛之邦，诗礼簪缨之族，花锦繁华之地，温柔富贵之乡去安身乐业。”石头听了，喜不能禁，乃问：“不知弟子那几件奇处，又不知携了弟子到何处？望乞明示，使弟子不惑。”那僧笑道：“你且莫问，日后自然明白的。”说着，便袖了那石，同那道人飘然而去，竟不知投奔何方何舍。&lt;/p&gt;
+
 &lt;/div&gt;
-&lt;h2 id="palatino-paragraph"&gt;Palatino Paragraph&lt;/h2&gt;
-&lt;div class="palatino"&gt;
-&lt;p&gt;　　&lt;em&gt;Call me Ishmael&lt;/em&gt;. &lt;strong&gt;Some years&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;ago—never&lt;/em&gt;&lt;/strong&gt; mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.&lt;/p&gt;
+&lt;h2 id=&#34;palatino-paragraph&#34;&gt;Palatino Paragraph&lt;/h2&gt;
+&lt;div class=&#34;palatino&#34;&gt;
+  &lt;p&gt;　　&lt;em&gt;Call me Ishmael&lt;/em&gt;. &lt;strong&gt;Some years&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;ago—never&lt;/em&gt;&lt;/strong&gt; mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.&lt;/p&gt;
 &lt;p&gt;　　There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there.&lt;/p&gt;
 &lt;p&gt;　　Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward. What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here?&lt;/p&gt;
+
 &lt;/div&gt;
-&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike's &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c"&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

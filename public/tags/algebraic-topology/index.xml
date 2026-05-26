@@ -1,42 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algebraic-Topology on Yunhai Xiang</title><link>https://yunhaimath.com/tags/algebraic-topology/</link><description>Recent content in Algebraic-Topology on Yunhai Xiang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="https://yunhaimath.com/tags/algebraic-topology/index.xml" rel="self" type="application/rss+xml"/><item><title>Leray and Serre–Hochschild Spectral Sequences</title><link>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</link><pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate><guid>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
-&lt;div class="yh-pullquote-text"&gt;
-Mathematics is the music of reason.
-&lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— James J. Sylvester&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of &lt;span class="yh-ref" data-ref-kind="bib"
-data-cite-key="NSW08"&gt;
-⟦cite:NSW08⟧
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algebraic-Topology on Yunhai Xiang</title>
+    <link>http://localhost:1313/tags/algebraic-topology/</link>
+    <description>Recent content in Algebraic-Topology on Yunhai Xiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leray and Serre–Hochschild Spectral Sequences</title>
+      <link>http://localhost:1313/posts/leray-serre-hochschild-ss/</link>
+      <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/leray-serre-hochschild-ss/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the music of reason.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— James J. Sylvester&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;NSW08&#34;&gt;
+  ⟦cite:NSW08⟧
 &lt;/span&gt;, along with many other sources here and there on general spectral sequences.&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h2 id="serrehochschild-spectral-sequence"&gt;Serre–Hochschild Spectral Sequence&lt;/h2&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Serre–Hochschild)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $G$ be a profinite group and $H$ a closed normal subgroup, and $A$ a $G$-module, then we have a spectral sequence
+&lt;h2 id=&#34;serrehochschild-spectral-sequence&#34;&gt;Serre–Hochschild Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Serre–Hochschild)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $G$ be a profinite group and $H$ a closed normal subgroup, and $A$ a $G$-module, then we have a spectral sequence
 &lt;/p&gt;
 $$
 \mathrm{E}_2^{p,q}=\mathrm{H}^{p}(G/H, \mathrm{H}^q(H,A))\Rightarrow \mathrm{H}^{p+q}(G,A)
 $$&lt;p&gt;
 which converges.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;The above spectral sequence is called the &lt;em&gt;Serre–Hochschild spectral sequence&lt;/em&gt;. These are obtained from the double complex $\mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$ where $\mathrm{C}^p(G/H, -)$ is the standard complex for computing the cohomology of $G/H$ and $\mathrm{C}^q(H,A)$ is the standard complex for computing the cohomology of $H$. The differentials are given by the usual differentials in these complexes, and the spectral sequence arises from the filtration of the total complex &lt;/p&gt;
 $$\mathrm{Tot}^n = \bigoplus_{p+q=n} \mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$$&lt;p&gt; by the $p$-degree.&lt;/p&gt;
-&lt;div class="math-env style-defn"
-data-kind="example"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Example'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $K$ be a field and set $G=\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/ K)$ the absolute Galois group. If $K/k$ is Galois with $\Gamma=\mathrm{Gal}(K/k)$, then there is exact sequence
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $K$ be a field and set $G=\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/ K)$ the absolute Galois group. If $K/k$ is Galois with $\Gamma=\mathrm{Gal}(K/k)$, then there is exact sequence
 &lt;/p&gt;
 \[1\to \mathrm{G}_K\to \mathrm{G}_k\to \Gamma\to 1\]&lt;p&gt;
 and we can apply the Serre–Hochschild spectral sequence to get
@@ -45,158 +64,199 @@ $$\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(\Gamma, \mathrm{H}^q(\mathrm{G}_K,A))\Righta
 and this further implies the $5$-term exact sequence:
 &lt;/p&gt;
 $$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\to \mathrm{H}^1(\mathrm{G}_K, A)^{\Gamma}\to \mathrm{H}^2(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^2(\mathrm{G}_k, A)$$
-&lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;h2 id="leray-spectral-sequence"&gt;Leray Spectral Sequence&lt;/h2&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Leray)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $f:X\rightarrow Y$ a morphism of schemes and $\mathcal F$ a sheaf of abelian groups on any site over $X$, then there is a spectral sequence
+
+&lt;h2 id=&#34;leray-spectral-sequence&#34;&gt;Leray Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Leray)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $f:X\rightarrow Y$ a morphism of schemes and $\mathcal F$ a sheaf of abelian groups on any site over $X$, then there is a spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(Y, \mathrm{R}^qf_*\mathcal F)\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
 which converges.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-defn"
-data-kind="example"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Example'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $X$ be a smooth proper curve over a field $K$ with structure map $f:X\to \mathrm{Spec}(K)$, then we have the Leray spectral sequence
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X$ be a smooth proper curve over a field $K$ with structure map $f:X\to \mathrm{Spec}(K)$, then we have the Leray spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow \mathrm{H}_{\mathrm{ét}}^{p+q}(X, \mathbf Q_{\ell})$$&lt;p&gt;Here $\mathrm{R}^qf_*\mathbf Q_{\ell}$ corresponds to the Galois module $\mathrm{H}_{\mathrm{ét}}^q(X_{\overline K}, \mathbf Q_{\ell})$ where $\overline K$ is a separable closure of $K$. In particular, the Leray spectral sequence allows us to compute the étale cohomology of $X$ in terms of the Galois cohomology of $K$ with coefficients in the étale cohomology of the geometric fiber $X_{\overline K}$.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(Grothendieck)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $\mathcal A,\mathcal B, \mathcal C$ be abelian categories with enough injectives, and $F:\mathcal A\to \mathcal B$ and $G:\mathcal B\to \mathcal C$ be left exact functors, which satisfies the condition that $F$ sends injective objects to $G$-acyclic objects (i.e. $\mathrm{R}^iG(F(I))=0$ for all $i&gt;0$ and all injective objects $I\in \mathcal A$), then we have the Grothendieck spectral sequence
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal A,\mathcal B, \mathcal C$ be abelian categories with enough injectives, and $F:\mathcal A\to \mathcal B$ and $G:\mathcal B\to \mathcal C$ be left exact functors, which satisfies the condition that $F$ sends injective objects to $G$-acyclic objects (i.e. $\mathrm{R}^iG(F(I))=0$ for all $i&gt;0$ and all injective objects $I\in \mathcal A$), then we have the Grothendieck spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\mathrm{R}^pG(\mathrm{R}^qF(A))\Rightarrow \mathrm{R}^{p+q}(G\circ F)(A)$$&lt;p&gt;
 for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\simeq \mathbf{R}G(\mathbf{R}F(A))$.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.&lt;/p&gt;
-&lt;h2 id="čech-to-derived-spectral-sequence"&gt;Čech to Derived Spectral Sequence&lt;/h2&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
+&lt;h2 id=&#34;čech-to-derived-spectral-sequence&#34;&gt;Čech to Derived Spectral Sequence&lt;/h2&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
 which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;div class="math-env style-defn"
-data-kind="example"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Example'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q&gt;0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q&gt;0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
 &lt;/p&gt;
 $$\mathrm{H}^n(X, \mathcal F)\cong \check{\mathrm{H}}^n(\mathfrak U, \mathcal F)$$&lt;p&gt;
 induced by the Čech to derived spectral sequence. This is a useful tool for computing cohomology groups in practice, especially when we have a good open cover of $X$ that allows us to compute the Čech cohomology easily.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;div class="bib-env"&gt;
-&lt;ul class="bib-list"&gt;
-&lt;li id="bib-NSW08" data-bib-key="NSW08"&gt;
-&lt;span class="bib-label"&gt;[NSW08]&lt;/span&gt;Juergen Neukirch, Alexander Schmidt, Kay Wingberg. &lt;em&gt;Cohomology of Number Fields&lt;/em&gt;. Springer. 2008.&lt;/li&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-NSW08&#34; data-bib-key=&#34;NSW08&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;Juergen Neukirch, Alexander Schmidt, Kay Wingberg. &lt;em&gt;Cohomology of Number Fields&lt;/em&gt;. Springer. 2008.&lt;/li&gt;
+
 &lt;/ul&gt;
-&lt;/div&gt;</description></item><item><title>Grothendieck's Proof of van Kampen Theorem</title><link>https://yunhaimath.com/posts/van-kampen/</link><pubDate>Wed, 03 Dec 2025 11:49:34 +0000</pubDate><guid>https://yunhaimath.com/posts/van-kampen/</guid><description>&lt;aside class="yh-pullquote" style="--yh-pullquote-w: 50%;"&gt;
-&lt;div class="yh-pullquote-text"&gt;
-It's to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
-&lt;/div&gt;&lt;div class="yh-pullquote-attrib"&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
+      <link>http://localhost:1313/posts/van-kampen/</link>
+      <pubDate>Wed, 03 Dec 2025 11:49:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/van-kampen/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
 &lt;p&gt;This is an old post from 2024. In this post, we present a proof of van Kampen theorem in algebraic topology that is different from the standard proof in most texts. This is a proof due to Grothendieck and it generalizes better into algebraic geometry, which is an algebraic analogue known as the étale fundamental group. This proof is shorter, more conceptual (uses universal properties without invoking concrete generators and relations), and uses covering spaces.&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;Let $X$ be a topological space with all the nice connectedness properties, in particular, we assume it has a universal covering $u:\widetilde{X}\rightarrow X$. Let $G$ be a group, $x\in X$, and $\rho:\pi_1(X,x)\rightarrow G$ a homomorphism. We define a based $G$-covering $p_{\rho}:(Y_\rho,y_\rho)\rightarrow (X,x)$. Take the product $\widetilde{X}\times G$ with $G$ having the discrete topology, and $\pi_1(X,x)$ acts on it by $\sigma\cdot(z,g)=(\sigma\cdot z,g\rho(\sigma^{-1}) )$. Take $Y_\rho=(\widetilde{X}\times G)/\pi_1(X,x)$ by this action, and $y_{\rho}$ the image of $(\widetilde{x},1)$. Note that we have $(\sigma\cdot z,g)=(z,g\rho(\sigma))$ in $Y_\rho$. Let $p_\rho:Y_{\rho}\rightarrow X$ be $(z,g)\mapsto u(z)$. The group $G$ acts on $Y_\rho$ by $h\cdot (z,g)=(z,hg)$ evenly, making $Y_{\rho}$ a $G$-covering. Conversely, suppose $p:(Y,y)\rightarrow (X,x)$ is a $G$-covering, we constrct a morphism $\pi_1(X,x)\rightarrow G$. For $\sigma\in \pi_1(X,x)$, we let $\rho(\sigma)$ be the element that acts by $\rho(\sigma)\cdot y=y*\sigma$ where $y*\sigma$ is the end point of the path that lifts $\sigma$.&lt;/p&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;This construction gives a bijection
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;This construction gives a bijection
 &lt;/p&gt;
 $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\ (X,x)\}$$&lt;p&gt; up to isomorphisms.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Checking this is routine. Let $X=U\cup V$ with $U,V$ path-connected and intersect nontrivially, with base point $x\in U\cap V$. Suppose there are coverings $p:\widetilde{U}\rightarrow U$ and $q:\widetilde{V}\rightarrow V$ and an isomorphism $\nu:p^{-1}(U\cap V)\rightarrow q^{-1}(U\cap V)$, then one can glue them together to a covering of $X$, by taking $\widetilde{X}=\widetilde{U}\times\widetilde{V}/(\nu(y_1)\sim \nu(y_2))$. We can generalize this to the case where $X$ is the union of a family of open sets, in which case we require a cocycle condition to be satisfied in order to be able to glue the covering spaces.&lt;/p&gt;
-&lt;div class="math-env style-plain"
-data-kind="theorem"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Theorem'&gt;&lt;/span&gt; &lt;span class="math-note"&gt;(van Kampen)&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-For any $h_1:\pi_1(U,x)\rightarrow G$ and $h_2:\pi_1(V,x)\rightarrow G$ with $h_1\circ i_1=h_2\circ i_2$ where $i_1,i_2$ are induced by inclusions $U\cap V\hookrightarrow U $ and $U\cap V\hookrightarrow V $, there exists a unique morphism $h:\pi_1(X,x)\rightarrow G$ such that $h\circ j_1=h_1$ and $h\circ j_2=h_2$ where $j_1,j_2$ are induced by inclusions $U\hookrightarrow X$ and $V\hookrightarrow X$.
-&lt;/span&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(van Kampen)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For any $h_1:\pi_1(U,x)\rightarrow G$ and $h_2:\pi_1(V,x)\rightarrow G$ with $h_1\circ i_1=h_2\circ i_2$ where $i_1,i_2$ are induced by inclusions $U\cap V\hookrightarrow U $ and $U\cap V\hookrightarrow V $, there exists a unique morphism $h:\pi_1(X,x)\rightarrow G$ such that $h\circ j_1=h_1$ and $h\circ j_2=h_2$ where $j_1,j_2$ are induced by inclusions $U\hookrightarrow X$ and $V\hookrightarrow X$.
+  &lt;/span&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the category of groups, which is a free product with amalgamation,&lt;/p&gt;
-&lt;figure class="quiver-wrapper"
-style="--quiver-radius: 0rem;"&gt;
-&lt;iframe
-class="quiver-embed"
-src="https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed"
-loading="lazy"
-referrerpolicy="no-referrer-when-downgrade"
-style="
-width: 100%;
-height: 180px;
-border: 0;
-transform:
-translateX(0)
-translateY(0)
-scale(1.5);
-transform-origin: center;
-"
-&gt;&lt;/iframe&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0rem;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 100%;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.5);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
 &lt;/figure&gt;
 &lt;p&gt;The homomorphisms $h_1,h_2$ determine $G$-coverings $Y_1\rightarrow U$ and $Y_2\rightarrow V$. The commutativity of the square means that their restrictions to $U\cap V$ are isomorphic $G$-coverings, thus by previous work, they glue to a covering which restricts to $U,V$. This is given by a $h:\pi_1(X,x)\rightarrow G$ which is precisely the morphism desired.&lt;/p&gt;
-&lt;div class="math-env style-plain"
-data-kind="corollary"
-data-lang="en"
-data-numbered="true"&gt;
-&lt;span class="math-heading"&gt;
-&lt;span class="math-title"
-data-label='Corollary'&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="math-body"&gt;
-&lt;p&gt;If $U\cap V$ is simply connected then
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;corollary&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;If $U\cap V$ is simply connected then
 &lt;/p&gt;
 $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1(V,x),G)$$&lt;p&gt; which implies $\pi_1(X,x)$ is a free product.&lt;/p&gt;
-&lt;/span&gt;
+
+  &lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;It is also worth mentioning that this proof is an example of &lt;a href="https://en.wikipedia.org/wiki/Descent_(mathematics)"&gt;descent&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+
+&lt;p&gt;It is also worth mentioning that this proof is an example of &lt;a href=&#34;https://en.wikipedia.org/wiki/Descent_(mathematics)&#34;&gt;descent&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

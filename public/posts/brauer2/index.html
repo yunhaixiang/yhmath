@@ -1,205 +1,373 @@
-<!doctype html><html lang=en-us style=font-size:105%>
-<head>
-<meta charset=UTF-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=author content="Yunhai Xiang">
-<meta name=description content="
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="
   
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   — Thomas Hill
-Continuing from Part I, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to 
+Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to 
   ⟦cite:Poo17⟧
  from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
-<link rel=apple-touch-icon sizes=180x180 href=https://yunhaimath.com//images/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=https://yunhaimath.com//images/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=https://yunhaimath.com//images/favicon-16x16.png>
-<meta name=keywords content='hugo latex theme blog texify texify2 texify3 michael neuper'>
-<link rel=stylesheet href=/katex/katex.min.css>
-<script defer defer src=/katex/katex.min.js></script>
-<script defer src=/katex/contrib/auto-render.min.js></script>
-<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],throwOnError:!1})})</script>
-<meta property="og:url" content="https://yunhaimath.com/posts/brauer2/">
-<meta property="og:site_name" content="Yunhai Xiang">
-<meta property="og:title" content="Brauer Groups Part II">
-<meta property="og:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
-<meta property="og:locale" content="en_us">
-<meta property="og:type" content="article">
-<meta property="article:section" content="posts">
-<meta property="article:published_time" content="2026-01-18T23:38:19-05:00">
-<meta property="article:modified_time" content="2026-01-24T23:21:01-05:00">
-<meta property="article:tag" content="Math">
-<meta property="article:tag" content="Algebra">
-<meta property="article:tag" content="Algebraic-Geometry">
-<meta property="article:tag" content="Number-Theory">
-<link rel=canonical href=https://yunhaimath.com/posts/brauer2/>
-<meta itemprop=name content="Brauer Groups Part II">
-<meta itemprop=description content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
-<meta itemprop=datePublished content="2026-01-18T23:38:19-05:00">
-<meta itemprop=dateModified content="2026-01-24T23:21:01-05:00">
-<meta itemprop=wordCount content="1612">
-<meta itemprop=keywords content="Math,Algebra,Algebraic-Geometry,Number-Theory">
-<link rel=stylesheet href=/css/common.min.4fe55039e8e56e0ba3626e31349c0e9224026e0c1c49409678c20ce74d4f9000.css integrity="sha256-T+VQOejlbgujYm4xNJwOkiQCbgwcSUCWeMIM501PkAA=" crossorigin=anonymous>
-<link rel=stylesheet href=/css/content.min.e1b51cdb7e1d4e59ce0cc2bfcd1e41cd4f9388deff2599262f4b1152c3cf2d47.css integrity="sha256-4bUc234dTlnODMK/zR5BzU+TiN7/JZkmL0sRUsPPLUc=" crossorigin=anonymous>
-<title>Brauer Groups Part II - Yunhai Xiang</title>
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Brauer Groups Part II">
-<meta name=twitter:description content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
-<link rel=stylesheet href=/css/single.min.ebcc9037c7bbbdb0ec05b1de58dc7d65c41165e047add351f71aa903418f8a70.css integrity="sha256-68yQN8e7vbDsBbHeWNx9ZcQRZeBHrdNR9xqpA0GPinA=" crossorigin=anonymous>
-<link rel=stylesheet href=/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin=anonymous>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css>
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/brauer2/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Brauer Groups Part II">
+  <meta property="og:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-18T23:38:19-05:00">
+    <meta property="article:modified_time" content="2026-01-24T23:21:01-05:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Algebra">
+    <meta property="article:tag" content="Algebraic-Geometry">
+    <meta property="article:tag" content="Number-Theory">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/brauer2/">
+
+  
+  
+  
+  <meta itemprop="name" content="Brauer Groups Part II">
+  <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
+  <meta itemprop="datePublished" content="2026-01-18T23:38:19-05:00">
+  <meta itemprop="dateModified" content="2026-01-24T23:21:01-05:00">
+  <meta itemprop="wordCount" content="1612">
+  <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.4fe55039e8e56e0ba3626e31349c0e9224026e0c1c49409678c20ce74d4f9000.css" integrity="sha256-T&#43;VQOejlbgujYm4xNJwOkiQCbgwcSUCWeMIM501PkAA=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.e1b51cdb7e1d4e59ce0cc2bfcd1e41cd4f9388deff2599262f4b1152c3cf2d47.css" integrity="sha256-4bUc234dTlnODMK/zR5BzU&#43;TiN7/JZkmL0sRUsPPLUc=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Brauer Groups Part II - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Brauer Groups Part II">
+  <meta name="twitter:description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.ebcc9037c7bbbdb0ec05b1de58dc7d65c41165e047add351f71aa903418f8a70.css" integrity="sha256-68yQN8e7vbDsBbHeWNx9ZcQRZeBHrdNR9xqpA0GPinA=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+
 </head>
+
 <body>
-<div id=wrapper>
-<header id=header>
-<h1>
-<a href=https://yunhaimath.com/>Yunhai Xiang</a>
-<button id=dark-mode-toggle class=dark-mode-toggle aria-label="Toggle theme">
-<svg width="2rem" height="2rem" viewBox="0 0 496 496"><path fill="currentColor" d="M8 256C8 393 119 504 256 504S504 393 504 256 393 8 256 8 8 119 8 256zM256 440V72a184 184 0 010 368z" transform="translate(-8 -8)"/></svg>
-</button>
-</h1>
-<nav>
-<span class=nav-bar-item>
-<span class=icon><svg width="1em" height="1em" viewBox="0 0 24 24"><path d="M3 10.5 12 4l9 6.5V20a1 1 0 01-1 1h-5v-5H9v5H4a1 1 0 01-1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
 </span>
-<a class=link href=/>Home</a>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
 </span>
-<span class=nav-bar-item>
-<span class=icon><svg width="1em" height="1em" viewBox="0 0 24 24"><path d="M17 11H16a1 1 0 000 2h1a1 1 0 000-2zm0 4H16a1 1 0 000 2h1a1 1 0 000-2zM11 9h6a1 1 0 000-2H11a1 1 0 000 2zM21 3H7A1 1 0 006 4V7H3A1 1 0 002 8V18a3 3 0 003 3H18a4 4 0 004-4V4A1 1 0 0021 3zM6 18a1 1 0 01-2 0V9H6zm14-1a2 2 0 01-2 2H7.82A3 3 0 008 18V5H20zm-9-4h1a1 1 0 000-2H11a1 1 0 000 2zm0 4h1a1 1 0 000-2H11a1 1 0 000 2z"/></svg>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
 </span>
-<a class=link href=/posts/>Blog</a>
-</span>
-<span class=nav-bar-item>
-<span class=icon><svg width="1em" height="1em" viewBox="0 0 24 24"><path d="M9 2A3 3 0 006 5v7.17a3 3 0 00-.88 2.12A4.71 4.71.0 009.86 19h4.28a4.71 4.71.0 004.74-4.71A3 3 0 0018 12.17V5a3 3 0 00-3-3zM9 4h6a1 1 0 011 1v1H8V5a1 1 0 011-1zM8 9h8v3.17a1 1 0 00.29.71 2.71 2.71.0 01-1.86 4.63H9.15a2.71 2.71.0 01-1.86-4.63 1 1 0 00.29-.71z"/></svg>
-</span>
-<a class=link href=/math/>Math</a>
-</span>
-</nav>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
 </header>
-<hr class=head-rule></hr>
-<main id=main class=post>
-<div class=post-heading>
-<h1 class=post-title>Brauer Groups Part II</h1>
-<div class=publish-metadata>
-<svg width=".75em" height=".75em" viewBox="0 0 24 24" fill="none"><path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8m3-4h2m-2 4h2m3-4h2m-2 4h2M6.2 21H17.8c1.1201.0 1.6802.0 2.108-.218C20.2843 20.5903 20.5903 20.2843 20.782 19.908 21 19.4802 21 18.9201 21 17.8V8.2c0-1.12011.0-1.68016-.218-2.10798C20.5903 5.71569 20.2843 5.40973 19.908 5.21799 19.4802 5 18.9201 5 17.8 5H6.2c-1.1201.0-1.68016.0-2.10798.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202 3 6.51984 3 7.07989 3 8.2v9.6c0 1.1201.0 1.6802.21799 2.108C3.40973 20.2843 3.71569 20.5903 4.09202 20.782 4.51984 21 5.07989 21 6.2 21z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-January 18, 2026
-&nbsp;
-<span>
-<svg width=".75em" height=".75em" viewBox="0 0 24 24" fill="none"><path d="M15.4998 5.49994l2.8284 2.82843M3 20.9997l.04745-.3322c.16791-1.1753.25187-1.763.44284-2.3117C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783 4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896c.781100000000002-.78105 2.0474-.78105 2.8285.0C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244 6.41618 19.9932 6.00093 20.2159 5.56398 20.3879 5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-1612 words
-</span>
-&nbsp;
-<span>
-<svg width=".75em" height=".75em" viewBox="0 0 24 24" fill="none"><path d="M12 7v5l2.5 1.5M21 12c0 4.9706-4.0294 9-9 9-4.97056.0-9-4.0294-9-9 0-4.97056 4.02944-9 9-9 4.9706.0 9 4.02944 9 9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-~8 mins
-</span>
-</div>
-</div>
-<div class=post-taxonomy-line>
-<a class="link tag" href=https://yunhaimath.com/categories/expositions>@expositions</a>
-<a class="link tag" href=https://yunhaimath.com/tags/math>#math</a>
-<a class="link tag" href=https://yunhaimath.com/tags/algebra>#algebra</a>
-<a class="link tag" href=https://yunhaimath.com/tags/algebraic-geometry>#algebraic-geometry</a>
-<a class="link tag" href=https://yunhaimath.com/tags/number-theory>#number-theory</a>
-<br></br>
-</div>
-<details>
-<summary>
-<b>Table of Contents</b>
-</summary>
-<div class="toc numbered-subtitles"><nav id=TableOfContents>
-<ul>
-<li><a href=#cohomological-interpretation-of-the-brauer-group>Cohomological Interpretation of the Brauer Group</a></li>
-<li><a href=#examples-of-brauer-groups-of-fields>Examples of Brauer Groups of Fields</a></li>
-<li><a href=#period-and-index>Period and Index</a></li>
-<li><a href=#cyclic-algebras>Cyclic Algebras</a></li>
-<li><a href=#brauer-groups-of-rings>Brauer Groups of Rings</a></li>
-<li><a href=#references>References</a></li>
-</ul>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Brauer Groups Part II</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      January 18, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          1612 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~8 mins
+        </span>
+      
+    </div>
+  </div>
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebra'>#algebra</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/number-theory'>#number-theory</a>
+        
+      
+
+      
+      <br></br>
+      
+    </div>
+  
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#cohomological-interpretation-of-the-brauer-group">Cohomological Interpretation of the Brauer Group</a></li>
+    <li><a href="#examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</a></li>
+    <li><a href="#period-and-index">Period and Index</a></li>
+    <li><a href="#cyclic-algebras">Cyclic Algebras</a></li>
+    <li><a href="#brauer-groups-of-rings">Brauer Groups of Rings</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
 </nav></div>
-</details>
-<article class="content numbered-subtitles">
-<aside class=yh-pullquote style=--yh-pullquote-w:50%>
-<div class=yh-pullquote-text>
-The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
-</div><div class=yh-pullquote-attrib>— Thomas Hill</div></aside>
-<p>Continuing from <a href=/posts/brauer1>Part I</a>, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to <span class=yh-ref data-ref-kind=bib data-cite-key=Poo17>
-⟦cite:Poo17⟧
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
+  </div><div class="yh-pullquote-attrib">— Thomas Hill</div></aside>
+<p>Continuing from <a href="/posts/brauer1">Part I</a>, we delve deeper into Brauer groups. In this post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn's theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Poo17">
+  ⟦cite:Poo17⟧
 </span> from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.</p>
-<h2 id=cohomological-interpretation-of-the-brauer-group>Cohomological Interpretation of the Brauer Group</h2>
-<p><div class="math-env style-plain" id=prop-azumaya-to-pglr data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-<p>For each $r\ge 1$, there is injection
+<h2 id="cohomological-interpretation-of-the-brauer-group">Cohomological Interpretation of the Brauer Group</h2>
+<p><div class="math-env style-plain" 
+    id="prop-azumaya-to-pglr"
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    <p>For each $r\ge 1$, there is injection
 </p>
 $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomorphism}}\hookrightarrow \mathrm{H}^1(K,\mathrm{PGL}_r)$$
-</span>
+  </span>
 </div>
-<div class=proof-env data-compact=true>
-<span class=proof-heading>
-<span class=proof-title>Proof.</span>
-</span>
-<div class=proof-body>
-Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
-</div>
-<span class=proof-qed></span>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
+  </div>
+  <span class="proof-qed"></span>
 </div>
 </p>
-<div class="math-env style-remark" data-kind=remark data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Remark></span>
-</span>
-<span class=math-body>
-The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
-</span>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
+  </span>
 </div>
-<p><div class="math-env style-plain" id=thm-brauer-cohomology data-kind=theorem data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Theorem></span>
-</span>
-<span class=math-body>
-<p>There is an isomorphism of abelian groups
+
+<p><div class="math-env style-plain" 
+    id="thm-brauer-cohomology"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>There is an isomorphism of abelian groups
 </p>
 $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
-</span>
+  </span>
 </div>
-<div class=proof-env data-compact=true>
-<span class=proof-heading>
-<span class=proof-title>Proof.</span>
-</span>
-<div class=proof-body>
-<p>Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
 </p>
 $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$<p>
 gives a long exact sequence
 </p>
 $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$<p>
-Composing the injection from <span class=yh-ref data-ref-kind=math data-ref-id=prop-azumaya-to-pglr>⟦ref:prop-azumaya-to-pglr⟧</span> with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.</p>
-</div>
-<span class=proof-qed></span>
+Composing the injection from <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-azumaya-to-pglr">⟦ref:prop-azumaya-to-pglr⟧</span> with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.</p>
+
+  </div>
+  <span class="proof-qed"></span>
 </div>
 </p>
-<h2 id=examples-of-brauer-groups-of-fields>Examples of Brauer Groups of Fields</h2>
-<p><div class="math-env style-plain" id=prop-brauer-cohomology-mun data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-<p>Let $K$ be a field, then</p>
+<h2 id="examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</h2>
+<p><div class="math-env style-plain" 
+    id="prop-brauer-cohomology-mun"
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $K$ be a field, then</p>
 <ol class="enum-i surround-paren">
 <li>If $\mathrm{char}(K)\nmid n$, then $\mathrm H^1(K, \mu_n)=K^\times/K^{\times n}$.</li>
 <li>If $\mathrm{char}(K)\nmid n$, then $\mathrm H^2(K, \mu_n)\cong \mathrm{Br}(K)\left[n\right]$.</li>
 <li>For any Galois extension $L\mid K$, we have $\mathrm H^2(\mathrm{Gal}(L\mid K), L^\times)=\mathrm{Ker}(\mathrm{Br}(K)\rightarrow\mathrm{Br}(L))$.</li>
 </ol>
-</span>
+  </span>
 </div>
-<div class=proof-env data-compact=true>
-<span class=proof-heading>
-<span class=proof-title>Proof.</span>
-</span>
-<div class=proof-body>
-<ol class="enum-i surround-paren">
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <ol class="enum-i surround-paren">
 <li>Take short exact sequence
 $$1\to \mu_n\to \mathbb{G}_m\xrightarrow{(\cdot)^n} \mathbb{G}_m\to 1$$
 and take cohomology to get long exact sequence
@@ -208,16 +376,22 @@ $$\cdots \to \mathrm H^0(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^0(K, 
 $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, \mathbb{G}_m)\to \mathrm H^2(K, \mu_n)\to \mathrm H^2(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^2(K, \mathbb{G}_m) \to \cdots$$ then use Hilbert's Theorem 90 to conclude.</li>
 <li>Skipped</li>
 </ol>
-</div>
-<span class=proof-qed></span>
+
+  </div>
+  <span class="proof-qed"></span>
 </div>
 </p>
-<p><div class="math-env style-plain" data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-<p>Here are some examples of Brauer groups of fields:</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    <p>Here are some examples of Brauer groups of fields:</p>
 <ol class="enum-i surround-paren">
 <li>If $K$ is algebraically closed, $\mathrm{Br}(K)=0$,</li>
 <li>If $K$ is finite, then $\mathrm{Br}(K)=0$,</li>
@@ -227,179 +401,277 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 $$0\to \mathrm{Br}(K)\to \bigoplus_v \mathrm{Br}(K_v)\xrightarrow{\sum \mathrm{inv}_v} \mathbb{Q}/\mathbb{Z}\to 0$$
 where the sum is over all places $v$ of $K$.</li>
 </ol>
-</span>
+  </span>
 </div>
-<div class=proof-env data-compact=true>
-<span class=proof-heading>
-<span class=proof-title>Proof.</span>
-</span>
-<div class=proof-body>
-<ol class="enum-i surround-paren">
-<li>By <span class=yh-ref data-ref-kind=math data-ref-id=thm-brauer-cohomology>⟦ref:thm-brauer-cohomology⟧</span>, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.</li>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <ol class="enum-i surround-paren">
+<li>By <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-brauer-cohomology">⟦ref:thm-brauer-cohomology⟧</span>, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.</li>
 <li>Any central division algebra over a finite field is finite, hence by Wedderburn’s little theorem is a field, hence every Azumaya algebra over a finite field is some $\mathrm M_n(K)\sim K$, so the Brauer group is trivial.</li>
 <li>The only Azumaya algebras over $\mathbb{R}$ are $\mathbb{R}$ and the Hamiltonian quaternions $\mathbb{H}$ so the Brauer group is $\mathbb{Z}/2\mathbb{Z}$.</li>
 <li>It suffice to show for each $n\ge 1$ we have $\mathrm{Br}(K)[n]\cong \mathbb{Z}/n\mathbb{Z}$, so that
 $$\mathrm{Br}(K)=\lim_{\longrightarrow}\mathrm{Br}(K)[n]\cong\lim_{\longrightarrow}\mathbb{Z}/n\mathbb{Z}=\lim_{\longrightarrow} \frac{1}{n}\mathbb Z/\mathbb Z=\mathbb Q/\mathbb Z$$
-By <span class=yh-ref data-ref-kind=math data-ref-id=prop-brauer-cohomology-mun>⟦ref:prop-brauer-cohomology-mun⟧</span> part (ii), we have $\mathrm{Br}(K)[n]\cong \mathrm H^2(K, \mu_n)$. By Tate local duality from local class field theory, we have $\mathrm H^2(K, \mu_n)\cong \mathbb{Z}/n\mathbb{Z}$ as required.</li>
+By <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-brauer-cohomology-mun">⟦ref:prop-brauer-cohomology-mun⟧</span> part (ii), we have $\mathrm{Br}(K)[n]\cong \mathrm H^2(K, \mu_n)$. By Tate local duality from local class field theory, we have $\mathrm H^2(K, \mu_n)\cong \mathbb{Z}/n\mathbb{Z}$ as required.</li>
 <li>Skipped</li>
 </ol>
-</div>
-<span class=proof-qed></span>
-</div>
-</p>
-<p><div class="math-env style-defn" data-kind=definition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Definition></span>
-</span>
-<span class=math-body>
-Let $G$ be a profinite group and $p$ a prime. The <em>$p$-cohomological dimension</em> $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i>n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
-</span>
-</div>
-<div class="math-env style-plain" data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
-</span>
+
+  </div>
+  <span class="proof-qed"></span>
 </div>
 </p>
-<div class="math-env style-plain" data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
-</span>
+<p><div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Let $G$ be a profinite group and $p$ a prime. The <em>$p$-cohomological dimension</em> $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i>n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
+  </span>
 </div>
-<div class="math-env style-plain" data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
-</span>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
+  </span>
 </div>
-<div class="math-env style-defn" data-kind=definition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Definition></span>
-</span>
-<span class=math-body>
-A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n>d^r$ has a nontrivial zero in $K$. The adjective <em>quasi-algebraically closed</em> means $C_1$.
-</span>
+</p>
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
+  </span>
 </div>
-<div class="math-env style-plain" data-kind=theorem data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Theorem></span>
-</span>
-<span class=math-body>
-<p>If $K$ is a $C_r$ field, $L\mid K$ an extension,</p>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
+  </span>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n>d^r$ has a nontrivial zero in $K$. The adjective <em>quasi-algebraically closed</em> means $C_1$.
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>If $K$ is a $C_r$ field, $L\mid K$ an extension,</p>
 <ol class="enum-i surround-paren">
 <li>If $L$ is algebraic over $K$, then $L$ is $C_r$.</li>
 <li>If $L$ is transcendental of trasncendence degree $s$ over $K$, then then $L$ is $C_{r+s}$.</li>
 </ol>
-</span>
+  </span>
 </div>
-<p><div class="math-env style-plain" data-kind=theorem data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Theorem></span> <span class=math-note>(Chevalley–Warning)</span>
-</span>
-<span class=math-body>
-If $K$ is a finite field, then $K$ is $C_1$.
-</span>
+
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Chevalley–Warning)</span>
+  </span>
+  <span class="math-body">
+    If $K$ is a finite field, then $K$ is $C_1$.
+  </span>
 </div>
-<div class="math-env style-plain" data-kind=theorem data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Theorem></span>
-</span>
-<span class=math-body>
-If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
-</span>
+
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
+  </span>
 </div>
 </p>
-<h2 id=period-and-index>Period and Index</h2>
-<div class="math-env style-defn" data-kind=definition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Definition></span>
-</span>
-<span class=math-body>
-The <em>index</em> of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The <em>period</em> of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$.
-</span>
+<h2 id="period-and-index">Period and Index</h2>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    The <em>index</em> of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The <em>period</em> of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$.
+  </span>
 </div>
-<p><div class="math-env style-plain" data-kind=theorem data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Theorem></span>
-</span>
-<span class=math-body>
-For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
-</span>
+
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
+  </span>
 </div>
-<div class=proof-env data-compact=true>
-<span class=proof-heading>
-<span class=proof-title>Proof.</span>
-</span>
-<div class=proof-body>
-<p>We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity </p>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity </p>
 $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$<p>
 we see that the period of $D$ divides $n$, as required.</p>
+
+  </div>
+  <span class="proof-qed"></span>
 </div>
-<span class=proof-qed></span>
-</div>
-<div class="math-env style-remark" data-kind=remark data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Remark></span>
-</span>
-<span class=math-body>
-Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
-</span>
+
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
+  </span>
 </div>
 </p>
-<h2 id=cyclic-algebras>Cyclic Algebras</h2>
+<h2 id="cyclic-algebras">Cyclic Algebras</h2>
 <p>Let $L\mid K$ be a degree $n$ cyclic extension, $a\in K^\times$ and $\sigma$ a generator of $\mathrm{Gal}(L\mid K)$. Let $L[x]_{\sigma}$ be the twisted polynomial ring with relation $x\ell=\sigma(\ell)x$ for all $\ell\in L$. Let $A=L[x]_{\sigma}/(x^n - a)$. It is straightforward to check that $A$ is a central simple algebra over $K$ of dimension $n^2$ that splits over $L$. Azumaya algebras of this form are called <em>cyclic algebras</em>. Generally, we have the following.</p>
-<p><div class="math-env style-defn" data-kind=definition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Definition></span>
-</span>
-<span class=math-body>
-Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The <em>cyclic algebra</em> associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
+<p><div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The <em>cyclic algebra</em> associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
 $(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
-</span>
+  </span>
 </div>
-<div class="math-env style-remark" data-kind=remark data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Remark></span>
-</span>
-<span class=math-body>
-<p>Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
+
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    <p>Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
 </p>
 $$\mathrm H^1(K,\mu_n)\times \mathrm H^1(K,\mathbb Z/n\mathbb Z)\to \mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$$<p>
 the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$ that corresponds to the cyclic algebra $(\chi,a)$ up to a sign.</p>
-</span>
+
+  </span>
 </div>
-<div class="math-env style-plain" data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
-</span>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
+  </span>
 </div>
-<div class="math-env style-plain" data-kind=proposition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Proposition></span>
-</span>
-<span class=math-body>
-Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
-</span>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <span class="math-body">
+    Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
+  </span>
 </div>
 </p>
-<h2 id=brauer-groups-of-rings>Brauer Groups of Rings</h2>
-<div class="math-env style-defn" data-kind=definition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Definition></span>
-</span>
-<span class=math-body>
-<p>Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an <em>Azumaya algebra</em> over $R$ if</p>
+<h2 id="brauer-groups-of-rings">Brauer Groups of Rings</h2>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an <em>Azumaya algebra</em> over $R$ if</p>
 <ol class="enum-i surround-paren">
 <li>$A$ is finitely generated projective as an $R$-module,</li>
 <li>the natural map
@@ -407,62 +679,158 @@ $A\otimes_R A^{\mathrm{op}}\to \mathrm{End}_R(A)$
 by sending $a\otimes b^{\mathrm{op}}\mapsto (x\mapsto axb)$
 is an isomorphism of $R$-algebras.</li>
 </ol>
-</span>
+  </span>
 </div>
-<p><div class="math-env style-remark" data-kind=remark data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Remark></span>
-</span>
-<span class=math-body>
-Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
-</span>
+
+<p><div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
+  </span>
 </div>
-<div class="math-env style-defn" data-kind=definition data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Definition></span>
-</span>
-<span class=math-body>
-Two Azumaya algebras $A$ and $B$ over $R$ are <em>Brauer equivalent</em> if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The <em>Brauer group</em> $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
-</span>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    Two Azumaya algebras $A$ and $B$ over $R$ are <em>Brauer equivalent</em> if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The <em>Brauer group</em> $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
+  </span>
 </div>
 </p>
-<div class="math-env style-remark" data-kind=remark data-lang=en data-numbered=true>
-<span class=math-heading>
-<span class=math-title data-label=Remark></span>
-</span>
-<span class=math-body>
-For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}'(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}'(R)$ but it is not necessarily surjective. The same is true for schemes.
-</span>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}'(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}'(R)$ but it is not necessarily surjective. The same is true for schemes.
+  </span>
 </div>
-<h2 id=references>References</h2>
-<div class=bib-env>
-<ul class=bib-list>
-<li id=bib-Poo17 data-bib-key=Poo17>
-<span class=bib-label>[Poo17]</span>Bjorn Poonen. <em>Rational Points on Varieties</em>. American Mathematical Society. 2017.</li>
+
+<h2 id="references">References</h2>
+<div class="bib-env">
+  <ul class="bib-list">
+  <li id="bib-Poo17" data-bib-key="Poo17">
+  <span class="bib-label">[Poo17]</span>Bjorn Poonen. <em>Rational Points on Varieties</em>. American Mathematical Society. 2017.</li>
+
 </ul>
 </div>
-</article>
-<div id=sharingbuttons>
+
+
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
 </div>
-<div class=paginator>
-<a class=link href=https://yunhaimath.com/posts/brauer1/ title="Brauer Groups Part I"><span class=arrow-icon>🢠</span> Prev</a>
-<a class=link href=https://yunhaimath.com/posts/expander-graphs/ title="Expander Graphs">Next <span class=arrow-icon>🢡</span></a>
-</div>
-<div class=comment>
-<script src=https://giscus.app/client.js data-repo=yunhaixiang/yhmath data-repo-id=R_kgDOQj059g data-category=Announcements data-category-id=DIC_kwDOQj059s4CzenA data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=bottom data-theme=gruvbox data-lang=en crossorigin=anonymous async></script>
-</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/brauer1/" title="Brauer Groups Part I"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/expander-graphs/" title="Expander Graphs">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
 </main>
-<footer id=footer>
-<div>
-<span>Copyright © 2026 Yunhai Xiang</span>
-</div>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
 </footer>
-<script src=/js/math-env.js></script>
-</div>
-<script src=https://yunhaimath.com/js/script.js defer></script>
-<link media=screen rel=stylesheet href=https://yunhaimath.com/css/publications.css>
-<link media=screen rel=stylesheet href=https://yunhaimath.com/css/codeblock.css>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
 </body>
+
 </html>
-<script src=/js/collapsible.js defer></script>
-<script src=/js/mobile-ol-markers.js defer></script>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>

@@ -103,7 +103,7 @@ Let $C/\mathbb F_q$ be a hyperelliptic curve of genus $g>2$ such that $L_C(T)=1+
 {{< proof >}}
 Since $q^n$ is odd $L_C(T)\equiv 1+T^g+T^{2g}\pmod{2}$. By {{< refer id="thm-hyp" >}} we have in $\mathbb F_2[T]$
 $$(1+T)^2(1+T^g+T^{2g})=\prod_{i=1}^r(1+T^{d_i})$$
-swapping negative signs with positive ones. The LHS has exactly two linear factors, and the RHS $1+T^{d_i}$ contributes one linear factor if $d_i$ is odd and two if $d_i$ is even. Thus, the number of Frobenius cycles can only be $1$ or $2$, but then the RHS would not have $6$ terms, contradiction.  
+swapping negative signs with positive ones. The LHS has exactly two linear factors, and the RHS $1+T^{d_i}$ contributes one linear factor if $d_i$ is odd and two if $d_i$ is even. Thus, the number of Frobenius cycles $r$ can only be $1$ or $2$. For $g>2$, the LHS would need to have $6$ terms, contradiction.  
 {{< /proof >}}
 
 The above analysis helps us understand the $L$-polynomial mod $\ell$, where $\ell\ne p$. However it does not help us understand it mod $p$. The Hasse-Witt matrix helps us understand the $L$-polynomial mod $p$. 
@@ -122,14 +122,25 @@ Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with
 {{< /definition >}}
 
 Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
+Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
 
-Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Tr}_{\kappa(P)/k}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
+Fix $C$ a smooth projective geometrically integral curve over a field $k$, with function field $K=k(C)$. For each closed point $P\in |C|$, let $K_P=\mathrm{Frac}(\widehat{\mathcal O}_{C,P})$ be the fractional field of the completion of the local ring of $C$ at $P$. Let $t_P$ be the uniformizer in $\mathcal O_{C,P}$, then non-canonically, we have $\widehat{\mathcal O}_{C,P}=k(P)[[t_P]]$ and $K_P=k(P)((t_P))$. 
+
+{{< definition >}}
+With the setting above, define the _adele ring_ of $C$ as the topological ring
+$$\mathbb A_C=\prod_{P\in |C|}(K_P,\widehat{\mathcal O}_{C,P})$$
+In other words it is a collection of $(f_P)_{P\in |C|}$ where only finitely many are allowed to have poles. For a divisor $D=\sum_{P}n_P P$, define 
+$$\mathbb A_C(D)=\prod_{P\in |C|}\widehat{\mathcal O_C(D)_P}=\{(f_P)_{P\in |C|}:\forall P\in |C|,\mathrm{ord}_P(f_P)+n_P\ge 0\}\subseteq\mathbb A_C$$
+When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ the integral adeles. The rational functions $K\to \mathbb A_C$ embeds diagonally into the adeles. 
+{{< /definition >}}
 
 {{< lemma >}}
-For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(X,\mathcal O_X(D))\cong \mathbb{A}_X/(\mathbb{A}_X(D)+\mathcal K(X))$, where $\mathcal K(X)$ embeds diagonally. 
+For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(C,\mathcal O_C(D))\cong \mathbb{A}_C/(\mathbb{A}_C(D)+K)$. 
 {{< /lemma >}}
 {{< proof >}}
-
+Consider the two term complex $K$
+$$K\oplus \mathbb A_C(D)\xrightarrow{d}\mathbb A_C\qquad (f,(g_P)_P)\mapsto (f-g_P)_P$$
+We claim that in the derived category $K\cong R\Gamma(C,\mathcal O_C(D))$, so the result follows. 
 {{< /proof >}}
 
 {{< theorem note="Serre Duality">}}
