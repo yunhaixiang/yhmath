@@ -141,19 +141,33 @@ For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces 
 {{< theorem note="Serre Duality">}}The Serre pairing below is perfect
 $$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&\rightarrow k\\
 ((f_P)_P,\omega) &\mapsto\sum_{P\in |C|}\mathrm{Res}_{P}(f_P\omega)\end{aligned}$$
-where for a local meromorphic differential $f_P\mathrm{dt_P}=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.
+where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.
 {{< /theorem >}}
+{{< proof >}}
+See {{< cite key="Ser88" note="Chapter II.8, Duality theorem" >}}.
+{{< /proof >}}
 
 
 {{< definition >}}
-The _Cartier operator_ $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
+The _Cartier operator_ $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
 {{< /definition >}}
 
 Concretely, we can derive a formula for the Cartier operator as follows. 
 
+{{< theorem >}}
+Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
+$$C\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
+{{< /theorem >}}
+{{< proof >}}
+
+{{< /proof >}}
+
 ## References
 
 {{< bibliography >}}
+  {{< bibitem key="Ser88" author="Jean-Pierre Serre" type="book" series="Graduate Texts in Mathematics" volume="117" publisher="Springer-Verlag" address="New York" year="1988" >}}
+  Algebraic Groups and Class Fields
+  {{< /bibitem >}}
   {{< bibitem key="Mum07" author="David Mumford" type="book" series="Modern Birkhäuser Classics" publisher="Birkhäuser Boston" year="2007" >}}
   Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations
   {{< /bibitem >}}

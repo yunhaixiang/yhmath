@@ -59,7 +59,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-05-15T14:28:09-04:00">
-    <meta property="article:modified_time" content="2026-05-25T21:39:03-04:00">
+    <meta property="article:modified_time" content="2026-05-25T22:39:55-04:00">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Number-Theory">
     <meta property="article:tag" content="Math">
@@ -74,8 +74,8 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta itemprop="name" content="Hyperelliptic Jacobians and Hasse–Witt Matrix">
   <meta itemprop="description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
   <meta itemprop="datePublished" content="2026-05-15T14:28:09-04:00">
-  <meta itemprop="dateModified" content="2026-05-25T21:39:03-04:00">
-  <meta itemprop="wordCount" content="2006">
+  <meta itemprop="dateModified" content="2026-05-25T22:39:55-04:00">
+  <meta itemprop="wordCount" content="2064">
   <meta itemprop="keywords" content="Algebraic-Geometry,Number-Theory,Math">
 
   
@@ -191,7 +191,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2006 words
+          2064 words
         </span>
       
       
@@ -550,7 +550,7 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   </span>
 </div>
 
-<div class="math-env style-plain" 
+<p><div class="math-env style-plain" 
     
      data-kind="theorem"
      data-lang="en"
@@ -564,11 +564,25 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
 </p>
 $$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&\rightarrow k\\
 ((f_P)_P,\omega) &\mapsto\sum_{P\in |C|}\mathrm{Res}_{P}(f_P\omega)\end{aligned}$$<p>
-where for a local meromorphic differential $f_P\mathrm{dt_P}=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.</p>
+where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.</p>
 
   </span>
 </div>
 
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
+⟦cite:Ser88⟧
+</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
 <div class="math-env style-defn" 
     
      data-kind="definition"
@@ -579,14 +593,44 @@ where for a local meromorphic differential $f_P\mathrm{dt_P}=(a_{-m}t_P^{-m}+a_{
         data-label='Definition'></span>
   </span>
   <span class="math-body">
-    The <em>Cartier operator</em> $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
+    The <em>Cartier operator</em> $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
   </span>
 </div>
 
 <p>Concretely, we can derive a formula for the Cartier operator as follows.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
+</p>
+$$C\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
+  <li id="bib-Ser88" data-bib-key="Ser88">
+  <span class="bib-label">[Ser88]</span>Jean-Pierre Serre. <em>Algebraic Groups and Class Fields</em>. Graduate Texts in Mathematics. Vol. 117. Springer-Verlag. New York. 1988.</li>
+
   <li id="bib-Mum07" data-bib-key="Mum07">
   <span class="bib-label">[Mum07]</span>David Mumford. <em>Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations</em>. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.</li>
 

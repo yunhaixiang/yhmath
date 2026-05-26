@@ -275,8 +275,8 @@ swapping negative signs with positive ones. The LHS has exactly two linear facto
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt.
-Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the &lt;em&gt;local principal part&lt;/em&gt; of $\alpha$ at $P$, which we shall explain.&lt;/p&gt;
+&lt;p&gt;Let $\omega_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt.
+Recall that Serre duality gives a perfect pairing $H^0(X,\omega_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\omega_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the &lt;em&gt;local principal part&lt;/em&gt; of $\alpha$ at $P$, which we shall explain.&lt;/p&gt;
 &lt;p&gt;Fix $C$ a smooth projective geometrically integral curve over a field $k$, with function field $K=k(C)$. For each closed point $P\in |C|$, let $K_P=\mathrm{Frac}(\widehat{\mathcal O}_{C,P})$ be the fractional field of the completion of the local ring of $C$ at $P$. Let $t_P$ be the uniformizer in $\mathcal O_{C,P}$, then non-canonically, we have $\widehat{\mathcal O}_{C,P}=k(P)[[t_P]]$ and $K_P=k(P)((t_P))$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
@@ -299,7 +299,7 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
      data-lang=&#34;en&#34;
@@ -313,22 +313,7 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;p&gt;Consider the two term complex $K$
-&lt;/p&gt;
-$$K\oplus \mathbb A_C(D)\xrightarrow{d}\mathbb A_C\qquad (f,(g_P)_P)\mapsto (f-g_P)_P$$&lt;p&gt;
-We claim that in the derived category $K\cong R\Gamma(C,\mathcal O_C(D))$, so the result follows.&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -338,10 +323,29 @@ We claim that in the derived category $K\cong R\Gamma(C,\mathcal O_C(D))$, so th
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Serre Duality)&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    
+    &lt;p&gt;The Serre pairing below is perfect
+&lt;/p&gt;
+$$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&amp;\rightarrow k\\
+((f_P)_P,\omega) &amp;\mapsto\sum_{P\in |C|}\mathrm{Res}_{P}(f_P\omega)\end{aligned}$$&lt;p&gt;
+where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.&lt;/p&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&#34;&gt;
+⟦cite:Ser88⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
@@ -352,14 +356,44 @@ We claim that in the derived category $K\cong R\Gamma(C,\mathcal O_C(D))$, so th
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    The &lt;em&gt;Cartier operator&lt;/em&gt; $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
+    The &lt;em&gt;Cartier operator&lt;/em&gt; $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
   &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
+&lt;/p&gt;
+$$C\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Ser88&#34; data-bib-key=&#34;Ser88&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;Jean-Pierre Serre. &lt;em&gt;Algebraic Groups and Class Fields&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 117. Springer-Verlag. New York. 1988.&lt;/li&gt;
+
   &lt;li id=&#34;bib-Mum07&#34; data-bib-key=&#34;Mum07&#34;&gt;
   &lt;span class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;David Mumford. &lt;em&gt;Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations&lt;/em&gt;. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.&lt;/li&gt;
 
