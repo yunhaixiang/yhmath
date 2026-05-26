@@ -33,7 +33,9 @@ However, it is almost certain now that the nature of what a human mathematician 
 I loathe to be one of those so called “futurist”, but I feel compelled to given how fast technological iteration has been changing my life. The precariousness of the current global political climate has also caused me some anxiety. Therefore, I’ve spent time to really think about what the future might look like for me. Here is what I theorize would come true in the following decade. Admittedly, I am not a sociologist, so take it with a grain of salt.  
 
 1. _The paradigm of math research will change_: 
+    - a
 2. _The sociology of math academia will change_: 
+    - a
 
 ## Why I am Still, Generally Speaking, Optimistic
 
