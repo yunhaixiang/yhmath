@@ -178,7 +178,7 @@ Same setting as above. Let $y^2=f(x)$ be an affine model of $C$. Suppose $f(x)^{
 {{< /theorem >}}
 {{< proof >}}
 Using {{< refer "thm-local" >}}, since $y^{p-1}=f(x)^{\frac{p-1}{2}}$
-$$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g a_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g a_{pj-i}^{1/p}\omega_j$$
+$$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g c_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g c_{pj-i}^{1/p}\omega_j$$
 and we are done. 
 {{< /proof >}}
 

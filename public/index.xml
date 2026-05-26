@@ -446,7 +446,7 @@ Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, t
   &lt;div class=&#34;proof-body&#34;&gt;
     &lt;p&gt;Using &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-local&#34;&gt;⟦ref:thm-local⟧&lt;/span&gt;, since $y^{p-1}=f(x)^{\frac{p-1}{2}}$
 &lt;/p&gt;
-$$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g a_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g a_{pj-i}^{1/p}\omega_j$$&lt;p&gt;
+$$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g c_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g c_{pj-i}^{1/p}\omega_j$$&lt;p&gt;
 and we are done.&lt;/p&gt;
 
   &lt;/div&gt;
