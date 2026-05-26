@@ -121,8 +121,8 @@ Let $k$ be a perfect field of characteristic $p > 0$, and let $X$ be a smooth pr
 Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$. 
 {{< /definition >}}
 
-Let $\varOmega^1_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
-Recall that Serre duality gives a perfect pairing $H^0(X,\varOmega^1_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\varOmega^1_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
+Let $\omega_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
+Recall that Serre duality gives a perfect pairing $H^0(X,\omega_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\omega_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
 
 Fix $C$ a smooth projective geometrically integral curve over a field $k$, with function field $K=k(C)$. For each closed point $P\in |C|$, let $K_P=\mathrm{Frac}(\widehat{\mathcal O}_{C,P})$ be the fractional field of the completion of the local ring of $C$ at $P$. Let $t_P$ be the uniformizer in $\mathcal O_{C,P}$, then non-canonically, we have $\widehat{\mathcal O}_{C,P}=k(P)[[t_P]]$ and $K_P=k(P)((t_P))$. 
 
@@ -137,18 +137,16 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
 {{< lemma >}}
 For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(C,\mathcal O_C(D))\cong \mathbb{A}_C/(\mathbb{A}_C(D)+K)$. 
 {{< /lemma >}}
-{{< proof >}}
-Consider the two term complex $K$
-$$K\oplus \mathbb A_C(D)\xrightarrow{d}\mathbb A_C\qquad (f,(g_P)_P)\mapsto (f-g_P)_P$$
-We claim that in the derived category $K\cong R\Gamma(C,\mathcal O_C(D))$, so the result follows. 
-{{< /proof >}}
 
-{{< theorem note="Serre Duality">}}
+{{< theorem note="Serre Duality">}}The Serre pairing below is perfect
+$$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&\rightarrow k\\
+((f_P)_P,\omega) &\mapsto\sum_{P\in |C|}\mathrm{Res}_{P}(f_P\omega)\end{aligned}$$
+where for a local meromorphic differential $f_P\mathrm{dt_P}=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.
 {{< /theorem >}}
 
 
 {{< definition >}}
-The _Cartier operator_ $C:H^0(X,\varOmega^1_X) \to H^0(X,\varOmega^1_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\varOmega^1_X)$.
+The _Cartier operator_ $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
 {{< /definition >}}
 
 Concretely, we can derive a formula for the Cartier operator as follows. 
