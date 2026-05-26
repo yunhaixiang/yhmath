@@ -115,14 +115,23 @@ Let $\varepsilon$ be an automorphism of the field $K$, and write $a^{\varepsilon
 
 Let $V^*$ be the dual of $V$ and $E^*=(e^1, \ldots, e^n)$ be the corresponding dual basis. If $T: V \to W$ is a $\varepsilon$-semilinear map, then its adjoint $T^*: W^* \to V^*$ is a $\varepsilon^{-1}$-semilinear map and is characterized by the property that $\langle Tv, w \rangle = \langle v, T^* w \rangle^{\varepsilon^{-1}}$ for all $v \in V$ and $w \in W^*$. In terms of matrices, we have $[T^*]_{F^*}^{E^*} = ([T]_E^F)^{t,\varepsilon^{-1}}$, where $t$ denotes the transpose.
 
-Let $k$ be a perfect field of characteristic $p > 0$, and let $X$ be a smooth projective curve over $k$. Let $F: X \to X$ be the absolute Frobenius morphism, which raises functions to their $p$-th power. Let $\sigma:k\rightarrow k$ be the Frobenius automorphism of $k$ with inverse $\tau$. The absolute Frobenius $F:X \to X$ is defined to be the identity on the underlying topological space of $X$ and sends $f\mapsto f^p$ on sections. Recall that the coherent cohomology $H^i(X,\mathcal O_X)$ is a $k$-vector space via the following process: the structure map $X\rightarrow \mathrm{Spec}(k)$ induces $k=H^0(\mathrm{Spec}(k),\mathcal O_{\mathrm{Spec}(k)})\rightarrow H^0(X,\mathcal O_X)$, and for each $f\in H^0(X,\mathcal O_X)$, the multiplication map $m_f:\mathcal O_X \to \mathcal O_X$ by $f$ induces $m_f^i: H^i(X,\mathcal O_X) \to H^i(X,\mathcal O_X)$, and $f\cdot \alpha := m_f^i(\alpha)$ for $\alpha \in H^i(X,\mathcal O_X)$ makes $H^i(X,\mathcal O_X)$ a $H^0(X,\mathcal O_X)$-module, and hence by composition also a $k$-vector space. The absolute Frobenius $F$ induces a $\sigma$-semilinear map $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$. 
+Let $k$ be a perfect field of characteristic $p > 0$, and let $C$ be a smooth projective curve over $k$. Let $F: C \to C$ be the absolute Frobenius morphism, which raises functions to their $p$-th power. Let $\sigma:k\rightarrow k$ be the Frobenius automorphism of $k$ with inverse $\tau$. The absolute Frobenius $F:C \to C$ is defined to be the identity on the underlying topological space of $C$ and sends $f\mapsto f^p$ on sections. Recall that the coherent cohomology $H^i(C,\mathcal O_C)$ is a $k$-vector space via the following process: the structure map $C\rightarrow \mathrm{Spec}(k)$ induces $k=H^0(\mathrm{Spec}(k),\mathcal O_{\mathrm{Spec}(k)})\rightarrow H^0(C,\mathcal O_C)$, and for each $f\in H^0(C,\mathcal O_C)$, the multiplication map $m_f:\mathcal O_C \to \mathcal O_C$ by $f$ induces $m_f^i: H^i(C,\mathcal O_C) \to H^i(C,\mathcal O_C)$, and $f\cdot \alpha := m_f^i(\alpha)$ for $\alpha \in H^i(C,\mathcal O_C)$ makes $H^i(C,\mathcal O_C)$ a $H^0(C,\mathcal O_C)$-module, and hence by composition also a $k$-vector space. The absolute Frobenius $F$ induces a $\sigma$-semilinear map $F^*: H^1(C,\mathcal O_C) \to H^1(C,\mathcal O_C)$. 
 
 {{< definition >}}
-Let $B$ be a basis of $H^1(X,\mathcal O_X)$, the Hasse–Witt matrix of $X$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$. 
+Let $B$ be a basis of $H^1(C,\mathcal O_C)$, the Hasse–Witt matrix of $C$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$. 
 {{< /definition >}}
 
-Let $\omega_X$ be the sheaf of Kähler differentials on $X$. We introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
-Recall that Serre duality gives a perfect pairing $H^0(X,\omega_X) \times H^1(X,\mathcal O_X) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(X,\omega_X) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |X|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$, which we shall explain. 
+{{< theorem >}}
+Let $C/\mathbb F_q$ be a smooth projective curve. If $H$ is the Hasse-Witt matrix of $C$, then
+$$L_C(T)\equiv \det(1-TH)\pmod p.$$
+In other words, the characteristic polynomial computes the $L$-polynomial mod $p$. 
+{{< /theorem >}}
+{{< proof >}}
+Either one uses the coherent Lefschetz trace formula or comparison with de Rham and crystalline cohomology, both are difficult. See Manin's original congruence {{< cite key="Man61" note="Theorem 1" >}}.
+{{< /proof >}}
+
+Let $\omega_C$ be the sheaf of Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
+Recall that Serre duality gives a perfect pairing $H^0(C,\omega_C) \times H^1(C,\mathcal O_C) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(C,\omega_C) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |C|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$. 
 
 Fix $C$ a smooth projective geometrically integral curve over a field $k$, with function field $K=k(C)$. For each closed point $P\in |C|$, let $K_P=\mathrm{Frac}(\widehat{\mathcal O}_{C,P})$ be the fractional field of the completion of the local ring of $C$ at $P$. Let $t_P$ be the uniformizer in $\mathcal O_{C,P}$, then non-canonically, we have $\widehat{\mathcal O}_{C,P}=k(P)[[t_P]]$ and $K_P=k(P)((t_P))$. 
 
@@ -149,22 +158,47 @@ See {{< cite key="Ser88" note="Chapter II.8, Duality theorem" >}}.
 
 
 {{< definition >}}
-The _Cartier operator_ $C:H^0(X,\omega_X) \to H^0(X,\omega_X)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(X,\mathcal O_X) \to H^1(X,\mathcal O_X)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, C\omega \rangle^{\tau}$ for all $\alpha \in H^1(X,\mathcal O_X)$ and $\omega \in H^0(X,\omega_X)$.
+The _Cartier operator_ $M:H^0(C,\omega_C) \to H^0(C,\omega_C)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(C,\mathcal O_C) \to H^1(C,\mathcal O_C)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, M\omega \rangle^{\tau}$ for all $\alpha \in H^1(C,\mathcal O_C)$ and $\omega \in H^0(C,\omega_C)$. The Cartier–Manin matrix with respect to a basis $B$ of $H^0(C,\omega_C)$ is the matrix of the Cartier operator with respct to $B$. 
 {{< /definition >}}
 
 Concretely, we can derive a formula for the Cartier operator as follows. 
 
-{{< theorem >}}
-Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
-$$C\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
+{{< theorem id="thm-local" >}}
+Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt_P\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
+$$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
 {{< /theorem >}}
 {{< proof >}}
-
+By adjointness on an adeles supported only at one point with $f_P=f$, we have 
+$$\mathrm{Res}_P(f^p\omega)=\left(\mathrm{Res}_P(fM\omega)\right)^p$$
+Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption, renaming indices $j:=-r$, then done.  
 {{< /proof >}}
+
+{{< theorem >}}
+Same setting as above. Let $y^2=f(x)$ be an affine model of $C$. Suppose $f(x)^{\frac{p-1}{2}}=\sum_{m}c_m x^m$, then with respect to the standard basis $\omega_i=x^{i-1}\frac{\mathrm dx}{y}$ for $i=1,\dots,g$, the Cartier–Manin matrix is $(c_{pi-j}^{1/p})_{1\le i,j\le g}$.
+{{< /theorem >}}
+{{< proof >}}
+Using {{< refer "thm-local" >}}, since $y^{p-1}=f(x)^{\frac{p-1}{2}}$
+$$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g a_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g a_{pj-i}^{1/p}\omega_j$$
+and we are done. 
+{{< /proof >}}
+
+{{< corollary >}}
+Same setting as above. The dual basis of $H^1(C,\mathcal O_C)$ to the standard basis $H^0(C,\omega_C)$ is given by $\eta_i=-\frac{y}{2x^i}$ for $i=1,\dots,g$, with respect to which the Hasse-Witt matrix of $C$ is $(c_{pj-i})_{1\le i,j\le g}$. 
+{{< /corollary >}}
+{{< proof >}}
+Straightforward by the semilinar adjunction between Hasse–Witt and Cartier–Manin matrices. 
+{{< /proof >}}
+
 
 ## References
 
 {{< bibliography >}}
+  {{< bibitem key="Man61" author="Yuri I. Manin" type="article" journal="Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya" volume="25" number="1" pages="153--172" year="1961" note="English translation in American Mathematical Society Translations, Series 2, Volume 45, pages 245--264, 1965" url="https://www.mathnet.ru/eng/im3370" >}}
+  The Hasse-Witt matrix of an algebraic curve
+  {{< /bibitem >}}
+  {{< bibitem key="AH19" author="Jeffrey D. Achter and Everett W. Howe" type="incollection" booktitle="Arithmetic Geometry: Computation and Applications" series="Contemporary Mathematics" volume="722" publisher="American Mathematical Society" pages="1--18" year="2019" doi="10.1090/conm/722/14534" eprint="1710.10726" >}}
+  Hasse-Witt and Cartier-Manin matrices: A warning and a request
+  {{< /bibitem >}}
   {{< bibitem key="Ser88" author="Jean-Pierre Serre" type="book" series="Graduate Texts in Mathematics" volume="117" publisher="Springer-Verlag" address="New York" year="1988" >}}
   Algebraic Groups and Class Fields
   {{< /bibitem >}}
