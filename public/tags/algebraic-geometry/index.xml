@@ -318,7 +318,7 @@ data-cite-key=&#34;Man61&#34; data-cite-note=&#34;Theorem 1&#34;&gt;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$.
+    The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible.
   &lt;/span&gt;
 &lt;/div&gt;
 

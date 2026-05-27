@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 22:59:19 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2027 00:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Case for AI-Assisted Math</title>
       <link>http://localhost:1313/posts/a-case-for-ai-assisted-math/</link>
@@ -355,7 +355,7 @@ data-cite-key=&#34;Man61&#34; data-cite-note=&#34;Theorem 1&#34;&gt;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible and superspecial iff $H=0$.
+    The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible.
   &lt;/span&gt;
 &lt;/div&gt;
 
