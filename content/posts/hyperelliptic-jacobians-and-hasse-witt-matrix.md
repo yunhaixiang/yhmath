@@ -130,7 +130,7 @@ In other words, the characteristic polynomial computes the $L$-polynomial mod $p
 Either one uses the coherent Lefschetz trace formula or comparison with de Rham and crystalline cohomology, both are difficult. See Manin's original congruence {{< cite key="Man61" note="Theorem 1" >}}.
 {{< /proof >}}
 
-{{< remark >}}The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible and superspecial iff $H=0$. 
+{{< remark >}}The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible. 
 {{< /remark >}}
 
 Let $\omega_C$ be the sheaf of regular Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
