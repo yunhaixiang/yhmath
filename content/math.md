@@ -24,9 +24,8 @@ I’m also very interested in [machine learning](https://en.wikipedia.org/wiki/M
 Here are my (unfinished) notes for various topics
 
 1. [_Linear Algebraic Groups_](https://yunhaixiang.github.io/linalggrps/linalggrps.pdf)
-2. [_Algebraic Curves and Abelian Varieties_](https://yunhaixiang.github.io/acabv/acabv.pdf)
+2. _Algebraic Curves and Abelian Varieties_ (coming soon)
 3. _Algebraic Number Theory_ (coming soon)
-4. _Étale Cohomology_ (coming soon)
 
 Here are my short notes for a few specific topics
 
