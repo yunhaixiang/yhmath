@@ -3,40 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/algebraic-de-rham-cohomology/</loc>
-    <lastmod>2026-05-27T00:00:00-04:00</lastmod>
+    <loc>http://localhost:1313/posts/a-case-for-ai-assisted-math/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/essays/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-27T01:23:12-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
     <lastmod>2026-05-27T00:51:30-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cohomology/</loc>
-    <lastmod>2026-05-27T00:00:00-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/expositions/</loc>
     <lastmod>2026-05-27T00:51:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/a-case-for-ai-assisted-math/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/essays/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/philosophy/</loc>
-    <lastmod>2026-05-27T01:16:53-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</loc>
     <lastmod>2026-05-27T00:51:30-04:00</lastmod>

@@ -7,20 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algebraic de Rham Cohomology</title>
-      <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
-      <pubDate>Wed, 27 May 2026 00:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/algebraic-de-rham-cohomology/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Marvin Greenberg&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;In this note, we discuss algebraic de Rham cohomology.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A Case for AI-Assisted Math</title>
       <link>http://localhost:1313/posts/a-case-for-ai-assisted-math/</link>
       <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
@@ -53,7 +39,7 @@
 &lt;li&gt;&lt;em&gt;Research Workflow, Collaboration, and Peer Review&lt;/em&gt;: I would imagine the workflow of mathematicians will become more and more similar to that of a programmer: collaborations on a large scale with a shared “codebase”, or in this case maybe “mathbase”, which is probably some large database of formalized math in proof assistants such as Lean. It would be very cool to have a complete database of all hitherto math knowledge in a single database, one that can only be created with help from autoformalization AIs. The peer review process will likely be sped up as autoformalization AIs become stronger, and will increasingly be about the value of the work instead of the correctness.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Undergraduate and Graduate Education&lt;/em&gt;: This is hardest to speculate; one obvious change is more emphasis on proctored exams (which I am not really fond of). Generally speaking, I think AI is good for education in that it provides decent exposition of advanced topics, saves me time digging through obscure references, and helps me calculate examples and provide intuition. In general, it makes a lot of knowledge much more accessible. The undergraduate mathematicians right now will benefit from this, and for them graduate school will probably be even more competitive than it already is, as everyone is learning more and more at a younger age.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Why do we exist? What is the meaning of life? This line of questioning led me to my pursuit of math. I believe the search for truth is one of the most meaningful things in life, and it does not seem to me that AI will take that away. In fact, I’m excited to live through such a revolution in math while in grad school. Math has undergone paradigm shifts every century, and each time it turns out there is more math out there, and more things to discover. This is why I am still, generally speaking, optimistic about AI in math.&lt;/p&gt;
+&lt;p&gt;Why do we exist? What is the meaning of life? This line of questioning led me to my pursuit of math. I believe the search for truth is one of the most meaningful things in life, and it does not seem to me that AI will take that away. On the contrary, I’m excited to live through such a revolution in math while in grad school. Math has undergone paradigm shifts every century, and each time it turns out there is more math out there, and more things to discover. This is why I am still, generally speaking, optimistic about AI in math.&lt;/p&gt;
 </description>
     </item>
     
