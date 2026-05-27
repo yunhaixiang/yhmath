@@ -146,6 +146,9 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
 {{< lemma >}}
 For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(C,\mathcal O_C(D))\cong \mathbb{A}_C/(\mathbb{A}_C(D)+K)$. 
 {{< /lemma >}}
+{{< proof >}}
+See {{< cite key="Ser88" note="Chapter II.8, Duality theorem" >}}.
+{{< /proof >}}
 
 {{< theorem note="Serre Duality">}}The Serre pairing below is perfect
 $$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&\rightarrow k\\
@@ -170,7 +173,7 @@ $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
 {{< proof >}}
 By adjointness on an adeles supported only at one point with $f_P=f$, we have 
 $$\mathrm{Res}_P(f^p\omega)=\left(\mathrm{Res}_P(fM\omega)\right)^p$$
-Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption, renaming indices $j:=-r$, then done.  
+Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption. I’m ignoring the complications with trace, but this is a technicality one can solve using nondegeneracy of trace pairing. Renaming indices $j:=-r$, then done.  
 {{< /proof >}}
 
 {{< theorem >}}

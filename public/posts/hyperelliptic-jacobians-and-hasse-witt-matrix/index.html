@@ -59,7 +59,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-05-15T14:28:09-04:00">
-    <meta property="article:modified_time" content="2026-05-26T12:45:28-04:00">
+    <meta property="article:modified_time" content="2026-05-26T13:09:24-04:00">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Number-Theory">
     <meta property="article:tag" content="Math">
@@ -74,8 +74,8 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta itemprop="name" content="Hyperelliptic Jacobians and Hasse–Witt Matrix">
   <meta itemprop="description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
   <meta itemprop="datePublished" content="2026-05-15T14:28:09-04:00">
-  <meta itemprop="dateModified" content="2026-05-26T12:45:28-04:00">
-  <meta itemprop="wordCount" content="2347">
+  <meta itemprop="dateModified" content="2026-05-26T13:09:24-04:00">
+  <meta itemprop="wordCount" content="2370">
   <meta itemprop="keywords" content="Algebraic-Geometry,Number-Theory,Math">
 
   
@@ -191,7 +191,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2347 words
+          2370 words
         </span>
       
       
@@ -568,7 +568,7 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   </span>
 </div>
 
-<div class="math-env style-plain" 
+<p><div class="math-env style-plain" 
     
      data-kind="lemma"
      data-lang="en"
@@ -582,6 +582,20 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   </span>
 </div>
 
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
+⟦cite:Ser88⟧
+</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
 <p><div class="math-env style-plain" 
     
      data-kind="theorem"
@@ -655,7 +669,7 @@ $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
     <p>By adjointness on an adeles supported only at one point with $f_P=f$, we have
 </p>
 $$\mathrm{Res}_P(f^p\omega)=\left(\mathrm{Res}_P(fM\omega)\right)^p$$<p>
-Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption, renaming indices $j:=-r$, then done.</p>
+Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption. I’m ignoring the complications with trace, but this is a technicality one can solve using nondegeneracy of trace pairing. Renaming indices $j:=-r$, then done.</p>
 
   </div>
   <span class="proof-qed"></span>
@@ -775,7 +789,7 @@ and we are done.</p>
     <a class="link" href="http://localhost:1313/posts/brauer-group-iii/" title="Brauer Group III"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a></a>
+    <a class="link" href="http://localhost:1313/posts/a-case-for-ai-assisted-math/" title="A Case for AI-assisted Math">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   

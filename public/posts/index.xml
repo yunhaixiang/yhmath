@@ -6,7 +6,44 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 May 2027 22:59:19 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 May 2026 22:59:19 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Case for AI-assisted Math</title>
+      <link>http://localhost:1313/posts/a-case-for-ai-assisted-math/</link>
+      <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/a-case-for-ai-assisted-math/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Marvin Greenberg&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently there has been several major progress in the area of AI-assisted math. In particular, OpenAI has disproved one of the longest standing conjectures in discrete geometry – the &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;unit distance conjecture&lt;/a&gt;. This is probably the most major result that AI has ever produced. The previous AI resolution of &lt;a href=&#34;https://arxiv.org/abs/2605.00301&#34;&gt;Erdos problem 1196 on primitive sets&lt;/a&gt; was also notable for containing original ideas. Even more recently, there has been attempts to &lt;a href=&#34;https://arxiv.org/abs/2605.22763&#34;&gt;combine LLMs with the power of proof assistants to solve Erdos problems&lt;/a&gt;, which resolved 9 smaller Erdos problems. For me, these were both exciting and grim news. It seems to me a lot of my mathematician friends feel similarly; the dominating sentiment among us right now is one of panic and existential dread. Having recently participated in a workshop at CRM on applying AI to number theory research and talked with some engineers working on applying AI to math from Axiom and DeepMind, I have some new thoughts I want to share about AI-assisted math.&lt;/p&gt;
+&lt;h2 id=&#34;are-we-cooked&#34;&gt;Are we Cooked?&lt;/h2&gt;
+&lt;p&gt;I believe it is highly unlikely that mathematicians will be replaced by AI, although I cannot completely rule out the possibility. I will give my reasons, but first I want to play the devil’s advocate against a few common arguments in favor of my position&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;“AI can only do problem solving: it cannot do theory building, propose high quality conjectures or deep programs, or develop mature mathematical taste”&lt;/em&gt;: In my opinion, in the not too distance future, we will see AI become exceedingly good at building theory and proposing conjectures and so on, and it is completely conceivable that it would be much better at them than solving problems. The strengths of AI systems lie precisely at finding and discovering deep intricate patterns. The only problem is people haven’t found out how to apply them to the data type of “math knowledge”. This is a similar situation before diffusion models were applied to generating images. The core brain mechanism for theory building and conjecture proposing is not something very different from what AI systems do. Although some theories, programs, and research tastes in math are motivated by practical need from engineering and other sicences, it seems to me in pure math those things are born from the struggle with hard problems, which is something that is conceivably an emergent behavior from AI. I think it is possible that AI systems could develop it&#39;s own tastes, theories, conjectures, and so on, which might even influence ours.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;“AI hallucinates and makes mistakes so they will never be trusted”&lt;/em&gt;: This is precisely what people are trying to solve right now using proof assistants. It&#39;s not hard to imagine an iterative process where an AI improves on itself using feedback from proof assistants, where reliable results are formalized and checked and unreliable results that do not pass the check are discarded. In fact, what human mathematicians do is very similar to this process. We think of an vague idea, try to play with it and verify it more formally, through which we often discover it is wrong, and repeat the process again. After repeating many times this process, we gradually realize what is correct and how to prove it. The hallucinations are not a bug, but a feature -- they allow for more creativity and more generalization, instead of regurgitating similar ideas.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;“Math is the most difficult intellectual activity, so if AI could replace mathematicians, then so could it replace all other human intellectual activities, which is unthinkable”&lt;/em&gt;: This is in some sense similar to &lt;a href=&#34;https://en.wikipedia.org/wiki/Moravec%27s_paradox&#34;&gt;&lt;em&gt;Moravec’s paradox&lt;/em&gt;&lt;/a&gt;: what is hard for humans is very different from what is hard for AI. AI has the unique advantage that it is superhuman in patience, and has immense breadth of knowledge. In fact, so far the biggest progress AI has made on open problems are the ones whose solution require a wide range of expertise and very technical and laborious calculations, which is difficult for human experts who usually only specialize in a few areas and have limited energy. If AI integration with proof assistant becomes mature, then math is one of the only kind of data where correctness checking can be automated, and synthetic data can be generated cheaply. What I&#39;m getting at is humans and AI excel in different things. What may be a very difficult problem for us may be a low hanging fruit for AI, and vice versa.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That said, why do I still believe mathematicians will not be replaced? My reasoning relies on the following syllogism.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Major Premise&lt;/strong&gt;: there will always be the desire to discover and understand deeper mathematics&lt;/em&gt;. Over the centuries, math has strayed further and further away from material reality, but humans continue to pursue math notwithstanding. To know more and understand more deeply is a fundamental human desire, and there is an infinite amount of math to discover. I have faith that this desire will not be extinguished by AI (on the contrary, AI empowers us to explore questions that previously might have been too technical or inaccessible). That being said, my real worry is sociopolitical, that the powers that be, who do not share this desire, withhold funding for mathematical research (which is already pathetically low) under the pretext of AI, in which case it is the humans who are culpable, not AIs. In this regard, we are in the same boat with the other sciences.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Minor Premise&lt;/strong&gt;: a good human mathematician + a machine will produce deeper math than machine alone.&lt;/em&gt; To me, math is not solely the activity of theorem proving, but understanding things more deeply, which is not as clearly defined of a task as theorem proving. What counts as understanding? I think this is almost a philosophical questions, and one that is dependent on what we might discover in the future. The nature of mathematical understanding is evolving as we discover new math. In this regard, it is hard to imagine AI reaching this on its own. On the other hand, as we are learning to use AI, we and the future generations of mathematicians are training to do math on a higher level of abstraction. Perhaps in the future, we will see the use of AI as something as natural as the use of calculators. When we’ve completely harnessed its power, who knows, maybe we could be able to produce results that are much deeper than we thought we could.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: there will always be need for human mathematicians.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;However, it is almost certain now that the nature of what a human mathematician does is undergoing revolutionary change. It is hard to speculate what doing math would &lt;em&gt;feel&lt;/em&gt; like in the futrue. For me personally, the question I care deeply about is: is it still going to be an enjoyable meaningful activity for me (and more generally human mathematicians)?&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-math-research-and-academia&#34;&gt;The Future of Math Research and Academia&lt;/h2&gt;
+&lt;p&gt;I loathe to be one of those so called “futurist”, but I feel compelled to given how fast technological iteration has been changing my life. The precariousness of the current global political climate has also caused me some anxiety. Therefore, I’ve spent time to really think about what the future might look like for me. Here is what I theorize would change about the research paradigm and sociology in math academia in the following decade. Admittedly, I am not a sociologist, so take it with a grain of salt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Academic Competition&lt;/em&gt;: The kind of mathematicians who will thrive in the future will probably be a different kind than the ones who used to. In particular, I think mathematicians who excel at technical strength will likely be at a disadvantage, and those who might not be very technical skilled but are very creative and intuitive will have an advantage. AI is superhuman in patience – it fears no technicality and is willing to carry out sophisticated calculations, and trial and error its way through an enormous amount of proof ideas. Inequality of computing resources will also affect academic competition, and in the future math academia will perhaps be more like biology and physics where some labs could afford expensive equipment and some could not. It is also a question whether there will be industry positions for using AI to tackle math, which would obviously have superior compute resources. Needless to say, in the future, to excel in math academia, one needs to master the use of AI, and really train to think with AI and perhaps also train to think on a “higher level” with the help of AI.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Problem Solving vs. Theory Building&lt;/em&gt;: I will make the bold claim here that we will see a convergence between problem solving and theory building, and also see more interaction between distinct fields of math. AI will empower mathematicians to explore into different areas and styles of math, even ones they were&#39;nt used to previously.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Research Workflow, Collaboration, and Peer Review&lt;/em&gt;: I would imagine the workflow of a mathematicians will become more and more similar to that of a programmer: collaborations on a large scale with a shared “codebase”, or in this case maybe “mathbase”, which is probably some large database of formalized math in proof assistants such as lean. It would be very cool to have a complete database of all hitherto math knowledge in a single database, one that can only be created with help from autoformalization AIs. The peer review process will likely be sped up as autoformalization AIs become stronger, and will increasingly be about the value of the work instead of the correctness.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Undergraduate and Graduate Education&lt;/em&gt;: This is hardest to speculate; one obvious change is more emphasis on proctored exams (which I am not really fond of). Generally speaking, I think AI is good for education in that it provides decent exposition of advanced topics, saves me time digging through obscure references, and helps me calculate examples and provide intuition. In general, it makes a lot of knowledge much more accessible. The undergraduate mathematicians right now will benefit from this, and for them graduate school will probably be even more competitive than it already is, as everyone is learning more and more at a younger age.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Why do we exist? What is the meaning of life? This line of questioning lead me to my pursuit of math. I believe the search for truth is one of the most meaningful things in life, and it does not seem to me that AI will take that away. In fact, I’m excited to live through such revolution in math while in grad school. Math has undergone paradigm shifts every century, and each time it turns out there are more math out there, and more things to discover. This is why I am still, generally speaking, optimistic about AI in math. I will end here with a quote by Albert Camus, “The struggle itself toward the heights is enough to fill a man’s heart.” So, despair not, friends!&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
       <link>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
@@ -332,7 +369,7 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;lemma&#34;
      data-lang=&#34;en&#34;
@@ -346,6 +383,20 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   &lt;/span&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&#34;&gt;
+⟦cite:Ser88⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
@@ -419,7 +470,7 @@ $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
     &lt;p&gt;By adjointness on an adeles supported only at one point with $f_P=f$, we have
 &lt;/p&gt;
 $$\mathrm{Res}_P(f^p\omega)=\left(\mathrm{Res}_P(fM\omega)\right)^p$$&lt;p&gt;
-Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption, renaming indices $j:=-r$, then done.&lt;/p&gt;
+Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption. I’m ignoring the complications with trace, but this is a technicality one can solve using nondegeneracy of trace pairing. Renaming indices $j:=-r$, then done.&lt;/p&gt;
 
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;

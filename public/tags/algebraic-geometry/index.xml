@@ -308,7 +308,7 @@ data-cite-key=&#34;Man61&#34; data-cite-note=&#34;Theorem 1&#34;&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Let $\omega_C$ be the sheaf of Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt.
+&lt;p&gt;Let $\omega_C$ be the sheaf of regular Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt.
 Recall that Serre duality gives a perfect pairing $H^0(C,\omega_C) \times H^1(C,\mathcal O_C) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(C,\omega_C) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |C|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the &lt;em&gt;local principal part&lt;/em&gt; of $\alpha$ at $P$.&lt;/p&gt;
 &lt;p&gt;Fix $C$ a smooth projective geometrically integral curve over a field $k$, with function field $K=k(C)$. For each closed point $P\in |C|$, let $K_P=\mathrm{Frac}(\widehat{\mathcal O}_{C,P})$ be the fractional field of the completion of the local ring of $C$ at $P$. Let $t_P$ be the uniformizer in $\mathcal O_{C,P}$, then non-canonically, we have $\widehat{\mathcal O}_{C,P}=k(P)[[t_P]]$ and $K_P=k(P)((t_P))$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
