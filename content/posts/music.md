@@ -6,7 +6,7 @@ tags: [music]
 categories: [archives]
 ---
 
-I love music, especially jazz and rock. Here are some of my favorite artists.
+I love music, especially jazz. Here are some of my favorite artists.
 
 ## Jazz
 
@@ -16,15 +16,6 @@ I love music, especially jazz and rock. Here are some of my favorite artists.
 - John Coltrane
 - Oscar Peterson
 - Bill Evans
-- Doreen Ketchens
 - Hiromi
 - Yoko Kanno
 - Cory Wong
-
-## Rock
-
-- Metallica
-- Bôa
-- Radiohead
-- Nirvana
-- The Animals
