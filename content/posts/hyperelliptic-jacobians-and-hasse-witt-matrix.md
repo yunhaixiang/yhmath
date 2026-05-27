@@ -130,6 +130,9 @@ In other words, the characteristic polynomial computes the $L$-polynomial mod $p
 Either one uses the coherent Lefschetz trace formula or comparison with de Rham and crystalline cohomology, both are difficult. See Manin's original congruence {{< cite key="Man61" note="Theorem 1" >}}.
 {{< /proof >}}
 
+{{< remark >}}The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible and superspecial iff $H=0$. 
+{{< /remark >}}
+
 Let $\omega_C$ be the sheaf of regular Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt. 
 Recall that Serre duality gives a perfect pairing $H^0(C,\omega_C) \times H^1(C,\mathcal O_C) \to k$ defined by $(\omega, \alpha) \mapsto \mathrm{Tr}(\alpha \smile \omega)$, where $\smile$ is the cup product and $\mathrm{Tr}: H^1(C,\omega_C) \to k$ is the trace map. However, in service of our purposes, we shall use here a residue version of Serre duality: $(\omega, \alpha)\mapsto \sum_{P\in |C|}\mathrm{Res}(\alpha_P \omega)$, where $\alpha_P$ is the _local principal part_ of $\alpha$ at $P$. 
 
