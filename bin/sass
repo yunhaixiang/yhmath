@@ -1,0 +1,11 @@
+#!/bin/sh
+ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+
+if [ "$(uname -s)" = "Darwin" ] && [ "$(uname -m)" = "arm64" ]; then
+  COMPILER="$ROOT/node_modules/sass-embedded-darwin-arm64/dart-sass/sass"
+  if [ -x "$COMPILER" ]; then
+    exec "$COMPILER" "$@"
+  fi
+fi
+
+exec "$ROOT/node_modules/.bin/sass" "$@"

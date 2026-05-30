@@ -6,7 +6,92 @@
     <description>Recent content in Ai on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 22:59:19 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 May 2026 17:13:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Disproof of Unit Distance Conjecture</title>
+      <link>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</link>
+      <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;After learning about the recent OpenAI disproof of the unit distance conjecture &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;OpenAI26&#34;&gt;
+  ⟦cite:OpenAI26⟧
+&lt;/span&gt;, I want to devote some time to understand some main ideas in this paper. The problem goes back to Erdős&#39;s 1946 paper &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Erd46&#34;&gt;
+  ⟦cite:Erd46⟧
+&lt;/span&gt;, and the classical upper bound is due to Spencer, Szemerédi, and Trotter &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;SST84&#34;&gt;
+  ⟦cite:SST84⟧
+&lt;/span&gt;. There are new developments by Will Sawin, who gave a more concrete bound &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Saw26&#34;&gt;
+  ⟦cite:Saw26⟧
+&lt;/span&gt;, and there is also a human-verified expository note with expert comments &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;ABG&amp;#43;26&#34;&gt;
+  ⟦cite:ABG&amp;#43;26⟧
+&lt;/span&gt;. For broader background, see Brass, Moser, and Pach &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;BMP05&#34;&gt;
+  ⟦cite:BMP05⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;main-ideas&#34;&gt;Main Ideas&lt;/h2&gt;
+&lt;p&gt;For a finite set $P\subseteq\mathbb C$, let
+&lt;/p&gt;
+$$\nu(P):=\#\{\{x,y\}\subseteq P:|x-y|=1\}\qquad \nu(n)=\mathrm{max}_{\# P=n}\nu(P)$$&lt;p&gt;
+Erdos conjectured that $\nu(n)=n^{1+o(1)}$. The result that was shown was the following&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(OpenAI)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    There exists some $\delta&gt;0$ such that $\nu(n)&gt;n^{1+\delta}$ for infinitely many $n$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This disproves Erdos.
+Let $f\ge 1$, then in $\mathbb C^f$, denote the polydisc
+&lt;/p&gt;
+$$B_R=\{(x_1,\dots,x_f)\in\mathbb C^f:\forall i,|x_i|\le R\}$$&lt;p&gt;
+and for a (full) lattice $\Lambda\subseteq\mathbb C^f$, define
+&lt;/p&gt;
+$$U_{\Lambda}=\{(x_1,\dots,x_f)\in\Lambda:\forall i,|x_i|=1\}$$&lt;p&gt;
+Let $\pi:\mathbb \Lambda\rightarrow\mathbb C$ be the projection to an arbitrary coordinate and and assume it is injective.
+If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the set $P_{\Lambda,R}:=\pi(U_{\Lambda}\cap B_R)$ is a finite set of points with at least $\frac{1}{2}|U_{\Lambda}||\Lambda\cap B_{R-1}|$ unit distance pairs among at most $|U_{\Lambda}\cap B_{R}|$ points. One of the core lemmas in the paper proves an explicit estimate for this type of statement with a translate $a+\Lambda$ of the lattice, and it turns out this estimate is enough to produce the lower bound.&lt;/p&gt;
+&lt;p&gt;Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-OpenAI26&#34; data-bib-key=&#34;OpenAI26&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[OpenAI26]&lt;/span&gt;OpenAI. &lt;em&gt;Planar Point Sets with Many Unit Distances&lt;/em&gt;. 2026. &lt;a href=&#34;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&#34;&gt;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-ABG&amp;#43;26&#34; data-bib-key=&#34;ABG&amp;#43;26&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[ABG&amp;#43;26]&lt;/span&gt;Noga Alon, Thomas F. Bloom, W. T. Gowers, Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang, and Melanie Matchett Wood. &lt;em&gt;Remarks on the Disproof of the Unit Distance Conjecture&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;arXiv:2605.20695&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;https://arxiv.org/abs/2605.20695&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Saw26&#34; data-bib-key=&#34;Saw26&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Saw26]&lt;/span&gt;Will Sawin. &lt;em&gt;An Explicit Lower Bound for the Unit Distance Problem&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;arXiv:2605.20579&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;https://arxiv.org/abs/2605.20579&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Erd46&#34; data-bib-key=&#34;Erd46&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Erd46]&lt;/span&gt;Paul Erdős. &lt;em&gt;On Sets of Distances of $n$ Points&lt;/em&gt;. American Mathematical Monthly. 53(5). pp. 248--250. 1946.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SST84&#34; data-bib-key=&#34;SST84&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SST84]&lt;/span&gt;Joel Spencer, Endre Szemerédi, and William T. Trotter. Béla Bollobás (ed.). &lt;em&gt;Unit Distances in the Euclidean Plane&lt;/em&gt;. In &lt;em&gt;Graph Theory and Combinatorics&lt;/em&gt;. pp. 293--303. Academic Press. 1984.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-BMP05&#34; data-bib-key=&#34;BMP05&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[BMP05]&lt;/span&gt;Peter Brass, William Moser, and János Pach. &lt;em&gt;Research Problems in Discrete Geometry&lt;/em&gt;. Springer. 2005.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>A Case for AI-Assisted Math</title>
       <link>http://localhost:1313/posts/a-case-for-ai-assisted-math/</link>

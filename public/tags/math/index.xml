@@ -6,7 +6,92 @@
     <description>Recent content in Math on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 22:59:19 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 May 2026 17:13:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Disproof of Unit Distance Conjecture</title>
+      <link>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</link>
+      <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;After learning about the recent OpenAI disproof of the unit distance conjecture &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;OpenAI26&#34;&gt;
+  ⟦cite:OpenAI26⟧
+&lt;/span&gt;, I want to devote some time to understand some main ideas in this paper. The problem goes back to Erdős&#39;s 1946 paper &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Erd46&#34;&gt;
+  ⟦cite:Erd46⟧
+&lt;/span&gt;, and the classical upper bound is due to Spencer, Szemerédi, and Trotter &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;SST84&#34;&gt;
+  ⟦cite:SST84⟧
+&lt;/span&gt;. There are new developments by Will Sawin, who gave a more concrete bound &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Saw26&#34;&gt;
+  ⟦cite:Saw26⟧
+&lt;/span&gt;, and there is also a human-verified expository note with expert comments &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;ABG&amp;#43;26&#34;&gt;
+  ⟦cite:ABG&amp;#43;26⟧
+&lt;/span&gt;. For broader background, see Brass, Moser, and Pach &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;BMP05&#34;&gt;
+  ⟦cite:BMP05⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;main-ideas&#34;&gt;Main Ideas&lt;/h2&gt;
+&lt;p&gt;For a finite set $P\subseteq\mathbb C$, let
+&lt;/p&gt;
+$$\nu(P):=\#\{\{x,y\}\subseteq P:|x-y|=1\}\qquad \nu(n)=\mathrm{max}_{\# P=n}\nu(P)$$&lt;p&gt;
+Erdos conjectured that $\nu(n)=n^{1+o(1)}$. The result that was shown was the following&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(OpenAI)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    There exists some $\delta&gt;0$ such that $\nu(n)&gt;n^{1+\delta}$ for infinitely many $n$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This disproves Erdos.
+Let $f\ge 1$, then in $\mathbb C^f$, denote the polydisc
+&lt;/p&gt;
+$$B_R=\{(x_1,\dots,x_f)\in\mathbb C^f:\forall i,|x_i|\le R\}$$&lt;p&gt;
+and for a (full) lattice $\Lambda\subseteq\mathbb C^f$, define
+&lt;/p&gt;
+$$U_{\Lambda}=\{(x_1,\dots,x_f)\in\Lambda:\forall i,|x_i|=1\}$$&lt;p&gt;
+Let $\pi:\mathbb \Lambda\rightarrow\mathbb C$ be the projection to an arbitrary coordinate and and assume it is injective.
+If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the set $P_{\Lambda,R}:=\pi(U_{\Lambda}\cap B_R)$ is a finite set of points with at least $\frac{1}{2}|U_{\Lambda}||\Lambda\cap B_{R-1}|$ unit distance pairs among at most $|U_{\Lambda}\cap B_{R}|$ points. One of the core lemmas in the paper proves an explicit estimate for this type of statement with a translate $a+\Lambda$ of the lattice, and it turns out this estimate is enough to produce the lower bound.&lt;/p&gt;
+&lt;p&gt;Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-OpenAI26&#34; data-bib-key=&#34;OpenAI26&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[OpenAI26]&lt;/span&gt;OpenAI. &lt;em&gt;Planar Point Sets with Many Unit Distances&lt;/em&gt;. 2026. &lt;a href=&#34;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&#34;&gt;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-ABG&amp;#43;26&#34; data-bib-key=&#34;ABG&amp;#43;26&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[ABG&amp;#43;26]&lt;/span&gt;Noga Alon, Thomas F. Bloom, W. T. Gowers, Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang, and Melanie Matchett Wood. &lt;em&gt;Remarks on the Disproof of the Unit Distance Conjecture&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;arXiv:2605.20695&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;https://arxiv.org/abs/2605.20695&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Saw26&#34; data-bib-key=&#34;Saw26&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Saw26]&lt;/span&gt;Will Sawin. &lt;em&gt;An Explicit Lower Bound for the Unit Distance Problem&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;arXiv:2605.20579&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;https://arxiv.org/abs/2605.20579&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Erd46&#34; data-bib-key=&#34;Erd46&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Erd46]&lt;/span&gt;Paul Erdős. &lt;em&gt;On Sets of Distances of $n$ Points&lt;/em&gt;. American Mathematical Monthly. 53(5). pp. 248--250. 1946.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SST84&#34; data-bib-key=&#34;SST84&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SST84]&lt;/span&gt;Joel Spencer, Endre Szemerédi, and William T. Trotter. Béla Bollobás (ed.). &lt;em&gt;Unit Distances in the Euclidean Plane&lt;/em&gt;. In &lt;em&gt;Graph Theory and Combinatorics&lt;/em&gt;. pp. 293--303. Academic Press. 1984.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-BMP05&#34; data-bib-key=&#34;BMP05&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[BMP05]&lt;/span&gt;Peter Brass, William Moser, and János Pach. &lt;em&gt;Research Problems in Discrete Geometry&lt;/em&gt;. Springer. 2005.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>A Case for AI-Assisted Math</title>
       <link>http://localhost:1313/posts/a-case-for-ai-assisted-math/</link>
@@ -3868,6 +3953,105 @@ $$\wp^{\prime}(z)^2=4 \wp(z)^3-g_2(L) \wp(z)-g_3(L),$$&lt;p&gt; where $g_2(L)=60
 &lt;p&gt;This corresponds to an elliptic curve by letting $y=\wp^\prime(z)$ and $x=\wp(z)$, so we have an elliptic curve $y^2=4 x^3-g_2(L) x-g_3(L)$, iff the discriminant $\Delta(L)=g_2(L)^3-27g_3(L)^2$ is nonzero, and this is always nonzero. We now have a map that gives an elliptic curve for each lattice&lt;/p&gt;
 $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$$&lt;p&gt;This is an isomorphism of groups and complex manifolds. Moreover, all elliptic curves arise this way. For a proof, consult &lt;a href=&#34;https://math.mit.edu/classes/18.783/2015/LectureNotes16.pdf&#34;&gt;here&lt;/a&gt;, becuase I&#39;m too lazy to prove the rest.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Simplicial Sets and Infinity-Categories</title>
+      <link>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:01 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous Friend&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently, I&#39;ve been reading Cisinski&#39;s &lt;em&gt;Higher Categories and Homotopical Algebra&lt;/em&gt;. I wanted to write down some of the things I&#39;ve learned. In this post, we start from a review of presheaves of sets and simplicial sets, and then build towards the definition of an $\infty$-category. Let $A$ be a category. Recall that a presheaf on $A$ is a contravariant functor $X:A^{\mathrm{op}}\rightarrow \mathbf{Set}$, where we denote $X_a=X(a)$ and $u^*:X_b\rightarrow X_a$ the induced map for each $u:a\rightarrow b$. The category of presheaves on $A$ is denoted by $\widehat{A}$. The category of elements $\int_A X$ (or $\int X$) is the category where objects are pairs $(a,s)$ with $a\in A$ and $s\in X_a$, and a morphism $u:(a,s)\rightarrow (b,t)$ is a morphism $u:a\rightarrow b$ such that $u^*(t)=s$. It comes equipped with a faithful functor $\varphi_X:\int_A X\rightarrow \widehat{A}$ given by $(a,s)\mapsto \mathscr{H}_a$ on objects and $u\mapsto \mathscr{H}(u)$ on morphisms, where $\mathscr{H}:A\rightarrow \widehat{A}$ is the Yoneda embedding. In this post, we ignore all set-theoretic size issues.&lt;/p&gt;
+&lt;h2 id=&#34;presheaves&#34;&gt;Presheaves&lt;/h2&gt;
+&lt;p&gt;First, we prove a variation of the Yoneda lemma, in the style of coend calculus.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
+$$X=\mathrm{colim}\ \varphi_X.$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
+$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let $C$ be a category with limits. For $u:A\rightarrow C$, we can define a &lt;em&gt;functor of evaluation&lt;/em&gt;&lt;/p&gt;
+$$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u(a),Y)\right],$$&lt;p&gt;that is, $u^*(Y)=\mathrm{Hom}_C(-,Y)\circ u$. By this version of the Yoneda lemma, we have the following consequence.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
+&lt;p&gt;Let $\Delta$ be the category where the objects are finite sets $[n]=\{0,\dots,n\}$ for $n\in\mathbb N$, and the morphisms are order-preserving functions. This is called the &lt;em&gt;simplex category&lt;/em&gt;. A &lt;em&gt;simplicial set&lt;/em&gt; is a presheaf on $\Delta$, and we denote the category of simplicial sets by $\mathbf{SSet}=\widehat{\Delta}$. For $n\in\mathbb N$, denote $\Delta^n=\mathscr{H}_n$ as the &lt;em&gt;standard $n$-simplex&lt;/em&gt;. For a simplicial set $X$, we write&lt;/p&gt;
+$$X_n=X([n])=\mathrm{Hom}(\Delta^n,X)$$&lt;p&gt;for the set of $n$-simplices of $X$.&lt;/p&gt;
+&lt;p&gt;For integers $n\ge 1$ and $0\le i\le n$, the map $\partial^n_i:\Delta^{n-1}\rightarrow \Delta^n$ corresponds to the map $[n-1]\rightarrow [n]$ whose image omits $i$. For $n\ge 0$, the map $\sigma^n_i:\Delta^{n+1}\rightarrow \Delta^n$ corresponds to the map $[n+1]\rightarrow [n]$ that takes the value $i$ twice. We also write&lt;/p&gt;
+$$d^i_n=(\partial_i^n)^*:X_n\rightarrow X_{n-1},\qquad s^i_n=(\sigma_i^n)^*:X_n\rightarrow X_{n+1}.$$&lt;p&gt;The category $\Delta$ is uniquely captured by a set of identities involving these operations.&lt;/p&gt;
+&lt;p&gt;There is a geometric realization functor $|\cdot|:\mathbf{SSet}\rightarrow \mathbf{Top}$, where $\mathbf{Top}$ is the category of compactly generated Hausdorff topological spaces, given by&lt;/p&gt;
+$$|\Delta^n|=\left\{(x_j)_{0\le j\le n}\in\mathbb R^{n+1}_{\ge 0}: \sum_{j=0}^n x_j=1\right\}$$&lt;p&gt;and&lt;/p&gt;
+$$|X|=\mathrm{colim}_{\Delta^n\rightarrow X}|\Delta^n|$$&lt;p&gt;for a simplicial set $X$. For each $f:[m]\rightarrow [n]$, we get an associated continuous map $|f|:|\Delta^m|\rightarrow |\Delta^n|$, defined by $|f|(x_0,\dots,x_m)=(y_0,\dots,y_n)$ where $y_j=\sum_{f(i)=j}x_i$. By virtue of the preceding theorem, we have a singular complex functor $\mathrm{Sing}:\mathbf{Top}\rightarrow\mathbf{SSet}$, given by&lt;/p&gt;
+$$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which is right adjoint to the geometric realization functor, i.e. $|\cdot|\dashv \mathrm{Sing}$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
+&lt;li&gt;If a morphism $a\rightarrow b$ in $A_+$ (resp. $A_-$) is not the identity, then $d(a) &lt; d(b)$ (resp. $d(b) &lt; d(a)$).&lt;/li&gt;
+&lt;li&gt;Any morphism $u:a\rightarrow b$ in $A$ factors uniquely as $u=ip$, where $p:a\rightarrow c$ is in $A_-$ and $i:c\rightarrow b$ is in $A_+$.&lt;/li&gt;
+&lt;li&gt;For a morphism $\pi:a\rightarrow b$ in $A_-$, there exists $\sigma:b\rightarrow a$ in $A$ such that $\pi\sigma=\mathbf{1}_b$.&lt;/li&gt;
+&lt;li&gt;For $\pi,\tau:a\rightarrow b$ in $A_-$, if $\pi$ and $\tau$ have the same set of sections, then $\pi=\tau$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
+&lt;h2 id=&#34;nerves&#34;&gt;Nerves&lt;/h2&gt;
+&lt;p&gt;Every poset $E$ can be viewed as a category where objects are elements, and there is a unique morphism $x\rightarrow y$ if $x\le y$, and none otherwise. Let $i:\Delta\rightarrow\mathbf{Cat}$ be the inclusion functor. The &lt;em&gt;nerve functor&lt;/em&gt;&lt;/p&gt;
+$$N=i^*:\mathbf{Cat}\rightarrow\mathbf{SSet}$$&lt;p&gt;is given by&lt;/p&gt;
+$$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt;Thus the $n$-simplices of $N(C)$ are strings of arrows of length $n$ in $C$. By the preceding theorem, the nerve functor has a left adjoint $\tau=i_!:\mathbf{SSet}\rightarrow\mathbf{Cat}$. We&#39;ll stop here and continue more in Part II.&lt;/p&gt;</description>
     </item>
     
     <item>

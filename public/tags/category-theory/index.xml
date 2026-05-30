@@ -822,5 +822,104 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
 &lt;p&gt;There are many things that needs to be checked here for it to be well defined, which we omit. We will see that this category is not typically abelian, but it is triangulated. A triangulated category is an approximation of an abelian category.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Simplicial Sets and Infinity-Categories</title>
+      <link>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:01 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous Friend&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently, I&#39;ve been reading Cisinski&#39;s &lt;em&gt;Higher Categories and Homotopical Algebra&lt;/em&gt;. I wanted to write down some of the things I&#39;ve learned. In this post, we start from a review of presheaves of sets and simplicial sets, and then build towards the definition of an $\infty$-category. Let $A$ be a category. Recall that a presheaf on $A$ is a contravariant functor $X:A^{\mathrm{op}}\rightarrow \mathbf{Set}$, where we denote $X_a=X(a)$ and $u^*:X_b\rightarrow X_a$ the induced map for each $u:a\rightarrow b$. The category of presheaves on $A$ is denoted by $\widehat{A}$. The category of elements $\int_A X$ (or $\int X$) is the category where objects are pairs $(a,s)$ with $a\in A$ and $s\in X_a$, and a morphism $u:(a,s)\rightarrow (b,t)$ is a morphism $u:a\rightarrow b$ such that $u^*(t)=s$. It comes equipped with a faithful functor $\varphi_X:\int_A X\rightarrow \widehat{A}$ given by $(a,s)\mapsto \mathscr{H}_a$ on objects and $u\mapsto \mathscr{H}(u)$ on morphisms, where $\mathscr{H}:A\rightarrow \widehat{A}$ is the Yoneda embedding. In this post, we ignore all set-theoretic size issues.&lt;/p&gt;
+&lt;h2 id=&#34;presheaves&#34;&gt;Presheaves&lt;/h2&gt;
+&lt;p&gt;First, we prove a variation of the Yoneda lemma, in the style of coend calculus.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
+$$X=\mathrm{colim}\ \varphi_X.$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
+$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let $C$ be a category with limits. For $u:A\rightarrow C$, we can define a &lt;em&gt;functor of evaluation&lt;/em&gt;&lt;/p&gt;
+$$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u(a),Y)\right],$$&lt;p&gt;that is, $u^*(Y)=\mathrm{Hom}_C(-,Y)\circ u$. By this version of the Yoneda lemma, we have the following consequence.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
+&lt;p&gt;Let $\Delta$ be the category where the objects are finite sets $[n]=\{0,\dots,n\}$ for $n\in\mathbb N$, and the morphisms are order-preserving functions. This is called the &lt;em&gt;simplex category&lt;/em&gt;. A &lt;em&gt;simplicial set&lt;/em&gt; is a presheaf on $\Delta$, and we denote the category of simplicial sets by $\mathbf{SSet}=\widehat{\Delta}$. For $n\in\mathbb N$, denote $\Delta^n=\mathscr{H}_n$ as the &lt;em&gt;standard $n$-simplex&lt;/em&gt;. For a simplicial set $X$, we write&lt;/p&gt;
+$$X_n=X([n])=\mathrm{Hom}(\Delta^n,X)$$&lt;p&gt;for the set of $n$-simplices of $X$.&lt;/p&gt;
+&lt;p&gt;For integers $n\ge 1$ and $0\le i\le n$, the map $\partial^n_i:\Delta^{n-1}\rightarrow \Delta^n$ corresponds to the map $[n-1]\rightarrow [n]$ whose image omits $i$. For $n\ge 0$, the map $\sigma^n_i:\Delta^{n+1}\rightarrow \Delta^n$ corresponds to the map $[n+1]\rightarrow [n]$ that takes the value $i$ twice. We also write&lt;/p&gt;
+$$d^i_n=(\partial_i^n)^*:X_n\rightarrow X_{n-1},\qquad s^i_n=(\sigma_i^n)^*:X_n\rightarrow X_{n+1}.$$&lt;p&gt;The category $\Delta$ is uniquely captured by a set of identities involving these operations.&lt;/p&gt;
+&lt;p&gt;There is a geometric realization functor $|\cdot|:\mathbf{SSet}\rightarrow \mathbf{Top}$, where $\mathbf{Top}$ is the category of compactly generated Hausdorff topological spaces, given by&lt;/p&gt;
+$$|\Delta^n|=\left\{(x_j)_{0\le j\le n}\in\mathbb R^{n+1}_{\ge 0}: \sum_{j=0}^n x_j=1\right\}$$&lt;p&gt;and&lt;/p&gt;
+$$|X|=\mathrm{colim}_{\Delta^n\rightarrow X}|\Delta^n|$$&lt;p&gt;for a simplicial set $X$. For each $f:[m]\rightarrow [n]$, we get an associated continuous map $|f|:|\Delta^m|\rightarrow |\Delta^n|$, defined by $|f|(x_0,\dots,x_m)=(y_0,\dots,y_n)$ where $y_j=\sum_{f(i)=j}x_i$. By virtue of the preceding theorem, we have a singular complex functor $\mathrm{Sing}:\mathbf{Top}\rightarrow\mathbf{SSet}$, given by&lt;/p&gt;
+$$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which is right adjoint to the geometric realization functor, i.e. $|\cdot|\dashv \mathrm{Sing}$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
+&lt;li&gt;If a morphism $a\rightarrow b$ in $A_+$ (resp. $A_-$) is not the identity, then $d(a) &lt; d(b)$ (resp. $d(b) &lt; d(a)$).&lt;/li&gt;
+&lt;li&gt;Any morphism $u:a\rightarrow b$ in $A$ factors uniquely as $u=ip$, where $p:a\rightarrow c$ is in $A_-$ and $i:c\rightarrow b$ is in $A_+$.&lt;/li&gt;
+&lt;li&gt;For a morphism $\pi:a\rightarrow b$ in $A_-$, there exists $\sigma:b\rightarrow a$ in $A$ such that $\pi\sigma=\mathbf{1}_b$.&lt;/li&gt;
+&lt;li&gt;For $\pi,\tau:a\rightarrow b$ in $A_-$, if $\pi$ and $\tau$ have the same set of sections, then $\pi=\tau$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
+&lt;h2 id=&#34;nerves&#34;&gt;Nerves&lt;/h2&gt;
+&lt;p&gt;Every poset $E$ can be viewed as a category where objects are elements, and there is a unique morphism $x\rightarrow y$ if $x\le y$, and none otherwise. Let $i:\Delta\rightarrow\mathbf{Cat}$ be the inclusion functor. The &lt;em&gt;nerve functor&lt;/em&gt;&lt;/p&gt;
+$$N=i^*:\mathbf{Cat}\rightarrow\mathbf{SSet}$$&lt;p&gt;is given by&lt;/p&gt;
+$$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt;Thus the $n$-simplices of $N(C)$ are strings of arrows of length $n$ in $C$. By the preceding theorem, the nerve functor has a left adjoint $\tau=i_!:\mathbf{SSet}\rightarrow\mathbf{Cat}$. We&#39;ll stop here and continue more in Part II.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

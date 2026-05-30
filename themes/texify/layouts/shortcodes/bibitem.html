@@ -65,7 +65,7 @@
   {{- $prefix := "" -}}
   {{- if ge (len $names) 2 -}}
     {{- $initials := "" -}}
-    {{- range first 4 $names -}}
+    {{- range first 3 $names -}}
       {{- $parts := split . " " -}}
       {{- $surname := "" -}}
       {{- if gt (len $parts) 0 -}}
@@ -75,6 +75,9 @@
       {{- if $surname -}}
         {{- $initials = printf "%s%s" $initials (upper (substr $surname 0 1)) -}}
       {{- end -}}
+    {{- end -}}
+    {{- if ge (len $names) 4 -}}
+      {{- $initials = printf "%s+" $initials -}}
     {{- end -}}
     {{- $prefix = $initials -}}
   {{- else if eq (len $names) 1 -}}

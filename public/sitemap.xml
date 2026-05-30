@@ -3,33 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/a-case-for-ai-assisted-math/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
+    <lastmod>2027-05-28T17:38:48-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/combinatorics/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/discrete-geometry/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/expositions/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</loc>
+    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/a-case-for-ai-assisted-math/</loc>
     <lastmod>2026-05-27T13:27:54-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/essays/</loc>
     <lastmod>2026-05-27T13:27:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/philosophy/</loc>
     <lastmod>2026-05-27T13:27:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
-    <lastmod>2026-05-27T12:35:23-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/expositions/</loc>
     <lastmod>2026-05-27T12:35:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</loc>
@@ -52,9 +61,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/leray-serre-hochschild-ss/</loc>
     <lastmod>2026-03-04T20:13:45-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/combinatorics/</loc>
-    <lastmod>2026-01-29T18:18:21-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/expander-graphs/</loc>
     <lastmod>2026-01-29T18:18:21-05:00</lastmod>
@@ -106,6 +112,12 @@
   </url><url>
     <loc>http://localhost:1313/posts/uniformization/</loc>
     <lastmod>2025-12-23T07:35:05-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/homotopy-theory/</loc>
+    <lastmod>2025-12-01T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</loc>
+    <lastmod>2025-12-01T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/keyan/</loc>
     <lastmod>2025-12-14T23:20:29-05:00</lastmod>
@@ -204,7 +216,7 @@
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/</loc>
-    <lastmod>2026-05-27T01:32:15-04:00</lastmod>
+    <lastmod>2026-05-27T13:36:14-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-04T15:33:43-04:00</lastmod>
