@@ -1,6 +1,7 @@
 ---
 title: What Do Philosophers Think About AI
 date: 2026-06-05 17:40:43 -0400
+draft: true
 categories: [essays]
 tags: [philosophy, ai]
 ---

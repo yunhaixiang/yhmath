@@ -1,7 +1,8 @@
 ---
 title: Coding the Game of Go in Godot
-date: 2027-05-28 17:38:48 -0400
+date: 2026-06-28 17:38:48 -0400
 categories: [projects]
+draft: true
 tags: [coding, games, godot, go]
 ---
 

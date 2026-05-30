@@ -1,7 +1,8 @@
 ---
 title: Serre Duality
-date: 2027-03-09 16:47:00 -0400
+date: 2026-07-04 16:47:00 -0400
 categories: [expositions]
+draft: true
 tags: [algebraic-geometry]
 ---
 

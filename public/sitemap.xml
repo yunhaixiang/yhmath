@@ -2,44 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2027-05-28T17:38:48-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+    <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/combinatorics/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/discrete-geometry/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/expositions/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/serre-duality/</loc>
+    <lastmod>2026-03-12T20:39:47-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/coding/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/coding-the-game-of-go-in-godot/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/games/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/go/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/godot/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/learning-type-theory/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/logic/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/type-theory/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/algebraic-de-rham-cohomology/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cohomology/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/essays/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/what-do-philosophers-think-about-ai/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/combinatorics/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/discrete-geometry/</loc>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</loc>
-    <lastmod>2026-05-28T17:13:21-04:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/a-case-for-ai-assisted-math/</loc>
     <lastmod>2026-05-27T13:27:54-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/essays/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/philosophy/</loc>
-    <lastmod>2026-05-27T13:27:54-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
-    <lastmod>2026-05-27T12:35:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</loc>
     <lastmod>2026-05-27T12:35:23-04:00</lastmod>
@@ -78,7 +117,7 @@
     <lastmod>2025-12-27T17:12:58-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/category-theory/</loc>
-    <lastmod>2025-12-25T18:57:20-05:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/triangulated-cat/</loc>
     <lastmod>2025-12-25T18:57:20-05:00</lastmod>
@@ -114,13 +153,13 @@
     <lastmod>2025-12-23T07:35:05-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/homotopy-theory/</loc>
-    <lastmod>2025-12-01T00:00:01+00:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</loc>
-    <lastmod>2025-12-01T00:00:01+00:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/keyan/</loc>
-    <lastmod>2025-12-14T23:20:29-05:00</lastmod>
+    <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/french-learning/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
@@ -194,13 +233,7 @@
     <loc>http://localhost:1313/posts/math-test/</loc>
     <lastmod>2025-12-27T17:12:58-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/coding/</loc>
-    <lastmod>2025-12-27T15:16:36-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/linguistics/</loc>
-    <lastmod>2025-12-27T15:16:36-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/logic/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/markdown-test/</loc>

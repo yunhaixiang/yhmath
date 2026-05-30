@@ -1,7 +1,8 @@
 ---
 title: Algebraic de Rham Cohomology
-date: 2026-06-27 00:00:00 -0400
+date: 2026-06-10 00:00:00 -0400
 categories: [expositions]
+draft: true
 tags: [math, algebraic-geometry, cohomology]
 ---
 
