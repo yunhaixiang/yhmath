@@ -88,7 +88,7 @@ After learning about the recent OpenAI disproof of the unit distance conjecture
   <meta itemprop="description" content="Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane. — Anonymous After learning about the recent OpenAI disproof of the unit distance conjecture ⟦cite:OpenAI26⟧ , I want to devote some time to understand some main ideas in this paper. The problem goes back to Erdős&#39;s 1946 paper ⟦cite:Erd46⟧ , and the classical upper bound is due to Spencer, Szemerédi, and Trotter ⟦cite:SST84⟧ . There are new developments by Will Sawin, who gave a more concrete bound ⟦cite:Saw26⟧ , and there is also a human-verified expository note with expert comments ⟦cite:ABG&#43;26⟧ . For broader background, see Brass, Moser, and Pach ⟦cite:BMP05⟧ .">
   <meta itemprop="datePublished" content="2026-05-28T17:13:21-04:00">
   <meta itemprop="dateModified" content="2026-05-29T23:06:26-04:00">
-  <meta itemprop="wordCount" content="479">
+  <meta itemprop="wordCount" content="493">
   <meta itemprop="keywords" content="Math,Discrete-Geometry,Combinatorics,Ai">
 
   
@@ -204,7 +204,7 @@ After learning about the recent OpenAI disproof of the unit distance conjecture
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          479 words
+          493 words
         </span>
       
       
@@ -314,7 +314,8 @@ and for a (full) lattice $\Lambda\subseteq\mathbb C^f$, define
 $$U_{\Lambda}=\{(x_1,\dots,x_f)\in\Lambda:\forall i,|x_i|=1\}$$<p>
 Let $\pi:\mathbb \Lambda\rightarrow\mathbb C$ be the projection to an arbitrary coordinate and and assume it is injective.
 If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R>1$, the set $P_{\Lambda,R}:=\pi(U_{\Lambda}\cap B_R)$ is a finite set of points with at least $\frac{1}{2}|U_{\Lambda}||\Lambda\cap B_{R-1}|$ unit distance pairs among at most $|U_{\Lambda}\cap B_{R}|$ points. One of the core lemmas in the paper proves an explicit estimate for this type of statement with a translate $a+\Lambda$ of the lattice, and it turns out this estimate is enough to produce the lower bound.</p>
-<p>Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled.</p>
+<p>Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are eventually built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled.</p>
+<p>So far the above is what I gathered to be the main ideas.</p>
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">

@@ -29,7 +29,9 @@ $$U_{\Lambda}=\{(x_1,\dots,x_f)\in\Lambda:\forall i,|x_i|=1\}$$
 Let $\pi:\mathbb \Lambda\rightarrow\mathbb C$ be the projection to an arbitrary coordinate and and assume it is injective.
 If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R>1$, the set $P_{\Lambda,R}:=\pi(U_{\Lambda}\cap B_R)$ is a finite set of points with at least $\frac{1}{2}|U_{\Lambda}||\Lambda\cap B_{R-1}|$ unit distance pairs among at most $|U_{\Lambda}\cap B_{R}|$ points. One of the core lemmas in the paper proves an explicit estimate for this type of statement with a translate $a+\Lambda$ of the lattice, and it turns out this estimate is enough to produce the lower bound. 
 
-Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled. 
+Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are eventually built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled. 
+
+So far the above is what I gathered to be the main ideas. 
 
 ## References
 

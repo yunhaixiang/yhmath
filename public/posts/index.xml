@@ -83,6 +83,7 @@
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Gottlob Frege&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently, I was reading the essay &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt; by Walter Benjamin, which is a response to the rise of technologies such as photography, which “mechanically reproduces” art and cause it to lose what he calls “aura”. I can’t help by draw paralells with the current AI crisis people are facing. AI reproduces human artistic and scientific work in a fashion far more radical than photography, and it challenges the uniqueness, “aura” if you will, of human efforts. Suddenly, we find ourselves compelled to rethink the question of: what really makes us unique? What makes our efforts meaningful?&lt;/p&gt;
 </description>
     </item>
     
@@ -143,7 +144,8 @@ and for a (full) lattice $\Lambda\subseteq\mathbb C^f$, define
 $$U_{\Lambda}=\{(x_1,\dots,x_f)\in\Lambda:\forall i,|x_i|=1\}$$&lt;p&gt;
 Let $\pi:\mathbb \Lambda\rightarrow\mathbb C$ be the projection to an arbitrary coordinate and and assume it is injective.
 If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the set $P_{\Lambda,R}:=\pi(U_{\Lambda}\cap B_R)$ is a finite set of points with at least $\frac{1}{2}|U_{\Lambda}||\Lambda\cap B_{R-1}|$ unit distance pairs among at most $|U_{\Lambda}\cap B_{R}|$ points. One of the core lemmas in the paper proves an explicit estimate for this type of statement with a translate $a+\Lambda$ of the lattice, and it turns out this estimate is enough to produce the lower bound.&lt;/p&gt;
-&lt;p&gt;Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled.&lt;/p&gt;
+&lt;p&gt;Take a totally real number field $F$ of degree $f$ and form the CM field $K/F$ by quadratic imaginary extension, one can from the Minkowski embedding $K\rightarrow\mathbb C^f$ and form the lattice $\Lambda$ by taking the image of a fractional ideal. If we have find $K$ such that many primes $\mathfrak q$ in $F$ split, then we can find many $u=\frac{\mathfrak q}{\overline{\mathfrak q}}$ of unit norm, so that $U_{\Lambda}$ is big enough. Such fields $K$ are eventually built from Golod–Shafarevich class field towers, which is a tower of CM fields, where ramification is controlled.&lt;/p&gt;
+&lt;p&gt;So far the above is what I gathered to be the main ideas.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
