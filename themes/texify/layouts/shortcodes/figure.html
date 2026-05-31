@@ -5,6 +5,7 @@
 {{- $caption := .Get "caption" | default "" -}}
 {{- $width   := .Get "width"   | default "60%" -}}
 {{- $lang    := .Get "lang"    | default .Page.Language.Lang -}}
+{{- $captionHTML := $caption | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
 
 <div class="fig-env" {{ with $id }}id="{{ . }}"{{ end }} data-lang="{{ $lang }}">
   <div class="fig-body">
@@ -19,6 +20,6 @@
 
   <div class="fig-caption">
     <span class="fig-label"></span>
-    <span class="fig-text">{{ $caption }}</span>
+    <span class="fig-text">{{ $captionHTML | safeHTML }}</span>
   </div>
 </div>

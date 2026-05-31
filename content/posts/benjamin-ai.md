@@ -1,7 +1,6 @@
 ---
 title: The Work of Art (and Science) in the Age of Algorithmic Reproducibility
-date: 2026-06-01 00:00:01 -0400
-draft: true
+date: 2026-05-31 00:00:01 -0400
 categories: [essays]
 tags: [philosophy, ai]
 ---
@@ -12,13 +11,13 @@ Each good mathematician is at least half a philosopher, and each good philosophe
 
 Recently, I was reading the essay _The Work of Art in the Age of Mechanical Reproducibility_ by Walter Benjamin {{< cite key="Ben68" >}}, which is an essay in response to the rise of technologies such as photography, whose ability to create almost perfect replicas of art caused art to lose what he calls *“aura”*. I can’t help by draw paralells with the current AI crisis people are grappling. AI “mechanically reproduces” human artistic and scientific work in a fashion far more radical than photography, and it challenges the uniqueness, “aura” if you will, of human efforts. Suddenly, we find ourselves compelled to rethink the questions of: what really makes us unique? What makes our efforts meaningful? What qualifies our own authenticity?
 
-## Algorithmic Reproducibility
+## Algorithmic Reproducibility of Art
 
 To be clear, as I understand it, Benjamin was not lamenting the loss of “aura” of artworks. Instead, what he realized was that the emergence of mechanical reproducibility changes the very nature of art itself. The “aura” he refers to of an artwork, is the unique presence of it in time and space, to which people ascribe _cult value_. Cult value, as Benjamin defines it, is the value of an art work rooted in a tradition or ritual, not necessarily that of a religion. This is what he claims withers away as mechanical reproductions becomes proliferated –– their reproductions en masse makes them loses their magic. What Benjamin also claims is that the decay of cult value of a work of art is accompanied with the rise in its *exhibition value*, the value art has for being displayed, circulated, and politicized. To my understand, what Benjamin is getting at is that the perception by the masses of the art work has become part of the art itself. Exhibition value, as he claims, reaches its apotheosis in photography and film. In these art forms, the line between between original and replica is blurred. There is no more uniqueness to the original than to the replica — the mass impression of the art work becomes the true medium. 
 
 Today, almost a century after Benjamin’s essay, we find ourselves confronted  with what I call *algorithmic reproducibility* of artistic (and scientific) works. By algorithmic reproduction, I mean mainly generative AI technologies applied to art (and science), where a machine learning algorithm is trained on an enormous amount of data created by human experts, and is able to produce work of a quality that is on par with humans from mere prompts. Understandably, there is uproar in artist communities against them. There are significant ethical issues with using people’s work without their consent and, even worse, developing a technology that has the potential to devastate their job prospects. This issue, however, is not what I want to focus in this essay. The question I am more troubled by is, since it is likely that AI is here to stay, how will people view the human activity of art and science as a whole? How will the value of human efforts in these domains change?
 
-Not too long ago, Twitter/X user “SHL0MS” tweeted the following 
+Not too long ago, Twitter/X user “[SHL0MS](https://x.com/SHL0MS/status/2054280631807316329)” tweeted the following 
 
 > I just generated an image in the style of a Monet painting using AI.   
 > Please describe, in as much detail as possible, what makes this inferior to a real Monet painting. 
@@ -35,17 +34,31 @@ Unsurprisingly, the tweet was immediately flooded with the fury of the internet.
 
 A common argument I see against the value of AI art is that: humans train and practise for decades to achieve artistic mastery and musical virtuosity – the human sweat and tears went into the artwork is what endows it meaning, something that AI lacks. I must disagree with this argument. Art has long been detached from the amount of skill required to make it. Since modernity, there has been many artworks deemed meaningful and thought provoking, but does not require a very high level of skill. One such example is the famed *Who’s Afraid of Red, Yellow and Blue* by Barnett Newman. If one employs this argument against AI art, one also dismisses the values of these works. 
 
-Another argument is that an art work is about the experience and expression of the author, which AI does not have since it lacks an ego. I think this is only partially true. Invoking Benjamin again, the value of a work of art has shifted away from the aura of the original and into its exhibition before the masses. AI generated art are just as capable as their human counterparts at being widely exhibited to the masses. Online, AI generated content are widely circulated and reposted. One can also argue from the perspective of Roland Barthes, which is exemplified by his *The Death of the Author* {{< cite key="Bar77" >}}, that one should not treat the author as authority of their work, since even the most original ideas depend on inherted ideas such as heroism, love, family, death, and so on. 
+Another argument is that an art work is about the experience and expression of the author, which AI does not have since it lacks an ego. I think this is only partially true. Invoking Benjamin again, the value of a work of art has shifted away from the aura of the original and into its exhibition before the masses. AI generated art are just as capable as their human counterparts at being widely exhibited to the masses. Online, AI generated content are widely circulated and reposted. One can also argue from the perspective of Roland Barthes, which is exemplified by his *The Death of the Author* {{< cite key="Bar77" >}}, that one should not treat the author as authority of their work, since even the most original works depend on inherted ideas such as heroism, love, family, and so on. 
 
-How then, should we value a work of art? Surveying (mostly online) artist communities, one finds a dominant and often vehement view that only humans make art, and whatever AI makes, are declared “slop”. While I completely sympathize with this sentiment, I take issue with this stance in that it seems to me a regression back to the cult value of art, where art must be rooted in the tradition, in this case, of these artist communities, and the nontraditional way of using AI to make art is declared a sacrilege. Cult value should not be the way we value art. When value is rooted in a tradition, it is necessarily entangled with the power structures of that tradition, many of which are of an oppressive nature. 
+How then, should we value a work of art? Surveying (mostly online) artist communities, one finds a dominant and often vehement view that only humans make art, and whatever AI makes, are declared “slop”. While I completely sympathize with this sentiment, I take issue with this stance, in that it seemed to me a regression back to the cult value of art, where art must be rooted in the tradition, in this case, of these artist communities, and the nontraditional way of using AI to make art is declared a sacrilege. Cult value should not be the way we value art. When value is rooted in a tradition, it is necessarily entangled with the power structures of that tradition, many of which are of an oppressive nature. 
 
-Should we then, value a work of art by its exhibition value? I also believe not, but with a subtlety. 
+Should we then, value a work of art by its exhibition value? I also believe not, but with a subtlety. Today, we are in an age where the meaning of exhibition is very different than when Benjamin lived. In particular, we have capitalized the exhibition of our lives on social media to an extent that is pathological. The attention of the social media users have become the commodity of the information age. Every single platform is driving for more engagement, more attention from users, and more dophamine, which has permanently altered our brain chemistry. There is no wonder that AI art has high amount of views – it is trained to do precisely that: videos of Stephen Hawking skateboarding with his wheelchair, Peter Griffin as a real life person, historical figures coming back to life and getting speeding tickets, etc. Our spiritual life has become *the Bagel* from the film *Everything Everywhere All at Once*. There is everything, but also nothing, and we are forced to be a spectator. Experiencing social media to me feels like I am Malcolm McDowell strapped to the seat and having my eyes forcibly held open.
 
-Authenticity value
+{{< figure
+  src="/img/malcolm.jpg"
+  alt="Malcolm McDowell with his eyes held open in A Clockwork Orange"
+  caption="Malcolm McDowell in *A Clockwork Orange*"
+  width="50%">}}
 
-## AI for Science
 
-## Change but without Change
+I still believe exhibition value, in the sense Benjamin intended, remains deeply important, but in our age it clearly does not suffice. In my opinion, it should be replaced by an *authenticity value*. This is a concept that I have not thought through clearly yet, and at the moment it is only a vague idea. Authenticity has been on decline. Technology has enabled us to be more connected than ever, but less and less in touch with each other. We present a façade of ourselves to the world, instead of our genuine flawed selves. AI is the culmination of this trend, training on the media on the internet produced by us, its hollowness and superficiality are a reflection of our own. To me, a work of art is one that should contain or foster authenticity, from the author, the spectator, or both. This is what I mean by authenticity value. A human work of art does not automatically have authenticity value, and a non-human work of art is not automatically void of it. Admittedly, it will take a lot more work to develop this idea into something more philosophically mature. 
+
+In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own regard with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable art work could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.  
+
+## Algorithmic Reproducibility of Science
+
+When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One can not claim that math is like art just because human researchers have a sense of which kind of math is more beautiful or elegant – that is an *aesthetic* formed from personal experience, and aesthetic is very different from art. What then will AI bring to science?
+I have recently written an essay specifically discussing this in the case of [math](/posts/a-case-for-ai-assisted-math/). For physics, there is a very good [discussion by Prof. David Kipping](https://www.youtube.com/watch?v=PctlBxRh0p4) on YouTube. In computer science, there has been experiments such as [autonomous researchers](https://arxiv.org/abs/2408.14033). In biology labs, people are experimenting [autonomous AI research via robots](https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/). 
+In short, I do not think AI challenges science as much as it did art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI. 
+
+
+
 
 
 ## References
