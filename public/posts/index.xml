@@ -47,11 +47,11 @@
     </item>
     
     <item>
-      <title>Learning Type Theory</title>
-      <link>http://localhost:1313/posts/learning-type-theory/</link>
+      <title>Curry–Howard Isomorphism</title>
+      <link>http://localhost:1313/posts/curry-howard/</link>
       <pubDate>Mon, 15 Jun 2026 17:40:43 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/learning-type-theory/</guid>
+      <guid>http://localhost:1313/posts/curry-howard/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
@@ -74,16 +74,67 @@
     </item>
     
     <item>
-      <title>What Do Philosophers Think About AI</title>
-      <link>http://localhost:1313/posts/what-do-philosophers-think-about-ai/</link>
-      <pubDate>Fri, 05 Jun 2026 17:40:43 -0400</pubDate>
+      <title>The Work of Art (and Science) in the Age of Algorithmic Reproducibility</title>
+      <link>http://localhost:1313/posts/benjamin-ai/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/what-do-philosophers-think-about-ai/</guid>
+      <guid>http://localhost:1313/posts/benjamin-ai/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Gottlob Frege&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Recently, I was reading the essay &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt; by Walter Benjamin, which is a response to the rise of technologies such as photography, which “mechanically reproduces” art and cause it to lose what he calls “aura”. I can’t help by draw paralells with the current AI crisis people are facing. AI reproduces human artistic and scientific work in a fashion far more radical than photography, and it challenges the uniqueness, “aura” if you will, of human efforts. Suddenly, we find ourselves compelled to rethink the question of: what really makes us unique? What makes our efforts meaningful?&lt;/p&gt;
+&lt;p&gt;Recently, I was reading the essay &lt;em&gt;The Work of Art in the Age of Mechanical Reproducibility&lt;/em&gt; by Walter Benjamin &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Ben68&#34;&gt;
+  ⟦cite:Ben68⟧
+&lt;/span&gt;, which is an essay in response to the rise of technologies such as photography, whose ability to create almost perfect replicas of art caused art to lose what he calls &lt;em&gt;“aura”&lt;/em&gt;. I can’t help by draw paralells with the current AI crisis people are grappling. AI “mechanically reproduces” human artistic and scientific work in a fashion far more radical than photography, and it challenges the uniqueness, “aura” if you will, of human efforts. Suddenly, we find ourselves compelled to rethink the questions of: what really makes us unique? What makes our efforts meaningful? What qualifies our own authenticity?&lt;/p&gt;
+&lt;h2 id=&#34;algorithmic-reproducibility&#34;&gt;Algorithmic Reproducibility&lt;/h2&gt;
+&lt;p&gt;To be clear, as I understand it, Benjamin was not lamenting the loss of “aura” of artworks. Instead, what he realized was that the emergence of mechanical reproducibility changes the very nature of art itself. The “aura” he refers to of an artwork, is the unique presence of it in time and space, to which people ascribe &lt;em&gt;cult value&lt;/em&gt;. Cult value, as Benjamin defines it, is the value of an art work rooted in a tradition or ritual, not necessarily that of a religion. This is what he claims withers away as mechanical reproductions becomes proliferated –– their reproductions en masse makes them loses their magic. What Benjamin also claims is that the decay of cult value of a work of art is accompanied with the rise in its &lt;em&gt;exhibition value&lt;/em&gt;, the value art has for being displayed, circulated, and politicized. To my understand, what Benjamin is getting at is that the perception by the masses of the art work has become part of the art itself. Exhibition value, as he claims, reaches its apotheosis in photography and film. In these art forms, the line between between original and replica is blurred. There is no more uniqueness to the original than to the replica — the mass impression of the art work becomes the true medium.&lt;/p&gt;
+&lt;p&gt;Today, almost a century after Benjamin’s essay, we find ourselves confronted  with what I call &lt;em&gt;algorithmic reproducibility&lt;/em&gt; of artistic (and scientific) works. By algorithmic reproduction, I mean mainly generative AI technologies applied to art (and science), where a machine learning algorithm is trained on an enormous amount of data created by human experts, and is able to produce work of a quality that is on par with humans from mere prompts. Understandably, there is uproar in artist communities against them. There are significant ethical issues with using people’s work without their consent and, even worse, developing a technology that has the potential to devastate their job prospects. This issue, however, is not what I want to focus in this essay. The question I am more troubled by is, since it is likely that AI is here to stay, how will people view the human activity of art and science as a whole? How will the value of human efforts in these domains change?&lt;/p&gt;
+&lt;p&gt;Not too long ago, Twitter/X user “SHL0MS” tweeted the following&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I just generated an image in the style of a Monet painting using AI.&lt;br&gt;
+Please describe, in as much detail as possible, what makes this inferior to a real Monet painting.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and he attached the following image&lt;/p&gt;
+&lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img
+        src=&#34;http://localhost:1313/img/monet.jpeg&#34;
+        alt=&#34;An AI-generated image in the style of a Monet painting&#34;
+        style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
+      &gt;&lt;/div&gt;
+
+  &lt;div class=&#34;fig-caption&#34;&gt;
+    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;fig-text&#34;&gt;The Image Attached by “SHL0MS”&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Unsurprisingly, the tweet was immediately flooded with the fury of the internet. People are eager to point out flaws in the image – it is “sloppy” and “incoherent”, and apparently a travesty of the real Monet. Ostensibly, this tweet seems like a typical taunt by the run of the mill “tech bros” on social media. However, what surprised everybody was that the tweet turned out to be a cunning lie: “SHL0MS” revealed that the painting in the image is in fact a real Claude Monet painting – just an obscure one that people are unlikely to recognize, but a bona fide Monet work. This reveals to me at least two facts: 1. generative AI for images has reached a level indistinguishable from the work of a human expert, and 2. people are biased against AI generated work, in the sense that, although many are reluctant to admit, it is not the quality of the work but the knowledge that it is AI generated that repels them. For the record, I say all this not to defend generative AI or to belittle human artists, but to argue that we can’t avoid the hard questions in life by lying to ourselves.&lt;/p&gt;
+&lt;p&gt;A common argument I see against the value of AI art is that: humans train and practise for decades to achieve artistic mastery and musical virtuosity – the human sweat and tears went into the artwork is what endows it meaning, something that AI lacks. I must disagree with this argument. Art has long been detached from the amount of skill required to make it. Since modernity, there has been many artworks deemed meaningful and thought provoking, but does not require a very high level of skill. One such example is the famed &lt;em&gt;Who’s Afraid of Red, Yellow and Blue&lt;/em&gt; by Barnett Newman. If one employs this argument against AI art, one also dismisses the values of these works.&lt;/p&gt;
+&lt;p&gt;Another argument is that an art work is about the experience and expression of the author, which AI does not have since it lacks an ego. I think this is only partially true. Invoking Benjamin again, the value of a work of art has shifted away from the aura of the original and into its exhibition before the masses. AI generated art are just as capable as their human counterparts at being widely exhibited to the masses. Online, AI generated content are widely circulated and reposted. One can also argue from the perspective of Roland Barthes, which is exemplified by his &lt;em&gt;The Death of the Author&lt;/em&gt; &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Bar77&#34;&gt;
+  ⟦cite:Bar77⟧
+&lt;/span&gt;, that one should not treat the author as authority of their work, since even the most original ideas depend on inherted ideas such as heroism, love, family, death, and so on.&lt;/p&gt;
+&lt;p&gt;How then, should we value a work of art? Surveying (mostly online) artist communities, one finds a dominant and often vehement view that only humans make art, and whatever AI makes, are declared “slop”. While I completely sympathize with this sentiment, I take issue with this stance in that it seems to me a regression back to the cult value of art, where art must be rooted in the tradition, in this case, of these artist communities, and the nontraditional way of using AI to make art is declared a sacrilege. Cult value should not be the way we value art. When value is rooted in a tradition, it is necessarily entangled with the power structures of that tradition, many of which are of an oppressive nature.&lt;/p&gt;
+&lt;p&gt;Should we then, value a work of art by its exhibition value? I also believe not, but with a subtlety.&lt;/p&gt;
+&lt;p&gt;Authenticity value&lt;/p&gt;
+&lt;h2 id=&#34;ai-for-science&#34;&gt;AI for Science&lt;/h2&gt;
+&lt;h2 id=&#34;change-but-without-change&#34;&gt;Change but without Change&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Ben68&#34; data-bib-key=&#34;Ben68&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ben68]&lt;/span&gt;Walter Benjamin. Hannah Arendt (ed.). Translated by Harry Zohn. &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt;. In &lt;em&gt;Illuminations&lt;/em&gt;. Schocken Books. 1968.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Ben02&#34; data-bib-key=&#34;Ben02&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ben02]&lt;/span&gt;Walter Benjamin. Howard Eiland and Michael W. Jennings (ed.). Translated by Edmund Jephcott, Howard Eiland, and others. &lt;em&gt;The Work of Art in the Age of Its Technological Reproducibility: Second Version&lt;/em&gt;. In &lt;em&gt;Walter Benjamin: Selected Writings, Volume 3: 1935-1938&lt;/em&gt;. Harvard University Press. 2002.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Bar77&#34; data-bib-key=&#34;Bar77&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Bar77]&lt;/span&gt;Roland Barthes. Translated by Stephen Heath. &lt;em&gt;The Death of the Author&lt;/em&gt;. In &lt;em&gt;Image, Music, Text&lt;/em&gt;. Hill and Wang. 1977.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
@@ -204,7 +255,7 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
 &lt;li&gt;&lt;em&gt;Academic Competition&lt;/em&gt;: The kind of mathematicians who will thrive in the future will probably be a different kind than the ones who used to. In particular, I think mathematicians who excel at technical strength will likely be at a disadvantage, and those who might not be very technically skilled but are very creative and intuitive will have an advantage. AI is superhuman in patience – it fears no technicality and is willing to carry out sophisticated calculations, and trial and error its way through an enormous amount of proof ideas. Inequality of computing resources will also affect academic competition, and in the future math academia will perhaps be more like biology and physics, where some labs could afford expensive apparatus and some could not. It is also a question whether there will be industry positions for using AI to tackle math, which would obviously have superior compute resources. Needless to say, in the future, to excel in math academia, one needs to master the use of AI, and really train to think with AI and perhaps also train to think on a “higher level” with the help of AI.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Problem Solving vs. Theory Building&lt;/em&gt;: I will make the bold claim here that we will see a convergence between problem solving and theory building, and also see more interaction between distinct fields of math. AI will empower mathematicians to explore into different areas and styles of math, even ones they weren’t used to previously.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Research Workflow, Collaboration, and Peer Review&lt;/em&gt;: I would imagine the workflow of mathematicians will become more and more similar to that of a programmer: collaborations on a large scale with a shared “codebase”, or in this case maybe “mathbase”, which is probably some large database of formalized math in proof assistants such as Lean. It would be very cool to have a complete database of all hitherto math knowledge in a single database, one that can only be created with help from autoformalization AIs. The peer review process will likely be sped up as autoformalization AIs become stronger, and will increasingly be about the value of the work instead of the correctness.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Undergraduate and Graduate Education&lt;/em&gt;: This is hardest to speculate; one obvious change is more emphasis on proctored exams (which I am not really fond of). Generally speaking, I think AI is good for education in that it provides decent exposition of advanced topics, saves me time digging through obscure references, and helps me calculate examples and provide intuition. In general, it makes a lot of knowledge much more accessible. The undergraduate mathematicians right now will benefit from this, and for them graduate school will probably be even more competitive than it already is, as everyone is learning more and more at a younger age.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Undergraduate and Graduate Education&lt;/em&gt;: This is hardest to speculate; one obvious change is more emphasis on proctored exams (which I am not really fond of). Generally speaking, I think AI is good for education in that it provides decent exposition of advanced topics, saves me time digging through obscure references, and helps me calculate examples and provide intuition. In general, it makes a lot of knowledge much more accessible. The undergraduate mathematicians right now will benefit from this, and for them graduate school will probably be even more competitive than it already is, as everyone is learning more and more at a younger age. In the past, the main way for graduate students to become full fledged mathematicians is to have them solve a problem that is a low hanging fruit. This will no longer be the case since solutions to easy problems can be manufactured now.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Why do we exist? What is the meaning of life? This line of questioning led me to my pursuit of math. I believe the search for truth is one of the most meaningful things in life, and it does not seem to me that AI will take that away. On the contrary, I’m excited to live through such a revolution in math while in grad school. Math has undergone paradigm shifts every century, and each time it turns out there is more math out there, and more things to discover. This is why I am still, generally speaking, optimistic about AI in math.&lt;/p&gt;
 </description>

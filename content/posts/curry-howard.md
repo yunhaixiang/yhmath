@@ -1,5 +1,5 @@
 ---
-title: Learning Type Theory
+title: Curry–Howard Isomorphism
 date: 2026-06-15 17:40:43 -0400
 categories: [expositions]
 draft: true

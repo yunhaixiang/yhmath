@@ -118,7 +118,7 @@
   {{- .Page.Scratch.Set "bibitem-auto-key-counts" $keyCounts -}}
 {{- end -}}
 
-{{- $title := .Inner | markdownify -}}
+{{- $title := trim .Inner " \t\n\r" | markdownify -}}
 {{- $title = $title | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
 
 {{- partial "bibitem-render.html" (dict
