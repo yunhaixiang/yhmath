@@ -6,7 +6,177 @@
     <description>Recent content in Algebraic-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:28:09 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
+      <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/algebraic-de-rham-cohomology/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Marvin Greenberg&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;In this note, we discuss algebraic de Rham cohomology and related concepts.
+The purpose of this note is not to give a very detailed account of the theorems and concepts, but provide a surface level overview.
+The reason I wanted to write about this is because I want to learn about de Rham–Witt cohomology, for which this is a prerequisite.
+I have not found a reference that I am completely satisfied with, but a lot of my sources come from Dustin Clausen’s &lt;a href=&#34;https://sites.google.com/view/algebraicderham/home&#34;&gt;notes&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;algebraic-de-rham-cohomology&#34;&gt;Algebraic de Rham Cohomology&lt;/h2&gt;
+&lt;p&gt;The de Rham cohomology originated from smooth manifolds, where $\mathrm H^k_{\mathrm{dR}}(M)$ is the cohomology of the de Rham complex $\Omega^{\bullet}(M)$.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(de Rham)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    There is a canonical isomorphism $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    This is shown with two facts: 1. $\underline{\mathbb R}\rightarrow \Omega^\bullet $ is an quasi-isomorphism, i.e. $\mathcal H^k_{\mathrm{dR}}$ identifies with $\underline{\mathbb R}$ at $0$ and vanishes otherwise. 2. for $p\ge 0$, $\Omega^p$ is acyclic. Together, $\underline{\mathbb R}\rightarrow \Omega^\bullet$ is an acyclic resolution, hence de Rham’s theorem. Fact 1 is shown by Poincare lemma (every closed $k$-form is locally exact), and fact 2 is due to the fact that $M$ has partitions of unity: the sheaves $\Omega^p$ are fine, and fine sheaves are acyclic, see &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;BT82&#34; data-cite-note=&#34;Chapter I, Section 2&#34;&gt;
+⟦cite:BT82⟧
+&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Bre97&#34; data-cite-note=&#34;Chapter II, Section 9&#34;&gt;
+⟦cite:Bre97⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;There is a different version where the isomorphism is between de Rham cohomology and singular cohomology $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$, for which the map is induced by the chain morphism
+&lt;/p&gt;
+$$\omega\mapsto \left(\sigma\mapsto \int_{\sigma}\omega\right)$$&lt;p&gt;
+its well-definedness is exactly the statement of Stokes theorem.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We want a version of this for algebraic varieties.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For any scheme $X/S$, define the hypercohomology&lt;/p&gt;
+$$\mathrm{H}_{\mathrm{dR}}^n(X)=\mathbb H^n(X,\Omega^\bullet_X)$$&lt;p&gt;as the algebraic de Rham cohomology of $X$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For algebraic varieties (or even complex manifolds), we do not have an adequate partitions of unity, so we can have $\Omega^p$ not acyclic.
+Hypercohomology captures the higher sheaf cohomology $\mathrm{H}^q(X,\Omega^p)$ when $\Omega^p$ is not necessarily acyclic. This is captured in&lt;/p&gt;
+$$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X)$$&lt;p&gt;which is called the &lt;em&gt;Hodge-to-de Rham spectral sequence&lt;/em&gt;. For smooth affine $X$, we know that $\Omega_X^p$ is acyclic, so one could compute de Rham cohomology easily with $H^n(\Omega^\bullet_X)$. Grothendieck proved an analogue of de Rham’s theorem for complex algebraic varieties.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $X/\mathbb C$ be a smooth variety, then there is natural isomorphism $\mathrm{H}^n_{\mathrm{dR}}(X)\cong\mathrm H^n(X^{\mathrm{an}},\mathbb C)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    For simplicity, assume $X$ is proper. The proof combines a comparison map $\Omega^\bullet_X\rightarrow \Omega^\bullet_{X^{\mathrm{an}}}$ via analytification. By the assumption of properness, GAGA applies and identifies sheaf cohomologies $H^q(X,\Omega^p_X)\cong H^q(X,\Omega^p_{X^\mathrm{an}})$, and hence identifies hyper-cohomologies $\mathbb H^{n}(X,\Omega^\bullet)\cong \mathbb H^{n}(X,\Omega^\bullet_{X^{\mathrm{an}}})$ via Hodge-to-de Rham spectral sequence. Finish by Poincare lemma giving an acyclic resolution $\underline{\mathbb C}\rightarrow \Omega^\bullet_{X^\mathrm{an}}$, and done.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $X$ is non proper, this situation is more difficult. One needs to use log differential forms, which I will not elaborate.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;gaussmanin-connection&#34;&gt;Gauss–Manin Connection&lt;/h2&gt;
+&lt;p&gt;Recall that a connection on a vector bundle $\mathcal E$ on a scheme $X$ is a map $\nabla:\mathcal E\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^1_X$ satisfying Leibniz rule&lt;/p&gt;
+$$\nabla(U)(fe)=e\otimes \mathrm df+f\nabla(U)(e)$$&lt;p&gt;
+where $f\in\mathcal O_X$ and $e\in\mathcal E(U)$ and $U\subseteq X$ an open. For each derivation $D\in \mathcal{Der}_k(\mathcal O_X,\mathcal O_X)\cong \mathcal{Hom}_{\mathcal O_X}(\Omega_X^1, \mathcal O_X)$, define $\nabla_D:\mathcal E\rightarrow\mathcal E$&lt;/p&gt;
+$$\nabla_D:\mathcal E\xrightarrow{\nabla}\mathcal E\otimes_{\mathcal O_X}\Omega^1_X\xrightarrow{\mathrm{id}\otimes D}\mathcal E\otimes_{\mathcal O_X} \mathcal O_X\cong \mathcal E$$&lt;p&gt;
+which we call the covariant derivative in the direction $D$. We can extend the connection to a map $\nabla:\mathcal E\otimes\Omega^p_X\rightarrow \mathcal E\otimes\Omega^{p+1}_X$ by&lt;/p&gt;
+$$\nabla(s\otimes\omega)=\nabla(s)\land\omega+s\otimes \mathrm dw$$&lt;p&gt;then the curvature is $\nabla^2:\mathcal E\rightarrow\mathcal E\otimes_{\mathcal O_X}\Omega^2_X$. Recall that a connection is called flat or integrable if the curvature $\nabla^2=0$.
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $f:X\rightarrow S$ be a smooth proper morphism of smooth schemes over field $k$ of characteristic $0$. The &lt;em&gt;Gauss–Manin connection&lt;/em&gt; is the canonical flat connection on the relative de Rham cohomology sheaves&lt;/p&gt;
+$$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes \Omega^1_{S/k}$$&lt;p&gt;where $\mathcal H^n_{\mathrm{dR}}(X/S)=\mathrm{R}^nf_{*}\Omega_{X/S}^\bullet$. They are constructed in the following way: consider the exact sequence&lt;/p&gt;
+$$0\to f^*\Omega^1_{S/k}\to\Omega^1_{X/k}\to \Omega^1_{X/S}\to 0$$&lt;p&gt;which induces a &lt;em&gt;Gauss–Manin&lt;/em&gt; filtration $\mathrm{Fil}^p\,\Omega^\bullet_X$ defined by&lt;/p&gt;
+$$\mathrm{Fil}^p\,\Omega^n_X=\mathrm{Im}\left(f^*\Omega^p_{S/k}\otimes_{\mathcal O_X}\Omega^{n-p}_{X/k}\xrightarrow{\eta\otimes\alpha\mapsto f^*\eta\wedge \alpha}\Omega^n_{X/k}\right)$$&lt;p&gt;then consider the exact sequence&lt;/p&gt;
+$$0\to f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}[-1]\to \Omega^\bullet_{X/k}/\mathrm{Fil}^2\,\Omega^\bullet_{X/k}\to \Omega^\bullet_{X/S}\to 0$$&lt;p&gt;In the derived category we have a connecting morphism&lt;/p&gt;
+$$\Omega^\bullet_{X/S}\longrightarrow f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}$$&lt;p&gt;applying derived pushforward&lt;/p&gt;
+$$\mathrm{R}f_*\Omega^\bullet_{X/S}\longrightarrow \mathrm{R}f_*\left(f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}\right)$$&lt;p&gt;By the projection formula&lt;/p&gt;
+$$\mathrm{R}f_*\left(f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}\right)\cong \mathrm{R}f_*\Omega^\bullet_{X/S}\otimes_{\mathcal O_S}\Omega^1_{S/k}$$&lt;p&gt;Therefore we have a morphism&lt;/p&gt;
+$$\mathrm{R}f_*\Omega^\bullet_{X/S}\longrightarrow \mathrm{R}f_*\Omega^\bullet_{X/S}\otimes_{\mathcal O_S}\Omega^1_{S/k}$$&lt;p&gt;taking cohomology sheaves gives us&lt;/p&gt;
+$$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes_{\mathcal O_S}\Omega^1_{S/k}$$&lt;p&gt;which is the Gauss–Manin connection.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-BT82&#34; data-bib-key=&#34;BT82&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;Raoul Bott and Loring W. Tu. &lt;em&gt;Differential Forms in Algebraic Topology&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 82. Springer-Verlag. New York. 1982.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Bre97&#34; data-bib-key=&#34;Bre97&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;Glen E. Bredon. &lt;em&gt;Sheaf Theory&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 170. Springer-Verlag. New York. 1997.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
       <link>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
