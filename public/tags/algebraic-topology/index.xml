@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic-Topology on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/algebraic-topology/</link>
+    <link>https://yunhaimath.com/tags/algebraic-topology/</link>
     <description>Recent content in Algebraic-Topology on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="https://yunhaimath.com/tags/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:1313/posts/leray-serre-hochschild-ss/</link>
+      <link>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/leray-serre-hochschild-ss/</guid>
+      <guid>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -173,10 +173,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:1313/posts/van-kampen/</link>
+      <link>https://yunhaimath.com/posts/van-kampen/</link>
       <pubDate>Wed, 03 Dec 2025 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/van-kampen/</guid>
+      <guid>https://yunhaimath.com/posts/van-kampen/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.

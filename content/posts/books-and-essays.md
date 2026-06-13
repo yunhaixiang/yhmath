@@ -7,6 +7,7 @@ categories: [archives]
 ---
 
 ## Books I Want to Read
+
 - Saul Kripke, _Naming and Necessity_ (1980)
 - Herman Melville, _Moby Dick_ (1851)
 - Virginia Woolf, _To the Lighthouse_ (1927)
@@ -14,13 +15,22 @@ categories: [archives]
 - J. D. Salinger, _The Catcher in the Rye_ (1951)
 
 ## Books I Recommend (Fiction)
+
 - Liu Cixin, _The Three-Body Problem_ (2006)
 - Greg Egan, _Axiomatic_ (1995)
 - Franz Kafka, _The Metamorphosis_ (1916)
 - Shuzo Oshimi, _Inside Mari_ (2012)
 
-## Books I Recommend (Non-Fiction)
+## Books I Recommend (Philosophy)
+
 - Duncan Pritchard, *What is this Thing Called Knowledge?* (2006)
+- Walter Benjamin, _The Work of Art in the Age of Mechanical Reproduction_ (1935)
+- Guy Debord, _The Society of the Spectacle_ (1967)
+- W. V. O. Quine, _Two Dogmas of Empiricism_ (1951)
+
+
+## Books I Recommend (Mathematics)
+
 - Paul Lockhart, _A Mathematician's Lament_ (2009)
 - George Lakoff, _Where Mathematics Come From_ (2000)
 - Edward Frenkel, *Love and Math: The Heart of Hidden Reality* (2013)
@@ -33,8 +43,15 @@ categories: [archives]
 - Philip J. Davis, Reuben Hersh, _The Mathematical Experience_ (1981)
 - Paul Benacerraf, Hilary Putnam, _Philosophy of Mathematics: Selected Readings_ (1984)
 - Reuben Hersh, _18 Unconventional Essays on the Nature of Mathematics_ (2006)
+- G. H. Hardy, _A Mathematician's Apology_ (1940)
+- Eugenia Cheng, _Mathematics, Morally_ (2004)
+- Paul Benacerraf, _What Numbers Could not Be_ (1965)
+- William P. Thurston, _On Proof and Progress in Mathematics_ (1994)
+- W. T. Gowers, _The Two Cultures of Mathematics_ (2007)
+- Kevin Buzzard, _Grothendieck’s Use of Equality_ (2024)
 
-## Books I Recommend (Recreational Mathematics)
+
+## Books I Recommend (Mathematical Puzzles)
 
 - Martin Aigner, Günter M. Ziegler, *Proofs from THE BOOK* (1998)
 - Dmitry Fuchs, Serge Tabachnikov, *Mathematical Omnibus* (2007)
@@ -57,14 +74,3 @@ categories: [archives]
 - George Polya, _How to Solve It: A New Aspect of Mathematical Method_ (2015)
 - Thomas Lam, _The CMUMC POTD Book_ (2025)
 - George Polya, _Mathematical Discovery_ (1991)
-
-## Essays I Recommend
-- Walter Benjamin, _The Work of Art in the Age of Mechanical Reproduction_ (1935)
-- Guy Debord, _The Society of the Spectacle_ (1967)
-- G. H. Hardy, _A Mathematician's Apology_ (1940)
-- Eugenia Cheng, _Mathematics, Morally_ (2004)
-- W. T. Gowers, _The Two Cultures of Mathematics_ (2007)
-- Kevin Buzzard, _Grothendieck’s Use of Equality_ (2024)
-- Paul Benacerraf, _What Numbers Could not Be_ (1965)
-- W. V. O. Quine, _Two Dogmas of Empiricism_ (1951)
-- William P. Thurston, _On Proof and Progress in Mathematics_ (1994)

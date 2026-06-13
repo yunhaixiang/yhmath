@@ -7,6 +7,404 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Serre Duality</title>
+      <link>http://localhost:1313/posts/serre-duality/</link>
+      <pubDate>Sat, 04 Jul 2026 16:47:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/serre-duality/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    In mathematics the art of proposing a question must be held of higher value than solving it.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Georg Cantor&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;For a smooth projective variety $X$ over a field $K$, Serre duality is a fundamental result that establishes an analogue of Poincaré duality in the context of algebraic geometry. It says that cohomology in degree $i$ is dual to that of in degree $\dim X - i$ with coefficients twisted in the canonical bundle $\omega_X$. In this note, we will discuss this theorem, following &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Har77&#34;&gt;
+  ⟦cite:Har77⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Har77&#34; data-bib-key=&#34;Har77&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Har77]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Algebraic Geometry&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 52. Springer-Verlag. New York-Heidelberg. 1977. ISBN: 0-387-90244-9.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Curry–Howard Isomorphism</title>
+      <link>http://localhost:1313/posts/curry-howard/</link>
+      <pubDate>Mon, 15 Jun 2026 17:40:43 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/curry-howard/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Saharon Shelah&lt;/div&gt;&lt;/aside&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann-Hilbert Correspondence and Lisse ell-adic Sheaves</title>
+      <link>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</guid>
+      <description>&lt;p&gt;In this note I want to compare two slogans:&lt;/p&gt;
+$$
+\left\{
+\begin{array}{c}
+\text{flat vector bundles} \\
+\text{on } X^{\mathrm{an}}
+\end{array}
+\right\}
+\simeq
+\left\{
+\begin{array}{c}
+\text{local systems} \\
+\text{on } X^{\mathrm{an}}
+\end{array}
+\right\}
+$$&lt;p&gt;and&lt;/p&gt;
+$$
+\left\{
+\begin{array}{c}
+\text{lisse } \overline{\mathbb Q}_{\ell}\text{-sheaves} \\
+\text{on } X_{\mathrm{et}}
+\end{array}
+\right\}
+\simeq
+\left\{
+\begin{array}{c}
+\text{continuous } \overline{\mathbb Q}_{\ell}\text{-representations} \\
+\text{of } \pi_1^{\mathrm{et}}(X,\overline{x})
+\end{array}
+\right\}.
+$$&lt;p&gt;The first slogan is the entry point to the Riemann-Hilbert correspondence. The second is the basic dictionary for lisse $\ell$-adic sheaves. They are not the same theorem, but they play parallel roles: both turn locally constant sheaf-theoretic data into linear representations of a fundamental group.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;questions&#34;&gt;Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the classical Riemann-Hilbert correspondence for a complex manifold?&lt;/li&gt;
+&lt;li&gt;Where do regular singularities and regular holonomic $\mathcal D$-modules enter?&lt;/li&gt;
+&lt;li&gt;What is the precise meaning of a lisse $\ell$-adic sheaf?&lt;/li&gt;
+&lt;li&gt;How does a lisse $\ell$-adic sheaf give a representation of the etale fundamental group?&lt;/li&gt;
+&lt;li&gt;In what sense is the lisse $\ell$-adic story an arithmetic analogue of local systems?&lt;/li&gt;
+&lt;li&gt;Where does the analogy break?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;classical-local-systems&#34;&gt;Classical Local Systems&lt;/h2&gt;
+&lt;p&gt;Let $X$ be a connected complex manifold and let $x\in X$ be a base point.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A complex local system on $X$ is a sheaf $\mathcal L$ of finite-dimensional $\mathbb C$-vector spaces which is locally constant on $X$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The basic classification is&lt;/p&gt;
+$$
+\left\{
+\begin{array}{c}
+\text{complex local systems} \\
+\text{on } X
+\end{array}
+\right\}
+\simeq
+\operatorname{Rep}_{\mathbb C}\bigl(\pi_1(X,x)\bigr),
+$$&lt;p&gt;where a local system $\mathcal L$ is sent to its monodromy action on the fiber $\mathcal L_x$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;remark&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    This statement is already a Riemann-Hilbert-type dictionary in its simplest form: topology is converted into linear algebra through monodromy.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;flat-connections&#34;&gt;Flat Connections&lt;/h2&gt;
+&lt;p&gt;Let $\mathcal E$ be a holomorphic vector bundle on $X$. A connection is a map&lt;/p&gt;
+$$
+\nabla:\mathcal E\longrightarrow \mathcal E\otimes_{\mathcal O_X}\Omega_X^1
+$$&lt;p&gt;satisfying the Leibniz rule. It is flat, or integrable, if $\nabla^2=0$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Local system from a flat connection)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;If $(\mathcal E,\nabla)$ is a holomorphic vector bundle with flat connection, then&lt;/p&gt;
+&lt;h1 id=&#34;mathcal-enabla0u&#34;&gt;$$
+\mathcal E^{\nabla=0}(U)&lt;/h1&gt;
+&lt;p&gt;{s\in \mathcal E(U):\nabla s=0}
+$$&lt;/p&gt;
+&lt;p&gt;defines a complex local system on $X$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Conversely, a complex local system $\mathcal L$ gives a flat vector bundle&lt;/p&gt;
+$$
+\mathcal E=\mathcal L\otimes_{\mathbb C}\mathcal O_X
+$$&lt;p&gt;with the connection $1\otimes d$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Riemann-Hilbert, smooth form)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For a complex manifold $X$, taking horizontal sections gives an equivalence&lt;/p&gt;
+$$
+\left\{
+\begin{array}{c}
+\text{holomorphic vector bundles} \\
+\text{with flat connection}
+\end{array}
+\right\}
+\simeq
+\left\{
+\begin{array}{c}
+\text{complex local systems} \\
+\text{on } X
+\end{array}
+\right\}.
+$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;the-algebraic-riemann-hilbert-correspondence&#34;&gt;The Algebraic Riemann-Hilbert Correspondence&lt;/h2&gt;
+&lt;p&gt;For a smooth complex algebraic variety $X$, the algebraic statement has to remember singularities at infinity. If $j:X\hookrightarrow \overline X$ is a compactification, then algebraic flat connections on $X$ correspond to local systems on $X^{\mathrm{an}}$ only after imposing a regular singularity condition along $\overline X\setminus X$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Deligne)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $X$ be a smooth complex algebraic variety. The analytification functor induces an equivalence between algebraic vector bundles with integrable connection and regular singularities, and complex local systems on $X^{\mathrm{an}}$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A more robust version is formulated using $\mathcal D$-modules:&lt;/p&gt;
+$$
+\operatorname{DR}:
+D^b_{\mathrm{rh}}(\mathcal D_X)
+\longrightarrow
+D^b_c(X^{\mathrm{an}},\mathbb C),
+$$&lt;p&gt;where $D^b_{\mathrm{rh}}(\mathcal D_X)$ is the derived category of regular holonomic $\mathcal D_X$-modules and $D^b_c(X^{\mathrm{an}},\mathbb C)$ is the constructible derived category.&lt;/p&gt;
+&lt;div class=&#34;math-env style-remark&#34; 
+    
+     data-kind=&#34;caveat&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    This is the actual Riemann-Hilbert correspondence in its standard modern form. Local systems appear as the smooth, non-singular part of a broader correspondence involving constructible sheaves and regular holonomic $\mathcal D$-modules.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;lisse-sheaves&#34;&gt;Lisse Sheaves&lt;/h2&gt;
+&lt;p&gt;Let $X$ be a connected scheme, let $\ell$ be a prime invertible on $X$, and fix a geometric point $\overline{x}\to X$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A sheaf $\mathcal F$ of $\mathbb Z/\ell^n\mathbb Z$-modules on $X_{\mathrm{et}}$ is lisse if it is locally constant and constructible for the etale topology.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For coefficients in $\mathbb Z_{\ell}$, $\mathbb Q_{\ell}$, or $\overline{\mathbb Q}_{\ell}$, one usually packages compatible systems of torsion sheaves and then inverts $\ell$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A lisse $\mathbb Q_{\ell}$-sheaf is a $\mathbb Q_{\ell}$-local system on the etale site. Equivalently, it is a finite-dimensional $\mathbb Q_{\ell}$-vector space varying locally constantly in the etale topology.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;etale-monodromy&#34;&gt;Etale Monodromy&lt;/h2&gt;
+&lt;p&gt;The etale fundamental group $\pi_1^{\mathrm{et}}(X,\overline{x})$ classifies finite etale covers of $X$. A lisse sheaf has monodromy around such covers.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;There is an equivalence of categories&lt;/p&gt;
+$$
+\left\{
+\begin{array}{c}
+\text{lisse } \mathbb Q_{\ell}\text{-sheaves} \\
+\text{on } X
+\end{array}
+\right\}
+\simeq
+\left\{
+\begin{array}{c}
+\text{continuous finite-dimensional} \\
+\mathbb Q_{\ell}\text{-representations of }
+\pi_1^{\mathrm{et}}(X,\overline{x})
+\end{array}
+\right\}.
+$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here continuity matters: $\pi_1^{\mathrm{et}}(X,\overline{x})$ is profinite, while $\operatorname{GL}(V)$ is given its $\ell$-adic topology.&lt;/p&gt;
+&lt;h2 id=&#34;comparison-with-the-classical-picture&#34;&gt;Comparison With the Classical Picture&lt;/h2&gt;
+&lt;p&gt;When $X$ is a complex algebraic variety, there is a comparison between finite etale covers of $X$ and finite topological covers of $X^{\mathrm{an}}$. In particular,&lt;/p&gt;
+$$
+\pi_1^{\mathrm{et}}(X,\overline{x})
+\cong
+\widehat{\pi_1(X^{\mathrm{an}},x)}
+$$&lt;p&gt;under suitable connectedness and local noetherian hypotheses, where the right-hand side is the profinite completion.&lt;/p&gt;
+&lt;p&gt;This explains the analogy:&lt;/p&gt;
+$$
+\begin{array}{ccc}
+\text{complex local systems} &amp; \longleftrightarrow &amp;
+\pi_1(X^{\mathrm{an}},x)\text{-representations} \\
+\text{lisse } \ell\text{-adic sheaves} &amp; \longleftrightarrow &amp;
+\pi_1^{\mathrm{et}}(X,\overline{x})\text{-representations}.
+\end{array}
+$$&lt;p&gt;But the $\ell$-adic side is not a literal Riemann-Hilbert correspondence: there is no sheaf of differential operators on $X$ whose regular holonomic modules are simply lisse $\ell$-adic sheaves. The arithmetic replacement for differential equations is often the study of Galois and etale monodromy representations.&lt;/p&gt;
+&lt;h2 id=&#34;examples-to-add&#34;&gt;Examples To Add&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Constant sheaf)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The constant sheaf $\mathbb Q_{\ell}$ corresponds to the trivial representation of $\pi_1^{\mathrm{et}}(X,\overline{x})$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Kummer sheaves)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;On $\mathbb G_m$, Kummer covers&lt;/p&gt;
+$$
+t\longmapsto t^n
+$$&lt;p&gt;produce rank-one lisse sheaves whose monodromy is controlled by roots of unity.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Tate module of an abelian scheme)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;If $f:A\to S$ is an abelian scheme, then&lt;/p&gt;
+$$
+T_{\ell}(A)=\varprojlim_n A[\ell^n]
+$$&lt;p&gt;gives a lisse $\mathbb Z_{\ell}$-sheaf on $S$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-roadmap&#34;&gt;Possible Roadmap&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;State the topological classification of local systems by monodromy.&lt;/li&gt;
+&lt;li&gt;Explain horizontal sections of flat connections.&lt;/li&gt;
+&lt;li&gt;State the Riemann-Hilbert correspondence first for flat bundles, then for regular holonomic $\mathcal D$-modules.&lt;/li&gt;
+&lt;li&gt;Define lisse torsion sheaves and lisse $\ell$-adic sheaves.&lt;/li&gt;
+&lt;li&gt;Classify lisse $\ell$-adic sheaves by continuous representations of $\pi_1^{\mathrm{et}}$.&lt;/li&gt;
+&lt;li&gt;Compare $\pi_1^{\mathrm{et}}(X)$ with the profinite completion of $\pi_1(X^{\mathrm{an}})$ over $\mathbb C$.&lt;/li&gt;
+&lt;li&gt;End with the warning that the analogy is about monodromy, not about differential equations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>AI and the Game of Go</title>
+      <link>http://localhost:1313/posts/ai-and-the-game-of-go/</link>
+      <pubDate>Sun, 07 Jun 2026 17:38:48 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/ai-and-the-game-of-go/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Edward Lasker&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember it was huge news in China. Now it seems much easier to make DIY Go AIs. Recently, I’ve decided to train my own Go AI as a side project. Unrelated to this, but something I have been thinking about is neurosymbolic machine learning and I wonder if Go would be a good testing ground for these ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
       <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
@@ -1623,8 +2021,8 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Fen25&#34; data-bib-key=&#34;Fen25&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Fen25]&lt;/span&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/li&gt;
+  &lt;li id=&#34;bib-Fen25a&#34; data-bib-key=&#34;Fen25a&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Fen25a]&lt;/span&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -5508,6 +5906,9 @@ Math Rock以节奏复杂古怪著称。
 &lt;h2 id=&#34;books-i-recommend-non-fiction&#34;&gt;Books I Recommend (Non-Fiction)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Duncan Pritchard, &lt;em&gt;What is this Thing Called Knowledge?&lt;/em&gt; (2006)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books-i-recommend-mathematics&#34;&gt;Books I Recommend (Mathematics)&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Paul Lockhart, &lt;em&gt;A Mathematician&#39;s Lament&lt;/em&gt; (2009)&lt;/li&gt;
 &lt;li&gt;George Lakoff, &lt;em&gt;Where Mathematics Come From&lt;/em&gt; (2000)&lt;/li&gt;
 &lt;li&gt;Edward Frenkel, &lt;em&gt;Love and Math: The Heart of Hidden Reality&lt;/em&gt; (2013)&lt;/li&gt;
@@ -5521,7 +5922,7 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;Paul Benacerraf, Hilary Putnam, &lt;em&gt;Philosophy of Mathematics: Selected Readings&lt;/em&gt; (1984)&lt;/li&gt;
 &lt;li&gt;Reuben Hersh, &lt;em&gt;18 Unconventional Essays on the Nature of Mathematics&lt;/em&gt; (2006)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;books-i-recommend-recreational-mathematics&#34;&gt;Books I Recommend (Recreational Mathematics)&lt;/h2&gt;
+&lt;h2 id=&#34;books-i-recommend-mathematical-puzzle-books&#34;&gt;Books I Recommend (Mathematical Puzzle Books)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Martin Aigner, Günter M. Ziegler, &lt;em&gt;Proofs from THE BOOK&lt;/em&gt; (1998)&lt;/li&gt;
 &lt;li&gt;Dmitry Fuchs, Serge Tabachnikov, &lt;em&gt;Mathematical Omnibus&lt;/em&gt; (2007)&lt;/li&gt;
@@ -5618,8 +6019,7 @@ Math Rock以节奏复杂古怪著称。
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/music/</guid>
-      <description>&lt;p&gt;I love music, especially jazz. Here are some of my favorite artists.&lt;/p&gt;
-&lt;h2 id=&#34;jazz&#34;&gt;Jazz&lt;/h2&gt;
+      <description>&lt;p&gt;Here are some of my favorite Jazz artists.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave Brubeck&lt;/li&gt;
 &lt;li&gt;Miles Davis&lt;/li&gt;
@@ -5629,6 +6029,8 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;Hiromi&lt;/li&gt;
 &lt;li&gt;Yoko Kanno&lt;/li&gt;
 &lt;li&gt;Cory Wong&lt;/li&gt;
+&lt;li&gt;Roberto Fonseca&lt;/li&gt;
+&lt;li&gt;Ezra Collective&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -5639,8 +6041,7 @@ Math Rock以节奏复杂古怪著称。
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/video-games/</guid>
-      <description>&lt;p&gt;I like playing video games, especially single player action or story-driven games.&lt;/p&gt;
-&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Undertale&lt;/em&gt; (2015)&lt;/li&gt;

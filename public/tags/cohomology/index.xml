@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cohomology on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/cohomology/</link>
+    <link>https://yunhaimath.com/tags/cohomology/</link>
     <description>Recent content in Cohomology on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/cohomology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/cohomology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
+      <link>https://yunhaimath.com/posts/algebraic-de-rham-cohomology/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/algebraic-de-rham-cohomology/</guid>
+      <guid>https://yunhaimath.com/posts/algebraic-de-rham-cohomology/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.

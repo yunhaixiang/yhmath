@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Expositions on Yunhai Xiang</title>
-    <link>http://localhost:1313/categories/expositions/</link>
+    <link>https://yunhaimath.com/categories/expositions/</link>
     <description>Recent content in Expositions on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
+      <link>https://yunhaimath.com/posts/algebraic-de-rham-cohomology/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/algebraic-de-rham-cohomology/</guid>
+      <guid>https://yunhaimath.com/posts/algebraic-de-rham-cohomology/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -179,10 +179,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</link>
+      <link>https://yunhaimath.com/posts/the-disproof-of-unit-distance-conjecture/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</guid>
+      <guid>https://yunhaimath.com/posts/the-disproof-of-unit-distance-conjecture/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -265,10 +265,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
+      <link>https://yunhaimath.com/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</guid>
+      <guid>https://yunhaimath.com/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -789,10 +789,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Brauer Group III</title>
-      <link>http://localhost:1313/posts/brauer-group-iii/</link>
+      <link>https://yunhaimath.com/posts/brauer-group-iii/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer-group-iii/</guid>
+      <guid>https://yunhaimath.com/posts/brauer-group-iii/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -892,10 +892,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>http://localhost:1313/posts/fib-form/</link>
+      <link>https://yunhaimath.com/posts/fib-form/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/fib-form/</guid>
+      <guid>https://yunhaimath.com/posts/fib-form/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -1415,10 +1415,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>http://localhost:1313/posts/ai-for-math/</link>
+      <link>https://yunhaimath.com/posts/ai-for-math/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ai-for-math/</guid>
+      <guid>https://yunhaimath.com/posts/ai-for-math/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.
@@ -1517,10 +1517,10 @@ where $\eta$ is called the learning rate, which controls how much we update the 
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:1313/posts/leray-serre-hochschild-ss/</link>
+      <link>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/leray-serre-hochschild-ss/</guid>
+      <guid>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -1681,10 +1681,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Expander Graphs</title>
-      <link>http://localhost:1313/posts/expander-graphs/</link>
+      <link>https://yunhaimath.com/posts/expander-graphs/</link>
       <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/expander-graphs/</guid>
+      <guid>https://yunhaimath.com/posts/expander-graphs/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
@@ -1752,15 +1752,15 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:1313/posts/brauer2/</link>
+      <link>https://yunhaimath.com/posts/brauer2/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer2/</guid>
+      <guid>https://yunhaimath.com/posts/brauer2/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;https://yunhaimath.com/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -2237,10 +2237,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/brauer1/</link>
+      <link>https://yunhaimath.com/posts/brauer1/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <guid>https://yunhaimath.com/posts/brauer1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -2750,10 +2750,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:1313/posts/fppf-site/</link>
+      <link>https://yunhaimath.com/posts/fppf-site/</link>
       <pubDate>Thu, 11 Dec 2025 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fppf-site/</guid>
+      <guid>https://yunhaimath.com/posts/fppf-site/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -2986,10 +2986,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:1313/posts/triangulated-cat/</link>
+      <link>https://yunhaimath.com/posts/triangulated-cat/</link>
       <pubDate>Wed, 10 Dec 2025 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/triangulated-cat/</guid>
+      <guid>https://yunhaimath.com/posts/triangulated-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -3170,10 +3170,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:1313/posts/derived-cat/</link>
+      <link>https://yunhaimath.com/posts/derived-cat/</link>
       <pubDate>Tue, 09 Dec 2025 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/derived-cat/</guid>
+      <guid>https://yunhaimath.com/posts/derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -3388,10 +3388,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:1313/posts/abelian-cat-and-derived-cat/</link>
+      <link>https://yunhaimath.com/posts/abelian-cat-and-derived-cat/</link>
       <pubDate>Mon, 08 Dec 2025 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/abelian-cat-and-derived-cat/</guid>
+      <guid>https://yunhaimath.com/posts/abelian-cat-and-derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
@@ -3801,10 +3801,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>What is This Thing Called Knowledge?</title>
-      <link>http://localhost:1313/posts/knowledge/</link>
+      <link>https://yunhaimath.com/posts/knowledge/</link>
       <pubDate>Sun, 07 Dec 2025 18:36:05 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/knowledge/</guid>
+      <guid>https://yunhaimath.com/posts/knowledge/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Epistemology without contact with science becomes an empty scheme. Science without epistemology is -- insofar as it is thinkable at all -- primitive and muddled.
@@ -3847,10 +3847,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:1313/posts/gw-ring/</link>
+      <link>https://yunhaimath.com/posts/gw-ring/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/gw-ring/</guid>
+      <guid>https://yunhaimath.com/posts/gw-ring/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -3937,10 +3937,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:1313/posts/sym-poly/</link>
+      <link>https://yunhaimath.com/posts/sym-poly/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/sym-poly/</guid>
+      <guid>https://yunhaimath.com/posts/sym-poly/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
@@ -4003,10 +4003,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
+      <link>https://yunhaimath.com/posts/gro-top-and-topoi/</link>
       <pubDate>Thu, 04 Dec 2025 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
+      <guid>https://yunhaimath.com/posts/gro-top-and-topoi/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -4170,10 +4170,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:1313/posts/van-kampen/</link>
+      <link>https://yunhaimath.com/posts/van-kampen/</link>
       <pubDate>Wed, 03 Dec 2025 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/van-kampen/</guid>
+      <guid>https://yunhaimath.com/posts/van-kampen/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
@@ -4257,10 +4257,10 @@ $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
+      <link>https://yunhaimath.com/posts/bundles-and-divisors/</link>
       <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
+      <guid>https://yunhaimath.com/posts/bundles-and-divisors/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -4317,10 +4317,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>http://localhost:1313/posts/uniformization/</link>
+      <link>https://yunhaimath.com/posts/uniformization/</link>
       <pubDate>Mon, 01 Dec 2025 00:10:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/uniformization/</guid>
+      <guid>https://yunhaimath.com/posts/uniformization/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
@@ -4404,10 +4404,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>Simplicial Sets and Infinity-Categories</title>
-      <link>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</link>
+      <link>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:01 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</guid>
+      <guid>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
@@ -4503,10 +4503,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>Learning French Part I</title>
-      <link>http://localhost:1313/posts/french1/</link>
+      <link>https://yunhaimath.com/posts/french1/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/french1/</guid>
+      <guid>https://yunhaimath.com/posts/french1/</guid>
       <description>&lt;p&gt;I&#39;m learning french. Here&#39;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
 &lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
 &lt;ul&gt;
@@ -4980,10 +4980,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/markdown-test/</link>
+      <link>https://yunhaimath.com/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown-test/</guid>
+      <guid>https://yunhaimath.com/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;

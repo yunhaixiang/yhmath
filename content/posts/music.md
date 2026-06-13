@@ -6,10 +6,7 @@ tags: [music]
 categories: [archives]
 ---
 
-I love music, especially jazz. Here are some of my favorite artists.
-
-## Jazz
-
+Here are some of my favorite Jazz artists.
 
 - Dave Brubeck
 - Miles Davis
@@ -19,3 +16,5 @@ I love music, especially jazz. Here are some of my favorite artists.
 - Hiromi
 - Yoko Kanno
 - Cory Wong
+- Roberto Fonseca
+- Ezra Collective
