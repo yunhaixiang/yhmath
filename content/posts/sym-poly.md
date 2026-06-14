@@ -2,7 +2,7 @@
 title: Symmetric Polynomials
 categories: ["expositions"]
 tags: ["combinatorics", "algebra", "math"]
-date: 2025-12-05
+date: 2024-12-18 10:06:03
 ---
 
 {{< pullquote author="Alexander Grothendieck">}}

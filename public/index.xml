@@ -3436,637 +3436,6 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     </item>
     
     <item>
-      <title>Derived Category</title>
-      <link>http://localhost:1313/posts/derived-cat/</link>
-      <pubDate>Tue, 09 Dec 2025 20:06:49 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/derived-cat/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— David Mumford&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2023. Continuing last week, we are finally going to define the derived category $D(\mathcal A)$ for an abelian category $\mathcal A$. Before we actually do that, we need to introduce localization of categories, and we will define the derived category in terms of a localization of the homotopy category of complexes. Localization of categories is very analogous to localization of rings or modules. Given any category (with no assumption of abelian, additive, triangulated, etc), we formally invert a class of morphisms. We will give one definition in terms of a localization construction and show that it is unsatisfactory in that it does not have a lot of useful and desirable properties. We will then develop a better description of derived categories in terms of roofs.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Let $\mathcal A$ be a category and $S$ a class of morphisms of it, then define its localization as a category $\mathcal A[S^{-1}]$ and a functor $Q:\mathcal A\rightarrow A[S^{-1}]$ s.t. $Q(s)$ is an isomorphism for all $s\in S$ and $Q$ is universal w.r.t. this property, i.e. if the functor $F:\mathcal A\rightarrow\mathcal B$ is such that $F(s)$ is an isomorphism for each $s$, then there exists a unique functor $G:\mathcal A[S^{-1}]\rightarrow\mathcal B$ s.t. $F=G\circ Q$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The way we obtain a construction that satisfies this universal property is quite convoluted. We define it this way. Let $\mathcal A[S^{-1}]$ have the same objects as $\mathcal A$. For each $X,Y\in\mathcal A[S^{-1}]$, let a directed edge between them be a morphism $f\in\mathrm{Hom}(X,Y)$ or if $s\in S\cap \mathrm{Hom}(X,Y)$, an edge in the opposite direction $s:Y\rightarrow X$. A path between two objects $M,N\in A[S^{-1}]$ is a sequence of directed edges $M=L_0, L_1,\dots,L_n=N$, where the direction does not need to be the same. We define $\mathrm{Hom}(M,N)$ as the equivalence class of paths where two paths are equivalent if they can be transformed to each other via a sequence of the following transformations.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;for $X\xrightarrow{f}Y\xrightarrow{g}Z$, replace with $X\xrightarrow{gf}Z$,&lt;/li&gt;
-&lt;li&gt;for $X\xrightarrow{s} Y\xleftarrow{s}X$ where $s\in S$, replace with $X\xrightarrow{\mathbf{1}_X} X$,&lt;/li&gt;
-&lt;li&gt;for $Y\xleftarrow{s} X\xrightarrow{s}Y$ where $s\in S$, replace with $Y\xrightarrow{\mathbf{1}_Y} Y$,&lt;/li&gt;
-&lt;li&gt;for $X\xrightarrow{\mathbf{1}_X}X\xleftarrow{s} Y$, replace with $X\xleftarrow{s}Y$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Long story short, this is a well defined equivalence relation, so it forms a category where composition is concatonation. For the localization functor $Q:\mathcal A\rightarrow \mathcal A[S^{-1}]$, it sends objects to themselves, and morphisms to the equivalence class with the path being the single morphism. Here we should give extra care that the arrows can some times mean directed edges, and is $Y\leftarrow X$ can mean a path from $Y$ to $X$, only with the directed edge in the opposite direction. We can verify that this indeed satisfies the universal property of localization. We may also check that by this localization construciton, one can write morphisms in the form &lt;/p&gt;
-$$\left(Q\left(f_1\right) \circ Q\left(s_1\right)^{-1}\right) \circ \cdots \circ\left(Q\left(f_n\right) \circ Q\left(s_n\right)^{-1}\right)$$&lt;p&gt;
-where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\mathcal A$ is a class of morphisms such that&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;all identity morphisms are in $S$.&lt;/li&gt;
-&lt;li&gt;if two morphisms in $S$ compose, then their composition in in $S$.&lt;/li&gt;
-&lt;li&gt;for any $f:M\rightarrow N$ and $s:L\rightarrow N$ with $s\in S$, exists $g:K\rightarrow L$ and $t:K\rightarrow M$ with $t\in S$ s.t.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwxLCJNIl0sWzAsMCwiSyJdLFsxLDAsIkwiXSxbMSwxLCJOIl0sWzEsMCwidCIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDMsImYiLDJdLFsyLDMsInMiXSxbMSwyLCJnIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 180px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;commutes.
-4. for any $f:N\rightarrow M$ and $s:N\rightarrow L$ with $s\in S$, exists $g:L\rightarrow K$ and $t:M\rightarrow K$ with $t\in S$ s.t.&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwxLCJNIl0sWzAsMCwiSyJdLFsxLDAsIkwiXSxbMSwxLCJOIl0sWzAsMSwidCIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFszLDAsImYiXSxbMywyLCJzIiwyXSxbMiwxLCJnIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 180px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;commutes.
-5. for any morphisms $f,g:M\rightarrow N$, we have $\exists s\in S, sf=sg \Longleftrightarrow \exists t\in S, ft=gt$&lt;/p&gt;
-&lt;p&gt;This is the categorification of the notion of denominator set when localizing non-commutative rings, see &lt;a href=&#34;https://en.wikipedia.org/wiki/Ore_condition&#34;&gt;Ore condition&lt;/a&gt;. In fact a ring can be viewed as an additive category (by delooping). The localizing classes are classes of &amp;quot;nice&amp;quot; morphisms to localize at for which we could develop a description of roofs.&lt;/p&gt;
-&lt;p&gt;For a category $\mathcal A$ and a localizing class $S$. A morphism $Q(f)\circ Q(s)^{-1}$ in $\mathcal A[S^{-1}]$ is represented by a left roof, which is a diagram $M\xleftarrow{s}L\xrightarrow{f}N$, and a morphism $Q(t)^{-1}\circ Q(g)$ with $t\in S$ is represented by a right roof which is a diagram $M\xrightarrow{g}L\xleftarrow{t}N$. We say that the two left roofs $M\xleftarrow{s}L\xrightarrow{f}N$ and $M\xleftarrow{t}K\xrightarrow{g}N$ are equivalent if there exists $p:H\rightarrow L$ and $q:H\rightarrow K$ such that $sp,tq\in S$ and the diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNSxbMiwwLCJIIl0sWzEsMSwiTCJdLFszLDEsIksiXSxbMCwyLCJNIl0sWzQsMiwiTiJdLFswLDEsInAiLDJdLFswLDIsInEiXSxbMSwzLCJzIiwyXSxbMiw0LCJnIl0sWzIsMywidCJdLFsxLDQsImYiLDJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 350px;
-      height: 250px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;commutes. We can show that this is an equivalence relation. The only difficult part is transitivity. This can be done using a diagram chasing argument. We can also define composition of roofs. The composition of the previous two roofs is defined as a composition of the diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNixbMiwwLCJVIl0sWzEsMSwiTCJdLFszLDEsIksiXSxbMCwyLCJNIl0sWzIsMiwiTiJdLFs0LDIsIlAiXSxbMCwxLCJsIiwyXSxbMCwyLCJrIl0sWzEsMywicyIsMl0sWzEsNCwiZiJdLFsyLDQsInQiLDJdLFsyLDUsImciXV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 350px;
-      height: 250px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;where $U$ and the associated maps are induced from the fact that $S$ is a localizing class. We could check that these satisfies all the desirable properties of a composition. Composition respects equivalence of roofs, is associative, and has an identity given by $M\xleftarrow{\mathbf{1}_M} M\xrightarrow{\mathbf{1}_M} M$. One can check that the category of (equivalence classes of) left roofs $\mathcal A_S$ is equivalent to right roofs, so we might as well just work with left roofs. We define a functor $Q:\mathcal A\rightarrow \mathcal A_S$ by letting it be identity on objects and for each morphism $f:M\rightarrow N$, let $Q(f)$ be the equivalence class of roofs $M\xleftarrow{\mathbf 1_M}M\xrightarrow{f} N$. This satisfies the universal property of localization, hence isomorphic to $\mathcal A[S^{-1}]$.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    For $S$ a localizing class of category $\mathcal A$, the category $\mathcal A_S$ and functor $Q:\mathcal A\rightarrow \mathcal A_S$ satisfies the universal property of localization, i.e. $Q(s)$ is an isomorphism for each $s\in S$ and is universal w.r.t. it.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    For the first property, $M\xleftarrow{\mathbf{1}_M}M\xrightarrow{s}N$ has an inverse $N\xleftarrow{s}M\xrightarrow{\mathbf{1}_M}M$. Next, suppose $F:\mathcal A\rightarrow \mathcal B$ is such that $F(s)$ is an isomorphism for all $s\in S$, define functor $G:\mathcal A_S\rightarrow \mathcal B$ as identity on objects, and for morphisms, the following. If $\phi:M\rightarrow N$ in $\mathcal A_S$, choose a representing roof $M\xleftarrow{s}L\xrightarrow{f}N$, and define $G(\phi)=F(f)\circ F(s)^{-1}$. It&#39;s not immediately obvious that this is well defined on equivalence classes, but we omit the verification. This obviously satisfies $F=G\circ Q$. It is left to the reader to verify that $G$ respects composition, which is the last piece of verification necessary.
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;If $\mathcal A$ is an additive category, then localizing it would also have an additive structure. In fact if $\mathcal A$ is additive, we may restate the last axiom of localizing class as: for $f:M\rightarrow N$ exists $\exists s\in S, sf=0\Longleftrightarrow \exists t\in S, tf=0$. And the inherited additive structure is the obvious one. It is not trivial to check that it is well defined, but again we ommit the verification. Again everything works out as we expected, biproducts, zero objects are preserved, and localization functor is additive. We can also check that $f=0$ in the localization iff exists $t\in S$ with $tf=0$ iff exists $t\in S$ with $ft=0$, and $M=\mathbf 0$ in the localization iff exists $N\in\mathcal A$ with $(N\xrightarrow{0}M)\in S$ iff exists $N\in\mathcal A$ with $(M\xrightarrow{0}N)\in S$. These are easy to prove and left as an exercise. Similarly, one can show the localization of abelian categories is abelian.&lt;/p&gt;
-&lt;p&gt;Given a triangulated category, a natural question to ask is: when is a localization of it also triangulated? In other words, when is the localizing class compatible with triangulation? For a localizing class $S$ in the triangulated category $\mathcal C$, the localization is compatible with triangulation if the following conditions hold&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;for each morphism $f$, we have $f\in S$ iff $f[1]$ in $S$.&lt;/li&gt;
-&lt;li&gt;a diagram with $s,t\in S$ and distinguished rows&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsNCwicyJdLFsxLDUsInQiXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywic1sxXSJdLFswLDFdLFsxLDJdLFsyLDNdLFs0LDVdLFs1LDZdLFs2LDddXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;can be completed to a morphism of distinguished triangles.&lt;/p&gt;
-&lt;p&gt;We can show that if these conditions hold then the localization $\mathcal C[S^{-1}]$ inherits the triangulated structure $QT_{\mathcal C}$, and a triangle is distinguished if it is isomorphic to an image of a distinguished triangle. One can show that a cohomological functor on $\mathcal C$ induces a corresponding cohomological functor on $\mathcal C[S^{-1}]$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    The derived category $D(\mathcal A)$ of an abelian categroy $\mathcal A$ is the localization $K(\mathcal A)[S^{-1}]$ where $S$ is the class of quasi-isomorphisms. Let $D^{+}(\mathcal A),D^{-}(\mathcal A),D^{b}(\mathcal A)$ be the full subcategory of $D(\mathcal A)$ to the bounded below, bounded above, and bounded complexes.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It is an arduous process to verify that the class of quasi-isomorphisms is a localizing class compatible with triangulation, which the readers can do in their own time.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    For an abelian category $\mathcal A$, the functor $\mathcal A\rightarrow D(\mathcal A)$ by $X\mapsto X$ is fully faithful.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    I will prove this later.
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:1313/posts/abelian-cat-and-derived-cat/</link>
-      <pubDate>Mon, 08 Dec 2025 15:28:14 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/abelian-cat-and-derived-cat/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Stefan Banach&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post reposted from 2023. I have always been curious about derived categories. I want this post to be the first part in several parts of my notes. In this first part, we will focus on abelian categoires, derived functors, and homotopy category of complexes. We begin by reviewing abelian categories and their properties. In particular, the (co)chain complexes in an abelian category and their related notions. After that, we define derived functors. Eventually, we finish by defining the homotopy category of complexes $K(\mathcal A)$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;An &lt;em&gt;additive category&lt;/em&gt; $\mathcal C$ is a category where for each $A,B\in\mathcal C$, the morphisms $\mathrm{Mor}(A,B)$ carry an additional additive abelian group structure, and satisfies&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$\mathcal C$ admits zero object,&lt;/li&gt;
-&lt;li&gt;$\mathcal C$ admits finite products and finite coproducts which coincide, and&lt;/li&gt;
-&lt;li&gt;addition is distributive, i.e. $g\circ (f_1+f_2)=g\circ f_1+g\circ f_2$ and $(f_1+f_2)\circ g=f_1\circ g+ f_2\circ g$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;We use the notation $\mathrm{Hom}(A,B)$ for $\mathrm{Mor}(A,B)$ in additive categories to emphasize that the morphisms have an abelian group structure. An &lt;em&gt;additive functor&lt;/em&gt; $\mathcal F:\mathcal C\rightarrow\mathcal D$ between additive categories is a functor such that the associated map $\mathrm{Hom}(A,B)\rightarrow \mathrm{Hom}(\mathcal F(A),\mathcal F(B))$ is a group homomorphism for each $A,B\in\mathcal C$. Moreover, we denote by $0_{A,B}$ (or $0$ if there is no confusion) the identity element of $\mathrm{Hom}(A,B)$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Note $0_{A,B}$ is the zero morphism since it&#39;s the unique morphism $A\rightarrow B$ which factors through $\mathbf 0$, i.e. $A\rightarrow\mathbf 0\rightarrow B$.  In particular, note that $0_{A,B}\circ f=0_{X,A}$ and $g\circ 0_{A,B}=0_{B,X}$ for any $f:X\rightarrow A$ and $g:B\rightarrow X$, for any object $X$. We note that equivalently, an additive functor maybe defined as a functor that preserves all finite biproducts.&lt;/p&gt;
-&lt;p&gt;We recall that in a category $\mathcal C$, the equalizer $\mathrm{Eq}(f,g)$ of morphisms $f,g:A\rightarrow B$ is an object $E\in\mathcal C$ and a morphism $e:E\rightarrow A$ s.t. the diagram $E\rightarrow A\rightrightarrows B$ commutes and is universal with respect to this construction. Dually, the coequalizer $\mathrm{Coeq}(f,g)$ is an object $Q\in\mathcal C$ and a morphism $q:B\rightarrow Q$ s.t. the diagram $ A\rightrightarrows B\rightarrow Q$ commutes and is universal with respect to this construction. In an additive category, for a morphism $f:A\rightarrow B$, define its kernel $\mathrm{Ker}(f)=\mathrm{Eq}(f,0_{A,B})$, cokernel $\mathrm{Coker}(f)=\mathrm{Coeq}(f,0_{A,B})$. Spelled out explicitly, a kernel of $f:A\rightarrow B$ is an object $K$ and a morphism $k:K\rightarrow A$ such that $f\circ k=0_{K,B}$, and given any $K^\prime$ and $k^\prime:K^\prime\rightarrow A$ with $f\circ k^\prime=0_{K^\prime,B}$, there exists unique $u:K^\prime\rightarrow K$ s.t. $k\circ u=k^\prime$.
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMSwwLCJBIl0sWzIsMCwiQiJdLFswLDAsIksiXSxbMCwxLCJLXlxccHJpbWUiXSxbMCwxLCJmIl0sWzIsMCwiayJdLFsyLDEsIjBfe0ssQn0iLDAseyJjdXJ2ZSI6LTN9XSxbMywwLCJrXlxccHJpbWUiLDIseyJsYWJlbF9wb3NpdGlvbiI6NjB9XSxbMywxLCIwX3tLXlxccHJpbWUsQn0iLDIseyJjdXJ2ZSI6Mn1dLFszLDIsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 100%;
-      height: 190px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Dually, a cokernel of $f:A\rightarrow B$ is an object $Q$ with a morphism $q:B\rightarrow Q$ with $q\circ f=0_{A,Q}$, such that for any object $Q^\prime$ and morphism $q^\prime:B\rightarrow Q$ with $q^\prime\circ f=0_{A,Q^\prime}$, there exists unique $u:Q\rightarrow Q^\prime$ such that $q^\prime=u\circ q$.
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQiJdLFsyLDAsIlEiXSxbMiwxLCJRXlxccHJpbWUiXSxbMCwxLCJmIl0sWzEsMiwicSJdLFsxLDMsInFeXFxwcmltZSIsMl0sWzIsMywidSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDIsIjBfe0EsUX0iLDAseyJjdXJ2ZSI6LTN9XSxbMCwzLCIwX3tBLFFeXFxwcmltZX0iLDIseyJjdXJ2ZSI6Mn1dXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 100%;
-      height: 190px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Recall a subobject of an object $X$ is an object $A$ with a monomorphism $A\hookrightarrow X$, and a quotient object of $X$ is an object $Q$ with an epimorphism $X\twoheadrightarrow Q$. We remark that $\mathrm{Ker}(f)$ is a subobject of $A$ and $\mathrm{Coker}(f)$ is a quotient object of $B$, when they exist (it is an easy exercise to show equalizers are monic and coequalizers are epic).&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;An &lt;em&gt;abelian category&lt;/em&gt; is an additive category where&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;every morphism has a kernel and a cokernel,&lt;/li&gt;
-&lt;li&gt;every monomorphism is the kernel of its cokernel, and&lt;/li&gt;
-&lt;li&gt;every epimorphism is the cokernel of its kernel.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Moreover, in an abelian category, for any morphism $f:A\rightarrow B$, we define its image as the kernel of its cokernel $\mathrm{Im}(f)=\mathrm{Ker}(\mathrm{Coker}(f))$, and coimage as the cokernel of its kernel $\mathrm{Coim}(f)=\mathrm{Coker}(\mathrm{Ker}(f))$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A quintessential example of an abelian category is the category of $R$-modules. In fact, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem&#34;&gt;Freyd–Mitchell embedding theorem&lt;/a&gt; states that any abelian category can be embedded to the category of $R$-modules for some $R$ via a fully faithful functor. So we may use element-wise diagram chasing in abelian categories, which may help us derive diagram chasing theorems such as $5$-lemma and snake lemma. In an abelian category, all finite limits and colimits exist, in particular, pullbacks exist and they preserve monomorphisms and epimorphisms.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;In an abelian category,&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;a morphism $f:A\rightarrow B$ is monic iff $\mathrm{Ker}(f)=\mathbf 0$, and epic iff $\mathrm{Coker}(f)=\mathbf 0$,&lt;/li&gt;
-&lt;li&gt;a morphism $f:A\rightarrow B$ is an isomorphism iff it is monic and epic,&lt;/li&gt;
-&lt;li&gt;each morphism $f:X\rightarrow Y$ factorizes canonically as $X\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow Y$ and $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$&lt;/li&gt;
-&lt;li&gt;for a morphism $f:A\rightarrow B$, if it factorizes as $A\twoheadrightarrow X\rightarrow B$ then $\mathrm{Coker}(f)=\mathrm{Coker}(X\rightarrow B)$, and if it factorizes as $A\rightarrow X\hookrightarrow B$, then $\mathrm{Ker}(f)=\mathrm{Ker}(A\rightarrow X)$.&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;Left as an exercise.&lt;/li&gt;
-&lt;li&gt;Left as an exercise.&lt;/li&gt;
-&lt;li&gt;We will only prove the factorization $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$, and the other one can be proved dually. First, we have $\mathrm{Ker}(f)\hookrightarrow X\rightarrow Y$ is zero and $\mathrm{Ker}(f)\hookrightarrow X\twoheadrightarrow \mathrm{Coim}(f)$ is zero, so we have a factorization $X\twoheadrightarrow \mathrm{Coim}(f)\rightarrow Y$ by the universal property of cokernels. It remains to show that $\beta:\mathrm{Coim}(f)\rightarrow Y$ is a monomorphism. Suppose $\varphi_1,\varphi_2:Z\rightarrow \mathrm{Coim}(f)$ with $\beta\circ \varphi_1=\beta\circ \varphi_2$, therefore $\beta\circ \sigma=0$ where $\sigma=\varphi_1-\varphi_2$. Consider the pullback $W=X\times_{\mathrm{Coim}(f)}Z$ with $\tau:W\rightarrow Z$ and $\pi:W\rightarrow X$ of the maps $\mathrm{Coim}(f)$ and $\sigma$. We note that $f\circ\pi=\beta\circ\mathrm{Coim}(f)\circ \pi=\beta\circ\sigma\circ\tau=0$, so $\pi$ factors through $\mathrm{Ker}(f)$ by $W\rightarrow \mathrm{Ker}(f)\hookrightarrow X$ say $w:W\rightarrow \mathrm{Ker}(f)$. Therefore, $\sigma\circ\tau=\mathrm{Coim}(f)\circ \mathrm{Ker}(f)\circ w=0\circ w=0$. Since pullbacks preserve epimorphisms, $\tau$ is epic. Thus $\sigma\circ\tau=0$ implies $\sigma=0$, so $\varphi_1=\varphi_2$.&lt;/li&gt;
-&lt;li&gt;Left as an exercise.&lt;/li&gt;
-&lt;/ol&gt;
-
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;For a morphism $f:A\rightarrow B$ in an abelian category, we factor $f:A\rightarrow B$ canonically as $A\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow B$, and since $A\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow B\rightarrow \mathrm{Coker}(f)$ is zero and $A\twoheadrightarrow \mathrm{Coim}(f)$ is epic, $\mathrm{Coim}(f)\hookrightarrow B\rightarrow \mathrm{Coker}(f)$ is zero, so we can factor $\mathrm{Coim}(f)\hookrightarrow B$ as $\mathrm{Coim}(f)\rightarrow \mathrm{Im}(f)\hookrightarrow B$. We denote by $\overline{f}:\mathrm{Coim}(f)\rightarrow \mathrm{Im}(f)$ the map induced by this factorization, and say $f$ is &lt;em&gt;strict&lt;/em&gt; if $\overline{f}$ is an isomorphism.&lt;/p&gt;
-&lt;!-- --&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First isomorphism theorem)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    In an abelian category, all morphisms are strict.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    Suppose $f:A\rightarrow B$ is a morphism in an abelian category, and factorize as $A\twoheadrightarrow\mathrm{Coim}(f)\hookrightarrow B$. By Lemma 3, $\mathrm{Coker}(f)=\mathrm{Coker}(\mathrm{Coim}(f)\hookrightarrow B)$. Since $\mathrm{Coim}(f)\hookrightarrow B$ is monic, it is the kernel of its cokernel, so it is the kernel of $\mathrm{Coker}(f)$. Since $\mathrm{Im}(f)\hookrightarrow B$ in our construction is also the kernel of $\mathrm{Coker}(f)$, the induced map $\overline{f}$ is an isomorphism by the universal property of kernels.
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;In an abelian category, suppose $f:A\rightarrow B$ and $g:B\rightarrow C$ are such that $g\circ f=0$. We factor $A\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow B$, and since $A\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow B\rightarrow C$ is zero and $A\twoheadrightarrow\mathrm{Im}(f)$ is epic, we have $\mathrm{Im}(f)\hookrightarrow B\rightarrow C$ is zero. Thus, we can factor $\mathrm{Im}(f)\hookrightarrow B$ as $\mathrm{Im}(f)\rightarrow \mathrm{Ker}(g)\hookrightarrow B$, and the map $\mathrm{Im}(f)\rightarrow \mathrm{Ker}(g)$ is the &lt;em&gt;canonical map&lt;/em&gt;. We say such sequence $A\rightarrow B\rightarrow C$ is &lt;em&gt;exact&lt;/em&gt; if the canonical map is an isomorphism. More generally, a sequence $d_A^i:A^i\rightarrow A^{i+1}$
-&lt;/p&gt;
-$$\cdots\longrightarrow A^{i-1}\xrightarrow{\ d^{i-1}_A\ } A^i\xrightarrow{\ \ d^{i}_A\ \ }  A^{i+1}\longrightarrow\cdots$$&lt;p&gt;
-is called a &lt;em&gt;(co)chain complex&lt;/em&gt; if each three term subsequence compose to zero, and exact or acyclic if each three term subsequence is exact. A &lt;em&gt;chain map&lt;/em&gt; $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a commutative diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzEsMCwiQV57aS0xfSJdLFsyLDAsIkFee2l9Il0sWzMsMCwiQV57aSsxfSJdLFs0LDAsIlxcY2RvdHMiXSxbMCwwLCJcXGNkb3RzIl0sWzAsMSwiXFxjZG90cyJdLFsxLDEsIkJee2ktMX0iXSxbMiwxLCJCXntpfSJdLFszLDEsIkJee2krMX0iXSxbNCwxLCJcXGNkb3RzIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsMF0sWzUsNl0sWzYsN10sWzcsOF0sWzgsOV0sWzAsNiwiZl57aS0xfSIsMl0sWzEsNywiZl57aX0iLDJdLFsyLDgsImZee2krMX0iLDJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 375px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;A chain homotopy is a collection of maps $h^i:A^i\rightarrow B^{i-1}$ s.t. $f^i-g^i=d^{i-1}_B\circ h^i+h^{i+1}\circ d^i_A$ for all $i$, illustrated by&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzAsMCwiXFxjZG90cyJdLFsxLDAsIkFee2ktMX0iXSxbMiwwLCJBXmkiXSxbMywwLCJBXntpKzF9Il0sWzQsMCwiXFxjZG90cyJdLFswLDEsIlxcY2RvdHMiXSxbMSwxLCJCXntpLTF9Il0sWzIsMSwiQl5pIl0sWzMsMSwiQl57aSsxfSJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxXSxbMSwyXSxbMiwzXSxbMyw0XSxbNSw2XSxbNiw3XSxbNyw4XSxbOCw5XSxbMSw2LCIiLDAseyJjdXJ2ZSI6MX1dLFsyLDcsIiIsMCx7ImN1cnZlIjoxfV0sWzMsOCwiIiwwLHsiY3VydmUiOjF9XSxbMiw2LCIiLDEseyJjb2xvdXIiOlswLDYwLDYwXX1dLFszLDcsIiIsMSx7ImNvbG91ciI6WzAsNjAsNjBdfV0sWzEsNiwiIiwwLHsiY3VydmUiOi0xfV0sWzIsNywiIiwwLHsiY3VydmUiOi0xfV0sWzMsOCwiIiwwLHsiY3VydmUiOi0xfV1d&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 375px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;which typically does NOT commute. We write $f^\bullet\simeq g^\bullet$ if they are &lt;em&gt;chain homotopic&lt;/em&gt;, and we say $A^\bullet$ and $B^\bullet$ are &lt;em&gt;chain homotopy equivalent&lt;/em&gt; if there are chain maps $f^\bullet:A\rightarrow B$ and $g^\bullet:B\rightarrow A$ s.t. $f^\bullet\circ g^\bullet \simeq \mathbf{1}_{B^\bullet}$ and $g^\bullet\circ f^\bullet \simeq \mathbf{1}_{A^\bullet}$, in which case $f^\bullet$ are $g^\bullet$ called &lt;em&gt;homotopy pseudo-inverses&lt;/em&gt;. If $A$ is a category, let $C(\mathcal A)$ be the category of chain complexes in $\mathcal A$ with chain maps are morphisms. If $\mathcal A$ is additive, then $C(\mathcal A)$ inherits an obvious group structure on its morphisms, and they make it an additive category as well. Also, if $\mathcal A$ is abelian then so is $C(\mathcal A)$. Let $C^+(\mathcal A)$ be the full subcategory of $C(\mathcal A)$ where the complexes are bounded below (exists $N\in\mathbb Z$ s.t. $A^i=\mathbb 0$ for $i &lt; N $), and similarly $C^-(\mathcal A)$ is the full subcategory $C(\mathcal A)$ where the complexes are bounded above. Let $C^b(\mathcal A)$ be the full subcategory of $C(\mathcal A)$ where the complexes are bounded below and above.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Let $A^\bullet$ be a cochain complex in $\mathcal A$ with canonical morphisms $\mathrm{Im}(d^{n-1})\rightarrow\mathrm{Ker}(d^{n})$, define
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-$$H^n(A^\bullet)=\mathrm{Coker}(\mathrm{Im}(d^{n-1})\rightarrow\mathrm{Ker}(d^{n}))$$&lt;p&gt;
-as the $n$-th cohomology object. In fact, for a chain map $f^\bullet: A^\bullet\rightarrow B^\bullet$, we associate an induced morphism $H^nf^\bullet:H^n(A^\bullet)\rightarrow H^n(B^\bullet)$, which makes $H^n$ an additive functor $C(\mathcal A)\rightarrow\mathcal A$. Moreover, $f^\bullet$ is said to be a &lt;em&gt;quasi-isomorphism&lt;/em&gt; if $H^nf^\bullet$ is an isomorphism for all $n\in\mathbb Z$.&lt;/p&gt;
-&lt;p&gt;Let $\mathcal A$ be an abelian category. The &lt;em&gt;translation functor&lt;/em&gt; $T:C(\mathcal A)\rightarrow C(\mathcal A)$ sends a complex $A^\bullet =(A^i,d^i)$ to the complex $T(A^\bullet) =(A^{i+1},-d^{i+1})$, and $T(f^\bullet):T(A^\bullet)\rightarrow T(B^\bullet)$ for $f^\bullet:A^\bullet\rightarrow B^\bullet$ is given by $T(f^\bullet)^i=f^{i+1}$. The functor essentially shifts the complex left by one, where the negative sign of the differential is a convention useful later. We denote by $A^\bullet[n]=T^n(A^\bullet)$ for $n\in\mathbb Z$ (negative integers correspond to right translations). The right truncation functor $\tau_{\le n}:C(\mathcal A)\rightarrow C^-(\mathcal A)$ sends a complex in the following way&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzIsMCwiQV5uIl0sWzIsMSwiXFxtYXRocm17S2VyfShkXntufSkiXSxbMSwwLCJBXntuLTF9Il0sWzMsMCwiQV57bisxfSJdLFsxLDEsIkFee24tMX0iXSxbMywxLCJcXG1hdGhiZnswfSJdLFs0LDAsIlxcY2RvdHMiXSxbMCwwLCJcXGNkb3RzIl0sWzAsMSwiXFxjZG90cyJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMF0sWzAsM10sWzQsMSwiIiwyLHsiY29sb3VyIjpbMCw2MCw2MF19XSxbMSw1XSxbMyw2XSxbNywyXSxbOCw0XSxbNSw5XV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 375px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;where the red arrow is induced via universal property. The functor $\tau_{\le n}:C(\mathcal A)\rightarrow \mathcal A$ sends the morphisms in the obvious way. Moreover, we have a canonical monomorphism $\tau_{\le n}(A^\bullet)\rightarrow A^\bullet$ which induces isomorphisms on their cohomology objects. The left truncation functor $\tau_{\ge n}:C(\mathcal A)\rightarrow C^+(\mathcal A)$ is defined dually.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Suppose $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a morphism in $C(\mathcal A)$ for some abelian category $\mathcal A$. The &lt;em&gt;cone&lt;/em&gt; of $f^\bullet$ is $\mathrm{Cone}(f^\bullet)=A^\bullet[1]\oplus B^\bullet$. Spelled out explicitly, the cochain complex consists of objects $A^{n+1}\oplus B^n$, and the differential $d^n:A^{n+1}\oplus B^n\rightarrow A^{n+2}\oplus B^{n+1}$ is given by
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-$$d^n=\begin{pmatrix}-d_{A^\bullet}^{n+1}&amp;0\\\ f^{n+1}&amp; d_{B^\bullet}^n\end{pmatrix}$$&lt;p&gt;
-acting as though on column vectors.&lt;/p&gt;
-&lt;p&gt;We remark that a short exact sequence of complexes induces a long exact sequence of cohomology. Say we have
-&lt;/p&gt;
-$$\mathbf 0\longrightarrow A^{\bullet}\xrightarrow{\ f^{\bullet}\ } B^\bullet\xrightarrow{\ g^\bullet\ }  C^\bullet\longrightarrow\mathbf 0$$&lt;p&gt;
-a short exact sequence of complexes, then for each $n$, exists $\delta^n:H^n(C^\bullet)\rightarrow H^{n+1}(A^\bullet)$ making
-&lt;/p&gt;
-$$\cdots\rightarrow H^n(A^\bullet)\rightarrow H^n(B^\bullet)\rightarrow H^n(C^\bullet)\xrightarrow{\delta^n} H^{n+1}(A^\bullet)\rightarrow H^{n+1}(B^\bullet)\rightarrow H^{n+1}(C^\bullet)\rightarrow\cdots$$&lt;p&gt;
-exact. This is a very common construction in homological algebra, and the way we construct these connecting morphisms is by applying the snake lemma twice. Suppose $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a chain map with cone $C^\bullet=\mathrm{Cone}(f^\bullet)$, then the map $\iota^{n}=0 \oplus \operatorname{Id}_{B^{n}}: B^{n} \rightarrow C^{n}$ and the canonical projection $\rho^n:C^n\rightarrow A^{n+1}$ gives chain maps $\iota^\bullet:B^\bullet\rightarrow C^\bullet$ and $\rho^\bullet:C^\bullet \rightarrow A^\bullet [1]$ which fits into a short exact sequence &lt;/p&gt;
-$$\mathbf 0\longrightarrow B^{\bullet}\xrightarrow{\ \iota^{\bullet}\ } C^\bullet\xrightarrow{\ \rho^\bullet\ }  A^\bullet[1]\longrightarrow\mathbf 0$$&lt;p&gt;
-Hence this induces a long exact sequence on cohomology objects. Working out the connecting morphism, we find out that the connecting morphisms are nothing more than the induced morphisms $\delta^n=H^{n+1}f^\bullet$. From this fact, we deduce that $f^\bullet$ is a quasi-isomorphism iff the cone $\mathrm{Cone}(f^\bullet)$ is acyclic.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Suppose $\mathcal A$ is an abelian category. An object $X$ in $\mathcal A$ is &lt;em&gt;injective&lt;/em&gt; (resp. &lt;em&gt;projective&lt;/em&gt;) if the contravariant (resp. covariant) left exact (resp. right exact) hom-functor $\mathrm{Hom}(-,X):\mathcal A\rightarrow\mathbf{Ab}$ (resp. $\mathrm{Hom}(X,-):\mathcal A\rightarrow\mathbf{Ab}$) is exact. Moreover, we say $\mathcal A$ has &lt;em&gt;enough injectives&lt;/em&gt; (resp. &lt;em&gt;enough projectives&lt;/em&gt;) if for any object $Y$ there is an injective object (resp. projective object) $X$ and a monomorphism $Y\rightarrow X$ (resp. epimorphism $X\rightarrow Y$). An &lt;em&gt;injective resolution&lt;/em&gt; of an object $X$ is a complex $I^\bullet$ bounded below $0$ and a quasi-isomorphism $X\rightarrow I^\bullet$, or equivalently, an exact sequence
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-$$\mathbf 0\rightarrow X\rightarrow I^0\rightarrow I^1\rightarrow \cdots$$&lt;p&gt;
-where each $I^i$ is injective. Dually, a &lt;em&gt;projective resolution&lt;/em&gt; of an object $X$ is a complex $P_\bullet$ bounded above $0$ and a quasi-isomorphism $P_\bullet\rightarrow X$, or equivalently, an exact sequence
-&lt;/p&gt;
-$$\cdots\rightarrow P_1\rightarrow P_0\rightarrow X\rightarrow \mathbf 0$$&lt;p&gt;
-where each $P_i$ is projective.&lt;/p&gt;
-&lt;p&gt;It is a familiar result in homological algebra that if an abelian category has enough injectives (resp. enough projectives) then every object has an injective resolution (resp. projective resolution). Moreover, given a long exact sequence $\mathbf 0\rightarrow X\rightarrow M^\bullet$ and an injective resolution of $I^\bullet$ of $Y$, then every $f:X\rightarrow Y$ extends to a chain map&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzAsMCwiXFxtYXRoYmZ7MH0iXSxbMSwwLCJYIl0sWzIsMCwiTV4wIl0sWzMsMCwiTV4xIl0sWzQsMCwiXFxjZG90cyJdLFswLDEsIlxcbWF0aGJmezB9Il0sWzEsMSwiWSJdLFsyLDEsIkleMCJdLFszLDEsIkleMSJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxXSxbMSwyXSxbMiwzXSxbMyw0XSxbNSw2XSxbNiw3XSxbNyw4XSxbOCw5XSxbMSw2LCJmIiwyXSxbMiw3LCIiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMyw4LCIiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 375px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;and two such construction of chain maps are homotopic. The dual can be said about projective resolutions. I should also mention the Horseshoe lemma or the simultaneous resolution theorem, which states that if we have a short exact sequence $\mathbf 0\rightarrow X\rightarrow Y\rightarrow Z\rightarrow\mathbf 0$ and injective resolutions $I^\bullet$ for $Y$ and $K^\bullet$ for $Z$, then there is an injective resolution $J^\bullet$ of $Y$ that and a short exact sequence of complexes $\mathbf 0\rightarrow I^\bullet\rightarrow J^\bullet \rightarrow K^\bullet\rightarrow\mathbf 0$ which splits.&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMjEsWzEsMSwiWCJdLFsyLDEsIkleMCJdLFszLDEsIkleMSJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxLCJcXG1hdGhiZiAwIl0sWzAsMiwiXFxtYXRoYmYgMCJdLFsxLDIsIlkiXSxbMiwyLCJKXjAiXSxbMywyLCJKXjEiXSxbNCwyLCJcXGNkb3RzIl0sWzAsMywiXFxtYXRoYmYgMCJdLFsxLDMsIloiXSxbMiwzLCJLXjAiXSxbMywzLCJLXjEiXSxbNCwzLCJcXGNkb3RzIl0sWzEsNCwiXFxtYXRoYmYgMCJdLFsxLDAsIlxcbWF0aGJmIDAiXSxbMiwwLCJcXG1hdGhiZiAwIl0sWzIsNCwiXFxtYXRoYmYgMCJdLFszLDAsIlxcbWF0aGJmIDAiXSxbMyw0LCJcXG1hdGhiZiAwIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsMF0sWzUsNl0sWzYsNywiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzcsOCwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzgsOSwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEwLDExXSxbMTEsMTJdLFsxMiwxM10sWzEzLDE0XSxbMCw2XSxbNiwxMV0sWzE2LDBdLFsxMSwxNV0sWzE3LDFdLFsxLDcsIiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs3LDEyLCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMThdLFsxOSwyXSxbMiw4LCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbOCwxMywiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEzLDIwXV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 375px;
-      height: 375px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;This does NOT commute. This implies that additive functors take split exact sequences to split exact sequences.
-Suppose $\mathscr{F}:\mathcal A\rightarrow\mathcal B$ is a left exact functor betweeen abelian categories, then applying $\mathscr{F}$ to a short exact sequence $\mathbf 0\rightarrow A\rightarrow B\rightarrow C$ gives a short exact sequence $\mathbf 0\rightarrow \mathscr{F}(A)\rightarrow \mathscr{F}(B)\rightarrow \mathscr{F}(C)$. A natural question to ask is whether we could continue this exact sequence to the right. It turns out that there is a canonical way of doing so, by defining the right derived functors $R^i\mathscr{F}:\mathcal A\rightarrow \mathcal B$, we may continue the exact sequence
-&lt;/p&gt;
-$$\mathbf 0\rightarrow \mathscr{F}(A)\rightarrow\mathscr{F}(B)\rightarrow\mathscr{F}(C)\rightarrow R^1\mathscr{F}(A)\rightarrow R^1\mathscr{F}(B)\rightarrow R^1\mathscr{F}(C)\rightarrow\cdots$$&lt;p&gt;
-Note that $\mathscr{F}$ is exact iff $R^1\mathscr{F}=0$, so in a sense the right derived functors measures how far $\mathscr{F}$ is from exact.
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Let $\mathcal A,\mathcal B$ be abelian categories and $\mathcal A$ has enough injectives. Suppose $\mathscr{F}:\mathcal A\rightarrow\mathcal B$ is a left-exact functor. Let $X\in\mathcal A$ and suppose $I^\bullet$ is an injective resolution, then we obtain a complex
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-$$\mathbf 0\rightarrow \mathscr{F}(I^0)\rightarrow\mathscr{F}(I^1)\rightarrow\mathscr{F}(I^2)\rightarrow\cdots$$&lt;p&gt;
-Define the right derived functors as the additive functors $R^i\mathscr{F};\mathcal A\rightarrow\mathcal B$
-&lt;/p&gt;
-$$R^i\mathscr{F}(X)=H^i(\mathscr{F}I^\bullet)$$&lt;p&gt;
-for $i\ge 0$. Left derived functors $L_i\mathscr{F}$ are defined dually via projective resolution.&lt;/p&gt;
-&lt;p&gt;The most important examples of derived functors are the Ext and Tor functors. The Ext functor is the right derived functor of the hom-functor, and the Tor functor is the left derived functor of tensor product. Recall that there is a tensor-Hom adjunction $\mathrm{Hom}(Y\otimes X,Z)\cong \mathrm{Hom}(Y,\mathrm{Hom}(X,Z))$, so these functors are related very closely.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;For $A,B\in \mathbf{Mod}_R$, define the Ext functors&lt;/p&gt;
-$$\begin{aligned}\mathrm{Ext}_R^i(A,B)&amp;=(R^i\mathrm{Hom}_R(A,-))(B)\\\ &amp;\cong (R^i\mathrm{Hom}_R(-,B))(A)\end{aligned} $$&lt;p&gt; and the Tor functors &lt;/p&gt;
-$$\begin{aligned}\mathrm{Tor}_i^R(A,B)&amp;= (L_i(A\otimes_R -))(B)\\\ &amp;\cong (L_i(-\otimes_R B))(A)\end{aligned}$$&lt;p&gt;
-for all $i\ge 0$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;!--- --&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Derived functors can help us defined many (co)homology theory.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;em&gt;Sheaf cohomology.&lt;/em&gt; Let $X$ be a topological space, then the global section functor $\Gamma:\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ which sends $\mathscr{F} \mapsto \mathscr{F}(X)$ is left exact, its right derived functor $H^i(X,-):\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ is the &lt;em&gt;sheaf cohomology&lt;/em&gt; $H^i(X,\mathscr{F})$. Its special cases include the de Rham cohomology.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Group cohomology.&lt;/em&gt; Let $k$ be an algebraically closed field and $G$ a group, then the invariant functor $(-)^G:\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$, which is the same as $\mathrm{Hom}_{k[G]}(k,-)$, is left exact, its right derived functor $H^i(G;-):\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$ gives the group cohomology $H^i(G;M)=\mathrm{Ext}^i_{k[G]}(k,M)$.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Hochschild cohomology.&lt;/em&gt; This one I&#39;m not really familiar, so I will not write about it in detail.&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The derived functors are natural in the sense that if we have a morphism of two short exact sequence in $\mathcal A$, then the induced morphisms of the long exact sequences in $\mathcal B$ commutes with the long exact sequences. Finally, I&#39;d like to finish with the definition of the homotopy category of complexes. We say that a chain map is &lt;em&gt;nullhomotopic&lt;/em&gt; if it is homotopic to the zero chain.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $\mathcal A$ be an abelian category, the &lt;em&gt;homotopy category of complexes&lt;/em&gt; $ K(\mathcal A)$ is the category where objects are (co)chain complexes in $\mathcal A$ and morphisms are chain maps up to homotopy, i.e. &lt;/p&gt;
-$$\mathrm{Hom}_{K(\mathcal A)}(A^\bullet,B^\bullet)=\mathrm{Hom}_{C(\mathcal A)}(A^\bullet,B^\bullet)/G$$&lt;p&gt;
-where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;There are many things that needs to be checked here for it to be well defined, which we omit. We will see that this category is not typically abelian, but it is triangulated. A triangulated category is an approximation of an abelian category.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>What is This Thing Called Knowledge?</title>
       <link>http://localhost:1313/posts/knowledge/</link>
       <pubDate>Sun, 07 Dec 2025 18:36:05 +0000</pubDate>
@@ -4118,12 +3487,12 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/gw-ring/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+      <description>&lt;p&gt;:&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Shakuntala Devi&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}+a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Shakuntala Devi&lt;/div&gt;&lt;/aside&gt;uote &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}+a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matr&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;example&#34;
      data-lang=&#34;en&#34;
@@ -4139,9 +3508,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
 
   &lt;/span&gt;
 &lt;/div&gt;
-
-&lt;p&gt;In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal form.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
+mple &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
      data-lang=&#34;en&#34;
@@ -4154,9 +3522,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     A quadratic form $f$ represents some $d\in k^\times$ if there exists $\lambda\in k^n$ with $f(\lambda)=d$. Let $D(f)$ be the subset of $k^\times$ represented by $f$.
   &lt;/span&gt;
 &lt;/div&gt;
-
-&lt;p&gt;For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear form).&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+tion &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear f&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -4169,9 +3536,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     For a quadratic form $f$ on $V$, some $d\in k^\times$ is representable iff $V\cong \langle d\rangle\otimes W$ for $W$ another quadratic space. As a result, $V\cong \langle a_1,\dots,a_n\rangle $ for some $a_i$.
   &lt;/span&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotropic.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+orem &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotr&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -4184,8 +3550,7 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     Each quadratic space is a orthogonal sum of a totally isotropic space, a hyperbolic space, and an anisotropic space, all unique up to equivalence.
   &lt;/span&gt;
 &lt;/div&gt;
-
-&lt;div class=&#34;math-env style-plain&#34; 
+or&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -4198,8 +3563,8 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     If $q\oplus q_1\cong q\oplus q_2$ then $q_1\cong q_2$.
   &lt;/span&gt;
 &lt;/div&gt;
-
-&lt;p&gt;We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read &lt;a href=&#34;https://kyleormsby.github.io/files/quadratic_TNR.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+orem &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read [here](&lt;a href=&#34;https://kyleormsby.github.io/files/quadratic_TN&#34;&gt;https://kyleormsby.github.io/files/quadratic_TN&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -4208,14 +3573,13 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/sym-poly/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+      <description>&lt;p&gt;6&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;quote &amp;gt;}}&lt;/p&gt;
 &lt;p&gt;This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is &lt;/p&gt;
 $$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta&#39;s relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;!-- &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -4228,12 +3592,13 @@ $$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any perm
     For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
   &lt;/span&gt;
 &lt;/div&gt;
+eorem &gt;}}
 
-&lt;p&gt;Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
-&lt;/p&gt;
-$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.&lt;/p&gt;
-&lt;p&gt;A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that 
+$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well. 
+
+
+A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition o&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -4246,9 +3611,9 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
     $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$
   &lt;/span&gt;
 &lt;/div&gt;
+eorem &gt;}}
 
-&lt;p&gt;There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following th&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -4262,177 +3627,11 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
 $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
   &lt;/span&gt;
 &lt;/div&gt;
+eorem &gt;}}
 
-&lt;p&gt;Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.&lt;/p&gt;
-&lt;p&gt;One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href=&#34;https://arxiv.org/pdf/1301.7116&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
-      <pubDate>Thu, 04 Dec 2025 11:15:32 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Charles Pugh&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2022. We start by revisiting étale morphisms and introducing Grothendieck topologies and sites, and we define presheaves and sheaves on sites and show that they work almost the same as the usual presheaves and sheaves we are accostomed to. Then, we will define important sites such as the big and small Zariski sites and étale sites as well as the fppf site.&lt;/p&gt;
-&lt;h2 id=&#34;étale-morphisms-of-schemes&#34;&gt;Étale morphisms of schemes&lt;/h2&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;First, we revisit the definitions and properties of étale morphisms of schemes.
-A morphism of schemes $f:X\rightarrow Y$ is &lt;em&gt;étale&lt;/em&gt; if one of these equivalent conditions holds&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$f$ is smooth and locally quasi-finite,&lt;/li&gt;
-&lt;li&gt;$f$ is smooth and unramified,&lt;/li&gt;
-&lt;li&gt;$f$ is flat and unramified,&lt;/li&gt;
-&lt;li&gt;$f$ is locally of finite presentation and formally étale&lt;/li&gt;
-&lt;li&gt;$f$ is locally of finite presentation and locally a standard étale morphism,&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
+Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product. 
 
-&lt;p&gt;There are many more equivalent definitions of étale morphisms listed on &lt;a href=&#34;https://en.wikipedia.org/wiki/%C3%89tale_morphism&#34;&gt;wikipedia&lt;/a&gt;. Intuitively, I think of étale morphisms analogous to covering maps. We need this notion to define the étale topology which we will need to use later. As a side note, there is also something called the étale fundamental group, which also uses the notion of étale morphisms. We recall these properties of étale morphisms.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;compotision of étale maps are étale,&lt;/li&gt;
-&lt;li&gt;if $f:Y\rightarrow X$ is étale then its base change $Y\times_XZ\rightarrow Z$ is étale,&lt;/li&gt;
-&lt;li&gt;if $f:Y\rightarrow X$ and $g:Z\rightarrow X$ are étale and $g=f\circ h$ where $h:Z\rightarrow Y$, then $h$ is étale&lt;/li&gt;
-&lt;li&gt;given algebraically closed field $k$ and $k$-algebra $A$, then the morphism $\mathrm{Spec}(A)\rightarrow\mathrm{Spec}(k)$ is étale iff it is the disjoint union of spectra of finite separable field extensions of $k$.&lt;/li&gt;
-&lt;/ol&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now, we are ready to define Grothendieck topology and sites.&lt;/p&gt;
-&lt;h2 id=&#34;grothendieck-topology-sites-and-topoi&#34;&gt;Grothendieck topology, sites, and topoi&lt;/h2&gt;
-&lt;p&gt;Recall that a presheaf (of sets) on a topological space $X$ is a contravariant functor $\mathscr{F}:\mathrm{Op}(X)\rightarrow\mathbf{Set}$, and a presheaf is a sheaf when $\mathscr{F}(U)\rightarrow\prod_{i}\mathscr{F}(U_i)\rightrightarrows\prod_{i,j}\mathscr{F}(U_i\cap U_j)$ is an equalizer for every open cover $\{U_{i}\}$ of any open $U\subseteq X$, which is equivalent to the identity and gluability axioms. We want to extend this from $\mathrm{Op}(X)$ to any category $\mathcal C$. To do this, we need to add some additional structure on the category $\mathcal C$ so that its objects can be viewed as &amp;quot;open sets&amp;quot; and morphisms can be viewed as &amp;quot;inclusions&amp;quot;. Grothendieck&#39;s insight is that we don&#39;t need the full strength of a topology to define sheaves, we only need intersections and a notion of when a collection of an open set forms an open cover of it.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;A &lt;em&gt;Grothendieck topology&lt;/em&gt; on a category $\mathcal C$ is the data of a set of &lt;em&gt;coverings&lt;/em&gt; of $U$, written as $\mathrm{Cov}(U)$, for each object $U\in \mathcal C$, where each covering $S\in\mathrm{Cov}(U)$ is a set of morphisms of $\mathcal C$ with $U$ as targets, such that for all $U\in\mathcal C$&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;for each isomorphism $\varphi:V\rightarrow U$, we have $\{\varphi\}\in \mathrm{Cov}(U)$&lt;/li&gt;
-&lt;li&gt;if $\{V_i\rightarrow U\}\in\mathrm{Cov}(U)$ and $\{W_{i,j}\rightarrow V_i\}\in\mathrm{Cov}(V_i)$ for each $i$, then $\{W_{i,j}\rightarrow U\}\in\mathrm{Cov}(U)$&lt;/li&gt;
-&lt;li&gt;for $\{V_i\rightarrow U\}\in\mathrm{Cov}(U)$ and $W\rightarrow U$, all $W\times_UV_i$ exists and $\{W\times_UV_i\rightarrow W\}\in\mathrm{Cov}(W)$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;A category $\mathcal C$ equipped with a choice of Grothendieck topology, also denoted $\mathcal C$, is a &lt;em&gt;site&lt;/em&gt;. A continuous functor between sites $f:\mathcal C\rightarrow\mathcal D$ is a functor between their underlying categories such that for all $\{X_i\rightarrow X\}\in \mathrm{Cov}_{\mathcal C}(X)$ we have $\{f(X_i)\rightarrow f(X)\}\in \mathrm{Cov}_{\mathcal D}(f(X))$, and it commutes with finite fibred products if they exist.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For example, $\mathrm{Op}(X)$ for a topological space $X$ can be made into a site using the usual notion of covering. We note that in $\mathrm{Op}(X)$ we have the fibered product $U\times_X V=U\cap V$ for all open $U,V\subseteq X$, which agrees with the usual notion of intersection. For a category $\mathcal C$ with $X\in\mathcal C$, the category of objects over $X$, denoted $\mathcal C/X$ is the category where objects are morphisms $Y\rightarrow X$ in $\mathcal C$ and morphisms between $Y_1\rightarrow X$ and $Y_2\rightarrow X$ are all morphisms $Y_1\rightarrow Y_2$ in $\mathcal C$ such that the obvious triangle commutes, i.e. $(Y_1\rightarrow Y_2\rightarrow X)=Y_1\rightarrow X$. If $\mathcal C$ is a site, then $\mathcal C/X$ can be given a site structure, by letting $\mathrm{Cov}(U\rightarrow X)$ in $\mathcal C/X$ be $\mathrm{Cov}(U)$ in $\mathcal C$. The site $\mathcal C/X$ is called the &lt;em&gt;localization&lt;/em&gt; of the site $\mathcal C$ at $X$. Suppose $X$ is a scheme, then we say that the &lt;em&gt;big Zariski (resp. big étale, resp. fppf) site&lt;/em&gt;, denoted $(\mathbf{Sch}/X)_{\mathrm{Zar}}$ (resp. $(\mathbf{Sch}/X)_{\mathrm{ét}}$, resp. $(\mathbf{Sch}/X)_{\mathrm{fppf}}$) of $X$, is the site with the category $\mathbf{Sch}/X$ and $\{Y_i\rightarrow Y\}\in\mathrm{Cov}(U)$ iff each $Y_i\rightarrow Y$ is an open immersion with $Y=\bigcup_i Y_i$ (resp. each $Y_i\rightarrow Y$ is étale with $\coprod_i Y_i\rightarrow Y$ surjective, resp. each $Y_i\rightarrow Y$ is flat and locally of finite presentation with $\coprod_i Y_i\rightarrow Y$ surjective). An element of $\mathrm{Cov}(U\rightarrow X)$ is called a &lt;em&gt;Zariski cover&lt;/em&gt; (resp. &lt;em&gt;étale cover&lt;/em&gt;, resp. &lt;em&gt;fppf cover&lt;/em&gt;) of $U$. The small Zariski site (resp. small étale site) of $X$, denoted $X_{\mathrm{Zar}}$ (resp. $X_{\mathrm{ét}}$) is the site whose category is the full subcategory of $\mathrm{Sch}/X$ where each object $U\rightarrow X$ is an open immersion (resp. étale), and the coverings are the same as the big Zariski (resp. big étale) site. The small Zariski site of $X$ is equivalent to the site $\mathrm{Op}(X)$. Moreover, we have the following inclusions
-&lt;/p&gt;
-$$\{\mathrm{Zariski\ cover}\}\hookrightarrow\{\mathrm{étale\ cover}\}\hookrightarrow\{\mathrm{fppf\ cover}\}$$&lt;p&gt;Next, we discuss presheaves and sheaves on a site. This whole business is to get new cohomology theories such as étale cohomology, because basic sheaf cohomology is insufficient for our needs.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A &lt;em&gt;presheaf&lt;/em&gt; (of sets) on a site $\mathcal C$ is a contravariant functor $\mathscr{F}:\mathcal C\rightarrow\mathbf{Set}$, and a presheaf is a &lt;em&gt;sheaf&lt;/em&gt; iff $\mathscr{F}(U)\rightarrow\prod_{i}\mathscr{F}(U_i)\rightrightarrows\prod_{i,j}\mathscr{F}(U_i\times_U U_j)$ is an equalizer for all $U\in\mathcal C$ and $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$. A presheaf is called &lt;em&gt;separated&lt;/em&gt; if for all $U\in\mathcal C$ and $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$, the map $\mathscr{F}(U)\rightarrow \prod_i\mathscr{F}(U_i)$ is injective. We write $\mathrm{Sh}(\mathcal C)$ (resp. $\mathrm{PSh}(\mathcal C)$) for the category of sheaves (resp. presheaves) of the site $\mathcal C$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Note that a separated presheaf can be viewed as a presheaf that only satisfies one of the axioms of a sheaf, the identity axiom, but not necessaily the gluability axiom, therefore we have the obvious inclusions
-&lt;/p&gt;
-$$\{\mathrm{sheaves}\}\hookrightarrow\{\mathrm{separated\ presheaves}\}\hookrightarrow\{\mathrm{presheaves}\}$$&lt;p&gt;all of which admits left adjoints, the composition of them being sheafification. Usually, we can formulate sheafification in terms of compatible germs, but since we are working over sites, it does not make sense to take a point in an object and take the product of stalks. The way we construct the adjoint from presheaves to separated presheaves is to map a presheaf $\mathscr{F}$ to $\mathscr{F}^{\mathrm s}(U)=\mathscr{F}(U)/\sim$ where $a\sim b$ iff exists $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$ such that $a,b$ are mapped to the same element by the map $\mathscr{F}(U)\rightarrow \prod_i\mathscr{F}(U_i)$. We can check that this is in fact a separated presheaf. All of the above works for (pre)sheaves of rings, abelian groups, etc.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;A &lt;em&gt;topos&lt;/em&gt; is a category equivalent to $\mathrm{Sh}(\mathcal C)$ for a site $\mathcal C$. A morphism of topoi $f:\mathcal{T}_1\rightarrow \mathcal{T}_2$ is an adjoint pair $f^*\dashv f_*$ of functors $f^*:\mathcal{T}_1\rightarrow \mathcal{T}_2$ and $f_*:\mathcal{T}_2\rightarrow \mathcal{T}_1$ with a choice of natural isomorphism
-&lt;/p&gt;
-$$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T_2}(-,f_*(-))$$&lt;p&gt;where each naturality here means $\Phi$ is natural in each of the two dashes, and $f^*$ commutes with finite limits when they exist. Define composition in the obvious way.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We remark that in the above definition, commuting with finite limits is equivalent to checking that $f^*$ commutes with finite products and preserve equalizers. In many cases, though not always, a continuous functor between sites $f:\mathcal C\rightarrow \mathcal D$ induces a functor $f_*:\mathrm{Sh}(\mathcal D)\rightarrow \mathrm{Sh}(\mathcal C)$ by $f_*(\mathscr{F})(X)=\mathscr{F}(f(X))$, where the well-definedness follows from $\mathscr{F}(f(U_i\times_U U_j))=\mathscr{F}(f(U_i)\times_{f(U)} f(U_j))$ for any $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$, as illustrated by the diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0rem;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/#q=WzAsNixbMCwxLCJcXG1hdGhzY3J7Rn0oZihVKSkiXSxbMSwxLCJcXHByb2RfaVxcbWF0aHNjcntGfShmKFVfaSkpIl0sWzIsMSwiXFxwcm9kX3tpLGp9XFxtYXRoc2Nye0Z9KGYoVV9pKVxcdGltZXNfe2YoVSl9ZihVX2opKSJdLFswLDAsImZfKihcXG1hdGhzY3J7Rn0pKFUpIl0sWzEsMCwiXFxwcm9kX2lmXyooXFxtYXRoc2Nye0Z9KShVX2kpIl0sWzIsMCwiXFxwcm9kX3tpLGp9Zl8qKFxcbWF0aHNjcntGfSkoVV9pXFx0aW1lc19VIFVfaikiXSxbMCwxXSxbMSwyLCIiLDAseyJvZmZzZXQiOjF9XSxbMyw0XSxbMywwLCJcXGNvbmciXSxbNCwxLCJcXGNvbmciXSxbNSwyLCJcXGNvbmciXSxbNCw1LCIiLDAseyJvZmZzZXQiOi0xfV0sWzQsNSwiIiwwLHsib2Zmc2V0IjoxfV0sWzEsMiwiIiwwLHsib2Zmc2V0IjotMX1dXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 100%;
-      height: 125px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1.7);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;This induced functor does not always admit a left adjoint. However, we have the following theorem&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    If $\mathcal C,\mathcal D$ are sites with small underlying categories, then the functor $f_*:\mathrm{Sh}(\mathcal D)\rightarrow \mathrm{Sh}(\mathcal C)$ induced by a continuous functor $f:\mathcal C\rightarrow \mathcal D$ admits a left adjoint $f^*:\mathrm{Sh}(\mathcal C)\rightarrow \mathrm{Sh}(\mathcal D)$. If, further, that finite limits in $\mathcal C$ are representable and $f$ commutes with them, then $f^*$ commutes with finite limits.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;p&gt;We construct this functor concretely. For each $U\in\mathcal D$, let $\mathcal I_U$ be the category where objects are pairs $\langle V,\rho\rangle$ where $V\in\mathcal C$ and $\rho\in \mathrm{Mor}_\mathcal{D}(U,f(V))$, and a morphism $g:\langle V_1,\rho_1\rangle \rightarrow \langle V_2,\rho_2\rangle$ is a morphism $g:V_1\rightarrow V_2$ in $\mathcal C$ such that $(fg)\circ\rho_1=\rho_2$. We define
-&lt;/p&gt;
-$$f^* (\mathscr{F})(U)=\lim_{\stackrel{\longrightarrow}{\langle V,\rho\rangle\in\mathcal I_{U}^\mathrm{op}}}\mathscr{F}(V)$$&lt;p&gt;
-and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal I_{U_2}\rightarrow \mathcal I_{U_1}$ given by $\langle V,\rho\rangle\mapsto \langle V,\rho\circ h\rangle$ which induces a morphism $f^*(\mathscr{F})(U_2)\rightarrow f^*(\mathscr{F})(U_1)$. We can check that this is well-defined.&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;</description>
+One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read [this](https://arxiv.org/pdf/130</description>
     </item>
     
     <item>
@@ -4519,66 +3718,6 @@ $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1
 &lt;/div&gt;
 
 &lt;p&gt;It is also worth mentioning that this proof is an example of &lt;a href=&#34;https://en.wikipedia.org/wiki/Descent_(mathematics)&#34;&gt;descent&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
-      <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
-      <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Algebra is but written geometry and geometry is but figured algebra.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sophie Germain&lt;/div&gt;&lt;/aside&gt;
-This is an old post from 2023. Recall that for a topological space $X$, a fibre bundle of fibres $F$ where $F$ is a topological space, is a topological space $E$, with a surjective map $\pi: E\rightarrow X$ such that for all $x\in X$, exists an open nbhd $x\in U\subseteq X$ such that there is a homeomorphism $\varphi: \pi^{-1}(U)\rightarrow U\times F$ such that $\mathrm{pr}_U\circ \varphi=\pi|_{\pi^{-1}(U)}$ where $\mathrm{pr}_U:U\times F\rightarrow U$ is the projection onto $U$. Fibre bundles generalize vector bundles and covering spaces. In this post, we interpret this algebraically and generalize this notion to schemes.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h2 id=&#34;symmetric-algebra-and-quasi-coherent-bundles&#34;&gt;Symmetric Algebra and Quasi-coherent Bundles&lt;/h2&gt;
-&lt;p&gt;Recall that for $M$ an $A$-module, its tensor algebra is the graded algebra $T(M)=\bigoplus_{n\in\mathbb N}T^n(M)$ where $T^n(M)=M^{\otimes n}$. The symmetric algebra is the algebra $\mathrm{Sym}(M)=T(M)/I$ where $I$ is the ideal generated by the set $\{m\otimes n-n\otimes m:m,n\in M\}$, which is a graded algebra $\mathrm{Sym}(M)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(M)$ since $I$ is homogeneous. Note that $\mathrm{Sym}^0(M)=A$ and $\mathrm{Sym}^1(M)=M$, so there is a map $i:\mathrm{Sym}^1(M)=M\rightarrow \mathrm{Sym}(M)$. The symmetric algebra has the universal property that the precomposition $\varphi\mapsto \varphi\circ i$ induces a bijection for every $A$-algebra $B$.&lt;/p&gt;
-$$\mathrm{Hom}_{A-\mathrm{Alg}}(\mathrm{Sym}(M),B)\rightarrow\mathrm{Hom}_{A-\mathrm{Mod}}(M,B)$$&lt;p&gt;Setting $B=\mathrm{Sym}(N)$, we see from this that we can find $\mathrm{Sym}(u):\mathrm{Sym}(M)\rightarrow\mathrm{Sym}(N)$ which is a graded morphism, so $\mathrm{Sym}$ is a functor from the category of $A$-modules to the category of graded $A$-algebras. We globalize this construction to schemes. Let $X$ be a scheme (a more generally a ringed space), and $\mathcal E$ and $\mathcal O_X$-module, then define the graded $\mathcal O_X$-algebra $\mathrm{Sym}(\mathcal E)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(\mathcal E)$ be the sheafification of $U\mapsto \mathrm{Sym}_{\Gamma(U,\mathcal O_X)}(\Gamma(U,\mathcal E))$, and similarly we have a bijection&lt;/p&gt;
-$$\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathrm{Sym}(\mathcal E), \mathcal A)\rightarrow \mathrm{Hom}_{\mathcal O_X-\mathrm{Mod}}(\mathcal E, \mathcal A)$$&lt;p&gt;Let $\mathcal B$ be a quasicoherent $\mathcal O_X$-algebra. There exists an $X$-scheme $\underline{\mathrm{Spec}}(\mathcal B)$, such that for all $X$-schemes $f:T\rightarrow X$ there are bijections functorial in $T$ of the following form&lt;/p&gt;
-$$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightarrow\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathcal B,f_*\mathcal O_T)$$&lt;p&gt;In other words, the functor $(\mathrm{Sch}/X)^{\mathrm{op}}\rightarrow \mathbf{Set}$ given by $(f: T \rightarrow X) \mapsto \mathrm{Hom}_{\mathcal{O}_X-\mathrm{Alg}}\left(\mathcal{B}, f_* \mathcal{O}_T\right)$ is representable. To see this, we note that this is a sheaf on the Zariski site, since $f_*$ and $\mathrm{Hom}(\mathcal B,-)$ are left-exact. We also have this is covered by representable open subfunctors. More concretely, the points of $\underline{\mathrm{Spec}}(\mathcal B)$ above $x\in X$ is that of $\mathrm{Spec}(\mathcal \Gamma(B,\mathcal O_X)\otimes \kappa(p))$ and the topology above an open affine $U=\mathrm{Spec}(A)$ is $\mathrm{Spec}(\Gamma(U,\mathcal B))$. For every quasi-coherent $\mathcal O_X$-module $\mathcal E$, we define $\mathbb V(\mathcal E)=\underline{\mathrm{Spec}}(\mathrm{Sym}(\mathcal E))$ functorial in $E$ which the call the quasi-coherent bundle associated to $E$. When restricted to locally free $\mathcal O_X$-modules, this functor provides a correspondance to algebraic vector bundles, where algebraic vector bundles are understood as follows,&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A vector bundle of rank $n\in\mathbb N$ on $X$ is an $X$-scheme $V$ with an equivalence class of families $(U_i, c_i)$ where $(U_i)_i$ is an open cover of $V$ and isomorphisms $c_i:V|_{U_i}\rightarrow \mathbb A^{n}_{U_i}$ of $U_i$-schemes, such that for all $i,j$, the automorphisms $c_i\circ c_j:\mathbb A^n_{U_i\cap U_j}\rightarrow \mathbb A^n_{U_i\cap U_j}$ are linear, where two such families, called atlases, are equivalent if their union is an atlas. Moreover, define a morphisms of vector bundles $(V,U_i,c_i)\rightarrow (V^\prime,U^\prime_i,c^\prime_i)$ as a $X$-morphism $f:V\rightarrow V^\prime$ such that $c^\prime_j\circ f\circ c_i^{-1}:\mathbb A^n_{U_i\cap U^\prime_j}\rightarrow \mathbb A^n_{U_i\cap U^\prime_j}$ is linear.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The locally free $\mathcal O_X$-modules are interpreted as sheaf of sections over the vector bundle. More specifically, for a vector bundle $E$ as above, we define a locally free $\mathcal O_X$-module $\mathcal E_V$ as the following. Define the sheaf $\mathcal P( V/X)$ of abelian groups by attaching to $U\subseteq X$ the sections of $V$ over $U$, that is, morphisms $s:U\rightarrow V|_U$ with $f\circ s=\mathrm{id}_U$, and restrictions are given by restrictions of scheme morphisms. Locally, this has the structure of $\mathcal O_X^n$ which gives the module structure. This gives the inverse to $\mathbb V(-)$. This correspondance is part of what is known as Serre-Swan theorem&lt;/p&gt;
-&lt;h2 id=&#34;cartier-divisors-and-weil-divisors&#34;&gt;Cartier Divisors and Weil divisors&lt;/h2&gt;
-&lt;p&gt;It is an important question to determine the configuration of zeros and poles of a rational (or meromorphic) function. Let $X$ be an integral scheme (i.e. reduced and irreducible). We denote by $\mathcal K_X$ the constant sheaf on $X$ with value the function field $K(X)$ of $X$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A Cartier divisor on $X$ is a family $(U_i,f_i)$ where $(U_i)_i$ is an open cover of $X$ and $f_i\in K(X)^\times$ with $f_if_j^{-1}\in \Gamma(U_i\cap U_j,\mathcal O_X^\times) $ for all $i,j$, where two families $(U_i,f_i)$, $(V_i,g_i)$ give rise to the same Cariter divisor if $f_ig_j^{-1}\in\Gamma(U_i\cap V_j,\mathcal O_X^\times)$ for all $i,j$. The Cartier divisors form an abelian group $\mathrm{Div}(X)$, where adding the family $(U_i,f_i)$ and $(V_i,g_i)$ gives $(U_i\cap V_j,f_ig_j)$. A Cartier divisor is principle if it is given by some $(X,f)$, and two divisors $D,E$ are linearly equivalent if $D-E$ is principle.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Alernatively, we can set $\mathrm{Div}(X)=\Gamma(X,\mathcal K_X^\times/\mathcal O_X^\times)$, and principle divisors the ones in the image of $\Gamma(X,\mathcal K_X^\times)$. We call the ones in $\Gamma(X,(\mathcal K_X^\times\cap \mathcal O_X)/\mathcal O_X^\times)$ effective divisors and denote it by $D\ge 0$. Let $\mathrm{Cl}(X)$ denote $\mathrm{Div}(X)$ modulo the principle divisors, which we call the divisor class group. We have a short exact sequence.
-&lt;/p&gt;
-$$1\longrightarrow \Gamma(X,\mathcal O_X)^\times\longrightarrow K(X)\longrightarrow \mathrm{Div}(X) \longrightarrow \mathrm{Cl}(X)\longrightarrow 0$$&lt;p&gt;To a Cartier divisor $D$, we associate the line bundle $\mathcal O_X(D)$ for all open $V\subseteq X$.
-&lt;/p&gt;
-$$\Gamma(V,\mathcal O_X(D))=\{f\in K(X): \forall i,f_if\in \Gamma(U_i\cap V,\mathcal O_X)\}$$&lt;p&gt;This association $D\mapsto \mathcal O_X(D)$ induces an isomorphism $\mathrm{Cl}(X)\cong \mathrm{Pic}(X)$. Call an invertible $\mathcal O_X$-submodule of $\mathcal K_X$ an invertible fractional ideal of $\mathcal O_X$. Then we can associate a Cartier divisor $D$ an invertible fractional ideal $\mathcal F_X(D)$ such that $\mathcal F_X(D) (U_i)=f_i\mathcal O_X$. This correspondance provides an isomorphism between $\mathrm{Div}(X)$ and the invertible fractional ideal on $X$. Cartier divisors considered more geometrically is so called Weil divisors. Let $Z^k(X)$ be the free abelian group generated on the set of closed integral subscheme of codimension $k$. The elements of $Z^1(X)$ are then called Weil divisors and their generators called the prime divisors, and the ones with nonnegative coefficients are called the effective Weil divisors. We now connect Weil divisors with Cartier divisors with a homomorphism $\mathrm{cyc}: \mathrm{Div}(X)\rightarrow Z^1(X) $. To this end, we need to define, for a prime Weil divisor $C$, the order $\mathrm{ord}_C(f)$ for some meromorphic function $f\in \Gamma(U,\mathcal K_X)$ where the generic point $\xi$ of $C$ is contained in $C$. If the local ring $\mathcal O_{X,C}=\mathcal O_{X,\xi}$ is a DVR, for example, when $X$ is normal, then we can just set $\mathrm{ord}_C(f)=\nu (f)$ the normalized discrete valuation of $f$. In general, the local ring is a local noetherian ring of dimension $1$. For a nonzero $f\in \mathrm{Frac}(\mathcal O_{X,C})$ where $f=a/b$ we set $\mathrm{ord}_C(f)=\mathrm{lg}(\mathcal O_{X,C}/(a))-\mathrm{lg}(\mathcal O_{X,C}/(b))$. For a Cartier divisor $D$, we choose some element of its atlas $(U_i,f_i)$ where $\xi_C\in U_i$, and define $\mathrm{ord}_C(D)=\mathrm{ord}_C(f_i)$, and then we can define $\mathrm{cyc}(D)=\sum_C\mathrm{ord}_C(D)\left[C\right]$. This provides the desired correspondance. Like Cartier divisors, we can associate to each Weil divisor $D$, a fractional ideal $\mathcal L$ where
-&lt;/p&gt;
-$$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&gt; which is the same one as the one with the corresponding Cartier divisor.&lt;/p&gt;
-&lt;h2 id=&#34;torsors&#34;&gt;Torsors&lt;/h2&gt;
-&lt;p&gt;For a sheaf $T$ on some $X$ and a sheaf of groups $G$ on $X$, we say $T$ is a $G$-torsor if $G$ acts on $T$ simply transitively and $X$ has an open cover $(U_i)_i$ such that $T(U_i)$ is nonempty for all $i$. The sheaf cohomology $H^1(X,G)$ classifies the $G$-torsors. For a locally free $\mathcal O_X$-module $\mathcal E$ of rank $n$. The sheaf $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)$ is a $\mathrm{GL}_n(\mathcal O_X)$-torsor by $\mathrm{GL}_n(\mathcal O_X)(U)$ acts on $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)(U)$ by $g\cdot u\mapsto u\circ g^{-1}$. We have a bijection between rank $n$ vector bundles and $H^1(X,\mathrm{GL}_n(\mathcal O_X))$, so rank $n$ vector bundles are identified with $\mathrm{GL}_n(\mathcal O_X)$-torsors.&lt;/p&gt;
 </description>
     </item>
     
@@ -5373,12 +4512,73 @@ Math Rock以节奏复杂古怪著称。
     </item>
     
     <item>
+      <title>Bundles and Divisors on Schemes</title>
+      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
+      <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
+      <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Algebra is but written geometry and geometry is but figured algebra.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sophie Germain&lt;/div&gt;&lt;/aside&gt;
+This is an old post from 2023. Recall that for a topological space $X$, a fibre bundle of fibres $F$ where $F$ is a topological space, is a topological space $E$, with a surjective map $\pi: E\rightarrow X$ such that for all $x\in X$, exists an open nbhd $x\in U\subseteq X$ such that there is a homeomorphism $\varphi: \pi^{-1}(U)\rightarrow U\times F$ such that $\mathrm{pr}_U\circ \varphi=\pi|_{\pi^{-1}(U)}$ where $\mathrm{pr}_U:U\times F\rightarrow U$ is the projection onto $U$. Fibre bundles generalize vector bundles and covering spaces. In this post, we interpret this algebraically and generalize this notion to schemes.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;symmetric-algebra-and-quasi-coherent-bundles&#34;&gt;Symmetric Algebra and Quasi-coherent Bundles&lt;/h2&gt;
+&lt;p&gt;Recall that for $M$ an $A$-module, its tensor algebra is the graded algebra $T(M)=\bigoplus_{n\in\mathbb N}T^n(M)$ where $T^n(M)=M^{\otimes n}$. The symmetric algebra is the algebra $\mathrm{Sym}(M)=T(M)/I$ where $I$ is the ideal generated by the set $\{m\otimes n-n\otimes m:m,n\in M\}$, which is a graded algebra $\mathrm{Sym}(M)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(M)$ since $I$ is homogeneous. Note that $\mathrm{Sym}^0(M)=A$ and $\mathrm{Sym}^1(M)=M$, so there is a map $i:\mathrm{Sym}^1(M)=M\rightarrow \mathrm{Sym}(M)$. The symmetric algebra has the universal property that the precomposition $\varphi\mapsto \varphi\circ i$ induces a bijection for every $A$-algebra $B$.&lt;/p&gt;
+$$\mathrm{Hom}_{A-\mathrm{Alg}}(\mathrm{Sym}(M),B)\rightarrow\mathrm{Hom}_{A-\mathrm{Mod}}(M,B)$$&lt;p&gt;Setting $B=\mathrm{Sym}(N)$, we see from this that we can find $\mathrm{Sym}(u):\mathrm{Sym}(M)\rightarrow\mathrm{Sym}(N)$ which is a graded morphism, so $\mathrm{Sym}$ is a functor from the category of $A$-modules to the category of graded $A$-algebras. We globalize this construction to schemes. Let $X$ be a scheme (a more generally a ringed space), and $\mathcal E$ and $\mathcal O_X$-module, then define the graded $\mathcal O_X$-algebra $\mathrm{Sym}(\mathcal E)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(\mathcal E)$ be the sheafification of $U\mapsto \mathrm{Sym}_{\Gamma(U,\mathcal O_X)}(\Gamma(U,\mathcal E))$, and similarly we have a bijection&lt;/p&gt;
+$$\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathrm{Sym}(\mathcal E), \mathcal A)\rightarrow \mathrm{Hom}_{\mathcal O_X-\mathrm{Mod}}(\mathcal E, \mathcal A)$$&lt;p&gt;Let $\mathcal B$ be a quasicoherent $\mathcal O_X$-algebra. There exists an $X$-scheme $\underline{\mathrm{Spec}}(\mathcal B)$, such that for all $X$-schemes $f:T\rightarrow X$ there are bijections functorial in $T$ of the following form&lt;/p&gt;
+$$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightarrow\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathcal B,f_*\mathcal O_T)$$&lt;p&gt;In other words, the functor $(\mathrm{Sch}/X)^{\mathrm{op}}\rightarrow \mathbf{Set}$ given by $(f: T \rightarrow X) \mapsto \mathrm{Hom}_{\mathcal{O}_X-\mathrm{Alg}}\left(\mathcal{B}, f_* \mathcal{O}_T\right)$ is representable. To see this, we note that this is a sheaf on the Zariski site, since $f_*$ and $\mathrm{Hom}(\mathcal B,-)$ are left-exact. We also have this is covered by representable open subfunctors. More concretely, the points of $\underline{\mathrm{Spec}}(\mathcal B)$ above $x\in X$ is that of $\mathrm{Spec}(\mathcal \Gamma(B,\mathcal O_X)\otimes \kappa(p))$ and the topology above an open affine $U=\mathrm{Spec}(A)$ is $\mathrm{Spec}(\Gamma(U,\mathcal B))$. For every quasi-coherent $\mathcal O_X$-module $\mathcal E$, we define $\mathbb V(\mathcal E)=\underline{\mathrm{Spec}}(\mathrm{Sym}(\mathcal E))$ functorial in $E$ which the call the quasi-coherent bundle associated to $E$. When restricted to locally free $\mathcal O_X$-modules, this functor provides a correspondance to algebraic vector bundles, where algebraic vector bundles are understood as follows,&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A vector bundle of rank $n\in\mathbb N$ on $X$ is an $X$-scheme $V$ with an equivalence class of families $(U_i, c_i)$ where $(U_i)_i$ is an open cover of $V$ and isomorphisms $c_i:V|_{U_i}\rightarrow \mathbb A^{n}_{U_i}$ of $U_i$-schemes, such that for all $i,j$, the automorphisms $c_i\circ c_j:\mathbb A^n_{U_i\cap U_j}\rightarrow \mathbb A^n_{U_i\cap U_j}$ are linear, where two such families, called atlases, are equivalent if their union is an atlas. Moreover, define a morphisms of vector bundles $(V,U_i,c_i)\rightarrow (V^\prime,U^\prime_i,c^\prime_i)$ as a $X$-morphism $f:V\rightarrow V^\prime$ such that $c^\prime_j\circ f\circ c_i^{-1}:\mathbb A^n_{U_i\cap U^\prime_j}\rightarrow \mathbb A^n_{U_i\cap U^\prime_j}$ is linear.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The locally free $\mathcal O_X$-modules are interpreted as sheaf of sections over the vector bundle. More specifically, for a vector bundle $E$ as above, we define a locally free $\mathcal O_X$-module $\mathcal E_V$ as the following. Define the sheaf $\mathcal P( V/X)$ of abelian groups by attaching to $U\subseteq X$ the sections of $V$ over $U$, that is, morphisms $s:U\rightarrow V|_U$ with $f\circ s=\mathrm{id}_U$, and restrictions are given by restrictions of scheme morphisms. Locally, this has the structure of $\mathcal O_X^n$ which gives the module structure. This gives the inverse to $\mathbb V(-)$. This correspondance is part of what is known as Serre-Swan theorem&lt;/p&gt;
+&lt;h2 id=&#34;cartier-divisors-and-weil-divisors&#34;&gt;Cartier Divisors and Weil divisors&lt;/h2&gt;
+&lt;p&gt;It is an important question to determine the configuration of zeros and poles of a rational (or meromorphic) function. Let $X$ be an integral scheme (i.e. reduced and irreducible). We denote by $\mathcal K_X$ the constant sheaf on $X$ with value the function field $K(X)$ of $X$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A Cartier divisor on $X$ is a family $(U_i,f_i)$ where $(U_i)_i$ is an open cover of $X$ and $f_i\in K(X)^\times$ with $f_if_j^{-1}\in \Gamma(U_i\cap U_j,\mathcal O_X^\times) $ for all $i,j$, where two families $(U_i,f_i)$, $(V_i,g_i)$ give rise to the same Cariter divisor if $f_ig_j^{-1}\in\Gamma(U_i\cap V_j,\mathcal O_X^\times)$ for all $i,j$. The Cartier divisors form an abelian group $\mathrm{Div}(X)$, where adding the family $(U_i,f_i)$ and $(V_i,g_i)$ gives $(U_i\cap V_j,f_ig_j)$. A Cartier divisor is principle if it is given by some $(X,f)$, and two divisors $D,E$ are linearly equivalent if $D-E$ is principle.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Alernatively, we can set $\mathrm{Div}(X)=\Gamma(X,\mathcal K_X^\times/\mathcal O_X^\times)$, and principle divisors the ones in the image of $\Gamma(X,\mathcal K_X^\times)$. We call the ones in $\Gamma(X,(\mathcal K_X^\times\cap \mathcal O_X)/\mathcal O_X^\times)$ effective divisors and denote it by $D\ge 0$. Let $\mathrm{Cl}(X)$ denote $\mathrm{Div}(X)$ modulo the principle divisors, which we call the divisor class group. We have a short exact sequence.
+&lt;/p&gt;
+$$1\longrightarrow \Gamma(X,\mathcal O_X)^\times\longrightarrow K(X)\longrightarrow \mathrm{Div}(X) \longrightarrow \mathrm{Cl}(X)\longrightarrow 0$$&lt;p&gt;To a Cartier divisor $D$, we associate the line bundle $\mathcal O_X(D)$ for all open $V\subseteq X$.
+&lt;/p&gt;
+$$\Gamma(V,\mathcal O_X(D))=\{f\in K(X): \forall i,f_if\in \Gamma(U_i\cap V,\mathcal O_X)\}$$&lt;p&gt;This association $D\mapsto \mathcal O_X(D)$ induces an isomorphism $\mathrm{Cl}(X)\cong \mathrm{Pic}(X)$. Call an invertible $\mathcal O_X$-submodule of $\mathcal K_X$ an invertible fractional ideal of $\mathcal O_X$. Then we can associate a Cartier divisor $D$ an invertible fractional ideal $\mathcal F_X(D)$ such that $\mathcal F_X(D) (U_i)=f_i\mathcal O_X$. This correspondance provides an isomorphism between $\mathrm{Div}(X)$ and the invertible fractional ideal on $X$. Cartier divisors considered more geometrically is so called Weil divisors. Let $Z^k(X)$ be the free abelian group generated on the set of closed integral subscheme of codimension $k$. The elements of $Z^1(X)$ are then called Weil divisors and their generators called the prime divisors, and the ones with nonnegative coefficients are called the effective Weil divisors. We now connect Weil divisors with Cartier divisors with a homomorphism $\mathrm{cyc}: \mathrm{Div}(X)\rightarrow Z^1(X) $. To this end, we need to define, for a prime Weil divisor $C$, the order $\mathrm{ord}_C(f)$ for some meromorphic function $f\in \Gamma(U,\mathcal K_X)$ where the generic point $\xi$ of $C$ is contained in $C$. If the local ring $\mathcal O_{X,C}=\mathcal O_{X,\xi}$ is a DVR, for example, when $X$ is normal, then we can just set $\mathrm{ord}_C(f)=\nu (f)$ the normalized discrete valuation of $f$. In general, the local ring is a local noetherian ring of dimension $1$. For a nonzero $f\in \mathrm{Frac}(\mathcal O_{X,C})$ where $f=a/b$ we set $\mathrm{ord}_C(f)=\mathrm{lg}(\mathcal O_{X,C}/(a))-\mathrm{lg}(\mathcal O_{X,C}/(b))$. For a Cartier divisor $D$, we choose some element of its atlas $(U_i,f_i)$ where $\xi_C\in U_i$, and define $\mathrm{ord}_C(D)=\mathrm{ord}_C(f_i)$, and then we can define $\mathrm{cyc}(D)=\sum_C\mathrm{ord}_C(D)\left[C\right]$. This provides the desired correspondance. Like Cartier divisors, we can associate to each Weil divisor $D$, a fractional ideal $\mathcal L$ where
+&lt;/p&gt;
+$$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&gt; which is the same one as the one with the corresponding Cartier divisor.&lt;/p&gt;
+&lt;h2 id=&#34;torsors&#34;&gt;Torsors&lt;/h2&gt;
+&lt;p&gt;For a sheaf $T$ on some $X$ and a sheaf of groups $G$ on $X$, we say $T$ is a $G$-torsor if $G$ acts on $T$ simply transitively and $X$ has an open cover $(U_i)_i$ such that $T(U_i)$ is nonempty for all $i$. The sheaf cohomology $H^1(X,G)$ classifies the $G$-torsors. For a locally free $\mathcal O_X$-module $\mathcal E$ of rank $n$. The sheaf $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)$ is a $\mathrm{GL}_n(\mathcal O_X)$-torsor by $\mathrm{GL}_n(\mathcal O_X)(U)$ acts on $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)(U)$ by $g\cdot u\mapsto u\circ g^{-1}$. We have a bijection between rank $n$ vector bundles and $H^1(X,\mathrm{GL}_n(\mathcal O_X))$, so rank $n$ vector bundles are identified with $\mathrm{GL}_n(\mathcal O_X)$-torsors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Magic Tricks</title>
       <link>http://localhost:1313/posts/magic-tricks/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/magic-tricks/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
+&lt;p&gt;�&lt;/p&gt;
 </description>
     </item>
     
@@ -5711,58 +4911,6 @@ Math Rock以节奏复杂古怪著称。
     </item>
     
     <item>
-      <title>Anime</title>
-      <link>http://localhost:1313/posts/anime/</link>
-      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/anime/</guid>
-      <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0426711/&#34;&gt;&lt;em&gt;Hikaru no Go&lt;/em&gt; (2001)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2098308/&#34;&gt;&lt;em&gt;Nichijou&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3592032/&#34;&gt;&lt;em&gt;Ping Pong the Animation&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0290223/&#34;&gt;&lt;em&gt;Inuyasha&lt;/em&gt; (2000)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0810705/&#34;&gt;&lt;em&gt;NANA&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;anime-i-recommend&#34;&gt;Anime I Recommend&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1355642/&#34;&gt;&lt;em&gt;Fullmetal Alchemist: Brotherhood&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0994314/&#34;&gt;&lt;em&gt;Code Geass&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10233448/&#34;&gt;&lt;em&gt;Vinland Saga&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8515062/&#34;&gt;&lt;em&gt;Asobi Asobase&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3895150/&#34;&gt;&lt;em&gt;Your Lie in April&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0213338/&#34;&gt;&lt;em&gt;Cowboy Bebop&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1773185/&#34;&gt;&lt;em&gt;Puella Magi Madoka Magica&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3358020/&#34;&gt;&lt;em&gt;Parasyte: The Maxim&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3837246/&#34;&gt;&lt;em&gt;Assassination Classroom&lt;/em&gt; (2013)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2340841/&#34;&gt;&lt;em&gt;Hyouka&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2321542/&#34;&gt;&lt;em&gt;Love, Chunibyo &amp;amp; Other Delusions&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt13706018/&#34;&gt;&lt;em&gt;Spy x Family&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt16755706/&#34;&gt;&lt;em&gt;Lycoris Recoil&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt30217403/&#34;&gt;&lt;em&gt;Dandadan&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0423731/&#34;&gt;&lt;em&gt;Samurai Champloo&lt;/em&gt; (2004)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0112159/&#34;&gt;&lt;em&gt;Neon Genesis Evangelion&lt;/em&gt; (1995)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0877057/&#34;&gt;&lt;em&gt;Death Note&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt26743760/&#34;&gt;&lt;em&gt;The Apothecary Diaries&lt;/em&gt; (2023)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt21621494/&#34;&gt;&lt;em&gt;Delicious in Dungeon&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6074794/&#34;&gt;&lt;em&gt;March Comes in Like a Lion&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10384610/&#34;&gt;&lt;em&gt;Scissor Seven&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt32766897/&#34;&gt;&lt;em&gt;Ranma 1/2&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1515996/&#34;&gt;&lt;em&gt;A Certain Scientific Railgun&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&#39;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1158671/&#34;&gt;&lt;em&gt;Spice and Wolf&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8253044/&#34;&gt;&lt;em&gt;Hinamatsuri&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt5897304/&#34;&gt;&lt;em&gt;Mob Psycho 100&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt38491451/&#34;&gt;&lt;em&gt;Tatsuki Fujimoto 17-26&lt;/em&gt; (2025)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt7155052/&#34;&gt;&lt;em&gt;Tsuredure Children&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2341375/&#34;&gt;&lt;em&gt;Kids on the Slope&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0500092/&#34;&gt;&lt;em&gt;Serial Experiments Lain&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Music</title>
       <link>http://localhost:1313/posts/music/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
@@ -5807,6 +4955,856 @@ Math Rock以节奏复杂古怪著称。
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/black-myth-wukong&#34;&gt;&lt;em&gt;Black Myth: Wukong&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/sekiro-shadows-die-twice&#34;&gt;&lt;em&gt;Sekiro: Shadow Die Twice&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.igdb.com/games/god-of-war--1&#34;&gt;&lt;em&gt;God of War&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Derived Category</title>
+      <link>http://localhost:1313/posts/derived-cat/</link>
+      <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/derived-cat/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— David Mumford&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2023. Continuing last week, we are finally going to define the derived category $D(\mathcal A)$ for an abelian category $\mathcal A$. Before we actually do that, we need to introduce localization of categories, and we will define the derived category in terms of a localization of the homotopy category of complexes. Localization of categories is very analogous to localization of rings or modules. Given any category (with no assumption of abelian, additive, triangulated, etc), we formally invert a class of morphisms. We will give one definition in terms of a localization construction and show that it is unsatisfactory in that it does not have a lot of useful and desirable properties. We will then develop a better description of derived categories in terms of roofs.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $\mathcal A$ be a category and $S$ a class of morphisms of it, then define its localization as a category $\mathcal A[S^{-1}]$ and a functor $Q:\mathcal A\rightarrow A[S^{-1}]$ s.t. $Q(s)$ is an isomorphism for all $s\in S$ and $Q$ is universal w.r.t. this property, i.e. if the functor $F:\mathcal A\rightarrow\mathcal B$ is such that $F(s)$ is an isomorphism for each $s$, then there exists a unique functor $G:\mathcal A[S^{-1}]\rightarrow\mathcal B$ s.t. $F=G\circ Q$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The way we obtain a construction that satisfies this universal property is quite convoluted. We define it this way. Let $\mathcal A[S^{-1}]$ have the same objects as $\mathcal A$. For each $X,Y\in\mathcal A[S^{-1}]$, let a directed edge between them be a morphism $f\in\mathrm{Hom}(X,Y)$ or if $s\in S\cap \mathrm{Hom}(X,Y)$, an edge in the opposite direction $s:Y\rightarrow X$. A path between two objects $M,N\in A[S^{-1}]$ is a sequence of directed edges $M=L_0, L_1,\dots,L_n=N$, where the direction does not need to be the same. We define $\mathrm{Hom}(M,N)$ as the equivalence class of paths where two paths are equivalent if they can be transformed to each other via a sequence of the following transformations.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;for $X\xrightarrow{f}Y\xrightarrow{g}Z$, replace with $X\xrightarrow{gf}Z$,&lt;/li&gt;
+&lt;li&gt;for $X\xrightarrow{s} Y\xleftarrow{s}X$ where $s\in S$, replace with $X\xrightarrow{\mathbf{1}_X} X$,&lt;/li&gt;
+&lt;li&gt;for $Y\xleftarrow{s} X\xrightarrow{s}Y$ where $s\in S$, replace with $Y\xrightarrow{\mathbf{1}_Y} Y$,&lt;/li&gt;
+&lt;li&gt;for $X\xrightarrow{\mathbf{1}_X}X\xleftarrow{s} Y$, replace with $X\xleftarrow{s}Y$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Long story short, this is a well defined equivalence relation, so it forms a category where composition is concatonation. For the localization functor $Q:\mathcal A\rightarrow \mathcal A[S^{-1}]$, it sends objects to themselves, and morphisms to the equivalence class with the path being the single morphism. Here we should give extra care that the arrows can some times mean directed edges, and is $Y\leftarrow X$ can mean a path from $Y$ to $X$, only with the directed edge in the opposite direction. We can verify that this indeed satisfies the universal property of localization. We may also check that by this localization construciton, one can write morphisms in the form &lt;/p&gt;
+$$\left(Q\left(f_1\right) \circ Q\left(s_1\right)^{-1}\right) \circ \cdots \circ\left(Q\left(f_n\right) \circ Q\left(s_n\right)^{-1}\right)$$&lt;p&gt;
+where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\mathcal A$ is a class of morphisms such that&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;all identity morphisms are in $S$.&lt;/li&gt;
+&lt;li&gt;if two morphisms in $S$ compose, then their composition in in $S$.&lt;/li&gt;
+&lt;li&gt;for any $f:M\rightarrow N$ and $s:L\rightarrow N$ with $s\in S$, exists $g:K\rightarrow L$ and $t:K\rightarrow M$ with $t\in S$ s.t.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwxLCJNIl0sWzAsMCwiSyJdLFsxLDAsIkwiXSxbMSwxLCJOIl0sWzEsMCwidCIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDMsImYiLDJdLFsyLDMsInMiXSxbMSwyLCJnIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 180px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;commutes.
+4. for any $f:N\rightarrow M$ and $s:N\rightarrow L$ with $s\in S$, exists $g:L\rightarrow K$ and $t:M\rightarrow K$ with $t\in S$ s.t.&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwxLCJNIl0sWzAsMCwiSyJdLFsxLDAsIkwiXSxbMSwxLCJOIl0sWzAsMSwidCIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFszLDAsImYiXSxbMywyLCJzIiwyXSxbMiwxLCJnIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 180px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;commutes.
+5. for any morphisms $f,g:M\rightarrow N$, we have $\exists s\in S, sf=sg \Longleftrightarrow \exists t\in S, ft=gt$&lt;/p&gt;
+&lt;p&gt;This is the categorification of the notion of denominator set when localizing non-commutative rings, see &lt;a href=&#34;https://en.wikipedia.org/wiki/Ore_condition&#34;&gt;Ore condition&lt;/a&gt;. In fact a ring can be viewed as an additive category (by delooping). The localizing classes are classes of &amp;quot;nice&amp;quot; morphisms to localize at for which we could develop a description of roofs.&lt;/p&gt;
+&lt;p&gt;For a category $\mathcal A$ and a localizing class $S$. A morphism $Q(f)\circ Q(s)^{-1}$ in $\mathcal A[S^{-1}]$ is represented by a left roof, which is a diagram $M\xleftarrow{s}L\xrightarrow{f}N$, and a morphism $Q(t)^{-1}\circ Q(g)$ with $t\in S$ is represented by a right roof which is a diagram $M\xrightarrow{g}L\xleftarrow{t}N$. We say that the two left roofs $M\xleftarrow{s}L\xrightarrow{f}N$ and $M\xleftarrow{t}K\xrightarrow{g}N$ are equivalent if there exists $p:H\rightarrow L$ and $q:H\rightarrow K$ such that $sp,tq\in S$ and the diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNSxbMiwwLCJIIl0sWzEsMSwiTCJdLFszLDEsIksiXSxbMCwyLCJNIl0sWzQsMiwiTiJdLFswLDEsInAiLDJdLFswLDIsInEiXSxbMSwzLCJzIiwyXSxbMiw0LCJnIl0sWzIsMywidCJdLFsxLDQsImYiLDJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 350px;
+      height: 250px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;commutes. We can show that this is an equivalence relation. The only difficult part is transitivity. This can be done using a diagram chasing argument. We can also define composition of roofs. The composition of the previous two roofs is defined as a composition of the diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNixbMiwwLCJVIl0sWzEsMSwiTCJdLFszLDEsIksiXSxbMCwyLCJNIl0sWzIsMiwiTiJdLFs0LDIsIlAiXSxbMCwxLCJsIiwyXSxbMCwyLCJrIl0sWzEsMywicyIsMl0sWzEsNCwiZiJdLFsyLDQsInQiLDJdLFsyLDUsImciXV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 350px;
+      height: 250px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;where $U$ and the associated maps are induced from the fact that $S$ is a localizing class. We could check that these satisfies all the desirable properties of a composition. Composition respects equivalence of roofs, is associative, and has an identity given by $M\xleftarrow{\mathbf{1}_M} M\xrightarrow{\mathbf{1}_M} M$. One can check that the category of (equivalence classes of) left roofs $\mathcal A_S$ is equivalent to right roofs, so we might as well just work with left roofs. We define a functor $Q:\mathcal A\rightarrow \mathcal A_S$ by letting it be identity on objects and for each morphism $f:M\rightarrow N$, let $Q(f)$ be the equivalence class of roofs $M\xleftarrow{\mathbf 1_M}M\xrightarrow{f} N$. This satisfies the universal property of localization, hence isomorphic to $\mathcal A[S^{-1}]$.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For $S$ a localizing class of category $\mathcal A$, the category $\mathcal A_S$ and functor $Q:\mathcal A\rightarrow \mathcal A_S$ satisfies the universal property of localization, i.e. $Q(s)$ is an isomorphism for each $s\in S$ and is universal w.r.t. it.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    For the first property, $M\xleftarrow{\mathbf{1}_M}M\xrightarrow{s}N$ has an inverse $N\xleftarrow{s}M\xrightarrow{\mathbf{1}_M}M$. Next, suppose $F:\mathcal A\rightarrow \mathcal B$ is such that $F(s)$ is an isomorphism for all $s\in S$, define functor $G:\mathcal A_S\rightarrow \mathcal B$ as identity on objects, and for morphisms, the following. If $\phi:M\rightarrow N$ in $\mathcal A_S$, choose a representing roof $M\xleftarrow{s}L\xrightarrow{f}N$, and define $G(\phi)=F(f)\circ F(s)^{-1}$. It&#39;s not immediately obvious that this is well defined on equivalence classes, but we omit the verification. This obviously satisfies $F=G\circ Q$. It is left to the reader to verify that $G$ respects composition, which is the last piece of verification necessary.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;If $\mathcal A$ is an additive category, then localizing it would also have an additive structure. In fact if $\mathcal A$ is additive, we may restate the last axiom of localizing class as: for $f:M\rightarrow N$ exists $\exists s\in S, sf=0\Longleftrightarrow \exists t\in S, tf=0$. And the inherited additive structure is the obvious one. It is not trivial to check that it is well defined, but again we ommit the verification. Again everything works out as we expected, biproducts, zero objects are preserved, and localization functor is additive. We can also check that $f=0$ in the localization iff exists $t\in S$ with $tf=0$ iff exists $t\in S$ with $ft=0$, and $M=\mathbf 0$ in the localization iff exists $N\in\mathcal A$ with $(N\xrightarrow{0}M)\in S$ iff exists $N\in\mathcal A$ with $(M\xrightarrow{0}N)\in S$. These are easy to prove and left as an exercise. Similarly, one can show the localization of abelian categories is abelian.&lt;/p&gt;
+&lt;p&gt;Given a triangulated category, a natural question to ask is: when is a localization of it also triangulated? In other words, when is the localizing class compatible with triangulation? For a localizing class $S$ in the triangulated category $\mathcal C$, the localization is compatible with triangulation if the following conditions hold&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;for each morphism $f$, we have $f\in S$ iff $f[1]$ in $S$.&lt;/li&gt;
+&lt;li&gt;a diagram with $s,t\in S$ and distinguished rows&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsNCwicyJdLFsxLDUsInQiXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywic1sxXSJdLFswLDFdLFsxLDJdLFsyLDNdLFs0LDVdLFs1LDZdLFs2LDddXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;can be completed to a morphism of distinguished triangles.&lt;/p&gt;
+&lt;p&gt;We can show that if these conditions hold then the localization $\mathcal C[S^{-1}]$ inherits the triangulated structure $QT_{\mathcal C}$, and a triangle is distinguished if it is isomorphic to an image of a distinguished triangle. One can show that a cohomological functor on $\mathcal C$ induces a corresponding cohomological functor on $\mathcal C[S^{-1}]$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    The derived category $D(\mathcal A)$ of an abelian categroy $\mathcal A$ is the localization $K(\mathcal A)[S^{-1}]$ where $S$ is the class of quasi-isomorphisms. Let $D^{+}(\mathcal A),D^{-}(\mathcal A),D^{b}(\mathcal A)$ be the full subcategory of $D(\mathcal A)$ to the bounded below, bounded above, and bounded complexes.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It is an arduous process to verify that the class of quasi-isomorphisms is a localizing class compatible with triangulation, which the readers can do in their own time.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For an abelian category $\mathcal A$, the functor $\mathcal A\rightarrow D(\mathcal A)$ by $X\mapsto X$ is fully faithful.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    I will prove this later.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Abelian Categories and Derived Functors</title>
+      <link>http://localhost:1313/posts/abelian-cat-and-derived-cat/</link>
+      <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/abelian-cat-and-derived-cat/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Stefan Banach&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post reposted from 2023. I have always been curious about derived categories. I want this post to be the first part in several parts of my notes. In this first part, we will focus on abelian categoires, derived functors, and homotopy category of complexes. We begin by reviewing abelian categories and their properties. In particular, the (co)chain complexes in an abelian category and their related notions. After that, we define derived functors. Eventually, we finish by defining the homotopy category of complexes $K(\mathcal A)$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;An &lt;em&gt;additive category&lt;/em&gt; $\mathcal C$ is a category where for each $A,B\in\mathcal C$, the morphisms $\mathrm{Mor}(A,B)$ carry an additional additive abelian group structure, and satisfies&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\mathcal C$ admits zero object,&lt;/li&gt;
+&lt;li&gt;$\mathcal C$ admits finite products and finite coproducts which coincide, and&lt;/li&gt;
+&lt;li&gt;addition is distributive, i.e. $g\circ (f_1+f_2)=g\circ f_1+g\circ f_2$ and $(f_1+f_2)\circ g=f_1\circ g+ f_2\circ g$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We use the notation $\mathrm{Hom}(A,B)$ for $\mathrm{Mor}(A,B)$ in additive categories to emphasize that the morphisms have an abelian group structure. An &lt;em&gt;additive functor&lt;/em&gt; $\mathcal F:\mathcal C\rightarrow\mathcal D$ between additive categories is a functor such that the associated map $\mathrm{Hom}(A,B)\rightarrow \mathrm{Hom}(\mathcal F(A),\mathcal F(B))$ is a group homomorphism for each $A,B\in\mathcal C$. Moreover, we denote by $0_{A,B}$ (or $0$ if there is no confusion) the identity element of $\mathrm{Hom}(A,B)$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note $0_{A,B}$ is the zero morphism since it&#39;s the unique morphism $A\rightarrow B$ which factors through $\mathbf 0$, i.e. $A\rightarrow\mathbf 0\rightarrow B$.  In particular, note that $0_{A,B}\circ f=0_{X,A}$ and $g\circ 0_{A,B}=0_{B,X}$ for any $f:X\rightarrow A$ and $g:B\rightarrow X$, for any object $X$. We note that equivalently, an additive functor maybe defined as a functor that preserves all finite biproducts.&lt;/p&gt;
+&lt;p&gt;We recall that in a category $\mathcal C$, the equalizer $\mathrm{Eq}(f,g)$ of morphisms $f,g:A\rightarrow B$ is an object $E\in\mathcal C$ and a morphism $e:E\rightarrow A$ s.t. the diagram $E\rightarrow A\rightrightarrows B$ commutes and is universal with respect to this construction. Dually, the coequalizer $\mathrm{Coeq}(f,g)$ is an object $Q\in\mathcal C$ and a morphism $q:B\rightarrow Q$ s.t. the diagram $ A\rightrightarrows B\rightarrow Q$ commutes and is universal with respect to this construction. In an additive category, for a morphism $f:A\rightarrow B$, define its kernel $\mathrm{Ker}(f)=\mathrm{Eq}(f,0_{A,B})$, cokernel $\mathrm{Coker}(f)=\mathrm{Coeq}(f,0_{A,B})$. Spelled out explicitly, a kernel of $f:A\rightarrow B$ is an object $K$ and a morphism $k:K\rightarrow A$ such that $f\circ k=0_{K,B}$, and given any $K^\prime$ and $k^\prime:K^\prime\rightarrow A$ with $f\circ k^\prime=0_{K^\prime,B}$, there exists unique $u:K^\prime\rightarrow K$ s.t. $k\circ u=k^\prime$.
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMSwwLCJBIl0sWzIsMCwiQiJdLFswLDAsIksiXSxbMCwxLCJLXlxccHJpbWUiXSxbMCwxLCJmIl0sWzIsMCwiayJdLFsyLDEsIjBfe0ssQn0iLDAseyJjdXJ2ZSI6LTN9XSxbMywwLCJrXlxccHJpbWUiLDIseyJsYWJlbF9wb3NpdGlvbiI6NjB9XSxbMywxLCIwX3tLXlxccHJpbWUsQn0iLDIseyJjdXJ2ZSI6Mn1dLFszLDIsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 100%;
+      height: 190px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Dually, a cokernel of $f:A\rightarrow B$ is an object $Q$ with a morphism $q:B\rightarrow Q$ with $q\circ f=0_{A,Q}$, such that for any object $Q^\prime$ and morphism $q^\prime:B\rightarrow Q$ with $q^\prime\circ f=0_{A,Q^\prime}$, there exists unique $u:Q\rightarrow Q^\prime$ such that $q^\prime=u\circ q$.
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQiJdLFsyLDAsIlEiXSxbMiwxLCJRXlxccHJpbWUiXSxbMCwxLCJmIl0sWzEsMiwicSJdLFsxLDMsInFeXFxwcmltZSIsMl0sWzIsMywidSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDIsIjBfe0EsUX0iLDAseyJjdXJ2ZSI6LTN9XSxbMCwzLCIwX3tBLFFeXFxwcmltZX0iLDIseyJjdXJ2ZSI6Mn1dXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 100%;
+      height: 190px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Recall a subobject of an object $X$ is an object $A$ with a monomorphism $A\hookrightarrow X$, and a quotient object of $X$ is an object $Q$ with an epimorphism $X\twoheadrightarrow Q$. We remark that $\mathrm{Ker}(f)$ is a subobject of $A$ and $\mathrm{Coker}(f)$ is a quotient object of $B$, when they exist (it is an easy exercise to show equalizers are monic and coequalizers are epic).&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;An &lt;em&gt;abelian category&lt;/em&gt; is an additive category where&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;every morphism has a kernel and a cokernel,&lt;/li&gt;
+&lt;li&gt;every monomorphism is the kernel of its cokernel, and&lt;/li&gt;
+&lt;li&gt;every epimorphism is the cokernel of its kernel.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Moreover, in an abelian category, for any morphism $f:A\rightarrow B$, we define its image as the kernel of its cokernel $\mathrm{Im}(f)=\mathrm{Ker}(\mathrm{Coker}(f))$, and coimage as the cokernel of its kernel $\mathrm{Coim}(f)=\mathrm{Coker}(\mathrm{Ker}(f))$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A quintessential example of an abelian category is the category of $R$-modules. In fact, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem&#34;&gt;Freyd–Mitchell embedding theorem&lt;/a&gt; states that any abelian category can be embedded to the category of $R$-modules for some $R$ via a fully faithful functor. So we may use element-wise diagram chasing in abelian categories, which may help us derive diagram chasing theorems such as $5$-lemma and snake lemma. In an abelian category, all finite limits and colimits exist, in particular, pullbacks exist and they preserve monomorphisms and epimorphisms.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;In an abelian category,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a morphism $f:A\rightarrow B$ is monic iff $\mathrm{Ker}(f)=\mathbf 0$, and epic iff $\mathrm{Coker}(f)=\mathbf 0$,&lt;/li&gt;
+&lt;li&gt;a morphism $f:A\rightarrow B$ is an isomorphism iff it is monic and epic,&lt;/li&gt;
+&lt;li&gt;each morphism $f:X\rightarrow Y$ factorizes canonically as $X\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow Y$ and $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$&lt;/li&gt;
+&lt;li&gt;for a morphism $f:A\rightarrow B$, if it factorizes as $A\twoheadrightarrow X\rightarrow B$ then $\mathrm{Coker}(f)=\mathrm{Coker}(X\rightarrow B)$, and if it factorizes as $A\rightarrow X\hookrightarrow B$, then $\mathrm{Ker}(f)=\mathrm{Ker}(A\rightarrow X)$.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;ol&gt;
+&lt;li&gt;Left as an exercise.&lt;/li&gt;
+&lt;li&gt;Left as an exercise.&lt;/li&gt;
+&lt;li&gt;We will only prove the factorization $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$, and the other one can be proved dually. First, we have $\mathrm{Ker}(f)\hookrightarrow X\rightarrow Y$ is zero and $\mathrm{Ker}(f)\hookrightarrow X\twoheadrightarrow \mathrm{Coim}(f)$ is zero, so we have a factorization $X\twoheadrightarrow \mathrm{Coim}(f)\rightarrow Y$ by the universal property of cokernels. It remains to show that $\beta:\mathrm{Coim}(f)\rightarrow Y$ is a monomorphism. Suppose $\varphi_1,\varphi_2:Z\rightarrow \mathrm{Coim}(f)$ with $\beta\circ \varphi_1=\beta\circ \varphi_2$, therefore $\beta\circ \sigma=0$ where $\sigma=\varphi_1-\varphi_2$. Consider the pullback $W=X\times_{\mathrm{Coim}(f)}Z$ with $\tau:W\rightarrow Z$ and $\pi:W\rightarrow X$ of the maps $\mathrm{Coim}(f)$ and $\sigma$. We note that $f\circ\pi=\beta\circ\mathrm{Coim}(f)\circ \pi=\beta\circ\sigma\circ\tau=0$, so $\pi$ factors through $\mathrm{Ker}(f)$ by $W\rightarrow \mathrm{Ker}(f)\hookrightarrow X$ say $w:W\rightarrow \mathrm{Ker}(f)$. Therefore, $\sigma\circ\tau=\mathrm{Coim}(f)\circ \mathrm{Ker}(f)\circ w=0\circ w=0$. Since pullbacks preserve epimorphisms, $\tau$ is epic. Thus $\sigma\circ\tau=0$ implies $\sigma=0$, so $\varphi_1=\varphi_2$.&lt;/li&gt;
+&lt;li&gt;Left as an exercise.&lt;/li&gt;
+&lt;/ol&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;For a morphism $f:A\rightarrow B$ in an abelian category, we factor $f:A\rightarrow B$ canonically as $A\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow B$, and since $A\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow B\rightarrow \mathrm{Coker}(f)$ is zero and $A\twoheadrightarrow \mathrm{Coim}(f)$ is epic, $\mathrm{Coim}(f)\hookrightarrow B\rightarrow \mathrm{Coker}(f)$ is zero, so we can factor $\mathrm{Coim}(f)\hookrightarrow B$ as $\mathrm{Coim}(f)\rightarrow \mathrm{Im}(f)\hookrightarrow B$. We denote by $\overline{f}:\mathrm{Coim}(f)\rightarrow \mathrm{Im}(f)$ the map induced by this factorization, and say $f$ is &lt;em&gt;strict&lt;/em&gt; if $\overline{f}$ is an isomorphism.&lt;/p&gt;
+&lt;!-- --&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First isomorphism theorem)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    In an abelian category, all morphisms are strict.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Suppose $f:A\rightarrow B$ is a morphism in an abelian category, and factorize as $A\twoheadrightarrow\mathrm{Coim}(f)\hookrightarrow B$. By Lemma 3, $\mathrm{Coker}(f)=\mathrm{Coker}(\mathrm{Coim}(f)\hookrightarrow B)$. Since $\mathrm{Coim}(f)\hookrightarrow B$ is monic, it is the kernel of its cokernel, so it is the kernel of $\mathrm{Coker}(f)$. Since $\mathrm{Im}(f)\hookrightarrow B$ in our construction is also the kernel of $\mathrm{Coker}(f)$, the induced map $\overline{f}$ is an isomorphism by the universal property of kernels.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;In an abelian category, suppose $f:A\rightarrow B$ and $g:B\rightarrow C$ are such that $g\circ f=0$. We factor $A\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow B$, and since $A\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow B\rightarrow C$ is zero and $A\twoheadrightarrow\mathrm{Im}(f)$ is epic, we have $\mathrm{Im}(f)\hookrightarrow B\rightarrow C$ is zero. Thus, we can factor $\mathrm{Im}(f)\hookrightarrow B$ as $\mathrm{Im}(f)\rightarrow \mathrm{Ker}(g)\hookrightarrow B$, and the map $\mathrm{Im}(f)\rightarrow \mathrm{Ker}(g)$ is the &lt;em&gt;canonical map&lt;/em&gt;. We say such sequence $A\rightarrow B\rightarrow C$ is &lt;em&gt;exact&lt;/em&gt; if the canonical map is an isomorphism. More generally, a sequence $d_A^i:A^i\rightarrow A^{i+1}$
+&lt;/p&gt;
+$$\cdots\longrightarrow A^{i-1}\xrightarrow{\ d^{i-1}_A\ } A^i\xrightarrow{\ \ d^{i}_A\ \ }  A^{i+1}\longrightarrow\cdots$$&lt;p&gt;
+is called a &lt;em&gt;(co)chain complex&lt;/em&gt; if each three term subsequence compose to zero, and exact or acyclic if each three term subsequence is exact. A &lt;em&gt;chain map&lt;/em&gt; $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a commutative diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzEsMCwiQV57aS0xfSJdLFsyLDAsIkFee2l9Il0sWzMsMCwiQV57aSsxfSJdLFs0LDAsIlxcY2RvdHMiXSxbMCwwLCJcXGNkb3RzIl0sWzAsMSwiXFxjZG90cyJdLFsxLDEsIkJee2ktMX0iXSxbMiwxLCJCXntpfSJdLFszLDEsIkJee2krMX0iXSxbNCwxLCJcXGNkb3RzIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsMF0sWzUsNl0sWzYsN10sWzcsOF0sWzgsOV0sWzAsNiwiZl57aS0xfSIsMl0sWzEsNywiZl57aX0iLDJdLFsyLDgsImZee2krMX0iLDJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 375px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;A chain homotopy is a collection of maps $h^i:A^i\rightarrow B^{i-1}$ s.t. $f^i-g^i=d^{i-1}_B\circ h^i+h^{i+1}\circ d^i_A$ for all $i$, illustrated by&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzAsMCwiXFxjZG90cyJdLFsxLDAsIkFee2ktMX0iXSxbMiwwLCJBXmkiXSxbMywwLCJBXntpKzF9Il0sWzQsMCwiXFxjZG90cyJdLFswLDEsIlxcY2RvdHMiXSxbMSwxLCJCXntpLTF9Il0sWzIsMSwiQl5pIl0sWzMsMSwiQl57aSsxfSJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxXSxbMSwyXSxbMiwzXSxbMyw0XSxbNSw2XSxbNiw3XSxbNyw4XSxbOCw5XSxbMSw2LCIiLDAseyJjdXJ2ZSI6MX1dLFsyLDcsIiIsMCx7ImN1cnZlIjoxfV0sWzMsOCwiIiwwLHsiY3VydmUiOjF9XSxbMiw2LCIiLDEseyJjb2xvdXIiOlswLDYwLDYwXX1dLFszLDcsIiIsMSx7ImNvbG91ciI6WzAsNjAsNjBdfV0sWzEsNiwiIiwwLHsiY3VydmUiOi0xfV0sWzIsNywiIiwwLHsiY3VydmUiOi0xfV0sWzMsOCwiIiwwLHsiY3VydmUiOi0xfV1d&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 375px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;which typically does NOT commute. We write $f^\bullet\simeq g^\bullet$ if they are &lt;em&gt;chain homotopic&lt;/em&gt;, and we say $A^\bullet$ and $B^\bullet$ are &lt;em&gt;chain homotopy equivalent&lt;/em&gt; if there are chain maps $f^\bullet:A\rightarrow B$ and $g^\bullet:B\rightarrow A$ s.t. $f^\bullet\circ g^\bullet \simeq \mathbf{1}_{B^\bullet}$ and $g^\bullet\circ f^\bullet \simeq \mathbf{1}_{A^\bullet}$, in which case $f^\bullet$ are $g^\bullet$ called &lt;em&gt;homotopy pseudo-inverses&lt;/em&gt;. If $A$ is a category, let $C(\mathcal A)$ be the category of chain complexes in $\mathcal A$ with chain maps are morphisms. If $\mathcal A$ is additive, then $C(\mathcal A)$ inherits an obvious group structure on its morphisms, and they make it an additive category as well. Also, if $\mathcal A$ is abelian then so is $C(\mathcal A)$. Let $C^+(\mathcal A)$ be the full subcategory of $C(\mathcal A)$ where the complexes are bounded below (exists $N\in\mathbb Z$ s.t. $A^i=\mathbb 0$ for $i &lt; N $), and similarly $C^-(\mathcal A)$ is the full subcategory $C(\mathcal A)$ where the complexes are bounded above. Let $C^b(\mathcal A)$ be the full subcategory of $C(\mathcal A)$ where the complexes are bounded below and above.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $A^\bullet$ be a cochain complex in $\mathcal A$ with canonical morphisms $\mathrm{Im}(d^{n-1})\rightarrow\mathrm{Ker}(d^{n})$, define
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+$$H^n(A^\bullet)=\mathrm{Coker}(\mathrm{Im}(d^{n-1})\rightarrow\mathrm{Ker}(d^{n}))$$&lt;p&gt;
+as the $n$-th cohomology object. In fact, for a chain map $f^\bullet: A^\bullet\rightarrow B^\bullet$, we associate an induced morphism $H^nf^\bullet:H^n(A^\bullet)\rightarrow H^n(B^\bullet)$, which makes $H^n$ an additive functor $C(\mathcal A)\rightarrow\mathcal A$. Moreover, $f^\bullet$ is said to be a &lt;em&gt;quasi-isomorphism&lt;/em&gt; if $H^nf^\bullet$ is an isomorphism for all $n\in\mathbb Z$.&lt;/p&gt;
+&lt;p&gt;Let $\mathcal A$ be an abelian category. The &lt;em&gt;translation functor&lt;/em&gt; $T:C(\mathcal A)\rightarrow C(\mathcal A)$ sends a complex $A^\bullet =(A^i,d^i)$ to the complex $T(A^\bullet) =(A^{i+1},-d^{i+1})$, and $T(f^\bullet):T(A^\bullet)\rightarrow T(B^\bullet)$ for $f^\bullet:A^\bullet\rightarrow B^\bullet$ is given by $T(f^\bullet)^i=f^{i+1}$. The functor essentially shifts the complex left by one, where the negative sign of the differential is a convention useful later. We denote by $A^\bullet[n]=T^n(A^\bullet)$ for $n\in\mathbb Z$ (negative integers correspond to right translations). The right truncation functor $\tau_{\le n}:C(\mathcal A)\rightarrow C^-(\mathcal A)$ sends a complex in the following way&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzIsMCwiQV5uIl0sWzIsMSwiXFxtYXRocm17S2VyfShkXntufSkiXSxbMSwwLCJBXntuLTF9Il0sWzMsMCwiQV57bisxfSJdLFsxLDEsIkFee24tMX0iXSxbMywxLCJcXG1hdGhiZnswfSJdLFs0LDAsIlxcY2RvdHMiXSxbMCwwLCJcXGNkb3RzIl0sWzAsMSwiXFxjZG90cyJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzIsMF0sWzAsM10sWzQsMSwiIiwyLHsiY29sb3VyIjpbMCw2MCw2MF19XSxbMSw1XSxbMyw2XSxbNywyXSxbOCw0XSxbNSw5XV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 375px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;where the red arrow is induced via universal property. The functor $\tau_{\le n}:C(\mathcal A)\rightarrow \mathcal A$ sends the morphisms in the obvious way. Moreover, we have a canonical monomorphism $\tau_{\le n}(A^\bullet)\rightarrow A^\bullet$ which induces isomorphisms on their cohomology objects. The left truncation functor $\tau_{\ge n}:C(\mathcal A)\rightarrow C^+(\mathcal A)$ is defined dually.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a morphism in $C(\mathcal A)$ for some abelian category $\mathcal A$. The &lt;em&gt;cone&lt;/em&gt; of $f^\bullet$ is $\mathrm{Cone}(f^\bullet)=A^\bullet[1]\oplus B^\bullet$. Spelled out explicitly, the cochain complex consists of objects $A^{n+1}\oplus B^n$, and the differential $d^n:A^{n+1}\oplus B^n\rightarrow A^{n+2}\oplus B^{n+1}$ is given by
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+$$d^n=\begin{pmatrix}-d_{A^\bullet}^{n+1}&amp;0\\\ f^{n+1}&amp; d_{B^\bullet}^n\end{pmatrix}$$&lt;p&gt;
+acting as though on column vectors.&lt;/p&gt;
+&lt;p&gt;We remark that a short exact sequence of complexes induces a long exact sequence of cohomology. Say we have
+&lt;/p&gt;
+$$\mathbf 0\longrightarrow A^{\bullet}\xrightarrow{\ f^{\bullet}\ } B^\bullet\xrightarrow{\ g^\bullet\ }  C^\bullet\longrightarrow\mathbf 0$$&lt;p&gt;
+a short exact sequence of complexes, then for each $n$, exists $\delta^n:H^n(C^\bullet)\rightarrow H^{n+1}(A^\bullet)$ making
+&lt;/p&gt;
+$$\cdots\rightarrow H^n(A^\bullet)\rightarrow H^n(B^\bullet)\rightarrow H^n(C^\bullet)\xrightarrow{\delta^n} H^{n+1}(A^\bullet)\rightarrow H^{n+1}(B^\bullet)\rightarrow H^{n+1}(C^\bullet)\rightarrow\cdots$$&lt;p&gt;
+exact. This is a very common construction in homological algebra, and the way we construct these connecting morphisms is by applying the snake lemma twice. Suppose $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a chain map with cone $C^\bullet=\mathrm{Cone}(f^\bullet)$, then the map $\iota^{n}=0 \oplus \operatorname{Id}_{B^{n}}: B^{n} \rightarrow C^{n}$ and the canonical projection $\rho^n:C^n\rightarrow A^{n+1}$ gives chain maps $\iota^\bullet:B^\bullet\rightarrow C^\bullet$ and $\rho^\bullet:C^\bullet \rightarrow A^\bullet [1]$ which fits into a short exact sequence &lt;/p&gt;
+$$\mathbf 0\longrightarrow B^{\bullet}\xrightarrow{\ \iota^{\bullet}\ } C^\bullet\xrightarrow{\ \rho^\bullet\ }  A^\bullet[1]\longrightarrow\mathbf 0$$&lt;p&gt;
+Hence this induces a long exact sequence on cohomology objects. Working out the connecting morphism, we find out that the connecting morphisms are nothing more than the induced morphisms $\delta^n=H^{n+1}f^\bullet$. From this fact, we deduce that $f^\bullet$ is a quasi-isomorphism iff the cone $\mathrm{Cone}(f^\bullet)$ is acyclic.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Suppose $\mathcal A$ is an abelian category. An object $X$ in $\mathcal A$ is &lt;em&gt;injective&lt;/em&gt; (resp. &lt;em&gt;projective&lt;/em&gt;) if the contravariant (resp. covariant) left exact (resp. right exact) hom-functor $\mathrm{Hom}(-,X):\mathcal A\rightarrow\mathbf{Ab}$ (resp. $\mathrm{Hom}(X,-):\mathcal A\rightarrow\mathbf{Ab}$) is exact. Moreover, we say $\mathcal A$ has &lt;em&gt;enough injectives&lt;/em&gt; (resp. &lt;em&gt;enough projectives&lt;/em&gt;) if for any object $Y$ there is an injective object (resp. projective object) $X$ and a monomorphism $Y\rightarrow X$ (resp. epimorphism $X\rightarrow Y$). An &lt;em&gt;injective resolution&lt;/em&gt; of an object $X$ is a complex $I^\bullet$ bounded below $0$ and a quasi-isomorphism $X\rightarrow I^\bullet$, or equivalently, an exact sequence
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+$$\mathbf 0\rightarrow X\rightarrow I^0\rightarrow I^1\rightarrow \cdots$$&lt;p&gt;
+where each $I^i$ is injective. Dually, a &lt;em&gt;projective resolution&lt;/em&gt; of an object $X$ is a complex $P_\bullet$ bounded above $0$ and a quasi-isomorphism $P_\bullet\rightarrow X$, or equivalently, an exact sequence
+&lt;/p&gt;
+$$\cdots\rightarrow P_1\rightarrow P_0\rightarrow X\rightarrow \mathbf 0$$&lt;p&gt;
+where each $P_i$ is projective.&lt;/p&gt;
+&lt;p&gt;It is a familiar result in homological algebra that if an abelian category has enough injectives (resp. enough projectives) then every object has an injective resolution (resp. projective resolution). Moreover, given a long exact sequence $\mathbf 0\rightarrow X\rightarrow M^\bullet$ and an injective resolution of $I^\bullet$ of $Y$, then every $f:X\rightarrow Y$ extends to a chain map&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMTAsWzAsMCwiXFxtYXRoYmZ7MH0iXSxbMSwwLCJYIl0sWzIsMCwiTV4wIl0sWzMsMCwiTV4xIl0sWzQsMCwiXFxjZG90cyJdLFswLDEsIlxcbWF0aGJmezB9Il0sWzEsMSwiWSJdLFsyLDEsIkleMCJdLFszLDEsIkleMSJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxXSxbMSwyXSxbMiwzXSxbMyw0XSxbNSw2XSxbNiw3XSxbNyw4XSxbOCw5XSxbMSw2LCJmIiwyXSxbMiw3LCIiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMyw4LCIiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 375px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;and two such construction of chain maps are homotopic. The dual can be said about projective resolutions. I should also mention the Horseshoe lemma or the simultaneous resolution theorem, which states that if we have a short exact sequence $\mathbf 0\rightarrow X\rightarrow Y\rightarrow Z\rightarrow\mathbf 0$ and injective resolutions $I^\bullet$ for $Y$ and $K^\bullet$ for $Z$, then there is an injective resolution $J^\bullet$ of $Y$ that and a short exact sequence of complexes $\mathbf 0\rightarrow I^\bullet\rightarrow J^\bullet \rightarrow K^\bullet\rightarrow\mathbf 0$ which splits.&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMjEsWzEsMSwiWCJdLFsyLDEsIkleMCJdLFszLDEsIkleMSJdLFs0LDEsIlxcY2RvdHMiXSxbMCwxLCJcXG1hdGhiZiAwIl0sWzAsMiwiXFxtYXRoYmYgMCJdLFsxLDIsIlkiXSxbMiwyLCJKXjAiXSxbMywyLCJKXjEiXSxbNCwyLCJcXGNkb3RzIl0sWzAsMywiXFxtYXRoYmYgMCJdLFsxLDMsIloiXSxbMiwzLCJLXjAiXSxbMywzLCJLXjEiXSxbNCwzLCJcXGNkb3RzIl0sWzEsNCwiXFxtYXRoYmYgMCJdLFsxLDAsIlxcbWF0aGJmIDAiXSxbMiwwLCJcXG1hdGhiZiAwIl0sWzIsNCwiXFxtYXRoYmYgMCJdLFszLDAsIlxcbWF0aGJmIDAiXSxbMyw0LCJcXG1hdGhiZiAwIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsMF0sWzUsNl0sWzYsNywiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzcsOCwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzgsOSwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEwLDExXSxbMTEsMTJdLFsxMiwxM10sWzEzLDE0XSxbMCw2XSxbNiwxMV0sWzE2LDBdLFsxMSwxNV0sWzE3LDFdLFsxLDcsIiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs3LDEyLCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMThdLFsxOSwyXSxbMiw4LCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbOCwxMywiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEzLDIwXV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 375px;
+      height: 375px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;This does NOT commute. This implies that additive functors take split exact sequences to split exact sequences.
+Suppose $\mathscr{F}:\mathcal A\rightarrow\mathcal B$ is a left exact functor betweeen abelian categories, then applying $\mathscr{F}$ to a short exact sequence $\mathbf 0\rightarrow A\rightarrow B\rightarrow C$ gives a short exact sequence $\mathbf 0\rightarrow \mathscr{F}(A)\rightarrow \mathscr{F}(B)\rightarrow \mathscr{F}(C)$. A natural question to ask is whether we could continue this exact sequence to the right. It turns out that there is a canonical way of doing so, by defining the right derived functors $R^i\mathscr{F}:\mathcal A\rightarrow \mathcal B$, we may continue the exact sequence
+&lt;/p&gt;
+$$\mathbf 0\rightarrow \mathscr{F}(A)\rightarrow\mathscr{F}(B)\rightarrow\mathscr{F}(C)\rightarrow R^1\mathscr{F}(A)\rightarrow R^1\mathscr{F}(B)\rightarrow R^1\mathscr{F}(C)\rightarrow\cdots$$&lt;p&gt;
+Note that $\mathscr{F}$ is exact iff $R^1\mathscr{F}=0$, so in a sense the right derived functors measures how far $\mathscr{F}$ is from exact.
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Let $\mathcal A,\mathcal B$ be abelian categories and $\mathcal A$ has enough injectives. Suppose $\mathscr{F}:\mathcal A\rightarrow\mathcal B$ is a left-exact functor. Let $X\in\mathcal A$ and suppose $I^\bullet$ is an injective resolution, then we obtain a complex
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+$$\mathbf 0\rightarrow \mathscr{F}(I^0)\rightarrow\mathscr{F}(I^1)\rightarrow\mathscr{F}(I^2)\rightarrow\cdots$$&lt;p&gt;
+Define the right derived functors as the additive functors $R^i\mathscr{F};\mathcal A\rightarrow\mathcal B$
+&lt;/p&gt;
+$$R^i\mathscr{F}(X)=H^i(\mathscr{F}I^\bullet)$$&lt;p&gt;
+for $i\ge 0$. Left derived functors $L_i\mathscr{F}$ are defined dually via projective resolution.&lt;/p&gt;
+&lt;p&gt;The most important examples of derived functors are the Ext and Tor functors. The Ext functor is the right derived functor of the hom-functor, and the Tor functor is the left derived functor of tensor product. Recall that there is a tensor-Hom adjunction $\mathrm{Hom}(Y\otimes X,Z)\cong \mathrm{Hom}(Y,\mathrm{Hom}(X,Z))$, so these functors are related very closely.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For $A,B\in \mathbf{Mod}_R$, define the Ext functors&lt;/p&gt;
+$$\begin{aligned}\mathrm{Ext}_R^i(A,B)&amp;=(R^i\mathrm{Hom}_R(A,-))(B)\\\ &amp;\cong (R^i\mathrm{Hom}_R(-,B))(A)\end{aligned} $$&lt;p&gt; and the Tor functors &lt;/p&gt;
+$$\begin{aligned}\mathrm{Tor}_i^R(A,B)&amp;= (L_i(A\otimes_R -))(B)\\\ &amp;\cong (L_i(-\otimes_R B))(A)\end{aligned}$$&lt;p&gt;
+for all $i\ge 0$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;!--- --&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Derived functors can help us defined many (co)homology theory.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Sheaf cohomology.&lt;/em&gt; Let $X$ be a topological space, then the global section functor $\Gamma:\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ which sends $\mathscr{F} \mapsto \mathscr{F}(X)$ is left exact, its right derived functor $H^i(X,-):\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ is the &lt;em&gt;sheaf cohomology&lt;/em&gt; $H^i(X,\mathscr{F})$. Its special cases include the de Rham cohomology.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Group cohomology.&lt;/em&gt; Let $k$ be an algebraically closed field and $G$ a group, then the invariant functor $(-)^G:\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$, which is the same as $\mathrm{Hom}_{k[G]}(k,-)$, is left exact, its right derived functor $H^i(G;-):\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$ gives the group cohomology $H^i(G;M)=\mathrm{Ext}^i_{k[G]}(k,M)$.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Hochschild cohomology.&lt;/em&gt; This one I&#39;m not really familiar, so I will not write about it in detail.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The derived functors are natural in the sense that if we have a morphism of two short exact sequence in $\mathcal A$, then the induced morphisms of the long exact sequences in $\mathcal B$ commutes with the long exact sequences. Finally, I&#39;d like to finish with the definition of the homotopy category of complexes. We say that a chain map is &lt;em&gt;nullhomotopic&lt;/em&gt; if it is homotopic to the zero chain.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal A$ be an abelian category, the &lt;em&gt;homotopy category of complexes&lt;/em&gt; $ K(\mathcal A)$ is the category where objects are (co)chain complexes in $\mathcal A$ and morphisms are chain maps up to homotopy, i.e. &lt;/p&gt;
+$$\mathrm{Hom}_{K(\mathcal A)}(A^\bullet,B^\bullet)=\mathrm{Hom}_{C(\mathcal A)}(A^\bullet,B^\bullet)/G$$&lt;p&gt;
+where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are many things that needs to be checked here for it to be well defined, which we omit. We will see that this category is not typically abelian, but it is triangulated. A triangulated category is an approximation of an abelian category.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Grothendieck Topology, Sites, and Topoi</title>
+      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
+      <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Charles Pugh&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2022. We start by revisiting étale morphisms and introducing Grothendieck topologies and sites, and we define presheaves and sheaves on sites and show that they work almost the same as the usual presheaves and sheaves we are accostomed to. Then, we will define important sites such as the big and small Zariski sites and étale sites as well as the fppf site.&lt;/p&gt;
+&lt;h2 id=&#34;étale-morphisms-of-schemes&#34;&gt;Étale morphisms of schemes&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;First, we revisit the definitions and properties of étale morphisms of schemes.
+A morphism of schemes $f:X\rightarrow Y$ is &lt;em&gt;étale&lt;/em&gt; if one of these equivalent conditions holds&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f$ is smooth and locally quasi-finite,&lt;/li&gt;
+&lt;li&gt;$f$ is smooth and unramified,&lt;/li&gt;
+&lt;li&gt;$f$ is flat and unramified,&lt;/li&gt;
+&lt;li&gt;$f$ is locally of finite presentation and formally étale&lt;/li&gt;
+&lt;li&gt;$f$ is locally of finite presentation and locally a standard étale morphism,&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are many more equivalent definitions of étale morphisms listed on &lt;a href=&#34;https://en.wikipedia.org/wiki/%C3%89tale_morphism&#34;&gt;wikipedia&lt;/a&gt;. Intuitively, I think of étale morphisms analogous to covering maps. We need this notion to define the étale topology which we will need to use later. As a side note, there is also something called the étale fundamental group, which also uses the notion of étale morphisms. We recall these properties of étale morphisms.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;ol&gt;
+&lt;li&gt;compotision of étale maps are étale,&lt;/li&gt;
+&lt;li&gt;if $f:Y\rightarrow X$ is étale then its base change $Y\times_XZ\rightarrow Z$ is étale,&lt;/li&gt;
+&lt;li&gt;if $f:Y\rightarrow X$ and $g:Z\rightarrow X$ are étale and $g=f\circ h$ where $h:Z\rightarrow Y$, then $h$ is étale&lt;/li&gt;
+&lt;li&gt;given algebraically closed field $k$ and $k$-algebra $A$, then the morphism $\mathrm{Spec}(A)\rightarrow\mathrm{Spec}(k)$ is étale iff it is the disjoint union of spectra of finite separable field extensions of $k$.&lt;/li&gt;
+&lt;/ol&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, we are ready to define Grothendieck topology and sites.&lt;/p&gt;
+&lt;h2 id=&#34;grothendieck-topology-sites-and-topoi&#34;&gt;Grothendieck topology, sites, and topoi&lt;/h2&gt;
+&lt;p&gt;Recall that a presheaf (of sets) on a topological space $X$ is a contravariant functor $\mathscr{F}:\mathrm{Op}(X)\rightarrow\mathbf{Set}$, and a presheaf is a sheaf when $\mathscr{F}(U)\rightarrow\prod_{i}\mathscr{F}(U_i)\rightrightarrows\prod_{i,j}\mathscr{F}(U_i\cap U_j)$ is an equalizer for every open cover $\{U_{i}\}$ of any open $U\subseteq X$, which is equivalent to the identity and gluability axioms. We want to extend this from $\mathrm{Op}(X)$ to any category $\mathcal C$. To do this, we need to add some additional structure on the category $\mathcal C$ so that its objects can be viewed as &amp;quot;open sets&amp;quot; and morphisms can be viewed as &amp;quot;inclusions&amp;quot;. Grothendieck&#39;s insight is that we don&#39;t need the full strength of a topology to define sheaves, we only need intersections and a notion of when a collection of an open set forms an open cover of it.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A &lt;em&gt;Grothendieck topology&lt;/em&gt; on a category $\mathcal C$ is the data of a set of &lt;em&gt;coverings&lt;/em&gt; of $U$, written as $\mathrm{Cov}(U)$, for each object $U\in \mathcal C$, where each covering $S\in\mathrm{Cov}(U)$ is a set of morphisms of $\mathcal C$ with $U$ as targets, such that for all $U\in\mathcal C$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;for each isomorphism $\varphi:V\rightarrow U$, we have $\{\varphi\}\in \mathrm{Cov}(U)$&lt;/li&gt;
+&lt;li&gt;if $\{V_i\rightarrow U\}\in\mathrm{Cov}(U)$ and $\{W_{i,j}\rightarrow V_i\}\in\mathrm{Cov}(V_i)$ for each $i$, then $\{W_{i,j}\rightarrow U\}\in\mathrm{Cov}(U)$&lt;/li&gt;
+&lt;li&gt;for $\{V_i\rightarrow U\}\in\mathrm{Cov}(U)$ and $W\rightarrow U$, all $W\times_UV_i$ exists and $\{W\times_UV_i\rightarrow W\}\in\mathrm{Cov}(W)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A category $\mathcal C$ equipped with a choice of Grothendieck topology, also denoted $\mathcal C$, is a &lt;em&gt;site&lt;/em&gt;. A continuous functor between sites $f:\mathcal C\rightarrow\mathcal D$ is a functor between their underlying categories such that for all $\{X_i\rightarrow X\}\in \mathrm{Cov}_{\mathcal C}(X)$ we have $\{f(X_i)\rightarrow f(X)\}\in \mathrm{Cov}_{\mathcal D}(f(X))$, and it commutes with finite fibred products if they exist.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For example, $\mathrm{Op}(X)$ for a topological space $X$ can be made into a site using the usual notion of covering. We note that in $\mathrm{Op}(X)$ we have the fibered product $U\times_X V=U\cap V$ for all open $U,V\subseteq X$, which agrees with the usual notion of intersection. For a category $\mathcal C$ with $X\in\mathcal C$, the category of objects over $X$, denoted $\mathcal C/X$ is the category where objects are morphisms $Y\rightarrow X$ in $\mathcal C$ and morphisms between $Y_1\rightarrow X$ and $Y_2\rightarrow X$ are all morphisms $Y_1\rightarrow Y_2$ in $\mathcal C$ such that the obvious triangle commutes, i.e. $(Y_1\rightarrow Y_2\rightarrow X)=Y_1\rightarrow X$. If $\mathcal C$ is a site, then $\mathcal C/X$ can be given a site structure, by letting $\mathrm{Cov}(U\rightarrow X)$ in $\mathcal C/X$ be $\mathrm{Cov}(U)$ in $\mathcal C$. The site $\mathcal C/X$ is called the &lt;em&gt;localization&lt;/em&gt; of the site $\mathcal C$ at $X$. Suppose $X$ is a scheme, then we say that the &lt;em&gt;big Zariski (resp. big étale, resp. fppf) site&lt;/em&gt;, denoted $(\mathbf{Sch}/X)_{\mathrm{Zar}}$ (resp. $(\mathbf{Sch}/X)_{\mathrm{ét}}$, resp. $(\mathbf{Sch}/X)_{\mathrm{fppf}}$) of $X$, is the site with the category $\mathbf{Sch}/X$ and $\{Y_i\rightarrow Y\}\in\mathrm{Cov}(U)$ iff each $Y_i\rightarrow Y$ is an open immersion with $Y=\bigcup_i Y_i$ (resp. each $Y_i\rightarrow Y$ is étale with $\coprod_i Y_i\rightarrow Y$ surjective, resp. each $Y_i\rightarrow Y$ is flat and locally of finite presentation with $\coprod_i Y_i\rightarrow Y$ surjective). An element of $\mathrm{Cov}(U\rightarrow X)$ is called a &lt;em&gt;Zariski cover&lt;/em&gt; (resp. &lt;em&gt;étale cover&lt;/em&gt;, resp. &lt;em&gt;fppf cover&lt;/em&gt;) of $U$. The small Zariski site (resp. small étale site) of $X$, denoted $X_{\mathrm{Zar}}$ (resp. $X_{\mathrm{ét}}$) is the site whose category is the full subcategory of $\mathrm{Sch}/X$ where each object $U\rightarrow X$ is an open immersion (resp. étale), and the coverings are the same as the big Zariski (resp. big étale) site. The small Zariski site of $X$ is equivalent to the site $\mathrm{Op}(X)$. Moreover, we have the following inclusions
+&lt;/p&gt;
+$$\{\mathrm{Zariski\ cover}\}\hookrightarrow\{\mathrm{étale\ cover}\}\hookrightarrow\{\mathrm{fppf\ cover}\}$$&lt;p&gt;Next, we discuss presheaves and sheaves on a site. This whole business is to get new cohomology theories such as étale cohomology, because basic sheaf cohomology is insufficient for our needs.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A &lt;em&gt;presheaf&lt;/em&gt; (of sets) on a site $\mathcal C$ is a contravariant functor $\mathscr{F}:\mathcal C\rightarrow\mathbf{Set}$, and a presheaf is a &lt;em&gt;sheaf&lt;/em&gt; iff $\mathscr{F}(U)\rightarrow\prod_{i}\mathscr{F}(U_i)\rightrightarrows\prod_{i,j}\mathscr{F}(U_i\times_U U_j)$ is an equalizer for all $U\in\mathcal C$ and $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$. A presheaf is called &lt;em&gt;separated&lt;/em&gt; if for all $U\in\mathcal C$ and $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$, the map $\mathscr{F}(U)\rightarrow \prod_i\mathscr{F}(U_i)$ is injective. We write $\mathrm{Sh}(\mathcal C)$ (resp. $\mathrm{PSh}(\mathcal C)$) for the category of sheaves (resp. presheaves) of the site $\mathcal C$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note that a separated presheaf can be viewed as a presheaf that only satisfies one of the axioms of a sheaf, the identity axiom, but not necessaily the gluability axiom, therefore we have the obvious inclusions
+&lt;/p&gt;
+$$\{\mathrm{sheaves}\}\hookrightarrow\{\mathrm{separated\ presheaves}\}\hookrightarrow\{\mathrm{presheaves}\}$$&lt;p&gt;all of which admits left adjoints, the composition of them being sheafification. Usually, we can formulate sheafification in terms of compatible germs, but since we are working over sites, it does not make sense to take a point in an object and take the product of stalks. The way we construct the adjoint from presheaves to separated presheaves is to map a presheaf $\mathscr{F}$ to $\mathscr{F}^{\mathrm s}(U)=\mathscr{F}(U)/\sim$ where $a\sim b$ iff exists $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$ such that $a,b$ are mapped to the same element by the map $\mathscr{F}(U)\rightarrow \prod_i\mathscr{F}(U_i)$. We can check that this is in fact a separated presheaf. All of the above works for (pre)sheaves of rings, abelian groups, etc.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A &lt;em&gt;topos&lt;/em&gt; is a category equivalent to $\mathrm{Sh}(\mathcal C)$ for a site $\mathcal C$. A morphism of topoi $f:\mathcal{T}_1\rightarrow \mathcal{T}_2$ is an adjoint pair $f^*\dashv f_*$ of functors $f^*:\mathcal{T}_1\rightarrow \mathcal{T}_2$ and $f_*:\mathcal{T}_2\rightarrow \mathcal{T}_1$ with a choice of natural isomorphism
+&lt;/p&gt;
+$$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T_2}(-,f_*(-))$$&lt;p&gt;where each naturality here means $\Phi$ is natural in each of the two dashes, and $f^*$ commutes with finite limits when they exist. Define composition in the obvious way.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We remark that in the above definition, commuting with finite limits is equivalent to checking that $f^*$ commutes with finite products and preserve equalizers. In many cases, though not always, a continuous functor between sites $f:\mathcal C\rightarrow \mathcal D$ induces a functor $f_*:\mathrm{Sh}(\mathcal D)\rightarrow \mathrm{Sh}(\mathcal C)$ by $f_*(\mathscr{F})(X)=\mathscr{F}(f(X))$, where the well-definedness follows from $\mathscr{F}(f(U_i\times_U U_j))=\mathscr{F}(f(U_i)\times_{f(U)} f(U_j))$ for any $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$, as illustrated by the diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0rem;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/#q=WzAsNixbMCwxLCJcXG1hdGhzY3J7Rn0oZihVKSkiXSxbMSwxLCJcXHByb2RfaVxcbWF0aHNjcntGfShmKFVfaSkpIl0sWzIsMSwiXFxwcm9kX3tpLGp9XFxtYXRoc2Nye0Z9KGYoVV9pKVxcdGltZXNfe2YoVSl9ZihVX2opKSJdLFswLDAsImZfKihcXG1hdGhzY3J7Rn0pKFUpIl0sWzEsMCwiXFxwcm9kX2lmXyooXFxtYXRoc2Nye0Z9KShVX2kpIl0sWzIsMCwiXFxwcm9kX3tpLGp9Zl8qKFxcbWF0aHNjcntGfSkoVV9pXFx0aW1lc19VIFVfaikiXSxbMCwxXSxbMSwyLCIiLDAseyJvZmZzZXQiOjF9XSxbMyw0XSxbMywwLCJcXGNvbmciXSxbNCwxLCJcXGNvbmciXSxbNSwyLCJcXGNvbmciXSxbNCw1LCIiLDAseyJvZmZzZXQiOi0xfV0sWzQsNSwiIiwwLHsib2Zmc2V0IjoxfV0sWzEsMiwiIiwwLHsib2Zmc2V0IjotMX1dXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 100%;
+      height: 125px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.7);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;This induced functor does not always admit a left adjoint. However, we have the following theorem&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $\mathcal C,\mathcal D$ are sites with small underlying categories, then the functor $f_*:\mathrm{Sh}(\mathcal D)\rightarrow \mathrm{Sh}(\mathcal C)$ induced by a continuous functor $f:\mathcal C\rightarrow \mathcal D$ admits a left adjoint $f^*:\mathrm{Sh}(\mathcal C)\rightarrow \mathrm{Sh}(\mathcal D)$. If, further, that finite limits in $\mathcal C$ are representable and $f$ commutes with them, then $f^*$ commutes with finite limits.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;p&gt;We construct this functor concretely. For each $U\in\mathcal D$, let $\mathcal I_U$ be the category where objects are pairs $\langle V,\rho\rangle$ where $V\in\mathcal C$ and $\rho\in \mathrm{Mor}_\mathcal{D}(U,f(V))$, and a morphism $g:\langle V_1,\rho_1\rangle \rightarrow \langle V_2,\rho_2\rangle$ is a morphism $g:V_1\rightarrow V_2$ in $\mathcal C$ such that $(fg)\circ\rho_1=\rho_2$. We define
+&lt;/p&gt;
+$$f^* (\mathscr{F})(U)=\lim_{\stackrel{\longrightarrow}{\langle V,\rho\rangle\in\mathcal I_{U}^\mathrm{op}}}\mathscr{F}(V)$$&lt;p&gt;
+and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal I_{U_2}\rightarrow \mathcal I_{U_1}$ given by $\langle V,\rho\rangle\mapsto \langle V,\rho\circ h\rangle$ which induces a morphism $f^*(\mathscr{F})(U_2)\rightarrow f^*(\mathscr{F})(U_1)$. We can check that this is well-defined.&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anime</title>
+      <link>http://localhost:1313/posts/anime/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/anime/</guid>
+      <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0426711/&#34;&gt;&lt;em&gt;Hikaru no Go&lt;/em&gt; (2001)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2098308/&#34;&gt;&lt;em&gt;Nichijou&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3592032/&#34;&gt;&lt;em&gt;Ping Pong the Animation&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0290223/&#34;&gt;&lt;em&gt;Inuyasha&lt;/em&gt; (2000)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0810705/&#34;&gt;&lt;em&gt;NANA&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;anime-i-recommend&#34;&gt;Anime I Recommend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1355642/&#34;&gt;&lt;em&gt;Fullmetal Alchemist: Brotherhood&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0994314/&#34;&gt;&lt;em&gt;Code Geass&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10233448/&#34;&gt;&lt;em&gt;Vinland Saga&lt;/em&gt; (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8515062/&#34;&gt;&lt;em&gt;Asobi Asobase&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3895150/&#34;&gt;&lt;em&gt;Your Lie in April&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0213338/&#34;&gt;&lt;em&gt;Cowboy Bebop&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1773185/&#34;&gt;&lt;em&gt;Puella Magi Madoka Magica&lt;/em&gt; (2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3358020/&#34;&gt;&lt;em&gt;Parasyte: The Maxim&lt;/em&gt; (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt3837246/&#34;&gt;&lt;em&gt;Assassination Classroom&lt;/em&gt; (2013)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2340841/&#34;&gt;&lt;em&gt;Hyouka&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2321542/&#34;&gt;&lt;em&gt;Love, Chunibyo &amp;amp; Other Delusions&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt13706018/&#34;&gt;&lt;em&gt;Spy x Family&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt16755706/&#34;&gt;&lt;em&gt;Lycoris Recoil&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt30217403/&#34;&gt;&lt;em&gt;Dandadan&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0423731/&#34;&gt;&lt;em&gt;Samurai Champloo&lt;/em&gt; (2004)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0112159/&#34;&gt;&lt;em&gt;Neon Genesis Evangelion&lt;/em&gt; (1995)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0877057/&#34;&gt;&lt;em&gt;Death Note&lt;/em&gt; (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt26743760/&#34;&gt;&lt;em&gt;The Apothecary Diaries&lt;/em&gt; (2023)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt21621494/&#34;&gt;&lt;em&gt;Delicious in Dungeon&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6074794/&#34;&gt;&lt;em&gt;March Comes in Like a Lion&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt10384610/&#34;&gt;&lt;em&gt;Scissor Seven&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt32766897/&#34;&gt;&lt;em&gt;Ranma 1/2&lt;/em&gt; (2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1515996/&#34;&gt;&lt;em&gt;A Certain Scientific Railgun&lt;/em&gt; (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt6185782/&#34;&gt;&lt;em&gt;Miss Kobayashi&#39;s Dragon Maid&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt1158671/&#34;&gt;&lt;em&gt;Spice and Wolf&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt8253044/&#34;&gt;&lt;em&gt;Hinamatsuri&lt;/em&gt; (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt5897304/&#34;&gt;&lt;em&gt;Mob Psycho 100&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt38491451/&#34;&gt;&lt;em&gt;Tatsuki Fujimoto 17-26&lt;/em&gt; (2025)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt7155052/&#34;&gt;&lt;em&gt;Tsuredure Children&lt;/em&gt; (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt2341375/&#34;&gt;&lt;em&gt;Kids on the Slope&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0500092/&#34;&gt;&lt;em&gt;Serial Experiments Lain&lt;/em&gt; (1998)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

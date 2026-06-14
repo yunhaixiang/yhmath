@@ -1,7 +1,7 @@
 ---
 title: "Fppf Site, Faithfully Flat Descent, and Fibred Categories"
 categories: ["expositions"]
-date: 2025-12-11 12:24:26
+date: 2022-02-16 12:24:26
 tags: ["math", "algebraic geometry"]
 ---
 

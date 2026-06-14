@@ -3,7 +3,7 @@ title: >-
   Abelian Categories and Derived Functors
 categories: ["expositions"]
 tags: ["category-theory", "math"]
-date: 2025-12-08 15:28:14
+date: 2022-07-25 15:28:14
 ---
 
 {{< pullquote author="Stefan Banach">}}

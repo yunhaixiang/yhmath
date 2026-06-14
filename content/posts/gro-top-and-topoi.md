@@ -1,7 +1,7 @@
 ---
 title: Grothendieck Topology, Sites, and Topoi
 categories: ["expositions"]
-date: 2025-12-04 11:15:32
+date: 2022-01-19 11:15:32
 tags: ["math", "algebraic-geometry"]
 ---
 
@@ -86,5 +86,4 @@ If $\mathcal C,\mathcal D$ are sites with small underlying categories, then the 
 $$f^* (\mathscr{F})(U)=\lim_{\stackrel{\longrightarrow}{\langle V,\rho\rangle\in\mathcal I_{U}^\mathrm{op}}}\mathscr{F}(V)$$
 and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal I_{U_2}\rightarrow \mathcal I_{U_1}$ given by $\langle V,\rho\rangle\mapsto \langle V,\rho\circ h\rangle$ which induces a morphism $f^*(\mathscr{F})(U_2)\rightarrow f^*(\mathscr{F})(U_1)$. We can check that this is well-defined.
 {{< /proof >}}
-
 

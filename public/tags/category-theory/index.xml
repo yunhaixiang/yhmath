@@ -6,109 +6,21 @@
     <description>Recent content in Category-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2025 20:00:36 +0000</lastBuildDate><atom:link href="https://yunhaimath.com/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Sep 2025 20:14:47 +0000</lastBuildDate><atom:link href="https://yunhaimath.com/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Triangulated Categories</title>
-      <link>https://yunhaimath.com/posts/triangulated-cat/</link>
-      <pubDate>Wed, 10 Dec 2025 20:00:36 +0000</pubDate>
+      <title>Simplicial Sets and Infinity-Categories</title>
+      <link>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</link>
+      <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/triangulated-cat/</guid>
+      <guid>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    It is impossible to be a mathematician without being a poet in soul.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sofia Kovalevskaya&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &amp;quot;distinguished triangles&amp;quot;, which are similar to exact sequences.&lt;/p&gt;
-&lt;p&gt;A translation functor on an additive category $\mathcal C$ is an automorphism $T:\mathcal C\rightarrow\mathcal C$ where we denote $T^n(X)=X[n]$ and $T^nf=f[n]$ for $n\in\mathbb Z$. A &lt;em&gt;triangle&lt;/em&gt; is a diagram $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, and a morphism of triangles is a diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3Il0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;which commutes. A triangulated category is an additive category $\mathcal C$ with a translation functor and a family of triangles called &lt;em&gt;distinguished triangles&lt;/em&gt; such that the following axioms are satisfied.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;For any $X\in\mathcal C$, the triangle $X\xrightarrow{\mathbf 1_X} X\rightarrow \mathbf 0\rightarrow X[1]$ is distinguished.&lt;/li&gt;
-&lt;li&gt;Any triangle isomorphic to a distinguished triangle is distinguished.&lt;/li&gt;
-&lt;li&gt;Any morphism $X\rightarrow Y$ can be completed to a distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$.&lt;/li&gt;
-&lt;li&gt;(Rotation axiom) A triangle $X\xrightarrow{u} Y\rightarrow Z\rightarrow X[1]$ is distinguished iff $Y\rightarrow Z\rightarrow X[1]\xrightarrow{-u[1]}Y[1]$ is.&lt;/li&gt;
-&lt;li&gt;Suppose the rows in the diagram&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;are distinguished, and the left square commutes, then there exists a morphism $w:Z\rightarrow Z^\prime$ (not necessarily unique) completing the diagram into a morphism of triangles.
-6. (Octahedral axiom) Suppose the first three rows are distinguished and the left two squares commute, then there exists morphisms $u,v,w$ completing the diagram into two morphisms of triangles and the whole diagram commutes and the last row is also distinguished&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMTYsWzAsMCwiWCJdLFsxLDAsIlkiXSxbMiwwLCJaXlxccHJpbWUiXSxbMywwLCJYWzFdIl0sWzAsMSwiWCJdLFsxLDEsIloiXSxbMiwxLCJZXlxccHJpbWUiXSxbMywxLCJYWzFdIl0sWzAsMiwiWSJdLFsxLDIsIloiXSxbMiwyLCJYXlxccHJpbWUiXSxbMywyLCJZWzFdIl0sWzAsMywiWl5cXHByaW1lIl0sWzEsMywiWV5cXHByaW1lIl0sWzIsMywiWF5cXHByaW1lIl0sWzMsMywiWl5cXHByaW1lWzFdIl0sWzAsNCwiXFxtYXRoYmYgMV9YIl0sWzEsNSwiZyJdLFs0LDgsImciXSxbNSw5LCJcXG1hdGhiZiAxX1oiXSxbMCwxLCJmIl0sWzEsMiwiYSJdLFsyLDNdLFs0LDVdLFs1LDYsImIiXSxbNiw3XSxbOCw5LCJnIl0sWzksMTAsImMiXSxbMTAsMTFdLFszLDcsIlxcbWF0aGJmIDFfe1hbMV19Il0sWzcsMTEsImZbMV0iXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzYsMTAsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTAsMTQsIlxcbWF0aGJmIDFfe1heXFxwcmltZX0iXSxbMTIsMTMsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTMsMTQsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTQsMTUsInciLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTEsMTUsImFbMV0iXSxbOCwxMiwiYSJdLFs5LDEzLCJiIl1d&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 300px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;If all but the last axiom is satisfied, then it is known as a &lt;em&gt;pre-triangulated category&lt;/em&gt;. It is conjectured that pre-triangulated categories are triangulated, i.e. the last axiom is redundant. The general concensus seems to be that this is not true.&lt;/p&gt;
-&lt;p&gt;An additive functor between triangulated categories $F:\mathcal C\rightarrow\mathcal D$ is said to &lt;em&gt;commute with translation&lt;/em&gt; if there is a natural isomorphism $FT_{\mathcal C}\cong T_{\mathcal D} F$, and $F$ is said to be &lt;em&gt;exact&lt;/em&gt; or &lt;em&gt;triangulated&lt;/em&gt; if it commutes with translation and takes distinguished triangles to distinguished triangles. Let $F,G:\mathcal C\rightarrow\mathcal D$ be exact functors, and $\eta_{F}:FT_{\mathcal C}\rightarrow T_{\mathcal D}F$ and $\eta_{G}:GT_{\mathcal C}\rightarrow T_{\mathcal D}G$ be natural isomorphisms, then a natural transformation $w:F\rightarrow G$ is &lt;em&gt;graded&lt;/em&gt; if for $X\in\mathcal C$&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJGVF97XFxtYXRoY2FsIEN9WCJdLFsxLDAsIlRfe1xcbWF0aGNhbCBEfUZYIl0sWzAsMSwiR1RfXFxtYXRoY2Fse0N9WCJdLFsxLDEsIlRfXFxtYXRoY2FsIERGWCJdLFswLDEsIlxcZXRhX3tGLFh9Il0sWzAsMiwid197VF9cXG1hdGhjYWwgQ1h9IiwyXSxbMSwzLCJUX1xcbWF0aGNhbCBEd19YIl0sWzIsMywiXFxldGFfe0csWH0iLDJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 180px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;commutes.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous Friend&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently, I&#39;ve been reading Cisinski&#39;s &lt;em&gt;Higher Categories and Homotopical Algebra&lt;/em&gt;. I wanted to write down some of the things I&#39;ve learned. In this post, we start from a review of presheaves of sets and simplicial sets, and then build towards the definition of an $\infty$-category. Let $A$ be a category. Recall that a presheaf on $A$ is a contravariant functor $X:A^{\mathrm{op}}\rightarrow \mathbf{Set}$, where we denote $X_a=X(a)$ and $u^*:X_b\rightarrow X_a$ the induced map for each $u:a\rightarrow b$. The category of presheaves on $A$ is denoted by $\widehat{A}$. The category of elements $\int_A X$ (or $\int X$) is the category where objects are pairs $(a,s)$ with $a\in A$ and $s\in X_a$, and a morphism $u:(a,s)\rightarrow (b,t)$ is a morphism $u:a\rightarrow b$ such that $u^*(t)=s$. It comes equipped with a faithful functor $\varphi_X:\int_A X\rightarrow \widehat{A}$ given by $(a,s)\mapsto \mathscr{H}_a$ on objects and $u\mapsto \mathscr{H}(u)$ on morphisms, where $\mathscr{H}:A\rightarrow \widehat{A}$ is the Yoneda embedding. In this post, we ignore all set-theoretic size issues.&lt;/p&gt;
+&lt;h2 id=&#34;presheaves&#34;&gt;Presheaves&lt;/h2&gt;
+&lt;p&gt;First, we prove a variation of the Yoneda lemma, in the style of coend calculus.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -118,15 +30,8 @@
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;In a (pre)triangulated category $\mathcal C$, if $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X[1]$ is distinguished, then&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$vu=0$ and $wv=0$&lt;/li&gt;
-&lt;li&gt;any change of sign of exactly two of $u,v,w$ is distinguished,&lt;/li&gt;
-&lt;li&gt;if $U\in\mathcal C$, then there exists long exact sequences of abelian groups $$\begin{aligned}&amp;\cdots\rightarrow\mathrm{Hom}(U,X[i])\xrightarrow{u[i]_*}\mathrm{Hom}(U,Y[i])\xrightarrow{v[i]_*} \mathrm{Hom}(U,Z[i])\xrightarrow{w[i]_*}\mathrm{Hom}(U,X[i+1])\rightarrow\cdots\\\ &amp;\cdots\leftarrow\mathrm{Hom}(X[i],U)\xleftarrow{u[i]^*}\mathrm{Hom}(Y[i],U)\xleftarrow{v[i]^*} \mathrm{Hom}(Z[i],U)\xleftarrow{w[i]^*}\mathrm{Hom}(X[i+1],U)\leftarrow\cdots\end{aligned}$$
-where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
-&lt;li&gt;(triangulated 5-lemma) Consider a morphism of distinguished triangles, and let its components be $f:X\rightarrow X^\prime,g:Y\rightarrow Y^\prime,h:Z\rightarrow Z^\prime$, then if any two of them are isomorphisms, so is the third.&lt;/li&gt;
-&lt;li&gt;$u$ is an isomorphism iff $Z\cong\mathbf{0}$&lt;/li&gt;
-&lt;/ol&gt;
+    &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
+$$X=\mathrm{colim}\ \varphi_X.$$
   &lt;/span&gt;
 &lt;/div&gt;
 
@@ -136,42 +41,41 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;It suffice to show $vu=0$, and $wv=0$ can be obtained from the rotation axiom. To show this, we first note that $Z\rightarrow Z\rightarrow \mathbf 0\rightarrow Z[1]$ is distinguished. The triangle $Y\rightarrow Z\rightarrow X[1]\rightarrow Y[1]$ is distinguished by axiom 4, and we construct a morphism between them via axiom 5, and then we can obtain $vu=0$ from the commutativity of a square in the diagram.&lt;/li&gt;
-&lt;li&gt;Straightforwardly, the triangle obtained by changing exactly two signs is isomorphic to the original triangle by an obvious morphism of triangles, so it is still distinguished.&lt;/li&gt;
-&lt;li&gt;We will only prove the first one, and the second one is proved dually. Since $vu=0$, we have $(v[i])(u[i])=0$, so $\mathrm{Im}(u[i]_*)\subseteq \mathrm{Ker}(v[i]_*)$. Conversely, suppose $f\in \mathrm{Ker}(v[i]_*)$, so $f(v[i])=0$. Consider the diagram as follows&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJVWy1pXSJdLFsxLDAsIlxcbWF0aGJmezB9Il0sWzIsMCwiVVstaSsxXSJdLFszLDAsIlVbLWkrMV0iXSxbMCwxLCJZIl0sWzEsMSwiWiJdLFsyLDEsIlhbMV0iXSxbMywxLCJZWzFdIl0sWzAsMV0sWzEsMl0sWzIsMywiLVxcbWF0aGJmezF9Il0sWzQsNSwidiJdLFs1LDYsInciXSxbNiw3LCItdVsxXSJdLFswLDQsImZbLWldIl0sWzEsNV0sWzMsNywiZlstaSsxXSJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 360px;
-      height: 200px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-which we can complete to a morphism of triangles with some $h:U[-i+1]\rightarrow X[1]$. By the commutativity of the rightmost square, $-f[-i+1]=-(u[i])h$ so $f=(u[i])(h[-i+1])$, so $f\in \mathrm{Im}(u[i]_*)$. By the rotation axiom, since we proved a short exact sequence, we have the exactness of the long exact sequence.
-4. By the rotation axiom, it suffice to show the case where the first two are isomorphisms. By using (3), we have a long exact sequence, and we can obtain the isomorphism using the usual 5-lemma, details ommited.
-5. A striaghtforward corollary.
+    &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
+$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
 
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;Let $\mathcal C$ be a triangulated category and $\mathcal A$ an abelian category, then an additive functor $H:\mathcal C\rightarrow\mathcal A$ is called &lt;em&gt;cohomological&lt;/em&gt; if for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, the sequence $H(X)\rightarrow H(Y)\rightarrow H(Z)$ is exact. It is then a straightforward consequence by the rotation axiom that for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, we have the following long exact sequence
-&lt;/p&gt;
-$$\cdots\rightarrow H(X[i])\xrightarrow{H(u[i])} H(Y[i])\xrightarrow{H(v[i])}H(Z[i])\xrightarrow{H(w[i])}H(X[i+1])\rightarrow\cdots$$&lt;p&gt;
-What we just proved in part 3 of the previous theorem is that the Hom-functor is cohomological.&lt;/p&gt;
+
+&lt;p&gt;Let $C$ be a category with limits. For $u:A\rightarrow C$, we can define a &lt;em&gt;functor of evaluation&lt;/em&gt;&lt;/p&gt;
+$$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u(a),Y)\right],$$&lt;p&gt;that is, $u^*(Y)=\mathrm{Hom}_C(-,Y)\circ u$. By this version of the Yoneda lemma, we have the following consequence.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
+&lt;p&gt;Let $\Delta$ be the category where the objects are finite sets $[n]=\{0,\dots,n\}$ for $n\in\mathbb N$, and the morphisms are order-preserving functions. This is called the &lt;em&gt;simplex category&lt;/em&gt;. A &lt;em&gt;simplicial set&lt;/em&gt; is a presheaf on $\Delta$, and we denote the category of simplicial sets by $\mathbf{SSet}=\widehat{\Delta}$. For $n\in\mathbb N$, denote $\Delta^n=\mathscr{H}_n$ as the &lt;em&gt;standard $n$-simplex&lt;/em&gt;. For a simplicial set $X$, we write&lt;/p&gt;
+$$X_n=X([n])=\mathrm{Hom}(\Delta^n,X)$$&lt;p&gt;for the set of $n$-simplices of $X$.&lt;/p&gt;
+&lt;p&gt;For integers $n\ge 1$ and $0\le i\le n$, the map $\partial^n_i:\Delta^{n-1}\rightarrow \Delta^n$ corresponds to the map $[n-1]\rightarrow [n]$ whose image omits $i$. For $n\ge 0$, the map $\sigma^n_i:\Delta^{n+1}\rightarrow \Delta^n$ corresponds to the map $[n+1]\rightarrow [n]$ that takes the value $i$ twice. We also write&lt;/p&gt;
+$$d^i_n=(\partial_i^n)^*:X_n\rightarrow X_{n-1},\qquad s^i_n=(\sigma_i^n)^*:X_n\rightarrow X_{n+1}.$$&lt;p&gt;The category $\Delta$ is uniquely captured by a set of identities involving these operations.&lt;/p&gt;
+&lt;p&gt;There is a geometric realization functor $|\cdot|:\mathbf{SSet}\rightarrow \mathbf{Top}$, where $\mathbf{Top}$ is the category of compactly generated Hausdorff topological spaces, given by&lt;/p&gt;
+$$|\Delta^n|=\left\{(x_j)_{0\le j\le n}\in\mathbb R^{n+1}_{\ge 0}: \sum_{j=0}^n x_j=1\right\}$$&lt;p&gt;and&lt;/p&gt;
+$$|X|=\mathrm{colim}_{\Delta^n\rightarrow X}|\Delta^n|$$&lt;p&gt;for a simplicial set $X$. For each $f:[m]\rightarrow [n]$, we get an associated continuous map $|f|:|\Delta^m|\rightarrow |\Delta^n|$, defined by $|f|(x_0,\dots,x_m)=(y_0,\dots,y_n)$ where $y_j=\sum_{f(i)=j}x_i$. By virtue of the preceding theorem, we have a singular complex functor $\mathrm{Sing}:\mathbf{Top}\rightarrow\mathbf{SSet}$, given by&lt;/p&gt;
+$$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which is right adjoint to the geometric realization functor, i.e. $|\cdot|\dashv \mathrm{Sing}$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
@@ -182,19 +86,30 @@ What we just proved in part 3 of the previous theorem is that the Hom-functor is
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    An object in an abelian category is &lt;em&gt;simple&lt;/em&gt; if the only subobjects are zero and the object itself, and semisimple if it is a coproduct of simple objects. An abelian category is semisimple if every short exact sequence splits.
+    &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
+&lt;li&gt;If a morphism $a\rightarrow b$ in $A_+$ (resp. $A_-$) is not the identity, then $d(a) &lt; d(b)$ (resp. $d(b) &lt; d(a)$).&lt;/li&gt;
+&lt;li&gt;Any morphism $u:a\rightarrow b$ in $A$ factors uniquely as $u=ip$, where $p:a\rightarrow c$ is in $A_-$ and $i:c\rightarrow b$ is in $A_+$.&lt;/li&gt;
+&lt;li&gt;For a morphism $\pi:a\rightarrow b$ in $A_-$, there exists $\sigma:b\rightarrow a$ in $A$ such that $\pi\sigma=\mathbf{1}_b$.&lt;/li&gt;
+&lt;li&gt;For $\pi,\tau:a\rightarrow b$ in $A_-$, if $\pi$ and $\tau$ have the same set of sections, then $\pi=\tau$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Caution: some authors call a category semisimple if all objects are semisimple, which is a stronger definition and is NOT equivalent to our definition. Every semisimple abelian category has a triangulated structure. To do this, we let the translation functor be the identity functor, and we declare a triangle $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X$ distinguished if it is &amp;quot;exact&amp;quot; at $X$, i.e. $\mathrm{Ker}(u)=\mathrm{Im}(w)$. Verifying this is a triangulated category is a tedious, and we will not do it here. Moreover, all abelian triangulated categories are semisimple. We will not prove this either. In fact, the homotopy category of complexes $K(\mathcal A)$ is triangulated. To see this, we set the distinguished triangles to be the ones isomorphic to a standard triangle of the form &lt;/p&gt;
-$$X^\bullet\xrightarrow{f^\bullet} Y^\bullet \xrightarrow{i_f^\bullet} \mathrm{Cone}(f^\bullet)\xrightarrow{p_f^\bullet} X^\bullet[1]$$&lt;p&gt;
-and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$ is cohomological.&lt;/p&gt;</description>
+&lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
+&lt;h2 id=&#34;nerves&#34;&gt;Nerves&lt;/h2&gt;
+&lt;p&gt;Every poset $E$ can be viewed as a category where objects are elements, and there is a unique morphism $x\rightarrow y$ if $x\le y$, and none otherwise. Let $i:\Delta\rightarrow\mathbf{Cat}$ be the inclusion functor. The &lt;em&gt;nerve functor&lt;/em&gt;&lt;/p&gt;
+$$N=i^*:\mathbf{Cat}\rightarrow\mathbf{SSet}$$&lt;p&gt;is given by&lt;/p&gt;
+$$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt;Thus the $n$-simplices of $N(C)$ are strings of arrows of length $n$ in $C$. By the preceding theorem, the nerve functor has a left adjoint $\tau=i_!:\mathbf{SSet}\rightarrow\mathbf{Cat}$. We&#39;ll stop here and continue more in Part II.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Derived Category</title>
       <link>https://yunhaimath.com/posts/derived-cat/</link>
-      <pubDate>Tue, 09 Dec 2025 20:06:49 +0000</pubDate>
+      <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
@@ -410,9 +325,193 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     </item>
     
     <item>
+      <title>Triangulated Categories</title>
+      <link>https://yunhaimath.com/posts/triangulated-cat/</link>
+      <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/triangulated-cat/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    It is impossible to be a mathematician without being a poet in soul.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sofia Kovalevskaya&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &amp;quot;distinguished triangles&amp;quot;, which are similar to exact sequences.&lt;/p&gt;
+&lt;p&gt;A translation functor on an additive category $\mathcal C$ is an automorphism $T:\mathcal C\rightarrow\mathcal C$ where we denote $T^n(X)=X[n]$ and $T^nf=f[n]$ for $n\in\mathbb Z$. A &lt;em&gt;triangle&lt;/em&gt; is a diagram $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, and a morphism of triangles is a diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3Il0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;which commutes. A triangulated category is an additive category $\mathcal C$ with a translation functor and a family of triangles called &lt;em&gt;distinguished triangles&lt;/em&gt; such that the following axioms are satisfied.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;For any $X\in\mathcal C$, the triangle $X\xrightarrow{\mathbf 1_X} X\rightarrow \mathbf 0\rightarrow X[1]$ is distinguished.&lt;/li&gt;
+&lt;li&gt;Any triangle isomorphic to a distinguished triangle is distinguished.&lt;/li&gt;
+&lt;li&gt;Any morphism $X\rightarrow Y$ can be completed to a distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$.&lt;/li&gt;
+&lt;li&gt;(Rotation axiom) A triangle $X\xrightarrow{u} Y\rightarrow Z\rightarrow X[1]$ is distinguished iff $Y\rightarrow Z\rightarrow X[1]\xrightarrow{-u[1]}Y[1]$ is.&lt;/li&gt;
+&lt;li&gt;Suppose the rows in the diagram&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;are distinguished, and the left square commutes, then there exists a morphism $w:Z\rightarrow Z^\prime$ (not necessarily unique) completing the diagram into a morphism of triangles.
+6. (Octahedral axiom) Suppose the first three rows are distinguished and the left two squares commute, then there exists morphisms $u,v,w$ completing the diagram into two morphisms of triangles and the whole diagram commutes and the last row is also distinguished&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMTYsWzAsMCwiWCJdLFsxLDAsIlkiXSxbMiwwLCJaXlxccHJpbWUiXSxbMywwLCJYWzFdIl0sWzAsMSwiWCJdLFsxLDEsIloiXSxbMiwxLCJZXlxccHJpbWUiXSxbMywxLCJYWzFdIl0sWzAsMiwiWSJdLFsxLDIsIloiXSxbMiwyLCJYXlxccHJpbWUiXSxbMywyLCJZWzFdIl0sWzAsMywiWl5cXHByaW1lIl0sWzEsMywiWV5cXHByaW1lIl0sWzIsMywiWF5cXHByaW1lIl0sWzMsMywiWl5cXHByaW1lWzFdIl0sWzAsNCwiXFxtYXRoYmYgMV9YIl0sWzEsNSwiZyJdLFs0LDgsImciXSxbNSw5LCJcXG1hdGhiZiAxX1oiXSxbMCwxLCJmIl0sWzEsMiwiYSJdLFsyLDNdLFs0LDVdLFs1LDYsImIiXSxbNiw3XSxbOCw5LCJnIl0sWzksMTAsImMiXSxbMTAsMTFdLFszLDcsIlxcbWF0aGJmIDFfe1hbMV19Il0sWzcsMTEsImZbMV0iXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzYsMTAsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTAsMTQsIlxcbWF0aGJmIDFfe1heXFxwcmltZX0iXSxbMTIsMTMsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTMsMTQsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTQsMTUsInciLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTEsMTUsImFbMV0iXSxbOCwxMiwiYSJdLFs5LDEzLCJiIl1d&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 300px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;If all but the last axiom is satisfied, then it is known as a &lt;em&gt;pre-triangulated category&lt;/em&gt;. It is conjectured that pre-triangulated categories are triangulated, i.e. the last axiom is redundant. The general concensus seems to be that this is not true.&lt;/p&gt;
+&lt;p&gt;An additive functor between triangulated categories $F:\mathcal C\rightarrow\mathcal D$ is said to &lt;em&gt;commute with translation&lt;/em&gt; if there is a natural isomorphism $FT_{\mathcal C}\cong T_{\mathcal D} F$, and $F$ is said to be &lt;em&gt;exact&lt;/em&gt; or &lt;em&gt;triangulated&lt;/em&gt; if it commutes with translation and takes distinguished triangles to distinguished triangles. Let $F,G:\mathcal C\rightarrow\mathcal D$ be exact functors, and $\eta_{F}:FT_{\mathcal C}\rightarrow T_{\mathcal D}F$ and $\eta_{G}:GT_{\mathcal C}\rightarrow T_{\mathcal D}G$ be natural isomorphisms, then a natural transformation $w:F\rightarrow G$ is &lt;em&gt;graded&lt;/em&gt; if for $X\in\mathcal C$&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJGVF97XFxtYXRoY2FsIEN9WCJdLFsxLDAsIlRfe1xcbWF0aGNhbCBEfUZYIl0sWzAsMSwiR1RfXFxtYXRoY2Fse0N9WCJdLFsxLDEsIlRfXFxtYXRoY2FsIERGWCJdLFswLDEsIlxcZXRhX3tGLFh9Il0sWzAsMiwid197VF9cXG1hdGhjYWwgQ1h9IiwyXSxbMSwzLCJUX1xcbWF0aGNhbCBEd19YIl0sWzIsMywiXFxldGFfe0csWH0iLDJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 180px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;commutes.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;In a (pre)triangulated category $\mathcal C$, if $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X[1]$ is distinguished, then&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$vu=0$ and $wv=0$&lt;/li&gt;
+&lt;li&gt;any change of sign of exactly two of $u,v,w$ is distinguished,&lt;/li&gt;
+&lt;li&gt;if $U\in\mathcal C$, then there exists long exact sequences of abelian groups $$\begin{aligned}&amp;\cdots\rightarrow\mathrm{Hom}(U,X[i])\xrightarrow{u[i]_*}\mathrm{Hom}(U,Y[i])\xrightarrow{v[i]_*} \mathrm{Hom}(U,Z[i])\xrightarrow{w[i]_*}\mathrm{Hom}(U,X[i+1])\rightarrow\cdots\\\ &amp;\cdots\leftarrow\mathrm{Hom}(X[i],U)\xleftarrow{u[i]^*}\mathrm{Hom}(Y[i],U)\xleftarrow{v[i]^*} \mathrm{Hom}(Z[i],U)\xleftarrow{w[i]^*}\mathrm{Hom}(X[i+1],U)\leftarrow\cdots\end{aligned}$$
+where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
+&lt;li&gt;(triangulated 5-lemma) Consider a morphism of distinguished triangles, and let its components be $f:X\rightarrow X^\prime,g:Y\rightarrow Y^\prime,h:Z\rightarrow Z^\prime$, then if any two of them are isomorphisms, so is the third.&lt;/li&gt;
+&lt;li&gt;$u$ is an isomorphism iff $Z\cong\mathbf{0}$&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;ol&gt;
+&lt;li&gt;It suffice to show $vu=0$, and $wv=0$ can be obtained from the rotation axiom. To show this, we first note that $Z\rightarrow Z\rightarrow \mathbf 0\rightarrow Z[1]$ is distinguished. The triangle $Y\rightarrow Z\rightarrow X[1]\rightarrow Y[1]$ is distinguished by axiom 4, and we construct a morphism between them via axiom 5, and then we can obtain $vu=0$ from the commutativity of a square in the diagram.&lt;/li&gt;
+&lt;li&gt;Straightforwardly, the triangle obtained by changing exactly two signs is isomorphic to the original triangle by an obvious morphism of triangles, so it is still distinguished.&lt;/li&gt;
+&lt;li&gt;We will only prove the first one, and the second one is proved dually. Since $vu=0$, we have $(v[i])(u[i])=0$, so $\mathrm{Im}(u[i]_*)\subseteq \mathrm{Ker}(v[i]_*)$. Conversely, suppose $f\in \mathrm{Ker}(v[i]_*)$, so $f(v[i])=0$. Consider the diagram as follows&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJVWy1pXSJdLFsxLDAsIlxcbWF0aGJmezB9Il0sWzIsMCwiVVstaSsxXSJdLFszLDAsIlVbLWkrMV0iXSxbMCwxLCJZIl0sWzEsMSwiWiJdLFsyLDEsIlhbMV0iXSxbMywxLCJZWzFdIl0sWzAsMV0sWzEsMl0sWzIsMywiLVxcbWF0aGJmezF9Il0sWzQsNSwidiJdLFs1LDYsInciXSxbNiw3LCItdVsxXSJdLFswLDQsImZbLWldIl0sWzEsNV0sWzMsNywiZlstaSsxXSJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 360px;
+      height: 200px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+which we can complete to a morphism of triangles with some $h:U[-i+1]\rightarrow X[1]$. By the commutativity of the rightmost square, $-f[-i+1]=-(u[i])h$ so $f=(u[i])(h[-i+1])$, so $f\in \mathrm{Im}(u[i]_*)$. By the rotation axiom, since we proved a short exact sequence, we have the exactness of the long exact sequence.
+4. By the rotation axiom, it suffice to show the case where the first two are isomorphisms. By using (3), we have a long exact sequence, and we can obtain the isomorphism using the usual 5-lemma, details ommited.
+5. A striaghtforward corollary.
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Let $\mathcal C$ be a triangulated category and $\mathcal A$ an abelian category, then an additive functor $H:\mathcal C\rightarrow\mathcal A$ is called &lt;em&gt;cohomological&lt;/em&gt; if for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, the sequence $H(X)\rightarrow H(Y)\rightarrow H(Z)$ is exact. It is then a straightforward consequence by the rotation axiom that for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, we have the following long exact sequence
+&lt;/p&gt;
+$$\cdots\rightarrow H(X[i])\xrightarrow{H(u[i])} H(Y[i])\xrightarrow{H(v[i])}H(Z[i])\xrightarrow{H(w[i])}H(X[i+1])\rightarrow\cdots$$&lt;p&gt;
+What we just proved in part 3 of the previous theorem is that the Hom-functor is cohomological.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    An object in an abelian category is &lt;em&gt;simple&lt;/em&gt; if the only subobjects are zero and the object itself, and semisimple if it is a coproduct of simple objects. An abelian category is semisimple if every short exact sequence splits.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Caution: some authors call a category semisimple if all objects are semisimple, which is a stronger definition and is NOT equivalent to our definition. Every semisimple abelian category has a triangulated structure. To do this, we let the translation functor be the identity functor, and we declare a triangle $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X$ distinguished if it is &amp;quot;exact&amp;quot; at $X$, i.e. $\mathrm{Ker}(u)=\mathrm{Im}(w)$. Verifying this is a triangulated category is a tedious, and we will not do it here. Moreover, all abelian triangulated categories are semisimple. We will not prove this either. In fact, the homotopy category of complexes $K(\mathcal A)$ is triangulated. To see this, we set the distinguished triangles to be the ones isomorphic to a standard triangle of the form &lt;/p&gt;
+$$X^\bullet\xrightarrow{f^\bullet} Y^\bullet \xrightarrow{i_f^\bullet} \mathrm{Cone}(f^\bullet)\xrightarrow{p_f^\bullet} X^\bullet[1]$$&lt;p&gt;
+and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$ is cohomological.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Abelian Categories and Derived Functors</title>
       <link>https://yunhaimath.com/posts/abelian-cat-and-derived-cat/</link>
-      <pubDate>Mon, 08 Dec 2025 15:28:14 +0000</pubDate>
+      <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/abelian-cat-and-derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
@@ -820,105 +919,6 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;There are many things that needs to be checked here for it to be well defined, which we omit. We will see that this category is not typically abelian, but it is triangulated. A triangulated category is an approximation of an abelian category.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Simplicial Sets and Infinity-Categories</title>
-      <link>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:01 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous Friend&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Recently, I&#39;ve been reading Cisinski&#39;s &lt;em&gt;Higher Categories and Homotopical Algebra&lt;/em&gt;. I wanted to write down some of the things I&#39;ve learned. In this post, we start from a review of presheaves of sets and simplicial sets, and then build towards the definition of an $\infty$-category. Let $A$ be a category. Recall that a presheaf on $A$ is a contravariant functor $X:A^{\mathrm{op}}\rightarrow \mathbf{Set}$, where we denote $X_a=X(a)$ and $u^*:X_b\rightarrow X_a$ the induced map for each $u:a\rightarrow b$. The category of presheaves on $A$ is denoted by $\widehat{A}$. The category of elements $\int_A X$ (or $\int X$) is the category where objects are pairs $(a,s)$ with $a\in A$ and $s\in X_a$, and a morphism $u:(a,s)\rightarrow (b,t)$ is a morphism $u:a\rightarrow b$ such that $u^*(t)=s$. It comes equipped with a faithful functor $\varphi_X:\int_A X\rightarrow \widehat{A}$ given by $(a,s)\mapsto \mathscr{H}_a$ on objects and $u\mapsto \mathscr{H}(u)$ on morphisms, where $\mathscr{H}:A\rightarrow \widehat{A}$ is the Yoneda embedding. In this post, we ignore all set-theoretic size issues.&lt;/p&gt;
-&lt;h2 id=&#34;presheaves&#34;&gt;Presheaves&lt;/h2&gt;
-&lt;p&gt;First, we prove a variation of the Yoneda lemma, in the style of coend calculus.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
-$$X=\mathrm{colim}\ \varphi_X.$$
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
-$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Let $C$ be a category with limits. For $u:A\rightarrow C$, we can define a &lt;em&gt;functor of evaluation&lt;/em&gt;&lt;/p&gt;
-$$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u(a),Y)\right],$$&lt;p&gt;that is, $u^*(Y)=\mathrm{Hom}_C(-,Y)\circ u$. By this version of the Yoneda lemma, we have the following consequence.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
-$$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
-$$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
-&lt;p&gt;Let $\Delta$ be the category where the objects are finite sets $[n]=\{0,\dots,n\}$ for $n\in\mathbb N$, and the morphisms are order-preserving functions. This is called the &lt;em&gt;simplex category&lt;/em&gt;. A &lt;em&gt;simplicial set&lt;/em&gt; is a presheaf on $\Delta$, and we denote the category of simplicial sets by $\mathbf{SSet}=\widehat{\Delta}$. For $n\in\mathbb N$, denote $\Delta^n=\mathscr{H}_n$ as the &lt;em&gt;standard $n$-simplex&lt;/em&gt;. For a simplicial set $X$, we write&lt;/p&gt;
-$$X_n=X([n])=\mathrm{Hom}(\Delta^n,X)$$&lt;p&gt;for the set of $n$-simplices of $X$.&lt;/p&gt;
-&lt;p&gt;For integers $n\ge 1$ and $0\le i\le n$, the map $\partial^n_i:\Delta^{n-1}\rightarrow \Delta^n$ corresponds to the map $[n-1]\rightarrow [n]$ whose image omits $i$. For $n\ge 0$, the map $\sigma^n_i:\Delta^{n+1}\rightarrow \Delta^n$ corresponds to the map $[n+1]\rightarrow [n]$ that takes the value $i$ twice. We also write&lt;/p&gt;
-$$d^i_n=(\partial_i^n)^*:X_n\rightarrow X_{n-1},\qquad s^i_n=(\sigma_i^n)^*:X_n\rightarrow X_{n+1}.$$&lt;p&gt;The category $\Delta$ is uniquely captured by a set of identities involving these operations.&lt;/p&gt;
-&lt;p&gt;There is a geometric realization functor $|\cdot|:\mathbf{SSet}\rightarrow \mathbf{Top}$, where $\mathbf{Top}$ is the category of compactly generated Hausdorff topological spaces, given by&lt;/p&gt;
-$$|\Delta^n|=\left\{(x_j)_{0\le j\le n}\in\mathbb R^{n+1}_{\ge 0}: \sum_{j=0}^n x_j=1\right\}$$&lt;p&gt;and&lt;/p&gt;
-$$|X|=\mathrm{colim}_{\Delta^n\rightarrow X}|\Delta^n|$$&lt;p&gt;for a simplicial set $X$. For each $f:[m]\rightarrow [n]$, we get an associated continuous map $|f|:|\Delta^m|\rightarrow |\Delta^n|$, defined by $|f|(x_0,\dots,x_m)=(y_0,\dots,y_n)$ where $y_j=\sum_{f(i)=j}x_i$. By virtue of the preceding theorem, we have a singular complex functor $\mathrm{Sing}:\mathbf{Top}\rightarrow\mathbf{SSet}$, given by&lt;/p&gt;
-$$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which is right adjoint to the geometric realization functor, i.e. $|\cdot|\dashv \mathrm{Sing}$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
-&lt;li&gt;If a morphism $a\rightarrow b$ in $A_+$ (resp. $A_-$) is not the identity, then $d(a) &lt; d(b)$ (resp. $d(b) &lt; d(a)$).&lt;/li&gt;
-&lt;li&gt;Any morphism $u:a\rightarrow b$ in $A$ factors uniquely as $u=ip$, where $p:a\rightarrow c$ is in $A_-$ and $i:c\rightarrow b$ is in $A_+$.&lt;/li&gt;
-&lt;li&gt;For a morphism $\pi:a\rightarrow b$ in $A_-$, there exists $\sigma:b\rightarrow a$ in $A$ such that $\pi\sigma=\mathbf{1}_b$.&lt;/li&gt;
-&lt;li&gt;For $\pi,\tau:a\rightarrow b$ in $A_-$, if $\pi$ and $\tau$ have the same set of sections, then $\pi=\tau$.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
-&lt;h2 id=&#34;nerves&#34;&gt;Nerves&lt;/h2&gt;
-&lt;p&gt;Every poset $E$ can be viewed as a category where objects are elements, and there is a unique morphism $x\rightarrow y$ if $x\le y$, and none otherwise. Let $i:\Delta\rightarrow\mathbf{Cat}$ be the inclusion functor. The &lt;em&gt;nerve functor&lt;/em&gt;&lt;/p&gt;
-$$N=i^*:\mathbf{Cat}\rightarrow\mathbf{SSet}$$&lt;p&gt;is given by&lt;/p&gt;
-$$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt;Thus the $n$-simplices of $N(C)$ are strings of arrows of length $n$ in $C$. By the preceding theorem, the nerve functor has a left adjoint $\tau=i_!:\mathbf{SSet}\rightarrow\mathbf{Cat}$. We&#39;ll stop here and continue more in Part II.&lt;/p&gt;</description>
     </item>
     
   </channel>

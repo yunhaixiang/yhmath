@@ -2,7 +2,7 @@
 title: 'Derived Category'
 categories: ["expositions"]
 tags: ["math", "category-theory"]
-date: 2025-12-09 20:06:49
+date: 2022-09-07 20:06:49
 ---
 {{< pullquote author="David Mumford">}}
 Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.

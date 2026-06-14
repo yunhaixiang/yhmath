@@ -1,6 +1,6 @@
 ---
 title: Simplicial Sets and Infinity-Categories
-date: 2025-12-01 00:00:01
+date: 2025-09-25 20:14:47
 categories: [expositions]
 tags: [math, category-theory, homotopy-theory]
 ---

@@ -2,7 +2,7 @@
 title: Grothendieck-Witt Ring
 tags: ["math", "algebraic-geometry", "number-theory"]
 categories: ["expositions"]
-date: 2025-12-06 
+date: 2024-09-12 14:55:58
 ---
 
 {{< pullquote author="Shakuntala Devi">}}

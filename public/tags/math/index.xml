@@ -2519,343 +2519,47 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     </item>
     
     <item>
-      <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>https://yunhaimath.com/posts/fppf-site/</link>
-      <pubDate>Thu, 11 Dec 2025 12:24:26 +0000</pubDate>
+      <title>做数学科研一定要在学术界吗</title>
+      <link>https://yunhaimath.com/posts/keyan/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/fppf-site/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Ethan D. Bloch&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2023 reposted. In this week we discuss fppf sites (recall that we defined $(\mathbf{Sch}/X)_{\mathrm{fppf}}$ in last week) and faithfully flat descent. This will help us to build our way to the definition of a stack. The idea of faifully flat descent is that a certain property of schemes can be descended via a cartesian square with a fppf side. The important result we are building towards is that for any scheme $X$, the functor of points $\mathscr{H}_X$ is a sheaf on the fppf site of $X$. After this, we can talk about fibred categories. Fibred categories plus descents is categorical stacks, plus geometry is algebraic stacks.&lt;/p&gt;
-&lt;h2 id=&#34;fppf-site-and-faithfully-flat-descent&#34;&gt;Fppf site and faithfully flat descent&lt;/h2&gt;
-&lt;p&gt;We recall that a map of schemes is fppf iff it is faithfully flat (i.e. flat and surjective) and locally of finite presentation, and recall that the fppf site $(\mathbf{Sch}/X)_{\mathrm{fppf}}$ consists of the fppf covers, i.e. the jointly surjective, flat and locally of finite presentation families of morphisms. We have the following problem.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Suppose $X\rightarrow Y$ is a morphism of schemes, the functor of points $\mathscr{H}_X$ is a sheaf on $(\mathbf{Sch}/Y)_{\mathrm{fppf}}$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    Proof is very long, see &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
-⟦cite:Ols16⟧
-&lt;/span&gt;.
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;This theorem has a very long proof and the reason it is important is delayed to later. Another important result is faithfully flat descent. The idea is, if $P$ is some property of morphism of schemes, given morphisms of schemes $f_1:X_1\rightarrow Y_1$ and $f_2:X_2\rightarrow Y_2$ and suppose there is a commutative diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJYXzEiXSxbMSwwLCJZXzEiXSxbMCwxLCJYXzIiXSxbMSwxLCJZXzIiXSxbMCwxLCJmXzEiXSxbMiwzLCJmXzIiXSxbMCwyLCJcXG1hdGhybXtmcHBmfSIsMix7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6ImVwaSJ9fX1dLFsxLDNdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 184px;
-      height: 184px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;then frequently $f_1$ has property $P$ iff $f_2$ does. We say that $P$ is local on the base (target) for the fppf topology (et al. Zariski, etc.) if $f_1$ has property $P$ implies $f_2$ does. Examples of properties that are local on the base for the fppf topology inlcude: surjective, locally of finite type, locally of finite presentation, universally closed/open, separated, proper, etc. The full proof can be found on &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Stacks&#34; data-cite-note=&#34;Tag 02YJ&#34;&gt;
-  ⟦cite:Stacks⟧
-&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;fibred-categories&#34;&gt;Fibred categories&lt;/h2&gt;
-&lt;p&gt;For a category $\mathcal C$, a category over $\mathcal C$ is some category $\mathcal F$ equipped with a functor $\mathscr{P}_{\mathcal F}:\mathcal F\rightarrow\mathcal C$. We draw diagrams with the notation $\xi\mapsto U$ to mean $\mathscr{P}_{\mathcal F}(\xi)=U$, and a diagram of the form&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJcXHhpIl0sWzEsMCwiXFxldGEiXSxbMCwxLCJVIl0sWzEsMSwiViJdLFswLDEsIlxccGhpIl0sWzIsMywiZiJdLFswLDIsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMSwzLCIiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV1d&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 184px;
-      height: 184px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;commutes iff $\mathscr{P}_{\mathcal F}\phi=f$. Moreover, we say that a morphism $\phi:\xi\rightarrow\eta$ in $\mathcal F$ is &lt;em&gt;cartesian&lt;/em&gt; if for all $\zeta\in\mathcal F$ and morphisms $\psi:\zeta \rightarrow \eta$ and $h:\mathscr{P}_{\mathcal F}(\zeta)\rightarrow \mathscr{P}_{\mathcal F}(\xi)$ such that $\mathscr{P}_{\mathcal F}\phi \circ h=\mathscr{P}_{\mathcal F}\psi$, there exists unique $\theta:\zeta\rightarrow\xi$ such that $\mathscr{P}_{\mathcal F}\theta=h$ and $\psi=\phi\circ\theta$, as indicated in the diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNixbMSwwLCJcXHhpIl0sWzIsMCwiXFxldGEiXSxbMSwxLCJVIl0sWzIsMSwiViJdLFswLDEsIlciXSxbMCwwLCJcXHpldGEiXSxbMCwxLCJcXHBoaSIsMCx7ImNvbG91ciI6WzI1LDk0LDYwXX0sWzI1LDk0LDYwLDFdXSxbMiwzLCJcXG1hdGhzY3J7UH1fe1xcbWF0aGNhbCBGfVxccGhpIl0sWzAsMiwiIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsxLDMsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbNCwyLCJcXGZvcmFsbCBoIl0sWzQsMywiXFxtYXRoc2Nye1B9X3tcXG1hdGhjYWwgRn1cXHBzaSIsMCx7ImN1cnZlIjozfV0sWzUsNCwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs1LDAsIlxcZXhpc3RzIVxcdGhldGEiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNSwxLCJcXGZvcmFsbCBcXHBzaSIsMCx7ImN1cnZlIjotM31dXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 262px;
-      height: 184px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;and when $\phi:\xi\rightarrow\eta$ is cartesian, we say that $\xi$ is a &lt;em&gt;pullback&lt;/em&gt; of $\eta$ (to $U$ along $\mathscr{P}_{\mathcal F}\phi$). This diagram is sometimes known as the &amp;quot;universal property&amp;quot; of cartesian morphisms. Note that given two pullbacks $\phi_1:\xi_1\rightarrow\eta$ and $\phi_2:\xi_2\rightarrow\eta$ then substitute $\psi=\xi_i$ for $i=1,2$ will give us an isomorphism $\xi_1\cong\xi_2$. Thus, pullbacks are unique up to a unique isomorphism. Note that in SGA1 the definition of cartesian arrow is different and this definition is sometimes known as strongly cartesian. Next, we introduce the following properties, which is easy to check,&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;proposition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $\mathscr{P}_{\mathcal F}:\mathcal F\rightarrow\mathcal C$ be a category over the category $\mathcal C$.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;composite of cartesian arrows are cartesian,&lt;/li&gt;
-&lt;li&gt;if $\psi:\eta\rightarrow \zeta$ and $\phi:\xi\rightarrow\eta$ are arrows in $\mathcal F$ with $\psi$ cartesian, then $\phi$ is cartesian iff $\psi\circ\phi$ is,&lt;/li&gt;
-&lt;li&gt;if $\phi:\xi\rightarrow\eta$ is an arrow and $\mathscr{P}_{\mathcal F}\phi$ is an isomorphism, then $\phi$ is cartesian iff it is an isomorphism,&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;With these knowledge, we can introduce fibred categories. Fibred categories are used to provide a general framework for descent theory. They formalize various situations in geometry and algebra where pullbacks of objects are defined. A motivating example is the category of vector bundles on a topological space.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;A &lt;em&gt;fibred category&lt;/em&gt; over a category $\mathcal C$ is a category $\mathcal F$ over $\mathcal C$ such that for each $f:U\rightarrow V$ in $\mathcal C$ where $V=\mathscr{P}_{\mathcal F}(\eta)$ for some $\eta\in \mathcal F$, there exists $\xi\in\mathcal F$ with $U=\mathscr{P}_{\mathcal F}(\xi)$ and cartesian arrow $\phi:\xi\rightarrow\eta$ such that $f=\mathscr{P}_{\mathcal F}\phi$.&lt;/li&gt;
-&lt;li&gt;Suppose $\mathcal F,\mathcal G$ are fibred categories over $\mathcal C$, then a &lt;em&gt;morphism of fibred categories&lt;/em&gt; $\mathscr{F}:\mathcal F\rightarrow \mathcal G$ is a functor such that $\mathscr{P}_{\mathcal G}\circ \mathscr{F}=\mathscr{P}_{\mathcal F}$ and $\mathscr{F}$ sends cartesian arrows to cartesian arrows.&lt;/li&gt;
-&lt;li&gt;Suppose $\mathcal F$ is a category over $\mathcal C$ and $U\in\mathcal C$, write $\mathcal F(U)$ as the subcategory of $\mathcal F$ whose objects are $\xi\in\mathcal F$ such that $\mathscr{P}_{\mathcal F}(\xi)=U$ and morphisms are $\phi:\xi\rightarrow \eta$ where $\mathscr{P}_{\mathcal F}\phi=\mathbf{1}_U$.&lt;/li&gt;
-&lt;li&gt;If $\mathscr{F},\mathscr{G}:\mathcal F\rightarrow \mathcal G$ are morphisms of fibred categories, a &lt;em&gt;base-preserving natural transformation&lt;/em&gt; $\alpha:\mathscr{F}\rightarrow \mathscr{G}$ is a natural transformation such that for all $u\in\mathcal F$ we have $\alpha(u):\mathscr{F}(u)\rightarrow \mathscr{G}(u)$ is such that $\mathscr{P}_\mathcal{G}(\mathscr{F}(u))=\mathscr{P}_\mathcal{G}(\mathscr{G}(u))$ and $\mathscr{P}_{\mathcal G}\alpha(u)=\mathbf 1_{\mathscr{P}_\mathcal{G}(\mathscr{F}(u))}$, i.e. $\alpha(u)$ is a morphism in $\mathcal G(\mathscr{P}_\mathcal{G}(\mathscr{F}(u)))$.&lt;/li&gt;
-&lt;li&gt;Denote by $\mathrm{MOR}_{\mathcal C}(\mathcal F,\mathcal G)$ the category whose objects are morphisms of fibred categories and morphisms are base-preserving natural transformations.&lt;/li&gt;
-&lt;li&gt;For a morphism of fibred categories $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ over $\mathcal C$ and $U\in\mathcal C$, we write $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ to denote the functor where $\mathscr{F}_U(\xi)=\mathscr{F}(\xi)$ and $\mathscr{F}_U\phi=\mathscr{F}\phi$.&lt;/li&gt;
-&lt;/ol&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Thus in a fibred category we can pullback objects along any arrow. For example, for a category $\mathcal C$ with $X\in\mathcal C$, we have $\mathcal C/X$ is fibred over $\mathcal C$ via $\mathscr{P}_{\mathcal C/X}:\mathcal C/X\rightarrow \mathcal C$ given by $(Y\rightarrow X)\mapsto Y$ and morphisms are mapped to themsleves. It should be easy to check that this is well-defined.&lt;/p&gt;
-&lt;p&gt;Why do we need fibred categories? Suppose $f:X\rightarrow Y$ is a morphism of schemes. For any morphism of schemes $t:T\rightarrow Y$ we can form a fibred product $T\times_Y X$ which is only unique up to a unique isomorphism. Thus implicitly there is a choice being made. This becomes a technical obstacle in developing the theory of stacks, and fibred categories are used to address this problem. For more detail, see &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Example 3.1.5&#34;&gt;
-  ⟦cite:Ols16⟧
-&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;The collection of categories fibred over a fixed category is an example of a $2$-category. Roughly speaking, a $2$-category is a category where the morphisms between two objects form a category. However, we will not use higher categorical language.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;lemma&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ be a morphism of fibred categories over $\mathcal C$,&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$\mathscr{F}$ is fully faithful (as a functor) iff $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ is fully faithful for all $U\in\mathcal C$,&lt;/li&gt;
-&lt;li&gt;$\mathscr{F}$ is an equivalence (of categories) iff $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ is an equivalence for all $U\in\mathcal C$.&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Lemma 3.1.8&#34;&gt;
-⟦cite:Ols16⟧
-&lt;/span&gt;.
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;Recall the classical Yoneda lemma: for each object $A\in\mathcal C$ we have a natural isomorphism between the collection of natural transformations $\mathrm{Nat}(\mathscr{F},\mathscr{H}^A)$, and the set $\mathscr{F}(A)$. This point of view is crucial for the development of algebraic spaces, and also for fibred categories we need a variant of this lemma.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(2-Yoneda lemma)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence &lt;/p&gt;
-$$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$&lt;p&gt;
-given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
-⟦cite:Ols16⟧
-&lt;/span&gt;.
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It is often useful to think of a fibred category as the collection of categories $\mathcal{F}(U)$ with a pullback functor. Thus, we introduce split fibred categories. We will not go over the details of the rigorous definition, but the reader can check &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;3.3.1&#34;&gt;
-  ⟦cite:Ols16⟧
-&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Ols16&#34; data-bib-key=&#34;Ols16&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;Martin Olsson. &lt;em&gt;Algebraic Spaces and Stacks&lt;/em&gt;. American Mathematical Society. 2016.&lt;/li&gt;
-
-  &lt;li id=&#34;bib-Stacks&#34; data-bib-key=&#34;Stacks&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;&lt;em&gt;The Stacks Project&lt;/em&gt;. &lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;https://stacks.math.columbia.edu&lt;/a&gt;.&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;/div&gt;</description>
+      <guid>https://yunhaimath.com/posts/keyan/</guid>
+      <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
+&lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
+&lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着长期的孤独。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。第五、在学术界不意味着能够做喜欢的课题，往往需要追逐时髦，在非自己本职的领域内花时间也不太可能，而我往往只能花时间在自己感兴趣的课题上。&lt;/p&gt;
+&lt;p&gt;  相比起来，如果在做quant的同时副业做数学科研，只是每周工作时间肝了一些，好像确实是更好的选择。我也不想成为什么大数学家，只是思考数学问题我就蛮开心的。如果四十岁能赚到足够的fuck-off money，那么甚至可以辞了工作专注数学和其他爱好。我也有想过要不要做一些和纯数学相近的业界的工作。比如cryptography，不过现在好像和cryptography沾边的公司要的都是需要懂cybersecurity的那种计算机出身的人。如果只是懂mathematical cryptography的，要的地方一只手可以数得过来。要么就是那种IDA或者NSA的政府机构，需要clearance的，我必然不行。&lt;/p&gt;
+&lt;p&gt;  我现在也比较纠结。想来想去我觉得还是走着瞧吧，如果我这几年能出个自己满意的成果，那就看能不能在加拿大内做一站博后。如果屁也没憋出个，说明我本就没有什么才能，那就转quant拉倒算了。他妈的。&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Triangulated Categories</title>
-      <link>https://yunhaimath.com/posts/triangulated-cat/</link>
-      <pubDate>Wed, 10 Dec 2025 20:00:36 +0000</pubDate>
+      <title>论「纯粹」</title>
+      <link>https://yunhaimath.com/posts/lunchuncui/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/triangulated-cat/</guid>
+      <guid>https://yunhaimath.com/posts/lunchuncui/</guid>
+      <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
+&lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
+&lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
+&lt;p&gt;  第三，一个纯粹的人一定在思想上有统一，也就是不自己骗自己。在现代的社会中，很多人受到异化和物化，进而对自己也进行异化和物化，但是心里深处又不愿放弃自我，于是活在了自我矛盾中，简单的说就是活的拧巴。『全金属外壳』的主角「小丑」（Private Joker）是典型的这种自我矛盾的人物：作为越战士兵，他受到战争对自己的异化，但仍旧保留着一丝人性；在头盔上写着「Born to Kill」，却在胸前别着和平符号。小丑是活在矛盾中的人物，是很多男性心中矛盾的缩影。现代社会将男性异化为工具，要么是是暴力的工具，要么是劳动力的工具，而压抑他的人格。这种现象的结果就是很多男性将自己被异化的工具性内化为自我价值，但是在内心深处仍然是反抗这种异化的，于是就形成了矛盾。对于现代社会中的女性，则有另外一个层面的自我矛盾。一方面是想要反抗父权主义，做独立女性，一方面没有勇气放下父权主义中的很多「利己」的方面，这种自我矛盾的结果就是把那些父权主义中「利己」的方面说成是进步的。这就是为什么现在一些所谓女权支持封建彩礼习俗；潜意识中，就是把结婚当做是自己吃亏，心里中已经内化了父权主义中女性作为被追求者的角色。这种人的典型就是『飘』的女主角郝思嘉，她爱的两个男人一个代表着传统（阿什利），一个代表着进步（白瑞德）。郝思嘉以为自己爱阿什利，求而不得，为物质而与白瑞德结婚，却又对阿什利恋恋不舍，在进步与传统中纠结挣扎，最后两者都失去了。女性在历史上一直受到系统性压迫，如今也存在相当多残余，所以我认为女权主义是十分必要和重要的。可是说实话现在国内很多所谓的女权更像是一种成功学的翻版，内核仍然是矛盾的。一个纯粹的人，必然会意识到自己思想上的自我矛盾，而去正视这些矛盾，而不是在留在思维的舒适区里。去正视自己思维中的矛盾是需要勇气的，一个纯粹的人必须要有这种勇气。&lt;/p&gt;
+&lt;p&gt;  对于我个人来说，我认为人生最纯粹的追求有三：一、探求世界最深刻的真理；二、表达人最真实的情感；三、与他人在精神以及情感上的真实地链接。第一点就是数学家、哲学家、科学家们一生追求的。朝闻道，夕死可矣。我们所处的世界如此复杂，而它的原理中蕴含着无穷无尽的美。去追求这种美，理解世界最底层的真理，是最为纯粹的事情。第二点就是文学家、艺术家、诗人们一生所追求的。去理解人与社会，去把他人和自己最复杂最炽热的情感通过艺术的方式表达出来，这也是很纯粹的事情。第三点并无前两点那么宏大，但生活中点点滴滴的小事，和身边的人一些共同的经历，即使是琐碎的，也是真实和纯粹的。当然，这里「身边的人」并不是指所有身边的人。人活在世上，有时难免需要带上面具，这也无可厚非，并非所有人都值得深交。但是我认为，纯粹的人应当对同样真诚的人真诚相待。当然，这三点也并非全部，也有一些人可能会认为去改变世界，让世界更美好，是他们的追求。这也是历史上一些革命家所追求的。我本人对此没有太大的兴趣，但是我可以认同这也是很纯粹的追求，可以作为第四点。子曰：「志于道，据于德，依于仁，游于艺。」有异曲同工之处。以上是我一点粗浅的见解。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simplicial Sets and Infinity-Categories</title>
+      <link>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</link>
+      <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    It is impossible to be a mathematician without being a poet in soul.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sofia Kovalevskaya&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &amp;quot;distinguished triangles&amp;quot;, which are similar to exact sequences.&lt;/p&gt;
-&lt;p&gt;A translation functor on an additive category $\mathcal C$ is an automorphism $T:\mathcal C\rightarrow\mathcal C$ where we denote $T^n(X)=X[n]$ and $T^nf=f[n]$ for $n\in\mathbb Z$. A &lt;em&gt;triangle&lt;/em&gt; is a diagram $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, and a morphism of triangles is a diagram&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3Il0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;which commutes. A triangulated category is an additive category $\mathcal C$ with a translation functor and a family of triangles called &lt;em&gt;distinguished triangles&lt;/em&gt; such that the following axioms are satisfied.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;For any $X\in\mathcal C$, the triangle $X\xrightarrow{\mathbf 1_X} X\rightarrow \mathbf 0\rightarrow X[1]$ is distinguished.&lt;/li&gt;
-&lt;li&gt;Any triangle isomorphic to a distinguished triangle is distinguished.&lt;/li&gt;
-&lt;li&gt;Any morphism $X\rightarrow Y$ can be completed to a distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$.&lt;/li&gt;
-&lt;li&gt;(Rotation axiom) A triangle $X\xrightarrow{u} Y\rightarrow Z\rightarrow X[1]$ is distinguished iff $Y\rightarrow Z\rightarrow X[1]\xrightarrow{-u[1]}Y[1]$ is.&lt;/li&gt;
-&lt;li&gt;Suppose the rows in the diagram&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;are distinguished, and the left square commutes, then there exists a morphism $w:Z\rightarrow Z^\prime$ (not necessarily unique) completing the diagram into a morphism of triangles.
-6. (Octahedral axiom) Suppose the first three rows are distinguished and the left two squares commute, then there exists morphisms $u,v,w$ completing the diagram into two morphisms of triangles and the whole diagram commutes and the last row is also distinguished&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsMTYsWzAsMCwiWCJdLFsxLDAsIlkiXSxbMiwwLCJaXlxccHJpbWUiXSxbMywwLCJYWzFdIl0sWzAsMSwiWCJdLFsxLDEsIloiXSxbMiwxLCJZXlxccHJpbWUiXSxbMywxLCJYWzFdIl0sWzAsMiwiWSJdLFsxLDIsIloiXSxbMiwyLCJYXlxccHJpbWUiXSxbMywyLCJZWzFdIl0sWzAsMywiWl5cXHByaW1lIl0sWzEsMywiWV5cXHByaW1lIl0sWzIsMywiWF5cXHByaW1lIl0sWzMsMywiWl5cXHByaW1lWzFdIl0sWzAsNCwiXFxtYXRoYmYgMV9YIl0sWzEsNSwiZyJdLFs0LDgsImciXSxbNSw5LCJcXG1hdGhiZiAxX1oiXSxbMCwxLCJmIl0sWzEsMiwiYSJdLFsyLDNdLFs0LDVdLFs1LDYsImIiXSxbNiw3XSxbOCw5LCJnIl0sWzksMTAsImMiXSxbMTAsMTFdLFszLDcsIlxcbWF0aGJmIDFfe1hbMV19Il0sWzcsMTEsImZbMV0iXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzYsMTAsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTAsMTQsIlxcbWF0aGJmIDFfe1heXFxwcmltZX0iXSxbMTIsMTMsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTMsMTQsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTQsMTUsInciLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTEsMTUsImFbMV0iXSxbOCwxMiwiYSJdLFs5LDEzLCJiIl1d&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 300px;
-      height: 300px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;If all but the last axiom is satisfied, then it is known as a &lt;em&gt;pre-triangulated category&lt;/em&gt;. It is conjectured that pre-triangulated categories are triangulated, i.e. the last axiom is redundant. The general concensus seems to be that this is not true.&lt;/p&gt;
-&lt;p&gt;An additive functor between triangulated categories $F:\mathcal C\rightarrow\mathcal D$ is said to &lt;em&gt;commute with translation&lt;/em&gt; if there is a natural isomorphism $FT_{\mathcal C}\cong T_{\mathcal D} F$, and $F$ is said to be &lt;em&gt;exact&lt;/em&gt; or &lt;em&gt;triangulated&lt;/em&gt; if it commutes with translation and takes distinguished triangles to distinguished triangles. Let $F,G:\mathcal C\rightarrow\mathcal D$ be exact functors, and $\eta_{F}:FT_{\mathcal C}\rightarrow T_{\mathcal D}F$ and $\eta_{G}:GT_{\mathcal C}\rightarrow T_{\mathcal D}G$ be natural isomorphisms, then a natural transformation $w:F\rightarrow G$ is &lt;em&gt;graded&lt;/em&gt; if for $X\in\mathcal C$&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJGVF97XFxtYXRoY2FsIEN9WCJdLFsxLDAsIlRfe1xcbWF0aGNhbCBEfUZYIl0sWzAsMSwiR1RfXFxtYXRoY2Fse0N9WCJdLFsxLDEsIlRfXFxtYXRoY2FsIERGWCJdLFswLDEsIlxcZXRhX3tGLFh9Il0sWzAsMiwid197VF9cXG1hdGhjYWwgQ1h9IiwyXSxbMSwzLCJUX1xcbWF0aGNhbCBEd19YIl0sWzIsMywiXFxldGFfe0csWH0iLDJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 180px;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;commutes.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous Friend&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Recently, I&#39;ve been reading Cisinski&#39;s &lt;em&gt;Higher Categories and Homotopical Algebra&lt;/em&gt;. I wanted to write down some of the things I&#39;ve learned. In this post, we start from a review of presheaves of sets and simplicial sets, and then build towards the definition of an $\infty$-category. Let $A$ be a category. Recall that a presheaf on $A$ is a contravariant functor $X:A^{\mathrm{op}}\rightarrow \mathbf{Set}$, where we denote $X_a=X(a)$ and $u^*:X_b\rightarrow X_a$ the induced map for each $u:a\rightarrow b$. The category of presheaves on $A$ is denoted by $\widehat{A}$. The category of elements $\int_A X$ (or $\int X$) is the category where objects are pairs $(a,s)$ with $a\in A$ and $s\in X_a$, and a morphism $u:(a,s)\rightarrow (b,t)$ is a morphism $u:a\rightarrow b$ such that $u^*(t)=s$. It comes equipped with a faithful functor $\varphi_X:\int_A X\rightarrow \widehat{A}$ given by $(a,s)\mapsto \mathscr{H}_a$ on objects and $u\mapsto \mathscr{H}(u)$ on morphisms, where $\mathscr{H}:A\rightarrow \widehat{A}$ is the Yoneda embedding. In this post, we ignore all set-theoretic size issues.&lt;/p&gt;
+&lt;h2 id=&#34;presheaves&#34;&gt;Presheaves&lt;/h2&gt;
+&lt;p&gt;First, we prove a variation of the Yoneda lemma, in the style of coend calculus.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
@@ -2865,15 +2569,8 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;In a (pre)triangulated category $\mathcal C$, if $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X[1]$ is distinguished, then&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$vu=0$ and $wv=0$&lt;/li&gt;
-&lt;li&gt;any change of sign of exactly two of $u,v,w$ is distinguished,&lt;/li&gt;
-&lt;li&gt;if $U\in\mathcal C$, then there exists long exact sequences of abelian groups $$\begin{aligned}&amp;\cdots\rightarrow\mathrm{Hom}(U,X[i])\xrightarrow{u[i]_*}\mathrm{Hom}(U,Y[i])\xrightarrow{v[i]_*} \mathrm{Hom}(U,Z[i])\xrightarrow{w[i]_*}\mathrm{Hom}(U,X[i+1])\rightarrow\cdots\\\ &amp;\cdots\leftarrow\mathrm{Hom}(X[i],U)\xleftarrow{u[i]^*}\mathrm{Hom}(Y[i],U)\xleftarrow{v[i]^*} \mathrm{Hom}(Z[i],U)\xleftarrow{w[i]^*}\mathrm{Hom}(X[i+1],U)\leftarrow\cdots\end{aligned}$$
-where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
-&lt;li&gt;(triangulated 5-lemma) Consider a morphism of distinguished triangles, and let its components be $f:X\rightarrow X^\prime,g:Y\rightarrow Y^\prime,h:Z\rightarrow Z^\prime$, then if any two of them are isomorphisms, so is the third.&lt;/li&gt;
-&lt;li&gt;$u$ is an isomorphism iff $Z\cong\mathbf{0}$&lt;/li&gt;
-&lt;/ol&gt;
+    &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
+$$X=\mathrm{colim}\ \varphi_X.$$
   &lt;/span&gt;
 &lt;/div&gt;
 
@@ -2883,42 +2580,41 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
   &lt;/span&gt;
 
   &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;It suffice to show $vu=0$, and $wv=0$ can be obtained from the rotation axiom. To show this, we first note that $Z\rightarrow Z\rightarrow \mathbf 0\rightarrow Z[1]$ is distinguished. The triangle $Y\rightarrow Z\rightarrow X[1]\rightarrow Y[1]$ is distinguished by axiom 4, and we construct a morphism between them via axiom 5, and then we can obtain $vu=0$ from the commutativity of a square in the diagram.&lt;/li&gt;
-&lt;li&gt;Straightforwardly, the triangle obtained by changing exactly two signs is isomorphic to the original triangle by an obvious morphism of triangles, so it is still distinguished.&lt;/li&gt;
-&lt;li&gt;We will only prove the first one, and the second one is proved dually. Since $vu=0$, we have $(v[i])(u[i])=0$, so $\mathrm{Im}(u[i]_*)\subseteq \mathrm{Ker}(v[i]_*)$. Conversely, suppose $f\in \mathrm{Ker}(v[i]_*)$, so $f(v[i])=0$. Consider the diagram as follows&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 8px;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJVWy1pXSJdLFsxLDAsIlxcbWF0aGJmezB9Il0sWzIsMCwiVVstaSsxXSJdLFszLDAsIlVbLWkrMV0iXSxbMCwxLCJZIl0sWzEsMSwiWiJdLFsyLDEsIlhbMV0iXSxbMywxLCJZWzFdIl0sWzAsMV0sWzEsMl0sWzIsMywiLVxcbWF0aGJmezF9Il0sWzQsNSwidiJdLFs1LDYsInciXSxbNiw3LCItdVsxXSJdLFswLDQsImZbLWldIl0sWzEsNV0sWzMsNywiZlstaSsxXSJdXQ==&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 360px;
-      height: 200px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-which we can complete to a morphism of triangles with some $h:U[-i+1]\rightarrow X[1]$. By the commutativity of the rightmost square, $-f[-i+1]=-(u[i])h$ so $f=(u[i])(h[-i+1])$, so $f\in \mathrm{Im}(u[i]_*)$. By the rotation axiom, since we proved a short exact sequence, we have the exactness of the long exact sequence.
-4. By the rotation axiom, it suffice to show the case where the first two are isomorphisms. By using (3), we have a long exact sequence, and we can obtain the isomorphism using the usual 5-lemma, details ommited.
-5. A striaghtforward corollary.
+    &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
+$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
 
   &lt;/div&gt;
   &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;Let $\mathcal C$ be a triangulated category and $\mathcal A$ an abelian category, then an additive functor $H:\mathcal C\rightarrow\mathcal A$ is called &lt;em&gt;cohomological&lt;/em&gt; if for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, the sequence $H(X)\rightarrow H(Y)\rightarrow H(Z)$ is exact. It is then a straightforward consequence by the rotation axiom that for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, we have the following long exact sequence
-&lt;/p&gt;
-$$\cdots\rightarrow H(X[i])\xrightarrow{H(u[i])} H(Y[i])\xrightarrow{H(v[i])}H(Z[i])\xrightarrow{H(w[i])}H(X[i+1])\rightarrow\cdots$$&lt;p&gt;
-What we just proved in part 3 of the previous theorem is that the Hom-functor is cohomological.&lt;/p&gt;
+
+&lt;p&gt;Let $C$ be a category with limits. For $u:A\rightarrow C$, we can define a &lt;em&gt;functor of evaluation&lt;/em&gt;&lt;/p&gt;
+$$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u(a),Y)\right],$$&lt;p&gt;that is, $u^*(Y)=\mathrm{Hom}_C(-,Y)\circ u$. By this version of the Yoneda lemma, we have the following consequence.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
+$$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
+&lt;p&gt;Let $\Delta$ be the category where the objects are finite sets $[n]=\{0,\dots,n\}$ for $n\in\mathbb N$, and the morphisms are order-preserving functions. This is called the &lt;em&gt;simplex category&lt;/em&gt;. A &lt;em&gt;simplicial set&lt;/em&gt; is a presheaf on $\Delta$, and we denote the category of simplicial sets by $\mathbf{SSet}=\widehat{\Delta}$. For $n\in\mathbb N$, denote $\Delta^n=\mathscr{H}_n$ as the &lt;em&gt;standard $n$-simplex&lt;/em&gt;. For a simplicial set $X$, we write&lt;/p&gt;
+$$X_n=X([n])=\mathrm{Hom}(\Delta^n,X)$$&lt;p&gt;for the set of $n$-simplices of $X$.&lt;/p&gt;
+&lt;p&gt;For integers $n\ge 1$ and $0\le i\le n$, the map $\partial^n_i:\Delta^{n-1}\rightarrow \Delta^n$ corresponds to the map $[n-1]\rightarrow [n]$ whose image omits $i$. For $n\ge 0$, the map $\sigma^n_i:\Delta^{n+1}\rightarrow \Delta^n$ corresponds to the map $[n+1]\rightarrow [n]$ that takes the value $i$ twice. We also write&lt;/p&gt;
+$$d^i_n=(\partial_i^n)^*:X_n\rightarrow X_{n-1},\qquad s^i_n=(\sigma_i^n)^*:X_n\rightarrow X_{n+1}.$$&lt;p&gt;The category $\Delta$ is uniquely captured by a set of identities involving these operations.&lt;/p&gt;
+&lt;p&gt;There is a geometric realization functor $|\cdot|:\mathbf{SSet}\rightarrow \mathbf{Top}$, where $\mathbf{Top}$ is the category of compactly generated Hausdorff topological spaces, given by&lt;/p&gt;
+$$|\Delta^n|=\left\{(x_j)_{0\le j\le n}\in\mathbb R^{n+1}_{\ge 0}: \sum_{j=0}^n x_j=1\right\}$$&lt;p&gt;and&lt;/p&gt;
+$$|X|=\mathrm{colim}_{\Delta^n\rightarrow X}|\Delta^n|$$&lt;p&gt;for a simplicial set $X$. For each $f:[m]\rightarrow [n]$, we get an associated continuous map $|f|:|\Delta^m|\rightarrow |\Delta^n|$, defined by $|f|(x_0,\dots,x_m)=(y_0,\dots,y_n)$ where $y_j=\sum_{f(i)=j}x_i$. By virtue of the preceding theorem, we have a singular complex functor $\mathrm{Sing}:\mathbf{Top}\rightarrow\mathbf{SSet}$, given by&lt;/p&gt;
+$$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which is right adjoint to the geometric realization functor, i.e. $|\cdot|\dashv \mathrm{Sing}$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
@@ -2929,19 +2625,420 @@ What we just proved in part 3 of the previous theorem is that the Hom-functor is
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    An object in an abelian category is &lt;em&gt;simple&lt;/em&gt; if the only subobjects are zero and the object itself, and semisimple if it is a coproduct of simple objects. An abelian category is semisimple if every short exact sequence splits.
+    &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
+&lt;li&gt;If a morphism $a\rightarrow b$ in $A_+$ (resp. $A_-$) is not the identity, then $d(a) &lt; d(b)$ (resp. $d(b) &lt; d(a)$).&lt;/li&gt;
+&lt;li&gt;Any morphism $u:a\rightarrow b$ in $A$ factors uniquely as $u=ip$, where $p:a\rightarrow c$ is in $A_-$ and $i:c\rightarrow b$ is in $A_+$.&lt;/li&gt;
+&lt;li&gt;For a morphism $\pi:a\rightarrow b$ in $A_-$, there exists $\sigma:b\rightarrow a$ in $A$ such that $\pi\sigma=\mathbf{1}_b$.&lt;/li&gt;
+&lt;li&gt;For $\pi,\tau:a\rightarrow b$ in $A_-$, if $\pi$ and $\tau$ have the same set of sections, then $\pi=\tau$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Caution: some authors call a category semisimple if all objects are semisimple, which is a stronger definition and is NOT equivalent to our definition. Every semisimple abelian category has a triangulated structure. To do this, we let the translation functor be the identity functor, and we declare a triangle $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X$ distinguished if it is &amp;quot;exact&amp;quot; at $X$, i.e. $\mathrm{Ker}(u)=\mathrm{Im}(w)$. Verifying this is a triangulated category is a tedious, and we will not do it here. Moreover, all abelian triangulated categories are semisimple. We will not prove this either. In fact, the homotopy category of complexes $K(\mathcal A)$ is triangulated. To see this, we set the distinguished triangles to be the ones isomorphic to a standard triangle of the form &lt;/p&gt;
-$$X^\bullet\xrightarrow{f^\bullet} Y^\bullet \xrightarrow{i_f^\bullet} \mathrm{Cone}(f^\bullet)\xrightarrow{p_f^\bullet} X^\bullet[1]$$&lt;p&gt;
-and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$ is cohomological.&lt;/p&gt;</description>
+&lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
+&lt;h2 id=&#34;nerves&#34;&gt;Nerves&lt;/h2&gt;
+&lt;p&gt;Every poset $E$ can be viewed as a category where objects are elements, and there is a unique morphism $x\rightarrow y$ if $x\le y$, and none otherwise. Let $i:\Delta\rightarrow\mathbf{Cat}$ be the inclusion functor. The &lt;em&gt;nerve functor&lt;/em&gt;&lt;/p&gt;
+$$N=i^*:\mathbf{Cat}\rightarrow\mathbf{SSet}$$&lt;p&gt;is given by&lt;/p&gt;
+$$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt;Thus the $n$-simplices of $N(C)$ are strings of arrows of length $n$ in $C$. By the preceding theorem, the nerve functor has a left adjoint $\tau=i_!:\mathbf{SSet}\rightarrow\mathbf{Cat}$. We&#39;ll stop here and continue more in Part II.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Symmetric Polynomials</title>
+      <link>https://yunhaimath.com/posts/sym-poly/</link>
+      <pubDate>Wed, 18 Dec 2024 10:06:03 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/sym-poly/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is &lt;/p&gt;
+$$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta&#39;s relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
+&lt;/p&gt;
+$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.&lt;/p&gt;
+&lt;p&gt;A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Pieri Formulas)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).&lt;/p&gt;
+$$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.&lt;/p&gt;
+&lt;p&gt;One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href=&#34;https://arxiv.org/pdf/1301.7116&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grothendieck-Witt Ring</title>
+      <link>https://yunhaimath.com/posts/gw-ring/</link>
+      <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/gw-ring/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Shakuntala Devi&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}+a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;$f(x,y)=xy$ and $g(x,y)=x^2-y^2$ are equivalent by change of variables $x\mapsto x+y$ and $y\mapsto x-y$. Their associated matrices are
+&lt;/p&gt;
+$$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pmatrix}1 &amp; 0\\\ 0 &amp; -1\end{pmatrix}$$&lt;p&gt; and the change of variable matrix $A=\begin{pmatrix}1 &amp; 1\\\ 1 &amp; -1\end{pmatrix}$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal form.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A quadratic form $f$ represents some $d\in k^\times$ if there exists $\lambda\in k^n$ with $f(\lambda)=d$. Let $D(f)$ be the subset of $k^\times$ represented by $f$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear form).&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For a quadratic form $f$ on $V$, some $d\in k^\times$ is representable iff $V\cong \langle d\rangle\otimes W$ for $W$ another quadratic space. As a result, $V\cong \langle a_1,\dots,a_n\rangle $ for some $a_i$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotropic.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Decomposition)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    Each quadratic space is a orthogonal sum of a totally isotropic space, a hyperbolic space, and an anisotropic space, all unique up to equivalence.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Cancellation)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    If $q\oplus q_1\cong q\oplus q_2$ then $q_1\cong q_2$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read &lt;a href=&#34;https://kyleormsby.github.io/files/quadratic_TNR.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uniformization Theorem for Elliptic Curves</title>
+      <link>https://yunhaimath.com/posts/uniformization/</link>
+      <pubDate>Thu, 29 Feb 2024 00:10:11 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/uniformization/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The pursuit of mathematics is a divine madness of the human spirit.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alfred North Whitehead&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2024. In this post, we prove the uniformization theorem for elliptic curves. The theorem states that every elliptic curve over the complex numbers arose from the complex plane modulo a lattice, and vice versa. In fact there is an isomorphism between them which is both complex analytic and algebraic. This shows that elliptic curves over complex numbers is a torus.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;A lattice $L=[\omega_1,\omega_2]\subseteq \mathbb C$ is an additive subgroup $\omega_1\mathbb Z+\omega_2\mathbb Z\subseteq \mathbb C$ with $\omega_1,\omega_2$ linearly independent. For example, if $\mathcal O=\mathbb Z[\tau]$ is an imaginary quadratic order, the it gives rise to lattice $[1,\tau]$. An elliptic function for a lattice $L$ is a meromorphic function $f:D\subseteq \mathbb C\rightarrow\mathbb C$ that is doubly-periodic w.r.t. $L$, i.e. $f(z+\omega)=f(z)$ for all $\omega\in L$. Elliptic functions form a field $\mathbb C(L)$. We recall Cauchy&#39;s principle argument.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cauchy)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\gamma$ be a simply closed positively oriented curve with interior $\Gamma$. Let $f$ be a function meromorphic on an open set $\Omega$ containing $\Gamma$ and $\gamma$ that has no zero or pole on $\gamma$, and $g$ a nonzero function holomorphic on $\Omega$, then for $z_0\in\Gamma$ &lt;/p&gt;
+$$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\omega\in \Gamma}g(z_0)\mathrm{ord}_{w}(f)$$&lt;p&gt; when $g(z)=1$, the rhs is the difference between the number of zeros and poles in $\Omega$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This theorem is proved by writing $f,g$ in terms of their Laurent series about $z_0$ and using Residue theorem. A corollary from this is that in any fundamental paralellogram $F_{\alpha}=\alpha+\{t_1\omega_1+t_2\omega_2:0\le t_1,t_2&lt;1\}$, the number of poles is equal to the number of zeros.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $L$ be a lattice and $k&gt;2$ an integer. The Einsenstein series of weight $k$ is &lt;/p&gt;
+$$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$&lt;p&gt; Consider lattices $[1,\tau]$ for $\tau\in\mathbb H$ where $\mathbb H=\{z\in\mathbb C:\mathrm{Im}(z)&gt;0\}$ is the upper-half plane, we define $G_{k}(\tau)=G_{k}([1,\tau])$, so that $G_k$ is a funciton on the upper-half plane $\mathbb H$.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If $k$ is odd then the term $\frac{1}{\omega^k}$ cancels with $\frac{1}{(-\omega)^k}$, so the only interesting Einsenstein series are those of even weight. The Einsenstein series converges absolutely.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A Weierstrass $\wp$-function of a lattice $L$ is &lt;/p&gt;
+$$\wp(z ; L)=\frac{1}{z^2}+\sum_{\omega \in L^*}\left(\frac{1}{(z-\omega)^2}-\frac{1}{\omega^2}\right)$$&lt;p&gt; we write $\wp(z)$ when there is no confusion of the lattice.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The $\wp$-function has a pole of order $w$ at each lattice point, and these are all the poles. Its derivative is&lt;/p&gt;
+$$\wp^\prime(z)=-2\sum_{\omega\in L}\frac{1}{(z-\omega)^3}$$&lt;p&gt;It follows that $\wp, \wp^\prime$ are elliptic functions. We will now derive a differential equation that reveals its link to elliptic curves. By expanding the $\wp$-function into series, we can write it in terms of Einsenstein series. &lt;/p&gt;
+$$\wp(z)=\frac{1}{z^2}+\sum_{n=1}^{\infty}(2 n+1) G_{2 n+2}(L) z^{2 n}$$&lt;p&gt;The critical observation is that $\wp $ satisfies the following differential equations.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $L$ be a lattice, then &lt;/p&gt;
+$$\wp^{\prime}(z)^2=4 \wp(z)^3-g_2(L) \wp(z)-g_3(L),$$&lt;p&gt; where $g_2(L)=60G_4(L)$ and $g_3(L)=140 G_6(L)$&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This corresponds to an elliptic curve by letting $y=\wp^\prime(z)$ and $x=\wp(z)$, so we have an elliptic curve $y^2=4 x^3-g_2(L) x-g_3(L)$, iff the discriminant $\Delta(L)=g_2(L)^3-27g_3(L)^2$ is nonzero, and this is always nonzero. We now have a map that gives an elliptic curve for each lattice&lt;/p&gt;
+$$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$$&lt;p&gt;This is an isomorphism of groups and complex manifolds. Moreover, all elliptic curves arise this way. For a proof, consult &lt;a href=&#34;https://math.mit.edu/classes/18.783/2015/LectureNotes16.pdf&#34;&gt;here&lt;/a&gt;, becuase I&#39;m too lazy to prove the rest.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
+      <link>https://yunhaimath.com/posts/van-kampen/</link>
+      <pubDate>Wed, 07 Feb 2024 11:49:34 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/van-kampen/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2024. In this post, we present a proof of van Kampen theorem in algebraic topology that is different from the standard proof in most texts. This is a proof due to Grothendieck and it generalizes better into algebraic geometry, which is an algebraic analogue known as the étale fundamental group. This proof is shorter, more conceptual (uses universal properties without invoking concrete generators and relations), and uses covering spaces.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;Let $X$ be a topological space with all the nice connectedness properties, in particular, we assume it has a universal covering $u:\widetilde{X}\rightarrow X$. Let $G$ be a group, $x\in X$, and $\rho:\pi_1(X,x)\rightarrow G$ a homomorphism. We define a based $G$-covering $p_{\rho}:(Y_\rho,y_\rho)\rightarrow (X,x)$. Take the product $\widetilde{X}\times G$ with $G$ having the discrete topology, and $\pi_1(X,x)$ acts on it by $\sigma\cdot(z,g)=(\sigma\cdot z,g\rho(\sigma^{-1}) )$. Take $Y_\rho=(\widetilde{X}\times G)/\pi_1(X,x)$ by this action, and $y_{\rho}$ the image of $(\widetilde{x},1)$. Note that we have $(\sigma\cdot z,g)=(z,g\rho(\sigma))$ in $Y_\rho$. Let $p_\rho:Y_{\rho}\rightarrow X$ be $(z,g)\mapsto u(z)$. The group $G$ acts on $Y_\rho$ by $h\cdot (z,g)=(z,hg)$ evenly, making $Y_{\rho}$ a $G$-covering. Conversely, suppose $p:(Y,y)\rightarrow (X,x)$ is a $G$-covering, we constrct a morphism $\pi_1(X,x)\rightarrow G$. For $\sigma\in \pi_1(X,x)$, we let $\rho(\sigma)$ be the element that acts by $\rho(\sigma)\cdot y=y*\sigma$ where $y*\sigma$ is the end point of the path that lifts $\sigma$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;This construction gives a bijection
+&lt;/p&gt;
+$$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\ (X,x)\}$$&lt;p&gt; up to isomorphisms.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Checking this is routine. Let $X=U\cup V$ with $U,V$ path-connected and intersect nontrivially, with base point $x\in U\cap V$. Suppose there are coverings $p:\widetilde{U}\rightarrow U$ and $q:\widetilde{V}\rightarrow V$ and an isomorphism $\nu:p^{-1}(U\cap V)\rightarrow q^{-1}(U\cap V)$, then one can glue them together to a covering of $X$, by taking $\widetilde{X}=\widetilde{U}\times\widetilde{V}/(\nu(y_1)\sim \nu(y_2))$. We can generalize this to the case where $X$ is the union of a family of open sets, in which case we require a cocycle condition to be satisfied in order to be able to glue the covering spaces.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(van Kampen)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    For any $h_1:\pi_1(U,x)\rightarrow G$ and $h_2:\pi_1(V,x)\rightarrow G$ with $h_1\circ i_1=h_2\circ i_2$ where $i_1,i_2$ are induced by inclusions $U\cap V\hookrightarrow U $ and $U\cap V\hookrightarrow V $, there exists a unique morphism $h:\pi_1(X,x)\rightarrow G$ such that $h\circ j_1=h_1$ and $h\circ j_2=h_2$ where $j_1,j_2$ are induced by inclusions $U\hookrightarrow X$ and $V\hookrightarrow X$.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the category of groups, which is a free product with amalgamation,&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0rem;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 100%;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.5);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;The homomorphisms $h_1,h_2$ determine $G$-coverings $Y_1\rightarrow U$ and $Y_2\rightarrow V$. The commutativity of the square means that their restrictions to $U\cap V$ are isomorphic $G$-coverings, thus by previous work, they glue to a covering which restricts to $U,V$. This is given by a $h:\pi_1(X,x)\rightarrow G$ which is precisely the morphism desired.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;corollary&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;If $U\cap V$ is simply connected then
+&lt;/p&gt;
+$$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1(V,x),G)$$&lt;p&gt; which implies $\pi_1(X,x)$ is a free product.&lt;/p&gt;
+
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It is also worth mentioning that this proof is an example of &lt;a href=&#34;https://en.wikipedia.org/wiki/Descent_(mathematics)&#34;&gt;descent&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bundles and Divisors on Schemes</title>
+      <link>https://yunhaimath.com/posts/bundles-and-divisors/</link>
+      <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/bundles-and-divisors/</guid>
+      <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Algebra is but written geometry and geometry is but figured algebra.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sophie Germain&lt;/div&gt;&lt;/aside&gt;
+This is an old post from 2023. Recall that for a topological space $X$, a fibre bundle of fibres $F$ where $F$ is a topological space, is a topological space $E$, with a surjective map $\pi: E\rightarrow X$ such that for all $x\in X$, exists an open nbhd $x\in U\subseteq X$ such that there is a homeomorphism $\varphi: \pi^{-1}(U)\rightarrow U\times F$ such that $\mathrm{pr}_U\circ \varphi=\pi|_{\pi^{-1}(U)}$ where $\mathrm{pr}_U:U\times F\rightarrow U$ is the projection onto $U$. Fibre bundles generalize vector bundles and covering spaces. In this post, we interpret this algebraically and generalize this notion to schemes.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;symmetric-algebra-and-quasi-coherent-bundles&#34;&gt;Symmetric Algebra and Quasi-coherent Bundles&lt;/h2&gt;
+&lt;p&gt;Recall that for $M$ an $A$-module, its tensor algebra is the graded algebra $T(M)=\bigoplus_{n\in\mathbb N}T^n(M)$ where $T^n(M)=M^{\otimes n}$. The symmetric algebra is the algebra $\mathrm{Sym}(M)=T(M)/I$ where $I$ is the ideal generated by the set $\{m\otimes n-n\otimes m:m,n\in M\}$, which is a graded algebra $\mathrm{Sym}(M)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(M)$ since $I$ is homogeneous. Note that $\mathrm{Sym}^0(M)=A$ and $\mathrm{Sym}^1(M)=M$, so there is a map $i:\mathrm{Sym}^1(M)=M\rightarrow \mathrm{Sym}(M)$. The symmetric algebra has the universal property that the precomposition $\varphi\mapsto \varphi\circ i$ induces a bijection for every $A$-algebra $B$.&lt;/p&gt;
+$$\mathrm{Hom}_{A-\mathrm{Alg}}(\mathrm{Sym}(M),B)\rightarrow\mathrm{Hom}_{A-\mathrm{Mod}}(M,B)$$&lt;p&gt;Setting $B=\mathrm{Sym}(N)$, we see from this that we can find $\mathrm{Sym}(u):\mathrm{Sym}(M)\rightarrow\mathrm{Sym}(N)$ which is a graded morphism, so $\mathrm{Sym}$ is a functor from the category of $A$-modules to the category of graded $A$-algebras. We globalize this construction to schemes. Let $X$ be a scheme (a more generally a ringed space), and $\mathcal E$ and $\mathcal O_X$-module, then define the graded $\mathcal O_X$-algebra $\mathrm{Sym}(\mathcal E)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(\mathcal E)$ be the sheafification of $U\mapsto \mathrm{Sym}_{\Gamma(U,\mathcal O_X)}(\Gamma(U,\mathcal E))$, and similarly we have a bijection&lt;/p&gt;
+$$\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathrm{Sym}(\mathcal E), \mathcal A)\rightarrow \mathrm{Hom}_{\mathcal O_X-\mathrm{Mod}}(\mathcal E, \mathcal A)$$&lt;p&gt;Let $\mathcal B$ be a quasicoherent $\mathcal O_X$-algebra. There exists an $X$-scheme $\underline{\mathrm{Spec}}(\mathcal B)$, such that for all $X$-schemes $f:T\rightarrow X$ there are bijections functorial in $T$ of the following form&lt;/p&gt;
+$$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightarrow\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathcal B,f_*\mathcal O_T)$$&lt;p&gt;In other words, the functor $(\mathrm{Sch}/X)^{\mathrm{op}}\rightarrow \mathbf{Set}$ given by $(f: T \rightarrow X) \mapsto \mathrm{Hom}_{\mathcal{O}_X-\mathrm{Alg}}\left(\mathcal{B}, f_* \mathcal{O}_T\right)$ is representable. To see this, we note that this is a sheaf on the Zariski site, since $f_*$ and $\mathrm{Hom}(\mathcal B,-)$ are left-exact. We also have this is covered by representable open subfunctors. More concretely, the points of $\underline{\mathrm{Spec}}(\mathcal B)$ above $x\in X$ is that of $\mathrm{Spec}(\mathcal \Gamma(B,\mathcal O_X)\otimes \kappa(p))$ and the topology above an open affine $U=\mathrm{Spec}(A)$ is $\mathrm{Spec}(\Gamma(U,\mathcal B))$. For every quasi-coherent $\mathcal O_X$-module $\mathcal E$, we define $\mathbb V(\mathcal E)=\underline{\mathrm{Spec}}(\mathrm{Sym}(\mathcal E))$ functorial in $E$ which the call the quasi-coherent bundle associated to $E$. When restricted to locally free $\mathcal O_X$-modules, this functor provides a correspondance to algebraic vector bundles, where algebraic vector bundles are understood as follows,&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A vector bundle of rank $n\in\mathbb N$ on $X$ is an $X$-scheme $V$ with an equivalence class of families $(U_i, c_i)$ where $(U_i)_i$ is an open cover of $V$ and isomorphisms $c_i:V|_{U_i}\rightarrow \mathbb A^{n}_{U_i}$ of $U_i$-schemes, such that for all $i,j$, the automorphisms $c_i\circ c_j:\mathbb A^n_{U_i\cap U_j}\rightarrow \mathbb A^n_{U_i\cap U_j}$ are linear, where two such families, called atlases, are equivalent if their union is an atlas. Moreover, define a morphisms of vector bundles $(V,U_i,c_i)\rightarrow (V^\prime,U^\prime_i,c^\prime_i)$ as a $X$-morphism $f:V\rightarrow V^\prime$ such that $c^\prime_j\circ f\circ c_i^{-1}:\mathbb A^n_{U_i\cap U^\prime_j}\rightarrow \mathbb A^n_{U_i\cap U^\prime_j}$ is linear.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The locally free $\mathcal O_X$-modules are interpreted as sheaf of sections over the vector bundle. More specifically, for a vector bundle $E$ as above, we define a locally free $\mathcal O_X$-module $\mathcal E_V$ as the following. Define the sheaf $\mathcal P( V/X)$ of abelian groups by attaching to $U\subseteq X$ the sections of $V$ over $U$, that is, morphisms $s:U\rightarrow V|_U$ with $f\circ s=\mathrm{id}_U$, and restrictions are given by restrictions of scheme morphisms. Locally, this has the structure of $\mathcal O_X^n$ which gives the module structure. This gives the inverse to $\mathbb V(-)$. This correspondance is part of what is known as Serre-Swan theorem&lt;/p&gt;
+&lt;h2 id=&#34;cartier-divisors-and-weil-divisors&#34;&gt;Cartier Divisors and Weil divisors&lt;/h2&gt;
+&lt;p&gt;It is an important question to determine the configuration of zeros and poles of a rational (or meromorphic) function. Let $X$ be an integral scheme (i.e. reduced and irreducible). We denote by $\mathcal K_X$ the constant sheaf on $X$ with value the function field $K(X)$ of $X$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    A Cartier divisor on $X$ is a family $(U_i,f_i)$ where $(U_i)_i$ is an open cover of $X$ and $f_i\in K(X)^\times$ with $f_if_j^{-1}\in \Gamma(U_i\cap U_j,\mathcal O_X^\times) $ for all $i,j$, where two families $(U_i,f_i)$, $(V_i,g_i)$ give rise to the same Cariter divisor if $f_ig_j^{-1}\in\Gamma(U_i\cap V_j,\mathcal O_X^\times)$ for all $i,j$. The Cartier divisors form an abelian group $\mathrm{Div}(X)$, where adding the family $(U_i,f_i)$ and $(V_i,g_i)$ gives $(U_i\cap V_j,f_ig_j)$. A Cartier divisor is principle if it is given by some $(X,f)$, and two divisors $D,E$ are linearly equivalent if $D-E$ is principle.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Alernatively, we can set $\mathrm{Div}(X)=\Gamma(X,\mathcal K_X^\times/\mathcal O_X^\times)$, and principle divisors the ones in the image of $\Gamma(X,\mathcal K_X^\times)$. We call the ones in $\Gamma(X,(\mathcal K_X^\times\cap \mathcal O_X)/\mathcal O_X^\times)$ effective divisors and denote it by $D\ge 0$. Let $\mathrm{Cl}(X)$ denote $\mathrm{Div}(X)$ modulo the principle divisors, which we call the divisor class group. We have a short exact sequence.
+&lt;/p&gt;
+$$1\longrightarrow \Gamma(X,\mathcal O_X)^\times\longrightarrow K(X)\longrightarrow \mathrm{Div}(X) \longrightarrow \mathrm{Cl}(X)\longrightarrow 0$$&lt;p&gt;To a Cartier divisor $D$, we associate the line bundle $\mathcal O_X(D)$ for all open $V\subseteq X$.
+&lt;/p&gt;
+$$\Gamma(V,\mathcal O_X(D))=\{f\in K(X): \forall i,f_if\in \Gamma(U_i\cap V,\mathcal O_X)\}$$&lt;p&gt;This association $D\mapsto \mathcal O_X(D)$ induces an isomorphism $\mathrm{Cl}(X)\cong \mathrm{Pic}(X)$. Call an invertible $\mathcal O_X$-submodule of $\mathcal K_X$ an invertible fractional ideal of $\mathcal O_X$. Then we can associate a Cartier divisor $D$ an invertible fractional ideal $\mathcal F_X(D)$ such that $\mathcal F_X(D) (U_i)=f_i\mathcal O_X$. This correspondance provides an isomorphism between $\mathrm{Div}(X)$ and the invertible fractional ideal on $X$. Cartier divisors considered more geometrically is so called Weil divisors. Let $Z^k(X)$ be the free abelian group generated on the set of closed integral subscheme of codimension $k$. The elements of $Z^1(X)$ are then called Weil divisors and their generators called the prime divisors, and the ones with nonnegative coefficients are called the effective Weil divisors. We now connect Weil divisors with Cartier divisors with a homomorphism $\mathrm{cyc}: \mathrm{Div}(X)\rightarrow Z^1(X) $. To this end, we need to define, for a prime Weil divisor $C$, the order $\mathrm{ord}_C(f)$ for some meromorphic function $f\in \Gamma(U,\mathcal K_X)$ where the generic point $\xi$ of $C$ is contained in $C$. If the local ring $\mathcal O_{X,C}=\mathcal O_{X,\xi}$ is a DVR, for example, when $X$ is normal, then we can just set $\mathrm{ord}_C(f)=\nu (f)$ the normalized discrete valuation of $f$. In general, the local ring is a local noetherian ring of dimension $1$. For a nonzero $f\in \mathrm{Frac}(\mathcal O_{X,C})$ where $f=a/b$ we set $\mathrm{ord}_C(f)=\mathrm{lg}(\mathcal O_{X,C}/(a))-\mathrm{lg}(\mathcal O_{X,C}/(b))$. For a Cartier divisor $D$, we choose some element of its atlas $(U_i,f_i)$ where $\xi_C\in U_i$, and define $\mathrm{ord}_C(D)=\mathrm{ord}_C(f_i)$, and then we can define $\mathrm{cyc}(D)=\sum_C\mathrm{ord}_C(D)\left[C\right]$. This provides the desired correspondance. Like Cartier divisors, we can associate to each Weil divisor $D$, a fractional ideal $\mathcal L$ where
+&lt;/p&gt;
+$$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&gt; which is the same one as the one with the corresponding Cartier divisor.&lt;/p&gt;
+&lt;h2 id=&#34;torsors&#34;&gt;Torsors&lt;/h2&gt;
+&lt;p&gt;For a sheaf $T$ on some $X$ and a sheaf of groups $G$ on $X$, we say $T$ is a $G$-torsor if $G$ acts on $T$ simply transitively and $X$ has an open cover $(U_i)_i$ such that $T(U_i)$ is nonempty for all $i$. The sheaf cohomology $H^1(X,G)$ classifies the $G$-torsors. For a locally free $\mathcal O_X$-module $\mathcal E$ of rank $n$. The sheaf $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)$ is a $\mathrm{GL}_n(\mathcal O_X)$-torsor by $\mathrm{GL}_n(\mathcal O_X)(U)$ acts on $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)(U)$ by $g\cdot u\mapsto u\circ g^{-1}$. We have a bijection between rank $n$ vector bundles and $H^1(X,\mathrm{GL}_n(\mathcal O_X))$, so rank $n$ vector bundles are identified with $\mathrm{GL}_n(\mathcal O_X)$-torsors.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Derived Category</title>
       <link>https://yunhaimath.com/posts/derived-cat/</link>
-      <pubDate>Tue, 09 Dec 2025 20:06:49 +0000</pubDate>
+      <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
@@ -3157,9 +3254,193 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     </item>
     
     <item>
+      <title>Triangulated Categories</title>
+      <link>https://yunhaimath.com/posts/triangulated-cat/</link>
+      <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
+      
+      <guid>https://yunhaimath.com/posts/triangulated-cat/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    It is impossible to be a mathematician without being a poet in soul.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sofia Kovalevskaya&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2023. Continuing last week where we defined the homotopy category of complexes, we will take a look at triangulated categories. This will help us build towards the definition of derived categories. In some sense, triangulated categories are approximations of abelian categories. They are not strictly speaking a weaker version of abelian categories, and they don&#39;t really imply each other. Triangulated categories takes a different approach to abelian categories. Instead of kernels, cokernels, and strict morphisms, triangulated categories bypass these notions and start out with &amp;quot;distinguished triangles&amp;quot;, which are similar to exact sequences.&lt;/p&gt;
+&lt;p&gt;A translation functor on an additive category $\mathcal C$ is an automorphism $T:\mathcal C\rightarrow\mathcal C$ where we denote $T^n(X)=X[n]$ and $T^nf=f[n]$ for $n\in\mathbb Z$. A &lt;em&gt;triangle&lt;/em&gt; is a diagram $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, and a morphism of triangles is a diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3Il0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;which commutes. A triangulated category is an additive category $\mathcal C$ with a translation functor and a family of triangles called &lt;em&gt;distinguished triangles&lt;/em&gt; such that the following axioms are satisfied.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;For any $X\in\mathcal C$, the triangle $X\xrightarrow{\mathbf 1_X} X\rightarrow \mathbf 0\rightarrow X[1]$ is distinguished.&lt;/li&gt;
+&lt;li&gt;Any triangle isomorphic to a distinguished triangle is distinguished.&lt;/li&gt;
+&lt;li&gt;Any morphism $X\rightarrow Y$ can be completed to a distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$.&lt;/li&gt;
+&lt;li&gt;(Rotation axiom) A triangle $X\xrightarrow{u} Y\rightarrow Z\rightarrow X[1]$ is distinguished iff $Y\rightarrow Z\rightarrow X[1]\xrightarrow{-u[1]}Y[1]$ is.&lt;/li&gt;
+&lt;li&gt;Suppose the rows in the diagram&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIloiXSxbMywwLCJYWzFdIl0sWzAsMSwiWF5cXHByaW1lIl0sWzEsMSwiWV5cXHByaW1lIl0sWzIsMSwiWl5cXHByaW1lIl0sWzMsMSwiWF5cXHByaW1lWzFdIl0sWzAsMV0sWzEsMl0sWzIsM10sWzQsNV0sWzUsNl0sWzYsN10sWzAsNCwidSJdLFsxLDUsInYiXSxbMiw2LCJ3IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMsNywidVsxXSJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;are distinguished, and the left square commutes, then there exists a morphism $w:Z\rightarrow Z^\prime$ (not necessarily unique) completing the diagram into a morphism of triangles.
+6. (Octahedral axiom) Suppose the first three rows are distinguished and the left two squares commute, then there exists morphisms $u,v,w$ completing the diagram into two morphisms of triangles and the whole diagram commutes and the last row is also distinguished&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsMTYsWzAsMCwiWCJdLFsxLDAsIlkiXSxbMiwwLCJaXlxccHJpbWUiXSxbMywwLCJYWzFdIl0sWzAsMSwiWCJdLFsxLDEsIloiXSxbMiwxLCJZXlxccHJpbWUiXSxbMywxLCJYWzFdIl0sWzAsMiwiWSJdLFsxLDIsIloiXSxbMiwyLCJYXlxccHJpbWUiXSxbMywyLCJZWzFdIl0sWzAsMywiWl5cXHByaW1lIl0sWzEsMywiWV5cXHByaW1lIl0sWzIsMywiWF5cXHByaW1lIl0sWzMsMywiWl5cXHByaW1lWzFdIl0sWzAsNCwiXFxtYXRoYmYgMV9YIl0sWzEsNSwiZyJdLFs0LDgsImciXSxbNSw5LCJcXG1hdGhiZiAxX1oiXSxbMCwxLCJmIl0sWzEsMiwiYSJdLFsyLDNdLFs0LDVdLFs1LDYsImIiXSxbNiw3XSxbOCw5LCJnIl0sWzksMTAsImMiXSxbMTAsMTFdLFszLDcsIlxcbWF0aGJmIDFfe1hbMV19Il0sWzcsMTEsImZbMV0iXSxbMiw2LCJ1IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzYsMTAsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTAsMTQsIlxcbWF0aGJmIDFfe1heXFxwcmltZX0iXSxbMTIsMTMsInUiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTMsMTQsInYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTQsMTUsInciLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTEsMTUsImFbMV0iXSxbOCwxMiwiYSJdLFs5LDEzLCJiIl1d&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 300px;
+      height: 300px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;If all but the last axiom is satisfied, then it is known as a &lt;em&gt;pre-triangulated category&lt;/em&gt;. It is conjectured that pre-triangulated categories are triangulated, i.e. the last axiom is redundant. The general concensus seems to be that this is not true.&lt;/p&gt;
+&lt;p&gt;An additive functor between triangulated categories $F:\mathcal C\rightarrow\mathcal D$ is said to &lt;em&gt;commute with translation&lt;/em&gt; if there is a natural isomorphism $FT_{\mathcal C}\cong T_{\mathcal D} F$, and $F$ is said to be &lt;em&gt;exact&lt;/em&gt; or &lt;em&gt;triangulated&lt;/em&gt; if it commutes with translation and takes distinguished triangles to distinguished triangles. Let $F,G:\mathcal C\rightarrow\mathcal D$ be exact functors, and $\eta_{F}:FT_{\mathcal C}\rightarrow T_{\mathcal D}F$ and $\eta_{G}:GT_{\mathcal C}\rightarrow T_{\mathcal D}G$ be natural isomorphisms, then a natural transformation $w:F\rightarrow G$ is &lt;em&gt;graded&lt;/em&gt; if for $X\in\mathcal C$&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJGVF97XFxtYXRoY2FsIEN9WCJdLFsxLDAsIlRfe1xcbWF0aGNhbCBEfUZYIl0sWzAsMSwiR1RfXFxtYXRoY2Fse0N9WCJdLFsxLDEsIlRfXFxtYXRoY2FsIERGWCJdLFswLDEsIlxcZXRhX3tGLFh9Il0sWzAsMiwid197VF9cXG1hdGhjYWwgQ1h9IiwyXSxbMSwzLCJUX1xcbWF0aGNhbCBEd19YIl0sWzIsMywiXFxldGFfe0csWH0iLDJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 180px;
+      height: 180px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;commutes.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;In a (pre)triangulated category $\mathcal C$, if $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X[1]$ is distinguished, then&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$vu=0$ and $wv=0$&lt;/li&gt;
+&lt;li&gt;any change of sign of exactly two of $u,v,w$ is distinguished,&lt;/li&gt;
+&lt;li&gt;if $U\in\mathcal C$, then there exists long exact sequences of abelian groups $$\begin{aligned}&amp;\cdots\rightarrow\mathrm{Hom}(U,X[i])\xrightarrow{u[i]_*}\mathrm{Hom}(U,Y[i])\xrightarrow{v[i]_*} \mathrm{Hom}(U,Z[i])\xrightarrow{w[i]_*}\mathrm{Hom}(U,X[i+1])\rightarrow\cdots\\\ &amp;\cdots\leftarrow\mathrm{Hom}(X[i],U)\xleftarrow{u[i]^*}\mathrm{Hom}(Y[i],U)\xleftarrow{v[i]^*} \mathrm{Hom}(Z[i],U)\xleftarrow{w[i]^*}\mathrm{Hom}(X[i+1],U)\leftarrow\cdots\end{aligned}$$
+where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
+&lt;li&gt;(triangulated 5-lemma) Consider a morphism of distinguished triangles, and let its components be $f:X\rightarrow X^\prime,g:Y\rightarrow Y^\prime,h:Z\rightarrow Z^\prime$, then if any two of them are isomorphisms, so is the third.&lt;/li&gt;
+&lt;li&gt;$u$ is an isomorphism iff $Z\cong\mathbf{0}$&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;ol&gt;
+&lt;li&gt;It suffice to show $vu=0$, and $wv=0$ can be obtained from the rotation axiom. To show this, we first note that $Z\rightarrow Z\rightarrow \mathbf 0\rightarrow Z[1]$ is distinguished. The triangle $Y\rightarrow Z\rightarrow X[1]\rightarrow Y[1]$ is distinguished by axiom 4, and we construct a morphism between them via axiom 5, and then we can obtain $vu=0$ from the commutativity of a square in the diagram.&lt;/li&gt;
+&lt;li&gt;Straightforwardly, the triangle obtained by changing exactly two signs is isomorphic to the original triangle by an obvious morphism of triangles, so it is still distinguished.&lt;/li&gt;
+&lt;li&gt;We will only prove the first one, and the second one is proved dually. Since $vu=0$, we have $(v[i])(u[i])=0$, so $\mathrm{Im}(u[i]_*)\subseteq \mathrm{Ker}(v[i]_*)$. Conversely, suppose $f\in \mathrm{Ker}(v[i]_*)$, so $f(v[i])=0$. Consider the diagram as follows&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 8px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsOCxbMCwwLCJVWy1pXSJdLFsxLDAsIlxcbWF0aGJmezB9Il0sWzIsMCwiVVstaSsxXSJdLFszLDAsIlVbLWkrMV0iXSxbMCwxLCJZIl0sWzEsMSwiWiJdLFsyLDEsIlhbMV0iXSxbMywxLCJZWzFdIl0sWzAsMV0sWzEsMl0sWzIsMywiLVxcbWF0aGJmezF9Il0sWzQsNSwidiJdLFs1LDYsInciXSxbNiw3LCItdVsxXSJdLFswLDQsImZbLWldIl0sWzEsNV0sWzMsNywiZlstaSsxXSJdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 360px;
+      height: 200px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+which we can complete to a morphism of triangles with some $h:U[-i+1]\rightarrow X[1]$. By the commutativity of the rightmost square, $-f[-i+1]=-(u[i])h$ so $f=(u[i])(h[-i+1])$, so $f\in \mathrm{Im}(u[i]_*)$. By the rotation axiom, since we proved a short exact sequence, we have the exactness of the long exact sequence.
+4. By the rotation axiom, it suffice to show the case where the first two are isomorphisms. By using (3), we have a long exact sequence, and we can obtain the isomorphism using the usual 5-lemma, details ommited.
+5. A striaghtforward corollary.
+
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Let $\mathcal C$ be a triangulated category and $\mathcal A$ an abelian category, then an additive functor $H:\mathcal C\rightarrow\mathcal A$ is called &lt;em&gt;cohomological&lt;/em&gt; if for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, the sequence $H(X)\rightarrow H(Y)\rightarrow H(Z)$ is exact. It is then a straightforward consequence by the rotation axiom that for every distinguished triangle $X\rightarrow Y\rightarrow Z\rightarrow X[1]$, we have the following long exact sequence
+&lt;/p&gt;
+$$\cdots\rightarrow H(X[i])\xrightarrow{H(u[i])} H(Y[i])\xrightarrow{H(v[i])}H(Z[i])\xrightarrow{H(w[i])}H(X[i+1])\rightarrow\cdots$$&lt;p&gt;
+What we just proved in part 3 of the previous theorem is that the Hom-functor is cohomological.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    An object in an abelian category is &lt;em&gt;simple&lt;/em&gt; if the only subobjects are zero and the object itself, and semisimple if it is a coproduct of simple objects. An abelian category is semisimple if every short exact sequence splits.
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Caution: some authors call a category semisimple if all objects are semisimple, which is a stronger definition and is NOT equivalent to our definition. Every semisimple abelian category has a triangulated structure. To do this, we let the translation functor be the identity functor, and we declare a triangle $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X$ distinguished if it is &amp;quot;exact&amp;quot; at $X$, i.e. $\mathrm{Ker}(u)=\mathrm{Im}(w)$. Verifying this is a triangulated category is a tedious, and we will not do it here. Moreover, all abelian triangulated categories are semisimple. We will not prove this either. In fact, the homotopy category of complexes $K(\mathcal A)$ is triangulated. To see this, we set the distinguished triangles to be the ones isomorphic to a standard triangle of the form &lt;/p&gt;
+$$X^\bullet\xrightarrow{f^\bullet} Y^\bullet \xrightarrow{i_f^\bullet} \mathrm{Cone}(f^\bullet)\xrightarrow{p_f^\bullet} X^\bullet[1]$$&lt;p&gt;
+and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$ is cohomological.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Abelian Categories and Derived Functors</title>
       <link>https://yunhaimath.com/posts/abelian-cat-and-derived-cat/</link>
-      <pubDate>Mon, 08 Dec 2025 15:28:14 +0000</pubDate>
+      <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/abelian-cat-and-derived-cat/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
@@ -3570,34 +3851,132 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Grothendieck-Witt Ring</title>
-      <link>https://yunhaimath.com/posts/gw-ring/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
+      <link>https://yunhaimath.com/posts/fppf-site/</link>
+      <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/gw-ring/</guid>
+      <guid>https://yunhaimath.com/posts/fppf-site/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Shakuntala Devi&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2024. Recently I&#39;ve been learning about Grothendieck-Witt rings because I want to know about $\mathbb A^1$-enumerative geometry. The Grothendieck-Witt ring of a field (of characteristic different from $2$) is formed using quadratic forms over it. Let $k$ be a field of characteristic not $2$. A quadratic form is a degree $2$ homogeneous polynomial over $k$, say $f=\sum_{1\le i,j\le n}a_{i,j}x_{i}x_{j}$. Of course $x_{i}x_{j}=x_{j}x_{i}$, so we can rewrite $f=\sum_{1\le i,j\le n}a^\prime_{i,j}x_{i}x_{j}$ where $a^\prime_{i,j}=\frac{1}{2}(a_{i,j}+a_{j,i})$, we can then associate to it a symmetric matrix $M_f=(a^\prime_{i,j})_{1\le i,j\le n}$. We see that $f=\mathbf{x}^{\mathrm T}M_f\mathbf{x}$ where $\mathbf{x}=(x_i)_{1\le i\le n}$. Two $n$-ary quadratic forms $f,g$ are said to be equivalent if there is $A\in \mathrm{GL}_n(k)$ such that $f(\mathbf{x})=g(A\mathbf{x})$. Equivalently their associated symmetric matrix are equivalent iff $M_f=A^{\mathrm T}M_g A$ for some $A\in \mathrm{GL}_n(k)$, i.e. congruence of matrices.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
+    Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Ethan D. Bloch&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;This is an old post from 2023 reposted. In this week we discuss fppf sites (recall that we defined $(\mathbf{Sch}/X)_{\mathrm{fppf}}$ in last week) and faithfully flat descent. This will help us to build our way to the definition of a stack. The idea of faifully flat descent is that a certain property of schemes can be descended via a cartesian square with a fppf side. The important result we are building towards is that for any scheme $X$, the functor of points $\mathscr{H}_X$ is a sheaf on the fppf site of $X$. After this, we can talk about fibred categories. Fibred categories plus descents is categorical stacks, plus geometry is algebraic stacks.&lt;/p&gt;
+&lt;h2 id=&#34;fppf-site-and-faithfully-flat-descent&#34;&gt;Fppf site and faithfully flat descent&lt;/h2&gt;
+&lt;p&gt;We recall that a map of schemes is fppf iff it is faithfully flat (i.e. flat and surjective) and locally of finite presentation, and recall that the fppf site $(\mathbf{Sch}/X)_{\mathrm{fppf}}$ consists of the fppf covers, i.e. the jointly surjective, flat and locally of finite presentation families of morphisms. We have the following problem.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
-     data-kind=&#34;example&#34;
+     data-kind=&#34;theorem&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;$f(x,y)=xy$ and $g(x,y)=x^2-y^2$ are equivalent by change of variables $x\mapsto x+y$ and $y\mapsto x-y$. Their associated matrices are
-&lt;/p&gt;
-$$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pmatrix}1 &amp; 0\\\ 0 &amp; -1\end{pmatrix}$$&lt;p&gt; and the change of variable matrix $A=\begin{pmatrix}1 &amp; 1\\\ 1 &amp; -1\end{pmatrix}$.&lt;/p&gt;
-
+    Suppose $X\rightarrow Y$ is a morphism of schemes, the functor of points $\mathscr{H}_X$ is a sheaf on $(\mathbf{Sch}/Y)_{\mathrm{fppf}}$.
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal form.&lt;/p&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    Proof is very long, see &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
+⟦cite:Ols16⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;This theorem has a very long proof and the reason it is important is delayed to later. Another important result is faithfully flat descent. The idea is, if $P$ is some property of morphism of schemes, given morphisms of schemes $f_1:X_1\rightarrow Y_1$ and $f_2:X_2\rightarrow Y_2$ and suppose there is a commutative diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJYXzEiXSxbMSwwLCJZXzEiXSxbMCwxLCJYXzIiXSxbMSwxLCJZXzIiXSxbMCwxLCJmXzEiXSxbMiwzLCJmXzIiXSxbMCwyLCJcXG1hdGhybXtmcHBmfSIsMix7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6ImVwaSJ9fX1dLFsxLDNdXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 184px;
+      height: 184px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;then frequently $f_1$ has property $P$ iff $f_2$ does. We say that $P$ is local on the base (target) for the fppf topology (et al. Zariski, etc.) if $f_1$ has property $P$ implies $f_2$ does. Examples of properties that are local on the base for the fppf topology inlcude: surjective, locally of finite type, locally of finite presentation, universally closed/open, separated, proper, etc. The full proof can be found on &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Stacks&#34; data-cite-note=&#34;Tag 02YJ&#34;&gt;
+  ⟦cite:Stacks⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fibred-categories&#34;&gt;Fibred categories&lt;/h2&gt;
+&lt;p&gt;For a category $\mathcal C$, a category over $\mathcal C$ is some category $\mathcal F$ equipped with a functor $\mathscr{P}_{\mathcal F}:\mathcal F\rightarrow\mathcal C$. We draw diagrams with the notation $\xi\mapsto U$ to mean $\mathscr{P}_{\mathcal F}(\xi)=U$, and a diagram of the form&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNCxbMCwwLCJcXHhpIl0sWzEsMCwiXFxldGEiXSxbMCwxLCJVIl0sWzEsMSwiViJdLFswLDEsIlxccGhpIl0sWzIsMywiZiJdLFswLDIsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMSwzLCIiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV1d&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 184px;
+      height: 184px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;commutes iff $\mathscr{P}_{\mathcal F}\phi=f$. Moreover, we say that a morphism $\phi:\xi\rightarrow\eta$ in $\mathcal F$ is &lt;em&gt;cartesian&lt;/em&gt; if for all $\zeta\in\mathcal F$ and morphisms $\psi:\zeta \rightarrow \eta$ and $h:\mathscr{P}_{\mathcal F}(\zeta)\rightarrow \mathscr{P}_{\mathcal F}(\xi)$ such that $\mathscr{P}_{\mathcal F}\phi \circ h=\mathscr{P}_{\mathcal F}\psi$, there exists unique $\theta:\zeta\rightarrow\xi$ such that $\mathscr{P}_{\mathcal F}\theta=h$ and $\psi=\phi\circ\theta$, as indicated in the diagram&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/?q=WzAsNixbMSwwLCJcXHhpIl0sWzIsMCwiXFxldGEiXSxbMSwxLCJVIl0sWzIsMSwiViJdLFswLDEsIlciXSxbMCwwLCJcXHpldGEiXSxbMCwxLCJcXHBoaSIsMCx7ImNvbG91ciI6WzI1LDk0LDYwXX0sWzI1LDk0LDYwLDFdXSxbMiwzLCJcXG1hdGhzY3J7UH1fe1xcbWF0aGNhbCBGfVxccGhpIl0sWzAsMiwiIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFsxLDMsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbNCwyLCJcXGZvcmFsbCBoIl0sWzQsMywiXFxtYXRoc2Nye1B9X3tcXG1hdGhjYWwgRn1cXHBzaSIsMCx7ImN1cnZlIjozfV0sWzUsNCwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs1LDAsIlxcZXhpc3RzIVxcdGhldGEiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNSwxLCJcXGZvcmFsbCBcXHBzaSIsMCx7ImN1cnZlIjotM31dXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 262px;
+      height: 184px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;p&gt;and when $\phi:\xi\rightarrow\eta$ is cartesian, we say that $\xi$ is a &lt;em&gt;pullback&lt;/em&gt; of $\eta$ (to $U$ along $\mathscr{P}_{\mathcal F}\phi$). This diagram is sometimes known as the &amp;quot;universal property&amp;quot; of cartesian morphisms. Note that given two pullbacks $\phi_1:\xi_1\rightarrow\eta$ and $\phi_2:\xi_2\rightarrow\eta$ then substitute $\psi=\xi_i$ for $i=1,2$ will give us an isomorphism $\xi_1\cong\xi_2$. Thus, pullbacks are unique up to a unique isomorphism. Note that in SGA1 the definition of cartesian arrow is different and this definition is sometimes known as strongly cartesian. Next, we introduce the following properties, which is easy to check,&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathscr{P}_{\mathcal F}:\mathcal F\rightarrow\mathcal C$ be a category over the category $\mathcal C$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;composite of cartesian arrows are cartesian,&lt;/li&gt;
+&lt;li&gt;if $\psi:\eta\rightarrow \zeta$ and $\phi:\xi\rightarrow\eta$ are arrows in $\mathcal F$ with $\psi$ cartesian, then $\phi$ is cartesian iff $\psi\circ\phi$ is,&lt;/li&gt;
+&lt;li&gt;if $\phi:\xi\rightarrow\eta$ is an arrow and $\mathscr{P}_{\mathcal F}\phi$ is an isomorphism, then $\phi$ is cartesian iff it is an isomorphism,&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With these knowledge, we can introduce fibred categories. Fibred categories are used to provide a general framework for descent theory. They formalize various situations in geometry and algebra where pullbacks of objects are defined. A motivating example is the category of vector bundles on a topological space.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
@@ -3608,88 +3987,57 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    A quadratic form $f$ represents some $d\in k^\times$ if there exists $\lambda\in k^n$ with $f(\lambda)=d$. Let $D(f)$ be the subset of $k^\times$ represented by $f$.
+    &lt;ol&gt;
+&lt;li&gt;A &lt;em&gt;fibred category&lt;/em&gt; over a category $\mathcal C$ is a category $\mathcal F$ over $\mathcal C$ such that for each $f:U\rightarrow V$ in $\mathcal C$ where $V=\mathscr{P}_{\mathcal F}(\eta)$ for some $\eta\in \mathcal F$, there exists $\xi\in\mathcal F$ with $U=\mathscr{P}_{\mathcal F}(\xi)$ and cartesian arrow $\phi:\xi\rightarrow\eta$ such that $f=\mathscr{P}_{\mathcal F}\phi$.&lt;/li&gt;
+&lt;li&gt;Suppose $\mathcal F,\mathcal G$ are fibred categories over $\mathcal C$, then a &lt;em&gt;morphism of fibred categories&lt;/em&gt; $\mathscr{F}:\mathcal F\rightarrow \mathcal G$ is a functor such that $\mathscr{P}_{\mathcal G}\circ \mathscr{F}=\mathscr{P}_{\mathcal F}$ and $\mathscr{F}$ sends cartesian arrows to cartesian arrows.&lt;/li&gt;
+&lt;li&gt;Suppose $\mathcal F$ is a category over $\mathcal C$ and $U\in\mathcal C$, write $\mathcal F(U)$ as the subcategory of $\mathcal F$ whose objects are $\xi\in\mathcal F$ such that $\mathscr{P}_{\mathcal F}(\xi)=U$ and morphisms are $\phi:\xi\rightarrow \eta$ where $\mathscr{P}_{\mathcal F}\phi=\mathbf{1}_U$.&lt;/li&gt;
+&lt;li&gt;If $\mathscr{F},\mathscr{G}:\mathcal F\rightarrow \mathcal G$ are morphisms of fibred categories, a &lt;em&gt;base-preserving natural transformation&lt;/em&gt; $\alpha:\mathscr{F}\rightarrow \mathscr{G}$ is a natural transformation such that for all $u\in\mathcal F$ we have $\alpha(u):\mathscr{F}(u)\rightarrow \mathscr{G}(u)$ is such that $\mathscr{P}_\mathcal{G}(\mathscr{F}(u))=\mathscr{P}_\mathcal{G}(\mathscr{G}(u))$ and $\mathscr{P}_{\mathcal G}\alpha(u)=\mathbf 1_{\mathscr{P}_\mathcal{G}(\mathscr{F}(u))}$, i.e. $\alpha(u)$ is a morphism in $\mathcal G(\mathscr{P}_\mathcal{G}(\mathscr{F}(u)))$.&lt;/li&gt;
+&lt;li&gt;Denote by $\mathrm{MOR}_{\mathcal C}(\mathcal F,\mathcal G)$ the category whose objects are morphisms of fibred categories and morphisms are base-preserving natural transformations.&lt;/li&gt;
+&lt;li&gt;For a morphism of fibred categories $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ over $\mathcal C$ and $U\in\mathcal C$, we write $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ to denote the functor where $\mathscr{F}_U(\xi)=\mathscr{F}(\xi)$ and $\mathscr{F}_U\phi=\mathscr{F}\phi$.&lt;/li&gt;
+&lt;/ol&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear form).&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
+&lt;p&gt;Thus in a fibred category we can pullback objects along any arrow. For example, for a category $\mathcal C$ with $X\in\mathcal C$, we have $\mathcal C/X$ is fibred over $\mathcal C$ via $\mathscr{P}_{\mathcal C/X}:\mathcal C/X\rightarrow \mathcal C$ given by $(Y\rightarrow X)\mapsto Y$ and morphisms are mapped to themsleves. It should be easy to check that this is well-defined.&lt;/p&gt;
+&lt;p&gt;Why do we need fibred categories? Suppose $f:X\rightarrow Y$ is a morphism of schemes. For any morphism of schemes $t:T\rightarrow Y$ we can form a fibred product $T\times_Y X$ which is only unique up to a unique isomorphism. Thus implicitly there is a choice being made. This becomes a technical obstacle in developing the theory of stacks, and fibred categories are used to address this problem. For more detail, see &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Example 3.1.5&#34;&gt;
+  ⟦cite:Ols16⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The collection of categories fibred over a fixed category is an example of a $2$-category. Roughly speaking, a $2$-category is a category where the morphisms between two objects form a category. However, we will not use higher categorical language.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
     
-     data-kind=&#34;theorem&#34;
+     data-kind=&#34;lemma&#34;
      data-lang=&#34;en&#34;
      data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    For a quadratic form $f$ on $V$, some $d\in k^\times$ is representable iff $V\cong \langle d\rangle\otimes W$ for $W$ another quadratic space. As a result, $V\cong \langle a_1,\dots,a_n\rangle $ for some $a_i$.
+    &lt;p&gt;Let $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ be a morphism of fibred categories over $\mathcal C$,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\mathscr{F}$ is fully faithful (as a functor) iff $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ is fully faithful for all $U\in\mathcal C$,&lt;/li&gt;
+&lt;li&gt;$\mathscr{F}$ is an equivalence (of categories) iff $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ is an equivalence for all $U\in\mathcal C$.&lt;/li&gt;
+&lt;/ol&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotropic.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Decomposition)&lt;/span&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Each quadratic space is a orthogonal sum of a totally isotropic space, a hyperbolic space, and an anisotropic space, all unique up to equivalence.
-  &lt;/span&gt;
-&lt;/div&gt;
 
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Cancellation)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    If $q\oplus q_1\cong q\oplus q_2$ then $q_1\cong q_2$.
-  &lt;/span&gt;
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Lemma 3.1.8&#34;&gt;
+⟦cite:Ols16⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
-
-&lt;p&gt;We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read &lt;a href=&#34;https://kyleormsby.github.io/files/quadratic_TNR.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Symmetric Polynomials</title>
-      <link>https://yunhaimath.com/posts/sym-poly/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/sym-poly/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is &lt;/p&gt;
-$$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$&lt;p&gt; such that for any permutation $\sigma\in S_n$, we have $\sigma f=f$ where $\sigma$ acts by permuting the variables. The symmetric polynomials form a subring of $\mathbb Z[x_1,\dots,x_n]$ which we denote as $\Lambda_n$. One example of symmetric polynomials is the Newton power sums $p_k=x_1^k+\cdots+x_n^k$ for $k\ge 1$. Another example is elementary symmetric polynomials $e_k=\sum_{1\le i_1&lt;\cdots&lt; i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. They arise in Vieta&#39;s relations for a polynomial equation. Obviously $\Lambda_n$ is a graded ring in degree. For a monomial $u=ax^{k_1}_1\cdots x^{k_n}_n$, we define its weight as $\mathrm{wt}(u)=k_1+2k_2+\cdots+nk_n$, and for a polynomial $f$ define $\mathrm{wt}(f)$ as the largest weight occuring among its monomials. We note that the weight of a polynomial is the same as the degree of $f(e_1,\dots,e_n)$. One of the first results in symmetric polynomials is that the elementary symmetric polynomials forms a generating set of $\Lambda_n$ as a (graded) algebra over $\mathbb Z$. This is our first theorem.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fundamental Theorem of Symmetric Polynomials)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
 &lt;/p&gt;
-$$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;Therefore one has $E(t)H(-t)=1$. By multiplying out coefficients this gives a relation between $e_k$ and $h_k$. When the polynomials are over $\mathbb Q$ or any field, we have another set of generators which is the Newton power sums $p_k$. For a partition $\lambda$, we define $e_{\lambda}=e_{\lambda_1}\cdots e_{\lambda_m}$, and similarly for $h_{\lambda},p_{\lambda}$ and so on. Define the symmetric monomial basis $m_{\lambda}=\sum_{\sigma\in S(\lambda)}x^{\lambda_1}_{\sigma(1)}\cdots x^{\lambda_n}_{\sigma(n)}$ where $S(\lambda)=S_{n}/\mathrm{Stab}_{S_n}(\lambda)$, then this is an integral basis as well.&lt;/p&gt;
-&lt;p&gt;A polynomial is skew-symmetric if $\sigma f=\mathrm{sgn}(\sigma)f$ for all permutations $\sigma$. The skew-symmetric polynomials $\mathrm{Skew}(n)$ is a module over $\Lambda_n$. Define the alteration of a polynomial $\mathrm{Alt}(f)=\sum_{\sigma\in S_n}\mathrm{sgn}(\sigma) \sigma f$. Let $a_{\alpha}=\mathrm{Alt}(x_1^{\alpha_1}\cdots x_n^{\alpha_n})$ where $\alpha$ is a partition without repetitions, they form a basis for $\mathrm{Skew}(n)$. Let $\delta_n=(n-1,n-2,\dots,1)$. For a partition $\lambda=(\lambda_1,\dots,\lambda_n)$, define the Schur polynomial $s_{\lambda}=a_{\lambda+\delta_n}/a_{\delta}$, they also form a basis for symmetric functions. Here are some identities for transition of basis&lt;/p&gt;
+&lt;p&gt;Recall the classical Yoneda lemma: for each object $A\in\mathcal C$ we have a natural isomorphism between the collection of natural transformations $\mathrm{Nat}(\mathscr{F},\mathscr{H}^A)$, and the set $\mathscr{F}(A)$. This point of view is crucial for the development of algebraic spaces, and also for fibred categories we need a variant of this lemma.&lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
     
      data-kind=&#34;theorem&#34;
@@ -3697,38 +4045,51 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$&lt;p&gt;T
      data-numbered=&#34;true&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
   &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First Jacobi-Trudi Identity)&lt;/span&gt;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(2-Yoneda lemma)&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;math-body&#34;&gt;
-    $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} &amp; h_{\lambda_1+1} &amp; \ldots &amp; h_{\lambda_1+n-1} \\ h_{\lambda_2-1} &amp; h_{\lambda_2} &amp; \ldots &amp; h_{\lambda_2+n-2} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ h_{\lambda_n-n+1} &amp; h_{\lambda_n-n+2} &amp; \ldots &amp; h_{\lambda_n}\end{array}\right) .$$
+    &lt;p&gt;Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence &lt;/p&gt;
+$$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$&lt;p&gt;
+given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.&lt;/p&gt;
+
   &lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Pieri Formulas)&lt;/span&gt;
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).&lt;/p&gt;
-$$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
-  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
+⟦cite:Ols16⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.&lt;/p&gt;
-&lt;p&gt;One application of symmetric polynomials is Lagrange&#39;s solution to depressed quartic equation. Let $\alpha_i$ be the roots of $x^4+a_2x^2+a_3x+a_4=0$. Let $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)$ and $f_2,f_3$ the other two in its orbit, then for any symmetric polynomial $s$, we have $s(f_1,f_2,f_3)$ is symmetric. Thus $u_{i}=e_i(f_1,f_2,f_3)$ are symmetric for $i=1,2,3$. Then $u_i$ can be written as a polynomial in terms of $a_i$ by Vieta. Since $x^3-u_1x^2+u_2x+u_3$ has coefficients polynomials in $a_i$, we can use the cubic formula to solve for $f_i$ in terms of $a_i$. Using $f_1=(\alpha_1+\alpha_2)(\alpha_3+\alpha_4)=-(\alpha_1+\alpha_2)^2$ since $\alpha_1+\alpha_2+\alpha_3+\alpha_4=0$, and likewise for $f_2,f_3$, we can solve for $\alpha_i$ in terms of $a_i$. For further connection between Galois theory and symmetric functions, read &lt;a href=&#34;https://arxiv.org/pdf/1301.7116&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;It is often useful to think of a fibred category as the collection of categories $\mathcal{F}(U)$ with a pullback functor. Thus, we introduce split fibred categories. We will not go over the details of the rigorous definition, but the reader can check &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;3.3.1&#34;&gt;
+  ⟦cite:Ols16⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Ols16&#34; data-bib-key=&#34;Ols16&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;Martin Olsson. &lt;em&gt;Algebraic Spaces and Stacks&lt;/em&gt;. American Mathematical Society. 2016.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Stacks&#34; data-bib-key=&#34;Stacks&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;&lt;em&gt;The Stacks Project&lt;/em&gt;. &lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;https://stacks.math.columbia.edu&lt;/a&gt;.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
       <link>https://yunhaimath.com/posts/gro-top-and-topoi/</link>
-      <pubDate>Thu, 04 Dec 2025 11:15:32 +0000</pubDate>
+      <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/gro-top-and-topoi/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
@@ -3893,370 +4254,9 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     </item>
     
     <item>
-      <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>https://yunhaimath.com/posts/van-kampen/</link>
-      <pubDate>Wed, 03 Dec 2025 11:49:34 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/van-kampen/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2024. In this post, we present a proof of van Kampen theorem in algebraic topology that is different from the standard proof in most texts. This is a proof due to Grothendieck and it generalizes better into algebraic geometry, which is an algebraic analogue known as the étale fundamental group. This proof is shorter, more conceptual (uses universal properties without invoking concrete generators and relations), and uses covering spaces.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;Let $X$ be a topological space with all the nice connectedness properties, in particular, we assume it has a universal covering $u:\widetilde{X}\rightarrow X$. Let $G$ be a group, $x\in X$, and $\rho:\pi_1(X,x)\rightarrow G$ a homomorphism. We define a based $G$-covering $p_{\rho}:(Y_\rho,y_\rho)\rightarrow (X,x)$. Take the product $\widetilde{X}\times G$ with $G$ having the discrete topology, and $\pi_1(X,x)$ acts on it by $\sigma\cdot(z,g)=(\sigma\cdot z,g\rho(\sigma^{-1}) )$. Take $Y_\rho=(\widetilde{X}\times G)/\pi_1(X,x)$ by this action, and $y_{\rho}$ the image of $(\widetilde{x},1)$. Note that we have $(\sigma\cdot z,g)=(z,g\rho(\sigma))$ in $Y_\rho$. Let $p_\rho:Y_{\rho}\rightarrow X$ be $(z,g)\mapsto u(z)$. The group $G$ acts on $Y_\rho$ by $h\cdot (z,g)=(z,hg)$ evenly, making $Y_{\rho}$ a $G$-covering. Conversely, suppose $p:(Y,y)\rightarrow (X,x)$ is a $G$-covering, we constrct a morphism $\pi_1(X,x)\rightarrow G$. For $\sigma\in \pi_1(X,x)$, we let $\rho(\sigma)$ be the element that acts by $\rho(\sigma)\cdot y=y*\sigma$ where $y*\sigma$ is the end point of the path that lifts $\sigma$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;This construction gives a bijection
-&lt;/p&gt;
-$$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\ (X,x)\}$$&lt;p&gt; up to isomorphisms.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Checking this is routine. Let $X=U\cup V$ with $U,V$ path-connected and intersect nontrivially, with base point $x\in U\cap V$. Suppose there are coverings $p:\widetilde{U}\rightarrow U$ and $q:\widetilde{V}\rightarrow V$ and an isomorphism $\nu:p^{-1}(U\cap V)\rightarrow q^{-1}(U\cap V)$, then one can glue them together to a covering of $X$, by taking $\widetilde{X}=\widetilde{U}\times\widetilde{V}/(\nu(y_1)\sim \nu(y_2))$. We can generalize this to the case where $X$ is the union of a family of open sets, in which case we require a cocycle condition to be satisfied in order to be able to glue the covering spaces.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(van Kampen)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    For any $h_1:\pi_1(U,x)\rightarrow G$ and $h_2:\pi_1(V,x)\rightarrow G$ with $h_1\circ i_1=h_2\circ i_2$ where $i_1,i_2$ are induced by inclusions $U\cap V\hookrightarrow U $ and $U\cap V\hookrightarrow V $, there exists a unique morphism $h:\pi_1(X,x)\rightarrow G$ such that $h\circ j_1=h_1$ and $h\circ j_2=h_2$ where $j_1,j_2$ are induced by inclusions $U\hookrightarrow X$ and $V\hookrightarrow X$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the category of groups, which is a free product with amalgamation,&lt;/p&gt;
-&lt;figure class=&#34;quiver-wrapper&#34;
-        style=&#34;--quiver-radius: 0rem;&#34;&gt;
-  &lt;iframe
-    class=&#34;quiver-embed&#34;
-    src=&#34;https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXHBpXzEoVVxcY2FwIFYpIl0sWzEsMCwiXFxwaV8xKFUpIl0sWzAsMSwiXFxwaV8xKFYpIl0sWzEsMSwiXFxwaV8xKFgpIl0sWzIsMiwiRyJdLFswLDEsImlfMSJdLFswLDIsImlfMiIsMl0sWzIsMywial8yIiwyXSxbMSwzLCJqXzEiXSxbMSw0LCJoXzEiLDAseyJjdXJ2ZSI6LTJ9XSxbMiw0LCJoXzIiLDAseyJjdXJ2ZSI6Mn1dLFszLDQsImgiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=&amp;amp;embed&#34;
-    loading=&#34;lazy&#34;
-    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
-    style=&#34;
-      width: 100%;
-      height: 180px;
-      border: 0;
-      transform:
-        translateX(0)
-        translateY(0)
-        scale(1.5);
-      transform-origin: center;
-    &#34;
-  &gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;p&gt;The homomorphisms $h_1,h_2$ determine $G$-coverings $Y_1\rightarrow U$ and $Y_2\rightarrow V$. The commutativity of the square means that their restrictions to $U\cap V$ are isomorphic $G$-coverings, thus by previous work, they glue to a covering which restricts to $U,V$. This is given by a $h:\pi_1(X,x)\rightarrow G$ which is precisely the morphism desired.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;corollary&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;If $U\cap V$ is simply connected then
-&lt;/p&gt;
-$$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1(V,x),G)$$&lt;p&gt; which implies $\pi_1(X,x)$ is a free product.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It is also worth mentioning that this proof is an example of &lt;a href=&#34;https://en.wikipedia.org/wiki/Descent_(mathematics)&#34;&gt;descent&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bundles and Divisors on Schemes</title>
-      <link>https://yunhaimath.com/posts/bundles-and-divisors/</link>
-      <pubDate>Tue, 02 Dec 2025 01:09:37 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/bundles-and-divisors/</guid>
-      <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Algebra is but written geometry and geometry is but figured algebra.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Sophie Germain&lt;/div&gt;&lt;/aside&gt;
-This is an old post from 2023. Recall that for a topological space $X$, a fibre bundle of fibres $F$ where $F$ is a topological space, is a topological space $E$, with a surjective map $\pi: E\rightarrow X$ such that for all $x\in X$, exists an open nbhd $x\in U\subseteq X$ such that there is a homeomorphism $\varphi: \pi^{-1}(U)\rightarrow U\times F$ such that $\mathrm{pr}_U\circ \varphi=\pi|_{\pi^{-1}(U)}$ where $\mathrm{pr}_U:U\times F\rightarrow U$ is the projection onto $U$. Fibre bundles generalize vector bundles and covering spaces. In this post, we interpret this algebraically and generalize this notion to schemes.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h2 id=&#34;symmetric-algebra-and-quasi-coherent-bundles&#34;&gt;Symmetric Algebra and Quasi-coherent Bundles&lt;/h2&gt;
-&lt;p&gt;Recall that for $M$ an $A$-module, its tensor algebra is the graded algebra $T(M)=\bigoplus_{n\in\mathbb N}T^n(M)$ where $T^n(M)=M^{\otimes n}$. The symmetric algebra is the algebra $\mathrm{Sym}(M)=T(M)/I$ where $I$ is the ideal generated by the set $\{m\otimes n-n\otimes m:m,n\in M\}$, which is a graded algebra $\mathrm{Sym}(M)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(M)$ since $I$ is homogeneous. Note that $\mathrm{Sym}^0(M)=A$ and $\mathrm{Sym}^1(M)=M$, so there is a map $i:\mathrm{Sym}^1(M)=M\rightarrow \mathrm{Sym}(M)$. The symmetric algebra has the universal property that the precomposition $\varphi\mapsto \varphi\circ i$ induces a bijection for every $A$-algebra $B$.&lt;/p&gt;
-$$\mathrm{Hom}_{A-\mathrm{Alg}}(\mathrm{Sym}(M),B)\rightarrow\mathrm{Hom}_{A-\mathrm{Mod}}(M,B)$$&lt;p&gt;Setting $B=\mathrm{Sym}(N)$, we see from this that we can find $\mathrm{Sym}(u):\mathrm{Sym}(M)\rightarrow\mathrm{Sym}(N)$ which is a graded morphism, so $\mathrm{Sym}$ is a functor from the category of $A$-modules to the category of graded $A$-algebras. We globalize this construction to schemes. Let $X$ be a scheme (a more generally a ringed space), and $\mathcal E$ and $\mathcal O_X$-module, then define the graded $\mathcal O_X$-algebra $\mathrm{Sym}(\mathcal E)=\bigoplus_{n\in\mathbb N}\mathrm{Sym}^n(\mathcal E)$ be the sheafification of $U\mapsto \mathrm{Sym}_{\Gamma(U,\mathcal O_X)}(\Gamma(U,\mathcal E))$, and similarly we have a bijection&lt;/p&gt;
-$$\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathrm{Sym}(\mathcal E), \mathcal A)\rightarrow \mathrm{Hom}_{\mathcal O_X-\mathrm{Mod}}(\mathcal E, \mathcal A)$$&lt;p&gt;Let $\mathcal B$ be a quasicoherent $\mathcal O_X$-algebra. There exists an $X$-scheme $\underline{\mathrm{Spec}}(\mathcal B)$, such that for all $X$-schemes $f:T\rightarrow X$ there are bijections functorial in $T$ of the following form&lt;/p&gt;
-$$\mathrm{Hom}_{\mathrm{Sch}/X}(T,\underline{\mathrm{Spec}}(\mathcal B))\rightarrow\mathrm{Hom}_{\mathcal O_X-\mathrm{Alg}}(\mathcal B,f_*\mathcal O_T)$$&lt;p&gt;In other words, the functor $(\mathrm{Sch}/X)^{\mathrm{op}}\rightarrow \mathbf{Set}$ given by $(f: T \rightarrow X) \mapsto \mathrm{Hom}_{\mathcal{O}_X-\mathrm{Alg}}\left(\mathcal{B}, f_* \mathcal{O}_T\right)$ is representable. To see this, we note that this is a sheaf on the Zariski site, since $f_*$ and $\mathrm{Hom}(\mathcal B,-)$ are left-exact. We also have this is covered by representable open subfunctors. More concretely, the points of $\underline{\mathrm{Spec}}(\mathcal B)$ above $x\in X$ is that of $\mathrm{Spec}(\mathcal \Gamma(B,\mathcal O_X)\otimes \kappa(p))$ and the topology above an open affine $U=\mathrm{Spec}(A)$ is $\mathrm{Spec}(\Gamma(U,\mathcal B))$. For every quasi-coherent $\mathcal O_X$-module $\mathcal E$, we define $\mathbb V(\mathcal E)=\underline{\mathrm{Spec}}(\mathrm{Sym}(\mathcal E))$ functorial in $E$ which the call the quasi-coherent bundle associated to $E$. When restricted to locally free $\mathcal O_X$-modules, this functor provides a correspondance to algebraic vector bundles, where algebraic vector bundles are understood as follows,&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A vector bundle of rank $n\in\mathbb N$ on $X$ is an $X$-scheme $V$ with an equivalence class of families $(U_i, c_i)$ where $(U_i)_i$ is an open cover of $V$ and isomorphisms $c_i:V|_{U_i}\rightarrow \mathbb A^{n}_{U_i}$ of $U_i$-schemes, such that for all $i,j$, the automorphisms $c_i\circ c_j:\mathbb A^n_{U_i\cap U_j}\rightarrow \mathbb A^n_{U_i\cap U_j}$ are linear, where two such families, called atlases, are equivalent if their union is an atlas. Moreover, define a morphisms of vector bundles $(V,U_i,c_i)\rightarrow (V^\prime,U^\prime_i,c^\prime_i)$ as a $X$-morphism $f:V\rightarrow V^\prime$ such that $c^\prime_j\circ f\circ c_i^{-1}:\mathbb A^n_{U_i\cap U^\prime_j}\rightarrow \mathbb A^n_{U_i\cap U^\prime_j}$ is linear.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The locally free $\mathcal O_X$-modules are interpreted as sheaf of sections over the vector bundle. More specifically, for a vector bundle $E$ as above, we define a locally free $\mathcal O_X$-module $\mathcal E_V$ as the following. Define the sheaf $\mathcal P( V/X)$ of abelian groups by attaching to $U\subseteq X$ the sections of $V$ over $U$, that is, morphisms $s:U\rightarrow V|_U$ with $f\circ s=\mathrm{id}_U$, and restrictions are given by restrictions of scheme morphisms. Locally, this has the structure of $\mathcal O_X^n$ which gives the module structure. This gives the inverse to $\mathbb V(-)$. This correspondance is part of what is known as Serre-Swan theorem&lt;/p&gt;
-&lt;h2 id=&#34;cartier-divisors-and-weil-divisors&#34;&gt;Cartier Divisors and Weil divisors&lt;/h2&gt;
-&lt;p&gt;It is an important question to determine the configuration of zeros and poles of a rational (or meromorphic) function. Let $X$ be an integral scheme (i.e. reduced and irreducible). We denote by $\mathcal K_X$ the constant sheaf on $X$ with value the function field $K(X)$ of $X$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A Cartier divisor on $X$ is a family $(U_i,f_i)$ where $(U_i)_i$ is an open cover of $X$ and $f_i\in K(X)^\times$ with $f_if_j^{-1}\in \Gamma(U_i\cap U_j,\mathcal O_X^\times) $ for all $i,j$, where two families $(U_i,f_i)$, $(V_i,g_i)$ give rise to the same Cariter divisor if $f_ig_j^{-1}\in\Gamma(U_i\cap V_j,\mathcal O_X^\times)$ for all $i,j$. The Cartier divisors form an abelian group $\mathrm{Div}(X)$, where adding the family $(U_i,f_i)$ and $(V_i,g_i)$ gives $(U_i\cap V_j,f_ig_j)$. A Cartier divisor is principle if it is given by some $(X,f)$, and two divisors $D,E$ are linearly equivalent if $D-E$ is principle.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Alernatively, we can set $\mathrm{Div}(X)=\Gamma(X,\mathcal K_X^\times/\mathcal O_X^\times)$, and principle divisors the ones in the image of $\Gamma(X,\mathcal K_X^\times)$. We call the ones in $\Gamma(X,(\mathcal K_X^\times\cap \mathcal O_X)/\mathcal O_X^\times)$ effective divisors and denote it by $D\ge 0$. Let $\mathrm{Cl}(X)$ denote $\mathrm{Div}(X)$ modulo the principle divisors, which we call the divisor class group. We have a short exact sequence.
-&lt;/p&gt;
-$$1\longrightarrow \Gamma(X,\mathcal O_X)^\times\longrightarrow K(X)\longrightarrow \mathrm{Div}(X) \longrightarrow \mathrm{Cl}(X)\longrightarrow 0$$&lt;p&gt;To a Cartier divisor $D$, we associate the line bundle $\mathcal O_X(D)$ for all open $V\subseteq X$.
-&lt;/p&gt;
-$$\Gamma(V,\mathcal O_X(D))=\{f\in K(X): \forall i,f_if\in \Gamma(U_i\cap V,\mathcal O_X)\}$$&lt;p&gt;This association $D\mapsto \mathcal O_X(D)$ induces an isomorphism $\mathrm{Cl}(X)\cong \mathrm{Pic}(X)$. Call an invertible $\mathcal O_X$-submodule of $\mathcal K_X$ an invertible fractional ideal of $\mathcal O_X$. Then we can associate a Cartier divisor $D$ an invertible fractional ideal $\mathcal F_X(D)$ such that $\mathcal F_X(D) (U_i)=f_i\mathcal O_X$. This correspondance provides an isomorphism between $\mathrm{Div}(X)$ and the invertible fractional ideal on $X$. Cartier divisors considered more geometrically is so called Weil divisors. Let $Z^k(X)$ be the free abelian group generated on the set of closed integral subscheme of codimension $k$. The elements of $Z^1(X)$ are then called Weil divisors and their generators called the prime divisors, and the ones with nonnegative coefficients are called the effective Weil divisors. We now connect Weil divisors with Cartier divisors with a homomorphism $\mathrm{cyc}: \mathrm{Div}(X)\rightarrow Z^1(X) $. To this end, we need to define, for a prime Weil divisor $C$, the order $\mathrm{ord}_C(f)$ for some meromorphic function $f\in \Gamma(U,\mathcal K_X)$ where the generic point $\xi$ of $C$ is contained in $C$. If the local ring $\mathcal O_{X,C}=\mathcal O_{X,\xi}$ is a DVR, for example, when $X$ is normal, then we can just set $\mathrm{ord}_C(f)=\nu (f)$ the normalized discrete valuation of $f$. In general, the local ring is a local noetherian ring of dimension $1$. For a nonzero $f\in \mathrm{Frac}(\mathcal O_{X,C})$ where $f=a/b$ we set $\mathrm{ord}_C(f)=\mathrm{lg}(\mathcal O_{X,C}/(a))-\mathrm{lg}(\mathcal O_{X,C}/(b))$. For a Cartier divisor $D$, we choose some element of its atlas $(U_i,f_i)$ where $\xi_C\in U_i$, and define $\mathrm{ord}_C(D)=\mathrm{ord}_C(f_i)$, and then we can define $\mathrm{cyc}(D)=\sum_C\mathrm{ord}_C(D)\left[C\right]$. This provides the desired correspondance. Like Cartier divisors, we can associate to each Weil divisor $D$, a fractional ideal $\mathcal L$ where
-&lt;/p&gt;
-$$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&gt; which is the same one as the one with the corresponding Cartier divisor.&lt;/p&gt;
-&lt;h2 id=&#34;torsors&#34;&gt;Torsors&lt;/h2&gt;
-&lt;p&gt;For a sheaf $T$ on some $X$ and a sheaf of groups $G$ on $X$, we say $T$ is a $G$-torsor if $G$ acts on $T$ simply transitively and $X$ has an open cover $(U_i)_i$ such that $T(U_i)$ is nonempty for all $i$. The sheaf cohomology $H^1(X,G)$ classifies the $G$-torsors. For a locally free $\mathcal O_X$-module $\mathcal E$ of rank $n$. The sheaf $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)$ is a $\mathrm{GL}_n(\mathcal O_X)$-torsor by $\mathrm{GL}_n(\mathcal O_X)(U)$ acts on $\mathrm{Isom}(\mathcal O_X^n,\mathcal E)(U)$ by $g\cdot u\mapsto u\circ g^{-1}$. We have a bijection between rank $n$ vector bundles and $H^1(X,\mathrm{GL}_n(\mathcal O_X))$, so rank $n$ vector bundles are identified with $\mathrm{GL}_n(\mathcal O_X)$-torsors.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>https://yunhaimath.com/posts/uniformization/</link>
-      <pubDate>Mon, 01 Dec 2025 00:10:11 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/uniformization/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    The pursuit of mathematics is a divine madness of the human spirit.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alfred North Whitehead&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;This is an old post from 2024. In this post, we prove the uniformization theorem for elliptic curves. The theorem states that every elliptic curve over the complex numbers arose from the complex plane modulo a lattice, and vice versa. In fact there is an isomorphism between them which is both complex analytic and algebraic. This shows that elliptic curves over complex numbers is a torus.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;A lattice $L=[\omega_1,\omega_2]\subseteq \mathbb C$ is an additive subgroup $\omega_1\mathbb Z+\omega_2\mathbb Z\subseteq \mathbb C$ with $\omega_1,\omega_2$ linearly independent. For example, if $\mathcal O=\mathbb Z[\tau]$ is an imaginary quadratic order, the it gives rise to lattice $[1,\tau]$. An elliptic function for a lattice $L$ is a meromorphic function $f:D\subseteq \mathbb C\rightarrow\mathbb C$ that is doubly-periodic w.r.t. $L$, i.e. $f(z+\omega)=f(z)$ for all $\omega\in L$. Elliptic functions form a field $\mathbb C(L)$. We recall Cauchy&#39;s principle argument.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cauchy)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $\gamma$ be a simply closed positively oriented curve with interior $\Gamma$. Let $f$ be a function meromorphic on an open set $\Omega$ containing $\Gamma$ and $\gamma$ that has no zero or pole on $\gamma$, and $g$ a nonzero function holomorphic on $\Omega$, then for $z_0\in\Gamma$ &lt;/p&gt;
-$$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\omega\in \Gamma}g(z_0)\mathrm{ord}_{w}(f)$$&lt;p&gt; when $g(z)=1$, the rhs is the difference between the number of zeros and poles in $\Omega$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This theorem is proved by writing $f,g$ in terms of their Laurent series about $z_0$ and using Residue theorem. A corollary from this is that in any fundamental paralellogram $F_{\alpha}=\alpha+\{t_1\omega_1+t_2\omega_2:0\le t_1,t_2&lt;1\}$, the number of poles is equal to the number of zeros.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $L$ be a lattice and $k&gt;2$ an integer. The Einsenstein series of weight $k$ is &lt;/p&gt;
-$$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$&lt;p&gt; Consider lattices $[1,\tau]$ for $\tau\in\mathbb H$ where $\mathbb H=\{z\in\mathbb C:\mathrm{Im}(z)&gt;0\}$ is the upper-half plane, we define $G_{k}(\tau)=G_{k}([1,\tau])$, so that $G_k$ is a funciton on the upper-half plane $\mathbb H$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If $k$ is odd then the term $\frac{1}{\omega^k}$ cancels with $\frac{1}{(-\omega)^k}$, so the only interesting Einsenstein series are those of even weight. The Einsenstein series converges absolutely.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;A Weierstrass $\wp$-function of a lattice $L$ is &lt;/p&gt;
-$$\wp(z ; L)=\frac{1}{z^2}+\sum_{\omega \in L^*}\left(\frac{1}{(z-\omega)^2}-\frac{1}{\omega^2}\right)$$&lt;p&gt; we write $\wp(z)$ when there is no confusion of the lattice.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The $\wp$-function has a pole of order $w$ at each lattice point, and these are all the poles. Its derivative is&lt;/p&gt;
-$$\wp^\prime(z)=-2\sum_{\omega\in L}\frac{1}{(z-\omega)^3}$$&lt;p&gt;It follows that $\wp, \wp^\prime$ are elliptic functions. We will now derive a differential equation that reveals its link to elliptic curves. By expanding the $\wp$-function into series, we can write it in terms of Einsenstein series. &lt;/p&gt;
-$$\wp(z)=\frac{1}{z^2}+\sum_{n=1}^{\infty}(2 n+1) G_{2 n+2}(L) z^{2 n}$$&lt;p&gt;The critical observation is that $\wp $ satisfies the following differential equations.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $L$ be a lattice, then &lt;/p&gt;
-$$\wp^{\prime}(z)^2=4 \wp(z)^3-g_2(L) \wp(z)-g_3(L),$$&lt;p&gt; where $g_2(L)=60G_4(L)$ and $g_3(L)=140 G_6(L)$&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This corresponds to an elliptic curve by letting $y=\wp^\prime(z)$ and $x=\wp(z)$, so we have an elliptic curve $y^2=4 x^3-g_2(L) x-g_3(L)$, iff the discriminant $\Delta(L)=g_2(L)^3-27g_3(L)^2$ is nonzero, and this is always nonzero. We now have a map that gives an elliptic curve for each lattice&lt;/p&gt;
-$$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$$&lt;p&gt;This is an isomorphism of groups and complex manifolds. Moreover, all elliptic curves arise this way. For a proof, consult &lt;a href=&#34;https://math.mit.edu/classes/18.783/2015/LectureNotes16.pdf&#34;&gt;here&lt;/a&gt;, becuase I&#39;m too lazy to prove the rest.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simplicial Sets and Infinity-Categories</title>
-      <link>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:01 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/simplicial-sets-and-infinity-categories/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Anonymous Friend&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Recently, I&#39;ve been reading Cisinski&#39;s &lt;em&gt;Higher Categories and Homotopical Algebra&lt;/em&gt;. I wanted to write down some of the things I&#39;ve learned. In this post, we start from a review of presheaves of sets and simplicial sets, and then build towards the definition of an $\infty$-category. Let $A$ be a category. Recall that a presheaf on $A$ is a contravariant functor $X:A^{\mathrm{op}}\rightarrow \mathbf{Set}$, where we denote $X_a=X(a)$ and $u^*:X_b\rightarrow X_a$ the induced map for each $u:a\rightarrow b$. The category of presheaves on $A$ is denoted by $\widehat{A}$. The category of elements $\int_A X$ (or $\int X$) is the category where objects are pairs $(a,s)$ with $a\in A$ and $s\in X_a$, and a morphism $u:(a,s)\rightarrow (b,t)$ is a morphism $u:a\rightarrow b$ such that $u^*(t)=s$. It comes equipped with a faithful functor $\varphi_X:\int_A X\rightarrow \widehat{A}$ given by $(a,s)\mapsto \mathscr{H}_a$ on objects and $u\mapsto \mathscr{H}(u)$ on morphisms, where $\mathscr{H}:A\rightarrow \widehat{A}$ is the Yoneda embedding. In this post, we ignore all set-theoretic size issues.&lt;/p&gt;
-&lt;h2 id=&#34;presheaves&#34;&gt;Presheaves&lt;/h2&gt;
-&lt;p&gt;First, we prove a variation of the Yoneda lemma, in the style of coend calculus.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
-$$X=\mathrm{colim}\ \varphi_X.$$
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
-  &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
-    &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
-$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Let $C$ be a category with limits. For $u:A\rightarrow C$, we can define a &lt;em&gt;functor of evaluation&lt;/em&gt;&lt;/p&gt;
-$$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u(a),Y)\right],$$&lt;p&gt;that is, $u^*(Y)=\mathrm{Hom}_C(-,Y)\circ u$. By this version of the Yoneda lemma, we have the following consequence.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
-$$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
-$$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
-&lt;p&gt;Let $\Delta$ be the category where the objects are finite sets $[n]=\{0,\dots,n\}$ for $n\in\mathbb N$, and the morphisms are order-preserving functions. This is called the &lt;em&gt;simplex category&lt;/em&gt;. A &lt;em&gt;simplicial set&lt;/em&gt; is a presheaf on $\Delta$, and we denote the category of simplicial sets by $\mathbf{SSet}=\widehat{\Delta}$. For $n\in\mathbb N$, denote $\Delta^n=\mathscr{H}_n$ as the &lt;em&gt;standard $n$-simplex&lt;/em&gt;. For a simplicial set $X$, we write&lt;/p&gt;
-$$X_n=X([n])=\mathrm{Hom}(\Delta^n,X)$$&lt;p&gt;for the set of $n$-simplices of $X$.&lt;/p&gt;
-&lt;p&gt;For integers $n\ge 1$ and $0\le i\le n$, the map $\partial^n_i:\Delta^{n-1}\rightarrow \Delta^n$ corresponds to the map $[n-1]\rightarrow [n]$ whose image omits $i$. For $n\ge 0$, the map $\sigma^n_i:\Delta^{n+1}\rightarrow \Delta^n$ corresponds to the map $[n+1]\rightarrow [n]$ that takes the value $i$ twice. We also write&lt;/p&gt;
-$$d^i_n=(\partial_i^n)^*:X_n\rightarrow X_{n-1},\qquad s^i_n=(\sigma_i^n)^*:X_n\rightarrow X_{n+1}.$$&lt;p&gt;The category $\Delta$ is uniquely captured by a set of identities involving these operations.&lt;/p&gt;
-&lt;p&gt;There is a geometric realization functor $|\cdot|:\mathbf{SSet}\rightarrow \mathbf{Top}$, where $\mathbf{Top}$ is the category of compactly generated Hausdorff topological spaces, given by&lt;/p&gt;
-$$|\Delta^n|=\left\{(x_j)_{0\le j\le n}\in\mathbb R^{n+1}_{\ge 0}: \sum_{j=0}^n x_j=1\right\}$$&lt;p&gt;and&lt;/p&gt;
-$$|X|=\mathrm{colim}_{\Delta^n\rightarrow X}|\Delta^n|$$&lt;p&gt;for a simplicial set $X$. For each $f:[m]\rightarrow [n]$, we get an associated continuous map $|f|:|\Delta^m|\rightarrow |\Delta^n|$, defined by $|f|(x_0,\dots,x_m)=(y_0,\dots,y_n)$ where $y_j=\sum_{f(i)=j}x_i$. By virtue of the preceding theorem, we have a singular complex functor $\mathrm{Sing}:\mathbf{Top}\rightarrow\mathbf{SSet}$, given by&lt;/p&gt;
-$$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which is right adjoint to the geometric realization functor, i.e. $|\cdot|\dashv \mathrm{Sing}$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
-&lt;li&gt;If a morphism $a\rightarrow b$ in $A_+$ (resp. $A_-$) is not the identity, then $d(a) &lt; d(b)$ (resp. $d(b) &lt; d(a)$).&lt;/li&gt;
-&lt;li&gt;Any morphism $u:a\rightarrow b$ in $A$ factors uniquely as $u=ip$, where $p:a\rightarrow c$ is in $A_-$ and $i:c\rightarrow b$ is in $A_+$.&lt;/li&gt;
-&lt;li&gt;For a morphism $\pi:a\rightarrow b$ in $A_-$, there exists $\sigma:b\rightarrow a$ in $A$ such that $\pi\sigma=\mathbf{1}_b$.&lt;/li&gt;
-&lt;li&gt;For $\pi,\tau:a\rightarrow b$ in $A_-$, if $\pi$ and $\tau$ have the same set of sections, then $\pi=\tau$.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
-&lt;h2 id=&#34;nerves&#34;&gt;Nerves&lt;/h2&gt;
-&lt;p&gt;Every poset $E$ can be viewed as a category where objects are elements, and there is a unique morphism $x\rightarrow y$ if $x\le y$, and none otherwise. Let $i:\Delta\rightarrow\mathbf{Cat}$ be the inclusion functor. The &lt;em&gt;nerve functor&lt;/em&gt;&lt;/p&gt;
-$$N=i^*:\mathbf{Cat}\rightarrow\mathbf{SSet}$$&lt;p&gt;is given by&lt;/p&gt;
-$$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt;Thus the $n$-simplices of $N(C)$ are strings of arrows of length $n$ in $C$. By the preceding theorem, the nerve functor has a left adjoint $\tau=i_!:\mathbf{SSet}\rightarrow\mathbf{Cat}$. We&#39;ll stop here and continue more in Part II.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>做数学科研一定要在学术界吗</title>
-      <link>https://yunhaimath.com/posts/keyan/</link>
-      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/keyan/</guid>
-      <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
-&lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
-&lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着长期的孤独。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。第五、在学术界不意味着能够做喜欢的课题，往往需要追逐时髦，在非自己本职的领域内花时间也不太可能，而我往往只能花时间在自己感兴趣的课题上。&lt;/p&gt;
-&lt;p&gt;  相比起来，如果在做quant的同时副业做数学科研，只是每周工作时间肝了一些，好像确实是更好的选择。我也不想成为什么大数学家，只是思考数学问题我就蛮开心的。如果四十岁能赚到足够的fuck-off money，那么甚至可以辞了工作专注数学和其他爱好。我也有想过要不要做一些和纯数学相近的业界的工作。比如cryptography，不过现在好像和cryptography沾边的公司要的都是需要懂cybersecurity的那种计算机出身的人。如果只是懂mathematical cryptography的，要的地方一只手可以数得过来。要么就是那种IDA或者NSA的政府机构，需要clearance的，我必然不行。&lt;/p&gt;
-&lt;p&gt;  我现在也比较纠结。想来想去我觉得还是走着瞧吧，如果我这几年能出个自己满意的成果，那就看能不能在加拿大内做一站博后。如果屁也没憋出个，说明我本就没有什么才能，那就转quant拉倒算了。他妈的。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>论「纯粹」</title>
-      <link>https://yunhaimath.com/posts/lunchuncui/</link>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yunhaimath.com/posts/lunchuncui/</guid>
-      <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
-&lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
-&lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
-&lt;p&gt;  第三，一个纯粹的人一定在思想上有统一，也就是不自己骗自己。在现代的社会中，很多人受到异化和物化，进而对自己也进行异化和物化，但是心里深处又不愿放弃自我，于是活在了自我矛盾中，简单的说就是活的拧巴。『全金属外壳』的主角「小丑」（Private Joker）是典型的这种自我矛盾的人物：作为越战士兵，他受到战争对自己的异化，但仍旧保留着一丝人性；在头盔上写着「Born to Kill」，却在胸前别着和平符号。小丑是活在矛盾中的人物，是很多男性心中矛盾的缩影。现代社会将男性异化为工具，要么是是暴力的工具，要么是劳动力的工具，而压抑他的人格。这种现象的结果就是很多男性将自己被异化的工具性内化为自我价值，但是在内心深处仍然是反抗这种异化的，于是就形成了矛盾。对于现代社会中的女性，则有另外一个层面的自我矛盾。一方面是想要反抗父权主义，做独立女性，一方面没有勇气放下父权主义中的很多「利己」的方面，这种自我矛盾的结果就是把那些父权主义中「利己」的方面说成是进步的。这就是为什么现在一些所谓女权支持封建彩礼习俗；潜意识中，就是把结婚当做是自己吃亏，心里中已经内化了父权主义中女性作为被追求者的角色。这种人的典型就是『飘』的女主角郝思嘉，她爱的两个男人一个代表着传统（阿什利），一个代表着进步（白瑞德）。郝思嘉以为自己爱阿什利，求而不得，为物质而与白瑞德结婚，却又对阿什利恋恋不舍，在进步与传统中纠结挣扎，最后两者都失去了。女性在历史上一直受到系统性压迫，如今也存在相当多残余，所以我认为女权主义是十分必要和重要的。可是说实话现在国内很多所谓的女权更像是一种成功学的翻版，内核仍然是矛盾的。一个纯粹的人，必然会意识到自己思想上的自我矛盾，而去正视这些矛盾，而不是在留在思维的舒适区里。去正视自己思维中的矛盾是需要勇气的，一个纯粹的人必须要有这种勇气。&lt;/p&gt;
-&lt;p&gt;  对于我个人来说，我认为人生最纯粹的追求有三：一、探求世界最深刻的真理；二、表达人最真实的情感；三、与他人在精神以及情感上的真实地链接。第一点就是数学家、哲学家、科学家们一生追求的。朝闻道，夕死可矣。我们所处的世界如此复杂，而它的原理中蕴含着无穷无尽的美。去追求这种美，理解世界最底层的真理，是最为纯粹的事情。第二点就是文学家、艺术家、诗人们一生所追求的。去理解人与社会，去把他人和自己最复杂最炽热的情感通过艺术的方式表达出来，这也是很纯粹的事情。第三点并无前两点那么宏大，但生活中点点滴滴的小事，和身边的人一些共同的经历，即使是琐碎的，也是真实和纯粹的。当然，这里「身边的人」并不是指所有身边的人。人活在世上，有时难免需要带上面具，这也无可厚非，并非所有人都值得深交。但是我认为，纯粹的人应当对同样真诚的人真诚相待。当然，这三点也并非全部，也有一些人可能会认为去改变世界，让世界更美好，是他们的追求。这也是历史上一些革命家所追求的。我本人对此没有太大的兴趣，但是我可以认同这也是很纯粹的追求，可以作为第四点。子曰：「志于道，据于德，依于仁，游于艺。」有异曲同工之处。以上是我一点粗浅的见解。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Links</title>
       <link>https://yunhaimath.com/posts/links/</link>
-      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/links/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;

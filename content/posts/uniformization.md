@@ -1,7 +1,7 @@
 ---
 title: Uniformization Theorem for Elliptic Curves
 abbrlink: abffc691
-date: 2025-12-01 00:10:11
+date: 2024-02-29 00:10:11
 categories: ["expositions"]
 tags: ["math", "number-theory"]
 ---

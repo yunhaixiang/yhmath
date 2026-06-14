@@ -2,7 +2,7 @@
 title: Bundles and Divisors on Schemes
 categories: ["expositions"]
 tags: ["algebraic-geometry", "math", "algebra"]
-date: 2025-12-02 01:09:37
+date: 2024-01-25 01:09:37
 ---
 {{< pullquote author="Sophie Germain">}}
 Algebra is but written geometry and geometry is but figured algebra.

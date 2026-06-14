@@ -1,6 +1,6 @@
 ---
 title: Grothendieck's Proof of van Kampen Theorem
-date: 2025-12-03 11:49:34
+date: 2024-02-07 11:49:34
 categories: ["expositions"]
 tags: ["math", "algebraic-topology"]
 ---

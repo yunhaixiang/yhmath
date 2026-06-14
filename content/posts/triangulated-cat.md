@@ -1,6 +1,6 @@
 ---
 title: 'Triangulated Categories'
-date: 2025-12-10 20:00:36
+date: 2022-09-05 20:00:36
 categories: ["expositions"]
 tags: ["math", "category-theory"]
 ---

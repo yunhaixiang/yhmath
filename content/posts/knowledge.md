@@ -1,6 +1,6 @@
 ---
 title: What is This Thing Called Knowledge?
-date: 2025-12-07 18:36:05
+date: 2023-08-07 18:36:05
 categories: ["expositions"]
 tags: ["philosophy", "epistemology"]
 ---
