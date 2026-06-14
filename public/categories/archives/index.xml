@@ -290,9 +290,15 @@
 &lt;li&gt;Franz Kafka, &lt;em&gt;The Metamorphosis&lt;/em&gt; (1916)&lt;/li&gt;
 &lt;li&gt;Shuzo Oshimi, &lt;em&gt;Inside Mari&lt;/em&gt; (2012)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;books-i-recommend-non-fiction&#34;&gt;Books I Recommend (Non-Fiction)&lt;/h2&gt;
+&lt;h2 id=&#34;books-i-recommend-philosophy&#34;&gt;Books I Recommend (Philosophy)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Duncan Pritchard, &lt;em&gt;What is this Thing Called Knowledge?&lt;/em&gt; (2006)&lt;/li&gt;
+&lt;li&gt;Walter Benjamin, &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt; (1935)&lt;/li&gt;
+&lt;li&gt;Guy Debord, &lt;em&gt;The Society of the Spectacle&lt;/em&gt; (1967)&lt;/li&gt;
+&lt;li&gt;W. V. O. Quine, &lt;em&gt;Two Dogmas of Empiricism&lt;/em&gt; (1951)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books-i-recommend-mathematics&#34;&gt;Books I Recommend (Mathematics)&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Paul Lockhart, &lt;em&gt;A Mathematician&#39;s Lament&lt;/em&gt; (2009)&lt;/li&gt;
 &lt;li&gt;George Lakoff, &lt;em&gt;Where Mathematics Come From&lt;/em&gt; (2000)&lt;/li&gt;
 &lt;li&gt;Edward Frenkel, &lt;em&gt;Love and Math: The Heart of Hidden Reality&lt;/em&gt; (2013)&lt;/li&gt;
@@ -305,8 +311,14 @@
 &lt;li&gt;Philip J. Davis, Reuben Hersh, &lt;em&gt;The Mathematical Experience&lt;/em&gt; (1981)&lt;/li&gt;
 &lt;li&gt;Paul Benacerraf, Hilary Putnam, &lt;em&gt;Philosophy of Mathematics: Selected Readings&lt;/em&gt; (1984)&lt;/li&gt;
 &lt;li&gt;Reuben Hersh, &lt;em&gt;18 Unconventional Essays on the Nature of Mathematics&lt;/em&gt; (2006)&lt;/li&gt;
+&lt;li&gt;G. H. Hardy, &lt;em&gt;A Mathematician&#39;s Apology&lt;/em&gt; (1940)&lt;/li&gt;
+&lt;li&gt;Eugenia Cheng, &lt;em&gt;Mathematics, Morally&lt;/em&gt; (2004)&lt;/li&gt;
+&lt;li&gt;Paul Benacerraf, &lt;em&gt;What Numbers Could not Be&lt;/em&gt; (1965)&lt;/li&gt;
+&lt;li&gt;William P. Thurston, &lt;em&gt;On Proof and Progress in Mathematics&lt;/em&gt; (1994)&lt;/li&gt;
+&lt;li&gt;W. T. Gowers, &lt;em&gt;The Two Cultures of Mathematics&lt;/em&gt; (2007)&lt;/li&gt;
+&lt;li&gt;Kevin Buzzard, &lt;em&gt;Grothendieck’s Use of Equality&lt;/em&gt; (2024)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;books-i-recommend-recreational-mathematics&#34;&gt;Books I Recommend (Recreational Mathematics)&lt;/h2&gt;
+&lt;h2 id=&#34;books-i-recommend-mathematical-puzzles&#34;&gt;Books I Recommend (Mathematical Puzzles)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Martin Aigner, Günter M. Ziegler, &lt;em&gt;Proofs from THE BOOK&lt;/em&gt; (1998)&lt;/li&gt;
 &lt;li&gt;Dmitry Fuchs, Serge Tabachnikov, &lt;em&gt;Mathematical Omnibus&lt;/em&gt; (2007)&lt;/li&gt;
@@ -329,18 +341,6 @@
 &lt;li&gt;George Polya, &lt;em&gt;How to Solve It: A New Aspect of Mathematical Method&lt;/em&gt; (2015)&lt;/li&gt;
 &lt;li&gt;Thomas Lam, &lt;em&gt;The CMUMC POTD Book&lt;/em&gt; (2025)&lt;/li&gt;
 &lt;li&gt;George Polya, &lt;em&gt;Mathematical Discovery&lt;/em&gt; (1991)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;essays-i-recommend&#34;&gt;Essays I Recommend&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Walter Benjamin, &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt; (1935)&lt;/li&gt;
-&lt;li&gt;Guy Debord, &lt;em&gt;The Society of the Spectacle&lt;/em&gt; (1967)&lt;/li&gt;
-&lt;li&gt;G. H. Hardy, &lt;em&gt;A Mathematician&#39;s Apology&lt;/em&gt; (1940)&lt;/li&gt;
-&lt;li&gt;Eugenia Cheng, &lt;em&gt;Mathematics, Morally&lt;/em&gt; (2004)&lt;/li&gt;
-&lt;li&gt;W. T. Gowers, &lt;em&gt;The Two Cultures of Mathematics&lt;/em&gt; (2007)&lt;/li&gt;
-&lt;li&gt;Kevin Buzzard, &lt;em&gt;Grothendieck’s Use of Equality&lt;/em&gt; (2024)&lt;/li&gt;
-&lt;li&gt;Paul Benacerraf, &lt;em&gt;What Numbers Could not Be&lt;/em&gt; (1965)&lt;/li&gt;
-&lt;li&gt;W. V. O. Quine, &lt;em&gt;Two Dogmas of Empiricism&lt;/em&gt; (1951)&lt;/li&gt;
-&lt;li&gt;William P. Thurston, &lt;em&gt;On Proof and Progress in Mathematics&lt;/em&gt; (1994)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -403,8 +403,7 @@
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/music/</guid>
-      <description>&lt;p&gt;I love music, especially jazz. Here are some of my favorite artists.&lt;/p&gt;
-&lt;h2 id=&#34;jazz&#34;&gt;Jazz&lt;/h2&gt;
+      <description>&lt;p&gt;Here are some of my favorite Jazz artists.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave Brubeck&lt;/li&gt;
 &lt;li&gt;Miles Davis&lt;/li&gt;
@@ -414,6 +413,8 @@
 &lt;li&gt;Hiromi&lt;/li&gt;
 &lt;li&gt;Yoko Kanno&lt;/li&gt;
 &lt;li&gt;Cory Wong&lt;/li&gt;
+&lt;li&gt;Roberto Fonseca&lt;/li&gt;
+&lt;li&gt;Ezra Collective&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -424,8 +425,7 @@
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://yunhaimath.com/posts/video-games/</guid>
-      <description>&lt;p&gt;I like playing video games, especially single player action or story-driven games.&lt;/p&gt;
-&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Undertale&lt;/em&gt; (2015)&lt;/li&gt;

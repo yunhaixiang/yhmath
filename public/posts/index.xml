@@ -47,330 +47,12 @@
     </item>
     
     <item>
-      <title>Riemann-Hilbert Correspondence and Lisse ell-adic Sheaves</title>
+      <title>Riemann-Hilbert Correspondence and lisse $\ell$-adic Sheaves</title>
       <link>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</link>
       <pubDate>Sat, 13 Jun 2026 00:00:01 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</guid>
-      <description>&lt;p&gt;In this note I want to compare two slogans:&lt;/p&gt;
-$$
-\left\{
-\begin{array}{c}
-\text{flat vector bundles} \\
-\text{on } X^{\mathrm{an}}
-\end{array}
-\right\}
-\simeq
-\left\{
-\begin{array}{c}
-\text{local systems} \\
-\text{on } X^{\mathrm{an}}
-\end{array}
-\right\}
-$$&lt;p&gt;and&lt;/p&gt;
-$$
-\left\{
-\begin{array}{c}
-\text{lisse } \overline{\mathbb Q}_{\ell}\text{-sheaves} \\
-\text{on } X_{\mathrm{et}}
-\end{array}
-\right\}
-\simeq
-\left\{
-\begin{array}{c}
-\text{continuous } \overline{\mathbb Q}_{\ell}\text{-representations} \\
-\text{of } \pi_1^{\mathrm{et}}(X,\overline{x})
-\end{array}
-\right\}.
-$$&lt;p&gt;The first slogan is the entry point to the Riemann-Hilbert correspondence. The second is the basic dictionary for lisse $\ell$-adic sheaves. They are not the same theorem, but they play parallel roles: both turn locally constant sheaf-theoretic data into linear representations of a fundamental group.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h2 id=&#34;questions&#34;&gt;Questions&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;What is the classical Riemann-Hilbert correspondence for a complex manifold?&lt;/li&gt;
-&lt;li&gt;Where do regular singularities and regular holonomic $\mathcal D$-modules enter?&lt;/li&gt;
-&lt;li&gt;What is the precise meaning of a lisse $\ell$-adic sheaf?&lt;/li&gt;
-&lt;li&gt;How does a lisse $\ell$-adic sheaf give a representation of the etale fundamental group?&lt;/li&gt;
-&lt;li&gt;In what sense is the lisse $\ell$-adic story an arithmetic analogue of local systems?&lt;/li&gt;
-&lt;li&gt;Where does the analogy break?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;classical-local-systems&#34;&gt;Classical Local Systems&lt;/h2&gt;
-&lt;p&gt;Let $X$ be a connected complex manifold and let $x\in X$ be a base point.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A complex local system on $X$ is a sheaf $\mathcal L$ of finite-dimensional $\mathbb C$-vector spaces which is locally constant on $X$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The basic classification is&lt;/p&gt;
-$$
-\left\{
-\begin{array}{c}
-\text{complex local systems} \\
-\text{on } X
-\end{array}
-\right\}
-\simeq
-\operatorname{Rep}_{\mathbb C}\bigl(\pi_1(X,x)\bigr),
-$$&lt;p&gt;where a local system $\mathcal L$ is sent to its monodromy action on the fiber $\mathcal L_x$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-remark&#34; 
-    
-     data-kind=&#34;remark&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    This statement is already a Riemann-Hilbert-type dictionary in its simplest form: topology is converted into linear algebra through monodromy.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;flat-connections&#34;&gt;Flat Connections&lt;/h2&gt;
-&lt;p&gt;Let $\mathcal E$ be a holomorphic vector bundle on $X$. A connection is a map&lt;/p&gt;
-$$
-\nabla:\mathcal E\longrightarrow \mathcal E\otimes_{\mathcal O_X}\Omega_X^1
-$$&lt;p&gt;satisfying the Leibniz rule. It is flat, or integrable, if $\nabla^2=0$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Local system from a flat connection)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;If $(\mathcal E,\nabla)$ is a holomorphic vector bundle with flat connection, then&lt;/p&gt;
-&lt;h1 id=&#34;mathcal-enabla0u&#34;&gt;$$
-\mathcal E^{\nabla=0}(U)&lt;/h1&gt;
-&lt;p&gt;{s\in \mathcal E(U):\nabla s=0}
-$$&lt;/p&gt;
-&lt;p&gt;defines a complex local system on $X$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Conversely, a complex local system $\mathcal L$ gives a flat vector bundle&lt;/p&gt;
-$$
-\mathcal E=\mathcal L\otimes_{\mathbb C}\mathcal O_X
-$$&lt;p&gt;with the connection $1\otimes d$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Riemann-Hilbert, smooth form)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;For a complex manifold $X$, taking horizontal sections gives an equivalence&lt;/p&gt;
-$$
-\left\{
-\begin{array}{c}
-\text{holomorphic vector bundles} \\
-\text{with flat connection}
-\end{array}
-\right\}
-\simeq
-\left\{
-\begin{array}{c}
-\text{complex local systems} \\
-\text{on } X
-\end{array}
-\right\}.
-$$
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;the-algebraic-riemann-hilbert-correspondence&#34;&gt;The Algebraic Riemann-Hilbert Correspondence&lt;/h2&gt;
-&lt;p&gt;For a smooth complex algebraic variety $X$, the algebraic statement has to remember singularities at infinity. If $j:X\hookrightarrow \overline X$ is a compactification, then algebraic flat connections on $X$ correspond to local systems on $X^{\mathrm{an}}$ only after imposing a regular singularity condition along $\overline X\setminus X$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Deligne)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    Let $X$ be a smooth complex algebraic variety. The analytification functor induces an equivalence between algebraic vector bundles with integrable connection and regular singularities, and complex local systems on $X^{\mathrm{an}}$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A more robust version is formulated using $\mathcal D$-modules:&lt;/p&gt;
-$$
-\operatorname{DR}:
-D^b_{\mathrm{rh}}(\mathcal D_X)
-\longrightarrow
-D^b_c(X^{\mathrm{an}},\mathbb C),
-$$&lt;p&gt;where $D^b_{\mathrm{rh}}(\mathcal D_X)$ is the derived category of regular holonomic $\mathcal D_X$-modules and $D^b_c(X^{\mathrm{an}},\mathbb C)$ is the constructible derived category.&lt;/p&gt;
-&lt;div class=&#34;math-env style-remark&#34; 
-    
-     data-kind=&#34;caveat&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    This is the actual Riemann-Hilbert correspondence in its standard modern form. Local systems appear as the smooth, non-singular part of a broader correspondence involving constructible sheaves and regular holonomic $\mathcal D$-modules.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;lisse-sheaves&#34;&gt;Lisse Sheaves&lt;/h2&gt;
-&lt;p&gt;Let $X$ be a connected scheme, let $\ell$ be a prime invertible on $X$, and fix a geometric point $\overline{x}\to X$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A sheaf $\mathcal F$ of $\mathbb Z/\ell^n\mathbb Z$-modules on $X_{\mathrm{et}}$ is lisse if it is locally constant and constructible for the etale topology.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For coefficients in $\mathbb Z_{\ell}$, $\mathbb Q_{\ell}$, or $\overline{\mathbb Q}_{\ell}$, one usually packages compatible systems of torsion sheaves and then inverts $\ell$.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    A lisse $\mathbb Q_{\ell}$-sheaf is a $\mathbb Q_{\ell}$-local system on the etale site. Equivalently, it is a finite-dimensional $\mathbb Q_{\ell}$-vector space varying locally constantly in the etale topology.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;etale-monodromy&#34;&gt;Etale Monodromy&lt;/h2&gt;
-&lt;p&gt;The etale fundamental group $\pi_1^{\mathrm{et}}(X,\overline{x})$ classifies finite etale covers of $X$. A lisse sheaf has monodromy around such covers.&lt;/p&gt;
-&lt;div class=&#34;math-env style-plain&#34; 
-    
-     data-kind=&#34;theorem&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;There is an equivalence of categories&lt;/p&gt;
-$$
-\left\{
-\begin{array}{c}
-\text{lisse } \mathbb Q_{\ell}\text{-sheaves} \\
-\text{on } X
-\end{array}
-\right\}
-\simeq
-\left\{
-\begin{array}{c}
-\text{continuous finite-dimensional} \\
-\mathbb Q_{\ell}\text{-representations of }
-\pi_1^{\mathrm{et}}(X,\overline{x})
-\end{array}
-\right\}.
-$$
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Here continuity matters: $\pi_1^{\mathrm{et}}(X,\overline{x})$ is profinite, while $\operatorname{GL}(V)$ is given its $\ell$-adic topology.&lt;/p&gt;
-&lt;h2 id=&#34;comparison-with-the-classical-picture&#34;&gt;Comparison With the Classical Picture&lt;/h2&gt;
-&lt;p&gt;When $X$ is a complex algebraic variety, there is a comparison between finite etale covers of $X$ and finite topological covers of $X^{\mathrm{an}}$. In particular,&lt;/p&gt;
-$$
-\pi_1^{\mathrm{et}}(X,\overline{x})
-\cong
-\widehat{\pi_1(X^{\mathrm{an}},x)}
-$$&lt;p&gt;under suitable connectedness and local noetherian hypotheses, where the right-hand side is the profinite completion.&lt;/p&gt;
-&lt;p&gt;This explains the analogy:&lt;/p&gt;
-$$
-\begin{array}{ccc}
-\text{complex local systems} &amp; \longleftrightarrow &amp;
-\pi_1(X^{\mathrm{an}},x)\text{-representations} \\
-\text{lisse } \ell\text{-adic sheaves} &amp; \longleftrightarrow &amp;
-\pi_1^{\mathrm{et}}(X,\overline{x})\text{-representations}.
-\end{array}
-$$&lt;p&gt;But the $\ell$-adic side is not a literal Riemann-Hilbert correspondence: there is no sheaf of differential operators on $X$ whose regular holonomic modules are simply lisse $\ell$-adic sheaves. The arithmetic replacement for differential equations is often the study of Galois and etale monodromy representations.&lt;/p&gt;
-&lt;h2 id=&#34;examples-to-add&#34;&gt;Examples To Add&lt;/h2&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Constant sheaf)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    The constant sheaf $\mathbb Q_{\ell}$ corresponds to the trivial representation of $\pi_1^{\mathrm{et}}(X,\overline{x})$.
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Kummer sheaves)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;On $\mathbb G_m$, Kummer covers&lt;/p&gt;
-$$
-t\longmapsto t^n
-$$&lt;p&gt;produce rank-one lisse sheaves whose monodromy is controlled by roots of unity.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Tate module of an abelian scheme)&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
-    &lt;p&gt;If $f:A\to S$ is an abelian scheme, then&lt;/p&gt;
-$$
-T_{\ell}(A)=\varprojlim_n A[\ell^n]
-$$&lt;p&gt;gives a lisse $\mathbb Z_{\ell}$-sheaf on $S$.&lt;/p&gt;
-
-  &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;possible-roadmap&#34;&gt;Possible Roadmap&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;State the topological classification of local systems by monodromy.&lt;/li&gt;
-&lt;li&gt;Explain horizontal sections of flat connections.&lt;/li&gt;
-&lt;li&gt;State the Riemann-Hilbert correspondence first for flat bundles, then for regular holonomic $\mathcal D$-modules.&lt;/li&gt;
-&lt;li&gt;Define lisse torsion sheaves and lisse $\ell$-adic sheaves.&lt;/li&gt;
-&lt;li&gt;Classify lisse $\ell$-adic sheaves by continuous representations of $\pi_1^{\mathrm{et}}$.&lt;/li&gt;
-&lt;li&gt;Compare $\pi_1^{\mathrm{et}}(X)$ with the profinite completion of $\pi_1(X^{\mathrm{an}})$ over $\mathbb C$.&lt;/li&gt;
-&lt;li&gt;End with the warning that the analogy is about monodromy, not about differential equations.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
@@ -402,6 +84,76 @@ $$&lt;p&gt;gives a lisse $\mathbb Z_{\ell}$-sheaf on $S$.&lt;/p&gt;
     The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Edward Lasker&lt;/div&gt;&lt;/aside&gt;
 &lt;p&gt;It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember it was huge news in China. Now it seems much easier to make DIY Go AIs. Recently, I’ve decided to train my own Go AI as a side project. Unrelated to this, but something I have been thinking about is neurosymbolic machine learning and I wonder if Go would be a good testing ground for these ideas.&lt;/p&gt;
+&lt;h2 id=&#34;resnet--mcts&#34;&gt;ResNet + MCTS&lt;/h2&gt;
+&lt;p&gt;My first attempt is on a 9x9 board with Tromp–Taylor rules, recreating the KataGo/AlphaGo architecture of a ResNet (Residual Neural Network) and a MCTS (Monte Carlo Tree Search), which trains on self play. ResNet involves several layers.
+The first layer is the stem layer. It does a convolution, normalizes results, and applies ReLU activation.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;GoResNet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Module&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&amp;#34;Small AlphaZero/KataGo-style network for fixed-size Go boards.&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stem&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sequential&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;input_channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bias&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BatchNorm2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReLU&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then there is the trunk layer, which has 4 residue blocks, each one convolves, normalizes, adds back the original data, and then ReLU activation. The step that adds back the original data is the main motif of ResNet, that one only needs to learn the additional data.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;ResidualBlock&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Module&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&amp;#34;Two-convolution residual block.&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;fm&#34;&gt;__init__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;fm&#34;&gt;__init__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;conv1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bias&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BatchNorm2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;conv2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bias&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BatchNorm2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;forward&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;torch.Tensor&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;torch.Tensor&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;residual&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;relu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;conv1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;conv2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;relu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;residual&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There is also a value, policy, score, and ownership (influence) heads, which converts the results to desired data.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;policy_head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sequential&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bias&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BatchNorm2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReLU&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Flatten&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Linear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;points&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;move_count&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value_head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sequential&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bias&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BatchNorm2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReLU&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Flatten&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Linear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;points&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReLU&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Linear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tanh&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;score_head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Sequential&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bias&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BatchNorm2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReLU&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Flatten&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Linear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;points&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReLU&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Linear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;27&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ownership_head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Conv2d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;channels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;kernel_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For the monte carlo tree search, there are four elements: selection, expansion, simulation, and backpropagation. For a game position, it visits the most valuable positions determined by ResNet, and updates the value according to ResNet, and eventually decide on the most visited position.&lt;/p&gt;
+&lt;h2 id=&#34;training&#34;&gt;Training&lt;/h2&gt;
+&lt;p&gt;I submitted it to train on the Trillium supercomputer for 12 hours on a H100 with 10 core CPU. GitHub link is &lt;a href=&#34;https://github.com/yunhaixiang/sygo/tree/main&#34;&gt;here&lt;/a&gt;. I decided to call it Sygo. Training consist of alternating ResNet training and self play. The ResNet improves upon itself by the self play results by minimizing the cross entropy loss between its own results and that of the self play. One immediate bug I encountered during my first few training is that the AI will overwhelmingly prefer passing, so the game ends very early. I dont know why this happens. Initially I tried to fix it by not allowing it to pass in the first N steps, but immediately after it tries to pass again. My solution was to force it to play till the end, until there are very vew legal moves. The downside to this strategy is I expect it to learn bad habits like filling its own eyes. Here is a game I (black) played with my AI (white) after a few hours of training on my own laptop.&lt;/p&gt;
+&lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img
+        src=&#34;http://localhost:1313/img/game.jpg&#34;
+        alt=&#34;A game played against Sygo&#34;
+        style=&#34;max-width: 30%; height: auto; display: block; margin: 0 auto;&#34;
+      &gt;&lt;/div&gt;
+
+  &lt;div class=&#34;fig-caption&#34;&gt;
+    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;fig-text&#34;&gt;A game played against Sygo&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;neurosymbolic-methods&#34;&gt;Neurosymbolic Methods&lt;/h2&gt;
+&lt;p&gt;One thing I want to experiment with is neurosymbolic methods. Intuitively, there are many concepts in go that are quite mathematical: groups, liberties, ko, ladders, life and death, influence, etc. The features in the ResNet are supposed to capture these intuition in weights. However, I think it would be good if the AI really tries to reason symbolically too. There are, for example, connections to surreal numbers and combinatorial game theory ideas, which I wonder if it could rediscover. The problem is how does one reason formally and probabalistically (heuristically) at the same time. I found very few papers about neurosymbolic learning online, much less for Go. I dont think this is something that has been tried a lot. One benefit of neurosymbolic methods here I would imagine is the interpretability: we can know how the model thinks. Another is potentially by being much more algorithmic, it will save compute. This is something I will think more about.&lt;/p&gt;
 </description>
     </item>
     
@@ -2022,8 +1774,8 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Fen25a&#34; data-bib-key=&#34;Fen25a&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Fen25a]&lt;/span&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/li&gt;
+  &lt;li id=&#34;bib-Fen25&#34; data-bib-key=&#34;Fen25&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Fen25]&lt;/span&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;

@@ -8,13 +8,14 @@ categories: [archives]
 
 
 ## Video Games I Want to Play
+
 - *Planescape: Torment* (1999)
 - *Undertale* (2015)
 - *Sifu* (2022)
 - *Death Stranding* (2019)
 
-
 ## Video Games I Recommend
+
 - [*Nier: Automata* (2017)](https://www.igdb.com/games/nier-automata)
 - [*GRIS* (2018)](https://www.igdb.com/games/gris)
 - [*Disco Elysium* (2019)](https://www.igdb.com/games/disco-elysium)
@@ -23,4 +24,3 @@ categories: [archives]
 - [*Black Myth: Wukong* (2024)](https://www.igdb.com/games/black-myth-wukong)
 - [*Sekiro: Shadow Die Twice* (2019)](https://www.igdb.com/games/sekiro-shadows-die-twice)
 - [*God of War* (2018)](https://www.igdb.com/games/god-of-war--1)
-

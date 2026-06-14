@@ -59,7 +59,7 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-06-07T17:38:48-04:00">
-    <meta property="article:modified_time" content="2026-06-07T17:38:48-04:00">
+    <meta property="article:modified_time" content="2026-06-13T13:29:45-04:00">
     <meta property="article:tag" content="Coding">
     <meta property="article:tag" content="Games">
     <meta property="article:tag" content="Go">
@@ -74,8 +74,8 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
   <meta itemprop="name" content="AI and the Game of Go">
   <meta itemprop="description" content="The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go. — Edward Lasker It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember it was huge news in China. Now it seems much easier to make DIY Go AIs. Recently, I’ve decided to train my own Go AI as a side project. Unrelated to this, but something I have been thinking about is neurosymbolic machine learning and I wonder if Go would be a good testing ground for these ideas.">
   <meta itemprop="datePublished" content="2026-06-07T17:38:48-04:00">
-  <meta itemprop="dateModified" content="2026-06-07T17:38:48-04:00">
-  <meta itemprop="wordCount" content="102">
+  <meta itemprop="dateModified" content="2026-06-13T13:29:45-04:00">
+  <meta itemprop="wordCount" content="771">
   <meta itemprop="keywords" content="Coding,Games,Go">
 
   
@@ -191,7 +191,7 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          102 words
+          771 words
         </span>
       
       
@@ -204,7 +204,7 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~1 min
+          ~4 mins
         </span>
       
     </div>
@@ -227,12 +227,25 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
       
 
       
-      <span class="post-taxonomy-gap"></span>
+      <br></br>
       
     </div>
   
 
 
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#resnet--mcts">ResNet + MCTS</a></li>
+    <li><a href="#training">Training</a></li>
+    <li><a href="#neurosymbolic-methods">Neurosymbolic Methods</a></li>
+  </ul>
+</nav></div>
+  </details>
   
   <article class="content numbered-subtitles">
     
@@ -241,6 +254,76 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
     The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
   </div><div class="yh-pullquote-attrib">— Edward Lasker</div></aside>
 <p>It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember it was huge news in China. Now it seems much easier to make DIY Go AIs. Recently, I’ve decided to train my own Go AI as a side project. Unrelated to this, but something I have been thinking about is neurosymbolic machine learning and I wonder if Go would be a good testing ground for these ideas.</p>
+<h2 id="resnet--mcts">ResNet + MCTS</h2>
+<p>My first attempt is on a 9x9 board with Tromp–Taylor rules, recreating the KataGo/AlphaGo architecture of a ResNet (Residual Neural Network) and a MCTS (Monte Carlo Tree Search), which trains on self play. ResNet involves several layers.
+The first layer is the stem layer. It does a convolution, normalizes results, and applies ReLU activation.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">class</span> <span class="nc">GoResNet</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="s2">&#34;&#34;&#34;Small AlphaZero/KataGo-style network for fixed-size Go boards.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="bp">self</span><span class="o">.</span><span class="n">stem</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sequential</span><span class="p">(</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">        <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">input_channels</span><span class="p">,</span> <span class="n">channels</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">        <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="n">channels</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl">        <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">8</span><span class="cl">    <span class="p">)</span></span></span></code></pre></div><p>Then there is the trunk layer, which has 4 residue blocks, each one convolves, normalizes, adds back the original data, and then ReLU activation. The step that adds back the original data is the main motif of ResNet, that one only needs to learn the additional data.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">class</span> <span class="nc">ResidualBlock</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="s2">&#34;&#34;&#34;Two-convolution residual block.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">channels</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">channels</span><span class="p">,</span> <span class="n">channels</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">norm1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="n">channels</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv2</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">channels</span><span class="p">,</span> <span class="n">channels</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">norm2</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="n">channels</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="s2">&#34;torch.Tensor&#34;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&#34;torch.Tensor&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">        <span class="n">residual</span> <span class="o">=</span> <span class="n">x</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="n">F</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">norm1</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">conv1</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">norm2</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">conv2</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">        <span class="k">return</span> <span class="n">F</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">residual</span><span class="p">)</span></span></span></code></pre></div><p>There is also a value, policy, score, and ownership (influence) heads, which converts the results to desired data.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="bp">self</span><span class="o">.</span><span class="n">policy_head</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sequential</span><span class="p">(</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">channels</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Flatten</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">points</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">move_count</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="bp">self</span><span class="o">.</span><span class="n">value_head</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sequential</span><span class="p">(</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">channels</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Flatten</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="mi">64</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">64</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Tanh</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="bp">self</span><span class="o">.</span><span class="n">score_head</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sequential</span><span class="p">(</span>
+</span></span><span class="line"><span class="ln">19</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">channels</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm2d</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">21</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">22</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Flatten</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="mi">64</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">24</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">(),</span>
+</span></span><span class="line"><span class="ln">25</span><span class="cl">    <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">64</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">26</span><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="ln">27</span><span class="cl"><span class="bp">self</span><span class="o">.</span><span class="n">ownership_head</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">channels</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></span></span></code></pre></div><p>For the monte carlo tree search, there are four elements: selection, expansion, simulation, and backpropagation. For a game position, it visits the most valuable positions determined by ResNet, and updates the value according to ResNet, and eventually decide on the most visited position.</p>
+<h2 id="training">Training</h2>
+<p>I submitted it to train on the Trillium supercomputer for 12 hours on a H100 with 10 core CPU. GitHub link is <a href="https://github.com/yunhaixiang/sygo/tree/main">here</a>. I decided to call it Sygo. Training consist of alternating ResNet training and self play. The ResNet improves upon itself by the self play results by minimizing the cross entropy loss between its own results and that of the self play. One immediate bug I encountered during my first few training is that the AI will overwhelmingly prefer passing, so the game ends very early. I dont know why this happens. Initially I tried to fix it by not allowing it to pass in the first N steps, but immediately after it tries to pass again. My solution was to force it to play till the end, until there are very vew legal moves. The downside to this strategy is I expect it to learn bad habits like filling its own eyes. Here is a game I (black) played with my AI (white) after a few hours of training on my own laptop.</p>
+<div class="fig-env"  data-lang="en">
+  <div class="fig-body"><img
+        src="/img/game.jpg"
+        alt="A game played against Sygo"
+        style="max-width: 30%; height: auto; display: block; margin: 0 auto;"
+      ></div>
+
+  <div class="fig-caption">
+    <span class="fig-label"></span>
+    <span class="fig-text">A game played against Sygo</span>
+  </div>
+</div>
+
+<h2 id="neurosymbolic-methods">Neurosymbolic Methods</h2>
+<p>One thing I want to experiment with is neurosymbolic methods. Intuitively, there are many concepts in go that are quite mathematical: groups, liberties, ko, ladders, life and death, influence, etc. The features in the ResNet are supposed to capture these intuition in weights. However, I think it would be good if the AI really tries to reason symbolically too. There are, for example, connections to surreal numbers and combinatorial game theory ideas, which I wonder if it could rediscover. The problem is how does one reason formally and probabalistically (heuristically) at the same time. I found very few papers about neurosymbolic learning online, much less for Go. I dont think this is something that has been tried a lot. One benefit of neurosymbolic methods here I would imagine is the interpretability: we can know how the model thinks. Another is potentially by being much more algorithmic, it will save compute. This is something I will think more about.</p>
 
     
 
@@ -280,7 +363,7 @@ It was 10 years ago when AlphaGo vs Lee Seedol happened. At the time I remember 
     <a class="link" href="http://localhost:1313/posts/algebraic-de-rham-cohomology/" title="Algebraic de Rham Cohomology and Gauss–Manin Connections"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/" title="Riemann-Hilbert Correspondence and Lisse ell-adic Sheaves">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/" title="Riemann-Hilbert Correspondence and lisse $\ell$-adic Sheaves">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
