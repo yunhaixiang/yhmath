@@ -2,17 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic-Geometry on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/tags/algebraic-geometry/</link>
+    <link>http://localhost:1313/tags/algebraic-geometry/</link>
     <description>Recent content in Algebraic-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jul 2026 16:47:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serre Duality</title>
+      <link>http://localhost:1313/posts/serre-duality/</link>
+      <pubDate>Sat, 04 Jul 2026 16:47:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/serre-duality/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    In mathematics the art of proposing a question must be held of higher value than solving it.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Georg Cantor&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;For a smooth projective variety $X$ over a field $K$, Serre duality is a fundamental result that establishes an analogue of Poincaré duality in the context of algebraic geometry. It says that cohomology in degree $i$ is dual to that of in degree $\dim X - i$ with coefficients twisted in the canonical bundle $\omega_X$. In this note, we will discuss this theorem, following &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Har77&#34;&gt;
+  ⟦cite:Har77⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Har77&#34; data-bib-key=&#34;Har77&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Har77]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Algebraic Geometry&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 52. Springer-Verlag. New York-Heidelberg. 1977. ISBN: 0-387-90244-9.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann-Hilbert Correspondence and lisse $\ell$-adic Sheaves</title>
+      <link>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</guid>
+      <description>&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>https://yunhaimath.com/posts/algebraic-de-rham-cohomology/</link>
+      <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/algebraic-de-rham-cohomology/</guid>
+      <guid>http://localhost:1313/posts/algebraic-de-rham-cohomology/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -179,10 +232,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>https://yunhaimath.com/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
+      <link>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</guid>
+      <guid>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -703,10 +756,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Brauer Group III</title>
-      <link>https://yunhaimath.com/posts/brauer-group-iii/</link>
+      <link>http://localhost:1313/posts/brauer-group-iii/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/brauer-group-iii/</guid>
+      <guid>http://localhost:1313/posts/brauer-group-iii/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -806,10 +859,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</link>
+      <link>http://localhost:1313/posts/leray-serre-hochschild-ss/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/leray-serre-hochschild-ss/</guid>
+      <guid>http://localhost:1313/posts/leray-serre-hochschild-ss/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -970,15 +1023,15 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>https://yunhaimath.com/posts/brauer2/</link>
+      <link>http://localhost:1313/posts/brauer2/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/brauer2/</guid>
+      <guid>http://localhost:1313/posts/brauer2/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;https://yunhaimath.com/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -1455,10 +1508,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>https://yunhaimath.com/posts/brauer1/</link>
+      <link>http://localhost:1313/posts/brauer1/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/brauer1/</guid>
+      <guid>http://localhost:1313/posts/brauer1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -1968,10 +2021,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>https://yunhaimath.com/posts/gw-ring/</link>
+      <link>http://localhost:1313/posts/gw-ring/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/gw-ring/</guid>
+      <guid>http://localhost:1313/posts/gw-ring/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -2058,10 +2111,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>https://yunhaimath.com/posts/bundles-and-divisors/</link>
+      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/bundles-and-divisors/</guid>
+      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -2118,10 +2171,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>https://yunhaimath.com/posts/fppf-site/</link>
+      <link>http://localhost:1313/posts/fppf-site/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/fppf-site/</guid>
+      <guid>http://localhost:1313/posts/fppf-site/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -2354,10 +2407,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>https://yunhaimath.com/posts/gro-top-and-topoi/</link>
+      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/gro-top-and-topoi/</guid>
+      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -2521,10 +2574,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Markdown Test</title>
-      <link>https://yunhaimath.com/posts/markdown-test/</link>
+      <link>http://localhost:1313/posts/markdown-test/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/markdown-test/</guid>
+      <guid>http://localhost:1313/posts/markdown-test/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;

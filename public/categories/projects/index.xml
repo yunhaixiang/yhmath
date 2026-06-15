@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/categories/projects/</link>
+    <link>http://localhost:1313/categories/projects/</link>
     <description>Recent content in Projects on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2026 17:38:48 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jun 2026 17:38:48 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI and the Game of Go</title>
-      <link>https://yunhaimath.com/posts/ai-and-the-game-of-go/</link>
+      <link>http://localhost:1313/posts/ai-and-the-game-of-go/</link>
       <pubDate>Sun, 07 Jun 2026 17:38:48 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/ai-and-the-game-of-go/</guid>
+      <guid>http://localhost:1313/posts/ai-and-the-game-of-go/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
@@ -75,7 +75,7 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
 &lt;p&gt;I submitted it to train on the Trillium supercomputer for 12 hours on a H100 with 10 core CPU. GitHub link is &lt;a href=&#34;https://github.com/yunhaixiang/sygo/tree/main&#34;&gt;here&lt;/a&gt;. I decided to call it Sygo. Training consist of alternating ResNet training and self play. The ResNet improves upon itself by the self play results by minimizing the cross entropy loss between its own results and that of the self play. One immediate bug I encountered during my first few training is that the AI will overwhelmingly prefer passing, so the game ends very early. I dont know why this happens. Initially I tried to fix it by not allowing it to pass in the first N steps, but immediately after it tries to pass again. My solution was to force it to play till the end, until there are very vew legal moves. The downside to this strategy is I expect it to learn bad habits like filling its own eyes. Here is a game I (black) played with my AI (white) after a few hours of training on my own laptop.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;https://yunhaimath.com/img/game.jpg&#34;
+        src=&#34;http://localhost:1313/img/game.jpg&#34;
         alt=&#34;A game played against Sygo&#34;
         style=&#34;max-width: 30%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;

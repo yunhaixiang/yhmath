@@ -21,12 +21,13 @@ categories: [archives]
 - Franz Kafka, _The Metamorphosis_ (1916)
 - Shuzo Oshimi, _Inside Mari_ (2012)
 
-## Books I Recommend (Philosophy)
+## Books I Recommend (Non-Fiction)
 
 - Duncan Pritchard, *What is this Thing Called Knowledge?* (2006)
 - Walter Benjamin, _The Work of Art in the Age of Mechanical Reproduction_ (1935)
 - Guy Debord, _The Society of the Spectacle_ (1967)
 - W. V. O. Quine, _Two Dogmas of Empiricism_ (1951)
+- David Buss, _The Evolution of Desire_ (2016)
 
 
 ## Books I Recommend (Mathematics)
