@@ -5,7 +5,7 @@ title: "Math"
 ## Interests
 
 My main interests in mathematics lie in [number theory](https://en.wikipedia.org/wiki/Number_theory) and particularly [arithmetic geometry](https://en.wikipedia.org/wiki/Arithmetic_geometry), which studies arithmetic by applying insights  from geometry and topology. 
-More specifically, I am interested in Galois representations arising from geometry, arithmetic statistics, abelian varieties, Drinfel’d modules, and rational points. I am also interested in AI for Math: the application of artificial intelligence and machine learning to mathematics. This includes investigating its role in mathematical discovery and formalization, developing related mathematical software, and studying foundational questions arising from these developments.
+More specifically, I am interested in Galois representations arising from geometry, arithmetic statistics, abelian varieties, Drinfel’d modules, and rational points. I am also interested in AI for Math: the application of artificial intelligence and machine learning to mathematical discovery and formalization. 
 
 ## Publications
 

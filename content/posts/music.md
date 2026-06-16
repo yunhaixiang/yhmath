@@ -18,3 +18,4 @@ Here are some of my favorite Jazz artists.
 - Cory Wong
 - Roberto Fonseca
 - Ezra Collective
+- Riyoko Takagi
