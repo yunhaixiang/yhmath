@@ -6,7 +6,73 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2026 17:38:48 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jul 2026 16:47:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serre Duality</title>
+      <link>http://localhost:1313/posts/serre-duality/</link>
+      <pubDate>Sat, 04 Jul 2026 16:47:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/serre-duality/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    In mathematics the art of proposing a question must be held of higher value than solving it.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Georg Cantor&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;For a smooth projective variety $X$ over a field $K$, Serre duality is a fundamental result that establishes an analogue of Poincaré duality in the context of algebraic geometry. It says that cohomology in degree $i$ is dual to that of in degree $\dim X - i$ with coefficients twisted in the canonical bundle $\omega_X$. In this note, we will discuss this theorem, following &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Har77&#34;&gt;
+  ⟦cite:Har77⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Har77&#34; data-bib-key=&#34;Har77&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Har77]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Algebraic Geometry&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 52. Springer-Verlag. New York-Heidelberg. 1977. ISBN: 0-387-90244-9.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Curry–Howard Isomorphism</title>
+      <link>http://localhost:1313/posts/curry-howard/</link>
+      <pubDate>Mon, 15 Jun 2026 17:40:43 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/curry-howard/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Saharon Shelah&lt;/div&gt;&lt;/aside&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann-Hilbert Correspondence and lisse $\ell$-adic Sheaves</title>
+      <link>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</guid>
+      <description>&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>AI and the Game of Go</title>
       <link>http://localhost:1313/posts/ai-and-the-game-of-go/</link>
