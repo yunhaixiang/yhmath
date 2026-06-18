@@ -16,7 +16,7 @@ categories: [archives]
 - Virginia Woolf, _To the Lighthouse_ (1927)
 - Isaac Asimov, _Foundation_ (1951)
 - J. D. Salinger, _The Catcher in the Rye_ (1951)
-- Judea Pearl and Dana Mackenzie, The Book of Why (2018)
+- Judea Pearl and Dana Mackenzie, _The Book of Why_ (2018)
 
 ## Books I Recommend (Fiction)
 
@@ -58,7 +58,7 @@ categories: [archives]
 - Kevin Buzzard, _Grothendieck’s Use of Equality_ (2024)
 - Douglas Hofstadter, _Escher, Bach: An Eternal Golden Braid_ (1979)
 - Imre Lakatos, _Proofs and Refutations_ (1976)
-- Yuri Manin, Mathematics as Metaphor (2007)
+- Yuri Manin, _Mathematics as Metaphor_ (2007)
 
 ## Books I Recommend (Mathematical Puzzles)
 
