@@ -2,6 +2,9 @@
 layout: post
 title: Brauer Groups Part II
 date: 2026-01-18 23:38:19 -0500
+slug: ae85645
+aliases:
+  - /posts/brauer2/
 tags: [math, algebra, algebraic-geometry, number-theory]
 categories: [expositions]
 ---

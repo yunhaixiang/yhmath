@@ -2,6 +2,9 @@
 layout: post
 title: Books and Essays
 date: 2021-12-28 00:00:00 +0000
+slug: 326caca
+aliases:
+  - /posts/books-and-essays/
 tags: []
 categories: [archives]
 ---
@@ -28,16 +31,16 @@ categories: [archives]
 - Guy Debord, _The Society of the Spectacle_ (1967)
 - W. V. O. Quine, _Two Dogmas of Empiricism_ (1951)
 - David Buss, _The Evolution of Desire_ (2016)
+- Melanie Mitchell, _Artificial Intelligence: A Guide for Thinking Humans_ (2019)
+- Kunihiko Kodaira, _Notes of a Lazy Mathematician (怠け数学者の記)_ (1986)
 
-
-## Books I Recommend (Mathematics)
+## Books I Recommend (Philosophy of Mathematics)
 
 - Paul Lockhart, _A Mathematician's Lament_ (2009)
 - George Lakoff, _Where Mathematics Come From_ (2000)
 - Edward Frenkel, *Love and Math: The Heart of Hidden Reality* (2013)
 - Alexander Grothendieck, *Récoltes et Semailles* (1986)
 - Morris Kline, *Mathematics: The Loss of Certainty* (1980)
-- Timothy Gowers et al., *The Princeton Companion to Mathematics* (2007)
 - David Ruelle, *The Mathematician's Brain* (2007)
 - Jacques Hadamard, *The Psychology of Invention in the Mathematical Field* (1945)
 - Gian-Carlo Rota, _Indiscrete Thoughts_ (1996)
@@ -50,7 +53,7 @@ categories: [archives]
 - William P. Thurston, _On Proof and Progress in Mathematics_ (1994)
 - W. T. Gowers, _The Two Cultures of Mathematics_ (2007)
 - Kevin Buzzard, _Grothendieck’s Use of Equality_ (2024)
-
+- Douglas Hofstadter, _Escher, Bach: An Eternal Golden Braid_ (1979)
 
 ## Books I Recommend (Mathematical Puzzles)
 

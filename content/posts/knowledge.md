@@ -1,6 +1,9 @@
 ---
 title: What is This Thing Called Knowledge?
 date: 2023-08-07 18:36:05
+slug: bc677f9
+aliases:
+  - /posts/knowledge/
 categories: ["expositions"]
 tags: ["philosophy", "epistemology"]
 ---

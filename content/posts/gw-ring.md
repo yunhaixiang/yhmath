@@ -3,6 +3,9 @@ title: Grothendieck-Witt Ring
 tags: ["math", "algebraic-geometry", "number-theory"]
 categories: ["expositions"]
 date: 2024-09-12 14:55:58
+slug: 83ed120
+aliases:
+  - /posts/gw-ring/
 ---
 
 {{< pullquote author="Shakuntala Devi">}}

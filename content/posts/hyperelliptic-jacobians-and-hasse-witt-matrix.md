@@ -1,6 +1,9 @@
 ---
 title: Hyperelliptic Jacobians and Hasse–Witt Matrix
 date: 2026-05-15 14:28:09 -0400
+slug: e7d7cf9
+aliases:
+  - /posts/hyperelliptic-jacobians-and-hasse-witt-matrix/
 categories: ["expositions"]
 tags: ["algebraic-geometry", "number-theory", "math"]
 ---

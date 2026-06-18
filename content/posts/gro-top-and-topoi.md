@@ -2,6 +2,9 @@
 title: Grothendieck Topology, Sites, and Topoi
 categories: ["expositions"]
 date: 2022-01-19 11:15:32
+slug: 5b8f0de
+aliases:
+  - /posts/gro-top-and-topoi/
 tags: ["math", "algebraic-geometry"]
 ---
 

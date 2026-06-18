@@ -2,6 +2,9 @@
 layout: post
 title: 失眠
 date: 2025-08-15 00:00:00 +0000
+slug: a467f03
+aliases:
+  - /posts/shimian/
 tags: [existentialism]
 categories: [stories]
 ---

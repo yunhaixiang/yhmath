@@ -1,6 +1,9 @@
 ---
 title: The Work of Art (and Science) in the Age of Algorithmic Reproducibility
 date: 2026-05-31 00:00:01 -0400
+slug: f1d86af
+aliases:
+  - /posts/benjamin-ai/
 categories: [essays]
 tags: [philosophy, ai]
 ---

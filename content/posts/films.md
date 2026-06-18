@@ -2,6 +2,9 @@
 layout: post
 title: Films
 date: 2021-12-29 00:00:00 +0000
+slug: ca93bc7
+aliases:
+  - /posts/films/
 tags: [films]
 categories: [archives]
 ---

@@ -2,6 +2,9 @@
 layout: post
 title: Links
 date: 2021-12-30 00:00:00 +0000
+slug: e852d2e
+aliases:
+  - /posts/links/
 tags: [math, philosophy]
 categories: [archives]
 ---

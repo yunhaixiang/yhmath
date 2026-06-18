@@ -2,6 +2,9 @@
 title: "Fppf Site, Faithfully Flat Descent, and Fibred Categories"
 categories: ["expositions"]
 date: 2022-02-16 12:24:26
+slug: 94f3165
+aliases:
+  - /posts/fppf-site/
 tags: ["math", "algebraic geometry"]
 ---
 

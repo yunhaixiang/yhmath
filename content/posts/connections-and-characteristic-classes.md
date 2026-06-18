@@ -1,6 +1,9 @@
 ---
-title: Serre Duality
-date: 2026-07-04 16:47:00 -0400
+title: Connections and Characteristic Classes
+date: 2026-06-18 16:47:00 -0400
+slug: 14410b3
+aliases:
+  - /posts/connections-and-characteristic-classes/
 categories: [expositions]
 draft: true
 tags: [algebraic-geometry]
@@ -10,7 +13,7 @@ tags: [algebraic-geometry]
 In mathematics the art of proposing a question must be held of higher value than solving it.
 {{< /pullquote >}}
 
-For a smooth projective variety $X$ over a field $K$, Serre duality is a fundamental result that establishes an analogue of Poincaré duality in the context of algebraic geometry. It says that cohomology in degree $i$ is dual to that of in degree $\dim X - i$ with coefficients twisted in the canonical bundle $\omega_X$. In this note, we will discuss this theorem, following {{< cite key="Har77" >}}.
+In this post we will talk about connections and characteristic classes, first in the context of Riemannian geometry, and then the more arithmetic versions. 
 
 ## References
 

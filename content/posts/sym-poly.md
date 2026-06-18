@@ -3,6 +3,9 @@ title: Symmetric Polynomials
 categories: ["expositions"]
 tags: ["combinatorics", "algebra", "math"]
 date: 2024-12-18 10:06:03
+slug: c72806c
+aliases:
+  - /posts/sym-poly/
 ---
 
 {{< pullquote author="Alexander Grothendieck">}}

@@ -2,26 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
-    <lastmod>2026-06-13T22:07:35-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-15T22:35:53-04:00</lastmod>
+    <lastmod>2026-06-18T16:47:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fa7e807/</loc>
+    <lastmod>2026-05-30T23:59:41-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/expositions/</loc>
-    <lastmod>2026-06-13T22:07:35-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-06-15T22:35:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/serre-duality/</loc>
-    <lastmod>2026-05-29T23:23:17-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-15T22:35:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/curry-howard/</loc>
-    <lastmod>2026-05-30T23:59:41-04:00</lastmod>
+    <lastmod>2026-06-18T16:47:00-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/logic/</loc>
     <lastmod>2026-05-30T23:59:41-04:00</lastmod>
@@ -29,16 +17,28 @@
     <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-06-18T16:47:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-18T16:47:00-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/type-theory/</loc>
     <lastmod>2026-05-30T23:59:41-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
+    <lastmod>2026-06-18T16:47:00-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/etale-cohomology/</loc>
     <lastmod>2026-06-13T21:57:58-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</loc>
+    <loc>http://localhost:1313/posts/06d0bcc/</loc>
     <lastmod>2026-06-13T21:57:58-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-and-the-game-of-go/</loc>
+    <loc>http://localhost:1313/posts/14410b3/</loc>
+    <lastmod>2026-06-18T16:47:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/636adda/</loc>
     <lastmod>2026-06-13T21:57:58-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/coding/</loc>
@@ -53,7 +53,7 @@
     <loc>http://localhost:1313/categories/projects/</loc>
     <lastmod>2026-06-13T21:57:58-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/algebraic-de-rham-cohomology/</loc>
+    <loc>http://localhost:1313/posts/ccda5dd/</loc>
     <lastmod>2026-06-05T20:56:43-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cohomology/</loc>
@@ -68,7 +68,7 @@
     <loc>http://localhost:1313/tags/philosophy/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/benjamin-ai/</loc>
+    <loc>http://localhost:1313/posts/f1d86af/</loc>
     <lastmod>2026-05-31T12:35:43-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/combinatorics/</loc>
@@ -77,52 +77,52 @@
     <loc>http://localhost:1313/tags/discrete-geometry/</loc>
     <lastmod>2026-05-30T00:18:14-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-disproof-of-unit-distance-conjecture/</loc>
+    <loc>http://localhost:1313/posts/6bf3326/</loc>
     <lastmod>2026-05-30T00:18:14-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/a-case-for-ai-assisted-math/</loc>
+    <loc>http://localhost:1313/posts/8ad6b3f/</loc>
     <lastmod>2026-05-30T23:59:41-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</loc>
+    <loc>http://localhost:1313/posts/e7d7cf9/</loc>
     <lastmod>2026-05-27T12:35:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/number-theory/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/brauer-group-iii/</loc>
+    <loc>http://localhost:1313/posts/d04997f/</loc>
     <lastmod>2026-04-30T19:37:32-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fib-form/</loc>
+    <loc>http://localhost:1313/posts/ad8f57d/</loc>
     <lastmod>2026-03-10T16:01:30-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-for-math/</loc>
+    <loc>http://localhost:1313/posts/85ac599/</loc>
     <lastmod>2026-03-14T00:48:34-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/algebraic-topology/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/leray-serre-hochschild-ss/</loc>
+    <loc>http://localhost:1313/posts/2878d6e/</loc>
     <lastmod>2026-03-04T20:13:45-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/expander-graphs/</loc>
+    <loc>http://localhost:1313/posts/4ce12e1/</loc>
     <lastmod>2026-01-29T18:18:21-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/algebra/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/brauer2/</loc>
+    <loc>http://localhost:1313/posts/ae85645/</loc>
     <lastmod>2026-01-24T23:21:01-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/brauer1/</loc>
+    <loc>http://localhost:1313/posts/5e33123/</loc>
     <lastmod>2026-01-20T00:24:09-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/keyan/</loc>
+    <loc>http://localhost:1313/posts/64e091b/</loc>
     <lastmod>2026-05-29T23:06:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/french-learning/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/french1/</loc>
+    <loc>http://localhost:1313/posts/fcfb2b0/</loc>
     <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/existentialism/</loc>
@@ -131,10 +131,10 @@
     <loc>http://localhost:1313/categories/stories/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tiankongzhiwang/</loc>
+    <loc>http://localhost:1313/posts/6554748/</loc>
     <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lunchuncui/</loc>
+    <loc>http://localhost:1313/posts/73356ed/</loc>
     <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/category-theory/</loc>
@@ -143,7 +143,7 @@
     <loc>http://localhost:1313/tags/homotopy-theory/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/simplicial-sets-and-infinity-categories/</loc>
+    <loc>http://localhost:1313/posts/0c3e076/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/films/</loc>
@@ -152,94 +152,94 @@
     <loc>http://localhost:1313/categories/poems/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/harmonica/</loc>
+    <loc>http://localhost:1313/posts/0ebab34/</loc>
     <lastmod>2025-12-06T01:30:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/shimian/</loc>
+    <loc>http://localhost:1313/posts/a467f03/</loc>
     <lastmod>2025-12-09T00:12:24-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sym-poly/</loc>
+    <loc>http://localhost:1313/posts/c72806c/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/gw-ring/</loc>
+    <loc>http://localhost:1313/posts/83ed120/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/uniformization/</loc>
+    <loc>http://localhost:1313/posts/7ab795f/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/van-kampen/</loc>
+    <loc>http://localhost:1313/posts/1927129/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bundles-and-divisors/</loc>
+    <loc>http://localhost:1313/posts/40383e2/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/epistemology/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/knowledge/</loc>
+    <loc>http://localhost:1313/posts/bc677f9/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/derived-cat/</loc>
+    <loc>http://localhost:1313/posts/910cedd/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/triangulated-cat/</loc>
+    <loc>http://localhost:1313/posts/00c73a8/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/abelian-cat-and-derived-cat/</loc>
+    <loc>http://localhost:1313/posts/563818b/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fppf-site/</loc>
+    <loc>http://localhost:1313/posts/94f3165/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/gro-top-and-topoi/</loc>
+    <loc>http://localhost:1313/posts/5b8f0de/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/archives/</loc>
     <lastmod>2026-06-15T22:35:53-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/magic-tricks/</loc>
+    <loc>http://localhost:1313/posts/648e7d3/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/magic-tricks/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/links/</loc>
+    <loc>http://localhost:1313/posts/e852d2e/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/films/</loc>
+    <loc>http://localhost:1313/posts/ca93bc7/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/books-and-essays/</loc>
+    <loc>http://localhost:1313/posts/326caca/</loc>
     <lastmod>2026-06-15T17:49:57-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/anime/</loc>
+    <loc>http://localhost:1313/posts/1cea07d/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/anime/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/music/</loc>
+    <loc>http://localhost:1313/posts/864c59b/</loc>
     <lastmod>2026-06-15T22:35:53-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/music/</loc>
     <lastmod>2026-06-15T22:35:53-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/video-games/</loc>
+    <loc>http://localhost:1313/posts/fe5a259/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/video-games/</loc>
     <lastmod>2026-06-13T22:07:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mermaid-diagrams/</loc>
+    <loc>http://localhost:1313/posts/4492ad2/</loc>
     <lastmod>2025-12-04T23:49:30-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/math-test/</loc>
+    <loc>http://localhost:1313/posts/863b176/</loc>
     <lastmod>2025-12-27T17:12:58-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linguistics/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-test/</loc>
+    <loc>http://localhost:1313/posts/33a60a9/</loc>
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/media/</loc>
@@ -252,7 +252,7 @@
     <lastmod>2025-12-27T15:16:36-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/</loc>
-    <lastmod>2026-06-16T18:09:01-04:00</lastmod>
+    <lastmod>2026-06-17T15:02:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-04T15:33:43-04:00</lastmod>

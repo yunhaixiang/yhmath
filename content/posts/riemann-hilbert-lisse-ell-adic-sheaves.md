@@ -1,6 +1,9 @@
 ---
-title: Riemann-Hilbert Correspondence and lisse $\ell$-adic Sheaves
-date: 2026-06-13 00:00:01 -0400
+title: Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves
+date: 2026-06-19 00:00:01 -0400
+slug: 06d0bcc
+aliases:
+  - /posts/riemann-hilbert-lisse-ell-adic-sheaves/
 categories: [expositions]
 draft: true
 tags: [math, algebraic-geometry, etale-cohomology]

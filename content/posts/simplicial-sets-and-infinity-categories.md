@@ -1,6 +1,9 @@
 ---
 title: Simplicial Sets and Infinity-Categories
 date: 2025-09-25 20:14:47
+slug: 0c3e076
+aliases:
+  - /posts/simplicial-sets-and-infinity-categories/
 categories: [expositions]
 tags: [math, category-theory, homotopy-theory]
 ---

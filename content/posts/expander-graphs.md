@@ -2,6 +2,9 @@
 layout: post
 title: Expander Graphs
 date: 2026-01-24 23:25:50 -0500
+slug: 4ce12e1
+aliases:
+  - /posts/expander-graphs/
 tags: [math, combinatorics, number-theory]
 categories: [expositions]
 ---

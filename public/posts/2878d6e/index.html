@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="
+  
+    Mathematics is the music of reason.
+  — James J. Sylvester
+Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of 
+  ⟦cite:NSW08⟧
+, along with many other sources here and there on general spectral sequences.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/2878d6e/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Leray and Serre–Hochschild Spectral Sequences">
+  <meta property="og:description" content="Mathematics is the music of reason. — James J. Sylvester Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of ⟦cite:NSW08⟧ , along with many other sources here and there on general spectral sequences.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-02T01:07:48-05:00">
+    <meta property="article:modified_time" content="2026-03-04T20:13:45-05:00">
+    <meta property="article:tag" content="Algebraic-Topology">
+    <meta property="article:tag" content="Algebraic-Geometry">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/2878d6e/">
+
+  
+  
+  
+  <meta itemprop="name" content="Leray and Serre–Hochschild Spectral Sequences">
+  <meta itemprop="description" content="Mathematics is the music of reason. — James J. Sylvester Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of ⟦cite:NSW08⟧ , along with many other sources here and there on general spectral sequences.">
+  <meta itemprop="datePublished" content="2026-02-02T01:07:48-05:00">
+  <meta itemprop="dateModified" content="2026-03-04T20:13:45-05:00">
+  <meta itemprop="wordCount" content="757">
+  <meta itemprop="keywords" content="Algebraic-Topology,Algebraic-Geometry">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.4fe55039e8e56e0ba3626e31349c0e9224026e0c1c49409678c20ce74d4f9000.css" integrity="sha256-T&#43;VQOejlbgujYm4xNJwOkiQCbgwcSUCWeMIM501PkAA=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.e1b51cdb7e1d4e59ce0cc2bfcd1e41cd4f9388deff2599262f4b1152c3cf2d47.css" integrity="sha256-4bUc234dTlnODMK/zR5BzU&#43;TiN7/JZkmL0sRUsPPLUc=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Leray and Serre–Hochschild Spectral Sequences - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Leray and Serre–Hochschild Spectral Sequences">
+  <meta name="twitter:description" content="Mathematics is the music of reason. — James J. Sylvester Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of ⟦cite:NSW08⟧ , along with many other sources here and there on general spectral sequences.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.ebcc9037c7bbbdb0ec05b1de58dc7d65c41165e047add351f71aa903418f8a70.css" integrity="sha256-68yQN8e7vbDsBbHeWNx9ZcQRZeBHrdNR9xqpA0GPinA=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Leray and Serre–Hochschild Spectral Sequences</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      February 2, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          757 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~4 mins
+        </span>
+      
+    </div>
+  </div>
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-topology'>#algebraic-topology</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+      
+
+      
+      <br></br>
+      
+    </div>
+  
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#serrehochschild-spectral-sequence">Serre–Hochschild Spectral Sequence</a></li>
+    <li><a href="#leray-spectral-sequence">Leray Spectral Sequence</a></li>
+    <li><a href="#čech-to-derived-spectral-sequence">Čech to Derived Spectral Sequence</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    Mathematics is the music of reason.
+  </div><div class="yh-pullquote-attrib">— James J. Sylvester</div></aside>
+<p>Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="NSW08">
+  ⟦cite:NSW08⟧
+</span>, along with many other sources here and there on general spectral sequences.</p>
+<!-- more -->
+<h2 id="serrehochschild-spectral-sequence">Serre–Hochschild Spectral Sequence</h2>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Serre–Hochschild)</span>
+  </span>
+  <span class="math-body">
+    <p>Let $G$ be a profinite group and $H$ a closed normal subgroup, and $A$ a $G$-module, then we have a spectral sequence
+</p>
+$$
+\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(G/H, \mathrm{H}^q(H,A))\Rightarrow \mathrm{H}^{p+q}(G,A)
+$$<p>
+which converges.</p>
+
+  </span>
+</div>
+
+<p>The above spectral sequence is called the <em>Serre–Hochschild spectral sequence</em>. These are obtained from the double complex $\mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$ where $\mathrm{C}^p(G/H, -)$ is the standard complex for computing the cohomology of $G/H$ and $\mathrm{C}^q(H,A)$ is the standard complex for computing the cohomology of $H$. The differentials are given by the usual differentials in these complexes, and the spectral sequence arises from the filtration of the total complex </p>
+$$\mathrm{Tot}^n = \bigoplus_{p+q=n} \mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$$<p> by the $p$-degree.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $K$ be a field and set $G=\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/ K)$ the absolute Galois group. If $K/k$ is Galois with $\Gamma=\mathrm{Gal}(K/k)$, then there is exact sequence
+</p>
+\[1\to \mathrm{G}_K\to \mathrm{G}_k\to \Gamma\to 1\]<p>
+and we can apply the Serre–Hochschild spectral sequence to get
+</p>
+$$\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(\Gamma, \mathrm{H}^q(\mathrm{G}_K,A))\Rightarrow \mathrm{H}^{p+q}(\mathrm{G}_k,A)$$<p>
+and this further implies the $5$-term exact sequence:
+</p>
+$$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\to \mathrm{H}^1(\mathrm{G}_K, A)^{\Gamma}\to \mathrm{H}^2(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^2(\mathrm{G}_k, A)$$
+  </span>
+</div>
+
+<h2 id="leray-spectral-sequence">Leray Spectral Sequence</h2>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Leray)</span>
+  </span>
+  <span class="math-body">
+    <p>Let $f:X\rightarrow Y$ a morphism of schemes and $\mathcal F$ a sheaf of abelian groups on any site over $X$, then there is a spectral sequence
+</p>
+$$\mathrm{E}_2^{p,q}=\mathrm{H}^p(Y, \mathrm{R}^qf_*\mathcal F)\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$<p>
+which converges.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $X$ be a smooth proper curve over a field $K$ with structure map $f:X\to \mathrm{Spec}(K)$, then we have the Leray spectral sequence
+</p>
+$$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow \mathrm{H}_{\mathrm{ét}}^{p+q}(X, \mathbf Q_{\ell})$$<p>Here $\mathrm{R}^qf_*\mathbf Q_{\ell}$ corresponds to the Galois module $\mathrm{H}_{\mathrm{ét}}^q(X_{\overline K}, \mathbf Q_{\ell})$ where $\overline K$ is a separable closure of $K$. In particular, the Leray spectral sequence allows us to compute the étale cohomology of $X$ in terms of the Galois cohomology of $K$ with coefficients in the étale cohomology of the geometric fiber $X_{\overline K}$.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Grothendieck)</span>
+  </span>
+  <span class="math-body">
+    <p>Let $\mathcal A,\mathcal B, \mathcal C$ be abelian categories with enough injectives, and $F:\mathcal A\to \mathcal B$ and $G:\mathcal B\to \mathcal C$ be left exact functors, which satisfies the condition that $F$ sends injective objects to $G$-acyclic objects (i.e. $\mathrm{R}^iG(F(I))=0$ for all $i>0$ and all injective objects $I\in \mathcal A$), then we have the Grothendieck spectral sequence
+</p>
+$$\mathrm{E}_2^{p,q}=\mathrm{R}^pG(\mathrm{R}^qF(A))\Rightarrow \mathrm{R}^{p+q}(G\circ F)(A)$$<p>
+for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\simeq \mathbf{R}G(\mathbf{R}F(A))$.</p>
+
+  </span>
+</div>
+
+<p>Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.</p>
+<h2 id="čech-to-derived-spectral-sequence">Čech to Derived Spectral Sequence</h2>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
+</p>
+$$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$<p>
+which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <span class="math-body">
+    <p>The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q>0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
+</p>
+$$\mathrm{H}^n(X, \mathcal F)\cong \check{\mathrm{H}}^n(\mathfrak U, \mathcal F)$$<p>
+induced by the Čech to derived spectral sequence. This is a useful tool for computing cohomology groups in practice, especially when we have a good open cover of $X$ that allows us to compute the Čech cohomology easily.</p>
+
+  </span>
+</div>
+
+<h2 id="references">References</h2>
+<div class="bib-env">
+  <ul class="bib-list">
+  <li id="bib-NSW08" data-bib-key="NSW08">
+  <span class="bib-label">[NSW08]</span>Juergen Neukirch, Alexander Schmidt, Kay Wingberg. <em>Cohomology of Number Fields</em>. Springer. 2008.</li>
+
+</ul>
+</div>
+
+
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/4ce12e1/" title="Expander Graphs"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/85ac599/" title="AI for Math">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>

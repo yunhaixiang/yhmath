@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="
+  
+    My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
+  — Marvin Greenberg
+In this note, we discuss algebraic de Rham cohomology and related concepts.
+The purpose of this note is not to give a very detailed account of the theorems and concepts, but provide a surface level overview.
+The reason I wanted to write about this is because I want to learn about de Rham–Witt cohomology, for which this is a prerequisite.
+I have not found a reference that I am completely satisfied with, but a lot of my sources come from Dustin Clausen’s notes.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/ccda5dd/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Algebraic de Rham Cohomology and Gauss–Manin Connections">
+  <meta property="og:description" content="My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution. — Marvin Greenberg In this note, we discuss algebraic de Rham cohomology and related concepts. The purpose of this note is not to give a very detailed account of the theorems and concepts, but provide a surface level overview. The reason I wanted to write about this is because I want to learn about de Rham–Witt cohomology, for which this is a prerequisite. I have not found a reference that I am completely satisfied with, but a lot of my sources come from Dustin Clausen’s notes.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-06-05T00:00:01-04:00">
+    <meta property="article:modified_time" content="2026-06-05T20:56:43-04:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Algebraic-Geometry">
+    <meta property="article:tag" content="Cohomology">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/ccda5dd/">
+
+  
+  
+  
+  <meta itemprop="name" content="Algebraic de Rham Cohomology and Gauss–Manin Connections">
+  <meta itemprop="description" content="My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution. — Marvin Greenberg In this note, we discuss algebraic de Rham cohomology and related concepts. The purpose of this note is not to give a very detailed account of the theorems and concepts, but provide a surface level overview. The reason I wanted to write about this is because I want to learn about de Rham–Witt cohomology, for which this is a prerequisite. I have not found a reference that I am completely satisfied with, but a lot of my sources come from Dustin Clausen’s notes.">
+  <meta itemprop="datePublished" content="2026-06-05T00:00:01-04:00">
+  <meta itemprop="dateModified" content="2026-06-05T20:56:43-04:00">
+  <meta itemprop="wordCount" content="756">
+  <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.4fe55039e8e56e0ba3626e31349c0e9224026e0c1c49409678c20ce74d4f9000.css" integrity="sha256-T&#43;VQOejlbgujYm4xNJwOkiQCbgwcSUCWeMIM501PkAA=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.e1b51cdb7e1d4e59ce0cc2bfcd1e41cd4f9388deff2599262f4b1152c3cf2d47.css" integrity="sha256-4bUc234dTlnODMK/zR5BzU&#43;TiN7/JZkmL0sRUsPPLUc=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Algebraic de Rham Cohomology and Gauss–Manin Connections - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Algebraic de Rham Cohomology and Gauss–Manin Connections">
+  <meta name="twitter:description" content="My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution. — Marvin Greenberg In this note, we discuss algebraic de Rham cohomology and related concepts. The purpose of this note is not to give a very detailed account of the theorems and concepts, but provide a surface level overview. The reason I wanted to write about this is because I want to learn about de Rham–Witt cohomology, for which this is a prerequisite. I have not found a reference that I am completely satisfied with, but a lot of my sources come from Dustin Clausen’s notes.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.ebcc9037c7bbbdb0ec05b1de58dc7d65c41165e047add351f71aa903418f8a70.css" integrity="sha256-68yQN8e7vbDsBbHeWNx9ZcQRZeBHrdNR9xqpA0GPinA=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Algebraic de Rham Cohomology and Gauss–Manin Connections</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      June 5, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          756 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~4 mins
+        </span>
+      
+    </div>
+  </div>
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/cohomology'>#cohomology</a>
+        
+      
+
+      
+      <br></br>
+      
+    </div>
+  
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#algebraic-de-rham-cohomology">Algebraic de Rham Cohomology</a></li>
+    <li><a href="#gaussmanin-connection">Gauss–Manin Connection</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
+  </div><div class="yh-pullquote-attrib">— Marvin Greenberg</div></aside>
+<p>In this note, we discuss algebraic de Rham cohomology and related concepts.
+The purpose of this note is not to give a very detailed account of the theorems and concepts, but provide a surface level overview.
+The reason I wanted to write about this is because I want to learn about de Rham–Witt cohomology, for which this is a prerequisite.
+I have not found a reference that I am completely satisfied with, but a lot of my sources come from Dustin Clausen’s <a href="https://sites.google.com/view/algebraicderham/home">notes</a>.</p>
+<h2 id="algebraic-de-rham-cohomology">Algebraic de Rham Cohomology</h2>
+<p>The de Rham cohomology originated from smooth manifolds, where $\mathrm H^k_{\mathrm{dR}}(M)$ is the cohomology of the de Rham complex $\Omega^{\bullet}(M)$.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(de Rham)</span>
+  </span>
+  <span class="math-body">
+    There is a canonical isomorphism $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$.
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span> <span class="proof-note">(Sketch)</span>
+  </span>
+
+  <div class="proof-body">
+    This is shown with two facts: 1. $\underline{\mathbb R}\rightarrow \Omega^\bullet $ is an quasi-isomorphism, i.e. $\mathcal H^k_{\mathrm{dR}}$ identifies with $\underline{\mathbb R}$ at $0$ and vanishes otherwise. 2. for $p\ge 0$, $\Omega^p$ is acyclic. Together, $\underline{\mathbb R}\rightarrow \Omega^\bullet$ is an acyclic resolution, hence de Rham’s theorem. Fact 1 is shown by Poincare lemma (every closed $k$-form is locally exact), and fact 2 is due to the fact that $M$ has partitions of unity: the sheaves $\Omega^p$ are fine, and fine sheaves are acyclic, see <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="BT82" data-cite-note="Chapter I, Section 2">
+⟦cite:BT82⟧
+</span> and <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Bre97" data-cite-note="Chapter II, Section 9">
+⟦cite:Bre97⟧
+</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    <p>There is a different version where the isomorphism is between de Rham cohomology and singular cohomology $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$, for which the map is induced by the chain morphism
+</p>
+$$\omega\mapsto \left(\sigma\mapsto \int_{\sigma}\omega\right)$$<p>
+its well-definedness is exactly the statement of Stokes theorem.</p>
+
+  </span>
+</div>
+
+<p>We want a version of this for algebraic varieties.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>For any scheme $X/S$, define the hypercohomology</p>
+$$\mathrm{H}_{\mathrm{dR}}^n(X)=\mathbb H^n(X,\Omega^\bullet_X)$$<p>as the algebraic de Rham cohomology of $X$.</p>
+
+  </span>
+</div>
+
+<p>For algebraic varieties (or even complex manifolds), we do not have an adequate partitions of unity, so we can have $\Omega^p$ not acyclic.
+Hypercohomology captures the higher sheaf cohomology $\mathrm{H}^q(X,\Omega^p)$ when $\Omega^p$ is not necessarily acyclic. This is captured in</p>
+$$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X)$$<p>which is called the <em>Hodge-to-de Rham spectral sequence</em>. For smooth affine $X$, we know that $\Omega_X^p$ is acyclic, so one could compute de Rham cohomology easily with $H^n(\Omega^\bullet_X)$. Grothendieck proved an analogue of de Rham’s theorem for complex algebraic varieties.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Grothendieck)</span>
+  </span>
+  <span class="math-body">
+    Let $X/\mathbb C$ be a smooth variety, then there is natural isomorphism $\mathrm{H}^n_{\mathrm{dR}}(X)\cong\mathrm H^n(X^{\mathrm{an}},\mathbb C)$.
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span> <span class="proof-note">(Sketch)</span>
+  </span>
+
+  <div class="proof-body">
+    For simplicity, assume $X$ is proper. The proof combines a comparison map $\Omega^\bullet_X\rightarrow \Omega^\bullet_{X^{\mathrm{an}}}$ via analytification. By the assumption of properness, GAGA applies and identifies sheaf cohomologies $H^q(X,\Omega^p_X)\cong H^q(X,\Omega^p_{X^\mathrm{an}})$, and hence identifies hyper-cohomologies $\mathbb H^{n}(X,\Omega^\bullet)\cong \mathbb H^{n}(X,\Omega^\bullet_{X^{\mathrm{an}}})$ via Hodge-to-de Rham spectral sequence. Finish by Poincare lemma giving an acyclic resolution $\underline{\mathbb C}\rightarrow \Omega^\bullet_{X^\mathrm{an}}$, and done.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-remark" 
+    
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    If $X$ is non proper, this situation is more difficult. One needs to use log differential forms, which I will not elaborate.
+  </span>
+</div>
+
+<h2 id="gaussmanin-connection">Gauss–Manin Connection</h2>
+<p>Recall that a connection on a vector bundle $\mathcal E$ on a scheme $X$ is a map $\nabla:\mathcal E\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^1_X$ satisfying Leibniz rule</p>
+$$\nabla(U)(fe)=e\otimes \mathrm df+f\nabla(U)(e)$$<p>
+where $f\in\mathcal O_X$ and $e\in\mathcal E(U)$ and $U\subseteq X$ an open. For each derivation $D\in \mathcal{Der}_k(\mathcal O_X,\mathcal O_X)\cong \mathcal{Hom}_{\mathcal O_X}(\Omega_X^1, \mathcal O_X)$, define $\nabla_D:\mathcal E\rightarrow\mathcal E$</p>
+$$\nabla_D:\mathcal E\xrightarrow{\nabla}\mathcal E\otimes_{\mathcal O_X}\Omega^1_X\xrightarrow{\mathrm{id}\otimes D}\mathcal E\otimes_{\mathcal O_X} \mathcal O_X\cong \mathcal E$$<p>
+which we call the covariant derivative in the direction $D$. We can extend the connection to a map $\nabla:\mathcal E\otimes\Omega^p_X\rightarrow \mathcal E\otimes\Omega^{p+1}_X$ by</p>
+$$\nabla(s\otimes\omega)=\nabla(s)\land\omega+s\otimes \mathrm dw$$<p>then the curvature is $\nabla^2:\mathcal E\rightarrow\mathcal E\otimes_{\mathcal O_X}\Omega^2_X$. Recall that a connection is called flat or integrable if the curvature $\nabla^2=0$.
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $f:X\rightarrow S$ be a smooth proper morphism of smooth schemes over field $k$ of characteristic $0$. The <em>Gauss–Manin connection</em> is the canonical flat connection on the relative de Rham cohomology sheaves</p>
+$$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes \Omega^1_{S/k}$$<p>where $\mathcal H^n_{\mathrm{dR}}(X/S)=\mathrm{R}^nf_{*}\Omega_{X/S}^\bullet$. They are constructed in the following way: consider the exact sequence</p>
+$$0\to f^*\Omega^1_{S/k}\to\Omega^1_{X/k}\to \Omega^1_{X/S}\to 0$$<p>which induces a <em>Gauss–Manin</em> filtration $\mathrm{Fil}^p\,\Omega^\bullet_X$ defined by</p>
+$$\mathrm{Fil}^p\,\Omega^n_X=\mathrm{Im}\left(f^*\Omega^p_{S/k}\otimes_{\mathcal O_X}\Omega^{n-p}_{X/k}\xrightarrow{\eta\otimes\alpha\mapsto f^*\eta\wedge \alpha}\Omega^n_{X/k}\right)$$<p>then consider the exact sequence</p>
+$$0\to f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}[-1]\to \Omega^\bullet_{X/k}/\mathrm{Fil}^2\,\Omega^\bullet_{X/k}\to \Omega^\bullet_{X/S}\to 0$$<p>In the derived category we have a connecting morphism</p>
+$$\Omega^\bullet_{X/S}\longrightarrow f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}$$<p>applying derived pushforward</p>
+$$\mathrm{R}f_*\Omega^\bullet_{X/S}\longrightarrow \mathrm{R}f_*\left(f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}\right)$$<p>By the projection formula</p>
+$$\mathrm{R}f_*\left(f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}\right)\cong \mathrm{R}f_*\Omega^\bullet_{X/S}\otimes_{\mathcal O_S}\Omega^1_{S/k}$$<p>Therefore we have a morphism</p>
+$$\mathrm{R}f_*\Omega^\bullet_{X/S}\longrightarrow \mathrm{R}f_*\Omega^\bullet_{X/S}\otimes_{\mathcal O_S}\Omega^1_{S/k}$$<p>taking cohomology sheaves gives us</p>
+$$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes_{\mathcal O_S}\Omega^1_{S/k}$$<p>which is the Gauss–Manin connection.</p>
+
+  </span>
+</div>
+</p>
+<h2 id="references">References</h2>
+<div class="bib-env">
+  <ul class="bib-list">
+  <li id="bib-BT82" data-bib-key="BT82">
+  <span class="bib-label">[BT82]</span>Raoul Bott and Loring W. Tu. <em>Differential Forms in Algebraic Topology</em>. Graduate Texts in Mathematics. Vol. 82. Springer-Verlag. New York. 1982.</li>
+
+  <li id="bib-Bre97" data-bib-key="Bre97">
+  <span class="bib-label">[Bre97]</span>Glen E. Bredon. <em>Sheaf Theory</em>. Graduate Texts in Mathematics. Vol. 170. Springer-Verlag. New York. 1997.</li>
+
+</ul>
+</div>
+
+
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/f1d86af/" title="The Work of Art (and Science) in the Age of Algorithmic Reproducibility"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/636adda/" title="AI and the Game of Go">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>

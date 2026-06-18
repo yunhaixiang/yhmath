@@ -2,6 +2,9 @@
 author: Michael Neuper
 title: Mermaid Diagrams
 date: 2019-11-10
+slug: 4492ad2
+aliases:
+  - /posts/mermaid-diagrams/
 description: A brief guide to mermaid diagrams
 ---
 

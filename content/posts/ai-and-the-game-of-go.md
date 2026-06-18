@@ -1,6 +1,9 @@
 ---
 title: AI and the Game of Go
 date: 2026-06-07 17:38:48 -0400
+slug: 636adda
+aliases:
+  - /posts/ai-and-the-game-of-go/
 categories: [projects]
 tags: [coding, games, go]
 ---

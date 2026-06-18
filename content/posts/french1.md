@@ -2,6 +2,9 @@
 layout: post
 title: Learning French Part I
 date: 2025-11-23 00:00:00 +0000
+slug: fcfb2b0
+aliases:
+  - /posts/french1/
 tags: [french-learning]
 categories: [expositions]
 ---

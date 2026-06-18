@@ -2,6 +2,9 @@
 layout: post
 title: 天空之王
 date: 2025-10-28 00:00:00 +0000
+slug: 6554748
+aliases:
+  - /posts/tiankongzhiwang/
 tags: [existentialism]
 categories: [stories]
 

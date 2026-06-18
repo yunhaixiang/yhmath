@@ -1,6 +1,9 @@
 ---
 title: Brauer Group III
 date: 2026-04-07 16:42:00 -0400
+slug: d04997f
+aliases:
+  - /posts/brauer-group-iii/
 categories: [expositions]
 tags: [algebraic-geometry]
 ---

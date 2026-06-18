@@ -1,6 +1,9 @@
 ---
 title: "Math Test"
 date: "2019-03-12"
+slug: 863b176
+aliases:
+  - /posts/math-test/
 ---
 
 In this post, we test mathematical typesettings.

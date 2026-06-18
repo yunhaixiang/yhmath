@@ -2,6 +2,9 @@
 layout: post
 title: 吹着口琴的人
 date: 2025-08-18 00:00:00 +0000
+slug: 0ebab34
+aliases:
+  - /posts/harmonica/
 tags: [films]
 categories: [poems]
 ---

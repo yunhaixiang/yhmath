@@ -1,6 +1,9 @@
 ---
 title: Algebraic de Rham Cohomology and Gauss–Manin Connections
 date: 2026-06-05 00:00:01 -0400
+slug: ccda5dd
+aliases:
+  - /posts/algebraic-de-rham-cohomology/
 categories: [expositions]
 tags: [math, algebraic-geometry, cohomology]
 ---

@@ -1,6 +1,9 @@
 ---
 title: Formalization of a Result of Fibonacci Sequence
 date: 2026-03-08 12:00:00 -0500
+slug: ad8f57d
+aliases:
+  - /posts/fib-form/
 categories: [expositions]
 tags: [math, ai]
 ---

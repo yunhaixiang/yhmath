@@ -2,6 +2,9 @@
 layout: post
 title: Brauer Groups Part I
 date: 2025-12-19 00:00:00 +0000
+slug: 5e33123
+aliases:
+  - /posts/brauer1/
 tags: [math, algebra, algebraic-geometry, number-theory]
 categories: [expositions]
 ---

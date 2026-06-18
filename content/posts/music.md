@@ -2,6 +2,9 @@
 layout: post
 title: Music
 date: 2021-12-26 00:00:00 +0000
+slug: 864c59b
+aliases:
+  - /posts/music/
 tags: [music]
 categories: [archives]
 ---

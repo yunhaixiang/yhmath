@@ -1,6 +1,9 @@
 ---
 title: A Case for AI-Assisted Math
 date: 2026-05-24 22:59:19 -0400
+slug: 8ad6b3f
+aliases:
+  - /posts/a-case-for-ai-assisted-math/
 categories: [essays]
 tags: [math, ai, philosophy]
 ---

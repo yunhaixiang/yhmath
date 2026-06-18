@@ -4,6 +4,9 @@ title: >-
 categories: ["expositions"]
 tags: ["category-theory", "math"]
 date: 2022-07-25 15:28:14
+slug: 563818b
+aliases:
+  - /posts/abelian-cat-and-derived-cat/
 ---
 
 {{< pullquote author="Stefan Banach">}}

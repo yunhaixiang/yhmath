@@ -2,6 +2,9 @@
 layout: post
 title: Anime
 date: 2021-12-27 00:00:00 +0000
+slug: 1cea07d
+aliases:
+  - /posts/anime/
 categories: [archives]
 tags: [anime]
 ---

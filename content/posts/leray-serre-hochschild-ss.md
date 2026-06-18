@@ -2,6 +2,9 @@
 layout: post
 title: Leray and Serre–Hochschild Spectral Sequences
 date: 2026-02-02 01:07:48 -0500
+slug: 2878d6e
+aliases:
+  - /posts/leray-serre-hochschild-ss/
 tags: [algebraic-topology, algebraic-geometry]
 categories: [expositions]
 ---

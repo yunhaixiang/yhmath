@@ -1,6 +1,9 @@
 ---
 title: The Disproof of Unit Distance Conjecture
 date: 2026-05-28 17:13:21 -0400
+slug: 6bf3326
+aliases:
+  - /posts/the-disproof-of-unit-distance-conjecture/
 categories: [expositions]
 tags: [math, discrete-geometry, combinatorics, ai]
 ---

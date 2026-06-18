@@ -6,39 +6,13 @@
     <description>Recent content in Algebraic-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2026 16:47:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Serre Duality</title>
-      <link>http://localhost:1313/posts/serre-duality/</link>
-      <pubDate>Sat, 04 Jul 2026 16:47:00 -0400</pubDate>
+      <title>Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves</title>
+      <link>http://localhost:1313/posts/06d0bcc/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/serre-duality/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    In mathematics the art of proposing a question must be held of higher value than solving it.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Georg Cantor&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;For a smooth projective variety $X$ over a field $K$, Serre duality is a fundamental result that establishes an analogue of Poincaré duality in the context of algebraic geometry. It says that cohomology in degree $i$ is dual to that of in degree $\dim X - i$ with coefficients twisted in the canonical bundle $\omega_X$. In this note, we will discuss this theorem, following &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Har77&#34;&gt;
-  ⟦cite:Har77⟧
-&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Har77&#34; data-bib-key=&#34;Har77&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Har77]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Algebraic Geometry&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 52. Springer-Verlag. New York-Heidelberg. 1977. ISBN: 0-387-90244-9.&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Riemann-Hilbert Correspondence and lisse $\ell$-adic Sheaves</title>
-      <link>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</link>
-      <pubDate>Sat, 13 Jun 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/riemann-hilbert-lisse-ell-adic-sheaves/</guid>
+      <guid>http://localhost:1313/posts/06d0bcc/</guid>
       <description>&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
@@ -61,11 +35,34 @@
     </item>
     
     <item>
+      <title>Connections and Characteristic Classes</title>
+      <link>http://localhost:1313/posts/14410b3/</link>
+      <pubDate>Thu, 18 Jun 2026 16:47:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/14410b3/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    In mathematics the art of proposing a question must be held of higher value than solving it.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Georg Cantor&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;In this post we expose connections and characteristic classes.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Har77&#34; data-bib-key=&#34;Har77&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Har77]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Algebraic Geometry&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 52. Springer-Verlag. New York-Heidelberg. 1977. ISBN: 0-387-90244-9.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:1313/posts/algebraic-de-rham-cohomology/</link>
+      <link>http://localhost:1313/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/algebraic-de-rham-cohomology/</guid>
+      <guid>http://localhost:1313/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -232,10 +229,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</link>
+      <link>http://localhost:1313/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/hyperelliptic-jacobians-and-hasse-witt-matrix/</guid>
+      <guid>http://localhost:1313/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -756,10 +753,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Brauer Group III</title>
-      <link>http://localhost:1313/posts/brauer-group-iii/</link>
+      <link>http://localhost:1313/posts/d04997f/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer-group-iii/</guid>
+      <guid>http://localhost:1313/posts/d04997f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -859,10 +856,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:1313/posts/leray-serre-hochschild-ss/</link>
+      <link>http://localhost:1313/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/leray-serre-hochschild-ss/</guid>
+      <guid>http://localhost:1313/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -1023,10 +1020,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:1313/posts/brauer2/</link>
+      <link>http://localhost:1313/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer2/</guid>
+      <guid>http://localhost:1313/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
@@ -1508,10 +1505,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/brauer1/</link>
+      <link>http://localhost:1313/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/brauer1/</guid>
+      <guid>http://localhost:1313/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -2021,10 +2018,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:1313/posts/gw-ring/</link>
+      <link>http://localhost:1313/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/gw-ring/</guid>
+      <guid>http://localhost:1313/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -2111,10 +2108,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/bundles-and-divisors/</link>
+      <link>http://localhost:1313/posts/40383e2/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bundles-and-divisors/</guid>
+      <guid>http://localhost:1313/posts/40383e2/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -2171,10 +2168,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:1313/posts/fppf-site/</link>
+      <link>http://localhost:1313/posts/94f3165/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fppf-site/</guid>
+      <guid>http://localhost:1313/posts/94f3165/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -2407,10 +2404,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:1313/posts/gro-top-and-topoi/</link>
+      <link>http://localhost:1313/posts/5b8f0de/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/gro-top-and-topoi/</guid>
+      <guid>http://localhost:1313/posts/5b8f0de/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -2574,10 +2571,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/markdown-test/</link>
+      <link>http://localhost:1313/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown-test/</guid>
+      <guid>http://localhost:1313/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;

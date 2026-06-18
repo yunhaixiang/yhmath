@@ -1,6 +1,9 @@
 ---
 title: 'Triangulated Categories'
 date: 2022-09-05 20:00:36
+slug: 00c73a8
+aliases:
+  - /posts/triangulated-cat/
 categories: ["expositions"]
 tags: ["math", "category-theory"]
 ---
