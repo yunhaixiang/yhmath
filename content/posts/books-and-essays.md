@@ -16,6 +16,7 @@ categories: [archives]
 - Virginia Woolf, _To the Lighthouse_ (1927)
 - Isaac Asimov, _Foundation_ (1951)
 - J. D. Salinger, _The Catcher in the Rye_ (1951)
+- Judea Pearl and Dana Mackenzie, The Book of Why (2018)
 
 ## Books I Recommend (Fiction)
 
