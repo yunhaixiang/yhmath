@@ -33,6 +33,8 @@ categories: [archives]
 - David Buss, _The Evolution of Desire_ (2016)
 - Melanie Mitchell, _Artificial Intelligence: A Guide for Thinking Humans_ (2019)
 - Kunihiko Kodaira, _Notes of a Lazy Mathematician (怠け数学者の記)_ (1986)
+- Ludwig Wittgenstein, _Tractatus Logico-Philosophicus_ (1922)
+- Robert Audi, _Epistemology: A Contemporary Introduction to the Theory of Knowledge_ (1998)
 
 ## Books I Recommend (Philosophy of Mathematics)
 
@@ -54,6 +56,8 @@ categories: [archives]
 - W. T. Gowers, _The Two Cultures of Mathematics_ (2007)
 - Kevin Buzzard, _Grothendieck’s Use of Equality_ (2024)
 - Douglas Hofstadter, _Escher, Bach: An Eternal Golden Braid_ (1979)
+- Imre Lakatos, _Proofs and Refutations_ (1976)
+- Yuri Manin, Mathematics as Metaphor (2007)
 
 ## Books I Recommend (Mathematical Puzzles)
 
