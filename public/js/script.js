@@ -106,6 +106,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Hugo's built-in table of contents drops inline math from heading labels.
+// Copy the rendered heading HTML back into the matching TOC links.
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".toc a[href^='#']").forEach((link) => {
+    const id = decodeURIComponent(link.getAttribute("href").slice(1));
+    if (!id) {
+      return;
+    }
+
+    const heading = document.getElementById(id);
+    if (!heading || !/^H[1-6]$/.test(heading.tagName)) {
+      return;
+    }
+
+    link.innerHTML = heading.innerHTML;
+  });
+});
+
 // Collapse long taxonomy lines on the blog list page.
 document.addEventListener("DOMContentLoaded", function () {
   const lines = document.querySelectorAll(

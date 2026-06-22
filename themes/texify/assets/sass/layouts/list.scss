@@ -32,6 +32,10 @@
       text-decoration: none;
       transition: text-decoration 0.3s ease;
 
+      .katex {
+        font-size: 1.01em !important;
+      }
+
       &:hover {
         text-decoration: underline;
       }

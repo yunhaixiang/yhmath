@@ -1,0 +1,6 @@
+.toc .katex,
+.post-title .katex,
+.archive .post-group a .katex,
+a.title .katex {
+  font-size: 1.00em !important;
+}

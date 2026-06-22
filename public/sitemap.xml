@@ -2,41 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-18T17:47:07-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/fa7e807/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/expositions/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/logic/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-06-18T17:47:07-04:00</lastmod>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/type-theory/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+    <loc>http://localhost:1313/tags/algebra/</loc>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/etale-cohomology/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/expositions/</loc>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/06d0bcc/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/14410b3/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-19T00:00:01-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/636adda/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
@@ -105,9 +93,6 @@
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/4ce12e1/</loc>
-    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/algebra/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ae85645/</loc>
@@ -239,6 +224,9 @@
     <loc>http://localhost:1313/tags/linguistics/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/logic/</loc>
+    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/33a60a9/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
@@ -252,7 +240,7 @@
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/</loc>
-    <lastmod>2026-06-17T15:02:45-04:00</lastmod>
+    <lastmod>2026-06-18T19:50:51-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-04T15:33:43-04:00</lastmod>

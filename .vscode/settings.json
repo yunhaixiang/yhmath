@@ -1,4 +1,6 @@
 {
+    "chat.math.enabled": true,
+    "markdown.math.enabled": true,
     "xml.fileAssociations": [
         {
             "pattern": "**/source/**.ptx",

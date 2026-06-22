@@ -326,7 +326,11 @@ button.copy-button {
 }
 
 .content p {
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  hyphens: auto;
   text-align: justify;
+  text-wrap: pretty;
 }
 
 // .content
@@ -471,4 +475,11 @@ span.katex-display {
   display: block !important;
   margin-top: 0.8rem !important;
   margin-bottom: 0.8rem !important;
+  padding: 0.08rem 0.18rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.content span.katex-display > .katex {
+  overflow: visible;
 }

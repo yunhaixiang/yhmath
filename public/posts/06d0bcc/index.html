@@ -10,23 +10,11 @@
 
   
   
-  <meta name="description" content="References
-
+  <meta name="description" content="
   
-  
-  [Del70]Pierre Deligne. Equations differentielles a points singuliers reguliers. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.
-
-  
-  [SGA1]Alexander Grothendieck. Revetements etales et groupe fondamental. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.
-
-  
-  [HTT08]Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. D-Modules, Perverse Sheaves, and Representation Theory. Birkhauser. 2008.
-
-  
-  [Mil80]James S. Milne. Etale Cohomology. Princeton University Press. 1980.
-
-
-">
+    In mathematics the art of proposing a question must be held of higher value than solving it.
+  — Georg Cantor
+For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
   
 
   
@@ -65,16 +53,16 @@
   
   <meta property="og:url" content="http://localhost:1313/posts/06d0bcc/">
   <meta property="og:site_name" content="Yunhai Xiang">
-  <meta property="og:title" content="Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves">
-  <meta property="og:description" content="References [Del70]Pierre Deligne. Equations differentielles a points singuliers reguliers. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970. [SGA1]Alexander Grothendieck. Revetements etales et groupe fondamental. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971. [HTT08]Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. D-Modules, Perverse Sheaves, and Representation Theory. Birkhauser. 2008. [Mil80]James S. Milne. Etale Cohomology. Princeton University Press. 1980.">
+  <meta property="og:title" content="Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves">
+  <meta property="og:description" content="In mathematics the art of proposing a question must be held of higher value than solving it. — Georg Cantor For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-06-19T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-06-18T16:52:50-04:00">
+    <meta property="article:modified_time" content="2026-06-19T00:00:01-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
-    <meta property="article:tag" content="Etale-Cohomology">
+    <meta property="article:tag" content="Algebra">
 
 
   
@@ -83,40 +71,40 @@
   
   
   
-  <meta itemprop="name" content="Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves">
-  <meta itemprop="description" content="References [Del70]Pierre Deligne. Equations differentielles a points singuliers reguliers. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970. [SGA1]Alexander Grothendieck. Revetements etales et groupe fondamental. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971. [HTT08]Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. D-Modules, Perverse Sheaves, and Representation Theory. Birkhauser. 2008. [Mil80]James S. Milne. Etale Cohomology. Princeton University Press. 1980.">
+  <meta itemprop="name" content="Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves">
+  <meta itemprop="description" content="In mathematics the art of proposing a question must be held of higher value than solving it. — Georg Cantor For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
   <meta itemprop="datePublished" content="2026-06-19T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="56">
-  <meta itemprop="keywords" content="Math,Algebraic-Geometry,Etale-Cohomology">
+  <meta itemprop="dateModified" content="2026-06-19T00:00:01-04:00">
+  <meta itemprop="wordCount" content="2118">
+  <meta itemprop="keywords" content="Math,Algebraic-Geometry,Algebra">
 
   
   
   
-    <link rel="stylesheet" href="/css/common.min.4fe55039e8e56e0ba3626e31349c0e9224026e0c1c49409678c20ce74d4f9000.css" integrity="sha256-T&#43;VQOejlbgujYm4xNJwOkiQCbgwcSUCWeMIM501PkAA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/common.min.54004a30b7791edd6df2bc0b918c36ad0d18b99e2afdfce69bf783c8bd438ae5.css" integrity="sha256-VABKMLd5Ht1t8rwLkYw2rQ0YuZ4q/fzmm/eDyL1DiuU=" crossorigin="anonymous">
   
 
   
   
-    <link rel="stylesheet" href="/css/content.min.e1b51cdb7e1d4e59ce0cc2bfcd1e41cd4f9388deff2599262f4b1152c3cf2d47.css" integrity="sha256-4bUc234dTlnODMK/zR5BzU&#43;TiN7/JZkmL0sRUsPPLUc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
   
 
   
   
-  <title>Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves - Yunhai Xiang</title>
+  <title>Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves - Yunhai Xiang</title>
   
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves">
-  <meta name="twitter:description" content="References [Del70]Pierre Deligne. Equations differentielles a points singuliers reguliers. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970. [SGA1]Alexander Grothendieck. Revetements etales et groupe fondamental. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971. [HTT08]Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. D-Modules, Perverse Sheaves, and Representation Theory. Birkhauser. 2008. [Mil80]James S. Milne. Etale Cohomology. Princeton University Press. 1980.">
+  <meta name="twitter:title" content="Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves">
+  <meta name="twitter:description" content="In mathematics the art of proposing a question must be held of higher value than solving it. — Georg Cantor For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
 
 
   
 
 
-  <link rel="stylesheet" href="/css/single.min.ebcc9037c7bbbdb0ec05b1de58dc7d65c41165e047add351f71aa903418f8a70.css" integrity="sha256-68yQN8e7vbDsBbHeWNx9ZcQRZeBHrdNR9xqpA0GPinA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -125,6 +113,7 @@
 
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+  <link rel="stylesheet" href='/css/math-inline-overrides.css' />
 
 </head>
 
@@ -189,7 +178,7 @@
 <main id="main" class="post">
   
   <div class="post-heading">
-    <h1 class="post-title">Riemann–Hilbert Correspondence and lisse $\ell$-adic Sheaves</h1>
+    <h1 class="post-title">Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves</h1>
     <div class="publish-metadata">
       
       <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,7 +192,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          56 words
+          2118 words
         </span>
       
       
@@ -216,7 +205,7 @@
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~1 min
+          ~10 mins
         </span>
       
     </div>
@@ -234,7 +223,7 @@
         
           <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/etale-cohomology'>#etale-cohomology</a>
+          <a class="link tag" href='http://localhost:1313/tags/algebra'>#algebra</a>
         
       
 
@@ -252,6 +241,9 @@
     </summary>
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
+    <li><a href="#monodromy-representations">Monodromy Representations</a></li>
+    <li><a href="#riemannhilbert-correspondence">Riemann–Hilbert Correspondence</a></li>
+    <li><a href="#-modules-and-perverse-sheaves">-modules and Perverse Sheaves</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -259,7 +251,405 @@
   
   <article class="content numbered-subtitles">
     
-    <h2 id="references">References</h2>
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    In mathematics the art of proposing a question must be held of higher value than solving it.
+  </div><div class="yh-pullquote-attrib">— Georg Cantor</div></aside>
+<p>For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.</p>
+<h2 id="monodromy-representations">Monodromy Representations</h2>
+<p>Let $X$ be a topological space with base point $x\in X$ admitting a universal cover. Let $k$ be one of the fields $\mathbb R$ or $\mathbb C$.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    A <em>local system</em> of $k$-vector spaces on $X$ is a locally constant sheaf $\mathcal L$ of $k$-vector spaces on $X$.
+  </span>
+</div>
+
+<p>We will use $\mathrm{LocSys}_k(X)$ to denote the category of local systems of $k$-vector spaces on $X$.
+<div class="math-env style-plain" 
+    id="thm-loc"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>There is an equivalence of categories</p>
+$$\mathrm{LocSys}_k(X)\cong \mathrm{Rep}_k(\pi_1(X,x))$$
+  </span>
+</div>
+</p>
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>Given a local system $\mathcal L$. Given a loop $\gamma:I\rightarrow X$, choose a sequence $\{U_i\}$ of small open sets that cover it where on each $U_i$, we have $\mathcal L|_{U_i}$ constant, therefore we can construct isomorphisms $\mathcal L_{a_i}\cong \mathcal L_{a_{i+1}}$ for a sequence of points $\{a_i\}$ which eventually loops back to the base point. Composing them we get an automorphism of $\mathcal L_{x}\cong k^n$. One can show that this construction only depends on the homotopy class of $\gamma$. Thus, we constructed  $\rho:\pi_1(X,x)\rightarrow \mathrm{Aut}(\mathcal L_x)$. Conversely, given $\rho:\pi_1(X,x)\rightarrow\mathrm{Aut}_k(V)$ for some finite dimensional $k$-vector space $V$. Choose universal cover $\widetilde{X}$ and form the vector bundle
+</p>
+$$E_\rho=(\widetilde{X}\times V)/\pi_1(X,x)\longrightarrow X$$<p>
+where one mods out by diagonal action by $\pi_1$. We then can define the local system </p>
+$$\mathcal L(U)=\{\mathrm{locally\ constant\ sections\ }U\rightarrow E_\rho\}$$<p>
+i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}=U\times V$ for some $v$. It is not hard to check that this is a local system which is mutually inverse to the previous construction.</p>
+
+  </div>
+  <span class="proof-qed"></span>
+</div>
+
+<p>Let $X$ be a connected scheme with $\ell$ an invertible prime, and choose a geometric point $\overline{x}\rightarrow X$.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>For $n\geq 1$, a <em>lisse</em> $\mathbb Z/\ell^n\mathbb Z$-<em>sheaf</em> on $X_{\mathrm{\acute et}}$ is a locally constant constructible sheaf of $\mathbb Z/\ell^n\mathbb Z$-modules. Equivalently, locally for the etale topology it is isomorphic to a constant sheaf associated to a finite $\mathbb Z/\ell^n\mathbb Z$-module. It has <em>rank</em> $r$ if locally it is isomorphic to $(\mathbb Z/\ell^n\mathbb Z)^r$.</p>
+<p>A <em>lisse</em> $\mathbb Z_\ell$-<em>sheaf</em> is an inverse system $\mathcal F=(\mathcal F_n,\varphi_{n+1,n})_{n\geq 1}$, where each $\mathcal F_n$ is a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf and each transition map $\varphi_{n+1,n}:\mathcal F_{n+1}\rightarrow\mathcal F_n$ is $\mathbb Z/\ell^{n+1}\mathbb Z$-linear via the quotient map $\mathbb Z/\ell^{n+1}\mathbb Z\rightarrow\mathbb Z/\ell^n\mathbb Z$. We require that the induced map
+</p>
+$$
+\mathcal F_{n+1}\otimes_{\mathbb Z/\ell^{n+1}\mathbb Z}\mathbb Z/\ell^n\mathbb Z\longrightarrow \mathcal F_n,\qquad s\otimes a\longmapsto a\varphi_{n+1,n}(s)
+$$<p>
+be an isomorphism for all $n$. Equivalently, $\varphi_{n+1,n}$ identifies the quotient $\mathcal F_{n+1}/\ell^n\mathcal F_{n+1}$ with $\mathcal F_n$.</p>
+<p>A <em>lisse</em> $\mathbb Q_\ell$-<em>sheaf</em> is obtained by tensoring a lisse $\mathbb Z_\ell$-sheaf with $\mathbb Q_\ell$, i.e. it is of the form $\mathcal F\otimes_{\mathbb Z_\ell}\mathbb Q_\ell$ for a lisse $\mathbb Z_\ell$-sheaf $\mathcal F$.</p>
+
+  </span>
+</div>
+
+<p>Recall that the étale fundamental group is an inverse limit
+</p>
+$$
+\pi_1^{\mathrm{\acute et}}(X,\overline{x})=\varprojlim_{(Y,\overline{y})}\mathrm{Aut}_X(Y),
+$$<p>
+where the limit runs over connected finite etale covers $Y\rightarrow X$ equipped with a geometric point $\overline{y}\rightarrow Y$ above $\overline{x}$. Recall that the <em>fiber functor</em> at $\overline{x}$ sends a lisse sheaf $\mathcal F$ on $X_{\mathrm{\acute et}}$ to its stalk $\mathcal F_{\overline{x}}$ at the geometric point $\overline{x}$. We state an analogue of <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-loc">⟦ref:thm-loc⟧</span>.</p>
+<div class="math-env style-remark" 
+    
+     data-kind="notation"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Notation'></span>
+  </span>
+  <span class="math-body">
+    For $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$, write $\mathrm{Lisse}_\Lambda(X)$ for the category of lisse $\Lambda$-sheaves on $X_{\mathrm{\acute et}}$, and write $\mathrm{Rep}^{\mathrm{cont}}_\Lambda(\pi_1^{\mathrm{\acute et}}(X,\overline{x}))$ for the category of continuous representations of $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$ on finite $\Lambda$-modules.
+  </span>
+</div>
+
+<p><div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    For a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf $\mathcal F$, its <em>étalé space</em> $\mathrm{Et}(\mathcal F)$ is the finite étale $X$-scheme representing $\mathcal F$ as a sheaf of sets.
+  </span>
+</div>
+
+Étale locally on $X$, the sheaf $\mathcal F$ is isomorphic to the constant sheaf associated to a finite $\mathbb Z/\ell^n\mathbb Z$-module $M$, which is represented by the finite etale cover $\coprod_{m\in M}U\rightarrow U$. Since being finite etale descends along etale covers, the representing scheme  is finite etale.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <span class="math-body">
+    <p>For $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$, the fiber functor $\mathcal F\mapsto\mathcal F_{\overline{x}}$ gives an equivalence
+</p>
+$$
+\mathrm{Lisse}_\Lambda(X)\cong \mathrm{Rep}^{\mathrm{cont}}_\Lambda(\pi_1^{\mathrm{\acute et}}(X,\overline{x})).
+$$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>We will show it for $\Lambda=\mathbb Z/\ell^n\mathbb Z$, and the rest can be obtained from taking inverse limits and tensoring. Let $\mathcal F$ be a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf, and let $\mathrm{Et}(\mathcal F)\rightarrow X$ be its etale space. The fiber $\mathcal F_{\overline{x}}$ is the fiber of this finite etale cover above $\overline{x}$, so the functorial action of $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$ on fibers gives a continuous representation
+</p>
+$$
+\rho_{\mathcal F}:\pi_1^{\mathrm{\acute et}}(X,\overline{x})\rightarrow \mathrm{Aut}_{\mathbb Z/\ell^n\mathbb Z}(\mathcal F_{\overline{x}}).
+$$<p>
+Conversely, suppose $\rho:\pi_1^{\mathrm{\acute et}}(X,\overline{x})\rightarrow\mathrm{Aut}_{\mathbb Z/\ell^n\mathbb Z}(M)$ is a continuous representation on a finite $\mathbb Z/\ell^n\mathbb Z$-module $M$.  For each etale $U\rightarrow X$, define the (etale) sheaf of $\mathbb Z/\ell^n$-modules associated to $\rho$
+</p>
+$$\mathcal F_{\rho}(U)=\mathrm{Hom}_{\pi_1^{\mathrm{\acute et}}(X,\overline{x})\textrm{-Set}}(U_{\overline{x}},M)$$<p>
+with $\mathbb Z/\ell^n$-module structure inherited from $M$ pointwise.
+We claim that $\mathcal F_\rho$ is lisse. Since $M$ is finite and $\rho$ is continuous, $\ker(\rho)\subseteq \pi_1^{\mathrm{\acute et}}(X,\overline{x})$ is open. Choose a connected finite etale cover $Y\rightarrow X$ corresponding to an open subgroup $H\subseteq\ker(\rho)$, and choose a geometric point $\overline{y}\rightarrow Y$ above $\overline{x}$. Then
+$
+\pi_1^{\mathrm{\acute et}}(Y,\overline{y})=H
+$
+acts trivially on $M$. Hence the pullback of $\mathcal F_\rho$ to $Y_{\mathrm{\acute et}}$ is the sheaf associated to the trivial representation of $\pi_1^{\mathrm{\acute et}}(Y,\overline{y})$ on $M$, which is the constant sheaf $\underline{M}_Y$. Thus $\mathcal F_\rho$ becomes constant after the finite etale cover $Y\rightarrow X$. Since $M$ is finite, $\mathcal F_\rho$ is locally constant constructible, hence lisse.</p>
+<p>The two constructions are mutually inverse. Starting with $\rho$ on $M$, the stalk of $\mathcal F_\rho$ at $\overline{x}$ is
+</p>
+$$
+(\mathcal F_\rho)_{\overline{x}}\cong M,
+$$<p>
+because the geometric fiber of the object $\overline{x}\rightarrow X$ is the one-point $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$-set, so evaluating an equivariant map on that point recovers an element of $M$. Under this identification, the monodromy action on $(\mathcal F_\rho)_{\overline{x}}$ is exactly the original action $\rho$, since the action on the fiber is the action used in the equivariance condition defining $\mathcal F_\rho$.
+Conversely, start with a lisse sheaf $\mathcal F$ and let $M=\mathcal F_{\overline{x}}$ with its monodromy representation $\rho_{\mathcal F}$. For every etale $U\rightarrow X$, a section $s\in\mathcal F(U)$ determines a map on geometric fibers
+</p>
+$$
+U_{\overline{x}}\longrightarrow M
+$$<p>
+sending a geometric point $\overline{u}\rightarrow U$ above $\overline{x}$ to the value of $s$ in the stalk $\mathcal F_{\overline{u}}\cong \mathcal F_{\overline{x}}$, where the identification is given by monodromy. This map is $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$-equivariant. Hence we get a natural map
+</p>
+$$
+\mathcal F(U)\longrightarrow \mathrm{Hom}_{\pi_1^{\mathrm{\acute et}}(X,\overline{x})\textrm{-Set}}(U_{\overline{x}},\mathcal F_{\overline{x}}).
+$$<p>
+After pulling back to an etale cover on which $\mathcal F$ is constant, this map is visibly an isomorphism: both sides are locally constant functions to the same finite module $M$. Therefore it is an isomorphism after etale descent, and hence for all $U$. Thus the sheaf reconstructed from $\rho_{\mathcal F}$ is canonically isomorphic to $\mathcal F$.</p>
+
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<h2 id="riemannhilbert-correspondence">Riemann–Hilbert Correspondence</h2>
+<p>Let $X$ be a complex manifold. Let $\mathcal E$ be a coherent sheaf on $X$. Recall a connection on $X$ is a morphism $\nabla:\mathcal E\rightarrow \Omega^1_X\otimes_{\mathcal O_X}\mathcal E$ such that for open $U\subseteq X$ and sections $s\in\mathcal E(U)$ and $f\in\mathcal O_X(U)$, the Leibniz formula $\nabla_U(fs)=\mathrm df\otimes s+f\nabla_U(s)$ is satisfied. For each connection $\nabla$, we can extend it to
+</p>
+$$\mathcal E\xrightarrow{\nabla}\Omega^1_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_1}\Omega^2_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_2}\Omega^{3}_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_3}\cdots$$<p>where $\nabla_i:\Omega^i_X\otimes_{\mathcal O_X}\mathcal E\rightarrow \Omega^{i+1}_X\otimes_{\mathcal O_X}\mathcal E$ is defined by</p>
+$$\nabla_i(\omega \otimes s)=\mathrm d \omega\otimes s +(-1)^i \omega \wedge \nabla(s)$$<p>Here $\omega\wedge\nabla(s)$ means the image of $\omega\otimes\nabla(s)$ under the natural map
+</p>
+$$
+\Omega^i_X\otimes_{\mathcal O_X}(\Omega^1_X\otimes_{\mathcal O_X}\mathcal E)\cong(\Omega^i_X\otimes_{\mathcal O_X}\Omega^1_X)\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\wedge\otimes\mathrm{id}_{\mathcal E}}\Omega^{i+1}_X\otimes_{\mathcal O_X}\mathcal E.
+$$<p>Recall that $\nabla$ is said to be integrable or flat if the curvature $\nabla^2=\nabla_1\circ \nabla=0$. Let $\mathrm{Vect}^\nabla(X)$ be the category of vector bundles on $X$ equipped with a flat connection. Recall a section $s\in \mathcal E$ is called horizontal if $\nabla(s)=0$.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Riemann–Hilbert)</span>
+  </span>
+  <span class="math-body">
+    <p>There is an equivalence of categories
+</p>
+$$\mathrm{LocSys}_{\mathbb C}(X)\cong \mathrm{Vect}^\nabla(X)$$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>For a local system $\mathcal L$, send it to the vector bundle $\mathcal L\otimes_{\mathbb C_X}\mathcal O_X$, equipped with the flat connection
+</p>
+$$\mathcal L\otimes_{\mathbb C_X}\mathcal O_X\xrightarrow{1\otimes \mathrm d}\mathcal L\otimes_{\mathbb C_X} \Omega^1_X$$<p>
+where $\mathrm d:\mathcal O_X\rightarrow\Omega^1_X$ is the differential. Conversely, send a pair $(\mathcal E,\nabla)$ to the sheaf of horizontal sections $\mathrm{Ker}(\nabla)$. We claim this is a local system. For a small polydisc $U\subseteq X$ trivializing $\mathcal E$ with $\mathcal E|_U=(\mathcal O_X|_U)^r$, the connection has form $\nabla|_U=\mathrm d+A$ where $A\in \mathrm M_{r}(\Omega^1_X)$. For a local section $s:U\rightarrow \mathbb C^r$, the equation $\nabla(s)=0$ determines a system of first order linear PDEs.
+</p>
+$$\frac{\partial s}{\partial z_k}+A_k s=0 \tag{1}$$<p>
+for $k=1,\dots,n$, where $\{z_k\}$ is a local frame and $A=\sum_{k}A_k\mathrm dz_k$. From flatness $\nabla^2=0$, we get $\mathrm{d}A+A\wedge A=0$, i.e.
+</p>
+$$\frac{\partial A_j}{\partial z_i}-\frac{\partial A_i}{\partial z_j}+\left[A_i, A_j\right]=0$$<p>
+This is equivalent to $D_i=\partial_i+A_i$ commuting $D_iD_j=D_jD_i$. Holomorphic Frobenius theorem implies that the PDE in equation $(1)$ is locally solvable with any initial value, meaning for each $v\in \mathcal E_x$, there exists unique holomorphic local section $s_v:U\rightarrow\mathbb C^r$ satisfying equation (1) with $s_v(x)=v$. It is not hard to check that the two constructions are mutually inverse.</p>
+
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<p>So far, our construction only works for non-singular connections. For $X=\mathbb A^1$ and $U=\{x\ne 0\}\subseteq X$, the connection $\nabla=\mathrm d+\lambda\frac{\mathrm dx}{x}$ has a singularity at $0$, so our version does not apply. To fix it we need $\mathcal D$-modules.</p>
+<h2 id="-modules-and-perverse-sheaves">$\mathcal D$-modules and Perverse Sheaves</h2>
+<p>Let $X$ be a complex manifold or smooth complex algebraic variety.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>The sheaf of differential operators $\mathcal D_X$ is a sheaf of noncommutative rings on $X$, defined as the direct limit
+</p>
+$$\mathcal D_X=\varinjlim \mathcal D_X^{\le n}=\varinjlim \mathcal{Hom}_{\mathcal O_X}(\Delta^{-1}(\mathcal O_{X\times X}/\mathcal I_{\Delta}^{n+1}), \mathcal O_X)$$<p>
+where $\Delta:X\rightarrow X\times X$ is the diagonal and $\mathcal I_\Delta$ is the ideal sheaf of its image.</p>
+
+  </span>
+</div>
+
+<p>Concretely, $\mathcal D_X^{\le 0}=\mathcal O_X$ and for $n\ge 1$, $\mathcal D^{\le n}_X$ is the sheaf of $\mathbb C$-linear endomorphisms $P:\mathcal O_X\rightarrow\mathcal O_X$ such that for $U\subseteq X$ and for $f\in \mathcal O_X(U)$, the commutator $[P_U,m_f]=P_U\circ m_f-m_f\circ P_U\in\mathcal D_X^{n-1}$. And $\mathcal D_X(U)=\bigcup_n \mathcal D_X^{\le n}(U)$. For a local $U\subseteq X$ with local coordinates $z_1,\dots,z_n$, write $\partial_i=\frac{\partial }{\partial z_i}$, then we can think of $\mathcal D_X$ as</p>
+$$\mathcal D_X|_U=\mathcal O_U\langle \partial_1,\dots,\partial_n\rangle/([\partial_i,\partial_j], [\partial_i,z_j]-\delta_{ij})$$<p>locally at $U$.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>A $\mathcal D_X$-module is a sheaf of $\mathbb C$-vector spaces $\mathcal M$ on $X$, together with a morphism of sheaf of $\mathbb C$-algebras
+</p>
+$$\mathcal D_X\rightarrow\mathcal{End}_{\mathbb C}(\mathcal M)$$<p>
+which locally at $U$ is $\mathcal D_X(U)\rightarrow\mathrm{End}_{\mathbb C}(\mathcal M(U))$ the scalar action of a module over the $\mathbb C$-algebra $\mathcal D_X(U)$.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <span class="math-body">
+    One can encode differential equations in a $\mathcal D_X$-module. Let $X=\mathbb A^1$ and $\mathcal D_X(X)=\mathbb C\langle x,\partial_x\rangle/(\partial_xx-x\partial_x-1)$, then a DE like $\frac{\partial f}{\partial x}=\lambda f$ can be encoded as $(\partial_x -\lambda)f=0$. Hence $\mathcal M=\mathcal D_X/(\mathcal D_X (\partial_x -\lambda))$ encodes this DE.
+  </span>
+</div>
+
+<p>We call a $\mathcal D_X$-module <em>holonomic</em> if it represents a “finite dimensional” system of DEs. We will not define this rigorously.</p>
+<!-- The graded object of the order filtration $$\mathrm{gr}\,\mathcal D_X=\bigoplus_{i}\mathrm{gr}^i(\mathcal D_X^{\le\bullet})=\bigoplus_{i}\mathcal D_X^{i+1}/\mathcal D_X^{i}\cong \pi_*\mathcal O_{T^*X}$$
+where $\pi:T^*X\rightarrow X$ is the cotangent bundle. We call the support
+
+$$\mathrm{Char}(\mathcal M)=\mathrm{Supp}_{T^*M}(\mathrm{gr}\,\mathcal M)$$
+
+the *characteristic variety*. -->
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>A <em>perverse sheaf</em> on $X$ is an element $K\in\mathrm{D}^b_{c}(X,\mathbb C)$ in the bounded derived category of constructible sheaves of $\mathbb C$-vector spaces, such that </p>
+$$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(DK))}\le -i$$<p> for $i\in\mathbb Z$, where $\mathrm{dim}(\emptyset)=-\infty$, and $DK:=\mathrm R\mathcal{Hom}_{\mathbb C_X}(K,\mathbb C_X[2d])$ is the Verdier dual.</p>
+
+  </span>
+</div>
+
+<div class="math-env style-remark" 
+    
+     data-kind="notation"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Notation'></span>
+  </span>
+  <span class="math-body">
+    Write $\mathrm{Perv}(X,\mathbb C)$ for the category of perverse sheaves of $\mathbb C$-vector spaces on $X$. Write $\mathrm{Mod}_{\mathrm{rh}}(\mathcal D_X)$ for the category of regular holonomic left $\mathcal D_X$-modules.
+  </span>
+</div>
+
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Generalized Riemann–Hilbert)</span>
+  </span>
+  <span class="math-body">
+    <p>Let $X$ be a complex manifold of dimension $d$. Define the perverse-normalized de Rham functor on the derived category of left $\mathcal D_X$-modules by
+</p>
+$$
+\mathrm{DR}_X:\mathrm D^b(\mathcal D_X)\rightarrow \mathrm D^b(X,\mathbb C),
+\qquad
+\mathcal M\mapsto
+\left[
+\mathcal M\rightarrow \Omega^1_X\otimes_{\mathcal O_X}\mathcal M\rightarrow\cdots\rightarrow \Omega^d_X\otimes_{\mathcal O_X}\mathcal M
+\right][d]
+$$<p>
+and define the perverse-normalized solution functor by
+</p>
+$$
+\mathrm{Sol}_X:\mathrm D^b(\mathcal D_X)^{\mathrm{op}}\rightarrow \mathrm D^b(X,\mathbb C),
+\qquad
+\mathcal M\mapsto \mathrm R\mathcal{Hom}_{\mathcal D_X}(\mathcal M,\mathcal O_X)[d].
+$$<p>
+These functors restrict to equivalences
+</p>
+$$
+\mathrm{DR}_X:\mathrm D^b_{\mathrm{rh}}(\mathcal D_X)\xrightarrow{\sim}\mathrm D^b_c(X,\mathbb C)
+$$<p>
+and
+</p>
+$$
+\mathrm{Sol}_X:\mathrm D^b_{\mathrm{rh}}(\mathcal D_X)^{\mathrm{op}}\xrightarrow{\sim}\mathrm D^b_c(X,\mathbb C),
+$$<p>
+where $\mathrm D^b_{\mathrm{rh}}(\mathcal D_X)$ is the full subcategory of complexes with regular holonomic cohomology sheaves, and $\mathrm D^b_c(X,\mathbb C)$ is the constructible derived category. In particular, on the abelian category of regular holonomic $\mathcal D_X$-modules, these give
+</p>
+$$
+\mathrm{DR}_X:\mathrm{Mod}_{\mathrm{rh}}(\mathcal D_X)\xrightarrow{\sim}\mathrm{Perv}(X,\mathbb C),
+\qquad
+\mathrm{Sol}_X:\mathrm{Mod}_{\mathrm{rh}}(\mathcal D_X)^{\mathrm{op}}\xrightarrow{\sim}\mathrm{Perv}(X,\mathbb C).
+$$
+  </span>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="HTT08">
+⟦cite:HTT08⟧
+</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <span class="math-body">
+    <p>Let $X$ be a scheme of finite type over a field $k$ of characteristic $p>0$, and let $\ell\ne p$. A <em>perverse $\mathbb Q_\ell$-sheaf</em> on $X$ is an object $K\in \mathrm D^b_c(X,\mathbb Q_\ell)$ in the bounded constructible derived category of $\ell$-adic sheaves on $X_{\mathrm{\acute et}}$ such that
+</p>
+$$
+\dim \overline{\mathrm{Supp}_X(\mathcal H^i(K))}\le -i
+\qquad\textrm{and}\qquad
+\dim \overline{\mathrm{Supp}_X(\mathcal H^i(D_XK))}\le -i
+$$<p>
+for all $i\in\mathbb Z$, where $\dim(\emptyset)=-\infty$. Here
+</p>
+$$
+D_XK:=\mathrm R\mathcal{Hom}_{\mathbb Q_{\ell,X}}(K,a^!\mathbb Q_\ell)
+$$<p>
+is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure dimension $d$, then $a^!\mathbb Q_\ell\cong \mathbb Q_\ell(d)[2d]$.</p>
+
+  </span>
+</div>
+
+<h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
   <li id="bib-Del70" data-bib-key="Del70">
@@ -313,10 +703,10 @@
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/14410b3/" title="Connections and Characteristic Classes"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="http://localhost:1313/posts/636adda/" title="AI and the Game of Go"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/fa7e807/" title="Curry–Howard Isomorphism">Next <span class="arrow-icon">🢡</span></a>
+    <a></a>
     
   </div>
   

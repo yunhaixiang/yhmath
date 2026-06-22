@@ -8,6 +8,10 @@
   .post-heading {
     text-align: center;
 
+    .post-title .katex {
+      font-size: 1.01em !important;
+    }
+
     .publish-metadata {
       color: var(--text-secondary);
       font-size: large;
@@ -53,6 +57,10 @@
       &:hover {
         text-decoration: underline;
       }
+    }
+
+    .katex {
+      font-size: 1.01em !important;
     }
 
     li > ul {
