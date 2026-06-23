@@ -6,7 +6,27 @@
     <description>Recent content in Combinatorics on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 17:13:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aperiodic Tilings</title>
+      <link>http://localhost:1313/posts/aperiodic-tilings/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/aperiodic-tilings/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;tilings-and-periodicity&#34;&gt;Tilings and Periodicity&lt;/h2&gt;
+&lt;h2 id=&#34;aperiodic-tile-sets&#34;&gt;Aperiodic Tile Sets&lt;/h2&gt;
+&lt;h2 id=&#34;penrose-tilings&#34;&gt;Penrose Tilings&lt;/h2&gt;
+&lt;h2 id=&#34;the-einstein-problem&#34;&gt;The Einstein Problem&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
       <link>http://localhost:1313/posts/6bf3326/</link>

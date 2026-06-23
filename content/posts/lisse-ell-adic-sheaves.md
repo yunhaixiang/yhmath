@@ -105,16 +105,20 @@ After pulling back to an etale cover on which $\mathcal F$ is constant, this map
 
 ## Riemann–Hilbert Correspondence
 
-Let $X$ be a complex manifold. Let $\mathcal E$ be a coherent sheaf on $X$. Recall a connection on $X$ is a morphism $\nabla:\mathcal E\rightarrow \Omega^1_X\otimes_{\mathcal O_X}\mathcal E$ such that for open $U\subseteq X$ and sections $s\in\mathcal E(U)$ and $f\in\mathcal O_X(U)$, the Leibniz formula $\nabla_U(fs)=\mathrm df\otimes s+f\nabla_U(s)$ is satisfied. For each connection $\nabla$, we can extend it to 
-$$\mathcal E\xrightarrow{\nabla}\Omega^1_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_1}\Omega^2_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_2}\Omega^{3}_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_3}\cdots$$
-
-where $\nabla_i:\Omega^i_X\otimes_{\mathcal O_X}\mathcal E\rightarrow \Omega^{i+1}_X\otimes_{\mathcal O_X}\mathcal E$ is defined by 
-
-$$\nabla_i(\omega \otimes s)=\mathrm d \omega\otimes s +(-1)^i \omega \wedge \nabla(s)$$
-
-Here $\omega\wedge\nabla(s)$ means the image of $\omega\otimes\nabla(s)$ under the natural map
+Let $X$ be a smooth complex variety. Let $\mathcal E$ be a coherent sheaf on $X$. Recall a connection on $\mathcal E$ is a morphism $\nabla:\mathcal E\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^1_X$ such that for open $U\subseteq X$ and sections $s\in\mathcal E(U)$ and $f\in\mathcal O_X(U)$, the Leibniz formula $\nabla_U(fs)=s\otimes \mathrm df+f\nabla_U(s)$ is satisfied. For each derivation $D\in \mathcal{Der}_{\mathbb C}(\mathcal O_X,\mathcal O_X)\cong \mathcal{Hom}_{\mathcal O_X}(\Omega_X^1,\mathcal O_X)$, define the covariant derivative in the direction $D$ by
 $$
-\Omega^i_X\otimes_{\mathcal O_X}(\Omega^1_X\otimes_{\mathcal O_X}\mathcal E)\cong(\Omega^i_X\otimes_{\mathcal O_X}\Omega^1_X)\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\wedge\otimes\mathrm{id}_{\mathcal E}}\Omega^{i+1}_X\otimes_{\mathcal O_X}\mathcal E.
+\nabla_D:\mathcal E\xrightarrow{\nabla}\mathcal E\otimes_{\mathcal O_X}\Omega^1_X\xrightarrow{\mathrm{id}_{\mathcal E}\otimes D}\mathcal E\otimes_{\mathcal O_X}\mathcal O_X\cong \mathcal E.
+$$
+Then $\nabla_D(fs)=D(f)s+f\nabla_D(s)$. For each connection $\nabla$, we can extend it to 
+$$\mathcal E\xrightarrow{\nabla}\mathcal E\otimes_{\mathcal O_X}\Omega^1_X\xrightarrow{\nabla_1}\mathcal E\otimes_{\mathcal O_X}\Omega^2_X\xrightarrow{\nabla_2}\mathcal E\otimes_{\mathcal O_X}\Omega^{3}_X\xrightarrow{\nabla_3}\cdots$$
+
+where $\nabla_i:\mathcal E\otimes_{\mathcal O_X}\Omega^i_X\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^{i+1}_X$ is defined by 
+
+$$\nabla_i(s\otimes\omega)=\nabla(s)\wedge\omega+s\otimes\mathrm d\omega$$
+
+Here $\nabla(s)\wedge\omega$ means the image of $\nabla(s)\otimes\omega$ under the natural map
+$$
+(\mathcal E\otimes_{\mathcal O_X}\Omega^1_X)\otimes_{\mathcal O_X}\Omega^i_X\cong\mathcal E\otimes_{\mathcal O_X}(\Omega^1_X\otimes_{\mathcal O_X}\Omega^i_X)\xrightarrow{\mathrm{id}_{\mathcal E}\otimes\wedge}\mathcal E\otimes_{\mathcal O_X}\Omega^{i+1}_X.
 $$
 
 Recall that $\nabla$ is said to be integrable or flat if the curvature $\nabla^2=\nabla_1\circ \nabla=0$. Let $\mathrm{Vect}^\nabla(X)$ be the category of vector bundles on $X$ equipped with a flat connection. Recall a section $s\in \mathcal E$ is called horizontal if $\nabla(s)=0$. 
@@ -174,6 +178,11 @@ the *characteristic variety*. -->
 A *perverse sheaf* on $X$ is an element $K\in\mathrm{D}^b_{c}(X,\mathbb C)$ in the bounded derived category of constructible sheaves of $\mathbb C$-vector spaces, such that $$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(DK))}\le -i$$ for $i\in\mathbb Z$, where $\mathrm{dim}(\emptyset)=-\infty$, and $DK:=\mathrm R\mathcal{Hom}_{\mathbb C_X}(K,\mathbb C_X[2d])$ is the Verdier dual.
 {{< /definition >}}
 
+{{< remark >}}
+$\mathcal D$-modules generalize vector bundles with flat connections: if $\mathcal E$ is a vector bundle with flat connection $\nabla$, then functions act through the $\mathcal O_X$-module structure and derivations act by $D\cdot s=\nabla_D(s)$. The flatness condition is exactly what makes this action compatible with the commutation relations in $\mathcal D_X$. Conversely, a left $\mathcal D_X$-module whose underlying $\mathcal O_X$-module is locally free of finite rank is the same thing as a vector bundle with flat connection. Perverse sheaves generalize local systems in the corresponding sheaf-theoretic direction: if $X$ is smooth of dimension $d$ and $\mathcal L$ is a local system on $X$, then $\mathcal L[d]$ is a perverse sheaf. Unlike local systems, perverse sheaves can also encode singular behavior along closed subsets, so they are the right replacement for local systems when singularities are allowed.
+
+{{< /remark >}}
+
 {{< notation >}}
 Write $\mathrm{Perv}(X,\mathbb C)$ for the category of perverse sheaves of $\mathbb C$-vector spaces on $X$. Write $\mathrm{Mod}_{\mathrm{rh}}(\mathcal D_X)$ for the category of regular holonomic left $\mathcal D_X$-modules.
 {{< /notation >}}
@@ -185,7 +194,7 @@ $$
 \qquad
 \mathcal M\mapsto
 \left[
-\mathcal M\rightarrow \Omega^1_X\otimes_{\mathcal O_X}\mathcal M\rightarrow\cdots\rightarrow \Omega^d_X\otimes_{\mathcal O_X}\mathcal M
+\mathcal M\rightarrow \mathcal M\otimes_{\mathcal O_X}\Omega^1_X\rightarrow\cdots\rightarrow \mathcal M\otimes_{\mathcal O_X}\Omega^d_X
 \right][d]
 $$
 and define the perverse-normalized solution functor by

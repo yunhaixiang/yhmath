@@ -59,7 +59,7 @@ For today’s post, I want to write about the correspondence between “local sy
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-06-19T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-06-19T00:00:01-04:00">
+    <meta property="article:modified_time" content="2026-06-22T18:55:24-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Algebra">
@@ -74,8 +74,8 @@ For today’s post, I want to write about the correspondence between “local sy
   <meta itemprop="name" content="Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves">
   <meta itemprop="description" content="In mathematics the art of proposing a question must be held of higher value than solving it. — Georg Cantor For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
   <meta itemprop="datePublished" content="2026-06-19T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-06-19T00:00:01-04:00">
-  <meta itemprop="wordCount" content="2118">
+  <meta itemprop="dateModified" content="2026-06-22T18:55:24-04:00">
+  <meta itemprop="wordCount" content="2282">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Algebra">
 
   
@@ -192,7 +192,7 @@ For today’s post, I want to write about the correspondence between “local sy
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2118 words
+          2282 words
         </span>
       
       
@@ -205,7 +205,7 @@ For today’s post, I want to write about the correspondence between “local sy
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~10 mins
+          ~11 mins
         </span>
       
     </div>
@@ -424,13 +424,18 @@ After pulling back to an etale cover on which $\mathcal F$ is constant, this map
 </div>
 </p>
 <h2 id="riemannhilbert-correspondence">Riemann–Hilbert Correspondence</h2>
-<p>Let $X$ be a complex manifold. Let $\mathcal E$ be a coherent sheaf on $X$. Recall a connection on $X$ is a morphism $\nabla:\mathcal E\rightarrow \Omega^1_X\otimes_{\mathcal O_X}\mathcal E$ such that for open $U\subseteq X$ and sections $s\in\mathcal E(U)$ and $f\in\mathcal O_X(U)$, the Leibniz formula $\nabla_U(fs)=\mathrm df\otimes s+f\nabla_U(s)$ is satisfied. For each connection $\nabla$, we can extend it to
-</p>
-$$\mathcal E\xrightarrow{\nabla}\Omega^1_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_1}\Omega^2_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_2}\Omega^{3}_X\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\nabla_3}\cdots$$<p>where $\nabla_i:\Omega^i_X\otimes_{\mathcal O_X}\mathcal E\rightarrow \Omega^{i+1}_X\otimes_{\mathcal O_X}\mathcal E$ is defined by</p>
-$$\nabla_i(\omega \otimes s)=\mathrm d \omega\otimes s +(-1)^i \omega \wedge \nabla(s)$$<p>Here $\omega\wedge\nabla(s)$ means the image of $\omega\otimes\nabla(s)$ under the natural map
+<p>Let $X$ be a smooth complex variety. Let $\mathcal E$ be a coherent sheaf on $X$. Recall a connection on $\mathcal E$ is a morphism $\nabla:\mathcal E\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^1_X$ such that for open $U\subseteq X$ and sections $s\in\mathcal E(U)$ and $f\in\mathcal O_X(U)$, the Leibniz formula $\nabla_U(fs)=s\otimes \mathrm df+f\nabla_U(s)$ is satisfied. For each derivation $D\in \mathcal{Der}_{\mathbb C}(\mathcal O_X,\mathcal O_X)\cong \mathcal{Hom}_{\mathcal O_X}(\Omega_X^1,\mathcal O_X)$, define the covariant derivative in the direction $D$ by
 </p>
 $$
-\Omega^i_X\otimes_{\mathcal O_X}(\Omega^1_X\otimes_{\mathcal O_X}\mathcal E)\cong(\Omega^i_X\otimes_{\mathcal O_X}\Omega^1_X)\otimes_{\mathcal O_X}\mathcal E\xrightarrow{\wedge\otimes\mathrm{id}_{\mathcal E}}\Omega^{i+1}_X\otimes_{\mathcal O_X}\mathcal E.
+\nabla_D:\mathcal E\xrightarrow{\nabla}\mathcal E\otimes_{\mathcal O_X}\Omega^1_X\xrightarrow{\mathrm{id}_{\mathcal E}\otimes D}\mathcal E\otimes_{\mathcal O_X}\mathcal O_X\cong \mathcal E.
+$$<p>
+Then $\nabla_D(fs)=D(f)s+f\nabla_D(s)$. For each connection $\nabla$, we can extend it to
+</p>
+$$\mathcal E\xrightarrow{\nabla}\mathcal E\otimes_{\mathcal O_X}\Omega^1_X\xrightarrow{\nabla_1}\mathcal E\otimes_{\mathcal O_X}\Omega^2_X\xrightarrow{\nabla_2}\mathcal E\otimes_{\mathcal O_X}\Omega^{3}_X\xrightarrow{\nabla_3}\cdots$$<p>where $\nabla_i:\mathcal E\otimes_{\mathcal O_X}\Omega^i_X\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^{i+1}_X$ is defined by</p>
+$$\nabla_i(s\otimes\omega)=\nabla(s)\wedge\omega+s\otimes\mathrm d\omega$$<p>Here $\nabla(s)\wedge\omega$ means the image of $\nabla(s)\otimes\omega$ under the natural map
+</p>
+$$
+(\mathcal E\otimes_{\mathcal O_X}\Omega^1_X)\otimes_{\mathcal O_X}\Omega^i_X\cong\mathcal E\otimes_{\mathcal O_X}(\Omega^1_X\otimes_{\mathcal O_X}\Omega^i_X)\xrightarrow{\mathrm{id}_{\mathcal E}\otimes\wedge}\mathcal E\otimes_{\mathcal O_X}\Omega^{i+1}_X.
 $$<p>Recall that $\nabla$ is said to be integrable or flat if the curvature $\nabla^2=\nabla_1\circ \nabla=0$. Let $\mathrm{Vect}^\nabla(X)$ be the category of vector bundles on $X$ equipped with a flat connection. Recall a section $s\in \mathcal E$ is called horizontal if $\nabla(s)=0$.</p>
 <p><div class="math-env style-plain" 
     
@@ -549,6 +554,20 @@ $$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\over
 
 <div class="math-env style-remark" 
     
+     data-kind="remark"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Remark'></span>
+  </span>
+  <span class="math-body">
+    $\mathcal D$-modules generalize vector bundles with flat connections: if $\mathcal E$ is a vector bundle with flat connection $\nabla$, then functions act through the $\mathcal O_X$-module structure and derivations act by $D\cdot s=\nabla_D(s)$. The flatness condition is exactly what makes this action compatible with the commutation relations in $\mathcal D_X$. Conversely, a left $\mathcal D_X$-module whose underlying $\mathcal O_X$-module is locally free of finite rank is the same thing as a vector bundle with flat connection. Perverse sheaves generalize local systems in the corresponding sheaf-theoretic direction: if $X$ is smooth of dimension $d$ and $\mathcal L$ is a local system on $X$, then $\mathcal L[d]$ is a perverse sheaf. Unlike local systems, perverse sheaves can also encode singular behavior along closed subsets, so they are the right replacement for local systems when singularities are allowed.
+  </span>
+</div>
+
+<div class="math-env style-remark" 
+    
      data-kind="notation"
      data-lang="en"
      data-numbered="true">
@@ -578,7 +597,7 @@ $$
 \qquad
 \mathcal M\mapsto
 \left[
-\mathcal M\rightarrow \Omega^1_X\otimes_{\mathcal O_X}\mathcal M\rightarrow\cdots\rightarrow \Omega^d_X\otimes_{\mathcal O_X}\mathcal M
+\mathcal M\rightarrow \mathcal M\otimes_{\mathcal O_X}\Omega^1_X\rightarrow\cdots\rightarrow \mathcal M\otimes_{\mathcal O_X}\Omega^d_X
 \right][d]
 $$<p>
 and define the perverse-normalized solution functor by
@@ -706,7 +725,7 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     <a class="link" href="http://localhost:1313/posts/636adda/" title="AI and the Game of Go"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a></a>
+    <a class="link" href="http://localhost:1313/posts/six-functor-formalism/" title="Six Functor Formalism">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
