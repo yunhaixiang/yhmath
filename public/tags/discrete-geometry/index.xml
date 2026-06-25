@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discrete-Geometry on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/tags/discrete-geometry/</link>
+    <link>http://localhost:1313/tags/discrete-geometry/</link>
     <description>Recent content in Discrete-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 17:13:21 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/discrete-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 May 2026 17:13:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/discrete-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>https://yunhaimath.com/posts/6bf3326/</link>
+      <link>http://localhost:1313/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/6bf3326/</guid>
+      <guid>http://localhost:1313/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.

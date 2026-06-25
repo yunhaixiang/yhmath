@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/categories/archives/</link>
+    <link>http://localhost:1313/categories/archives/</link>
     <description>Recent content in Archives on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yunhaimath.com/categories/archives/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/archives/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magic Tricks</title>
-      <link>https://yunhaimath.com/posts/648e7d3/</link>
+      <link>http://localhost:1313/posts/648e7d3/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/648e7d3/</guid>
+      <guid>http://localhost:1313/posts/648e7d3/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>https://yunhaimath.com/posts/e852d2e/</link>
+      <link>http://localhost:1313/posts/e852d2e/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/e852d2e/</guid>
+      <guid>http://localhost:1313/posts/e852d2e/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
@@ -206,10 +206,10 @@
     
     <item>
       <title>Films</title>
-      <link>https://yunhaimath.com/posts/ca93bc7/</link>
+      <link>http://localhost:1313/posts/ca93bc7/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/ca93bc7/</guid>
+      <guid>http://localhost:1313/posts/ca93bc7/</guid>
       <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
@@ -271,10 +271,10 @@
     
     <item>
       <title>Books and Essays</title>
-      <link>https://yunhaimath.com/posts/326caca/</link>
+      <link>http://localhost:1313/posts/326caca/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/326caca/</guid>
+      <guid>http://localhost:1313/posts/326caca/</guid>
       <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
@@ -355,10 +355,10 @@
     
     <item>
       <title>Anime</title>
-      <link>https://yunhaimath.com/posts/1cea07d/</link>
+      <link>http://localhost:1313/posts/1cea07d/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/1cea07d/</guid>
+      <guid>http://localhost:1313/posts/1cea07d/</guid>
       <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
@@ -407,10 +407,10 @@
     
     <item>
       <title>Music</title>
-      <link>https://yunhaimath.com/posts/864c59b/</link>
+      <link>http://localhost:1313/posts/864c59b/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/864c59b/</guid>
+      <guid>http://localhost:1313/posts/864c59b/</guid>
       <description>&lt;p&gt;Here are some of my favorite Jazz artists.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave Brubeck&lt;/li&gt;
@@ -430,10 +430,10 @@
     
     <item>
       <title>Video Games</title>
-      <link>https://yunhaimath.com/posts/fe5a259/</link>
+      <link>http://localhost:1313/posts/fe5a259/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/fe5a259/</guid>
+      <guid>http://localhost:1313/posts/fe5a259/</guid>
       <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
@@ -457,10 +457,10 @@
     
     <item>
       <title>Markdown Test</title>
-      <link>https://yunhaimath.com/posts/33a60a9/</link>
+      <link>http://localhost:1313/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/33a60a9/</guid>
+      <guid>http://localhost:1313/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
@@ -627,8 +627,8 @@
 &lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://x.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.x.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
 &lt;br&gt;

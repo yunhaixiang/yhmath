@@ -2,17 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic-Geometry on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/tags/algebraic-geometry/</link>
+    <link>http://localhost:1313/tags/algebraic-geometry/</link>
     <description>Recent content in Algebraic-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galois Representations Arising from Geometry</title>
+      <link>http://localhost:1313/posts/galois-representations-from-geometry/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/galois-representations-from-geometry/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;etale-cohomology&#34;&gt;Etale Cohomology&lt;/h2&gt;
+&lt;h2 id=&#34;galois-actions&#34;&gt;Galois Actions&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;compatible-systems&#34;&gt;Compatible Systems&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/middle-extension-and-middle-convolution/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/middle-extension-and-middle-convolution/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
+&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
+&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Six Functor Formalism</title>
+      <link>http://localhost:1313/posts/six-functor-formalism/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/six-functor-formalism/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;the-six-operations&#34;&gt;The Six Operations&lt;/h2&gt;
+&lt;h2 id=&#34;adjunctions&#34;&gt;Adjunctions&lt;/h2&gt;
+&lt;h2 id=&#34;base-change&#34;&gt;Base Change&lt;/h2&gt;
+&lt;h2 id=&#34;projection-formula&#34;&gt;Projection Formula&lt;/h2&gt;
+&lt;h2 id=&#34;verdier-duality&#34;&gt;Verdier Duality&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves</title>
-      <link>https://yunhaimath.com/posts/06d0bcc/</link>
+      <link>http://localhost:1313/posts/06d0bcc/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/06d0bcc/</guid>
+      <guid>http://localhost:1313/posts/06d0bcc/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     In mathematics the art of proposing a question must be held of higher value than solving it.
@@ -394,10 +456,10 @@ Its Galois group is $\mu_n$, acting on the source by multiplication: $\zeta\in\m
 $$
 U\times_{\mathbb G_m,[n]}\mathbb G_m.
 $$&lt;p&gt;
-The action of $\mu_n$ on the cover gives an action of $\mu_n$ on this sheaf. If $\chi:\mu_n\rightarrow\Lambda^\times$ is a character, the &lt;em&gt;Kummer sheaf&lt;/em&gt; $\mathcal L_{\chi}$ is the subsheaf of $[n]_*\Lambda$ on which every deck transformation $\zeta\in\mu_n$ acts by the scalar $\chi(\zeta)$:
+The action of $\mu_n$ on the cover gives an action of $\mu_n$ on this sheaf. If $\chi:\mu_n\rightarrow\Lambda^\times$ is a character, the &lt;em&gt;Kummer sheaf&lt;/em&gt; $\mathcal K_{\chi}$ is the subsheaf of $[n]_*\Lambda$ on which every deck transformation $\zeta\in\mu_n$ acts by the scalar $\chi(\zeta)$:
 &lt;/p&gt;
 $$
-\mathcal L_{\chi}(U)=\{s\in ([n]_*\Lambda)(U):\zeta\cdot s=\chi(\zeta)s\text{ for all }\zeta\in\mu_n\}.
+\mathcal K_{\chi}(U)=\{s\in ([n]_*\Lambda)(U):\zeta\cdot s=\chi(\zeta)s\text{ for all }\zeta\in\mu_n\}.
 $$&lt;p&gt;
 Equivalently, choose a geometric point $\overline{x}\rightarrow\mathbb G_{m,k}$ and choose a point $\overline{y}$ of the geometric fiber $[n]^{-1}(\overline{x})$. The etale fundamental group acts on the fiber of every finite etale cover, so each $\gamma\in\pi_1^{\mathrm{\acute et}}(\mathbb G_{m,k},\overline{x})$ sends $\overline{y}$ to another point $\gamma\overline{y}$ of $[n]^{-1}(\overline{x})$. Since this fiber is a $\mu_n$-torsor, there is a unique element $\zeta(\gamma)\in\mu_n$ such that
 &lt;/p&gt;
@@ -409,12 +471,12 @@ This gives a quotient map
 $$
 \pi_1^{\mathrm{\acute et}}(\mathbb G_{m,k},\overline{x})\twoheadrightarrow \mu_n,\qquad \gamma\longmapsto \zeta(\gamma).
 $$&lt;p&gt;
-The representation attached to $\mathcal L_{\chi}$ is the rank one representation on the free $\Lambda$-module $\Lambda$ given by
+The representation attached to $\mathcal K_{\chi}$ is the rank one representation on the free $\Lambda$-module $\Lambda$ given by
 &lt;/p&gt;
 $$
 \rho_{\chi}(\gamma)(a)=\chi(\zeta(\gamma))a,\qquad a\in\Lambda.
 $$&lt;p&gt;
-The lisse sheaf attached to this representation is precisely $\mathcal L_{\chi}$.&lt;/p&gt;
+The lisse sheaf attached to this representation is precisely $\mathcal K_{\chi}$.&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -434,56 +496,18 @@ The lisse sheaf attached to this representation is precisely $\mathcal L_{\chi}$
 $$
 \mathrm{AS}:\mathbb A^1_k\rightarrow\mathbb A^1_k,\qquad t\longmapsto t^p-t
 $$&lt;p&gt;
-is a finite etale cover. Its deck group is the additive group $\mathbb F_p$, acting by translations $t\mapsto t+a$. The &lt;em&gt;Artin-Schreier sheaf&lt;/em&gt; $\mathcal L_{\psi}$ is the subsheaf of $\mathrm{AS}_*\Lambda$ on which $a\in\mathbb F_p$ acts by the scalar $\psi(a)$:
+is a finite etale cover. Its deck group is the additive group $\mathbb F_p$, acting by translations $t\mapsto t+a$. The &lt;em&gt;Artin-Schreier sheaf&lt;/em&gt; $\mathcal{AS}_{\psi}$ is the subsheaf of $\mathrm{AS}_*\Lambda$ on which $a\in\mathbb F_p$ acts by the scalar $\psi(a)$:
 &lt;/p&gt;
 $$
-\mathcal L_{\psi}(U)=\{s\in(\mathrm{AS}_*\Lambda)(U):a\cdot s=\psi(a)s\text{ for all }a\in\mathbb F_p\}.
+\mathcal{AS}_{\psi}(U)=\{s\in(\mathrm{AS}_*\Lambda)(U):a\cdot s=\psi(a)s\text{ for all }a\in\mathbb F_p\}.
 $$&lt;p&gt;
 Equivalently, after choosing a geometric point $\overline{x}\rightarrow\mathbb A^1_k$, the cover gives a quotient
 &lt;/p&gt;
 $$
 \pi_1^{\mathrm{\acute et}}(\mathbb A^1_k,\overline{x})\twoheadrightarrow\mathbb F_p,
 $$&lt;p&gt;
-and $\mathcal L_{\psi}$ corresponds to the rank one representation obtained by composing this quotient with $\psi:\mathbb F_p\rightarrow\Lambda^\times$.&lt;/p&gt;
+and $\mathcal{AS}_{\psi}$ corresponds to the rank one representation obtained by composing this quotient with $\psi:\mathbb F_p\rightarrow\Lambda^\times$.&lt;/p&gt;
 
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;example&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Example&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Assume $\mathrm{char}(k)=p&gt;0$, let $\ell\ne p$, and fix a nontrivial additive character $\psi:\mathbb F_p\rightarrow\Lambda^\times$. Let
-&lt;/p&gt;
-$$
-\sigma:\mathbb G_{m,k}^n\rightarrow\mathbb G_{m,k},\qquad (x_1,\dots,x_n)\longmapsto x_1\cdots x_n
-$$&lt;p&gt;
-and
-&lt;/p&gt;
-$$
-\tau:\mathbb G_{m,k}^n\rightarrow\mathbb A^1_k,\qquad (x_1,\dots,x_n)\longmapsto x_1+\cdots+x_n.
-$$&lt;p&gt;
-The &lt;em&gt;rank $n$ Kloosterman sheaf&lt;/em&gt; is
-&lt;/p&gt;
-$$
-\mathrm{Kl}_{n,\psi}:=\mathrm R^{n-1}\sigma_!\tau^*\mathcal L_{\psi}.
-$$&lt;p&gt;
-It is a lisse sheaf on $\mathbb G_{m,k}$. If $k=\mathbb F_q$ and $a\in\mathbb F_q^\times$, then its trace function is the classical Kloosterman sum
-&lt;/p&gt;
-$$
-\begin{aligned}
-\mathrm{Tr}(\mathrm{Frob}_a,(\mathrm{Kl}_{n,\psi})_{\overline{a}})
-&amp;=
-(-1)^{n-1}\sum_{\substack{x_1,\dots,x_n\in\mathbb F_q^\times\\x_1\cdots x_n=a}}
-\psi(\mathrm{Tr}_{\mathbb F_q/\mathbb F_p}(x_1+\cdots+x_n)).
-\end{aligned}
-$$
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -517,7 +541,7 @@ and $\mathcal L_{\rho}$ is the lisse sheaf corresponding to the representation
 $$
 \pi_1^{\mathrm{\acute et}}(X,\overline{x})\twoheadrightarrow G\xrightarrow{\rho}\mathrm{Aut}_{\Lambda}(M).
 $$&lt;p&gt;
-Kummer sheaves correspond to $G=\mu_n$ and a multiplicative character $\chi$, while Artin-Schreier sheaves correspond to $G=\mathbb F_p$ and an additive character $\psi$. Kloosterman sheaves are built from the Artin-Schreier sheaf by pullback and compactly supported higher direct image, as in the previous example.&lt;/p&gt;
+Kummer sheaves correspond to $G=\mu_n$ and a multiplicative character $\chi$, while Artin-Schreier sheaves correspond to $G=\mathbb F_p$ and an additive character $\psi$.&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -790,10 +814,10 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>https://yunhaimath.com/posts/ccda5dd/</link>
+      <link>http://localhost:1313/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/ccda5dd/</guid>
+      <guid>http://localhost:1313/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -960,10 +984,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>https://yunhaimath.com/posts/e7d7cf9/</link>
+      <link>http://localhost:1313/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/e7d7cf9/</guid>
+      <guid>http://localhost:1313/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -1484,10 +1508,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Brauer Group III</title>
-      <link>https://yunhaimath.com/posts/d04997f/</link>
+      <link>http://localhost:1313/posts/d04997f/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/d04997f/</guid>
+      <guid>http://localhost:1313/posts/d04997f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -1587,10 +1611,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>https://yunhaimath.com/posts/2878d6e/</link>
+      <link>http://localhost:1313/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/2878d6e/</guid>
+      <guid>http://localhost:1313/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -1751,15 +1775,15 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>https://yunhaimath.com/posts/ae85645/</link>
+      <link>http://localhost:1313/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/ae85645/</guid>
+      <guid>http://localhost:1313/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;https://yunhaimath.com/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -2236,10 +2260,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>https://yunhaimath.com/posts/5e33123/</link>
+      <link>http://localhost:1313/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/5e33123/</guid>
+      <guid>http://localhost:1313/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -2749,10 +2773,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>https://yunhaimath.com/posts/83ed120/</link>
+      <link>http://localhost:1313/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/83ed120/</guid>
+      <guid>http://localhost:1313/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -2839,10 +2863,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>https://yunhaimath.com/posts/40383e2/</link>
+      <link>http://localhost:1313/posts/40383e2/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/40383e2/</guid>
+      <guid>http://localhost:1313/posts/40383e2/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -2899,10 +2923,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>https://yunhaimath.com/posts/94f3165/</link>
+      <link>http://localhost:1313/posts/94f3165/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/94f3165/</guid>
+      <guid>http://localhost:1313/posts/94f3165/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -3135,10 +3159,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>https://yunhaimath.com/posts/5b8f0de/</link>
+      <link>http://localhost:1313/posts/5b8f0de/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/5b8f0de/</guid>
+      <guid>http://localhost:1313/posts/5b8f0de/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -3302,10 +3326,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Markdown Test</title>
-      <link>https://yunhaimath.com/posts/33a60a9/</link>
+      <link>http://localhost:1313/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/33a60a9/</guid>
+      <guid>http://localhost:1313/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
@@ -3472,8 +3496,8 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
 &lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://x.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.x.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
 &lt;br&gt;

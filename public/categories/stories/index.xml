@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stories on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/categories/stories/</link>
+    <link>http://localhost:1313/categories/stories/</link>
     <description>Recent content in Stories on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yunhaimath.com/categories/stories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/stories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>天空之王</title>
-      <link>https://yunhaimath.com/posts/6554748/</link>
+      <link>http://localhost:1313/posts/6554748/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/6554748/</guid>
+      <guid>http://localhost:1313/posts/6554748/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  那天，我看见一个自由的灵魂翱翔于西雅图的天空。他从云层的褶皱中钻出，夕阳点燃了他的翅膀。他大笑着，翻滚着，好像地上的熙熙攘攘都和他无关。地上的人听不到他的笑声，只忙于在灯火与钢铁中穿梭。偶尔有人抬头，也只觉得这天上的鸟儿飞得古怪。只有那个驻足在那里的牵着气球的小男孩，他看着那天空默默的怔了。&lt;/p&gt;
 &lt;p&gt;  一切都要从那个奇怪的无线电讯息说起。&lt;/p&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>失眠</title>
-      <link>https://yunhaimath.com/posts/a467f03/</link>
+      <link>http://localhost:1313/posts/a467f03/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/a467f03/</guid>
+      <guid>http://localhost:1313/posts/a467f03/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
 无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
@@ -87,10 +87,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Markdown Test</title>
-      <link>https://yunhaimath.com/posts/33a60a9/</link>
+      <link>http://localhost:1313/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/33a60a9/</guid>
+      <guid>http://localhost:1313/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
@@ -257,8 +257,8 @@ Math Rock以节奏复杂古怪著称。
 &lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://x.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.x.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
 &lt;br&gt;

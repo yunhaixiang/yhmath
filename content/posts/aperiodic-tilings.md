@@ -6,7 +6,6 @@ aliases:
   - /posts/aperiodic-tilings/
 categories: [expositions]
 tags: [math, geometry, combinatorics]
-draft: true
 ---
 
 
@@ -14,13 +13,40 @@ draft: true
 There is no such thing as quasicrystals, only quasi-scientists.
 {{< /pullquote >}}
 
-I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory and representation theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.
+I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.
+
+## Periodic Tilings
+
+Periodic tilings are much more well understood than aperiodic ones. These are tilings which can be transformed to itself by translation, rotation, or reflection. Regular polygons already admit periodic tilings, and they are represented with the Schläfli symbol $\{n,q\}$ meaning “$q$-regular $n$-gons” meet at each vertax. 
+
+{{< theorem >}}
+The only (edge-to-edge) periodic tilings by a regular polygon are $\{3, 6\},\{4, 4\}, \{6, 3\}$. 
+{{< /theorem >}}
+{{< proof >}}
+The interior angle is $\frac{(n-2)\pi}{n}$, and around each vertax the sum of angles $q\frac{(n-2)\pi}{n}=2\pi$. We obtain the diophantine equation $q(n-2)=2n$, which only gives these solutions. 
+{{< /proof >}}
+
+For nonregular polygon tilings, we know every triangle can tile periodically. Every quadrilateral also tiles periodically by gluing to itself rotated 180 degrees {{< cite key="GS87" note="Chapter 9" >}}. For convex pentagons and hexagons, all monohedral tilings by a convex prototile have been classified: there are 15 types for convex pentagons {{< cite key="Rao17" >}} and 3 types for convex hexagons {{< cite key="Rei18" >}}. For concave ones, we don't know a full classification for pentagons or hexagons. For convex $n$-gons with $n\ge 7$, no periodic tilings can exist {{< cite key="GS87" note="Chapter 9" >}}. 
+
+For periodic tilings with more than 1 prototile, it is more complicated. An *Archimedean tiling* is a tiling of possibly multiple prototiles all regular polygon, such that the same cyclic arrangement of polygons occurs at every vertex. They are completely classified and there are 11 of them. An *$m$-Archimedean tiling* is the generalization where one allows $m$ cyclic arrangement of polygons. These have been enumerated for small $m$. There are $20$ for $m=2$, $61$ for $m=3$, $151$ for $m=4$, and so on. 
+
+## Aperiodic Tiling
+
+An aperiodic tiling is a tiling whose prototiles can ONLY tile aperiodically. Wang tiles are the first aperiodic tiling. Wang tiles are squares with colored edges (which can be replaced with jaggedness), neighboring tiles must match edge colors, and you cannot rotate or translate tiles. Berger showed there are a set of Wang tiles that can only tile aperiodically. He also showed there are sets of Wang tiles where whether one could tile the plane is undecidable. For more aperiodic tilings, see [here](https://tilings.math.uni-bielefeld.de/). One famous example is Penrose tiling. They have two prototiles, kite and dart {{< cite key="Pen74" >}}. This came from the study of quasicrystals in physics {{< cite key="Sen06" >}}. Another famous example is the aperiodic monotile (Einstein problem): the hat and spectre, discovered by Smith, Myers, Kaplan, and Goodman-Strauss {{< cite key="SMKG24a" >}} {{< cite key="SMKG24b" >}}.
+
+One of the main ways to create aperiodic tilings is by *substitution tiling*. One defines how to expand a tile and subdivide it into prototiles, and then repeat. It will cover more and more parts of the plane, but one has to show this stabilizes. Penrose tilings are the prototypical substitution tiling. For the hat shape, it is not a substitution tiling. Its aperiodicity is shown with something called metatiles. Clusters of hats are grouped together called a metatile, and these metatiles satisfy a substitution tiling pattern. 
 
 ## References
 
 {{< bibliography >}}
   {{< bibitem key="GS87" author="Branko Grünbaum and G. C. Shephard" type="book" publisher="W. H. Freeman" year="1987" >}}
   Tilings and Patterns
+  {{< /bibitem >}}
+  {{< bibitem key="Rei18" author="Karl Reinhardt" type="book" publisher="Druck von Robert Noske" year="1918" >}}
+  Über die Zerlegung der Ebene in Polygone
+  {{< /bibitem >}}
+  {{< bibitem key="Rao17" author="Michaël Rao" type="article" eprint="1708.00274" year="2017" >}}
+  Exhaustive Search of Convex Pentagons Which Tile the Plane
   {{< /bibitem >}}
   {{< bibitem key="Gar89" author="Martin Gardner" type="book" publisher="W. H. Freeman" year="1989" >}}
   Penrose Tiles to Trapdoor Ciphers

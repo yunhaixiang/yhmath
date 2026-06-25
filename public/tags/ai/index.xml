@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in Ai on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 May 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Work of Art (and Science) in the Age of Algorithmic Reproducibility</title>
-      <link>https://yunhaimath.com/posts/f1d86af/</link>
+      <link>http://localhost:1313/posts/f1d86af/</link>
       <pubDate>Sun, 31 May 2026 00:00:01 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/f1d86af/</guid>
+      <guid>http://localhost:1313/posts/f1d86af/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
@@ -32,7 +32,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;and he attached the following image:&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;https://yunhaimath.com/img/monet.jpeg&#34;
+        src=&#34;http://localhost:1313/img/monet.jpeg&#34;
         alt=&#34;An AI-generated image in the style of a Monet painting&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -53,7 +53,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;Should we then value a work of art by its exhibition value? I also believe not, but with a subtlety. Today, we are in an age where the meaning of exhibition is very different from what it was when Benjamin lived. In particular, we have commodified the exhibition of our lives on social media to an extent that is pathological. The attention of social media users has become the commodity of the information age. Every single platform is pushing for more engagement, more attention from users, and more dopamine, which has permanently altered our brain chemistry. It is no wonder that AI art gets a high number of views – it is trained to do precisely that: videos of Stephen Hawking skateboarding in his wheelchair, Peter Griffin as a real-life person, historical figures coming back to life and getting speeding tickets, etc. Our spiritual life has become &lt;em&gt;the Bagel&lt;/em&gt; from the film &lt;em&gt;Everything Everywhere All at Once&lt;/em&gt;. There is everything, but also nothing, and we are forced to be spectators. To me, experiencing social media feels like being Malcolm McDowell strapped to the seat and having my eyes forcibly held open.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;https://yunhaimath.com/img/malcolm.jpg&#34;
+        src=&#34;http://localhost:1313/img/malcolm.jpg&#34;
         alt=&#34;Malcolm McDowell with his eyes held open in A Clockwork Orange&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -68,7 +68,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own right with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable artwork could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.&lt;/p&gt;
 &lt;h2 id=&#34;algorithmic-reproducibility-of-science&#34;&gt;Algorithmic Reproducibility of Science&lt;/h2&gt;
 &lt;p&gt;When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One cannot claim that math is like art just because human researchers have a sense of which kinds of math are more beautiful or elegant – that is an &lt;em&gt;aesthetic&lt;/em&gt; formed from personal experience, and an aesthetic is very different from art. What then will AI bring to science?&lt;/p&gt;
-&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;https://yunhaimath.com/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:1313/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In short, I do not think AI challenges science as much as it does art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -90,10 +90,10 @@ Please describe, in as much detail as possible, what makes this inferior to a re
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>https://yunhaimath.com/posts/6bf3326/</link>
+      <link>http://localhost:1313/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/6bf3326/</guid>
+      <guid>http://localhost:1313/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -176,10 +176,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>A Case for AI-Assisted Math</title>
-      <link>https://yunhaimath.com/posts/8ad6b3f/</link>
+      <link>http://localhost:1313/posts/8ad6b3f/</link>
       <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/8ad6b3f/</guid>
+      <guid>http://localhost:1313/posts/8ad6b3f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The struggle itself toward the heights is enough to fill a man’s heart.
@@ -213,10 +213,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>https://yunhaimath.com/posts/ad8f57d/</link>
+      <link>http://localhost:1313/posts/ad8f57d/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/ad8f57d/</guid>
+      <guid>http://localhost:1313/posts/ad8f57d/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -736,10 +736,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>https://yunhaimath.com/posts/85ac599/</link>
+      <link>http://localhost:1313/posts/85ac599/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/85ac599/</guid>
+      <guid>http://localhost:1313/posts/85ac599/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.

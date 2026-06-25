@@ -2,27 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Combinatorics on Yunhai Xiang</title>
-    <link>https://yunhaimath.com/tags/combinatorics/</link>
+    <link>http://localhost:1313/tags/combinatorics/</link>
     <description>Recent content in Combinatorics on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aperiodic Tilings</title>
-      <link>https://yunhaimath.com/posts/aperiodic-tilings/</link>
+      <link>http://localhost:1313/posts/aperiodic-tilings/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/aperiodic-tilings/</guid>
+      <guid>http://localhost:1313/posts/aperiodic-tilings/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is no such thing as quasicrystals, only quasi-scientists.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Linus Pauling&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory and representation theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.&lt;/p&gt;
+&lt;p&gt;I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.&lt;/p&gt;
+&lt;h2 id=&#34;periodic-tilings&#34;&gt;Periodic Tilings&lt;/h2&gt;
+&lt;p&gt;Periodic tilings are much more well understand than aperiodic ones. These are tilings which can be transformed to itself by translation, rotation, or reflection. Regular polygons already admit periodic tilings, and they are represented with the Schläfli symbol $\{n,q\}$ meaning “$q$-regular $n$-gons” meet at each vertax.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    The only (edge-to-edge) periodic tilings by a regular polygon are $\{3, 6\},\{4, 4\}, \{6, 3\}$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
+  &lt;span class=&#34;proof-heading&#34;&gt;
+    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&#34;proof-body&#34;&gt;
+    The interior angle is $\frac{(n-2)\pi}{n}$, and around each vertax the sum of angles $q\frac{(n-2)\pi}{n}=2\pi$. We obtain the diophantine equation $q(n-2)=2n$, which only gives these solutions.
+  &lt;/div&gt;
+  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;For nonregular polygon tilings, we know every triangle can tile periodically. Every quadrilateral also tiles periodically by gluing to itself rotated 180 degrees &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;GS87&#34; data-cite-note=&#34;Chapter 9&#34;&gt;
+  ⟦cite:GS87⟧
+&lt;/span&gt;. For convex pentagons and hexagons, all monohedral tilings by a convex prototile have been classified: there are 15 types for convex pentagons &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Rao17&#34;&gt;
+  ⟦cite:Rao17⟧
+&lt;/span&gt; and 3 types for convex hexagons &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Rei18&#34;&gt;
+  ⟦cite:Rei18⟧
+&lt;/span&gt;. For concave ones, we don&#39;t know a full classification for pentagons or hexagons. For convex $n$-gons with $n\ge 7$, no periodic tilings can exist &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;GS87&#34; data-cite-note=&#34;Chapter 9&#34;&gt;
+  ⟦cite:GS87⟧
+&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;For periodic tilings with more than 1 prototile, it is more complicated. An &lt;em&gt;Archimedean tiling&lt;/em&gt; is a tiling of possibly multiple prototiles all regular polygon, such that the same cyclic arrangement of polygons occurs at every vertex. They are completely classified and there are 11 of them. An &lt;em&gt;$m$-Archimedean tiling&lt;/em&gt; is the generalization where one allows $m$ cyclic arrangement of polygons. These have been enumerated for small $m$. There are $20$ for $m=2$, $61$ for $m=3$, $151$ for $m=4$, and so on.&lt;/p&gt;
+&lt;h2 id=&#34;aperiodic-tiling&#34;&gt;Aperiodic Tiling&lt;/h2&gt;
+&lt;p&gt;Wang tiles are the first aperiodic tiling. Wang tiles are squares with colored edges (which can be replaced with jaggedness), neighboring tiles must match edge colors, and you cannot rotate or translate tiles. Berger showed there are a set of Wang tiles that can only tile aperiodically. He also showed there are sets of Wang tiles where whether one could tile the plane is undecidable. For more aperiodic tilings, one can find &lt;a href=&#34;https://tilings.math.uni-bielefeld.de/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One famous example is Penrose tiling. They have two prototiles, kite and dart &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Pen74&#34;&gt;
+  ⟦cite:Pen74⟧
+&lt;/span&gt;. This came from the study of quasicrystals in physics &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Sen06&#34;&gt;
+  ⟦cite:Sen06⟧
+&lt;/span&gt;. Another famous example is the aperiodic monotile (Einstein problem): the hat and spectre, discovered by Smith, Myers, Kaplan, and Goodman-Strauss &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;SMKG24a&#34;&gt;
+  ⟦cite:SMKG24a⟧
+&lt;/span&gt; &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+       data-cite-key=&#34;SMKG24b&#34;&gt;
+   ⟦cite:SMKG24b⟧
+ &lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;One of the main ways to create aperiodic tilings is by &lt;em&gt;substitution tiling&lt;/em&gt;. One defines how to expand a tile and subdivide it into prototiles, and then repeat.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-GS87&#34; data-bib-key=&#34;GS87&#34;&gt;
   &lt;span class=&#34;bib-label&#34;&gt;[GS87]&lt;/span&gt;Branko Grünbaum and G. C. Shephard. &lt;em&gt;Tilings and Patterns&lt;/em&gt;. W. H. Freeman. 1987.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Rei18&#34; data-bib-key=&#34;Rei18&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Rei18]&lt;/span&gt;Karl Reinhardt. &lt;em&gt;Über die Zerlegung der Ebene in Polygone&lt;/em&gt;. Druck von Robert Noske. 1918.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Rao17&#34; data-bib-key=&#34;Rao17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Rao17]&lt;/span&gt;Michaël Rao. &lt;em&gt;Exhaustive Search of Convex Pentagons Which Tile the Plane&lt;/em&gt;. 2017. &lt;a href=&#34;https://arxiv.org/abs/1708.00274&#34;&gt;arXiv:1708.00274&lt;/a&gt;.&lt;/li&gt;
 
   &lt;li id=&#34;bib-Gar89&#34; data-bib-key=&#34;Gar89&#34;&gt;
   &lt;span class=&#34;bib-label&#34;&gt;[Gar89]&lt;/span&gt;Martin Gardner. &lt;em&gt;Penrose Tiles to Trapdoor Ciphers&lt;/em&gt;. W. H. Freeman. 1989.&lt;/li&gt;
@@ -65,10 +128,10 @@
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>https://yunhaimath.com/posts/6bf3326/</link>
+      <link>http://localhost:1313/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>https://yunhaimath.com/posts/6bf3326/</guid>
+      <guid>http://localhost:1313/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -151,10 +214,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Expander Graphs</title>
-      <link>https://yunhaimath.com/posts/4ce12e1/</link>
+      <link>http://localhost:1313/posts/4ce12e1/</link>
       <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
       
-      <guid>https://yunhaimath.com/posts/4ce12e1/</guid>
+      <guid>http://localhost:1313/posts/4ce12e1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
@@ -222,10 +285,10 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>https://yunhaimath.com/posts/c72806c/</link>
+      <link>http://localhost:1313/posts/c72806c/</link>
       <pubDate>Wed, 18 Dec 2024 10:06:03 +0000</pubDate>
       
-      <guid>https://yunhaimath.com/posts/c72806c/</guid>
+      <guid>http://localhost:1313/posts/c72806c/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
