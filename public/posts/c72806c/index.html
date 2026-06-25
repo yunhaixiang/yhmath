@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" style="font-size: 105%">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,9 +18,9 @@ This is a reposted old post from 2024. This post is about symmetric polynomials.
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://yunhaimath.com//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://yunhaimath.com//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://yunhaimath.com//images/favicon-16x16.png">
 
   
   
@@ -51,7 +51,7 @@ This is a reposted old post from 2024. This post is about symmetric polynomials.
   
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/c72806c/">
+  <meta property="og:url" content="https://yunhaimath.com/posts/c72806c/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Symmetric Polynomials">
   <meta property="og:description" content="“And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&#34; — Alexander Grothendieck This is a reposted old post from 2024. This post is about symmetric polynomials. A symmetric polynomial is">
@@ -66,7 +66,7 @@ This is a reposted old post from 2024. This post is about symmetric polynomials.
 
 
   
-  <link rel="canonical" href="http://localhost:1313/posts/c72806c/">
+  <link rel="canonical" href="https://yunhaimath.com/posts/c72806c/">
 
   
   
@@ -104,7 +104,7 @@ This is a reposted old post from 2024. This post is about symmetric polynomials.
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -124,7 +124,7 @@ This is a reposted old post from 2024. This post is about symmetric polynomials.
 
 <header id="header">
   <h1>
-    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <a href="https://yunhaimath.com/">Yunhai Xiang</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -213,17 +213,17 @@ This is a reposted old post from 2024. This post is about symmetric polynomials.
     <div class="post-taxonomy-line">
       
         
-          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+          <a class="link tag" href='https://yunhaimath.com/categories/expositions'>@expositions</a>
         
       
 
       
         
-          <a class="link tag" href='http://localhost:1313/tags/combinatorics'>#combinatorics</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/combinatorics'>#combinatorics</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/algebra'>#algebra</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/algebra'>#algebra</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/math'>#math</a>
         
       
 
@@ -253,9 +253,9 @@ $$f(x_1,\dots,x_n)\in \mathbb Z[x_1,\dots,x_n]$$<p> such that for any permutatio
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Fundamental Theorem of Symmetric Polynomials)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For each symmetric polynomial $g$ of degree $d$ there exists a unique polynomial $f$ of weight at most $d$ such that $g(x_1,\dots,x_n)=f(e_1,\dots,e_n)$.
-  </span>
+  </div>
 </div>
 
 <p>Another set of generators is the complete symmetric polynomial $h_k=\sum_{1\le i_1\le \cdots\le i_k\le n}x_{i_1}\cdots x_{i_k}$ for $1\le k\le n$. Consider the generating functions $E(t)=\sum_{k=0}^\infty e_kt^k$ and $H(t)=\sum_{k=0}^\infty h_k t^k$. One can show that
@@ -271,9 +271,9 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$<p>Therefo
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(First Jacobi-Trudi Identity)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     $$s_{\lambda}=\mathrm{det}(\{h_{\lambda_{i}+j-i}\}_{i,j})=\operatorname{det}\left(\begin{array}{cccc}h_{\lambda_1} & h_{\lambda_1+1} & \ldots & h_{\lambda_1+n-1} \\ h_{\lambda_2-1} & h_{\lambda_2} & \ldots & h_{\lambda_2+n-2} \\ \vdots & \vdots & \ddots & \vdots \\ h_{\lambda_n-n+1} & h_{\lambda_n-n+2} & \ldots & h_{\lambda_n}\end{array}\right) .$$
-  </span>
+  </div>
 </div>
 
 <p>There are similar transition determinental identities between $h_k,e_k,p_k$. Note that $s_\lambda s_\mu=\sum_\nu c_{\lambda \mu}^v s_v$ where $c_{\lambda \mu}^v$ is called the structure constant. This constant is usually difficult to find. To find them we need the following theorem.</p>
@@ -286,10 +286,10 @@ $$E(t)=\prod_{i=1}^n(1+x_it)\quad H(t)=\prod_{i=1}^n\frac{1}{1-x_it}$$<p>Therefo
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Pieri Formulas)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $\lambda\otimes 1^k$ (resp. $\lambda\otimes k$) be the partitions obtained from $\lambda$ by adding $k$ boxes to its Young diagram such that no two boxes belong to the same row (resp. column).</p>
 $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\sum_{\mu \in \lambda \otimes k} s_\mu$$
-  </span>
+  </div>
 </div>
 
 <p>Littlewood showed that Schur polynomials can be represented by sum indexed by semistandard Young tableaus $s_\lambda\left(x_1, \ldots, x_n\right)=\sum_{T \in \operatorname{SSYT}_\lambda(n)} \mathbf{x}^T .$ Define $\Lambda=\displaystyle\lim_{\longleftarrow}\Lambda_n$ the ring of symmetric functions. Let $\omega:\Lambda\rightarrow\Lambda$ be $\omega(h_{\lambda})=e_{\lambda}$, then $\omega^2=\mathrm{id}$. Define also bilinear form $\langle \cdot,\cdot\rangle:\Lambda^2\rightarrow\mathbb R$ extended by $\langle m_{\lambda},h_{\mu}\rangle=\delta_{\lambda\mu}$. Wrt this form, the Schur polynomials form an orthonormal basis with $\omega$ an isometry of it. This is the Hall inner product.</p>
@@ -330,10 +330,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/83ed120/" title="Grothendieck-Witt Ring"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="https://yunhaimath.com/posts/83ed120/" title="Grothendieck-Witt Ring"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/a467f03/" title="失眠">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="https://yunhaimath.com/posts/a467f03/" title="失眠">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
@@ -374,13 +374,13 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
   </div>
 
   
-  <script src='http://localhost:1313/js/script.js' defer></script>
+  <script src='https://yunhaimath.com/js/script.js' defer></script>
 
   
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/publications.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/codeblock.css" />
   
 
   

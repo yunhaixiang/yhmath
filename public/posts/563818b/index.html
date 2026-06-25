@@ -103,7 +103,7 @@ This is an old post reposted from 2023. I have always been curious about derived
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -248,7 +248,7 @@ This is an old post reposted from 2023. I have always been curious about derived
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>An <em>additive category</em> $\mathcal C$ is a category where for each $A,B\in\mathcal C$, the morphisms $\mathrm{Mor}(A,B)$ carry an additional additive abelian group structure, and satisfies</p>
 <ol>
 <li>$\mathcal C$ admits zero object,</li>
@@ -257,7 +257,7 @@ This is an old post reposted from 2023. I have always been curious about derived
 </ol>
 <p>We use the notation $\mathrm{Hom}(A,B)$ for $\mathrm{Mor}(A,B)$ in additive categories to emphasize that the morphisms have an abelian group structure. An <em>additive functor</em> $\mathcal F:\mathcal C\rightarrow\mathcal D$ between additive categories is a functor such that the associated map $\mathrm{Hom}(A,B)\rightarrow \mathrm{Hom}(\mathcal F(A),\mathcal F(B))$ is a group homomorphism for each $A,B\in\mathcal C$. Moreover, we denote by $0_{A,B}$ (or $0$ if there is no confusion) the identity element of $\mathrm{Hom}(A,B)$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>Note $0_{A,B}$ is the zero morphism since it's the unique morphism $A\rightarrow B$ which factors through $\mathbf 0$, i.e. $A\rightarrow\mathbf 0\rightarrow B$.  In particular, note that $0_{A,B}\circ f=0_{X,A}$ and $g\circ 0_{A,B}=0_{B,X}$ for any $f:X\rightarrow A$ and $g:B\rightarrow X$, for any object $X$. We note that equivalently, an additive functor maybe defined as a functor that preserves all finite biproducts.</p>
@@ -311,7 +311,7 @@ This is an old post reposted from 2023. I have always been curious about derived
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>An <em>abelian category</em> is an additive category where</p>
 <ol>
 <li>every morphism has a kernel and a cokernel,</li>
@@ -320,7 +320,7 @@ This is an old post reposted from 2023. I have always been curious about derived
 </ol>
 <p>Moreover, in an abelian category, for any morphism $f:A\rightarrow B$, we define its image as the kernel of its cokernel $\mathrm{Im}(f)=\mathrm{Ker}(\mathrm{Coker}(f))$, and coimage as the cokernel of its kernel $\mathrm{Coim}(f)=\mathrm{Coker}(\mathrm{Ker}(f))$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>A quintessential example of an abelian category is the category of $R$-modules. In fact, the <a href="https://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem">Freyd–Mitchell embedding theorem</a> states that any abelian category can be embedded to the category of $R$-modules for some $R$ via a fully faithful functor. So we may use element-wise diagram chasing in abelian categories, which may help us derive diagram chasing theorems such as $5$-lemma and snake lemma. In an abelian category, all finite limits and colimits exist, in particular, pullbacks exist and they preserve monomorphisms and epimorphisms.</p>
@@ -333,7 +333,7 @@ This is an old post reposted from 2023. I have always been curious about derived
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>In an abelian category,</p>
 <ol>
 <li>a morphism $f:A\rightarrow B$ is monic iff $\mathrm{Ker}(f)=\mathbf 0$, and epic iff $\mathrm{Coker}(f)=\mathbf 0$,</li>
@@ -341,7 +341,7 @@ This is an old post reposted from 2023. I have always been curious about derived
 <li>each morphism $f:X\rightarrow Y$ factorizes canonically as $X\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow Y$ and $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$</li>
 <li>for a morphism $f:A\rightarrow B$, if it factorizes as $A\twoheadrightarrow X\rightarrow B$ then $\mathrm{Coker}(f)=\mathrm{Coker}(X\rightarrow B)$, and if it factorizes as $A\rightarrow X\hookrightarrow B$, then $\mathrm{Ker}(f)=\mathrm{Ker}(A\rightarrow X)$.</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -372,9 +372,9 @@ This is an old post reposted from 2023. I have always been curious about derived
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(First isomorphism theorem)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     In an abelian category, all morphisms are strict.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -441,9 +441,9 @@ is called a <em>(co)chain complex</em> if each three term subsequence compose to
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $A^\bullet$ be a cochain complex in $\mathcal A$ with canonical morphisms $\mathrm{Im}(d^{n-1})\rightarrow\mathrm{Ker}(d^{n})$, define
-  </span>
+  </div>
 </div>
 
 </p>
@@ -479,9 +479,9 @@ as the $n$-th cohomology object. In fact, for a chain map $f^\bullet: A^\bullet\
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Suppose $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a morphism in $C(\mathcal A)$ for some abelian category $\mathcal A$. The <em>cone</em> of $f^\bullet$ is $\mathrm{Cone}(f^\bullet)=A^\bullet[1]\oplus B^\bullet$. Spelled out explicitly, the cochain complex consists of objects $A^{n+1}\oplus B^n$, and the differential $d^n:A^{n+1}\oplus B^n\rightarrow A^{n+2}\oplus B^{n+1}$ is given by
-  </span>
+  </div>
 </div>
 
 </p>
@@ -505,9 +505,9 @@ Hence this induces a long exact sequence on cohomology objects. Working out the 
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Suppose $\mathcal A$ is an abelian category. An object $X$ in $\mathcal A$ is <em>injective</em> (resp. <em>projective</em>) if the contravariant (resp. covariant) left exact (resp. right exact) hom-functor $\mathrm{Hom}(-,X):\mathcal A\rightarrow\mathbf{Ab}$ (resp. $\mathrm{Hom}(X,-):\mathcal A\rightarrow\mathbf{Ab}$) is exact. Moreover, we say $\mathcal A$ has <em>enough injectives</em> (resp. <em>enough projectives</em>) if for any object $Y$ there is an injective object (resp. projective object) $X$ and a monomorphism $Y\rightarrow X$ (resp. epimorphism $X\rightarrow Y$). An <em>injective resolution</em> of an object $X$ is a complex $I^\bullet$ bounded below $0$ and a quasi-isomorphism $X\rightarrow I^\bullet$, or equivalently, an exact sequence
-  </span>
+  </div>
 </div>
 
 </p>
@@ -570,9 +570,9 @@ Note that $\mathscr{F}$ is exact iff $R^1\mathscr{F}=0$, so in a sense the right
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $\mathcal A,\mathcal B$ be abelian categories and $\mathcal A$ has enough injectives. Suppose $\mathscr{F}:\mathcal A\rightarrow\mathcal B$ is a left-exact functor. Let $X\in\mathcal A$ and suppose $I^\bullet$ is an injective resolution, then we obtain a complex
-  </span>
+  </div>
 </div>
 
 </p>
@@ -591,13 +591,13 @@ for $i\ge 0$. Left derived functors $L_i\mathscr{F}$ are defined dually via proj
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>For $A,B\in \mathbf{Mod}_R$, define the Ext functors</p>
 $$\begin{aligned}\mathrm{Ext}_R^i(A,B)&=(R^i\mathrm{Hom}_R(A,-))(B)\\\ &\cong (R^i\mathrm{Hom}_R(-,B))(A)\end{aligned} $$<p> and the Tor functors </p>
 $$\begin{aligned}\mathrm{Tor}_i^R(A,B)&= (L_i(A\otimes_R -))(B)\\\ &\cong (L_i(-\otimes_R B))(A)\end{aligned}$$<p>
 for all $i\ge 0$.</p>
 
-  </span>
+  </div>
 </div>
 
 <!--- -->
@@ -610,14 +610,14 @@ for all $i\ge 0$.</p>
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Derived functors can help us defined many (co)homology theory.</p>
 <ol>
 <li><em>Sheaf cohomology.</em> Let $X$ be a topological space, then the global section functor $\Gamma:\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ which sends $\mathscr{F} \mapsto \mathscr{F}(X)$ is left exact, its right derived functor $H^i(X,-):\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ is the <em>sheaf cohomology</em> $H^i(X,\mathscr{F})$. Its special cases include the de Rham cohomology.</li>
 <li><em>Group cohomology.</em> Let $k$ be an algebraically closed field and $G$ a group, then the invariant functor $(-)^G:\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$, which is the same as $\mathrm{Hom}_{k[G]}(k,-)$, is left exact, its right derived functor $H^i(G;-):\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$ gives the group cohomology $H^i(G;M)=\mathrm{Ext}^i_{k[G]}(k,M)$.</li>
 <li><em>Hochschild cohomology.</em> This one I'm not really familiar, so I will not write about it in detail.</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <p>The derived functors are natural in the sense that if we have a morphism of two short exact sequence in $\mathcal A$, then the induced morphisms of the long exact sequences in $\mathcal B$ commutes with the long exact sequences. Finally, I'd like to finish with the definition of the homotopy category of complexes. We say that a chain map is <em>nullhomotopic</em> if it is homotopic to the zero chain.</p>
@@ -630,12 +630,12 @@ for all $i\ge 0$.</p>
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $\mathcal A$ be an abelian category, the <em>homotopy category of complexes</em> $ K(\mathcal A)$ is the category where objects are (co)chain complexes in $\mathcal A$ and morphisms are chain maps up to homotopy, i.e. </p>
 $$\mathrm{Hom}_{K(\mathcal A)}(A^\bullet,B^\bullet)=\mathrm{Hom}_{C(\mathcal A)}(A^\bullet,B^\bullet)/G$$<p>
 where $G$ is the subgroup of nullhomotopic chain maps.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>There are many things that needs to be checked here for it to be well defined, which we omit. We will see that this category is not typically abelian, but it is triangulated. A triangulated category is an approximation of an abelian category.</p>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Number-Theory on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/number-theory/</link>
+    <link>https://yunhaimath.com/tags/number-theory/</link>
     <description>Recent content in Number-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:28:09 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 14:28:09 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:1313/posts/e7d7cf9/</link>
+      <link>https://yunhaimath.com/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/e7d7cf9/</guid>
+      <guid>https://yunhaimath.com/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -29,7 +29,7 @@
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The Jacobian $\mathrm{Jac}(C)$ of a smooth projective curve $C$ is a principally polarizaed abelian variety, defined as the identity component the Picard scheme $\mathrm{Pic}^0(C)$, where the Picard functor is the fppf sheafification of the functor $(\mathrm{Sch}^{\mathrm{op}})_{\mathrm{fppf}}\to \mathbf{Ab}$
 &lt;/p&gt;
 $$T\mapsto \mathrm{Pic}(C_T)/\pi_*\mathrm{Pic}(T)$$&lt;p&gt;
@@ -37,7 +37,7 @@ representable by an abelian variety. A polarization of an abelian variety $A$ is
 $$\lambda_L:A\to A^\vee\qquad x\mapsto t^*_xL\otimes L^{-1}$$&lt;p&gt;where $t_x:A\rightarrow A$ is the translation map by $x$. Moreover it is called principal if it is an isomorphism.
 In the case of a Jacobian $J=\mathrm{Jac}(C)$, there is a principal polarization induced by the ample divisor $\Theta$, defined as the image of $C^{(g-1)}:=C^{g-1}/\mathrm{Sym}_{g-1}\to J$ that sends $D\mapsto \mathcal O_C(D-(g-1)P_0)$, where $P_0$ is a rational point, and $D$ is the divisor representation of an element in $C^{(g-1)}$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In other words, the Jacobian of $C$ is the moduli space of the degree $0$ line bundles on a $C$. The Neron-Severi group of $C$ is defined to be $\mathrm{Pic}(C)/\mathrm{Pic}^0(C)$. There is a canonical exact sequence.
@@ -53,9 +53,9 @@ where $\mathrm{NS}(C)=\mathbb Z$ if $k$ is algebraically closed.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For a smooth projective curve $C$ of genus $g$, its Jacobian $J=\mathrm{Jac}(C)$ has dimension $g$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -88,9 +88,9 @@ which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\righta
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For smooth projective curve $X$ over $\overline{k}$ with $\ell$ an invertible prime, $H^1(X,\mu_{\ell^n})=\mathrm{Pic}(X)[\ell^n]$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -120,13 +120,13 @@ Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \op
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;For a smooth projective curve $C$ of genus $g$ and its Jacobian $J=\mathrm{Jac}(C)$, we have an isomorphism of $\mathrm{Gal}_k$-modules
 &lt;/p&gt;
 $$\mathrm{AJ}^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$&lt;p&gt;
 induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -150,13 +150,13 @@ $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The $L$-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
 &lt;/p&gt;
 $$L_C(T)=\mathrm{det}(1-TF|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-TF|\mathrm{H^1}(J_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$&lt;p&gt;
 where $F=\mathrm{Frob}_q^{-1}$ is the geometric Frobenius, $\ell$ is an invertible prime in $C$, and $J=\mathrm{Jac}(C)$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;This polynomial appears in the numerator of the Weil zeta function&lt;/p&gt;
@@ -170,11 +170,11 @@ $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\fra
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Same setting as above, then
 &lt;/p&gt;
 $$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -206,11 +206,11 @@ $\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.&lt;/
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. Let the partition $(d_1,...,d_r)$ of $2g+2$ be the cycle type of the permutation of Frobenius on the $2g+2$ geometric branch points of $C\to \mathbb P^1$, then we have
 &lt;/p&gt;
 $$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -237,9 +237,9 @@ data-cite-key=&#34;Mum07&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $C/\mathbb F_q$ be a hyperelliptic curve of genus $g&gt;2$ such that $L_C(T)=1+a_gT^g+q^gT^{2g}$, then $a_g$ is even.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -271,9 +271,9 @@ swapping negative signs with positive ones. The LHS has exactly two linear facto
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $B$ be a basis of $H^1(C,\mathcal O_C)$, the Hasse–Witt matrix of $C$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -285,13 +285,13 @@ swapping negative signs with positive ones. The LHS has exactly two linear facto
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $C/\mathbb F_q$ be a smooth projective curve. If $H$ is the Hasse-Witt matrix of $C$, then
 &lt;/p&gt;
 $$L_C(T)\equiv \det(1-TH)\pmod p.$$&lt;p&gt;
 In other words, the characteristic polynomial computes the $L$-polynomial mod $p$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -317,9 +317,9 @@ data-cite-key=&#34;Man61&#34; data-cite-note=&#34;Theorem 1&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Let $\omega_C$ be the sheaf of regular Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt.
@@ -334,7 +334,7 @@ Recall that Serre duality gives a perfect pairing $H^0(C,\omega_C) \times H^1(C,
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;With the setting above, define the &lt;em&gt;adele ring&lt;/em&gt; of $C$ as the topological ring
 &lt;/p&gt;
 $$\mathbb A_C=\prod_{P\in |C|}(K_P,\widehat{\mathcal O}_{C,P})$$&lt;p&gt;
@@ -343,7 +343,7 @@ In other words it is a collection of $(f_P)_{P\in |C|}$ where only finitely many
 $$\mathbb A_C(D)=\prod_{P\in |C|}\widehat{\mathcal O_C(D)_P}=\{(f_P)_{P\in |C|}:\forall P\in |C|,\mathrm{ord}_P(f_P)+n_P\ge 0\}\subseteq\mathbb A_C$$&lt;p&gt;
 When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ the integral adeles. The rational functions $K\to \mathbb A_C$ embeds diagonally into the adeles.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -355,9 +355,9 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(C,\mathcal O_C(D))\cong \mathbb{A}_C/(\mathbb{A}_C(D)+K)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -383,14 +383,14 @@ data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Serre Duality)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The Serre pairing below is perfect
 &lt;/p&gt;
 $$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&amp;\rightarrow k\\
 ((f_P)_P,\omega) &amp;\mapsto\sum_{P\in |C|}\mathrm{Res}_{P}(f_P\omega)\end{aligned}$$&lt;p&gt;
 where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -416,9 +416,9 @@ data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The &lt;em&gt;Cartier operator&lt;/em&gt; $M:H^0(C,\omega_C) \to H^0(C,\omega_C)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(C,\mathcal O_C) \to H^1(C,\mathcal O_C)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, M\omega \rangle^{\tau}$ for all $\alpha \in H^1(C,\mathcal O_C)$ and $\omega \in H^0(C,\omega_C)$. The Cartier–Manin matrix with respect to a basis $B$ of $H^0(C,\omega_C)$ is the matrix of the Cartier operator with respct to $B$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Concretely, we can derive a formula for the Cartier operator as follows.&lt;/p&gt;
@@ -431,11 +431,11 @@ data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt_P\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
 &lt;/p&gt;
 $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -462,9 +462,9 @@ Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, t
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Same setting as above. Let $y^2=f(x)$ be an affine model of $C$. Suppose $f(x)^{\frac{p-1}{2}}=\sum_{m}c_m x^m$, then with respect to the standard basis $\omega_i=x^{i-1}\frac{\mathrm dx}{y}$ for $i=1,\dots,g$, the Cartier–Manin matrix is $(c_{pi-j}^{1/p})_{1\le i,j\le g}$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -491,9 +491,9 @@ and we are done.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Same setting as above. The dual basis of $H^1(C,\mathcal O_C)$ to the standard basis $H^0(C,\omega_C)$ is given by $\eta_i=-\frac{y}{2x^i}$ for $i=1,\dots,g$, with respect to which the Hasse-Witt matrix of $C$ is $(c_{pj-i})_{1\le i,j\le g}$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -533,10 +533,10 @@ and we are done.&lt;/p&gt;
     
     <item>
       <title>Expander Graphs</title>
-      <link>http://localhost:1313/posts/4ce12e1/</link>
+      <link>https://yunhaimath.com/posts/4ce12e1/</link>
       <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/4ce12e1/</guid>
+      <guid>https://yunhaimath.com/posts/4ce12e1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
@@ -559,9 +559,9 @@ and we are done.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     A &lt;em&gt;cover&lt;/em&gt; of a graph $\Gamma$ is a graph $\Gamma^\prime$ with a map $\pi:\Gamma^\prime\rightarrow\Gamma$ such that the induced map on incidences $\partial_{\Gamma}(v)\rightarrow\partial_{\Gamma^\prime}(\pi(v))$ is bijective. The &lt;em&gt;universal cover&lt;/em&gt; of a connected nonempty graph $\Gamma$ at a vertax $v$ is a graph $\widetilde{\Gamma}$ where vertices are all arcs in $\Gamma$ starting at $v$, and edges connect arcs that differ by exactly one edge at the end, with the projection $\pi:\widetilde{\Gamma}\rightarrow\Gamma$ mapping each arc to its other endpoint.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -573,7 +573,7 @@ and we are done.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;A family of finite nonempty connected graphs &lt;/p&gt;
 $$\{\Gamma_i=(V_i,E_i,\mathrm{ep}_i)\}_{i\in I}$$&lt;p&gt; is called an &lt;em&gt;expander family&lt;/em&gt; if there exists constants $v\ge 1$ and $h&gt;0$ such that&lt;/p&gt;
 &lt;ol&gt;
@@ -584,7 +584,7 @@ $$h(\Gamma_i)=\min_{\substack{S\subset V_i\\0&lt;|S|\le |V_i|/2}}\frac{|\partial
 is at least $h$, where $\partial S$ is the set of edges with exactly one endpoint in $S$.&lt;/li&gt;
 &lt;/ol&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -604,15 +604,15 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:1313/posts/ae85645/</link>
+      <link>https://yunhaimath.com/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ae85645/</guid>
+      <guid>https://yunhaimath.com/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;https://yunhaimath.com/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -626,11 +626,11 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;For each $r\ge 1$, there is injection
 &lt;/p&gt;
 $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomorphism}}\hookrightarrow \mathrm{H}^1(K,\mathrm{PGL}_r)$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -653,9 +653,9 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The aforementioned injection is actually a bijection, but we will not prove this here. Indeed, one can show that an Azumaya algebra of dimension $r^2$ is the same as a Galois twist of the matrix algebra $\mathrm{M}_r(K)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -667,11 +667,11 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;There is an isomorphism of abelian groups
 &lt;/p&gt;
 $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -702,14 +702,14 @@ Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $K$ be a field, then&lt;/p&gt;
 &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;If $\mathrm{char}(K)\nmid n$, then $\mathrm H^1(K, \mu_n)=K^\times/K^{\times n}$.&lt;/li&gt;
 &lt;li&gt;If $\mathrm{char}(K)\nmid n$, then $\mathrm H^2(K, \mu_n)\cong \mathrm{Br}(K)\left[n\right]$.&lt;/li&gt;
 &lt;li&gt;For any Galois extension $L\mid K$, we have $\mathrm H^2(\mathrm{Gal}(L\mid K), L^\times)=\mathrm{Ker}(\mathrm{Br}(K)\rightarrow\mathrm{Br}(L))$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -741,7 +741,7 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Here are some examples of Brauer groups of fields:&lt;/p&gt;
 &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;If $K$ is algebraically closed, $\mathrm{Br}(K)=0$,&lt;/li&gt;
@@ -752,7 +752,7 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 $$0\to \mathrm{Br}(K)\to \bigoplus_v \mathrm{Br}(K_v)\xrightarrow{\sum \mathrm{inv}_v} \mathbb{Q}/\mathbb{Z}\to 0$$
 where the sum is over all places $v$ of $K$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -784,9 +784,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $G$ be a profinite group and $p$ a prime. The &lt;em&gt;$p$-cohomological dimension&lt;/em&gt; $\mathrm{cd}_p(G)$ of $G$ is the smallest $n\in\mathbb N\cup\{\infty\}$ such that for all torsion $G$-module $A$, $\mathrm H^i(G,A)[p]=0$ for all $i&gt;n$. The strict $p$-cohomological dimension $\mathrm{scd}_p(G)$ of $G$ is defined as the same way without the condition of torsion for $A$. The cohomological dimension $\mathrm{cd}(G)$ (resp. strict cohomological dimension $\mathrm{scd}(G)$) is defined as $\sup_p \mathrm{cd}_p(G)$ (resp. $\sup_p \mathrm{scd}_p(G)$).
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -798,9 +798,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For any profinite $G$, we have $\mathrm{cd}(G)\le\mathrm{scd}(G)\le \mathrm{cd}(G)+1$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -812,9 +812,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If $\mathrm{cd}(K)\le 1$ then $\mathrm H^2(G_K,\mu_\infty)=0$ implies $\mathrm{Br}(K)=0$. If $\mathrm{cd}(K)= 2$ then $\mathrm H^i(G_K,\mu_\infty)=0$ for all $i\ge 3$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -826,9 +826,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If $K$ is algebraically closed then $\mathrm{cd}(K)=0$. If $K$ is finite then $\mathrm{cd}(K)=1$. If $K$ is a local field or global field then $\mathrm{cd}(K)=2$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -840,9 +840,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     A field $K$ is $C_r$ for some integer $r\ge 0$ if every homogeneous polynomial of degree $d$ in $n$ variables with $n&gt;d^r$ has a nontrivial zero in $K$. The adjective &lt;em&gt;quasi-algebraically closed&lt;/em&gt; means $C_1$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -854,13 +854,13 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;If $K$ is a $C_r$ field, $L\mid K$ an extension,&lt;/p&gt;
 &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;If $L$ is algebraic over $K$, then $L$ is $C_r$.&lt;/li&gt;
 &lt;li&gt;If $L$ is transcendental of trasncendence degree $s$ over $K$, then then $L$ is $C_{r+s}$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -872,9 +872,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Chevalley–Warning)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If $K$ is a finite field, then $K$ is $C_1$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -886,9 +886,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If $K$ is a $C_1$ field, then $\mathrm{Br}(K)=0$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;period-and-index&#34;&gt;Period and Index&lt;/h2&gt;
@@ -901,9 +901,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The &lt;em&gt;index&lt;/em&gt; of a finite dimensional central division algebra $D$ over a field $K$ is $\sqrt{[D:K]}\in\mathbb Z_{\ge 1}$, and the index of the Azumaya algebra $\mathrm M_r(D)$ is defined to be that of $D$. The &lt;em&gt;period&lt;/em&gt; of an Azumaya algebra $A$ is the order of its class in $\mathrm{Br}(K)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -915,9 +915,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For any Azumaya algebra $A$ over a field $K$, the period of $A$ divides the index of $A$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -943,9 +943,9 @@ we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Period and index have the same prime factors, and over certain fields such as local and global fields, they are equal. However, in general they can differ. The relationship between period and index is an active area of research in number theory.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;cyclic-algebras&#34;&gt;Cyclic Algebras&lt;/h2&gt;
@@ -959,10 +959,10 @@ we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $a\in K^\times$ and $\chi:\mathrm{G}_K\rightarrow \mathbb Z/n\mathbb Z$. Let $\mathrm G_K$ act on $\mathbb Z/n\mathbb Z$ by $g\cdot x=x+\chi(g)$, which, by a proposition from Part I, corresponds to an étale $K$-algebra $L$, and the automorphism $s\mapsto s+1$ of the $\mathrm G_K$ set $\mathbb Z/n\mathbb Z$ corresponds to an automorphism $\sigma$ of the $K$-algebra $L$. The &lt;em&gt;cyclic algebra&lt;/em&gt; associated to the pair $(\chi,a)$ is defined to be the $K$-algebra
 $(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -974,13 +974,13 @@ $(\chi,a)=L[x]_{\sigma}/(x^n - a)$.
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Cyclic algebra $(a,\chi)$ have cohomological interpretations. Suppose $\mathrm{char}(K)\nmid n$, then $a$ can be mapped into $K^\times/K^{\times n}\cong \mathrm H^1(K,\mu_n)$ and $\chi\in \mathrm{Hom}(\mathrm G_K,\mathbb Z/n\mathbb Z)=\mathrm H^1(K,\mathbb Z/n\mathbb Z)$. Under the cup product
 &lt;/p&gt;
 $$\mathrm H^1(K,\mu_n)\times \mathrm H^1(K,\mathbb Z/n\mathbb Z)\to \mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$$&lt;p&gt;
 the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}(K)[n]$ that corresponds to the cyclic algebra $(\chi,a)$ up to a sign.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -992,9 +992,9 @@ the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $L$ and $\chi$ be as above. An $A\in\mathbf{Az}_K$ with $[A:K]=[L:K]^2$ is split by $L$ iff $A\cong (\chi,a)$ for some $a\in K^\times$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -1006,9 +1006,9 @@ the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $L$ and $\chi$ as above, $a\in K^\times$, then $(\chi, a)$ is split as $K$-algebra iff $a\in N_{L\mid K}(L^\times)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;brauer-groups-of-rings&#34;&gt;Brauer Groups of Rings&lt;/h2&gt;
@@ -1021,7 +1021,7 @@ the pair $(a,\chi)$ maps to an element in $\mathrm H^2(K,\mu_n)\cong \mathrm{Br}
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $R$ be a ring, a not necessarily commutative $R$-algebra $A$ is an &lt;em&gt;Azumaya algebra&lt;/em&gt; over $R$ if&lt;/p&gt;
 &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;$A$ is finitely generated projective as an $R$-module,&lt;/li&gt;
@@ -1030,7 +1030,7 @@ $A\otimes_R A^{\mathrm{op}}\to \mathrm{End}_R(A)$
 by sending $a\otimes b^{\mathrm{op}}\mapsto (x\mapsto axb)$
 is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-remark&#34; 
@@ -1042,9 +1042,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Geometrically, this is the same as saying $\mathrm{Spec}(R)$ is étale-locally isomorphic to a matrix algebra over $R$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -1056,9 +1056,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Two Azumaya algebras $A$ and $B$ over $R$ are &lt;em&gt;Brauer equivalent&lt;/em&gt; if there exists $m,n\ge 1$ such that $A\otimes_R \mathrm{M}_m(R)\cong B\otimes_R \mathrm{M}_n(R)$ as $R$-algebras. The &lt;em&gt;Brauer group&lt;/em&gt; $\mathrm{Br}(R)$ of $R$ is the set of Brauer equivalence classes of Azumaya algebras over $R$ with group operation induced by tensor product, identity element $[R]$ and inverse $[A]^{-1}=[A^{\mathrm{op}}]$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -1070,9 +1070,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For rings and generally schemes, their Brauer groups are not necessarily equal to the second cohomology group. Instead one defines so called cohomological Brauer group $\mathrm{Br}&#39;(R)=\mathrm H^2_{ét}(\mathrm{Spec}(R), \mathbb{G}_m)_{\mathrm{tors}}$, there is a canonical injection $\mathrm{Br}(R)\hookrightarrow \mathrm{Br}&#39;(R)$ but it is not necessarily surjective. The same is true for schemes.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -1089,10 +1089,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/5e33123/</link>
+      <link>https://yunhaimath.com/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/5e33123/</guid>
+      <guid>https://yunhaimath.com/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -1113,14 +1113,14 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;A $K$-algebra $L$ is said to be &lt;em&gt;étale&lt;/em&gt; if any of the following equivalent conditions are satisfied&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,&lt;/li&gt;
 &lt;li&gt;$L$ is a direct product of finite separable extensions of $K$,&lt;/li&gt;
 &lt;li&gt;the induced map $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is finite and étale.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck&#39;s generalization of Galois theory.&lt;/p&gt;
@@ -1133,9 +1133,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1161,9 +1161,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -1175,9 +1175,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a &lt;em&gt;Galois étale algebra&lt;/em&gt; with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -1189,9 +1189,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Caveat&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The group $\mathrm{Aut}(L \mid K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L \mid K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -1203,9 +1203,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If one such $M$ in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;def-galois-etale&#34;&gt;⟦ref:def-galois-etale⟧&lt;/span&gt; exists, then one can take $M=K^{\mathrm{sep}}$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;galois-descent&#34;&gt;Galois Descent&lt;/h2&gt;
@@ -1219,9 +1219,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $L\mid K$ be a finite Galois extension with Galois group $G$. A &lt;em&gt;semi-linear action&lt;/em&gt; of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Let $W^G$ be the fixed vector space for any vector space $W$ with $G$-action.&lt;/p&gt;
@@ -1234,9 +1234,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1259,9 +1259,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1284,9 +1284,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1309,9 +1309,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1336,9 +1336,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi&#39;$ are said to be cohomologous if there exists $a\in A$ such that $\xi&#39;_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -1350,9 +1350,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Normal Basis Theorem)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1378,14 +1378,14 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Hilbert’s Theorem 90)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Suppose $L\mid K$ Galois, we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.&lt;/li&gt;
 &lt;li&gt;$\mathrm H^1(\mathrm{Gal}(L \mid K), L^{\times})=0$, and in particular, $\mathrm H^1(K,\mathbb G_m)=0$.&lt;/li&gt;
 &lt;li&gt;$\mathrm H^1(\mathrm{Gal}(L \mid K), \mathrm{GL}_r(L))=0$ for each $r\in\mathbb N$, and in particular, $\mathrm H^1(K,\mathrm{GL}_r)=0$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1423,9 +1423,9 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     An &lt;em&gt;Azumaya algebra&lt;/em&gt; over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse. A division algebra is always simple.&lt;/p&gt;
@@ -1438,7 +1438,7 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The following are equivalent for a $K$-algebra $A$:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$A$ is an Azumaya algebra over $K$,&lt;/li&gt;
@@ -1447,7 +1447,7 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
 &lt;li&gt;$A$ is a finite-dimensional central simple algebra over $K$.&lt;/li&gt;
 &lt;li&gt;there is a $K$-algebra isomorphism $A\cong \mathrm{M}_r(D)$ for some $r\ge 1$ and some finite-dimensional central division algebra $D$ over $K$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1474,9 +1474,9 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     A &lt;em&gt;quaternion algebra&lt;/em&gt; over a field $K$ of characteristic other than $2$ is an Azumaya algebra of dimension $4$, e.g. the $K$-algebra generated by symbols $i,j$ with relations $i^2=j^2=-1$ and $ij=-ji$ is the &lt;em&gt;Hamiltonian quaternions&lt;/em&gt; $\mathbb  H$, and if $i^2=j^2=1$ it is the &lt;em&gt;split quaternion algebra&lt;/em&gt;, isomorphic to $\mathrm{M}_2(K)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
@@ -1488,9 +1488,9 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $A$ be an Azumaya algebra over $K$, a splitting field of $A$ is a field extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$. If $L$ is a splitting field of $A$ we say $L$ splits $A$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -1502,9 +1502,9 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1531,13 +1531,13 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Skolem–Noether)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $A$ be an Azumaya algebra over $K$. Then&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;any $K$-algebra automorphism $\varphi: A \to A$ is an inner automorphism&lt;/li&gt;
 &lt;li&gt;any two $K$-algebra embeddings $\varphi, \psi: L \hookrightarrow A$ of a field extension $L/K$ are conjugate by an element of $A^\times$. That is, there exists $u \in A^\times$ such that for all $x \in L$, $\psi(x) = u \varphi(x) u^{-1}$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -1564,7 +1564,7 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The &lt;em&gt;Brauer group&lt;/em&gt; of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equivalence classes of Azumaya algebras over $K$ under the equivalence relation $A\sim B$ iff one of the following equivalent conditions hold:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,&lt;/li&gt;
@@ -1572,7 +1572,7 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 &lt;/ol&gt;
 &lt;p&gt;The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $L\mid K$ is a field extension then there is a group homomorphism $\mathrm{Br}(K)\rightarrow \mathrm{Br}(L)$ induced by base change, so $\mathrm{Br}:\mathbf{Field}\rightarrow\mathbf{Ab}$ is functorial in fields.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In the next post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.&lt;/p&gt;
@@ -1602,10 +1602,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:1313/posts/83ed120/</link>
+      <link>https://yunhaimath.com/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/83ed120/</guid>
+      <guid>https://yunhaimath.com/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -1620,12 +1620,12 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;$f(x,y)=xy$ and $g(x,y)=x^2-y^2$ are equivalent by change of variables $x\mapsto x+y$ and $y\mapsto x-y$. Their associated matrices are
 &lt;/p&gt;
 $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pmatrix}1 &amp; 0\\\ 0 &amp; -1\end{pmatrix}$$&lt;p&gt; and the change of variable matrix $A=\begin{pmatrix}1 &amp; 1\\\ 1 &amp; -1\end{pmatrix}$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In all following, all vector spaces are finite-dimensional. A quadratic space $(V,q)$ over $k$ is a vector space $V$ over $k$ and a function $q:V\rightarrow k$ called a quadratic map satisfying $q(ax)=a^2q(x)$ for all $a\in k$ and $x\in V$, and such that $(u,v)\mapsto q(u+v)-q(u)-q(v)$ is bilinear. An equivalence of quadratic spaces $(V_1,q_1),(V_2,q_2)$ is an isomorphism $\varphi:V_1\rightarrow V_2$ such that $q_1(x)=q_2(\varphi(x))$ for all $x\in V_1$. Obviously an $n$-ary quadratic form $f$ gives rise to a quadratic space $(k^n,f)$ where $f$ is the map of evaluating $f$. In the other direction, for a quadratic space $(V,q)$, choose a basis $e_i$, then this corresponds to a quadratic form $f=\sum_{1\le i,j\le n}a_{i,j} x_ix_j$ where $a_{i,j}=\frac{1}{2}(q(e_i+e_j)-q(e_i)-q(e_j))$, and in particular $a_{i,i}=q(e_i)$. We see that a quadratic space is equivalent to a quadratic form. Another equivalent structure is $(V,B)$, a vector space $V$ over $k$ with a symmetric bilinear form $B:V^2\rightarrow k$. Each $(V,B)$ determines a quadratic space $(V,q)$ where $q(x)=B(x,x)$. In the other direction, for a quadratic space $(V,q)$ we have a symmetric bilinear form $B(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w))$, called its polarization. An equivalence or isometry between $(V_1,B_1),(V_2,B_2)$ is a linear isomorphism $\varphi:V_1\rightarrow V_2$ such that $B_1(v,w)=B_2(\varphi(v),\varphi(w))$. We say a quadratic form is nondegenerate if the associated symmetric bilinear form is nondegenerate, or equivalently the associated symmetric matrix is invertible. A diagonal quadratic form is a quadratic form with a diagonal symmetric matrix. Every quadratic form is equivalent to a diagonal form.&lt;/p&gt;
@@ -1638,9 +1638,9 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     A quadratic form $f$ represents some $d\in k^\times$ if there exists $\lambda\in k^n$ with $f(\lambda)=d$. Let $D(f)$ be the subset of $k^\times$ represented by $f$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;For quadratic forms $f,g$, their orthogonal sum $f\oplus g$ is $f(x)+g(y)$, equivalent to taking block diagonal of their matrices, equivalent to direct sum of quadratic space (with sum of quadratic map), and equivalent to direct sum of symmetric bilinear space (with sum of symmetric bilinear form).&lt;/p&gt;
@@ -1653,9 +1653,9 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For a quadratic form $f$ on $V$, some $d\in k^\times$ is representable iff $V\cong \langle d\rangle\otimes W$ for $W$ another quadratic space. As a result, $V\cong \langle a_1,\dots,a_n\rangle $ for some $a_i$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Define the determinant of a quadratic form $f$ to be the image of $\det M_f$ in $k^\times/(k^\times)^2$. Define $\mathbb H=\langle 1, -1\rangle$ the hyperbolic plane, and its arbitrary orthogonal sum is hyperbolic space (including zero space). A quadratic space is isotropic if there is a nonzero vector $x$ such that $q(x)=0$ (an isotropic vector), and totally isotropic if every nonzero vector is isotropic, and anisotrpic if not isotropic.&lt;/p&gt;
@@ -1668,9 +1668,9 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Decomposition)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Each quadratic space is a orthogonal sum of a totally isotropic space, a hyperbolic space, and an anisotropic space, all unique up to equivalence.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -1682,9 +1682,9 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Witt Cancellation)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If $q\oplus q_1\cong q\oplus q_2$ then $q_1\cong q_2$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;We can define tensors of quadratic spaces by tensoring their underlying space and multiplying the quadratic map. Then orthogonal sum and tensor define a semiring on the set $M$ of equivalence classes of quadratic spaces. Define inverse formally on $M^2$ by $(x,y)\sim (s,t)$ iff $x+t=s+y$. Multiplication is defined in the obvious way. The resulting ring is the Grothendieck-Witt ring $\mathrm{GW}(k)$. The integer multiples of hyperbolic space $(\mathbb H)$ is an ideal in the GW ring, the quotient $\mathrm{W}(k)=\mathrm{GW}(k)/(\mathbb H)$ is the Witt ring. For more read &lt;a href=&#34;https://kyleormsby.github.io/files/quadratic_TNR.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
@@ -1692,10 +1692,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>http://localhost:1313/posts/7ab795f/</link>
+      <link>https://yunhaimath.com/posts/7ab795f/</link>
       <pubDate>Thu, 29 Feb 2024 00:10:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/7ab795f/</guid>
+      <guid>https://yunhaimath.com/posts/7ab795f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
@@ -1712,11 +1712,11 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cauchy)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $\gamma$ be a simply closed positively oriented curve with interior $\Gamma$. Let $f$ be a function meromorphic on an open set $\Omega$ containing $\Gamma$ and $\gamma$ that has no zero or pole on $\gamma$, and $g$ a nonzero function holomorphic on $\Omega$, then for $z_0\in\Gamma$ &lt;/p&gt;
 $$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\omega\in \Gamma}g(z_0)\mathrm{ord}_{w}(f)$$&lt;p&gt; when $g(z)=1$, the rhs is the difference between the number of zeros and poles in $\Omega$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;This theorem is proved by writing $f,g$ in terms of their Laurent series about $z_0$ and using Residue theorem. A corollary from this is that in any fundamental paralellogram $F_{\alpha}=\alpha+\{t_1\omega_1+t_2\omega_2:0\le t_1,t_2&lt;1\}$, the number of poles is equal to the number of zeros.&lt;/p&gt;
@@ -1729,11 +1729,11 @@ $$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\om
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $L$ be a lattice and $k&gt;2$ an integer. The Einsenstein series of weight $k$ is &lt;/p&gt;
 $$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$&lt;p&gt; Consider lattices $[1,\tau]$ for $\tau\in\mathbb H$ where $\mathbb H=\{z\in\mathbb C:\mathrm{Im}(z)&gt;0\}$ is the upper-half plane, we define $G_{k}(\tau)=G_{k}([1,\tau])$, so that $G_k$ is a funciton on the upper-half plane $\mathbb H$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;If $k$ is odd then the term $\frac{1}{\omega^k}$ cancels with $\frac{1}{(-\omega)^k}$, so the only interesting Einsenstein series are those of even weight. The Einsenstein series converges absolutely.&lt;/p&gt;
@@ -1746,11 +1746,11 @@ $$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$&lt;p&gt; Conside
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;A Weierstrass $\wp$-function of a lattice $L$ is &lt;/p&gt;
 $$\wp(z ; L)=\frac{1}{z^2}+\sum_{\omega \in L^*}\left(\frac{1}{(z-\omega)^2}-\frac{1}{\omega^2}\right)$$&lt;p&gt; we write $\wp(z)$ when there is no confusion of the lattice.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The $\wp$-function has a pole of order $w$ at each lattice point, and these are all the poles. Its derivative is&lt;/p&gt;
@@ -1765,11 +1765,11 @@ $$\wp(z)=\frac{1}{z^2}+\sum_{n=1}^{\infty}(2 n+1) G_{2 n+2}(L) z^{2 n}$$&lt;p&gt
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $L$ be a lattice, then &lt;/p&gt;
 $$\wp^{\prime}(z)^2=4 \wp(z)^3-g_2(L) \wp(z)-g_3(L),$$&lt;p&gt; where $g_2(L)=60G_4(L)$ and $g_3(L)=140 G_6(L)$&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;This corresponds to an elliptic curve by letting $y=\wp^\prime(z)$ and $x=\wp(z)$, so we have an elliptic curve $y^2=4 x^3-g_2(L) x-g_3(L)$, iff the discriminant $\Delta(L)=g_2(L)^3-27g_3(L)^2$ is nonzero, and this is always nonzero. We now have a map that gives an elliptic curve for each lattice&lt;/p&gt;
@@ -1779,10 +1779,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/33a60a9/</link>
+      <link>https://yunhaimath.com/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/33a60a9/</guid>
+      <guid>https://yunhaimath.com/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
@@ -1949,8 +1949,8 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
 &lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://x.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.x.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
 &lt;br&gt;

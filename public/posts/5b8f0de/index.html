@@ -103,7 +103,7 @@ This is an old post from 2022. We start by revisiting étale morphisms and intro
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -261,7 +261,7 @@ This is an old post from 2022. We start by revisiting étale morphisms and intro
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>First, we revisit the definitions and properties of étale morphisms of schemes.
 A morphism of schemes $f:X\rightarrow Y$ is <em>étale</em> if one of these equivalent conditions holds</p>
 <ol>
@@ -271,7 +271,7 @@ A morphism of schemes $f:X\rightarrow Y$ is <em>étale</em> if one of these equi
 <li>$f$ is locally of finite presentation and formally étale</li>
 <li>$f$ is locally of finite presentation and locally a standard étale morphism,</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <p>There are many more equivalent definitions of étale morphisms listed on <a href="https://en.wikipedia.org/wiki/%C3%89tale_morphism">wikipedia</a>. Intuitively, I think of étale morphisms analogous to covering maps. We need this notion to define the étale topology which we will need to use later. As a side note, there is also something called the étale fundamental group, which also uses the notion of étale morphisms. We recall these properties of étale morphisms.</p>
@@ -284,7 +284,7 @@ A morphism of schemes $f:X\rightarrow Y$ is <em>étale</em> if one of these equi
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <ol>
 <li>compotision of étale maps are étale,</li>
 <li>if $f:Y\rightarrow X$ is étale then its base change $Y\times_XZ\rightarrow Z$ is étale,</li>
@@ -292,7 +292,7 @@ A morphism of schemes $f:X\rightarrow Y$ is <em>étale</em> if one of these equi
 <li>given algebraically closed field $k$ and $k$-algebra $A$, then the morphism $\mathrm{Spec}(A)\rightarrow\mathrm{Spec}(k)$ is étale iff it is the disjoint union of spectra of finite separable field extensions of $k$.</li>
 </ol>
 
-  </span>
+  </div>
 </div>
 
 <p>Now, we are ready to define Grothendieck topology and sites.</p>
@@ -307,7 +307,7 @@ A morphism of schemes $f:X\rightarrow Y$ is <em>étale</em> if one of these equi
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>A <em>Grothendieck topology</em> on a category $\mathcal C$ is the data of a set of <em>coverings</em> of $U$, written as $\mathrm{Cov}(U)$, for each object $U\in \mathcal C$, where each covering $S\in\mathrm{Cov}(U)$ is a set of morphisms of $\mathcal C$ with $U$ as targets, such that for all $U\in\mathcal C$</p>
 <ol>
 <li>for each isomorphism $\varphi:V\rightarrow U$, we have $\{\varphi\}\in \mathrm{Cov}(U)$</li>
@@ -316,7 +316,7 @@ A morphism of schemes $f:X\rightarrow Y$ is <em>étale</em> if one of these equi
 </ol>
 <p>A category $\mathcal C$ equipped with a choice of Grothendieck topology, also denoted $\mathcal C$, is a <em>site</em>. A continuous functor between sites $f:\mathcal C\rightarrow\mathcal D$ is a functor between their underlying categories such that for all $\{X_i\rightarrow X\}\in \mathrm{Cov}_{\mathcal C}(X)$ we have $\{f(X_i)\rightarrow f(X)\}\in \mathrm{Cov}_{\mathcal D}(f(X))$, and it commutes with finite fibred products if they exist.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>For example, $\mathrm{Op}(X)$ for a topological space $X$ can be made into a site using the usual notion of covering. We note that in $\mathrm{Op}(X)$ we have the fibered product $U\times_X V=U\cap V$ for all open $U,V\subseteq X$, which agrees with the usual notion of intersection. For a category $\mathcal C$ with $X\in\mathcal C$, the category of objects over $X$, denoted $\mathcal C/X$ is the category where objects are morphisms $Y\rightarrow X$ in $\mathcal C$ and morphisms between $Y_1\rightarrow X$ and $Y_2\rightarrow X$ are all morphisms $Y_1\rightarrow Y_2$ in $\mathcal C$ such that the obvious triangle commutes, i.e. $(Y_1\rightarrow Y_2\rightarrow X)=Y_1\rightarrow X$. If $\mathcal C$ is a site, then $\mathcal C/X$ can be given a site structure, by letting $\mathrm{Cov}(U\rightarrow X)$ in $\mathcal C/X$ be $\mathrm{Cov}(U)$ in $\mathcal C$. The site $\mathcal C/X$ is called the <em>localization</em> of the site $\mathcal C$ at $X$. Suppose $X$ is a scheme, then we say that the <em>big Zariski (resp. big étale, resp. fppf) site</em>, denoted $(\mathbf{Sch}/X)_{\mathrm{Zar}}$ (resp. $(\mathbf{Sch}/X)_{\mathrm{ét}}$, resp. $(\mathbf{Sch}/X)_{\mathrm{fppf}}$) of $X$, is the site with the category $\mathbf{Sch}/X$ and $\{Y_i\rightarrow Y\}\in\mathrm{Cov}(U)$ iff each $Y_i\rightarrow Y$ is an open immersion with $Y=\bigcup_i Y_i$ (resp. each $Y_i\rightarrow Y$ is étale with $\coprod_i Y_i\rightarrow Y$ surjective, resp. each $Y_i\rightarrow Y$ is flat and locally of finite presentation with $\coprod_i Y_i\rightarrow Y$ surjective). An element of $\mathrm{Cov}(U\rightarrow X)$ is called a <em>Zariski cover</em> (resp. <em>étale cover</em>, resp. <em>fppf cover</em>) of $U$. The small Zariski site (resp. small étale site) of $X$, denoted $X_{\mathrm{Zar}}$ (resp. $X_{\mathrm{ét}}$) is the site whose category is the full subcategory of $\mathrm{Sch}/X$ where each object $U\rightarrow X$ is an open immersion (resp. étale), and the coverings are the same as the big Zariski (resp. big étale) site. The small Zariski site of $X$ is equivalent to the site $\mathrm{Op}(X)$. Moreover, we have the following inclusions
@@ -331,9 +331,9 @@ $$\{\mathrm{Zariski\ cover}\}\hookrightarrow\{\mathrm{étale\ cover}\}\hookright
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     A <em>presheaf</em> (of sets) on a site $\mathcal C$ is a contravariant functor $\mathscr{F}:\mathcal C\rightarrow\mathbf{Set}$, and a presheaf is a <em>sheaf</em> iff $\mathscr{F}(U)\rightarrow\prod_{i}\mathscr{F}(U_i)\rightrightarrows\prod_{i,j}\mathscr{F}(U_i\times_U U_j)$ is an equalizer for all $U\in\mathcal C$ and $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$. A presheaf is called <em>separated</em> if for all $U\in\mathcal C$ and $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$, the map $\mathscr{F}(U)\rightarrow \prod_i\mathscr{F}(U_i)$ is injective. We write $\mathrm{Sh}(\mathcal C)$ (resp. $\mathrm{PSh}(\mathcal C)$) for the category of sheaves (resp. presheaves) of the site $\mathcal C$.
-  </span>
+  </div>
 </div>
 
 <p>Note that a separated presheaf can be viewed as a presheaf that only satisfies one of the axioms of a sheaf, the identity axiom, but not necessaily the gluability axiom, therefore we have the obvious inclusions
@@ -348,12 +348,12 @@ $$\{\mathrm{sheaves}\}\hookrightarrow\{\mathrm{separated\ presheaves}\}\hookrigh
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>A <em>topos</em> is a category equivalent to $\mathrm{Sh}(\mathcal C)$ for a site $\mathcal C$. A morphism of topoi $f:\mathcal{T}_1\rightarrow \mathcal{T}_2$ is an adjoint pair $f^*\dashv f_*$ of functors $f^*:\mathcal{T}_1\rightarrow \mathcal{T}_2$ and $f_*:\mathcal{T}_2\rightarrow \mathcal{T}_1$ with a choice of natural isomorphism
 </p>
 $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T_2}(-,f_*(-))$$<p>where each naturality here means $\Phi$ is natural in each of the two dashes, and $f^*$ commutes with finite limits when they exist. Define composition in the obvious way.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>We remark that in the above definition, commuting with finite limits is equivalent to checking that $f^*$ commutes with finite products and preserve equalizers. In many cases, though not always, a continuous functor between sites $f:\mathcal C\rightarrow \mathcal D$ induces a functor $f_*:\mathrm{Sh}(\mathcal D)\rightarrow \mathrm{Sh}(\mathcal C)$ by $f_*(\mathscr{F})(X)=\mathscr{F}(f(X))$, where the well-definedness follows from $\mathscr{F}(f(U_i\times_U U_j))=\mathscr{F}(f(U_i)\times_{f(U)} f(U_j))$ for any $\{U_i\rightarrow U\}\in\mathrm{Cov}(U)$, as illustrated by the diagram</p>
@@ -386,9 +386,9 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     If $\mathcal C,\mathcal D$ are sites with small underlying categories, then the functor $f_*:\mathrm{Sh}(\mathcal D)\rightarrow \mathrm{Sh}(\mathcal C)$ induced by a continuous functor $f:\mathcal C\rightarrow \mathcal D$ admits a left adjoint $f^*:\mathrm{Sh}(\mathcal C)\rightarrow \mathrm{Sh}(\mathcal D)$. If, further, that finite limits in $\mathcal C$ are representable and $f$ commutes with them, then $f^*$ commutes with finite limits.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">

@@ -59,7 +59,7 @@ For today’s post, I want to write about the correspondence between “local sy
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-06-19T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-06-22T18:55:24-04:00">
+    <meta property="article:modified_time" content="2026-06-22T23:46:48-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Algebra">
@@ -74,8 +74,8 @@ For today’s post, I want to write about the correspondence between “local sy
   <meta itemprop="name" content="Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves">
   <meta itemprop="description" content="In mathematics the art of proposing a question must be held of higher value than solving it. — Georg Cantor For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
   <meta itemprop="datePublished" content="2026-06-19T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-06-22T18:55:24-04:00">
-  <meta itemprop="wordCount" content="2282">
+  <meta itemprop="dateModified" content="2026-06-22T23:46:48-04:00">
+  <meta itemprop="wordCount" content="3511">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Algebra">
 
   
@@ -104,7 +104,7 @@ For today’s post, I want to write about the correspondence between “local sy
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -192,7 +192,7 @@ For today’s post, I want to write about the correspondence between “local sy
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2282 words
+          3511 words
         </span>
       
       
@@ -205,7 +205,7 @@ For today’s post, I want to write about the correspondence between “local sy
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~11 mins
+          ~17 mins
         </span>
       
     </div>
@@ -267,9 +267,9 @@ For today’s post, I want to write about the correspondence between “local sy
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     A <em>local system</em> of $k$-vector spaces on $X$ is a locally constant sheaf $\mathcal L$ of $k$-vector spaces on $X$.
-  </span>
+  </div>
 </div>
 
 <p>We will use $\mathrm{LocSys}_k(X)$ to denote the category of local systems of $k$-vector spaces on $X$.
@@ -282,10 +282,10 @@ For today’s post, I want to write about the correspondence between “local sy
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>There is an equivalence of categories</p>
 $$\mathrm{LocSys}_k(X)\cong \mathrm{Rep}_k(\pi_1(X,x))$$
-  </span>
+  </div>
 </div>
 </p>
 <div class="proof-env" data-compact="true">
@@ -315,8 +315,8 @@ i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
-    <p>For $n\geq 1$, a <em>lisse</em> $\mathbb Z/\ell^n\mathbb Z$-<em>sheaf</em> on $X_{\mathrm{\acute et}}$ is a locally constant constructible sheaf of $\mathbb Z/\ell^n\mathbb Z$-modules. Equivalently, locally for the etale topology it is isomorphic to a constant sheaf associated to a finite $\mathbb Z/\ell^n\mathbb Z$-module. It has <em>rank</em> $r$ if locally it is isomorphic to $(\mathbb Z/\ell^n\mathbb Z)^r$.</p>
+  <div class="math-body">
+    <p>For $n\geq 1$, a <em>lisse</em> $\mathbb Z/\ell^n\mathbb Z$-<em>sheaf</em> on $X_{\mathrm{\acute et}}$ is a etale locally constant sheaf of $\mathbb Z/\ell^n\mathbb Z$-modules with finite stalks. It has <em>rank</em> $r$ if locally it is isomorphic to $(\mathbb Z/\ell^n\mathbb Z)^r$.</p>
 <p>A <em>lisse</em> $\mathbb Z_\ell$-<em>sheaf</em> is an inverse system $\mathcal F=(\mathcal F_n,\varphi_{n+1,n})_{n\geq 1}$, where each $\mathcal F_n$ is a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf and each transition map $\varphi_{n+1,n}:\mathcal F_{n+1}\rightarrow\mathcal F_n$ is $\mathbb Z/\ell^{n+1}\mathbb Z$-linear via the quotient map $\mathbb Z/\ell^{n+1}\mathbb Z\rightarrow\mathbb Z/\ell^n\mathbb Z$. We require that the induced map
 </p>
 $$
@@ -324,8 +324,9 @@ $$
 $$<p>
 be an isomorphism for all $n$. Equivalently, $\varphi_{n+1,n}$ identifies the quotient $\mathcal F_{n+1}/\ell^n\mathcal F_{n+1}$ with $\mathcal F_n$.</p>
 <p>A <em>lisse</em> $\mathbb Q_\ell$-<em>sheaf</em> is obtained by tensoring a lisse $\mathbb Z_\ell$-sheaf with $\mathbb Q_\ell$, i.e. it is of the form $\mathcal F\otimes_{\mathbb Z_\ell}\mathbb Q_\ell$ for a lisse $\mathbb Z_\ell$-sheaf $\mathcal F$.</p>
+<p>For $n\geq 1$, a $\mathbb Z/\ell^n\mathbb Z$-sheaf $\mathcal F$ is <em>constructible</em> if there exists a finite stratification $X=\coprod_i X_i$ by locally closed subsets such that $\mathcal F|_{X_i}$ is lisse for every $i$. A constructible $\mathbb Z_\ell$-sheaf is a compatible inverse system $(\mathcal F_n)_{n\geq 1}$ as above, with each $\mathcal F_n$ constructible. A constructible $\mathbb Q_\ell$-sheaf is obtained from a constructible $\mathbb Z_\ell$-sheaf by tensoring with $\mathbb Q_\ell$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>Recall that the étale fundamental group is an inverse limit
@@ -343,9 +344,9 @@ where the limit runs over connected finite etale covers $Y\rightarrow X$ equippe
   <span class="math-title"
         data-label='Notation'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$, write $\mathrm{Lisse}_\Lambda(X)$ for the category of lisse $\Lambda$-sheaves on $X_{\mathrm{\acute et}}$, and write $\mathrm{Rep}^{\mathrm{cont}}_\Lambda(\pi_1^{\mathrm{\acute et}}(X,\overline{x}))$ for the category of continuous representations of $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$ on finite $\Lambda$-modules.
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-defn" 
@@ -357,9 +358,9 @@ where the limit runs over connected finite etale covers $Y\rightarrow X$ equippe
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf $\mathcal F$, its <em>étalé space</em> $\mathrm{Et}(\mathcal F)$ is the finite étale $X$-scheme representing $\mathcal F$ as a sheaf of sets.
-  </span>
+  </div>
 </div>
 
 Étale locally on $X$, the sheaf $\mathcal F$ is isomorphic to the constant sheaf associated to a finite $\mathbb Z/\ell^n\mathbb Z$-module $M$, which is represented by the finite etale cover $\coprod_{m\in M}U\rightarrow U$. Since being finite etale descends along etale covers, the representing scheme  is finite etale.</p>
@@ -372,13 +373,13 @@ where the limit runs over connected finite etale covers $Y\rightarrow X$ equippe
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>For $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$, the fiber functor $\mathcal F\mapsto\mathcal F_{\overline{x}}$ gives an equivalence
 </p>
 $$
 \mathrm{Lisse}_\Lambda(X)\cong \mathrm{Rep}^{\mathrm{cont}}_\Lambda(\pi_1^{\mathrm{\acute et}}(X,\overline{x})).
 $$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -400,7 +401,7 @@ We claim that $\mathcal F_\rho$ is lisse. Since $M$ is finite and $\rho$ is cont
 $
 \pi_1^{\mathrm{\acute et}}(Y,\overline{y})=H
 $
-acts trivially on $M$. Hence the pullback of $\mathcal F_\rho$ to $Y_{\mathrm{\acute et}}$ is the sheaf associated to the trivial representation of $\pi_1^{\mathrm{\acute et}}(Y,\overline{y})$ on $M$, which is the constant sheaf $\underline{M}_Y$. Thus $\mathcal F_\rho$ becomes constant after the finite etale cover $Y\rightarrow X$. Since $M$ is finite, $\mathcal F_\rho$ is locally constant constructible, hence lisse.</p>
+acts trivially on $M$. Hence the pullback of $\mathcal F_\rho$ to $Y_{\mathrm{\acute et}}$ is the sheaf associated to the trivial representation of $\pi_1^{\mathrm{\acute et}}(Y,\overline{y})$ on $M$, which is the constant sheaf $\underline{M}_Y$. Thus $\mathcal F_\rho$ becomes constant after the finite etale cover $Y\rightarrow X$. Since $M$ is finite, $\mathcal F_\rho$ is locally constant with finite stalks, hence lisse.</p>
 <p>The two constructions are mutually inverse. Starting with $\rho$ on $M$, the stalk of $\mathcal F_\rho$ at $\overline{x}$ is
 </p>
 $$
@@ -423,6 +424,304 @@ After pulling back to an etale cover on which $\mathcal F$ is constant, this map
   <span class="proof-qed"></span>
 </div>
 </p>
+<p>For a cartesian square of schemes</p>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 0px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJYXlxccHJpbWUiXSxbMSwwLCJYIl0sWzAsMSwiU15cXHByaW1lIl0sWzEsMSwiUyJdLFswLDEsImdeXFxwcmltZSJdLFswLDIsImZeXFxwcmltZSIsMl0sWzEsMywiZiJdLFsyLDMsImciXV0=&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 125px;
+      height: 125px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.75);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+<p>if $\mathcal F$ is a constructible $\Lambda$-sheaf on $X$ and $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$, there is a map for each $i\ge 0$,
+</p>
+$$
+\varepsilon:g^*\mathrm R^if_*\mathcal F\longrightarrow \mathrm R^if'_*g'^*\mathcal F.
+$$<p>
+This map is constructed as follows. For a morphism of schemes $h:A\rightarrow B$, the inverse image functor $h^*$ on sheaves is exact, while $h_*$ is left exact. The usual adjunction $h^*\dashv h_*$ therefore derives to an adjunction
+</p>
+$$
+h^*:\mathrm D^+(B,\Lambda)\rightleftarrows \mathrm D^+(A,\Lambda):\mathrm Rh_*.
+$$<p>
+Thus, for $h=g'$ we have $g'^*\dashv \mathrm Rg'_*$, and its unit gives a natural map
+</p>
+$$
+\mathcal F\longrightarrow \mathrm Rg'_*g'^*\mathcal F.
+$$<p>
+Applying $\mathrm Rf_*$ gives
+</p>
+$$
+\mathrm Rf_*\mathcal F\longrightarrow \mathrm Rf_*\mathrm Rg'_*g'^*\mathcal F.
+$$<p>
+Since the square is cartesian, we have $f\circ g'=g\circ f'$, hence $\mathrm Rf_*\mathrm Rg'_*=\mathrm Rg_*\mathrm Rf'_*$. Therefore the previous arrow becomes
+</p>
+$$
+\mathrm Rf_*\mathcal F\longrightarrow \mathrm Rg_*\mathrm Rf'_*g'^*\mathcal F.
+$$<p>
+Now use the adjunction $g^*\dashv \mathrm Rg_*$. Under the bijection
+</p>
+$$
+\mathrm{Hom}(\mathrm Rf_*\mathcal F,\mathrm Rg_*\mathrm Rf'_*g'^*\mathcal F)
+\cong
+\mathrm{Hom}(g^*\mathrm Rf_*\mathcal F,\mathrm Rf'_*g'^*\mathcal F),
+$$<p>
+the preceding morphism corresponds to
+</p>
+$$
+g^*\mathrm Rf_*\mathcal F\longrightarrow \mathrm Rf'_*g'^*\mathcal F.
+$$<p>
+Since $g^*$ is exact on sheaves, it commutes with cohomology sheaves:
+</p>
+$$
+\mathcal H^i(g^*\mathrm Rf_*\mathcal F)\cong g^*\mathcal H^i(\mathrm Rf_*\mathcal F)=g^*\mathrm R^if_*\mathcal F.
+$$<p>
+Thus taking the $i$-th cohomology sheaf of the derived morphism above gives
+</p>
+$$
+\varepsilon:g^*\mathrm R^if_*\mathcal F\longrightarrow \mathrm R^if'_*g'^*\mathcal F.
+$$<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Base Change Theorems)</span>
+  </span>
+  <div class="math-body">
+    <p>Let $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$. For each cartesian square as above, the map
+</p>
+$$
+\varepsilon:g^*\mathrm R^if_*\mathcal F\longrightarrow \mathrm R^if'_*g'^*\mathcal F.
+$$<p>
+is an isomorphism for all $i\ge 0$ if one of the following is true</p>
+<ol>
+<li>
+<p>(Proper Base Change Theorem) $f:X\rightarrow S$ is proper and $\mathcal F$ is a constructible $\Lambda$-sheaf on $X$</p>
+</li>
+<li>
+<p>(Smooth Base Change Theorem) $g:S'\rightarrow S$ is smooth and $\mathcal F$ is a constructible $\Lambda$-sheaf on $X$</p>
+</li>
+</ol>
+
+  </div>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Mil80" data-cite-note="Chapter VI, Theorems 2.1 and 4.1">
+⟦cite:Mil80⟧
+</span>.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<p><div class="math-env style-plain" 
+    id="cor-smooth-proper-lisse"
+     data-kind="corollary"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Corollary'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $f:X\rightarrow S$ be smooth and proper, and let $\mathcal F$ be a lisse $\Lambda$-sheaf on $X$. Then $\mathrm R^if_*\mathcal F$ is a lisse $\Lambda$-sheaf on $S$ for every $i\ge 0$. Moreover, for every geometric point $\overline{s}\rightarrow S$, proper base change identifies the stalk with the cohomology of the geometric fiber:
+</p>
+$$
+(\mathrm R^if_*\mathcal F)_{\overline{s}}\cong \mathrm H^i(X_{\overline{s}},\mathcal F|_{X_{\overline{s}}}).
+$$
+  </div>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    <p>Apply proper base change to the pullback square obtained from a geometric point $g:\overline{s}\rightarrow S$. Then $X'=X_{\overline{s}}$, and the base change isomorphism gives
+</p>
+$$
+g^*\mathrm R^if_*\mathcal F\cong \mathrm R^if'_*g'^*\mathcal F.
+$$<p>
+This is an isomorphism of sheaves on $\overline{s}_{\mathrm{\acute et}}$. Since $\overline{s}$ is the spectrum of a separably closed field, a sheaf on $\overline{s}_{\mathrm{\acute et}}$ is determined by its value at $\overline{s}$. Evaluating the left side gives
+</p>
+$$
+(g^*\mathrm R^if_*\mathcal F)(\overline{s})=(\mathrm R^if_*\mathcal F)_{\overline{s}},
+$$<p>
+by the definition of stalk at a geometric point. Evaluating the right side gives
+</p>
+$$
+(\mathrm R^if'_*g'^*\mathcal F)(\overline{s})=\mathrm H^i(X_{\overline{s}},\mathcal F|_{X_{\overline{s}}}),
+$$<p>
+because $f':X_{\overline{s}}\rightarrow \overline{s}$ is the structure map. This proves the stalk formula, and properness gives finiteness of these cohomology groups. To see local constancy, apply smooth base change to etale morphisms $g:S'\rightarrow S$. Since etale morphisms are smooth, the theorem says that the formation of $\mathrm R^if_*\mathcal F$ is unchanged after passing to such an etale cover. Applying this on an etale cover where the smooth family and the lisse sheaf are locally trivial shows that $\mathrm R^if_*\mathcal F$ is locally constant with finite stalks, hence lisse.</p>
+
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $f:X\rightarrow S$ be smooth and proper, and take the constant lisse sheaf $\Lambda_X$ on $X$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="cor-smooth-proper-lisse">⟦ref:cor-smooth-proper-lisse⟧</span>, the sheaves
+</p>
+$$
+\mathrm R^if_*\Lambda_X
+$$<p>
+are lisse $\Lambda$-sheaves on $S$. Their stalk at a geometric point $\overline{s}\rightarrow S$ is
+</p>
+$$
+(\mathrm R^if_*\Lambda_X)_{\overline{s}}\cong \mathrm H^i(X_{\overline{s}},\Lambda).
+$$<p>
+Thus the etale cohomology groups of the geometric fibers form a local system on $S$. Equivalently, after choosing a geometric point $\overline{s}\rightarrow S$, this lisse sheaf gives a continuous monodromy representation
+</p>
+$$
+\rho_i:\pi_1^{\mathrm{\acute et}}(S,\overline{s})\rightarrow \mathrm{Aut}_{\Lambda}\!\left(\mathrm H^i(X_{\overline{s}},\Lambda)\right).
+$$<p>
+The Tate module of an abelian variety is a special case. If $A$ is an abelian variety over a field $k$ with separable closure $\overline{k}$, then
+</p>
+$$
+T_{\ell}(A)=\varprojlim_n A[\ell^n](\overline{k})
+$$<p>
+is a continuous representation of $\mathrm{Gal}(\overline{k}/k)=\pi_1^{\mathrm{\acute et}}(\mathrm{Spec}(k),\mathrm{Spec}(\overline{k}))$, and it is naturally dual to $\mathrm H^1(A_{\overline{k}},\mathbb Z_\ell)$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $k$ be a field with $n$ invertible, and $\Lambda$ be $\mathbb Z/\ell^m\mathbb Z$, $\mathbb Z_\ell$, or $\mathbb Q_\ell$ with $\ell\nmid n$. Consider the finite etale Kummer cover
+</p>
+$$
+[n]:\mathbb G_{m,k}\rightarrow \mathbb G_{m,k},\qquad t\longmapsto t^n.
+$$<p>
+Its Galois group is $\mu_n$, acting on the source by multiplication: $\zeta\in\mu_n$ sends $t$ to $\zeta t$. The sheaf $[n]_*\Lambda$ is locally free of rank $n$; for an etale $U\rightarrow\mathbb G_{m,k}$, its sections are locally constant $\Lambda$-valued functions on the pullback cover
+</p>
+$$
+U\times_{\mathbb G_m,[n]}\mathbb G_m.
+$$<p>
+The action of $\mu_n$ on the cover gives an action of $\mu_n$ on this sheaf. If $\chi:\mu_n\rightarrow\Lambda^\times$ is a character, the <em>Kummer sheaf</em> $\mathcal K_{\chi}$ is the subsheaf of $[n]_*\Lambda$ on which every deck transformation $\zeta\in\mu_n$ acts by the scalar $\chi(\zeta)$:
+</p>
+$$
+\mathcal K_{\chi}(U)=\{s\in ([n]_*\Lambda)(U):\zeta\cdot s=\chi(\zeta)s\text{ for all }\zeta\in\mu_n\}.
+$$<p>
+Equivalently, choose a geometric point $\overline{x}\rightarrow\mathbb G_{m,k}$ and choose a point $\overline{y}$ of the geometric fiber $[n]^{-1}(\overline{x})$. The etale fundamental group acts on the fiber of every finite etale cover, so each $\gamma\in\pi_1^{\mathrm{\acute et}}(\mathbb G_{m,k},\overline{x})$ sends $\overline{y}$ to another point $\gamma\overline{y}$ of $[n]^{-1}(\overline{x})$. Since this fiber is a $\mu_n$-torsor, there is a unique element $\zeta(\gamma)\in\mu_n$ such that
+</p>
+$$
+\gamma\overline{y}=\zeta(\gamma)\overline{y}.
+$$<p>
+This gives a quotient map
+</p>
+$$
+\pi_1^{\mathrm{\acute et}}(\mathbb G_{m,k},\overline{x})\twoheadrightarrow \mu_n,\qquad \gamma\longmapsto \zeta(\gamma).
+$$<p>
+The representation attached to $\mathcal K_{\chi}$ is the rank one representation on the free $\Lambda$-module $\Lambda$ given by
+</p>
+$$
+\rho_{\chi}(\gamma)(a)=\chi(\zeta(\gamma))a,\qquad a\in\Lambda.
+$$<p>
+The lisse sheaf attached to this representation is precisely $\mathcal K_{\chi}$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <div class="math-body">
+    <p>Assume $\mathrm{char}(k)=p>0$ and let $\ell\ne p$. Let $\Lambda$ be $\mathbb Z/\ell^m\mathbb Z$, $\mathbb Z_\ell$, or $\mathbb Q_\ell$, and choose a nontrivial additive character $\psi:\mathbb F_p\rightarrow\Lambda^\times$. The Artin-Schreier map
+</p>
+$$
+\mathrm{AS}:\mathbb A^1_k\rightarrow\mathbb A^1_k,\qquad t\longmapsto t^p-t
+$$<p>
+is a finite etale cover. Its deck group is the additive group $\mathbb F_p$, acting by translations $t\mapsto t+a$. The <em>Artin-Schreier sheaf</em> $\mathcal{AS}_{\psi}$ is the subsheaf of $\mathrm{AS}_*\Lambda$ on which $a\in\mathbb F_p$ acts by the scalar $\psi(a)$:
+</p>
+$$
+\mathcal{AS}_{\psi}(U)=\{s\in(\mathrm{AS}_*\Lambda)(U):a\cdot s=\psi(a)s\text{ for all }a\in\mathbb F_p\}.
+$$<p>
+Equivalently, after choosing a geometric point $\overline{x}\rightarrow\mathbb A^1_k$, the cover gives a quotient
+</p>
+$$
+\pi_1^{\mathrm{\acute et}}(\mathbb A^1_k,\overline{x})\twoheadrightarrow\mathbb F_p,
+$$<p>
+and $\mathcal{AS}_{\psi}$ corresponds to the rank one representation obtained by composing this quotient with $\psi:\mathbb F_p\rightarrow\Lambda^\times$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="example"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Example'></span>
+  </span>
+  <div class="math-body">
+    <p>The Kummer and Artin-Schreier examples are instances of the same descent construction. Let $\pi:Y\rightarrow X$ be a finite etale right $G$-torsor, where $G$ is a finite group, and let $\rho:G\rightarrow\mathrm{Aut}_{\Lambda}(M)$ be a representation on a finite free $\Lambda$-module $M$. The constant sheaf $\underline{M}_Y$ on $Y$ descends to a lisse sheaf $\mathcal L_{\rho}$ on $X$ by using the torsor isomorphism
+</p>
+$$
+Y\times_XY\cong Y\times G
+$$<p>
+and the representation $\rho$ to identify the two pullbacks of $\underline{M}_Y$ to $Y\times_XY$. Equivalently,
+</p>
+$$
+\mathcal L_{\rho}(U)=\{s\in \mathrm{Map}_{\mathrm{loc.const.}}(U\times_XY,M):s(yg)=\rho(g)^{-1}s(y)\text{ for all }g\in G\}.
+$$<p>
+After choosing a geometric point $\overline{x}\rightarrow X$ and a point $\overline{y}\in Y_{\overline{x}}$, the torsor gives a quotient
+</p>
+$$
+\pi_1^{\mathrm{\acute et}}(X,\overline{x})\twoheadrightarrow G,
+$$<p>
+and $\mathcal L_{\rho}$ is the lisse sheaf corresponding to the representation
+</p>
+$$
+\pi_1^{\mathrm{\acute et}}(X,\overline{x})\twoheadrightarrow G\xrightarrow{\rho}\mathrm{Aut}_{\Lambda}(M).
+$$<p>
+Kummer sheaves correspond to $G=\mu_n$ and a multiplicative character $\chi$, while Artin-Schreier sheaves correspond to $G=\mathbb F_p$ and an additive character $\psi$.</p>
+
+  </div>
+</div>
+
 <h2 id="riemannhilbert-correspondence">Riemann–Hilbert Correspondence</h2>
 <p>Let $X$ be a smooth complex variety. Let $\mathcal E$ be a coherent sheaf on $X$. Recall a connection on $\mathcal E$ is a morphism $\nabla:\mathcal E\rightarrow \mathcal E\otimes_{\mathcal O_X}\Omega^1_X$ such that for open $U\subseteq X$ and sections $s\in\mathcal E(U)$ and $f\in\mathcal O_X(U)$, the Leibniz formula $\nabla_U(fs)=s\otimes \mathrm df+f\nabla_U(s)$ is satisfied. For each derivation $D\in \mathcal{Der}_{\mathbb C}(\mathcal O_X,\mathcal O_X)\cong \mathcal{Hom}_{\mathcal O_X}(\Omega_X^1,\mathcal O_X)$, define the covariant derivative in the direction $D$ by
 </p>
@@ -446,11 +745,11 @@ $$<p>Recall that $\nabla$ is said to be integrable or flat if the curvature $\na
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Riemann–Hilbert)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>There is an equivalence of categories
 </p>
 $$\mathrm{LocSys}_{\mathbb C}(X)\cong \mathrm{Vect}^\nabla(X)$$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -486,13 +785,13 @@ This is equivalent to $D_i=\partial_i+A_i$ commuting $D_iD_j=D_jD_i$. Holomorphi
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The sheaf of differential operators $\mathcal D_X$ is a sheaf of noncommutative rings on $X$, defined as the direct limit
 </p>
 $$\mathcal D_X=\varinjlim \mathcal D_X^{\le n}=\varinjlim \mathcal{Hom}_{\mathcal O_X}(\Delta^{-1}(\mathcal O_{X\times X}/\mathcal I_{\Delta}^{n+1}), \mathcal O_X)$$<p>
 where $\Delta:X\rightarrow X\times X$ is the diagonal and $\mathcal I_\Delta$ is the ideal sheaf of its image.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>Concretely, $\mathcal D_X^{\le 0}=\mathcal O_X$ and for $n\ge 1$, $\mathcal D^{\le n}_X$ is the sheaf of $\mathbb C$-linear endomorphisms $P:\mathcal O_X\rightarrow\mathcal O_X$ such that for $U\subseteq X$ and for $f\in \mathcal O_X(U)$, the commutator $[P_U,m_f]=P_U\circ m_f-m_f\circ P_U\in\mathcal D_X^{n-1}$. And $\mathcal D_X(U)=\bigcup_n \mathcal D_X^{\le n}(U)$. For a local $U\subseteq X$ with local coordinates $z_1,\dots,z_n$, write $\partial_i=\frac{\partial }{\partial z_i}$, then we can think of $\mathcal D_X$ as</p>
@@ -506,13 +805,13 @@ $$\mathcal D_X|_U=\mathcal O_U\langle \partial_1,\dots,\partial_n\rangle/([\part
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>A $\mathcal D_X$-module is a sheaf of $\mathbb C$-vector spaces $\mathcal M$ on $X$, together with a morphism of sheaf of $\mathbb C$-algebras
 </p>
 $$\mathcal D_X\rightarrow\mathcal{End}_{\mathbb C}(\mathcal M)$$<p>
 which locally at $U$ is $\mathcal D_X(U)\rightarrow\mathrm{End}_{\mathbb C}(\mathcal M(U))$ the scalar action of a module over the $\mathbb C$-algebra $\mathcal D_X(U)$.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-defn" 
@@ -524,9 +823,9 @@ which locally at $U$ is $\mathcal D_X(U)\rightarrow\mathrm{End}_{\mathbb C}(\mat
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     One can encode differential equations in a $\mathcal D_X$-module. Let $X=\mathbb A^1$ and $\mathcal D_X(X)=\mathbb C\langle x,\partial_x\rangle/(\partial_xx-x\partial_x-1)$, then a DE like $\frac{\partial f}{\partial x}=\lambda f$ can be encoded as $(\partial_x -\lambda)f=0$. Hence $\mathcal M=\mathcal D_X/(\mathcal D_X (\partial_x -\lambda))$ encodes this DE.
-  </span>
+  </div>
 </div>
 
 <p>We call a $\mathcal D_X$-module <em>holonomic</em> if it represents a “finite dimensional” system of DEs. We will not define this rigorously.</p>
@@ -545,11 +844,11 @@ the *characteristic variety*. -->
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>A <em>perverse sheaf</em> on $X$ is an element $K\in\mathrm{D}^b_{c}(X,\mathbb C)$ in the bounded derived category of constructible sheaves of $\mathbb C$-vector spaces, such that </p>
 $$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(DK))}\le -i$$<p> for $i\in\mathbb Z$, where $\mathrm{dim}(\emptyset)=-\infty$, and $DK:=\mathrm R\mathcal{Hom}_{\mathbb C_X}(K,\mathbb C_X[2d])$ is the Verdier dual.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-remark" 
@@ -561,9 +860,9 @@ $$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\over
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     $\mathcal D$-modules generalize vector bundles with flat connections: if $\mathcal E$ is a vector bundle with flat connection $\nabla$, then functions act through the $\mathcal O_X$-module structure and derivations act by $D\cdot s=\nabla_D(s)$. The flatness condition is exactly what makes this action compatible with the commutation relations in $\mathcal D_X$. Conversely, a left $\mathcal D_X$-module whose underlying $\mathcal O_X$-module is locally free of finite rank is the same thing as a vector bundle with flat connection. Perverse sheaves generalize local systems in the corresponding sheaf-theoretic direction: if $X$ is smooth of dimension $d$ and $\mathcal L$ is a local system on $X$, then $\mathcal L[d]$ is a perverse sheaf. Unlike local systems, perverse sheaves can also encode singular behavior along closed subsets, so they are the right replacement for local systems when singularities are allowed.
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-remark" 
@@ -575,9 +874,9 @@ $$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\over
   <span class="math-title"
         data-label='Notation'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Write $\mathrm{Perv}(X,\mathbb C)$ for the category of perverse sheaves of $\mathbb C$-vector spaces on $X$. Write $\mathrm{Mod}_{\mathrm{rh}}(\mathcal D_X)$ for the category of regular holonomic left $\mathcal D_X$-modules.
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-plain" 
@@ -589,7 +888,7 @@ $$\mathrm{dim}\,\overline{\mathrm{Supp}_X(\mathcal H^i(K))}, \mathrm{dim}\,\over
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Generalized Riemann–Hilbert)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $X$ be a complex manifold of dimension $d$. Define the perverse-normalized de Rham functor on the derived category of left $\mathcal D_X$-modules by
 </p>
 $$
@@ -624,7 +923,7 @@ $$
 \qquad
 \mathrm{Sol}_X:\mathrm{Mod}_{\mathrm{rh}}(\mathcal D_X)^{\mathrm{op}}\xrightarrow{\sim}\mathrm{Perv}(X,\mathbb C).
 $$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -650,7 +949,7 @@ data-cite-key="HTT08">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $X$ be a scheme of finite type over a field $k$ of characteristic $p>0$, and let $\ell\ne p$. A <em>perverse $\mathbb Q_\ell$-sheaf</em> on $X$ is an object $K\in \mathrm D^b_c(X,\mathbb Q_\ell)$ in the bounded constructible derived category of $\ell$-adic sheaves on $X_{\mathrm{\acute et}}$ such that
 </p>
 $$
@@ -665,7 +964,7 @@ D_XK:=\mathrm R\mathcal{Hom}_{\mathbb Q_{\ell,X}}(K,a^!\mathbb Q_\ell)
 $$<p>
 is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure dimension $d$, then $a^!\mathbb Q_\ell\cong \mathbb Q_\ell(d)[2d]$.</p>
 
-  </span>
+  </div>
 </div>
 
 <h2 id="references">References</h2>
@@ -725,7 +1024,7 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     <a class="link" href="http://localhost:1313/posts/636adda/" title="AI and the Game of Go"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/six-functor-formalism/" title="Six Functor Formalism">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="http://localhost:1313/posts/aperiodic-tilings/" title="Aperiodic Tilings">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   

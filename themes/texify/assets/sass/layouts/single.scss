@@ -135,12 +135,25 @@
 
 .math-body {
   margin: 0;
-  display: inline;
+  display: contents;
 }
 
-.math-body p {
+.math-body > p {
+  display: block;
+  margin: 0 0 0.75rem;
+}
+
+.math-body > p:first-child {
   display: inline;
   margin: 0;
+}
+
+.math-body > p:first-child + p {
+  margin-top: 0.75rem;
+}
+
+.math-body > p:last-child {
+  margin-bottom: 0;
 }
 
 
@@ -311,6 +324,11 @@ body { counter-reset: fig; }
   overflow: hidden;
   border-radius: var(--quiver-radius, 0.5rem);
   text-align: center;      /* 容器内容居中 */
+}
+
+.math-env .quiver-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Disable q.uiver watermarks */

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/ai/</link>
+    <link>https://yunhaimath.com/tags/ai/</link>
     <description>Recent content in Ai on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 May 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Work of Art (and Science) in the Age of Algorithmic Reproducibility</title>
-      <link>http://localhost:1313/posts/f1d86af/</link>
+      <link>https://yunhaimath.com/posts/f1d86af/</link>
       <pubDate>Sun, 31 May 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/f1d86af/</guid>
+      <guid>https://yunhaimath.com/posts/f1d86af/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
@@ -32,7 +32,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;and he attached the following image:&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/monet.jpeg&#34;
+        src=&#34;https://yunhaimath.com/img/monet.jpeg&#34;
         alt=&#34;An AI-generated image in the style of a Monet painting&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -53,7 +53,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;Should we then value a work of art by its exhibition value? I also believe not, but with a subtlety. Today, we are in an age where the meaning of exhibition is very different from what it was when Benjamin lived. In particular, we have commodified the exhibition of our lives on social media to an extent that is pathological. The attention of social media users has become the commodity of the information age. Every single platform is pushing for more engagement, more attention from users, and more dopamine, which has permanently altered our brain chemistry. It is no wonder that AI art gets a high number of views – it is trained to do precisely that: videos of Stephen Hawking skateboarding in his wheelchair, Peter Griffin as a real-life person, historical figures coming back to life and getting speeding tickets, etc. Our spiritual life has become &lt;em&gt;the Bagel&lt;/em&gt; from the film &lt;em&gt;Everything Everywhere All at Once&lt;/em&gt;. There is everything, but also nothing, and we are forced to be spectators. To me, experiencing social media feels like being Malcolm McDowell strapped to the seat and having my eyes forcibly held open.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/malcolm.jpg&#34;
+        src=&#34;https://yunhaimath.com/img/malcolm.jpg&#34;
         alt=&#34;Malcolm McDowell with his eyes held open in A Clockwork Orange&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -68,7 +68,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own right with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable artwork could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.&lt;/p&gt;
 &lt;h2 id=&#34;algorithmic-reproducibility-of-science&#34;&gt;Algorithmic Reproducibility of Science&lt;/h2&gt;
 &lt;p&gt;When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One cannot claim that math is like art just because human researchers have a sense of which kinds of math are more beautiful or elegant – that is an &lt;em&gt;aesthetic&lt;/em&gt; formed from personal experience, and an aesthetic is very different from art. What then will AI bring to science?&lt;/p&gt;
-&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:1313/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;https://yunhaimath.com/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In short, I do not think AI challenges science as much as it does art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -90,10 +90,10 @@ Please describe, in as much detail as possible, what makes this inferior to a re
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>http://localhost:1313/posts/6bf3326/</link>
+      <link>https://yunhaimath.com/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/6bf3326/</guid>
+      <guid>https://yunhaimath.com/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -131,9 +131,9 @@ Erdos conjectured that $\nu(n)=n^{1+o(1)}$. The result that was shown was the fo
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(OpenAI)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     There exists some $\delta&gt;0$ such that $\nu(n)&gt;n^{1+\delta}$ for infinitely many $n$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;This disproves Erdos.
@@ -176,10 +176,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>A Case for AI-Assisted Math</title>
-      <link>http://localhost:1313/posts/8ad6b3f/</link>
+      <link>https://yunhaimath.com/posts/8ad6b3f/</link>
       <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/8ad6b3f/</guid>
+      <guid>https://yunhaimath.com/posts/8ad6b3f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The struggle itself toward the heights is enough to fill a man’s heart.
@@ -213,10 +213,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>http://localhost:1313/posts/ad8f57d/</link>
+      <link>https://yunhaimath.com/posts/ad8f57d/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ad8f57d/</guid>
+      <guid>https://yunhaimath.com/posts/ad8f57d/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -269,7 +269,7 @@ for all $n\ge 0$. Therefore equations (1) and (2) holds hold for all $n\in\mathb
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;We can find $A^{-1}$ with a formula&lt;sup id=&#34;yh-fnref:inv-formula&#34;&gt;&lt;a href=&#34;#yh-fn:inv-formula&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 , but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
 &lt;/p&gt;
@@ -279,7 +279,7 @@ by definition of $f_n$. This reverses what $A$ does, so we expect $B$ to be the 
 $$B=\begin{pmatrix} 0 &amp; 1 \\ 1 &amp; -1 \end{pmatrix}$$&lt;p&gt;
 Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ shifts the vector  $(f_n,f_{n-1})$ backwards to $(f_{n-1},f_{n-2})$, they cancel each other out. Therefore $AB$ and $BA$ fix the set of vectors $\{(f_{n+1},f_n):n\in\mathbb Z\}$, in particular they fix the standard basis vectors $(1,0)=(f_1,f_0)$ and $(0,1)=(f_0,f_{-1})$, hence $AB=BA=I$, and $B=A^{-1}$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -291,13 +291,13 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;More abstractly, let $V$ be the vector space over $\mathbb R$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of real numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
 &lt;/p&gt;
 $$\phi:V\rightarrow \mathbb R^2\qquad \phi((a_n))=(a_0,a_1)$$&lt;p&gt;
 Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ then with respect to the ordered basis $((f_n)_n,(f_{n-1})_n)$, the operator $T$ has matrix $A$. It is easy to see $T$ is invertible, since shifting is reversable. It is also much more intuitive to see that in this same  basis $((f_n)_n,(f_{n-1})_n)$, we have $T^n$ has matrix that of in (3).&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately.&lt;/p&gt;
@@ -310,9 +310,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Cassini)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -335,9 +335,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(d&amp;#39;Ocagne)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,m\in\mathbb Z$, we have $f_{m+1}f_n-f_{m}f_{n+1}=(-1)^mf_{n-m}$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -360,9 +360,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Vajda)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,i,j\in\mathbb Z$, we have $f_{n+i}f_{n+j}-f_nf_{n+i+j}=(-1)^nf_if_j$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -392,9 +392,9 @@ and the result follows.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fibonacci Addition Formula)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,m\in\mathbb Z$, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -417,9 +417,9 @@ and the result follows.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The formula in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-fib-add&#34;&gt;⟦ref:thm-fib-add⟧&lt;/span&gt; admits a natural interpretation in terms of &lt;a href=&#34;https://math.berkeley.edu/~tb65536/Fibonacci_Exposition.pdf&#34;&gt;domino tilings&lt;/a&gt;.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -431,9 +431,9 @@ and the result follows.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Fibonacci Negation Formula)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -464,9 +464,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,m\in\mathbb Z$ we have if $n\mid m$ then $f_n\mid f_m$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -489,9 +489,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Converse to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-div&#34;&gt;⟦ref:thm-div⟧&lt;/span&gt;, one has $f_n\mid f_m$ implies $n\mid m$ for all $n,m\in\mathbb Z$ with $|n|\ge 3$ (exercise).
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -503,9 +503,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,m\in\mathbb Z$, we have $\gcd(f_n,f_m)=f_{\gcd(n,m)}$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -528,9 +528,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Alternative to the proof in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-strong-div&#34;&gt;⟦ref:thm-strong-div⟧&lt;/span&gt; (and less elegant), one can prove the result by showing that $\gcd(f_{n},f_{m})=\gcd(f_{n-m},f_m)$ for all $m,n\in\mathbb Z$, which means we can run the Euclidean algorithm on the indices. This follows from the following.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -542,9 +542,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $m,n\in\mathbb Z$, we have $\gcd(f_{n+m},f_m)=\gcd(f_n,f_m)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -736,10 +736,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>http://localhost:1313/posts/85ac599/</link>
+      <link>https://yunhaimath.com/posts/85ac599/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/85ac599/</guid>
+      <guid>https://yunhaimath.com/posts/85ac599/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.
@@ -759,7 +759,7 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Suppose $m=1$, and we set up $f_{\theta}:\mathbb R^n\rightarrow\mathbb R$ affine linear
 &lt;/p&gt;
 $$f_{\theta}(x)=xW+b$$&lt;p&gt;
@@ -783,7 +783,7 @@ If $X^TX$ is invertible, then setting this to $0$ we get the optimal solution
 $$W=(X^TX)^{-1}X^TY$$&lt;p&gt;
 When is $X^TX$ invertible? It is invertible if and only if the columns of $X$ are linearly independent. This happens when the number of samples $|\mathcal D|$ is at least the number of features $n$, and the matrix $X$ has full column rank.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Contrary to supervized learning, &lt;em&gt;unsupervized learning&lt;/em&gt; does not require labeled data. Instead, it tries to find patterns or structures in the input data. For example, in &lt;em&gt;clustering&lt;/em&gt;, we want to group the data points into clusters based on their similarity, for example the $K$-means clustering algorithm. In &lt;em&gt;dimensionality reduction&lt;/em&gt;, we want to find a lower-dimensional representation of the data that preserves as much information as possible. In &lt;em&gt;reinforcement learning&lt;/em&gt;, an agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties. There&#39;s lots others, such as generative modeling, self-supervised learning, representation learning, etc.&lt;/p&gt;

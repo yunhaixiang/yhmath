@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" style="font-size: 105%">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,9 +20,9 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://yunhaimath.com//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://yunhaimath.com//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://yunhaimath.com//images/favicon-16x16.png">
 
   
   
@@ -53,7 +53,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/2878d6e/">
+  <meta property="og:url" content="https://yunhaimath.com/posts/2878d6e/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Leray and Serre–Hochschild Spectral Sequences">
   <meta property="og:description" content="Mathematics is the music of reason. — James J. Sylvester Today, I am writing about Leray spectral sequence and Serre–Hochschild spectral sequence. Those are important spectral sequences in arithmetic geometry and number theory, in particular, I care about their uses in the study of Galois cohomology and other cohomology theories. I will use the text of ⟦cite:NSW08⟧ , along with many other sources here and there on general spectral sequences.">
@@ -67,7 +67,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
 
 
   
-  <link rel="canonical" href="http://localhost:1313/posts/2878d6e/">
+  <link rel="canonical" href="https://yunhaimath.com/posts/2878d6e/">
 
   
   
@@ -105,7 +105,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -125,7 +125,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
 
 <header id="header">
   <h1>
-    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <a href="https://yunhaimath.com/">Yunhai Xiang</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -214,15 +214,15 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
     <div class="post-taxonomy-line">
       
         
-          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+          <a class="link tag" href='https://yunhaimath.com/categories/expositions'>@expositions</a>
         
       
 
       
         
-          <a class="link tag" href='http://localhost:1313/tags/algebraic-topology'>#algebraic-topology</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/algebraic-topology'>#algebraic-topology</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/algebraic-geometry'>#algebraic-geometry</a>
         
       
 
@@ -269,7 +269,7 @@ Today, I am writing about Leray spectral sequence and Serre–Hochschild spectra
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Serre–Hochschild)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $G$ be a profinite group and $H$ a closed normal subgroup, and $A$ a $G$-module, then we have a spectral sequence
 </p>
 $$
@@ -277,7 +277,7 @@ $$
 $$<p>
 which converges.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>The above spectral sequence is called the <em>Serre–Hochschild spectral sequence</em>. These are obtained from the double complex $\mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$ where $\mathrm{C}^p(G/H, -)$ is the standard complex for computing the cohomology of $G/H$ and $\mathrm{C}^q(H,A)$ is the standard complex for computing the cohomology of $H$. The differentials are given by the usual differentials in these complexes, and the spectral sequence arises from the filtration of the total complex </p>
@@ -291,7 +291,7 @@ $$\mathrm{Tot}^n = \bigoplus_{p+q=n} \mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$$<p> b
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $K$ be a field and set $G=\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/ K)$ the absolute Galois group. If $K/k$ is Galois with $\Gamma=\mathrm{Gal}(K/k)$, then there is exact sequence
 </p>
 \[1\to \mathrm{G}_K\to \mathrm{G}_k\to \Gamma\to 1\]<p>
@@ -301,7 +301,7 @@ $$\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(\Gamma, \mathrm{H}^q(\mathrm{G}_K,A))\Righta
 and this further implies the $5$-term exact sequence:
 </p>
 $$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\to \mathrm{H}^1(\mathrm{G}_K, A)^{\Gamma}\to \mathrm{H}^2(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^2(\mathrm{G}_k, A)$$
-  </span>
+  </div>
 </div>
 
 <h2 id="leray-spectral-sequence">Leray Spectral Sequence</h2>
@@ -314,13 +314,13 @@ $$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\t
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Leray)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $f:X\rightarrow Y$ a morphism of schemes and $\mathcal F$ a sheaf of abelian groups on any site over $X$, then there is a spectral sequence
 </p>
 $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(Y, \mathrm{R}^qf_*\mathcal F)\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$<p>
 which converges.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-defn" 
@@ -332,12 +332,12 @@ which converges.</p>
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $X$ be a smooth proper curve over a field $K$ with structure map $f:X\to \mathrm{Spec}(K)$, then we have the Leray spectral sequence
 </p>
 $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow \mathrm{H}_{\mathrm{ét}}^{p+q}(X, \mathbf Q_{\ell})$$<p>Here $\mathrm{R}^qf_*\mathbf Q_{\ell}$ corresponds to the Galois module $\mathrm{H}_{\mathrm{ét}}^q(X_{\overline K}, \mathbf Q_{\ell})$ where $\overline K$ is a separable closure of $K$. In particular, the Leray spectral sequence allows us to compute the étale cohomology of $X$ in terms of the Galois cohomology of $K$ with coefficients in the étale cohomology of the geometric fiber $X_{\overline K}$.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-plain" 
@@ -349,13 +349,13 @@ $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Grothendieck)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $\mathcal A,\mathcal B, \mathcal C$ be abelian categories with enough injectives, and $F:\mathcal A\to \mathcal B$ and $G:\mathcal B\to \mathcal C$ be left exact functors, which satisfies the condition that $F$ sends injective objects to $G$-acyclic objects (i.e. $\mathrm{R}^iG(F(I))=0$ for all $i>0$ and all injective objects $I\in \mathcal A$), then we have the Grothendieck spectral sequence
 </p>
 $$\mathrm{E}_2^{p,q}=\mathrm{R}^pG(\mathrm{R}^qF(A))\Rightarrow \mathrm{R}^{p+q}(G\circ F)(A)$$<p>
 for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\simeq \mathbf{R}G(\mathbf{R}F(A))$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.</p>
@@ -369,13 +369,13 @@ for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
 </p>
 $$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$<p>
 which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-defn" 
@@ -387,13 +387,13 @@ which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomo
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q>0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
 </p>
 $$\mathrm{H}^n(X, \mathcal F)\cong \check{\mathrm{H}}^n(\mathfrak U, \mathcal F)$$<p>
 induced by the Čech to derived spectral sequence. This is a useful tool for computing cohomology groups in practice, especially when we have a good open cover of $X$ that allows us to compute the Čech cohomology easily.</p>
 
-  </span>
+  </div>
 </div>
 
 <h2 id="references">References</h2>
@@ -441,10 +441,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/4ce12e1/" title="Expander Graphs"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="https://yunhaimath.com/posts/4ce12e1/" title="Expander Graphs"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/85ac599/" title="AI for Math">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="https://yunhaimath.com/posts/85ac599/" title="AI for Math">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
@@ -485,13 +485,13 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
   </div>
 
   
-  <script src='http://localhost:1313/js/script.js' defer></script>
+  <script src='https://yunhaimath.com/js/script.js' defer></script>
 
   
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/publications.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/codeblock.css" />
   
 
   

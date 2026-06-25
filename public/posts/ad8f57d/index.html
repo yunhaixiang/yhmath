@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" style="font-size: 105%">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,9 +18,9 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://yunhaimath.com//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://yunhaimath.com//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://yunhaimath.com//images/favicon-16x16.png">
 
   
   
@@ -51,7 +51,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/ad8f57d/">
+  <meta property="og:url" content="https://yunhaimath.com/posts/ad8f57d/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Formalization of a Result of Fibonacci Sequence">
   <meta property="og:description" content="Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them. — Angus K. Rodgers Continuing my previous post on AI for math, I want to give a concrete example of how AI can be used to formalize a mathematical result. More specifically, in this post, I will be formalizing an elementary result about the Fibonacci sequence that I really like. The Fibbonaci sequence is a sequence $(f_n)_{n\in\mathbb Z}$ defined as follows: $f_0=0$, $f_1=1$, and $f_n=f_{n-1}&#43;f_{n-2}$ for $n\in\mathbb Z$. The result I want to formalize is: $f_{\gcd(m,n)}=\gcd(f_m,f_n)$ for all $m,n\in\mathbb N$, which is called the strong divisibility of Fibonacci sequence. In particular, this implies that if $n,m\in\mathbb N$ are such that $n\mid m$ then $f_n\mid f_m$ -- This is known as weak divisbility. I will be using Lean proof assistant and Codex to vibe prove this result. Find the GitHub repo here.">
@@ -65,7 +65,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
 
 
   
-  <link rel="canonical" href="http://localhost:1313/posts/ad8f57d/">
+  <link rel="canonical" href="https://yunhaimath.com/posts/ad8f57d/">
 
   
   
@@ -103,7 +103,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -123,7 +123,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
 
 <header id="header">
   <h1>
-    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <a href="https://yunhaimath.com/">Yunhai Xiang</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -212,15 +212,15 @@ Continuing my previous post on AI for math, I want to give a concrete example of
     <div class="post-taxonomy-line">
       
         
-          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+          <a class="link tag" href='https://yunhaimath.com/categories/expositions'>@expositions</a>
         
       
 
       
         
-          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/math'>#math</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/ai'>#ai</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/ai'>#ai</a>
         
       
 
@@ -299,7 +299,7 @@ for all $n\ge 0$. Therefore equations (1) and (2) holds hold for all $n\in\mathb
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>We can find $A^{-1}$ with a formula<sup id="yh-fnref:inv-formula"><a href="#yh-fn:inv-formula" class="footnote-ref" role="doc-noteref">1</a></sup>
 , but one can avoid that for a more conceptual approach. Observe for all $n\in\mathbb Z$
 </p>
@@ -309,7 +309,7 @@ by definition of $f_n$. This reverses what $A$ does, so we expect $B$ to be the 
 $$B=\begin{pmatrix} 0 & 1 \\ 1 & -1 \end{pmatrix}$$<p>
 Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ shifts the vector  $(f_n,f_{n-1})$ backwards to $(f_{n-1},f_{n-2})$, they cancel each other out. Therefore $AB$ and $BA$ fix the set of vectors $\{(f_{n+1},f_n):n\in\mathbb Z\}$, in particular they fix the standard basis vectors $(1,0)=(f_1,f_0)$ and $(0,1)=(f_0,f_{-1})$, hence $AB=BA=I$, and $B=A^{-1}$.</p>
 
-  </span>
+  </div>
 </div>
 </p>
 <div class="math-env style-remark" 
@@ -321,13 +321,13 @@ Since $A$ shifts the vector $(f_n,f_{n-1})$ forward to $(f_{n+1},f_n)$ and $B$ s
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>More abstractly, let $V$ be the vector space over $\mathbb R$ (or free module over $\mathbb Z$ if you like, which is arguably better) of all sequences $(a_n)_{n\in\mathbb Z}$ of real numbers that satisfy $a_{n+2}=a_{n+1}+a_n$ for all $n\in\mathbb Z$, then $V$ is $2$-dimensional, by an isomorphism
 </p>
 $$\phi:V\rightarrow \mathbb R^2\qquad \phi((a_n))=(a_0,a_1)$$<p>
 Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ then with respect to the ordered basis $((f_n)_n,(f_{n-1})_n)$, the operator $T$ has matrix $A$. It is easy to see $T$ is invertible, since shifting is reversable. It is also much more intuitive to see that in this same  basis $((f_n)_n,(f_{n-1})_n)$, we have $T^n$ has matrix that of in (3).</p>
 
-  </span>
+  </div>
 </div>
 
 <p>With the linear algebra setup above, we can obtain many classic results about Fibonacci numbers immediately.</p>
@@ -340,9 +340,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Cassini)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n\in\mathbb Z$, we have $f_{n-1}f_{n+1}-f_n^2=(-1)^n$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -365,9 +365,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(d&#39;Ocagne)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n,m\in\mathbb Z$, we have $f_{m+1}f_n-f_{m}f_{n+1}=(-1)^mf_{n-m}$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -390,9 +390,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Vajda)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n,i,j\in\mathbb Z$, we have $f_{n+i}f_{n+j}-f_nf_{n+i+j}=(-1)^nf_if_j$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -422,9 +422,9 @@ and the result follows.</p>
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Fibonacci Addition Formula)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n,m\in\mathbb Z$, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -447,9 +447,9 @@ and the result follows.</p>
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     The formula in <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-fib-add">⟦ref:thm-fib-add⟧</span> admits a natural interpretation in terms of <a href="https://math.berkeley.edu/~tb65536/Fibonacci_Exposition.pdf">domino tilings</a>.
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-plain" 
@@ -461,9 +461,9 @@ and the result follows.</p>
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Fibonacci Negation Formula)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n\in\mathbb Z$, we have $f_{-n}=(-1)^{n+1}f_n$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -494,9 +494,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n,m\in\mathbb Z$ we have if $n\mid m$ then $f_n\mid f_m$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -519,9 +519,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Converse to <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-div">⟦ref:thm-div⟧</span>, one has $f_n\mid f_m$ implies $n\mid m$ for all $n,m\in\mathbb Z$ with $|n|\ge 3$ (exercise).
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-plain" 
@@ -533,9 +533,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $n,m\in\mathbb Z$, we have $\gcd(f_n,f_m)=f_{\gcd(n,m)}$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -558,9 +558,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Alternative to the proof in <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-strong-div">⟦ref:thm-strong-div⟧</span> (and less elegant), one can prove the result by showing that $\gcd(f_{n},f_{m})=\gcd(f_{n-m},f_m)$ for all $m,n\in\mathbb Z$, which means we can run the Euclidean algorithm on the indices. This follows from the following.
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-plain" 
@@ -572,9 +572,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $m,n\in\mathbb Z$, we have $\gcd(f_{n+m},f_m)=\gcd(f_n,f_m)$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -809,10 +809,10 @@ First, lower left of power of diagonal is 0.</p>
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/85ac599/" title="AI for Math"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="https://yunhaimath.com/posts/85ac599/" title="AI for Math"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/d04997f/" title="Brauer Group III">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="https://yunhaimath.com/posts/d04997f/" title="Brauer Group III">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
@@ -853,13 +853,13 @@ First, lower left of power of diagonal is 0.</p>
   </div>
 
   
-  <script src='http://localhost:1313/js/script.js' defer></script>
+  <script src='https://yunhaimath.com/js/script.js' defer></script>
 
   
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/publications.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/codeblock.css" />
   
 
   

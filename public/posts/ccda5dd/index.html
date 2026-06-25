@@ -107,7 +107,7 @@ I have not found a reference that I am completely satisfied with, but a lot of m
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -272,9 +272,9 @@ I have not found a reference that I am completely satisfied with, but a lot of m
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(de Rham)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     There is a canonical isomorphism $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -303,13 +303,13 @@ data-cite-key="Bre97" data-cite-note="Chapter II, Section 9">
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>There is a different version where the isomorphism is between de Rham cohomology and singular cohomology $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$, for which the map is induced by the chain morphism
 </p>
 $$\omega\mapsto \left(\sigma\mapsto \int_{\sigma}\omega\right)$$<p>
 its well-definedness is exactly the statement of Stokes theorem.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>We want a version of this for algebraic varieties.</p>
@@ -322,11 +322,11 @@ its well-definedness is exactly the statement of Stokes theorem.</p>
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>For any scheme $X/S$, define the hypercohomology</p>
 $$\mathrm{H}_{\mathrm{dR}}^n(X)=\mathbb H^n(X,\Omega^\bullet_X)$$<p>as the algebraic de Rham cohomology of $X$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>For algebraic varieties (or even complex manifolds), we do not have an adequate partitions of unity, so we can have $\Omega^p$ not acyclic.
@@ -341,9 +341,9 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Grothendieck)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $X/\mathbb C$ be a smooth variety, then there is natural isomorphism $\mathrm{H}^n_{\mathrm{dR}}(X)\cong\mathrm H^n(X^{\mathrm{an}},\mathbb C)$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -366,9 +366,9 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     If $X$ is non proper, this situation is more difficult. One needs to use log differential forms, which I will not elaborate.
-  </span>
+  </div>
 </div>
 
 <h2 id="gaussmanin-connection">Gauss–Manin Connection</h2>
@@ -387,7 +387,7 @@ $$\nabla(s\otimes\omega)=\nabla(s)\land\omega+s\otimes \mathrm dw$$<p>then the c
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $f:X\rightarrow S$ be a smooth proper morphism of smooth schemes over field $k$ of characteristic $0$. The <em>Gauss–Manin connection</em> is the canonical flat connection on the relative de Rham cohomology sheaves</p>
 $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes \Omega^1_{S/k}$$<p>where $\mathcal H^n_{\mathrm{dR}}(X/S)=\mathrm{R}^nf_{*}\Omega_{X/S}^\bullet$. They are constructed in the following way: consider the exact sequence</p>
 $$0\to f^*\Omega^1_{S/k}\to\Omega^1_{X/k}\to \Omega^1_{X/S}\to 0$$<p>which induces a <em>Gauss–Manin</em> filtration $\mathrm{Fil}^p\,\Omega^\bullet_X$ defined by</p>
@@ -399,7 +399,7 @@ $$\mathrm{R}f_*\left(f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}
 $$\mathrm{R}f_*\Omega^\bullet_{X/S}\longrightarrow \mathrm{R}f_*\Omega^\bullet_{X/S}\otimes_{\mathcal O_S}\Omega^1_{S/k}$$<p>taking cohomology sheaves gives us</p>
 $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes_{\mathcal O_S}\Omega^1_{S/k}$$<p>which is the Gauss–Manin connection.</p>
 
-  </span>
+  </div>
 </div>
 </p>
 <h2 id="references">References</h2>

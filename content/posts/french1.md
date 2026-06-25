@@ -5,7 +5,7 @@ date: 2025-11-23 00:00:00 +0000
 slug: fcfb2b0
 aliases:
   - /posts/french1/
-tags: [french-learning]
+tags: [language-learning]
 categories: [expositions]
 ---
 

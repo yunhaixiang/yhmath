@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" style="font-size: 105%">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,9 +20,9 @@ Today we study the Brauer group of a field, which classifies central simple alge
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://yunhaimath.com//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://yunhaimath.com//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://yunhaimath.com//images/favicon-16x16.png">
 
   
   
@@ -53,7 +53,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
   
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/5e33123/">
+  <meta property="og:url" content="https://yunhaimath.com/posts/5e33123/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Brauer Groups Part I">
   <meta property="og:description" content="The introduction of cohomology is a technique for making the invisible visible. — Alexander Grothendieck Today we study the Brauer group of a field, which classifies central simple algebras (or Azumaya algebras) over the field. They eventually generalize to schemes and control rational points on a variety. I will mostly follow ⟦cite:Poo17⟧ with possibly some other sources as supplements. My eventual goal is to understand Brauer-Manin obstructions to rational points, and how Brauer groups of schemes is related.">
@@ -69,7 +69,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
 
 
   
-  <link rel="canonical" href="http://localhost:1313/posts/5e33123/">
+  <link rel="canonical" href="https://yunhaimath.com/posts/5e33123/">
 
   
   
@@ -107,7 +107,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -127,7 +127,7 @@ Today we study the Brauer group of a field, which classifies central simple alge
 
 <header id="header">
   <h1>
-    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <a href="https://yunhaimath.com/">Yunhai Xiang</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -216,19 +216,19 @@ Today we study the Brauer group of a field, which classifies central simple alge
     <div class="post-taxonomy-line">
       
         
-          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+          <a class="link tag" href='https://yunhaimath.com/categories/expositions'>@expositions</a>
         
       
 
       
         
-          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/math'>#math</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/algebra'>#algebra</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/algebra'>#algebra</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/algebraic-geometry'>#algebraic-geometry</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/number-theory'>#number-theory</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/number-theory'>#number-theory</a>
         
       
 
@@ -277,14 +277,14 @@ Today we study the Brauer group of a field, which classifies central simple alge
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>A $K$-algebra $L$ is said to be <em>étale</em> if any of the following equivalent conditions are satisfied</p>
 <ol>
 <li>$L\otimes_K K^{\mathrm{sep}}\cong (K^{\mathrm{sep}})^n$ for some $n$,</li>
 <li>$L$ is a direct product of finite separable extensions of $K$,</li>
 <li>the induced map $\mathrm{Spec}(L)\rightarrow \mathrm{Spec}(K)$ is finite and étale.</li>
 </ol>
-  </span>
+  </div>
 </div>
 </p>
 <p>Étaleness is stable under base change. For $M\mid K$ a field extension and $L$ an étale $K$-algebra, we have $L\otimes_K M$ is an étale $M$-algebra. With étale algebras, the following is Grothendieck's generalization of Galois theory.</p>
@@ -297,9 +297,9 @@ Today we study the Brauer group of a field, which classifies central simple alge
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Grothendieck)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     There is an equivalence of categories between $\{\textrm{finite }\mathrm G_K\textrm{-sets}\}^{\mathrm{op}}$ and $\{\textrm{étale }K\textrm{-algebras}\}$ given by the functors that take $S$, a finite $\mathrm G_K$-set, to the étale $K$-algebra $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(S,K^{\mathrm{sep}})$, and conversely take an étale $K$-algebra $L$ to the finite $\mathrm G_K$-set $\mathrm{Hom}_{K\textrm{-Alg}}(L,K^{\mathrm{sep}})$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -325,9 +325,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Suppose $S$ is a transitive $\mathrm G_K$-set, then $S=\mathrm G_K/H$ for some open subgroup $H$, so the corresponding étale algebra is $\mathrm{Hom}_{\mathrm G_K\textrm{-sets}}(\mathrm G_K/H, {K}^{\mathrm{sep}})=(K^\mathrm{sep})^H$ the fixed field in classical Galois theory. In general, a finite $\mathrm G_K$-set is the finite disjoint union of transitive ones $\coprod S_i$, so $S$ corresponds to the étale algebra $\prod L_i$ where $L_i$ is the finite separable extension corresponding to $S_i$.
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-defn" 
@@ -339,9 +339,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $L$ be an étale $K$-algebra with action by a finite group $G$. Let $M\mid K$ be a field extension then $L\otimes_K M$ is an étale $M$-algebra with action by $G$, and so is $\prod_{g\in G}M=\mathrm{Hom}_{\mathbf{Set}}(G,M)$ via right translation $G$-action. We say $L$ is a <em>Galois étale algebra</em> with Galois group $G$ if $L\otimes_K M\cong \prod_{g\in G}M$ as étale $M$-algebras with $G$-action, for some field extension $M\mid K$.
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-remark" 
@@ -353,9 +353,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Caveat'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     The group $\mathrm{Aut}(L \mid K)$ can be larger than $G$, for example $L=K^4$, which can be eqipped with actions by $G=\mathrm{C}_4$ or $G=\mathrm{C}_2\times\mathrm{C}_2$ but $\mathrm{Aut}(L \mid K)=\mathrm S_4$. Hence the Galois group is part of the data of a Galois étale algebra.
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-remark" 
@@ -367,9 +367,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     If one such $M$ in <span class="yh-ref" data-ref-kind="math" data-ref-id="def-galois-etale">⟦ref:def-galois-etale⟧</span> exists, then one can take $M=K^{\mathrm{sep}}$.
-  </span>
+  </div>
 </div>
 
 <h2 id="galois-descent">Galois Descent</h2>
@@ -383,9 +383,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $L\mid K$ be a finite Galois extension with Galois group $G$. A <em>semi-linear action</em> of $G$ on an $L$-vector space $V$ is an action such that $\sigma(\ell w)=\sigma(\ell)\sigma(w)$ for all $\sigma\in G$, $\ell\in L$, and $w\in V$.
-  </span>
+  </div>
 </div>
 </p>
 <p>Let $W^G$ be the fixed vector space for any vector space $W$ with $G$-action.</p>
@@ -398,9 +398,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $V$ be a $K$-vector space, then the $K$-linear map $V\rightarrow (V\otimes_K L)^G$ sending $v\mapsto v\otimes 1$ is an isomorphism.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -423,9 +423,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Suppose $L$ is a Galois étale $K$-algebra with Galois group $G$. Let $W$ be a $L$-vector space with a semi-linear $G$-action, then the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ is an isomorphism of $L$-vector spaces with semi-linear $G$-action.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -448,9 +448,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     The functors $(-)\otimes_K L$ and $(-)^G$ are mutually inverse equivalences of categories between the category of $K$-vector spaces and the category of $L$-vector spaces with semi-linear $G$-action.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -473,9 +473,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Corollary'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For each $r\in\mathbb N$, there is only one $r$-dimensional $L$-vector space with semi-linear $G$-action up to isomorphism.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -500,9 +500,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     We spell out how $\mathrm H^1(G,A)$ is defined when $A$ is not necessarily commutative. A 1-cocycle is a map $\xi:G\rightarrow A$ such that $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$ for all $\sigma,\tau\in G$. Two 1-cocycles $\xi$ and $\xi'$ are said to be cohomologous if there exists $a\in A$ such that $\xi'_{\sigma}=a^{-1}\cdot \xi_{\sigma}\cdot \sigma(a)$ for all $\sigma\in G$. Then $\mathrm H^1(G,A)$ is defined as the set of 1-cocycles modulo this equivalence relation. When $A$ is abelian, this coincides with the usual definition of abelian cohomology.
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-plain" 
@@ -514,9 +514,9 @@ data-cite-key="GR71" data-cite-note="V.7 and Proposition V.8.1">
   <span class="math-title"
         data-label='Lemma'></span> <span class="math-note">(Normal Basis Theorem)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Suppose $L\mid K$ finite Galois, then $K[G]\cong L$ as $K[G]$-modules, where $G=\mathrm{Gal}(L \mid K)$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -542,14 +542,14 @@ data-cite-key="Mil22" data-cite-note="Theorem 5.18">
   <span class="math-title"
         data-label='Proposition'></span> <span class="math-note">(Hilbert’s Theorem 90)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Suppose $L\mid K$ Galois, we have</p>
 <ol>
 <li>$\mathrm H^q(\mathrm{Gal}(L \mid K), L)=0$ for all $q\ge 1$, and in particular, $\mathrm H^q(K,\mathbb G_a)=0$ for all $q\ge 1$.</li>
 <li>$\mathrm H^1(\mathrm{Gal}(L \mid K), L^{\times})=0$, and in particular, $\mathrm H^1(K,\mathbb G_m)=0$.</li>
 <li>$\mathrm H^1(\mathrm{Gal}(L \mid K), \mathrm{GL}_r(L))=0$ for each $r\in\mathbb N$, and in particular, $\mathrm H^1(K,\mathrm{GL}_r)=0$.</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -587,9 +587,9 @@ Thus $\xi'_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     An <em>Azumaya algebra</em> over a field $K$ is a unital, associative, but not necessarily commutative $K$-algebra $A$ such that such that $A\otimes_K K^{\mathrm{sep}}\cong \mathrm{M}_n(K^{\mathrm{sep}})$ the matrix algebra as $K^{\mathrm{sep}}$-algebras for some $n\ge 1$.
-  </span>
+  </div>
 </div>
 
 <p>Recall that we say a $K$-algebra $A$ is central if its center is exactly $K$, simple if it has no two-sided ideals except for $(0)$ and $A$, and division if every nonzero element has a two-sided inverse. A division algebra is always simple.</p>
@@ -602,7 +602,7 @@ Thus $\xi'_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The following are equivalent for a $K$-algebra $A$:</p>
 <ol>
 <li>$A$ is an Azumaya algebra over $K$,</li>
@@ -611,7 +611,7 @@ Thus $\xi'_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i
 <li>$A$ is a finite-dimensional central simple algebra over $K$.</li>
 <li>there is a $K$-algebra isomorphism $A\cong \mathrm{M}_r(D)$ for some $r\ge 1$ and some finite-dimensional central division algebra $D$ over $K$.</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -638,9 +638,9 @@ data-cite-key="Poo17" data-cite-note="Proposition 1.5.2">
   <span class="math-title"
         data-label='Example'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     A <em>quaternion algebra</em> over a field $K$ of characteristic other than $2$ is an Azumaya algebra of dimension $4$, e.g. the $K$-algebra generated by symbols $i,j$ with relations $i^2=j^2=-1$ and $ij=-ji$ is the <em>Hamiltonian quaternions</em> $\mathbb  H$, and if $i^2=j^2=1$ it is the <em>split quaternion algebra</em>, isomorphic to $\mathrm{M}_2(K)$.
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-defn" 
@@ -652,9 +652,9 @@ data-cite-key="Poo17" data-cite-note="Proposition 1.5.2">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $A$ be an Azumaya algebra over $K$, a splitting field of $A$ is a field extension $L\mid K$ such that $A\otimes_K L\cong \mathrm{M}_n(L)$ as $L$-algebras for some $n\ge 1$. If $L$ is a splitting field of $A$ we say $L$ splits $A$.
-  </span>
+  </div>
 </div>
 
 <div class="math-env style-plain" 
@@ -666,9 +666,9 @@ data-cite-key="Poo17" data-cite-note="Proposition 1.5.2">
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $A$ be an Azumaya algebra over $K$, and $L\mid K$ a field extension such that $K\subseteq L\subseteq A$, then $[L:K]^2\le [A:K]$, and if equality holds, then $L$ is a splitting field of $A$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -695,13 +695,13 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Skolem–Noether)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $A$ be an Azumaya algebra over $K$. Then</p>
 <ol>
 <li>any $K$-algebra automorphism $\varphi: A \to A$ is an inner automorphism</li>
 <li>any two $K$-algebra embeddings $\varphi, \psi: L \hookrightarrow A$ of a field extension $L/K$ are conjugate by an element of $A^\times$. That is, there exists $u \in A^\times$ such that for all $x \in L$, $\psi(x) = u \varphi(x) u^{-1}$.</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -728,7 +728,7 @@ data-cite-key="GS06" data-cite-note="Theorem 2.7.2">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The <em>Brauer group</em> of a field $K$, denoted $\mathrm{Br}(K)$ is the group of equivalence classes of Azumaya algebras over $K$ under the equivalence relation $A\sim B$ iff one of the following equivalent conditions hold:</p>
 <ol>
 <li>there exists $m,n\ge 1$ and a central division algebra $D$ over $K$ such that $A\cong \mathrm{M}_m(D)$ and $B\cong \mathrm{M}_n(D)$ as $K$-algebras,</li>
@@ -736,7 +736,7 @@ data-cite-key="GS06" data-cite-note="Theorem 2.7.2">
 </ol>
 <p>The group operation is induced by the tensor product $\otimes_K$, the identity element is the class of $K$, and the inverse of the class of $A$ is the class of the opposite algebra $A^{\mathrm{opp}}$. If $L\mid K$ is a field extension then there is a group homomorphism $\mathrm{Br}(K)\rightarrow \mathrm{Br}(L)$ induced by base change, so $\mathrm{Br}:\mathbf{Field}\rightarrow\mathbf{Ab}$ is functorial in fields.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>In the next post, we'll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems. We will also generalize the Brauer group construction to schemes.</p>
@@ -797,10 +797,10 @@ data-cite-key="GS06" data-cite-note="Theorem 2.7.2">
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/64e091b/" title="做数学科研一定要在学术界吗"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="https://yunhaimath.com/posts/64e091b/" title="做数学科研一定要在学术界吗"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/ae85645/" title="Brauer Groups Part II">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="https://yunhaimath.com/posts/ae85645/" title="Brauer Groups Part II">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
@@ -841,13 +841,13 @@ data-cite-key="GS06" data-cite-note="Theorem 2.7.2">
   </div>
 
   
-  <script src='http://localhost:1313/js/script.js' defer></script>
+  <script src='https://yunhaimath.com/js/script.js' defer></script>
 
   
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/publications.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/codeblock.css" />
   
 
   

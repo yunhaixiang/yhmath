@@ -2,59 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cohomology on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/cohomology/</link>
+    <link>https://yunhaimath.com/tags/cohomology/</link>
     <description>Recent content in Cohomology on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/cohomology/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Middle Extension and Middle Convolution</title>
-      <link>http://localhost:1313/posts/middle-extension-and-middle-convolution/</link>
-      <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/middle-extension-and-middle-convolution/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
-&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
-&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Six Functor Formalism</title>
-      <link>http://localhost:1313/posts/six-functor-formalism/</link>
-      <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/six-functor-formalism/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;the-six-operations&#34;&gt;The Six Operations&lt;/h2&gt;
-&lt;h2 id=&#34;adjunctions&#34;&gt;Adjunctions&lt;/h2&gt;
-&lt;h2 id=&#34;base-change&#34;&gt;Base Change&lt;/h2&gt;
-&lt;h2 id=&#34;projection-formula&#34;&gt;Projection Formula&lt;/h2&gt;
-&lt;h2 id=&#34;verdier-duality&#34;&gt;Verdier Duality&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/cohomology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:1313/posts/ccda5dd/</link>
+      <link>https://yunhaimath.com/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/ccda5dd/</guid>
+      <guid>https://yunhaimath.com/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -74,9 +32,9 @@ I have not found a reference that I am completely satisfied with, but a lot of m
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(de Rham)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     There is a canonical isomorphism $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -105,13 +63,13 @@ data-cite-key=&#34;Bre97&#34; data-cite-note=&#34;Chapter II, Section 9&#34;&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;There is a different version where the isomorphism is between de Rham cohomology and singular cohomology $\mathrm H^k_{\mathrm{dR}}(M)\cong\mathrm H^k(M,\underline{\mathbb R})$, for which the map is induced by the chain morphism
 &lt;/p&gt;
 $$\omega\mapsto \left(\sigma\mapsto \int_{\sigma}\omega\right)$$&lt;p&gt;
 its well-definedness is exactly the statement of Stokes theorem.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;We want a version of this for algebraic varieties.&lt;/p&gt;
@@ -124,11 +82,11 @@ its well-definedness is exactly the statement of Stokes theorem.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;For any scheme $X/S$, define the hypercohomology&lt;/p&gt;
 $$\mathrm{H}_{\mathrm{dR}}^n(X)=\mathbb H^n(X,\Omega^\bullet_X)$$&lt;p&gt;as the algebraic de Rham cohomology of $X$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;For algebraic varieties (or even complex manifolds), we do not have an adequate partitions of unity, so we can have $\Omega^p$ not acyclic.
@@ -143,9 +101,9 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $X/\mathbb C$ be a smooth variety, then there is natural isomorphism $\mathrm{H}^n_{\mathrm{dR}}(X)\cong\mathrm H^n(X^{\mathrm{an}},\mathbb C)$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -168,9 +126,9 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Remark&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     If $X$ is non proper, this situation is more difficult. One needs to use log differential forms, which I will not elaborate.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;gaussmanin-connection&#34;&gt;Gauss–Manin Connection&lt;/h2&gt;
@@ -189,7 +147,7 @@ $$\nabla(s\otimes\omega)=\nabla(s)\land\omega+s\otimes \mathrm dw$$&lt;p&gt;then
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $f:X\rightarrow S$ be a smooth proper morphism of smooth schemes over field $k$ of characteristic $0$. The &lt;em&gt;Gauss–Manin connection&lt;/em&gt; is the canonical flat connection on the relative de Rham cohomology sheaves&lt;/p&gt;
 $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes \Omega^1_{S/k}$$&lt;p&gt;where $\mathcal H^n_{\mathrm{dR}}(X/S)=\mathrm{R}^nf_{*}\Omega_{X/S}^\bullet$. They are constructed in the following way: consider the exact sequence&lt;/p&gt;
 $$0\to f^*\Omega^1_{S/k}\to\Omega^1_{X/k}\to \Omega^1_{X/S}\to 0$$&lt;p&gt;which induces a &lt;em&gt;Gauss–Manin&lt;/em&gt; filtration $\mathrm{Fil}^p\,\Omega^\bullet_X$ defined by&lt;/p&gt;
@@ -201,7 +159,7 @@ $$\mathrm{R}f_*\left(f^*\Omega^1_{S/k}\otimes_{\mathcal O_X}\Omega^\bullet_{X/S}
 $$\mathrm{R}f_*\Omega^\bullet_{X/S}\longrightarrow \mathrm{R}f_*\Omega^\bullet_{X/S}\otimes_{\mathcal O_S}\Omega^1_{S/k}$$&lt;p&gt;taking cohomology sheaves gives us&lt;/p&gt;
 $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H^n_{\mathrm{dR}}(X/S)\otimes_{\mathcal O_S}\Omega^1_{S/k}$$&lt;p&gt;which is the Gauss–Manin connection.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;

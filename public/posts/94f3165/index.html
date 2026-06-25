@@ -103,7 +103,7 @@ This is an old post from 2023 reposted. In this week we discuss fppf sites (reca
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -263,9 +263,9 @@ This is an old post from 2023 reposted. In this week we discuss fppf sites (reca
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Suppose $X\rightarrow Y$ is a morphism of schemes, the functor of points $\mathscr{H}_X$ is a sheaf on $(\mathbf{Sch}/Y)_{\mathrm{fppf}}$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -357,14 +357,14 @@ data-cite-key="Ols16" data-cite-note="Theorem 4.1.2">
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $\mathscr{P}_{\mathcal F}:\mathcal F\rightarrow\mathcal C$ be a category over the category $\mathcal C$.</p>
 <ol>
 <li>composite of cartesian arrows are cartesian,</li>
 <li>if $\psi:\eta\rightarrow \zeta$ and $\phi:\xi\rightarrow\eta$ are arrows in $\mathcal F$ with $\psi$ cartesian, then $\phi$ is cartesian iff $\psi\circ\phi$ is,</li>
 <li>if $\phi:\xi\rightarrow\eta$ is an arrow and $\mathscr{P}_{\mathcal F}\phi$ is an isomorphism, then $\phi$ is cartesian iff it is an isomorphism,</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <p>With these knowledge, we can introduce fibred categories. Fibred categories are used to provide a general framework for descent theory. They formalize various situations in geometry and algebra where pullbacks of objects are defined. A motivating example is the category of vector bundles on a topological space.</p>
@@ -377,7 +377,7 @@ data-cite-key="Ols16" data-cite-note="Theorem 4.1.2">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <ol>
 <li>A <em>fibred category</em> over a category $\mathcal C$ is a category $\mathcal F$ over $\mathcal C$ such that for each $f:U\rightarrow V$ in $\mathcal C$ where $V=\mathscr{P}_{\mathcal F}(\eta)$ for some $\eta\in \mathcal F$, there exists $\xi\in\mathcal F$ with $U=\mathscr{P}_{\mathcal F}(\xi)$ and cartesian arrow $\phi:\xi\rightarrow\eta$ such that $f=\mathscr{P}_{\mathcal F}\phi$.</li>
 <li>Suppose $\mathcal F,\mathcal G$ are fibred categories over $\mathcal C$, then a <em>morphism of fibred categories</em> $\mathscr{F}:\mathcal F\rightarrow \mathcal G$ is a functor such that $\mathscr{P}_{\mathcal G}\circ \mathscr{F}=\mathscr{P}_{\mathcal F}$ and $\mathscr{F}$ sends cartesian arrows to cartesian arrows.</li>
@@ -387,7 +387,7 @@ data-cite-key="Ols16" data-cite-note="Theorem 4.1.2">
 <li>For a morphism of fibred categories $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ over $\mathcal C$ and $U\in\mathcal C$, we write $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ to denote the functor where $\mathscr{F}_U(\xi)=\mathscr{F}(\xi)$ and $\mathscr{F}_U\phi=\mathscr{F}\phi$.</li>
 </ol>
 
-  </span>
+  </div>
 </div>
 
 <p>Thus in a fibred category we can pullback objects along any arrow. For example, for a category $\mathcal C$ with $X\in\mathcal C$, we have $\mathcal C/X$ is fibred over $\mathcal C$ via $\mathscr{P}_{\mathcal C/X}:\mathcal C/X\rightarrow \mathcal C$ given by $(Y\rightarrow X)\mapsto Y$ and morphisms are mapped to themsleves. It should be easy to check that this is well-defined.</p>
@@ -405,13 +405,13 @@ data-cite-key="Ols16" data-cite-note="Theorem 4.1.2">
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $\mathscr{F}:\mathcal F\rightarrow\mathcal G$ be a morphism of fibred categories over $\mathcal C$,</p>
 <ol>
 <li>$\mathscr{F}$ is fully faithful (as a functor) iff $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ is fully faithful for all $U\in\mathcal C$,</li>
 <li>$\mathscr{F}$ is an equivalence (of categories) iff $\mathscr{F}_U:\mathcal F(U)\rightarrow \mathcal G(U)$ is an equivalence for all $U\in\mathcal C$.</li>
 </ol>
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -438,12 +438,12 @@ data-cite-key="Ols16" data-cite-note="Lemma 3.1.8">
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(2-Yoneda lemma)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Suppose $\mathcal F$ is fibred over $\mathcal C$, there is an equivalence </p>
 $$\mathrm{MOR}_{\mathcal C}(\mathcal C/X,\mathcal F)\cong \mathcal F(X)$$<p>
 given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">

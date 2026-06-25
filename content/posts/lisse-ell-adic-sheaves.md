@@ -41,7 +41,7 @@ i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}
 Let $X$ be a connected scheme with $\ell$ an invertible prime, and choose a geometric point $\overline{x}\rightarrow X$. 
 
 {{< definition >}}
-For $n\geq 1$, a *lisse* $\mathbb Z/\ell^n\mathbb Z$-*sheaf* on $X_{\mathrm{\acute et}}$ is a locally constant constructible sheaf of $\mathbb Z/\ell^n\mathbb Z$-modules. Equivalently, locally for the etale topology it is isomorphic to a constant sheaf associated to a finite $\mathbb Z/\ell^n\mathbb Z$-module. It has *rank* $r$ if locally it is isomorphic to $(\mathbb Z/\ell^n\mathbb Z)^r$.
+For $n\geq 1$, a *lisse* $\mathbb Z/\ell^n\mathbb Z$-*sheaf* on $X_{\mathrm{\acute et}}$ is a etale locally constant sheaf of $\mathbb Z/\ell^n\mathbb Z$-modules with finite stalks. It has *rank* $r$ if locally it is isomorphic to $(\mathbb Z/\ell^n\mathbb Z)^r$. 
 
 A *lisse* $\mathbb Z_\ell$-*sheaf* is an inverse system $\mathcal F=(\mathcal F_n,\varphi_{n+1,n})_{n\geq 1}$, where each $\mathcal F_n$ is a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf and each transition map $\varphi_{n+1,n}:\mathcal F_{n+1}\rightarrow\mathcal F_n$ is $\mathbb Z/\ell^{n+1}\mathbb Z$-linear via the quotient map $\mathbb Z/\ell^{n+1}\mathbb Z\rightarrow\mathbb Z/\ell^n\mathbb Z$. We require that the induced map
 $$
@@ -50,6 +50,8 @@ $$
 be an isomorphism for all $n$. Equivalently, $\varphi_{n+1,n}$ identifies the quotient $\mathcal F_{n+1}/\ell^n\mathcal F_{n+1}$ with $\mathcal F_n$.
 
 A *lisse* $\mathbb Q_\ell$-*sheaf* is obtained by tensoring a lisse $\mathbb Z_\ell$-sheaf with $\mathbb Q_\ell$, i.e. it is of the form $\mathcal F\otimes_{\mathbb Z_\ell}\mathbb Q_\ell$ for a lisse $\mathbb Z_\ell$-sheaf $\mathcal F$.
+
+For $n\geq 1$, a $\mathbb Z/\ell^n\mathbb Z$-sheaf $\mathcal F$ is *constructible* if there exists a finite stratification $X=\coprod_i X_i$ by locally closed subsets such that $\mathcal F|_{X_i}$ is lisse for every $i$. A constructible $\mathbb Z_\ell$-sheaf is a compatible inverse system $(\mathcal F_n)_{n\geq 1}$ as above, with each $\mathcal F_n$ constructible. A constructible $\mathbb Q_\ell$-sheaf is obtained from a constructible $\mathbb Z_\ell$-sheaf by tensoring with $\mathbb Q_\ell$.
 {{< /definition >}}
 
 Recall that the étale fundamental group is an inverse limit
@@ -85,7 +87,7 @@ We claim that $\mathcal F_\rho$ is lisse. Since $M$ is finite and $\rho$ is cont
 $
 \pi_1^{\mathrm{\acute et}}(Y,\overline{y})=H
 $
-acts trivially on $M$. Hence the pullback of $\mathcal F_\rho$ to $Y_{\mathrm{\acute et}}$ is the sheaf associated to the trivial representation of $\pi_1^{\mathrm{\acute et}}(Y,\overline{y})$ on $M$, which is the constant sheaf $\underline{M}_Y$. Thus $\mathcal F_\rho$ becomes constant after the finite etale cover $Y\rightarrow X$. Since $M$ is finite, $\mathcal F_\rho$ is locally constant constructible, hence lisse.
+acts trivially on $M$. Hence the pullback of $\mathcal F_\rho$ to $Y_{\mathrm{\acute et}}$ is the sheaf associated to the trivial representation of $\pi_1^{\mathrm{\acute et}}(Y,\overline{y})$ on $M$, which is the constant sheaf $\underline{M}_Y$. Thus $\mathcal F_\rho$ becomes constant after the finite etale cover $Y\rightarrow X$. Since $M$ is finite, $\mathcal F_\rho$ is locally constant with finite stalks, hence lisse.
 
 The two constructions are mutually inverse. Starting with $\rho$ on $M$, the stalk of $\mathcal F_\rho$ at $\overline{x}$ is
 $$
@@ -102,6 +104,177 @@ $$
 $$
 After pulling back to an etale cover on which $\mathcal F$ is constant, this map is visibly an isomorphism: both sides are locally constant functions to the same finite module $M$. Therefore it is an isomorphism after etale descent, and hence for all $U$. Thus the sheaf reconstructed from $\rho_{\mathcal F}$ is canonically isomorphic to $\mathcal F$.
 {{< /proof >}}
+
+For a cartesian square of schemes
+
+{{< quiver
+    src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJYXlxccHJpbWUiXSxbMSwwLCJYIl0sWzAsMSwiU15cXHByaW1lIl0sWzEsMSwiUyJdLFswLDEsImdeXFxwcmltZSJdLFswLDIsImZeXFxwcmltZSIsMl0sWzEsMywiZiJdLFsyLDMsImciXV0=&embed"
+    width="125px"
+    height="125px"
+    scale="1.75"
+    radius="0px"
+>}}
+
+if $\mathcal F$ is a constructible $\Lambda$-sheaf on $X$ and $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$, there is a map for each $i\ge 0$, 
+$$
+\varepsilon:g^*\mathrm R^if_*\mathcal F\longrightarrow \mathrm R^if'_*g'^*\mathcal F.
+$$
+This map is constructed as follows. For a morphism of schemes $h:A\rightarrow B$, the inverse image functor $h^*$ on sheaves is exact, while $h_*$ is left exact. The usual adjunction $h^*\dashv h_*$ therefore derives to an adjunction
+$$
+h^*:\mathrm D^+(B,\Lambda)\rightleftarrows \mathrm D^+(A,\Lambda):\mathrm Rh_*.
+$$
+Thus, for $h=g'$ we have $g'^*\dashv \mathrm Rg'_*$, and its unit gives a natural map
+$$
+\mathcal F\longrightarrow \mathrm Rg'_*g'^*\mathcal F.
+$$
+Applying $\mathrm Rf_*$ gives
+$$
+\mathrm Rf_*\mathcal F\longrightarrow \mathrm Rf_*\mathrm Rg'_*g'^*\mathcal F.
+$$
+Since the square is cartesian, we have $f\circ g'=g\circ f'$, hence $\mathrm Rf_*\mathrm Rg'_*=\mathrm Rg_*\mathrm Rf'_*$. Therefore the previous arrow becomes
+$$
+\mathrm Rf_*\mathcal F\longrightarrow \mathrm Rg_*\mathrm Rf'_*g'^*\mathcal F.
+$$
+Now use the adjunction $g^*\dashv \mathrm Rg_*$. Under the bijection
+$$
+\mathrm{Hom}(\mathrm Rf_*\mathcal F,\mathrm Rg_*\mathrm Rf'_*g'^*\mathcal F)
+\cong
+\mathrm{Hom}(g^*\mathrm Rf_*\mathcal F,\mathrm Rf'_*g'^*\mathcal F),
+$$
+the preceding morphism corresponds to
+$$
+g^*\mathrm Rf_*\mathcal F\longrightarrow \mathrm Rf'_*g'^*\mathcal F.
+$$
+Since $g^*$ is exact on sheaves, it commutes with cohomology sheaves:
+$$
+\mathcal H^i(g^*\mathrm Rf_*\mathcal F)\cong g^*\mathcal H^i(\mathrm Rf_*\mathcal F)=g^*\mathrm R^if_*\mathcal F.
+$$
+Thus taking the $i$-th cohomology sheaf of the derived morphism above gives
+$$
+\varepsilon:g^*\mathrm R^if_*\mathcal F\longrightarrow \mathrm R^if'_*g'^*\mathcal F.
+$$
+
+{{< theorem note="Base Change Theorems">}}
+Let $\Lambda=\mathbb Z/\ell^n\mathbb Z,\mathbb Z_\ell,$ or $\mathbb Q_\ell$. For each cartesian square as above, the map
+$$
+\varepsilon:g^*\mathrm R^if_*\mathcal F\longrightarrow \mathrm R^if'_*g'^*\mathcal F.
+$$
+is an isomorphism for all $i\ge 0$ if one of the following is true
+
+1. (Proper Base Change Theorem) $f:X\rightarrow S$ is proper and $\mathcal F$ is a constructible $\Lambda$-sheaf on $X$
+
+2. (Smooth Base Change Theorem) $g:S'\rightarrow S$ is smooth and $\mathcal F$ is a constructible $\Lambda$-sheaf on $X$
+
+{{< /theorem >}}
+{{< proof >}}
+See {{< cite key="Mil80" note="Chapter VI, Theorems 2.1 and 4.1" >}}.
+{{< /proof >}}
+
+{{< corollary id="cor-smooth-proper-lisse" >}}
+Let $f:X\rightarrow S$ be smooth and proper, and let $\mathcal F$ be a lisse $\Lambda$-sheaf on $X$. Then $\mathrm R^if_*\mathcal F$ is a lisse $\Lambda$-sheaf on $S$ for every $i\ge 0$. Moreover, for every geometric point $\overline{s}\rightarrow S$, proper base change identifies the stalk with the cohomology of the geometric fiber:
+$$
+(\mathrm R^if_*\mathcal F)_{\overline{s}}\cong \mathrm H^i(X_{\overline{s}},\mathcal F|_{X_{\overline{s}}}).
+$$
+{{< /corollary >}}
+{{< proof >}}
+Apply proper base change to the pullback square obtained from a geometric point $g:\overline{s}\rightarrow S$. Then $X'=X_{\overline{s}}$, and the base change isomorphism gives
+$$
+g^*\mathrm R^if_*\mathcal F\cong \mathrm R^if'_*g'^*\mathcal F.
+$$
+This is an isomorphism of sheaves on $\overline{s}_{\mathrm{\acute et}}$. Since $\overline{s}$ is the spectrum of a separably closed field, a sheaf on $\overline{s}_{\mathrm{\acute et}}$ is determined by its value at $\overline{s}$. Evaluating the left side gives
+$$
+(g^*\mathrm R^if_*\mathcal F)(\overline{s})=(\mathrm R^if_*\mathcal F)_{\overline{s}},
+$$
+by the definition of stalk at a geometric point. Evaluating the right side gives
+$$
+(\mathrm R^if'_*g'^*\mathcal F)(\overline{s})=\mathrm H^i(X_{\overline{s}},\mathcal F|_{X_{\overline{s}}}),
+$$
+because $f':X_{\overline{s}}\rightarrow \overline{s}$ is the structure map. This proves the stalk formula, and properness gives finiteness of these cohomology groups. To see local constancy, apply smooth base change to etale morphisms $g:S'\rightarrow S$. Since etale morphisms are smooth, the theorem says that the formation of $\mathrm R^if_*\mathcal F$ is unchanged after passing to such an etale cover. Applying this on an etale cover where the smooth family and the lisse sheaf are locally trivial shows that $\mathrm R^if_*\mathcal F$ is locally constant with finite stalks, hence lisse.
+{{< /proof >}}
+
+{{< example >}}
+Let $f:X\rightarrow S$ be smooth and proper, and take the constant lisse sheaf $\Lambda_X$ on $X$. By {{< refer id="cor-smooth-proper-lisse" >}}, the sheaves
+$$
+\mathrm R^if_*\Lambda_X
+$$
+are lisse $\Lambda$-sheaves on $S$. Their stalk at a geometric point $\overline{s}\rightarrow S$ is
+$$
+(\mathrm R^if_*\Lambda_X)_{\overline{s}}\cong \mathrm H^i(X_{\overline{s}},\Lambda).
+$$
+Thus the etale cohomology groups of the geometric fibers form a local system on $S$. Equivalently, after choosing a geometric point $\overline{s}\rightarrow S$, this lisse sheaf gives a continuous monodromy representation
+$$
+\rho_i:\pi_1^{\mathrm{\acute et}}(S,\overline{s})\rightarrow \mathrm{Aut}_{\Lambda}\!\left(\mathrm H^i(X_{\overline{s}},\Lambda)\right).
+$$
+The Tate module of an abelian variety is a special case. If $A$ is an abelian variety over a field $k$ with separable closure $\overline{k}$, then
+$$
+T_{\ell}(A)=\varprojlim_n A[\ell^n](\overline{k})
+$$
+is a continuous representation of $\mathrm{Gal}(\overline{k}/k)=\pi_1^{\mathrm{\acute et}}(\mathrm{Spec}(k),\mathrm{Spec}(\overline{k}))$, and it is naturally dual to $\mathrm H^1(A_{\overline{k}},\mathbb Z_\ell)$.
+{{< /example >}}
+
+{{< example >}}
+Let $k$ be a field with $n$ invertible, and $\Lambda$ be $\mathbb Z/\ell^m\mathbb Z$, $\mathbb Z_\ell$, or $\mathbb Q_\ell$ with $\ell\nmid n$. Consider the finite etale Kummer cover
+$$
+[n]:\mathbb G_{m,k}\rightarrow \mathbb G_{m,k},\qquad t\longmapsto t^n.
+$$
+Its Galois group is $\mu_n$, acting on the source by multiplication: $\zeta\in\mu_n$ sends $t$ to $\zeta t$. The sheaf $[n]_*\Lambda$ is locally free of rank $n$; for an etale $U\rightarrow\mathbb G_{m,k}$, its sections are locally constant $\Lambda$-valued functions on the pullback cover
+$$
+U\times_{\mathbb G_m,[n]}\mathbb G_m.
+$$
+The action of $\mu_n$ on the cover gives an action of $\mu_n$ on this sheaf. If $\chi:\mu_n\rightarrow\Lambda^\times$ is a character, the *Kummer sheaf* $\mathcal K_{\chi}$ is the subsheaf of $[n]_*\Lambda$ on which every deck transformation $\zeta\in\mu_n$ acts by the scalar $\chi(\zeta)$:
+$$
+\mathcal K_{\chi}(U)=\{s\in ([n]_*\Lambda)(U):\zeta\cdot s=\chi(\zeta)s\text{ for all }\zeta\in\mu_n\}.
+$$
+Equivalently, choose a geometric point $\overline{x}\rightarrow\mathbb G_{m,k}$ and choose a point $\overline{y}$ of the geometric fiber $[n]^{-1}(\overline{x})$. The etale fundamental group acts on the fiber of every finite etale cover, so each $\gamma\in\pi_1^{\mathrm{\acute et}}(\mathbb G_{m,k},\overline{x})$ sends $\overline{y}$ to another point $\gamma\overline{y}$ of $[n]^{-1}(\overline{x})$. Since this fiber is a $\mu_n$-torsor, there is a unique element $\zeta(\gamma)\in\mu_n$ such that
+$$
+\gamma\overline{y}=\zeta(\gamma)\overline{y}.
+$$
+This gives a quotient map
+$$
+\pi_1^{\mathrm{\acute et}}(\mathbb G_{m,k},\overline{x})\twoheadrightarrow \mu_n,\qquad \gamma\longmapsto \zeta(\gamma).
+$$
+The representation attached to $\mathcal K_{\chi}$ is the rank one representation on the free $\Lambda$-module $\Lambda$ given by
+$$
+\rho_{\chi}(\gamma)(a)=\chi(\zeta(\gamma))a,\qquad a\in\Lambda.
+$$
+The lisse sheaf attached to this representation is precisely $\mathcal K_{\chi}$.
+{{< /example >}}
+
+{{< example >}}
+Assume $\mathrm{char}(k)=p>0$ and let $\ell\ne p$. Let $\Lambda$ be $\mathbb Z/\ell^m\mathbb Z$, $\mathbb Z_\ell$, or $\mathbb Q_\ell$, and choose a nontrivial additive character $\psi:\mathbb F_p\rightarrow\Lambda^\times$. The Artin-Schreier map
+$$
+\mathrm{AS}:\mathbb A^1_k\rightarrow\mathbb A^1_k,\qquad t\longmapsto t^p-t
+$$
+is a finite etale cover. Its deck group is the additive group $\mathbb F_p$, acting by translations $t\mapsto t+a$. The *Artin-Schreier sheaf* $\mathcal{AS}_{\psi}$ is the subsheaf of $\mathrm{AS}_*\Lambda$ on which $a\in\mathbb F_p$ acts by the scalar $\psi(a)$:
+$$
+\mathcal{AS}_{\psi}(U)=\{s\in(\mathrm{AS}_*\Lambda)(U):a\cdot s=\psi(a)s\text{ for all }a\in\mathbb F_p\}.
+$$
+Equivalently, after choosing a geometric point $\overline{x}\rightarrow\mathbb A^1_k$, the cover gives a quotient
+$$
+\pi_1^{\mathrm{\acute et}}(\mathbb A^1_k,\overline{x})\twoheadrightarrow\mathbb F_p,
+$$
+and $\mathcal{AS}_{\psi}$ corresponds to the rank one representation obtained by composing this quotient with $\psi:\mathbb F_p\rightarrow\Lambda^\times$.
+{{< /example >}}
+
+{{< example >}}
+The Kummer and Artin-Schreier examples are instances of the same descent construction. Let $\pi:Y\rightarrow X$ be a finite etale right $G$-torsor, where $G$ is a finite group, and let $\rho:G\rightarrow\mathrm{Aut}_{\Lambda}(M)$ be a representation on a finite free $\Lambda$-module $M$. The constant sheaf $\underline{M}_Y$ on $Y$ descends to a lisse sheaf $\mathcal L_{\rho}$ on $X$ by using the torsor isomorphism
+$$
+Y\times_XY\cong Y\times G
+$$
+and the representation $\rho$ to identify the two pullbacks of $\underline{M}_Y$ to $Y\times_XY$. Equivalently,
+$$
+\mathcal L_{\rho}(U)=\{s\in \mathrm{Map}_{\mathrm{loc.const.}}(U\times_XY,M):s(yg)=\rho(g)^{-1}s(y)\text{ for all }g\in G\}.
+$$
+After choosing a geometric point $\overline{x}\rightarrow X$ and a point $\overline{y}\in Y_{\overline{x}}$, the torsor gives a quotient
+$$
+\pi_1^{\mathrm{\acute et}}(X,\overline{x})\twoheadrightarrow G,
+$$
+and $\mathcal L_{\rho}$ is the lisse sheaf corresponding to the representation
+$$
+\pi_1^{\mathrm{\acute et}}(X,\overline{x})\twoheadrightarrow G\xrightarrow{\rho}\mathrm{Aut}_{\Lambda}(M).
+$$
+Kummer sheaves correspond to $G=\mu_n$ and a multiplicative character $\chi$, while Artin-Schreier sheaves correspond to $G=\mathbb F_p$ and an additive character $\psi$. 
+{{< /example >}}
 
 ## Riemann–Hilbert Correspondence
 

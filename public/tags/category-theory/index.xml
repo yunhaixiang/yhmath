@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category-Theory on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/category-theory/</link>
+    <link>https://yunhaimath.com/tags/category-theory/</link>
     <description>Recent content in Category-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Sep 2025 20:14:47 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Sep 2025 20:14:47 +0000</lastBuildDate><atom:link href="https://yunhaimath.com/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simplicial Sets and Infinity-Categories</title>
-      <link>http://localhost:1313/posts/0c3e076/</link>
+      <link>https://yunhaimath.com/posts/0c3e076/</link>
       <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/0c3e076/</guid>
+      <guid>https://yunhaimath.com/posts/0c3e076/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
@@ -29,10 +29,10 @@
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The cocone defined by the collection of maps $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ (identifying via the Yoneda lemma) exhibits $X$ as a colimit of $\varphi_X$ viewed as a diagram, that is,&lt;/p&gt;
 $$X=\mathrm{colim}\ \varphi_X.$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -59,12 +59,12 @@ $$u^*:C\rightarrow \widehat{A},\qquad Y\mapsto \left[a\mapsto \mathrm{Hom}_{C}(u
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The functor $u^*:C\rightarrow \widehat{A}$ has a left adjoint $u_!:\widehat{A}\rightarrow C$. Moreover, there exists a natural isomorphism $u(a)\xrightarrow{\sim} u_!(\mathscr{H}_a)$ for $a\in A$ such that for any $Y\in C$, the induced bijection&lt;/p&gt;
 $$\mathrm{Hom}_C(u(a),Y)\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y)$$&lt;p&gt;is the inverse of the composition&lt;/p&gt;
 $$\mathrm{Hom}_C(u(a),Y)=u^*(Y)_a\xrightarrow{\sim} \mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,u^*(Y))\xrightarrow{\sim} \mathrm{Hom}_C(u_!(\mathscr{H}_a),Y),$$&lt;p&gt;where the first isomorphism is Yoneda and the second is the adjunction formula.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;simplicial-sets&#34;&gt;Simplicial Sets&lt;/h2&gt;
@@ -85,7 +85,7 @@ $$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which i
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;An &lt;em&gt;Eilenberg-Zilber category&lt;/em&gt; is a quadruple $(A,A_+,A_-,d)$ where $A$ is a category, $A_+,A_-$ are subcategories, and $d:A\rightarrow\mathbb N$ is a set-function, such that:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;An isomorphism of $A$ is an isomorphism of $A_+$ and $A_-$.&lt;/li&gt;
@@ -96,7 +96,7 @@ $$Y\mapsto \left[[n]\mapsto \mathrm{Hom}(|\Delta^n|,Y)\right],$$&lt;p&gt;which i
 &lt;/ol&gt;
 &lt;p&gt;We say an object $a\in A$ has dimension $n$ if $d(a)=n$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The category $\Delta$ is Eilenberg-Zilber with $\Delta_+$ (resp. $\Delta_-$) the subcategory of monomorphisms (resp. epimorphisms), and $d([n])=n$. Let $X$ be a presheaf on an Eilenberg-Zilber category $A$. For $a\in A$, we say $x\in X_a$ is &lt;em&gt;degenerate&lt;/em&gt; if there is a map $\sigma:a\rightarrow b$ in $A$ with $d(b) &lt; d(a)$, and $y\in X_b$ such that $\sigma^*(y)=x$. The pair $(\sigma,y)$ is called a decomposition of $x$. Moreover, there is a unique decomposition such that $\sigma\in A_-$ and $y$ is non-degenerate. For $n\ge 0$, we define $\mathrm{Sk}_n(X)$ to be the maximal subpresheaf of $X$ such that for any $m &gt; n$, any section of $\mathrm{Sk}_n(X)$ over an object $a$ of dimension $m$ is degenerate. In other words, $\mathrm{Sk}_n(X)$ restricts the sections to dimensions $\le n$. We can easily make the construction $\mathrm{Sk}_n$ functorial, so it can be viewed as a functor.&lt;/p&gt;
@@ -108,10 +108,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:1313/posts/910cedd/</link>
+      <link>https://yunhaimath.com/posts/910cedd/</link>
       <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/910cedd/</guid>
+      <guid>https://yunhaimath.com/posts/910cedd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -126,9 +126,9 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $\mathcal A$ be a category and $S$ a class of morphisms of it, then define its localization as a category $\mathcal A[S^{-1}]$ and a functor $Q:\mathcal A\rightarrow A[S^{-1}]$ s.t. $Q(s)$ is an isomorphism for all $s\in S$ and $Q$ is universal w.r.t. this property, i.e. if the functor $F:\mathcal A\rightarrow\mathcal B$ is such that $F(s)$ is an isomorphism for each $s$, then there exists a unique functor $G:\mathcal A[S^{-1}]\rightarrow\mathcal B$ s.t. $F=G\circ Q$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The way we obtain a construction that satisfies this universal property is quite convoluted. We define it this way. Let $\mathcal A[S^{-1}]$ have the same objects as $\mathcal A$. For each $X,Y\in\mathcal A[S^{-1}]$, let a directed edge between them be a morphism $f\in\mathrm{Hom}(X,Y)$ or if $s\in S\cap \mathrm{Hom}(X,Y)$, an edge in the opposite direction $s:Y\rightarrow X$. A path between two objects $M,N\in A[S^{-1}]$ is a sequence of directed edges $M=L_0, L_1,\dots,L_n=N$, where the direction does not need to be the same. We define $\mathrm{Hom}(M,N)$ as the equivalence class of paths where two paths are equivalent if they can be transformed to each other via a sequence of the following transformations.&lt;/p&gt;
@@ -239,9 +239,9 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $S$ a localizing class of category $\mathcal A$, the category $\mathcal A_S$ and functor $Q:\mathcal A\rightarrow \mathcal A_S$ satisfies the universal property of localization, i.e. $Q(s)$ is an isomorphism for each $s\in S$ and is universal w.r.t. it.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -291,9 +291,9 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The derived category $D(\mathcal A)$ of an abelian categroy $\mathcal A$ is the localization $K(\mathcal A)[S^{-1}]$ where $S$ is the class of quasi-isomorphisms. Let $D^{+}(\mathcal A),D^{-}(\mathcal A),D^{b}(\mathcal A)$ be the full subcategory of $D(\mathcal A)$ to the bounded below, bounded above, and bounded complexes.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It is an arduous process to verify that the class of quasi-isomorphisms is a localizing class compatible with triangulation, which the readers can do in their own time.&lt;/p&gt;
@@ -306,9 +306,9 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For an abelian category $\mathcal A$, the functor $\mathcal A\rightarrow D(\mathcal A)$ by $X\mapsto X$ is fully faithful.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -326,10 +326,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:1313/posts/00c73a8/</link>
+      <link>https://yunhaimath.com/posts/00c73a8/</link>
       <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/00c73a8/</guid>
+      <guid>https://yunhaimath.com/posts/00c73a8/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -434,7 +434,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;In a (pre)triangulated category $\mathcal C$, if $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X[1]$ is distinguished, then&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$vu=0$ and $wv=0$&lt;/li&gt;
@@ -444,7 +444,7 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
 &lt;li&gt;(triangulated 5-lemma) Consider a morphism of distinguished triangles, and let its components be $f:X\rightarrow X^\prime,g:Y\rightarrow Y^\prime,h:Z\rightarrow Z^\prime$, then if any two of them are isomorphisms, so is the third.&lt;/li&gt;
 &lt;li&gt;$u$ is an isomorphism iff $Z\cong\mathbf{0}$&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -498,9 +498,9 @@ What we just proved in part 3 of the previous theorem is that the Hom-functor is
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     An object in an abelian category is &lt;em&gt;simple&lt;/em&gt; if the only subobjects are zero and the object itself, and semisimple if it is a coproduct of simple objects. An abelian category is semisimple if every short exact sequence splits.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Caution: some authors call a category semisimple if all objects are semisimple, which is a stronger definition and is NOT equivalent to our definition. Every semisimple abelian category has a triangulated structure. To do this, we let the translation functor be the identity functor, and we declare a triangle $X\xrightarrow{u} Y\xrightarrow{v} Z\xrightarrow{w} X$ distinguished if it is &amp;quot;exact&amp;quot; at $X$, i.e. $\mathrm{Ker}(u)=\mathrm{Im}(w)$. Verifying this is a triangulated category is a tedious, and we will not do it here. Moreover, all abelian triangulated categories are semisimple. We will not prove this either. In fact, the homotopy category of complexes $K(\mathcal A)$ is triangulated. To see this, we set the distinguished triangles to be the ones isomorphic to a standard triangle of the form &lt;/p&gt;
@@ -510,10 +510,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:1313/posts/563818b/</link>
+      <link>https://yunhaimath.com/posts/563818b/</link>
       <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/563818b/</guid>
+      <guid>https://yunhaimath.com/posts/563818b/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
@@ -528,7 +528,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;An &lt;em&gt;additive category&lt;/em&gt; $\mathcal C$ is a category where for each $A,B\in\mathcal C$, the morphisms $\mathrm{Mor}(A,B)$ carry an additional additive abelian group structure, and satisfies&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$\mathcal C$ admits zero object,&lt;/li&gt;
@@ -537,7 +537,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;/ol&gt;
 &lt;p&gt;We use the notation $\mathrm{Hom}(A,B)$ for $\mathrm{Mor}(A,B)$ in additive categories to emphasize that the morphisms have an abelian group structure. An &lt;em&gt;additive functor&lt;/em&gt; $\mathcal F:\mathcal C\rightarrow\mathcal D$ between additive categories is a functor such that the associated map $\mathrm{Hom}(A,B)\rightarrow \mathrm{Hom}(\mathcal F(A),\mathcal F(B))$ is a group homomorphism for each $A,B\in\mathcal C$. Moreover, we denote by $0_{A,B}$ (or $0$ if there is no confusion) the identity element of $\mathrm{Hom}(A,B)$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Note $0_{A,B}$ is the zero morphism since it&#39;s the unique morphism $A\rightarrow B$ which factors through $\mathbf 0$, i.e. $A\rightarrow\mathbf 0\rightarrow B$.  In particular, note that $0_{A,B}\circ f=0_{X,A}$ and $g\circ 0_{A,B}=0_{B,X}$ for any $f:X\rightarrow A$ and $g:B\rightarrow X$, for any object $X$. We note that equivalently, an additive functor maybe defined as a functor that preserves all finite biproducts.&lt;/p&gt;
@@ -591,7 +591,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;An &lt;em&gt;abelian category&lt;/em&gt; is an additive category where&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;every morphism has a kernel and a cokernel,&lt;/li&gt;
@@ -600,7 +600,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;/ol&gt;
 &lt;p&gt;Moreover, in an abelian category, for any morphism $f:A\rightarrow B$, we define its image as the kernel of its cokernel $\mathrm{Im}(f)=\mathrm{Ker}(\mathrm{Coker}(f))$, and coimage as the cokernel of its kernel $\mathrm{Coim}(f)=\mathrm{Coker}(\mathrm{Ker}(f))$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;A quintessential example of an abelian category is the category of $R$-modules. In fact, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem&#34;&gt;Freyd–Mitchell embedding theorem&lt;/a&gt; states that any abelian category can be embedded to the category of $R$-modules for some $R$ via a fully faithful functor. So we may use element-wise diagram chasing in abelian categories, which may help us derive diagram chasing theorems such as $5$-lemma and snake lemma. In an abelian category, all finite limits and colimits exist, in particular, pullbacks exist and they preserve monomorphisms and epimorphisms.&lt;/p&gt;
@@ -613,7 +613,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;In an abelian category,&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;a morphism $f:A\rightarrow B$ is monic iff $\mathrm{Ker}(f)=\mathbf 0$, and epic iff $\mathrm{Coker}(f)=\mathbf 0$,&lt;/li&gt;
@@ -621,7 +621,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;li&gt;each morphism $f:X\rightarrow Y$ factorizes canonically as $X\twoheadrightarrow \mathrm{Im}(f)\hookrightarrow Y$ and $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$&lt;/li&gt;
 &lt;li&gt;for a morphism $f:A\rightarrow B$, if it factorizes as $A\twoheadrightarrow X\rightarrow B$ then $\mathrm{Coker}(f)=\mathrm{Coker}(X\rightarrow B)$, and if it factorizes as $A\rightarrow X\hookrightarrow B$, then $\mathrm{Ker}(f)=\mathrm{Ker}(A\rightarrow X)$.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -652,9 +652,9 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(First isomorphism theorem)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     In an abelian category, all morphisms are strict.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
@@ -721,9 +721,9 @@ is called a &lt;em&gt;(co)chain complex&lt;/em&gt; if each three term subsequenc
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $A^\bullet$ be a cochain complex in $\mathcal A$ with canonical morphisms $\mathrm{Im}(d^{n-1})\rightarrow\mathrm{Ker}(d^{n})$, define
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
@@ -759,9 +759,9 @@ as the $n$-th cohomology object. In fact, for a chain map $f^\bullet: A^\bullet\
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Suppose $f^\bullet:A^\bullet\rightarrow B^\bullet$ is a morphism in $C(\mathcal A)$ for some abelian category $\mathcal A$. The &lt;em&gt;cone&lt;/em&gt; of $f^\bullet$ is $\mathrm{Cone}(f^\bullet)=A^\bullet[1]\oplus B^\bullet$. Spelled out explicitly, the cochain complex consists of objects $A^{n+1}\oplus B^n$, and the differential $d^n:A^{n+1}\oplus B^n\rightarrow A^{n+2}\oplus B^{n+1}$ is given by
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
@@ -785,9 +785,9 @@ Hence this induces a long exact sequence on cohomology objects. Working out the 
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Suppose $\mathcal A$ is an abelian category. An object $X$ in $\mathcal A$ is &lt;em&gt;injective&lt;/em&gt; (resp. &lt;em&gt;projective&lt;/em&gt;) if the contravariant (resp. covariant) left exact (resp. right exact) hom-functor $\mathrm{Hom}(-,X):\mathcal A\rightarrow\mathbf{Ab}$ (resp. $\mathrm{Hom}(X,-):\mathcal A\rightarrow\mathbf{Ab}$) is exact. Moreover, we say $\mathcal A$ has &lt;em&gt;enough injectives&lt;/em&gt; (resp. &lt;em&gt;enough projectives&lt;/em&gt;) if for any object $Y$ there is an injective object (resp. projective object) $X$ and a monomorphism $Y\rightarrow X$ (resp. epimorphism $X\rightarrow Y$). An &lt;em&gt;injective resolution&lt;/em&gt; of an object $X$ is a complex $I^\bullet$ bounded below $0$ and a quasi-isomorphism $X\rightarrow I^\bullet$, or equivalently, an exact sequence
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
@@ -850,9 +850,9 @@ Note that $\mathscr{F}$ is exact iff $R^1\mathscr{F}=0$, so in a sense the right
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $\mathcal A,\mathcal B$ be abelian categories and $\mathcal A$ has enough injectives. Suppose $\mathscr{F}:\mathcal A\rightarrow\mathcal B$ is a left-exact functor. Let $X\in\mathcal A$ and suppose $I^\bullet$ is an injective resolution, then we obtain a complex
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
@@ -871,13 +871,13 @@ for $i\ge 0$. Left derived functors $L_i\mathscr{F}$ are defined dually via proj
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;For $A,B\in \mathbf{Mod}_R$, define the Ext functors&lt;/p&gt;
 $$\begin{aligned}\mathrm{Ext}_R^i(A,B)&amp;=(R^i\mathrm{Hom}_R(A,-))(B)\\\ &amp;\cong (R^i\mathrm{Hom}_R(-,B))(A)\end{aligned} $$&lt;p&gt; and the Tor functors &lt;/p&gt;
 $$\begin{aligned}\mathrm{Tor}_i^R(A,B)&amp;= (L_i(A\otimes_R -))(B)\\\ &amp;\cong (L_i(-\otimes_R B))(A)\end{aligned}$$&lt;p&gt;
 for all $i\ge 0$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;!--- --&gt;
@@ -890,14 +890,14 @@ for all $i\ge 0$.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Derived functors can help us defined many (co)homology theory.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;Sheaf cohomology.&lt;/em&gt; Let $X$ be a topological space, then the global section functor $\Gamma:\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ which sends $\mathscr{F} \mapsto \mathscr{F}(X)$ is left exact, its right derived functor $H^i(X,-):\mathrm{Sh}(X)\rightarrow \mathbf{Ab}$ is the &lt;em&gt;sheaf cohomology&lt;/em&gt; $H^i(X,\mathscr{F})$. Its special cases include the de Rham cohomology.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Group cohomology.&lt;/em&gt; Let $k$ be an algebraically closed field and $G$ a group, then the invariant functor $(-)^G:\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$, which is the same as $\mathrm{Hom}_{k[G]}(k,-)$, is left exact, its right derived functor $H^i(G;-):\mathbf{Mod}_{k[G]}\rightarrow\mathbf{Mod}_{k[G]}$ gives the group cohomology $H^i(G;M)=\mathrm{Ext}^i_{k[G]}(k,M)$.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Hochschild cohomology.&lt;/em&gt; This one I&#39;m not really familiar, so I will not write about it in detail.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The derived functors are natural in the sense that if we have a morphism of two short exact sequence in $\mathcal A$, then the induced morphisms of the long exact sequences in $\mathcal B$ commutes with the long exact sequences. Finally, I&#39;d like to finish with the definition of the homotopy category of complexes. We say that a chain map is &lt;em&gt;nullhomotopic&lt;/em&gt; if it is homotopic to the zero chain.&lt;/p&gt;
@@ -910,12 +910,12 @@ for all $i\ge 0$.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $\mathcal A$ be an abelian category, the &lt;em&gt;homotopy category of complexes&lt;/em&gt; $ K(\mathcal A)$ is the category where objects are (co)chain complexes in $\mathcal A$ and morphisms are chain maps up to homotopy, i.e. &lt;/p&gt;
 $$\mathrm{Hom}_{K(\mathcal A)}(A^\bullet,B^\bullet)=\mathrm{Hom}_{C(\mathcal A)}(A^\bullet,B^\bullet)/G$$&lt;p&gt;
 where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;There are many things that needs to be checked here for it to be well defined, which we omit. We will see that this category is not typically abelian, but it is triangulated. A triangulated category is an approximation of an abelian category.&lt;/p&gt;</description>

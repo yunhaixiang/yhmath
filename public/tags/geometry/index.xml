@@ -2,25 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geometry on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/geometry/</link>
+    <link>https://yunhaimath.com/tags/geometry/</link>
     <description>Recent content in Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aperiodic Tilings</title>
-      <link>http://localhost:1313/posts/aperiodic-tilings/</link>
+      <link>https://yunhaimath.com/posts/aperiodic-tilings/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/aperiodic-tilings/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;tilings-and-periodicity&#34;&gt;Tilings and Periodicity&lt;/h2&gt;
-&lt;h2 id=&#34;aperiodic-tile-sets&#34;&gt;Aperiodic Tile Sets&lt;/h2&gt;
-&lt;h2 id=&#34;penrose-tilings&#34;&gt;Penrose Tilings&lt;/h2&gt;
-&lt;h2 id=&#34;the-einstein-problem&#34;&gt;The Einstein Problem&lt;/h2&gt;
+      <guid>https://yunhaimath.com/posts/aperiodic-tilings/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    There is no such thing as quasicrystals, only quasi-scientists.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Linus Pauling&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory and representation theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-GS87&#34; data-bib-key=&#34;GS87&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GS87]&lt;/span&gt;Branko Grünbaum and G. C. Shephard. &lt;em&gt;Tilings and Patterns&lt;/em&gt;. W. H. Freeman. 1987.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Gar89&#34; data-bib-key=&#34;Gar89&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Gar89]&lt;/span&gt;Martin Gardner. &lt;em&gt;Penrose Tiles to Trapdoor Ciphers&lt;/em&gt;. W. H. Freeman. 1989.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Tre23&#34; data-bib-key=&#34;Tre23&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Tre23]&lt;/span&gt;Rodrigo Treviño. &lt;em&gt;Aperiodic Tilings, Order, and Randomness&lt;/em&gt;. Notices of the American Mathematical Society. 70(10). pp. 1640--1651. 2023.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-BG13&#34; data-bib-key=&#34;BG13&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[BG13]&lt;/span&gt;Michael Baake and Uwe Grimm. &lt;em&gt;Aperiodic Order. Volume 1: A Mathematical Invitation&lt;/em&gt;. Cambridge University Press. 2013.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Sen06&#34; data-bib-key=&#34;Sen06&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Sen06]&lt;/span&gt;Marjorie Senechal. &lt;em&gt;What is... a Quasicrystal?&lt;/em&gt;. Notices of the American Mathematical Society. 53(8). pp. 886--887. 2006.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Ber66&#34; data-bib-key=&#34;Ber66&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ber66]&lt;/span&gt;Robert Berger. &lt;em&gt;The Undecidability of the Domino Problem&lt;/em&gt;. Memoirs of the American Mathematical Society. Vol. 66. American Mathematical Society. 1966.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Rob71&#34; data-bib-key=&#34;Rob71&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Rob71]&lt;/span&gt;Raphael M. Robinson. &lt;em&gt;Undecidability and Nonperiodicity for Tilings of the Plane&lt;/em&gt;. Inventiones Mathematicae. 12. pp. 177--209. 1971.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Pen74&#34; data-bib-key=&#34;Pen74&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Pen74]&lt;/span&gt;Roger Penrose. &lt;em&gt;The Role of Aesthetics in Pure and Applied Mathematical Research&lt;/em&gt;. Bulletin of the Institute of Mathematics and its Applications. 10. pp. 266--271. 1974.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-dB81a&#34; data-bib-key=&#34;dB81a&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[dB81a]&lt;/span&gt;N. G. de Bruijn. &lt;em&gt;Algebraic Theory of Penrose&#39;s Non-Periodic Tilings of the Plane. I&lt;/em&gt;. Indagationes Mathematicae. 43. pp. 39--52. 1981.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-dB81b&#34; data-bib-key=&#34;dB81b&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[dB81b]&lt;/span&gt;N. G. de Bruijn. &lt;em&gt;Algebraic Theory of Penrose&#39;s Non-Periodic Tilings of the Plane. II&lt;/em&gt;. Indagationes Mathematicae. 43. pp. 53--66. 1981.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SMKG24a&#34; data-bib-key=&#34;SMKG24a&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SMKG24a]&lt;/span&gt;David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss. &lt;em&gt;An Aperiodic Monotile&lt;/em&gt;. Combinatorial Theory. 4(1). 2024. &lt;a href=&#34;https://arxiv.org/abs/2303.10798&#34;&gt;arXiv:2303.10798&lt;/a&gt;.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-SMKG24b&#34; data-bib-key=&#34;SMKG24b&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SMKG24b]&lt;/span&gt;David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss. &lt;em&gt;A Chiral Aperiodic Monotile&lt;/em&gt;. Combinatorial Theory. 4(1). 2024. &lt;a href=&#34;https://arxiv.org/abs/2305.17743&#34;&gt;arXiv:2305.17743&lt;/a&gt;.&lt;/li&gt;
+
 &lt;/ul&gt;
 &lt;/div&gt;
 

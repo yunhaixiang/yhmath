@@ -103,7 +103,7 @@ This is an old post from 2024. In this post, we prove the uniformization theorem
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -250,11 +250,11 @@ This is an old post from 2024. In this post, we prove the uniformization theorem
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Cauchy)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $\gamma$ be a simply closed positively oriented curve with interior $\Gamma$. Let $f$ be a function meromorphic on an open set $\Omega$ containing $\Gamma$ and $\gamma$ that has no zero or pole on $\gamma$, and $g$ a nonzero function holomorphic on $\Omega$, then for $z_0\in\Gamma$ </p>
 $$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\omega\in \Gamma}g(z_0)\mathrm{ord}_{w}(f)$$<p> when $g(z)=1$, the rhs is the difference between the number of zeros and poles in $\Omega$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>This theorem is proved by writing $f,g$ in terms of their Laurent series about $z_0$ and using Residue theorem. A corollary from this is that in any fundamental paralellogram $F_{\alpha}=\alpha+\{t_1\omega_1+t_2\omega_2:0\le t_1,t_2<1\}$, the number of poles is equal to the number of zeros.</p>
@@ -267,11 +267,11 @@ $$\frac{1}{2\pi i}\oint_{\gamma}g(z)\frac{f^\prime(z)}{f(z)}\mathrm dz=\sum_{\om
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $L$ be a lattice and $k>2$ an integer. The Einsenstein series of weight $k$ is </p>
 $$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$<p> Consider lattices $[1,\tau]$ for $\tau\in\mathbb H$ where $\mathbb H=\{z\in\mathbb C:\mathrm{Im}(z)>0\}$ is the upper-half plane, we define $G_{k}(\tau)=G_{k}([1,\tau])$, so that $G_k$ is a funciton on the upper-half plane $\mathbb H$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>If $k$ is odd then the term $\frac{1}{\omega^k}$ cancels with $\frac{1}{(-\omega)^k}$, so the only interesting Einsenstein series are those of even weight. The Einsenstein series converges absolutely.</p>
@@ -284,11 +284,11 @@ $$G_{k}(L)=\sum_{\omega\in L\setminus\{0\}}\frac{1}{\omega^k}$$<p> Consider latt
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>A Weierstrass $\wp$-function of a lattice $L$ is </p>
 $$\wp(z ; L)=\frac{1}{z^2}+\sum_{\omega \in L^*}\left(\frac{1}{(z-\omega)^2}-\frac{1}{\omega^2}\right)$$<p> we write $\wp(z)$ when there is no confusion of the lattice.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>The $\wp$-function has a pole of order $w$ at each lattice point, and these are all the poles. Its derivative is</p>
@@ -303,11 +303,11 @@ $$\wp(z)=\frac{1}{z^2}+\sum_{n=1}^{\infty}(2 n+1) G_{2 n+2}(L) z^{2 n}$$<p>The c
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $L$ be a lattice, then </p>
 $$\wp^{\prime}(z)^2=4 \wp(z)^3-g_2(L) \wp(z)-g_3(L),$$<p> where $g_2(L)=60G_4(L)$ and $g_3(L)=140 G_6(L)$</p>
 
-  </span>
+  </div>
 </div>
 
 <p>This corresponds to an elliptic curve by letting $y=\wp^\prime(z)$ and $x=\wp(z)$, so we have an elliptic curve $y^2=4 x^3-g_2(L) x-g_3(L)$, iff the discriminant $\Delta(L)=g_2(L)^3-27g_3(L)^2$ is nonzero, and this is always nonzero. We now have a map that gives an elliptic curve for each lattice</p>

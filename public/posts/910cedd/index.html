@@ -103,7 +103,7 @@ This is an old post from 2023. Continuing last week, we are finally going to def
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.e268565fc86ab81f94127b4469fb13a408169d35c9d4b84a52f59630a25ae021.css" integrity="sha256-4mhWX8hquB&#43;UEntEafsTpAgWnTXJ1LhKUvWWMKJa4CE=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -248,9 +248,9 @@ This is an old post from 2023. Continuing last week, we are finally going to def
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $\mathcal A$ be a category and $S$ a class of morphisms of it, then define its localization as a category $\mathcal A[S^{-1}]$ and a functor $Q:\mathcal A\rightarrow A[S^{-1}]$ s.t. $Q(s)$ is an isomorphism for all $s\in S$ and $Q$ is universal w.r.t. this property, i.e. if the functor $F:\mathcal A\rightarrow\mathcal B$ is such that $F(s)$ is an isomorphism for each $s$, then there exists a unique functor $G:\mathcal A[S^{-1}]\rightarrow\mathcal B$ s.t. $F=G\circ Q$.
-  </span>
+  </div>
 </div>
 
 <p>The way we obtain a construction that satisfies this universal property is quite convoluted. We define it this way. Let $\mathcal A[S^{-1}]$ have the same objects as $\mathcal A$. For each $X,Y\in\mathcal A[S^{-1}]$, let a directed edge between them be a morphism $f\in\mathrm{Hom}(X,Y)$ or if $s\in S\cap \mathrm{Hom}(X,Y)$, an edge in the opposite direction $s:Y\rightarrow X$. A path between two objects $M,N\in A[S^{-1}]$ is a sequence of directed edges $M=L_0, L_1,\dots,L_n=N$, where the direction does not need to be the same. We define $\mathrm{Hom}(M,N)$ as the equivalence class of paths where two paths are equivalent if they can be transformed to each other via a sequence of the following transformations.</p>
@@ -361,9 +361,9 @@ where $s_i\in S$. A <em>localizing class</em> $S$ of a category $\mathcal A$ is 
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For $S$ a localizing class of category $\mathcal A$, the category $\mathcal A_S$ and functor $Q:\mathcal A\rightarrow \mathcal A_S$ satisfies the universal property of localization, i.e. $Q(s)$ is an isomorphism for each $s\in S$ and is universal w.r.t. it.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -413,9 +413,9 @@ where $s_i\in S$. A <em>localizing class</em> $S$ of a category $\mathcal A$ is 
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     The derived category $D(\mathcal A)$ of an abelian categroy $\mathcal A$ is the localization $K(\mathcal A)[S^{-1}]$ where $S$ is the class of quasi-isomorphisms. Let $D^{+}(\mathcal A),D^{-}(\mathcal A),D^{b}(\mathcal A)$ be the full subcategory of $D(\mathcal A)$ to the bounded below, bounded above, and bounded complexes.
-  </span>
+  </div>
 </div>
 
 <p>It is an arduous process to verify that the class of quasi-isomorphisms is a localizing class compatible with triangulation, which the readers can do in their own time.</p>
@@ -428,9 +428,9 @@ where $s_i\in S$. A <em>localizing class</em> $S$ of a category $\mathcal A$ is 
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For an abelian category $\mathcal A$, the functor $\mathcal A\rightarrow D(\mathcal A)$ by $X\mapsto X$ is fully faithful.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">

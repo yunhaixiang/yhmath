@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic-Topology on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/algebraic-topology/</link>
+    <link>https://yunhaimath.com/tags/algebraic-topology/</link>
     <description>Recent content in Algebraic-Topology on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 01:07:48 -0500</lastBuildDate><atom:link href="https://yunhaimath.com/tags/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:1313/posts/2878d6e/</link>
+      <link>https://yunhaimath.com/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2878d6e/</guid>
+      <guid>https://yunhaimath.com/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -32,7 +32,7 @@
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Serre–Hochschild)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $G$ be a profinite group and $H$ a closed normal subgroup, and $A$ a $G$-module, then we have a spectral sequence
 &lt;/p&gt;
 $$
@@ -40,7 +40,7 @@ $$
 $$&lt;p&gt;
 which converges.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The above spectral sequence is called the &lt;em&gt;Serre–Hochschild spectral sequence&lt;/em&gt;. These are obtained from the double complex $\mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$ where $\mathrm{C}^p(G/H, -)$ is the standard complex for computing the cohomology of $G/H$ and $\mathrm{C}^q(H,A)$ is the standard complex for computing the cohomology of $H$. The differentials are given by the usual differentials in these complexes, and the spectral sequence arises from the filtration of the total complex &lt;/p&gt;
@@ -54,7 +54,7 @@ $$\mathrm{Tot}^n = \bigoplus_{p+q=n} \mathrm{C}^p(G/H, \mathrm{C}^q(H,A))$$&lt;p
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $K$ be a field and set $G=\mathrm{G}_K=\mathrm{Gal}(K^{\mathrm{sep}}/ K)$ the absolute Galois group. If $K/k$ is Galois with $\Gamma=\mathrm{Gal}(K/k)$, then there is exact sequence
 &lt;/p&gt;
 \[1\to \mathrm{G}_K\to \mathrm{G}_k\to \Gamma\to 1\]&lt;p&gt;
@@ -64,7 +64,7 @@ $$\mathrm{E}_2^{p,q}=\mathrm{H}^{p}(\Gamma, \mathrm{H}^q(\mathrm{G}_K,A))\Righta
 and this further implies the $5$-term exact sequence:
 &lt;/p&gt;
 $$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\to \mathrm{H}^1(\mathrm{G}_K, A)^{\Gamma}\to \mathrm{H}^2(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^2(\mathrm{G}_k, A)$$
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;leray-spectral-sequence&#34;&gt;Leray Spectral Sequence&lt;/h2&gt;
@@ -77,13 +77,13 @@ $$0\to \mathrm{H}^1(\Gamma, A^{\mathrm{G}_K})\to \mathrm{H}^1(\mathrm{G}_k, A)\t
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Leray)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $f:X\rightarrow Y$ a morphism of schemes and $\mathcal F$ a sheaf of abelian groups on any site over $X$, then there is a spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(Y, \mathrm{R}^qf_*\mathcal F)\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
 which converges.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -95,12 +95,12 @@ which converges.&lt;/p&gt;
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $X$ be a smooth proper curve over a field $K$ with structure map $f:X\to \mathrm{Spec}(K)$, then we have the Leray spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow \mathrm{H}_{\mathrm{ét}}^{p+q}(X, \mathbf Q_{\ell})$$&lt;p&gt;Here $\mathrm{R}^qf_*\mathbf Q_{\ell}$ corresponds to the Galois module $\mathrm{H}_{\mathrm{ét}}^q(X_{\overline K}, \mathbf Q_{\ell})$ where $\overline K$ is a separable closure of $K$. In particular, the Leray spectral sequence allows us to compute the étale cohomology of $X$ in terms of the Galois cohomology of $K$ with coefficients in the étale cohomology of the geometric fiber $X_{\overline K}$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -112,13 +112,13 @@ $$\mathrm{E}_2^{p,q}=\mathrm{H}^p(K, \mathrm{R}^qf_*\mathbf Q_{\ell})\Rightarrow
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Grothendieck)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $\mathcal A,\mathcal B, \mathcal C$ be abelian categories with enough injectives, and $F:\mathcal A\to \mathcal B$ and $G:\mathcal B\to \mathcal C$ be left exact functors, which satisfies the condition that $F$ sends injective objects to $G$-acyclic objects (i.e. $\mathrm{R}^iG(F(I))=0$ for all $i&gt;0$ and all injective objects $I\in \mathcal A$), then we have the Grothendieck spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\mathrm{R}^pG(\mathrm{R}^qF(A))\Rightarrow \mathrm{R}^{p+q}(G\circ F)(A)$$&lt;p&gt;
 for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\simeq \mathbf{R}G(\mathbf{R}F(A))$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Grothendieck spectral sequence subsumes Leray spectral sequence as a special case. In fact, if we take $\mathcal A$ to be the category of sheaves of abelian groups on $X$, $\mathcal B$ to be the category of sheaves of abelian groups on $Y$, and $\mathcal C$ to be the category of abelian groups, then we can take $F=f_*$ and $G=\Gamma(Y,-)$, the global sections functor. The condition that $F$ sends injective objects to $G$-acyclic objects is satisfied because $f_*$ is an exact functor and injective sheaves are acyclic for the global sections functor. Therefore, we get the Leray spectral sequence as a special case of the Grothendieck spectral sequence.&lt;/p&gt;
@@ -132,13 +132,13 @@ for any object $A\in \mathcal A$. In derived language, $\mathbf{R}(G\circ F)(A)\
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $X$ be a scheme and $\mathcal F$ a sheaf of abelian groups on any site of $X$, and $\mathfrak U=\{U_i\}$ an open cover of $X$, then we have the spectral sequence
 &lt;/p&gt;
 $$\mathrm{E}_2^{p,q}=\check{\mathrm{H}}^p(\mathfrak U, \mathcal H^q(\mathcal F))\Rightarrow \mathrm{H}^{p+q}(X, \mathcal F)$$&lt;p&gt;
 which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomology with respect to the open cover $\mathfrak U$, and $\mathcal H^q(\mathcal F)$ is the presheaf defined by $\mathcal H^q(\mathcal F)(U)=\mathrm{H}^q(U, \mathcal F)$ for any open subset $U\subseteq X$.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -150,13 +150,13 @@ which converges. Here $\check{\mathrm{H}}^p(\mathfrak U, -)$ is the Čech cohomo
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Example&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;The above spectral sequence allows us to compute the cohomology of $X$ with coefficients in $\mathcal F$ in terms of the Čech cohomology of the open cover $\mathfrak U$ with coefficients in the presheaf $\mathcal H^q(\mathcal F)$. In particular, if the open cover $\mathfrak U$ is such that the higher cohomology groups $\mathrm{H}^q(U_i, \mathcal F)$ vanish for all $q&gt;0$ and all $i$, then the spectral sequence degenerates at the $E_2$-page and we have an isomorphism
 &lt;/p&gt;
 $$\mathrm{H}^n(X, \mathcal F)\cong \check{\mathrm{H}}^n(\mathfrak U, \mathcal F)$$&lt;p&gt;
 induced by the Čech to derived spectral sequence. This is a useful tool for computing cohomology groups in practice, especially when we have a good open cover of $X$ that allows us to compute the Čech cohomology easily.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -173,10 +173,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:1313/posts/1927129/</link>
+      <link>https://yunhaimath.com/posts/1927129/</link>
       <pubDate>Wed, 07 Feb 2024 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1927129/</guid>
+      <guid>https://yunhaimath.com/posts/1927129/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
@@ -193,12 +193,12 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;This construction gives a bijection
 &lt;/p&gt;
 $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\ (X,x)\}$$&lt;p&gt; up to isomorphisms.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Checking this is routine. Let $X=U\cup V$ with $U,V$ path-connected and intersect nontrivially, with base point $x\in U\cap V$. Suppose there are coverings $p:\widetilde{U}\rightarrow U$ and $q:\widetilde{V}\rightarrow V$ and an isomorphism $\nu:p^{-1}(U\cap V)\rightarrow q^{-1}(U\cap V)$, then one can glue them together to a covering of $X$, by taking $\widetilde{X}=\widetilde{U}\times\widetilde{V}/(\nu(y_1)\sim \nu(y_2))$. We can generalize this to the case where $X$ is the union of a family of open sets, in which case we require a cocycle condition to be satisfied in order to be able to glue the covering spaces.&lt;/p&gt;
@@ -211,9 +211,9 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(van Kampen)&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For any $h_1:\pi_1(U,x)\rightarrow G$ and $h_2:\pi_1(V,x)\rightarrow G$ with $h_1\circ i_1=h_2\circ i_2$ where $i_1,i_2$ are induced by inclusions $U\cap V\hookrightarrow U $ and $U\cap V\hookrightarrow V $, there exists a unique morphism $h:\pi_1(X,x)\rightarrow G$ such that $h\circ j_1=h_1$ and $h\circ j_2=h_2$ where $j_1,j_2$ are induced by inclusions $U\hookrightarrow X$ and $V\hookrightarrow X$.
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Diagrammically, this is saying $\pi_1(X,x)$ is a fibred coproduct in the category of groups, which is a free product with amalgamation,&lt;/p&gt;
@@ -246,12 +246,12 @@ $$\mathrm{Hom}(\pi_1(X,x),G)\leftrightarrow \{G\textrm{-coverings}\ \textrm{of}\
   &lt;span class=&#34;math-title&#34;
         data-label=&#39;Corollary&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-  &lt;span class=&#34;math-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;If $U\cap V$ is simply connected then
 &lt;/p&gt;
 $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1(V,x),G)$$&lt;p&gt; which implies $\pi_1(X,x)$ is a free product.&lt;/p&gt;
 
-  &lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It is also worth mentioning that this proof is an example of &lt;a href=&#34;https://en.wikipedia.org/wiki/Descent_(mathematics)&#34;&gt;descent&lt;/a&gt;.&lt;/p&gt;

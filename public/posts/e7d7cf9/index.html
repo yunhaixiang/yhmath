@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" style="font-size: 105%">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,9 +18,9 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://yunhaimath.com//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://yunhaimath.com//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://yunhaimath.com//images/favicon-16x16.png">
 
   
   
@@ -51,7 +51,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/e7d7cf9/">
+  <meta property="og:url" content="https://yunhaimath.com/posts/e7d7cf9/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Hyperelliptic Jacobians and Hasse–Witt Matrix">
   <meta property="og:description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
@@ -66,7 +66,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
 
 
   
-  <link rel="canonical" href="http://localhost:1313/posts/e7d7cf9/">
+  <link rel="canonical" href="https://yunhaimath.com/posts/e7d7cf9/">
 
   
   
@@ -104,7 +104,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   
 
 
-  <link rel="stylesheet" href="/css/single.min.2fa1146062ba87a2bb34ebe3b486c2f0a1155fa9c8a2be3d61fe1f561af4d3ed.css" integrity="sha256-L6EUYGK6h6K7NOvjtIbC8KEVX6nIor49Yf4fVhr00&#43;0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -124,7 +124,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
 
 <header id="header">
   <h1>
-    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <a href="https://yunhaimath.com/">Yunhai Xiang</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -213,17 +213,17 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
     <div class="post-taxonomy-line">
       
         
-          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+          <a class="link tag" href='https://yunhaimath.com/categories/expositions'>@expositions</a>
         
       
 
       
         
-          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/algebraic-geometry'>#algebraic-geometry</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/number-theory'>#number-theory</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/number-theory'>#number-theory</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+          <a class="link tag" href='https://yunhaimath.com/tags/math'>#math</a>
         
       
 
@@ -266,7 +266,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The Jacobian $\mathrm{Jac}(C)$ of a smooth projective curve $C$ is a principally polarizaed abelian variety, defined as the identity component the Picard scheme $\mathrm{Pic}^0(C)$, where the Picard functor is the fppf sheafification of the functor $(\mathrm{Sch}^{\mathrm{op}})_{\mathrm{fppf}}\to \mathbf{Ab}$
 </p>
 $$T\mapsto \mathrm{Pic}(C_T)/\pi_*\mathrm{Pic}(T)$$<p>
@@ -274,7 +274,7 @@ representable by an abelian variety. A polarization of an abelian variety $A$ is
 $$\lambda_L:A\to A^\vee\qquad x\mapsto t^*_xL\otimes L^{-1}$$<p>where $t_x:A\rightarrow A$ is the translation map by $x$. Moreover it is called principal if it is an isomorphism.
 In the case of a Jacobian $J=\mathrm{Jac}(C)$, there is a principal polarization induced by the ample divisor $\Theta$, defined as the image of $C^{(g-1)}:=C^{g-1}/\mathrm{Sym}_{g-1}\to J$ that sends $D\mapsto \mathcal O_C(D-(g-1)P_0)$, where $P_0$ is a rational point, and $D$ is the divisor representation of an element in $C^{(g-1)}$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>In other words, the Jacobian of $C$ is the moduli space of the degree $0$ line bundles on a $C$. The Neron-Severi group of $C$ is defined to be $\mathrm{Pic}(C)/\mathrm{Pic}^0(C)$. There is a canonical exact sequence.
@@ -290,9 +290,9 @@ where $\mathrm{NS}(C)=\mathbb Z$ if $k$ is algebraically closed.</p>
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For a smooth projective curve $C$ of genus $g$, its Jacobian $J=\mathrm{Jac}(C)$ has dimension $g$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -325,9 +325,9 @@ which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\righta
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For smooth projective curve $X$ over $\overline{k}$ with $\ell$ an invertible prime, $H^1(X,\mu_{\ell^n})=\mathrm{Pic}(X)[\ell^n]$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -357,13 +357,13 @@ Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \op
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>For a smooth projective curve $C$ of genus $g$ and its Jacobian $J=\mathrm{Jac}(C)$, we have an isomorphism of $\mathrm{Gal}_k$-modules
 </p>
 $$\mathrm{AJ}^*:H^1(C_{\overline{k}},\mathbb Q_\ell)\cong H^1(J_{\overline{k}}, \mathbb Q_\ell)$$<p>
 induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]$ with $P_0$ a rational point.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -387,13 +387,13 @@ $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The $L$-polynomial of a smooth algebraic curve $C/\mathbb F_q$ is the polynomial
 </p>
 $$L_C(T)=\mathrm{det}(1-TF|\mathrm{H^1}(C_{\overline{\mathbb F_q}},\mathbb Q_\ell))=\mathrm{det}(1-TF|\mathrm{H^1}(J_{\overline{\mathbb F_q}},\mathbb Q_\ell))$$<p>
 where $F=\mathrm{Frob}_q^{-1}$ is the geometric Frobenius, $\ell$ is an invertible prime in $C$, and $J=\mathrm{Jac}(C)$.</p>
 
-  </span>
+  </div>
 </div>
 
 <p>This polynomial appears in the numerator of the Weil zeta function</p>
@@ -407,11 +407,11 @@ $$Z(C,T)=\mathrm{exp}\left(\sum_{n}\frac{|C(\mathbb F_{q^n})|}{n}T^n\right)=\fra
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Same setting as above, then
 </p>
 $$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -443,11 +443,11 @@ $\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.</p>
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. Let the partition $(d_1,...,d_r)$ of $2g+2$ be the cycle type of the permutation of Frobenius on the $2g+2$ geometric branch points of $C\to \mathbb P^1$, then we have
 </p>
 $$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -474,9 +474,9 @@ data-cite-key="Mum07">
   <span class="math-title"
         data-label='Proposition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $C/\mathbb F_q$ be a hyperelliptic curve of genus $g>2$ such that $L_C(T)=1+a_gT^g+q^gT^{2g}$, then $a_g$ is even.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -508,9 +508,9 @@ swapping negative signs with positive ones. The LHS has exactly two linear facto
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Let $B$ be a basis of $H^1(C,\mathcal O_C)$, the Hasse–Witt matrix of $C$ with respect to $B$ is defined to be the matrix representation of the $\sigma$-semilinear map $F^*$ with respect to $B$, i.e. $[F^*]_B^B$.
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-plain" 
@@ -522,13 +522,13 @@ swapping negative signs with positive ones. The LHS has exactly two linear facto
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $C/\mathbb F_q$ be a smooth projective curve. If $H$ is the Hasse-Witt matrix of $C$, then
 </p>
 $$L_C(T)\equiv \det(1-TH)\pmod p.$$<p>
 In other words, the characteristic polynomial computes the $L$-polynomial mod $p$.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -554,9 +554,9 @@ data-cite-key="Man61" data-cite-note="Theorem 1">
   <span class="math-title"
         data-label='Remark'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     The Hasse–Witt matrix contains a lot more information than just the $L$-polynomial mod $p$. In particular, the $p$-rank $f$ of $J$ (defined as $\# J[p](\overline{k})=p^f$) can be computed by $f=\mathrm{rank}(HH^{(p)}\cdots H^{(p^{g-1})})$, which implies that $J$ is ordinary iff $H$ is invertible.
-  </span>
+  </div>
 </div>
 
 <p>Let $\omega_C$ be the sheaf of regular Kähler differentials on $C$. To compute Hasse-Witt matrices, we introduce another matrix which is closely related to the Hasse-Witt matrix called the Cartier-Manin matrix, to which end we need to define the Cartier operator, which is the Serre dual to Hasse-Witt.
@@ -571,7 +571,7 @@ Recall that Serre duality gives a perfect pairing $H^0(C,\omega_C) \times H^1(C,
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>With the setting above, define the <em>adele ring</em> of $C$ as the topological ring
 </p>
 $$\mathbb A_C=\prod_{P\in |C|}(K_P,\widehat{\mathcal O}_{C,P})$$<p>
@@ -580,7 +580,7 @@ In other words it is a collection of $(f_P)_{P\in |C|}$ where only finitely many
 $$\mathbb A_C(D)=\prod_{P\in |C|}\widehat{\mathcal O_C(D)_P}=\{(f_P)_{P\in |C|}:\forall P\in |C|,\mathrm{ord}_P(f_P)+n_P\ge 0\}\subseteq\mathbb A_C$$<p>
 When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ the integral adeles. The rational functions $K\to \mathbb A_C$ embeds diagonally into the adeles.</p>
 
-  </span>
+  </div>
 </div>
 
 <p><div class="math-env style-plain" 
@@ -592,9 +592,9 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   <span class="math-title"
         data-label='Lemma'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     For each divisor $D=\sum_{P}n_P P$, there is a isomorphism of $k$-vector spaces $H^1(C,\mathcal O_C(D))\cong \mathbb{A}_C/(\mathbb{A}_C(D)+K)$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -620,14 +620,14 @@ data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
   <span class="math-title"
         data-label='Theorem'></span> <span class="math-note">(Serre Duality)</span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>The Serre pairing below is perfect
 </p>
 $$\begin{aligned}H^1(C,\mathcal O_C(D))\times H^0(C,\omega_C(-D))&\rightarrow k\\
 ((f_P)_P,\omega) &\mapsto\sum_{P\in |C|}\mathrm{Res}_{P}(f_P\omega)\end{aligned}$$<p>
 where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{-m+1}t_P^{-m+1}+\cdots)\mathrm{d}t_P$, the residue is $\mathrm{Res}_P(f_P\mathrm{d}t_P):=\mathrm{Tr}_{k(P)/k}(a_{-1})$.</p>
 
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -653,9 +653,9 @@ data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
   <span class="math-title"
         data-label='Definition'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     The <em>Cartier operator</em> $M:H^0(C,\omega_C) \to H^0(C,\omega_C)$ is defined as the semilinear adjoint of the induced map by the absolute Frobenius morphism $F^*: H^1(C,\mathcal O_C) \to H^1(C,\mathcal O_C)$ with respect to the Serre duality pairing, i.e. $\langle F^* \alpha, \omega \rangle = \langle \alpha, M\omega \rangle^{\tau}$ for all $\alpha \in H^1(C,\mathcal O_C)$ and $\omega \in H^0(C,\omega_C)$. The Cartier–Manin matrix with respect to a basis $B$ of $H^0(C,\omega_C)$ is the matrix of the Cartier operator with respct to $B$.
-  </span>
+  </div>
 </div>
 
 <p>Concretely, we can derive a formula for the Cartier operator as follows.</p>
@@ -668,11 +668,11 @@ data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     <p>Let $C/\mathbb F_q$ be a hyperelliptic curve with $q$ odd and genus $g$. For each closed point $P\in |C|$ with local parameter $t_P$, and some local meromorphic differential $\omega=(a_{-m}t^m_P+a_{-m+1}t^{m+1}_P+\cdots)\mathrm dt_P\in \widehat{\omega}_{C,P}\otimes_{\widehat{O}_{C,P}}k(P)((t_P))$, we have
 </p>
 $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -699,9 +699,9 @@ Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, t
   <span class="math-title"
         data-label='Theorem'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Same setting as above. Let $y^2=f(x)$ be an affine model of $C$. Suppose $f(x)^{\frac{p-1}{2}}=\sum_{m}c_m x^m$, then with respect to the standard basis $\omega_i=x^{i-1}\frac{\mathrm dx}{y}$ for $i=1,\dots,g$, the Cartier–Manin matrix is $(c_{pi-j}^{1/p})_{1\le i,j\le g}$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -728,9 +728,9 @@ and we are done.</p>
   <span class="math-title"
         data-label='Corollary'></span>
   </span>
-  <span class="math-body">
+  <div class="math-body">
     Same setting as above. The dual basis of $H^1(C,\mathcal O_C)$ to the standard basis $H^0(C,\omega_C)$ is given by $\eta_i=-\frac{y}{2x^i}$ for $i=1,\dots,g$, with respect to which the Hasse-Witt matrix of $C$ is $(c_{pj-i})_{1\le i,j\le g}$.
-  </span>
+  </div>
 </div>
 
 <div class="proof-env" data-compact="true">
@@ -801,10 +801,10 @@ and we are done.</p>
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/d04997f/" title="Brauer Group III"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="https://yunhaimath.com/posts/d04997f/" title="Brauer Group III"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/8ad6b3f/" title="A Case for AI-Assisted Math">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="https://yunhaimath.com/posts/8ad6b3f/" title="A Case for AI-Assisted Math">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
@@ -845,13 +845,13 @@ and we are done.</p>
   </div>
 
   
-  <script src='http://localhost:1313/js/script.js' defer></script>
+  <script src='https://yunhaimath.com/js/script.js' defer></script>
 
   
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/publications.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  <link media="screen" rel="stylesheet" href="https://yunhaimath.com/css/codeblock.css" />
   
 
   

@@ -1,6 +1,6 @@
 ---
 title: Six Functor Formalism
-date: 2026-07-13 00:00:01 -0400
+date: 2026-07-01 00:00:01 -0400
 slug: six-functor-formalism
 aliases:
   - /posts/six-functor-formalism/
