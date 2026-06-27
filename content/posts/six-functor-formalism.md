@@ -224,11 +224,82 @@ for $A\in D(X)$ and $B\in D(Y)$. In particular, exceptional pullback is the oper
 
 ## Purity
 
-For a smooth morphism $f:X\rightarrow Y$ of relative dimension $d$. The formalism involves canonical isomorphism
+Purity is the principle that, for sufficiently good morphisms, the exceptional pullback $f^!$ is ordinary pullback up to explicit geometric corrections. These corrections are shifts and twists. Here $[n]$ denotes the cohomological shift in the category $D(X)$. In theories with Tate twists, $\mathbf{1}_X(1)$ denotes the Tate object on $X$, and for $m\in\mathbb Z$ one writes
 $$
-f^!(-)\cong f^*(-)\overset{\mathrm{L}}{\otimes}\omega_f[d],
+\mathbf{1}_X(m):=\mathbf{1}_X(1)^{\overset{\mathrm{L}}{\otimes}m}.
 $$
-where $\omega_f$ is the relative dualizing object. 
+For any $A\in D(X)$, we write
+$$
+A(m):=A\overset{\mathrm{L}}{\otimes}\mathbf{1}_X(m).
+$$
+
+There are two basic forms of purity. First, if $f:X\rightarrow Y$ is smooth of relative dimension $d$, then smooth purity says
+$$
+f^!A\cong f^*A(d)[2d]
+$$
+for $A\in D(Y)$. Equivalently,
+$$
+\omega_f:=f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$
+Second, if $i:Z\hookrightarrow X$ is a regular closed immersion of codimension $c$, then absolute purity says
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$
+Consequently, for $A\in D(X)$,
+$$
+i^!A\cong i^*A(-c)[-2c].
+$$
+
+## Gysin Map and Trace Map
+
+The Gysin and trace maps are concrete maps obtained from the abstract adjunctions once purity identifies $f^!$ with a shifted and twisted version of $f^*$. Let $f:X\rightarrow Y$ be a morphism for which a purity isomorphism is available. The counit of the adjunction
+$$
+\mathrm{R}f_!\dashv f^!
+$$
+is a natural map
+$$
+\mathrm{R}f_!f^!B\longrightarrow B
+$$
+for $B\in D(Y)$. Taking $B=\mathbf{1}_Y$ gives
+$$
+\mathrm{R}f_!\omega_f\longrightarrow \mathbf{1}_Y,
+$$
+where $\omega_f=f^!\mathbf{1}_Y$ is the relative dualizing object. This is the abstract trace map.
+
+For example, if $f:X\rightarrow Y$ is smooth of relative dimension $d$ and the theory has Tate twists, purity gives
+$$
+f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$
+Therefore the trace map becomes
+$$
+\mathrm{R}f_!\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$
+After applying cohomology, this gives the usual integration-along-the-fibers map
+$$
+\mathrm{H}^{n+2d}_c(X,\mathbf{1}_X(d))\longrightarrow \mathrm{H}^n(Y,\mathbf{1}_Y).
+$$
+If $f$ is proper, then $\mathrm{R}f_!=\mathrm{R}f_*$, so the same map is written
+$$
+\mathrm{R}f_*\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$
+
+For a regular closed immersion $i:Z\hookrightarrow X$ of codimension $c$, absolute purity gives
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$
+Twisting the counit $\mathrm{R}i_*i^!\mathbf{1}_X\rightarrow \mathbf{1}_X$ by $(c)[2c]$ and using purity gives a map
+$$
+\mathrm{R}i_*\mathbf{1}_Z\longrightarrow \mathbf{1}_X(c)[2c].
+$$
+Equivalently, by the adjunction $\mathrm{R}i_*\dashv i^!$, this corresponds to the fundamental class, or Gysin class,
+$$
+\mathbf{1}_Z\longrightarrow i^!\mathbf{1}_X(c)[2c]\cong \mathbf{1}_Z.
+$$
+This produces the Gysin pushforward on cohomology
+$$
+i_*:\mathrm{H}^n(Z,\mathbf{1}_Z)\longrightarrow \mathrm{H}^{n+2c}(X,\mathbf{1}_X(c)).
+$$
+
 
 ## References
 

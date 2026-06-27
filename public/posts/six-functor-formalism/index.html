@@ -75,7 +75,7 @@ The six functor formalism is one of the organizing languages of modern cohomolog
   <meta itemprop="description" content="We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?” — Gian-Carlo Rota The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.">
   <meta itemprop="datePublished" content="2026-06-27T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-06-27T00:12:29-04:00">
-  <meta itemprop="wordCount" content="1140">
+  <meta itemprop="wordCount" content="1447">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
 
   
@@ -192,7 +192,7 @@ The six functor formalism is one of the organizing languages of modern cohomolog
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1140 words
+          1447 words
         </span>
       
       
@@ -205,7 +205,7 @@ The six functor formalism is one of the organizing languages of modern cohomolog
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~6 mins
+          ~7 mins
         </span>
       
     </div>
@@ -247,6 +247,7 @@ The six functor formalism is one of the organizing languages of modern cohomolog
     <li><a href="#localization">Localization</a></li>
     <li><a href="#grothendieckverdier-duality">Grothendieck–Verdier Duality</a></li>
     <li><a href="#purity">Purity</a></li>
+    <li><a href="#gysin-map-and-trace-map">Gysin Map and Trace Map</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -490,13 +491,90 @@ $$
 $$<p>
 for $A\in D(X)$ and $B\in D(Y)$. In particular, exceptional pullback is the operation adjoint to compactly supported pushforward and compatible with Verdier duality.</p>
 <h2 id="purity">Purity</h2>
-<p>For a smooth morphism $f:X\rightarrow Y$ of relative dimension $d$. The formalism involves canonical isomorphism
+<p>Purity is the principle that, for sufficiently good morphisms, the exceptional pullback $f^!$ is ordinary pullback up to explicit geometric corrections. These corrections are shifts and twists. Here $[n]$ denotes the cohomological shift in the category $D(X)$. In theories with Tate twists, $\mathbf{1}_X(1)$ denotes the Tate object on $X$, and for $m\in\mathbb Z$ one writes
 </p>
 $$
-f^!(-)\cong f^*(-)\overset{\mathrm{L}}{\otimes}\omega_f[d],
+\mathbf{1}_X(m):=\mathbf{1}_X(1)^{\overset{\mathrm{L}}{\otimes}m}.
 $$<p>
-where $\omega_f$ is the relative dualizing object.</p>
-<h2 id="references">References</h2>
+For any $A\in D(X)$, we write
+</p>
+$$
+A(m):=A\overset{\mathrm{L}}{\otimes}\mathbf{1}_X(m).
+$$<p>There are two basic forms of purity. First, if $f:X\rightarrow Y$ is smooth of relative dimension $d$, then smooth purity says
+</p>
+$$
+f^!A\cong f^*A(d)[2d]
+$$<p>
+for $A\in D(Y)$. Equivalently,
+</p>
+$$
+\omega_f:=f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$<p>
+Second, if $i:Z\hookrightarrow X$ is a regular closed immersion of codimension $c$, then absolute purity says
+</p>
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$<p>
+Consequently, for $A\in D(X)$,
+</p>
+$$
+i^!A\cong i^*A(-c)[-2c].
+$$<h2 id="gysin-map-and-trace-map">Gysin Map and Trace Map</h2>
+<p>The Gysin and trace maps are concrete maps obtained from the abstract adjunctions once purity identifies $f^!$ with a shifted and twisted version of $f^*$. Let $f:X\rightarrow Y$ be a morphism for which a purity isomorphism is available. The counit of the adjunction
+</p>
+$$
+\mathrm{R}f_!\dashv f^!
+$$<p>
+is a natural map
+</p>
+$$
+\mathrm{R}f_!f^!B\longrightarrow B
+$$<p>
+for $B\in D(Y)$. Taking $B=\mathbf{1}_Y$ gives
+</p>
+$$
+\mathrm{R}f_!\omega_f\longrightarrow \mathbf{1}_Y,
+$$<p>
+where $\omega_f=f^!\mathbf{1}_Y$ is the relative dualizing object. This is the abstract trace map.</p>
+<p>For example, if $f:X\rightarrow Y$ is smooth of relative dimension $d$ and the theory has Tate twists, purity gives
+</p>
+$$
+f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$<p>
+Therefore the trace map becomes
+</p>
+$$
+\mathrm{R}f_!\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$<p>
+After applying cohomology, this gives the usual integration-along-the-fibers map
+</p>
+$$
+\mathrm{H}^{n+2d}_c(X,\mathbf{1}_X(d))\longrightarrow \mathrm{H}^n(Y,\mathbf{1}_Y).
+$$<p>
+If $f$ is proper, then $\mathrm{R}f_!=\mathrm{R}f_*$, so the same map is written
+</p>
+$$
+\mathrm{R}f_*\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$<p>For a regular closed immersion $i:Z\hookrightarrow X$ of codimension $c$, absolute purity gives
+</p>
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$<p>
+Twisting the counit $\mathrm{R}i_*i^!\mathbf{1}_X\rightarrow \mathbf{1}_X$ by $(c)[2c]$ and using purity gives a map
+</p>
+$$
+\mathrm{R}i_*\mathbf{1}_Z\longrightarrow \mathbf{1}_X(c)[2c].
+$$<p>
+Equivalently, by the adjunction $\mathrm{R}i_*\dashv i^!$, this corresponds to the fundamental class, or Gysin class,
+</p>
+$$
+\mathbf{1}_Z\longrightarrow i^!\mathbf{1}_X(c)[2c]\cong \mathbf{1}_Z.
+$$<p>
+This produces the Gysin pushforward on cohomology
+</p>
+$$
+i_*:\mathrm{H}^n(Z,\mathbf{1}_Z)\longrightarrow \mathrm{H}^{n+2c}(X,\mathbf{1}_X(c)).
+$$<h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
   <li id="bib-Har66" data-bib-key="Har66">
@@ -562,7 +640,7 @@ where $\omega_f$ is the relative dualizing object.</p>
     <a class="link" href="http://localhost:1313/posts/aperiodic-tilings/" title="Aperiodic Tilings"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a></a>
+    <a class="link" href="http://localhost:1313/posts/learning-japanese/" title="Learning Japanese Part I">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   

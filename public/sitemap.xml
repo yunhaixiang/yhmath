@@ -2,28 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
     <lastmod>2026-06-27T00:12:29-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-06-27T00:12:29-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cohomology/</loc>
-    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/expositions/</loc>
     <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/galois-representations-from-geometry/</loc>
+    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2026-06-27T00:12:29-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/six-functor-formalism/</loc>
+    <loc>http://localhost:1313/tags/number-theory/</loc>
+    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-06-27T00:12:29-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fa7e807/</loc>
+    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/logic/</loc>
+    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/type-theory/</loc>
+    <lastmod>2026-06-18T16:52:50-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cohomology/</loc>
+    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/middle-extension-and-middle-convolution/</loc>
+    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/japanese/</loc>
+    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/language-learning/</loc>
+    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/learning-japanese/</loc>
+    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/notes/</loc>
+    <lastmod>2026-06-27T00:12:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/six-functor-formalism/</loc>
     <lastmod>2026-06-27T00:12:29-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/aperiodic-tilings/</loc>
@@ -83,9 +113,6 @@
     <loc>http://localhost:1313/posts/e7d7cf9/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/number-theory/</loc>
-    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/d04997f/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
@@ -112,9 +139,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/64e091b/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/language-learning/</loc>
-    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/fcfb2b0/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
@@ -231,9 +255,6 @@
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linguistics/</loc>
-    <lastmod>2026-06-24T20:16:08-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/logic/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/33a60a9/</loc>
