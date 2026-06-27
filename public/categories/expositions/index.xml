@@ -6,76 +6,279 @@
     <description>Recent content in Expositions on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Galois Representations Arising from Geometry</title>
-      <link>http://localhost:1313/posts/galois-representations-from-geometry/</link>
-      <pubDate>Mon, 20 Jul 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/galois-representations-from-geometry/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;etale-cohomology&#34;&gt;Etale Cohomology&lt;/h2&gt;
-&lt;h2 id=&#34;galois-actions&#34;&gt;Galois Actions&lt;/h2&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h2 id=&#34;compatible-systems&#34;&gt;Compatible Systems&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Curry–Howard Isomorphism</title>
-      <link>http://localhost:1313/posts/fa7e807/</link>
-      <pubDate>Wed, 15 Jul 2026 17:40:43 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/fa7e807/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Saharon Shelah&lt;/div&gt;&lt;/aside&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Middle Extension and Middle Convolution</title>
-      <link>http://localhost:1313/posts/middle-extension-and-middle-convolution/</link>
-      <pubDate>Tue, 07 Jul 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/middle-extension-and-middle-convolution/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
-&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
-&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
+    <lastBuildDate>Sat, 27 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Six Functor Formalism</title>
       <link>http://localhost:1313/posts/six-functor-formalism/</link>
-      <pubDate>Wed, 01 Jul 2026 00:00:01 -0400</pubDate>
+      <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/six-functor-formalism/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;the-six-operations&#34;&gt;The Six Operations&lt;/h2&gt;
-&lt;h2 id=&#34;adjunctions&#34;&gt;Adjunctions&lt;/h2&gt;
-&lt;h2 id=&#34;base-change&#34;&gt;Base Change&lt;/h2&gt;
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Gian-Carlo Rota&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.&lt;/p&gt;
+&lt;h2 id=&#34;six-functors&#34;&gt;Six Functors&lt;/h2&gt;
+&lt;p&gt;The formalism is as follows. Suppose we work with a category $\mathcal C$ of some kind of “well behaved” geometric objects, for example locally compact topological spaces, smooth manifolds, schemes of finite type over a fixed base scheme, to name a few. We require $\mathcal C$ has fibred products and terminal object $\mathrm{pt}$. The formalism consists of the following data:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;For each $X\in\mathcal C$, a closed symmetric monoidal triangulated category $D(X)$ with unit object $\mathbf{1}_X$. This means there are functors
+$$\begin{aligned}
+(-\overset{\mathrm{L}}{\otimes}-)&amp;:D(X)\times D(X)\rightarrow D(X),\\
+\mathrm{R}\mathcal{H}om_X(-,-)&amp;:D(X)^{\mathrm{op}}\times D(X)\rightarrow D(X).
+\end{aligned}$$
+and they satisfy the tensor-Hom adjunction: for each $S\in D(X)$
+$$
+-\overset{\mathrm{L}}{\otimes}S \dashv \mathrm{R}\mathcal{H}om_X(S,-).
+$$&lt;/li&gt;
+&lt;li&gt;For each morphism $f:X\rightarrow Y$, two functors
+$$
+f^*:D(Y)\rightarrow D(X),\qquad \mathrm{R}f_*:D(X)\rightarrow D(Y),
+$$
+called the &lt;em&gt;pullback&lt;/em&gt; and &lt;em&gt;pushforward&lt;/em&gt;, with an adjunction
+$$
+f^*\dashv \mathrm{R}f_*.
+$$
+such that for $X\xrightarrow{f} Y\xrightarrow{g} Z$, there are isomorphisms
+$$
+(g\circ f)^*\cong (f^*\circ g^*),\qquad \mathrm{R}(g\circ f)_*\cong (\mathrm{R}g_*\circ \mathrm{R}f_*).
+$$
+and for the identity morphism $\mathrm{id}_X:X\rightarrow X$, there are isomorphisms
+$$
+(\mathrm{id}_X)^*\cong \mathrm{id}_{D(X)},\qquad \mathrm{R}(\mathrm{id}_X)_*\cong \mathrm{id}_{D(X)}.
+$$
+and the pullback should respect the symmetric monoidal structure:
+$$
+f^*(A\overset{\mathrm{L}}{\otimes}B)\cong (f^*A\overset{\mathrm{L}}{\otimes}f^*B),\qquad f^*\mathbf{1}_Y\cong \mathbf{1}_X.
+$$
+where $\mathbf{1}_X$ is the unit object for each $X$.&lt;/li&gt;
+&lt;li&gt;For each morphism $f:X\rightarrow Y$, two functors
+$$
+f^!:D(Y)\rightarrow D(X),\qquad \mathrm{R}f_!:D(X)\rightarrow D(Y),
+$$
+called the &lt;em&gt;exceptional pullback&lt;/em&gt; and &lt;em&gt;exceptional pushforward&lt;/em&gt;, with an adjunction
+$$
+\mathrm{R}f_!\dashv f^!.
+$$
+such that for $X\xrightarrow{f} Y\xrightarrow{g} Z$, there are isomorphisms
+$$
+(g\circ f)^!\cong (f^!\circ g^!),\qquad \mathrm{R}(g\circ f)_!\cong (\mathrm{R}g_!\circ \mathrm{R}f_!).
+$$
+and for the identity morphism $\mathrm{id}_X:X\rightarrow X$, there are isomorphisms
+$$
+(\mathrm{id}_X)^!\cong \mathrm{id}_{D(X)},\qquad \mathrm{R}(\mathrm{id}_X)_!\cong \mathrm{id}_{D(X)}.
+$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These are the six functors.&lt;/p&gt;
+&lt;figure class=&#34;quiver-wrapper&#34;
+        style=&#34;--quiver-radius: 0px;&#34;&gt;
+  &lt;iframe
+    class=&#34;quiver-embed&#34;
+    src=&#34;https://q.uiver.app/#q=WzAsNCxbMSwwLCJEKFkpIl0sWzAsMSwiRChYKSJdLFsyLDEsIkQoWCkiXSxbMSwyLCJEKFkpIl0sWzAsMSwiZl4hIiwyXSxbMCwyLCJmXioiXSxbMSwzLCJcXG1hdGhybSBSZl8qIiwyXSxbMiwzLCJcXG1hdGhybSBSIGZfISJdLFsxLDIsIigtXFxvdGltZXNeTCBTKSIsMSx7Im9mZnNldCI6LTIsImN1cnZlIjotMX1dLFsyLDEsIlxcbWF0aHJtIFJcXG1hdGhybXtIb219KFMsLSkiLDEseyJvZmZzZXQiOi0yLCJjdXJ2ZSI6LTF9XSxbOCw5LCIiLDEseyJsZXZlbCI6MSwic3R5bGUiOnsibmFtZSI6ImFkanVuY3Rpb24ifX1dXQ==&amp;amp;embed&#34;
+    loading=&#34;lazy&#34;
+    referrerpolicy=&#34;no-referrer-when-downgrade&#34;
+    style=&#34;
+      width: 100%;
+      height: 220px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.2);
+      transform-origin: center;
+    &#34;
+  &gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;base-change-formula&#34;&gt;Base Change Formula&lt;/h2&gt;
+&lt;p&gt;Given a Cartesian diagram
+&lt;/p&gt;
+$$
+\begin{array}{ccc}
+X&#39; &amp; \xrightarrow{g&#39;} &amp; X \\
+{\scriptstyle f&#39;}\downarrow &amp; &amp; \downarrow{\scriptstyle f} \\
+Y&#39; &amp; \xrightarrow{g} &amp; Y,
+\end{array}
+$$&lt;p&gt;From the adjunctions one gets a map
+&lt;/p&gt;
+$$
+g^*\circ \mathrm{R}f_*\longrightarrow \mathrm{R}f&#39;_*\circ {g&#39;}^*.
+$$&lt;p&gt;
+To construct it, let $A\in D(X)$. By the adjunction $f&#39;^*\dashv \mathrm{R}f&#39;_*$, it is enough to construct a morphism
+&lt;/p&gt;
+$$
+f&#39;^*g^*\mathrm{R}f_*A\longrightarrow {g&#39;}^*A.
+$$&lt;p&gt;
+Since the square is Cartesian, the pullbacks satisfy a canonical identification
+&lt;/p&gt;
+$$
+f&#39;^*g^*\cong {g&#39;}^*f^*.
+$$&lt;p&gt;
+Thus the left hand side identifies with
+&lt;/p&gt;
+$$
+{g&#39;}^*f^*\mathrm{R}f_*A.
+$$&lt;p&gt;
+Now apply ${g&#39;}^*$ to the counit of the adjunction $f^*\dashv \mathrm{R}f_*$,
+&lt;/p&gt;
+$$
+f^*\mathrm{R}f_*A\longrightarrow A,
+$$&lt;p&gt;
+to obtain
+&lt;/p&gt;
+$$
+{g&#39;}^*f^*\mathrm{R}f_*A\longrightarrow {g&#39;}^*A.
+$$&lt;p&gt;
+The base change morphism is the adjoint of this composite.
+Similarly, for compactly supported pushforward one has the base change morphism
+&lt;/p&gt;
+$$
+g^*\circ \mathrm{R}f_!\longrightarrow \mathrm{R}f&#39;_!\circ {g&#39;}^*,
+$$&lt;p&gt;
+constructed in the same way using the adjunction $\mathrm{R}f_!\dashv f^!$. These base change morphisms are required to be isomorphisms under the hypotheses of the chosen six functor formalism.&lt;/p&gt;
 &lt;h2 id=&#34;projection-formula&#34;&gt;Projection Formula&lt;/h2&gt;
-&lt;h2 id=&#34;verdier-duality&#34;&gt;Verdier Duality&lt;/h2&gt;
+&lt;p&gt;For a morphism $f:X\rightarrow Y$, $A\in D(X)$, and $B\in D(Y)$, the projection formula compares pushing forward after tensoring by a pullback with tensoring after pushing forward. There is a natural morphism
+&lt;/p&gt;
+$$
+(\mathrm{R}f_*A)\overset{\mathrm{L}}{\otimes}B\longrightarrow \mathrm{R}f_*(A\overset{\mathrm{L}}{\otimes}f^*B).
+$$&lt;p&gt;
+This map is constructed from the adjunction $f^*\dashv \mathrm{R}f_*$. By adjunction, it is enough to give a morphism after applying $f^*$:
+&lt;/p&gt;
+$$
+f^*((\mathrm{R}f_*A)\overset{\mathrm{L}}{\otimes}B)\longrightarrow A\overset{\mathrm{L}}{\otimes}f^*B.
+$$&lt;p&gt;
+Since $f^*$ is symmetric monoidal, the left hand side identifies with
+&lt;/p&gt;
+$$
+f^*\mathrm{R}f_*A\overset{\mathrm{L}}{\otimes}f^*B.
+$$&lt;p&gt;
+Now use the counit of the adjunction, $f^*\mathrm{R}f_*A\rightarrow A$, tensor it with $\mathrm{id}_{f^*B}$, and obtain
+&lt;/p&gt;
+$$
+f^*\mathrm{R}f_*A\overset{\mathrm{L}}{\otimes}f^*B\longrightarrow A\overset{\mathrm{L}}{\otimes}f^*B.
+$$&lt;p&gt;
+The projection morphism is the adjoint of this composite.
+Equivalently, depending on conventions, one writes the projection formula as the isomorphism
+&lt;/p&gt;
+$$
+\mathrm{R}f_*(A\overset{\mathrm{L}}{\otimes}f^*B)\cong ((\mathrm{R}f_*A)\overset{\mathrm{L}}{\otimes}B).
+$$&lt;p&gt;
+For the exceptional pushforward, the corresponding formula is
+&lt;/p&gt;
+$$
+\mathrm{R}f_!(A\overset{\mathrm{L}}{\otimes}f^*B)\cong ((\mathrm{R}f_!A)\overset{\mathrm{L}}{\otimes}B).
+$$&lt;p&gt;
+This compatibility says that objects pulled back from $Y$ can be moved through the pushforward along $f$.&lt;/p&gt;
+&lt;h2 id=&#34;localization&#34;&gt;Localization&lt;/h2&gt;
+&lt;p&gt;Let $i:Z\hookrightarrow X$ be a closed immersion and let $j:U\hookrightarrow X$ be its open complement. Localization says that $D(X)$ is assembled from the categories $D(Z)$ and $D(U)$. The basic functors are
+&lt;/p&gt;
+$$
+i^*,\quad \mathrm{R}i_*,\quad i^!,\qquad j^*,\quad \mathrm{R}j_*,\quad \mathrm{R}j_!.
+$$&lt;p&gt;
+Here $i_*=i_!$ for a closed immersion, so one usually writes just $\mathrm{R}i_*$. The formalism requires the standard vanishing relations
+&lt;/p&gt;
+$$
+j^*\mathrm{R}i_*=0,\qquad i^*\mathrm{R}j_!=0,\qquad i^!\mathrm{R}j_*=0.
+$$&lt;p&gt;
+It also requires the localization triangles. For every $A\in D(X)$, there are distinguished triangles
+&lt;/p&gt;
+$$
+\mathrm{R}j_!j^*A\longrightarrow A\longrightarrow \mathrm{R}i_*i^*A\overset{+1}{\longrightarrow}
+$$&lt;p&gt;
+and
+&lt;/p&gt;
+$$
+\mathrm{R}i_*i^!A\longrightarrow A\longrightarrow \mathrm{R}j_*j^*A\overset{+1}{\longrightarrow}.
+$$&lt;p&gt;
+The maps in these triangles come from adjunctions. In the first triangle, the map
+&lt;/p&gt;
+$$
+\mathrm{R}j_!j^*A\longrightarrow A
+$$&lt;p&gt;
+is the counit of the adjunction $\mathrm{R}j_!\dashv j^*$, applied to $A$. The map
+&lt;/p&gt;
+$$
+A\longrightarrow \mathrm{R}i_*i^*A
+$$&lt;p&gt;
+is the unit of the adjunction $i^*\dashv \mathrm{R}i_*$. The composite is zero because after applying $j^*$ it becomes the map
+&lt;/p&gt;
+$$
+j^*A\longrightarrow j^*\mathrm{R}i_*i^*A=0,
+$$&lt;p&gt;
+and after applying $i^*$ it becomes the map
+&lt;/p&gt;
+$$
+i^*\mathrm{R}j_!j^*A=0\longrightarrow i^*A.
+$$&lt;p&gt;
+The first localization triangle says that this pair of adjunction maps completes to a distinguished triangle.&lt;/p&gt;
+&lt;p&gt;Similarly, in the second triangle, the map
+&lt;/p&gt;
+$$
+\mathrm{R}i_*i^!A\longrightarrow A
+$$&lt;p&gt;
+is the counit of the adjunction $\mathrm{R}i_*\dashv i^!$, and the map
+&lt;/p&gt;
+$$
+A\longrightarrow \mathrm{R}j_*j^*A
+$$&lt;p&gt;
+is the unit of the adjunction $j^*\dashv \mathrm{R}j_*$. Again the composite is zero by the vanishing relations $i^!\mathrm{R}j_*=0$ and $j^*\mathrm{R}i_*=0$.
+The first triangle decomposes $A$ into the part supported on the open subset $U$ and the quotient supported on $Z$. The second triangle is the dual version, replacing $i^*$ and $j_!$ by $i^!$ and $j_*$.&lt;/p&gt;
+&lt;h2 id=&#34;grothendieckverdier-duality&#34;&gt;Grothendieck–Verdier Duality&lt;/h2&gt;
+&lt;p&gt;Let $p_X:X\rightarrow \mathrm{pt}$ be the structure morphism to the terminal object of $\mathcal C$. The &lt;em&gt;dualizing object&lt;/em&gt; of $X$ is
+&lt;/p&gt;
+$$
+\omega_X:=p_X^!\mathbf{1}_{\mathrm{pt}}.
+$$&lt;p&gt;
+More generally, for a morphism $f:X\rightarrow Y$, the &lt;em&gt;relative dualizing object&lt;/em&gt; is
+&lt;/p&gt;
+$$
+\omega_f:=f^!\mathbf{1}_Y.
+$$&lt;p&gt;
+Using the closed monoidal structure on $D(X)$, the dualizing object defines the Verdier duality functor
+&lt;/p&gt;
+$$
+\mathbb{D}_X(-):=\mathrm{R}\mathcal{H}om_X(-,\omega_X).
+$$&lt;p&gt;
+Grothendieck–Verdier duality says that, under suitable finiteness hypotheses, this duality exchanges compactly supported pushforward with ordinary pushforward:
+&lt;/p&gt;
+$$
+\mathbb{D}_Y\circ \mathrm{R}f_!\cong \mathrm{R}f_*\circ \mathbb{D}_X.
+$$&lt;p&gt;
+Equivalently, one has a natural duality isomorphism
+&lt;/p&gt;
+$$
+\mathrm{R}f_*\mathrm{R}\mathcal{H}om_X(A,f^!B)\cong \mathrm{R}\mathcal{H}om_Y(\mathrm{R}f_!A,B),
+$$&lt;p&gt;
+for $A\in D(X)$ and $B\in D(Y)$. In particular, exceptional pullback is the operation adjoint to compactly supported pushforward and compatible with Verdier duality.&lt;/p&gt;
+&lt;h2 id=&#34;purity&#34;&gt;Purity&lt;/h2&gt;
+&lt;p&gt;For a smooth morphism $f:X\rightarrow Y$ of relative dimension $d$. The formalism involves canonical isomorphism
+&lt;/p&gt;
+$$
+f^!(-)\cong f^*(-)\overset{\mathrm{L}}{\otimes}\omega_f[d],
+$$&lt;p&gt;
+where $\omega_f$ is the relative dualizing object.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Har66&#34; data-bib-key=&#34;Har66&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Residues and Duality&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 20. Springer-Verlag. 1966.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-KS90&#34; data-bib-key=&#34;KS90&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;Masaki Kashiwara and Pierre Schapira. &lt;em&gt;Sheaves on Manifolds&lt;/em&gt;. Grundlehren der mathematischen Wissenschaften. Vol. 292. Springer-Verlag. 1990.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Ive86&#34; data-bib-key=&#34;Ive86&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;Birger Iversen. &lt;em&gt;Cohomology of Sheaves&lt;/em&gt;. Universitext. Springer-Verlag. 1986.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;James S. Milne. &lt;em&gt;Étale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Del77&#34; data-bib-key=&#34;Del77&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;Pierre Deligne. &lt;em&gt;Cohomologie étale&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 569. Springer-Verlag. 1977.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Ayo07&#34; data-bib-key=&#34;Ayo07&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;Joseph Ayoub. &lt;em&gt;Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique&lt;/em&gt;. Astérisque. Vol. 314--315. Société Mathématique de France. 2007.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-CD19&#34; data-bib-key=&#34;CD19&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;Denis-Charles Cisinski and Frédéric Déglise. &lt;em&gt;Triangulated Categories of Mixed Motives&lt;/em&gt;. Springer Monographs in Mathematics. Springer. 2019.&lt;/li&gt;
+
 &lt;/ul&gt;
 &lt;/div&gt;
 
