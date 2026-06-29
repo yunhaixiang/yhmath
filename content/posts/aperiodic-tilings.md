@@ -1,7 +1,7 @@
 ---
 title: Aperiodic Tilings
 date: 2026-06-23 00:00:01 -0400
-slug: aperiodic-tilings
+slug: 0f6a2bd
 aliases:
   - /posts/aperiodic-tilings/
 categories: [expositions]

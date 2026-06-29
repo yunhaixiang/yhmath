@@ -1,7 +1,7 @@
 ---
 title: Six Functor Formalism
 date: 2026-06-27 00:00:01 -0400
-slug: six-functor-formalism
+slug: b3f91ac
 aliases:
   - /posts/six-functor-formalism/
 categories: [expositions]

@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 20 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Galois Representations Arising from Geometry</title>
-      <link>http://localhost:1313/posts/galois-representations-from-geometry/</link>
+      <link>http://localhost:1313/posts/9f2a7d0/</link>
       <pubDate>Mon, 20 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/galois-representations-from-geometry/</guid>
+      <guid>http://localhost:1313/posts/9f2a7d0/</guid>
       <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;h2 id=&#34;etale-cohomology&#34;&gt;Etale Cohomology&lt;/h2&gt;
 &lt;h2 id=&#34;galois-actions&#34;&gt;Galois Actions&lt;/h2&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>Middle Extension and Middle Convolution</title>
-      <link>http://localhost:1313/posts/middle-extension-and-middle-convolution/</link>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
       <pubDate>Tue, 07 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/middle-extension-and-middle-convolution/</guid>
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
       <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
 &lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>Six Functor Formalism</title>
-      <link>http://localhost:1313/posts/six-functor-formalism/</link>
+      <link>http://localhost:1313/posts/b3f91ac/</link>
       <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/six-functor-formalism/</guid>
+      <guid>http://localhost:1313/posts/b3f91ac/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
@@ -303,13 +303,90 @@ $$
 $$&lt;p&gt;
 for $A\in D(X)$ and $B\in D(Y)$. In particular, exceptional pullback is the operation adjoint to compactly supported pushforward and compatible with Verdier duality.&lt;/p&gt;
 &lt;h2 id=&#34;purity&#34;&gt;Purity&lt;/h2&gt;
-&lt;p&gt;For a smooth morphism $f:X\rightarrow Y$ of relative dimension $d$. The formalism involves canonical isomorphism
+&lt;p&gt;Purity is the principle that, for sufficiently good morphisms, the exceptional pullback $f^!$ is ordinary pullback up to explicit geometric corrections. These corrections are shifts and twists. Here $[n]$ denotes the cohomological shift in the category $D(X)$. In theories with Tate twists, $\mathbf{1}_X(1)$ denotes the Tate object on $X$, and for $m\in\mathbb Z$ one writes
 &lt;/p&gt;
 $$
-f^!(-)\cong f^*(-)\overset{\mathrm{L}}{\otimes}\omega_f[d],
+\mathbf{1}_X(m):=\mathbf{1}_X(1)^{\overset{\mathrm{L}}{\otimes}m}.
 $$&lt;p&gt;
-where $\omega_f$ is the relative dualizing object.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+For any $A\in D(X)$, we write
+&lt;/p&gt;
+$$
+A(m):=A\overset{\mathrm{L}}{\otimes}\mathbf{1}_X(m).
+$$&lt;p&gt;There are two basic forms of purity. First, if $f:X\rightarrow Y$ is smooth of relative dimension $d$, then smooth purity says
+&lt;/p&gt;
+$$
+f^!A\cong f^*A(d)[2d]
+$$&lt;p&gt;
+for $A\in D(Y)$. Equivalently,
+&lt;/p&gt;
+$$
+\omega_f:=f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$&lt;p&gt;
+Second, if $i:Z\hookrightarrow X$ is a regular closed immersion of codimension $c$, then absolute purity says
+&lt;/p&gt;
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$&lt;p&gt;
+Consequently, for $A\in D(X)$,
+&lt;/p&gt;
+$$
+i^!A\cong i^*A(-c)[-2c].
+$$&lt;h2 id=&#34;gysin-map-and-trace-map&#34;&gt;Gysin Map and Trace Map&lt;/h2&gt;
+&lt;p&gt;The Gysin and trace maps are concrete maps obtained from the abstract adjunctions once purity identifies $f^!$ with a shifted and twisted version of $f^*$. Let $f:X\rightarrow Y$ be a morphism for which a purity isomorphism is available. The counit of the adjunction
+&lt;/p&gt;
+$$
+\mathrm{R}f_!\dashv f^!
+$$&lt;p&gt;
+is a natural map
+&lt;/p&gt;
+$$
+\mathrm{R}f_!f^!B\longrightarrow B
+$$&lt;p&gt;
+for $B\in D(Y)$. Taking $B=\mathbf{1}_Y$ gives
+&lt;/p&gt;
+$$
+\mathrm{R}f_!\omega_f\longrightarrow \mathbf{1}_Y,
+$$&lt;p&gt;
+where $\omega_f=f^!\mathbf{1}_Y$ is the relative dualizing object. This is the abstract trace map.&lt;/p&gt;
+&lt;p&gt;For example, if $f:X\rightarrow Y$ is smooth of relative dimension $d$ and the theory has Tate twists, purity gives
+&lt;/p&gt;
+$$
+f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$&lt;p&gt;
+Therefore the trace map becomes
+&lt;/p&gt;
+$$
+\mathrm{R}f_!\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$&lt;p&gt;
+After applying cohomology, this gives the usual integration-along-the-fibers map
+&lt;/p&gt;
+$$
+\mathrm{H}^{n+2d}_c(X,\mathbf{1}_X(d))\longrightarrow \mathrm{H}^n(Y,\mathbf{1}_Y).
+$$&lt;p&gt;
+If $f$ is proper, then $\mathrm{R}f_!=\mathrm{R}f_*$, so the same map is written
+&lt;/p&gt;
+$$
+\mathrm{R}f_*\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$&lt;p&gt;For a regular closed immersion $i:Z\hookrightarrow X$ of codimension $c$, absolute purity gives
+&lt;/p&gt;
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$&lt;p&gt;
+Twisting the counit $\mathrm{R}i_*i^!\mathbf{1}_X\rightarrow \mathbf{1}_X$ by $(c)[2c]$ and using purity gives a map
+&lt;/p&gt;
+$$
+\mathrm{R}i_*\mathbf{1}_Z\longrightarrow \mathbf{1}_X(c)[2c].
+$$&lt;p&gt;
+Equivalently, by the adjunction $\mathrm{R}i_*\dashv i^!$, this corresponds to the fundamental class, or Gysin class,
+&lt;/p&gt;
+$$
+\mathbf{1}_Z\longrightarrow i^!\mathbf{1}_X(c)[2c]\cong \mathbf{1}_Z.
+$$&lt;p&gt;
+This produces the Gysin pushforward on cohomology
+&lt;/p&gt;
+$$
+i_*:\mathrm{H}^n(Z,\mathbf{1}_Z)\longrightarrow \mathrm{H}^{n+2c}(X,\mathbf{1}_X(c)).
+$$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Har66&#34; data-bib-key=&#34;Har66&#34;&gt;
@@ -341,10 +418,10 @@ where $\omega_f$ is the relative dualizing object.&lt;/p&gt;
     
     <item>
       <title>Aperiodic Tilings</title>
-      <link>http://localhost:1313/posts/aperiodic-tilings/</link>
+      <link>http://localhost:1313/posts/0f6a2bd/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/aperiodic-tilings/</guid>
+      <guid>http://localhost:1313/posts/0f6a2bd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is no such thing as quasicrystals, only quasi-scientists.

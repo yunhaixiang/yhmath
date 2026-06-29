@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="
+  
+    There is no such thing as quasicrystals, only quasi-scientists.
+  — Linus Pauling
+I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/0f6a2bd/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Aperiodic Tilings">
+  <meta property="og:description" content="There is no such thing as quasicrystals, only quasi-scientists. — Linus Pauling I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-06-23T00:00:01-04:00">
+    <meta property="article:modified_time" content="2026-06-25T13:40:47-04:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Geometry">
+    <meta property="article:tag" content="Combinatorics">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/0f6a2bd/">
+
+  
+  
+  
+  <meta itemprop="name" content="Aperiodic Tilings">
+  <meta itemprop="description" content="There is no such thing as quasicrystals, only quasi-scientists. — Linus Pauling I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.">
+  <meta itemprop="datePublished" content="2026-06-23T00:00:01-04:00">
+  <meta itemprop="dateModified" content="2026-06-25T13:40:47-04:00">
+  <meta itemprop="wordCount" content="828">
+  <meta itemprop="keywords" content="Math,Geometry,Combinatorics">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.54004a30b7791edd6df2bc0b918c36ad0d18b99e2afdfce69bf783c8bd438ae5.css" integrity="sha256-VABKMLd5Ht1t8rwLkYw2rQ0YuZ4q/fzmm/eDyL1DiuU=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Aperiodic Tilings - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Aperiodic Tilings">
+  <meta name="twitter:description" content="There is no such thing as quasicrystals, only quasi-scientists. — Linus Pauling I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+  <link rel="stylesheet" href='/css/math-inline-overrides.css' />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Aperiodic Tilings</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      June 23, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          828 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~4 mins
+        </span>
+      
+    </div>
+  </div>
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/geometry'>#geometry</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/combinatorics'>#combinatorics</a>
+        
+      
+
+      
+      <br></br>
+      
+    </div>
+  
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#periodic-tilings">Periodic Tilings</a></li>
+    <li><a href="#aperiodic-tiling">Aperiodic Tiling</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    There is no such thing as quasicrystals, only quasi-scientists.
+  </div><div class="yh-pullquote-attrib">— Linus Pauling</div></aside>
+<p>I have been interested in aperiodic tilings for a long time. Despite being somewhat niche and underexplored, it seems to me a branch of math that potentially can have lots of connections to number theory. While tiling itself has a long artistic history, the modern study of aperiodic tilings is closely tied to physics: in 1982, Dan Shechtman observed diffraction patterns with sharp fivefold symmetry in an aluminium-manganese alloy, contradicting the old crystallographic expectation that crystals must be periodic. The mathematical models for such quasicrystals are not random patterns, but ordered non-periodic structures, with Penrose tilings as the prototypical example.</p>
+<h2 id="periodic-tilings">Periodic Tilings</h2>
+<p>Periodic tilings are much more well understood than aperiodic ones. These are tilings which can be transformed to itself by translation, rotation, or reflection. Regular polygons already admit periodic tilings, and they are represented with the Schläfli symbol $\{n,q\}$ meaning “$q$-regular $n$-gons” meet at each vertax.</p>
+<p><div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <div class="math-body">
+    The only (edge-to-edge) periodic tilings by a regular polygon are $\{3, 6\},\{4, 4\}, \{6, 3\}$.
+  </div>
+</div>
+
+<div class="proof-env" data-compact="true">
+  <span class="proof-heading">
+    <span class="proof-title">Proof.</span>
+  </span>
+
+  <div class="proof-body">
+    The interior angle is $\frac{(n-2)\pi}{n}$, and around each vertax the sum of angles $q\frac{(n-2)\pi}{n}=2\pi$. We obtain the diophantine equation $q(n-2)=2n$, which only gives these solutions.
+  </div>
+  <span class="proof-qed"></span>
+</div>
+</p>
+<p>For nonregular polygon tilings, we know every triangle can tile periodically. Every quadrilateral also tiles periodically by gluing to itself rotated 180 degrees <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="GS87" data-cite-note="Chapter 9">
+  ⟦cite:GS87⟧
+</span>. For convex pentagons and hexagons, all monohedral tilings by a convex prototile have been classified: there are 15 types for convex pentagons <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Rao17">
+  ⟦cite:Rao17⟧
+</span> and 3 types for convex hexagons <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Rei18">
+  ⟦cite:Rei18⟧
+</span>. For concave ones, we don't know a full classification for pentagons or hexagons. For convex $n$-gons with $n\ge 7$, no periodic tilings can exist <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="GS87" data-cite-note="Chapter 9">
+  ⟦cite:GS87⟧
+</span>.</p>
+<p>For periodic tilings with more than 1 prototile, it is more complicated. An <em>Archimedean tiling</em> is a tiling of possibly multiple prototiles all regular polygon, such that the same cyclic arrangement of polygons occurs at every vertex. They are completely classified and there are 11 of them. An <em>$m$-Archimedean tiling</em> is the generalization where one allows $m$ cyclic arrangement of polygons. These have been enumerated for small $m$. There are $20$ for $m=2$, $61$ for $m=3$, $151$ for $m=4$, and so on.</p>
+<h2 id="aperiodic-tiling">Aperiodic Tiling</h2>
+<p>An aperiodic tiling is a tiling whose prototiles can ONLY tile aperiodically. Wang tiles are the first aperiodic tiling. Wang tiles are squares with colored edges (which can be replaced with jaggedness), neighboring tiles must match edge colors, and you cannot rotate or translate tiles. Berger showed there are a set of Wang tiles that can only tile aperiodically. He also showed there are sets of Wang tiles where whether one could tile the plane is undecidable. For more aperiodic tilings, see <a href="https://tilings.math.uni-bielefeld.de/">here</a>. One famous example is Penrose tiling. They have two prototiles, kite and dart <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Pen74">
+  ⟦cite:Pen74⟧
+</span>. This came from the study of quasicrystals in physics <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Sen06">
+  ⟦cite:Sen06⟧
+</span>. Another famous example is the aperiodic monotile (Einstein problem): the hat and spectre, discovered by Smith, Myers, Kaplan, and Goodman-Strauss <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="SMKG24a">
+  ⟦cite:SMKG24a⟧
+</span> <span class="yh-ref" data-ref-kind="bib"
+       data-cite-key="SMKG24b">
+   ⟦cite:SMKG24b⟧
+ </span>.</p>
+<p>One of the main ways to create aperiodic tilings is by <em>substitution tiling</em>. One defines how to expand a tile and subdivide it into prototiles, and then repeat. It will cover more and more parts of the plane, but one has to show this stabilizes. Penrose tilings are the prototypical substitution tiling. For the hat shape, it is not a substitution tiling. Its aperiodicity is shown with something called metatiles. Clusters of hats are grouped together called a metatile, and these metatiles satisfy a substitution tiling pattern.</p>
+<h2 id="references">References</h2>
+<div class="bib-env">
+  <ul class="bib-list">
+  <li id="bib-GS87" data-bib-key="GS87">
+  <span class="bib-label">[GS87]</span>Branko Grünbaum and G. C. Shephard. <em>Tilings and Patterns</em>. W. H. Freeman. 1987.</li>
+
+  <li id="bib-Rei18" data-bib-key="Rei18">
+  <span class="bib-label">[Rei18]</span>Karl Reinhardt. <em>Über die Zerlegung der Ebene in Polygone</em>. Druck von Robert Noske. 1918.</li>
+
+  <li id="bib-Rao17" data-bib-key="Rao17">
+  <span class="bib-label">[Rao17]</span>Michaël Rao. <em>Exhaustive Search of Convex Pentagons Which Tile the Plane</em>. 2017. <a href="https://arxiv.org/abs/1708.00274">arXiv:1708.00274</a>.</li>
+
+  <li id="bib-Gar89" data-bib-key="Gar89">
+  <span class="bib-label">[Gar89]</span>Martin Gardner. <em>Penrose Tiles to Trapdoor Ciphers</em>. W. H. Freeman. 1989.</li>
+
+  <li id="bib-Tre23" data-bib-key="Tre23">
+  <span class="bib-label">[Tre23]</span>Rodrigo Treviño. <em>Aperiodic Tilings, Order, and Randomness</em>. Notices of the American Mathematical Society. 70(10). pp. 1640--1651. 2023.</li>
+
+  <li id="bib-BG13" data-bib-key="BG13">
+  <span class="bib-label">[BG13]</span>Michael Baake and Uwe Grimm. <em>Aperiodic Order. Volume 1: A Mathematical Invitation</em>. Cambridge University Press. 2013.</li>
+
+  <li id="bib-Sen06" data-bib-key="Sen06">
+  <span class="bib-label">[Sen06]</span>Marjorie Senechal. <em>What is... a Quasicrystal?</em>. Notices of the American Mathematical Society. 53(8). pp. 886--887. 2006.</li>
+
+  <li id="bib-Ber66" data-bib-key="Ber66">
+  <span class="bib-label">[Ber66]</span>Robert Berger. <em>The Undecidability of the Domino Problem</em>. Memoirs of the American Mathematical Society. Vol. 66. American Mathematical Society. 1966.</li>
+
+  <li id="bib-Rob71" data-bib-key="Rob71">
+  <span class="bib-label">[Rob71]</span>Raphael M. Robinson. <em>Undecidability and Nonperiodicity for Tilings of the Plane</em>. Inventiones Mathematicae. 12. pp. 177--209. 1971.</li>
+
+  <li id="bib-Pen74" data-bib-key="Pen74">
+  <span class="bib-label">[Pen74]</span>Roger Penrose. <em>The Role of Aesthetics in Pure and Applied Mathematical Research</em>. Bulletin of the Institute of Mathematics and its Applications. 10. pp. 266--271. 1974.</li>
+
+  <li id="bib-dB81a" data-bib-key="dB81a">
+  <span class="bib-label">[dB81a]</span>N. G. de Bruijn. <em>Algebraic Theory of Penrose's Non-Periodic Tilings of the Plane. I</em>. Indagationes Mathematicae. 43. pp. 39--52. 1981.</li>
+
+  <li id="bib-dB81b" data-bib-key="dB81b">
+  <span class="bib-label">[dB81b]</span>N. G. de Bruijn. <em>Algebraic Theory of Penrose's Non-Periodic Tilings of the Plane. II</em>. Indagationes Mathematicae. 43. pp. 53--66. 1981.</li>
+
+  <li id="bib-SMKG24a" data-bib-key="SMKG24a">
+  <span class="bib-label">[SMKG24a]</span>David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss. <em>An Aperiodic Monotile</em>. Combinatorial Theory. 4(1). 2024. <a href="https://arxiv.org/abs/2303.10798">arXiv:2303.10798</a>.</li>
+
+  <li id="bib-SMKG24b" data-bib-key="SMKG24b">
+  <span class="bib-label">[SMKG24b]</span>David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss. <em>A Chiral Aperiodic Monotile</em>. Combinatorial Theory. 4(1). 2024. <a href="https://arxiv.org/abs/2305.17743">arXiv:2305.17743</a>.</li>
+
+</ul>
+</div>
+
+
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/06d0bcc/" title="Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/b3f91ac/" title="Six Functor Formalism">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>

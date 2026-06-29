@@ -18,7 +18,10 @@ Here are some of my favorite Jazz artists.
 - Bill Evans
 - Hiromi
 - Yoko Kanno
+- Seatbelts
 - Cory Wong
 - Roberto Fonseca
 - Ezra Collective
 - Riyoko Takagi
+- Jamiroquai
+- The Jazz Messengers

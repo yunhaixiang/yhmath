@@ -16,6 +16,7 @@ categories: [archives]
 - *Undertale* (2015)
 - *Sifu* (2022)
 - *Death Stranding* (2019)
+- *The Powder Toy* (2008)
 
 ## Video Games I Recommend
 

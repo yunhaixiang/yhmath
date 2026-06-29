@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="
+  
+    We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
+  — Gian-Carlo Rota
+The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/b3f91ac/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Six Functor Formalism">
+  <meta property="og:description" content="We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?” — Gian-Carlo Rota The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-06-27T00:00:01-04:00">
+    <meta property="article:modified_time" content="2026-06-27T11:53:28-04:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Algebraic-Geometry">
+    <meta property="article:tag" content="Cohomology">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/b3f91ac/">
+
+  
+  
+  
+  <meta itemprop="name" content="Six Functor Formalism">
+  <meta itemprop="description" content="We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?” — Gian-Carlo Rota The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.">
+  <meta itemprop="datePublished" content="2026-06-27T00:00:01-04:00">
+  <meta itemprop="dateModified" content="2026-06-27T11:53:28-04:00">
+  <meta itemprop="wordCount" content="1447">
+  <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.54004a30b7791edd6df2bc0b918c36ad0d18b99e2afdfce69bf783c8bd438ae5.css" integrity="sha256-VABKMLd5Ht1t8rwLkYw2rQ0YuZ4q/fzmm/eDyL1DiuU=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Six Functor Formalism - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Six Functor Formalism">
+  <meta name="twitter:description" content="We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?” — Gian-Carlo Rota The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+  <link rel="stylesheet" href='/css/math-inline-overrides.css' />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Six Functor Formalism</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      June 27, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          1447 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~7 mins
+        </span>
+      
+    </div>
+  </div>
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/cohomology'>#cohomology</a>
+        
+      
+
+      
+      <br></br>
+      
+    </div>
+  
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#six-functors">Six Functors</a></li>
+    <li><a href="#base-change-formula">Base Change Formula</a></li>
+    <li><a href="#projection-formula">Projection Formula</a></li>
+    <li><a href="#localization">Localization</a></li>
+    <li><a href="#grothendieckverdier-duality">Grothendieck–Verdier Duality</a></li>
+    <li><a href="#purity">Purity</a></li>
+    <li><a href="#gysin-map-and-trace-map">Gysin Map and Trace Map</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
+  </div><div class="yh-pullquote-attrib">— Gian-Carlo Rota</div></aside>
+<p>The six functor formalism is one of the organizing languages of modern cohomology theory. Given a reasonable map of spaces or schemes $f:X\rightarrow Y$, it packages the natural operations on derived categories of sheaves into six functors and records the compatibilities between them: adjunctions, base change, projection formulas, and duality.</p>
+<h2 id="six-functors">Six Functors</h2>
+<p>The formalism is as follows. Suppose we work with a category $\mathcal C$ of some kind of “well behaved” geometric objects, for example locally compact topological spaces, smooth manifolds, schemes of finite type over a fixed base scheme, to name a few. We require $\mathcal C$ has fibred products and terminal object $\mathrm{pt}$. The formalism consists of the following data:</p>
+<ol>
+<li>For each $X\in\mathcal C$, a closed symmetric monoidal triangulated category $D(X)$ with unit object $\mathbf{1}_X$. This means there are functors
+$$\begin{aligned}
+(-\overset{\mathrm{L}}{\otimes}-)&:D(X)\times D(X)\rightarrow D(X),\\
+\mathrm{R}\mathcal{H}om_X(-,-)&:D(X)^{\mathrm{op}}\times D(X)\rightarrow D(X).
+\end{aligned}$$
+and they satisfy the tensor-Hom adjunction: for each $S\in D(X)$
+$$
+-\overset{\mathrm{L}}{\otimes}S \dashv \mathrm{R}\mathcal{H}om_X(S,-).
+$$</li>
+<li>For each morphism $f:X\rightarrow Y$, two functors
+$$
+f^*:D(Y)\rightarrow D(X),\qquad \mathrm{R}f_*:D(X)\rightarrow D(Y),
+$$
+called the <em>pullback</em> and <em>pushforward</em>, with an adjunction
+$$
+f^*\dashv \mathrm{R}f_*.
+$$
+such that for $X\xrightarrow{f} Y\xrightarrow{g} Z$, there are isomorphisms
+$$
+(g\circ f)^*\cong (f^*\circ g^*),\qquad \mathrm{R}(g\circ f)_*\cong (\mathrm{R}g_*\circ \mathrm{R}f_*).
+$$
+and for the identity morphism $\mathrm{id}_X:X\rightarrow X$, there are isomorphisms
+$$
+(\mathrm{id}_X)^*\cong \mathrm{id}_{D(X)},\qquad \mathrm{R}(\mathrm{id}_X)_*\cong \mathrm{id}_{D(X)}.
+$$
+and the pullback should respect the symmetric monoidal structure:
+$$
+f^*(A\overset{\mathrm{L}}{\otimes}B)\cong (f^*A\overset{\mathrm{L}}{\otimes}f^*B),\qquad f^*\mathbf{1}_Y\cong \mathbf{1}_X.
+$$
+where $\mathbf{1}_X$ is the unit object for each $X$.</li>
+<li>For each morphism $f:X\rightarrow Y$, two functors
+$$
+f^!:D(Y)\rightarrow D(X),\qquad \mathrm{R}f_!:D(X)\rightarrow D(Y),
+$$
+called the <em>exceptional pullback</em> and <em>exceptional pushforward</em>, with an adjunction
+$$
+\mathrm{R}f_!\dashv f^!.
+$$
+such that for $X\xrightarrow{f} Y\xrightarrow{g} Z$, there are isomorphisms
+$$
+(g\circ f)^!\cong (f^!\circ g^!),\qquad \mathrm{R}(g\circ f)_!\cong (\mathrm{R}g_!\circ \mathrm{R}f_!).
+$$
+and for the identity morphism $\mathrm{id}_X:X\rightarrow X$, there are isomorphisms
+$$
+(\mathrm{id}_X)^!\cong \mathrm{id}_{D(X)},\qquad \mathrm{R}(\mathrm{id}_X)_!\cong \mathrm{id}_{D(X)}.
+$$</li>
+</ol>
+<p>These are the six functors.</p>
+<figure class="quiver-wrapper"
+        style="--quiver-radius: 0px;">
+  <iframe
+    class="quiver-embed"
+    src="https://q.uiver.app/#q=WzAsNCxbMSwwLCJEKFkpIl0sWzAsMSwiRChYKSJdLFsyLDEsIkQoWCkiXSxbMSwyLCJEKFkpIl0sWzAsMSwiZl4hIiwyXSxbMCwyLCJmXioiXSxbMSwzLCJcXG1hdGhybSBSZl8qIiwyXSxbMiwzLCJcXG1hdGhybSBSIGZfISJdLFsxLDIsIigtXFxvdGltZXNeTCBTKSIsMSx7Im9mZnNldCI6LTIsImN1cnZlIjotMX1dLFsyLDEsIlxcbWF0aHJtIFJcXG1hdGhybXtIb219KFMsLSkiLDEseyJvZmZzZXQiOi0yLCJjdXJ2ZSI6LTF9XSxbOCw5LCIiLDEseyJsZXZlbCI6MSwic3R5bGUiOnsibmFtZSI6ImFkanVuY3Rpb24ifX1dXQ==&amp;embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="
+      width: 100%;
+      height: 220px;
+      border: 0;
+      transform:
+        translateX(0)
+        translateY(0)
+        scale(1.2);
+      transform-origin: center;
+    "
+  ></iframe>
+</figure>
+<h2 id="base-change-formula">Base Change Formula</h2>
+<p>Given a Cartesian diagram
+</p>
+$$
+\begin{array}{ccc}
+X' & \xrightarrow{g'} & X \\
+{\scriptstyle f'}\downarrow & & \downarrow{\scriptstyle f} \\
+Y' & \xrightarrow{g} & Y,
+\end{array}
+$$<p>From the adjunctions one gets a map
+</p>
+$$
+g^*\circ \mathrm{R}f_*\longrightarrow \mathrm{R}f'_*\circ {g'}^*.
+$$<p>
+To construct it, let $A\in D(X)$. By the adjunction $f'^*\dashv \mathrm{R}f'_*$, it is enough to construct a morphism
+</p>
+$$
+f'^*g^*\mathrm{R}f_*A\longrightarrow {g'}^*A.
+$$<p>
+Since the square is Cartesian, the pullbacks satisfy a canonical identification
+</p>
+$$
+f'^*g^*\cong {g'}^*f^*.
+$$<p>
+Thus the left hand side identifies with
+</p>
+$$
+{g'}^*f^*\mathrm{R}f_*A.
+$$<p>
+Now apply ${g'}^*$ to the counit of the adjunction $f^*\dashv \mathrm{R}f_*$,
+</p>
+$$
+f^*\mathrm{R}f_*A\longrightarrow A,
+$$<p>
+to obtain
+</p>
+$$
+{g'}^*f^*\mathrm{R}f_*A\longrightarrow {g'}^*A.
+$$<p>
+The base change morphism is the adjoint of this composite.
+Similarly, for compactly supported pushforward one has the base change morphism
+</p>
+$$
+g^*\circ \mathrm{R}f_!\longrightarrow \mathrm{R}f'_!\circ {g'}^*,
+$$<p>
+constructed in the same way using the adjunction $\mathrm{R}f_!\dashv f^!$. These base change morphisms are required to be isomorphisms under the hypotheses of the chosen six functor formalism.</p>
+<h2 id="projection-formula">Projection Formula</h2>
+<p>For a morphism $f:X\rightarrow Y$, $A\in D(X)$, and $B\in D(Y)$, the projection formula compares pushing forward after tensoring by a pullback with tensoring after pushing forward. There is a natural morphism
+</p>
+$$
+(\mathrm{R}f_*A)\overset{\mathrm{L}}{\otimes}B\longrightarrow \mathrm{R}f_*(A\overset{\mathrm{L}}{\otimes}f^*B).
+$$<p>
+This map is constructed from the adjunction $f^*\dashv \mathrm{R}f_*$. By adjunction, it is enough to give a morphism after applying $f^*$:
+</p>
+$$
+f^*((\mathrm{R}f_*A)\overset{\mathrm{L}}{\otimes}B)\longrightarrow A\overset{\mathrm{L}}{\otimes}f^*B.
+$$<p>
+Since $f^*$ is symmetric monoidal, the left hand side identifies with
+</p>
+$$
+f^*\mathrm{R}f_*A\overset{\mathrm{L}}{\otimes}f^*B.
+$$<p>
+Now use the counit of the adjunction, $f^*\mathrm{R}f_*A\rightarrow A$, tensor it with $\mathrm{id}_{f^*B}$, and obtain
+</p>
+$$
+f^*\mathrm{R}f_*A\overset{\mathrm{L}}{\otimes}f^*B\longrightarrow A\overset{\mathrm{L}}{\otimes}f^*B.
+$$<p>
+The projection morphism is the adjoint of this composite.
+Equivalently, depending on conventions, one writes the projection formula as the isomorphism
+</p>
+$$
+\mathrm{R}f_*(A\overset{\mathrm{L}}{\otimes}f^*B)\cong ((\mathrm{R}f_*A)\overset{\mathrm{L}}{\otimes}B).
+$$<p>
+For the exceptional pushforward, the corresponding formula is
+</p>
+$$
+\mathrm{R}f_!(A\overset{\mathrm{L}}{\otimes}f^*B)\cong ((\mathrm{R}f_!A)\overset{\mathrm{L}}{\otimes}B).
+$$<p>
+This compatibility says that objects pulled back from $Y$ can be moved through the pushforward along $f$.</p>
+<h2 id="localization">Localization</h2>
+<p>Let $i:Z\hookrightarrow X$ be a closed immersion and let $j:U\hookrightarrow X$ be its open complement. Localization says that $D(X)$ is assembled from the categories $D(Z)$ and $D(U)$. The basic functors are
+</p>
+$$
+i^*,\quad \mathrm{R}i_*,\quad i^!,\qquad j^*,\quad \mathrm{R}j_*,\quad \mathrm{R}j_!.
+$$<p>
+Here $i_*=i_!$ for a closed immersion, so one usually writes just $\mathrm{R}i_*$. The formalism requires the standard vanishing relations
+</p>
+$$
+j^*\mathrm{R}i_*=0,\qquad i^*\mathrm{R}j_!=0,\qquad i^!\mathrm{R}j_*=0.
+$$<p>
+It also requires the localization triangles. For every $A\in D(X)$, there are distinguished triangles
+</p>
+$$
+\mathrm{R}j_!j^*A\longrightarrow A\longrightarrow \mathrm{R}i_*i^*A\overset{+1}{\longrightarrow}
+$$<p>
+and
+</p>
+$$
+\mathrm{R}i_*i^!A\longrightarrow A\longrightarrow \mathrm{R}j_*j^*A\overset{+1}{\longrightarrow}.
+$$<p>
+The maps in these triangles come from adjunctions. In the first triangle, the map
+</p>
+$$
+\mathrm{R}j_!j^*A\longrightarrow A
+$$<p>
+is the counit of the adjunction $\mathrm{R}j_!\dashv j^*$, applied to $A$. The map
+</p>
+$$
+A\longrightarrow \mathrm{R}i_*i^*A
+$$<p>
+is the unit of the adjunction $i^*\dashv \mathrm{R}i_*$. The composite is zero because after applying $j^*$ it becomes the map
+</p>
+$$
+j^*A\longrightarrow j^*\mathrm{R}i_*i^*A=0,
+$$<p>
+and after applying $i^*$ it becomes the map
+</p>
+$$
+i^*\mathrm{R}j_!j^*A=0\longrightarrow i^*A.
+$$<p>
+The first localization triangle says that this pair of adjunction maps completes to a distinguished triangle.</p>
+<p>Similarly, in the second triangle, the map
+</p>
+$$
+\mathrm{R}i_*i^!A\longrightarrow A
+$$<p>
+is the counit of the adjunction $\mathrm{R}i_*\dashv i^!$, and the map
+</p>
+$$
+A\longrightarrow \mathrm{R}j_*j^*A
+$$<p>
+is the unit of the adjunction $j^*\dashv \mathrm{R}j_*$. Again the composite is zero by the vanishing relations $i^!\mathrm{R}j_*=0$ and $j^*\mathrm{R}i_*=0$.
+The first triangle decomposes $A$ into the part supported on the open subset $U$ and the quotient supported on $Z$. The second triangle is the dual version, replacing $i^*$ and $j_!$ by $i^!$ and $j_*$.</p>
+<h2 id="grothendieckverdier-duality">Grothendieck–Verdier Duality</h2>
+<p>Let $p_X:X\rightarrow \mathrm{pt}$ be the structure morphism to the terminal object of $\mathcal C$. The <em>dualizing object</em> of $X$ is
+</p>
+$$
+\omega_X:=p_X^!\mathbf{1}_{\mathrm{pt}}.
+$$<p>
+More generally, for a morphism $f:X\rightarrow Y$, the <em>relative dualizing object</em> is
+</p>
+$$
+\omega_f:=f^!\mathbf{1}_Y.
+$$<p>
+Using the closed monoidal structure on $D(X)$, the dualizing object defines the Verdier duality functor
+</p>
+$$
+\mathbb{D}_X(-):=\mathrm{R}\mathcal{H}om_X(-,\omega_X).
+$$<p>
+Grothendieck–Verdier duality says that, under suitable finiteness hypotheses, this duality exchanges compactly supported pushforward with ordinary pushforward:
+</p>
+$$
+\mathbb{D}_Y\circ \mathrm{R}f_!\cong \mathrm{R}f_*\circ \mathbb{D}_X.
+$$<p>
+Equivalently, one has a natural duality isomorphism
+</p>
+$$
+\mathrm{R}f_*\mathrm{R}\mathcal{H}om_X(A,f^!B)\cong \mathrm{R}\mathcal{H}om_Y(\mathrm{R}f_!A,B),
+$$<p>
+for $A\in D(X)$ and $B\in D(Y)$. In particular, exceptional pullback is the operation adjoint to compactly supported pushforward and compatible with Verdier duality.</p>
+<h2 id="purity">Purity</h2>
+<p>Purity is the principle that, for sufficiently good morphisms, the exceptional pullback $f^!$ is ordinary pullback up to explicit geometric corrections. These corrections are shifts and twists. Here $[n]$ denotes the cohomological shift in the category $D(X)$. In theories with Tate twists, $\mathbf{1}_X(1)$ denotes the Tate object on $X$, and for $m\in\mathbb Z$ one writes
+</p>
+$$
+\mathbf{1}_X(m):=\mathbf{1}_X(1)^{\overset{\mathrm{L}}{\otimes}m}.
+$$<p>
+For any $A\in D(X)$, we write
+</p>
+$$
+A(m):=A\overset{\mathrm{L}}{\otimes}\mathbf{1}_X(m).
+$$<p>There are two basic forms of purity. First, if $f:X\rightarrow Y$ is smooth of relative dimension $d$, then smooth purity says
+</p>
+$$
+f^!A\cong f^*A(d)[2d]
+$$<p>
+for $A\in D(Y)$. Equivalently,
+</p>
+$$
+\omega_f:=f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$<p>
+Second, if $i:Z\hookrightarrow X$ is a regular closed immersion of codimension $c$, then absolute purity says
+</p>
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$<p>
+Consequently, for $A\in D(X)$,
+</p>
+$$
+i^!A\cong i^*A(-c)[-2c].
+$$<h2 id="gysin-map-and-trace-map">Gysin Map and Trace Map</h2>
+<p>The Gysin and trace maps are concrete maps obtained from the abstract adjunctions once purity identifies $f^!$ with a shifted and twisted version of $f^*$. Let $f:X\rightarrow Y$ be a morphism for which a purity isomorphism is available. The counit of the adjunction
+</p>
+$$
+\mathrm{R}f_!\dashv f^!
+$$<p>
+is a natural map
+</p>
+$$
+\mathrm{R}f_!f^!B\longrightarrow B
+$$<p>
+for $B\in D(Y)$. Taking $B=\mathbf{1}_Y$ gives
+</p>
+$$
+\mathrm{R}f_!\omega_f\longrightarrow \mathbf{1}_Y,
+$$<p>
+where $\omega_f=f^!\mathbf{1}_Y$ is the relative dualizing object. This is the abstract trace map.</p>
+<p>For example, if $f:X\rightarrow Y$ is smooth of relative dimension $d$ and the theory has Tate twists, purity gives
+</p>
+$$
+f^!\mathbf{1}_Y\cong \mathbf{1}_X(d)[2d].
+$$<p>
+Therefore the trace map becomes
+</p>
+$$
+\mathrm{R}f_!\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$<p>
+After applying cohomology, this gives the usual integration-along-the-fibers map
+</p>
+$$
+\mathrm{H}^{n+2d}_c(X,\mathbf{1}_X(d))\longrightarrow \mathrm{H}^n(Y,\mathbf{1}_Y).
+$$<p>
+If $f$ is proper, then $\mathrm{R}f_!=\mathrm{R}f_*$, so the same map is written
+</p>
+$$
+\mathrm{R}f_*\mathbf{1}_X(d)[2d]\longrightarrow \mathbf{1}_Y.
+$$<p>For a regular closed immersion $i:Z\hookrightarrow X$ of codimension $c$, absolute purity gives
+</p>
+$$
+i^!\mathbf{1}_X\cong \mathbf{1}_Z(-c)[-2c].
+$$<p>
+Twisting the counit $\mathrm{R}i_*i^!\mathbf{1}_X\rightarrow \mathbf{1}_X$ by $(c)[2c]$ and using purity gives a map
+</p>
+$$
+\mathrm{R}i_*\mathbf{1}_Z\longrightarrow \mathbf{1}_X(c)[2c].
+$$<p>
+Equivalently, by the adjunction $\mathrm{R}i_*\dashv i^!$, this corresponds to the fundamental class, or Gysin class,
+</p>
+$$
+\mathbf{1}_Z\longrightarrow i^!\mathbf{1}_X(c)[2c]\cong \mathbf{1}_Z.
+$$<p>
+This produces the Gysin pushforward on cohomology
+</p>
+$$
+i_*:\mathrm{H}^n(Z,\mathbf{1}_Z)\longrightarrow \mathrm{H}^{n+2c}(X,\mathbf{1}_X(c)).
+$$<h2 id="references">References</h2>
+<div class="bib-env">
+  <ul class="bib-list">
+  <li id="bib-Har66" data-bib-key="Har66">
+  <span class="bib-label">[Har66]</span>Robin Hartshorne. <em>Residues and Duality</em>. Lecture Notes in Mathematics. Vol. 20. Springer-Verlag. 1966.</li>
+
+  <li id="bib-KS90" data-bib-key="KS90">
+  <span class="bib-label">[KS90]</span>Masaki Kashiwara and Pierre Schapira. <em>Sheaves on Manifolds</em>. Grundlehren der mathematischen Wissenschaften. Vol. 292. Springer-Verlag. 1990.</li>
+
+  <li id="bib-Ive86" data-bib-key="Ive86">
+  <span class="bib-label">[Ive86]</span>Birger Iversen. <em>Cohomology of Sheaves</em>. Universitext. Springer-Verlag. 1986.</li>
+
+  <li id="bib-Mil80" data-bib-key="Mil80">
+  <span class="bib-label">[Mil80]</span>James S. Milne. <em>Étale Cohomology</em>. Princeton University Press. 1980.</li>
+
+  <li id="bib-Del77" data-bib-key="Del77">
+  <span class="bib-label">[Del77]</span>Pierre Deligne. <em>Cohomologie étale</em>. Lecture Notes in Mathematics. Vol. 569. Springer-Verlag. 1977.</li>
+
+  <li id="bib-Ayo07" data-bib-key="Ayo07">
+  <span class="bib-label">[Ayo07]</span>Joseph Ayoub. <em>Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique</em>. Astérisque. Vol. 314--315. Société Mathématique de France. 2007.</li>
+
+  <li id="bib-CD19" data-bib-key="CD19">
+  <span class="bib-label">[CD19]</span>Denis-Charles Cisinski and Frédéric Déglise. <em>Triangulated Categories of Mixed Motives</em>. Springer Monographs in Mathematics. Springer. 2019.</li>
+
+</ul>
+</div>
+
+
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/0f6a2bd/" title="Aperiodic Tilings"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/72d4e91/" title="Learning Japanese Part I">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>

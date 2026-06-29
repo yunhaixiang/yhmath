@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 20 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Galois Representations Arising from Geometry</title>
-      <link>http://localhost:1313/posts/galois-representations-from-geometry/</link>
+      <link>http://localhost:1313/posts/9f2a7d0/</link>
       <pubDate>Mon, 20 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/galois-representations-from-geometry/</guid>
+      <guid>http://localhost:1313/posts/9f2a7d0/</guid>
       <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;h2 id=&#34;etale-cohomology&#34;&gt;Etale Cohomology&lt;/h2&gt;
 &lt;h2 id=&#34;galois-actions&#34;&gt;Galois Actions&lt;/h2&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>Middle Extension and Middle Convolution</title>
-      <link>http://localhost:1313/posts/middle-extension-and-middle-convolution/</link>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
       <pubDate>Tue, 07 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/middle-extension-and-middle-convolution/</guid>
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
       <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
 &lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
@@ -63,19 +63,19 @@
     
     <item>
       <title>Learning Japanese Part I</title>
-      <link>http://localhost:1313/posts/learning-japanese/</link>
+      <link>http://localhost:1313/posts/72d4e91/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/learning-japanese/</guid>
+      <guid>http://localhost:1313/posts/72d4e91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Six Functor Formalism</title>
-      <link>http://localhost:1313/posts/six-functor-formalism/</link>
+      <link>http://localhost:1313/posts/b3f91ac/</link>
       <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/six-functor-formalism/</guid>
+      <guid>http://localhost:1313/posts/b3f91ac/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
@@ -427,10 +427,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Aperiodic Tilings</title>
-      <link>http://localhost:1313/posts/aperiodic-tilings/</link>
+      <link>http://localhost:1313/posts/0f6a2bd/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/aperiodic-tilings/</guid>
+      <guid>http://localhost:1313/posts/0f6a2bd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is no such thing as quasicrystals, only quasi-scientists.
@@ -6999,10 +6999,13 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
 &lt;li&gt;Bill Evans&lt;/li&gt;
 &lt;li&gt;Hiromi&lt;/li&gt;
 &lt;li&gt;Yoko Kanno&lt;/li&gt;
+&lt;li&gt;Seatbelts&lt;/li&gt;
 &lt;li&gt;Cory Wong&lt;/li&gt;
 &lt;li&gt;Roberto Fonseca&lt;/li&gt;
 &lt;li&gt;Ezra Collective&lt;/li&gt;
 &lt;li&gt;Riyoko Takagi&lt;/li&gt;
+&lt;li&gt;Jamiroquai&lt;/li&gt;
+&lt;li&gt;The Jazz Messengers&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -7019,6 +7022,7 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
 &lt;li&gt;&lt;em&gt;Undertale&lt;/em&gt; (2015)&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Sifu&lt;/em&gt; (2022)&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Death Stranding&lt;/em&gt; (2019)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Powder Toy&lt;/em&gt; (2008)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;video-games-i-recommend&#34;&gt;Video Games I Recommend&lt;/h2&gt;
 &lt;ul&gt;
