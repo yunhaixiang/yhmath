@@ -1,0 +1,8 @@
+{{- $text := .Inner -}}
+{{- if and .IsNamedParams (isset .Params "text") -}}
+  {{- $text = .Get "text" | default $text -}}
+{{- else if gt (len .Params) 0 -}}
+  {{- $text = .Get 0 | default $text -}}
+{{- end -}}
+{{- $html := $text | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
+<span class="small-caps">{{- $html | safeHTML -}}</span>

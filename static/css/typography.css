@@ -1,0 +1,23 @@
+.small-caps,
+.sc {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+}
+
+body.small-caps-title #header > h1 > a,
+body.small-caps-title .post-title,
+body.small-caps-title .archive .post-group a.link,
+body.small-caps-title .taxonomy a.title {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+}
+
+body.small-caps-sections .content h2,
+body.small-caps-sections .content h3,
+body.small-caps-sections .content h4,
+body.small-caps-sections .content h5,
+body.small-caps-sections .content h6,
+body.small-caps-sections .toc a {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+}

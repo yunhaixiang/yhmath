@@ -81,7 +81,14 @@
 
 </head>
 
-<body>
+{{ $bodyClasses := slice }}
+{{ if .Site.Params.smallCapsTitle }}
+  {{ $bodyClasses = $bodyClasses | append "small-caps-title" }}
+{{ end }}
+{{ if .Site.Params.smallCapsSections }}
+  {{ $bodyClasses = $bodyClasses | append "small-caps-sections" }}
+{{ end }}
+<body{{ with $bodyClasses }} class="{{ delimit . " " }}"{{ end }}>
   <div id="wrapper">
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}

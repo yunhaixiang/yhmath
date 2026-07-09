@@ -53,7 +53,7 @@ description = ""
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a>
 """
-customCSS = ["/css/publications.css", "/css/codeblock.css"]
+customCSS = ["/css/typography.css", "/css/publications.css", "/css/codeblock.css"]
 customJS = []
 dateFormat = "January 2, 2006"
 emphasisWithDots = true
@@ -63,6 +63,8 @@ math = true
 enableDuckDuckGoSearchBox = false
 numberedSubtitles = true
 enableEmoji = true
+smallCapsTitle = false
+smallCapsSections = false
 
 [caches]
   [caches.images]
