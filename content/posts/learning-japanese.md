@@ -1,6 +1,6 @@
 ---
 title: Learning Japanese Part I
-date: 2026-06-30 00:00:01 -0400
+date: 2026-07-30 00:00:01 -0400
 slug: 72d4e91
 aliases:
   - /posts/learning-japanese/
