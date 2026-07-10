@@ -6,7 +6,27 @@
     <description>Recent content in Number-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:28:09 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galois Representations Arising from Geometry</title>
+      <link>http://localhost:1313/posts/9f2a7d0/</link>
+      <pubDate>Thu, 09 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/9f2a7d0/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;etale-cohomology&#34;&gt;Etale Cohomology&lt;/h2&gt;
+&lt;h2 id=&#34;galois-actions&#34;&gt;Galois Actions&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;compatible-systems&#34;&gt;Compatible Systems&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
       <link>http://localhost:1313/posts/e7d7cf9/</link>
