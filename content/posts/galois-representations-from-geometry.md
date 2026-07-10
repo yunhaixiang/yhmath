@@ -1,6 +1,6 @@
 ---
 title: Galois Representations Arising from Geometry
-date: 2026-07-20 00:00:01 -0400
+date: 2026-07-09 00:00:01 -0400
 slug: 9f2a7d0
 aliases:
   - /posts/galois-representations-from-geometry/
