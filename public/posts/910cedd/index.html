@@ -74,7 +74,7 @@ This is an old post from 2023. Continuing last week, we are finally going to def
   <meta itemprop="description" content="Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate. — David Mumford This is an old post from 2023. Continuing last week, we are finally going to define the derived category $D(\mathcal A)$ for an abelian category $\mathcal A$. Before we actually do that, we need to introduce localization of categories, and we will define the derived category in terms of a localization of the homotopy category of complexes. Localization of categories is very analogous to localization of rings or modules. Given any category (with no assumption of abelian, additive, triangulated, etc), we formally invert a class of morphisms. We will give one definition in terms of a localization construction and show that it is unsatisfactory in that it does not have a lot of useful and desirable properties. We will then develop a better description of derived categories in terms of roofs.">
   <meta itemprop="datePublished" content="2022-09-07T20:06:49+00:00">
   <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="1407">
+  <meta itemprop="wordCount" content="1405">
   <meta itemprop="keywords" content="Math,Category-Theory">
 
   
@@ -85,7 +85,7 @@ This is an old post from 2023. Continuing last week, we are finally going to def
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
   
 
   
@@ -103,7 +103,7 @@ This is an old post from 2023. Continuing last week, we are finally going to def
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -194,7 +194,7 @@ This is an old post from 2023. Continuing last week, we are finally going to def
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1407 words
+          1405 words
         </span>
       
       
@@ -369,15 +369,17 @@ where $s_i\in S$. A <em>localizing class</em> $S$ of a category $\mathcal A$ is 
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     For the first property, $M\xleftarrow{\mathbf{1}_M}M\xrightarrow{s}N$ has an inverse $N\xleftarrow{s}M\xrightarrow{\mathbf{1}_M}M$. Next, suppose $F:\mathcal A\rightarrow \mathcal B$ is such that $F(s)$ is an isomorphism for all $s\in S$, define functor $G:\mathcal A_S\rightarrow \mathcal B$ as identity on objects, and for morphisms, the following. If $\phi:M\rightarrow N$ in $\mathcal A_S$, choose a representing roof $M\xleftarrow{s}L\xrightarrow{f}N$, and define $G(\phi)=F(f)\circ F(s)^{-1}$. It's not immediately obvious that this is well defined on equivalence classes, but we omit the verification. This obviously satisfies $F=G\circ Q$. It is left to the reader to verify that $G$ respects composition, which is the last piece of verification necessary.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>If $\mathcal A$ is an additive category, then localizing it would also have an additive structure. In fact if $\mathcal A$ is additive, we may restate the last axiom of localizing class as: for $f:M\rightarrow N$ exists $\exists s\in S, sf=0\Longleftrightarrow \exists t\in S, tf=0$. And the inherited additive structure is the obvious one. It is not trivial to check that it is well defined, but again we ommit the verification. Again everything works out as we expected, biproducts, zero objects are preserved, and localization functor is additive. We can also check that $f=0$ in the localization iff exists $t\in S$ with $tf=0$ iff exists $t\in S$ with $ft=0$, and $M=\mathbf 0$ in the localization iff exists $N\in\mathcal A$ with $(N\xrightarrow{0}M)\in S$ iff exists $N\in\mathcal A$ with $(M\xrightarrow{0}N)\in S$. These are easy to prove and left as an exercise. Similarly, one can show the localization of abelian categories is abelian.</p>
@@ -436,15 +438,17 @@ where $s_i\in S$. A <em>localizing class</em> $S$ of a category $\mathcal A$ is 
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     I will prove this later.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
     

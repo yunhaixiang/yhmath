@@ -315,15 +315,17 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Using identity (3), taking determinants yields the result immediately, as $\det A=-1$.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -340,15 +342,17 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,m\in\mathbb Z$, we have $\det(A^ne_1,A^me_1)=\det(A^m)\det(A^{n-m}e_1,e_1)$. The result follows.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -365,12 +369,15 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;rmk-vec&#34;&gt;⟦ref:rmk-vec⟧&lt;/span&gt;, the operator $T$ acts as shifting, with matrix $A$. We have
 &lt;/p&gt;
 $$A^n\begin{pmatrix}f_i\\0\end{pmatrix}=\begin{pmatrix}f_{n+i}\\ f_n\end{pmatrix}\quad\mathrm{and}\quad A^n\begin{pmatrix}f_{i+j}\\ f_j\end{pmatrix}=\begin{pmatrix}f_{n+i+j}\\ f_{n+j}\end{pmatrix}$$&lt;p&gt;
@@ -380,7 +387,6 @@ $$\det\begin{pmatrix}f_{n+i}&amp;f_{n+i+j}\\ f_n&amp;f_{n+j}\end{pmatrix}=\det A
 and the result follows.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -397,15 +403,17 @@ and the result follows.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For $n,m\in\mathbb Z$, we have $A^{m+n}=A^mA^n$. Use (3) then compare the $(2,1)$-entry, and the result follows.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -436,19 +444,21 @@ and the result follows.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;By the $2$-by-$2$ inverse matrix formula on (3), we find
 &lt;/p&gt;
 $$A^{-n}=\frac{1}{f_{n-1}f_{n+1}-f_n^2}\begin{pmatrix}f_{n-1}&amp;-f_n\\ -f_n&amp;f_{n+1}\end{pmatrix}=\begin{pmatrix}(-1)^nf_{n-1}&amp;(-1)^{n+1}f_n\\ (-1)^{n+1}f_n&amp;(-1)^nf_{n+1}\end{pmatrix}$$&lt;p&gt;
 by &lt;a href=&#34;#thm-cas&#34;&gt;Cassini&#39;s identity&lt;/a&gt;. Comparing $(2,1)$-entry with (3) then we are done.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
@@ -469,15 +479,17 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -508,15 +520,17 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     It follows from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-div&#34;&gt;⟦ref:thm-div⟧&lt;/span&gt; that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -547,15 +561,17 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By &lt;a href=&#34;#thm-cas&#34;&gt;Cassini&#39;s identity&lt;/a&gt;, $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By &lt;a href=&#34;#thm-fib-add&#34;&gt;Fibonacci addition formula&lt;/a&gt;, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;We can even find a general formula for the Fibonacci numbers using the linear algebra developed above. Let $T$ be the operator in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;rmk-vec&#34;&gt;⟦ref:rmk-vec⟧&lt;/span&gt;, it has minimal polynomial $x^2-x-1$ coming from the recurrence and eigenvalues $\varphi=\frac{1+\sqrt{5}}{2}$ and its conjugate $\overline{\varphi}=\frac{1-\sqrt{5}}{2}$. The sequences $(\varphi^n)_n$ and $(\overline{\varphi}^n)_n$ are linearly independent and both are elements of the vector space, hence they form a basis of the $2$-dimensional vector space $V$. Thus $f_n=A\varphi^n+B\overline{\varphi}_n$ for some real numbers $A,B$, which one can find by evaluating at $n=0,1$ and solving a system of linear equations. One finds the &lt;em&gt;Binet formula&lt;/em&gt;:

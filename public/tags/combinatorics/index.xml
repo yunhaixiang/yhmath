@@ -34,15 +34,17 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The interior angle is $\frac{(n-2)\pi}{n}$, and around each vertax the sum of angles $q\frac{(n-2)\pi}{n}=2\pi$. We obtain the diophantine equation $q(n-2)=2n$, which only gives these solutions.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;For nonregular polygon tilings, we know every triangle can tile periodically. Every quadrilateral also tiles periodically by gluing to itself rotated 180 degrees &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;

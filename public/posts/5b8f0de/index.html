@@ -74,7 +74,7 @@ This is an old post from 2022. We start by revisiting étale morphisms and intro
   <meta itemprop="description" content="Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals. — Charles Pugh This is an old post from 2022. We start by revisiting étale morphisms and introducing Grothendieck topologies and sites, and we define presheaves and sheaves on sites and show that they work almost the same as the usual presheaves and sheaves we are accostomed to. Then, we will define important sites such as the big and small Zariski sites and étale sites as well as the fppf site.">
   <meta itemprop="datePublished" content="2022-01-19T11:15:32+00:00">
   <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="1438">
+  <meta itemprop="wordCount" content="1437">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry">
 
   
@@ -85,7 +85,7 @@ This is an old post from 2022. We start by revisiting étale morphisms and intro
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
   
 
   
@@ -103,7 +103,7 @@ This is an old post from 2022. We start by revisiting étale morphisms and intro
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -194,7 +194,7 @@ This is an old post from 2022. We start by revisiting étale morphisms and intro
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1438 words
+          1437 words
         </span>
       
       
@@ -394,19 +394,21 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>We construct this functor concretely. For each $U\in\mathcal D$, let $\mathcal I_U$ be the category where objects are pairs $\langle V,\rho\rangle$ where $V\in\mathcal C$ and $\rho\in \mathrm{Mor}_\mathcal{D}(U,f(V))$, and a morphism $g:\langle V_1,\rho_1\rangle \rightarrow \langle V_2,\rho_2\rangle$ is a morphism $g:V_1\rightarrow V_2$ in $\mathcal C$ such that $(fg)\circ\rho_1=\rho_2$. We define
 </p>
 $$f^* (\mathscr{F})(U)=\lim_{\stackrel{\longrightarrow}{\langle V,\rho\rangle\in\mathcal I_{U}^\mathrm{op}}}\mathscr{F}(V)$$<p>
 and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal I_{U_2}\rightarrow \mathcal I_{U_1}$ given by $\langle V,\rho\rangle\mapsto \langle V,\rho\circ h\rangle$ which induces a morphism $f^*(\mathscr{F})(U_2)\rightarrow f^*(\mathscr{F})(U_1)$. We can check that this is well-defined.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
     
 

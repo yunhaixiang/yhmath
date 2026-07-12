@@ -288,6 +288,11 @@ button.copy-button {
   margin-bottom: $margin;
 }
 
+.content p,
+.content .math-env {
+  margin-bottom: 0.5rem;
+}
+
 .content h1,
 .content h2,
 .content h3,

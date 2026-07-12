@@ -78,7 +78,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   <meta itemprop="description" content="The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination. — Thomas Hill Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to ⟦cite:Poo17⟧ from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.">
   <meta itemprop="datePublished" content="2026-01-18T23:38:19-05:00">
   <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="1612">
+  <meta itemprop="wordCount" content="1607">
   <meta itemprop="keywords" content="Math,Algebra,Algebraic-Geometry,Number-Theory">
 
   
@@ -89,7 +89,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
   
 
   
@@ -107,7 +107,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -198,7 +198,7 @@ Continuing from Part I, we delve deeper into Brauer groups. In this post, we&#39
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1612 words
+          1607 words
         </span>
       
       
@@ -286,15 +286,17 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-remark" 
@@ -327,12 +329,15 @@ $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
 </p>
 $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$<p>
@@ -342,7 +347,6 @@ $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to 
 Composing the injection from <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-azumaya-to-pglr">⟦ref:prop-azumaya-to-pglr⟧</span> with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert's Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <h2 id="examples-of-brauer-groups-of-fields">Examples of Brauer Groups of Fields</h2>
@@ -365,12 +369,15 @@ Composing the injection from <span class="yh-ref" data-ref-kind="math" data-ref-
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <ol class="enum-i surround-paren">
 <li>Take short exact sequence
 $$1\to \mu_n\to \mathbb{G}_m\xrightarrow{(\cdot)^n} \mathbb{G}_m\to 1$$
@@ -382,7 +389,6 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 </ol>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-plain" 
@@ -408,12 +414,15 @@ where the sum is over all places $v$ of $K$.</li>
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <ol class="enum-i surround-paren">
 <li>By <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-brauer-cohomology">⟦ref:thm-brauer-cohomology⟧</span>, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.</li>
 <li>Any central division algebra over a finite field is finite, hence by Wedderburn’s little theorem is a field, hence every Azumaya algebra over a finite field is some $\mathrm M_n(K)\sim K$, so the Brauer group is trivial.</li>
@@ -425,7 +434,6 @@ By <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-brauer-cohomology
 </ol>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-defn" 
@@ -573,18 +581,20 @@ By <span class="yh-ref" data-ref-kind="math" data-ref-id="prop-brauer-cohomology
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity </p>
 $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$<p>
 we see that the period of $D$ divides $n$, as required.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <div class="math-env style-remark" 

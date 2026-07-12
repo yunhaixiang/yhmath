@@ -392,12 +392,15 @@ I have not found a reference that I am completely satisfied with, but a lot of m
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Sketch)&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     This is shown with two facts: 1. $\underline{\mathbb R}\rightarrow \Omega^\bullet $ is an quasi-isomorphism, i.e. $\mathcal H^k_{\mathrm{dR}}$ identifies with $\underline{\mathbb R}$ at $0$ and vanishes otherwise. 2. for $p\ge 0$, $\Omega^p$ is acyclic. Together, $\underline{\mathbb R}\rightarrow \Omega^\bullet$ is an acyclic resolution, hence de Rham’s theorem. Fact 1 is shown by Poincare lemma (every closed $k$-form is locally exact), and fact 2 is due to the fact that $M$ has partitions of unity: the sheaves $\Omega^p$ are fine, and fine sheaves are acyclic, see &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;BT82&#34; data-cite-note=&#34;Chapter I, Section 2&#34;&gt;
 ⟦cite:BT82⟧
@@ -406,7 +409,6 @@ data-cite-key=&#34;Bre97&#34; data-cite-note=&#34;Chapter II, Section 9&#34;&gt;
 ⟦cite:Bre97⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -461,15 +463,17 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt; &lt;span class=&#34;proof-note&#34;&gt;(Sketch)&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Sketch)&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     For simplicity, assume $X$ is proper. The proof combines a comparison map $\Omega^\bullet_X\rightarrow \Omega^\bullet_{X^{\mathrm{an}}}$ via analytification. By the assumption of properness, GAGA applies and identifies sheaf cohomologies $H^q(X,\Omega^p_X)\cong H^q(X,\Omega^p_{X^\mathrm{an}})$, and hence identifies hyper-cohomologies $\mathbb H^{n}(X,\Omega^\bullet)\cong \mathbb H^{n}(X,\Omega^\bullet_{X^{\mathrm{an}}})$ via Hodge-to-de Rham spectral sequence. Finish by Poincare lemma giving an acyclic resolution $\underline{\mathbb C}\rightarrow \Omega^\bullet_{X^\mathrm{an}}$, and done.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 

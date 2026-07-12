@@ -74,7 +74,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   <meta itemprop="description" content="Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them. — Angus K. Rodgers Continuing my previous post on AI for math, I want to give a concrete example of how AI can be used to formalize a mathematical result. More specifically, in this post, I will be formalizing an elementary result about the Fibonacci sequence that I really like. The Fibbonaci sequence is a sequence $(f_n)_{n\in\mathbb Z}$ defined as follows: $f_0=0$, $f_1=1$, and $f_n=f_{n-1}&#43;f_{n-2}$ for $n\in\mathbb Z$. The result I want to formalize is: $f_{\gcd(m,n)}=\gcd(f_m,f_n)$ for all $m,n\in\mathbb N$, which is called the strong divisibility of Fibonacci sequence. In particular, this implies that if $n,m\in\mathbb N$ are such that $n\mid m$ then $f_n\mid f_m$ -- This is known as weak divisbility. I will be using Lean proof assistant and Codex to vibe prove this result. Find the GitHub repo here.">
   <meta itemprop="datePublished" content="2026-03-08T12:00:00-05:00">
   <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="3041">
+  <meta itemprop="wordCount" content="3033">
   <meta itemprop="keywords" content="Math,Ai">
 
   
@@ -85,7 +85,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
   
 
   
@@ -103,7 +103,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -194,7 +194,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          3041 words
+          3033 words
         </span>
       
       
@@ -348,15 +348,17 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     Using identity (3), taking determinants yields the result immediately, as $\det A=-1$.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-plain" 
@@ -373,15 +375,17 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     For $n,m\in\mathbb Z$, we have $\det(A^ne_1,A^me_1)=\det(A^m)\det(A^{n-m}e_1,e_1)$. The result follows.
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <div class="math-env style-plain" 
@@ -398,12 +402,15 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>By <span class="yh-ref" data-ref-kind="math" data-ref-id="rmk-vec">⟦ref:rmk-vec⟧</span>, the operator $T$ acts as shifting, with matrix $A$. We have
 </p>
 $$A^n\begin{pmatrix}f_i\\0\end{pmatrix}=\begin{pmatrix}f_{n+i}\\ f_n\end{pmatrix}\quad\mathrm{and}\quad A^n\begin{pmatrix}f_{i+j}\\ f_j\end{pmatrix}=\begin{pmatrix}f_{n+i+j}\\ f_{n+j}\end{pmatrix}$$<p>
@@ -413,7 +420,6 @@ $$\det\begin{pmatrix}f_{n+i}&f_{n+i+j}\\ f_n&f_{n+j}\end{pmatrix}=\det A^n\det\b
 and the result follows.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <div class="math-env style-plain" 
@@ -430,15 +436,17 @@ and the result follows.</p>
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     For $n,m\in\mathbb Z$, we have $A^{m+n}=A^mA^n$. Use (3) then compare the $(2,1)$-entry, and the result follows.
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <div class="math-env style-remark" 
@@ -469,19 +477,21 @@ and the result follows.</p>
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>By the $2$-by-$2$ inverse matrix formula on (3), we find
 </p>
 $$A^{-n}=\frac{1}{f_{n-1}f_{n+1}-f_n^2}\begin{pmatrix}f_{n-1}&-f_n\\ -f_n&f_{n+1}\end{pmatrix}=\begin{pmatrix}(-1)^nf_{n-1}&(-1)^{n+1}f_n\\ (-1)^{n+1}f_n&(-1)^nf_{n+1}\end{pmatrix}$$<p>
 by <a href="#thm-cas">Cassini's identity</a>. Comparing $(2,1)$-entry with (3) then we are done.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>We now know enough to prove divisibility and strong divisibility. There is a natural reduction mod $n\ne 0$ of matrices
@@ -502,15 +512,17 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-remark" 
@@ -541,15 +553,17 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     It follows from <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-div">⟦ref:thm-div⟧</span> that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-remark" 
@@ -580,15 +594,17 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By <a href="#thm-cas">Cassini's identity</a>, $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By <a href="#thm-fib-add">Fibonacci addition formula</a>, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>We can even find a general formula for the Fibonacci numbers using the linear algebra developed above. Let $T$ be the operator in <span class="yh-ref" data-ref-kind="math" data-ref-id="rmk-vec">⟦ref:rmk-vec⟧</span>, it has minimal polynomial $x^2-x-1$ coming from the recurrence and eigenvalues $\varphi=\frac{1+\sqrt{5}}{2}$ and its conjugate $\overline{\varphi}=\frac{1-\sqrt{5}}{2}$. The sequences $(\varphi^n)_n$ and $(\overline{\varphi}^n)_n$ are linearly independent and both are elements of the vector space, hence they form a basis of the $2$-dimensional vector space $V$. Thus $f_n=A\varphi^n+B\overline{\varphi}_n$ for some real numbers $A,B$, which one can find by evaluating at $n=0,1$ and solving a system of linear equations. One finds the <em>Binet formula</em>:

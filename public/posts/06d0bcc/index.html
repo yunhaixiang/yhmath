@@ -75,7 +75,7 @@ For today’s post, I want to write about the correspondence between “local sy
   <meta itemprop="description" content="In mathematics the art of proposing a question must be held of higher value than solving it. — Georg Cantor For today’s post, I want to write about the correspondence between “local systems” i.e. locally constant sheaves, and representations of the fundamental group i.e. monodromy representations, in both the topological and arithmetic contexts. The most important context for me is the $\ell$-adic étale version but we start first with the topological version for the sake of motivation.">
   <meta itemprop="datePublished" content="2026-06-19T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-06-24T20:16:08-04:00">
-  <meta itemprop="wordCount" content="3511">
+  <meta itemprop="wordCount" content="3505">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Algebra">
 
   
@@ -86,7 +86,7 @@ For today’s post, I want to write about the correspondence between “local sy
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
   
 
   
@@ -104,7 +104,7 @@ For today’s post, I want to write about the correspondence between “local sy
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -195,7 +195,7 @@ For today’s post, I want to write about the correspondence between “local sy
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          3511 words
+          3505 words
         </span>
       
       
@@ -291,12 +291,15 @@ $$\mathrm{LocSys}_k(X)\cong \mathrm{Rep}_k(\pi_1(X,x))$$
   </div>
 </div>
 </p>
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Given a local system $\mathcal L$. Given a loop $\gamma:I\rightarrow X$, choose a sequence $\{U_i\}$ of small open sets that cover it where on each $U_i$, we have $\mathcal L|_{U_i}$ constant, therefore we can construct isomorphisms $\mathcal L_{a_i}\cong \mathcal L_{a_{i+1}}$ for a sequence of points $\{a_i\}$ which eventually loops back to the base point. Composing them we get an automorphism of $\mathcal L_{x}\cong k^n$. One can show that this construction only depends on the homotopy class of $\gamma$. Thus, we constructed  $\rho:\pi_1(X,x)\rightarrow \mathrm{Aut}(\mathcal L_x)$. Conversely, given $\rho:\pi_1(X,x)\rightarrow\mathrm{Aut}_k(V)$ for some finite dimensional $k$-vector space $V$. Choose universal cover $\widetilde{X}$ and form the vector bundle
 </p>
 $$E_\rho=(\widetilde{X}\times V)/\pi_1(X,x)\longrightarrow X$$<p>
@@ -305,7 +308,6 @@ $$\mathcal L(U)=\{\mathrm{locally\ constant\ sections\ }U\rightarrow E_\rho\}$$<
 i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}=U\times V$ for some $v$. It is not hard to check that this is a local system which is mutually inverse to the previous construction.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <p>Let $X$ be a connected scheme with $\ell$ an invertible prime, and choose a geometric point $\overline{x}\rightarrow X$.</p>
@@ -385,12 +387,15 @@ $$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>We will show it for $\Lambda=\mathbb Z/\ell^n\mathbb Z$, and the rest can be obtained from taking inverse limits and tensoring. Let $\mathcal F$ be a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf, and let $\mathrm{Et}(\mathcal F)\rightarrow X$ be its etale space. The fiber $\mathcal F_{\overline{x}}$ is the fiber of this finite etale cover above $\overline{x}$, so the functorial action of $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$ on fibers gives a continuous representation
 </p>
 $$
@@ -424,7 +429,6 @@ $$<p>
 After pulling back to an etale cover on which $\mathcal F$ is constant, this map is visibly an isomorphism: both sides are locally constant functions to the same finite module $M$. Therefore it is an isomorphism after etale descent, and hence for all $U$. Thus the sheaf reconstructed from $\rho_{\mathcal F}$ is canonically isomorphic to $\mathcal F$.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>For a cartesian square of schemes</p>
@@ -521,18 +525,20 @@ is an isomorphism for all $i\ge 0$ if one of the following is true</p>
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     See <span class="yh-ref" data-ref-kind="bib"
 data-cite-key="Mil80" data-cite-note="Chapter VI, Theorems 2.1 and 4.1">
 ⟦cite:Mil80⟧
 </span>.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-plain" 
@@ -553,12 +559,15 @@ $$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Apply proper base change to the pullback square obtained from a geometric point $g:\overline{s}\rightarrow S$. Then $X'=X_{\overline{s}}$, and the base change isomorphism gives
 </p>
 $$
@@ -577,7 +586,6 @@ $$<p>
 because $f':X_{\overline{s}}\rightarrow \overline{s}$ is the structure map. This proves the stalk formula, and properness gives finiteness of these cohomology groups. To see local constancy, apply smooth base change to etale morphisms $g:S'\rightarrow S$. Since etale morphisms are smooth, the theorem says that the formation of $\mathrm R^if_*\mathcal F$ is unchanged after passing to such an etale cover. Applying this on an etale cover where the smooth family and the lisse sheaf are locally trivial shows that $\mathrm R^if_*\mathcal F$ is locally constant with finite stalks, hence lisse.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-defn" 
@@ -755,12 +763,15 @@ $$\mathrm{LocSys}_{\mathbb C}(X)\cong \mathrm{Vect}^\nabla(X)$$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>For a local system $\mathcal L$, send it to the vector bundle $\mathcal L\otimes_{\mathbb C_X}\mathcal O_X$, equipped with the flat connection
 </p>
 $$\mathcal L\otimes_{\mathbb C_X}\mathcal O_X\xrightarrow{1\otimes \mathrm d}\mathcal L\otimes_{\mathbb C_X} \Omega^1_X$$<p>
@@ -773,7 +784,6 @@ $$\frac{\partial A_j}{\partial z_i}-\frac{\partial A_i}{\partial z_j}+\left[A_i,
 This is equivalent to $D_i=\partial_i+A_i$ commuting $D_iD_j=D_jD_i$. Holomorphic Frobenius theorem implies that the PDE in equation $(1)$ is locally solvable with any initial value, meaning for each $v\in \mathcal E_x$, there exists unique holomorphic local section $s_v:U\rightarrow\mathbb C^r$ satisfying equation (1) with $s_v(x)=v$. It is not hard to check that the two constructions are mutually inverse.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>So far, our construction only works for non-singular connections. For $X=\mathbb A^1$ and $U=\{x\ne 0\}\subseteq X$, the connection $\nabla=\mathrm d+\lambda\frac{\mathrm dx}{x}$ has a singularity at $0$, so our version does not apply. To fix it we need $\mathcal D$-modules.</p>
@@ -929,18 +939,20 @@ $$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     See <span class="yh-ref" data-ref-kind="bib"
 data-cite-key="HTT08">
 ⟦cite:HTT08⟧
 </span>.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-defn" 

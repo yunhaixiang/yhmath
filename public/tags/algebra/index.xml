@@ -50,12 +50,15 @@ $$\mathrm{LocSys}_k(X)\cong \mathrm{Rep}_k(\pi_1(X,x))$$
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Given a local system $\mathcal L$. Given a loop $\gamma:I\rightarrow X$, choose a sequence $\{U_i\}$ of small open sets that cover it where on each $U_i$, we have $\mathcal L|_{U_i}$ constant, therefore we can construct isomorphisms $\mathcal L_{a_i}\cong \mathcal L_{a_{i+1}}$ for a sequence of points $\{a_i\}$ which eventually loops back to the base point. Composing them we get an automorphism of $\mathcal L_{x}\cong k^n$. One can show that this construction only depends on the homotopy class of $\gamma$. Thus, we constructed  $\rho:\pi_1(X,x)\rightarrow \mathrm{Aut}(\mathcal L_x)$. Conversely, given $\rho:\pi_1(X,x)\rightarrow\mathrm{Aut}_k(V)$ for some finite dimensional $k$-vector space $V$. Choose universal cover $\widetilde{X}$ and form the vector bundle
 &lt;/p&gt;
 $$E_\rho=(\widetilde{X}\times V)/\pi_1(X,x)\longrightarrow X$$&lt;p&gt;
@@ -64,7 +67,6 @@ $$\mathcal L(U)=\{\mathrm{locally\ constant\ sections\ }U\rightarrow E_\rho\}$$&
 i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}=U\times V$ for some $v$. It is not hard to check that this is a local system which is mutually inverse to the previous construction.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Let $X$ be a connected scheme with $\ell$ an invertible prime, and choose a geometric point $\overline{x}\rightarrow X$.&lt;/p&gt;
@@ -144,12 +146,15 @@ $$
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;We will show it for $\Lambda=\mathbb Z/\ell^n\mathbb Z$, and the rest can be obtained from taking inverse limits and tensoring. Let $\mathcal F$ be a lisse $\mathbb Z/\ell^n\mathbb Z$-sheaf, and let $\mathrm{Et}(\mathcal F)\rightarrow X$ be its etale space. The fiber $\mathcal F_{\overline{x}}$ is the fiber of this finite etale cover above $\overline{x}$, so the functorial action of $\pi_1^{\mathrm{\acute et}}(X,\overline{x})$ on fibers gives a continuous representation
 &lt;/p&gt;
 $$
@@ -183,7 +188,6 @@ $$&lt;p&gt;
 After pulling back to an etale cover on which $\mathcal F$ is constant, this map is visibly an isomorphism: both sides are locally constant functions to the same finite module $M$. Therefore it is an isomorphism after etale descent, and hence for all $U$. Thus the sheaf reconstructed from $\rho_{\mathcal F}$ is canonically isomorphic to $\mathcal F$.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;For a cartesian square of schemes&lt;/p&gt;
@@ -280,18 +284,20 @@ is an isomorphism for all $i\ge 0$ if one of the following is true&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Mil80&#34; data-cite-note=&#34;Chapter VI, Theorems 2.1 and 4.1&#34;&gt;
 ⟦cite:Mil80⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -312,12 +318,15 @@ $$
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Apply proper base change to the pullback square obtained from a geometric point $g:\overline{s}\rightarrow S$. Then $X&#39;=X_{\overline{s}}$, and the base change isomorphism gives
 &lt;/p&gt;
 $$
@@ -336,7 +345,6 @@ $$&lt;p&gt;
 because $f&#39;:X_{\overline{s}}\rightarrow \overline{s}$ is the structure map. This proves the stalk formula, and properness gives finiteness of these cohomology groups. To see local constancy, apply smooth base change to etale morphisms $g:S&#39;\rightarrow S$. Since etale morphisms are smooth, the theorem says that the formation of $\mathrm R^if_*\mathcal F$ is unchanged after passing to such an etale cover. Applying this on an etale cover where the smooth family and the lisse sheaf are locally trivial shows that $\mathrm R^if_*\mathcal F$ is locally constant with finite stalks, hence lisse.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -514,12 +522,15 @@ $$\mathrm{LocSys}_{\mathbb C}(X)\cong \mathrm{Vect}^\nabla(X)$$
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;For a local system $\mathcal L$, send it to the vector bundle $\mathcal L\otimes_{\mathbb C_X}\mathcal O_X$, equipped with the flat connection
 &lt;/p&gt;
 $$\mathcal L\otimes_{\mathbb C_X}\mathcal O_X\xrightarrow{1\otimes \mathrm d}\mathcal L\otimes_{\mathbb C_X} \Omega^1_X$$&lt;p&gt;
@@ -532,7 +543,6 @@ $$\frac{\partial A_j}{\partial z_i}-\frac{\partial A_i}{\partial z_j}+\left[A_i,
 This is equivalent to $D_i=\partial_i+A_i$ commuting $D_iD_j=D_jD_i$. Holomorphic Frobenius theorem implies that the PDE in equation $(1)$ is locally solvable with any initial value, meaning for each $v\in \mathcal E_x$, there exists unique holomorphic local section $s_v:U\rightarrow\mathbb C^r$ satisfying equation (1) with $s_v(x)=v$. It is not hard to check that the two constructions are mutually inverse.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;So far, our construction only works for non-singular connections. For $X=\mathbb A^1$ and $U=\{x\ne 0\}\subseteq X$, the connection $\nabla=\mathrm d+\lambda\frac{\mathrm dx}{x}$ has a singularity at $0$, so our version does not apply. To fix it we need $\mathcal D$-modules.&lt;/p&gt;
@@ -688,18 +698,20 @@ $$
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;HTT08&#34;&gt;
 ⟦cite:HTT08⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -781,15 +793,17 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -822,12 +836,15 @@ $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Taking cohomology of the short exact sequence of algebraic groups over $K^{\mathrm{sep}}$
 &lt;/p&gt;
 $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$&lt;p&gt;
@@ -837,7 +854,6 @@ $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to 
 Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;examples-of-brauer-groups-of-fields&#34;&gt;Examples of Brauer Groups of Fields&lt;/h2&gt;
@@ -860,12 +876,15 @@ Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;Take short exact sequence
 $$1\to \mu_n\to \mathbb{G}_m\xrightarrow{(\cdot)^n} \mathbb{G}_m\to 1$$
@@ -877,7 +896,6 @@ $$\cdots \to \mathrm H^1(K, \mathbb{G}_m)\xrightarrow{(\cdot)^n} \mathrm H^1(K, 
 &lt;/ol&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -903,12 +921,15 @@ where the sum is over all places $v$ of $K$.&lt;/li&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;ol class=&#34;enum-i surround-paren&#34;&gt;
 &lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-brauer-cohomology&#34;&gt;⟦ref:thm-brauer-cohomology⟧&lt;/span&gt;, $\mathrm{Br}(K)\cong \mathrm{H}^2(K,\mathbb{G}_m)$. Since $K$ is algebraically closed, $\mathrm{Gal}(K^{\mathrm{sep}}\mid K)=0$, so $\mathrm{H}^2(K,\mathbb{G}_m)=0$.&lt;/li&gt;
 &lt;li&gt;Any central division algebra over a finite field is finite, hence by Wedderburn’s little theorem is a field, hence every Azumaya algebra over a finite field is some $\mathrm M_n(K)\sim K$, so the Brauer group is trivial.&lt;/li&gt;
@@ -920,7 +941,6 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
 &lt;/ol&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-defn&#34; 
@@ -1068,18 +1088,20 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity &lt;/p&gt;
 $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$&lt;p&gt;
 we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-remark&#34; 
@@ -1286,18 +1308,20 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
@@ -1387,15 +1411,17 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -1412,15 +1438,17 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -1437,15 +1465,17 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -1462,15 +1492,17 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;hilberts-theorem-90&#34;&gt;Hilbert’s Theorem 90&lt;/h2&gt;
@@ -1503,18 +1535,20 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 ⟦cite:Mil22⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -1536,12 +1570,15 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Assume $[L:K]&lt;\infty$, let $G=\mathrm{Gal}(L\mid K)$. Take direct limit for the general case.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-normal-basis&#34;&gt;⟦ref:thm-normal-basis⟧&lt;/span&gt;, we have $L\cong K[G]$ as $K[G]$-modules, which is an induced module. By Shapiro&#39;s lemma c.f. &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
@@ -1558,7 +1595,6 @@ $$\xi&#39;_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\x
 Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;brauer-groups-of-fields&#34;&gt;Brauer Groups of Fields&lt;/h2&gt;
@@ -1598,18 +1634,20 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
 ⟦cite:Poo17⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Let $\mathbf{Az}_K$ denote the category of Azumaya algebras over $K$ with morphisms being $K$-algebra homomorphisms. The tensor product $\otimes_K$ endows $\mathbf{Az}_K$ with a monoidal structure with unit object $K$. A base change of Azumaya algebras is also Azumaya, and the opposite algebra $A^{\mathrm{opp}}$ of an Azumaya algebra, defined by reversing multiplication $a\cdot b=ba$, is Azumaya. The isomorphism classes of Azumaya algebras form a set, since for each $n\ge 1$, the size of the isomorphism class of Azuyama algebras of rank $n$ is determined by the size of all bilinear maps $\mathrm{Hom}_K(A\otimes A,A)\cong (K^{n})^3$, which is a set.&lt;/p&gt;
@@ -1655,19 +1693,21 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality
 &lt;/p&gt;
 $$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$&lt;p&gt;
 Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;/p&gt;
 
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;math-env style-plain&#34; 
@@ -1688,18 +1728,20 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;proof-env&#34; data-compact=&#34;true&#34;&gt;
-  &lt;span class=&#34;proof-heading&#34;&gt;
-    &lt;span class=&#34;proof-title&#34;&gt;Proof.&lt;/span&gt;
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
-
-  &lt;div class=&#34;proof-body&#34;&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 ⟦cite:GS06⟧
 &lt;/span&gt;.
   &lt;/div&gt;
-  &lt;span class=&#34;proof-qed&#34;&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Suppose $A$ is an Azumaya algebra over $K$, the composition of an isomorphism $A\otimes_K K^{\mathrm{sep}}\cong \mathrm M_r(K^{\mathrm{sep}})$ with the determinant map is independent of the choice of isomorphism. Thus we have a well-defined reduced norm map $\mathrm{N}^{\mathrm{rd}}_{A\mid K}:A\rightarrow K$, where the codomain is $K$ by Galois invariance: an element $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$ acts on $A\otimes_K K^{\mathrm{sep}}$ via the second factor, and acts on $\mathrm{M}_r(K^{\mathrm{sep}})$ entry-wise; let $\iota$ be a splitting isomorphism and ${}^\sigma\!\iota=\sigma\circ \iota\circ \sigma^{-1}$, then $\sigma(\mathrm{N}^{\mathrm{rd}}_{\iota}(x))=\sigma(\mathrm{det}(\iota(x)))=\mathrm{det}(\sigma(\iota(x)))=\mathrm{det}({}^\sigma\!\iota(\sigma(x)))=\mathrm{N}_{{}^\sigma\!\iota}^{\mathrm{rd}}(\sigma(x))$, but since reduced norm does not depend on $\iota$,  $\sigma(\mathrm{N}^{\mathrm{rd}}(x))=\mathrm{N}^{\mathrm{rd}}(\sigma(x))$. Similarly we define the reduced trace map $\mathrm{Tr}^{\mathrm{rd}}_{A \mid K}:A\rightarrow K$.&lt;/p&gt;

@@ -75,7 +75,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   <meta itemprop="description" content="God exists since mathematics is consistent, and the Devil exists since we cannot prove it. — André Weil Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 2$ that admits a degree 2 morphism to the projective line $\mathbb{P}^1$. In this post, we will discuss how to compute the Hasse–Witt matrix of a hyperelliptic curve defined over a finite field, which encodes a lot of information about the curve’s Jacobian. I arrived at this topic by working on a problem related to the $L$-polynomials of hyperelliptic curves over finite fields in high genus.">
   <meta itemprop="datePublished" content="2026-05-15T14:28:09-04:00">
   <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="2411">
+  <meta itemprop="wordCount" content="2399">
   <meta itemprop="keywords" content="Algebraic-Geometry,Number-Theory,Math">
 
   
@@ -86,7 +86,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
   
 
   
@@ -104,7 +104,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -195,7 +195,7 @@ Recall that a hyperelliptic curve is a smooth projective curve of genus $g \geq 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          2411 words
+          2399 words
         </span>
       
       
@@ -298,12 +298,15 @@ where $\mathrm{NS}(C)=\mathbb Z$ if $k$ is algebraically closed.</p>
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>It suffice to show the tangent space $T_0\mathrm{Pic}_{C}=H^1(C, \mathcal O_C)$, then by Serre duality
 </p>
 $$\dim  J=\dim T_0 J=\dim T_0 \mathrm{Pic}_C=\dim H^1(C, \mathcal O_C)=\dim H^0(C,\omega_C):=g$$<p>
@@ -316,7 +319,6 @@ $$H^0\left(C, \mathcal{O}_{C_{\varepsilon}}^{\times}\right) \rightarrow H^0\left
 which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\rightarrow \mathrm{Pic}(C))=T_0\mathrm{Pic}_C$</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <div class="math-env style-plain" 
@@ -333,12 +335,15 @@ which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\righta
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Start with Kummer sequence
 </p>
 $$1 \rightarrow \mu_{\ell^n} \rightarrow \mathbf{G}_m \xrightarrow{\ell^n} \mathbf{G}_m \rightarrow 1$$<p>
@@ -348,7 +353,6 @@ $$H^0\left(X, \mathbf{G}_m\right) \xrightarrow{\ell^n} H^0\left(X, \mathbf{G}_m\
 Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \operatorname{Pic}(X)\left[\ell^n\right]$.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 
 <div class="math-env style-plain" 
@@ -369,16 +373,18 @@ induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     We have
 $H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-defn" 
@@ -417,12 +423,15 @@ $$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Write $J[\ell]$ in terms of the Tate module $T_\ell J=\varprojlim J[\ell^n]$, as $J[\ell]\cong T_\ell J/\ell T_\ell J $, which is a $\mathrm{Gal}_k$-module isomorphism. Therefore
 </p>
 $$\det (1-T\mathrm{Frob}_q|J[\ell])\equiv \det (1-T\mathrm{Frob}_q|T_\ell J/\ell T_\ell J )\equiv \det (1-T\mathrm{Frob}_q|T_\ell J )\pmod{\ell}$$<p>
@@ -430,7 +439,6 @@ We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb 
 $\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>Specifically, it turns out that it is very fruitful to consider the $L$-polynomial mod $2$ (recall we are assuming odd characteristics), as demonstrated by a paper by Costa–Donepudi–Fernando–Karemaker–Springer–West <span class="yh-ref" data-ref-kind="bib"
@@ -453,18 +461,20 @@ $$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span> <span class="proof-note">(Sketch)</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span> <span class="math-note">(Sketch)</span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     We have the standard result that $J[2]$ is $2g$-dimensional over $\mathbb F_2$. Let $W$ be the $2g+2$ geometric branch points, then we have a vector space $\mathbb F_2^W=\mathbb F_2^{2g+2}$ with a Frobenius action. Straightforwardly, the Frobenius can be represented as a block diagonal matrix over $\mathbb F_2^W$ with blocks of sizes $d_1,...,d_r$, each one a cyclic permutation matrix. One easily finds the characteristic polynomial to be $\prod_{i=1}^r(1-T^{d_i})\in\mathbb F_2[T]$. A standard result of Mumford <span class="yh-ref" data-ref-kind="bib"
 data-cite-key="Mum07">
 ⟦cite:Mum07⟧
 </span> says: if $e\in J[2]$, then as a divisor either $e=\sum_{P\in U}P-|U|(\infty)$ (if $\infty$ is ramified) or $e=\sum_{P\in U}P-\frac{|U|}{2}(\infty_1+\infty_2)$ (if $\infty$ splits in two), for some subset $U\subseteq W$ of even size, where two such representations agree iff $U_1=U_2$ or $U_1=W\setminus U_2$. Let $Z=\langle (1,\dots,1) \rangle$ and $Z^\perp$ be the orthogonal space then it is the subspace of vectors of an even number of nonzero entries. Frobenius acts stably and also invertibly on the quotient $\mathbb F_2^W/Z^{\perp}$, so one finds the characteristic polynomial of the Frobenius on $Z^{\perp}$ to be $(1-T)^{-1}\prod_{i=1}^r(1-T^{d_i})$ via the exact sequence. Similarly by considering $Z^{\perp}/Z$, one finds the characteristic polynomial $(1-T)^{-2}\prod_{i=1}^r(1-T^{d_i})$, and voila.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>Notably, this explains a numerical phenomenon when I was producing large amount of data. Still assuming odd characteristics:</p>
@@ -482,19 +492,21 @@ data-cite-key="Mum07">
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Since $q^n$ is odd $L_C(T)\equiv 1+T^g+T^{2g}\pmod{2}$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-hyp">⟦ref:thm-hyp⟧</span> we have in $\mathbb F_2[T]$
 </p>
 $$(1+T)^2(1+T^g+T^{2g})=\prod_{i=1}^r(1+T^{d_i})$$<p>
 swapping negative signs with positive ones. The LHS has exactly two linear factors, and the RHS $1+T^{d_i}$ contributes one linear factor if $d_i$ is odd and two if $d_i$ is even. Thus, the number of Frobenius cycles $r$ can only be $1$ or $2$. For $g>2$, the LHS would need to have $6$ terms, contradiction.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p>The above analysis helps us understand the $L$-polynomial mod $\ell$, where $\ell\ne p$. However it does not help us understand it mod $p$. The Hasse-Witt matrix helps us understand the $L$-polynomial mod $p$.</p>
@@ -534,18 +546,20 @@ In other words, the characteristic polynomial computes the $L$-polynomial mod $p
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     Either one uses the coherent Lefschetz trace formula or comparison with de Rham and crystalline cohomology, both are difficult. See Manin's original congruence <span class="yh-ref" data-ref-kind="bib"
 data-cite-key="Man61" data-cite-note="Theorem 1">
 ⟦cite:Man61⟧
 </span>.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-remark" 
@@ -600,18 +614,20 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     See <span class="yh-ref" data-ref-kind="bib"
 data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
 ⟦cite:Ser88⟧
 </span>.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-plain" 
@@ -633,18 +649,20 @@ where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     See <span class="yh-ref" data-ref-kind="bib"
 data-cite-key="Ser88" data-cite-note="Chapter II.8, Duality theorem">
 ⟦cite:Ser88⟧
 </span>.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <div class="math-env style-defn" 
@@ -678,19 +696,21 @@ $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>By adjointness on an adeles supported only at one point with $f_P=f$, we have
 </p>
 $$\mathrm{Res}_P(f^p\omega)=\left(\mathrm{Res}_P(fM\omega)\right)^p$$<p>
 Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption. I’m ignoring the complications with trace, but this is a technicality one can solve using nondegeneracy of trace pairing. Renaming indices $j:=-r$, then done.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-plain" 
@@ -707,19 +727,21 @@ Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, t
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     <p>Using <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-local">⟦ref:thm-local⟧</span>, since $y^{p-1}=f(x)^{\frac{p-1}{2}}$
 </p>
 $$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g c_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g c_{pj-i}^{1/p}\omega_j$$<p>
 and we are done.</p>
 
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <p><div class="math-env style-plain" 
@@ -736,15 +758,17 @@ and we are done.</p>
   </div>
 </div>
 
-<div class="proof-env" data-compact="true">
-  <span class="proof-heading">
-    <span class="proof-title">Proof.</span>
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     Straightforward by the semilinar adjunction between Hasse–Witt and Cartier–Manin matrices.
   </div>
-  <span class="proof-qed"></span>
 </div>
 </p>
 <h2 id="references">References</h2>

@@ -1,17 +1,15 @@
 {{/* layouts/shortcodes/proof.html */}}
 {{- $lang := .Get "lang" | default .Page.Language.Lang -}}
-{{- $compact := .Get "compact" | default "true" -}}
-{{- $inner := .Inner -}}
 
-<div class="proof-env" data-compact="{{ $compact }}">
-  <span class="proof-heading">
-    <span class="proof-title">
-      {{- if eq $lang "zh" -}}证明.{{- else -}}Proof.{{- end -}}
-    </span>{{ with .Get "note" }} <span class="proof-note">({{ . }})</span>{{ end }}
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="{{ $lang }}"
+     data-numbered="false">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='{{ if eq $lang "zh" }}证明{{ else }}Proof{{ end }}'></span>{{ with .Get "note" }} <span class="math-note">({{ . }})</span>{{ end }}
   </span>
-
-  <div class="proof-body">
+  <div class="math-body">
     {{ .Inner | markdownify }}
   </div>
-  <span class="proof-qed"></span>
 </div>

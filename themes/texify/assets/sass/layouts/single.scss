@@ -201,99 +201,21 @@
   font-style: normal;
 }
 
-/* Proof / Solution environments */
+/* --- theoremstyle{proof}: proof / solution --- */
 
-.proof-env,
-.solution-env {
-  margin: 1.2rem 0;
-}
-
-/* reuse inline layout from .thm-heading / .thm-body */
-.proof-heading,
-.solution-heading {
-  display: inline; margin-right: 0.05em;
-  /* .thm-heading already has display:inline etc., so usually nothing else needed */
-}
-
-.proof-body,
-.solution-body {
-  display: inline; 
-  /* ensure proof text is upright roman, not italic */
-  font-style: normal;
-}
-
-/* keep Proof. on same line as the first paragraph and QED on the last line */
-.proof-body > p,
-.solution-body > p {
-  display: block;
-  margin: 0 0 0.75rem;
-}
-
-.proof-body > p:first-child,
-.solution-body > p:first-child {
-  display: inline;
-  margin: 0;
-}
-
-.proof-body > p:first-child + p,
-.solution-body > p:first-child + p {
-  margin-top: 0.75rem;
-}
-
-.proof-body > p:last-child,
-.solution-body > p:last-child {
-  display: inline;
-  margin: 0;
-}
-
-
-
-/* labels: Proof. / Solution. in italic, like LaTeX */
-.proof-title,
-.solution-title {
+.style-proof .math-heading {
+  font-weight: 400;
   font-style: italic;
-  font-weight: 400;
 }
 
-/* notes: (Sketch), (of Theorem 1.2.3), (略) etc., in normal text */
-.proof-note,
-.solution-note {
+.style-proof .math-body {
   font-style: normal;
-  font-weight: 400;
-}
-
-/* end-of-proof symbol; change □ to ∎ if you like */
-.proof-qed::before,
-.solution-qed::before {
-  content: "□";
-  font-size: 0.9em;
-  margin-left: 0.4em;
-}
-
-/* Tighten spacing when a proof/solution immediately follows a theorem */
-.math-env + .proof-env[data-compact="true"],
-.math-env + .solution-env[data-compact="true"] {
-  margin-top: -0.8rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
 }
 
 /* Trim bottom margin for lists inside math environments. */
 .math-env ol,
 .math-env ul {
   margin-bottom: 0;
-}
-
-.proof-env ol,
-.proof-env ul,
-.solution-env ol,
-.solution-env ul {
-  margin-bottom: 0;
-}
-
-
-/* Tighten spacing when a second proof/solution immediately a previous proof/solution */
-.proof-env + .proof-env[data-compact="true"],
-.solution-env + .solution-env[data-compact="true"] {
-  margin-top: -0.8rem;   /* adjust: 0, 0.2rem, 0.4rem, etc. */
 }
 
 body { counter-reset: fig; }
