@@ -66,7 +66,7 @@ $$\mathrm{LocSys}_k(X)\cong \mathrm{Rep}_k(\pi_1(X,x))$$
 $$E_\rho=(\widetilde{X}\times V)/\pi_1(X,x)\longrightarrow X$$&lt;p&gt;
 where one mods out by diagonal action by $\pi_1$. We then can define the local system &lt;/p&gt;
 $$\mathcal L(U)=\{\mathrm{locally\ constant\ sections\ }U\rightarrow E_\rho\}$$&lt;p&gt;
-i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}=U\times V$ for some $v$. It is not hard to check that this is a local system which is mutually inverse to the previous construction.&lt;/p&gt;
+i.e. sections that locally of the form $U\xrightarrow{u\mapsto (u,v)}E_\rho|_{U}=U\times V$ for some $v$. It is not hard to check that this is a local system which is mutually inverse to the previous construction.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -189,7 +189,7 @@ sending a geometric point $\overline{u}\rightarrow U$ above $\overline{x}$ to th
 $$
 \mathcal F(U)\longrightarrow \mathrm{Hom}_{\pi_1^{\mathrm{\acute et}}(X,\overline{x})\textrm{-Set}}(U_{\overline{x}},\mathcal F_{\overline{x}}).
 $$&lt;p&gt;
-After pulling back to an etale cover on which $\mathcal F$ is constant, this map is visibly an isomorphism: both sides are locally constant functions to the same finite module $M$. Therefore it is an isomorphism after etale descent, and hence for all $U$. Thus the sheaf reconstructed from $\rho_{\mathcal F}$ is canonically isomorphic to $\mathcal F$.&lt;/p&gt;
+After pulling back to an etale cover on which $\mathcal F$ is constant, this map is visibly an isomorphism: both sides are locally constant functions to the same finite module $M$. Therefore it is an isomorphism after etale descent, and hence for all $U$. Thus the sheaf reconstructed from $\rho_{\mathcal F}$ is canonically isomorphic to $\mathcal F$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -302,7 +302,7 @@ is an isomorphism for all $i\ge 0$ if one of the following is true&lt;/p&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Mil80&#34; data-cite-note=&#34;Chapter VI, Theorems 2.1 and 4.1&#34;&gt;
 ⟦cite:Mil80⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -350,7 +350,7 @@ by the definition of stalk at a geometric point. Evaluating the right side gives
 $$
 (\mathrm R^if&#39;_*g&#39;^*\mathcal F)(\overline{s})=\mathrm H^i(X_{\overline{s}},\mathcal F|_{X_{\overline{s}}}),
 $$&lt;p&gt;
-because $f&#39;:X_{\overline{s}}\rightarrow \overline{s}$ is the structure map. This proves the stalk formula, and properness gives finiteness of these cohomology groups. To see local constancy, apply smooth base change to etale morphisms $g:S&#39;\rightarrow S$. Since etale morphisms are smooth, the theorem says that the formation of $\mathrm R^if_*\mathcal F$ is unchanged after passing to such an etale cover. Applying this on an etale cover where the smooth family and the lisse sheaf are locally trivial shows that $\mathrm R^if_*\mathcal F$ is locally constant with finite stalks, hence lisse.&lt;/p&gt;
+because $f&#39;:X_{\overline{s}}\rightarrow \overline{s}$ is the structure map. This proves the stalk formula, and properness gives finiteness of these cohomology groups. To see local constancy, apply smooth base change to etale morphisms $g:S&#39;\rightarrow S$. Since etale morphisms are smooth, the theorem says that the formation of $\mathrm R^if_*\mathcal F$ is unchanged after passing to such an etale cover. Applying this on an etale cover where the smooth family and the lisse sheaf are locally trivial shows that $\mathrm R^if_*\mathcal F$ is locally constant with finite stalks, hence lisse.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -550,7 +550,7 @@ $$\frac{\partial s}{\partial z_k}+A_k s=0 \tag{1}$$&lt;p&gt;
 for $k=1,\dots,n$, where $\{z_k\}$ is a local frame and $A=\sum_{k}A_k\mathrm dz_k$. From flatness $\nabla^2=0$, we get $\mathrm{d}A+A\wedge A=0$, i.e.
 &lt;/p&gt;
 $$\frac{\partial A_j}{\partial z_i}-\frac{\partial A_i}{\partial z_j}+\left[A_i, A_j\right]=0$$&lt;p&gt;
-This is equivalent to $D_i=\partial_i+A_i$ commuting $D_iD_j=D_jD_i$. Holomorphic Frobenius theorem implies that the PDE in equation $(1)$ is locally solvable with any initial value, meaning for each $v\in \mathcal E_x$, there exists unique holomorphic local section $s_v:U\rightarrow\mathbb C^r$ satisfying equation (1) with $s_v(x)=v$. It is not hard to check that the two constructions are mutually inverse.&lt;/p&gt;
+This is equivalent to $D_i=\partial_i+A_i$ commuting $D_iD_j=D_jD_i$. Holomorphic Frobenius theorem implies that the PDE in equation $(1)$ is locally solvable with any initial value, meaning for each $v\in \mathcal E_x$, there exists unique holomorphic local section $s_v:U\rightarrow\mathbb C^r$ satisfying equation (1) with $s_v(x)=v$. It is not hard to check that the two constructions are mutually inverse.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -722,7 +722,7 @@ $$
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;HTT08&#34;&gt;
 ⟦cite:HTT08⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -757,16 +757,24 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -816,7 +824,7 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
+    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -867,7 +875,7 @@ $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$&lt;p&gt;
 gives a long exact sequence
 &lt;/p&gt;
 $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$&lt;p&gt;
-Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;/p&gt;
+Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1121,7 +1129,7 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity &lt;/p&gt;
 $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$&lt;p&gt;
-we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
+we see that the period of $D$ divides $n$, as required.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1271,7 +1279,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1344,7 +1354,7 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1446,7 +1456,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1475,7 +1485,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1504,7 +1514,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.
+    The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1533,7 +1543,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+    This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1581,7 +1591,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 ⟦cite:Mil22⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1628,7 +1638,7 @@ Thus it suffice to check the cocycle condition. On LHS we have $(\sigma\tau)\cdo
 $$\sigma \cdot(\tau \cdot w)=\sigma \cdot\left(\xi_\tau(\tau(w))\right)=\xi_\sigma\left(\sigma\left(\xi_\tau(\tau(w))\right)\right)=\xi_\sigma\left(\sigma\left(\xi_\tau\right)(\sigma \tau)(w)\right)=\left(\xi_\sigma \cdot \sigma\left(\xi_\tau\right)\right)(\sigma \tau)(w) .$$
 so equality is equivalent to the cocycle condition. We check that two cocycles $\xi$ and $\xi&#39;$ are cohomologous iff $W_{\xi}\cong W_{\xi&#39;}$ as $L$-vector spaces with semilinear $G$-action. Suppose there exists $A\in \mathrm{GL}_r(L)$ such that $\xi&#39;_{\sigma}=A^{-1}\cdot \xi_{\sigma}\cdot \sigma(A)$ for all $\sigma\in G$, then the map $W_{\xi}\rightarrow W_{\xi&#39;}$ sending $w\mapsto A(w)$ is an isomorphism of $L$-vector spaces with semilinear $G$-action. Conversely, suppose $\phi:W_{\xi}\rightarrow W_{\xi&#39;}$ is such an isomorphism, let $A\in \mathrm{GL}_r(L)$ be the matrix representing $\phi$, then for all $\sigma\in G$ and $w\in W_{\xi}$, we have
 $$\xi&#39;_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\xi_{\sigma}(\sigma(w))) .$$
-Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;/li&gt;
+Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1684,7 +1694,7 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
 ⟦cite:Poo17⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1745,7 +1755,7 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
     &lt;p&gt;Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality
 &lt;/p&gt;
 $$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$&lt;p&gt;
-Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;/p&gt;
+Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1782,7 +1792,7 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 ⟦cite:GS06⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1812,19 +1822,29 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;

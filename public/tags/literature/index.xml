@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Literature on Yunhai Xiang</title>
-    <link>http://localhost:1313/tags/literature/</link>
+    <link>https://yunhaimath.com/tags/literature/</link>
     <description>Recent content in Literature on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/literature/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="https://yunhaimath.com/tags/literature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>埃尔德什、三岛由纪夫、死亡</title>
-      <link>http://localhost:1313/posts/erdos-mishima-death/</link>
+      <link>https://yunhaimath.com/posts/erdos-mishima-death/</link>
       <pubDate>Sat, 25 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/erdos-mishima-death/</guid>
+      <guid>https://yunhaimath.com/posts/erdos-mishima-death/</guid>
       <description></description>
     </item>
     

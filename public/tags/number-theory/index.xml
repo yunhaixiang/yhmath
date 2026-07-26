@@ -78,7 +78,7 @@ $$0\rightarrow \mathcal O_C\xrightarrow{f\mapsto 1+\varepsilon f} \mathcal O_{C_
 This induces long exact sequence
 &lt;/p&gt;
 $$H^0\left(C, \mathcal{O}_{C_{\varepsilon}}^{\times}\right) \rightarrow H^0\left(C, \mathcal{O}_C^{\times}\right) \rightarrow H^1\left(C, \mathcal{O}_C\right) \longrightarrow H^1\left(C, \mathcal{O}_{C_{\varepsilon}}^{\times}\right)=\mathrm{Pic}(C_{\varepsilon}) \longrightarrow H^1\left(C, \mathcal{O}_C^{\times}\right)=\mathrm{Pic}(C)$$&lt;p&gt;
-which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\rightarrow \mathrm{Pic}(C))=T_0\mathrm{Pic}_C$&lt;/p&gt;
+which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\rightarrow \mathrm{Pic}(C))=T_0\mathrm{Pic}_C$&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -114,7 +114,7 @@ $$1 \rightarrow \mu_{\ell^n} \rightarrow \mathbf{G}_m \xrightarrow{\ell^n} \math
 Deriving cohomology
 &lt;/p&gt;
 $$H^0\left(X, \mathbf{G}_m\right) \xrightarrow{\ell^n} H^0\left(X, \mathbf{G}_m\right) \rightarrow H^1\left(X, \mu_{\ell^n}\right) \rightarrow H^1\left(X, \mathbf{G}_m\right) \xrightarrow{\ell^n} H^1\left(X, \mathbf{G}_m\right)$$&lt;p&gt;
-Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \operatorname{Pic}(X)\left[\ell^n\right]$.&lt;/p&gt;
+Thus $H^1\left(X, \mu_{\ell^n}\right) \cong H^1(X,\mathbf{G}_m)[\ell^n]\cong \operatorname{Pic}(X)\left[\ell^n\right]$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -149,7 +149,7 @@ induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
     We have
-$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.
+$H^1\left(C, \mu_{\ell^n}\right) \cong \mathrm{Pic}(C)\left[\ell^n\right] \cong\mathrm{Pic}^0(C)\left[\ell^n\right] \cong J\left[\ell^n\right]$. Similarly, $H^1(J,\mu_{\ell^n})=\mathrm{Pic}^0(J)[\ell^n]=J^\vee [\ell^n]$ via canonical principal polarization. By the functoriality of the Kummer sequence, the pullback by Abel-Jacobi map $H^1\left(J, \mu_{\ell^n}\right) \rightarrow H^1\left(C, \mu_{\ell^n}\right)$ and the induced map by Abel-Jacobi map on torsion Picard functors $\mathrm{Pic}(J)[\ell^n]\to \mathrm{Pic}(C)[\ell^n]$ agree, which also agrees with $\mathrm{Pic}^0(J)[\ell^n]\to \mathrm{Pic}^0(C)[\ell^n]$, since torsion points have degree $0$. This map is inverse to the canonical polarization $\lambda_{\Theta}$ since $\mathrm{Jac}(C)=\mathrm{Alb}(C)$ using the Albanese universal property, hence an isomorphism. Therefore we obtain the desired isomorphism by passing to the limit.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -204,7 +204,7 @@ $$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
 &lt;/p&gt;
 $$\det (1-T\mathrm{Frob}_q|J[\ell])\equiv \det (1-T\mathrm{Frob}_q|T_\ell J/\ell T_\ell J )\equiv \det (1-T\mathrm{Frob}_q|T_\ell J )\pmod{\ell}$$&lt;p&gt;
 We show that $T_\ell J$ is the dual representation to $H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell)$ by showing $T_\ell J\cong H^1(C_{\overline{\mathbb F_q}}, \mathbb Z_\ell(1))$ and using Poincare duality, where we recall $\mathbb Z_\ell(1)=\varprojlim \mu_{\ell^n}$ is the Tate twist. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tors&#34;&gt;⟦ref:lem-tors⟧&lt;/span&gt;, we have $J[\ell^n]=\mathrm{Pic}(C)[\ell^n]=H^1(C,\mu_{\ell^n})=H^1(C,(\mathbb Z/\ell^n)(1))$, and passing to the limit we have $T_\ell J\cong H^1(C,\mathbb Z_\ell (1))\cong H^1(C,\mathbb Z_\ell)^\vee$. Therefore a matrix over $T_\ell J$ can be identified as its inverse transpose over $H^1(C,\mathbb Z_\ell)^\vee$. Transpose does not change characteristic polynomial, so
-$\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.&lt;/p&gt;
+$\det(1-TF|H^1(C,\mathbb Z_\ell))=\det(1-T\mathrm{Frob}_q|T_\ell J)$, done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -243,7 +243,7 @@ $$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
     We have the standard result that $J[2]$ is $2g$-dimensional over $\mathbb F_2$. Let $W$ be the $2g+2$ geometric branch points, then we have a vector space $\mathbb F_2^W=\mathbb F_2^{2g+2}$ with a Frobenius action. Straightforwardly, the Frobenius can be represented as a block diagonal matrix over $\mathbb F_2^W$ with blocks of sizes $d_1,...,d_r$, each one a cyclic permutation matrix. One easily finds the characteristic polynomial to be $\prod_{i=1}^r(1-T^{d_i})\in\mathbb F_2[T]$. A standard result of Mumford &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Mum07&#34;&gt;
 ⟦cite:Mum07⟧
-&lt;/span&gt; says: if $e\in J[2]$, then as a divisor either $e=\sum_{P\in U}P-|U|(\infty)$ (if $\infty$ is ramified) or $e=\sum_{P\in U}P-\frac{|U|}{2}(\infty_1+\infty_2)$ (if $\infty$ splits in two), for some subset $U\subseteq W$ of even size, where two such representations agree iff $U_1=U_2$ or $U_1=W\setminus U_2$. Let $Z=\langle (1,\dots,1) \rangle$ and $Z^\perp$ be the orthogonal space then it is the subspace of vectors of an even number of nonzero entries. Frobenius acts stably and also invertibly on the quotient $\mathbb F_2^W/Z^{\perp}$, so one finds the characteristic polynomial of the Frobenius on $Z^{\perp}$ to be $(1-T)^{-1}\prod_{i=1}^r(1-T^{d_i})$ via the exact sequence. Similarly by considering $Z^{\perp}/Z$, one finds the characteristic polynomial $(1-T)^{-2}\prod_{i=1}^r(1-T^{d_i})$, and voila.
+&lt;/span&gt; says: if $e\in J[2]$, then as a divisor either $e=\sum_{P\in U}P-|U|(\infty)$ (if $\infty$ is ramified) or $e=\sum_{P\in U}P-\frac{|U|}{2}(\infty_1+\infty_2)$ (if $\infty$ splits in two), for some subset $U\subseteq W$ of even size, where two such representations agree iff $U_1=U_2$ or $U_1=W\setminus U_2$. Let $Z=\langle (1,\dots,1) \rangle$ and $Z^\perp$ be the orthogonal space then it is the subspace of vectors of an even number of nonzero entries. Frobenius acts stably and also invertibly on the quotient $\mathbb F_2^W/Z^{\perp}$, so one finds the characteristic polynomial of the Frobenius on $Z^{\perp}$ to be $(1-T)^{-1}\prod_{i=1}^r(1-T^{d_i})$ via the exact sequence. Similarly by considering $Z^{\perp}/Z$, one finds the characteristic polynomial $(1-T)^{-2}\prod_{i=1}^r(1-T^{d_i})$, and voila.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -276,7 +276,7 @@ data-cite-key=&#34;Mum07&#34;&gt;
     &lt;p&gt;Since $q^n$ is odd $L_C(T)\equiv 1+T^g+T^{2g}\pmod{2}$. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-hyp&#34;&gt;⟦ref:thm-hyp⟧&lt;/span&gt; we have in $\mathbb F_2[T]$
 &lt;/p&gt;
 $$(1+T)^2(1+T^g+T^{2g})=\prod_{i=1}^r(1+T^{d_i})$$&lt;p&gt;
-swapping negative signs with positive ones. The LHS has exactly two linear factors, and the RHS $1+T^{d_i}$ contributes one linear factor if $d_i$ is odd and two if $d_i$ is even. Thus, the number of Frobenius cycles $r$ can only be $1$ or $2$. For $g&gt;2$, the LHS would need to have $6$ terms, contradiction.&lt;/p&gt;
+swapping negative signs with positive ones. The LHS has exactly two linear factors, and the RHS $1+T^{d_i}$ contributes one linear factor if $d_i$ is odd and two if $d_i$ is even. Thus, the number of Frobenius cycles $r$ can only be $1$ or $2$. For $g&gt;2$, the LHS would need to have $6$ terms, contradiction.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -332,7 +332,7 @@ In other words, the characteristic polynomial computes the $L$-polynomial mod $p
     Either one uses the coherent Lefschetz trace formula or comparison with de Rham and crystalline cohomology, both are difficult. See Manin&#39;s original congruence &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Man61&#34; data-cite-note=&#34;Theorem 1&#34;&gt;
 ⟦cite:Man61⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -402,7 +402,7 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&#34;&gt;
 ⟦cite:Ser88⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -439,7 +439,7 @@ where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Ser88&#34; data-cite-note=&#34;Chapter II.8, Duality theorem&#34;&gt;
 ⟦cite:Ser88⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -488,7 +488,7 @@ $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
     &lt;p&gt;By adjointness on an adeles supported only at one point with $f_P=f$, we have
 &lt;/p&gt;
 $$\mathrm{Res}_P(f^p\omega)=\left(\mathrm{Res}_P(fM\omega)\right)^p$$&lt;p&gt;
-Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption. I’m ignoring the complications with trace, but this is a technicality one can solve using nondegeneracy of trace pairing. Renaming indices $j:=-r$, then done.&lt;/p&gt;
+Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, then $\mathrm{Res}_P(\left(\sum_{n}a_nt^{n+pr}_P\right)\mathrm dt_P)=\left(\mathrm{Res}_P(\left(\sum_{m}b_mt^{m+r}_P\right)\mathrm dt_P)\right)^p$. Computing both sides, we have $a_{-pr-1}=b^p_{-r-1}$ so $b_{-r-1}=a_{-pr-1}^{1/p}$ by perfect ground field assumption. I’m ignoring the complications with trace, but this is a technicality one can solve using nondegeneracy of trace pairing. Renaming indices $j:=-r$, then done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -521,7 +521,7 @@ Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, t
     &lt;p&gt;Using &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-local&#34;&gt;⟦ref:thm-local⟧&lt;/span&gt;, since $y^{p-1}=f(x)^{\frac{p-1}{2}}$
 &lt;/p&gt;
 $$M\omega_i=M\left(x^{i-1}\frac{\mathrm dx}{y}\right)=M\left(x^{i-1}f(x)^{\frac{p-1}{2}}\frac{\mathrm dx}{y^p}\right)=\frac{1}{y}M(x^{i-1}f(x)^{\frac{p-1}{2}}\mathrm dx)=\frac{1}{y}M\left(\sum_{m}c_mx^{m+i-1}\mathrm dx\right)=\frac{1}{y}\sum_{j=1}^g c_{pj-i}^{1/p}x^{j-1}\mathrm dx=\sum_{j=1}^g c_{pj-i}^{1/p}\omega_j$$&lt;p&gt;
-and we are done.&lt;/p&gt;
+and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -551,7 +551,7 @@ and we are done.&lt;/p&gt;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Straightforward by the semilinar adjunction between Hasse–Witt and Cartier–Manin matrices.
+    Straightforward by the semilinar adjunction between Hasse–Witt and Cartier–Manin matrices.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -559,19 +559,29 @@ and we are done.&lt;/p&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Man61&#34; data-bib-key=&#34;Man61&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Man61]&lt;/span&gt;Yuri I. Manin. &lt;em&gt;The Hasse-Witt matrix of an algebraic curve&lt;/em&gt;. Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya. 25(1). pp. 153--172. 1961. English translation in American Mathematical Society Translations, Series 2, Volume 45, pages 245--264, 1965. &lt;a href=&#34;https://www.mathnet.ru/eng/im3370&#34;&gt;https://www.mathnet.ru/eng/im3370&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Man61]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Yuri I. Manin. &lt;em&gt;The Hasse-Witt matrix of an algebraic curve&lt;/em&gt;. Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya. 25(1). pp. 153--172. 1961. English translation in American Mathematical Society Translations, Series 2, Volume 45, pages 245--264, 1965. &lt;a href=&#34;https://www.mathnet.ru/eng/im3370&#34;&gt;https://www.mathnet.ru/eng/im3370&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-AH19&#34; data-bib-key=&#34;AH19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[AH19]&lt;/span&gt;Jeffrey D. Achter and Everett W. Howe. &lt;em&gt;Hasse-Witt and Cartier-Manin matrices: A warning and a request&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry: Computation and Applications&lt;/em&gt;. pp. 1--18. American Mathematical Society. 2019. &lt;a href=&#34;https://doi.org/10.1090/conm/722/14534&#34;&gt;doi:10.1090/conm/722/14534&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/1710.10726&#34;&gt;arXiv:1710.10726&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[AH19]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Jeffrey D. Achter and Everett W. Howe. &lt;em&gt;Hasse-Witt and Cartier-Manin matrices: A warning and a request&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry: Computation and Applications&lt;/em&gt;. pp. 1--18. American Mathematical Society. 2019. &lt;a href=&#34;https://doi.org/10.1090/conm/722/14534&#34;&gt;doi:10.1090/conm/722/14534&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/1710.10726&#34;&gt;arXiv:1710.10726&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Ser88&#34; data-bib-key=&#34;Ser88&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;Jean-Pierre Serre. &lt;em&gt;Algebraic Groups and Class Fields&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 117. Springer-Verlag. New York. 1988.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Jean-Pierre Serre. &lt;em&gt;Algebraic Groups and Class Fields&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 117. Springer-Verlag. New York. 1988.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Mum07&#34; data-bib-key=&#34;Mum07&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;David Mumford. &lt;em&gt;Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations&lt;/em&gt;. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;David Mumford. &lt;em&gt;Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations&lt;/em&gt;. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-CDFKSW22&#34; data-bib-key=&#34;CDFKSW22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[CDFKSW22]&lt;/span&gt;Edgar Costa, Ravi Donepudi, Ravi Fernando, Valentijn Karemaker, Caleb Springer, and Mckenzie West. &lt;em&gt;Restrictions on Weil polynomials of Jacobians of hyperelliptic curves&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry, Number Theory, and Computation&lt;/em&gt;. pp. 259--276. Springer. 2022. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-80914-0_7&#34;&gt;doi:10.1007/978-3-030-80914-0_7&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2002.02067&#34;&gt;arXiv:2002.02067&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[CDFKSW22]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Edgar Costa, Ravi Donepudi, Ravi Fernando, Valentijn Karemaker, Caleb Springer, and Mckenzie West. &lt;em&gt;Restrictions on Weil polynomials of Jacobians of hyperelliptic curves&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry, Number Theory, and Computation&lt;/em&gt;. pp. 259--276. Springer. 2022. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-80914-0_7&#34;&gt;doi:10.1007/978-3-030-80914-0_7&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2002.02067&#34;&gt;arXiv:2002.02067&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -639,10 +649,14 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Kow24&#34; data-bib-key=&#34;Kow24&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Kow24]&lt;/span&gt;Emmanuel Kowalski. &lt;em&gt;An Introduction to Expander Graphs&lt;/em&gt;. 2024. &lt;a href=&#34;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&#34;&gt;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Kow24]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Emmanuel Kowalski. &lt;em&gt;An Introduction to Expander Graphs&lt;/em&gt;. 2024. &lt;a href=&#34;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&#34;&gt;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-God93&#34; data-bib-key=&#34;God93&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[God93]&lt;/span&gt;Chris Godsil. &lt;em&gt;Algebraic Combinatorics&lt;/em&gt;. Chapman and Hall. 1993.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[God93]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Chris Godsil. &lt;em&gt;Algebraic Combinatorics&lt;/em&gt;. Chapman and Hall. 1993.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -692,7 +706,7 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.
+    Let $A$ be an Azumaya $K$-algebra of dimension $r^2$. Choose an isomorphism of $K$-algebras $\varphi:\mathrm{M}_r(K^{\mathrm{sep}})\xrightarrow{\sim} A\otimes_K K^{\mathrm{sep}}$. For each $\sigma\in \mathrm{Gal}(K^{\mathrm{sep}}/K)$, define $\xi_{\sigma}=\varphi^{-1}\circ {}^{\sigma}\!\varphi\in\mathrm{Aut}_{K^{\mathrm{sep}}}(\mathrm{M}_r(K^{\mathrm{sep}}))\cong\mathrm{PGL}_r(K^{\mathrm{sep}})$ where the last isomorphism follows from Skolem–Noether theorem. It is not hard to verify $\xi_{\sigma\tau}=\xi_{\sigma}\cdot \sigma(\xi_{\tau})$, i.e. $\xi$ is a $1$-cocycle. This defines a cohomology class since changing $\varphi$ is equivalent to composing it with an automorphism of $\mathrm{M}_r(K^{\mathrm{sep}})$, which changes $\xi_{\sigma}$ by a coboundary. Thus we have defined a map from the set of isomorphism classes of Azumaya $K$-algebras of dimension $r^2$ to $\mathrm{H}^1(K,\mathrm{PGL}_r)$. It is straightforward to check that this map is injective via descent.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -743,7 +757,7 @@ $$1\to \mathbb{G}_m\to \mathrm{GL}_r\to \mathrm{PGL}_r\to 1$$&lt;p&gt;
 gives a long exact sequence
 &lt;/p&gt;
 $$\cdots \to \mathrm{H}^1(K,\mathrm{GL}_r)\to \mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)\to \mathrm{H}^2(K,\mathrm{GL}_r)\to \cdots$$&lt;p&gt;
-Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;/p&gt;
+Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;prop-azumaya-to-pglr&#34;&gt;⟦ref:prop-azumaya-to-pglr⟧&lt;/span&gt; with the map $\mathrm{H}^1(K,\mathrm{PGL}_r)\to \mathrm{H}^2(K,\mathbb{G}_m)$, we get a map $\mathrm{Br}(K)\rightarrow \mathrm{H}^2(K,\mathbb{G}_m)$. To see that this map is injective note that by Hilbert&#39;s Theorem 90, $\mathrm{H}^1(K,\mathrm{GL}_r)=0$. To see that it is surjective, given a cohomology class $\alpha\in \mathrm{H}^2(K,\mathbb{G}_m)$, we construct an Azumaya algebra $A$ such that its image in $\mathrm{H}^2(K,\mathbb{G}_m)$ is $\alpha$. First note that we can reduce to the case of a finite Galois extension $L\mid K$, where we only need to consider a class in $\mathrm{H}^2(\mathrm{Gal}(L\mid K),L^\times)$ that inflates to $\alpha$. Choose a representative $2$-cocycle $c:\mathrm{Gal}(L\mid K)^2\to L^\times$, i.e. $c(\sigma, \tau) c(\sigma \tau, \rho)=\sigma(c(\tau, \rho)) c(\sigma, \tau \rho)$ for all $\sigma, \tau, \rho\in \mathrm{Gal}(L\mid K)$, we define the crossed product algebra $A=\bigoplus_{\sigma\in \mathrm{Gal}(L\mid K)}Lu_{\sigma}$ with multiplication defined by $u_{\sigma}\ell=\sigma(\ell)u_{\sigma}$ and $u_{\sigma}u_{\tau}=c(\sigma,\tau)u_{\sigma\tau}$, which one checks is a central simple algebra over $K$ that splits over $L$. One can check that the image of $A$ in $\mathrm{H}^2(K,\mathbb{G}_m)$ is precisely $\alpha$. The map is additive by routine check.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -997,7 +1011,7 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
   &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;We reduce to central division algebras. Let $D$ be a central division algebra over $K$ of index $n$. A basic result in the theory of central simple algebras is that $D$ contains a maximal subfield $L$ that is a degree $n$ separable extension of $K$ that splits $D$, i.e. $D\otimes_K L\cong \mathrm M_n(L)$. Thus the class of $D$ in $\mathrm{Br}(K)$ maps to zero in $\mathrm{Br}(L)$, by the restriction-corestriction identity &lt;/p&gt;
 $$\mathrm{cor}_{L\mid K}\circ \mathrm{res}_{L\mid K}([D])=[L:K][D]=n[D]$$&lt;p&gt;
-we see that the period of $D$ divides $n$, as required.&lt;/p&gt;
+we see that the period of $D$ divides $n$, as required.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1147,7 +1161,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1220,7 +1236,7 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&gt;
 ⟦cite:GR71⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1322,7 +1338,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.
+    The case $V=K$ is standard Galois theory fact. For higher dimensions, note that the construction of the map is compatible with direct sums, so the result follows.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1351,7 +1367,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.
+    Suppose $M\mid K$ is a field extension. Taking $G$-invariants is preserved under base change, and a field extension is faithfully flat, so it suffice to check after base change to a choice of $M$ which makes $L\otimes_K M=\prod_{g\in G}M$ split. Rename $M$ to $K$, we reduce to split case $L=\prod_{g\in G}K$. Let $e_g\in L$ be the idempotent corresponding to the $g$-th factor, then $W=\bigoplus_{g\in G} e_g W$ as $K$-vector spaces, and $W_1\cong W_g$ for all $g$ by isomorphism induced by multiplication. Thus $W^G$ is the diagonal image $W_1\rightarrow \bigoplus_{g\in G} e_g W$. Since the natural map $W^G\otimes_K L\rightarrow W$ sending $w\otimes \ell\mapsto \ell w$ restricts to isomorphisms $W^G\otimes_K K e_g\rightarrow e_g W$ for each $g$, the result follows.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1380,7 +1396,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.
+    The two compositions are identities by &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-1&#34;&gt;⟦ref:lem-gal-des-1⟧&lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-gal-des-2&#34;&gt;⟦ref:lem-gal-des-2⟧&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1409,7 +1425,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.
+    This follows from the fact that there is only one $r$-dimensional $K$-vector space up to isomorphism, and the fact that the base change functor in the equivalence respects dimension, i.e. $\dim_{K}V=\dim_{L}(V\otimes_K L)$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1457,7 +1473,7 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 ⟦cite:Mil22⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1504,7 +1520,7 @@ Thus it suffice to check the cocycle condition. On LHS we have $(\sigma\tau)\cdo
 $$\sigma \cdot(\tau \cdot w)=\sigma \cdot\left(\xi_\tau(\tau(w))\right)=\xi_\sigma\left(\sigma\left(\xi_\tau(\tau(w))\right)\right)=\xi_\sigma\left(\sigma\left(\xi_\tau\right)(\sigma \tau)(w)\right)=\left(\xi_\sigma \cdot \sigma\left(\xi_\tau\right)\right)(\sigma \tau)(w) .$$
 so equality is equivalent to the cocycle condition. We check that two cocycles $\xi$ and $\xi&#39;$ are cohomologous iff $W_{\xi}\cong W_{\xi&#39;}$ as $L$-vector spaces with semilinear $G$-action. Suppose there exists $A\in \mathrm{GL}_r(L)$ such that $\xi&#39;_{\sigma}=A^{-1}\cdot \xi_{\sigma}\cdot \sigma(A)$ for all $\sigma\in G$, then the map $W_{\xi}\rightarrow W_{\xi&#39;}$ sending $w\mapsto A(w)$ is an isomorphism of $L$-vector spaces with semilinear $G$-action. Conversely, suppose $\phi:W_{\xi}\rightarrow W_{\xi&#39;}$ is such an isomorphism, let $A\in \mathrm{GL}_r(L)$ be the matrix representing $\phi$, then for all $\sigma\in G$ and $w\in W_{\xi}$, we have
 $$\xi&#39;_{\sigma}(\sigma(A(w)))=\sigma \cdot \phi(w)=\phi(\sigma \cdot w)=A(\xi_{\sigma}(\sigma(w))) .$$
-Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;/li&gt;
+Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G$, i.e. $\xi$ and $\xi&#39;$ are cohomologous. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;cor-unique-semi-linear&#34;&gt;⟦ref:cor-unique-semi-linear⟧&lt;/span&gt;, there is only one $r$-dimensional $L$-vector space with semilinear $G$-action up to isomorphism, so $\mathrm H^1(G,\mathrm{GL}_r(L))=0$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1560,7 +1576,7 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
 ⟦cite:Poo17⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1621,7 +1637,7 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
     &lt;p&gt;Let $n=[L:K]$. View $A$ as a $L$-vector space of dimension $r$. Any $a\in A$ defines an endomorphism $A\rightarrow A$ by multiplication, so there is $K$-algebra morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$, since $A\otimes_K L$ is simple, this morphism is injective. Since base change is faithfully flat, we have the inequality
 &lt;/p&gt;
 $$rn=[A:L][L:K]=[A:K]=[A\otimes_K L:L]\le [\mathrm{M}_r(L):L]=r^2$$&lt;p&gt;
-Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;/p&gt;
+Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \mathrm{End}_L(A)$ is an isomorphism, so $L$ splits $A$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1658,7 +1674,7 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
     See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 ⟦cite:GS06⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1688,19 +1704,29 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;

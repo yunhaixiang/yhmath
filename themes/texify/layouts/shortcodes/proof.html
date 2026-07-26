@@ -11,6 +11,12 @@
 {{- if not (in (slice "trail" "right") $align) -}}
   {{- $align = "trail" -}}
 {{- end -}}
+{{- $markText := "" -}}
+{{- if eq $mark "smallcaps" -}}
+  {{- $markText = "q.e.d." -}}
+{{- end -}}
+{{- $proofMark := printf "<span class=\"proof-mark\" aria-hidden=\"true\">%s</span>" $markText -}}
+{{- $body := printf "%s%s" (strings.TrimSpace .Inner) $proofMark | markdownify -}}
 
 <div class="math-env style-proof"
      data-kind="proof"
@@ -23,6 +29,6 @@
           data-label='{{ if eq $lang "zh" }}证明{{ else }}Proof{{ end }}'></span>{{ with .Get "note" }} <span class="math-note">({{ . }})</span>{{ end }}
   </span>
   <div class="math-body">
-    {{ .Inner | markdownify }}
+    {{ $body }}
   </div>
 </div>

@@ -336,25 +336,39 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Har66&#34; data-bib-key=&#34;Har66&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;Robin Hartshorne. &lt;em&gt;Residues and Duality&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 20. Springer-Verlag. 1966.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Robin Hartshorne. &lt;em&gt;Residues and Duality&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 20. Springer-Verlag. 1966.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-KS90&#34; data-bib-key=&#34;KS90&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;Masaki Kashiwara and Pierre Schapira. &lt;em&gt;Sheaves on Manifolds&lt;/em&gt;. Grundlehren der mathematischen Wissenschaften. Vol. 292. Springer-Verlag. 1990.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Masaki Kashiwara and Pierre Schapira. &lt;em&gt;Sheaves on Manifolds&lt;/em&gt;. Grundlehren der mathematischen Wissenschaften. Vol. 292. Springer-Verlag. 1990.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Ive86&#34; data-bib-key=&#34;Ive86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;Birger Iversen. &lt;em&gt;Cohomology of Sheaves&lt;/em&gt;. Universitext. Springer-Verlag. 1986.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Birger Iversen. &lt;em&gt;Cohomology of Sheaves&lt;/em&gt;. Universitext. Springer-Verlag. 1986.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;James S. Milne. &lt;em&gt;Étale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Étale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Del77&#34; data-bib-key=&#34;Del77&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;Pierre Deligne. &lt;em&gt;Cohomologie étale&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 569. Springer-Verlag. 1977.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Cohomologie étale&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 569. Springer-Verlag. 1977.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Ayo07&#34; data-bib-key=&#34;Ayo07&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;Joseph Ayoub. &lt;em&gt;Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique&lt;/em&gt;. Astérisque. Vol. 314--315. Société Mathématique de France. 2007.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Joseph Ayoub. &lt;em&gt;Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique&lt;/em&gt;. Astérisque. Vol. 314--315. Société Mathématique de France. 2007.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-CD19&#34; data-bib-key=&#34;CD19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;Denis-Charles Cisinski and Frédéric Déglise. &lt;em&gt;Triangulated Categories of Mixed Motives&lt;/em&gt;. Springer Monographs in Mathematics. Springer. 2019.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Denis-Charles Cisinski and Frédéric Déglise. &lt;em&gt;Triangulated Categories of Mixed Motives&lt;/em&gt;. Springer Monographs in Mathematics. Springer. 2019.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -409,7 +423,7 @@ data-cite-key=&#34;BT82&#34; data-cite-note=&#34;Chapter I, Section 2&#34;&gt;
 &lt;/span&gt; and &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
 data-cite-key=&#34;Bre97&#34; data-cite-note=&#34;Chapter II, Section 9&#34;&gt;
 ⟦cite:Bre97⟧
-&lt;/span&gt;.
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -476,7 +490,7 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Sketch)&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    For simplicity, assume $X$ is proper. The proof combines a comparison map $\Omega^\bullet_X\rightarrow \Omega^\bullet_{X^{\mathrm{an}}}$ via analytification. By the assumption of properness, GAGA applies and identifies sheaf cohomologies $H^q(X,\Omega^p_X)\cong H^q(X,\Omega^p_{X^\mathrm{an}})$, and hence identifies hyper-cohomologies $\mathbb H^{n}(X,\Omega^\bullet)\cong \mathbb H^{n}(X,\Omega^\bullet_{X^{\mathrm{an}}})$ via Hodge-to-de Rham spectral sequence. Finish by Poincare lemma giving an acyclic resolution $\underline{\mathbb C}\rightarrow \Omega^\bullet_{X^\mathrm{an}}$, and done.
+    For simplicity, assume $X$ is proper. The proof combines a comparison map $\Omega^\bullet_X\rightarrow \Omega^\bullet_{X^{\mathrm{an}}}$ via analytification. By the assumption of properness, GAGA applies and identifies sheaf cohomologies $H^q(X,\Omega^p_X)\cong H^q(X,\Omega^p_{X^\mathrm{an}})$, and hence identifies hyper-cohomologies $\mathbb H^{n}(X,\Omega^\bullet)\cong \mathbb H^{n}(X,\Omega^\bullet_{X^{\mathrm{an}}})$ via Hodge-to-de Rham spectral sequence. Finish by Poincare lemma giving an acyclic resolution $\underline{\mathbb C}\rightarrow \Omega^\bullet_{X^\mathrm{an}}$, and done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -529,10 +543,14 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-BT82&#34; data-bib-key=&#34;BT82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;Raoul Bott and Loring W. Tu. &lt;em&gt;Differential Forms in Algebraic Topology&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 82. Springer-Verlag. New York. 1982.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Raoul Bott and Loring W. Tu. &lt;em&gt;Differential Forms in Algebraic Topology&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 82. Springer-Verlag. New York. 1982.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Bre97&#34; data-bib-key=&#34;Bre97&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;Glen E. Bredon. &lt;em&gt;Sheaf Theory&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 170. Springer-Verlag. New York. 1997.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Glen E. Bredon. &lt;em&gt;Sheaf Theory&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 170. Springer-Verlag. New York. 1997.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;

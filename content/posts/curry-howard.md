@@ -154,6 +154,161 @@ a = b & a =_A b
 $$
 
 
+## Contractible Types
+
+{{< definition >}}
+A type $A$ is *contractible* if it has a point $a : A$ together with an identification from $a$ to every element of $A$:
+
+$$
+\operatorname{is\text{-}contr}(A) := \sum_{(a : A)} \prod_{(x : A)} a =_A x.
+$$
+
+For $(a,H) : \operatorname{is\text{-}contr}(A)$, the point $a$ is the *center of contraction*, and $H(x) : a =_A x$ is its *contraction* at $x$. Thus, a contractible type is a singleton up to identification.
+{{< /definition >}}
+
+{{< definition >}}
+For a map $f : A \to B$ and an element $b : B$, the *fibre* of $f$ over $b$ is the type
+
+$$
+\operatorname{fib}_f(b) := \sum_{(x : A)} f(x) =_B b.
+$$
+
+An element of $\operatorname{fib}_f(b)$ is a point $x : A$ together with a path witnessing that $f(x)$ is $b$.
+{{< /definition >}}
+
+{{< definition >}}
+A map $f : A \to B$ is *contractible* if every fibre of $f$ is contractible. The type expressing this property is
+
+$$
+\operatorname{is\text{-}contr}(f) := \prod_{(b : B)} \operatorname{is\text{-}contr}(\operatorname{fib}_f(b)).
+$$
+
+Thus, over each $b : B$, there is a chosen point of $A$ mapping to $b$, and every other point mapping to $b$ is identified with it.
+{{< /definition >}}
+
+{{< theorem note="10.1.4" >}}
+For every $a : A$, the type
+
+$$
+\sum_{(x : A)} a =_A x
+$$
+
+is contractible.
+{{< /theorem >}}
+
+{{< proof align="trail">}}
+Take $(a,\operatorname{refl}_a)$ as the center of contraction. The contraction is the dependent function
+
+$$
+H : \prod_{(x : A)} \prod_{(p : a =_A x)} (a,\operatorname{refl}_a) = (x,p).
+$$
+
+Define $H$ by path induction on $p$. It suffices to give its value at $x \equiv a$ and $p \equiv \operatorname{refl}_a$, where we set $H(a,\operatorname{refl}_a) := \operatorname{refl}_{(a,\operatorname{refl}_a)}.$
+{{< /proof >}}
+
+## Fundamental Theorem of Identity Types
+
+{{< definition >}}
+Let $B$ be a family of types over $A$. For $p : a =_A x$, *transport along $p$* is the map
+
+$$
+\operatorname{tr}_B(p) : B(a) \to B(x),
+$$
+
+defined by path induction with $\operatorname{tr}_B(\operatorname{refl}_a)(u) := u$. It carries an element of the fibre over $a$ to the corresponding element of the fibre over $x$.
+{{< /definition >}}
+
+{{< definition >}}
+A map $e : X \to Y$ is an *equivalence* if the type
+
+$$
+\operatorname{is\text{-}equiv}(e) := \prod_{(y : Y)} \operatorname{is\text{-}contr}(\operatorname{fib}_e(y))
+$$
+
+is inhabited; that is, every fibre of $e$ is contractible. We write $X \simeq Y$ when there is an equivalence between $X$ and $Y$.
+
+Given families $B$ and $C$ over $A$, a *family of maps* from $B$ to $C$ is a dependent function
+
+$$
+f : \prod_{(x : A)} B(x) \to C(x).
+$$
+
+It is a *family of equivalences* if
+
+$$
+\prod_{(x : A)} \operatorname{is\text{-}equiv}(f(x))
+$$
+
+is inhabited. Thus each individual map $f(x) : B(x) \to C(x)$ is an equivalence.
+{{< /definition >}}
+
+Let $a : A$, let $B$ be a family of types over $A$, and choose $b : B(a)$. We regard $B(x)$ as a proposed description of the identity type $a =_A x$, with $b$ playing the role of reflexivity at $a$. Path induction gives a canonical family of maps
+
+$$
+\operatorname{encode}_{B,b} : \prod_{(x : A)} (a =_A x) \to B(x),
+\qquad
+\operatorname{encode}_{B,b}(x,p) := \operatorname{tr}_B(p)(b).
+$$
+
+For a point $x : A$, the map $\operatorname{encode}_{B,b}(x,-)$ takes an identification $p : a =_A x$ and transports the chosen element $b$ from the fibre $B(a)$ to the fibre $B(x)$. Thus it converts a path from $a$ to $x$ into a proposed representation of that path at $x$. When $x$ is $a$ and $p$ is reflexivity, no transport occurs, so $\operatorname{encode}_{B,b}(a,\operatorname{refl}_a) \equiv b$.
+
+{{< theorem note="11.2.2" >}}
+The family $\operatorname{encode}_{B,b}$ is a family of equivalences if and only if the total space
+
+$$
+\sum_{(x : A)} B(x)
+$$
+
+is contractible.
+{{< /theorem >}}
+
+In other words, to show that a proposed family $B(x)$ correctly describes the identifications $a =_A x$, it suffices to choose a reflexivity-like element $b : B(a)$ and prove that all pairs $(x,y)$ with $y : B(x)$ form one point up to identification. The theorem then guarantees that transporting $b$ along paths gives every element of $B(x)$, uniquely up to identification. It turns the problem of characterizing identity types into the often simpler problem of proving a total space contractible.
+
+## Propositions
+
+{{< definition >}}
+A type $P$ is a *proposition* if any two of its elements are identified. The type expressing this property is
+
+$$
+\operatorname{is\text{-}prop}(P) := \prod_{(p,q : P)} p =_P q.
+$$
+
+Thus, a proposition may have no proof, but if it has proofs, they are all equal up to identification. In the Curry--Howard interpretation, this means that only the truth of $P$ matters, not the choice of proof.
+{{< /definition >}}
+
+{{< definition >}}
+A type $A$ is a *set* if every identity type of $A$ is a proposition. Equivalently,
+
+$$
+\operatorname{is\text{-}set}(A) := \prod_{(x,y : A)} \operatorname{is\text{-}prop}(x =_A y).
+$$
+
+In expanded form, this says that for $x,y : A$ and $p,q : x =_A y$, there is an identification $p =_{(x =_A y)} q$. Hence a set may have many elements, but there is at most one way, up to identification, for two fixed elements to be equal.
+{{< /definition >}}
+
+
+## The Univalence Axiom
+
+A *universe* $\mathcal U$ is a type whose elements are themselves types. For $A,B : \mathcal U$, an identification $p : A =_{\mathcal U} B$ determines an equivalence
+
+$$
+\operatorname{idtoequiv}_{A,B}(p) : A \simeq B,
+$$
+
+defined by identity elimination with $\operatorname{idtoequiv}_{A,A}(\operatorname{refl}_A) := \operatorname{id}_A$.
+
+The *univalence axiom* asserts that the canonical map
+
+$$
+\operatorname{idtoequiv}_{A,B} : (A =_{\mathcal U} B) \to (A \simeq B)
+$$
+
+is an equivalence for every $A,B : \mathcal U$.
+
+Thus, in a univalent universe, types are identified exactly when they are equivalent. Equality of types contains no more and no less information than an equivalence between them.
+
+
+
 
 ## References
 

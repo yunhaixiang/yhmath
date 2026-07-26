@@ -212,8 +212,7 @@
   font-style: normal;
 }
 
-.style-proof[data-proof-mark] .math-body > :last-child::after {
-  content: "";
+.style-proof[data-proof-mark] .proof-mark {
   display: inline-block;
   vertical-align: baseline;
   box-sizing: border-box;
@@ -223,12 +222,11 @@
   border: 0.04em solid currentColor;
 }
 
-.style-proof[data-proof-mark="solid"] .math-body > :last-child::after {
+.style-proof[data-proof-mark="solid"] .proof-mark {
   background: currentColor;
 }
 
-.style-proof[data-proof-mark="smallcaps"] .math-body > :last-child::after {
-  content: "q.e.d.";
+.style-proof[data-proof-mark="smallcaps"] .proof-mark {
   width: auto;
   height: auto;
   border: 0;
@@ -239,7 +237,7 @@
   letter-spacing: 0.08em;
 }
 
-.style-proof[data-proof-align="right"] .math-body > :last-child::after {
+.style-proof[data-proof-align="right"] .proof-mark {
   float: right;
 }
 
@@ -358,19 +356,29 @@ body { counter-reset: fig; }
 }
 
 .bib-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.75rem;
+  row-gap: 0.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .bib-list li {
-  margin-bottom: 0.25rem;
+  display: contents;
 }
 
 /* [Knu86] label */
 .bib-label {
+  grid-column: 1;
+  white-space: nowrap;
   font-weight: 500;
-  margin-right: 0.35em;
+}
+
+.bib-entry {
+  grid-column: 2;
+  min-width: 0;
 }
 
 /* inline [Knu86] in text */

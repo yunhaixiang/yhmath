@@ -191,5 +191,5 @@
 
 <li id="bib-{{ $key }}" data-bib-key="{{ $key }}">
   <span class="bib-label">[{{ $key }}]</span>
-  {{- delimit $parts " " | safeHTML -}}
+  <span class="bib-entry">{{ delimit $parts " " | safeHTML }}</span>
 </li>

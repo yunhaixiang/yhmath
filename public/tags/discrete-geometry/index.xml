@@ -70,22 +70,34 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-OpenAI26&#34; data-bib-key=&#34;OpenAI26&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[OpenAI26]&lt;/span&gt;OpenAI. &lt;em&gt;Planar Point Sets with Many Unit Distances&lt;/em&gt;. 2026. &lt;a href=&#34;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&#34;&gt;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[OpenAI26]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;OpenAI. &lt;em&gt;Planar Point Sets with Many Unit Distances&lt;/em&gt;. 2026. &lt;a href=&#34;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&#34;&gt;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-ABG&amp;#43;26&#34; data-bib-key=&#34;ABG&amp;#43;26&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[ABG&amp;#43;26]&lt;/span&gt;Noga Alon, Thomas F. Bloom, W. T. Gowers, Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang, and Melanie Matchett Wood. &lt;em&gt;Remarks on the Disproof of the Unit Distance Conjecture&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;arXiv:2605.20695&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;https://arxiv.org/abs/2605.20695&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[ABG&amp;#43;26]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Noga Alon, Thomas F. Bloom, W. T. Gowers, Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang, and Melanie Matchett Wood. &lt;em&gt;Remarks on the Disproof of the Unit Distance Conjecture&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;arXiv:2605.20695&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;https://arxiv.org/abs/2605.20695&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Saw26&#34; data-bib-key=&#34;Saw26&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Saw26]&lt;/span&gt;Will Sawin. &lt;em&gt;An Explicit Lower Bound for the Unit Distance Problem&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;arXiv:2605.20579&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;https://arxiv.org/abs/2605.20579&lt;/a&gt;.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Saw26]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Will Sawin. &lt;em&gt;An Explicit Lower Bound for the Unit Distance Problem&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;arXiv:2605.20579&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;https://arxiv.org/abs/2605.20579&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Erd46&#34; data-bib-key=&#34;Erd46&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Erd46]&lt;/span&gt;Paul Erdős. &lt;em&gt;On Sets of Distances of $n$ Points&lt;/em&gt;. American Mathematical Monthly. 53(5). pp. 248--250. 1946.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Erd46]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Paul Erdős. &lt;em&gt;On Sets of Distances of $n$ Points&lt;/em&gt;. American Mathematical Monthly. 53(5). pp. 248--250. 1946.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-SST84&#34; data-bib-key=&#34;SST84&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SST84]&lt;/span&gt;Joel Spencer, Endre Szemerédi, and William T. Trotter. Béla Bollobás (ed.). &lt;em&gt;Unit Distances in the Euclidean Plane&lt;/em&gt;. In &lt;em&gt;Graph Theory and Combinatorics&lt;/em&gt;. pp. 293--303. Academic Press. 1984.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[SST84]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Joel Spencer, Endre Szemerédi, and William T. Trotter. Béla Bollobás (ed.). &lt;em&gt;Unit Distances in the Euclidean Plane&lt;/em&gt;. In &lt;em&gt;Graph Theory and Combinatorics&lt;/em&gt;. pp. 293--303. Academic Press. 1984.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-BMP05&#34; data-bib-key=&#34;BMP05&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[BMP05]&lt;/span&gt;Peter Brass, William Moser, and János Pach. &lt;em&gt;Research Problems in Discrete Geometry&lt;/em&gt;. Springer. 2005.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[BMP05]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Peter Brass, William Moser, and János Pach. &lt;em&gt;Research Problems in Discrete Geometry&lt;/em&gt;. Springer. 2005.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;

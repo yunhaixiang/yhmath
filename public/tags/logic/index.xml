@@ -168,11 +168,221 @@ P \Rightarrow Q &amp; P \to Q \\
 \forall x : A.\, P(x) &amp; \prod_{(x : A)} P(x) \\
 a = b &amp; a =_A b
 \end{array}
-$$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+$$&lt;h2 id=&#34;contractible-types&#34;&gt;Contractible Types&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A type $A$ is &lt;em&gt;contractible&lt;/em&gt; if it has a point $a : A$ together with an identification from $a$ to every element of $A$:&lt;/p&gt;
+$$
+\operatorname{is\text{-}contr}(A) := \sum_{(a : A)} \prod_{(x : A)} a =_A x.
+$$&lt;p&gt;For $(a,H) : \operatorname{is\text{-}contr}(A)$, the point $a$ is the &lt;em&gt;center of contraction&lt;/em&gt;, and $H(x) : a =_A x$ is its &lt;em&gt;contraction&lt;/em&gt; at $x$. Thus, a contractible type is a singleton up to identification.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For a map $f : A \to B$ and an element $b : B$, the &lt;em&gt;fibre&lt;/em&gt; of $f$ over $b$ is the type&lt;/p&gt;
+$$
+\operatorname{fib}_f(b) := \sum_{(x : A)} f(x) =_B b.
+$$&lt;p&gt;An element of $\operatorname{fib}_f(b)$ is a point $x : A$ together with a path witnessing that $f(x)$ is $b$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A map $f : A \to B$ is &lt;em&gt;contractible&lt;/em&gt; if every fibre of $f$ is contractible. The type expressing this property is&lt;/p&gt;
+$$
+\operatorname{is\text{-}contr}(f) := \prod_{(b : B)} \operatorname{is\text{-}contr}(\operatorname{fib}_f(b)).
+$$&lt;p&gt;Thus, over each $b : B$, there is a chosen point of $A$ mapping to $b$, and every other point mapping to $b$ is identified with it.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(10.1.4)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For every $a : A$, the type&lt;/p&gt;
+$$
+\sum_{(x : A)} a =_A x
+$$&lt;p&gt;is contractible.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Take $(a,\operatorname{refl}_a)$ as the center of contraction. The contraction is the dependent function&lt;/p&gt;
+$$
+H : \prod_{(x : A)} \prod_{(p : a =_A x)} (a,\operatorname{refl}_a) = (x,p).
+$$&lt;p&gt;Define $H$ by path induction on $p$. It suffices to give its value at $x \equiv a$ and $p \equiv \operatorname{refl}_a$, where we set $H(a,\operatorname{refl}_a) := \operatorname{refl}_{(a,\operatorname{refl}_a)}.$&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;fundamental-theorem-of-identity-types&#34;&gt;Fundamental Theorem of Identity Types&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $B$ be a family of types over $A$. For $p : a =_A x$, &lt;em&gt;transport along $p$&lt;/em&gt; is the map&lt;/p&gt;
+$$
+\operatorname{tr}_B(p) : B(a) \to B(x),
+$$&lt;p&gt;defined by path induction with $\operatorname{tr}_B(\operatorname{refl}_a)(u) := u$. It carries an element of the fibre over $a$ to the corresponding element of the fibre over $x$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A map $e : X \to Y$ is an &lt;em&gt;equivalence&lt;/em&gt; if the type&lt;/p&gt;
+$$
+\operatorname{is\text{-}equiv}(e) := \prod_{(y : Y)} \operatorname{is\text{-}contr}(\operatorname{fib}_e(y))
+$$&lt;p&gt;is inhabited; that is, every fibre of $e$ is contractible. We write $X \simeq Y$ when there is an equivalence between $X$ and $Y$.&lt;/p&gt;
+&lt;p&gt;Given families $B$ and $C$ over $A$, a &lt;em&gt;family of maps&lt;/em&gt; from $B$ to $C$ is a dependent function&lt;/p&gt;
+$$
+f : \prod_{(x : A)} B(x) \to C(x).
+$$&lt;p&gt;It is a &lt;em&gt;family of equivalences&lt;/em&gt; if&lt;/p&gt;
+$$
+\prod_{(x : A)} \operatorname{is\text{-}equiv}(f(x))
+$$&lt;p&gt;is inhabited. Thus each individual map $f(x) : B(x) \to C(x)$ is an equivalence.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let $a : A$, let $B$ be a family of types over $A$, and choose $b : B(a)$. We regard $B(x)$ as a proposed description of the identity type $a =_A x$, with $b$ playing the role of reflexivity at $a$. Path induction gives a canonical family of maps&lt;/p&gt;
+$$
+\operatorname{encode}_{B,b} : \prod_{(x : A)} (a =_A x) \to B(x),
+\qquad
+\operatorname{encode}_{B,b}(x,p) := \operatorname{tr}_B(p)(b).
+$$&lt;p&gt;For a point $x : A$, the map $\operatorname{encode}_{B,b}(x,-)$ takes an identification $p : a =_A x$ and transports the chosen element $b$ from the fibre $B(a)$ to the fibre $B(x)$. Thus it converts a path from $a$ to $x$ into a proposed representation of that path at $x$. When $x$ is $a$ and $p$ is reflexivity, no transport occurs, so $\operatorname{encode}_{B,b}(a,\operatorname{refl}_a) \equiv b$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(11.2.2)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;The family $\operatorname{encode}_{B,b}$ is a family of equivalences if and only if the total space&lt;/p&gt;
+$$
+\sum_{(x : A)} B(x)
+$$&lt;p&gt;is contractible.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In other words, to show that a proposed family $B(x)$ correctly describes the identifications $a =_A x$, it suffices to choose a reflexivity-like element $b : B(a)$ and prove that all pairs $(x,y)$ with $y : B(x)$ form one point up to identification. The theorem then guarantees that transporting $b$ along paths gives every element of $B(x)$, uniquely up to identification. It turns the problem of characterizing identity types into the often simpler problem of proving a total space contractible.&lt;/p&gt;
+&lt;h2 id=&#34;propositions&#34;&gt;Propositions&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A type $P$ is a &lt;em&gt;proposition&lt;/em&gt; if any two of its elements are identified. The type expressing this property is&lt;/p&gt;
+$$
+\operatorname{is\text{-}prop}(P) := \prod_{(p,q : P)} p =_P q.
+$$&lt;p&gt;Thus, a proposition may have no proof, but if it has proofs, they are all equal up to identification. In the Curry--Howard interpretation, this means that only the truth of $P$ matters, not the choice of proof.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A type $A$ is a &lt;em&gt;set&lt;/em&gt; if every identity type of $A$ is a proposition. Equivalently,&lt;/p&gt;
+$$
+\operatorname{is\text{-}set}(A) := \prod_{(x,y : A)} \operatorname{is\text{-}prop}(x =_A y).
+$$&lt;p&gt;In expanded form, this says that for $x,y : A$ and $p,q : x =_A y$, there is an identification $p =_{(x =_A y)} q$. Hence a set may have many elements, but there is at most one way, up to identification, for two fixed elements to be equal.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;the-univalence-axiom&#34;&gt;The Univalence Axiom&lt;/h2&gt;
+&lt;p&gt;A &lt;em&gt;universe&lt;/em&gt; $\mathcal U$ is a type whose elements are themselves types. For $A,B : \mathcal U$, an identification $p : A =_{\mathcal U} B$ determines an equivalence&lt;/p&gt;
+$$
+\operatorname{idtoequiv}_{A,B}(p) : A \simeq B,
+$$&lt;p&gt;defined by identity elimination with $\operatorname{idtoequiv}_{A,A}(\operatorname{refl}_A) := \operatorname{id}_A$.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;univalence axiom&lt;/em&gt; asserts that the canonical map&lt;/p&gt;
+$$
+\operatorname{idtoequiv}_{A,B} : (A =_{\mathcal U} B) \to (A \simeq B)
+$$&lt;p&gt;is an equivalence for every $A,B : \mathcal U$.&lt;/p&gt;
+&lt;p&gt;Thus, in a univalent universe, types are identified exactly when they are equivalent. Equality of types contains no more and no less information than an equivalence between them.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Rij25&#34; data-bib-key=&#34;Rij25&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rij25]&lt;/span&gt;Egbert Rijke. &lt;em&gt;Introduction to Homotopy Type Theory&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 219. Cambridge University Press. 2025.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Rij25]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Egbert Rijke. &lt;em&gt;Introduction to Homotopy Type Theory&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 219. Cambridge University Press. 2025.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;

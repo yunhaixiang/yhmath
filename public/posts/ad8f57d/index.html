@@ -134,7 +134,7 @@ Continuing my previous post on AI for math, I want to give a concrete example of
   
 
 
-  <link rel="stylesheet" href="/css/single.min.567ba8ba8823b9de35112bc75000e36c1334683e097f93ace10d80e0d7674cde.css" integrity="sha256-Vnuouogjud41ESvHUADjbBM0aD4Jf5Os4Q2A4NdnTN4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.2fbc076d14e83520f092eee7ba199529f94d988844b2f1d3cea7e233cabc66aa.css" integrity="sha256-L7wHbRToNSDwku7nuhmVKflNmIhEsvHTzqfiM8q8Zqo=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -390,7 +390,7 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    Using identity (3), taking determinants yields the result immediately, as $\det A=-1$.
+    Using identity (3), taking determinants yields the result immediately, as $\det A=-1$.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 </p>
@@ -419,7 +419,7 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    For $n,m\in\mathbb Z$, we have $\det(A^ne_1,A^me_1)=\det(A^m)\det(A^{n-m}e_1,e_1)$. The result follows.
+    For $n,m\in\mathbb Z$, we have $\det(A^ne_1,A^me_1)=\det(A^m)\det(A^{n-m}e_1,e_1)$. The result follows.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 
@@ -454,7 +454,7 @@ $$A^n\begin{pmatrix}f_i\\0\end{pmatrix}=\begin{pmatrix}f_{n+i}\\ f_n\end{pmatrix
 Therefore we have
 </p>
 $$\det\begin{pmatrix}f_{n+i}&f_{n+i+j}\\ f_n&f_{n+j}\end{pmatrix}=\det A^n\det\begin{pmatrix}f_i&f_{i+j}\\0&f_j\end{pmatrix} $$<p>
-and the result follows.</p>
+and the result follows.<span class="proof-mark" aria-hidden="true"></span></p>
 
   </div>
 </div>
@@ -484,7 +484,7 @@ and the result follows.</p>
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    For $n,m\in\mathbb Z$, we have $A^{m+n}=A^mA^n$. Use (3) then compare the $(2,1)$-entry, and the result follows.
+    For $n,m\in\mathbb Z$, we have $A^{m+n}=A^mA^n$. Use (3) then compare the $(2,1)$-entry, and the result follows.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 
@@ -530,7 +530,7 @@ and the result follows.</p>
     <p>By the $2$-by-$2$ inverse matrix formula on (3), we find
 </p>
 $$A^{-n}=\frac{1}{f_{n-1}f_{n+1}-f_n^2}\begin{pmatrix}f_{n-1}&-f_n\\ -f_n&f_{n+1}\end{pmatrix}=\begin{pmatrix}(-1)^nf_{n-1}&(-1)^{n+1}f_n\\ (-1)^{n+1}f_n&(-1)^nf_{n+1}\end{pmatrix}$$<p>
-by <a href="#thm-cas">Cassini's identity</a>. Comparing $(2,1)$-entry with (3) then we are done.</p>
+by <a href="#thm-cas">Cassini's identity</a>. Comparing $(2,1)$-entry with (3) then we are done.<span class="proof-mark" aria-hidden="true"></span></p>
 
   </div>
 </div>
@@ -564,7 +564,7 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$.
+    Note that $A^n$ is diagonal mod $f_n$ for all $n\ne 0$. Thus $A^{kn}=(A^n)^k$ is diagonal mod $f_n$ for any $k$ and $n\ne 0$, and in particular the $(2,1)$-entry of $A^{kn}$ which is $f_{kn}$ is divisible by $f_n$.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 </p>
@@ -607,7 +607,7 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    It follows from <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-div">⟦ref:thm-div⟧</span> that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$.
+    It follows from <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-div">⟦ref:thm-div⟧</span> that $f_{\gcd(n,m)}\mid \gcd(f_n,f_m)$, thus it suffice to show that $ \gcd(f_n,f_m)\mid f_{\gcd(n,m)}$. By Bézout, there are integers $a,b\in\mathbb Z$ such that $\gcd(m,n)=am+bn$. Thus $A^{\gcd(m,n)}=A^{am+bn}=(A^m)^a(A^n)^b$. Since $A^m$ and $A^n$ are diagonal mod $\gcd(f_m,f_n)$ so is $A^{\gcd(m,n)}$, in particular the $(2,1)$-entry of $A^{\gcd(m,n)}$ which is $f_{\gcd(n,m)}$ is divisible by $\gcd(f_n,f_m)$.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 </p>
@@ -650,7 +650,7 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By <a href="#thm-cas">Cassini's identity</a>, $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By <a href="#thm-fib-add">Fibonacci addition formula</a>, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.
+    We claim that $\gcd(f_n,f_{n+1})=1$ for all $n$. By <a href="#thm-cas">Cassini's identity</a>, $f_{n-1}f_{n+1}-f_n^2=(-1)^n$, so modulo $f_n$, we have $f_{n-1}f_{n+1}\equiv (-1)^n\pmod{f_n}$, which means $f_{n+1}$ is invertible mod $f_n$, so it must be coprime to $f_n$. By <a href="#thm-fib-add">Fibonacci addition formula</a>, we have $f_{m+n}=f_mf_{n+1}+f_{m-1}f_n$, which modulo $f_n$, implies $f_{m+n}\equiv f_mf_{n+1}\pmod{f_n}$, hence $\gcd(f_{m+n},f_n)=\gcd(f_mf_{n+1},f_n)$. Since $\gcd(f_n,f_{n+1})=1$, we have $\gcd(f_{m+n},f_n)=\gcd(f_m,f_n)$, and we are done.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 </p>

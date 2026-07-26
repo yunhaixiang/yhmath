@@ -525,7 +525,7 @@ $$
 \operatorname{Aut}^{\otimes}(\omega_G)
 \cong\varprojlim_X\operatorname{Aut}^{\otimes}
 (\omega_G|_{\mathcal C_X}).
-$$&lt;p&gt;Passing to the inverse limit of the preceding isomorphisms gives the result.&lt;/p&gt;
+$$&lt;p&gt;Passing to the inverse limit of the preceding isomorphisms gives the result.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -681,7 +681,7 @@ $$
 a=a\circ\operatorname{id}_{\omega(X)}\in\omega(Q).
 $$&lt;p&gt;Thus $\omega(P)\subseteq\omega(Q)$, and exactness and faithfulness imply
 $P\subseteq Q$. This holds for every $Q$ as in (2), so $P\subseteq P&#39;$.
-Together with $P&#39;\subseteq P$, this proves $P=P&#39;$.&lt;/p&gt;
+Together with $P&#39;\subseteq P$, this proves $P=P&#39;$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -757,7 +757,7 @@ $$&lt;p&gt;is a morphism in $\langle X\rangle$. Applying $\omega$ identifies it 
 $$
 \operatorname{id}_{A_X}\otimes_{A_X}u=u,
 $$&lt;p&gt;so every $A_X$-linear map lifts; hence $\overline\omega_X$ is full. It is
-faithful because $\omega$ is. Therefore it is an equivalence.&lt;/p&gt;
+faithful because $\omega$ is. Therefore it is an equivalence.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -821,7 +821,8 @@ preceding construction then recovers $\eta$ from $a$, because every object of
 $\langle X\rangle$ is a subquotient of some $X^{\oplus n}$. This proves&lt;/p&gt;
 $$
 A_X=\operatorname{End}\bigl(\omega|_{\langle X\rangle}\bigr).
-$$
+$$&lt;p&gt;&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -935,7 +936,7 @@ $$&lt;p&gt;Thus $M$ is an affine group scheme; write it as $G$. Finally,
 finite-dimensional $B$-comodules are precisely finite-dimensional
 representations of $G$. Under the equivalence above, the coaction on
 $\omega(X)$ gives the representation $\rho_X$, so the equivalence is exactly
-$\widetilde\omega$ from the statement.&lt;/p&gt;
+$\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -944,16 +945,24 @@ $\widetilde\omega$ from the statement.&lt;/p&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-DM82&#34; data-bib-key=&#34;DM82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;Pierre Deligne and James S. Milne. &lt;em&gt;Tannakian Categories&lt;/em&gt;. In &lt;em&gt;Hodge Cycles, Motives, and Shimura Varieties&lt;/em&gt;. Springer-Verlag. 1982.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne and James S. Milne. &lt;em&gt;Tannakian Categories&lt;/em&gt;. In &lt;em&gt;Hodge Cycles, Motives, and Shimura Varieties&lt;/em&gt;. Springer-Verlag. 1982.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Mil17&#34; data-bib-key=&#34;Mil17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;James S. Milne. &lt;em&gt;Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field&lt;/em&gt;. Cambridge University Press. 2017.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field&lt;/em&gt;. Cambridge University Press. 2017.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Saa72&#34; data-bib-key=&#34;Saa72&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;N. Saavedra Rivano. &lt;em&gt;Catégories Tannakiennes&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;N. Saavedra Rivano. &lt;em&gt;Catégories Tannakiennes&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Lan98&#34; data-bib-key=&#34;Lan98&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;N. P. Landsman. &lt;em&gt;Tannaka-Krein Duality for Compact Groups&lt;/em&gt;. 1998.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;N. P. Landsman. &lt;em&gt;Tannaka-Krein Duality for Compact Groups&lt;/em&gt;. 1998.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;</description>
@@ -999,7 +1008,7 @@ $$X=\mathrm{colim}\ \varphi_X.$$
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
     &lt;p&gt;Let $Y$ be a presheaf on $A$. By the Yoneda lemma, $\mathrm{Hom}_{\widehat{A}}(\mathscr{H}_a,Y)\cong Y_a$, so a cocone from $\varphi_X$ to $Y$ can be viewed as a collection of sections $f_s\in Y_a$ for $(a,s)\in \int_A X$ such that $u^*(f_t)=f_s$ for all $u:(a,s)\rightarrow (b,t)$. This means the collection of maps $X_a\rightarrow Y_a$ given by $s\mapsto f_s$ is a morphism of presheaves. Hence the map&lt;/p&gt;
-$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;/p&gt;
+$$\Phi:\mathrm{Hom}(X,Y)\rightarrow (\varphi_X\downarrow Y)$$&lt;p&gt;given by composition with $s:\mathscr{H}_a\rightarrow X$ for $(a,s)\in \int_A X$ has a two-sided inverse. Therefore $X=\mathrm{colim}\varphi_X$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1211,7 +1220,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    For the first property, $M\xleftarrow{\mathbf{1}_M}M\xrightarrow{s}N$ has an inverse $N\xleftarrow{s}M\xrightarrow{\mathbf{1}_M}M$. Next, suppose $F:\mathcal A\rightarrow \mathcal B$ is such that $F(s)$ is an isomorphism for all $s\in S$, define functor $G:\mathcal A_S\rightarrow \mathcal B$ as identity on objects, and for morphisms, the following. If $\phi:M\rightarrow N$ in $\mathcal A_S$, choose a representing roof $M\xleftarrow{s}L\xrightarrow{f}N$, and define $G(\phi)=F(f)\circ F(s)^{-1}$. It&#39;s not immediately obvious that this is well defined on equivalence classes, but we omit the verification. This obviously satisfies $F=G\circ Q$. It is left to the reader to verify that $G$ respects composition, which is the last piece of verification necessary.
+    For the first property, $M\xleftarrow{\mathbf{1}_M}M\xrightarrow{s}N$ has an inverse $N\xleftarrow{s}M\xrightarrow{\mathbf{1}_M}M$. Next, suppose $F:\mathcal A\rightarrow \mathcal B$ is such that $F(s)$ is an isomorphism for all $s\in S$, define functor $G:\mathcal A_S\rightarrow \mathcal B$ as identity on objects, and for morphisms, the following. If $\phi:M\rightarrow N$ in $\mathcal A_S$, choose a representing roof $M\xleftarrow{s}L\xrightarrow{f}N$, and define $G(\phi)=F(f)\circ F(s)^{-1}$. It&#39;s not immediately obvious that this is well defined on equivalence classes, but we omit the verification. This obviously satisfies $F=G\circ Q$. It is left to the reader to verify that $G$ respects composition, which is the last piece of verification necessary.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1282,7 +1291,7 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    I will prove this later.
+    I will prove this later.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;</description>
@@ -1448,8 +1457,7 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
 &lt;/figure&gt;
 which we can complete to a morphism of triangles with some $h:U[-i+1]\rightarrow X[1]$. By the commutativity of the rightmost square, $-f[-i+1]=-(u[i])h$ so $f=(u[i])(h[-i+1])$, so $f\in \mathrm{Im}(u[i]_*)$. By the rotation axiom, since we proved a short exact sequence, we have the exactness of the long exact sequence.
 4. By the rotation axiom, it suffice to show the case where the first two are isomorphisms. By using (3), we have a long exact sequence, and we can obtain the isomorphism using the usual 5-lemma, details ommited.
-5. A striaghtforward corollary.
-
+5. A striaghtforward corollary.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1607,7 +1615,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;li&gt;Left as an exercise.&lt;/li&gt;
 &lt;li&gt;Left as an exercise.&lt;/li&gt;
 &lt;li&gt;We will only prove the factorization $X\twoheadrightarrow \mathrm{Coim}(f)\hookrightarrow Y$, and the other one can be proved dually. First, we have $\mathrm{Ker}(f)\hookrightarrow X\rightarrow Y$ is zero and $\mathrm{Ker}(f)\hookrightarrow X\twoheadrightarrow \mathrm{Coim}(f)$ is zero, so we have a factorization $X\twoheadrightarrow \mathrm{Coim}(f)\rightarrow Y$ by the universal property of cokernels. It remains to show that $\beta:\mathrm{Coim}(f)\rightarrow Y$ is a monomorphism. Suppose $\varphi_1,\varphi_2:Z\rightarrow \mathrm{Coim}(f)$ with $\beta\circ \varphi_1=\beta\circ \varphi_2$, therefore $\beta\circ \sigma=0$ where $\sigma=\varphi_1-\varphi_2$. Consider the pullback $W=X\times_{\mathrm{Coim}(f)}Z$ with $\tau:W\rightarrow Z$ and $\pi:W\rightarrow X$ of the maps $\mathrm{Coim}(f)$ and $\sigma$. We note that $f\circ\pi=\beta\circ\mathrm{Coim}(f)\circ \pi=\beta\circ\sigma\circ\tau=0$, so $\pi$ factors through $\mathrm{Ker}(f)$ by $W\rightarrow \mathrm{Ker}(f)\hookrightarrow X$ say $w:W\rightarrow \mathrm{Ker}(f)$. Therefore, $\sigma\circ\tau=\mathrm{Coim}(f)\circ \mathrm{Ker}(f)\circ w=0\circ w=0$. Since pullbacks preserve epimorphisms, $\tau$ is epic. Thus $\sigma\circ\tau=0$ implies $\sigma=0$, so $\varphi_1=\varphi_2$.&lt;/li&gt;
-&lt;li&gt;Left as an exercise.&lt;/li&gt;
+&lt;li&gt;Left as an exercise.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
   &lt;/div&gt;
@@ -1640,7 +1648,7 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Suppose $f:A\rightarrow B$ is a morphism in an abelian category, and factorize as $A\twoheadrightarrow\mathrm{Coim}(f)\hookrightarrow B$. By Lemma 3, $\mathrm{Coker}(f)=\mathrm{Coker}(\mathrm{Coim}(f)\hookrightarrow B)$. Since $\mathrm{Coim}(f)\hookrightarrow B$ is monic, it is the kernel of its cokernel, so it is the kernel of $\mathrm{Coker}(f)$. Since $\mathrm{Im}(f)\hookrightarrow B$ in our construction is also the kernel of $\mathrm{Coker}(f)$, the induced map $\overline{f}$ is an isomorphism by the universal property of kernels.
+    Suppose $f:A\rightarrow B$ is a morphism in an abelian category, and factorize as $A\twoheadrightarrow\mathrm{Coim}(f)\hookrightarrow B$. By Lemma 3, $\mathrm{Coker}(f)=\mathrm{Coker}(\mathrm{Coim}(f)\hookrightarrow B)$. Since $\mathrm{Coim}(f)\hookrightarrow B$ is monic, it is the kernel of its cokernel, so it is the kernel of $\mathrm{Coker}(f)$. Since $\mathrm{Im}(f)\hookrightarrow B$ in our construction is also the kernel of $\mathrm{Coker}(f)$, the induced map $\overline{f}$ is an isomorphism by the universal property of kernels.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;

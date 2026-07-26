@@ -74,13 +74,19 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
   &lt;li id=&#34;bib-Ben68&#34; data-bib-key=&#34;Ben68&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ben68]&lt;/span&gt;Walter Benjamin. Hannah Arendt (ed.). Translated by Harry Zohn. &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt;. In &lt;em&gt;Illuminations&lt;/em&gt;. Schocken Books. 1968.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ben68]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Walter Benjamin. Hannah Arendt (ed.). Translated by Harry Zohn. &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt;. In &lt;em&gt;Illuminations&lt;/em&gt;. Schocken Books. 1968.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Ben02&#34; data-bib-key=&#34;Ben02&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ben02]&lt;/span&gt;Walter Benjamin. Howard Eiland and Michael W. Jennings (ed.). Translated by Edmund Jephcott, Howard Eiland, and others. &lt;em&gt;The Work of Art in the Age of Its Technological Reproducibility: Second Version&lt;/em&gt;. In &lt;em&gt;Walter Benjamin: Selected Writings, Volume 3: 1935-1938&lt;/em&gt;. Harvard University Press. 2002.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Ben02]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Walter Benjamin. Howard Eiland and Michael W. Jennings (ed.). Translated by Edmund Jephcott, Howard Eiland, and others. &lt;em&gt;The Work of Art in the Age of Its Technological Reproducibility: Second Version&lt;/em&gt;. In &lt;em&gt;Walter Benjamin: Selected Writings, Volume 3: 1935-1938&lt;/em&gt;. Harvard University Press. 2002.&lt;/span&gt;
+&lt;/li&gt;
 
   &lt;li id=&#34;bib-Bar77&#34; data-bib-key=&#34;Bar77&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Bar77]&lt;/span&gt;Roland Barthes. Translated by Stephen Heath. &lt;em&gt;The Death of the Author&lt;/em&gt;. In &lt;em&gt;Image, Music, Text&lt;/em&gt;. Hill and Wang. 1977.&lt;/li&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Bar77]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Roland Barthes. Translated by Stephen Heath. &lt;em&gt;The Death of the Author&lt;/em&gt;. In &lt;em&gt;Image, Music, Text&lt;/em&gt;. Hill and Wang. 1977.&lt;/span&gt;
+&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
