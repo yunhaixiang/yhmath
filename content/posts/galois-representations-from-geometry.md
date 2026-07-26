@@ -1,6 +1,6 @@
 ---
 title: Galois Representations Arising from Geometry
-date: 2026-07-09 00:00:01 -0400
+date: 2026-09-09 00:00:01 -0400
 slug: 9f2a7d0
 aliases:
   - /posts/galois-representations-from-geometry/
@@ -9,15 +9,10 @@ tags: [math, number-theory, algebraic-geometry]
 draft: true
 ---
 
-## Motivation
+{{< pullquote author="Henri Poincaré" >}}
+Mathematics is the art of giving the same name to different things.
+{{< /pullquote >}}
 
-## Etale Cohomology
-
-## Galois Actions
-
-## Examples
-
-## Compatible Systems
 
 ## References
 

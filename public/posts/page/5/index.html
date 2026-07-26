@@ -39,8 +39,39 @@
           ],
           throwOnError : false
         });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
     });
 </script>
+
   
 
   
@@ -63,8 +94,8 @@
   
   
   <meta itemprop="name" content="Posts">
-  <meta itemprop="datePublished" content="2026-07-09T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-07-09T00:28:07-04:00">
+  <meta itemprop="datePublished" content="2026-07-25T17:40:43-04:00">
+  <meta itemprop="dateModified" content="2026-07-25T00:00:01-04:00">
 
   
   
@@ -74,7 +105,7 @@
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.1964be08770f64b8a4a7130e022029a2dcf5d60a42cb8aedac47aa66f9a464e9.css" integrity="sha256-GWS&#43;CHcPZLikpxMOAiApotz11gpCy4rtrEeqZvmkZOk=" crossorigin="anonymous">
   
 
   
@@ -213,10 +244,6 @@
         
           <a class="link tag" href='/tags/combinatorics/'>#combinatorics</a>
         
-          <a class="link tag" href='/tags/cpp/'>#cpp</a>
-        
-          <a class="link tag" href='/tags/cryptography/'>#cryptography</a>
-        
           <a class="link tag" href='/tags/discrete-geometry/'>#discrete-geometry</a>
         
           <a class="link tag" href='/tags/epistemology/'>#epistemology</a>
@@ -231,8 +258,6 @@
         
           <a class="link tag" href='/tags/go/'>#go</a>
         
-          <a class="link tag" href='/tags/graphics/'>#graphics</a>
-        
           <a class="link tag" href='/tags/homotopy-theory/'>#homotopy-theory</a>
         
           <a class="link tag" href='/tags/japanese/'>#japanese</a>
@@ -240,6 +265,8 @@
           <a class="link tag" href='/tags/language-learning/'>#language-learning</a>
         
           <a class="link tag" href='/tags/linguistics/'>#linguistics</a>
+        
+          <a class="link tag" href='/tags/literature/'>#literature</a>
         
           <a class="link tag" href='/tags/logic/'>#logic</a>
         
@@ -273,6 +300,18 @@
   <!-- paginator.TotalPages = 5 -->
 
   
+  
+  <div class="post-group">
+    <h3>November 2019</h3>
+    <ul>
+      
+      <li>
+        <a class="link" href="/posts/4492ad2/">Mermaid Diagrams</a>
+        <time>November 10, 2019</time>
+      </li>
+      
+    </ul>
+  </div>
   
   <div class="post-group">
     <h3>March 2019</h3>

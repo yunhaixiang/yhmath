@@ -1,10 +1,23 @@
 {{/* layouts/shortcodes/proof.html */}}
 {{- $lang := .Get "lang" | default .Page.Language.Lang -}}
+{{- $mark := (.Get "mark") | default (.Get "qed") | default "empty" -}}
+{{- if eq $mark "qed" -}}
+  {{- $mark = "smallcaps" -}}
+{{- end -}}
+{{- if not (in (slice "empty" "solid" "smallcaps") $mark) -}}
+  {{- $mark = "empty" -}}
+{{- end -}}
+{{- $align := .Get "align" | default "trail" -}}
+{{- if not (in (slice "trail" "right") $align) -}}
+  {{- $align = "trail" -}}
+{{- end -}}
 
 <div class="math-env style-proof"
      data-kind="proof"
      data-lang="{{ $lang }}"
-     data-numbered="false">
+     data-numbered="false"
+     data-proof-mark="{{ $mark }}"
+     data-proof-align="{{ $align }}">
   <span class="math-heading">
     <span class="math-title"
           data-label='{{ if eq $lang "zh" }}证明{{ else }}Proof{{ end }}'></span>{{ with .Get "note" }} <span class="math-note">({{ . }})</span>{{ end }}

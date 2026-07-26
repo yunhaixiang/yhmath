@@ -12,5 +12,35 @@
           ],
           throwOnError : false
         });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
     });
 </script>

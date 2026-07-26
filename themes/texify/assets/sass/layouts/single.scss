@@ -212,6 +212,37 @@
   font-style: normal;
 }
 
+.style-proof[data-proof-mark] .math-body > :last-child::after {
+  content: "";
+  display: inline-block;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  width: 0.675em;
+  height: 0.675em;
+  margin-left: 0.5rem;
+  border: 0.04em solid currentColor;
+}
+
+.style-proof[data-proof-mark="solid"] .math-body > :last-child::after {
+  background: currentColor;
+}
+
+.style-proof[data-proof-mark="smallcaps"] .math-body > :last-child::after {
+  content: "q.e.d.";
+  width: auto;
+  height: auto;
+  border: 0;
+  background: none;
+  font-size: 0.75em;
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.08em;
+}
+
+.style-proof[data-proof-align="right"] .math-body > :last-child::after {
+  float: right;
+}
+
 /* Trim bottom margin for lists inside math environments. */
 .math-env ol,
 .math-env ul {

@@ -49,8 +49,39 @@ References
           ],
           throwOnError : false
         });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
     });
 </script>
+
   
 
   
@@ -64,7 +95,7 @@ References
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-07-16T00:00:01-04:00">
+    <meta property="article:published_time" content="2026-09-16T00:00:01-04:00">
     <meta property="article:modified_time" content="2026-07-09T21:38:52-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
@@ -79,7 +110,7 @@ References
   
   <meta itemprop="name" content="Middle Extension and Middle Convolution">
   <meta itemprop="description" content="Motivation Middle Extension Perverse Sheaves on Curves Convolution Middle Convolution Examples References">
-  <meta itemprop="datePublished" content="2026-07-16T00:00:01-04:00">
+  <meta itemprop="datePublished" content="2026-09-16T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-07-09T21:38:52-04:00">
   <meta itemprop="wordCount" content="12">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
@@ -92,7 +123,7 @@ References
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.1964be08770f64b8a4a7130e022029a2dcf5d60a42cb8aedac47aa66f9a464e9.css" integrity="sha256-GWS&#43;CHcPZLikpxMOAiApotz11gpCy4rtrEeqZvmkZOk=" crossorigin="anonymous">
   
 
   
@@ -110,7 +141,7 @@ References
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.567ba8ba8823b9de35112bc75000e36c1334683e097f93ace10d80e0d7674cde.css" integrity="sha256-Vnuouogjud41ESvHUADjbBM0aD4Jf5Os4Q2A4NdnTN4=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -193,7 +224,7 @@ References
       <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      July 16, 2026
+      September 16, 2026
       
       
         &nbsp;
@@ -314,7 +345,7 @@ References
     <a class="link" href="http://localhost:1313/posts/9f2a7d0/" title="Galois Representations Arising from Geometry"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/fa7e807/" title="Curry–Howard Isomorphism">Next <span class="arrow-icon">🢡</span></a>
+    <a></a>
     
   </div>
   

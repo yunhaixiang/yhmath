@@ -51,6 +51,7 @@ categories: [archives]
 - [*Fight Club* (1999)](https://www.imdb.com/title/tt0137523/)
 - [*Blue Giant* (2023)](https://www.imdb.com/title/tt15737898/)
 - [*Ghost in the Shell* (1995)](https://www.imdb.com/title/tt0113568/)
+- [*Ray* (2004)](https://www.imdb.com/title/tt0350258/)
 
 ## Films I Recommend (Non-Fiction)
 - [*Dealt* (2017)](https://www.imdb.com/title/tt3127902/)

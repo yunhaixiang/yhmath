@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="
+  
+    My lawful wife is mathematics; my mistress is mechanics.
+  — Mark Krein
+Tannakian duality is a way to recover a group scheme from its category of representations. More generally, it says that a suitable tensor category equipped with a fiber functor behaves like the representation category of an affine group scheme. This post is an exposition for these ideas.">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
+    });
+</script>
+
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/f2c37cb/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="Tannakian Category and Tannaka–Krein  Duality">
+  <meta property="og:description" content="My lawful wife is mathematics; my mistress is mechanics. — Mark Krein Tannakian duality is a way to recover a group scheme from its category of representations. More generally, it says that a suitable tensor category equipped with a fiber functor behaves like the representation category of an affine group scheme. This post is an exposition for these ideas.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-07-17T00:00:01-04:00">
+    <meta property="article:modified_time" content="2026-07-17T00:00:01-04:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Category-Theory">
+    <meta property="article:tag" content="Algebraic-Geometry">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/f2c37cb/">
+
+  
+  
+  
+  <meta itemprop="name" content="Tannakian Category and Tannaka–Krein  Duality">
+  <meta itemprop="description" content="My lawful wife is mathematics; my mistress is mechanics. — Mark Krein Tannakian duality is a way to recover a group scheme from its category of representations. More generally, it says that a suitable tensor category equipped with a fiber functor behaves like the representation category of an affine group scheme. This post is an exposition for these ideas.">
+  <meta itemprop="datePublished" content="2026-07-17T00:00:01-04:00">
+  <meta itemprop="dateModified" content="2026-07-17T00:00:01-04:00">
+  <meta itemprop="wordCount" content="2894">
+  <meta itemprop="keywords" content="Math,Category-Theory,Algebraic-Geometry">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.54004a30b7791edd6df2bc0b918c36ad0d18b99e2afdfce69bf783c8bd438ae5.css" integrity="sha256-VABKMLd5Ht1t8rwLkYw2rQ0YuZ4q/fzmm/eDyL1DiuU=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.1964be08770f64b8a4a7130e022029a2dcf5d60a42cb8aedac47aa66f9a464e9.css" integrity="sha256-GWS&#43;CHcPZLikpxMOAiApotz11gpCy4rtrEeqZvmkZOk=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>Tannakian Category and Tannaka–Krein  Duality - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tannakian Category and Tannaka–Krein  Duality">
+  <meta name="twitter:description" content="My lawful wife is mathematics; my mistress is mechanics. — Mark Krein Tannakian duality is a way to recover a group scheme from its category of representations. More generally, it says that a suitable tensor category equipped with a fiber functor behaves like the representation category of an affine group scheme. This post is an exposition for these ideas.">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.567ba8ba8823b9de35112bc75000e36c1334683e097f93ace10d80e0d7674cde.css" integrity="sha256-Vnuouogjud41ESvHUADjbBM0aD4Jf5Os4Q2A4NdnTN4=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+  <link rel="stylesheet" href='/css/math-inline-overrides.css' />
+
+</head>
+
+
+
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">Tannakian Category and Tannaka–Krein  Duality</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      July 17, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          2894 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~14 mins
+        </span>
+      
+    </div>
+  </div>
+    <div class="post-taxonomy-line">
+      
+        
+          <a class="link tag" href='http://localhost:1313/categories/expositions'>@expositions</a>
+        
+      
+
+      
+        
+          <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/category-theory'>#category-theory</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+      
+
+      
+      <br></br>
+      
+    </div>
+  
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#tannakian-category">Tannakian Category</a></li>
+    <li><a href="#tannakian-duality">Tannakian Duality</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    My lawful wife is mathematics; my mistress is mechanics.
+  </div><div class="yh-pullquote-attrib">— Mark Krein</div></aside>
+<p>Tannakian duality is a way to recover a group scheme from its category of representations. More generally, it says that a suitable tensor category equipped with a fiber functor behaves like the representation category of an affine group scheme. This post is an exposition for these ideas.</p>
+<h2 id="tannakian-category">Tannakian Category</h2>
+<p>Let $k$ be a field.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>A <em>tensor category</em> is a category $\mathcal C$ equipped with a bifunctor</p>
+$$
+\otimes:\mathcal C\times\mathcal C\longrightarrow\mathcal C,
+$$<p>and natural isomorphisms</p>
+$$
+\alpha_{X,Y,Z}:X\otimes(Y\otimes Z)\xrightarrow{\sim}(X\otimes Y)\otimes Z,
+\qquad
+\sigma_{X,Y}:X\otimes Y\xrightarrow{\sim}Y\otimes X,
+$$<p>satisfying the pentagon and hexagon coherence axioms, together with an
+<em>identity object</em>: a pair $(\mathbf 1,u)$ consisting of an object
+$\mathbf 1$ and an isomorphism
+$u:\mathbf 1\xrightarrow{\sim}\mathbf 1\otimes\mathbf 1$ for which the
+functor $X\mapsto\mathbf 1\otimes X$ is an equivalence of categories.
+We use $\mathbf 1$ for this identity object throughout.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>An object $L$ of a tensor category is <em>invertible</em> if the functor</p>
+$$
+X\longmapsto L\otimes X
+$$<p>is an equivalence of categories. Equivalently, there is an object $L^{-1}$
+and an isomorphism</p>
+$$
+L\otimes L^{-1}\xrightarrow{\sim}\mathbf 1.
+$$<p>Such a pair $(L^{-1},\delta)$, with
+$\delta:L\otimes L^{-1}\xrightarrow{\sim}\mathbf 1$, is called an
+<em>inverse</em> of $L$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $X,Y$ be objects of a tensor category. An <em>internal Hom</em>
+$\underline{\operatorname{Hom}}(X,Y)$ exists if the functor</p>
+$$
+T\longmapsto\operatorname{Hom}_{\mathcal C}(T\otimes X,Y)
+\colon\mathcal C^{\mathrm{op}}\longrightarrow\mathbf{Set}
+$$<p>is representable. Thus it comes with natural bijections</p>
+$$
+\operatorname{Hom}_{\mathcal C}(T,\underline{\operatorname{Hom}}(X,Y))
+\cong\operatorname{Hom}_{\mathcal C}(T\otimes X,Y).
+$$<p>The <em>evaluation map</em></p>
+$$
+\operatorname{ev}_{X,Y}:\underline{\operatorname{Hom}}(X,Y)\otimes X\longrightarrow Y
+$$<p>is the morphism corresponding to
+$\operatorname{id}_{\underline{\operatorname{Hom}}(X,Y)}$ under these bijections. When internal Homs exist for all pairs of objects, there is a canonical
+<em>composition map</em></p>
+$$
+\operatorname{comp}_{X,Y,Z}:
+\underline{\operatorname{Hom}}(X,Y)\otimes
+\underline{\operatorname{Hom}}(Y,Z)
+\longrightarrow
+\underline{\operatorname{Hom}}(X,Z).
+$$<p>It is the morphism represented by the composite</p>
+$$
+\begin{aligned}
+\underline{\operatorname{Hom}}(X,Y)\otimes
+\underline{\operatorname{Hom}}(Y,Z)\otimes X
+&\xrightarrow{\sim}
+\underline{\operatorname{Hom}}(Y,Z)\otimes
+\underline{\operatorname{Hom}}(X,Y)\otimes X \\
+&\xrightarrow{\operatorname{id}\otimes\operatorname{ev}_{X,Y}}
+\underline{\operatorname{Hom}}(Y,Z)\otimes Y
+\xrightarrow{\operatorname{ev}_{Y,Z}} Z,
+\end{aligned}
+$$<p>where the first isomorphism is built from the symmetry and associativity
+constraints. Thus $\operatorname{comp}_{X,Y,Z}$ sends a pair of internal maps
+$X\to Y$ and $Y\to Z$ to their composite $X\to Z$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $\mathcal C$ be a $k$-linear abelian category. Tensoring by a vector space
+is the bifunctor</p>
+$$
+\operatorname{Vec}_k\times\mathcal C\longrightarrow\mathcal C,
+\qquad
+(V,X)\longmapsto V\otimes X,
+$$<p>characterized, up to a unique natural isomorphism, by natural isomorphisms of
+$k$-vector spaces</p>
+$$
+\operatorname{Hom}_{\mathcal C}(T,V\otimes X)
+\cong V\otimes_k\operatorname{Hom}_{\mathcal C}(T,X).
+$$<p>These are functorial in $T$, $V$, and $X$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $\mathcal C$ be a $k$-linear abelian category, $V$ a finite-dimensional
+$k$-vector space, and $X$ an object of $\mathcal C$. Set
+$\underline{\operatorname{Hom}}(V,X):=V^\vee\otimes X$. If
+$W\subseteq V$ is a subspace and $Y\subseteq X$ is a subobject, their
+<em>transporter</em> is the subobject</p>
+$$
+(Y:W):=\operatorname{Ker}\!\left(
+\underline{\operatorname{Hom}}(V,X)
+\longrightarrow
+\underline{\operatorname{Hom}}(W,X/Y)
+\right).
+$$<p>It is the object of maps from $V$ to $X$ that carry $W$ into $Y$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Assume that internal Homs exist. The <em>dual</em> of an object $X$ is</p>
+$$
+X^\vee:=\underline{\operatorname{Hom}}(X,\mathbf 1).
+$$<p>Its evaluation map is</p>
+$$
+\operatorname{ev}_X:X^\vee\otimes X\longrightarrow\mathbf 1.
+$$<p>The <em>biduality map</em> $\iota_X:X\to X^{\vee\vee}$ is the morphism adjoint to
+the composite</p>
+$$
+X\otimes X^\vee
+\xrightarrow{\sigma_{X,X^\vee}}
+X^\vee\otimes X
+\xrightarrow{\operatorname{ev}_X}
+\mathbf 1.
+$$<p>We call $X$ <em>reflexive</em> if $\iota_X$ is an isomorphism.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>A tensor category is <em>rigid</em> if:</p>
+<ol>
+<li>
+<p>the internal Hom $\underline{\operatorname{Hom}}(X,Y)$ exists for every
+pair of objects $X,Y$;</p>
+</li>
+<li>
+<p>for all objects $X_1,X_2,Y_1,Y_2$, the natural morphism induced by
+evaluation,</p>
+$$
+   \underline{\operatorname{Hom}}(X_1,Y_1)\otimes
+   \underline{\operatorname{Hom}}(X_2,Y_2)
+   \longrightarrow
+   \underline{\operatorname{Hom}}(X_1\otimes X_2,Y_1\otimes Y_2),
+   $$<p>is an isomorphism; and</p>
+</li>
+<li>
+<p>every object is reflexive.</p>
+</li>
+</ol>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $\mathcal C$ be a rigid tensor category and let $X$ be an object of
+$\mathcal C$. The <em>trace morphism</em></p>
+$$
+\operatorname{Tr}_X:
+\operatorname{End}_{\mathcal C}(X)
+\longrightarrow
+\operatorname{End}_{\mathcal C}(\mathbf 1)
+$$<p>is obtained, using
+$\operatorname{End}_{\mathcal C}(X)\cong
+\operatorname{Hom}_{\mathcal C}(\mathbf 1,\underline{\operatorname{Hom}}(X,X))$,
+by applying $\operatorname{Hom}_{\mathcal C}(\mathbf 1,-)$ to the canonical
+composite</p>
+$$
+\underline{\operatorname{Hom}}(X,X)
+\xrightarrow{\sim}
+X^\vee\otimes X
+\xrightarrow{\operatorname{ev}_X}
+\mathbf 1.
+$$<p>The <em>rank</em> of $X$ is</p>
+$$
+\operatorname{rank}(X):=\operatorname{Tr}_X(\operatorname{id}_X)
+\in\operatorname{End}_{\mathcal C}(\mathbf 1).
+$$
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $(\mathcal C,\otimes)$ and $(\mathcal C',\otimes')$ be tensor
+categories. A <em>tensor functor</em> $(F,c):\mathcal C\to\mathcal C'$ consists of a
+functor $F:\mathcal C\to\mathcal C'$ and functorial isomorphisms</p>
+$$
+c_{X,Y}:F(X)\otimes'F(Y)\xrightarrow{\sim}F(X\otimes Y).
+$$<p>They are required to be compatible with associativity and commutativity: for
+all objects $X,Y,Z$, the two composites from
+$F(X)\otimes'(F(Y)\otimes'F(Z))$ to $F((X\otimes Y)\otimes Z)$ obtained
+from the associativity constraints, the maps $c$, and $F(\alpha_{X,Y,Z})$
+agree, and</p>
+$$
+F(\sigma_{X,Y})\circ c_{X,Y}
+=c_{Y,X}\circ\sigma'_{F(X),F(Y)}.
+$$<p>Finally, if $(\mathbf 1,u)$ is an identity object of $\mathcal C$, then
+$(F(\mathbf 1),F(u))$ is an identity object of $\mathcal C'$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    An <em>additive (resp. abelian) rigid tensor category</em> is a rigid tensor category
+whose underlying category is additive (resp. abelian) and whose tensor product
+is biadditive.
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>A <em>neutral Tannakian category over $k$</em> is a pair $(\mathcal C,\omega)$,
+where $\mathcal C$ is an abelian rigid tensor category such that</p>
+$$
+\operatorname{End}_{\mathcal C}(\mathbf 1)=k
+$$<p>and $\omega$ is an exact faithful $k$-linear tensor functor</p>
+$$
+\omega:\mathcal C\longrightarrow\operatorname{Vec}_k.
+$$<p>Such a functor $\omega$ is called a <em>fibre functor</em>.</p>
+
+  </div>
+</div>
+
+<h2 id="tannakian-duality">Tannakian Duality</h2>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $\omega:\mathcal C\to\operatorname{Vec}_k$ be a fibre functor. For a
+$k$-algebra $R$, write</p>
+$$
+\omega_R(X):=\omega(X)\otimes_k R.
+$$<p>The <em>tensor automorphism functor</em> of $\omega$ is the group-valued functor</p>
+$$
+\operatorname{Aut}^{\otimes}(\omega):R\longmapsto
+\operatorname{Aut}^{\otimes}(\omega)(R),
+$$<p>where $\operatorname{Aut}^{\otimes}(\omega)(R)$ consists of families of
+$R$-linear automorphisms</p>
+$$
+\lambda_X:\omega_R(X)\xrightarrow{\sim}\omega_R(X),
+$$<p>natural in $X$, and satisfying</p>
+$$
+\lambda_Y\circ\omega_R(f)=\omega_R(f)\circ\lambda_X
+\qquad\text{for every }f:X\to Y,
+$$<p>as well as</p>
+$$
+\lambda_{X\otimes Y}=\lambda_X\otimes\lambda_Y,
+\qquad
+\lambda_{\mathbf 1}=\operatorname{id}_R,
+$$<p>under the tensor identifications supplied by $\omega$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-plain" 
+    id="lem-tensor-stabilizer"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span> <span class="math-note">(Tensor-stabilizer lemma)</span>
+  </span>
+  <div class="math-body">
+    <p>Let $H$ be a closed subgroup scheme of $\operatorname{GL}(V)$. Let
+$m,n\geq 0$, and write</p>
+$$
+T^{m,n}(V):=V^{\otimes m}\otimes(V^\vee)^{\otimes n}.
+$$<p>For a $k$-algebra $R$, set</p>
+$$
+T^{m,n}_R(V):=T^{m,n}(V)\otimes_kR.
+$$<p>If $t\in T^{m,n}(V)$, write $t_R:=t\otimes1\in T^{m,n}_R(V)$. An element
+$g\in\operatorname{GL}(V)(R)=\operatorname{GL}(V\otimes_kR)$ induces an
+$R$-linear automorphism</p>
+$$
+g^{m,n}:T^{m,n}_R(V)\xrightarrow{\sim}T^{m,n}_R(V)
+$$<p>by acting on each copy of $V\otimes_kR$ and by the dual action on each copy of
+$V^\vee\otimes_kR$. Then</p>
+$$
+H(R)=\left\{g\in\operatorname{GL}(V)(R)\ \middle|\ 
+\forall m,n\in\mathbb Z_{\geq0},\ \forall t\in T^{m,n}(V)^H,\quad
+g^{m,n}(t_R)=t_R\right\}.
+$$
+  </div>
+</div>
+
+<div class="math-env style-plain" 
+    
+     data-kind="proposition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Proposition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $G$ be an affine group scheme over $k$, and let</p>
+$$
+\omega_G:\operatorname{Rep}_k(G)\longrightarrow\operatorname{Vec}_k
+$$<p>be the forgetful functor. Then the natural map</p>
+$$
+G\longrightarrow\operatorname{Aut}^{\otimes}(\omega_G),
+$$<p>which sends $g\in G(R)$ to its action on every representation after extension
+of scalars to a $k$-algebra $R$, is an isomorphism.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <p>Fix a finite-dimensional representation $X$ of $G$. Let $\mathcal C_X$ be the
+strictly full subcategory of $\operatorname{Rep}_k(G)$ whose objects are
+subquotients of finite direct sums of tensor expressions in $X$ and $X^\vee$.
+For every $k$-algebra $R$, evaluation on $X$ is the homomorphism</p>
+$$
+\operatorname{Aut}^{\otimes}(\omega_G|_{\mathcal C_X})(R)
+\longrightarrow\operatorname{GL}(\omega_G(X)\otimes_k R),
+\qquad
+\lambda\longmapsto\lambda_X.
+$$<p>It is injective. Indeed, tensor compatibility determines $\lambda$ on tensor
+powers of $X$ once $\lambda_X$ is known, and compatibility with the evaluation
+map determines $\lambda_{X^\vee}$. Naturality with respect to the inclusions
+and projections of finite direct sums then determines $\lambda$ on every
+finite direct sum of such tensor expressions. Finally, if $V$ is a subobject
+or quotient of one of these objects, naturality with respect to the inclusion
+or quotient map determines $\lambda_V$. Thus $\lambda_X$ determines the whole
+family $\lambda$. Let $G_X$ be the scheme-theoretic image of</p>
+$$
+G\longrightarrow\operatorname{GL}(X).
+$$<p>Every object $V$ of $\mathcal C_X$ is constructed from $X$ by tensor products,
+duals, finite direct sums, subobjects, and quotients. Consequently, the action
+of $G$ on $V$ factors through $G_X$; write</p>
+$$
+\rho_V:G_X\longrightarrow\operatorname{GL}(V)
+$$<p>for the resulting representation. For $g\in G_X(R)$, the map</p>
+$$
+\rho_V(g):V\otimes_kR\xrightarrow{\sim}V\otimes_kR
+$$<p>is $R$-linear. If $f:V\to W$ is a morphism in $\mathcal C_X$, then</p>
+$$
+(f\otimes\operatorname{id}_R)\circ\rho_V(g)
+=\rho_W(g)\circ(f\otimes\operatorname{id}_R).
+$$<p>Moreover,</p>
+$$
+\rho_{V\otimes W}(g)=\rho_V(g)\otimes\rho_W(g),
+\qquad
+\rho_{\mathbf 1}(g)=\operatorname{id}_R.
+$$<p>Set $\omega_X:=\omega_G|_{\mathcal C_X}$. Thus $\omega_X$ forgets the group
+action but is defined only on objects of $\mathcal C_X$, and</p>
+$$
+(\omega_X)_R(V)=V\otimes_kR.
+$$<p>By definition, an element of $\operatorname{Aut}^{\otimes}(\omega_X)(R)$ is
+a family $\lambda_V:(\omega_X)_R(V)\to(\omega_X)_R(V)$ that is natural in
+$V$, respects tensor products, and is the identity on $\mathbf 1$. Taking
+$\lambda_V=\rho_V(g)$, the preceding three displayed formulas verify exactly
+these conditions. Hence $g$ defines an element of
+$\operatorname{Aut}^{\otimes}(\omega_X)(R)$, giving the first inclusion</p>
+$$
+G_X\subseteq\operatorname{Aut}^{\otimes}(\omega_G|_{\mathcal C_X})
+\subseteq\operatorname{GL}(X).
+$$<p>We now prove the reverse inclusion. Let</p>
+$$
+\lambda\in\operatorname{Aut}^{\otimes}(\omega_X)(R).
+$$<p>Because evaluation on $X$ is injective, it is enough to prove that
+$\lambda_X$ lies in $G_X(R)\subseteq\operatorname{GL}(X\otimes_kR)$. To show that $\lambda_X\in G_X(R)$, let $V\in\mathcal C_X$ and let $t\in V$
+be fixed by $G_X$. Then the map</p>
+$$
+k\longrightarrow V,\qquad a\longmapsto at,
+$$<p>is $G_X$-equivariant. After extension of scalars to $R$, naturality gives</p>
+$$
+\lambda_V\circ(t\otimes-)
+=(t\otimes-)\circ\lambda_{\mathbf 1}.
+$$<p>Here $(t\otimes-):R\to V\otimes_kR$ sends $a$ to $t\otimes a$.
+Because $\lambda_{\mathbf 1}=\operatorname{id}_R$, evaluating this equality
+at $1\in R$ gives $\lambda_V(t_R)=t_R$. In particular, $\lambda_X$ fixes every tensor</p>
+$$
+t\in\left(X^{\otimes m}\otimes(X^\vee)^{\otimes n}\right)^{G_X}.
+$$<p>By <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tensor-stabilizer">⟦ref:lem-tensor-stabilizer⟧</span>, an element of
+$\operatorname{GL}(X\otimes_kR)$ with this property belongs to $G_X(R)$.
+Therefore $\lambda_X\in G_X(R)$, as required. This proves</p>
+$$
+G_X\xrightarrow{\sim}\operatorname{Aut}^{\otimes}(\omega_G|_{\mathcal C_X}).
+$$<p>If $X'=X\oplus Y$, then $\mathcal C_X\subseteq\mathcal C_{X'}$, and these
+isomorphisms commute with the restriction maps. Finally, finite-dimensional
+representations recover an affine group scheme from its finite-dimensional
+image groups:</p>
+$$
+G\cong\varprojlim_XG_X.
+$$<p>Likewise, a tensor automorphism of $\omega_G$ is uniquely the compatible
+family of its restrictions to the $\mathcal C_X$, so</p>
+$$
+\operatorname{Aut}^{\otimes}(\omega_G)
+\cong\varprojlim_X\operatorname{Aut}^{\otimes}
+(\omega_G|_{\mathcal C_X}).
+$$<p>Passing to the inverse limit of the preceding isomorphisms gives the result.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-plain" 
+    id="thm-tannaka-reconstruction"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span> <span class="math-note">(Tannaka reconstruction)</span>
+  </span>
+  <div class="math-body">
+    <p>Let $(\mathcal C,\omega)$ be a neutral Tannakian category over $k$. Then
+$\operatorname{Aut}^{\otimes}(\omega)$ is
+represented by an affine group scheme $G$ over $k$, and the tensor functor</p>
+$$
+\widetilde\omega:\mathcal C\longrightarrow\operatorname{Rep}_k(G),
+\qquad
+X\longmapsto\bigl(\omega(X),\rho_X\bigr),
+$$<p>is an equivalence of tensor categories. For every $k$-algebra $R$ and
+$g\in G(R)=\operatorname{Aut}^{\otimes}(\omega_R)$, the action
+$\rho_X(g)$ is the $R$-linear map</p>
+$$
+\rho_X(g)=g_X:\omega(X)\otimes_kR\longrightarrow\omega(X)\otimes_kR.
+$$
+  </div>
+</div>
+
+<p>We begin the proof with the following stabilizer lemma.</p>
+<div class="math-env style-plain" 
+    id="lem-tannakian-stabilizer"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $\mathcal C$ be a $k$-linear abelian category and let
+$\omega:\mathcal C\to\operatorname{Vec}_k$ be exact and faithful. For an
+object $X$ of $\mathcal C$, recall that internal Hom from a vector space is
+defined by tensoring:</p>
+$$
+\underline{\operatorname{Hom}}(\omega(X),X)
+=\omega(X)^\vee\otimes X.
+$$<p>Because $\omega$ is $k$-linear, it commutes with tensoring by a
+finite-dimensional vector space. Hence there are canonical identifications</p>
+$$
+\omega\bigl(\underline{\operatorname{Hom}}(\omega(X),X)\bigr)
+\cong\omega(X)^\vee\otimes_k\omega(X)
+\cong\operatorname{End}_k(\omega(X)),
+$$<p>where $f\otimes v$ corresponds to the endomorphism $w\mapsto f(w)v$.
+The following subobjects of</p>
+$$
+\underline{\operatorname{Hom}}(\omega(X),X)
+$$<p>are equal. Here, for $n\geq0$,</p>
+$$
+\Delta_n:
+\underline{\operatorname{Hom}}(\omega(X),X)
+\longrightarrow
+\underline{\operatorname{Hom}}(\omega(X)^{\oplus n},X^{\oplus n})
+$$<p>is the map sending $f$ to its $n$-fold direct sum
+$f^{\oplus n}$. The two subobjects are:</p>
+<ol>
+<li>the largest subobject $P$ such that, for every $n\geq0$ and every
+subobject $Y\subseteq X^{\oplus n}$, its diagonal image is contained in</li>
+</ol>
+$$
+\Delta_n(P)\subseteq\bigl(Y:\omega(Y)\bigr);
+$$<ol start="2">
+<li>the smallest subobject $P'$ for which</li>
+</ol>
+$$
+\operatorname{id}_{\omega(X)}\in
+\omega(P')\subseteq\operatorname{End}_k(\omega(X)).
+$$
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <p>First, $\omega(Z)=0$ implies $Z=0$: faithfulness sends
+$\omega(\operatorname{id}_Z)=0$ back to $\operatorname{id}_Z=0$. Hence, if
+$U\subsetneq V$, exactness gives a strict inclusion
+$\omega(U)\subsetneq\omega(V)$. Every object of $\mathcal C$ is therefore
+Artinian and Noetherian, because strict chains of its subobjects give strict
+chains of subspaces of a finite-dimensional vector space. Thus both the
+largest subobject in (1) and the smallest subobject in (2) exist.</p>
+<p>Let $P$ denote the subobject in (1). Since $\omega$ is exact, it carries a
+transporter to a transporter:</p>
+$$
+\omega\bigl(Y:W\bigr)=\bigl(\omega(Y):W\bigr).
+$$<p>Consequently, $\omega(P)$ is the largest subalgebra of
+$\operatorname{End}_k(\omega(X))$ that stabilizes $\omega(Y)$ for every
+$Y\subseteq X^{\oplus n}$; this means that</p>
+$$
+a^{\oplus n}\bigl(\omega(Y)\bigr)\subseteq\omega(Y)
+\qquad
+\text{for every }a\in\omega(P).
+$$<p>In particular,
+$\operatorname{id}_{\omega(X)}\in\omega(P)$, so the minimality of $P'$
+gives $P'\subseteq P$.</p>
+<p>Conversely, let $Q$ be any subobject as in (2). For every finite-dimensional
+vector space $V$, there is a natural map</p>
+$$
+\underline{\operatorname{Hom}}(\omega(X),X)
+\longrightarrow
+\underline{\operatorname{Hom}}(\omega(V\otimes X),V\otimes X)
+$$<p>After applying $\omega$, this becomes the linear map</p>
+$$
+\operatorname{End}_k\bigl(\omega(X)\bigr)
+\longrightarrow\operatorname{End}_k\bigl(V\otimes_k\omega(X)\bigr),
+\qquad
+a\longmapsto\operatorname{id}_V\otimes a,
+$$<p>where $(\operatorname{id}_V\otimes a)(v\otimes x)=v\otimes a(x)$.
+Choose an isomorphism $V\cong k^n$. The condition in (1) for the subobject
+$Y\subseteq V\otimes X\cong X^{\oplus n}$ is precisely</p>
+$$
+\Delta_n(P)\subseteq\bigl(Y:\omega(Y)\bigr).
+$$<p>By the definition of the transporter, this says that the diagonal maps in
+$\Delta_n(P)$ carry $\omega(Y)$ into $Y$. After applying $\omega$, it says
+that for every $a\in\omega(P)$,</p>
+$$
+(\operatorname{id}_V\otimes a)\bigl(\omega(Y)\bigr)
+\subseteq\omega(Y).
+$$<p>Thus $\omega(P)$ stabilizes $\omega(Y)$ for every subobject
+$Y\subseteq V\otimes X$. Take
+$V=\omega(X)^\vee$ and $Y=Q\subseteq
+\omega(X)^\vee\otimes X$. Under the identification
+$\omega(X)^\vee\otimes\omega(X)\cong\operatorname{End}_k(\omega(X))$,
+the map $\operatorname{id}_V\otimes a$ is left composition by $a$. Thus,
+applying the preceding stabilization condition to $\omega(Q)$ says that</p>
+$$
+a\circ f\in\omega(Q)
+\qquad
+\text{for every }a\in\omega(P)\text{ and }f\in\omega(Q).
+$$<p>Since
+$\operatorname{id}_{\omega(X)}\in\omega(Q)$, every
+$a\in\omega(P)$ satisfies</p>
+$$
+a=a\circ\operatorname{id}_{\omega(X)}\in\omega(Q).
+$$<p>Thus $\omega(P)\subseteq\omega(Q)$, and exactness and faithfulness imply
+$P\subseteq Q$. This holds for every $Q$ as in (2), so $P\subseteq P'$.
+Together with $P'\subseteq P$, this proves $P=P'$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-plain" 
+    id="lem-tannakian-modules"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $(\mathcal C,\omega)$ be as in <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tannakian-stabilizer">⟦ref:lem-tannakian-stabilizer⟧</span>,
+let $X\in\mathcal C$, and let $P_X$ be the common subobject in that lemma.
+Set</p>
+$$
+A_X:=\omega(P_X)\subseteq\operatorname{End}_k(\omega(X)),
+$$<p>and let $\langle X\rangle$ be the strictly full subcategory of $\mathcal C$
+whose objects are isomorphic to subquotients of $X^{\oplus n}$ for some
+$n\geq0$. Then $A_X$ acts naturally on $\omega(Y)$ for every
+$Y\in\langle X\rangle$. This action induces an equivalence</p>
+$$
+\overline\omega_X:\langle X\rangle\longrightarrow
+\operatorname{Mod}^{\mathrm{fd}}_{A_X},
+\qquad
+Y\longmapsto\bigl(\omega(Y),\rho_Y\bigr),
+$$<p>where $\operatorname{Mod}^{\mathrm{fd}}_{A_X}$ is the category of
+left $A_X$-modules that are finite-dimensional as $k$-vector spaces, such
+that the composite with the forgetful functor is
+$\omega|_{\langle X\rangle}$. Here $\rho_Y$ is the natural action of $A_X$
+on $\omega(Y)$, and $\overline\omega_X$ sends a morphism $f:Y\to Z$ to
+$\omega(f)$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <p><span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tannakian-stabilizer">⟦ref:lem-tannakian-stabilizer⟧</span> says that $A_X$ is the
+largest subalgebra of $\operatorname{End}_k(\omega(X))$ that stabilizes
+$\omega(Y)$ for every $Y\subseteq X^{\oplus n}$. It therefore acts on every
+$\omega(Y)$ with $Y\in\langle X\rangle$.</p>
+<p>The right action on $P_X$ is given by precomposition. It preserves $P_X$
+because the composite of two maps that preserve every relevant subobject
+again preserves every relevant subobject. Thus, for a left $A_X$-module $M$
+that is finite-dimensional as a $k$-vector space, the object</p>
+$$
+P_X\otimes_{A_X}M
+$$<p>is defined in $\mathcal C$. It belongs to $\langle X\rangle$, since $P_X$ is
+a subobject of $\omega(X)^\vee\otimes X$ and $\langle X\rangle$ is closed
+under finite sums, subobjects, and quotients. Exactness of $\omega$ gives</p>
+$$
+\omega\bigl(P_X\otimes_{A_X}M\bigr)
+\cong A_X\otimes_{A_X}M
+\cong M.
+$$<p>Thus $\overline\omega_X$ is essentially surjective. If
+$u:M\to N$ is an $A_X$-linear map, then</p>
+$$
+\operatorname{id}_{P_X}\otimes_{A_X}u:
+P_X\otimes_{A_X}M\longrightarrow P_X\otimes_{A_X}N
+$$<p>is a morphism in $\langle X\rangle$. Applying $\omega$ identifies it with</p>
+$$
+\operatorname{id}_{A_X}\otimes_{A_X}u=u,
+$$<p>so every $A_X$-linear map lifts; hence $\overline\omega_X$ is full. It is
+faithful because $\omega$ is. Therefore it is an equivalence.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-plain" 
+    id="lem-tannakian-endomorphisms"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span>
+  </span>
+  <div class="math-body">
+    <p>With the notation of <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tannakian-modules">⟦ref:lem-tannakian-modules⟧</span>, the natural
+homomorphism</p>
+$$
+A_X\longrightarrow\operatorname{End}\bigl(\omega|_{\langle X\rangle}\bigr)
+$$<p>is an isomorphism.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $a\in A_X$. For every subobject
+$Y\subseteq X^{\oplus n}$, the defining property of $A_X$ gives</p>
+$$
+a^{\oplus n}\bigl(\omega(Y)\bigr)\subseteq\omega(Y).
+$$<p>Thus $a^{\oplus n}$ restricts to $\omega(Y)$ and descends to the quotient
+of $\omega(Y)$ by the image of any subobject. It consequently defines an
+endomorphism of $\omega(Z)$ for every subquotient $Z$ of $X^{\oplus n}$. If
+$f:Z\to Z'$ is a morphism in $\langle X\rangle$, its graph is a subobject of
+$Z\oplus Z'$ and is preserved by these endomorphisms. Hence</p>
+$$
+a_{Z'}\circ\omega(f)=\omega(f)\circ a_Z,
+$$<p>so the resulting family is a natural endomorphism of
+$\omega|_{\langle X\rangle}$.</p>
+<p>Conversely, let $\eta$ be a natural endomorphism of
+$\omega|_{\langle X\rangle}$ and put $a:=\eta_X$. Naturality with the
+standard inclusions and projections of $X^{\oplus n}$ gives</p>
+$$
+\eta_{X^{\oplus n}}=a^{\oplus n}.
+$$<p>For a subobject $i:Y\hookrightarrow X^{\oplus n}$, naturality of $\eta$
+gives</p>
+$$
+a^{\oplus n}\circ\omega(i)=\omega(i)\circ\eta_Y.
+$$<p>Therefore $a^{\oplus n}$ preserves $\omega(Y)$ for every
+$Y\subseteq X^{\oplus n}$, and
+<span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tannakian-stabilizer">⟦ref:lem-tannakian-stabilizer⟧</span> implies that $a\in A_X$. The
+preceding construction then recovers $\eta$ from $a$, because every object of
+$\langle X\rangle$ is a subquotient of some $X^{\oplus n}$. This proves</p>
+$$
+A_X=\operatorname{End}\bigl(\omega|_{\langle X\rangle}\bigr).
+$$
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <p>We now prove <span class="yh-ref" data-ref-kind="math" data-ref-id="thm-tannaka-reconstruction">⟦ref:thm-tannaka-reconstruction⟧</span>. For every
+$X\in\mathcal C$, let $A_X$ be the algebra of
+<span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tannakian-modules">⟦ref:lem-tannakian-modules⟧</span> and put</p>
+$$
+B_X:=A_X^\vee.
+$$<p>The equivalence in that lemma identifies finite-dimensional $A_X$-modules
+with finite-dimensional $B_X$-comodules. If $X$ is a subquotient of a finite
+direct sum of copies of $X'$, restriction gives a morphism $A_{X'}\to A_X$;
+dually, it gives a coalgebra morphism $B_X\to B_{X'}$. Define</p>
+$$
+B:=\varinjlim_X B_X.
+$$<p>The objects $X\oplus X'$ show that this system is filtered. Every
+finite-dimensional $B$-comodule factors through some $B_X$, so the
+equivalences of <span class="yh-ref" data-ref-kind="math" data-ref-id="lem-tannakian-modules">⟦ref:lem-tannakian-modules⟧</span> glue to an
+equivalence</p>
+$$
+\mathcal C\xrightarrow{\sim}\operatorname{Comod}^{\mathrm{fd}}_B
+$$<p>that carries $\omega$ to the forgetful functor.</p>
+<p>We now use the tensor structure. Let $V$ and $W$ be finite-dimensional left
+$B$-comodules, with coactions</p>
+$$
+\delta_V:V\longrightarrow B\otimes_kV,
+\qquad
+\delta_W:W\longrightarrow B\otimes_kW.
+$$<p>A multiplication $m:B\otimes_kB\to B$ that is a coalgebra map gives a
+coaction on the ordinary tensor product $V\otimes_kW$: it is the composite</p>
+$$
+\begin{aligned}
+V\otimes_kW
+&\xrightarrow{\ \delta_V\otimes\delta_W\ }
+B\otimes_kV\otimes_kB\otimes_kW \\
+&\xrightarrow{\ \operatorname{id}_B\otimes\tau_{V,B}\otimes
+\operatorname{id}_W\ }
+B\otimes_kB\otimes_kV\otimes_kW \\
+&\xrightarrow{\ m\otimes\operatorname{id}_{V\otimes W}\ }
+B\otimes_kV\otimes_kW,
+\end{aligned}
+$$<p>where</p>
+$$
+\tau_{U,V}:U\otimes_kV\longrightarrow V\otimes_kU,
+\qquad
+u\otimes v\longmapsto v\otimes u,
+$$<p>is the symmetry of finite-dimensional vector spaces.</p>
+<p>The condition that $m$ be a coalgebra map is exactly what makes this a
+coaction. Conversely, every tensor product on
+$\operatorname{Comod}^{\mathrm{fd}}_B$ whose underlying vector space is
+the ordinary tensor product arises in this way from a unique coalgebra map</p>
+$$
+m:B\otimes_kB\longrightarrow B.
+$$<p>Transport the tensor product of $\mathcal C$ across the preceding
+equivalence. Its underlying vector space is the ordinary tensor product,
+because $\omega$ is a tensor functor, so it gives such a multiplication $m$.
+The associativity and symmetry constraints make $m$ associative and
+commutative, while the identity object gives a unit $k\to B$. Thus $B$ is a
+commutative bialgebra and</p>
+$$
+M:=\operatorname{Spec}(B)
+$$<p>is an affine monoid scheme.</p>
+<p>For every $k$-algebra $R$ and every $k$-algebra map $s:B\to R$, the coaction
+of a $B$-comodule $V$ defines an $R$-linear endomorphism of $V\otimes_kR$.
+It is the composite</p>
+$$
+\begin{aligned}
+V\otimes_kR
+&\xrightarrow{\ \delta_V\otimes\operatorname{id}_R\ }
+B\otimes_kV\otimes_kR \\
+&\xrightarrow{\ \operatorname{id}_B\otimes\tau_{V,R}\ }
+B\otimes_kR\otimes_kV \\
+&\xrightarrow{\ s\otimes\operatorname{id}_R\otimes\operatorname{id}_V\ }
+R\otimes_kR\otimes_kV \\
+&\xrightarrow{\ \mu_R\otimes\operatorname{id}_V\ }
+R\otimes_kV
+\xrightarrow{\ \tau_{R,V}\ }V\otimes_kR,
+\end{aligned}
+$$<p>where $\mu_R$ is multiplication in $R$.</p>
+<p>This construction is natural in $V$. The displayed formula for the coaction
+on $V\otimes W$ shows that these endomorphisms respect tensor products
+exactly when</p>
+$$
+s\circ m=\mu_R\circ(s\otimes s);
+$$<p>they preserve the identity object exactly when $s$ preserves the unit. Thus
+the preceding construction identifies the
+tensor-compatible endomorphisms of $\omega_R$ with the $k$-algebra maps
+$B\to R$. Write $\operatorname{End}^{\otimes}(\omega)(R)$ for these
+endomorphisms, without requiring them to be invertible. Hence</p>
+$$
+\operatorname{End}^{\otimes}(\omega)(R)
+=\operatorname{Hom}_{k\text{-}\mathrm{alg}}(B,R)
+=M(R).
+$$<p>Rigidity makes every tensor-compatible endomorphism invertible: compatibility
+with the evaluation and coevaluation maps of $X$ and $X^\vee$ gives an inverse
+to its component on $X$. Therefore</p>
+$$
+\operatorname{End}^{\otimes}(\omega)
+=\operatorname{Aut}^{\otimes}(\omega).
+$$<p>Thus $M$ is an affine group scheme; write it as $G$. Finally,
+finite-dimensional $B$-comodules are precisely finite-dimensional
+representations of $G$. Under the equivalence above, the coaction on
+$\omega(X)$ gives the representation $\rho_X$, so the equivalence is exactly
+$\widetilde\omega$ from the statement.</p>
+
+  </div>
+</div>
+
+<h2 id="references">References</h2>
+<div class="bib-env">
+  <ul class="bib-list">
+  <li id="bib-DM82" data-bib-key="DM82">
+  <span class="bib-label">[DM82]</span>Pierre Deligne and James S. Milne. <em>Tannakian Categories</em>. In <em>Hodge Cycles, Motives, and Shimura Varieties</em>. Springer-Verlag. 1982.</li>
+
+  <li id="bib-Mil17" data-bib-key="Mil17">
+  <span class="bib-label">[Mil17]</span>James S. Milne. <em>Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field</em>. Cambridge University Press. 2017.</li>
+
+  <li id="bib-Saa72" data-bib-key="Saa72">
+  <span class="bib-label">[Saa72]</span>N. Saavedra Rivano. <em>Catégories Tannakiennes</em>. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.</li>
+
+  <li id="bib-Lan98" data-bib-key="Lan98">
+  <span class="bib-label">[Lan98]</span>N. P. Landsman. <em>Tannaka-Krein Duality for Compact Groups</em>. 1998.</li>
+
+</ul>
+</div>
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/b3f91ac/" title="Six Functor Formalism"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/end-calculus/" title="End Calculus">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/typography.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>

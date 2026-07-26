@@ -37,7 +37,9 @@
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;

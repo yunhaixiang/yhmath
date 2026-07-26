@@ -37,6 +37,7 @@ categories: [archives]
 - [Theories and Theorems](https://ahilado.wordpress.com/)
 - [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/)
 - [Greg Egan's Website](https://www.gregegan.net/)
+- [Hidden Phenomena](https://hidden-phenomena.com/)
 
 ## Wikis and Archives
 - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)

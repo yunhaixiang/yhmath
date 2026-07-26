@@ -6,7 +6,1036 @@
     <description>Recent content in Math on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
+&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
+&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Galois Representations Arising from Geometry</title>
+      <link>http://localhost:1313/posts/9f2a7d0/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/9f2a7d0/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the art of giving the same name to different things.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Curry–Howard Isomorphism</title>
+      <link>http://localhost:1313/posts/fa7e807/</link>
+      <pubDate>Sat, 25 Jul 2026 17:40:43 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/fa7e807/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Saharon Shelah&lt;/div&gt;&lt;/aside&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>埃尔德什、三岛由纪夫、死亡</title>
+      <link>http://localhost:1313/posts/erdos-mishima-death/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/erdos-mishima-death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End Calculus</title>
+      <link>http://localhost:1313/posts/end-calculus/</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/end-calculus/</guid>
+      <description>&lt;p&gt;Ends and coends provide a compact calculus for natural transformations,
+adjunctions, and categorical traces. This post develops the basic rules and
+their use.&lt;/p&gt;
+&lt;h2 id=&#34;ends&#34;&gt;Ends&lt;/h2&gt;
+&lt;h2 id=&#34;coends&#34;&gt;Coends&lt;/h2&gt;
+&lt;h2 id=&#34;calculus&#34;&gt;Calculus&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tannakian Category and Tannaka–Krein  Duality</title>
+      <link>http://localhost:1313/posts/f2c37cb/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/f2c37cb/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    My lawful wife is mathematics; my mistress is mechanics.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Mark Krein&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Tannakian duality is a way to recover a group scheme from its category of representations. More generally, it says that a suitable tensor category equipped with a fiber functor behaves like the representation category of an affine group scheme. This post is an exposition for these ideas.&lt;/p&gt;
+&lt;h2 id=&#34;tannakian-category&#34;&gt;Tannakian Category&lt;/h2&gt;
+&lt;p&gt;Let $k$ be a field.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A &lt;em&gt;tensor category&lt;/em&gt; is a category $\mathcal C$ equipped with a bifunctor&lt;/p&gt;
+$$
+\otimes:\mathcal C\times\mathcal C\longrightarrow\mathcal C,
+$$&lt;p&gt;and natural isomorphisms&lt;/p&gt;
+$$
+\alpha_{X,Y,Z}:X\otimes(Y\otimes Z)\xrightarrow{\sim}(X\otimes Y)\otimes Z,
+\qquad
+\sigma_{X,Y}:X\otimes Y\xrightarrow{\sim}Y\otimes X,
+$$&lt;p&gt;satisfying the pentagon and hexagon coherence axioms, together with an
+&lt;em&gt;identity object&lt;/em&gt;: a pair $(\mathbf 1,u)$ consisting of an object
+$\mathbf 1$ and an isomorphism
+$u:\mathbf 1\xrightarrow{\sim}\mathbf 1\otimes\mathbf 1$ for which the
+functor $X\mapsto\mathbf 1\otimes X$ is an equivalence of categories.
+We use $\mathbf 1$ for this identity object throughout.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;An object $L$ of a tensor category is &lt;em&gt;invertible&lt;/em&gt; if the functor&lt;/p&gt;
+$$
+X\longmapsto L\otimes X
+$$&lt;p&gt;is an equivalence of categories. Equivalently, there is an object $L^{-1}$
+and an isomorphism&lt;/p&gt;
+$$
+L\otimes L^{-1}\xrightarrow{\sim}\mathbf 1.
+$$&lt;p&gt;Such a pair $(L^{-1},\delta)$, with
+$\delta:L\otimes L^{-1}\xrightarrow{\sim}\mathbf 1$, is called an
+&lt;em&gt;inverse&lt;/em&gt; of $L$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X,Y$ be objects of a tensor category. An &lt;em&gt;internal Hom&lt;/em&gt;
+$\underline{\operatorname{Hom}}(X,Y)$ exists if the functor&lt;/p&gt;
+$$
+T\longmapsto\operatorname{Hom}_{\mathcal C}(T\otimes X,Y)
+\colon\mathcal C^{\mathrm{op}}\longrightarrow\mathbf{Set}
+$$&lt;p&gt;is representable. Thus it comes with natural bijections&lt;/p&gt;
+$$
+\operatorname{Hom}_{\mathcal C}(T,\underline{\operatorname{Hom}}(X,Y))
+\cong\operatorname{Hom}_{\mathcal C}(T\otimes X,Y).
+$$&lt;p&gt;The &lt;em&gt;evaluation map&lt;/em&gt;&lt;/p&gt;
+$$
+\operatorname{ev}_{X,Y}:\underline{\operatorname{Hom}}(X,Y)\otimes X\longrightarrow Y
+$$&lt;p&gt;is the morphism corresponding to
+$\operatorname{id}_{\underline{\operatorname{Hom}}(X,Y)}$ under these bijections. When internal Homs exist for all pairs of objects, there is a canonical
+&lt;em&gt;composition map&lt;/em&gt;&lt;/p&gt;
+$$
+\operatorname{comp}_{X,Y,Z}:
+\underline{\operatorname{Hom}}(X,Y)\otimes
+\underline{\operatorname{Hom}}(Y,Z)
+\longrightarrow
+\underline{\operatorname{Hom}}(X,Z).
+$$&lt;p&gt;It is the morphism represented by the composite&lt;/p&gt;
+$$
+\begin{aligned}
+\underline{\operatorname{Hom}}(X,Y)\otimes
+\underline{\operatorname{Hom}}(Y,Z)\otimes X
+&amp;\xrightarrow{\sim}
+\underline{\operatorname{Hom}}(Y,Z)\otimes
+\underline{\operatorname{Hom}}(X,Y)\otimes X \\
+&amp;\xrightarrow{\operatorname{id}\otimes\operatorname{ev}_{X,Y}}
+\underline{\operatorname{Hom}}(Y,Z)\otimes Y
+\xrightarrow{\operatorname{ev}_{Y,Z}} Z,
+\end{aligned}
+$$&lt;p&gt;where the first isomorphism is built from the symmetry and associativity
+constraints. Thus $\operatorname{comp}_{X,Y,Z}$ sends a pair of internal maps
+$X\to Y$ and $Y\to Z$ to their composite $X\to Z$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal C$ be a $k$-linear abelian category. Tensoring by a vector space
+is the bifunctor&lt;/p&gt;
+$$
+\operatorname{Vec}_k\times\mathcal C\longrightarrow\mathcal C,
+\qquad
+(V,X)\longmapsto V\otimes X,
+$$&lt;p&gt;characterized, up to a unique natural isomorphism, by natural isomorphisms of
+$k$-vector spaces&lt;/p&gt;
+$$
+\operatorname{Hom}_{\mathcal C}(T,V\otimes X)
+\cong V\otimes_k\operatorname{Hom}_{\mathcal C}(T,X).
+$$&lt;p&gt;These are functorial in $T$, $V$, and $X$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal C$ be a $k$-linear abelian category, $V$ a finite-dimensional
+$k$-vector space, and $X$ an object of $\mathcal C$. Set
+$\underline{\operatorname{Hom}}(V,X):=V^\vee\otimes X$. If
+$W\subseteq V$ is a subspace and $Y\subseteq X$ is a subobject, their
+&lt;em&gt;transporter&lt;/em&gt; is the subobject&lt;/p&gt;
+$$
+(Y:W):=\operatorname{Ker}\!\left(
+\underline{\operatorname{Hom}}(V,X)
+\longrightarrow
+\underline{\operatorname{Hom}}(W,X/Y)
+\right).
+$$&lt;p&gt;It is the object of maps from $V$ to $X$ that carry $W$ into $Y$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Assume that internal Homs exist. The &lt;em&gt;dual&lt;/em&gt; of an object $X$ is&lt;/p&gt;
+$$
+X^\vee:=\underline{\operatorname{Hom}}(X,\mathbf 1).
+$$&lt;p&gt;Its evaluation map is&lt;/p&gt;
+$$
+\operatorname{ev}_X:X^\vee\otimes X\longrightarrow\mathbf 1.
+$$&lt;p&gt;The &lt;em&gt;biduality map&lt;/em&gt; $\iota_X:X\to X^{\vee\vee}$ is the morphism adjoint to
+the composite&lt;/p&gt;
+$$
+X\otimes X^\vee
+\xrightarrow{\sigma_{X,X^\vee}}
+X^\vee\otimes X
+\xrightarrow{\operatorname{ev}_X}
+\mathbf 1.
+$$&lt;p&gt;We call $X$ &lt;em&gt;reflexive&lt;/em&gt; if $\iota_X$ is an isomorphism.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A tensor category is &lt;em&gt;rigid&lt;/em&gt; if:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;the internal Hom $\underline{\operatorname{Hom}}(X,Y)$ exists for every
+pair of objects $X,Y$;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;for all objects $X_1,X_2,Y_1,Y_2$, the natural morphism induced by
+evaluation,&lt;/p&gt;
+$$
+   \underline{\operatorname{Hom}}(X_1,Y_1)\otimes
+   \underline{\operatorname{Hom}}(X_2,Y_2)
+   \longrightarrow
+   \underline{\operatorname{Hom}}(X_1\otimes X_2,Y_1\otimes Y_2),
+   $$&lt;p&gt;is an isomorphism; and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;every object is reflexive.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal C$ be a rigid tensor category and let $X$ be an object of
+$\mathcal C$. The &lt;em&gt;trace morphism&lt;/em&gt;&lt;/p&gt;
+$$
+\operatorname{Tr}_X:
+\operatorname{End}_{\mathcal C}(X)
+\longrightarrow
+\operatorname{End}_{\mathcal C}(\mathbf 1)
+$$&lt;p&gt;is obtained, using
+$\operatorname{End}_{\mathcal C}(X)\cong
+\operatorname{Hom}_{\mathcal C}(\mathbf 1,\underline{\operatorname{Hom}}(X,X))$,
+by applying $\operatorname{Hom}_{\mathcal C}(\mathbf 1,-)$ to the canonical
+composite&lt;/p&gt;
+$$
+\underline{\operatorname{Hom}}(X,X)
+\xrightarrow{\sim}
+X^\vee\otimes X
+\xrightarrow{\operatorname{ev}_X}
+\mathbf 1.
+$$&lt;p&gt;The &lt;em&gt;rank&lt;/em&gt; of $X$ is&lt;/p&gt;
+$$
+\operatorname{rank}(X):=\operatorname{Tr}_X(\operatorname{id}_X)
+\in\operatorname{End}_{\mathcal C}(\mathbf 1).
+$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $(\mathcal C,\otimes)$ and $(\mathcal C&#39;,\otimes&#39;)$ be tensor
+categories. A &lt;em&gt;tensor functor&lt;/em&gt; $(F,c):\mathcal C\to\mathcal C&#39;$ consists of a
+functor $F:\mathcal C\to\mathcal C&#39;$ and functorial isomorphisms&lt;/p&gt;
+$$
+c_{X,Y}:F(X)\otimes&#39;F(Y)\xrightarrow{\sim}F(X\otimes Y).
+$$&lt;p&gt;They are required to be compatible with associativity and commutativity: for
+all objects $X,Y,Z$, the two composites from
+$F(X)\otimes&#39;(F(Y)\otimes&#39;F(Z))$ to $F((X\otimes Y)\otimes Z)$ obtained
+from the associativity constraints, the maps $c$, and $F(\alpha_{X,Y,Z})$
+agree, and&lt;/p&gt;
+$$
+F(\sigma_{X,Y})\circ c_{X,Y}
+=c_{Y,X}\circ\sigma&#39;_{F(X),F(Y)}.
+$$&lt;p&gt;Finally, if $(\mathbf 1,u)$ is an identity object of $\mathcal C$, then
+$(F(\mathbf 1),F(u))$ is an identity object of $\mathcal C&#39;$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    An &lt;em&gt;additive (resp. abelian) rigid tensor category&lt;/em&gt; is a rigid tensor category
+whose underlying category is additive (resp. abelian) and whose tensor product
+is biadditive.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;A &lt;em&gt;neutral Tannakian category over $k$&lt;/em&gt; is a pair $(\mathcal C,\omega)$,
+where $\mathcal C$ is an abelian rigid tensor category such that&lt;/p&gt;
+$$
+\operatorname{End}_{\mathcal C}(\mathbf 1)=k
+$$&lt;p&gt;and $\omega$ is an exact faithful $k$-linear tensor functor&lt;/p&gt;
+$$
+\omega:\mathcal C\longrightarrow\operatorname{Vec}_k.
+$$&lt;p&gt;Such a functor $\omega$ is called a &lt;em&gt;fibre functor&lt;/em&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tannakian-duality&#34;&gt;Tannakian Duality&lt;/h2&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\omega:\mathcal C\to\operatorname{Vec}_k$ be a fibre functor. For a
+$k$-algebra $R$, write&lt;/p&gt;
+$$
+\omega_R(X):=\omega(X)\otimes_k R.
+$$&lt;p&gt;The &lt;em&gt;tensor automorphism functor&lt;/em&gt; of $\omega$ is the group-valued functor&lt;/p&gt;
+$$
+\operatorname{Aut}^{\otimes}(\omega):R\longmapsto
+\operatorname{Aut}^{\otimes}(\omega)(R),
+$$&lt;p&gt;where $\operatorname{Aut}^{\otimes}(\omega)(R)$ consists of families of
+$R$-linear automorphisms&lt;/p&gt;
+$$
+\lambda_X:\omega_R(X)\xrightarrow{\sim}\omega_R(X),
+$$&lt;p&gt;natural in $X$, and satisfying&lt;/p&gt;
+$$
+\lambda_Y\circ\omega_R(f)=\omega_R(f)\circ\lambda_X
+\qquad\text{for every }f:X\to Y,
+$$&lt;p&gt;as well as&lt;/p&gt;
+$$
+\lambda_{X\otimes Y}=\lambda_X\otimes\lambda_Y,
+\qquad
+\lambda_{\mathbf 1}=\operatorname{id}_R,
+$$&lt;p&gt;under the tensor identifications supplied by $\omega$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-tensor-stabilizer&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Tensor-stabilizer lemma)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $H$ be a closed subgroup scheme of $\operatorname{GL}(V)$. Let
+$m,n\geq 0$, and write&lt;/p&gt;
+$$
+T^{m,n}(V):=V^{\otimes m}\otimes(V^\vee)^{\otimes n}.
+$$&lt;p&gt;For a $k$-algebra $R$, set&lt;/p&gt;
+$$
+T^{m,n}_R(V):=T^{m,n}(V)\otimes_kR.
+$$&lt;p&gt;If $t\in T^{m,n}(V)$, write $t_R:=t\otimes1\in T^{m,n}_R(V)$. An element
+$g\in\operatorname{GL}(V)(R)=\operatorname{GL}(V\otimes_kR)$ induces an
+$R$-linear automorphism&lt;/p&gt;
+$$
+g^{m,n}:T^{m,n}_R(V)\xrightarrow{\sim}T^{m,n}_R(V)
+$$&lt;p&gt;by acting on each copy of $V\otimes_kR$ and by the dual action on each copy of
+$V^\vee\otimes_kR$. Then&lt;/p&gt;
+$$
+H(R)=\left\{g\in\operatorname{GL}(V)(R)\ \middle|\ 
+\forall m,n\in\mathbb Z_{\geq0},\ \forall t\in T^{m,n}(V)^H,\quad
+g^{m,n}(t_R)=t_R\right\}.
+$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    
+     data-kind=&#34;proposition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Proposition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $G$ be an affine group scheme over $k$, and let&lt;/p&gt;
+$$
+\omega_G:\operatorname{Rep}_k(G)\longrightarrow\operatorname{Vec}_k
+$$&lt;p&gt;be the forgetful functor. Then the natural map&lt;/p&gt;
+$$
+G\longrightarrow\operatorname{Aut}^{\otimes}(\omega_G),
+$$&lt;p&gt;which sends $g\in G(R)$ to its action on every representation after extension
+of scalars to a $k$-algebra $R$, is an isomorphism.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Fix a finite-dimensional representation $X$ of $G$. Let $\mathcal C_X$ be the
+strictly full subcategory of $\operatorname{Rep}_k(G)$ whose objects are
+subquotients of finite direct sums of tensor expressions in $X$ and $X^\vee$.
+For every $k$-algebra $R$, evaluation on $X$ is the homomorphism&lt;/p&gt;
+$$
+\operatorname{Aut}^{\otimes}(\omega_G|_{\mathcal C_X})(R)
+\longrightarrow\operatorname{GL}(\omega_G(X)\otimes_k R),
+\qquad
+\lambda\longmapsto\lambda_X.
+$$&lt;p&gt;It is injective. Indeed, tensor compatibility determines $\lambda$ on tensor
+powers of $X$ once $\lambda_X$ is known, and compatibility with the evaluation
+map determines $\lambda_{X^\vee}$. Naturality with respect to the inclusions
+and projections of finite direct sums then determines $\lambda$ on every
+finite direct sum of such tensor expressions. Finally, if $V$ is a subobject
+or quotient of one of these objects, naturality with respect to the inclusion
+or quotient map determines $\lambda_V$. Thus $\lambda_X$ determines the whole
+family $\lambda$. Let $G_X$ be the scheme-theoretic image of&lt;/p&gt;
+$$
+G\longrightarrow\operatorname{GL}(X).
+$$&lt;p&gt;Every object $V$ of $\mathcal C_X$ is constructed from $X$ by tensor products,
+duals, finite direct sums, subobjects, and quotients. Consequently, the action
+of $G$ on $V$ factors through $G_X$; write&lt;/p&gt;
+$$
+\rho_V:G_X\longrightarrow\operatorname{GL}(V)
+$$&lt;p&gt;for the resulting representation. For $g\in G_X(R)$, the map&lt;/p&gt;
+$$
+\rho_V(g):V\otimes_kR\xrightarrow{\sim}V\otimes_kR
+$$&lt;p&gt;is $R$-linear. If $f:V\to W$ is a morphism in $\mathcal C_X$, then&lt;/p&gt;
+$$
+(f\otimes\operatorname{id}_R)\circ\rho_V(g)
+=\rho_W(g)\circ(f\otimes\operatorname{id}_R).
+$$&lt;p&gt;Moreover,&lt;/p&gt;
+$$
+\rho_{V\otimes W}(g)=\rho_V(g)\otimes\rho_W(g),
+\qquad
+\rho_{\mathbf 1}(g)=\operatorname{id}_R.
+$$&lt;p&gt;Set $\omega_X:=\omega_G|_{\mathcal C_X}$. Thus $\omega_X$ forgets the group
+action but is defined only on objects of $\mathcal C_X$, and&lt;/p&gt;
+$$
+(\omega_X)_R(V)=V\otimes_kR.
+$$&lt;p&gt;By definition, an element of $\operatorname{Aut}^{\otimes}(\omega_X)(R)$ is
+a family $\lambda_V:(\omega_X)_R(V)\to(\omega_X)_R(V)$ that is natural in
+$V$, respects tensor products, and is the identity on $\mathbf 1$. Taking
+$\lambda_V=\rho_V(g)$, the preceding three displayed formulas verify exactly
+these conditions. Hence $g$ defines an element of
+$\operatorname{Aut}^{\otimes}(\omega_X)(R)$, giving the first inclusion&lt;/p&gt;
+$$
+G_X\subseteq\operatorname{Aut}^{\otimes}(\omega_G|_{\mathcal C_X})
+\subseteq\operatorname{GL}(X).
+$$&lt;p&gt;We now prove the reverse inclusion. Let&lt;/p&gt;
+$$
+\lambda\in\operatorname{Aut}^{\otimes}(\omega_X)(R).
+$$&lt;p&gt;Because evaluation on $X$ is injective, it is enough to prove that
+$\lambda_X$ lies in $G_X(R)\subseteq\operatorname{GL}(X\otimes_kR)$. To show that $\lambda_X\in G_X(R)$, let $V\in\mathcal C_X$ and let $t\in V$
+be fixed by $G_X$. Then the map&lt;/p&gt;
+$$
+k\longrightarrow V,\qquad a\longmapsto at,
+$$&lt;p&gt;is $G_X$-equivariant. After extension of scalars to $R$, naturality gives&lt;/p&gt;
+$$
+\lambda_V\circ(t\otimes-)
+=(t\otimes-)\circ\lambda_{\mathbf 1}.
+$$&lt;p&gt;Here $(t\otimes-):R\to V\otimes_kR$ sends $a$ to $t\otimes a$.
+Because $\lambda_{\mathbf 1}=\operatorname{id}_R$, evaluating this equality
+at $1\in R$ gives $\lambda_V(t_R)=t_R$. In particular, $\lambda_X$ fixes every tensor&lt;/p&gt;
+$$
+t\in\left(X^{\otimes m}\otimes(X^\vee)^{\otimes n}\right)^{G_X}.
+$$&lt;p&gt;By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tensor-stabilizer&#34;&gt;⟦ref:lem-tensor-stabilizer⟧&lt;/span&gt;, an element of
+$\operatorname{GL}(X\otimes_kR)$ with this property belongs to $G_X(R)$.
+Therefore $\lambda_X\in G_X(R)$, as required. This proves&lt;/p&gt;
+$$
+G_X\xrightarrow{\sim}\operatorname{Aut}^{\otimes}(\omega_G|_{\mathcal C_X}).
+$$&lt;p&gt;If $X&#39;=X\oplus Y$, then $\mathcal C_X\subseteq\mathcal C_{X&#39;}$, and these
+isomorphisms commute with the restriction maps. Finally, finite-dimensional
+representations recover an affine group scheme from its finite-dimensional
+image groups:&lt;/p&gt;
+$$
+G\cong\varprojlim_XG_X.
+$$&lt;p&gt;Likewise, a tensor automorphism of $\omega_G$ is uniquely the compatible
+family of its restrictions to the $\mathcal C_X$, so&lt;/p&gt;
+$$
+\operatorname{Aut}^{\otimes}(\omega_G)
+\cong\varprojlim_X\operatorname{Aut}^{\otimes}
+(\omega_G|_{\mathcal C_X}).
+$$&lt;p&gt;Passing to the inverse limit of the preceding isomorphisms gives the result.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;thm-tannaka-reconstruction&#34;
+     data-kind=&#34;theorem&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Theorem&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Tannaka reconstruction)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $(\mathcal C,\omega)$ be a neutral Tannakian category over $k$. Then
+$\operatorname{Aut}^{\otimes}(\omega)$ is
+represented by an affine group scheme $G$ over $k$, and the tensor functor&lt;/p&gt;
+$$
+\widetilde\omega:\mathcal C\longrightarrow\operatorname{Rep}_k(G),
+\qquad
+X\longmapsto\bigl(\omega(X),\rho_X\bigr),
+$$&lt;p&gt;is an equivalence of tensor categories. For every $k$-algebra $R$ and
+$g\in G(R)=\operatorname{Aut}^{\otimes}(\omega_R)$, the action
+$\rho_X(g)$ is the $R$-linear map&lt;/p&gt;
+$$
+\rho_X(g)=g_X:\omega(X)\otimes_kR\longrightarrow\omega(X)\otimes_kR.
+$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We begin the proof with the following stabilizer lemma.&lt;/p&gt;
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-tannakian-stabilizer&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $\mathcal C$ be a $k$-linear abelian category and let
+$\omega:\mathcal C\to\operatorname{Vec}_k$ be exact and faithful. For an
+object $X$ of $\mathcal C$, recall that internal Hom from a vector space is
+defined by tensoring:&lt;/p&gt;
+$$
+\underline{\operatorname{Hom}}(\omega(X),X)
+=\omega(X)^\vee\otimes X.
+$$&lt;p&gt;Because $\omega$ is $k$-linear, it commutes with tensoring by a
+finite-dimensional vector space. Hence there are canonical identifications&lt;/p&gt;
+$$
+\omega\bigl(\underline{\operatorname{Hom}}(\omega(X),X)\bigr)
+\cong\omega(X)^\vee\otimes_k\omega(X)
+\cong\operatorname{End}_k(\omega(X)),
+$$&lt;p&gt;where $f\otimes v$ corresponds to the endomorphism $w\mapsto f(w)v$.
+The following subobjects of&lt;/p&gt;
+$$
+\underline{\operatorname{Hom}}(\omega(X),X)
+$$&lt;p&gt;are equal. Here, for $n\geq0$,&lt;/p&gt;
+$$
+\Delta_n:
+\underline{\operatorname{Hom}}(\omega(X),X)
+\longrightarrow
+\underline{\operatorname{Hom}}(\omega(X)^{\oplus n},X^{\oplus n})
+$$&lt;p&gt;is the map sending $f$ to its $n$-fold direct sum
+$f^{\oplus n}$. The two subobjects are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the largest subobject $P$ such that, for every $n\geq0$ and every
+subobject $Y\subseteq X^{\oplus n}$, its diagonal image is contained in&lt;/li&gt;
+&lt;/ol&gt;
+$$
+\Delta_n(P)\subseteq\bigl(Y:\omega(Y)\bigr);
+$$&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;the smallest subobject $P&#39;$ for which&lt;/li&gt;
+&lt;/ol&gt;
+$$
+\operatorname{id}_{\omega(X)}\in
+\omega(P&#39;)\subseteq\operatorname{End}_k(\omega(X)).
+$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;First, $\omega(Z)=0$ implies $Z=0$: faithfulness sends
+$\omega(\operatorname{id}_Z)=0$ back to $\operatorname{id}_Z=0$. Hence, if
+$U\subsetneq V$, exactness gives a strict inclusion
+$\omega(U)\subsetneq\omega(V)$. Every object of $\mathcal C$ is therefore
+Artinian and Noetherian, because strict chains of its subobjects give strict
+chains of subspaces of a finite-dimensional vector space. Thus both the
+largest subobject in (1) and the smallest subobject in (2) exist.&lt;/p&gt;
+&lt;p&gt;Let $P$ denote the subobject in (1). Since $\omega$ is exact, it carries a
+transporter to a transporter:&lt;/p&gt;
+$$
+\omega\bigl(Y:W\bigr)=\bigl(\omega(Y):W\bigr).
+$$&lt;p&gt;Consequently, $\omega(P)$ is the largest subalgebra of
+$\operatorname{End}_k(\omega(X))$ that stabilizes $\omega(Y)$ for every
+$Y\subseteq X^{\oplus n}$; this means that&lt;/p&gt;
+$$
+a^{\oplus n}\bigl(\omega(Y)\bigr)\subseteq\omega(Y)
+\qquad
+\text{for every }a\in\omega(P).
+$$&lt;p&gt;In particular,
+$\operatorname{id}_{\omega(X)}\in\omega(P)$, so the minimality of $P&#39;$
+gives $P&#39;\subseteq P$.&lt;/p&gt;
+&lt;p&gt;Conversely, let $Q$ be any subobject as in (2). For every finite-dimensional
+vector space $V$, there is a natural map&lt;/p&gt;
+$$
+\underline{\operatorname{Hom}}(\omega(X),X)
+\longrightarrow
+\underline{\operatorname{Hom}}(\omega(V\otimes X),V\otimes X)
+$$&lt;p&gt;After applying $\omega$, this becomes the linear map&lt;/p&gt;
+$$
+\operatorname{End}_k\bigl(\omega(X)\bigr)
+\longrightarrow\operatorname{End}_k\bigl(V\otimes_k\omega(X)\bigr),
+\qquad
+a\longmapsto\operatorname{id}_V\otimes a,
+$$&lt;p&gt;where $(\operatorname{id}_V\otimes a)(v\otimes x)=v\otimes a(x)$.
+Choose an isomorphism $V\cong k^n$. The condition in (1) for the subobject
+$Y\subseteq V\otimes X\cong X^{\oplus n}$ is precisely&lt;/p&gt;
+$$
+\Delta_n(P)\subseteq\bigl(Y:\omega(Y)\bigr).
+$$&lt;p&gt;By the definition of the transporter, this says that the diagonal maps in
+$\Delta_n(P)$ carry $\omega(Y)$ into $Y$. After applying $\omega$, it says
+that for every $a\in\omega(P)$,&lt;/p&gt;
+$$
+(\operatorname{id}_V\otimes a)\bigl(\omega(Y)\bigr)
+\subseteq\omega(Y).
+$$&lt;p&gt;Thus $\omega(P)$ stabilizes $\omega(Y)$ for every subobject
+$Y\subseteq V\otimes X$. Take
+$V=\omega(X)^\vee$ and $Y=Q\subseteq
+\omega(X)^\vee\otimes X$. Under the identification
+$\omega(X)^\vee\otimes\omega(X)\cong\operatorname{End}_k(\omega(X))$,
+the map $\operatorname{id}_V\otimes a$ is left composition by $a$. Thus,
+applying the preceding stabilization condition to $\omega(Q)$ says that&lt;/p&gt;
+$$
+a\circ f\in\omega(Q)
+\qquad
+\text{for every }a\in\omega(P)\text{ and }f\in\omega(Q).
+$$&lt;p&gt;Since
+$\operatorname{id}_{\omega(X)}\in\omega(Q)$, every
+$a\in\omega(P)$ satisfies&lt;/p&gt;
+$$
+a=a\circ\operatorname{id}_{\omega(X)}\in\omega(Q).
+$$&lt;p&gt;Thus $\omega(P)\subseteq\omega(Q)$, and exactness and faithfulness imply
+$P\subseteq Q$. This holds for every $Q$ as in (2), so $P\subseteq P&#39;$.
+Together with $P&#39;\subseteq P$, this proves $P=P&#39;$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-tannakian-modules&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $(\mathcal C,\omega)$ be as in &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tannakian-stabilizer&#34;&gt;⟦ref:lem-tannakian-stabilizer⟧&lt;/span&gt;,
+let $X\in\mathcal C$, and let $P_X$ be the common subobject in that lemma.
+Set&lt;/p&gt;
+$$
+A_X:=\omega(P_X)\subseteq\operatorname{End}_k(\omega(X)),
+$$&lt;p&gt;and let $\langle X\rangle$ be the strictly full subcategory of $\mathcal C$
+whose objects are isomorphic to subquotients of $X^{\oplus n}$ for some
+$n\geq0$. Then $A_X$ acts naturally on $\omega(Y)$ for every
+$Y\in\langle X\rangle$. This action induces an equivalence&lt;/p&gt;
+$$
+\overline\omega_X:\langle X\rangle\longrightarrow
+\operatorname{Mod}^{\mathrm{fd}}_{A_X},
+\qquad
+Y\longmapsto\bigl(\omega(Y),\rho_Y\bigr),
+$$&lt;p&gt;where $\operatorname{Mod}^{\mathrm{fd}}_{A_X}$ is the category of
+left $A_X$-modules that are finite-dimensional as $k$-vector spaces, such
+that the composite with the forgetful functor is
+$\omega|_{\langle X\rangle}$. Here $\rho_Y$ is the natural action of $A_X$
+on $\omega(Y)$, and $\overline\omega_X$ sends a morphism $f:Y\to Z$ to
+$\omega(f)$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;&lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tannakian-stabilizer&#34;&gt;⟦ref:lem-tannakian-stabilizer⟧&lt;/span&gt; says that $A_X$ is the
+largest subalgebra of $\operatorname{End}_k(\omega(X))$ that stabilizes
+$\omega(Y)$ for every $Y\subseteq X^{\oplus n}$. It therefore acts on every
+$\omega(Y)$ with $Y\in\langle X\rangle$.&lt;/p&gt;
+&lt;p&gt;The right action on $P_X$ is given by precomposition. It preserves $P_X$
+because the composite of two maps that preserve every relevant subobject
+again preserves every relevant subobject. Thus, for a left $A_X$-module $M$
+that is finite-dimensional as a $k$-vector space, the object&lt;/p&gt;
+$$
+P_X\otimes_{A_X}M
+$$&lt;p&gt;is defined in $\mathcal C$. It belongs to $\langle X\rangle$, since $P_X$ is
+a subobject of $\omega(X)^\vee\otimes X$ and $\langle X\rangle$ is closed
+under finite sums, subobjects, and quotients. Exactness of $\omega$ gives&lt;/p&gt;
+$$
+\omega\bigl(P_X\otimes_{A_X}M\bigr)
+\cong A_X\otimes_{A_X}M
+\cong M.
+$$&lt;p&gt;Thus $\overline\omega_X$ is essentially surjective. If
+$u:M\to N$ is an $A_X$-linear map, then&lt;/p&gt;
+$$
+\operatorname{id}_{P_X}\otimes_{A_X}u:
+P_X\otimes_{A_X}M\longrightarrow P_X\otimes_{A_X}N
+$$&lt;p&gt;is a morphism in $\langle X\rangle$. Applying $\omega$ identifies it with&lt;/p&gt;
+$$
+\operatorname{id}_{A_X}\otimes_{A_X}u=u,
+$$&lt;p&gt;so every $A_X$-linear map lifts; hence $\overline\omega_X$ is full. It is
+faithful because $\omega$ is. Therefore it is an equivalence.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-plain&#34; 
+    id=&#34;lem-tannakian-endomorphisms&#34;
+     data-kind=&#34;lemma&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;With the notation of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tannakian-modules&#34;&gt;⟦ref:lem-tannakian-modules⟧&lt;/span&gt;, the natural
+homomorphism&lt;/p&gt;
+$$
+A_X\longrightarrow\operatorname{End}\bigl(\omega|_{\langle X\rangle}\bigr)
+$$&lt;p&gt;is an isomorphism.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $a\in A_X$. For every subobject
+$Y\subseteq X^{\oplus n}$, the defining property of $A_X$ gives&lt;/p&gt;
+$$
+a^{\oplus n}\bigl(\omega(Y)\bigr)\subseteq\omega(Y).
+$$&lt;p&gt;Thus $a^{\oplus n}$ restricts to $\omega(Y)$ and descends to the quotient
+of $\omega(Y)$ by the image of any subobject. It consequently defines an
+endomorphism of $\omega(Z)$ for every subquotient $Z$ of $X^{\oplus n}$. If
+$f:Z\to Z&#39;$ is a morphism in $\langle X\rangle$, its graph is a subobject of
+$Z\oplus Z&#39;$ and is preserved by these endomorphisms. Hence&lt;/p&gt;
+$$
+a_{Z&#39;}\circ\omega(f)=\omega(f)\circ a_Z,
+$$&lt;p&gt;so the resulting family is a natural endomorphism of
+$\omega|_{\langle X\rangle}$.&lt;/p&gt;
+&lt;p&gt;Conversely, let $\eta$ be a natural endomorphism of
+$\omega|_{\langle X\rangle}$ and put $a:=\eta_X$. Naturality with the
+standard inclusions and projections of $X^{\oplus n}$ gives&lt;/p&gt;
+$$
+\eta_{X^{\oplus n}}=a^{\oplus n}.
+$$&lt;p&gt;For a subobject $i:Y\hookrightarrow X^{\oplus n}$, naturality of $\eta$
+gives&lt;/p&gt;
+$$
+a^{\oplus n}\circ\omega(i)=\omega(i)\circ\eta_Y.
+$$&lt;p&gt;Therefore $a^{\oplus n}$ preserves $\omega(Y)$ for every
+$Y\subseteq X^{\oplus n}$, and
+&lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tannakian-stabilizer&#34;&gt;⟦ref:lem-tannakian-stabilizer⟧&lt;/span&gt; implies that $a\in A_X$. The
+preceding construction then recovers $\eta$ from $a$, because every object of
+$\langle X\rangle$ is a subquotient of some $X^{\oplus n}$. This proves&lt;/p&gt;
+$$
+A_X=\operatorname{End}\bigl(\omega|_{\langle X\rangle}\bigr).
+$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;We now prove &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;thm-tannaka-reconstruction&#34;&gt;⟦ref:thm-tannaka-reconstruction⟧&lt;/span&gt;. For every
+$X\in\mathcal C$, let $A_X$ be the algebra of
+&lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tannakian-modules&#34;&gt;⟦ref:lem-tannakian-modules⟧&lt;/span&gt; and put&lt;/p&gt;
+$$
+B_X:=A_X^\vee.
+$$&lt;p&gt;The equivalence in that lemma identifies finite-dimensional $A_X$-modules
+with finite-dimensional $B_X$-comodules. If $X$ is a subquotient of a finite
+direct sum of copies of $X&#39;$, restriction gives a morphism $A_{X&#39;}\to A_X$;
+dually, it gives a coalgebra morphism $B_X\to B_{X&#39;}$. Define&lt;/p&gt;
+$$
+B:=\varinjlim_X B_X.
+$$&lt;p&gt;The objects $X\oplus X&#39;$ show that this system is filtered. Every
+finite-dimensional $B$-comodule factors through some $B_X$, so the
+equivalences of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;lem-tannakian-modules&#34;&gt;⟦ref:lem-tannakian-modules⟧&lt;/span&gt; glue to an
+equivalence&lt;/p&gt;
+$$
+\mathcal C\xrightarrow{\sim}\operatorname{Comod}^{\mathrm{fd}}_B
+$$&lt;p&gt;that carries $\omega$ to the forgetful functor.&lt;/p&gt;
+&lt;p&gt;We now use the tensor structure. Let $V$ and $W$ be finite-dimensional left
+$B$-comodules, with coactions&lt;/p&gt;
+$$
+\delta_V:V\longrightarrow B\otimes_kV,
+\qquad
+\delta_W:W\longrightarrow B\otimes_kW.
+$$&lt;p&gt;A multiplication $m:B\otimes_kB\to B$ that is a coalgebra map gives a
+coaction on the ordinary tensor product $V\otimes_kW$: it is the composite&lt;/p&gt;
+$$
+\begin{aligned}
+V\otimes_kW
+&amp;\xrightarrow{\ \delta_V\otimes\delta_W\ }
+B\otimes_kV\otimes_kB\otimes_kW \\
+&amp;\xrightarrow{\ \operatorname{id}_B\otimes\tau_{V,B}\otimes
+\operatorname{id}_W\ }
+B\otimes_kB\otimes_kV\otimes_kW \\
+&amp;\xrightarrow{\ m\otimes\operatorname{id}_{V\otimes W}\ }
+B\otimes_kV\otimes_kW,
+\end{aligned}
+$$&lt;p&gt;where&lt;/p&gt;
+$$
+\tau_{U,V}:U\otimes_kV\longrightarrow V\otimes_kU,
+\qquad
+u\otimes v\longmapsto v\otimes u,
+$$&lt;p&gt;is the symmetry of finite-dimensional vector spaces.&lt;/p&gt;
+&lt;p&gt;The condition that $m$ be a coalgebra map is exactly what makes this a
+coaction. Conversely, every tensor product on
+$\operatorname{Comod}^{\mathrm{fd}}_B$ whose underlying vector space is
+the ordinary tensor product arises in this way from a unique coalgebra map&lt;/p&gt;
+$$
+m:B\otimes_kB\longrightarrow B.
+$$&lt;p&gt;Transport the tensor product of $\mathcal C$ across the preceding
+equivalence. Its underlying vector space is the ordinary tensor product,
+because $\omega$ is a tensor functor, so it gives such a multiplication $m$.
+The associativity and symmetry constraints make $m$ associative and
+commutative, while the identity object gives a unit $k\to B$. Thus $B$ is a
+commutative bialgebra and&lt;/p&gt;
+$$
+M:=\operatorname{Spec}(B)
+$$&lt;p&gt;is an affine monoid scheme.&lt;/p&gt;
+&lt;p&gt;For every $k$-algebra $R$ and every $k$-algebra map $s:B\to R$, the coaction
+of a $B$-comodule $V$ defines an $R$-linear endomorphism of $V\otimes_kR$.
+It is the composite&lt;/p&gt;
+$$
+\begin{aligned}
+V\otimes_kR
+&amp;\xrightarrow{\ \delta_V\otimes\operatorname{id}_R\ }
+B\otimes_kV\otimes_kR \\
+&amp;\xrightarrow{\ \operatorname{id}_B\otimes\tau_{V,R}\ }
+B\otimes_kR\otimes_kV \\
+&amp;\xrightarrow{\ s\otimes\operatorname{id}_R\otimes\operatorname{id}_V\ }
+R\otimes_kR\otimes_kV \\
+&amp;\xrightarrow{\ \mu_R\otimes\operatorname{id}_V\ }
+R\otimes_kV
+\xrightarrow{\ \tau_{R,V}\ }V\otimes_kR,
+\end{aligned}
+$$&lt;p&gt;where $\mu_R$ is multiplication in $R$.&lt;/p&gt;
+&lt;p&gt;This construction is natural in $V$. The displayed formula for the coaction
+on $V\otimes W$ shows that these endomorphisms respect tensor products
+exactly when&lt;/p&gt;
+$$
+s\circ m=\mu_R\circ(s\otimes s);
+$$&lt;p&gt;they preserve the identity object exactly when $s$ preserves the unit. Thus
+the preceding construction identifies the
+tensor-compatible endomorphisms of $\omega_R$ with the $k$-algebra maps
+$B\to R$. Write $\operatorname{End}^{\otimes}(\omega)(R)$ for these
+endomorphisms, without requiring them to be invertible. Hence&lt;/p&gt;
+$$
+\operatorname{End}^{\otimes}(\omega)(R)
+=\operatorname{Hom}_{k\text{-}\mathrm{alg}}(B,R)
+=M(R).
+$$&lt;p&gt;Rigidity makes every tensor-compatible endomorphism invertible: compatibility
+with the evaluation and coevaluation maps of $X$ and $X^\vee$ gives an inverse
+to its component on $X$. Therefore&lt;/p&gt;
+$$
+\operatorname{End}^{\otimes}(\omega)
+=\operatorname{Aut}^{\otimes}(\omega).
+$$&lt;p&gt;Thus $M$ is an affine group scheme; write it as $G$. Finally,
+finite-dimensional $B$-comodules are precisely finite-dimensional
+representations of $G$. Under the equivalence above, the coaction on
+$\omega(X)$ gives the representation $\rho_X$, so the equivalence is exactly
+$\widetilde\omega$ from the statement.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-DM82&#34; data-bib-key=&#34;DM82&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;Pierre Deligne and James S. Milne. &lt;em&gt;Tannakian Categories&lt;/em&gt;. In &lt;em&gt;Hodge Cycles, Motives, and Shimura Varieties&lt;/em&gt;. Springer-Verlag. 1982.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Mil17&#34; data-bib-key=&#34;Mil17&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;James S. Milne. &lt;em&gt;Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field&lt;/em&gt;. Cambridge University Press. 2017.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Saa72&#34; data-bib-key=&#34;Saa72&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;N. Saavedra Rivano. &lt;em&gt;Catégories Tannakiennes&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Lan98&#34; data-bib-key=&#34;Lan98&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;N. P. Landsman. &lt;em&gt;Tannaka-Krein Duality for Compact Groups&lt;/em&gt;. 1998.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
     <item>
       <title>Six Functor Formalism</title>
       <link>http://localhost:1313/posts/b3f91ac/</link>
@@ -392,7 +1421,9 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -528,7 +1559,9 @@ $$\mathrm{LocSys}_k(X)\cong \mathrm{Rep}_k(\pi_1(X,x))$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -624,7 +1657,9 @@ $$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -762,7 +1797,9 @@ is an isomorphism for all $i\ge 0$ if one of the following is true&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -796,7 +1833,9 @@ $$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1000,7 +2039,9 @@ $$\mathrm{LocSys}_{\mathbb C}(X)\cong \mathrm{Vect}^\nabla(X)$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1176,7 +2217,9 @@ $$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1270,7 +2313,9 @@ I have not found a reference that I am completely satisfied with, but a lot of m
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Sketch)&lt;/span&gt;
@@ -1341,7 +2386,9 @@ $$E_1^{p,q}=\mathrm{H}^q(X,\Omega^p)\Rightarrow \mathrm{H}^{p+q}_{\mathrm{dR}}(X
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Sketch)&lt;/span&gt;
@@ -1588,7 +2635,9 @@ where $\mathrm{NS}(C)=\mathbb Z$ if $k$ is algebraically closed.&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1625,7 +2674,9 @@ which gives $H^1(C,\mathcal O_C)=\mathrm{Ker}(\mathrm{Pic}(C_\varepsilon)\righta
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1663,7 +2714,9 @@ induced by the Abel-Jacobi map $\mathrm{AJ}:C\to J$ defined as $P\mapsto [P-P_0]
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1713,7 +2766,9 @@ $$L_C(T)\equiv \det (1-T\mathrm{Frob}_q|J[\ell])\pmod{\ell}$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1751,7 +2806,9 @@ $$L_C(T)\equiv \frac{\prod_{i=1}^r(1-T^{d_i})}{(1-T)^2}\pmod{2}$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Sketch)&lt;/span&gt;
@@ -1782,7 +2839,9 @@ data-cite-key=&#34;Mum07&#34;&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1836,7 +2895,9 @@ In other words, the characteristic polynomial computes the $L$-polynomial mod $p
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1904,7 +2965,9 @@ When $D=0$, we have $\mathbb A_C(0)=\prod_{P\in |C|}\widehat{\mathcal O}_{C,P}$ 
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1939,7 +3002,9 @@ where for a local meromorphic differential $f_P\mathrm{d}t_P=(a_{-m}t_P^{-m}+a_{
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -1986,7 +3051,9 @@ $$M\omega=\sum_{j}a^{1/p}_{pj-1}t^{j-1}_P\mathrm dt_P$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2017,7 +3084,9 @@ Suppose $M\omega=\left(\sum_{m}b_mt^m_P\right)\mathrm dt_P$, and take $f=t^r$, t
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2048,7 +3117,9 @@ and we are done.&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2189,7 +3260,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2216,7 +3289,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2243,7 +3318,9 @@ Let $T:V\rightarrow V$ be the shifting operator $(a_n)_n\mapsto (a_{n+1})_n$ the
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2277,7 +3354,9 @@ and the result follows.&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2318,7 +3397,9 @@ and the result follows.&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2353,7 +3434,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2394,7 +3477,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2435,7 +3520,9 @@ reducing mod $n$ entry wise. Since matrix addition and multiplications are algeb
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2828,7 +3915,9 @@ $$\frac{\{\textrm{Azumaya }K\textrm{-algebras of dimension }r^2\}}{\textrm{isomo
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2871,7 +3960,9 @@ $$\mathrm{Br}(K)\xrightarrow{\sim} \mathrm{H}^2(K,\mathbb{G}_m)$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2911,7 +4002,9 @@ Composing the injection from &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -2956,7 +4049,9 @@ where the sum is over all places $v$ of $K$.&lt;/li&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3123,7 +4218,9 @@ By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3343,7 +4440,9 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3446,7 +4545,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3473,7 +4574,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3500,7 +4603,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3527,7 +4632,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3570,7 +4677,9 @@ data-cite-key=&#34;GR71&#34; data-cite-note=&#34;V.7 and Proposition V.8.1&#34;&
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3605,7 +4714,9 @@ data-cite-key=&#34;Mil22&#34; data-cite-note=&#34;Theorem 5.18&#34;&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3669,7 +4780,9 @@ Thus $\xi&#39;_{\sigma}\cdot \sigma(A)=A\cdot \xi_{\sigma}$ for all $\sigma\in G
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3728,7 +4841,9 @@ data-cite-key=&#34;Poo17&#34; data-cite-note=&#34;Proposition 1.5.2&#34;&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3763,7 +4878,9 @@ Thus $n\le r$. If equality holds, then the morphism $A\otimes_K L\rightarrow \ma
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -3881,7 +4998,9 @@ $$X=\mathrm{colim}\ \varphi_X.$$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -4482,7 +5601,9 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -4551,7 +5672,9 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -4689,7 +5812,9 @@ where $f^*,f_*$ for some $f$ represents maps induced by Hom-functors.&lt;/li&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -4868,7 +5993,9 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -4903,7 +6030,9 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -5196,7 +6325,9 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -5344,7 +6475,9 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Theorem 4.1.2&#34;&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -5378,7 +6511,9 @@ given by $\mathscr{F}\mapsto \mathscr{F}(\mathbf 1_{X})$.&lt;/p&gt;
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -5562,7 +6697,9 @@ $$\Phi:\mathrm{Mor}_{\mathcal T_1}(f^*(-),-)\rightarrow \mathrm{Mor}_{\mathcal T
 &lt;div class=&#34;math-env style-proof&#34;
      data-kind=&#34;proof&#34;
      data-lang=&#34;en&#34;
-     data-numbered=&#34;false&#34;&gt;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
   &lt;span class=&#34;math-heading&#34;&gt;
     &lt;span class=&#34;math-title&#34;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
@@ -5612,6 +6749,7 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
 &lt;li&gt;&lt;a href=&#34;https://ahilado.wordpress.com/&#34;&gt;Theories and Theorems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.math.columbia.edu/~woit/wordpress/&#34;&gt;Not Even Wrong&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.gregegan.net/&#34;&gt;Greg Egan&#39;s Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hidden-phenomena.com/&#34;&gt;Hidden Phenomena&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;wikis-and-archives&#34;&gt;Wikis and Archives&lt;/h2&gt;
 &lt;ul&gt;

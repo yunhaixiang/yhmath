@@ -39,8 +39,39 @@
           ],
           throwOnError : false
         });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
     });
 </script>
+
   
 
   
@@ -78,7 +109,7 @@
 
   
   
-    <link rel="stylesheet" href="/css/content.min.d0c19805442a73313dc4a8a42b681869d3703076b5277108c16900649f5b38a7.css" integrity="sha256-0MGYBUQqczE9xKikK2gYadNwMHa1J3EIwWkAZJ9bOKc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.1964be08770f64b8a4a7130e022029a2dcf5d60a42cb8aedac47aa66f9a464e9.css" integrity="sha256-GWS&#43;CHcPZLikpxMOAiApotz11gpCy4rtrEeqZvmkZOk=" crossorigin="anonymous">
   
 
   
@@ -95,7 +126,7 @@
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f6850251fa279ccbed4e71497271ca79b0b6b3a1857720e01afdf70c57baacd7.css" integrity="sha256-9oUCUfonnMvtTnFJcnHKebC2s6GFdyDgGv33DFe6rNc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.567ba8ba8823b9de35112bc75000e36c1334683e097f93ace10d80e0d7674cde.css" integrity="sha256-Vnuouogjud41ESvHUADjbBM0aD4Jf5Os4Q2A4NdnTN4=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -268,7 +299,7 @@
     <a class="link" href="http://localhost:1313/posts/fa7e807/" title="Curry–Howard Isomorphism"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a></a>
+    <a class="link" href="http://localhost:1313/posts/9f2a7d0/" title="Galois Representations Arising from Geometry">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   

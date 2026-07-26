@@ -39,6 +39,7 @@ Hard Arithmetic
 Theories and Theorems
 Not Even Wrong
 Greg Egan&#39;s Website
+Hidden Phenomena
 
 Wikis and Archives
 
@@ -216,8 +217,39 @@ Cantor&#39;s Paradise
           ],
           throwOnError : false
         });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
     });
 </script>
+
   
 
   
@@ -227,7 +259,7 @@ Cantor&#39;s Paradise
   <meta property="og:url" content="http://localhost:1313/posts/e852d2e/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Links">
-  <meta property="og:description" content="Blogs The n-Category Café What&#39;s New Neverending Books The Higher Geometer XOR&#39;s Hammer Logic Matters Homotopy Type Theory Xena project Annoying Precision Math3ma Antimeta Secret Blogging Seminar Rigorous Trivialities Theoretical Atlas Lovely Little Lemmas Totally Disconnected Daniel Litt&#39;s Betalog Geometry Bulletin Board Math Counterexamples Gabe Khan&#39;s Blog Fred Akalin&#39;s Blog The Alien Number Roice Nelson&#39;s Blog Hard Arithmetic Theories and Theorems Not Even Wrong Greg Egan&#39;s Website Wikis and Archives Wikipedia Wikiwand WikiSource nLab Stacks Project Kerodon Clowder Project Automorphic Project Logic and Computation Intertwined Arxiv MathBases Pi-Base ZBMATH Open Connected Papers Litmaps ScienceDirect MathSciNet OA.mg Semantic Scholar Oxford Academic PhilPapers The L-functions and Modular Forms Database Fanography Grassmannian Hyperkaehler ManyPoints 3-Dimensional Mgnbar Superficie Database of Ring Theory Cut the Knot The Knot Atlas Planet Math Calimath Approach Zero Mathematics Genealogy Project Numdam Project Gutenberg Project Euler On-Line Encyclopedia of Integer Sequences Proof Wiki Mathonline Digital Mathematics Archive Digital Library for Mathematical Functions Math Definitions PrimePages Adjectives Project Erdos Problems Banana Space MathPickle The TeXromancers Collection of What is... Column Keith Conrad&#39;s Expository Papers Analytic Philosophy Reading List for the Self Taught Stanford Encyclopedia of Philosophy Internet Encyclopedia of Philosophy Classical Archives Sensei&#39;s Library Goodreads MUBI AZ Quotes Conjuring Archive MagicPedia Lingolia Tools and Softwares Code4Math Quick Latex Hash Viewer Overleaf Underleaf ShareLaTeX CoCalc WolframAlpha Mathpix Typst TeXmacs LaTeX Gerby Forester PubPub PreTeXt Quarto Notion GoodNotes Notability Jupyter Agda LeanProver SageMath OSCAR CoCoA Macaulay2 Magma Wolfram Mathematica Maple Desmos GeoGebra Mathgen The Springer GTM Test Linggle Obsidian Manim Reanimate VisualPDE SideFx Houdini Cinema 4D Blender Unreal Engine Godot MathCha TeXnique Hexo Jekyll Hugo Media and Socials Mathoverflow Mathematics Stack Exchange Physics Stack Exchange Philosophy Stack Exchange Thuses Research Seminars Quanta Magazine Nautilus Big Think Mathsodon BookWyrm Locus Art of Problem Solving AMS Bulletin AMS Notices Online Go London Review of Books New York Review of Books One Ahead MathMeetings YoungHom JMRA Numberphile 3Blue1Brown MathDash Cantor&#39;s Paradise">
+  <meta property="og:description" content="Blogs The n-Category Café What&#39;s New Neverending Books The Higher Geometer XOR&#39;s Hammer Logic Matters Homotopy Type Theory Xena project Annoying Precision Math3ma Antimeta Secret Blogging Seminar Rigorous Trivialities Theoretical Atlas Lovely Little Lemmas Totally Disconnected Daniel Litt&#39;s Betalog Geometry Bulletin Board Math Counterexamples Gabe Khan&#39;s Blog Fred Akalin&#39;s Blog The Alien Number Roice Nelson&#39;s Blog Hard Arithmetic Theories and Theorems Not Even Wrong Greg Egan&#39;s Website Hidden Phenomena Wikis and Archives Wikipedia Wikiwand WikiSource nLab Stacks Project Kerodon Clowder Project Automorphic Project Logic and Computation Intertwined Arxiv MathBases Pi-Base ZBMATH Open Connected Papers Litmaps ScienceDirect MathSciNet OA.mg Semantic Scholar Oxford Academic PhilPapers The L-functions and Modular Forms Database Fanography Grassmannian Hyperkaehler ManyPoints 3-Dimensional Mgnbar Superficie Database of Ring Theory Cut the Knot The Knot Atlas Planet Math Calimath Approach Zero Mathematics Genealogy Project Numdam Project Gutenberg Project Euler On-Line Encyclopedia of Integer Sequences Proof Wiki Mathonline Digital Mathematics Archive Digital Library for Mathematical Functions Math Definitions PrimePages Adjectives Project Erdos Problems Banana Space MathPickle The TeXromancers Collection of What is... Column Keith Conrad&#39;s Expository Papers Analytic Philosophy Reading List for the Self Taught Stanford Encyclopedia of Philosophy Internet Encyclopedia of Philosophy Classical Archives Sensei&#39;s Library Goodreads MUBI AZ Quotes Conjuring Archive MagicPedia Lingolia Tools and Softwares Code4Math Quick Latex Hash Viewer Overleaf Underleaf ShareLaTeX CoCalc WolframAlpha Mathpix Typst TeXmacs LaTeX Gerby Forester PubPub PreTeXt Quarto Notion GoodNotes Notability Jupyter Agda LeanProver SageMath OSCAR CoCoA Macaulay2 Magma Wolfram Mathematica Maple Desmos GeoGebra Mathgen The Springer GTM Test Linggle Obsidian Manim Reanimate VisualPDE SideFx Houdini Cinema 4D Blender Unreal Engine Godot MathCha TeXnique Hexo Jekyll Hugo Media and Socials Mathoverflow Mathematics Stack Exchange Physics Stack Exchange Philosophy Stack Exchange Thuses Research Seminars Quanta Magazine Nautilus Big Think Mathsodon BookWyrm Locus Art of Problem Solving AMS Bulletin AMS Notices Online Go London Review of Books New York Review of Books One Ahead MathMeetings YoungHom JMRA Numberphile 3Blue1Brown MathDash Cantor&#39;s Paradise">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -244,10 +276,10 @@ Cantor&#39;s Paradise
   
   
   <meta itemprop="name" content="Links">
-  <meta itemprop="description" content="Blogs The n-Category Café What&#39;s New Neverending Books The Higher Geometer XOR&#39;s Hammer Logic Matters Homotopy Type Theory Xena project Annoying Precision Math3ma Antimeta Secret Blogging Seminar Rigorous Trivialities Theoretical Atlas Lovely Little Lemmas Totally Disconnected Daniel Litt&#39;s Betalog Geometry Bulletin Board Math Counterexamples Gabe Khan&#39;s Blog Fred Akalin&#39;s Blog The Alien Number Roice Nelson&#39;s Blog Hard Arithmetic Theories and Theorems Not Even Wrong Greg Egan&#39;s Website Wikis and Archives Wikipedia Wikiwand WikiSource nLab Stacks Project Kerodon Clowder Project Automorphic Project Logic and Computation Intertwined Arxiv MathBases Pi-Base ZBMATH Open Connected Papers Litmaps ScienceDirect MathSciNet OA.mg Semantic Scholar Oxford Academic PhilPapers The L-functions and Modular Forms Database Fanography Grassmannian Hyperkaehler ManyPoints 3-Dimensional Mgnbar Superficie Database of Ring Theory Cut the Knot The Knot Atlas Planet Math Calimath Approach Zero Mathematics Genealogy Project Numdam Project Gutenberg Project Euler On-Line Encyclopedia of Integer Sequences Proof Wiki Mathonline Digital Mathematics Archive Digital Library for Mathematical Functions Math Definitions PrimePages Adjectives Project Erdos Problems Banana Space MathPickle The TeXromancers Collection of What is... Column Keith Conrad&#39;s Expository Papers Analytic Philosophy Reading List for the Self Taught Stanford Encyclopedia of Philosophy Internet Encyclopedia of Philosophy Classical Archives Sensei&#39;s Library Goodreads MUBI AZ Quotes Conjuring Archive MagicPedia Lingolia Tools and Softwares Code4Math Quick Latex Hash Viewer Overleaf Underleaf ShareLaTeX CoCalc WolframAlpha Mathpix Typst TeXmacs LaTeX Gerby Forester PubPub PreTeXt Quarto Notion GoodNotes Notability Jupyter Agda LeanProver SageMath OSCAR CoCoA Macaulay2 Magma Wolfram Mathematica Maple Desmos GeoGebra Mathgen The Springer GTM Test Linggle Obsidian Manim Reanimate VisualPDE SideFx Houdini Cinema 4D Blender Unreal Engine Godot MathCha TeXnique Hexo Jekyll Hugo Media and Socials Mathoverflow Mathematics Stack Exchange Physics Stack Exchange Philosophy Stack Exchange Thuses Research Seminars Quanta Magazine Nautilus Big Think Mathsodon BookWyrm Locus Art of Problem Solving AMS Bulletin AMS Notices Online Go London Review of Books New York Review of Books One Ahead MathMeetings YoungHom JMRA Numberphile 3Blue1Brown MathDash Cantor&#39;s Paradise">
+  <meta itemprop="description" content="Blogs The n-Category Café What&#39;s New Neverending Books The Higher Geometer XOR&#39;s Hammer Logic Matters Homotopy Type Theory Xena project Annoying Precision Math3ma Antimeta Secret Blogging Seminar Rigorous Trivialities Theoretical Atlas Lovely Little Lemmas Totally Disconnected Daniel Litt&#39;s Betalog Geometry Bulletin Board Math Counterexamples Gabe Khan&#39;s Blog Fred Akalin&#39;s Blog The Alien Number Roice Nelson&#39;s Blog Hard Arithmetic Theories and Theorems Not Even Wrong Greg Egan&#39;s Website Hidden Phenomena Wikis and Archives Wikipedia Wikiwand WikiSource nLab Stacks Project Kerodon Clowder Project Automorphic Project Logic and Computation Intertwined Arxiv MathBases Pi-Base ZBMATH Open Connected Papers Litmaps ScienceDirect MathSciNet OA.mg Semantic Scholar Oxford Academic PhilPapers The L-functions and Modular Forms Database Fanography Grassmannian Hyperkaehler ManyPoints 3-Dimensional Mgnbar Superficie Database of Ring Theory Cut the Knot The Knot Atlas Planet Math Calimath Approach Zero Mathematics Genealogy Project Numdam Project Gutenberg Project Euler On-Line Encyclopedia of Integer Sequences Proof Wiki Mathonline Digital Mathematics Archive Digital Library for Mathematical Functions Math Definitions PrimePages Adjectives Project Erdos Problems Banana Space MathPickle The TeXromancers Collection of What is... Column Keith Conrad&#39;s Expository Papers Analytic Philosophy Reading List for the Self Taught Stanford Encyclopedia of Philosophy Internet Encyclopedia of Philosophy Classical Archives Sensei&#39;s Library Goodreads MUBI AZ Quotes Conjuring Archive MagicPedia Lingolia Tools and Softwares Code4Math Quick Latex Hash Viewer Overleaf Underleaf ShareLaTeX CoCalc WolframAlpha Mathpix Typst TeXmacs LaTeX Gerby Forester PubPub PreTeXt Quarto Notion GoodNotes Notability Jupyter Agda LeanProver SageMath OSCAR CoCoA Macaulay2 Magma Wolfram Mathematica Maple Desmos GeoGebra Mathgen The Springer GTM Test Linggle Obsidian Manim Reanimate VisualPDE SideFx Houdini Cinema 4D Blender Unreal Engine Godot MathCha TeXnique Hexo Jekyll Hugo Media and Socials Mathoverflow Mathematics Stack Exchange Physics Stack Exchange Philosophy Stack Exchange Thuses Research Seminars Quanta Magazine Nautilus Big Think Mathsodon BookWyrm Locus Art of Problem Solving AMS Bulletin AMS Notices Online Go London Review of Books New York Review of Books One Ahead MathMeetings YoungHom JMRA Numberphile 3Blue1Brown MathDash Cantor&#39;s Paradise">
   <meta itemprop="datePublished" content="2021-12-30T00:00:00+00:00">
   <meta itemprop="dateModified" content="2026-06-18T16:52:50-04:00">
-  <meta itemprop="wordCount" content="316">
+  <meta itemprop="wordCount" content="318">
   <meta itemprop="keywords" content="Math,Philosophy">
 
   
@@ -258,7 +290,7 @@ Cantor&#39;s Paradise
 
   
   
-    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.1964be08770f64b8a4a7130e022029a2dcf5d60a42cb8aedac47aa66f9a464e9.css" integrity="sha256-GWS&#43;CHcPZLikpxMOAiApotz11gpCy4rtrEeqZvmkZOk=" crossorigin="anonymous">
   
 
   
@@ -270,13 +302,13 @@ Cantor&#39;s Paradise
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Links">
-  <meta name="twitter:description" content="Blogs The n-Category Café What&#39;s New Neverending Books The Higher Geometer XOR&#39;s Hammer Logic Matters Homotopy Type Theory Xena project Annoying Precision Math3ma Antimeta Secret Blogging Seminar Rigorous Trivialities Theoretical Atlas Lovely Little Lemmas Totally Disconnected Daniel Litt&#39;s Betalog Geometry Bulletin Board Math Counterexamples Gabe Khan&#39;s Blog Fred Akalin&#39;s Blog The Alien Number Roice Nelson&#39;s Blog Hard Arithmetic Theories and Theorems Not Even Wrong Greg Egan&#39;s Website Wikis and Archives Wikipedia Wikiwand WikiSource nLab Stacks Project Kerodon Clowder Project Automorphic Project Logic and Computation Intertwined Arxiv MathBases Pi-Base ZBMATH Open Connected Papers Litmaps ScienceDirect MathSciNet OA.mg Semantic Scholar Oxford Academic PhilPapers The L-functions and Modular Forms Database Fanography Grassmannian Hyperkaehler ManyPoints 3-Dimensional Mgnbar Superficie Database of Ring Theory Cut the Knot The Knot Atlas Planet Math Calimath Approach Zero Mathematics Genealogy Project Numdam Project Gutenberg Project Euler On-Line Encyclopedia of Integer Sequences Proof Wiki Mathonline Digital Mathematics Archive Digital Library for Mathematical Functions Math Definitions PrimePages Adjectives Project Erdos Problems Banana Space MathPickle The TeXromancers Collection of What is... Column Keith Conrad&#39;s Expository Papers Analytic Philosophy Reading List for the Self Taught Stanford Encyclopedia of Philosophy Internet Encyclopedia of Philosophy Classical Archives Sensei&#39;s Library Goodreads MUBI AZ Quotes Conjuring Archive MagicPedia Lingolia Tools and Softwares Code4Math Quick Latex Hash Viewer Overleaf Underleaf ShareLaTeX CoCalc WolframAlpha Mathpix Typst TeXmacs LaTeX Gerby Forester PubPub PreTeXt Quarto Notion GoodNotes Notability Jupyter Agda LeanProver SageMath OSCAR CoCoA Macaulay2 Magma Wolfram Mathematica Maple Desmos GeoGebra Mathgen The Springer GTM Test Linggle Obsidian Manim Reanimate VisualPDE SideFx Houdini Cinema 4D Blender Unreal Engine Godot MathCha TeXnique Hexo Jekyll Hugo Media and Socials Mathoverflow Mathematics Stack Exchange Physics Stack Exchange Philosophy Stack Exchange Thuses Research Seminars Quanta Magazine Nautilus Big Think Mathsodon BookWyrm Locus Art of Problem Solving AMS Bulletin AMS Notices Online Go London Review of Books New York Review of Books One Ahead MathMeetings YoungHom JMRA Numberphile 3Blue1Brown MathDash Cantor&#39;s Paradise">
+  <meta name="twitter:description" content="Blogs The n-Category Café What&#39;s New Neverending Books The Higher Geometer XOR&#39;s Hammer Logic Matters Homotopy Type Theory Xena project Annoying Precision Math3ma Antimeta Secret Blogging Seminar Rigorous Trivialities Theoretical Atlas Lovely Little Lemmas Totally Disconnected Daniel Litt&#39;s Betalog Geometry Bulletin Board Math Counterexamples Gabe Khan&#39;s Blog Fred Akalin&#39;s Blog The Alien Number Roice Nelson&#39;s Blog Hard Arithmetic Theories and Theorems Not Even Wrong Greg Egan&#39;s Website Hidden Phenomena Wikis and Archives Wikipedia Wikiwand WikiSource nLab Stacks Project Kerodon Clowder Project Automorphic Project Logic and Computation Intertwined Arxiv MathBases Pi-Base ZBMATH Open Connected Papers Litmaps ScienceDirect MathSciNet OA.mg Semantic Scholar Oxford Academic PhilPapers The L-functions and Modular Forms Database Fanography Grassmannian Hyperkaehler ManyPoints 3-Dimensional Mgnbar Superficie Database of Ring Theory Cut the Knot The Knot Atlas Planet Math Calimath Approach Zero Mathematics Genealogy Project Numdam Project Gutenberg Project Euler On-Line Encyclopedia of Integer Sequences Proof Wiki Mathonline Digital Mathematics Archive Digital Library for Mathematical Functions Math Definitions PrimePages Adjectives Project Erdos Problems Banana Space MathPickle The TeXromancers Collection of What is... Column Keith Conrad&#39;s Expository Papers Analytic Philosophy Reading List for the Self Taught Stanford Encyclopedia of Philosophy Internet Encyclopedia of Philosophy Classical Archives Sensei&#39;s Library Goodreads MUBI AZ Quotes Conjuring Archive MagicPedia Lingolia Tools and Softwares Code4Math Quick Latex Hash Viewer Overleaf Underleaf ShareLaTeX CoCalc WolframAlpha Mathpix Typst TeXmacs LaTeX Gerby Forester PubPub PreTeXt Quarto Notion GoodNotes Notability Jupyter Agda LeanProver SageMath OSCAR CoCoA Macaulay2 Magma Wolfram Mathematica Maple Desmos GeoGebra Mathgen The Springer GTM Test Linggle Obsidian Manim Reanimate VisualPDE SideFx Houdini Cinema 4D Blender Unreal Engine Godot MathCha TeXnique Hexo Jekyll Hugo Media and Socials Mathoverflow Mathematics Stack Exchange Physics Stack Exchange Philosophy Stack Exchange Thuses Research Seminars Quanta Magazine Nautilus Big Think Mathsodon BookWyrm Locus Art of Problem Solving AMS Bulletin AMS Notices Online Go London Review of Books New York Review of Books One Ahead MathMeetings YoungHom JMRA Numberphile 3Blue1Brown MathDash Cantor&#39;s Paradise">
 
 
   
 
 
-  <link rel="stylesheet" href="/css/single.min.f5e39ec43f958df4daa7313565cadfa0d4f2085c84c6841ed32c4f9b5f843bb4.css" integrity="sha256-9eOexD&#43;VjfTapzE1ZcrfoNTyCFyExoQe0yxPm1&#43;EO7Q=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/single.min.567ba8ba8823b9de35112bc75000e36c1334683e097f93ace10d80e0d7674cde.css" integrity="sha256-Vnuouogjud41ESvHUADjbBM0aD4Jf5Os4Q2A4NdnTN4=" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
@@ -367,7 +399,7 @@ Cantor&#39;s Paradise
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          316 words
+          318 words
         </span>
       
       
@@ -453,6 +485,7 @@ Cantor&#39;s Paradise
 <li><a href="https://ahilado.wordpress.com/">Theories and Theorems</a></li>
 <li><a href="https://www.math.columbia.edu/~woit/wordpress/">Not Even Wrong</a></li>
 <li><a href="https://www.gregegan.net/">Greg Egan's Website</a></li>
+<li><a href="https://hidden-phenomena.com/">Hidden Phenomena</a></li>
 </ul>
 <h2 id="wikis-and-archives">Wikis and Archives</h2>
 <ul>

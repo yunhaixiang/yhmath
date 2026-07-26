@@ -39,8 +39,39 @@
           ],
           throwOnError : false
         });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
     });
 </script>
+
   
 
   
@@ -63,8 +94,8 @@
   
   
   <meta itemprop="name" content="Expositions">
-  <meta itemprop="datePublished" content="2026-06-27T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-06-29T11:50:28-04:00">
+  <meta itemprop="datePublished" content="2026-07-25T17:40:43-04:00">
+  <meta itemprop="dateModified" content="2026-07-24T00:00:01-04:00">
 
   
   
@@ -74,7 +105,7 @@
 
   
   
-    <link rel="stylesheet" href="/css/content.min.a44543f4badd36a3b3a504a20c3fc3c7b53cc13d3168dbcb82651ae11f24e852.css" integrity="sha256-pEVD9LrdNqOzpQSiDD/Dx7U8wT0xaNvLgmUa4R8k6FI=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/content.min.1964be08770f64b8a4a7130e022029a2dcf5d60a42cb8aedac47aa66f9a464e9.css" integrity="sha256-GWS&#43;CHcPZLikpxMOAiApotz11gpCy4rtrEeqZvmkZOk=" crossorigin="anonymous">
   
 
   
@@ -186,6 +217,59 @@
   
 
   
+  
+  <div class="post-group">
+    <h3>January 2024</h3>
+    <ul>
+      
+      <li>
+        <a class="link" href="/posts/40383e2/">Bundles and Divisors on Schemes</a>
+        <time>January 25, 2024</time>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="post-group">
+    <h3>August 2023</h3>
+    <ul>
+      
+      <li>
+        <a class="link" href="/posts/bc677f9/">What is This Thing Called Knowledge?</a>
+        <time>August 7, 2023</time>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="post-group">
+    <h3>September 2022</h3>
+    <ul>
+      
+      <li>
+        <a class="link" href="/posts/910cedd/">Derived Category</a>
+        <time>September 7, 2022</time>
+      </li>
+      
+      <li>
+        <a class="link" href="/posts/00c73a8/">Triangulated Categories</a>
+        <time>September 5, 2022</time>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="post-group">
+    <h3>July 2022</h3>
+    <ul>
+      
+      <li>
+        <a class="link" href="/posts/563818b/">Abelian Categories and Derived Functors</a>
+        <time>July 25, 2022</time>
+      </li>
+      
+    </ul>
+  </div>
   
   <div class="post-group">
     <h3>February 2022</h3>
