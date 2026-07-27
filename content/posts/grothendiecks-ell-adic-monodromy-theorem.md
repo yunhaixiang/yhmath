@@ -1,6 +1,6 @@
 ---
 title: Grothendieck’s $\ell$-adic Monodromy Theorem
-date: 2026-07-26 00:00:01 -0400
+date: 2026-09-26 00:00:01 -0400
 slug: 6439cea
 aliases:
   - /posts/grothendiecks-ell-adic-monodromy-theorem/

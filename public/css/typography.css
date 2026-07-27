@@ -21,3 +21,48 @@ body.small-caps-sections .toc a {
   font-variant: small-caps;
   font-variant-caps: small-caps;
 }
+
+/* Opt-in centering for Markdown tables; retain horizontal scrolling on small screens. */
+.content table.table-centered {
+  display: table;
+  width: max-content;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .content table.table-centered {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    overflow-x: auto;
+  }
+}
+
+/* Reusable annotations for kana modified by dakuten and handakuten. */
+.content .kana-dakuten,
+.content .kana-handakuten {
+  display: block;
+  font-weight: 600;
+}
+
+.content .kana-dakuten {
+  color: var(--orange);
+}
+
+.content .kana-dakuten-label {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+.content .kana-handakuten {
+  color: var(--purple);
+}
+
+.content .kana-handakuten-label {
+  color: var(--purple);
+  font-weight: 600;
+}

@@ -7,6 +7,507 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
+      <link>http://localhost:1313/posts/6439cea/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/6439cea/</guid>
+      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
+an $\ell$-adic representation arising from geometry is quasi-unipotent. This
+post will explain the local Galois groups involved, state the theorem, and
+discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
+&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
+&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
+&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
+&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
+&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
+      <link>http://localhost:1313/posts/68915c5/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/68915c5/</guid>
+      <description>&lt;p&gt;The Néron–Ogg–Shafarevich criterion translates good reduction of an abelian
+variety into a condition on its $ℓ$-adic Galois representation. The
+Serre–Tate criterion gives a $p$-adic counterpart. This post will develop both
+criteria and the relation between them.&lt;/p&gt;
+&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
+&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
+&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
+&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Galois Representations Arising from Geometry</title>
+      <link>http://localhost:1313/posts/9f2a7d0/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/9f2a7d0/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the art of giving the same name to different things.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>埃尔德什、三岛由纪夫、死亡</title>
+      <link>http://localhost:1313/posts/erdos-mishima-death/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/erdos-mishima-death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Japanese Part I</title>
+      <link>http://localhost:1313/posts/72d4e91/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/72d4e91/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The goal of mathematics is harmony in truth, and the goal of art is harmony in beauty; emotion is at work in both.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Kiyoshi Oka&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;I found an excellent Japanese Grammar text by Tae Kim, so I decided to write down my notes while studying it. I am a near complete beginner in Japanese, but I know some basics such as the hiraganas and katanagas. I am also a native mandarin speaker, so Kanja is not difficult for me. Thus, this would be a very idiosyncratic note that is specifically tailored to my learning journey.&lt;/p&gt;
+&lt;h2 id=&#34;sounds&#34;&gt;Sounds&lt;/h2&gt;
+&lt;h3 id=&#34;50-sounds&#34;&gt;50 Sounds&lt;/h3&gt;
+&lt;p&gt;There are 50 sounds and two intonations (Low and High). 五十音 is the basic Japanese sound chart. Each cell gives ひらがな, カタカナ, its ローマ字 reading, and (in parentheses) the 万葉仮名 source of the ひらがな. Voiced variants appear below their base kana: &lt;span class=&#34;kana-dakuten-label&#34;&gt;゛ 濁点&lt;/span&gt; and &lt;span class=&#34;kana-handakuten-label&#34;&gt;゜ 半濁点&lt;/span&gt;.&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Vowels&lt;/th&gt;
+          &lt;th&gt;a&lt;/th&gt;
+          &lt;th&gt;i&lt;/th&gt;
+          &lt;th&gt;u&lt;/th&gt;
+          &lt;th&gt;e&lt;/th&gt;
+          &lt;th&gt;o&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;あ / ア&lt;br&gt;&lt;em&gt;a&lt;/em&gt; (安)&lt;/td&gt;
+          &lt;td&gt;い / イ&lt;br&gt;&lt;em&gt;i&lt;/em&gt; (以)&lt;/td&gt;
+          &lt;td&gt;う / ウ&lt;br&gt;&lt;em&gt;u&lt;/em&gt; (宇)&lt;/td&gt;
+          &lt;td&gt;え / エ&lt;br&gt;&lt;em&gt;e&lt;/em&gt; (衣)&lt;/td&gt;
+          &lt;td&gt;お / オ&lt;br&gt;&lt;em&gt;o&lt;/em&gt; (於)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;K&lt;/td&gt;
+          &lt;td&gt;か / カ&lt;br&gt;&lt;em&gt;ka&lt;/em&gt; (加)&lt;/td&gt;
+          &lt;td&gt;き / キ&lt;br&gt;&lt;em&gt;ki&lt;/em&gt; (幾)&lt;/td&gt;
+          &lt;td&gt;く / ク&lt;br&gt;&lt;em&gt;ku&lt;/em&gt; (久)&lt;/td&gt;
+          &lt;td&gt;け / ケ&lt;br&gt;&lt;em&gt;ke&lt;/em&gt; (計)&lt;/td&gt;
+          &lt;td&gt;こ / コ&lt;br&gt;&lt;em&gt;ko&lt;/em&gt; (己)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;G (゛)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;が / ガ&lt;br&gt;&lt;em&gt;ga&lt;/em&gt; (加)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぎ / ギ&lt;br&gt;&lt;em&gt;gi&lt;/em&gt; (幾)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぐ / グ&lt;br&gt;&lt;em&gt;gu&lt;/em&gt; (久)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;げ / ゲ&lt;br&gt;&lt;em&gt;ge&lt;/em&gt; (計)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ご / ゴ&lt;br&gt;&lt;em&gt;go&lt;/em&gt; (己)&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;S&lt;/td&gt;
+          &lt;td&gt;さ / サ&lt;br&gt;&lt;em&gt;sa&lt;/em&gt; (左)&lt;/td&gt;
+          &lt;td&gt;し / シ&lt;br&gt;&lt;em&gt;shi&lt;/em&gt; (之)&lt;/td&gt;
+          &lt;td&gt;す / ス&lt;br&gt;&lt;em&gt;su&lt;/em&gt; (寸)&lt;/td&gt;
+          &lt;td&gt;せ / セ&lt;br&gt;&lt;em&gt;se&lt;/em&gt; (世)&lt;/td&gt;
+          &lt;td&gt;そ / ソ&lt;br&gt;&lt;em&gt;so&lt;/em&gt; (曽)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;Z (゛)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ざ / ザ&lt;br&gt;&lt;em&gt;za&lt;/em&gt; (左)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;じ / ジ&lt;br&gt;&lt;em&gt;ji&lt;/em&gt; (之)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ず / ズ&lt;br&gt;&lt;em&gt;zu&lt;/em&gt; (寸)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぜ / ゼ&lt;br&gt;&lt;em&gt;ze&lt;/em&gt; (世)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぞ / ゾ&lt;br&gt;&lt;em&gt;zo&lt;/em&gt; (曽)&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;た / タ&lt;br&gt;&lt;em&gt;ta&lt;/em&gt; (太)&lt;/td&gt;
+          &lt;td&gt;ち / チ&lt;br&gt;&lt;em&gt;chi&lt;/em&gt; (知)&lt;/td&gt;
+          &lt;td&gt;つ / ツ&lt;br&gt;&lt;em&gt;tsu&lt;/em&gt; (川)&lt;/td&gt;
+          &lt;td&gt;て / テ&lt;br&gt;&lt;em&gt;te&lt;/em&gt; (天)&lt;/td&gt;
+          &lt;td&gt;と / ト&lt;br&gt;&lt;em&gt;to&lt;/em&gt; (止)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;D (゛)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;だ / ダ&lt;br&gt;&lt;em&gt;da&lt;/em&gt; (太)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぢ / ヂ&lt;br&gt;&lt;em&gt;ji&lt;/em&gt; (知)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;づ / ヅ&lt;br&gt;&lt;em&gt;zu&lt;/em&gt; (川)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;で / デ&lt;br&gt;&lt;em&gt;de&lt;/em&gt; (天)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ど / ド&lt;br&gt;&lt;em&gt;do&lt;/em&gt; (止)&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;N&lt;/td&gt;
+          &lt;td&gt;な / ナ&lt;br&gt;&lt;em&gt;na&lt;/em&gt; (奈)&lt;/td&gt;
+          &lt;td&gt;に / ニ&lt;br&gt;&lt;em&gt;ni&lt;/em&gt; (仁)&lt;/td&gt;
+          &lt;td&gt;ぬ / ヌ&lt;br&gt;&lt;em&gt;nu&lt;/em&gt; (奴)&lt;/td&gt;
+          &lt;td&gt;ね / ネ&lt;br&gt;&lt;em&gt;ne&lt;/em&gt; (祢)&lt;/td&gt;
+          &lt;td&gt;の / ノ&lt;br&gt;&lt;em&gt;no&lt;/em&gt; (乃)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;H&lt;/td&gt;
+          &lt;td&gt;は / ハ&lt;br&gt;&lt;em&gt;ha&lt;/em&gt; (波)&lt;/td&gt;
+          &lt;td&gt;ひ / ヒ&lt;br&gt;&lt;em&gt;hi&lt;/em&gt; (比)&lt;/td&gt;
+          &lt;td&gt;ふ / フ&lt;br&gt;&lt;em&gt;fu&lt;/em&gt; (不)&lt;/td&gt;
+          &lt;td&gt;へ / ヘ&lt;br&gt;&lt;em&gt;he&lt;/em&gt; (部)&lt;/td&gt;
+          &lt;td&gt;ほ / ホ&lt;br&gt;&lt;em&gt;ho&lt;/em&gt; (保)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;B (゛)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ば / バ&lt;br&gt;&lt;em&gt;ba&lt;/em&gt; (波)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;び / ビ&lt;br&gt;&lt;em&gt;bi&lt;/em&gt; (比)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぶ / ブ&lt;br&gt;&lt;em&gt;bu&lt;/em&gt; (不)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;べ / ベ&lt;br&gt;&lt;em&gt;be&lt;/em&gt; (部)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-dakuten&#34;&gt;ぼ / ボ&lt;br&gt;&lt;em&gt;bo&lt;/em&gt; (保)&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-handakuten&#34;&gt;P (゜)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-handakuten&#34;&gt;ぱ / パ&lt;br&gt;&lt;em&gt;pa&lt;/em&gt; (波)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-handakuten&#34;&gt;ぴ / ピ&lt;br&gt;&lt;em&gt;pi&lt;/em&gt; (比)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-handakuten&#34;&gt;ぷ / プ&lt;br&gt;&lt;em&gt;pu&lt;/em&gt; (不)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-handakuten&#34;&gt;ぺ / ペ&lt;br&gt;&lt;em&gt;pe&lt;/em&gt; (部)&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&#34;kana-handakuten&#34;&gt;ぽ / ポ&lt;br&gt;&lt;em&gt;po&lt;/em&gt; (保)&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;M&lt;/td&gt;
+          &lt;td&gt;ま / マ&lt;br&gt;&lt;em&gt;ma&lt;/em&gt; (末)&lt;/td&gt;
+          &lt;td&gt;み / ミ&lt;br&gt;&lt;em&gt;mi&lt;/em&gt; (美)&lt;/td&gt;
+          &lt;td&gt;む / ム&lt;br&gt;&lt;em&gt;mu&lt;/em&gt; (武)&lt;/td&gt;
+          &lt;td&gt;め / メ&lt;br&gt;&lt;em&gt;me&lt;/em&gt; (女)&lt;/td&gt;
+          &lt;td&gt;も / モ&lt;br&gt;&lt;em&gt;mo&lt;/em&gt; (毛)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Y&lt;/td&gt;
+          &lt;td&gt;や / ヤ&lt;br&gt;&lt;em&gt;ya&lt;/em&gt; (也)&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;ゆ / ユ&lt;br&gt;&lt;em&gt;yu&lt;/em&gt; (由)&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;よ / ヨ&lt;br&gt;&lt;em&gt;yo&lt;/em&gt; (与)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;R&lt;/td&gt;
+          &lt;td&gt;ら / ラ&lt;br&gt;&lt;em&gt;ra&lt;/em&gt; (良)&lt;/td&gt;
+          &lt;td&gt;り / リ&lt;br&gt;&lt;em&gt;ri&lt;/em&gt; (利)&lt;/td&gt;
+          &lt;td&gt;る / ル&lt;br&gt;&lt;em&gt;ru&lt;/em&gt; (留)&lt;/td&gt;
+          &lt;td&gt;れ / レ&lt;br&gt;&lt;em&gt;re&lt;/em&gt; (礼)&lt;/td&gt;
+          &lt;td&gt;ろ / ロ&lt;br&gt;&lt;em&gt;ro&lt;/em&gt; (呂)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;W&lt;/td&gt;
+          &lt;td&gt;わ / ワ&lt;br&gt;&lt;em&gt;wa&lt;/em&gt; (和)&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;を / ヲ&lt;br&gt;&lt;em&gt;o&lt;/em&gt; (遠)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;N&lt;/td&gt;
+          &lt;td&gt;ん / ン&lt;br&gt;&lt;em&gt;n&lt;/em&gt; (无)&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;small-characters&#34;&gt;Small Characters&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Small や・ゆ・よ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Small ゃ・ゅ・ょ (and ャ・ュ・ョ) combine with an i-column kana to make one モーラ. For example, きゃ is &lt;em&gt;kya&lt;/em&gt;, not &lt;em&gt;ki-ya&lt;/em&gt;.&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;ゃ / ャ&lt;/th&gt;
+          &lt;th&gt;ゅ / ュ&lt;/th&gt;
+          &lt;th&gt;ょ / ョ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;K&lt;/td&gt;
+          &lt;td&gt;きゃ / キャ&lt;br&gt;&lt;em&gt;kya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;きゅ / キュ&lt;br&gt;&lt;em&gt;kyu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;きょ / キョ&lt;br&gt;&lt;em&gt;kyo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G&lt;/td&gt;
+          &lt;td&gt;ぎゃ / ギャ&lt;br&gt;&lt;em&gt;gya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ぎゅ / ギュ&lt;br&gt;&lt;em&gt;gyu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ぎょ / ギョ&lt;br&gt;&lt;em&gt;gyo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;S&lt;/td&gt;
+          &lt;td&gt;しゃ / シャ&lt;br&gt;&lt;em&gt;sha&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;しゅ / シュ&lt;br&gt;&lt;em&gt;shu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;しょ / ショ&lt;br&gt;&lt;em&gt;sho&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;J&lt;/td&gt;
+          &lt;td&gt;じゃ / ジャ&lt;br&gt;&lt;em&gt;ja&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;じゅ / ジュ&lt;br&gt;&lt;em&gt;ju&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;じょ / ジョ&lt;br&gt;&lt;em&gt;jo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ch&lt;/td&gt;
+          &lt;td&gt;ちゃ / チャ&lt;br&gt;&lt;em&gt;cha&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ちゅ / チュ&lt;br&gt;&lt;em&gt;chu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ちょ / チョ&lt;br&gt;&lt;em&gt;cho&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;N&lt;/td&gt;
+          &lt;td&gt;にゃ / ニャ&lt;br&gt;&lt;em&gt;nya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;にゅ / ニュ&lt;br&gt;&lt;em&gt;nyu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;にょ / ニョ&lt;br&gt;&lt;em&gt;nyo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;H&lt;/td&gt;
+          &lt;td&gt;ひゃ / ヒャ&lt;br&gt;&lt;em&gt;hya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ひゅ / ヒュ&lt;br&gt;&lt;em&gt;hyu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ひょ / ヒョ&lt;br&gt;&lt;em&gt;hyo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;B&lt;/td&gt;
+          &lt;td&gt;びゃ / ビャ&lt;br&gt;&lt;em&gt;bya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;びゅ / ビュ&lt;br&gt;&lt;em&gt;byu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;びょ / ビョ&lt;br&gt;&lt;em&gt;byo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;P&lt;/td&gt;
+          &lt;td&gt;ぴゃ / ピャ&lt;br&gt;&lt;em&gt;pya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ぴゅ / ピュ&lt;br&gt;&lt;em&gt;pyu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;ぴょ / ピョ&lt;br&gt;&lt;em&gt;pyo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;M&lt;/td&gt;
+          &lt;td&gt;みゃ / ミャ&lt;br&gt;&lt;em&gt;mya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;みゅ / ミュ&lt;br&gt;&lt;em&gt;myu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;みょ / ミョ&lt;br&gt;&lt;em&gt;myo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;R&lt;/td&gt;
+          &lt;td&gt;りゃ / リャ&lt;br&gt;&lt;em&gt;rya&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;りゅ / リュ&lt;br&gt;&lt;em&gt;ryu&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;りょ / リョ&lt;br&gt;&lt;em&gt;ryo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Small katakana vowels&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Small katakana vowels—ァ・ィ・ゥ・ェ・ォ—are used mainly to write loanword sounds that the basic chart does not contain. They also form one モーラ with the preceding kana.&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Small kana&lt;/th&gt;
+          &lt;th&gt;Combination&lt;/th&gt;
+          &lt;th&gt;ローマ字&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ァ&lt;/td&gt;
+          &lt;td&gt;ファ&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;fa&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ィ&lt;/td&gt;
+          &lt;td&gt;ティ&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;ti&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ゥ&lt;/td&gt;
+          &lt;td&gt;トゥ&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;tu&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ェ&lt;/td&gt;
+          &lt;td&gt;シェ&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;she&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ォ&lt;/td&gt;
+          &lt;td&gt;フォ&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;fo&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Small つ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Small っ (or ッ in カタカナ) is called 促音. It is a one-モーラ pause before the next consonant, which is then held or doubled in ローマ字. It is not pronounced as &lt;em&gt;tsu&lt;/em&gt;.&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Word&lt;/th&gt;
+          &lt;th&gt;ローマ字&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;きて&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;kite&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;come (て-form of 来る)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;きって&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;kitte&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;stamp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;がっこう&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;gakkō&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;school&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;vowel-extension&#34;&gt;Vowel Extension&lt;/h3&gt;
+&lt;p&gt;Long vowels (長音) last for two モーラ, so vowel length can change a word’s meaning. In ひらがな, a long vowel is usually written with an additional vowel kana. In particular, えい is often pronounced as a long &lt;em&gt;ē&lt;/em&gt;, and おう as a long &lt;em&gt;ō&lt;/em&gt;. In カタカナ, the long-vowel mark ー is normally used instead.&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Writing&lt;/th&gt;
+          &lt;th&gt;ローマ字&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;おばさん&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;obasan&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;aunt or middle-aged woman&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;おばあさん&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;obāsan&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;grandmother or elderly woman&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;せんせい&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;sensei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;teacher; えい is pronounced &lt;em&gt;ē&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;とうきょう&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Tōkyō&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Tokyo; おう is pronounced &lt;em&gt;ō&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;コーヒー&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;kōhī&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;coffee; ー extends the preceding vowel&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;音読み-and-訓読み&#34;&gt;音読み and 訓読み&lt;/h3&gt;
+&lt;p&gt;A kanji does not have one fixed pronunciation. 音読み（おんよみ） are readings borrowed from historical Chinese, while 訓読み（くんよみ） are native Japanese words attached to a kanji’s meaning. 音読み often appear in compounds of two or more kanji; 訓読み often appear when a kanji stands alone or is followed by ひらがな (送り仮名).&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Kanji&lt;/th&gt;
+          &lt;th&gt;音読み&lt;/th&gt;
+          &lt;th&gt;Compound&lt;/th&gt;
+          &lt;th&gt;訓読み&lt;/th&gt;
+          &lt;th&gt;Native word&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;学&lt;/td&gt;
+          &lt;td&gt;ガク&lt;/td&gt;
+          &lt;td&gt;学校（がっこう）&lt;/td&gt;
+          &lt;td&gt;まな（ぶ）&lt;/td&gt;
+          &lt;td&gt;学ぶ（まなぶ）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;水&lt;/td&gt;
+          &lt;td&gt;スイ&lt;/td&gt;
+          &lt;td&gt;水道（すいどう）&lt;/td&gt;
+          &lt;td&gt;みず&lt;/td&gt;
+          &lt;td&gt;水（みず）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;食&lt;/td&gt;
+          &lt;td&gt;ショク&lt;/td&gt;
+          &lt;td&gt;食事（しょくじ）&lt;/td&gt;
+          &lt;td&gt;た（べる）&lt;/td&gt;
+          &lt;td&gt;食べる（たべる）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For a Mandarin speaker, 音読み may sometimes help with recognizing shared Chinese vocabulary, such as 学生／学生, but they preserve older Chinese pronunciations and are not reliably predictable from modern Mandarin.&lt;/p&gt;
+&lt;h3 id=&#34;pitch-accent&#34;&gt;Pitch Accent&lt;/h3&gt;
+&lt;p&gt;Japanese uses &lt;strong&gt;pitch accent&lt;/strong&gt; (高低アクセント): each モーラ is pronounced at a relatively high or low pitch. The pattern belongs to the whole word, not to an individual kana, and a fall in pitch can distinguish otherwise identical words. For example, in the Tokyo pattern, &lt;code&gt;H&lt;/code&gt; means relatively high and &lt;code&gt;L&lt;/code&gt; means relatively low:&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Word&lt;/th&gt;
+          &lt;th&gt;Pitch pattern&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;雨（あめ）&lt;/td&gt;
+          &lt;td&gt;H–L&lt;/td&gt;
+          &lt;td&gt;rain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;飴（あめ）&lt;/td&gt;
+          &lt;td&gt;L–H&lt;/td&gt;
+          &lt;td&gt;candy&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The same kana, あめ, can therefore have different meanings solely through its pitch pattern.&lt;/p&gt;
+&lt;h2 id=&#34;basic-grammar&#34;&gt;Basic Grammar&lt;/h2&gt;
+&lt;h3 id=&#34;expressing-state-of-being&#34;&gt;Expressing State of Being&lt;/h3&gt;
+&lt;h3 id=&#34;particles&#34;&gt;Particles&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Curry–Howard Isomorphism</title>
       <link>http://localhost:1313/posts/fa7e807/</link>
       <pubDate>Sat, 25 Jul 2026 17:40:43 -0400</pubDate>

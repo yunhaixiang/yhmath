@@ -1,6 +1,6 @@
 ---
 title: Néron–Ogg–Shafarevich and Serre–Tate Criteria
-date: 2026-07-26 00:00:01 -0400
+date: 2026-09-26 00:00:01 -0400
 slug: 68915c5
 aliases:
   - /posts/neron-ogg-shafarevich-and-serre-tate-criterion/
