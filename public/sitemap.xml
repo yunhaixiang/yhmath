@@ -3,52 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
-    <lastmod>2026-07-26T16:59:23-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-26T19:57:53-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/expositions/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/6439cea/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/68915c5/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/number-theory/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cohomology/</loc>
     <lastmod>2026-07-25T23:57:14-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/expositions/</loc>
-    <lastmod>2026-07-26T19:57:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2026-07-26T19:57:53-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/1b64c0e/</loc>
     <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-07-26T19:57:53-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-07-26T19:57:53-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/9f2a7d0/</loc>
     <lastmod>2026-07-25T23:57:14-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/number-theory/</loc>
-    <lastmod>2026-07-26T16:59:23-04:00</lastmod>
+    <loc>http://localhost:1313/categories/essays/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/literature/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/erdos-mishima-death/</loc>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/japanese/</loc>
-    <lastmod>2026-07-09T23:40:33-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/language-learning/</loc>
-    <lastmod>2026-07-09T23:40:33-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/72d4e91/</loc>
-    <lastmod>2026-07-09T23:40:33-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/notes/</loc>
-    <lastmod>2026-07-09T23:40:33-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/6439cea/</loc>
-    <lastmod>2026-07-26T16:59:23-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/68915c5/</loc>
-    <lastmod>2026-07-26T16:59:23-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/fa7e807/</loc>
     <lastmod>2026-07-26T19:57:53-04:00</lastmod>
@@ -59,22 +71,7 @@
     <loc>http://localhost:1313/tags/type-theory/</loc>
     <lastmod>2026-07-26T19:57:53-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/essays/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/literature/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/philosophy/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/erdos-mishima-death/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/category-theory/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/end-calculus/</loc>
     <lastmod>2026-07-25T23:57:14-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/f2c37cb/</loc>
@@ -288,7 +285,7 @@
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
+    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-04T15:33:43-04:00</lastmod>
