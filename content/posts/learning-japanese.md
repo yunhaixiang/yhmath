@@ -129,4 +129,155 @@ The same kana, あめ, can therefore have different meanings solely through its 
 
 ### Expressing State of Being
 
+The informal copula forms are だ (affirmative), じゃない (negative), だった (past), and じゃなかった (past negative).
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | 学生だ | 学生だった |
+| Negative | 学生じゃない | 学生じゃなかった |
+{.table-centered}
+
+
 ### Particles
+
+Particles follow words to show their role in a sentence. The three most useful ones at the beginning are は, も, and が.
+
+| Particle | Core role | Example | Meaning |
+| --- | --- | --- | --- |
+| は (*wa*) | marks the topic; sets what the sentence is about | 私は学生だ。 | As for me, I am a student. |
+| も (*mo*) | means “also” or “too” | 私も学生だ。 | I am also a student. |
+| が (*ga*) | marks the subject, especially new or identified information | 誰が学生？　私が学生だ。 | Who is the student? I am the student. |
+{.table-centered}
+
+Although は and が can both follow a person, they change the focus. 私は学生だ says something about *me*; 私が学生だ identifies *me* as the person who is the student. When は is a particle, it is pronounced *wa*, not *ha*.
+
+
+### Adjectives
+
+Japanese adjectives divide into two main groups. **i-adjectives** usually end in い and conjugate themselves. **na-adjectives** use な before a noun, but use the copula だ when they end a sentence.
+
+| Type | Before a noun | As a predicate |
+| --- | --- | --- |
+| i-adjective | 高い山 | 山は高い。 |
+| na-adjective | 静かな町 | 町は静かだ。 |
+{.table-centered}
+
+#### i-adjectives
+
+For an i-adjective, remove the final い and add the relevant ending. Using 高い (*takai*, “high” or “expensive”):
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | 高い | 高かった |
+| Negative | 高くない | 高くなかった |
+{.table-centered}
+
+**Exception: いい.** The adjective いい (*ii*, “good”) is irregular: its affirmative non-past form is いい, but the other forms use よ- rather than い-.
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | いい | よかった |
+| Negative | よくない | よくなかった |
+{.table-centered}
+
+かっこいい (*kakkoii*, “cool”) follows the same pattern: かっこよくない, かっこよかった, and かっこよくなかった. By contrast, かわいい (*kawaii*, “cute”) is regular: かわいくない and かわいかった.
+
+#### na-adjectives
+
+For a na-adjective, conjugate the following copula just as with a noun. Using 静か (*shizuka*, “quiet”):
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | 静かだ | 静かだった |
+| Negative | 静かじゃない | 静かじゃなかった |
+{.table-centered}
+
+The ending alone is not a perfect test: きれい (*kirei*, “pretty/clean”) ends in い but is a na-adjective, so it becomes きれいな部屋 and きれいだ.
+
+
+### Verbs
+
+Japanese verbs do not change for person or number. The two main regular classes are **る-verbs** (一段 verbs) and **う-verbs** (五段 verbs). The tables below use plain, informal forms.
+
+| Type | How to recognize it | Examples |
+| --- | --- | --- |
+| る-verb | Usually ends in る after an *i* or *e* sound | 食べる, 見る |
+| う-verb | Ends in a う-row sound: う, く, す, つ, ぬ, む, る, ぐ, or ぶ | 書く, 話す, 飲む, 買う |
+{.table-centered}
+
+#### る-verbs
+
+For a る-verb, remove る and add the relevant ending. Using 食べる (*taberu*, “to eat”):
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | 食べる | 食べた |
+| Negative | 食べない | 食べなかった |
+{.table-centered}
+
+#### う-verbs
+
+For an う-verb, the final kana changes. In the negative, change it to the a-row and add ない; for verbs ending in う, use わない rather than あない. Using 書く (*kaku*, “to write”):
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | 書く | 書いた |
+| Negative | 書かない | 書かなかった |
+{.table-centered}
+
+The past-positive form is the part that depends on the final kana. The past-negative form is regular: first make the non-past negative, then replace ない with なかった. For example, 書く → 書かない → 書かなかった and 買う → 買わない → 買わなかった.
+
+The past-positive endings are:
+
+| Dictionary ending | Past ending | Example |
+| --- | --- | --- |
+| う・つ・る | った | 買う → 買った |
+| む・ぶ・ぬ | んだ | 飲む → 飲んだ |
+| く | いた | 書く → 書いた |
+| ぐ | いだ | 泳ぐ → 泳いだ |
+| す | した | 話す → 話した |
+{.table-centered}
+
+**Exceptions: る-ending う-verbs.** Not every verb ending in る is a る-verb. The following common verbs end in い-る or え-る but are actually う-verbs; they keep their r-sound when conjugated.
+
+| Verb | Meaning | Negative | Past |
+| --- | --- | --- | --- |
+| 入る（はいる） | enter | 入らない | 入った |
+| 帰る（かえる） | return home | 帰らない | 帰った |
+| 走る（はしる） | run | 走らない | 走った |
+| 切る（きる） | cut | 切らない | 切った |
+| 知る（しる） | know | 知らない | 知った |
+| 要る（いる） | need | 要らない | 要った |
+| 減る（へる） | decrease | 減らない | 減った |
+| 滑る（すべる） | slip | 滑らない | 滑った |
+| 握る（にぎる） | grasp | 握らない | 握った |
+| 限る（かぎる） | limit | 限らない | 限った |
+| 喋る（しゃべる） | chat | 喋らない | 喋った |
+| 蹴る（ける） | kick | 蹴らない | 蹴った |
+{.table-centered}
+
+**Exception: 行く.** 行く (*iku*, “to go”) is a う-verb, but its past-positive form uses った rather than the usual く → いた pattern.
+
+|  | Non-Past | Past |
+| --- | --- | --- |
+| Positive | 行く | 行った |
+| Negative | 行かない | 行かなかった |
+{.table-centered}
+
+### Particles Used with Verbs
+
+The following particles show how a noun relates to a verb.
+
+| Particle | Main use | English Equivalent | Example |
+| --- | --- | --- | --- |
+| を (*o*) | direct object of an action | — | 本を読む。 |
+| に (*ni*) | destination, target, or recipient | to; at | 学校に行く。 |
+| へ (*e*) | direction or destination | toward; to | 日本へ行く。 |
+| で (*de*) | place where an action happens; means used | at; in; by | 図書館で勉強する。 |
+{.table-centered}
+
+に and へ can both mark a destination. に presents it as the target or endpoint, while へ emphasizes the direction. Do not use で for a destination: 学校で行く is incorrect because で marks the place where an action takes place, not where one goes.
+
+
+
+## Basic Vocabulary
