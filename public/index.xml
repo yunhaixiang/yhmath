@@ -5380,8 +5380,8 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Fen25a&#34; data-bib-key=&#34;Fen25a&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Fen25a]&lt;/span&gt;
+  &lt;li id=&#34;bib-Fen25&#34; data-bib-key=&#34;Fen25&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Fen25]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
