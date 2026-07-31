@@ -6,7 +6,6 @@ aliases:
   - /posts/how-ai-is-going-to-change-the-socioeconomics-of-math/
 categories: [essays]
 tags: [ai, math, sociology]
-draft: true
 ---
 
 {{< pullquote author="Pierre Bourdieu">}}
