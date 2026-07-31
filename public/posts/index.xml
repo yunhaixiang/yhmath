@@ -8,6 +8,123 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>埃尔德什、三岛由纪夫、死亡</title>
+      <link>http://localhost:1313/posts/erdos-mishima-death/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/erdos-mishima-death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
+      <link>http://localhost:1313/posts/6439cea/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/6439cea/</guid>
+      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
+an $\ell$-adic representation arising from geometry is quasi-unipotent. This
+post will explain the local Galois groups involved, state the theorem, and
+discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
+&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
+&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
+&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
+&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
+&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
+      <link>http://localhost:1313/posts/68915c5/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/68915c5/</guid>
+      <description>&lt;p&gt;The Néron–Ogg–Shafarevich criterion translates good reduction of an abelian
+variety into a condition on its $ℓ$-adic Galois representation. The
+Serre–Tate criterion gives a $p$-adic counterpart. This post will develop both
+criteria and the relation between them.&lt;/p&gt;
+&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
+&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
+&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
+&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Galois Representations Arising from Geometry</title>
+      <link>http://localhost:1313/posts/9f2a7d0/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/9f2a7d0/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the art of giving the same name to different things.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>How is AI Going to Change the Socioeconomics of Math?</title>
+      <link>http://localhost:1313/posts/c4a91f7/</link>
+      <pubDate>Tue, 28 Jul 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/c4a91f7/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Like any social universe, the academic world is the site of a struggle over the truth.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Pierre Bourdieu&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;Since my last article about AI, much has changed in the world of AI for Math. In particular, to everyone’s surprise, the Jacobian conjecture was proven false per a counter example generated by Claude prompted by Levent Alpöge. Shortly after that, a series of other conjectures befell AI, which one could view on the website &lt;a href=&#34;https://vibemathed.com/&#34;&gt;VibeMath&lt;/a&gt;. A lot of them are counter examples to longstanding conjectures. Since then I’ve thought a lot more about it and how it is going to impact academia.&lt;/p&gt;
+&lt;p&gt;The good news is it seems that many of these AI companies are willing to give academic scientists access to frontier models, such as &lt;a href=&#34;https://openai.com/index/chatgpt-for-academic-researchers/&#34;&gt;ChatGPT for Academic Researchers&lt;/a&gt;.
+The bad news is, in the meantime, this means AI companies are going to have power over academia. These companies have their own independent interests which are hardly aligned with academic curiosity.
+That being said, so can be said about the status quo.
+In many parts of math, funding can come from military affiliated institutions such as DARPA.
+Not to mention that government foundations such as NSERC and NSF can be directly influenced by politicians, c.f. &lt;a href=&#34;https://en.wikipedia.org/wiki/Science_policy_of_the_second_Trump_administration&#34;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On the other hand, there is the concern that the disparity of compute resources will affect academic competition. In the experimental sciences, this is nothing new. Some labs can afford expensive apparatus and some can’t, so some research can only be produced in selective labs. The question remains how much of an inequality will the compute resources difference make in the future. Will it reach diminishing returns? Knowing that your research project, on which you might have spent countless hours, could have been swiftly and autonomously solved an AI had there been enough compute power available is something that might devastate the morale of human mathematicians. Is this going to reduce mathematician’s love for math? Will doing math still be an enjoyable activity for humans in the future?&lt;/p&gt;
+&lt;p&gt;While pondering this, I find myself being increasingly pessimistic about my future in academia. The silver lining is, I don’t need to be in academia to do math, I can still spend my own time doing math while working in industry (assuming that it is still possible to do research math in the future without throwing massive amount of money on compute resources).
+In fact, I wouldn’t need to teach, apply for grants, sit on committees, go to conferences, scrape by with poor pay, or devastate my physical and mental health trying to win the tenure rat race. More importantly, I came to realize that, unlike how I assumed, being in academia does not mean you can freely choose to what to learn and what to work on.
+You need to consider the ROI of your choices since your time is limited and you need tenure: are you going to get a paper out of this, how much time will it need? Learning something very time consuming, something unrelated to your field, or something “unfashionable” in academia, could be very risky to one’s academic career.
+What is even the point of all this if I can’t study what &lt;em&gt;I&lt;/em&gt; want?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Learning Japanese Part I</title>
       <link>http://localhost:1313/posts/72d4e91/</link>
       <pubDate>Sun, 26 Jul 2026 00:00:01 -0400</pubDate>
