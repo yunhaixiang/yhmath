@@ -89,6 +89,7 @@ categories: [archives]
 - [PrimePages](https://t5k.org/)
 - [Adjectives Project](https://adjectivesproject.org/)
 - [Erdos Problems](https://www.erdosproblems.com/)
+- [Unsolved Math](https://www.unsolvedmath.com/)
 - [Banana Space](https://www.bananaspace.org/)
 - [MathPickle](https://mathpickle.com)
 - [The TeXromancers](https://aareyanmanzoor.github.io/Texromancers.html)
