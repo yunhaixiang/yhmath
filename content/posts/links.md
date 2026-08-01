@@ -85,6 +85,7 @@ categories: [archives]
 - [Digital Mathematics Archive](http://sunsite.ubc.ca/DigitalMathArchive/)
 - [Digital Library for Mathematical Functions](https://dlmf.nist.gov/)
 - [Math Definitions](https://jessetvogel.nl/math-definitions/)
+- [TheoremSearch](https://www.theoremsearch.com/)
 - [PrimePages](https://t5k.org/)
 - [Adjectives Project](https://adjectivesproject.org/)
 - [Erdos Problems](https://www.erdosproblems.com/)
