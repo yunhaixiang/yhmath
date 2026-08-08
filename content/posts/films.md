@@ -10,10 +10,12 @@ categories: [archives]
 ---
 
 ## Films I Want to Watch
+
 - *The Act of Killing* (2012)
 - *Vertigo* (1958)
 
 ## Films I Recommend (Fiction)
+
 - [*Spirited Away* (2001)](https://www.imdb.com/title/tt0245429/)
 - [*3 Idiots* (2009)](https://www.imdb.com/title/tt1187043/)
 - [*Paprika* (2006)](https://www.imdb.com/title/tt0851578/)
@@ -52,8 +54,10 @@ categories: [archives]
 - [*Blue Giant* (2023)](https://www.imdb.com/title/tt15737898/)
 - [*Ghost in the Shell* (1995)](https://www.imdb.com/title/tt0113568/)
 - [*Ray* (2004)](https://www.imdb.com/title/tt0350258/)
+- [*Blade Runner 2049* (2017)](https://www.imdb.com/title/tt1856101/)
 
 ## Films I Recommend (Non-Fiction)
+
 - [*Dealt* (2017)](https://www.imdb.com/title/tt3127902/)
 - [*AlphaGo* (2017)](https://www.imdb.com/title/tt6700846/)
 - [*Free Solo* (2018)](https://www.imdb.com/title/tt7775622/)

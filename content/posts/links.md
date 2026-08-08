@@ -40,6 +40,7 @@ categories: [archives]
 - [Hidden Phenomena](https://hidden-phenomena.com/)
 
 ## Wikis and Archives
+
 - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
 - [Wikiwand](https://www.wikiwand.com)
 - [WikiSource](https://en.wikisource.org/wiki/Main_Page)
@@ -67,6 +68,7 @@ categories: [archives]
 - [Hyperkaehler](https://www.hyperkaehler.info/)
 - [ManyPoints](https://manypoints.org/)
 - [3-Dimensional](https://3-dimensional.space/)
+- [LeanSearch](https://leansearch.net/)
 - [Mgnbar](https://mgnbar.info/)
 - [Superficie](https://superficie.info/)
 - [Database of Ring Theory](https://ringtheory.herokuapp.com)
