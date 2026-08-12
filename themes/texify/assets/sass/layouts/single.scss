@@ -88,7 +88,14 @@
 
   .content {
     padding-top: 1rem;
- }
+  }
+
+  // A leading section heading already provides its own vertical rhythm.
+  // Pull quotes are floated alongside it and should not reinstate the gap.
+  .content:has(> h2:first-child),
+  .content:has(> .yh-pullquote:first-child + h2) {
+    padding-top: 0;
+  }
 
   #back-to-top {
       bottom: 20px;

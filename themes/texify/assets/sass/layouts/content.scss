@@ -296,6 +296,12 @@ button.copy-button {
   margin-bottom: 0.5rem;
 }
 
+// Match the space before a list (typically a paragraph's bottom margin).
+.content ol,
+.content ul {
+  margin-bottom: 0.5rem;
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -315,6 +321,11 @@ button.copy-button {
   font-size: $f * math.pow($phi, math.div(3, 2));
   margin-top: $margin;
   margin-bottom: $margin;
+}
+
+// A page that begins with a section heading needs no leading content gap.
+.content > h2:first-child {
+  margin-top: 0;
 }
 
 .content h3 {
