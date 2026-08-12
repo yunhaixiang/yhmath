@@ -7,6 +7,89 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
+      <link>http://localhost:1313/posts/6439cea/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/6439cea/</guid>
+      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
+an $\ell$-adic representation arising from geometry is quasi-unipotent. This
+post will explain the local Galois groups involved, state the theorem, and
+discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
+&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
+&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
+&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
+&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
+&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
+      <link>http://localhost:1313/posts/68915c5/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/68915c5/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the art of giving the same name to different things.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
+&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
+&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
+&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
+&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>$\ell$-Independence</title>
+      <link>http://localhost:1313/posts/2d8f6b0/</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compatible Systems and Rationality</title>
+      <link>http://localhost:1313/posts/7a9c1e4/</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>How is AI Going to Change the Socioeconomics of Math?</title>
       <link>http://localhost:1313/posts/c4a91f7/</link>
       <pubDate>Tue, 28 Jul 2026 00:00:01 -0400</pubDate>
@@ -10160,8 +10243,8 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
 &lt;li&gt;Roberto Fonseca&lt;/li&gt;
 &lt;li&gt;Ezra Collective&lt;/li&gt;
 &lt;li&gt;Riyoko Takagi&lt;/li&gt;
-&lt;li&gt;Jamiroquai&lt;/li&gt;
 &lt;li&gt;The Jazz Messengers&lt;/li&gt;
+&lt;li&gt;Joey Alexander&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

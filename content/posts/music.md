@@ -23,5 +23,5 @@ Here are some of my favorite Jazz artists.
 - Roberto Fonseca
 - Ezra Collective
 - Riyoko Takagi
-- Jamiroquai
 - The Jazz Messengers
+- Joey Alexander

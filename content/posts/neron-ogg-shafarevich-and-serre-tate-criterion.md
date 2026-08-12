@@ -9,10 +9,10 @@ tags: [math, number-theory, algebraic-geometry]
 draft: true
 ---
 
-The Néron–Ogg–Shafarevich criterion translates good reduction of an abelian
-variety into a condition on its $ℓ$-adic Galois representation. The
-Serre–Tate criterion gives a $p$-adic counterpart. This post will develop both
-criteria and the relation between them.
+{{< pullquote author="Henri Poincaré" >}}
+Mathematics is the art of giving the same name to different things.
+{{< /pullquote >}}
+
 
 <!--more-->
 
