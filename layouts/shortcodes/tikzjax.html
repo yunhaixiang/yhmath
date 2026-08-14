@@ -1,0 +1,26 @@
+{{/*
+  Render a TikZ or tikz-cd diagram with TikZJax.
+
+  Example:
+  {{< tikzjax width="24rem" scale="0.9" >}}
+  \begin{tikzpicture}
+    \draw (0,0) -- (2,1);
+  \end{tikzpicture}
+  {{< /tikzjax >}}
+*/}}
+
+{{- $width := .Get "width" | default "auto" -}}
+{{- $height := .Get "height" | default "auto" -}}
+{{- $align := .Get "align" | default "center" -}}
+{{- $overflow := .Get "overflow" | default "visible" -}}
+{{- $scale := .Get "scale" | default "1" -}}
+{{- $tx := .Get "tx" | default "0" -}}
+{{- $ty := .Get "ty" | default "0" -}}
+{{- $font := .Get "font" | default "\\fontsize{12.6pt}{15.1pt}\\selectfont" -}}
+
+<figure class="tikzjax-wrapper"
+        style="--tikzjax-width: {{ $width }}; --tikzjax-height: {{ $height }}; --tikzjax-align: {{ $align }}; --tikzjax-overflow: {{ $overflow }}; --tikzjax-scale: {{ $scale }}; --tikzjax-tx: {{ $tx }}; --tikzjax-ty: {{ $ty }};">
+  <script type="text/tikz">
+\tikzset{every node/.append style={font={{ $font }}}}
+{{ .InnerDeindent | safeHTML }}</script>
+</figure>

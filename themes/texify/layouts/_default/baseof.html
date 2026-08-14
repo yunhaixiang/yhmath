@@ -34,6 +34,12 @@
   {{ partial "math.html" . }}
   {{ end }}
 
+  {{/* Load TikZJax only on pages that use the tikzjax shortcode. */}}
+  {{ if .HasShortcode "tikzjax" }}
+  <link rel="stylesheet" href="https://tikzjax.com/v1/fonts.css">
+  <script src="https://tikzjax.com/v1/tikzjax.js"></script>
+  {{ end }}
+
   <!-- buymeacoffee -->
   {{ .Site.Params.buymeacoffee.code | safeHTML }}
 

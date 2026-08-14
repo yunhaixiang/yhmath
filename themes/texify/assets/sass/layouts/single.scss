@@ -90,9 +90,8 @@
     padding-top: 1rem;
   }
 
-  // A leading section heading already provides its own vertical rhythm.
-  // Pull quotes are floated alongside it and should not reinstate the gap.
-  .content:has(> h2:first-child),
+  // A leading pull quote is floated, so its following section heading keeps
+  // its own margin instead of combining it with the content padding.
   .content:has(> .yh-pullquote:first-child + h2) {
     padding-top: 0;
   }
@@ -353,6 +352,29 @@ body { counter-reset: fig; }
       contrast(1)
       !important;
   }
+}
+
+/* TikZJax diagrams */
+.tikzjax-wrapper {
+  max-width: 100%;
+  margin: 1rem auto;
+  overflow: var(--tikzjax-overflow, visible);
+  text-align: var(--tikzjax-align, center);
+}
+
+.math-env .tikzjax-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tikzjax-wrapper > svg {
+  display: inline-block;
+  width: var(--tikzjax-width, auto);
+  max-width: 100%;
+  height: var(--tikzjax-height, auto);
+  vertical-align: middle;
+  transform: translate(var(--tikzjax-tx, 0), var(--tikzjax-ty, 0)) scale(var(--tikzjax-scale, 1));
+  transform-origin: center;
 }
 
 
