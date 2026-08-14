@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Books and Essays
+title: Books
 date: 2021-12-28 00:00:00 +0000
 slug: 326caca
 aliases:
-  - /posts/books-and-essays/
+  - /posts/books/
 tags: []
 categories: [archives]
 ---
