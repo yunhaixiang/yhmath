@@ -5,7 +5,7 @@ title: "Math"
 ## Interests
 
 My main interests in mathematics lie in [number theory](https://en.wikipedia.org/wiki/Number_theory) and particularly [arithmetic geometry](https://en.wikipedia.org/wiki/Arithmetic_geometry), which studies arithmetic by applying insights  from geometry and topology. 
-More specifically, I am interested in Galois representations arising from geometry, arithmetic monodromy, arithmetic statistics, abelian varieties, Drinfeld modules, and rational points. I am also interested in type theory and mathematical logic. 
+More specifically, I am interested in Galois representations arising from geometry, arithmetic monodromy, arithmetic statistics, abelian varieties, Drinfeld modules, and rational points. I’m also interested in type theory, mathematical logic, and machine learning theory. 
 
 ## Publications
 
