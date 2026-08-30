@@ -178,11 +178,11 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- 俯卧撑：4 × 8–20
-- Pike push-up：3 × 6–12
-- Diamond push-up：3 × 8–15
-- Shoulder tap：3 × 16–24
-- 平板支撑：3 × 30–60 秒
+- 俯卧撑（Push-up）：4 × 8–20
+- 倒立式俯卧撑（Pike push-up）：3 × 6–12
+- 钻石俯卧撑（Diamond push-up）：3 × 8–15
+- 交替触肩（Shoulder tap）：3 × 16–24
+- 平板支撑（Plank）：3 × 30–60 秒
 
 游泳：
 
@@ -195,11 +195,11 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- 深蹲：4 × 15–25
-- 反向弓步：3 × 10–15／腿
-- 单腿臀桥：3 × 12–20／腿
-- 跳跃深蹲：3 × 6–10
-- 单腿提踵：3 × 15–25／腿
+- 深蹲（Squat）：4 × 15–25
+- 反向弓步（Reverse lunge）：3 × 10–15／腿
+- 单腿臀桥（Single-leg glute bridge）：3 × 12–20／腿
+- 跳跃深蹲（Jump squat）：3 × 6–10
+- 单腿提踵（Single-leg calf raise）：3 × 15–25／腿
 
 游泳：
 
@@ -214,13 +214,13 @@ aliases = ['/posts/healthy-eating-plan/']
 
 这是休息日后的轻量启动日。徒手训练无法提供真正高负荷的拉力，因此背阔肌的主要刺激来自游泳；以下动作重点维护肩胛、后肩、竖脊肌和核心。
 
-- Reverse snow angel：3 × 15
-- Y-T-W raise：3 轮
-- Superman：3 × 12–15
-- Dead bug：3 × 10／侧
-- Bird dog：3 × 10／侧
-- Hollow hold：3 × 20–40 秒
-- Side plank：2 × 30–45 秒／侧
+- 反向雪天使（Reverse snow angel）：3 × 15
+- Y-T-W 举臂（Y-T-W raise）：3 轮
+- 超人式（Superman）：3 × 12–15
+- 死虫式（Dead bug）：3 × 10／侧
+- 鸟狗式（Bird dog）：3 × 10／侧
+- 空心支撑（Hollow hold）：3 × 20–40 秒
+- 侧平板支撑（Side plank）：2 × 30–45 秒／侧
 
 游泳：
 
@@ -234,12 +234,12 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- 慢速俯卧撑（下降 3 秒）：3 × 8–15
-- Pike push-up：3 × 8–12
-- 分腿蹲：3 × 12／腿
-- 单腿臀桥：3 × 15／腿
-- Diamond push-up：2 × 8–15
-- Hollow hold：3 组
+- 慢速俯卧撑（Slow push-up，下降 3 秒）：3 × 8–15
+- 倒立式俯卧撑（Pike push-up）：3 × 8–12
+- 分腿蹲（Split squat）：3 × 12／腿
+- 单腿臀桥（Single-leg glute bridge）：3 × 15／腿
+- 钻石俯卧撑（Diamond push-up）：2 × 8–15
+- 空心支撑（Hollow hold）：3 组
 
 游泳：
 
@@ -255,13 +255,13 @@ aliases = ['/posts/healthy-eating-plan/']
 
 设置 25 分钟计时器，依次循环以下动作；每轮记录完成情况，逐步从 4 轮提升至 4.5 轮、5 轮。剩余 5 分钟活动肩部与髋部。
 
-- 俯卧撑：10 个
-- 深蹲：15 个
-- 反向弓步：8 个／腿
-- Pike push-up：8 个
-- Superman：12 个
-- Shoulder tap：20 个
-- 平板支撑：30 秒
+- 俯卧撑（Push-up）：10 个
+- 深蹲（Squat）：15 个
+- 反向弓步（Reverse lunge）：8 个／腿
+- 倒立式俯卧撑（Pike push-up）：8 个
+- 超人式（Superman）：12 个
+- 交替触肩（Shoulder tap）：20 个
+- 平板支撑（Plank）：30 秒
 
 游泳：
 
