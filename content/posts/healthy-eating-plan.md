@@ -170,7 +170,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ### 具体训练计划
 
-只需要瑜伽垫，无需器械。力量训练应以较高动作难度、适当休息和不完全力竭为原则；每组保留约 2–3 次余力，避免影响之后的游泳质量。
+在家使用瑜伽垫和一套五条可叠加的管状阻力带即可完成（如 Polygon Resistance Bands Set）：每条阻力带约 10–50 lb，配两只把手、一个门锚和两条踝带，叠加后标称阻力最高 150 lb。阻力带和把手用于划船、硬拉、俯身划船；门锚用于高位下拉、固定式划船和腿弯举；踝带用于腿弯举。硬拉和俯身划船也可直接用脚踩住阻力带完成。力量训练应以较高动作难度、适当休息和不完全力竭为原则；每组保留约 2–3 次余力，避免影响之后的游泳质量。每次控制在约 10–14 个有效组，才能在 30 分钟内完成。使用门锚时，选择一扇向外、远离自己打开的门，关紧并先以低阻力测试；每次训练前检查带子、扣环和门锚是否有裂纹或松动。
 
 游泳均按 **25 m 泳池**设计：**1 趟 = 25 m，1 个来回 = 50 m**。以下距离包含热身和放松，组间休息计入 40 分钟。若目前还不能轻松完成相应距离，前 2–4 周先完成每项的约 70%，然后每周增加 2–4 个来回；肩、膝或腰出现疼痛时停止该动作并调整。
 
@@ -178,11 +178,11 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- 俯卧撑（Push-up）：4 × 8–20
+- 俯卧撑（Push-up）：3 × 8–15
 - 倒立式俯卧撑（Pike push-up）：3 × 6–12
-- 钻石俯卧撑（Diamond push-up）：3 × 8–15
-- 交替触肩（Shoulder tap）：3 × 16–24
-- 平板支撑（Plank）：3 × 30–60 秒
+- 单臂阻力带划船（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 × 8–15／侧
+- 交替触肩（Shoulder tap）：2 × 16–24
+- 平板支撑（Plank）：2 × 30–60 秒
 
 游泳：
 
@@ -195,11 +195,11 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- 深蹲（Squat）：4 × 15–25
+- 深蹲（Squat）：3 × 15–20
 - 反向弓步（Reverse lunge）：3 × 10–15／腿
-- 单腿臀桥（Single-leg glute bridge）：3 × 12–20／腿
-- 跳跃深蹲（Jump squat）：3 × 6–10
-- 单腿提踵（Single-leg calf raise）：3 × 15–25／腿
+- 阻力带罗马尼亚硬拉（Resistance-band Romanian deadlift；健身馆替代：杠铃罗马尼亚硬拉 / Barbell Romanian deadlift）：3 × 8–15
+- 单腿臀桥（Single-leg glute bridge）：2 × 12–20／腿
+- 单腿提踵（Single-leg calf raise）：2 × 15–25／腿
 
 游泳：
 
@@ -212,14 +212,12 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-这是休息日后的轻量启动日。徒手训练无法提供真正高负荷的拉力，因此背阔肌的主要刺激来自游泳；以下动作重点维护肩胛、后肩、竖脊肌和核心。
+这是休息日后的拉训练和核心日。阻力应能让最后 2–3 次明显吃力、但动作不变形。
 
-- 反向雪天使（Reverse snow angel）：3 × 15
-- Y-T-W 举臂（Y-T-W raise）：3 轮
-- 超人式（Superman）：3 × 12–15
-- 死虫式（Dead bug）：3 × 10／侧
-- 鸟狗式（Bird dog）：3 × 10／侧
-- 空心支撑（Hollow hold）：3 × 20–40 秒
+- 单臂阻力带划船（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 × 8–15／侧
+- 阻力带高位下拉（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 × 10–15
+- Y-T-W 举臂（Y-T-W raise）：2 轮，每个姿势 8–12 次
+- 死虫式（Dead bug）：2 × 10／侧
 - 侧平板支撑（Side plank）：2 × 30–45 秒／侧
 
 游泳：
@@ -235,11 +233,10 @@ aliases = ['/posts/healthy-eating-plan/']
 力量：
 
 - 慢速俯卧撑（Slow push-up，下降 3 秒）：3 × 8–15
-- 倒立式俯卧撑（Pike push-up）：3 × 8–12
 - 分腿蹲（Split squat）：3 × 12／腿
-- 单腿臀桥（Single-leg glute bridge）：3 × 15／腿
-- 钻石俯卧撑（Diamond push-up）：2 × 8–15
-- 空心支撑（Hollow hold）：3 组
+- 阻力带腿弯举（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 × 8–12／腿
+- 单腿臀桥（Single-leg glute bridge）：2 × 12–20／腿
+- 空心支撑（Hollow hold）：2 × 20–40 秒
 
 游泳：
 
@@ -259,7 +256,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - 深蹲（Squat）：15 个
 - 反向弓步（Reverse lunge）：8 个／腿
 - 倒立式俯卧撑（Pike push-up）：8 个
-- 超人式（Superman）：12 个
+- 阻力带俯身划船（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 个
 - 交替触肩（Shoulder tap）：20 个
 - 平板支撑（Plank）：30 秒
 
