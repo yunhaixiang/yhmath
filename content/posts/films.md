@@ -55,6 +55,7 @@ categories: [archives]
 - [*Ghost in the Shell* (1995)](https://www.imdb.com/title/tt0113568/)
 - [*Ray* (2004)](https://www.imdb.com/title/tt0350258/)
 - [*Blade Runner 2049* (2017)](https://www.imdb.com/title/tt1856101/)
+- [*Zodiac* (2007)](https://www.imdb.com/title/tt0443706/)
 
 ## Films I Recommend (Non-Fiction)
 

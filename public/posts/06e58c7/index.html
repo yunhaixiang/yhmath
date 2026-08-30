@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en-us" style="font-size: 105%">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="Yunhai Xiang">
+
+  
+  
+  <meta name="description" content="最近打算减肥，我用AI给自己做了如下计划。
+饮食
+该饮食计划有两个目标：
+
+适合减肥增肌，降低血脂：蛋白质 &gt; 蔬菜 &gt; 碳水
+做菜和购物流程快速、简单、固定：一周两次做菜，一次七顿
+
+计划表
+早餐每天固定：2个水煮鸡蛋 &#43; 混合水果 &#43; 2片全麦面包 &#43; 1勺分离乳清蛋白 &#43; 约285 mL 1%牛奶。">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//images/favicon-16x16.png">
+
+  
+  
+  <meta name="keywords" content='hugo latex theme blog texify texify2 texify3 michael neuper'>
+  
+
+  
+  
+  <link rel="stylesheet" href='/katex/katex.min.css'>
+<script defer defer src='/katex/katex.min.js'></script>
+<script defer src='/katex/contrib/auto-render.min.js'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+
+        const content = document.querySelector("#main .content");
+        if (!content) {
+          return;
+        }
+
+        const punctuationNodes = [];
+        const walker = document.createTreeWalker(
+          content,
+          NodeFilter.SHOW_TEXT
+        );
+
+        while (walker.nextNode()) {
+          punctuationNodes.push(walker.currentNode);
+        }
+
+        for (const node of punctuationNodes) {
+          const punctuation = node.data.match(/^[,.]/);
+          const previous = node.previousSibling;
+
+          if (!punctuation || previous?.nodeType !== Node.ELEMENT_NODE) {
+            continue;
+          }
+
+          const glue = document.createElement("span");
+          glue.className = "punctuation-glue";
+          previous.before(glue);
+          glue.append(previous, document.createTextNode(punctuation[0]));
+          node.data = node.data.slice(1);
+        }
+    });
+</script>
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/06e58c7/">
+  <meta property="og:site_name" content="Yunhai Xiang">
+  <meta property="og:title" content="健康饮食锻炼计划">
+  <meta property="og:description" content="最近打算减肥，我用AI给自己做了如下计划。
+饮食 该饮食计划有两个目标：
+适合减肥增肌，降低血脂：蛋白质 &gt; 蔬菜 &gt; 碳水 做菜和购物流程快速、简单、固定：一周两次做菜，一次七顿 计划表 早餐每天固定：2个水煮鸡蛋 &#43; 混合水果 &#43; 2片全麦面包 &#43; 1勺分离乳清蛋白 &#43; 约285 mL 1%牛奶。">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-08-30T11:43:05-04:00">
+    <meta property="article:modified_time" content="2026-08-30T11:43:05-04:00">
+
+
+  
+  <link rel="canonical" href="http://localhost:1313/posts/06e58c7/">
+
+  
+  
+  
+  <meta itemprop="name" content="健康饮食锻炼计划">
+  <meta itemprop="description" content="最近打算减肥，我用AI给自己做了如下计划。
+饮食 该饮食计划有两个目标：
+适合减肥增肌，降低血脂：蛋白质 &gt; 蔬菜 &gt; 碳水 做菜和购物流程快速、简单、固定：一周两次做菜，一次七顿 计划表 早餐每天固定：2个水煮鸡蛋 &#43; 混合水果 &#43; 2片全麦面包 &#43; 1勺分离乳清蛋白 &#43; 约285 mL 1%牛奶。">
+  <meta itemprop="datePublished" content="2026-08-30T11:43:05-04:00">
+  <meta itemprop="dateModified" content="2026-08-30T11:43:05-04:00">
+  <meta itemprop="wordCount" content="3687">
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/common.min.54004a30b7791edd6df2bc0b918c36ad0d18b99e2afdfce69bf783c8bd438ae5.css" integrity="sha256-VABKMLd5Ht1t8rwLkYw2rQ0YuZ4q/fzmm/eDyL1DiuU=" crossorigin="anonymous">
+  
+
+  
+  
+    <link rel="stylesheet" href="/css/content.min.2bda8f09d8a7a1ec7940091de423812f4abfaf0a9ce6778cc5ec912747d0f444.css" integrity="sha256-K9qPCdinoex5QAkd5COBL0q/rwqc5neMxeyRJ0fQ9EQ=" crossorigin="anonymous">
+  
+
+  
+  
+  <title>健康饮食锻炼计划 - Yunhai Xiang</title>
+  
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="健康饮食锻炼计划">
+  <meta name="twitter:description" content="最近打算减肥，我用AI给自己做了如下计划。
+饮食 该饮食计划有两个目标：
+适合减肥增肌，降低血脂：蛋白质 &gt; 蔬菜 &gt; 碳水 做菜和购物流程快速、简单、固定：一周两次做菜，一次七顿 计划表 早餐每天固定：2个水煮鸡蛋 &#43; 混合水果 &#43; 2片全麦面包 &#43; 1勺分离乳清蛋白 &#43; 约285 mL 1%牛奶。">
+
+
+  
+
+
+  <link rel="stylesheet" href="/css/single.min.251d2e22bea45907e8de6ec7656e573cb72d1feae6c3c9c7b4c7adea68aa04a6.css" integrity="sha256-JR0uIr6kWQfo3m7HZW5XPLctH&#43;rmw8nHtMet6miqBKY=" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="/css/single.min.78a121b7d7a160420f9daab0ea13add66c37b9c44f27bba07b27207e2b0975d2.css" integrity="sha256-eKEht9ehYEIPnaqw6hOt1mw3ucRPJ7ugeycgfisJddI=" crossorigin="anonymous">
+
+
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+  <link rel="stylesheet" href='/css/math-inline-overrides.css' />
+
+</head>
+
+
+
+
+<body>
+  <div id="wrapper">
+    
+
+
+<header id="header">
+  <h1>
+    <a href="http://localhost:1313/">Yunhai Xiang</a>
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
+        <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+        <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+        </svg>
+    </button>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-5H9v5H4a1 1 0 0 1-1-1z"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+</span>
+      
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/></svg>
+</span>
+      
+      <a class="link" href="/posts/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      
+        <span class="icon"><svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 2a3 3 0 0 0-3 3v7.17a3 3 0 0 0-.88 2.12A4.71 4.71 0 0 0 9.86 19h4.28a4.71 4.71 0 0 0 4.74-4.71 3 3 0 0 0-.88-2.12V5a3 3 0 0 0-3-3zM9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1zm-1 5h8v3.17a1 1 0 0 0 .29.71 2.71 2.71 0 0 1-1.86 4.63H9.15a2.71 2.71 0 0 1-1.86-4.63 1 1 0 0 0 .29-.71z"/>
+</svg>
+</span>
+      
+      <a class="link" href="/math/">Math</a>
+    </span>
+    
+  </nav>
+</header>
+<hr class="head-rule"></hr>
+    
+<main id="main" class="post">
+  
+  <div class="post-heading">
+    <h1 class="post-title">健康饮食锻炼计划</h1>
+    <div class="publish-metadata">
+      
+      <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      August 30, 2026
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          3687 words
+        </span>
+      
+      
+      
+        
+      
+      
+        &nbsp;
+        <span>
+          <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ~8 mins
+        </span>
+      
+    </div>
+  </div>
+
+
+  
+  <details>
+    <summary>
+      <b>Table of Contents</b>
+    </summary>
+    <div class="toc numbered-subtitles"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#饮食">饮食</a>
+      <ul>
+        <li><a href="#计划表">计划表</a></li>
+        <li><a href="#购物表">购物表</a></li>
+        <li><a href="#营养表">营养表</a></li>
+        <li><a href="#流程表">流程表</a></li>
+      </ul>
+    </li>
+    <li><a href="#锻炼">锻炼</a>
+      <ul>
+        <li><a href="#每周训练重点">每周训练重点</a></li>
+        <li><a href="#具体训练计划">具体训练计划</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+  </details>
+  
+  <article class="content numbered-subtitles">
+    
+    <p>最近打算减肥，我用AI给自己做了如下计划。</p>
+<h2 id="饮食">饮食</h2>
+<p>该饮食计划有两个目标：</p>
+<ol>
+<li>适合减肥增肌，降低血脂：蛋白质 &gt; 蔬菜 &gt; 碳水</li>
+<li>做菜和购物流程快速、简单、固定：一周两次做菜，一次七顿</li>
+</ol>
+<h3 id="计划表">计划表</h3>
+<p>早餐每天固定：<strong>2个水煮鸡蛋 + 混合水果 + 2片全麦面包 + 1勺分离乳清蛋白 + 约285 mL 1%牛奶</strong>。</p>
+<table class="table-centered">
+  <thead>
+      <tr>
+          <th>星期</th>
+          <th>餐次</th>
+          <th>碳水</th>
+          <th>蛋白质</th>
+          <th>蔬菜</th>
+          <th>调味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>周日（做菜）</strong></td>
+          <td>午餐</td>
+          <td>烤土豆</td>
+          <td>牛排</td>
+          <td>蘑菇 + 小白菜</td>
+          <td>盐 + 黑胡椒 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周日</td>
+          <td>晚餐</td>
+          <td>白米饭</td>
+          <td>鸡腿</td>
+          <td>菠菜 + 小白菜</td>
+          <td>生抽 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周一</td>
+          <td>午餐</td>
+          <td>意面</td>
+          <td>三文鱼 + 1个鸡蛋</td>
+          <td>番茄 + 菠菜</td>
+          <td>黑胡椒 + 少量盐</td>
+      </tr>
+      <tr>
+          <td>周一</td>
+          <td>晚餐</td>
+          <td>白米饭</td>
+          <td>猪里脊</td>
+          <td>小白菜 + 荷兰豆</td>
+          <td>黑胡椒 + 蒜粉 + 少量盐</td>
+      </tr>
+      <tr>
+          <td>周二</td>
+          <td>午餐</td>
+          <td>意面</td>
+          <td>鸡腿</td>
+          <td>蘑菇 + 番茄</td>
+          <td>生抽 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周二</td>
+          <td>晚餐</td>
+          <td>烤土豆</td>
+          <td>虾仁 + 1个鸡蛋</td>
+          <td>荷兰豆 + 蘑菇</td>
+          <td>生抽 + 黑胡椒 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周三</td>
+          <td>午餐</td>
+          <td>意面</td>
+          <td>猪里脊</td>
+          <td>菠菜 + 番茄</td>
+          <td>黑胡椒 + 蒜粉 + 少量盐</td>
+      </tr>
+      <tr>
+          <td><strong>周三（做菜）</strong></td>
+          <td>晚餐</td>
+          <td>烤土豆</td>
+          <td>牛排</td>
+          <td>蘑菇 + 小白菜</td>
+          <td>盐 + 黑胡椒 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周四</td>
+          <td>午餐</td>
+          <td>白米饭</td>
+          <td>鸡腿</td>
+          <td>菠菜 + 小白菜</td>
+          <td>生抽 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周四</td>
+          <td>晚餐</td>
+          <td>意面</td>
+          <td>三文鱼 + 1个鸡蛋</td>
+          <td>番茄 + 菠菜</td>
+          <td>黑胡椒 + 少量盐</td>
+      </tr>
+      <tr>
+          <td>周五</td>
+          <td>午餐</td>
+          <td>白米饭</td>
+          <td>猪里脊</td>
+          <td>小白菜 + 荷兰豆</td>
+          <td>黑胡椒 + 蒜粉 + 少量盐</td>
+      </tr>
+      <tr>
+          <td>周五</td>
+          <td>晚餐</td>
+          <td>意面</td>
+          <td>鸡腿</td>
+          <td>蘑菇 + 番茄</td>
+          <td>生抽 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周六</td>
+          <td>午餐</td>
+          <td>烤土豆</td>
+          <td>虾仁 + 1个鸡蛋</td>
+          <td>荷兰豆 + 蘑菇</td>
+          <td>生抽 + 黑胡椒 + 蒜粉</td>
+      </tr>
+      <tr>
+          <td>周六</td>
+          <td>晚餐</td>
+          <td>意面</td>
+          <td>猪里脊</td>
+          <td>菠菜 + 番茄</td>
+          <td>黑胡椒 + 蒜粉 + 少量盐</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="购物表">购物表</h3>
+<table class="table-centered">
+  <thead>
+      <tr>
+          <th>食材</th>
+          <th style="text-align: right">包装规格</th>
+          <th style="text-align: right">购买频率</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>去骨去皮鸡腿</td>
+          <td style="text-align: right">830 g / 盒</td>
+          <td style="text-align: right">1盒 / 周</td>
+      </tr>
+      <tr>
+          <td>猪里脊</td>
+          <td style="text-align: right">940 g / 包</td>
+          <td style="text-align: right">1包 / 周</td>
+      </tr>
+      <tr>
+          <td>三文鱼</td>
+          <td style="text-align: right">300 g / 盒</td>
+          <td style="text-align: right">1盒 / 周</td>
+      </tr>
+      <tr>
+          <td>虾仁</td>
+          <td style="text-align: right">454 g / 袋</td>
+          <td style="text-align: right">1袋 / 周</td>
+      </tr>
+      <tr>
+          <td>牛排</td>
+          <td style="text-align: right">300 g / 块</td>
+          <td style="text-align: right">1块 / 周</td>
+      </tr>
+      <tr>
+          <td>鸡蛋</td>
+          <td style="text-align: right">18个 / 盒</td>
+          <td style="text-align: right">1盒 / 周</td>
+      </tr>
+      <tr>
+          <td>1%牛奶</td>
+          <td style="text-align: right">2 L / 瓶</td>
+          <td style="text-align: right">1瓶 / 周</td>
+      </tr>
+      <tr>
+          <td>罐装土豆</td>
+          <td style="text-align: right">540 g / 罐</td>
+          <td style="text-align: right">2罐 / 周</td>
+      </tr>
+      <tr>
+          <td>小白菜</td>
+          <td style="text-align: right">450 g / 份</td>
+          <td style="text-align: right">2份 / 周</td>
+      </tr>
+      <tr>
+          <td>蘑菇</td>
+          <td style="text-align: right">227 g / 盒</td>
+          <td style="text-align: right">3盒 / 周</td>
+      </tr>
+      <tr>
+          <td>菠菜</td>
+          <td style="text-align: right">227 g / 袋</td>
+          <td style="text-align: right">3袋 / 周</td>
+      </tr>
+      <tr>
+          <td>罐装番茄</td>
+          <td style="text-align: right">800 mL / 罐</td>
+          <td style="text-align: right">1罐 / 周</td>
+      </tr>
+      <tr>
+          <td>荷兰豆</td>
+          <td style="text-align: right">227 g / 袋</td>
+          <td style="text-align: right">2袋 / 周</td>
+      </tr>
+      <tr>
+          <td>混合水果盘</td>
+          <td style="text-align: right">1.3 kg / 盒</td>
+          <td style="text-align: right">1盒 / 周</td>
+      </tr>
+      <tr>
+          <td>意面</td>
+          <td style="text-align: right">454 g / 包</td>
+          <td style="text-align: right">1包 / 周</td>
+      </tr>
+      <tr>
+          <td>全麦面包</td>
+          <td style="text-align: right">675 g / 袋</td>
+          <td style="text-align: right">1袋 / 周</td>
+      </tr>
+      <tr>
+          <td>白米</td>
+          <td style="text-align: right">2 kg / 袋</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+      <tr>
+          <td>分离乳清蛋白</td>
+          <td style="text-align: right">约900 g / 桶</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+      <tr>
+          <td>生抽</td>
+          <td style="text-align: right">1瓶</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+      <tr>
+          <td>黑胡椒</td>
+          <td style="text-align: right">1瓶</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+      <tr>
+          <td>蒜粉</td>
+          <td style="text-align: right">1瓶</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+      <tr>
+          <td>盐</td>
+          <td style="text-align: right">1盒</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+      <tr>
+          <td>食用油</td>
+          <td style="text-align: right">1瓶</td>
+          <td style="text-align: right">用完补</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="营养表">营养表</h3>
+<table class="table-centered">
+  <thead>
+      <tr>
+          <th>星期</th>
+          <th>餐次</th>
+          <th style="text-align: right">热量</th>
+          <th style="text-align: right">蛋白质</th>
+          <th style="text-align: right">碳水</th>
+          <th style="text-align: right">脂肪</th>
+          <th style="text-align: right">饱和脂肪</th>
+          <th style="text-align: right">膳食纤维</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>周日</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周日</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈525 kcal</td>
+          <td style="text-align: right">≈42 g</td>
+          <td style="text-align: right">≈34 g</td>
+          <td style="text-align: right">≈26 g</td>
+          <td style="text-align: right">≈9 g</td>
+          <td style="text-align: right">≈5 g</td>
+      </tr>
+      <tr>
+          <td>周日</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈700 kcal</td>
+          <td style="text-align: right">≈49 g</td>
+          <td style="text-align: right">≈61 g</td>
+          <td style="text-align: right">≈29 g</td>
+          <td style="text-align: right">≈7 g</td>
+          <td style="text-align: right">≈5 g</td>
+      </tr>
+      <tr>
+          <td>周一</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周一</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈755 kcal</td>
+          <td style="text-align: right">≈51 g</td>
+          <td style="text-align: right">≈66 g</td>
+          <td style="text-align: right">≈31 g</td>
+          <td style="text-align: right">≈7 g</td>
+          <td style="text-align: right">≈7 g</td>
+      </tr>
+      <tr>
+          <td>周一</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈62 g</td>
+          <td style="text-align: right">≈66 g</td>
+          <td style="text-align: right">≈14 g</td>
+          <td style="text-align: right">≈4 g</td>
+          <td style="text-align: right">≈5 g</td>
+      </tr>
+      <tr>
+          <td>周二</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周二</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈735 kcal</td>
+          <td style="text-align: right">≈53 g</td>
+          <td style="text-align: right">≈65 g</td>
+          <td style="text-align: right">≈30 g</td>
+          <td style="text-align: right">≈7 g</td>
+          <td style="text-align: right">≈6 g</td>
+      </tr>
+      <tr>
+          <td>周二</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈500 kcal</td>
+          <td style="text-align: right">≈62 g</td>
+          <td style="text-align: right">≈40 g</td>
+          <td style="text-align: right">≈11 g</td>
+          <td style="text-align: right">≈3 g</td>
+          <td style="text-align: right">≈7 g</td>
+      </tr>
+      <tr>
+          <td>周三</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周三</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈650 kcal</td>
+          <td style="text-align: right">≈66 g</td>
+          <td style="text-align: right">≈65 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈4 g</td>
+          <td style="text-align: right">≈7 g</td>
+      </tr>
+      <tr>
+          <td>周三</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈525 kcal</td>
+          <td style="text-align: right">≈42 g</td>
+          <td style="text-align: right">≈34 g</td>
+          <td style="text-align: right">≈26 g</td>
+          <td style="text-align: right">≈9 g</td>
+          <td style="text-align: right">≈5 g</td>
+      </tr>
+      <tr>
+          <td>周四</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周四</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈700 kcal</td>
+          <td style="text-align: right">≈49 g</td>
+          <td style="text-align: right">≈61 g</td>
+          <td style="text-align: right">≈29 g</td>
+          <td style="text-align: right">≈7 g</td>
+          <td style="text-align: right">≈5 g</td>
+      </tr>
+      <tr>
+          <td>周四</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈755 kcal</td>
+          <td style="text-align: right">≈51 g</td>
+          <td style="text-align: right">≈66 g</td>
+          <td style="text-align: right">≈31 g</td>
+          <td style="text-align: right">≈7 g</td>
+          <td style="text-align: right">≈7 g</td>
+      </tr>
+      <tr>
+          <td>周五</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周五</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈62 g</td>
+          <td style="text-align: right">≈66 g</td>
+          <td style="text-align: right">≈14 g</td>
+          <td style="text-align: right">≈4 g</td>
+          <td style="text-align: right">≈5 g</td>
+      </tr>
+      <tr>
+          <td>周五</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈735 kcal</td>
+          <td style="text-align: right">≈53 g</td>
+          <td style="text-align: right">≈65 g</td>
+          <td style="text-align: right">≈30 g</td>
+          <td style="text-align: right">≈7 g</td>
+          <td style="text-align: right">≈6 g</td>
+      </tr>
+      <tr>
+          <td>周六</td>
+          <td>早餐</td>
+          <td style="text-align: right">≈635 kcal</td>
+          <td style="text-align: right">≈56 g</td>
+          <td style="text-align: right">≈72 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈6 g</td>
+          <td style="text-align: right">≈8 g</td>
+      </tr>
+      <tr>
+          <td>周六</td>
+          <td>午餐</td>
+          <td style="text-align: right">≈500 kcal</td>
+          <td style="text-align: right">≈62 g</td>
+          <td style="text-align: right">≈40 g</td>
+          <td style="text-align: right">≈11 g</td>
+          <td style="text-align: right">≈3 g</td>
+          <td style="text-align: right">≈7 g</td>
+      </tr>
+      <tr>
+          <td>周六</td>
+          <td>晚餐</td>
+          <td style="text-align: right">≈650 kcal</td>
+          <td style="text-align: right">≈66 g</td>
+          <td style="text-align: right">≈65 g</td>
+          <td style="text-align: right">≈15 g</td>
+          <td style="text-align: right">≈4 g</td>
+          <td style="text-align: right">≈7 g</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="流程表">流程表</h3>
+<p>每周集中做菜两次：</p>
+<ul>
+<li><strong class=chinese>周日中午</strong>：做周日午餐 ～ 周三午餐，共7顿</li>
+<li><strong class=chinese>周三晚上</strong>：做周三晚餐 ～ 周六晚餐，共7顿</li>
+<li>两次使用完全相同的食材、数量和流程</li>
+</ul>
+<h4 id="容器准备">容器准备</h4>
+<p>每次做菜准备以下容器：</p>
+<ul>
+<li><strong>2个中碗</strong>：鸡腿和猪里脊各使用一个。</li>
+<li><strong>6个带盖餐盒</strong>：装其余6顿，冷藏保存。</li>
+<li><strong>1个餐盘</strong>：装牛排这一顿，当场吃。</li>
+</ul>
+<p>土豆可直接在烤盘中调味；虾仁、三文鱼和蔬菜不需要额外的调味碗。</p>
+<h4 id="每次做菜用量">每次做菜用量</h4>
+<table class="table-centered">
+  <thead>
+      <tr>
+          <th>食材</th>
+          <th style="text-align: right">每次用量</th>
+          <th style="text-align: right">按购买包装直接取</th>
+          <th style="text-align: right">分成几顿</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>牛排</td>
+          <td style="text-align: right">约150 g</td>
+          <td style="text-align: right"><strong>1/2块</strong></td>
+          <td style="text-align: right">1顿</td>
+      </tr>
+      <tr>
+          <td>去骨去皮鸡腿</td>
+          <td style="text-align: right">约415 g</td>
+          <td style="text-align: right"><strong>1/2盒</strong></td>
+          <td style="text-align: right">2顿</td>
+      </tr>
+      <tr>
+          <td>三文鱼</td>
+          <td style="text-align: right">约150 g</td>
+          <td style="text-align: right"><strong>1块（1/2盒）</strong></td>
+          <td style="text-align: right">1顿</td>
+      </tr>
+      <tr>
+          <td>猪里脊</td>
+          <td style="text-align: right">约470 g</td>
+          <td style="text-align: right"><strong>1条（1/2包）</strong></td>
+          <td style="text-align: right">2顿</td>
+      </tr>
+      <tr>
+          <td>虾仁</td>
+          <td style="text-align: right">约227 g</td>
+          <td style="text-align: right"><strong>1/2袋</strong></td>
+          <td style="text-align: right">1顿</td>
+      </tr>
+      <tr>
+          <td>鸡蛋</td>
+          <td style="text-align: right">9个</td>
+          <td style="text-align: right"><strong>1/2盒</strong></td>
+          <td style="text-align: right">早餐 + 2顿正餐</td>
+      </tr>
+      <tr>
+          <td>罐装土豆</td>
+          <td style="text-align: right">约540 g（含罐内液体）</td>
+          <td style="text-align: right"><strong>1罐</strong></td>
+          <td style="text-align: right">2顿</td>
+      </tr>
+      <tr>
+          <td>白米</td>
+          <td style="text-align: right">约135 g生米</td>
+          <td style="text-align: right">—</td>
+          <td style="text-align: right">2顿</td>
+      </tr>
+      <tr>
+          <td>意面</td>
+          <td style="text-align: right">227 g干重</td>
+          <td style="text-align: right"><strong>1/2包</strong></td>
+          <td style="text-align: right">3顿</td>
+      </tr>
+      <tr>
+          <td>小白菜</td>
+          <td style="text-align: right">450 g</td>
+          <td style="text-align: right"><strong>1份 = 3棵</strong></td>
+          <td style="text-align: right">3顿</td>
+      </tr>
+      <tr>
+          <td>蘑菇</td>
+          <td style="text-align: right">约340 g</td>
+          <td style="text-align: right"><strong>1.5盒</strong></td>
+          <td style="text-align: right">3顿</td>
+      </tr>
+      <tr>
+          <td>菠菜</td>
+          <td style="text-align: right">约340 g</td>
+          <td style="text-align: right"><strong>1.5袋</strong></td>
+          <td style="text-align: right">3顿</td>
+      </tr>
+      <tr>
+          <td>罐装番茄</td>
+          <td style="text-align: right">约400 mL</td>
+          <td style="text-align: right"><strong>1/2罐</strong></td>
+          <td style="text-align: right">3顿</td>
+      </tr>
+      <tr>
+          <td>荷兰豆</td>
+          <td style="text-align: right">227 g</td>
+          <td style="text-align: right"><strong>1袋</strong></td>
+          <td style="text-align: right">2顿</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="做菜顺序">做菜顺序</h4>
+<table class="table-centered">
+  <thead>
+      <tr>
+          <th>步骤</th>
+          <th>操作</th>
+          <th>做法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>预热烤箱</td>
+          <td>烤箱预热至 <strong>200°C</strong></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>开始煮米</td>
+          <td>白米放入电饭煲/压力锅煮好</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>煮鸡蛋</td>
+          <td>水开后约9–10分钟；冷水降温后带壳冷藏</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>准备土豆</td>
+          <td>土豆沥干，加少量食用油、盐、黑胡椒、蒜粉后烤制</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>调味鸡腿</td>
+          <td>统一使用 <strong>生抽 + 蒜粉</strong> 调味</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>调味猪里脊</td>
+          <td>统一使用 <strong>黑胡椒 + 蒜粉 + 少量盐</strong> 调味</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>烤鸡腿和猪里脊</td>
+          <td>与土豆一起利用烤箱，<strong>200°C约20–25分钟</strong>；不同调味分开放</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>煮意面</td>
+          <td>鸡蛋煮完后用同一个煮锅换水煮意面</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>做三文鱼</td>
+          <td>加 <strong>黑胡椒 + 少量盐</strong>，空气炸锅 <strong>200°C约8–12分钟</strong></td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>处理蔬菜</td>
+          <td>按计划表处理小白菜、蘑菇、菠菜、荷兰豆和番茄</td>
+      </tr>
+      <tr>
+          <td>11</td>
+          <td>炒蔬菜</td>
+          <td>同一个炒锅依次处理 <strong>荷兰豆 → 小白菜 → 蘑菇 → 菠菜</strong>；统一少量油、蒜粉、盐；番茄不用提前炒</td>
+      </tr>
+      <tr>
+          <td>12</td>
+          <td>炒虾仁</td>
+          <td>加 <strong>生抽 + 黑胡椒 + 蒜粉</strong>，炒熟</td>
+      </tr>
+      <tr>
+          <td>13</td>
+          <td>最后煎牛排</td>
+          <td>加 <strong>盐 + 黑胡椒 + 蒜粉</strong>；搭配刚烤好的土豆、蘑菇和小白菜，当场吃</td>
+      </tr>
+      <tr>
+          <td>14</td>
+          <td>分鸡蛋</td>
+          <td>按计划表分配给正餐和早餐</td>
+      </tr>
+      <tr>
+          <td>15</td>
+          <td>装餐</td>
+          <td>牛排装入餐盘当场吃；其余按计划表装入6个带盖餐盒冷藏</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="锻炼">锻炼</h2>
+<p>每周训练 5 天；每次先进行 <strong>30 分钟徒手力量训练</strong>，再进行 <strong>60 分钟游泳</strong>。周三、周日休息，正好配合做饭安排。</p>
+<h3 id="每周训练重点">每周训练重点</h3>
+<table class="table-centered">
+  <thead>
+      <tr>
+          <th>星期</th>
+          <th>30 分钟力量</th>
+          <th>60 分钟游泳</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>周一</td>
+          <td>胸、肩、三头</td>
+          <td>中等有氧：自由泳为主，RPE 5–6，约 2000–2500 m</td>
+      </tr>
+      <tr>
+          <td>周二</td>
+          <td>腿、臀</td>
+          <td>高强度间歇：以 100 m、50 m 间歇为主，约 2200–2800 m</td>
+      </tr>
+      <tr>
+          <td>周三</td>
+          <td>休息</td>
+          <td>休息</td>
+      </tr>
+      <tr>
+          <td>周四</td>
+          <td>核心、肩背维护</td>
+          <td>技术／恢复：自由泳、蛙泳为主，少量蝶泳，约 1500–2200 m</td>
+      </tr>
+      <tr>
+          <td>周五</td>
+          <td>胸肩、腿</td>
+          <td>速度训练：25 m、50 m 快游，组间充分休息</td>
+      </tr>
+      <tr>
+          <td>周六</td>
+          <td>全身、核心</td>
+          <td>长距离综合：自由泳为主，穿插蛙泳和少量蝶泳，约 2500–3000 m</td>
+      </tr>
+      <tr>
+          <td>周日</td>
+          <td>休息</td>
+          <td>休息</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="具体训练计划">具体训练计划</h3>
+<p>只需要瑜伽垫，无需器械。力量训练应以较高动作难度、适当休息和不完全力竭为原则；每组保留约 2–3 次余力，避免影响之后的游泳质量。</p>
+<p>游泳均按 <strong>50 m 泳池</strong>设计：<strong>1 趟 = 50 m，1 个来回 = 100 m</strong>。以下距离包含热身和放松，组间休息计入 60 分钟。若目前还不能轻松完成相应距离，前 2–4 周先完成每项的约 70%，然后每周增加 1–2 个来回；肩、膝或腰出现疼痛时停止该动作并调整。</p>
+<h4 id="周一">周一</h4>
+<p>力量：</p>
+<ul>
+<li>俯卧撑：4 × 8–20</li>
+<li>Pike push-up：3 × 6–12</li>
+<li>Diamond push-up：3 × 8–15</li>
+<li>Shoulder tap：3 × 16–24</li>
+<li>平板支撑：3 × 30–60 秒</li>
+</ul>
+<p>游泳：</p>
+<ul>
+<li>热身：自由泳 4 个来回，轻松游。</li>
+<li>技术转换：蛙泳 2 个来回，轻松游。</li>
+<li>主训练：自由泳 12 个来回，分为 3 组，每组 4 个来回；组间休息 30 秒，保持 RPE 5–6。</li>
+<li>放松：自由泳、蛙泳各 2 个来回，轻松游。</li>
+</ul>
+<h4 id="周二">周二</h4>
+<p>力量：</p>
+<ul>
+<li>深蹲：4 × 15–25</li>
+<li>反向弓步：3 × 10–15／腿</li>
+<li>单腿臀桥：3 × 12–20／腿</li>
+<li>跳跃深蹲：3 × 6–10</li>
+<li>单腿提踵：3 × 15–25／腿</li>
+</ul>
+<p>游泳：</p>
+<ul>
+<li>热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。</li>
+<li>主训练一：自由泳 8 × 1 个来回；每个来回游快一些，组间休息 30–40 秒。</li>
+<li>主训练二：自由泳 4 × 1 个来回；保持动作完整、RPE 8，组间休息 45–60 秒。</li>
+<li>恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游。</li>
+</ul>
+<h4 id="周四">周四</h4>
+<p>力量：</p>
+<p>这是休息日后的轻量启动日。徒手训练无法提供真正高负荷的拉力，因此背阔肌的主要刺激来自游泳；以下动作重点维护肩胛、后肩、竖脊肌和核心。</p>
+<ul>
+<li>Reverse snow angel：3 × 15</li>
+<li>Y-T-W raise：3 轮</li>
+<li>Superman：3 × 12–15</li>
+<li>Dead bug：3 × 10／侧</li>
+<li>Bird dog：3 × 10／侧</li>
+<li>Hollow hold：3 × 20–40 秒</li>
+<li>Side plank：2 × 30–45 秒／侧</li>
+</ul>
+<p>游泳：</p>
+<ul>
+<li>热身：自由泳 3 个来回，轻松游。</li>
+<li>技术一：蛙泳 4 个来回，专注于蹬腿后身体伸直、滑行。</li>
+<li>技术二：自由泳 5 个来回；每个来回的前 50 m 做单臂自由泳（左右臂轮换），后 50 m 正常自由泳。</li>
+<li>恢复：自由泳、蛙泳交替各 2 个来回，共 4 个来回，保持非常轻松的节奏。</li>
+<li>放松：自由泳 2 个来回，轻松游。</li>
+</ul>
+<h4 id="周五">周五</h4>
+<p>力量：</p>
+<ul>
+<li>慢速俯卧撑（下降 3 秒）：3 × 8–15</li>
+<li>Pike push-up：3 × 8–12</li>
+<li>分腿蹲：3 × 12／腿</li>
+<li>单腿臀桥：3 × 15／腿</li>
+<li>Diamond push-up：2 × 8–15</li>
+<li>Hollow hold：3 组</li>
+</ul>
+<p>游泳：</p>
+<ul>
+<li>热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。</li>
+<li>速度组：自由泳 8 × 1 趟（每趟 50 m）；每趟接近冲刺，但动作不散，组间休息 30–45 秒。</li>
+<li>恢复组：蛙泳 4 × 1 趟（每趟 50 m），轻松游。</li>
+<li>主训练：自由泳 6 × 1 个来回，RPE 7，组间休息 30 秒。</li>
+<li>放松：自由泳 2 个来回，轻松游。</li>
+</ul>
+<h4 id="周六">周六</h4>
+<p>力量：</p>
+<p>设置 25 分钟计时器，依次循环以下动作；每轮记录完成情况，逐步从 4 轮提升至 4.5 轮、5 轮。剩余 5 分钟活动肩部与髋部。</p>
+<ul>
+<li>俯卧撑：10 个</li>
+<li>深蹲：15 个</li>
+<li>反向弓步：8 个／腿</li>
+<li>Pike push-up：8 个</li>
+<li>Superman：12 个</li>
+<li>Shoulder tap：20 个</li>
+<li>平板支撑：30 秒</li>
+</ul>
+<p>游泳：</p>
+<ul>
+<li>热身：自由泳 4 个来回，轻松游。</li>
+<li>有氧一：自由泳 6 个来回，保持均匀节奏。</li>
+<li>变换泳姿：蛙泳 4 个来回，轻松游。</li>
+<li>蝶泳技术：2 个来回；每个来回前 50 m 蝶泳、后 50 m 蛙泳。蝶泳动作变形时，改为自由泳。</li>
+<li>有氧二：自由泳 8 个来回，RPE 5–6；每 4 个来回休息 30 秒。</li>
+<li>综合恢复：自由泳、蛙泳各 1 个来回。</li>
+<li>放松：自由泳 2 个来回，轻松游。</li>
+</ul>
+
+    
+
+    
+  </article>
+
+  
+  
+
+<div id="sharingbuttons">
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+  <div class="paginator">
+    
+    <a class="link" href="http://localhost:1313/posts/2d8f6b0/" title="$\ell$-Independence"><span class="arrow-icon">🢠</span> Prev</a>
+    
+    
+    <a class="link" href="http://localhost:1313/posts/1b64c0e/" title="Middle Extension and Middle Convolution">Next <span class="arrow-icon">🢡</span></a>
+    
+  </div>
+  
+  <div class="comment">
+    
+    
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="yunhaixiang/yhmath"
+        data-repo-id="R_kgDOQj059g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQj059s4CzenA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  
+  
+</main>
+
+    <footer id="footer">
+  
+  <div>
+    <span>Copyright © 2026 Yunhai Xiang</span>
+  </div>
+</footer>
+
+<script src="/js/math-env.js"></script>
+
+  </div>
+
+  
+  <script src='http://localhost:1313/js/script.js' defer></script>
+
+  
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/typography.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/publications.css" />
+  
+  <link media="screen" rel="stylesheet" href="http://localhost:1313/css/codeblock.css" />
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
+
+<script src="/js/collapsible.js" defer></script>
+<script src="/js/mobile-ol-markers.js" defer></script>
