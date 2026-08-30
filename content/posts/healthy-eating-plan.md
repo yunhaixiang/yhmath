@@ -1,6 +1,5 @@
 +++
 date = '2026-08-30T11:43:05-0400'
-draft = true
 title = '健康饮食锻炼计划'
 slug = '06e58c7'
 aliases = ['/posts/healthy-eating-plan/']
