@@ -185,7 +185,7 @@ aliases = ['/posts/healthy-eating-plan/']
 力量：
 
 - <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 × 8–15
-- <input type="checkbox" aria-label="完成"> [倒立式俯卧撑](https://www.youtube.com/watch?v=fXgou2W10ok)（Pike push-up）：3 × 6–12
+- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 × 8–15
 - <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 × 8–15／侧
 - <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 × 16–24
 - <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 × 30–60 秒
@@ -261,7 +261,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 个
 - <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 个
 - <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 个／腿
-- <input type="checkbox" aria-label="完成"> [倒立式俯卧撑](https://www.youtube.com/watch?v=fXgou2W10ok)（Pike push-up）：8 个
+- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 个
 - <input type="checkbox" aria-label="完成"> [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 个
 - <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 个
 - <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
