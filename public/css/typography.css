@@ -22,24 +22,19 @@ body.small-caps-sections .toc a {
   font-variant-caps: small-caps;
 }
 
-/* Opt-in centering for Markdown tables; retain horizontal scrolling on small screens. */
+/* Opt-in centering for Markdown tables; wrap long cells before overflowing. */
 .content table.table-centered {
   display: table;
-  width: max-content;
-  max-width: none;
+  width: fit-content;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media screen and (max-width: 800px) {
-  .content table.table-centered {
-    display: block;
-    width: auto;
-    max-width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-    overflow-x: auto;
-  }
+.content table.table-centered th,
+.content table.table-centered td {
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 /* Reusable annotations for kana modified by dakuten and handakuten. */
