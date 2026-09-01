@@ -52,7 +52,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 熟虾（去壳去虾线） | 625 g / 袋 | 1袋 / 周 |
 | 牛排 | 300 g / 块 | 1块 / 周 |
 | 鸡蛋 | 18个 / 盒 | 1盒 / 周 |
-| 1%牛奶 | 2 L / 瓶 | 3瓶 / 周 |
+| 1%牛奶 | 2 L / 瓶 | 2瓶 / 周 |
 | 罐装土豆 | 540 mL / 罐 | 2罐 / 周 |
 | Baby-cut 胡萝卜 | 908 g / 袋 | 1袋 / 2周 |
 | 蘑菇 | 227 g / 盒 | 2盒 / 周 |
@@ -156,38 +156,20 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ## 锻炼
 
-每周训练 5 天；每次先进行 **30 分钟徒手力量训练**，再进行有氧。每周游泳 **1 次**：周六实际游 **60 分钟**；其余 4 次为 **60 分钟**跑步机上坡走。周三、周日休息，正好配合做饭安排。
+每周训练 5 天；每次先进行 **30 分钟徒手力量训练**，再进行 **40 分钟游泳**。更衣和冲澡预留 20 分钟，因此每次在场馆共约 90 分钟。周三、周日休息，正好配合做饭安排。
 
 ### 每周训练重点
 
-| 星期 | 30 分钟力量 | 有氧 |
+| 星期 | 30 分钟力量 | 40 分钟游泳 |
 |---|---|---|
-| 周一 | 胸、肩、三头 | 跑步机上坡走 60 分钟：坡度 4–7%，速度 4.5–5.0 km/h |
-| 周二 | 腿、臀 | 跑步机上坡走 60 分钟：坡度 4–7%，速度 4.5–5.0 km/h |
+| 周一 | 胸、肩、三头 | 中等有氧：自由泳为主，RPE 5–6，约 1400 m |
+| 周二 | 腿、臀 | 高强度间歇：以 100 m、50 m 间歇为主，约 1600 m |
 | 周三 | 休息 | 休息 |
-| 周四 | 核心、肩背维护 | 跑步机上坡走 60 分钟：坡度 4–7%，速度 4.5–5.0 km/h |
-| 周五 | 胸肩、腿 | 跑步机上坡走 60 分钟：坡度 4–7%，速度 4.5–5.0 km/h |
-| 周六 | 全身、核心 | 长距离综合游泳 60 分钟：自由泳为主，穿插蛙泳和少量蝶泳 |
+| 周四 | 核心、肩背维护 | 技术／恢复：自由泳、蛙泳为主，约 1200 m |
+| 周五 | 胸肩、腿 | 速度训练：25 m、50 m 快游，组间充分休息，约 1300 m |
+| 周六 | 全身、核心 | 长距离综合：自由泳为主，穿插蛙泳和少量蝶泳，约 1900 m |
 | 周日 | 休息 | 休息 |
 {.table-centered}
-
-### 有氧计划
-
-**周一、周二、周四、周五：跑步机上坡走（共 60 分钟）**
-
-- <input type="checkbox" aria-label="完成"> **0–5 分钟热身**：坡度 0–2%，速度 4.0–4.5 km/h。
-- <input type="checkbox" aria-label="完成"> **5–55 分钟主段**：坡度 4–7%，速度 4.5–5.0 km/h；以「能说完整句话、但不能唱歌」为准（RPE 5–6）。
-- <input type="checkbox" aria-label="完成"> **55–60 分钟放松**：坡度 0–2%，速度 4.0–4.5 km/h。
-
-
-**周六：游泳（实际下水 60 分钟，25 m 泳池）**
-
-- <input type="checkbox" aria-label="完成"> **0–10 分钟热身**：自由泳 6 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> **10–25 分钟有氧一**：自由泳 12 个来回，保持均匀节奏。
-- <input type="checkbox" aria-label="完成"> **25–35 分钟换泳姿／技术**：蛙泳 5 个来回；再做蝶泳技术 2 个来回，每个来回前 25 m 蝶泳、后 25 m 蛙泳。蝶泳动作变形时，改为自由泳。
-- <input type="checkbox" aria-label="完成"> **35–50 分钟有氧二**：自由泳 16 个来回，RPE 5–6；每 8 个来回休息 30 秒。
-- <input type="checkbox" aria-label="完成"> **50–60 分钟恢复放松**：自由泳、蛙泳各 2 个来回，再自由泳 6 个来回，均轻松游。
-- <input type="checkbox" aria-label="完成"> 距离只是参考；60 分钟内动作不变形更重要。肩部疼痛时停止蝶泳，改为自由泳或蛙泳。
 
 ### 具体训练计划
 
@@ -195,7 +177,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 下列力量动作的中文名称均可点击观看 YouTube 短演示视频。
 
-游泳均按 **25 m 泳池**设计：**1 趟 = 25 m，1 个来回 = 50 m**。周六游泳的距离包含热身和放松，组间休息计入 60 分钟。跑步机上坡走维持在「能说话、但不能唱歌」的强度；前 2–4 周先用较低坡度或只走 40 分钟，再逐步增加。膝、跟腱、肩或腰出现疼痛时停止并调整。
+游泳均按 **25 m 泳池**设计：**1 趟 = 25 m，1 个来回 = 50 m**。以下距离包含热身和放松，组间休息计入 40 分钟。若目前还不能轻松完成相应距离，前 2–4 周先完成每项的约 70%，然后每周增加 2–4 个来回；肩、膝或腰出现疼痛时停止该动作并调整。
 
 #### 周一
 
@@ -207,9 +189,12 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
 - <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
-跑步机上坡走：
+游泳：
 
-- <input type="checkbox" aria-label="完成"> 按上方「有氧计划」完成 60 分钟跑步机上坡走。
+- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 技术转换：蛙泳 2 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 主训练：自由泳 18 个来回，分为 3 组，每组 6 个来回；组间休息 30 秒，保持 RPE 5–6。
+- <input type="checkbox" aria-label="完成"> 放松：自由泳、蛙泳各 2 个来回，轻松游。
 
 #### 周二
 
@@ -221,9 +206,12 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿
 - <input type="checkbox" aria-label="完成"> [单腿提踵](https://www.youtube.com/watch?v=ElcvJ0kjt6c)（Single-leg calf raise）：2 组 × 15–25 次／腿
 
-跑步机上坡走：
+游泳：
 
-- <input type="checkbox" aria-label="完成"> 按上方「有氧计划」完成 60 分钟跑步机上坡走。
+- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 主训练一：自由泳 6 组 × 2 个来回；每组 100 m，游快一些，组间休息 30–40 秒。
+- <input type="checkbox" aria-label="完成"> 主训练二：自由泳 3 组 × 2 个来回；每组 100 m，保持动作完整、RPE 8，组间休息 45–60 秒。
+- <input type="checkbox" aria-label="完成"> 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游。
 
 #### 周四
 
@@ -237,9 +225,13 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧
 - <input type="checkbox" aria-label="完成"> [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
-跑步机上坡走：
+游泳：
 
-- <input type="checkbox" aria-label="完成"> 按上方「有氧计划」完成 60 分钟跑步机上坡走。
+- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 技术一：蛙泳 5 个来回，专注于蹬腿后身体伸直、滑行。
+- <input type="checkbox" aria-label="完成"> 技术二：自由泳 6 个来回；每个来回的前 25 m 做单臂自由泳（左右臂轮换），后 25 m 正常自由泳。
+- <input type="checkbox" aria-label="完成"> 恢复：自由泳、蛙泳交替各 2 个来回，共 4 个来回，保持非常轻松的节奏。
+- <input type="checkbox" aria-label="完成"> 放松：自由泳 5 个来回，轻松游。
 
 #### 周五
 
@@ -251,9 +243,13 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿
 - <input type="checkbox" aria-label="完成"> [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
 
-跑步机上坡走：
+游泳：
 
-- <input type="checkbox" aria-label="完成"> 按上方「有氧计划」完成 60 分钟跑步机上坡走。
+- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 速度组：自由泳 6 组 × 1 个来回；每组 50 m，接近冲刺但动作不散，组间休息 30–45 秒。
+- <input type="checkbox" aria-label="完成"> 恢复组：蛙泳 3 组 × 1 个来回；每组 50 m，轻松游。
+- <input type="checkbox" aria-label="完成"> 主训练：自由泳 4 组 × 2 个来回；每组 100 m，RPE 7，组间休息 30 秒。
+- <input type="checkbox" aria-label="完成"> 放松：自由泳 3 个来回，轻松游。
 
 #### 周六
 
@@ -271,4 +267,10 @@ aliases = ['/posts/healthy-eating-plan/']
 
 游泳：
 
-- <input type="checkbox" aria-label="完成"> 按上方「有氧计划」完成 60 分钟游泳。
+- <input type="checkbox" aria-label="完成"> 热身：自由泳 5 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 有氧一：自由泳 8 个来回，保持均匀节奏。
+- <input type="checkbox" aria-label="完成"> 变换泳姿：蛙泳 5 个来回，轻松游。
+- <input type="checkbox" aria-label="完成"> 蝶泳技术：2 个来回；每个来回前 25 m 蝶泳、后 25 m 蛙泳。蝶泳动作变形时，改为自由泳。
+- <input type="checkbox" aria-label="完成"> 有氧二：自由泳 10 个来回，RPE 5–6；每 5 个来回休息 30 秒。
+- <input type="checkbox" aria-label="完成"> 综合恢复：自由泳、蛙泳各 2 个来回。
+- <input type="checkbox" aria-label="完成"> 放松：自由泳 4 个来回，轻松游。
