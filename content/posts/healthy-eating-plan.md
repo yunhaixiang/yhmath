@@ -87,7 +87,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 虾仁 | 约312 g | 1/2袋 | 1顿 |
 | 鸡蛋 | 9个 | 1/2盒 | 早餐 + 2顿正餐 |
 | 罐装土豆 | 540 mL | 1罐 | 2顿 |
-| 白米 | 1 杯生米 | 电饭煲附带量杯 1 平杯 | 2顿 |
+| 白米 | 3/4 杯生米 | 电饭煲附带量杯 3/4 平杯 | 2顿 |
 | 意面 | 227 g干重 | 1/2包 | 3顿 |
 | Baby-cut 胡萝卜 | 225 g | 约1/4袋 | 3顿 |
 | 蘑菇 | 227 g | 1盒 | 3顿 |
@@ -111,28 +111,28 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 阶段 1：先启动所有耗时设备
 
-1. <input type="checkbox" aria-label="完成"> 烤箱预热至 400°F；两口煮锅分别加足量水、盖盖并开最大火煮沸。煮锅 A 用于鸡蛋，煮锅 B 用于意面。
-2. <input type="checkbox" aria-label="完成"> 用电饭煲附带量杯量 1 平杯白米，淘洗后放入电饭煲；再加 1 平杯水。选择“白米／White Rice”模式后启动。
+1. 烤箱预热至 400°F；两口煮锅分别加足量水、盖盖并开最大火煮沸。煮锅 A 用于鸡蛋，煮锅 B 用于意面。
+2. 用电饭煲附带量杯量 3/4 平杯白米，淘洗后放入电饭煲；再加 3/4 平杯水。选择“白米／White Rice”模式后启动。
 
 #### 阶段 2：一次完成所有调味
 
 按以下顺序调味，所有食材留在各自的调味盆中。先处理土豆和熟虾，再处理三文鱼、鸡大腿肉、猪里脊；接触生三文鱼、鸡大腿肉或猪里脊后，立刻洗手，且不要让其盆或夹子接触熟虾、土豆和蔬菜。
 
-1. <input type="checkbox" aria-label="完成"> 打开土豆罐头，将土豆倒入漏勺沥干；放入土豆调味盆，加 2 茶匙（10 mL）食用油 + 1/4 茶匙盐 + 1/4 茶匙黑胡椒 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/2 茶匙红椒粉，翻匀。
-2. <input type="checkbox" aria-label="完成"> 熟虾须在做菜前一晚从冷冻室取出约半袋，在冷藏室解冻；剩余立即密封冷冻，不要把已解冻的虾重新冷冻。解冻后沥干，在虾仁调味盆中加 1/4 茶匙黑胡椒 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/2 茶匙红椒粉，拌匀；不额外加盐。
-3. <input type="checkbox" aria-label="完成"> 三文鱼擦干，在三文鱼调味盆中加 1/2 茶匙（2.5 mL）橄榄油 + 1/4 茶匙盐 + 1/4 茶匙黑胡椒 + 1/2 茶匙红椒粉，两面抹匀。
-4. <input type="checkbox" aria-label="完成"> 鸡大腿肉擦干，在鸡大腿肉调味盆中加 2 茶匙（10 mL）橄榄油 + 1/2 茶匙盐 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1 茶匙红椒粉 + 1/2 茶匙干牛至叶，翻匀。
-5. <input type="checkbox" aria-label="完成"> 猪里脊擦干，在猪里脊调味盆中加 1½ 茶匙（约 7 mL）橄榄油 + 1/2 茶匙盐 + 1/2 茶匙黑胡椒 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1 茶匙红椒粉 + 1/2 茶匙干牛至叶，翻匀；洗手并清洁接触过生肉的盆、夹子和台面。
+1. 打开土豆罐头，将土豆倒入漏勺沥干；放入土豆调味盆，加 2 茶匙（10 mL）食用油 + 1/4 茶匙盐 + 1/4 茶匙黑胡椒 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/2 茶匙红椒粉，翻匀。
+2. 熟虾须在做菜前一晚从冷冻室取出约半袋，在冷藏室解冻；剩余立即密封冷冻，不要把已解冻的虾重新冷冻。解冻后沥干，在虾仁调味盆中加 1/4 茶匙黑胡椒 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/2 茶匙红椒粉，拌匀；不额外加盐。
+3. 三文鱼擦干，在三文鱼调味盆中加 1/2 茶匙（2.5 mL）橄榄油 + 1/4 茶匙盐 + 1/4 茶匙黑胡椒 + 1/2 茶匙红椒粉，两面抹匀。
+4. 鸡大腿肉擦干，在鸡大腿肉调味盆中加 2 茶匙（10 mL）橄榄油 + 1/2 茶匙盐 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1 茶匙红椒粉 + 1/2 茶匙干牛至叶，翻匀。
+5. 猪里脊擦干，在猪里脊调味盆中加 1½ 茶匙（约 7 mL）橄榄油 + 1/2 茶匙盐 + 1/2 茶匙黑胡椒 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1 茶匙红椒粉 + 1/2 茶匙干牛至叶，翻匀；洗手并清洁接触过生肉的盆、夹子和台面。
 
 #### 阶段 3：把肉、蛋和意面同时开始烹调
 
-1. <input type="checkbox" aria-label="完成"> 烤箱达到温度后：土豆倒到铺烘焙纸的烤盘；鸡大腿肉和猪里脊放到另一张铺烘焙纸的烤盘并彼此分开。两盘同时入烤箱。
-2. <input type="checkbox" aria-label="完成"> 鸡大腿肉、猪里脊和土豆先烤 25 分钟。到点测最厚处中心：鸡大腿肉须达 165°F，猪里脊须达 160°F；未达标则每次再烤 3–5 分钟并复测。土豆表面上色即可。
-3. <input type="checkbox" aria-label="完成"> 空气炸锅装入炸篮内的烤盘或脆盘。三文鱼调味完成后，预热至 400°F，约 4 分钟。
-4. <input type="checkbox" aria-label="完成"> 预热结束后拉出炸篮；三文鱼有皮则皮面朝下，去皮则较平的一面朝下，放在烤盘或脆盘上。不要在空篮预热时放烘焙纸。推回炸篮，以 400°F 烹调 8 分钟。
-5. <input type="checkbox" aria-label="完成"> 第 8 分钟测三文鱼最厚处；未达到 158°F 则每次再加 2 分钟并复测。熟后放入第 3 顿餐盘。
-4. <input type="checkbox" aria-label="完成"> 水沸腾后，煮锅 A 用勺子轻放鸡蛋，保持小沸腾煮 8 分钟；捞出后用冷水降温。
-5. <input type="checkbox" aria-label="完成"> 水沸腾后，煮锅 B 下意面，期间搅拌两次防粘；按包装时间煮，约 8 分钟。沥干后分入第 3 顿、第 5 顿和第 7 顿餐盘。
+1. 烤箱达到温度后：土豆倒到铺烘焙纸的烤盘；鸡大腿肉和猪里脊放到另一张铺烘焙纸的烤盘并彼此分开。两盘同时入烤箱。
+2. 鸡大腿肉、猪里脊和土豆先烤 25 分钟。到点测最厚处中心：鸡大腿肉须达 165°F，猪里脊须达 160°F；未达标则每次再烤 3–5 分钟并复测。土豆表面上色即可。
+3. 空气炸锅装入炸篮内的烤盘或脆盘。三文鱼调味完成后，预热至 400°F，约 4 分钟。
+4. 预热结束后拉出炸篮；三文鱼有皮则皮面朝下，去皮则较平的一面朝下，放在烤盘或脆盘上。不要在空篮预热时放烘焙纸。推回炸篮，以 400°F 烹调 8 分钟。
+5. 第 8 分钟测三文鱼最厚处；未达到 158°F 则每次再加 2 分钟并复测。熟后放入第 3 顿餐盘。
+4. 水沸腾后，煮锅 A 用勺子轻放鸡蛋，保持小沸腾煮 8 分钟；捞出后用冷水降温。
+5. 水沸腾后，煮锅 B 下意面，期间搅拌两次防粘；按包装时间煮，约 8 分钟。沥干后分入第 3 顿、第 5 顿和第 7 顿餐盘。
 
 鸡蛋和意面煮制期间，进行阶段 4；烤箱仍在工作时，完成阶段 4 和阶段 5。
 
@@ -140,18 +140,18 @@ aliases = ['/posts/healthy-eating-plan/']
 
 固定分工：sauce pan 负责胡萝卜 → 番茄 → 虾仁；wok 负责蘑菇 → 菠菜 → 牛排。准备 2 个约 2.8 L 的 colander：一个沥菠菜，一个沥蘑菇。任一空出的 colander 可用于阶段 2 沥土豆和之后沥意面，因此不需要第三个。
 
-1. <input type="checkbox" aria-label="完成"> sauce pan：Baby-cut 胡萝卜不需要削皮或清洗，纵向对半切。大火加 1 茶匙（5 mL）食用油；下胡萝卜和 2 汤匙水，盖盖焖 3 分钟，开盖翻炒 3–4 分钟。最后 30 秒沿锅边加入 1 茶匙蚝油；分到第 4 顿和第 6 顿餐盘。
-2. <input type="checkbox" aria-label="完成"> wok：蘑菇若包装标示 pre-washed 或 ready-to-eat，直接切掉底部并切片；否则冷水快速冲洗、用中号 colander 沥干后切片。大火加 1 茶匙（5 mL）食用油 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/4 茶匙黑胡椒；下蘑菇炒 5–7 分钟，水分基本收干后加 1/8 茶匙盐；分到第 1 顿和第 5 顿餐盘。
-3. <input type="checkbox" aria-label="完成"> 胡萝卜盖盖焖、蘑菇间歇翻炒时：处理下一轮蔬菜。菠菜若包装标示 washed、pre-washed、triple washed 或 ready-to-eat，直接使用；否则用冷流动水洗净、用大号 colander 甩干或用厨房纸按干。菠菜不切，余下半袋密封冷藏。再打开番茄罐头，量出一半连同番茄汁；余下半罐装入干净带盖容器冷藏，若超过 3 天才会再做菜则冷冻。
-4. <input type="checkbox" aria-label="完成"> sauce pan 的胡萝卜完成后：中火加 1 茶匙（5 mL）食用油；下番茄，加 1/2 茶匙蒜粉 + 1/4 茶匙黑胡椒 + 1/2 茶匙干牛至叶 + 1/8 茶匙盐，收汁 3–5 分钟；分到第 3 顿和第 7 顿餐盘。
-5. <input type="checkbox" aria-label="完成"> wok 的蘑菇完成后：大火加 1 茶匙（5 mL）食用油，下菠菜翻炒 30 秒；加 1/4 茶匙蒜粉 + 1/4 茶匙洋葱粉 + 1/8 茶匙盐，炒至刚变软；放入第 2 顿餐盘。
-6. <input type="checkbox" aria-label="完成"> sauce pan 的番茄完成后：大火加 1 茶匙（5 mL）食用油；下调味好的熟虾翻炒 1–2 分钟，刚热透即关火；放入第 6 顿餐盘。
-7. <input type="checkbox" aria-label="完成"> wok 的菠菜完成后：牛排擦干，两面加 1/4 茶匙盐 + 1/4 茶匙黑胡椒 + 1/4 茶匙洋葱粉。大火预热 2 分钟，加 1 茶匙（5 mL）食用油；下约 2 cm 厚牛排，每面煎 2–3 分钟，静置 5 分钟；放入第 1 顿餐盘。
+1. sauce pan：Baby-cut 胡萝卜不需要削皮或清洗，纵向对半切。大火加 1 茶匙（5 mL）食用油；下胡萝卜和 2 汤匙水，盖盖焖 3 分钟，开盖翻炒 3–4 分钟。最后 30 秒沿锅边加入 1 茶匙蚝油；分到第 4 顿和第 6 顿餐盘。
+2. wok：蘑菇若包装标示 pre-washed 或 ready-to-eat，直接切掉底部并切片；否则冷水快速冲洗、用中号 colander 沥干后切片。大火加 1 茶匙（5 mL）食用油 + 1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/4 茶匙黑胡椒；下蘑菇炒 5–7 分钟，水分基本收干后加 1/8 茶匙盐；分到第 1 顿和第 5 顿餐盘。
+3. 胡萝卜盖盖焖、蘑菇间歇翻炒时：处理下一轮蔬菜。菠菜若包装标示 washed、pre-washed、triple washed 或 ready-to-eat，直接使用；否则用冷流动水洗净、用大号 colander 甩干或用厨房纸按干。菠菜不切，余下半袋密封冷藏。再打开番茄罐头，量出一半连同番茄汁；余下半罐装入干净带盖容器冷藏，若超过 3 天才会再做菜则冷冻。
+4. sauce pan 的胡萝卜完成后：中火加 1 茶匙（5 mL）食用油；下番茄，加 1/2 茶匙蒜粉 + 1/4 茶匙黑胡椒 + 1/2 茶匙干牛至叶 + 1/8 茶匙盐，收汁 3–5 分钟；分到第 3 顿和第 7 顿餐盘。
+5. wok 的蘑菇完成后：大火加 1 茶匙（5 mL）食用油，下菠菜翻炒 30 秒；加 1/4 茶匙蒜粉 + 1/4 茶匙洋葱粉 + 1/8 茶匙盐，炒至刚变软；放入第 2 顿餐盘。
+6. sauce pan 的番茄完成后：大火加 1 茶匙（5 mL）食用油；下调味好的熟虾翻炒 1–2 分钟，刚热透即关火；放入第 6 顿餐盘。
+7. wok 的菠菜完成后：牛排擦干，两面加 1/4 茶匙盐 + 1/4 茶匙黑胡椒 + 1/4 茶匙洋葱粉。大火预热 2 分钟，加 1 茶匙（5 mL）食用油；下约 2 cm 厚牛排，每面煎 2–3 分钟，静置 5 分钟；放入第 1 顿餐盘。
 
 #### 阶段 5：收尾、分盘
 
-1. <input type="checkbox" aria-label="完成"> 烤箱食材熟后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿；猪里脊分到第 4 顿和第 7 顿。
-2. <input type="checkbox" aria-label="完成"> 各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。电饭煲完成后，白米分入第 2 顿和第 4 顿餐盘。
+1. 烤箱食材熟后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿；猪里脊分到第 4 顿和第 7 顿。
+2. 各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。电饭煲完成后，白米分入第 2 顿和第 4 顿餐盘。
 
 
 
@@ -186,35 +186,35 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
-- <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
-- <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
-- <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
+- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
+- [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
+- [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
+- [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
+- [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
 游泳：
 
-- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 技术转换：蛙泳 2 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 主训练：自由泳 18 个来回，分为 3 组，每组 6 个来回；组间休息 30 秒，保持 RPE 5–6。
-- <input type="checkbox" aria-label="完成"> 放松：自由泳、蛙泳各 2 个来回，轻松游。
+- 热身：自由泳 4 个来回，轻松游。
+- 技术转换：蛙泳 2 个来回，轻松游。
+- 主训练：自由泳 18 个来回，分为 3 组，每组 6 个来回；组间休息 30 秒，保持 RPE 5–6。
+- 放松：自由泳、蛙泳各 2 个来回，轻松游。
 
 #### 周二：下肢与臀部
 
 力量：
 
-- <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
-- <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
-- <input type="checkbox" aria-label="完成"> [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：3 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
+- [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
+- [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
+- [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
+- [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
+- [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：3 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
 
 游泳：
 
-- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 主训练一：自由泳 6 组 × 2 个来回；每组 100 m，游快一些，组间休息 30–40 秒。
-- <input type="checkbox" aria-label="完成"> 主训练二：自由泳 3 组 × 2 个来回；每组 100 m，保持动作完整、RPE 8，组间休息 45–60 秒。
-- <input type="checkbox" aria-label="完成"> 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游。
+- 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
+- 主训练一：自由泳 6 组 × 2 个来回；每组 100 m，游快一些，组间休息 30–40 秒。
+- 主训练二：自由泳 3 组 × 2 个来回；每组 100 m，保持动作完整、RPE 8，组间休息 45–60 秒。
+- 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游。
 
 #### 周四：背部拉力与核心
 
@@ -222,37 +222,37 @@ aliases = ['/posts/healthy-eating-plan/']
 
 这是休息日后的拉训练和核心日。阻力应能让最后 2–3 次明显吃力、但动作不变形。
 
-- <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
-- <input type="checkbox" aria-label="完成"> [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
-- <input type="checkbox" aria-label="完成"> [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次；每次抬至最高点停 1 秒
-- <input type="checkbox" aria-label="完成"> [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
-- <input type="checkbox" aria-label="完成"> [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
+- [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
+- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
+- [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次；每次抬至最高点停 1 秒
+- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
+- [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
 游泳：
 
-- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 技术一：蛙泳 5 个来回，专注于蹬腿后身体伸直、滑行。
-- <input type="checkbox" aria-label="完成"> 技术二：自由泳 6 个来回；每个来回的前 25 m 做单臂自由泳（左右臂轮换），后 25 m 正常自由泳。
-- <input type="checkbox" aria-label="完成"> 恢复：自由泳、蛙泳交替各 2 个来回，共 4 个来回，保持非常轻松的节奏。
-- <input type="checkbox" aria-label="完成"> 放松：自由泳 5 个来回，轻松游。
+- 热身：自由泳 4 个来回，轻松游。
+- 技术一：蛙泳 5 个来回，专注于蹬腿后身体伸直、滑行。
+- 技术二：自由泳 6 个来回；每个来回的前 25 m 做单臂自由泳（左右臂轮换），后 25 m 正常自由泳。
+- 恢复：自由泳、蛙泳交替各 2 个来回，共 4 个来回，保持非常轻松的节奏。
+- 放松：自由泳 5 个来回，轻松游。
 
 #### 周五：下肢、推力与核心
 
 力量：
 
-- <input type="checkbox" aria-label="完成"> [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
-- <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
-- <input type="checkbox" aria-label="完成"> [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
+- [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
+- [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
+- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
+- [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
+- [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
 
 游泳：
 
-- <input type="checkbox" aria-label="完成"> 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 速度组：自由泳 6 组 × 1 个来回；每组 50 m，接近冲刺但动作不散，组间休息 30–45 秒。
-- <input type="checkbox" aria-label="完成"> 恢复组：蛙泳 3 组 × 1 个来回；每组 50 m，轻松游。
-- <input type="checkbox" aria-label="完成"> 主训练：自由泳 4 组 × 2 个来回；每组 100 m，RPE 7，组间休息 30 秒。
-- <input type="checkbox" aria-label="完成"> 放松：自由泳 3 个来回，轻松游。
+- 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
+- 速度组：自由泳 6 组 × 1 个来回；每组 50 m，接近冲刺但动作不散，组间休息 30–45 秒。
+- 恢复组：蛙泳 3 组 × 1 个来回；每组 50 m，轻松游。
+- 主训练：自由泳 4 组 × 2 个来回；每组 100 m，RPE 7，组间休息 30 秒。
+- 放松：自由泳 3 个来回，轻松游。
 
 #### 周六：全身循环
 
@@ -260,20 +260,65 @@ aliases = ['/posts/healthy-eating-plan/']
 
 设置 25 分钟计时器，依次循环以下动作；每轮记录完成情况，逐步从 4 轮提升至 4.5 轮、5 轮。剩余 5 分钟活动肩部与髋部。
 
-- <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 次／腿；最低点停 1 秒
-- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 次；手臂伸直的顶点停 1 秒
-- <input type="checkbox" aria-label="完成"> [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次；拉至腹侧、肩胛骨夹紧时停 1 秒
-- <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒
-- <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
+- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次；最低点停 1 秒
+- [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次；最低点停 1 秒
+- [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 次／腿；最低点停 1 秒
+- [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 次；手臂伸直的顶点停 1 秒
+- [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次；拉至腹侧、肩胛骨夹紧时停 1 秒
+- [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒
+- [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
 
 游泳：
 
-- <input type="checkbox" aria-label="完成"> 热身：自由泳 5 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 有氧一：自由泳 8 个来回，保持均匀节奏。
-- <input type="checkbox" aria-label="完成"> 变换泳姿：蛙泳 5 个来回，轻松游。
-- <input type="checkbox" aria-label="完成"> 蝶泳技术：2 个来回；每个来回前 25 m 蝶泳、后 25 m 蛙泳。蝶泳动作变形时，改为自由泳。
-- <input type="checkbox" aria-label="完成"> 有氧二：自由泳 10 个来回，RPE 5–6；每 5 个来回休息 30 秒。
-- <input type="checkbox" aria-label="完成"> 综合恢复：自由泳、蛙泳各 2 个来回。
-- <input type="checkbox" aria-label="完成"> 放松：自由泳 4 个来回，轻松游。
+- 热身：自由泳 5 个来回，轻松游。
+- 有氧一：自由泳 8 个来回，保持均匀节奏。
+- 变换泳姿：蛙泳 5 个来回，轻松游。
+- 蝶泳技术：2 个来回；每个来回前 25 m 蝶泳、后 25 m 蛙泳。蝶泳动作变形时，改为自由泳。
+- 有氧二：自由泳 10 个来回，RPE 5–6；每 5 个来回休息 30 秒。
+- 综合恢复：自由泳、蛙泳各 2 个来回。
+- 放松：自由泳 4 个来回，轻松游。
+
+
+## 皮肤
+
+早上：
+
+- LHA Cleanser
+- LHA Serum
+- Moisturizer
+- Lip Balm
+- Sunscreen
+
+晚上：
+
+- 每周三周日：Alastin Resurfacing Polish
+- Alpharet clearing serum
+
+## 口腔
+
+早上：
+
+- Brushing with electric tooth brush
+- Tongue Brush
+- Mouth Wash
+
+晚上：
+
+- Brushing with electric tooth brush
+- Mouth Wash
+- Flossing
+
+每半年：
+
+- Professional Teeth Cleaning
+- Teeth Whitening Strip
+
+## 睡眠
+
+睡前（00:00）：
+
+- 褪黑素 5 mg
+
+起床（8:30）：
+
+- Vyvanse 20 mg
