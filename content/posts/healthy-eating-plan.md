@@ -182,7 +182,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 游泳均按 25 m 泳池设计：1 趟 = 25 m，1 个来回 = 50 m。以下距离包含热身和放松，组间休息计入 40 分钟。若目前还不能轻松完成相应距离，前 2–4 周先完成每项的约 70%，然后每周增加 2–4 个来回；肩、膝或腰出现疼痛时停止该动作并调整。
 
-#### 周一
+#### 周一：上肢推拉与核心
 
 力量：
 
@@ -199,7 +199,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> 主训练：自由泳 18 个来回，分为 3 组，每组 6 个来回；组间休息 30 秒，保持 RPE 5–6。
 - <input type="checkbox" aria-label="完成"> 放松：自由泳、蛙泳各 2 个来回，轻松游。
 
-#### 周二
+#### 周二：下肢与臀部
 
 力量：
 
@@ -207,7 +207,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
 - <input type="checkbox" aria-label="完成"> [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
 - <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
-- <input type="checkbox" aria-label="完成"> [单腿提踵](https://www.youtube.com/watch?v=ElcvJ0kjt6c)（Single-leg calf raise）：2 组 × 15–25 次；脚跟最高点停 1 秒
+- <input type="checkbox" aria-label="完成"> [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：3 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
 
 游泳：
 
@@ -216,7 +216,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> 主训练二：自由泳 3 组 × 2 个来回；每组 100 m，保持动作完整、RPE 8，组间休息 45–60 秒。
 - <input type="checkbox" aria-label="完成"> 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游。
 
-#### 周四
+#### 周四：背部拉力与核心
 
 力量：
 
@@ -236,7 +236,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> 恢复：自由泳、蛙泳交替各 2 个来回，共 4 个来回，保持非常轻松的节奏。
 - <input type="checkbox" aria-label="完成"> 放松：自由泳 5 个来回，轻松游。
 
-#### 周五
+#### 周五：下肢、推力与核心
 
 力量：
 
@@ -254,18 +254,18 @@ aliases = ['/posts/healthy-eating-plan/']
 - <input type="checkbox" aria-label="完成"> 主训练：自由泳 4 组 × 2 个来回；每组 100 m，RPE 7，组间休息 30 秒。
 - <input type="checkbox" aria-label="完成"> 放松：自由泳 3 个来回，轻松游。
 
-#### 周六
+#### 周六：全身循环
 
 力量：
 
 设置 25 分钟计时器，依次循环以下动作；每轮记录完成情况，逐步从 4 轮提升至 4.5 轮、5 轮。剩余 5 分钟活动肩部与髋部。
 
-- <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次
-- <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次
-- <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 次／腿
-- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 次
-- <input type="checkbox" aria-label="完成"> [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次
-- <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）
+- <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 次／腿；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 次；手臂伸直的顶点停 1 秒
+- <input type="checkbox" aria-label="完成"> [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次；拉至腹侧、肩胛骨夹紧时停 1 秒
+- <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒
 - <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
 
 游泳：
