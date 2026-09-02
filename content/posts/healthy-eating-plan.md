@@ -224,8 +224,6 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-这是休息日后的拉训练和核心日。阻力应能让最后 2–3 次明显吃力、但动作不变形。
-
 - [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
 - [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
 - [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次；每次抬至最高点停 1 秒
@@ -262,7 +260,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-设置 25 分钟计时器，依次循环以下动作；每轮记录完成情况，逐步从 4 轮提升至 4.5 轮、5 轮。剩余 5 分钟活动肩部与髋部。
+设置 25 分钟计时器，依次循环以下动作。剩余 5 分钟活动肩部与髋部。
 
 - [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次；最低点停 1 秒
 - [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次；最低点停 1 秒
