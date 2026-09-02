@@ -176,7 +176,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ### 具体训练计划
 
-在家使用瑜伽垫和一套五条可叠加的管状阻力带即可完成（如 Polygon Resistance Bands Set）：每条阻力带约 10–50 lb，配两只把手、一个门锚和两条踝带，叠加后标称阻力最高 150 lb。阻力带和把手用于划船、硬拉、俯身划船；门锚用于高位下拉、固定式划船和腿弯举；踝带用于腿弯举。硬拉和俯身划船也可直接用脚踩住阻力带完成。力量训练应以较高动作难度、适当休息和不完全力竭为原则；每组保留约 2–3 次余力，避免影响之后的有氧质量。每次控制在约 10–14 个有效组，才能在 30 分钟内完成。使用门锚时，选择一扇向外、远离自己打开的门，关紧并先以低阻力测试；每次训练前检查带子、扣环和门锚是否有裂纹或松动。
+在家使用瑜伽垫和一套五条可叠加的管状阻力带即可完成（如 Polygon Resistance Bands Set）：每条阻力带约 10–50 lb，配两只把手、一个门锚和两条踝带，叠加后标称阻力最高 150 lb。阻力带和把手用于划船、俯身划船；门锚用于高位下拉、固定式划船和腿弯举；踝带用于腿弯举。俯身划船也可直接用脚踩住阻力带完成。力量训练应以较高动作难度、适当休息和不完全力竭为原则；每组保留约 2–3 次余力，避免影响之后的有氧质量。每次控制在约 10–14 个有效组，才能在 30 分钟内完成。使用门锚时，选择一扇向外、远离自己打开的门，关紧并先以低阻力测试；每次训练前检查带子、扣环和门锚是否有裂纹或松动。
 
 下列力量动作的中文名称均可点击观看 YouTube 短演示视频。
 
@@ -186,9 +186,9 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次
-- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次
-- <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次／侧
+- <input type="checkbox" aria-label="完成"> [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
+- <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
 - <input type="checkbox" aria-label="完成"> [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
 - <input type="checkbox" aria-label="完成"> [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
@@ -203,11 +203,11 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次
-- <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿
-- <input type="checkbox" aria-label="完成"> [阻力带罗马尼亚硬拉](https://www.youtube.com/watch?v=NaKsZos0bIY)（Resistance-band Romanian deadlift；健身馆替代：杠铃罗马尼亚硬拉 / Barbell Romanian deadlift）：3 组 × 8–15 次
-- <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿
-- <input type="checkbox" aria-label="完成"> [单腿提踵](https://www.youtube.com/watch?v=ElcvJ0kjt6c)（Single-leg calf raise）：2 组 × 15–25 次／腿
+- <input type="checkbox" aria-label="完成"> [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
+- <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
+- <input type="checkbox" aria-label="完成"> [单腿提踵](https://www.youtube.com/watch?v=ElcvJ0kjt6c)（Single-leg calf raise）：2 组 × 15–25 次；脚跟最高点停 1 秒
 
 游泳：
 
@@ -222,10 +222,10 @@ aliases = ['/posts/healthy-eating-plan/']
 
 这是休息日后的拉训练和核心日。阻力应能让最后 2–3 次明显吃力、但动作不变形。
 
-- <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧
-- <input type="checkbox" aria-label="完成"> [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次
-- <input type="checkbox" aria-label="完成"> [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次
-- <input type="checkbox" aria-label="完成"> [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧
+- <input type="checkbox" aria-label="完成"> [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
+- <input type="checkbox" aria-label="完成"> [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
+- <input type="checkbox" aria-label="完成"> [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次；每次抬至最高点停 1 秒
+- <input type="checkbox" aria-label="完成"> [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
 - <input type="checkbox" aria-label="完成"> [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
 游泳：
@@ -240,10 +240,10 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- <input type="checkbox" aria-label="完成"> [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次
-- <input type="checkbox" aria-label="完成"> [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿
-- <input type="checkbox" aria-label="完成"> [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿
-- <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿
+- <input type="checkbox" aria-label="完成"> [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
+- <input type="checkbox" aria-label="完成"> [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
+- <input type="checkbox" aria-label="完成"> [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
 - <input type="checkbox" aria-label="完成"> [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
 
 游泳：
