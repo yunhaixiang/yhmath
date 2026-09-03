@@ -27,7 +27,13 @@ All vector spaces and representations here are assumed finite dimensional. We sa
 
 has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point. 
 
+{{< definition >}}
+We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is *physically rigid* if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems 
+$\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
+for each $s\in S$, there is $\mathcal F\cong \mathcal G$. 
+{{< /definition >}}
 
+However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. 
 
 ## References
 

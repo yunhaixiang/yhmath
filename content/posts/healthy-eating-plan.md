@@ -29,17 +29,17 @@ aliases = ['/posts/healthy-eating-plan/']
 | 周日（做菜） | 午餐 | 烤土豆 | 牛排 | 蘑菇 |
 | 周日 | 晚餐 | 白米饭 | 鸡大腿肉 | 菠菜 |
 | 周一 | 午餐 | 意面 | 三文鱼 + 1个鸡蛋 | 番茄 |
-| 周一 | 晚餐 | 白米饭 | 猪里脊 | 胡萝卜 |
+| 周一 | 晚餐 | 白米饭 | 去骨中段猪排 | 胡萝卜 |
 | 周二 | 午餐 | 意面 | 鸡大腿肉 | 蘑菇 |
 | 周二 | 晚餐 | 烤土豆 | 虾仁 + 1个鸡蛋 | 胡萝卜 |
-| 周三 | 午餐 | 意面 | 猪里脊 | 番茄 |
+| 周三 | 午餐 | 意面 | 去骨中段猪排 | 番茄 |
 | 周三（做菜） | 晚餐 | 烤土豆 | 牛排 | 蘑菇 |
 | 周四 | 午餐 | 白米饭 | 鸡大腿肉 | 菠菜 |
 | 周四 | 晚餐 | 意面 | 三文鱼 + 1个鸡蛋 | 番茄 |
-| 周五 | 午餐 | 白米饭 | 猪里脊 | 胡萝卜 |
+| 周五 | 午餐 | 白米饭 | 去骨中段猪排 | 胡萝卜 |
 | 周五 | 晚餐 | 意面 | 鸡大腿肉 | 蘑菇 |
 | 周六 | 午餐 | 烤土豆 | 虾仁 + 1个鸡蛋 | 胡萝卜 |
-| 周六 | 晚餐 | 意面 | 猪里脊 | 番茄 |
+| 周六 | 晚餐 | 意面 | 去骨中段猪排 | 番茄 |
 {.table-centered}
 
 ### 购物表
@@ -47,7 +47,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 食材 | 包装规格 | 购买频率 |
 |---|---:|---:|
 | 去骨去皮鸡大腿肉 | 830 g / 盒 | 1盒 / 周 |
-| 猪里脊 | 940 g / 包 | 1包 / 周 |
+| 去骨中段猪排 | 约860 g / 包 | 1包 / 周 |
 | 三文鱼 | 300 g / 盒 | 1盒 / 周 |
 | 熟虾（去壳去虾线） | 625 g / 袋 | 1袋 / 周 |
 | 牛排 | 300 g / 块 | 1块 / 周 |
@@ -85,7 +85,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 牛排 | 约150 g | 1/2块 | 1顿 |
 | 去骨去皮鸡大腿肉 | 约415 g | 1/2盒 | 2顿 |
 | 三文鱼 | 约150 g | 1块（1/2盒） | 1顿 |
-| 猪里脊 | 约470 g | 1条（1/2包） | 2顿 |
+| 去骨中段猪排 | 约430 g | 2块（约1/2包） | 2顿 |
 | 虾仁 | 约312 g | 1/2袋 | 1顿 |
 | 鸡蛋 | 9个 | 1/2盒 | 早餐 + 2顿正餐 |
 | 罐装土豆 | 540 mL | 1罐 | 2顿 |
@@ -102,35 +102,35 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 阶段 1：先启动所有耗时设备
 
-1. 烤箱预热至 400°F
-2. 空气炸锅预热至 400°F，约 5 分钟
+1. 烤箱预热至 400°F，需 15 分钟
+2. 空气炸锅预热至 400°F，需 5 分钟
 3. 鸡蛋煮锅加 1.5–2 L 水；意面煮锅加 2.5–3 L 水。两口锅盖盖并开最大火。
 4. 用电饭煲附带量杯量 3/4 平杯白米，淘洗后放入电饭煲；再加 3/4 平杯水。选择“白米／White Rice”模式后启动
 
 #### 阶段 2：处理土豆、肉类，以及调味
 
 1. 土豆开罐，倒入漏勺，去除罐内液体
-2. 切土豆、按需切牛排和猪里脊
-3. 摆好六个调味盆：土豆、熟虾、三文鱼、鸡大腿肉、猪里脊、牛排各用一个盆。
-4. 按下表从左到右、按调味料的列逐一加入各盆：先加油，再加盐、黑胡椒、蒜粉、洋葱粉、红椒粉、干牛至叶
+2. 切土豆、按需切牛排
+3. 准备三个烘焙盘并铺上烘焙纸；再准备两个调味盆和一个干净砧板。
+4. 土豆放到第一个烘焙盘；鸡大腿肉和两块猪排分别用纸巾擦干，放到另外两个烘焙盘。熟虾沥干后放入第一个调味盆；三文鱼擦干后放入第二个调味盆；牛排擦干后放在砧板上。
+5. 按下表从左到右、按调味料的列逐一调味：三文鱼和熟虾直接在各自调味盆中调味；土豆、鸡大腿肉、猪排直接在各自烘焙盘中调味；牛排直接在砧板上调味。先加油，再加盐、黑胡椒、蒜粉、洋葱粉、红椒粉、干牛至叶。
 
 | 顺序 | 食材 | 油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
 |---:|---|---|---|---|---|---|---|---|
 | 1 | 三文鱼 | 1/2 茶匙（2.5 mL）橄榄油 | 1/4 茶匙 | 1/4 茶匙 | — | — | 1/2 茶匙 | — |
 | 2 | 罐装土豆 | 2 茶匙（10 mL）食用油 | 1/4 茶匙 | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | — |
 | 3 | 鸡大腿肉 | 1 茶匙（5 mL）橄榄油 | 1/2 茶匙 | — | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
-| 4 | 猪里脊 | 1 茶匙（5 mL）橄榄油 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
+| 4 | 去骨中段猪排（2块） | 1 茶匙（5 mL）橄榄油 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
 | 5 | 熟虾 | — | — | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | — |
 | 6 | 牛排 | — | 1/4 茶匙 | 1/4 茶匙 | — | 1/4 茶匙 | — | — |
 {.table-centered}
 
-5. 放入食材：土豆和熟虾分别沥干后放入对应盆；三文鱼、鸡大腿肉、猪里脊和牛排分别用干净纸巾擦干后，放入对应盆。
-6. 准备三个烘焙盘，铺上烘焙纸。将调味好的土豆、鸡大腿肉、猪里脊分别放上。
+6. 三文鱼和熟虾在盆中翻匀；土豆、鸡大腿肉和猪排在烘焙盘中翻匀或两面抹匀；牛排在砧板上两面抹匀。处理完生食材后洗手。
 
 #### 阶段 3：炒锅以外开始并行烹调
 
 1. 空气炸锅预热好后：三文鱼放在烤盘上。以 400°F 烹调 8 分钟。
-2. 烤箱达到温度后：三盘同时入烤箱。设定25分钟。
+2. 烤箱达到温度后：三盘同时入烤箱。猪排烤 12–15 分钟，最厚处达到 160°F 后取出；土豆和鸡大腿肉继续烤至 25 分钟。
 3. 鸡蛋煮锅水沸腾后：放入鸡蛋，计时8分钟。
 4. 意面煮锅水沸腾后：放入意面，计时8分钟。
 
@@ -159,10 +159,11 @@ aliases = ['/posts/healthy-eating-plan/']
 #### 阶段 5：收尾、分盘
 
 1. 空气炸锅完成后：三文鱼放入第 3 顿餐盒。
-2. 烤箱时间到后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿；猪里脊分到第 4 顿和第 7 顿。
-3. 煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。意面分入第 3 顿、第 5 顿和第 7 顿。
-4. 电饭煲完成后：白米分入第 2 顿和第 4 顿。
-5. 餐盒盖上放冰箱。
+2. 猪排烤好后：每块分别放入第 4 顿和第 7 顿餐盒。
+3. 烤箱时间到后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿。
+4. 煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。意面分入第 3 顿、第 5 顿和第 7 顿。
+5. 电饭煲完成后：白米分入第 2 顿和第 4 顿。
+6. 餐盒盖上放冰箱。
 
 
 
@@ -185,17 +186,18 @@ aliases = ['/posts/healthy-eating-plan/']
 | 周日 | 休息 | 休息 |
 {.table-centered}
 
+
 ### 具体训练计划
 
-游泳均按 25 m 泳池设计：1 趟 = 25 m，1 个来回 = 50 m。
+如当天无法游泳，带 * 的项目多做一组。
 
 #### 周一：上肢推拉与核心
 
 力量：
 
-- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
-- [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
-- [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
+- \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
+- \* [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
+- \* [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
 - [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
@@ -210,27 +212,27 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
-- [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
-- [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
+- \* [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
+- \* [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
+- \* [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
 - [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
 - [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：3 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
 
 游泳：
 
-- 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
-- 主训练一：自由泳 6 组 × 2 个来回；每组 100 m，游快一些，组间休息 30–40 秒。
-- 主训练二：自由泳 3 组 × 2 个来回；每组 100 m，保持动作完整、RPE 8，组间休息 45–60 秒。
-- 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游。
+- 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游
+- 主训练一：自由泳 6 组 × 2 个来回
+- 主训练二：自由泳 3 组 × 2 个来回
+- 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游
 
 #### 周四：背部拉力与核心
 
 力量：
 
-- [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
-- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
+- \* [单臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（One-arm resistance-band row；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次／侧；拉至腹侧、肩胛骨夹紧时停 1 秒
+- \* [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
 - [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次；每次抬至最高点停 1 秒
-- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
+- \* [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
 - [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
 游泳：
@@ -245,9 +247,9 @@ aliases = ['/posts/healthy-eating-plan/']
 
 力量：
 
-- [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
-- [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
-- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
+- \* [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
+- \* [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
+- \* [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
 - [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
 - [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
 
@@ -265,13 +267,13 @@ aliases = ['/posts/healthy-eating-plan/']
 
 设置 25 分钟计时器，依次循环以下动作。剩余 5 分钟活动肩部与髋部。
 
-- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次；最低点停 1 秒
-- [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次；最低点停 1 秒
-- [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 次／腿；最低点停 1 秒
-- [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 次；手臂伸直的顶点停 1 秒
-- [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次；拉至腹侧、肩胛骨夹紧时停 1 秒
-- [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒
-- [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
+- \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：10 次；最低点停 1 秒
+- \* [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：15 次；最低点停 1 秒
+- \* [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：8 次／腿；最低点停 1 秒
+- \* [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：10 次；手臂伸直的顶点停 1 秒
+- \* [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次；拉至腹侧、肩胛骨夹紧时停 1 秒
+- \* [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒
+- \* [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
 
 游泳：
 

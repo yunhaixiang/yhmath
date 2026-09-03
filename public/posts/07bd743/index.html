@@ -97,7 +97,7 @@ I am reading Katz’s Rigid Local Systems
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-09-03T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-09-03T00:00:01-04:00">
+    <meta property="article:modified_time" content="2026-09-03T16:01:22-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Number-Theory">
@@ -112,8 +112,8 @@ I am reading Katz’s Rigid Local Systems
   <meta itemprop="name" content="Rigid Local System">
   <meta itemprop="description" content="The art of doing mathematics consists in finding that special case which contains all the germs of generality. — Alexander Grothendieck I am reading Katz’s Rigid Local Systems ⟦cite:Kat96⟧ . Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced local systems on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ ⟦cite:Rie57⟧ . If there are no “accessory parameters”, we say this local system is rigid, i.e. determiend by its local monodromies.">
   <meta itemprop="datePublished" content="2026-09-03T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-09-03T00:00:01-04:00">
-  <meta itemprop="wordCount" content="253">
+  <meta itemprop="dateModified" content="2026-09-03T16:01:22-04:00">
+  <meta itemprop="wordCount" content="323">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
 
   
@@ -233,7 +233,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          253 words
+          323 words
         </span>
       
       
@@ -305,6 +305,23 @@ I am reading Katz’s Rigid Local Systems
 <p>Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.</p>
 $$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$<p>All vector spaces and representations here are assumed finite dimensional. We say the local system is <em>irreducible</em> if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood </p>
 $$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$<p>has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is <em>physically rigid</em> if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
+$\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
+for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
+  </div>
+</div>
+
+<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid.</p>
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
