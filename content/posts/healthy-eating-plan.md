@@ -151,7 +151,7 @@ aliases = ['/posts/healthy-eating-plan/']
 3. 各加入1 茶匙（5 mL）食用油炒胡萝卜、蘑菇：大火 7 分钟
 4. 清洗沥干菠菜、打开番茄罐子
 5. 各加入1 茶匙（5 mL）食用油，同时炒菠菜、虾仁：大火 2 分钟
-6. 各加入1 茶匙（5 mL）食用油，同时炒番茄、煎牛排：6 分钟。牛排每面煎 3 分钟。
+6. 各加入1 茶匙（5 mL）食用油，同时炒番茄、煎牛排：5 分钟。牛排每面煎 2 分钟，侧面 1 分钟。
 
 #### 阶段 5：收尾、分盘
 
@@ -293,8 +293,10 @@ aliases = ['/posts/healthy-eating-plan/']
 
 晚上：
 
+- LHA Cleanser
 - 每周三周日：Alastin Resurfacing Polish
 - Alpharet clearing serum
+- Moisturizer
 
 ## 口腔
 
@@ -310,7 +312,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - Mouth Wash
 - Flossing
 
-每半年：
+每年三月份和九月份：
 
 - Professional Teeth Cleaning
 - Teeth Whitening Strip
@@ -320,6 +322,7 @@ aliases = ['/posts/healthy-eating-plan/']
 睡前（00:00）：
 
 - 褪黑素 5 mg
+- Multi-vitamin
 
 起床（8:30）：
 
