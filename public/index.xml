@@ -7,127 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
-      <link>http://localhost:1313/posts/6439cea/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/6439cea/</guid>
-      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
-an $\ell$-adic representation arising from geometry is quasi-unipotent. This
-post will explain the local Galois groups involved, state the theorem, and
-discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
-&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
-&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
-&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
-&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
-&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
-&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
-      <link>http://localhost:1313/posts/68915c5/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/68915c5/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Mathematics is the art of giving the same name to different things.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
-&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
-&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Middle Extension and Middle Convolution</title>
-      <link>http://localhost:1313/posts/1b64c0e/</link>
-      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/1b64c0e/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
-&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
-&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Rigid Local System</title>
-      <link>http://localhost:1313/posts/07bd743/</link>
-      <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/07bd743/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    The art of doing mathematics consists in finding that special case which contains all the germs of generality.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;I am reading Katz’s &lt;em&gt;Rigid Local Systems&lt;/em&gt; &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Kat96&#34;&gt;
-  ⟦cite:Kat96⟧
-&lt;/span&gt;. Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced &lt;em&gt;local systems&lt;/em&gt; on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Rie57&#34;&gt;
-  ⟦cite:Rie57⟧
-&lt;/span&gt;. If there are no “accessory parameters”, we say this local system is &lt;em&gt;rigid&lt;/em&gt;, i.e. determiend by its local monodromies.&lt;/p&gt;
-&lt;h2 id=&#34;generalities-concerning-rigid-local-systems-over&#34;&gt;Generalities Concerning Rigid Local Systems over $\mathbb C$&lt;/h2&gt;
-&lt;p&gt;Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.&lt;/p&gt;
-$$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$&lt;p&gt;All vector spaces and representations here are assumed finite dimensional. We say the local system is &lt;em&gt;irreducible&lt;/em&gt; if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood &lt;/p&gt;
-$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$&lt;p&gt;has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is &lt;em&gt;physically rigid&lt;/em&gt; if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
-&lt;/p&gt;
-$$\mathcal F|_{D^*(s)}$$
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Kat96&#34; data-bib-key=&#34;Kat96&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
-  &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
-&lt;/li&gt;
-
-  &lt;li id=&#34;bib-Rie57&#34; data-bib-key=&#34;Rie57&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
-  &lt;span class=&#34;bib-entry&#34;&gt;Bernhard Riemann. &lt;em&gt;Theorie der Abel’schen Functionen&lt;/em&gt;. Journal für die reine und angewandte Mathematik. 54. pp. 115--155. 1857. &lt;a href=&#34;https://doi.org/10.1515/crll.1857.54.115&#34;&gt;doi:10.1515/crll.1857.54.115&lt;/a&gt;.&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
       <title>健康饮食锻炼计划</title>
       <link>http://localhost:1313/posts/06e58c7/</link>
       <pubDate>Sun, 30 Aug 2026 11:43:05 -0400</pubDate>
@@ -184,7 +63,7 @@ $$\mathcal F|_{D^*(s)}$$
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排&lt;/td&gt;
           &lt;td&gt;胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -205,7 +84,7 @@ $$\mathcal F|_{D^*(s)}$$
           &lt;td&gt;周三&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -233,7 +112,7 @@ $$\mathcal F|_{D^*(s)}$$
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排&lt;/td&gt;
           &lt;td&gt;胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -254,7 +133,7 @@ $$\mathcal F|_{D^*(s)}$$
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -275,8 +154,8 @@ $$\mathcal F|_{D^*(s)}$$
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;940 g / 包&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约860 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1包 / 周&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -423,9 +302,9 @@ $$\mathcal F|_{D^*(s)}$$
           &lt;td style=&#34;text-align: right&#34;&gt;1顿&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约470 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1条（1/2包）&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约430 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2块（约1/2包）&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -448,8 +327,8 @@ $$\mathcal F|_{D^*(s)}$$
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;白米&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3/4 杯生米&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;电饭煲附带量杯 3/4 平杯&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3/4 杯&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3/4 杯&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -487,17 +366,18 @@ $$\mathcal F|_{D^*(s)}$$
 &lt;h3 id=&#34;并行做菜流程&#34;&gt;并行做菜流程&lt;/h3&gt;
 &lt;h4 id=&#34;阶段-1先启动所有耗时设备&#34;&gt;阶段 1：先启动所有耗时设备&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;烤箱预热至 400°F&lt;/li&gt;
-&lt;li&gt;空气炸锅预热至 400°F，约 5 分钟&lt;/li&gt;
+&lt;li&gt;烤箱预热至 400°F，需 15 分钟&lt;/li&gt;
+&lt;li&gt;空气炸锅预热至 400°F，需 5 分钟&lt;/li&gt;
 &lt;li&gt;鸡蛋煮锅加 1.5–2 L 水；意面煮锅加 2.5–3 L 水。两口锅盖盖并开最大火。&lt;/li&gt;
-&lt;li&gt;用电饭煲附带量杯量 3/4 平杯白米，淘洗后放入电饭煲；再加 3/4 平杯水。选择“白米／White Rice”模式后启动&lt;/li&gt;
+&lt;li&gt;量 3/4 平杯白米，淘洗后放入电饭煲；再加 3/4 杯水。选择“白米／White Rice”模式后启动&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-2处理土豆肉类以及调味&#34;&gt;阶段 2：处理土豆、肉类，以及调味&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;土豆开罐，倒入漏勺，去除罐内液体&lt;/li&gt;
-&lt;li&gt;切土豆、按需切牛排和猪里脊&lt;/li&gt;
-&lt;li&gt;摆好六个调味盆：土豆、熟虾、三文鱼、鸡大腿肉、猪里脊、牛排各用一个盆。&lt;/li&gt;
-&lt;li&gt;按下表从左到右、按调味料的列逐一加入各盆：先加油，再加盐、黑胡椒、蒜粉、洋葱粉、红椒粉、干牛至叶&lt;/li&gt;
+&lt;li&gt;切土豆、按需切牛排&lt;/li&gt;
+&lt;li&gt;准备三个烘焙盘并铺上烘焙纸；再准备两个调味盆和一个干净砧板。&lt;/li&gt;
+&lt;li&gt;土豆放到第一个烘焙盘；鸡大腿肉和两块猪排分别用纸巾擦干，放到另外两个烘焙盘。熟虾沥干后放入第一个调味盆；三文鱼擦干后放入第二个调味盆；牛排擦干后放在砧板上。&lt;/li&gt;
+&lt;li&gt;按下表从左到右、按调味料的列逐一调味：三文鱼和熟虾直接在各自调味盆中调味；土豆、鸡大腿肉、猪排直接在各自烘焙盘中调味；牛排直接在砧板上调味。先加油，再加盐、黑胡椒、蒜粉、洋葱粉、红椒粉、干牛至叶。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -549,7 +429,7 @@ $$\mathcal F|_{D^*(s)}$$
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;4&lt;/td&gt;
-          &lt;td&gt;猪里脊&lt;/td&gt;
+          &lt;td&gt;去骨中段猪排（2块）&lt;/td&gt;
           &lt;td&gt;1 茶匙（5 mL）橄榄油&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
@@ -582,14 +462,13 @@ $$\mathcal F|_{D^*(s)}$$
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;放入食材：土豆和熟虾分别沥干后放入对应盆；三文鱼、鸡大腿肉、猪里脊和牛排分别用干净纸巾擦干后，放入对应盆。&lt;/li&gt;
-&lt;li&gt;准备三个烘焙盘，铺上烘焙纸。将调味好的土豆、鸡大腿肉、猪里脊分别放上。&lt;/li&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;三文鱼和熟虾在盆中翻匀；土豆、鸡大腿肉和猪排在烘焙盘中翻匀或两面抹匀；牛排在砧板上两面抹匀。处理完生食材后洗手。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-3炒锅以外开始并行烹调&#34;&gt;阶段 3：炒锅以外开始并行烹调&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;空气炸锅预热好后：三文鱼放在烤盘上。以 400°F 烹调 8 分钟。&lt;/li&gt;
-&lt;li&gt;烤箱达到温度后：三盘同时入烤箱。设定25分钟。&lt;/li&gt;
+&lt;li&gt;烤箱达到温度后：三盘同时入烤箱。猪排烤 12–15 分钟，最厚处达到 160°F 后取出；土豆和鸡大腿肉继续烤至 25 分钟。&lt;/li&gt;
 &lt;li&gt;鸡蛋煮锅水沸腾后：放入鸡蛋，计时8分钟。&lt;/li&gt;
 &lt;li&gt;意面煮锅水沸腾后：放入意面，计时8分钟。&lt;/li&gt;
 &lt;/ol&gt;
@@ -640,7 +519,8 @@ $$\mathcal F|_{D^*(s)}$$
 &lt;h4 id=&#34;阶段-5收尾分盘&#34;&gt;阶段 5：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;空气炸锅完成后：三文鱼放入第 3 顿餐盒。&lt;/li&gt;
-&lt;li&gt;烤箱时间到后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿；猪里脊分到第 4 顿和第 7 顿。&lt;/li&gt;
+&lt;li&gt;猪排烤好后：每块分别放入第 4 顿和第 7 顿餐盒。&lt;/li&gt;
+&lt;li&gt;烤箱时间到后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿。&lt;/li&gt;
 &lt;li&gt;煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。意面分入第 3 顿、第 5 顿和第 7 顿。&lt;/li&gt;
 &lt;li&gt;电饭煲完成后：白米分入第 2 顿和第 4 顿。&lt;/li&gt;
 &lt;li&gt;餐盒盖上放冰箱。&lt;/li&gt;
@@ -829,24 +709,6 @@ $$\mathcal F|_{D^*(s)}$$
 &lt;li&gt;Vyvanse 20 mg&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>$\ell$-Independence</title>
-      <link>http://localhost:1313/posts/2d8f6b0/</link>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compatible Systems and Rationality</title>
-      <link>http://localhost:1313/posts/7a9c1e4/</link>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
-      <description></description>
     </item>
     
     <item>
