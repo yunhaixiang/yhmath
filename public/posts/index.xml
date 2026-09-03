@@ -6,7 +6,112 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 11:43:05 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
+      <link>http://localhost:1313/posts/6439cea/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/6439cea/</guid>
+      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
+an $\ell$-adic representation arising from geometry is quasi-unipotent. This
+post will explain the local Galois groups involved, state the theorem, and
+discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
+&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
+&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
+&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
+&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
+&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
+      <link>http://localhost:1313/posts/68915c5/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/68915c5/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the art of giving the same name to different things.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
+&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
+&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
+&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
+&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Rigid Local System</title>
+      <link>http://localhost:1313/posts/07bd743/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/07bd743/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    The art of doing mathematics consists in finding that special case which contains all the germs of generality.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;I am reading Katz’s &lt;em&gt;Rigid Local Systems&lt;/em&gt; &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Kat96&#34;&gt;
+  ⟦cite:Kat96⟧
+&lt;/span&gt;. Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced &lt;em&gt;local systems&lt;/em&gt; on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Rie57&#34;&gt;
+  ⟦cite:Rie57⟧
+&lt;/span&gt;. If there are no “accessory parameters”, we say this local system is &lt;em&gt;rigid&lt;/em&gt;, i.e. determiend by its local monodromies.&lt;/p&gt;
+&lt;h2 id=&#34;generalities-concerning-rigid-local-systems-over&#34;&gt;Generalities Concerning Rigid Local Systems over $\mathbb C$&lt;/h2&gt;
+&lt;p&gt;Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.&lt;/p&gt;
+$$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$&lt;p&gt;All vector spaces and representations here are assumed finite dimensional. We say the local system is &lt;em&gt;irreducible&lt;/em&gt; if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood &lt;/p&gt;
+$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$&lt;p&gt;has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li id=&#34;bib-Kat96&#34; data-bib-key=&#34;Kat96&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
+&lt;/li&gt;
+
+  &lt;li id=&#34;bib-Rie57&#34; data-bib-key=&#34;Rie57&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Bernhard Riemann. &lt;em&gt;Theorie der Abel’schen Functionen&lt;/em&gt;. Journal für die reine und angewandte Mathematik. 54. pp. 115--155. 1857. &lt;a href=&#34;https://doi.org/10.1515/crll.1857.54.115&#34;&gt;doi:10.1515/crll.1857.54.115&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
     <item>
       <title>健康饮食锻炼计划</title>
       <link>http://localhost:1313/posts/06e58c7/</link>
@@ -273,7 +378,7 @@
 &lt;/table&gt;
 &lt;h3 id=&#34;流程表&#34;&gt;流程表&lt;/h3&gt;
 &lt;p&gt;用量：&lt;/p&gt;
-&lt;p&gt;以下调味量均对应这一次做菜的总量；1 茶匙 = 5 mL，盐默认使用普通细盐。&lt;/p&gt;
+&lt;p&gt;以下调味量均对应这一次做菜的总量；1 茶匙 = 5 mL，盐默认使用普通细盐。油喷子完整按压 1 次约为 1/4 茶匙（1.25 mL）；1 茶匙约为 4 次完整按压。调味罐按中等力度短抖估算：小孔罐 1 下约为 1/20 茶匙；大孔罐 1 下约为 1/12 茶匙。粉末粗细和装填量会影响实际出量，第一次用量匙校准一次。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -369,7 +474,7 @@
 &lt;ol&gt;
 &lt;li&gt;烤箱预热至 400°F&lt;/li&gt;
 &lt;li&gt;空气炸锅预热至 400°F，约 5 分钟&lt;/li&gt;
-&lt;li&gt;两口煮锅分别加相同量水、盖盖并开最大火&lt;/li&gt;
+&lt;li&gt;鸡蛋煮锅加 1.5–2 L 水；意面煮锅加 2.5–3 L 水。两口锅盖盖并开最大火。&lt;/li&gt;
 &lt;li&gt;用电饭煲附带量杯量 3/4 平杯白米，淘洗后放入电饭煲；再加 3/4 平杯水。选择“白米／White Rice”模式后启动&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-2处理土豆肉类以及调味&#34;&gt;阶段 2：处理土豆、肉类，以及调味&lt;/h4&gt;
@@ -470,9 +575,11 @@
 &lt;ol&gt;
 &lt;li&gt;空气炸锅预热好后：三文鱼放在烤盘上。以 400°F 烹调 8 分钟。&lt;/li&gt;
 &lt;li&gt;烤箱达到温度后：三盘同时入烤箱。设定25分钟。&lt;/li&gt;
-&lt;li&gt;两个煮锅水沸腾后，一个放入鸡蛋，一个放入意面。计时8分钟，到时候两个锅同时好。&lt;/li&gt;
+&lt;li&gt;鸡蛋煮锅水沸腾后：放入鸡蛋，计时8分钟。&lt;/li&gt;
+&lt;li&gt;意面煮锅水沸腾后：放入意面，计时8分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-4炒锅&#34;&gt;阶段 4：炒锅&lt;/h4&gt;
+&lt;p&gt;炒锅每次都各加入1 茶匙（5 mL）食用油。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -508,12 +615,12 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol&gt;
-&lt;li&gt;两个空锅同时开大火，各加 1 茶匙（5 mL）食用油预热 2 分钟&lt;/li&gt;
+&lt;li&gt;两个空锅同时开大火，加油预热 2 分钟&lt;/li&gt;
 &lt;li&gt;切胡萝卜、清洗沥干蘑菇&lt;/li&gt;
-&lt;li&gt;各加入1 茶匙（5 mL）食用油炒胡萝卜、蘑菇：大火 7 分钟&lt;/li&gt;
+&lt;li&gt;同时炒胡萝卜、蘑菇：大火 7 分钟&lt;/li&gt;
 &lt;li&gt;清洗沥干菠菜、打开番茄罐子&lt;/li&gt;
-&lt;li&gt;各加入1 茶匙（5 mL）食用油，同时炒菠菜、虾仁：大火 2 分钟&lt;/li&gt;
-&lt;li&gt;各加入1 茶匙（5 mL）食用油，同时炒番茄、煎牛排：5 分钟。牛排每面煎 2 分钟，侧面 1 分钟。&lt;/li&gt;
+&lt;li&gt;同时炒菠菜、虾仁：大火 2 分钟&lt;/li&gt;
+&lt;li&gt;同时炒番茄、煎牛排：5 分钟。牛排每面煎 2 分钟，侧面 1 分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-5收尾分盘&#34;&gt;阶段 5：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;
@@ -707,6 +814,24 @@
 &lt;li&gt;Vyvanse 20 mg&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>$\ell$-Independence</title>
+      <link>http://localhost:1313/posts/2d8f6b0/</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compatible Systems and Rationality</title>
+      <link>http://localhost:1313/posts/7a9c1e4/</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -6717,8 +6842,8 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Fen25&#34; data-bib-key=&#34;Fen25&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Fen25]&lt;/span&gt;
+  &lt;li id=&#34;bib-Fen25a&#34; data-bib-key=&#34;Fen25a&#34;&gt;
+  &lt;span class=&#34;bib-label&#34;&gt;[Fen25a]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
