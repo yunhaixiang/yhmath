@@ -263,7 +263,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 - LHA Cleanser
 - 每周三周日：Alastin Resurfacing Polish
-- Alpharet clearing serum
+- Alpharet Clearing Serum
 - Moisturizer
 - Lip Balm
 
@@ -271,13 +271,13 @@ aliases = ['/posts/healthy-eating-plan/']
 
 早上：
 
-- Brushing with electric tooth brush
+- Brushing (Electric Tooth Brush)
 - Tongue Brush
 - Mouth Wash
 
 晚上：
 
-- Brushing with electric tooth brush
+- Brushing (Electric Tooth Brush)
 - Mouth Wash
 - Flossing
 
