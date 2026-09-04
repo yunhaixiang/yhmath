@@ -177,23 +177,30 @@ aliases = ['/posts/healthy-eating-plan/']
 
 | 星期 | 30 分钟力量 | 40 分钟游泳 |
 |---|---|---|
-| 周一 | 胸、肩、三头 | 中等有氧：自由泳为主，RPE 5–6，约 1400 m |
-| 周二 | 腿、臀 | 高强度间歇：以 100 m、50 m 间歇为主，约 1600 m |
+| 周一 | 胸、肩、三头 | 同下方游泳流程 |
+| 周二 | 腿、臀 | 同下方游泳流程 |
 | 周三 | 休息 | 休息 |
-| 周四 | 核心、肩背维护 | 技术／恢复：自由泳、蛙泳为主，约 1200 m |
-| 周五 | 胸肩、腿 | 速度训练：25 m、50 m 快游，组间充分休息，约 1300 m |
-| 周六 | 全身、核心 | 长距离综合：自由泳为主，穿插蛙泳和少量蝶泳，约 1900 m |
+| 周四 | 核心、肩背维护 | 同下方游泳流程 |
+| 周五 | 胸肩、腿 | 同下方游泳流程 |
+| 周六 | 全身、核心 | 同下方游泳流程 |
 | 周日 | 休息 | 休息 |
 {.table-centered}
 
 
 ### 具体训练计划
 
+
+
+有氧运动主要为游泳，每次力量训练之后完成。共 25 个来回；按 25 m 泳池计算，共 1,250 m。
+
+- 热身：自由泳 5 个来回，轻松游。
+- 主训练：自由泳或蛙泳 3 组 × 5 个来回；组间休息 30–60 秒。可穿插蝶泳。
+- 放松：自由泳或蛙泳 5 个来回，轻松游。
+
 如当天无法游泳，可完成一节 30 分钟低冲击 HIIT 跟练替代；也可让带 * 的项目多做一组。
 
 #### 周一：上肢推拉与核心
 
-力量：
 
 - \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
 - \* [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
@@ -201,16 +208,8 @@ aliases = ['/posts/healthy-eating-plan/']
 - [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
-游泳：
-
-- 热身：自由泳 4 个来回，轻松游。
-- 技术转换：蛙泳 2 个来回，轻松游。
-- 主训练：自由泳 18 个来回，分为 3 组，每组 6 个来回；组间休息 30 秒，保持 RPE 5–6。
-- 放松：自由泳、蛙泳各 2 个来回，轻松游。
-
 #### 周二：下肢与臀部
 
-力量：
 
 - \* [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
 - \* [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
@@ -218,16 +217,8 @@ aliases = ['/posts/healthy-eating-plan/']
 - [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
 - [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：3 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
 
-游泳：
-
-- 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游
-- 主训练一：自由泳 6 组 × 2 个来回
-- 主训练二：自由泳 3 组 × 2 个来回
-- 恢复与放松：蛙泳 4 个来回，再自由泳 4 个来回，均轻松游
-
 #### 周四：背部拉力与核心
 
-力量：
 
 - \* [双臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（Two-arm resistance-band row；门固定，双手同时拉；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
 - \* [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
@@ -235,17 +226,8 @@ aliases = ['/posts/healthy-eating-plan/']
 - \* [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
 - [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
-游泳：
-
-- 热身：自由泳 4 个来回，轻松游。
-- 技术一：蛙泳 5 个来回，专注于蹬腿后身体伸直、滑行。
-- 技术二：自由泳 6 个来回；每个来回的前 25 m 做单臂自由泳（左右臂轮换），后 25 m 正常自由泳。
-- 恢复：自由泳、蛙泳交替各 2 个来回，共 4 个来回，保持非常轻松的节奏。
-- 放松：自由泳 5 个来回，轻松游。
-
 #### 周五：下肢、推力与核心
 
-力量：
 
 - \* [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
 - \* [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
@@ -253,17 +235,8 @@ aliases = ['/posts/healthy-eating-plan/']
 - [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
 - [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
 
-游泳：
-
-- 热身：自由泳 4 个来回，轻松游；蛙泳 2 个来回，轻松游。
-- 速度组：自由泳 6 组 × 1 个来回；每组 50 m，接近冲刺但动作不散，组间休息 30–45 秒。
-- 恢复组：蛙泳 3 组 × 1 个来回；每组 50 m，轻松游。
-- 主训练：自由泳 4 组 × 2 个来回；每组 100 m，RPE 7，组间休息 30 秒。
-- 放松：自由泳 3 个来回，轻松游。
-
 #### 周六：全身循环
 
-力量：
 
 设置 25 分钟计时器，依次循环以下动作。剩余 5 分钟活动肩部与髋部。
 
@@ -274,16 +247,6 @@ aliases = ['/posts/healthy-eating-plan/']
 - \* [阻力带俯身划船](https://www.youtube.com/watch?v=vR9KcvzLqVo)（Resistance-band bent-over row；健身馆替代：杠铃俯身划船 / Barbell bent-over row）：10 次；拉至腹侧、肩胛骨夹紧时停 1 秒
 - \* [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒
 - \* [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：30 秒
-
-游泳：
-
-- 热身：自由泳 5 个来回，轻松游。
-- 有氧一：自由泳 8 个来回，保持均匀节奏。
-- 变换泳姿：蛙泳 5 个来回，轻松游。
-- 蝶泳技术：2 个来回；每个来回前 25 m 蝶泳、后 25 m 蛙泳。蝶泳动作变形时，改为自由泳。
-- 有氧二：自由泳 10 个来回，RPE 5–6；每 5 个来回休息 30 秒。
-- 综合恢复：自由泳、蛙泳各 2 个来回。
-- 放松：自由泳 4 个来回，轻松游。
 
 
 ## 皮肤
