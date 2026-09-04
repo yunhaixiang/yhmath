@@ -265,6 +265,7 @@ aliases = ['/posts/healthy-eating-plan/']
 - 每周三周日：Alastin Resurfacing Polish
 - Alpharet clearing serum
 - Moisturizer
+- Lip Balm
 
 ## 口腔
 
