@@ -204,7 +204,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 - \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
 - \* [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
-- \* [双臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（Two-arm resistance-band row；门固定，双手同时拉；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
+- \* [双臂阻力带划船](https://www.youtube.com/watch?v=k7EPhs1i9mU)（Two-arm resistance-band row；门固定，双手同时拉；健身馆替代：坐姿划船 / Seated row）：3 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
 - [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
@@ -220,7 +220,7 @@ aliases = ['/posts/healthy-eating-plan/']
 #### 周四：背部拉力与核心
 
 
-- \* [双臂阻力带划船](https://www.youtube.com/watch?v=Y-WAGeKdzlU)（Two-arm resistance-band row；门固定，双手同时拉；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
+- \* [双臂阻力带划船](https://www.youtube.com/watch?v=k7EPhs1i9mU)（Two-arm resistance-band row；门固定，双手同时拉；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
 - \* [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
 - [Y-T-W 举臂](https://www.youtube.com/watch?v=QdGTI4Lshg4)（Y-T-W raise）：2 轮，每个姿势 8–12 次；每次抬至最高点停 1 秒
 - \* [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
