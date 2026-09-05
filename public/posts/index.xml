@@ -6,129 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
-      <link>http://localhost:1313/posts/6439cea/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/6439cea/</guid>
-      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
-an $\ell$-adic representation arising from geometry is quasi-unipotent. This
-post will explain the local Galois groups involved, state the theorem, and
-discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
-&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
-&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
-&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
-&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
-&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
-&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
-      <link>http://localhost:1313/posts/68915c5/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/68915c5/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Mathematics is the art of giving the same name to different things.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
-&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
-&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Middle Extension and Middle Convolution</title>
-      <link>http://localhost:1313/posts/1b64c0e/</link>
-      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/1b64c0e/</guid>
-      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;h2 id=&#34;middle-extension&#34;&gt;Middle Extension&lt;/h2&gt;
-&lt;h2 id=&#34;perverse-sheaves-on-curves&#34;&gt;Perverse Sheaves on Curves&lt;/h2&gt;
-&lt;h2 id=&#34;convolution&#34;&gt;Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Rigid Local System</title>
-      <link>http://localhost:1313/posts/07bd743/</link>
-      <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/07bd743/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    The art of doing mathematics consists in finding that special case which contains all the germs of generality.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Alexander Grothendieck&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;I am reading Katz’s &lt;em&gt;Rigid Local Systems&lt;/em&gt; &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Kat96&#34;&gt;
-  ⟦cite:Kat96⟧
-&lt;/span&gt;. Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced &lt;em&gt;local systems&lt;/em&gt; on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-      data-cite-key=&#34;Rie57&#34;&gt;
-  ⟦cite:Rie57⟧
-&lt;/span&gt;. If there are no “accessory parameters”, we say this local system is &lt;em&gt;rigid&lt;/em&gt;, i.e. determiend by its local monodromies.&lt;/p&gt;
-&lt;h2 id=&#34;generalities-concerning-rigid-local-systems-over&#34;&gt;Generalities Concerning Rigid Local Systems over $\mathbb C$&lt;/h2&gt;
-&lt;p&gt;Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.&lt;/p&gt;
-$$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$&lt;p&gt;All vector spaces and representations here are assumed finite dimensional. We say the local system is &lt;em&gt;irreducible&lt;/em&gt; if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood &lt;/p&gt;
-$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$&lt;p&gt;has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point.&lt;/p&gt;
-&lt;div class=&#34;math-env style-defn&#34; 
-    
-     data-kind=&#34;definition&#34;
-     data-lang=&#34;en&#34;
-     data-numbered=&#34;true&#34;&gt;
-  &lt;span class=&#34;math-heading&#34;&gt;
-  &lt;span class=&#34;math-title&#34;
-        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;math-body&#34;&gt;
-    We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is &lt;em&gt;physically rigid&lt;/em&gt; if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
-$\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
-for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be the rank $1$ local system on $X^{\mathrm{an}}$ corresponding to the representation $\pi_1(X^{\mathrm{an}},u)\rightarrow \mathbb C^\times$&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Kat96&#34; data-bib-key=&#34;Kat96&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
-  &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
-&lt;/li&gt;
-
-  &lt;li id=&#34;bib-Rie57&#34; data-bib-key=&#34;Rie57&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
-  &lt;span class=&#34;bib-entry&#34;&gt;Bernhard Riemann. &lt;em&gt;Theorie der Abel’schen Functionen&lt;/em&gt;. Journal für die reine und angewandte Mathematik. 54. pp. 115--155. 1857. &lt;a href=&#34;https://doi.org/10.1515/crll.1857.54.115&#34;&gt;doi:10.1515/crll.1857.54.115&lt;/a&gt;.&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
+    <lastBuildDate>Sun, 30 Aug 2026 11:43:05 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>健康饮食锻炼计划</title>
       <link>http://localhost:1313/posts/06e58c7/</link>
@@ -192,7 +70,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
       &lt;tr&gt;
           &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;意面&lt;/td&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
@@ -241,7 +119,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;意面&lt;/td&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
@@ -339,7 +217,12 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
       &lt;tr&gt;
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;454 g / 包&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1包 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;全麦卷饼皮（即食，需冷冻保存）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;610 g / 袋（10张）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;每周用2张，1袋 / 5周&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;白米&lt;/td&gt;
@@ -456,9 +339,15 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;227 g干重&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2包&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3顿&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;120 g干重（每顿60 g）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;用 dispenser 最小档取2份，每份暂估约60 g干重&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;全麦卷饼皮（即食）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1张（约61 g）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1张&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1顿&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Baby-cut 胡萝卜&lt;/td&gt;
@@ -487,6 +376,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;并行做菜流程&#34;&gt;并行做菜流程&lt;/h3&gt;
+&lt;p&gt;意面 dispenser 最小档每份暂估约60 g干重，非官方标定；首次用厨房秤核对，之后按校准后的份量取用。&lt;/p&gt;
 &lt;h4 id=&#34;阶段-1先启动所有耗时设备&#34;&gt;阶段 1：先启动所有耗时设备&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;烤箱预热至 400°F，需 15 分钟&lt;/li&gt;
@@ -499,7 +389,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;li&gt;土豆开罐，倒入漏勺，去除罐内液体&lt;/li&gt;
 &lt;li&gt;切土豆、按需切牛排&lt;/li&gt;
 &lt;li&gt;准备三个烘焙盘并铺上烘焙纸；再准备两个调味盆和一个干净砧板。&lt;/li&gt;
-&lt;li&gt;土豆放到第一个烘焙盘；鸡大腿肉和两块猪排分别用纸巾擦干，放到另外两个烘焙盘。熟虾沥干后放入第一个调味盆；三文鱼擦干后放入第二个调味盆；牛排擦干后放在砧板上。&lt;/li&gt;
+&lt;li&gt;土豆放到第一个烘焙盘；两块猪排先切掉边缘明显的白色肥肉，再与鸡大腿肉分别用纸巾擦干，放到另外两个烘焙盘。熟虾沥干后放入第一个调味盆；三文鱼擦干后放入第二个调味盆；牛排擦干后放在砧板上。&lt;/li&gt;
 &lt;li&gt;按下表从左到右、按调味料的列逐一调味：三文鱼和熟虾直接在各自调味盆中调味；土豆、鸡大腿肉、猪排直接在各自烘焙盘中调味；牛排直接在砧板上调味。先加油，再加盐、黑胡椒、蒜粉、洋葱粉、红椒粉、干牛至叶。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -634,17 +524,19 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;ol&gt;
 &lt;li&gt;两个空锅同时开大火，加油预热 2 分钟&lt;/li&gt;
 &lt;li&gt;切胡萝卜、清洗沥干蘑菇&lt;/li&gt;
-&lt;li&gt;同时炒胡萝卜、蘑菇：大火 7 分钟&lt;/li&gt;
+&lt;li&gt;同时炒胡萝卜、蘑菇：大火 7 分钟；胡萝卜可加少量水焖 3 分钟，口感更软。&lt;/li&gt;
 &lt;li&gt;清洗沥干菠菜、打开番茄罐子&lt;/li&gt;
 &lt;li&gt;同时炒菠菜、虾仁：大火 2 分钟&lt;/li&gt;
 &lt;li&gt;同时炒番茄、煎牛排：5 分钟。牛排每面煎 2 分钟，侧面 1 分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-5收尾分盘&#34;&gt;阶段 5：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;
+&lt;li&gt;第 5 顿搭放一张全麦卷饼皮。&lt;/li&gt;
 &lt;li&gt;空气炸锅完成后：三文鱼放入第 3 顿餐盒。&lt;/li&gt;
 &lt;li&gt;猪排烤好后：每块分别放入第 4 顿和第 7 顿餐盒。&lt;/li&gt;
 &lt;li&gt;烤箱时间到后：土豆分到第 1 顿和第 6 顿；鸡大腿肉分到第 2 顿和第 5 顿。&lt;/li&gt;
-&lt;li&gt;煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。意面分入第 3 顿、第 5 顿和第 7 顿。&lt;/li&gt;
+&lt;li&gt;鸡蛋煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。&lt;/li&gt;
+&lt;li&gt;意面煮锅时间到后：意面分入第 3 顿和第 7 顿。&lt;/li&gt;
 &lt;li&gt;电饭煲完成后：白米分入第 2 顿和第 4 顿。&lt;/li&gt;
 &lt;li&gt;餐盒盖上放冰箱。&lt;/li&gt;
 &lt;/ol&gt;
@@ -792,24 +684,6 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;li&gt;Vyvanse 20 mg&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>$\ell$-Independence</title>
-      <link>http://localhost:1313/posts/2d8f6b0/</link>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compatible Systems and Rationality</title>
-      <link>http://localhost:1313/posts/7a9c1e4/</link>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
-      <description></description>
     </item>
     
     <item>
