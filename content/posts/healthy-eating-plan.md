@@ -171,19 +171,19 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ## 锻炼
 
-每周训练 5 天；每次先进行 30 分钟徒手力量训练，再进行 40 分钟游泳。
+每周训练 5 天；每次先进行 25 – 35 分钟徒手力量训练，再进行 40 分钟游泳。
 
 ### 每周训练重点
 
-| 星期 | 30 分钟力量 | 40 分钟游泳 |
-|---|---|---|
-| 周一 | 胸、肩、三头 | 同下方游泳流程 |
-| 周二 | 腿、臀 | 同下方游泳流程 |
-| 周三 | 休息 | 休息 |
-| 周四 | 核心、肩背维护 | 同下方游泳流程 |
-| 周五 | 胸肩、腿 | 同下方游泳流程 |
-| 周六 | 全身、核心 | 同下方游泳流程 |
-| 周日 | 休息 | 休息 |
+| 星期 | 力量训练重点 | 
+|---|---|
+| 周一 | 胸、肩、三头 | 
+| 周二 | 腿、臀 | 
+| 周三 | 休息 | 
+| 周四 | 核心、肩背维护 |
+| 周五 | 胸肩、腿 |
+| 周六 | 全身、核心 |
+| 周日 | 休息 | 
 {.table-centered}
 
 
@@ -191,16 +191,19 @@ aliases = ['/posts/healthy-eating-plan/']
 
 
 
-有氧运动主要为游泳，每次力量训练之后完成。共 25 个来回；按 25 m 泳池计算，共 1,250 m。
+有氧运动主要为游泳，每次力量训练之后完成。每个来回均为自由泳去、蛙泳回。共 25 个来回；按 25 m 泳池计算，共 1,250 m。
 
-- 热身：自由泳 5 个来回，轻松游。
-- 主训练：自由泳或蛙泳 3 组 × 5 个来回；组间休息 30–60 秒。可穿插蝶泳。
-- 放松：自由泳或蛙泳 5 个来回，轻松游。
+- 热身：5 个来回，轻松游。
+- 主训练：3 组 × 5 个来回；保持稳定节奏，组间休息 30–60 秒。可偶尔将去程的自由泳换成蝶泳。
+- 放松：5 个来回，减慢速度、轻松游。
 
 如当天无法游泳，可完成一节 [30 分钟低冲击 HIIT 跟练](https://www.youtube.com/watch?v=M0uO8X3_tEA&t=508s) 替代。若做不了HIIT，也可让带 * 的项目多做一组。
 
+力量训练每组之间休息 30 秒到 1 分钟。
+
 #### 周一：上肢推拉与核心
 
+预估时间：20–25 分钟。
 
 - \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
 - \* [阻力带过头推举](https://www.youtube.com/watch?v=bC4XNIiOxcQ)（Resistance-band overhead press；健身馆替代：哑铃肩推 / Dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
@@ -210,6 +213,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 周二：下肢与臀部
 
+预估时间：30–35 分钟。
 
 - \* [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：3 组 × 15–20 次；最低点停 1 秒
 - \* [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
@@ -219,6 +223,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 周四：背部拉力与核心
 
+预估时间：25–30 分钟。
 
 - \* [双臂阻力带划船](https://www.youtube.com/watch?v=k7EPhs1i9mU)（Two-arm resistance-band row；门固定，双手同时拉；健身馆替代：坐姿划船 / Seated row）：4 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
 - \* [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
@@ -228,8 +233,9 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 周五：下肢、推力与核心
 
+预估时间：30–35 分钟。
 
-- \* [慢速俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Slow push-up，下降 3 秒）：3 组 × 8–15 次；最低点停 1 秒
+- \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
 - \* [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
 - \* [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
 - [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：2 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
@@ -237,6 +243,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 周六：全身循环
 
+预估时间：30 分钟。
 
 设置 25 分钟计时器，依次循环以下动作。剩余 5 分钟活动肩部与髋部。
 

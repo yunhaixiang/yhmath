@@ -33,7 +33,7 @@ $\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
 for each $s\in S$, there is $\mathcal F\cong \mathcal G$. 
 {{< /definition >}}
 
-However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. 
+However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be the rank $1$ local system on $X^{\mathrm{an}}$ corresponding to the representation $\pi_1(X^{\mathrm{an}},u)\rightarrow \mathbb C^\times$
 
 ## References
 
