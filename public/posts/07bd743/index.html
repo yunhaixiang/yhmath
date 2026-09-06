@@ -97,7 +97,7 @@ I am reading Katz’s Rigid Local Systems
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-09-03T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-09-04T23:23:50-04:00">
+    <meta property="article:modified_time" content="2026-09-05T21:46:07-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Number-Theory">
@@ -112,8 +112,8 @@ I am reading Katz’s Rigid Local Systems
   <meta itemprop="name" content="Rigid Local System">
   <meta itemprop="description" content="The art of doing mathematics consists in finding that special case which contains all the germs of generality. — Alexander Grothendieck I am reading Katz’s Rigid Local Systems ⟦cite:Kat96⟧ . Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced local systems on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ ⟦cite:Rie57⟧ . If there are no “accessory parameters”, we say this local system is rigid, i.e. determiend by its local monodromies.">
   <meta itemprop="datePublished" content="2026-09-03T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-09-04T23:23:50-04:00">
-  <meta itemprop="wordCount" content="349">
+  <meta itemprop="dateModified" content="2026-09-05T21:46:07-04:00">
+  <meta itemprop="wordCount" content="476">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
 
   
@@ -233,7 +233,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          349 words
+          476 words
         </span>
       
       
@@ -246,7 +246,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~2 mins
+          ~3 mins
         </span>
       
     </div>
@@ -283,6 +283,7 @@ I am reading Katz’s Rigid Local Systems
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
     <li><a href="#generalities-concerning-rigid-local-systems-over">Generalities Concerning Rigid Local Systems over </a></li>
+    <li><a href="#numerical-criterion-for">Numerical Criterion for </a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -321,7 +322,38 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
   </div>
 </div>
 
-<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial.</p>
+<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}_U$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.</p>
+<h2 id="numerical-criterion-for">Numerical Criterion for $\mathbb P^1$</h2>
+<p>With same setting above and let $X=\mathbb P^1$.</p>
+<div class="math-env style-plain" 
+    
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <div class="math-body">
+    An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U^{\mathrm{an}}$ is physically rigid iff $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <span class="proof-mark" aria-hidden="true"></span>
+  </div>
+</div>
+
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
@@ -377,7 +409,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
     <a class="link" href="http://localhost:1313/posts/06e58c7/" title="健康饮食锻炼计划"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:1313/posts/1b64c0e/" title="Middle Extension and Middle Convolution">Next <span class="arrow-icon">🢡</span></a>
+    <a></a>
     
   </div>
   
