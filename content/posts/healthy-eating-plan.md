@@ -275,6 +275,7 @@ aliases = ['/posts/healthy-eating-plan/']
 晚上：
 
 - Brushing (Electric Tooth Brush)
+- Tongue Brush
 - Mouth Wash
 - Flossing
 
