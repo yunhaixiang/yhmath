@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 11:43:05 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>健康饮食锻炼计划</title>
       <link>http://localhost:1313/posts/06e58c7/</link>
@@ -390,7 +390,7 @@
 &lt;li&gt;切土豆、按需切牛排&lt;/li&gt;
 &lt;li&gt;准备三个烘焙盘并铺上烘焙纸；再准备两个调味盆和一个干净砧板。&lt;/li&gt;
 &lt;li&gt;土豆放到第一个烘焙盘；两块猪排先切掉边缘明显的白色肥肉，再与鸡大腿肉分别用纸巾擦干，放到另外两个烘焙盘。熟虾沥干后放入第一个调味盆；三文鱼擦干后放入第二个调味盆；牛排擦干后放在砧板上。&lt;/li&gt;
-&lt;li&gt;按下表从左到右、按调味料的列逐一调味：三文鱼和熟虾直接在各自调味盆中调味；土豆、鸡大腿肉、猪排直接在各自烘焙盘中调味；牛排直接在砧板上调味。先加油，再加盐、黑胡椒、蒜粉、洋葱粉、红椒粉、干牛至叶。&lt;/li&gt;
+&lt;li&gt;按表逐列调味：三文鱼在盆中，土豆、鸡大腿肉、猪排在烘焙盘上，牛排在砧板上。熟虾留到阶段 4 调味。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -453,17 +453,6 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;5&lt;/td&gt;
-          &lt;td&gt;熟虾&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;6&lt;/td&gt;
           &lt;td&gt;牛排&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
@@ -476,7 +465,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;三文鱼和熟虾在盆中翻匀；土豆、鸡大腿肉和猪排在烘焙盘中翻匀或两面抹匀；牛排在砧板上两面抹匀。&lt;/li&gt;
+&lt;li&gt;三文鱼在盆中翻匀；土豆、鸡大腿肉和猪排在烘焙盘中翻匀或两面抹匀；牛排两面抹匀。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-3炒锅以外开始并行烹调&#34;&gt;阶段 3：炒锅以外开始并行烹调&lt;/h4&gt;
 &lt;ol&gt;
@@ -491,41 +480,74 @@
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;食材&lt;/th&gt;
-          &lt;th&gt;调味&lt;/th&gt;
+          &lt;th&gt;盐&lt;/th&gt;
+          &lt;th&gt;黑胡椒&lt;/th&gt;
+          &lt;th&gt;蒜粉&lt;/th&gt;
+          &lt;th&gt;洋葱粉&lt;/th&gt;
+          &lt;th&gt;红椒粉&lt;/th&gt;
+          &lt;th&gt;干牛至叶&lt;/th&gt;
+          &lt;th&gt;蚝油&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;胡萝卜&lt;/td&gt;
-          &lt;td&gt;1 茶匙蚝油&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1 茶匙&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙蒜粉 + 1/2 茶匙洋葱粉 + 1/4 茶匙黑胡椒 + 1/8 茶匙盐&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙蒜粉 + 1/4 茶匙洋葱粉 + 1/8 茶匙盐&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙蒜粉 + 1/4 茶匙黑胡椒 + 1/2 茶匙干牛至叶 + 1/8 茶匙盐&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;熟虾&lt;/td&gt;
-          &lt;td&gt;已在阶段 2 调味&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td&gt;已在阶段 2 调味&lt;/td&gt;
+          &lt;td&gt;番茄&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;熟虾下锅前在盆中拌匀调味；牛排已调味。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;两个空锅同时开大火，加油预热 2 分钟&lt;/li&gt;
 &lt;li&gt;清洗沥干蘑菇&lt;/li&gt;
 &lt;li&gt;同时炒胡萝卜、蘑菇：大火 7 分钟；胡萝卜可加少量水焖 3 分钟，口感更软。&lt;/li&gt;
-&lt;li&gt;清洗沥干菠菜、打开番茄罐子&lt;/li&gt;
+&lt;li&gt;清洗沥干菠菜、打开番茄罐子、沥干番茄&lt;/li&gt;
 &lt;li&gt;同时炒菠菜、虾仁：大火 2 分钟&lt;/li&gt;
 &lt;li&gt;同时炒番茄、煎牛排：5 分钟。牛排每面煎 2 分钟，侧面 1 分钟。&lt;/li&gt;
 &lt;/ol&gt;
