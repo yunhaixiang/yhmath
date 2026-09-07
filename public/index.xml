@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rigid Local System</title>
+      <title>Rigid Local Systems</title>
       <link>http://localhost:1313/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
       
@@ -78,13 +78,13 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Kat96&#34; data-bib-key=&#34;Kat96&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Kat96&#34;&gt;
+  &lt;span id=&#34;bib-Kat96&#34; class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Rie57&#34; data-bib-key=&#34;Rie57&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rie57&#34;&gt;
+  &lt;span id=&#34;bib-Rie57&#34; class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bernhard Riemann. &lt;em&gt;Theorie der Abel’schen Functionen&lt;/em&gt;. Journal für die reine und angewandte Mathematik. 54. pp. 115--155. 1857. &lt;a href=&#34;https://doi.org/10.1515/crll.1857.54.115&#34;&gt;doi:10.1515/crll.1857.54.115&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -114,8 +114,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;li&gt;周三晚上：做周三晚餐 ～ 周六晚餐，共7顿&lt;/li&gt;
 &lt;li&gt;两次使用完全相同的食材、数量和流程&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;早餐固定为：2个水煮鸡蛋 + 混合水果 + 半勺（12 g）分离乳清蛋白 + 1%牛奶。&lt;/p&gt;
-&lt;p&gt;胡萝卜每周464 g，分到4顿正餐，每顿116 g。&lt;/p&gt;
+&lt;p&gt;早餐固定为：2个水煮鸡蛋 + 混合水果 + 高纤维 cereal（暂按40 g） + 1%牛奶；cereal直接加牛奶食用。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -313,8 +312,8 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
           &lt;td style=&#34;text-align: right&#34;&gt;用完补&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;分离乳清蛋白&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约900 g / 桶&lt;/td&gt;
+          &lt;td&gt;高纤维 cereal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按所选包装；暂按每周280 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;用完补&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -677,51 +676,288 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;li&gt;* &lt;a href=&#34;https://www.youtube.com/watch?v=amA9sc6dmH0&#34;&gt;交替触肩&lt;/a&gt;（Shoulder tap）：20 次总数（左右各 10 次）；每次触肩停 1 秒&lt;/li&gt;
 &lt;li&gt;* &lt;a href=&#34;https://www.youtube.com/watch?v=mwlp75MS6Rg&#34;&gt;平板支撑&lt;/a&gt;（Plank）：30 秒&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;皮肤&#34;&gt;皮肤&lt;/h2&gt;
-&lt;p&gt;早上：&lt;/p&gt;
+&lt;h2 id=&#34;计量分析&#34;&gt;计量分析&lt;/h2&gt;
+&lt;h3 id=&#34;计算口径&#34;&gt;计算口径&lt;/h3&gt;
+&lt;p&gt;按男性、26 岁、170 cm、83 kg计算；训练按上表全部完成，训练之外暂按主要久坐。以下是食材代表值估算，不是实测。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;LHA Cleanser&lt;/li&gt;
-&lt;li&gt;LHA Serum&lt;/li&gt;
-&lt;li&gt;Moisturizer&lt;/li&gt;
-&lt;li&gt;Lip Balm&lt;/li&gt;
-&lt;li&gt;Sunscreen&lt;/li&gt;
+&lt;li&gt;牛奶4 L、水果2 kg、鸡蛋18个均一周吃完；鸡蛋包括早餐14个和正餐4个。高纤维 cereal暂按每天40 g、每周280 g，搭配的牛奶已包含在4 L内。不计计划外零食、饮料和外食。&lt;/li&gt;
+&lt;li&gt;肉类按生重计算，不套用熟肉每100 g的数据。猪排860 g带骨重量，暂按去骨去肥后剩75%，即645 g；牛排按保留部分脂肪的Striploin估算，三文鱼按养殖大西洋鲑估算。&lt;/li&gt;
+&lt;li&gt;米杯暂按180 mL电饭煲杯、每杯约150 g生米：每周1.5杯，即225 g。土豆每罐沥干暂按330 g，番茄每周沥干暂按500 g；这些重量需称一次确认，不能把包装mL直接当作可食g。&lt;/li&gt;
+&lt;li&gt;卷饼皮按提供的180 kcal/张；其余营养暂按每张蛋白质5 g、碳水30 g、脂肪4 g、纤维4 g。高纤维 cereal尚未选定，测算暂按每40 g含150 kcal、蛋白质4 g、碳水30 g、脂肪2 g、纤维8 g；这是假设，不是特定商品标签。水果暂按每100 g含50 kcal、纤维1.5 g。均待实际标签或水果组成校正。&lt;/li&gt;
+&lt;li&gt;每次做菜用油：阶段二5茶匙，阶段四5茶匙；每周共20茶匙，即100 mL、约800 kcal。暂按全部吃入，不另外重复计算预热用油；喷油次数不能精确替代称量。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;晚上：&lt;/p&gt;
+&lt;h3 id=&#34;每周营养摄入&#34;&gt;每周营养摄入&lt;/h3&gt;
+&lt;p&gt;计算方式：可食用量 × 对应食物每100 g的营养值 ÷ 100；牛奶按体积换算。代表值参考&lt;a href=&#34;https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/nutrition/fiche-nutri-data/nvscf-vnqau-eng.pdf&#34;&gt;加拿大常见食物营养表&lt;/a&gt;及USDA的&lt;a href=&#34;https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg15.pdf&#34;&gt;鱼类&lt;/a&gt;、&lt;a href=&#34;https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg05.pdf&#34;&gt;禽肉&lt;/a&gt;、&lt;a href=&#34;https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Pork/Pork09.pdf&#34;&gt;猪肉&lt;/a&gt;和&lt;a href=&#34;https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg20.pdf&#34;&gt;谷物&lt;/a&gt;数据；未确认的商品采用上述假设，不代表其标签值。&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;食材&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;每周计算用量&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;蛋白质（g）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;碳水（g）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;脂肪（g）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,220 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,540&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;249&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;164&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;去骨去皮鸡大腿肉&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;830 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,000&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;163&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;34&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;猪排可食部分&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;暂按645 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;900&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;141&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;31&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;牛排&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;300 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;600&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;36&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鸡蛋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;18个，去壳约900 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,290&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;113&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;86&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1%牛奶&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4 L&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,730&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;144&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;208&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;41&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;高纤维 cereal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;暂按280 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,050&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;28&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;210&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;14&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;白米&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;225 g干重&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;820&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;16&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;180&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;意面&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;240 g干重&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;890&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;31&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;179&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2张，共122 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;360&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;60&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;土豆&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;暂按沥干660 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;400&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;胡萝卜&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;464 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;160&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;454 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;100&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;14&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;15&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;227 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;50&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;番茄&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;暂按沥干500 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;100&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;20&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;混合水果&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,000 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,000&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;240&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;食用油&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;100 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;800&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;91&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;香料、蚝油&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按调味表，暂估&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;100&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;20&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;每周合计&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,900&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,010&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,270&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约520&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;日均&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,990&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约145&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约182&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约74&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;合计使用未取整数值；食品热量换算系数、纤维和四舍五入会使热量与“蛋白质×4＋碳水×4＋脂肪×9”略有差异。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;LHA Cleanser&lt;/li&gt;
-&lt;li&gt;每周三周日：Alastin Resurfacing Polish&lt;/li&gt;
-&lt;li&gt;Alpharet Clearing Serum&lt;/li&gt;
-&lt;li&gt;Moisturizer&lt;/li&gt;
-&lt;li&gt;Lip Balm&lt;/li&gt;
+&lt;li&gt;蛋白质约1.7 g/kg体重/天；碳水已包括水果、牛奶和蔬菜，不只是米饭、意面等主食。&lt;/li&gt;
+&lt;li&gt;膳食纤维暂估约149 g/周，即21 g/天；cereal、水果与卷饼皮不同，结果会变化。仍低于成年男性38 g/天的参考摄入量，是本计划值得补足的一项。&lt;a href=&#34;https://www.canada.ca/en/health-canada/services/nutrients/fibre.html&#34;&gt;加拿大纤维参考&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;调味表的盐共4.75茶匙/周。按细盐每茶匙约6 g计算，仅添加盐就提供约11,200 mg钠/周，即1,600 mg/天；牛奶、鸡蛋、罐头、卷饼皮、cereal和蚝油还会增加钠。总钠需标签核算，不能把1,600 mg当作全天总量；成人建议少于2,300 mg/天。&lt;a href=&#34;https://www.canada.ca/en/health-canada/services/food-guide/explore/dietary-guidelines/section-2-foods-beverages-that-undermine-healthy-eating.html&#34;&gt;加拿大膳食指南&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;口腔&#34;&gt;口腔&lt;/h2&gt;
-&lt;p&gt;早上：&lt;/p&gt;
+&lt;h3 id=&#34;每周运动消耗&#34;&gt;每周运动消耗&lt;/h3&gt;
+&lt;p&gt;用净消耗估算额外运动热量，扣除同一段时间本来就会发生的静息消耗：净消耗（kcal）≈（MET − 1）× 83 × 时长（小时）。MET是活动强度的参考值，不是个人测量结果。&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;项目&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;每周时长&lt;/th&gt;
+          &lt;th&gt;计算假设&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;每周净消耗（kcal）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;游泳5次&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;200分钟，共6,250 m&lt;/td&gt;
+          &lt;td&gt;每次实际游35–38分钟，其余休息不另计；游动按5.3–5.8 MET&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,040–1,260&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周一、二、四、五力量&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;合计105–125分钟&lt;/td&gt;
+          &lt;td&gt;含组间休息，整节暂按3.5 MET&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约360–430&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周六全身循环&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;25分钟循环＋5分钟活动&lt;/td&gt;
+          &lt;td&gt;分别按5.0和2.3 MET&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约150&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;合计&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;335–355分钟&lt;/td&gt;
+          &lt;td&gt;力量135–155分钟＋游泳200分钟&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,550–1,840&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;日均额外运动消耗约220–260 kcal。强度参考&lt;a href=&#34;https://pacompendium.com/water-activities/&#34;&gt;游泳MET表&lt;/a&gt;和&lt;a href=&#34;https://pacompendium.com/conditioning-exercise/&#34;&gt;力量、循环训练MET表&lt;/a&gt;。游泳技术、实际休息和阻力带强度都可能让真实消耗超出此情景范围；偶尔蝶泳不按整节蝶泳计算。HIIT是替代游泳，不叠加；力量多做一组也不直接视为等热量替代。&lt;/p&gt;
+&lt;h3 id=&#34;总消耗与热量赤字&#34;&gt;总消耗与热量赤字&lt;/h3&gt;
+&lt;p&gt;静息代谢采用男性Mifflin–St Jeor公式：10 × 83 ＋ 6.25 × 170 − 5 × 26 ＋ 5 ≈ 1,770 kcal/天。&lt;a href=&#34;https://pubmed.ncbi.nlm.nih.gov/2305711/&#34;&gt;公式来源&lt;/a&gt;&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;项目&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;日均（kcal）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;每周（kcal）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;静息代谢&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,770&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,370&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;非训练基线：静息代谢×1.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2,120&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14,850&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;额外运动净消耗&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约220–260&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,550–1,840&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;总消耗：非训练基线＋运动&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2,340–2,380&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约16,400–16,700&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;饮食摄入中心估计&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,990&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,900&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;热量赤字：总消耗−摄入&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约360–400&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2,500–2,800&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;1.2是“训练外主要久坐”的简化假设，涵盖日常轻活动及食物热效应；表中的静息代谢已经包含在非训练基线内，不能再次相加。也不要先乘包含锻炼的活动系数，再加一遍运动热量。&lt;/p&gt;
+&lt;h3 id=&#34;误差与实际校准&#34;&gt;误差与实际校准&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Brushing (Electric Tooth Brush)&lt;/li&gt;
-&lt;li&gt;Tongue Brush&lt;/li&gt;
-&lt;li&gt;Mouth Wash&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;晚上：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Brushing (Electric Tooth Brush)&lt;/li&gt;
-&lt;li&gt;Tongue Brush&lt;/li&gt;
-&lt;li&gt;Mouth Wash&lt;/li&gt;
-&lt;li&gt;Flossing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;每年三月份和九月份：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Professional Teeth Cleaning&lt;/li&gt;
-&lt;li&gt;Teeth Whitening Strip&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;睡眠&#34;&gt;睡眠&lt;/h2&gt;
-&lt;p&gt;睡前（00:00）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;褪黑素 5 mg&lt;/li&gt;
-&lt;li&gt;Multi-vitamin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;起床（8:30）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Vyvanse 20 mg&lt;/li&gt;
+&lt;li&gt;摄入暂用1,800–2,250 kcal/天作粗略情景范围，而不是置信区间；按同一久坐基线，对应赤字约100–600 kcal/天。实际日常活动、个体代谢差异及所选cereal仍可能使结果超出范围。&lt;/li&gt;
+&lt;li&gt;若用普通240–250 mL杯（每杯生米约185–200 g）而不是上述米杯假设，米饭可能多约200–275 kcal/周；每额外用1茶匙油约增加40 kcal；若每周有一顿比计划多吃800 kcal，周赤字就减少800 kcal。&lt;/li&gt;
+&lt;li&gt;优先称一次生米、猪排去骨去肥后的重量和罐头沥干重量，再核对cereal、牛奶、卷饼皮标签。肉类出油、鱼皮是否吃完、锅中剩油也影响结果。&lt;/li&gt;
+&lt;li&gt;当前中心赤字按7,700 kcal/kg作短期粗换算，相当于约0.3–0.4 kg/周；不是保证，也不能线性推算减掉18 kg的日期。体重降低后消耗会变化。&lt;a href=&#34;https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner&#34;&gt;NIH体重模型说明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;连续记录2–4周：早起上厕所后、早餐前称重，比较每周平均值，并记录实际进食和完成的训练。用体重趋势校准估算，不因单日体重或手表显示就继续削减饮食；若持续乏力、头晕或训练表现下降，应先评估进食、睡眠及健康状况。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2643,8 +2879,8 @@ $$&lt;p&gt;is an equivalence for every $A,B : \mathcal U$.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Rij25&#34; data-bib-key=&#34;Rij25&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rij25]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rij25&#34;&gt;
+  &lt;span id=&#34;bib-Rij25&#34; class=&#34;bib-label&#34;&gt;[Rij25]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Egbert Rijke. &lt;em&gt;Introduction to Homotopy Type Theory&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 219. Cambridge University Press. 2025.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -3591,23 +3827,23 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-DM82&#34; data-bib-key=&#34;DM82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;DM82&#34;&gt;
+  &lt;span id=&#34;bib-DM82&#34; class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne and James S. Milne. &lt;em&gt;Tannakian Categories&lt;/em&gt;. In &lt;em&gt;Hodge Cycles, Motives, and Shimura Varieties&lt;/em&gt;. Springer-Verlag. 1982.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil17&#34; data-bib-key=&#34;Mil17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil17&#34;&gt;
+  &lt;span id=&#34;bib-Mil17&#34; class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field&lt;/em&gt;. Cambridge University Press. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Saa72&#34; data-bib-key=&#34;Saa72&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Saa72&#34;&gt;
+  &lt;span id=&#34;bib-Saa72&#34; class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. Saavedra Rivano. &lt;em&gt;Catégories Tannakiennes&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Lan98&#34; data-bib-key=&#34;Lan98&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Lan98&#34;&gt;
+  &lt;span id=&#34;bib-Lan98&#34; class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. P. Landsman. &lt;em&gt;Tannaka-Krein Duality for Compact Groups&lt;/em&gt;. 1998.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -3943,38 +4179,38 @@ i_*:\mathrm{H}^n(Z,\mathbf{1}_Z)\longrightarrow \mathrm{H}^{n+2c}(X,\mathbf{1}_X
 $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Har66&#34; data-bib-key=&#34;Har66&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Har66&#34;&gt;
+  &lt;span id=&#34;bib-Har66&#34; class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Robin Hartshorne. &lt;em&gt;Residues and Duality&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 20. Springer-Verlag. 1966.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-KS90&#34; data-bib-key=&#34;KS90&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;KS90&#34;&gt;
+  &lt;span id=&#34;bib-KS90&#34; class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Masaki Kashiwara and Pierre Schapira. &lt;em&gt;Sheaves on Manifolds&lt;/em&gt;. Grundlehren der mathematischen Wissenschaften. Vol. 292. Springer-Verlag. 1990.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ive86&#34; data-bib-key=&#34;Ive86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ive86&#34;&gt;
+  &lt;span id=&#34;bib-Ive86&#34; class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Birger Iversen. &lt;em&gt;Cohomology of Sheaves&lt;/em&gt;. Universitext. Springer-Verlag. 1986.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span id=&#34;bib-Mil80&#34; class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Étale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Del77&#34; data-bib-key=&#34;Del77&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Del77&#34;&gt;
+  &lt;span id=&#34;bib-Del77&#34; class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Cohomologie étale&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 569. Springer-Verlag. 1977.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ayo07&#34; data-bib-key=&#34;Ayo07&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ayo07&#34;&gt;
+  &lt;span id=&#34;bib-Ayo07&#34; class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Joseph Ayoub. &lt;em&gt;Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique&lt;/em&gt;. Astérisque. Vol. 314--315. Société Mathématique de France. 2007.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-CD19&#34; data-bib-key=&#34;CD19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;CD19&#34;&gt;
+  &lt;span id=&#34;bib-CD19&#34; class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Denis-Charles Cisinski and Frédéric Déglise. &lt;em&gt;Triangulated Categories of Mixed Motives&lt;/em&gt;. Springer Monographs in Mathematics. Springer. 2019.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -4058,73 +4294,73 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-GS87&#34; data-bib-key=&#34;GS87&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GS87]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GS87&#34;&gt;
+  &lt;span id=&#34;bib-GS87&#34; class=&#34;bib-label&#34;&gt;[GS87]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Branko Grünbaum and G. C. Shephard. &lt;em&gt;Tilings and Patterns&lt;/em&gt;. W. H. Freeman. 1987.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Rei18&#34; data-bib-key=&#34;Rei18&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rei18]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rei18&#34;&gt;
+  &lt;span id=&#34;bib-Rei18&#34; class=&#34;bib-label&#34;&gt;[Rei18]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Karl Reinhardt. &lt;em&gt;Über die Zerlegung der Ebene in Polygone&lt;/em&gt;. Druck von Robert Noske. 1918.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Rao17&#34; data-bib-key=&#34;Rao17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rao17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rao17&#34;&gt;
+  &lt;span id=&#34;bib-Rao17&#34; class=&#34;bib-label&#34;&gt;[Rao17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Michaël Rao. &lt;em&gt;Exhaustive Search of Convex Pentagons Which Tile the Plane&lt;/em&gt;. 2017. &lt;a href=&#34;https://arxiv.org/abs/1708.00274&#34;&gt;arXiv:1708.00274&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Gar89&#34; data-bib-key=&#34;Gar89&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Gar89]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Gar89&#34;&gt;
+  &lt;span id=&#34;bib-Gar89&#34; class=&#34;bib-label&#34;&gt;[Gar89]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Martin Gardner. &lt;em&gt;Penrose Tiles to Trapdoor Ciphers&lt;/em&gt;. W. H. Freeman. 1989.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Tre23&#34; data-bib-key=&#34;Tre23&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Tre23]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Tre23&#34;&gt;
+  &lt;span id=&#34;bib-Tre23&#34; class=&#34;bib-label&#34;&gt;[Tre23]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Rodrigo Treviño. &lt;em&gt;Aperiodic Tilings, Order, and Randomness&lt;/em&gt;. Notices of the American Mathematical Society. 70(10). pp. 1640--1651. 2023.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-BG13&#34; data-bib-key=&#34;BG13&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[BG13]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;BG13&#34;&gt;
+  &lt;span id=&#34;bib-BG13&#34; class=&#34;bib-label&#34;&gt;[BG13]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Michael Baake and Uwe Grimm. &lt;em&gt;Aperiodic Order. Volume 1: A Mathematical Invitation&lt;/em&gt;. Cambridge University Press. 2013.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Sen06&#34; data-bib-key=&#34;Sen06&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Sen06]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Sen06&#34;&gt;
+  &lt;span id=&#34;bib-Sen06&#34; class=&#34;bib-label&#34;&gt;[Sen06]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Marjorie Senechal. &lt;em&gt;What is... a Quasicrystal?&lt;/em&gt;. Notices of the American Mathematical Society. 53(8). pp. 886--887. 2006.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ber66&#34; data-bib-key=&#34;Ber66&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ber66]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ber66&#34;&gt;
+  &lt;span id=&#34;bib-Ber66&#34; class=&#34;bib-label&#34;&gt;[Ber66]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Robert Berger. &lt;em&gt;The Undecidability of the Domino Problem&lt;/em&gt;. Memoirs of the American Mathematical Society. Vol. 66. American Mathematical Society. 1966.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Rob71&#34; data-bib-key=&#34;Rob71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rob71]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rob71&#34;&gt;
+  &lt;span id=&#34;bib-Rob71&#34; class=&#34;bib-label&#34;&gt;[Rob71]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Raphael M. Robinson. &lt;em&gt;Undecidability and Nonperiodicity for Tilings of the Plane&lt;/em&gt;. Inventiones Mathematicae. 12. pp. 177--209. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Pen74&#34; data-bib-key=&#34;Pen74&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Pen74]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Pen74&#34;&gt;
+  &lt;span id=&#34;bib-Pen74&#34; class=&#34;bib-label&#34;&gt;[Pen74]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Roger Penrose. &lt;em&gt;The Role of Aesthetics in Pure and Applied Mathematical Research&lt;/em&gt;. Bulletin of the Institute of Mathematics and its Applications. 10. pp. 266--271. 1974.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-dB81a&#34; data-bib-key=&#34;dB81a&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[dB81a]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;dB81a&#34;&gt;
+  &lt;span id=&#34;bib-dB81a&#34; class=&#34;bib-label&#34;&gt;[dB81a]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. G. de Bruijn. &lt;em&gt;Algebraic Theory of Penrose&#39;s Non-Periodic Tilings of the Plane. I&lt;/em&gt;. Indagationes Mathematicae. 43. pp. 39--52. 1981.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-dB81b&#34; data-bib-key=&#34;dB81b&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[dB81b]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;dB81b&#34;&gt;
+  &lt;span id=&#34;bib-dB81b&#34; class=&#34;bib-label&#34;&gt;[dB81b]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. G. de Bruijn. &lt;em&gt;Algebraic Theory of Penrose&#39;s Non-Periodic Tilings of the Plane. II&lt;/em&gt;. Indagationes Mathematicae. 43. pp. 53--66. 1981.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-SMKG24a&#34; data-bib-key=&#34;SMKG24a&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SMKG24a]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;SMKG24a&#34;&gt;
+  &lt;span id=&#34;bib-SMKG24a&#34; class=&#34;bib-label&#34;&gt;[SMKG24a]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss. &lt;em&gt;An Aperiodic Monotile&lt;/em&gt;. Combinatorial Theory. 4(1). 2024. &lt;a href=&#34;https://arxiv.org/abs/2303.10798&#34;&gt;arXiv:2303.10798&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-SMKG24b&#34; data-bib-key=&#34;SMKG24b&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SMKG24b]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;SMKG24b&#34;&gt;
+  &lt;span id=&#34;bib-SMKG24b&#34; class=&#34;bib-label&#34;&gt;[SMKG24b]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss. &lt;em&gt;A Chiral Aperiodic Monotile&lt;/em&gt;. Combinatorial Theory. 4(1). 2024. &lt;a href=&#34;https://arxiv.org/abs/2305.17743&#34;&gt;arXiv:2305.17743&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -4883,23 +5119,23 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Del70&#34;&gt;
+  &lt;span id=&#34;bib-Del70&#34; class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;SGA1&#34;&gt;
+  &lt;span id=&#34;bib-SGA1&#34; class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;HTT08&#34;&gt;
+  &lt;span id=&#34;bib-HTT08&#34; class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span id=&#34;bib-Mil80&#34; class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -5159,13 +5395,13 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-BT82&#34; data-bib-key=&#34;BT82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;BT82&#34;&gt;
+  &lt;span id=&#34;bib-BT82&#34; class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Raoul Bott and Loring W. Tu. &lt;em&gt;Differential Forms in Algebraic Topology&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 82. Springer-Verlag. New York. 1982.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Bre97&#34; data-bib-key=&#34;Bre97&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Bre97&#34;&gt;
+  &lt;span id=&#34;bib-Bre97&#34; class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Glen E. Bredon. &lt;em&gt;Sheaf Theory&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 170. Springer-Verlag. New York. 1997.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -5241,18 +5477,18 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Ben68&#34; data-bib-key=&#34;Ben68&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ben68]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ben68&#34;&gt;
+  &lt;span id=&#34;bib-Ben68&#34; class=&#34;bib-label&#34;&gt;[Ben68]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Walter Benjamin. Hannah Arendt (ed.). Translated by Harry Zohn. &lt;em&gt;The Work of Art in the Age of Mechanical Reproduction&lt;/em&gt;. In &lt;em&gt;Illuminations&lt;/em&gt;. Schocken Books. 1968.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ben02&#34; data-bib-key=&#34;Ben02&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ben02]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ben02&#34;&gt;
+  &lt;span id=&#34;bib-Ben02&#34; class=&#34;bib-label&#34;&gt;[Ben02]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Walter Benjamin. Howard Eiland and Michael W. Jennings (ed.). Translated by Edmund Jephcott, Howard Eiland, and others. &lt;em&gt;The Work of Art in the Age of Its Technological Reproducibility: Second Version&lt;/em&gt;. In &lt;em&gt;Walter Benjamin: Selected Writings, Volume 3: 1935-1938&lt;/em&gt;. Harvard University Press. 2002.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Bar77&#34; data-bib-key=&#34;Bar77&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Bar77]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Bar77&#34;&gt;
+  &lt;span id=&#34;bib-Bar77&#34; class=&#34;bib-label&#34;&gt;[Bar77]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Roland Barthes. Translated by Stephen Heath. &lt;em&gt;The Death of the Author&lt;/em&gt;. In &lt;em&gt;Image, Music, Text&lt;/em&gt;. Hill and Wang. 1977.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -5324,33 +5560,33 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-OpenAI26&#34; data-bib-key=&#34;OpenAI26&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[OpenAI26]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;OpenAI26&#34;&gt;
+  &lt;span id=&#34;bib-OpenAI26&#34; class=&#34;bib-label&#34;&gt;[OpenAI26]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;OpenAI. &lt;em&gt;Planar Point Sets with Many Unit Distances&lt;/em&gt;. 2026. &lt;a href=&#34;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&#34;&gt;https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-ABG&amp;#43;26&#34; data-bib-key=&#34;ABG&amp;#43;26&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[ABG&amp;#43;26]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;ABG&amp;#43;26&#34;&gt;
+  &lt;span id=&#34;bib-ABG&amp;#43;26&#34; class=&#34;bib-label&#34;&gt;[ABG&amp;#43;26]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Noga Alon, Thomas F. Bloom, W. T. Gowers, Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang, and Melanie Matchett Wood. &lt;em&gt;Remarks on the Disproof of the Unit Distance Conjecture&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;arXiv:2605.20695&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20695&#34;&gt;https://arxiv.org/abs/2605.20695&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Saw26&#34; data-bib-key=&#34;Saw26&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Saw26]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Saw26&#34;&gt;
+  &lt;span id=&#34;bib-Saw26&#34; class=&#34;bib-label&#34;&gt;[Saw26]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Will Sawin. &lt;em&gt;An Explicit Lower Bound for the Unit Distance Problem&lt;/em&gt;. 2026. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;arXiv:2605.20579&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2605.20579&#34;&gt;https://arxiv.org/abs/2605.20579&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Erd46&#34; data-bib-key=&#34;Erd46&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Erd46]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Erd46&#34;&gt;
+  &lt;span id=&#34;bib-Erd46&#34; class=&#34;bib-label&#34;&gt;[Erd46]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Paul Erdős. &lt;em&gt;On Sets of Distances of $n$ Points&lt;/em&gt;. American Mathematical Monthly. 53(5). pp. 248--250. 1946.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-SST84&#34; data-bib-key=&#34;SST84&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SST84]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;SST84&#34;&gt;
+  &lt;span id=&#34;bib-SST84&#34; class=&#34;bib-label&#34;&gt;[SST84]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Joel Spencer, Endre Szemerédi, and William T. Trotter. Béla Bollobás (ed.). &lt;em&gt;Unit Distances in the Euclidean Plane&lt;/em&gt;. In &lt;em&gt;Graph Theory and Combinatorics&lt;/em&gt;. pp. 293--303. Academic Press. 1984.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-BMP05&#34; data-bib-key=&#34;BMP05&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[BMP05]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;BMP05&#34;&gt;
+  &lt;span id=&#34;bib-BMP05&#34; class=&#34;bib-label&#34;&gt;[BMP05]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Peter Brass, William Moser, and János Pach. &lt;em&gt;Research Problems in Discrete Geometry&lt;/em&gt;. Springer. 2005.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -5948,28 +6184,28 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Man61&#34; data-bib-key=&#34;Man61&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Man61]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Man61&#34;&gt;
+  &lt;span id=&#34;bib-Man61&#34; class=&#34;bib-label&#34;&gt;[Man61]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Yuri I. Manin. &lt;em&gt;The Hasse-Witt matrix of an algebraic curve&lt;/em&gt;. Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya. 25(1). pp. 153--172. 1961. English translation in American Mathematical Society Translations, Series 2, Volume 45, pages 245--264, 1965. &lt;a href=&#34;https://www.mathnet.ru/eng/im3370&#34;&gt;https://www.mathnet.ru/eng/im3370&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-AH19&#34; data-bib-key=&#34;AH19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[AH19]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;AH19&#34;&gt;
+  &lt;span id=&#34;bib-AH19&#34; class=&#34;bib-label&#34;&gt;[AH19]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jeffrey D. Achter and Everett W. Howe. &lt;em&gt;Hasse-Witt and Cartier-Manin matrices: A warning and a request&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry: Computation and Applications&lt;/em&gt;. pp. 1--18. American Mathematical Society. 2019. &lt;a href=&#34;https://doi.org/10.1090/conm/722/14534&#34;&gt;doi:10.1090/conm/722/14534&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/1710.10726&#34;&gt;arXiv:1710.10726&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ser88&#34; data-bib-key=&#34;Ser88&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ser88&#34;&gt;
+  &lt;span id=&#34;bib-Ser88&#34; class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jean-Pierre Serre. &lt;em&gt;Algebraic Groups and Class Fields&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 117. Springer-Verlag. New York. 1988.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mum07&#34; data-bib-key=&#34;Mum07&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mum07&#34;&gt;
+  &lt;span id=&#34;bib-Mum07&#34; class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;David Mumford. &lt;em&gt;Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations&lt;/em&gt;. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-CDFKSW22&#34; data-bib-key=&#34;CDFKSW22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[CDFKSW22]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;CDFKSW22&#34;&gt;
+  &lt;span id=&#34;bib-CDFKSW22&#34; class=&#34;bib-label&#34;&gt;[CDFKSW22]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Edgar Costa, Ravi Donepudi, Ravi Fernando, Valentijn Karemaker, Caleb Springer, and Mckenzie West. &lt;em&gt;Restrictions on Weil polynomials of Jacobians of hyperelliptic curves&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry, Number Theory, and Computation&lt;/em&gt;. pp. 259--276. Springer. 2022. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-80914-0_7&#34;&gt;doi:10.1007/978-3-030-80914-0_7&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2002.02067&#34;&gt;arXiv:2002.02067&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -6070,13 +6306,13 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Man71&#34; data-bib-key=&#34;Man71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Man71]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Man71&#34;&gt;
+  &lt;span id=&#34;bib-Man71&#34; class=&#34;bib-label&#34;&gt;[Man71]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Y. I. Manin. &lt;em&gt;Le groupe de Brauer-Grothendieck en géométrie diophantienne&lt;/em&gt;. In &lt;em&gt;Actes du Congrès International des Mathématiciens (Nice, 1970), Tome 1&lt;/em&gt;. pp. 401--411. Gauthier-Villars. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -6734,8 +6970,8 @@ where $\eta$ is called the learning rate, which controls how much we update the 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Fen25&#34; data-bib-key=&#34;Fen25&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Fen25]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Fen25&#34;&gt;
+  &lt;span id=&#34;bib-Fen25&#34; class=&#34;bib-label&#34;&gt;[Fen25]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Tony Feng. &lt;em&gt;A Survey of Deep Learning for Mathematicians&lt;/em&gt;. 2025. &lt;a href=&#34;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&#34;&gt;https://math.berkeley.edu/~fengt/2025F_270_notes.pdf&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -6900,8 +7136,8 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-NSW08&#34; data-bib-key=&#34;NSW08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;NSW08&#34;&gt;
+  &lt;span id=&#34;bib-NSW08&#34; class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Juergen Neukirch, Alexander Schmidt, Kay Wingberg. &lt;em&gt;Cohomology of Number Fields&lt;/em&gt;. Springer. 2008.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -6970,13 +7206,13 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Kow24&#34; data-bib-key=&#34;Kow24&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Kow24]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Kow24&#34;&gt;
+  &lt;span id=&#34;bib-Kow24&#34; class=&#34;bib-label&#34;&gt;[Kow24]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Emmanuel Kowalski. &lt;em&gt;An Introduction to Expander Graphs&lt;/em&gt;. 2024. &lt;a href=&#34;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&#34;&gt;https://people.math.ethz.ch/~kowalski/expander-graphs.pdf&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-God93&#34; data-bib-key=&#34;God93&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[God93]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;God93&#34;&gt;
+  &lt;span id=&#34;bib-God93&#34; class=&#34;bib-label&#34;&gt;[God93]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Chris Godsil. &lt;em&gt;Algebraic Combinatorics&lt;/em&gt;. Chapman and Hall. 1993.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -7482,8 +7718,8 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -8025,28 +8261,28 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GR71&#34;&gt;
+  &lt;span id=&#34;bib-GR71&#34; class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil22&#34;&gt;
+  &lt;span id=&#34;bib-Mil22&#34; class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Wei13&#34;&gt;
+  &lt;span id=&#34;bib-Wei13&#34; class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GS06&#34;&gt;
+  &lt;span id=&#34;bib-GS06&#34; class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -10271,13 +10507,13 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Ols16&#34; data-bib-key=&#34;Ols16&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ols16&#34;&gt;
+  &lt;span id=&#34;bib-Ols16&#34; class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Martin Olsson. &lt;em&gt;Algebraic Spaces and Stacks&lt;/em&gt;. American Mathematical Society. 2016.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Stacks&#34; data-bib-key=&#34;Stacks&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Stacks&#34;&gt;
+  &lt;span id=&#34;bib-Stacks&#34; class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;&lt;em&gt;The Stacks Project&lt;/em&gt;. &lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;https://stacks.math.columbia.edu&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -11439,20 +11675,20 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 &lt;p&gt;Citing can be done with a shortcode &lt;code&gt;cite&lt;/code&gt;. However, this does not work within a theorem environment since it cannot process shortcodes within shortcodes easily (it will show but the link won&#39;t work). For the latter, opt instead for generic markdown links i.e. &lt;code&gt;[[Knu86]](#bib-Knu86)&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Knu86&#34; data-bib-key=&#34;Knu86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Knu86]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Knu86&#34;&gt;
+  &lt;span id=&#34;bib-Knu86&#34; class=&#34;bib-label&#34;&gt;[Knu86]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Donald E. Knuth. &lt;em&gt;The TeXbook&lt;/em&gt;. Addison-Wesley. 1986.&lt;/span&gt;
 &lt;/li&gt;
 
 
-  &lt;li id=&#34;bib-Ser79&#34; data-bib-key=&#34;Ser79&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser79]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ser79&#34;&gt;
+  &lt;span id=&#34;bib-Ser79&#34; class=&#34;bib-label&#34;&gt;[Ser79]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jean-Pierre Serre. &lt;em&gt;Local Fields&lt;/em&gt;. Springer. 1979.&lt;/span&gt;
 &lt;/li&gt;
 
 
-  &lt;li id=&#34;bib-Neu99&#34; data-bib-key=&#34;Neu99&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Neu99]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Neu99&#34;&gt;
+  &lt;span id=&#34;bib-Neu99&#34; class=&#34;bib-label&#34;&gt;[Neu99]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jürgen Neukirch. &lt;em&gt;Algebraic Number Theory&lt;/em&gt;. Springer. 1999.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -11461,39 +11697,39 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
 
 &lt;h2 id=&#34;bibliography-test-cases&#34;&gt;Bibliography Test Cases&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;&lt;li id=&#34;bib-Doe20&#34; data-bib-key=&#34;Doe20&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Doe20]&lt;/span&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;&lt;li data-bib-key=&#34;Doe20&#34;&gt;
+  &lt;span id=&#34;bib-Doe20&#34; class=&#34;bib-label&#34;&gt;[Doe20]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jane Doe and John Roe. &lt;em&gt;A Test Article: Extended Subtitle&lt;/em&gt;. Journal of Tests. 42(3). pp. 1--20. March 2020. ISSN: 1234-5678. Language: English. &lt;a href=&#34;https://doi.org/10.1000/testdoi&#34;&gt;doi:10.1000/testdoi&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
-&lt;li id=&#34;bib-Foo21&#34; data-bib-key=&#34;Foo21&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Foo21]&lt;/span&gt;
+&lt;li data-bib-key=&#34;Foo21&#34;&gt;
+  &lt;span id=&#34;bib-Foo21&#34; class=&#34;bib-label&#34;&gt;[Foo21]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Foo Bar. Edith Editor (ed.). Translated by Tina Translator. &lt;em&gt;Testing BibTeX: A Subtitle&lt;/em&gt;. Test Series. 2 ed. Vol. 5. No. 7. Ch. 3. Test Press. Test City. July 2021. ISBN: 978-1-2345-6789-0. Language: English.&lt;/span&gt;
 &lt;/li&gt;
-&lt;li id=&#34;bib-Baz22&#34; data-bib-key=&#34;Baz22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Baz22]&lt;/span&gt;
+&lt;li data-bib-key=&#34;Baz22&#34;&gt;
+  &lt;span id=&#34;bib-Baz22&#34; class=&#34;bib-label&#34;&gt;[Baz22]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alice Baz. &lt;em&gt;Conference Paper Title&lt;/em&gt;. In &lt;em&gt;Proceedings of the Test Conf&lt;/em&gt;. pp. 100--110. Test Society. Conference Press. October 2022. &lt;a href=&#34;https://example.com/paper&#34;&gt;https://example.com/paper&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
-&lt;li id=&#34;bib-Qux19&#34; data-bib-key=&#34;Qux19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Qux19]&lt;/span&gt;
+&lt;li data-bib-key=&#34;Qux19&#34;&gt;
+  &lt;span id=&#34;bib-Qux19&#34; class=&#34;bib-label&#34;&gt;[Qux19]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Quinn Qux. &lt;em&gt;On Testing&lt;/em&gt;. PhD thesis. Test University. Test Institute. Test City. May 2019.&lt;/span&gt;
 &lt;/li&gt;
-&lt;li id=&#34;bib-Web23&#34; data-bib-key=&#34;Web23&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Web23]&lt;/span&gt;
+&lt;li data-bib-key=&#34;Web23&#34;&gt;
+  &lt;span id=&#34;bib-Web23&#34; class=&#34;bib-label&#34;&gt;[Web23]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Web Writer. &lt;em&gt;Testing Online Source&lt;/em&gt;. Online resource. 2023. Online resource. &lt;a href=&#34;https://example.com/online&#34;&gt;https://example.com/online&lt;/a&gt;. Accessed 2024-01-15.&lt;/span&gt;
 &lt;/li&gt;
-&lt;li id=&#34;bib-Tech18&#34; data-bib-key=&#34;Tech18&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Tech18]&lt;/span&gt;
+&lt;li data-bib-key=&#34;Tech18&#34;&gt;
+  &lt;span id=&#34;bib-Tech18&#34; class=&#34;bib-label&#34;&gt;[Tech18]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Tech Author. &lt;em&gt;A Technical Report&lt;/em&gt;. No. TR-2018-01. 2018. Internal report.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-OverrideMe&#34; data-bib-key=&#34;OverrideMe&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[OverrideMe]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;OverrideMe&#34;&gt;
+  &lt;span id=&#34;bib-OverrideMe&#34; class=&#34;bib-label&#34;&gt;[OverrideMe]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;New Author. &lt;em&gt;Overridden Entry Title&lt;/em&gt;. Override Press. 2024.&lt;/span&gt;
 &lt;/li&gt;
 
 
-  &lt;li id=&#34;bib-InlineAll&#34; data-bib-key=&#34;InlineAll&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[InlineAll]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;InlineAll&#34;&gt;
+  &lt;span id=&#34;bib-InlineAll&#34; class=&#34;bib-label&#34;&gt;[InlineAll]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Inline Author. Inline Editor (ed.). Translated by Inline Translator. &lt;em&gt;Inline Title: An Inline Subtitle&lt;/em&gt;. Inline Series. 3 ed. Vol. 2. No. 4. Ch. 7. Inline Press. Inline City. December 2025. ISBN: 978-0-0000-0000-0. ISSN: 9876-5432. Language: English. Special note. &lt;a href=&#34;https://doi.org/10.1000/inline-doi&#34;&gt;doi:10.1000/inline-doi&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2401.00001&#34;&gt;arXiv:2401.00001&lt;/a&gt;. &lt;a href=&#34;https://example.com/inline&#34;&gt;https://example.com/inline&lt;/a&gt;. Accessed 2025-01-01.&lt;/span&gt;
 &lt;/li&gt;
 

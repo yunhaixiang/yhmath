@@ -756,23 +756,23 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Del70&#34;&gt;
+  &lt;span id=&#34;bib-Del70&#34; class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;SGA1&#34;&gt;
+  &lt;span id=&#34;bib-SGA1&#34; class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;HTT08&#34;&gt;
+  &lt;span id=&#34;bib-HTT08&#34; class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span id=&#34;bib-Mil80&#34; class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -1278,8 +1278,8 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -1821,28 +1821,28 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GR71&#34;&gt;
+  &lt;span id=&#34;bib-GR71&#34; class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil22&#34;&gt;
+  &lt;span id=&#34;bib-Mil22&#34; class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Wei13&#34;&gt;
+  &lt;span id=&#34;bib-Wei13&#34; class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GS06&#34;&gt;
+  &lt;span id=&#34;bib-GS06&#34; class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/span&gt;
 &lt;/li&gt;
 

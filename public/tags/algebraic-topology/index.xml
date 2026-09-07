@@ -162,8 +162,8 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-NSW08&#34; data-bib-key=&#34;NSW08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;NSW08&#34;&gt;
+  &lt;span id=&#34;bib-NSW08&#34; class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Juergen Neukirch, Alexander Schmidt, Kay Wingberg. &lt;em&gt;Cohomology of Number Fields&lt;/em&gt;. Springer. 2008.&lt;/span&gt;
 &lt;/li&gt;
 

@@ -379,8 +379,8 @@ $$&lt;p&gt;is an equivalence for every $A,B : \mathcal U$.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Rij25&#34; data-bib-key=&#34;Rij25&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rij25]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rij25&#34;&gt;
+  &lt;span id=&#34;bib-Rij25&#34; class=&#34;bib-label&#34;&gt;[Rij25]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Egbert Rijke. &lt;em&gt;Introduction to Homotopy Type Theory&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 219. Cambridge University Press. 2025.&lt;/span&gt;
 &lt;/li&gt;
 

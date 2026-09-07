@@ -1,9 +1,9 @@
 ---
-title: Rigid Local System
+title: Rigid Local Systems
 date: 2026-09-03 00:00:01 -0400
 slug: 07bd743
 aliases:
-  - /posts/rigid-local-system/
+  - /posts/rigid-local-systems/
 categories: [expositions]
 tags: [math, algebraic-geometry, number-theory]
 ---

@@ -158,6 +158,7 @@
       a.textContent = note ? `[${key}, ${note}]` : `[${key}]`;
     });
   }
+
   function numberFigures() {
   let figCounter = 0;
 

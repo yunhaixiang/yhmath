@@ -944,23 +944,23 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-DM82&#34; data-bib-key=&#34;DM82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;DM82&#34;&gt;
+  &lt;span id=&#34;bib-DM82&#34; class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne and James S. Milne. &lt;em&gt;Tannakian Categories&lt;/em&gt;. In &lt;em&gt;Hodge Cycles, Motives, and Shimura Varieties&lt;/em&gt;. Springer-Verlag. 1982.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil17&#34; data-bib-key=&#34;Mil17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil17&#34;&gt;
+  &lt;span id=&#34;bib-Mil17&#34; class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field&lt;/em&gt;. Cambridge University Press. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Saa72&#34; data-bib-key=&#34;Saa72&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Saa72&#34;&gt;
+  &lt;span id=&#34;bib-Saa72&#34; class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. Saavedra Rivano. &lt;em&gt;Catégories Tannakiennes&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Lan98&#34; data-bib-key=&#34;Lan98&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Lan98&#34;&gt;
+  &lt;span id=&#34;bib-Lan98&#34; class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. P. Landsman. &lt;em&gt;Tannaka-Krein Duality for Compact Groups&lt;/em&gt;. 1998.&lt;/span&gt;
 &lt;/li&gt;
 

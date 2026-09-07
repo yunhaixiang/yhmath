@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rigid Local System</title>
+      <title>Rigid Local Systems</title>
       <link>http://localhost:1313/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
       
@@ -79,13 +79,13 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Kat96&#34; data-bib-key=&#34;Kat96&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Kat96&#34;&gt;
+  &lt;span id=&#34;bib-Kat96&#34; class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Rie57&#34; data-bib-key=&#34;Rie57&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Rie57&#34;&gt;
+  &lt;span id=&#34;bib-Rie57&#34; class=&#34;bib-label&#34;&gt;[Rie57]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bernhard Riemann. &lt;em&gt;Theorie der Abel’schen Functionen&lt;/em&gt;. Journal für die reine und angewandte Mathematik. 54. pp. 115--155. 1857. &lt;a href=&#34;https://doi.org/10.1515/crll.1857.54.115&#34;&gt;doi:10.1515/crll.1857.54.115&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -1032,23 +1032,23 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-DM82&#34; data-bib-key=&#34;DM82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;DM82&#34;&gt;
+  &lt;span id=&#34;bib-DM82&#34; class=&#34;bib-label&#34;&gt;[DM82]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne and James S. Milne. &lt;em&gt;Tannakian Categories&lt;/em&gt;. In &lt;em&gt;Hodge Cycles, Motives, and Shimura Varieties&lt;/em&gt;. Springer-Verlag. 1982.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil17&#34; data-bib-key=&#34;Mil17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil17&#34;&gt;
+  &lt;span id=&#34;bib-Mil17&#34; class=&#34;bib-label&#34;&gt;[Mil17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field&lt;/em&gt;. Cambridge University Press. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Saa72&#34; data-bib-key=&#34;Saa72&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Saa72&#34;&gt;
+  &lt;span id=&#34;bib-Saa72&#34; class=&#34;bib-label&#34;&gt;[Saa72]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. Saavedra Rivano. &lt;em&gt;Catégories Tannakiennes&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 265. Springer-Verlag. 1972.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Lan98&#34; data-bib-key=&#34;Lan98&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Lan98&#34;&gt;
+  &lt;span id=&#34;bib-Lan98&#34; class=&#34;bib-label&#34;&gt;[Lan98]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;N. P. Landsman. &lt;em&gt;Tannaka-Krein Duality for Compact Groups&lt;/em&gt;. 1998.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -1384,38 +1384,38 @@ i_*:\mathrm{H}^n(Z,\mathbf{1}_Z)\longrightarrow \mathrm{H}^{n+2c}(X,\mathbf{1}_X
 $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Har66&#34; data-bib-key=&#34;Har66&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Har66&#34;&gt;
+  &lt;span id=&#34;bib-Har66&#34; class=&#34;bib-label&#34;&gt;[Har66]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Robin Hartshorne. &lt;em&gt;Residues and Duality&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 20. Springer-Verlag. 1966.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-KS90&#34; data-bib-key=&#34;KS90&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;KS90&#34;&gt;
+  &lt;span id=&#34;bib-KS90&#34; class=&#34;bib-label&#34;&gt;[KS90]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Masaki Kashiwara and Pierre Schapira. &lt;em&gt;Sheaves on Manifolds&lt;/em&gt;. Grundlehren der mathematischen Wissenschaften. Vol. 292. Springer-Verlag. 1990.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ive86&#34; data-bib-key=&#34;Ive86&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ive86&#34;&gt;
+  &lt;span id=&#34;bib-Ive86&#34; class=&#34;bib-label&#34;&gt;[Ive86]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Birger Iversen. &lt;em&gt;Cohomology of Sheaves&lt;/em&gt;. Universitext. Springer-Verlag. 1986.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span id=&#34;bib-Mil80&#34; class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Étale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Del77&#34; data-bib-key=&#34;Del77&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Del77&#34;&gt;
+  &lt;span id=&#34;bib-Del77&#34; class=&#34;bib-label&#34;&gt;[Del77]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Cohomologie étale&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 569. Springer-Verlag. 1977.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ayo07&#34; data-bib-key=&#34;Ayo07&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ayo07&#34;&gt;
+  &lt;span id=&#34;bib-Ayo07&#34; class=&#34;bib-label&#34;&gt;[Ayo07]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Joseph Ayoub. &lt;em&gt;Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique&lt;/em&gt;. Astérisque. Vol. 314--315. Société Mathématique de France. 2007.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-CD19&#34; data-bib-key=&#34;CD19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;CD19&#34;&gt;
+  &lt;span id=&#34;bib-CD19&#34; class=&#34;bib-label&#34;&gt;[CD19]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Denis-Charles Cisinski and Frédéric Déglise. &lt;em&gt;Triangulated Categories of Mixed Motives&lt;/em&gt;. Springer Monographs in Mathematics. Springer. 2019.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -2174,23 +2174,23 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Del70&#34; data-bib-key=&#34;Del70&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Del70&#34;&gt;
+  &lt;span id=&#34;bib-Del70&#34; class=&#34;bib-label&#34;&gt;[Del70]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Pierre Deligne. &lt;em&gt;Equations differentielles a points singuliers reguliers&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 163. Springer-Verlag. 1970.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-SGA1&#34; data-bib-key=&#34;SGA1&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;SGA1&#34;&gt;
+  &lt;span id=&#34;bib-SGA1&#34; class=&#34;bib-label&#34;&gt;[SGA1]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck. &lt;em&gt;Revetements etales et groupe fondamental&lt;/em&gt;. Lecture Notes in Mathematics. Vol. 224. Springer-Verlag. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-HTT08&#34; data-bib-key=&#34;HTT08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;HTT08&#34;&gt;
+  &lt;span id=&#34;bib-HTT08&#34; class=&#34;bib-label&#34;&gt;[HTT08]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Ryoshi Hotta, Kiyoshi Takeuchi, and Toshiyuki Tanisaki. &lt;em&gt;D-Modules, Perverse Sheaves, and Representation Theory&lt;/em&gt;. Birkhauser. 2008.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil80&#34; data-bib-key=&#34;Mil80&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil80&#34;&gt;
+  &lt;span id=&#34;bib-Mil80&#34; class=&#34;bib-label&#34;&gt;[Mil80]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Etale Cohomology&lt;/em&gt;. Princeton University Press. 1980.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -2366,13 +2366,13 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-BT82&#34; data-bib-key=&#34;BT82&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;BT82&#34;&gt;
+  &lt;span id=&#34;bib-BT82&#34; class=&#34;bib-label&#34;&gt;[BT82]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Raoul Bott and Loring W. Tu. &lt;em&gt;Differential Forms in Algebraic Topology&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 82. Springer-Verlag. New York. 1982.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Bre97&#34; data-bib-key=&#34;Bre97&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Bre97&#34;&gt;
+  &lt;span id=&#34;bib-Bre97&#34; class=&#34;bib-label&#34;&gt;[Bre97]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Glen E. Bredon. &lt;em&gt;Sheaf Theory&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 170. Springer-Verlag. New York. 1997.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -2933,28 +2933,28 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Man61&#34; data-bib-key=&#34;Man61&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Man61]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Man61&#34;&gt;
+  &lt;span id=&#34;bib-Man61&#34; class=&#34;bib-label&#34;&gt;[Man61]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Yuri I. Manin. &lt;em&gt;The Hasse-Witt matrix of an algebraic curve&lt;/em&gt;. Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya. 25(1). pp. 153--172. 1961. English translation in American Mathematical Society Translations, Series 2, Volume 45, pages 245--264, 1965. &lt;a href=&#34;https://www.mathnet.ru/eng/im3370&#34;&gt;https://www.mathnet.ru/eng/im3370&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-AH19&#34; data-bib-key=&#34;AH19&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[AH19]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;AH19&#34;&gt;
+  &lt;span id=&#34;bib-AH19&#34; class=&#34;bib-label&#34;&gt;[AH19]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jeffrey D. Achter and Everett W. Howe. &lt;em&gt;Hasse-Witt and Cartier-Manin matrices: A warning and a request&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry: Computation and Applications&lt;/em&gt;. pp. 1--18. American Mathematical Society. 2019. &lt;a href=&#34;https://doi.org/10.1090/conm/722/14534&#34;&gt;doi:10.1090/conm/722/14534&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/1710.10726&#34;&gt;arXiv:1710.10726&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Ser88&#34; data-bib-key=&#34;Ser88&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ser88&#34;&gt;
+  &lt;span id=&#34;bib-Ser88&#34; class=&#34;bib-label&#34;&gt;[Ser88]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Jean-Pierre Serre. &lt;em&gt;Algebraic Groups and Class Fields&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 117. Springer-Verlag. New York. 1988.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mum07&#34; data-bib-key=&#34;Mum07&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mum07&#34;&gt;
+  &lt;span id=&#34;bib-Mum07&#34; class=&#34;bib-label&#34;&gt;[Mum07]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;David Mumford. &lt;em&gt;Tata Lectures on Theta II: Jacobian Theta Functions and Differential Equations&lt;/em&gt;. Modern Birkhäuser Classics. Birkhäuser Boston. 2007.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-CDFKSW22&#34; data-bib-key=&#34;CDFKSW22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[CDFKSW22]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;CDFKSW22&#34;&gt;
+  &lt;span id=&#34;bib-CDFKSW22&#34; class=&#34;bib-label&#34;&gt;[CDFKSW22]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Edgar Costa, Ravi Donepudi, Ravi Fernando, Valentijn Karemaker, Caleb Springer, and Mckenzie West. &lt;em&gt;Restrictions on Weil polynomials of Jacobians of hyperelliptic curves&lt;/em&gt;. In &lt;em&gt;Arithmetic Geometry, Number Theory, and Computation&lt;/em&gt;. pp. 259--276. Springer. 2022. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-80914-0_7&#34;&gt;doi:10.1007/978-3-030-80914-0_7&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/abs/2002.02067&#34;&gt;arXiv:2002.02067&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -3055,13 +3055,13 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Man71&#34; data-bib-key=&#34;Man71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Man71]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Man71&#34;&gt;
+  &lt;span id=&#34;bib-Man71&#34; class=&#34;bib-label&#34;&gt;[Man71]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Y. I. Manin. &lt;em&gt;Le groupe de Brauer-Grothendieck en géométrie diophantienne&lt;/em&gt;. In &lt;em&gt;Actes du Congrès International des Mathématiciens (Nice, 1970), Tome 1&lt;/em&gt;. pp. 401--411. Gauthier-Villars. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -3226,8 +3226,8 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-NSW08&#34; data-bib-key=&#34;NSW08&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;NSW08&#34;&gt;
+  &lt;span id=&#34;bib-NSW08&#34; class=&#34;bib-label&#34;&gt;[NSW08]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Juergen Neukirch, Alexander Schmidt, Kay Wingberg. &lt;em&gt;Cohomology of Number Fields&lt;/em&gt;. Springer. 2008.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -3733,8 +3733,8 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -4276,28 +4276,28 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Poo17&#34; data-bib-key=&#34;Poo17&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Poo17&#34;&gt;
+  &lt;span id=&#34;bib-Poo17&#34; class=&#34;bib-label&#34;&gt;[Poo17]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Bjorn Poonen. &lt;em&gt;Rational Points on Varieties&lt;/em&gt;. American Mathematical Society. 2017.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-GR71&#34; data-bib-key=&#34;GR71&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GR71&#34;&gt;
+  &lt;span id=&#34;bib-GR71&#34; class=&#34;bib-label&#34;&gt;[GR71]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Alexander Grothendieck, Michèle Raynaud. &lt;em&gt;Revêtements étales et groupe fondamental (SGA I)&lt;/em&gt;. Lecture Notes in Mathematics 224. Springer. 1971.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Mil22&#34; data-bib-key=&#34;Mil22&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Mil22&#34;&gt;
+  &lt;span id=&#34;bib-Mil22&#34; class=&#34;bib-label&#34;&gt;[Mil22]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;James S. Milne. &lt;em&gt;Fields and Galois Theory&lt;/em&gt;. Kea Books. 2022.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Wei13&#34; data-bib-key=&#34;Wei13&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Wei13&#34;&gt;
+  &lt;span id=&#34;bib-Wei13&#34; class=&#34;bib-label&#34;&gt;[Wei13]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Charles A. Weibel. &lt;em&gt;An Introduction to Homological Algebra&lt;/em&gt;. American Mathematical Society. 2013.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-GS06&#34; data-bib-key=&#34;GS06&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;GS06&#34;&gt;
+  &lt;span id=&#34;bib-GS06&#34; class=&#34;bib-label&#34;&gt;[GS06]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Philippe Gille and Tamas Szamuely. &lt;em&gt;Central Simple Algebras and Galois Cohomology&lt;/em&gt;. Cambridge Studies in Advanced Mathematics. Vol. 101. Cambridge University Press. 2006.&lt;/span&gt;
 &lt;/li&gt;
 
@@ -4695,13 +4695,13 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
-  &lt;li id=&#34;bib-Ols16&#34; data-bib-key=&#34;Ols16&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Ols16&#34;&gt;
+  &lt;span id=&#34;bib-Ols16&#34; class=&#34;bib-label&#34;&gt;[Ols16]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Martin Olsson. &lt;em&gt;Algebraic Spaces and Stacks&lt;/em&gt;. American Mathematical Society. 2016.&lt;/span&gt;
 &lt;/li&gt;
 
-  &lt;li id=&#34;bib-Stacks&#34; data-bib-key=&#34;Stacks&#34;&gt;
-  &lt;span class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;
+  &lt;li data-bib-key=&#34;Stacks&#34;&gt;
+  &lt;span id=&#34;bib-Stacks&#34; class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;&lt;em&gt;The Stacks Project&lt;/em&gt;. &lt;a href=&#34;https://stacks.math.columbia.edu&#34;&gt;https://stacks.math.columbia.edu&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 

@@ -189,7 +189,7 @@
   {{- $parts = $parts | append (printf "Accessed %s." $accessed) -}}
 {{- end -}}
 
-<li id="bib-{{ $key }}" data-bib-key="{{ $key }}">
-  <span class="bib-label">[{{ $key }}]</span>
+<li data-bib-key="{{ $key }}">
+  <span id="bib-{{ $key }}" class="bib-label">[{{ $key }}]</span>
   <span class="bib-entry">{{ delimit $parts " " | safeHTML }}</span>
 </li>
