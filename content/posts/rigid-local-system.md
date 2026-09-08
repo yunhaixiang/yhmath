@@ -24,7 +24,7 @@ $$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(
 
 All vector spaces and representations here are assumed finite dimensional. We say the local system is *irreducible* if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood $$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$
 
-has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point. 
+has fundamental group $I(s)=\pi_1(D^*(s),u_s)=\mathbb Z$ called the *local inertia group*, where $u_s$ is a chosen base point. 
 
 {{< definition >}}
 We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is *physically rigid* if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems 
@@ -32,18 +32,31 @@ $\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
 for each $s\in S$, there is $\mathcal F\cong \mathcal G$. 
 {{< /definition >}}
 
-However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}_U$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$. 
+However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$. 
 
 ## Numerical Criterion for $\mathbb P^1$
 
-With same setting above and let $X=\mathbb P^1$. 
+Use same notation as above. 
+
+{{< lemma note="Euler–Poincaré" id="euler">}}For any local system $\mathcal H$ on $U^{\mathrm{an}}$, 
+$$\chi(X^{\mathrm{an}},j_*\mathcal H)=\chi(U^{\mathrm an}, \underline{\mathbb C})\,\mathrm{rank}(\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$
+where $\mathcal H^{I(s)}$ is the local inertia invariant subspace
+$$\mathcal H^{I(s)}:=\{v\in \mathcal H_{u_s}:\gamma v=v, \textrm{for\ all\ }\gamma\in I(s)\}$$
+where the action of $I(s)$ inherits from that of $\mathcal H$. 
+{{< /lemma >}}
+
+{{< proof >}}
+First $\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$
+{{< /proof >}}
+
+Now set $X=\mathbb P^1$. 
 
 {{< theorem >}}
 An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U^{\mathrm{an}}$ is physically rigid iff $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$
 {{< /theorem >}}
 
 {{< proof >}}
-
+Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By {{< refer "euler">}}
 {{< /proof >}}
 
 ## References

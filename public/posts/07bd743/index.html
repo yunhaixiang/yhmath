@@ -113,7 +113,7 @@ I am reading Katz’s Rigid Local Systems
   <meta itemprop="description" content="The art of doing mathematics consists in finding that special case which contains all the germs of generality. — Alexander Grothendieck I am reading Katz’s Rigid Local Systems ⟦cite:Kat96⟧ . Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced local systems on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ ⟦cite:Rie57⟧ . If there are no “accessory parameters”, we say this local system is rigid, i.e. determiend by its local monodromies.">
   <meta itemprop="datePublished" content="2026-09-03T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-09-06T20:45:59-04:00">
-  <meta itemprop="wordCount" content="476">
+  <meta itemprop="wordCount" content="563">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
 
   
@@ -233,7 +233,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          476 words
+          563 words
         </span>
       
       
@@ -305,7 +305,7 @@ I am reading Katz’s Rigid Local Systems
 <h2 id="generalities-concerning-rigid-local-systems-over">Generalities Concerning Rigid Local Systems over $\mathbb C$</h2>
 <p>Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.</p>
 $$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$<p>All vector spaces and representations here are assumed finite dimensional. We say the local system is <em>irreducible</em> if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood </p>
-$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$<p>has fundamental group $I(s)=\pi_1(D^*(s),u)=\mathbb Z$, where $u$ is any base point.</p>
+$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$<p>has fundamental group $I(s)=\pi_1(D^*(s),u_s)=\mathbb Z$ called the <em>local inertia group</em>, where $u_s$ is a chosen base point.</p>
 <div class="math-env style-defn" 
     
      data-kind="definition"
@@ -322,9 +322,46 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
   </div>
 </div>
 
-<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}_U$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.</p>
+<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.</p>
 <h2 id="numerical-criterion-for">Numerical Criterion for $\mathbb P^1$</h2>
-<p>With same setting above and let $X=\mathbb P^1$.</p>
+<p>Use same notation as above.</p>
+<div class="math-env style-plain" 
+    id="euler"
+     data-kind="lemma"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Lemma'></span> <span class="math-note">(Euler–Poincaré)</span>
+  </span>
+  <div class="math-body">
+    <p>For any local system $\mathcal H$ on $U^{\mathrm{an}}$,
+</p>
+$$\chi(X^{\mathrm{an}},j_*\mathcal H)=\chi(U^{\mathrm an}, \underline{\mathbb C})\,\mathrm{rank}(\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$<p>
+where $\mathcal H^{I(s)}$ is the local inertia invariant subspace
+</p>
+$$\mathcal H^{I(s)}:=\{v\in \mathcal H_{u_s}:\gamma v=v, \textrm{for\ all\ }\gamma\in I(s)\}$$<p>
+where the action of $I(s)$ inherits from that of $\mathcal H$.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    First $\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$<span class="proof-mark" aria-hidden="true"></span>
+  </div>
+</div>
+
+<p>Now set $X=\mathbb P^1$.</p>
 <div class="math-env style-plain" 
     
      data-kind="theorem"
@@ -350,7 +387,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    <span class="proof-mark" aria-hidden="true"></span>
+    Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="euler">⟦ref:euler⟧</span><span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 

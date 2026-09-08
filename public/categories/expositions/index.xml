@@ -72,7 +72,7 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    &lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+    Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$, $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
