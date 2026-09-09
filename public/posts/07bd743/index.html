@@ -97,7 +97,7 @@ I am reading Katz’s Rigid Local Systems
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-09-03T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-09-06T20:45:59-04:00">
+    <meta property="article:modified_time" content="2026-09-08T11:23:00-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Number-Theory">
@@ -112,8 +112,8 @@ I am reading Katz’s Rigid Local Systems
   <meta itemprop="name" content="Rigid Local Systems">
   <meta itemprop="description" content="The art of doing mathematics consists in finding that special case which contains all the germs of generality. — Alexander Grothendieck I am reading Katz’s Rigid Local Systems ⟦cite:Kat96⟧ . Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced local systems on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ ⟦cite:Rie57⟧ . If there are no “accessory parameters”, we say this local system is rigid, i.e. determiend by its local monodromies.">
   <meta itemprop="datePublished" content="2026-09-03T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-09-06T20:45:59-04:00">
-  <meta itemprop="wordCount" content="563">
+  <meta itemprop="dateModified" content="2026-09-08T11:23:00-04:00">
+  <meta itemprop="wordCount" content="658">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
 
   
@@ -233,7 +233,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          563 words
+          658 words
         </span>
       
       
@@ -246,7 +246,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~3 mins
+          ~4 mins
         </span>
       
     </div>
@@ -357,7 +357,14 @@ where the action of $I(s)$ inherits from that of $\mathcal H$.</p>
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    First $\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$<span class="proof-mark" aria-hidden="true"></span>
+    <p>Let $s\in S$ and set $V=\mathcal H_{u_s}$. First $\Gamma=\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$, and there is a free resolution
+</p>
+$$0\to \mathbb C[\Gamma]^{m-1}\xrightarrow{\partial} \mathbb C[\Gamma]\xrightarrow{\varepsilon} \mathbb C\to 0$$<p>
+To compute $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_{\mathbb C[\Gamma]}(\mathbb C,V)$, we apply $\mathrm{Hom}_{\mathbb C[\Gamma]}(-,V)$ and get
+</p>
+$$0\to \mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma], V)\cong V\xrightarrow{d}\mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma]^{m-1}, V)\cong V^{m-1} \to 0$$<p>
+where $d$<span class="proof-mark" aria-hidden="true"></span></p>
+
   </div>
 </div>
 
@@ -387,7 +394,12 @@ where the action of $I(s)$ inherits from that of $\mathcal H$.</p>
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="euler">⟦ref:euler⟧</span><span class="proof-mark" aria-hidden="true"></span>
+    <p>Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="euler">⟦ref:euler⟧</span>, if two local systems $\mathcal H_1,\mathcal H_2$ have isomorphic local monodromy then $\chi(X^{\mathrm{an}},j_*\mathcal H_1)=\chi(X^{\mathrm{an}},j_*\mathcal H_2)$. Applying this to $\mathcal H_1=\mathrm{End}(\mathcal F)$ and $\mathcal H_2=\mathrm{Hom}(\mathcal F,\mathcal G)$, we have $\chi\!\left(X^{\mathrm{an}},j_*\mathrm{End}(\mathcal F)\right)=\chi\!\left(X^{\mathrm{an}},j_*\mathrm{Hom}(\mathcal F,\mathcal G)\right)=2$. Thus
+</p>
+$$\begin{aligned}
+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))=h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))
+\end{aligned}$$<p><span class="proof-mark" aria-hidden="true"></span></p>
+
   </div>
 </div>
 

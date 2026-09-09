@@ -46,7 +46,11 @@ where the action of $I(s)$ inherits from that of $\mathcal H$.
 {{< /lemma >}}
 
 {{< proof >}}
-First $\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$
+Let $s\in S$ and set $V=\mathcal H_{u_s}$. First $\Gamma=\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$, and there is a free resolution
+$$0\to \mathbb C[\Gamma]^{m-1}\xrightarrow{\partial} \mathbb C[\Gamma]\xrightarrow{\varepsilon} \mathbb C\to 0$$
+To compute $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_{\mathbb C[\Gamma]}(\mathbb C,V)$, we apply $\mathrm{Hom}_{\mathbb C[\Gamma]}(-,V)$ and get 
+$$0\to \mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma], V)\cong V\xrightarrow{d}\mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma]^{m-1}, V)\cong V^{m-1} \to 0$$
+where $d$
 {{< /proof >}}
 
 Now set $X=\mathbb P^1$. 
@@ -56,7 +60,10 @@ An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U^{\mathrm{an}}$ is
 {{< /theorem >}}
 
 {{< proof >}}
-Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By {{< refer "euler">}}
+Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By {{< refer "euler">}}, if two local systems $\mathcal H_1,\mathcal H_2$ have isomorphic local monodromy then $\chi(X^{\mathrm{an}},j_*\mathcal H_1)=\chi(X^{\mathrm{an}},j_*\mathcal H_2)$. Applying this to $\mathcal H_1=\mathrm{End}(\mathcal F)$ and $\mathcal H_2=\mathrm{Hom}(\mathcal F,\mathcal G)$, we have $\chi\!\left(X^{\mathrm{an}},j_*\mathrm{End}(\mathcal F)\right)=\chi\!\left(X^{\mathrm{an}},j_*\mathrm{Hom}(\mathcal F,\mathcal G)\right)=2$. Thus
+$$\begin{aligned}
+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))=h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))
+\end{aligned}$$ 
 {{< /proof >}}
 
 ## References
