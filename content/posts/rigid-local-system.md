@@ -38,6 +38,10 @@ However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge
 
 Use same notation as above. 
 
+{{< lemma id="groupcoh">}}
+
+{{< /lemma >}}
+
 {{< lemma note="Euler–Poincaré" id="euler">}}For any local system $\mathcal H$ on $U^{\mathrm{an}}$, 
 $$\chi(X^{\mathrm{an}},j_*\mathcal H)=\chi(U^{\mathrm an}, \underline{\mathbb C})\,\mathrm{rank}(\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$
 where $\mathcal H^{I(s)}$ is the local inertia invariant subspace
@@ -46,10 +50,18 @@ where the action of $I(s)$ inherits from that of $\mathcal H$.
 {{< /lemma >}}
 
 {{< proof >}}
-Let $s\in S$ and set $V=\mathcal H_{u_s}$. First $\Gamma=\pi_1(U^{\mathrm{an}},u_s)\cong \mathrm{F}_{m-1}$, and there is a free resolution
-$$0\to \mathbb C[\Gamma]^{m-1}\xrightarrow{\partial} \mathbb C[\Gamma]\xrightarrow{\varepsilon} \mathbb C\to 0$$
+Put $m=\#S\ge 1$ and $N=2g+m-1$. Let $s\in S$ and set $V=\mathcal H_{u_s}$. The fundamental group has the presentation
+$$\Gamma:=\pi_1(U^{\mathrm{an}},u_s)\cong\left\langle a_1,b_1,\ldots,a_g,b_g,c_1,\ldots,c_m\;\middle|\;\prod_{i=1}^g[a_i,b_i]\,c_1\cdots c_m=1\right\rangle,$$
+where the $a_i,b_i$ are the handle generators, and each $c_j$ are loops around $j$-th puncture.
+Since there is only one relation, we may choose free generators $x_1,\ldots,x_N$, so that $\Gamma\cong\mathrm F_N=\langle x_1,\ldots,x_N\rangle$.
+Set $\rho:\Gamma\rightarrow\mathrm{GL}(V)$ the monodromy representation and define $A_i=\rho(x_i)$ for each $i$. 
+There is a free resolution of the trivial left $\mathbb C[\Gamma]$-module $\mathbb C$
+$$0\to \mathbb C[\Gamma]^N\xrightarrow{\partial} \mathbb C[\Gamma]\xrightarrow{\varepsilon} \mathbb C\to 0$$
+where 
+$\varepsilon\!\left(\gamma\right)=1$ for each $\gamma\in\Gamma$
+and $\partial(e_i)=x_i-1$, where $e_i$ is the $i$-th standard basis element of $\mathbb C[\Gamma]^N$. To justify exactness, note that $\varepsilon(\partial(\gamma e_i))=\varepsilon(\gamma (x_i-1))=1-1=0$ so $\mathrm{Im}(\partial)\subseteq\mathrm{Ker}(\varepsilon)$; for the reverse inclusion, suppose that $a\in \sum_\gamma c_\gamma\gamma\in \mathrm{Ker}(\varepsilon)$, we have $\sum_\gamma c_\gamma=0$ so $a=\sum_{\gamma}c_{\gamma}(\gamma-1)=\partial\left(\sum_{\gamma}c_\gamma p_\gamma\right)$ where $p_\gamma$ is a linear combination representing a path in the Cayley graph of $\Gamma$ connecting $1$ and $\gamma$. Next, we use {{< refer "groupcoh">}}.
 To compute $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_{\mathbb C[\Gamma]}(\mathbb C,V)$, we apply $\mathrm{Hom}_{\mathbb C[\Gamma]}(-,V)$ and get 
-$$0\to \mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma], V)\cong V\xrightarrow{d}\mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma]^{m-1}, V)\cong V^{m-1} \to 0$$
+$$0\to \mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma], V)\cong V\xrightarrow{d}\mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma]^N, V)\cong V^N \to 0$$
 where $d$
 {{< /proof >}}
 
