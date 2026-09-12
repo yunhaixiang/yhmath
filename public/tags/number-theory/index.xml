@@ -57,7 +57,11 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    
+    &lt;p&gt;Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
+&lt;/p&gt;
+$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u),\qquad q\ge 0.$$&lt;p&gt;
+This applies to the punctured curve $U^{\mathrm{an}}$ above.&lt;/p&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 

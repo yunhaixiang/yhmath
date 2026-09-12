@@ -39,8 +39,31 @@ However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge
 Use same notation as above. 
 
 {{< lemma id="groupcoh">}}
-
+Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
+$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0$. 
 {{< /lemma >}}
+
+{{< proof >}}
+Let $p:\widetilde Y\to Y$ be the universal cover, put $\Gamma=\pi_1(Y,u)$ and $R=\mathbb C[\Gamma]$, and give $V=\mathcal H_u$ its monodromy action $\rho$. We will compute both cohomology groups using the same cochain complex.
+
+First consider the singular chains $C_q=C_q(\widetilde Y;\mathbb C)$. This is the complex vector space with basis the singular simplices $\sigma:\Delta^q\to\widetilde Y$. Deck transformations give it a left $R$-module structure by $\gamma\cdot\sigma=\gamma\circ\sigma$. This action is free on the set of simplices: if a deck transformation fixes a simplex, it fixes a point of $\widetilde Y$, so it is the identity. Choosing one simplex from each orbit therefore gives an $R$-basis of $C_q$. Thus every $C_q$ is a free $R$-module.
+
+The boundary maps commute with deck transformations, so the augmented singular chain complex
+$$\cdots\longrightarrow C_2\xrightarrow{\partial_2}C_1\xrightarrow{\partial_1}C_0\xrightarrow{\varepsilon}\mathbb C\longrightarrow0$$
+is a complex of $R$-modules. Here $\varepsilon$ sums the coefficients of a $0$-chain, and $\mathbb C$ has the trivial $\Gamma$-action. Since $\widetilde Y$ is contractible, its positive-degree homology vanishes and $\mathrm H_0(\widetilde Y;\mathbb C)\cong\mathbb C$. Consequently this augmented complex is exact, hence a free resolution of the trivial $R$-module $\mathbb C$.
+
+By the definition $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_R(\mathbb C,V)$, group cohomology is therefore computed by
+$$0\longrightarrow\mathrm{Hom}_R(C_0,V)\xrightarrow{d^0}\mathrm{Hom}_R(C_1,V)\xrightarrow{d^1}\mathrm{Hom}_R(C_2,V)\longrightarrow\cdots,$$
+where $d^q(f)=f\circ\partial_{q+1}$.
+
+We now identify this with the singular cochain complex on $Y$ with local coefficients in $\mathcal H$. Choose a lift of $u$ to $\widetilde Y$. Parallel transport upstairs trivializes $p^*\mathcal H$, because $\widetilde Y$ is simply connected, identifying its fibres with $V$. Thus cochains upstairs assign vectors in $V$ to singular simplices. To describe local coefficients downstairs, the values on different lifts must agree through the monodromy identifications. With compatible conventions for the deck and monodromy actions, this condition is
+$$f(\gamma\cdot\sigma)=\rho(\gamma)f(\sigma).$$
+It says precisely that the linear map $f:C_q\to V$ is $R$-linear. Indeed, each simplex in $Y$ lifts to $\widetilde Y$, and its lifts form one $\Gamma$-orbit, so an equivariant assignment is determined by its value on any one lift. The coboundary is induced by the same alternating face maps, giving the cochain complex $\mathrm{Hom}_R(C_\bullet,V)$ above.
+
+On a manifold, singular cohomology with local coefficients agrees with sheaf cohomology of the local system. Hence
+$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q\!\left(\mathrm{Hom}_R(C_\bullet,V)\right)\cong\mathrm H^q(\Gamma,V).$$
+These identifications respect morphisms of local systems, so they are natural in $\mathcal H$.
+{{< /proof >}}
 
 {{< lemma note="Euler–Poincaré" id="euler">}}For any local system $\mathcal H$ on $U^{\mathrm{an}}$, 
 $$\chi(X^{\mathrm{an}},j_*\mathcal H)=\chi(U^{\mathrm an}, \underline{\mathbb C})\,\mathrm{rank}(\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$

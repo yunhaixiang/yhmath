@@ -113,7 +113,7 @@ I am reading Katz’s Rigid Local Systems
   <meta itemprop="description" content="The art of doing mathematics consists in finding that special case which contains all the germs of generality. — Alexander Grothendieck I am reading Katz’s Rigid Local Systems ⟦cite:Kat96⟧ . Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced local systems on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ ⟦cite:Rie57⟧ . If there are no “accessory parameters”, we say this local system is rigid, i.e. determiend by its local monodromies.">
   <meta itemprop="datePublished" content="2026-09-03T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-09-09T21:01:47-04:00">
-  <meta itemprop="wordCount" content="787">
+  <meta itemprop="wordCount" content="1183">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
 
   
@@ -233,7 +233,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          787 words
+          1183 words
         </span>
       
       
@@ -246,7 +246,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~4 mins
+          ~6 mins
         </span>
       
     </div>
@@ -335,7 +335,41 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
         data-label='Lemma'></span>
   </span>
   <div class="math-body">
-    
+    Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
+$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0$.
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $p:\widetilde Y\to Y$ be the universal cover, put $\Gamma=\pi_1(Y,u)$ and $R=\mathbb C[\Gamma]$, and give $V=\mathcal H_u$ its monodromy action $\rho$. We will compute both cohomology groups using the same cochain complex.</p>
+<p>First consider the singular chains $C_q=C_q(\widetilde Y;\mathbb C)$. This is the complex vector space with basis the singular simplices $\sigma:\Delta^q\to\widetilde Y$. Deck transformations give it a left $R$-module structure by $\gamma\cdot\sigma=\gamma\circ\sigma$. This action is free on the set of simplices: if a deck transformation fixes a simplex, it fixes a point of $\widetilde Y$, so it is the identity. Choosing one simplex from each orbit therefore gives an $R$-basis of $C_q$. Thus every $C_q$ is a free $R$-module.</p>
+<p>The boundary maps commute with deck transformations, so the augmented singular chain complex
+</p>
+$$\cdots\longrightarrow C_2\xrightarrow{\partial_2}C_1\xrightarrow{\partial_1}C_0\xrightarrow{\varepsilon}\mathbb C\longrightarrow0$$<p>
+is a complex of $R$-modules. Here $\varepsilon$ sums the coefficients of a $0$-chain, and $\mathbb C$ has the trivial $\Gamma$-action. Since $\widetilde Y$ is contractible, its positive-degree homology vanishes and $\mathrm H_0(\widetilde Y;\mathbb C)\cong\mathbb C$. Consequently this augmented complex is exact, hence a free resolution of the trivial $R$-module $\mathbb C$.</p>
+<p>By the definition $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_R(\mathbb C,V)$, group cohomology is therefore computed by
+</p>
+$$0\longrightarrow\mathrm{Hom}_R(C_0,V)\xrightarrow{d^0}\mathrm{Hom}_R(C_1,V)\xrightarrow{d^1}\mathrm{Hom}_R(C_2,V)\longrightarrow\cdots,$$<p>
+where $d^q(f)=f\circ\partial_{q+1}$.</p>
+<p>We now identify this with the singular cochain complex on $Y$ with local coefficients in $\mathcal H$. Choose a lift of $u$ to $\widetilde Y$. Parallel transport upstairs trivializes $p^*\mathcal H$, because $\widetilde Y$ is simply connected, identifying its fibres with $V$. Thus cochains upstairs assign vectors in $V$ to singular simplices. To describe local coefficients downstairs, the values on different lifts must agree through the monodromy identifications. With compatible conventions for the deck and monodromy actions, this condition is
+</p>
+$$f(\gamma\cdot\sigma)=\rho(\gamma)f(\sigma).$$<p>
+It says precisely that the linear map $f:C_q\to V$ is $R$-linear. Indeed, each simplex in $Y$ lifts to $\widetilde Y$, and its lifts form one $\Gamma$-orbit, so an equivariant assignment is determined by its value on any one lift. The coboundary is induced by the same alternating face maps, giving the cochain complex $\mathrm{Hom}_R(C_\bullet,V)$ above.</p>
+<p>On a manifold, singular cohomology with local coefficients agrees with sheaf cohomology of the local system. Hence
+</p>
+$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q\!\left(\mathrm{Hom}_R(C_\bullet,V)\right)\cong\mathrm H^q(\Gamma,V).$$<p>
+These identifications respect morphisms of local systems, so they are natural in $\mathcal H$.<span class="proof-mark" aria-hidden="true"></span></p>
+
   </div>
 </div>
 
