@@ -57,10 +57,40 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
+    Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
+$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-proof&#34;
+     data-kind=&#34;proof&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;false&#34;
+     data-proof-mark=&#34;empty&#34;
+     data-proof-align=&#34;trail&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+    &lt;span class=&#34;math-title&#34;
+          data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $p:\widetilde Y\to Y$ be the universal cover, put $\Gamma=\pi_1(Y,u)$ and $R=\mathbb C[\Gamma]$, and give $V=\mathcal H_u$ its monodromy action $\rho$. We will compute both cohomology groups using the same cochain complex.&lt;/p&gt;
+&lt;p&gt;First consider the singular chains $C_q=C_q(\widetilde Y;\mathbb C)$. This is the complex vector space with basis the singular simplices $\sigma:\Delta^q\to\widetilde Y$. Deck transformations give it a left $R$-module structure by $\gamma\cdot\sigma=\gamma\circ\sigma$. This action is free on the set of simplices: if a deck transformation fixes a simplex, it fixes a point of $\widetilde Y$, so it is the identity. Choosing one simplex from each orbit therefore gives an $R$-basis of $C_q$. Thus every $C_q$ is a free $R$-module.&lt;/p&gt;
+&lt;p&gt;The boundary maps commute with deck transformations, so the augmented singular chain complex
 &lt;/p&gt;
-$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u),\qquad q\ge 0.$$&lt;p&gt;
-This applies to the punctured curve $U^{\mathrm{an}}$ above.&lt;/p&gt;
+$$\cdots\longrightarrow C_2\xrightarrow{\partial_2}C_1\xrightarrow{\partial_1}C_0\xrightarrow{\varepsilon}\mathbb C\longrightarrow0$$&lt;p&gt;
+is a complex of $R$-modules. Here $\varepsilon$ sums the coefficients of a $0$-chain, and $\mathbb C$ has the trivial $\Gamma$-action. Since $\widetilde Y$ is contractible, its positive-degree homology vanishes and $\mathrm H_0(\widetilde Y;\mathbb C)\cong\mathbb C$. Consequently this augmented complex is exact, hence a free resolution of the trivial $R$-module $\mathbb C$.&lt;/p&gt;
+&lt;p&gt;By the definition $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_R(\mathbb C,V)$, group cohomology is therefore computed by
+&lt;/p&gt;
+$$0\longrightarrow\mathrm{Hom}_R(C_0,V)\xrightarrow{d^0}\mathrm{Hom}_R(C_1,V)\xrightarrow{d^1}\mathrm{Hom}_R(C_2,V)\longrightarrow\cdots,$$&lt;p&gt;
+where $d^q(f)=f\circ\partial_{q+1}$.&lt;/p&gt;
+&lt;p&gt;We now identify this with the singular cochain complex on $Y$ with local coefficients in $\mathcal H$. Choose a lift of $u$ to $\widetilde Y$. Parallel transport upstairs trivializes $p^*\mathcal H$, because $\widetilde Y$ is simply connected, identifying its fibres with $V$. Thus cochains upstairs assign vectors in $V$ to singular simplices. To describe local coefficients downstairs, the values on different lifts must agree through the monodromy identifications. With compatible conventions for the deck and monodromy actions, this condition is
+&lt;/p&gt;
+$$f(\gamma\cdot\sigma)=\rho(\gamma)f(\sigma).$$&lt;p&gt;
+It says precisely that the linear map $f:C_q\to V$ is $R$-linear. Indeed, each simplex in $Y$ lifts to $\widetilde Y$, and its lifts form one $\Gamma$-orbit, so an equivariant assignment is determined by its value on any one lift. The coboundary is induced by the same alternating face maps, giving the cochain complex $\mathrm{Hom}_R(C_\bullet,V)$ above.&lt;/p&gt;
+&lt;p&gt;On a manifold, singular cohomology with local coefficients agrees with sheaf cohomology of the local system. Hence
+&lt;/p&gt;
+$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q\!\left(\mathrm{Hom}_R(C_\bullet,V)\right)\cong\mathrm H^q(\Gamma,V).$$&lt;p&gt;
+These identifications respect morphisms of local systems, so they are natural in $\mathcal H$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
