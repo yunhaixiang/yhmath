@@ -20,27 +20,26 @@ aliases = ['/posts/healthy-eating-plan/']
 
 - 周日中午：做周日午餐 ～ 周三午餐，共7顿
 - 周三晚上：做周三晚餐 ～ 周六晚餐，共7顿
-- 两次使用完全相同的食材、数量和流程
+- 两次使用相同的食材、数量和流程
 
-早餐固定为：混合水果 + 高纤维谷物早餐 125 mL（半杯，约31 g）+ 脱脂奶；周一到周六各加1个水煮蛋，周日不加蛋。
+早餐：混合水果 + 高纤维谷物早餐 30 g + 无糖豆奶150 g。
 
-每周共12个鸡蛋：早餐6个，虾仁炒蛋6个。每次做菜取6个：3个水煮，3个配250 g虾仁炒好，分两盘。
 
 
 | 星期 | 餐次 | 碳水 | 蛋白质 | 蔬菜 |
 |---|---|---|---|---|
 | 周日（做菜） | 午餐 | 土豆泥 | 牛排 | 蘑菇 |
-| 周日 | 晚餐 | 白米饭 | 虾仁炒鸡蛋 | 混合蔬菜 |
+| 周日 | 晚餐 | 白米饭 | 扇贝炒鸡蛋 | 混合蔬菜 |
 | 周一 | 午餐 | 全麦意面 | 三文鱼 | 番茄 |
 | 周一 | 晚餐 | 全麦卷饼皮 | 鸡大腿肉 | 蘑菇 |
-| 周二 | 午餐 | 白米饭 | 虾仁炒鸡蛋 | 菠菜 |
+| 周二 | 午餐 | 白米饭 | 扇贝炒鸡蛋 | 菠菜 |
 | 周二 | 晚餐 | 土豆泥 | 三文鱼 | 混合蔬菜 |
 | 周三 | 午餐 | 全麦意面 | 鸡大腿肉 | 番茄 |
 | 周三（做菜） | 晚餐 | 土豆泥 | 牛排 | 蘑菇 |
-| 周四 | 午餐 | 白米饭 | 虾仁炒鸡蛋 | 混合蔬菜 |
+| 周四 | 午餐 | 白米饭 | 扇贝炒鸡蛋 | 混合蔬菜 |
 | 周四 | 晚餐 | 全麦意面 | 三文鱼 | 番茄 |
 | 周五 | 午餐 | 全麦卷饼皮 | 鸡大腿肉 | 蘑菇 |
-| 周五 | 晚餐 | 白米饭 | 虾仁炒鸡蛋 | 菠菜 |
+| 周五 | 晚餐 | 白米饭 | 扇贝炒鸡蛋 | 菠菜 |
 | 周六 | 午餐 | 土豆泥 | 三文鱼 | 混合蔬菜 |
 | 周六 | 晚餐 | 全麦意面 | 鸡大腿肉 | 番茄 |
 {.table-centered}
@@ -50,11 +49,11 @@ aliases = ['/posts/healthy-eating-plan/']
 | 食材 | 包装规格 | 购买频率 | 每次做菜取用 | 商品链接 | 每周价格（CAD） |
 | --- | ---: | ---: | ---: | --- | ---: |
 | 去骨去皮鸡大腿肉 | 830 g / 盒 | 1盒 / 周 | 1/2盒 | [Maple Leaf Boneless Skinless Chicken Thighs](https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724) | $14.88 |
-| 熟虾仁 | 500 g / 袋 | 1袋 / 周 | 1/2袋 | [Great Value Cooked 71/90 Pacific White Shrimp](https://www.walmart.ca/en/ip/Great-Value-Cooked-Pacific-White-Shrimp/6000196383010) | $11.53 |
+| 冷冻扇贝肉 | 340 g / 袋 | 2袋 / 周 | 1袋 | [Green Ocean Bay Scallops](https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G) | $13.40 |
 | Coho 三文鱼 | 320 g / 盒 | 4盒 / 周 | 2盒 | [Your Fresh Market Coho Salmon Portions](https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814) | $43.52 |
-| 牛排 | 300 g / 块 | 2块 / 周 | 1块 | [AA Striploin Steak](https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD) | $28.76 |
-| 鸡蛋 | 18个 / 盒 | 2盒 / 3周 | 6个：3个水煮、3个炒虾仁 | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | $4.89 |
-| 脱脂奶 | 2 L / 瓶 | 2瓶 / 周 | — | [Natrel Fine-Filtered 0% Skim Milk](https://www.walmart.ca/en/ip/natrel-fine-filtered-0-fat-free-skim-milk/10220046) | $11.56 |
+| 牛排 | 300 g / 块 | 1块 / 周 | 1/2块 | [AA Striploin Steak](https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD) | $14.38 |
+| 鸡蛋 | 18个 / 盒 | 1盒 / 3周 | — | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | $2.44 |
+| 无糖豆奶 | 1.89 L / 桶 | 2桶 / 周 | — | [Silk Organic Soy Unsweetened Original](https://www.walmart.ca/en/ip/Silk-Soy-Milk-Alternative-Unsweetened-Dairy-Free-of-protein/6000190182706) | $9.06 |
 | 无糖无咖啡因汽水 | 355 mL × 12罐 / 箱 | 1箱 / 周 | — | [Fresca Citrus 12 Pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189) | $8.36 |
 | 即食土豆泥 | 113 g / 袋 | 1袋 / 周 | 1/2袋 | [Betty Crocker Sour Cream & Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO) | $1.99 |
 | 冷冻混合蔬菜 | 750 g / 袋 | 1袋 / 周 | 1/2袋 | [Great Value Frozen Mixed Vegetables](https://www.walmart.ca/en/ip/Great-Value-Frozen-Mixed-Vegetables/6000191274027) | $3.54 |
@@ -73,8 +72,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 干牛至叶 | 32 g / 袋 | 按需补 | — | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145) | $0.14 |
 | 盐 | 1 kg / 盒 | 按需补 | — | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128) | $0.02 |
 | 橄榄油 | 1 L / 瓶 | 按需补 | — | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259) | $0.42 |
-| 乳清蛋白粉 | 908 g / 桶；1勺35 g粉 | 按需补 | — | [DIESEL Vanilla Ice Cream](https://www.walmart.ca/en/ip/diesel-new-zealand-whey-protein-vanilla-ice-cream/6000197353191) | $0.00 |
-| 每周平均合计 | — | — | — | — | $183.74 |
+| 每周平均合计 | — | — | — | — | $166.28 |
 {.table-centered}
 
 ### 并行做菜流程
@@ -84,31 +82,30 @@ aliases = ['/posts/healthy-eating-plan/']
 #### 阶段 1：预热、烧水、解冻
 
 1. 烤箱预热至 400°F，需 15 分钟。
-2. 鸡蛋煮锅和意面煮锅加水，大火烧开。
+2. 意面煮锅加水烧开。
 3. 白米淘洗用电饭煲开煮。
-4. 熟虾仁装防漏密封袋浸冷水解冻。
+4. 取1袋340 g扇贝装防漏密封袋浸冷水解冻，每30分钟换冷水；另一袋保持冷冻。解冻后沥干、吸干表面水分，随即烹调。
 5. 空气炸锅预热至 400°F，需 5 分钟。
 
 #### 阶段 2：调味、并行烹调
 
-1. 三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排。
+1. 三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、半块牛排。
 2. 按下表调味
 
 | 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
 |---|---|---|---|---|---|---|---|
 | Coho 三文鱼 | 1/2 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | — | 1 茶匙 | — |
 | 鸡大腿肉 | 1/2 茶匙 | 1/4 茶匙 | — | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
-| 牛排 | 1/2 茶匙 | 1/4 茶匙 | 1/4 茶匙 | — | 1/4 茶匙 | — | — |
+| 牛排 | 1/4 茶匙 | 1/8 茶匙 | 1/8 茶匙 | — | 1/8 茶匙 | — | — |
 {.table-centered}
 
 
 3. 三文鱼：Air fry 400°F 8 分钟。
 4. 鸡大腿肉烤 25 分钟。
 5. 牛排烤 8 分钟，4 分钟时翻面。
-6. 鸡蛋：水开下 3 个煮 8 分钟，另留 3 个炒虾仁。
-7. 意面：水开下锅煮 10 分钟。
-8. 混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。
-9. 土豆泥：按包装微波做法制作，不加黄油。
+6. 意面：水开下锅煮 10 分钟。
+7. 混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。
+8. 土豆泥：按包装微波做法制作，不加黄油。
 
 
 #### 阶段 3：炒锅
@@ -118,16 +115,16 @@ aliases = ['/posts/healthy-eating-plan/']
 | 食材 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 意式混合香草 |
 |---|---|---|---|---|---|
 | 菠菜 | 1/8 茶匙 | — | 1/4 茶匙 | 1/4 茶匙 | — |
-| 番茄泥、意面 | 不另加 | 1/4 茶匙 | 1/2 茶匙 | — | 1/2 茶匙 |
+| 番茄泥、意面 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | 1/2 茶匙 |
 | 蘑菇 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | — |
-| 虾仁、鸡蛋 | — | 1/4 茶匙 | 1/2 茶匙 | — | — |
+| 扇贝、鸡蛋 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | — |
 {.table-centered}
 
 1. 菠菜洗净沥干；番茄泥取半瓶（340 mL），余下立即冷藏，按瓶身期限用完，来不及则冷冻。
 2. 两锅加油预热。
 3. 第一锅炒蘑菇，7 分钟。
 5. 第二锅炒菠菜，2 分钟。
-6. 第二锅重新加油炒虾仁和鸡蛋：3个鸡蛋打散炒 2 分钟，加入250 g熟虾仁继续炒 2 分钟。
+6. 第二锅重新加油，中火炒扇贝约3—4分钟，倒入3个打散的鸡蛋和调味，再炒约1–2分钟。
 7. 第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。
 
 #### 阶段 4：收尾、分盘
@@ -139,7 +136,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 牛排 | 1 |
 | 三文鱼 | 3、6 | 
 | 鸡大腿肉 | 4、7 |
-| 虾仁炒鸡蛋（250 g虾仁＋3个蛋） | 2、5，均分 |
+| 扇贝炒鸡蛋 | 2、5 |
 | 米饭 | 2、5 | 
 | 番茄意面 | 3、7 | 
 | 土豆泥 | 1、6 | 
@@ -147,32 +144,60 @@ aliases = ['/posts/healthy-eating-plan/']
 | 蘑菇 | 1、4 | 
 | 菠菜 | 5 | 
 | 混合蔬菜 | 2、6 | 
-| 水煮蛋（3个） | 周日做的供周一至周三早餐；周三做的供周四至周六早餐，每早1个 |
 {.table-centered}
 
 2. 洗厨具、清理厨房。
 
 ### 放纵餐
 
-目前热量赤字粗估：每周约4,700 kcal（沿用原估算，计入鸡蛋减量；实际以体重趋势校准）。放纵餐抵消一周热量赤字比例计算如下。
+按目前计划重新粗估：每周摄入约12,200 kcal，总消耗约16,800 kcal，**每周赤字约4,600 kcal**，下表统一按此计算。
 
+估算前提：男性26岁、170 cm、83 kg，训练外主要久坐；每周训练5次，每次约30分钟力量训练和40分钟游泳；每周两桶无糖豆奶共3.78 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。
+
+下表按**额外加吃**计算；若替代正餐，应先减去被替代那餐的热量，再除以4,600。百分比只表示热量赤字变化，不代表全部健身成果，也不表示对血脂的影响。
+
+<!-- 赤字估算审计，2026-09-18：
+食材均按购入生重或干重，不再乘熟重热量。每周kcal取整：
+鸡腿830g×150/100≈1245；扇贝680g×90/100=612；Coho1280g×200/100≈2560；
+牛排300g×200/100≈600；鸡蛋6×80=480；无糖豆奶3780mL×90/250≈1361；
+土豆泥粉113g整袋4份×110=440（不加黄油）；混合蔬菜750g×65/100≈488；
+蘑菇454g×22/100≈100；菠菜284g×23/100≈65；番茄泥680mL×30/100≈204；
+水果2600g×40/100≈1040；全麦意面240g×310/85≈875；卷饼2×170=340；
+米杯暂按每次3/4杯=112.5g干米，两次225g×365/100≈821；
+Fibre One 210g×90/31≈610；
+橄榄油每周6.5茶匙=32.5mL×120/15=260；干调味约50。合计约12150，展示取12200。
+豆奶每周价格按用户截图促销价2×$4.53=$9.06；热量按每250mL约90kcal，实物标签优先。
+鸡腿、Coho、牛排等用的是热量估值，未核实当前实物包装，不能当作精确营养标签。
+Mifflin-St Jeor：10×83+6.25×170−5×26+5=1767.5 kcal/天；
+久坐基础1767.5×1.2×7=14847；
+力量按3.5 MET，游泳平均暂按6 MET，净运动消耗扣除同期1 MET：
+(3.5−1)×83×0.5×5+(6−1)×83×40/60×5≈1902；
+周总消耗约16749，取16800；周赤字约4600。不是可保证的减重速度。
+方法：https://pubmed.ncbi.nlm.nih.gov/2305711/
+MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompendium.com/water-activities/
+意面：https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
+新增炸鸡和汉堡采用KFC加拿大2024营养表，冰淇淋采用DQ加拿大营养页；实际以点餐规格为准。
+-->
 
 | 食物 | 份量 | 热量（kcal） | 抵消本周预计赤字（额外加吃） |
 |---|---|---:|---:|
 | [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约16% |
-| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约14% |
+| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约15% |
 | [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约13% |
 | [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约13% |
 | [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约12% |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约11% |
+| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约12% |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约12% |
 | [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约11% |
 | [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约10% |
+| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约10% |
 | [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约9% |
 | [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约8% |
 | [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约7% |
 | [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约7% |
 | [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约6% |
 | [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约6% |
+| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约5% |
 | [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约4% |
 | [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约3% |
 {.table-centered}

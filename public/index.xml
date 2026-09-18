@@ -330,10 +330,9 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
 &lt;ul&gt;
 &lt;li&gt;周日中午：做周日午餐 ～ 周三午餐，共7顿&lt;/li&gt;
 &lt;li&gt;周三晚上：做周三晚餐 ～ 周六晚餐，共7顿&lt;/li&gt;
-&lt;li&gt;两次使用完全相同的食材、数量和流程&lt;/li&gt;
+&lt;li&gt;两次使用相同的食材、数量和流程&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;早餐固定为：混合水果 + 高纤维谷物早餐 125 mL（半杯，约31 g）+ 脱脂奶；周一到周六各加1个水煮蛋，周日不加蛋。&lt;/p&gt;
-&lt;p&gt;每周共12个鸡蛋：早餐6个，虾仁炒蛋6个。每次做菜取6个：3个水煮，3个配250 g虾仁炒好，分两盘。&lt;/p&gt;
+&lt;p&gt;早餐：混合水果 + 高纤维谷物早餐 30 g + 无糖豆奶150 g。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -356,7 +355,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;周日&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
           &lt;td&gt;混合蔬菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -377,7 +376,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -405,7 +404,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
           &lt;td&gt;混合蔬菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -426,7 +425,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -467,12 +466,12 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td style=&#34;text-align: right&#34;&gt;$14.88&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;熟虾仁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;500 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Cooked-Pacific-White-Shrimp/6000196383010&#34;&gt;Great Value Cooked 71/90 Pacific White Shrimp&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$11.53&lt;/td&gt;
+          &lt;td&gt;冷冻扇贝肉&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;340 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1袋&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G&#34;&gt;Green Ocean Bay Scallops&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$13.40&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Coho 三文鱼&lt;/td&gt;
@@ -485,26 +484,26 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
       &lt;tr&gt;
           &lt;td&gt;牛排&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;300 g / 块&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2块 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1块&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1块 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2块&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD&#34;&gt;AA Striploin Steak&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$28.76&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$14.38&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡蛋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;18个 / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 3周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;6个：3个水煮、3个炒虾仁&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 3周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613&#34;&gt;Gray Ridge Premium Large White 18 Eggs&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$4.89&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.44&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;脱脂奶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2 L / 瓶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2瓶 / 周&lt;/td&gt;
+          &lt;td&gt;无糖豆奶&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1.89 L / 桶&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2桶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/natrel-fine-filtered-0-fat-free-skim-milk/10220046&#34;&gt;Natrel Fine-Filtered 0% Skim Milk&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$11.56&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Silk-Soy-Milk-Alternative-Unsweetened-Dairy-Free-of-protein/6000190182706&#34;&gt;Silk Organic Soy Unsweetened Original&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$9.06&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;无糖无咖啡因汽水&lt;/td&gt;
@@ -651,20 +650,12 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td style=&#34;text-align: right&#34;&gt;$0.42&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;乳清蛋白粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;908 g / 桶；1勺35 g粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/diesel-new-zealand-whey-protein-vanilla-ice-cream/6000197353191&#34;&gt;DIESEL Vanilla Ice Cream&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.00&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
           &lt;td&gt;每周平均合计&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$183.74&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$166.28&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -673,14 +664,14 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
 &lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;烤箱预热至 400°F，需 15 分钟。&lt;/li&gt;
-&lt;li&gt;鸡蛋煮锅和意面煮锅加水，大火烧开。&lt;/li&gt;
+&lt;li&gt;意面煮锅加水烧开。&lt;/li&gt;
 &lt;li&gt;白米淘洗用电饭煲开煮。&lt;/li&gt;
-&lt;li&gt;熟虾仁装防漏密封袋浸冷水解冻。&lt;/li&gt;
+&lt;li&gt;取1袋340 g扇贝装防漏密封袋浸冷水解冻，每30分钟换冷水；另一袋保持冷冻。解冻后沥干、吸干表面水分，随即烹调。&lt;/li&gt;
 &lt;li&gt;空气炸锅预热至 400°F，需 5 分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排。&lt;/li&gt;
+&lt;li&gt;三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、半块牛排。&lt;/li&gt;
 &lt;li&gt;按下表调味&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -719,11 +710,11 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
@@ -733,7 +724,6 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
 &lt;li&gt;三文鱼：Air fry 400°F 8 分钟。&lt;/li&gt;
 &lt;li&gt;鸡大腿肉烤 25 分钟。&lt;/li&gt;
 &lt;li&gt;牛排烤 8 分钟，4 分钟时翻面。&lt;/li&gt;
-&lt;li&gt;鸡蛋：水开下 3 个煮 8 分钟，另留 3 个炒虾仁。&lt;/li&gt;
 &lt;li&gt;意面：水开下锅煮 10 分钟。&lt;/li&gt;
 &lt;li&gt;混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。&lt;/li&gt;
 &lt;li&gt;土豆泥：按包装微波做法制作，不加黄油。&lt;/li&gt;
@@ -762,7 +752,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;番茄泥、意面&lt;/td&gt;
-          &lt;td&gt;不另加&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
@@ -777,8 +767,8 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;虾仁、鸡蛋&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;扇贝、鸡蛋&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
@@ -791,7 +781,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
 &lt;li&gt;两锅加油预热。&lt;/li&gt;
 &lt;li&gt;第一锅炒蘑菇，7 分钟。&lt;/li&gt;
 &lt;li&gt;第二锅炒菠菜，2 分钟。&lt;/li&gt;
-&lt;li&gt;第二锅重新加油炒虾仁和鸡蛋：3个鸡蛋打散炒 2 分钟，加入250 g熟虾仁继续炒 2 分钟。&lt;/li&gt;
+&lt;li&gt;第二锅重新加油，中火炒扇贝约3—4分钟，倒入3个打散的鸡蛋和调味，再炒约1–2分钟。&lt;/li&gt;
 &lt;li&gt;第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;
@@ -819,8 +809,8 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;4、7&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;虾仁炒鸡蛋（250 g虾仁＋3个蛋）&lt;/td&gt;
-          &lt;td&gt;2、5，均分&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;2、5&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;米饭&lt;/td&gt;
@@ -850,17 +840,37 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;混合蔬菜&lt;/td&gt;
           &lt;td&gt;2、6&lt;/td&gt;
       &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;水煮蛋（3个）&lt;/td&gt;
-          &lt;td&gt;周日做的供周一至周三早餐；周三做的供周四至周六早餐，每早1个&lt;/td&gt;
-      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;洗厨具、清理厨房。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
-&lt;p&gt;目前热量赤字粗估：每周约4,700 kcal（沿用原估算，计入鸡蛋减量；实际以体重趋势校准）。放纵餐抵消一周热量赤字比例计算如下。&lt;/p&gt;
+&lt;p&gt;按目前计划重新粗估：每周摄入约12,200 kcal，总消耗约16,800 kcal，&lt;strong&gt;每周赤字约4,600 kcal&lt;/strong&gt;，下表统一按此计算。&lt;/p&gt;
+&lt;p&gt;估算前提：男性26岁、170 cm、83 kg，训练外主要久坐；每周训练5次，每次约30分钟力量训练和40分钟游泳；每周两桶无糖豆奶共3.78 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。&lt;/p&gt;
+&lt;p&gt;下表按&lt;strong&gt;额外加吃&lt;/strong&gt;计算；若替代正餐，应先减去被替代那餐的热量，再除以4,600。百分比只表示热量赤字变化，不代表全部健身成果，也不表示对血脂的影响。&lt;/p&gt;
+&lt;!-- 赤字估算审计，2026-09-18：
+食材均按购入生重或干重，不再乘熟重热量。每周kcal取整：
+鸡腿830g×150/100≈1245；扇贝680g×90/100=612；Coho1280g×200/100≈2560；
+牛排300g×200/100≈600；鸡蛋6×80=480；无糖豆奶3780mL×90/250≈1361；
+土豆泥粉113g整袋4份×110=440（不加黄油）；混合蔬菜750g×65/100≈488；
+蘑菇454g×22/100≈100；菠菜284g×23/100≈65；番茄泥680mL×30/100≈204；
+水果2600g×40/100≈1040；全麦意面240g×310/85≈875；卷饼2×170=340；
+米杯暂按每次3/4杯=112.5g干米，两次225g×365/100≈821；
+Fibre One 210g×90/31≈610；
+橄榄油每周6.5茶匙=32.5mL×120/15=260；干调味约50。合计约12150，展示取12200。
+豆奶每周价格按用户截图促销价2×$4.53=$9.06；热量按每250mL约90kcal，实物标签优先。
+鸡腿、Coho、牛排等用的是热量估值，未核实当前实物包装，不能当作精确营养标签。
+Mifflin-St Jeor：10×83+6.25×170−5×26+5=1767.5 kcal/天；
+久坐基础1767.5×1.2×7=14847；
+力量按3.5 MET，游泳平均暂按6 MET，净运动消耗扣除同期1 MET：
+(3.5−1)×83×0.5×5+(6−1)×83×40/60×5≈1902；
+周总消耗约16749，取16800；周赤字约4600。不是可保证的减重速度。
+方法：https://pubmed.ncbi.nlm.nih.gov/2305711/
+MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompendium.com/water-activities/
+意面：https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
+新增炸鸡和汉堡采用KFC加拿大2024营养表，冰淇淋采用DQ加拿大营养页；实际以点餐规格为准。
+--&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -881,7 +891,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
@@ -902,10 +912,16 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
@@ -917,6 +933,12 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;6个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约480&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡（KFC Original Recipe）&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;2块鸡大腿，不含配餐和蘸酱&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约440&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -954,6 +976,12 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约260&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;香草冰淇淋（DQ Vanilla Cone）&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1个Small甜筒，不加脆皮和配料&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约230&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
