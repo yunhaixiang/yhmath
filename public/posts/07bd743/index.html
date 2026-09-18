@@ -113,7 +113,7 @@ I am reading Katz’s Rigid Local Systems
   <meta itemprop="description" content="The art of doing mathematics consists in finding that special case which contains all the germs of generality. — Alexander Grothendieck I am reading Katz’s Rigid Local Systems ⟦cite:Kat96⟧ . Here are my notes. One starts complex analytically with $U=\mathbb P^1-\{m\ \textrm{pts}\}$. Riemann introduced local systems on $U$, i.e. a locally constant sheaf of complex vector spaces, to study the solutions to $n$-th order linear differential equations with singularities at $\mathbb P^1-U$ ⟦cite:Rie57⟧ . If there are no “accessory parameters”, we say this local system is rigid, i.e. determiend by its local monodromies.">
   <meta itemprop="datePublished" content="2026-09-03T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-09-12T19:04:47-04:00">
-  <meta itemprop="wordCount" content="1183">
+  <meta itemprop="wordCount" content="1794">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Number-Theory">
 
   
@@ -233,7 +233,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          1183 words
+          1794 words
         </span>
       
       
@@ -246,7 +246,7 @@ I am reading Katz’s Rigid Local Systems
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~6 mins
+          ~9 mins
         </span>
       
     </div>
@@ -303,9 +303,9 @@ I am reading Katz’s Rigid Local Systems
   ⟦cite:Rie57⟧
 </span>. If there are no “accessory parameters”, we say this local system is <em>rigid</em>, i.e. determiend by its local monodromies.</p>
 <h2 id="generalities-concerning-rigid-local-systems-over">Generalities Concerning Rigid Local Systems over $\mathbb C$</h2>
-<p>Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.</p>
+<p>Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset, and set $m=\#S$ and $U:=X-S$ the open complement. Henceforth, we write $X$ and $U$ for their analytifications $X^{\mathrm{an}}$ and $U^{\mathrm{an}}$; all local systems and cohomology are taken in the classical topology. For each base point $u$ on the complex manifold $U$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.</p>
 $$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$<p>All vector spaces and representations here are assumed finite dimensional. We say the local system is <em>irreducible</em> if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood </p>
-$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$<p>has fundamental group $I(s)=\pi_1(D^*(s),u_s)=\mathbb Z$ called the <em>local inertia group</em>, where $u_s$ is a chosen base point.</p>
+$$D^*(s)=U\cap (\textrm{small disc around }s\textrm{ in }X)$$<p>has fundamental group $I(s)=\pi_1(D^*(s),u_s)=\mathbb Z$ called the <em>local inertia group</em>, where $u_s$ is a chosen base point.</p>
 <div class="math-env style-defn" 
     
      data-kind="definition"
@@ -316,13 +316,13 @@ $$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathr
         data-label='Definition'></span>
   </span>
   <div class="math-body">
-    We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is <em>physically rigid</em> if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
+    We say a local system $\mathcal F$ on $U$ is <em>physically rigid</em> if for every local system $\mathcal G$ on $U$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
 $\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
 for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
   </div>
 </div>
 
-<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.</p>
+<p>However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X$ (they correspond to characters of $\pi_1(X)^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U\to X$ be the inclusion. The pushforward $j_*:\pi_1(U,u)\rightarrow \pi_1(X,u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U)$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.</p>
 <h2 id="numerical-criterion-for">Numerical Criterion for $\mathbb P^1$</h2>
 <p>Use same notation as above.</p>
 <div class="math-env style-plain" 
@@ -335,8 +335,11 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
         data-label='Lemma'></span>
   </span>
   <div class="math-body">
-    Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
-$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0$.
+    <p>Let $Y$ be a connected complex manifold with contractible universal cover, let $u\in Y$, and put $\Gamma=\pi_1(Y,u)$. For any local system $\mathcal H$ of finite-dimensional complex vector spaces on $Y$, there are $\mathbb C$-linear isomorphisms, natural in $\mathcal H$,
+</p>
+$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\Gamma,\mathcal H_u)\qquad(q\ge0),$$<p>
+where $\Gamma$ acts on the stalk $\mathcal H_u$ by monodromy and the left-hand side is sheaf cohomology in the classical topology.</p>
+
   </div>
 </div>
 
@@ -351,25 +354,10 @@ $\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    <p>Let $p:\widetilde Y\to Y$ be the universal cover, put $\Gamma=\pi_1(Y,u)$ and $R=\mathbb C[\Gamma]$, and give $V=\mathcal H_u$ its monodromy action $\rho$. We will compute both cohomology groups using the same cochain complex.</p>
-<p>First consider the singular chains $C_q=C_q(\widetilde Y;\mathbb C)$. This is the complex vector space with basis the singular simplices $\sigma:\Delta^q\to\widetilde Y$. Deck transformations give it a left $R$-module structure by $\gamma\cdot\sigma=\gamma\circ\sigma$. This action is free on the set of simplices: if a deck transformation fixes a simplex, it fixes a point of $\widetilde Y$, so it is the identity. Choosing one simplex from each orbit therefore gives an $R$-basis of $C_q$. Thus every $C_q$ is a free $R$-module.</p>
-<p>The boundary maps commute with deck transformations, so the augmented singular chain complex
-</p>
-$$\cdots\longrightarrow C_2\xrightarrow{\partial_2}C_1\xrightarrow{\partial_1}C_0\xrightarrow{\varepsilon}\mathbb C\longrightarrow0$$<p>
-is a complex of $R$-modules. Here $\varepsilon$ sums the coefficients of a $0$-chain, and $\mathbb C$ has the trivial $\Gamma$-action. Since $\widetilde Y$ is contractible, its positive-degree homology vanishes and $\mathrm H_0(\widetilde Y;\mathbb C)\cong\mathbb C$. Consequently this augmented complex is exact, hence a free resolution of the trivial $R$-module $\mathbb C$.</p>
-<p>By the definition $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_R(\mathbb C,V)$, group cohomology is therefore computed by
-</p>
-$$0\longrightarrow\mathrm{Hom}_R(C_0,V)\xrightarrow{d^0}\mathrm{Hom}_R(C_1,V)\xrightarrow{d^1}\mathrm{Hom}_R(C_2,V)\longrightarrow\cdots,$$<p>
-where $d^q(f)=f\circ\partial_{q+1}$.</p>
-<p>We now identify this with the singular cochain complex on $Y$ with local coefficients in $\mathcal H$. Choose a lift of $u$ to $\widetilde Y$. Parallel transport upstairs trivializes $p^*\mathcal H$, because $\widetilde Y$ is simply connected, identifying its fibres with $V$. Thus cochains upstairs assign vectors in $V$ to singular simplices. To describe local coefficients downstairs, the values on different lifts must agree through the monodromy identifications. With compatible conventions for the deck and monodromy actions, this condition is
-</p>
-$$f(\gamma\cdot\sigma)=\rho(\gamma)f(\sigma).$$<p>
-It says precisely that the linear map $f:C_q\to V$ is $R$-linear. Indeed, each simplex in $Y$ lifts to $\widetilde Y$, and its lifts form one $\Gamma$-orbit, so an equivariant assignment is determined by its value on any one lift. The coboundary is induced by the same alternating face maps, giving the cochain complex $\mathrm{Hom}_R(C_\bullet,V)$ above.</p>
-<p>On a manifold, singular cohomology with local coefficients agrees with sheaf cohomology of the local system. Hence
-</p>
-$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q\!\left(\mathrm{Hom}_R(C_\bullet,V)\right)\cong\mathrm H^q(\Gamma,V).$$<p>
-These identifications respect morphisms of local systems, so they are natural in $\mathcal H$.<span class="proof-mark" aria-hidden="true"></span></p>
-
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Bro82" data-cite-note="Chapter III, §1, p. 59">
+⟦cite:Bro82⟧
+</span>.<span class="proof-mark" aria-hidden="true"></span>
   </div>
 </div>
 
@@ -383,9 +371,9 @@ These identifications respect morphisms of local systems, so they are natural in
         data-label='Lemma'></span> <span class="math-note">(Euler–Poincaré)</span>
   </span>
   <div class="math-body">
-    <p>For any local system $\mathcal H$ on $U^{\mathrm{an}}$,
+    <p>For any local system $\mathcal H$ on $U$ of rank $r$,
 </p>
-$$\chi(X^{\mathrm{an}},j_*\mathcal H)=\chi(U^{\mathrm an}, \underline{\mathbb C})\,\mathrm{rank}(\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$<p>
+$$\chi(X,j_*\mathcal H)=\chi(U,\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}=(2-2g-m)r+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$<p>
 where $\mathcal H^{I(s)}$ is the local inertia invariant subspace
 </p>
 $$\mathcal H^{I(s)}:=\{v\in \mathcal H_{u_s}:\gamma v=v, \textrm{for\ all\ }\gamma\in I(s)\}$$<p>
@@ -405,9 +393,9 @@ where the action of $I(s)$ inherits from that of $\mathcal H$.</p>
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    <p>Put $m=\#S\ge 1$ and $N=2g+m-1$. Let $s\in S$ and set $V=\mathcal H_{u_s}$. The fundamental group has the presentation
+    <p>Let $N=2g+m-1$. Let $s\in S$ and set $V=\mathcal H_{u_s}$. The fundamental group has the presentation
 </p>
-$$\Gamma:=\pi_1(U^{\mathrm{an}},u_s)\cong\left\langle a_1,b_1,\ldots,a_g,b_g,c_1,\ldots,c_m\;\middle|\;\prod_{i=1}^g[a_i,b_i]\,c_1\cdots c_m=1\right\rangle,$$<p>
+$$\Gamma:=\pi_1(U,u_s)\cong\left\langle a_1,b_1,\ldots,a_g,b_g,c_1,\ldots,c_m\;\middle|\;\prod_{i=1}^g[a_i,b_i]\,c_1\cdots c_m=1\right\rangle,$$<p>
 where the $a_i,b_i$ are the handle generators, and each $c_j$ are loops around $j$-th puncture.
 Since there is only one relation, we may choose free generators $x_1,\ldots,x_N$, so that $\Gamma\cong\mathrm F_N=\langle x_1,\ldots,x_N\rangle$.
 Set $\rho:\Gamma\rightarrow\mathrm{GL}(V)$ the monodromy representation and define $A_i=\rho(x_i)$ for each $i$.
@@ -416,11 +404,52 @@ There is a free resolution of the trivial left $\mathbb C[\Gamma]$-module $\math
 $$0\to \mathbb C[\Gamma]^N\xrightarrow{\partial} \mathbb C[\Gamma]\xrightarrow{\varepsilon} \mathbb C\to 0$$<p>
 where
 $\varepsilon\!\left(\gamma\right)=1$ for each $\gamma\in\Gamma$
-and $\partial(e_i)=x_i-1$, where $e_i$ is the $i$-th standard basis element of $\mathbb C[\Gamma]^N$. To justify exactness, note that $\varepsilon(\partial(\gamma e_i))=\varepsilon(\gamma (x_i-1))=1-1=0$ so $\mathrm{Im}(\partial)\subseteq\mathrm{Ker}(\varepsilon)$; for the reverse inclusion, suppose that $a\in \sum_\gamma c_\gamma\gamma\in \mathrm{Ker}(\varepsilon)$, we have $\sum_\gamma c_\gamma=0$ so $a=\sum_{\gamma}c_{\gamma}(\gamma-1)=\partial\left(\sum_{\gamma}c_\gamma p_\gamma\right)$ where $p_\gamma$ is a linear combination representing a path in the Cayley graph of $\Gamma$ connecting $1$ and $\gamma$. Next, we use <span class="yh-ref" data-ref-kind="math" data-ref-id="groupcoh">⟦ref:groupcoh⟧</span>.
+and $\partial(e_i)=x_i-1$, where $e_i$ is the $i$-th standard basis element of $\mathbb C[\Gamma]^N$. To justify exactness, note that $\varepsilon(\partial(\gamma e_i))=\varepsilon(\gamma (x_i-1))=1-1=0$ so $\mathrm{Im}(\partial)\subseteq\mathrm{Ker}(\varepsilon)$; for the reverse inclusion, suppose that $a=\sum_\gamma c_\gamma\gamma\in \mathrm{Ker}(\varepsilon)$, we have $\sum_\gamma c_\gamma=0$ so $a=\sum_{\gamma}c_{\gamma}(\gamma-1)=\partial\left(\sum_{\gamma}c_\gamma p_\gamma\right)$ where $p_\gamma\in\mathbb C[\Gamma]^N$ is defined as follows. Write the reduced word
+</p>
+$$\gamma=x_{i_1}^{\epsilon_1}\cdots x_{i_k}^{\epsilon_k},\qquad \epsilon_j\in\{1,-1\},$$<p>
+and let $w_0=1$ and $w_j=x_{i_1}^{\epsilon_1}\cdots x_{i_j}^{\epsilon_j}$ be its prefixes. Set
+</p>
+$$p_\gamma:=\sum_{\epsilon_j=1}w_{j-1}e_{i_j}-\sum_{\epsilon_j=-1}w_je_{i_j},\qquad p_1:=0.$$<p>
+Here $we_i$ represents the oriented edge from $w$ to $wx_i$ in the Cayley graph. Thus a positive letter contributes $w_{j-1}e_{i_j}$, while a negative letter traverses the edge from $w_j$ to $w_jx_{i_j}=w_{j-1}$ backwards and contributes $-w_je_{i_j}$. Either way its boundary is $w_j-w_{j-1}$, so
+</p>
+$$\partial p_\gamma=\sum_{j=1}^k(w_j-w_{j-1})=w_k-w_0=\gamma-1.$$<p>Next, we use <span class="yh-ref" data-ref-kind="math" data-ref-id="groupcoh">⟦ref:groupcoh⟧</span>.
 To compute $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_{\mathbb C[\Gamma]}(\mathbb C,V)$, we apply $\mathrm{Hom}_{\mathbb C[\Gamma]}(-,V)$ and get
 </p>
 $$0\to \mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma], V)\cong V\xrightarrow{d}\mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma]^N, V)\cong V^N \to 0$$<p>
-where $d$<span class="proof-mark" aria-hidden="true"></span></p>
+where $d(v)=((A_1-I)v,\ldots,(A_N-I)v)$. Indeed, under the identifications $f\mapsto f(1)$ and $h\mapsto(h(e_1),\ldots,h(e_N))$, the map $d$ is precomposition with $\partial$, so its $i$-th component is $(f\circ\partial)(e_i)=f(x_i-1)=A_i f(1)-f(1)$.</p>
+<p>Thus $\mathrm H^0(U,\mathcal H)\cong\ker d$ and $\mathrm H^1(U,\mathcal H)\cong\operatorname{coker}d$, while $\mathrm H^q(U,\mathcal H)=0$ for $q\ge2$. Put $t=\dim_{\mathbb C}\operatorname{im}d$. By rank-nullity, $\dim\ker d=r-t$ and $\dim\operatorname{coker}d=Nr-t$. Therefore
+</p>
+$$\begin{aligned}
+\chi(U,\mathcal H)
+&=\dim\ker d-\dim\operatorname{coker}d\\
+&=(r-t)-(Nr-t)\\
+&=(1-N)r\\
+&=(2-2g-m)r.
+\end{aligned}$$<p>We next compute the compactly supported Euler characteristic $\chi_c(U,\mathcal H)$. Poincaré duality gives
+</p>
+$$\mathrm H_c^q(U,\mathcal H)\cong\mathrm H^{2-q}(U,\mathcal H^\vee)^\vee,$$<p>
+where $\mathcal H^\vee$ is the dual local system. Taking dimensions and reindexing by $k=2-q$, we obtain
+</p>
+$$\begin{aligned}
+\chi_c(U,\mathcal H)
+&=\sum_{q=0}^2(-1)^q\dim_{\mathbb C}\mathrm H^{2-q}(U,\mathcal H^\vee)\\
+&=\sum_{k=0}^2(-1)^k\dim_{\mathbb C}\mathrm H^k(U,\mathcal H^\vee)\\
+&=\chi(U,\mathcal H^\vee)\\
+&=(2-2g-m)r=\chi(U,\mathcal H).
+\end{aligned}$$<p>Finally, let $i_s:\{s\}\hookrightarrow X$ be the inclusion of a puncture. There is a short exact sequence
+</p>
+$$0\longrightarrow j_!\mathcal H\longrightarrow j_*\mathcal H\longrightarrow\bigoplus_{s\in S}i_{s*}\mathcal H^{I(s)}\longrightarrow0,$$<p>
+where $j_!$ denotes extension by zero and the last map takes germs at the punctures. Exactness can be checked on stalks: on $U$, the first map is the identity; at $s\in S$, we have $(j_!\mathcal H)_s=0$ and $(j_*\mathcal H)_s\cong\mathcal H^{I(s)}$. Indeed, a section on a sufficiently small punctured disc is determined by a vector fixed by transport around the puncture.
+Since $X$ is compact, $\mathrm H^q(X,j_!\mathcal H)\cong\mathrm H_c^q(U,\mathcal H)$. Each skyscraper sheaf $i_{s*}\mathcal H^{I(s)}$ has global sections $\mathcal H^{I(s)}$ and no higher cohomology. Taking the alternating sum of dimensions in the associated long exact cohomology sequence therefore gives
+</p>
+$$\begin{aligned}
+\chi(X,j_*\mathcal H)
+&=\chi(X,j_!\mathcal H)+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)}\\
+&=\chi_c(U,\mathcal H)+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)}\\
+&=\chi(U,\mathcal H)+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)}\\
+&=(2-2g-m)r+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)},
+\end{aligned}$$<p>
+as required.<span class="proof-mark" aria-hidden="true"></span></p>
 
   </div>
 </div>
@@ -436,7 +465,7 @@ where $d$<span class="proof-mark" aria-hidden="true"></span></p>
         data-label='Theorem'></span>
   </span>
   <div class="math-body">
-    An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U^{\mathrm{an}}$ is physically rigid iff $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$
+    An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U$ is physically rigid iff $\chi(X,j_*\mathrm{End}(\mathcal F) )=2$
   </div>
 </div>
 
@@ -451,11 +480,89 @@ where $d$<span class="proof-mark" aria-hidden="true"></span></p>
           data-label='Proof'></span>
   </span>
   <div class="math-body">
-    <p>Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="euler">⟦ref:euler⟧</span>, if two local systems $\mathcal H_1,\mathcal H_2$ have isomorphic local monodromy then $\chi(X^{\mathrm{an}},j_*\mathcal H_1)=\chi(X^{\mathrm{an}},j_*\mathcal H_2)$. Applying this to $\mathcal H_1=\mathrm{End}(\mathcal F)$ and $\mathcal H_2=\mathrm{Hom}(\mathcal F,\mathcal G)$, we have $\chi\!\left(X^{\mathrm{an}},j_*\mathrm{End}(\mathcal F)\right)=\chi\!\left(X^{\mathrm{an}},j_*\mathrm{Hom}(\mathcal F,\mathcal G)\right)=2$. Thus
+    <p>We follow <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Kat96" data-cite-note="Theorem 1.1.2">
+⟦cite:Kat96⟧
+</span>, writing $n=\mathrm{rank}(\mathcal F)$ and $h^q=\dim_{\mathbb C}\mathrm H^q$.
+Suppose first that $\chi(X,j_*\mathrm{End}(\mathcal F))=2$, and let $\mathcal G$ be any complex local system on $U$ with the same local monodromies as $\mathcal F$. Since $S\ne\varnothing$, this implies $\mathrm{rank}(\mathcal G)=\mathrm{rank}(\mathcal F)=n$. We will show that $\mathcal F\cong\mathcal G$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="euler">⟦ref:euler⟧</span>, local systems $\mathcal H_1$ and $\mathcal H_2$ with isomorphic local monodromy have
+$\chi(X,j_*\mathcal H_1)=\chi(X,j_*\mathcal H_2).$
+Apply this to $\mathcal H_1=\mathrm{End}(\mathcal F)$ and $\mathcal H_2=\mathrm{Hom}(\mathcal F,\mathcal G)$, whose local monodromies are isomorphic. It follows that
+</p>
+$$\chi(X,j_*\mathrm{Hom}(\mathcal F,\mathcal G))=\chi(X,j_*\mathrm{End}(\mathcal F))=2.$$<p>
+On a curve, $\chi=h^0-h^1+h^2\le h^0+h^2$, hence
+</p>
+$$h^0(X,j_*\mathrm{Hom}(\mathcal F,\mathcal G))+h^2(X,j_*\mathrm{Hom}(\mathcal F,\mathcal G))\ge2.$$<p>
+Rewriting in terms of ordinary and compactly supported cohomology on $U$ gives
+</p>
+$$h^0(U,\mathrm{Hom}(\mathcal F,\mathcal G))+h_c^2(U,\mathrm{Hom}(\mathcal F,\mathcal G))\ge2.$$<p>
+[To explain the rewriting of the second term, put $\mathcal K=\mathrm{Hom}(\mathcal F,\mathcal G)$. The boundary exact sequence </p>
+$$0\to j_!\mathcal K\to j_*\mathcal K\to Q\to0$$<p> has skyscraper quotient $Q$, so $\mathrm H^1(X,Q)=\mathrm H^2(X,Q)=0$. By its long exact cohomology sequence $\mathrm H^2(X,j_!\mathcal K)\cong\mathrm H^2(X,j_*\mathcal K)$. Since $X$ is compact, $\mathrm H^2(X,j_!\mathcal K)\cong\mathrm H_c^2(U,\mathcal K)$.] Poincaré duality, together with the trace-pairing identification $\mathrm{Hom}(\mathcal F,\mathcal G)^\vee\cong\mathrm{Hom}(\mathcal G,\mathcal F)$, gives
+$\mathrm H_c^2(U,\mathrm{Hom}(\mathcal F,\mathcal G))^\vee
+\cong\mathrm H^0(U,\mathrm{Hom}(\mathcal G,\mathcal F)),$
+so
+</p>
+$$h^0(U,\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U,\mathrm{Hom}(\mathcal G,\mathcal F))\ge2.$$<p>
+Thus there is a nonzero morphism $\mathcal F\to\mathcal G$ or $\mathcal G\to\mathcal F$. By irreducibility of $\mathcal F$, the former is injective and the latter is surjective. Since both local systems have rank $n$, either morphism is an isomorphism, proving physical rigidity.</p>
+<p>Now suppose that $\mathcal F$ is physically rigid. We show
+</p>
+$$\chi(X,j_*\mathrm{End}(\mathcal F))\ge2.$$<p>
+This suffices: by irreducibility, Schur's lemma gives $h^0(X,j_*\mathrm{End}(\mathcal F))=1$. By boundary exact sequence and Poincaré duality,
 </p>
 $$\begin{aligned}
-h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))=h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))
-\end{aligned}$$<p><span class="proof-mark" aria-hidden="true"></span></p>
+\mathrm H^2(X,j_*\mathrm{End}(\mathcal F))
+&\cong\mathrm H^2(X,j_!\mathrm{End}(\mathcal F)) &&\text{(boundary exact sequence)}\\
+&\cong\mathrm H_c^2(U,\mathrm{End}(\mathcal F)) &&\text{(compactness of }X\text{)}\\
+&\cong\mathrm H^0(U,\mathrm{End}(\mathcal F)^\vee)^\vee &&\text{(Poincaré duality)}\\
+&\cong\mathrm H^0(U,\mathrm{End}(\mathcal F))^\vee &&\text{(trace pairing)}\\
+&\cong\mathrm H^0(X,j_*\mathrm{End}(\mathcal F))^\vee &&\text{(definition of }j_*\text{)}\\
+&\cong\mathbb C^\vee &&\text{(Schur's lemma)}\\
+&\cong\mathbb C.
+\end{aligned}$$<p>
+Hence
+</p>
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=2-h^1(X,j_*\mathrm{End}(\mathcal F))\le2.$$<p>Choose an ordering $s_1,\ldots,s_m$ of the punctures and based loops $c_i$ around them such that
+</p>
+$$\pi_1(U,u)\cong\langle c_1,\ldots,c_m\mid c_1\cdots c_m=1\rangle.$$<p>
+The local system $\mathcal F$ corresponds to matrices $A_i\in\mathrm{GL}_n(\mathbb C)$ satisfying $A_1\cdots A_m=I$. Another rank-$n$ local system, represented by matrices $D_i$ with product $I$, has the same local monodromies precisely when each $D_i$ is conjugate to $A_i$, say
+</p>
+$$D_i=B_iA_iB_i^{-1}.$$<p>
+The two local systems are isomorphic precisely when there is a single matrix $C$ with $D_i=CA_iC^{-1}$ for every $i$. Multiplying $C$ by a scalar does not change conjugation, so we may require $\det C=1$. Thus physical rigidity says that whenever
+</p>
+$$\prod_{i=1}^m B_iA_iB_i^{-1}=I,$$<p>
+there exists $C\in\mathrm{SL}_n(\mathbb C)$ such that
+</p>
+$$CA_iC^{-1}=B_iA_iB_i^{-1}\qquad\text{for every }i.$$<p>Let $\mathfrak z(A_i)$ be the algebra of matrices in $M_n(\mathbb C)$ commuting with $A_i$, and let $Z(A_i)$ be its group of invertible elements. Since local monodromy acts on $\mathrm{End}(\mathcal F)$ by conjugation, its invariant subspace at $s_i$ is $\mathfrak z(A_i)$. By <span class="yh-ref" data-ref-kind="math" data-ref-id="euler">⟦ref:euler⟧</span>,
+</p>
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim_{\mathbb C}\mathfrak z(A_i).$$<p>
+The group $Z(A_i)$ is a nonempty open subset of the vector space $\mathfrak z(A_i)$, defined by the nonvanishing of the determinant. Consequently $\dim Z(A_i)=\dim_{\mathbb C}\mathfrak z(A_i)$, and
+</p>
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i).$$<p>Consider $Y=(\mathrm{GL}_n(\mathbb C))^m$ and the map
+</p>
+$$\pi:Y\longrightarrow\mathrm{SL}_n(\mathbb C),\qquad
+(B_1,\ldots,B_m)\longmapsto\prod_{i=1}^m B_iA_iB_i^{-1},$$<p>
+where the factors are ordered by $i$. Its values have determinant $\prod_i\det A_i=1$. The group
+</p>
+$$G:=\mathrm{SL}_n(\mathbb C)\times\prod_i Z(A_i)$$<p>
+acts on $Y$ by
+</p>
+$$(C,Z_1,\ldots,Z_m)\cdot(B_1,\ldots,B_m)
+=(CB_1Z_1^{-1},\ldots,CB_mZ_m^{-1}),$$<p>
+and on $\mathrm{SL}_n(\mathbb C)$ by conjugation through $C$. The map $\pi$ is equivariant for these actions. Since $I$ is fixed under conjugation, the fibre $\pi^{-1}(I)$ is preserved by $G$.</p>
+<p>The matrix characterization of physical rigidity says exactly that $G$ acts transitively on $\pi^{-1}(I)$. Indeed, for a point $(B_i)$ of the fibre, choose the simultaneous conjugating matrix $C$ above. Then $Z_i:=B_i^{-1}C$ commutes with $A_i$, and $B_i=CZ_i^{-1}$, so $(B_i)$ lies in the orbit of $(I,\ldots,I)$. Conversely, membership in this orbit gives simultaneous conjugacy. Therefore
+</p>
+$$\dim G\ge\dim\pi^{-1}(I).$$<p>Since $\mathrm{SL}_n(\mathbb C)$ is smooth of dimension $n^2-1$, the point $I$ is locally defined by $n^2-1$ equations. Pulling them back by $\pi$, each irreducible component $W$ of the fibre satisfies
+</p>
+$$\dim W\ge\dim Y-(n^2-1).$$<p>
+The fibre is nonempty, as it contains $(I,\ldots,I)$. Thus
+</p>
+$$\dim G\ge\dim\pi^{-1}(I)\ge\dim Y-(n^2-1).$$<p>
+Substituting $\dim Y=mn^2$ and $\dim G=(n^2-1)+\sum_i\dim Z(A_i)$ gives
+</p>
+$$(n^2-1)+\sum_i\dim Z(A_i)\ge mn^2-(n^2-1),$$<p>
+or
+</p>
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i)\ge2.$$<p>
+Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathrm{End}(\mathcal F))=2$.<span class="proof-mark" aria-hidden="true"></span></p>
 
   </div>
 </div>
@@ -463,6 +570,11 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
+  <li data-bib-key="Bro82">
+  <span id="bib-Bro82" class="bib-label">[Bro82]</span>
+  <span class="bib-entry">Kenneth S. Brown. <em>Cohomology of Groups</em>. Graduate Texts in Mathematics. Vol. 87. Springer-Verlag. 1982. <a href="https://doi.org/10.1007/978-1-4684-9327-6">doi:10.1007/978-1-4684-9327-6</a>.</span>
+</li>
+
   <li data-bib-key="Kat96">
   <span id="bib-Kat96" class="bib-label">[Kat96]</span>
   <span class="bib-entry">Nicholas M. Katz. <em>Rigid Local Systems</em>. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.</span>

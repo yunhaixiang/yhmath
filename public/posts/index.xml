@@ -25,9 +25,9 @@
   ⟦cite:Rie57⟧
 &lt;/span&gt;. If there are no “accessory parameters”, we say this local system is &lt;em&gt;rigid&lt;/em&gt;, i.e. determiend by its local monodromies.&lt;/p&gt;
 &lt;h2 id=&#34;generalities-concerning-rigid-local-systems-over&#34;&gt;Generalities Concerning Rigid Local Systems over $\mathbb C$&lt;/h2&gt;
-&lt;p&gt;Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset and set $U:=X-S$ the open complement. For each base point $u$ on the complex manifold $U^{\mathrm{an}}$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.&lt;/p&gt;
+&lt;p&gt;Let $X$ be a smooth projective connected curve over $\mathbb C$ of genus $g$. Let $S\subseteq X(\mathbb C)$ a nonempty finite subset, and set $m=\#S$ and $U:=X-S$ the open complement. Henceforth, we write $X$ and $U$ for their analytifications $X^{\mathrm{an}}$ and $U^{\mathrm{an}}$; all local systems and cohomology are taken in the classical topology. For each base point $u$ on the complex manifold $U$, there is an equivalence of symmetric monoidal categories induced by the fibre functor $\mathcal F\mapsto \mathcal F_u$ where $\mathcal F$ is a local system on $U$.&lt;/p&gt;
 $$\mathrm{LocSys}_{\mathbb C}(U)\simeq^{\otimes} \mathrm{Rep}_{\mathbb C}(\pi_1(U,u))$$&lt;p&gt;All vector spaces and representations here are assumed finite dimensional. We say the local system is &lt;em&gt;irreducible&lt;/em&gt; if the corresponding representation is. For every singular point $s\in S$, the punctured neighborhood &lt;/p&gt;
-$$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathrm{an}})$$&lt;p&gt;has fundamental group $I(s)=\pi_1(D^*(s),u_s)=\mathbb Z$ called the &lt;em&gt;local inertia group&lt;/em&gt;, where $u_s$ is a chosen base point.&lt;/p&gt;
+$$D^*(s)=U\cap (\textrm{small disc around }s\textrm{ in }X)$$&lt;p&gt;has fundamental group $I(s)=\pi_1(D^*(s),u_s)=\mathbb Z$ called the &lt;em&gt;local inertia group&lt;/em&gt;, where $u_s$ is a chosen base point.&lt;/p&gt;
 &lt;div class=&#34;math-env style-defn&#34; 
     
      data-kind=&#34;definition&#34;
@@ -38,13 +38,13 @@ $$D^*(s)=U^{\mathrm{an}}\cap (\textrm{small disc around }s\textrm{ in }X^{\mathr
         data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    We say a local system $\mathcal F$ on $U^{\mathrm{an}}$ is &lt;em&gt;physically rigid&lt;/em&gt; if for every local system $\mathcal G$ on $U^{\mathrm{an}}$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
+    We say a local system $\mathcal F$ on $U$ is &lt;em&gt;physically rigid&lt;/em&gt; if for every local system $\mathcal G$ on $U$ with isomorphic local monodromy, i.e. there is isomorphism of local systems
 $\mathcal F|_{D^*(s)}\cong \mathcal G|_{D^*(s)}$
 for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U^{\mathrm{an}}$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X^{\mathrm{an}}$ (they correspond to characters of $\pi_1(X^{\mathrm{an}})^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U^{\mathrm{an}}\to X^{\mathrm{an}}$ be the inclusion. The pushforward $j_*:\pi_1(U^{\mathrm{an}},u)\rightarrow \pi_1(X^{\mathrm{an}},u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U^{\mathrm{an}})$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.&lt;/p&gt;
+&lt;p&gt;However, physically rigid is a notion that only works for genus $0$. If $g(X)\ge 1$, then no local system on $U$ is physically rigid. Let $\mathcal L$ be a rank $1$ local system on $X$ (they correspond to characters of $\pi_1(X)^{\mathrm{ab}}\cong \mathbb Z^{2g}$) no tensor power of which is trivial. Let $j:U\to X$ be the inclusion. The pushforward $j_*:\pi_1(U,u)\rightarrow \pi_1(X,u)$ is surjective, so no tensor power of $j^*\mathcal L$ is trivial, and it has trivial local monodromy. Thus $\mathcal F$ and $\mathcal F\otimes j^*\mathcal L$ have isomorphic local monodromy for any $\mathcal F\in\mathrm{LocSys}_{\mathbb C}(U)$. Suppose $\mathcal F\cong \mathcal F\otimes j^*\mathcal L$ then $\mathrm{det}(\mathcal F)\cong \mathrm{det}(\mathcal F\otimes j^*\mathcal L)\cong \mathrm{det}(\mathcal F)\otimes (j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}$. By tensoring both sides with $\mathrm{det}(\mathcal F)^\lor$, we have $(j^*\mathcal L)^{\otimes\mathrm{rank}(\mathcal F)}=\underline{\mathbb C}$, which is a contradiction. Hence $\mathcal F=0$. Hence no nonzero local system is physically rigid when $g\ge 1$.&lt;/p&gt;
 &lt;h2 id=&#34;numerical-criterion-for&#34;&gt;Numerical Criterion for $\mathbb P^1$&lt;/h2&gt;
 &lt;p&gt;Use same notation as above.&lt;/p&gt;
 &lt;div class=&#34;math-env style-plain&#34; 
@@ -57,8 +57,11 @@ for each $s\in S$, there is $\mathcal F\cong \mathcal G$.
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    Let $Y$ be a connected manifold with contractible universal cover and $u\in Y$. For any complex local system $\mathcal H$, monodromy gives natural isomorphisms
-$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0$.
+    &lt;p&gt;Let $Y$ be a connected complex manifold with contractible universal cover, let $u\in Y$, and put $\Gamma=\pi_1(Y,u)$. For any local system $\mathcal H$ of finite-dimensional complex vector spaces on $Y$, there are $\mathbb C$-linear isomorphisms, natural in $\mathcal H$,
+&lt;/p&gt;
+$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\Gamma,\mathcal H_u)\qquad(q\ge0),$$&lt;p&gt;
+where $\Gamma$ acts on the stalk $\mathcal H_u$ by monodromy and the left-hand side is sheaf cohomology in the classical topology.&lt;/p&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -73,25 +76,10 @@ $\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q(\pi_1(Y,u),\mathcal H_u)$ for $q\ge 0
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $p:\widetilde Y\to Y$ be the universal cover, put $\Gamma=\pi_1(Y,u)$ and $R=\mathbb C[\Gamma]$, and give $V=\mathcal H_u$ its monodromy action $\rho$. We will compute both cohomology groups using the same cochain complex.&lt;/p&gt;
-&lt;p&gt;First consider the singular chains $C_q=C_q(\widetilde Y;\mathbb C)$. This is the complex vector space with basis the singular simplices $\sigma:\Delta^q\to\widetilde Y$. Deck transformations give it a left $R$-module structure by $\gamma\cdot\sigma=\gamma\circ\sigma$. This action is free on the set of simplices: if a deck transformation fixes a simplex, it fixes a point of $\widetilde Y$, so it is the identity. Choosing one simplex from each orbit therefore gives an $R$-basis of $C_q$. Thus every $C_q$ is a free $R$-module.&lt;/p&gt;
-&lt;p&gt;The boundary maps commute with deck transformations, so the augmented singular chain complex
-&lt;/p&gt;
-$$\cdots\longrightarrow C_2\xrightarrow{\partial_2}C_1\xrightarrow{\partial_1}C_0\xrightarrow{\varepsilon}\mathbb C\longrightarrow0$$&lt;p&gt;
-is a complex of $R$-modules. Here $\varepsilon$ sums the coefficients of a $0$-chain, and $\mathbb C$ has the trivial $\Gamma$-action. Since $\widetilde Y$ is contractible, its positive-degree homology vanishes and $\mathrm H_0(\widetilde Y;\mathbb C)\cong\mathbb C$. Consequently this augmented complex is exact, hence a free resolution of the trivial $R$-module $\mathbb C$.&lt;/p&gt;
-&lt;p&gt;By the definition $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_R(\mathbb C,V)$, group cohomology is therefore computed by
-&lt;/p&gt;
-$$0\longrightarrow\mathrm{Hom}_R(C_0,V)\xrightarrow{d^0}\mathrm{Hom}_R(C_1,V)\xrightarrow{d^1}\mathrm{Hom}_R(C_2,V)\longrightarrow\cdots,$$&lt;p&gt;
-where $d^q(f)=f\circ\partial_{q+1}$.&lt;/p&gt;
-&lt;p&gt;We now identify this with the singular cochain complex on $Y$ with local coefficients in $\mathcal H$. Choose a lift of $u$ to $\widetilde Y$. Parallel transport upstairs trivializes $p^*\mathcal H$, because $\widetilde Y$ is simply connected, identifying its fibres with $V$. Thus cochains upstairs assign vectors in $V$ to singular simplices. To describe local coefficients downstairs, the values on different lifts must agree through the monodromy identifications. With compatible conventions for the deck and monodromy actions, this condition is
-&lt;/p&gt;
-$$f(\gamma\cdot\sigma)=\rho(\gamma)f(\sigma).$$&lt;p&gt;
-It says precisely that the linear map $f:C_q\to V$ is $R$-linear. Indeed, each simplex in $Y$ lifts to $\widetilde Y$, and its lifts form one $\Gamma$-orbit, so an equivariant assignment is determined by its value on any one lift. The coboundary is induced by the same alternating face maps, giving the cochain complex $\mathrm{Hom}_R(C_\bullet,V)$ above.&lt;/p&gt;
-&lt;p&gt;On a manifold, singular cohomology with local coefficients agrees with sheaf cohomology of the local system. Hence
-&lt;/p&gt;
-$$\mathrm H^q(Y,\mathcal H)\cong\mathrm H^q\!\left(\mathrm{Hom}_R(C_\bullet,V)\right)\cong\mathrm H^q(\Gamma,V).$$&lt;p&gt;
-These identifications respect morphisms of local systems, so they are natural in $\mathcal H$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
-
+    See &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Bro82&#34; data-cite-note=&#34;Chapter III, §1, p. 59&#34;&gt;
+⟦cite:Bro82⟧
+&lt;/span&gt;.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -105,9 +93,9 @@ These identifications respect morphisms of local systems, so they are natural in
         data-label=&#39;Lemma&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Euler–Poincaré)&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;For any local system $\mathcal H$ on $U^{\mathrm{an}}$,
+    &lt;p&gt;For any local system $\mathcal H$ on $U$ of rank $r$,
 &lt;/p&gt;
-$$\chi(X^{\mathrm{an}},j_*\mathcal H)=\chi(U^{\mathrm an}, \underline{\mathbb C})\,\mathrm{rank}(\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$&lt;p&gt;
+$$\chi(X,j_*\mathcal H)=\chi(U,\mathcal H)+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}=(2-2g-m)r+\sum_{s\in S}\mathrm{dim}_{\mathbb C}\mathcal H^{I(s)}$$&lt;p&gt;
 where $\mathcal H^{I(s)}$ is the local inertia invariant subspace
 &lt;/p&gt;
 $$\mathcal H^{I(s)}:=\{v\in \mathcal H_{u_s}:\gamma v=v, \textrm{for\ all\ }\gamma\in I(s)\}$$&lt;p&gt;
@@ -127,9 +115,9 @@ where the action of $I(s)$ inherits from that of $\mathcal H$.&lt;/p&gt;
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Put $m=\#S\ge 1$ and $N=2g+m-1$. Let $s\in S$ and set $V=\mathcal H_{u_s}$. The fundamental group has the presentation
+    &lt;p&gt;Let $N=2g+m-1$. Let $s\in S$ and set $V=\mathcal H_{u_s}$. The fundamental group has the presentation
 &lt;/p&gt;
-$$\Gamma:=\pi_1(U^{\mathrm{an}},u_s)\cong\left\langle a_1,b_1,\ldots,a_g,b_g,c_1,\ldots,c_m\;\middle|\;\prod_{i=1}^g[a_i,b_i]\,c_1\cdots c_m=1\right\rangle,$$&lt;p&gt;
+$$\Gamma:=\pi_1(U,u_s)\cong\left\langle a_1,b_1,\ldots,a_g,b_g,c_1,\ldots,c_m\;\middle|\;\prod_{i=1}^g[a_i,b_i]\,c_1\cdots c_m=1\right\rangle,$$&lt;p&gt;
 where the $a_i,b_i$ are the handle generators, and each $c_j$ are loops around $j$-th puncture.
 Since there is only one relation, we may choose free generators $x_1,\ldots,x_N$, so that $\Gamma\cong\mathrm F_N=\langle x_1,\ldots,x_N\rangle$.
 Set $\rho:\Gamma\rightarrow\mathrm{GL}(V)$ the monodromy representation and define $A_i=\rho(x_i)$ for each $i$.
@@ -138,11 +126,52 @@ There is a free resolution of the trivial left $\mathbb C[\Gamma]$-module $\math
 $$0\to \mathbb C[\Gamma]^N\xrightarrow{\partial} \mathbb C[\Gamma]\xrightarrow{\varepsilon} \mathbb C\to 0$$&lt;p&gt;
 where
 $\varepsilon\!\left(\gamma\right)=1$ for each $\gamma\in\Gamma$
-and $\partial(e_i)=x_i-1$, where $e_i$ is the $i$-th standard basis element of $\mathbb C[\Gamma]^N$. To justify exactness, note that $\varepsilon(\partial(\gamma e_i))=\varepsilon(\gamma (x_i-1))=1-1=0$ so $\mathrm{Im}(\partial)\subseteq\mathrm{Ker}(\varepsilon)$; for the reverse inclusion, suppose that $a\in \sum_\gamma c_\gamma\gamma\in \mathrm{Ker}(\varepsilon)$, we have $\sum_\gamma c_\gamma=0$ so $a=\sum_{\gamma}c_{\gamma}(\gamma-1)=\partial\left(\sum_{\gamma}c_\gamma p_\gamma\right)$ where $p_\gamma$ is a linear combination representing a path in the Cayley graph of $\Gamma$ connecting $1$ and $\gamma$. Next, we use &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;groupcoh&#34;&gt;⟦ref:groupcoh⟧&lt;/span&gt;.
+and $\partial(e_i)=x_i-1$, where $e_i$ is the $i$-th standard basis element of $\mathbb C[\Gamma]^N$. To justify exactness, note that $\varepsilon(\partial(\gamma e_i))=\varepsilon(\gamma (x_i-1))=1-1=0$ so $\mathrm{Im}(\partial)\subseteq\mathrm{Ker}(\varepsilon)$; for the reverse inclusion, suppose that $a=\sum_\gamma c_\gamma\gamma\in \mathrm{Ker}(\varepsilon)$, we have $\sum_\gamma c_\gamma=0$ so $a=\sum_{\gamma}c_{\gamma}(\gamma-1)=\partial\left(\sum_{\gamma}c_\gamma p_\gamma\right)$ where $p_\gamma\in\mathbb C[\Gamma]^N$ is defined as follows. Write the reduced word
+&lt;/p&gt;
+$$\gamma=x_{i_1}^{\epsilon_1}\cdots x_{i_k}^{\epsilon_k},\qquad \epsilon_j\in\{1,-1\},$$&lt;p&gt;
+and let $w_0=1$ and $w_j=x_{i_1}^{\epsilon_1}\cdots x_{i_j}^{\epsilon_j}$ be its prefixes. Set
+&lt;/p&gt;
+$$p_\gamma:=\sum_{\epsilon_j=1}w_{j-1}e_{i_j}-\sum_{\epsilon_j=-1}w_je_{i_j},\qquad p_1:=0.$$&lt;p&gt;
+Here $we_i$ represents the oriented edge from $w$ to $wx_i$ in the Cayley graph. Thus a positive letter contributes $w_{j-1}e_{i_j}$, while a negative letter traverses the edge from $w_j$ to $w_jx_{i_j}=w_{j-1}$ backwards and contributes $-w_je_{i_j}$. Either way its boundary is $w_j-w_{j-1}$, so
+&lt;/p&gt;
+$$\partial p_\gamma=\sum_{j=1}^k(w_j-w_{j-1})=w_k-w_0=\gamma-1.$$&lt;p&gt;Next, we use &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;groupcoh&#34;&gt;⟦ref:groupcoh⟧&lt;/span&gt;.
 To compute $\mathrm H^q(\Gamma,V)=\mathrm{Ext}^q_{\mathbb C[\Gamma]}(\mathbb C,V)$, we apply $\mathrm{Hom}_{\mathbb C[\Gamma]}(-,V)$ and get
 &lt;/p&gt;
 $$0\to \mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma], V)\cong V\xrightarrow{d}\mathrm{Hom}_{\mathbb C[\Gamma]}(\mathbb C[\Gamma]^N, V)\cong V^N \to 0$$&lt;p&gt;
-where $d$&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+where $d(v)=((A_1-I)v,\ldots,(A_N-I)v)$. Indeed, under the identifications $f\mapsto f(1)$ and $h\mapsto(h(e_1),\ldots,h(e_N))$, the map $d$ is precomposition with $\partial$, so its $i$-th component is $(f\circ\partial)(e_i)=f(x_i-1)=A_i f(1)-f(1)$.&lt;/p&gt;
+&lt;p&gt;Thus $\mathrm H^0(U,\mathcal H)\cong\ker d$ and $\mathrm H^1(U,\mathcal H)\cong\operatorname{coker}d$, while $\mathrm H^q(U,\mathcal H)=0$ for $q\ge2$. Put $t=\dim_{\mathbb C}\operatorname{im}d$. By rank-nullity, $\dim\ker d=r-t$ and $\dim\operatorname{coker}d=Nr-t$. Therefore
+&lt;/p&gt;
+$$\begin{aligned}
+\chi(U,\mathcal H)
+&amp;=\dim\ker d-\dim\operatorname{coker}d\\
+&amp;=(r-t)-(Nr-t)\\
+&amp;=(1-N)r\\
+&amp;=(2-2g-m)r.
+\end{aligned}$$&lt;p&gt;We next compute the compactly supported Euler characteristic $\chi_c(U,\mathcal H)$. Poincaré duality gives
+&lt;/p&gt;
+$$\mathrm H_c^q(U,\mathcal H)\cong\mathrm H^{2-q}(U,\mathcal H^\vee)^\vee,$$&lt;p&gt;
+where $\mathcal H^\vee$ is the dual local system. Taking dimensions and reindexing by $k=2-q$, we obtain
+&lt;/p&gt;
+$$\begin{aligned}
+\chi_c(U,\mathcal H)
+&amp;=\sum_{q=0}^2(-1)^q\dim_{\mathbb C}\mathrm H^{2-q}(U,\mathcal H^\vee)\\
+&amp;=\sum_{k=0}^2(-1)^k\dim_{\mathbb C}\mathrm H^k(U,\mathcal H^\vee)\\
+&amp;=\chi(U,\mathcal H^\vee)\\
+&amp;=(2-2g-m)r=\chi(U,\mathcal H).
+\end{aligned}$$&lt;p&gt;Finally, let $i_s:\{s\}\hookrightarrow X$ be the inclusion of a puncture. There is a short exact sequence
+&lt;/p&gt;
+$$0\longrightarrow j_!\mathcal H\longrightarrow j_*\mathcal H\longrightarrow\bigoplus_{s\in S}i_{s*}\mathcal H^{I(s)}\longrightarrow0,$$&lt;p&gt;
+where $j_!$ denotes extension by zero and the last map takes germs at the punctures. Exactness can be checked on stalks: on $U$, the first map is the identity; at $s\in S$, we have $(j_!\mathcal H)_s=0$ and $(j_*\mathcal H)_s\cong\mathcal H^{I(s)}$. Indeed, a section on a sufficiently small punctured disc is determined by a vector fixed by transport around the puncture.
+Since $X$ is compact, $\mathrm H^q(X,j_!\mathcal H)\cong\mathrm H_c^q(U,\mathcal H)$. Each skyscraper sheaf $i_{s*}\mathcal H^{I(s)}$ has global sections $\mathcal H^{I(s)}$ and no higher cohomology. Taking the alternating sum of dimensions in the associated long exact cohomology sequence therefore gives
+&lt;/p&gt;
+$$\begin{aligned}
+\chi(X,j_*\mathcal H)
+&amp;=\chi(X,j_!\mathcal H)+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)}\\
+&amp;=\chi_c(U,\mathcal H)+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)}\\
+&amp;=\chi(U,\mathcal H)+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)}\\
+&amp;=(2-2g-m)r+\sum_{s\in S}\dim_{\mathbb C}\mathcal H^{I(s)},
+\end{aligned}$$&lt;p&gt;
+as required.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -158,7 +187,7 @@ where $d$&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/
         data-label=&#39;Theorem&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U^{\mathrm{an}}$ is physically rigid iff $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$
+    An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U$ is physically rigid iff $\chi(X,j_*\mathrm{End}(\mathcal F) )=2$
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -173,11 +202,89 @@ where $d$&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/
           data-label=&#39;Proof&#39;&gt;&lt;/span&gt;
   &lt;/span&gt;
   &lt;div class=&#34;math-body&#34;&gt;
-    &lt;p&gt;Let $\chi((\mathbb P^1)^{\mathrm{an}},j_*\mathrm{End}(\mathcal F) )=2$ and  $\mathcal G$ a local system on $U^{\mathrm an}$ with isomorphic local monodromy with $\mathcal F$. We will show $\mathcal F\cong \mathcal G$. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;euler&#34;&gt;⟦ref:euler⟧&lt;/span&gt;, if two local systems $\mathcal H_1,\mathcal H_2$ have isomorphic local monodromy then $\chi(X^{\mathrm{an}},j_*\mathcal H_1)=\chi(X^{\mathrm{an}},j_*\mathcal H_2)$. Applying this to $\mathcal H_1=\mathrm{End}(\mathcal F)$ and $\mathcal H_2=\mathrm{Hom}(\mathcal F,\mathcal G)$, we have $\chi\!\left(X^{\mathrm{an}},j_*\mathrm{End}(\mathcal F)\right)=\chi\!\left(X^{\mathrm{an}},j_*\mathrm{Hom}(\mathcal F,\mathcal G)\right)=2$. Thus
+    &lt;p&gt;We follow &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Kat96&#34; data-cite-note=&#34;Theorem 1.1.2&#34;&gt;
+⟦cite:Kat96⟧
+&lt;/span&gt;, writing $n=\mathrm{rank}(\mathcal F)$ and $h^q=\dim_{\mathbb C}\mathrm H^q$.
+Suppose first that $\chi(X,j_*\mathrm{End}(\mathcal F))=2$, and let $\mathcal G$ be any complex local system on $U$ with the same local monodromies as $\mathcal F$. Since $S\ne\varnothing$, this implies $\mathrm{rank}(\mathcal G)=\mathrm{rank}(\mathcal F)=n$. We will show that $\mathcal F\cong\mathcal G$. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;euler&#34;&gt;⟦ref:euler⟧&lt;/span&gt;, local systems $\mathcal H_1$ and $\mathcal H_2$ with isomorphic local monodromy have
+$\chi(X,j_*\mathcal H_1)=\chi(X,j_*\mathcal H_2).$
+Apply this to $\mathcal H_1=\mathrm{End}(\mathcal F)$ and $\mathcal H_2=\mathrm{Hom}(\mathcal F,\mathcal G)$, whose local monodromies are isomorphic. It follows that
+&lt;/p&gt;
+$$\chi(X,j_*\mathrm{Hom}(\mathcal F,\mathcal G))=\chi(X,j_*\mathrm{End}(\mathcal F))=2.$$&lt;p&gt;
+On a curve, $\chi=h^0-h^1+h^2\le h^0+h^2$, hence
+&lt;/p&gt;
+$$h^0(X,j_*\mathrm{Hom}(\mathcal F,\mathcal G))+h^2(X,j_*\mathrm{Hom}(\mathcal F,\mathcal G))\ge2.$$&lt;p&gt;
+Rewriting in terms of ordinary and compactly supported cohomology on $U$ gives
+&lt;/p&gt;
+$$h^0(U,\mathrm{Hom}(\mathcal F,\mathcal G))+h_c^2(U,\mathrm{Hom}(\mathcal F,\mathcal G))\ge2.$$&lt;p&gt;
+[To explain the rewriting of the second term, put $\mathcal K=\mathrm{Hom}(\mathcal F,\mathcal G)$. The boundary exact sequence &lt;/p&gt;
+$$0\to j_!\mathcal K\to j_*\mathcal K\to Q\to0$$&lt;p&gt; has skyscraper quotient $Q$, so $\mathrm H^1(X,Q)=\mathrm H^2(X,Q)=0$. By its long exact cohomology sequence $\mathrm H^2(X,j_!\mathcal K)\cong\mathrm H^2(X,j_*\mathcal K)$. Since $X$ is compact, $\mathrm H^2(X,j_!\mathcal K)\cong\mathrm H_c^2(U,\mathcal K)$.] Poincaré duality, together with the trace-pairing identification $\mathrm{Hom}(\mathcal F,\mathcal G)^\vee\cong\mathrm{Hom}(\mathcal G,\mathcal F)$, gives
+$\mathrm H_c^2(U,\mathrm{Hom}(\mathcal F,\mathcal G))^\vee
+\cong\mathrm H^0(U,\mathrm{Hom}(\mathcal G,\mathcal F)),$
+so
+&lt;/p&gt;
+$$h^0(U,\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U,\mathrm{Hom}(\mathcal G,\mathcal F))\ge2.$$&lt;p&gt;
+Thus there is a nonzero morphism $\mathcal F\to\mathcal G$ or $\mathcal G\to\mathcal F$. By irreducibility of $\mathcal F$, the former is injective and the latter is surjective. Since both local systems have rank $n$, either morphism is an isomorphism, proving physical rigidity.&lt;/p&gt;
+&lt;p&gt;Now suppose that $\mathcal F$ is physically rigid. We show
+&lt;/p&gt;
+$$\chi(X,j_*\mathrm{End}(\mathcal F))\ge2.$$&lt;p&gt;
+This suffices: by irreducibility, Schur&#39;s lemma gives $h^0(X,j_*\mathrm{End}(\mathcal F))=1$. By boundary exact sequence and Poincaré duality,
 &lt;/p&gt;
 $$\begin{aligned}
-h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))=h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal G,\mathcal F))
-\end{aligned}$$&lt;p&gt;&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+\mathrm H^2(X,j_*\mathrm{End}(\mathcal F))
+&amp;\cong\mathrm H^2(X,j_!\mathrm{End}(\mathcal F)) &amp;&amp;\text{(boundary exact sequence)}\\
+&amp;\cong\mathrm H_c^2(U,\mathrm{End}(\mathcal F)) &amp;&amp;\text{(compactness of }X\text{)}\\
+&amp;\cong\mathrm H^0(U,\mathrm{End}(\mathcal F)^\vee)^\vee &amp;&amp;\text{(Poincaré duality)}\\
+&amp;\cong\mathrm H^0(U,\mathrm{End}(\mathcal F))^\vee &amp;&amp;\text{(trace pairing)}\\
+&amp;\cong\mathrm H^0(X,j_*\mathrm{End}(\mathcal F))^\vee &amp;&amp;\text{(definition of }j_*\text{)}\\
+&amp;\cong\mathbb C^\vee &amp;&amp;\text{(Schur&#39;s lemma)}\\
+&amp;\cong\mathbb C.
+\end{aligned}$$&lt;p&gt;
+Hence
+&lt;/p&gt;
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=2-h^1(X,j_*\mathrm{End}(\mathcal F))\le2.$$&lt;p&gt;Choose an ordering $s_1,\ldots,s_m$ of the punctures and based loops $c_i$ around them such that
+&lt;/p&gt;
+$$\pi_1(U,u)\cong\langle c_1,\ldots,c_m\mid c_1\cdots c_m=1\rangle.$$&lt;p&gt;
+The local system $\mathcal F$ corresponds to matrices $A_i\in\mathrm{GL}_n(\mathbb C)$ satisfying $A_1\cdots A_m=I$. Another rank-$n$ local system, represented by matrices $D_i$ with product $I$, has the same local monodromies precisely when each $D_i$ is conjugate to $A_i$, say
+&lt;/p&gt;
+$$D_i=B_iA_iB_i^{-1}.$$&lt;p&gt;
+The two local systems are isomorphic precisely when there is a single matrix $C$ with $D_i=CA_iC^{-1}$ for every $i$. Multiplying $C$ by a scalar does not change conjugation, so we may require $\det C=1$. Thus physical rigidity says that whenever
+&lt;/p&gt;
+$$\prod_{i=1}^m B_iA_iB_i^{-1}=I,$$&lt;p&gt;
+there exists $C\in\mathrm{SL}_n(\mathbb C)$ such that
+&lt;/p&gt;
+$$CA_iC^{-1}=B_iA_iB_i^{-1}\qquad\text{for every }i.$$&lt;p&gt;Let $\mathfrak z(A_i)$ be the algebra of matrices in $M_n(\mathbb C)$ commuting with $A_i$, and let $Z(A_i)$ be its group of invertible elements. Since local monodromy acts on $\mathrm{End}(\mathcal F)$ by conjugation, its invariant subspace at $s_i$ is $\mathfrak z(A_i)$. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;euler&#34;&gt;⟦ref:euler⟧&lt;/span&gt;,
+&lt;/p&gt;
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim_{\mathbb C}\mathfrak z(A_i).$$&lt;p&gt;
+The group $Z(A_i)$ is a nonempty open subset of the vector space $\mathfrak z(A_i)$, defined by the nonvanishing of the determinant. Consequently $\dim Z(A_i)=\dim_{\mathbb C}\mathfrak z(A_i)$, and
+&lt;/p&gt;
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i).$$&lt;p&gt;Consider $Y=(\mathrm{GL}_n(\mathbb C))^m$ and the map
+&lt;/p&gt;
+$$\pi:Y\longrightarrow\mathrm{SL}_n(\mathbb C),\qquad
+(B_1,\ldots,B_m)\longmapsto\prod_{i=1}^m B_iA_iB_i^{-1},$$&lt;p&gt;
+where the factors are ordered by $i$. Its values have determinant $\prod_i\det A_i=1$. The group
+&lt;/p&gt;
+$$G:=\mathrm{SL}_n(\mathbb C)\times\prod_i Z(A_i)$$&lt;p&gt;
+acts on $Y$ by
+&lt;/p&gt;
+$$(C,Z_1,\ldots,Z_m)\cdot(B_1,\ldots,B_m)
+=(CB_1Z_1^{-1},\ldots,CB_mZ_m^{-1}),$$&lt;p&gt;
+and on $\mathrm{SL}_n(\mathbb C)$ by conjugation through $C$. The map $\pi$ is equivariant for these actions. Since $I$ is fixed under conjugation, the fibre $\pi^{-1}(I)$ is preserved by $G$.&lt;/p&gt;
+&lt;p&gt;The matrix characterization of physical rigidity says exactly that $G$ acts transitively on $\pi^{-1}(I)$. Indeed, for a point $(B_i)$ of the fibre, choose the simultaneous conjugating matrix $C$ above. Then $Z_i:=B_i^{-1}C$ commutes with $A_i$, and $B_i=CZ_i^{-1}$, so $(B_i)$ lies in the orbit of $(I,\ldots,I)$. Conversely, membership in this orbit gives simultaneous conjugacy. Therefore
+&lt;/p&gt;
+$$\dim G\ge\dim\pi^{-1}(I).$$&lt;p&gt;Since $\mathrm{SL}_n(\mathbb C)$ is smooth of dimension $n^2-1$, the point $I$ is locally defined by $n^2-1$ equations. Pulling them back by $\pi$, each irreducible component $W$ of the fibre satisfies
+&lt;/p&gt;
+$$\dim W\ge\dim Y-(n^2-1).$$&lt;p&gt;
+The fibre is nonempty, as it contains $(I,\ldots,I)$. Thus
+&lt;/p&gt;
+$$\dim G\ge\dim\pi^{-1}(I)\ge\dim Y-(n^2-1).$$&lt;p&gt;
+Substituting $\dim Y=mn^2$ and $\dim G=(n^2-1)+\sum_i\dim Z(A_i)$ gives
+&lt;/p&gt;
+$$(n^2-1)+\sum_i\dim Z(A_i)\ge mn^2-(n^2-1),$$&lt;p&gt;
+or
+&lt;/p&gt;
+$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i)\ge2.$$&lt;p&gt;
+Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathrm{End}(\mathcal F))=2$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -185,6 +292,11 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li data-bib-key=&#34;Bro82&#34;&gt;
+  &lt;span id=&#34;bib-Bro82&#34; class=&#34;bib-label&#34;&gt;[Bro82]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Kenneth S. Brown. &lt;em&gt;Cohomology of Groups&lt;/em&gt;. Graduate Texts in Mathematics. Vol. 87. Springer-Verlag. 1982. &lt;a href=&#34;https://doi.org/10.1007/978-1-4684-9327-6&#34;&gt;doi:10.1007/978-1-4684-9327-6&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
+
   &lt;li data-bib-key=&#34;Kat96&#34;&gt;
   &lt;span id=&#34;bib-Kat96&#34; class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
   &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
@@ -221,7 +333,7 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
 &lt;li&gt;周三晚上：做周三晚餐 ～ 周六晚餐，共7顿&lt;/li&gt;
 &lt;li&gt;两次使用完全相同的食材、数量和流程&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;早餐固定为：2个水煮鸡蛋 + 混合水果 + Fibre 1 Crunchy Original 125 mL（半个标准量杯，干重约31 g）+ 脱脂奶&lt;/p&gt;
+&lt;p&gt;早餐固定为：2个水煮鸡蛋 + 混合水果 + 高纤维谷物早餐 125 mL（半杯，约31 g）+ 脱脂奶&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -244,42 +356,42 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;周日&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;混合蔬菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;全麦意面&lt;/td&gt;
-          &lt;td&gt;三文鱼 + 1个鸡蛋&lt;/td&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
-          &lt;td&gt;混合蔬菜&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;周二&lt;/td&gt;
-          &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二&lt;/td&gt;
+          &lt;td&gt;午餐&lt;/td&gt;
+          &lt;td&gt;白米饭&lt;/td&gt;
+          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;土豆泥&lt;/td&gt;
-          &lt;td&gt;三文鱼 + 1个鸡蛋&lt;/td&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
           &lt;td&gt;混合蔬菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;全麦意面&lt;/td&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -293,42 +405,42 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;混合蔬菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;全麦意面&lt;/td&gt;
-          &lt;td&gt;三文鱼 + 1个鸡蛋&lt;/td&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
-          &lt;td&gt;混合蔬菜&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;周五&lt;/td&gt;
-          &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td&gt;周五&lt;/td&gt;
+          &lt;td&gt;晚餐&lt;/td&gt;
+          &lt;td&gt;白米饭&lt;/td&gt;
+          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;土豆泥&lt;/td&gt;
-          &lt;td&gt;三文鱼 + 1个鸡蛋&lt;/td&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
           &lt;td&gt;混合蔬菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;全麦意面&lt;/td&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -340,6 +452,7 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;th&gt;食材&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;包装规格&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;购买频率&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;每次做菜取用&lt;/th&gt;
           &lt;th&gt;商品链接&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每周价格（CAD）&lt;/th&gt;
       &lt;/tr&gt;
@@ -349,290 +462,230 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;去骨去皮鸡大腿肉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;830 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2盒&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724&#34;&gt;Maple Leaf Boneless Skinless Chicken Thighs&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;14.88&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$14.88&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4块 / 盒，净重655 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/maple-leaf-boneless-pork-loin-centre-and-rib-chops/47O4DQO61CPA&#34;&gt;Maple Leaf Boneless Pork Loin Centre and Rib Chops&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;14.68&lt;/td&gt;
+          &lt;td&gt;熟虾仁&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;500 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Cooked-Pacific-White-Shrimp/6000196383010&#34;&gt;Great Value Cooked 71/90 Pacific White Shrimp&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$11.53&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;原味 Coho 三文鱼（Your Fresh Market）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;245 g / 盒（2块）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4盒 / 周，共980 g；每顿1盒&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/coho-salmon-portions-your-fresh-market/6000208252814&#34;&gt;Your Fresh Market Coho Salmon Portions&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;10.47 × 4 = 41.88&lt;/td&gt;
+          &lt;td&gt;Coho 三文鱼&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;320 g / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2盒&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814&#34;&gt;Your Fresh Market Coho Salmon Portions&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$43.52&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;牛排&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;300 g / 块&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1块 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2块 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1块&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD&#34;&gt;AA Striploin Steak&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;14.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$28.76&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡蛋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;18个 / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2盒&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613&#34;&gt;Gray Ridge Premium Large White 18 Eggs&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.33&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$7.33&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;脱脂奶（Skim Milk / 0% Milk）&lt;/td&gt;
+          &lt;td&gt;脱脂奶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2 L / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2瓶 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/natrel-fine-filtered-0-fat-free-skim-milk/10220046&#34;&gt;Natrel Fine-Filtered 0% Skim Milk&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;5.78 × 2 = 11.56&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$11.56&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;酸奶油细香葱味即食土豆泥（Betty Crocker Sour Cream &amp;amp; Chives）&lt;/td&gt;
+          &lt;td&gt;无糖无咖啡因汽水&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;355 mL × 12罐 / 箱&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1箱 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189&#34;&gt;Fresca Citrus 12 Pack&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$8.36&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;即食土豆泥&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;113 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO&#34;&gt;Betty Crocker Sour Cream &amp;amp; Chives&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1.99（按截图价格）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$1.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;Great Value Mixed Vegetables（冷冻混合蔬菜）&lt;/td&gt;
+          &lt;td&gt;冷冻混合蔬菜&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;750 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周，保持冷冻&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Frozen-Mixed-Vegetables/6000191274027&#34;&gt;Great Value Frozen Mixed Vegetables&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.54&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$3.54&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;227 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725&#34;&gt;Your Fresh Market Sliced Cremini Mushrooms&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.56 × 2 = 5.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$5.12&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;嫩菠菜（Baby Spinach）&lt;/td&gt;
+          &lt;td&gt;嫩菠菜&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;142 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1袋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL&#34;&gt;Your Fresh Market Baby Spinach 142 g&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.61 × 2 = 7.22&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$7.22&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;罐装番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;796 mL / 罐；沥干后按700 g估算&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2罐 / 周&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-No-Salt-Added-Diced-Tomatoes/10303608&#34;&gt;Great Value No Salt Added Diced Tomatoes 796 mL&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.07 × 2 = 4.14&lt;/td&gt;
+          &lt;td&gt;番茄泥（Passata）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;680 mL / 瓶&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1瓶 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2瓶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/fr/ip/Primo-Passata-di-Pomodoro-Coulis-de-Tomates-Sauce-pour-P-tes/6000188765042&#34;&gt;Primo Passata di Pomodoro&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.49&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;混合水果盘&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1.3 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497&#34;&gt;Your Fresh Market Extra Large Party Fruit Tray&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;16.77 × 2 = 33.54&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$33.54&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;全麦意面（Catelli Healthy Harvest Whole Wheat Spaghetti）&lt;/td&gt;
+          &lt;td&gt;全麦意面&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;375 g / 包&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周200 g，约1.88周一包&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;120 g干重&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Catelli-Whole-Grains-Spaghetti-Pasta/10299628&#34;&gt;Catelli Whole Grains Spaghetti&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.97 × 200 ÷ 375 ≈ 1.58&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$1.91&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;全麦卷饼皮（Dempster’s 100% Whole Wheat，Large；需冷冻）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;610 g / 袋（10张）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周2张，约5周一袋&lt;/td&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;610 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1张&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091&#34;&gt;Dempster’s 100% Whole Wheat Large Tortillas&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.97 × 2 ÷ 10 ≈ 0.79&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.79&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;白米（Great Value Long Grain White Rice）&lt;/td&gt;
+          &lt;td&gt;白米&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2 kg / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周约225 g干重，约8.9周一袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3/4杯&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1&#34;&gt;Great Value Long Grain White Rice&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4.98 × 225 ÷ 2000 ≈ 0.56&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.56&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;Fibre 1 Crunchy Original&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;587 g / 盒；每周约217 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;用完补，约2.7周一盒&lt;/td&gt;
+          &lt;td&gt;高纤维谷物早餐&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;587 g / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS&#34;&gt;Fibre One Crunchy Original 587 g&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4.87 × 217 ÷ 587 ≈ 1.80&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$1.80&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;黑胡椒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;85 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周3.75茶匙，约8.625 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Ground-Black-Pepper/10302291&#34;&gt;Great Value Ground Black Pepper&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.27 × 8.625 ÷ 85 ≈ 0.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蒜粉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;150 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周5茶匙，约15.5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Garlic-Powder/10304038&#34;&gt;Great Value Garlic Powder&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.27 × 15.5 ÷ 150 ≈ 0.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.23&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;洋葱粉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;150 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周4茶匙，约9.6 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Onion-Powder/10303684&#34;&gt;Great Value Onion Powder&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.27 × 9.6 ÷ 150 ≈ 0.15&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.11&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;红椒粉（paprika）&lt;/td&gt;
+          &lt;td&gt;红椒粉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;130 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周6茶匙，约13.8 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778&#34;&gt;Great Value Paprika&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.27 × 13.8 ÷ 130 ≈ 0.24&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.16&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;干牛至叶（oregano leaves）&lt;/td&gt;
+          &lt;td&gt;干牛至叶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;32 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周3茶匙，约3 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145&#34;&gt;Great Value Oregano Leaves&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.27 × 3 ÷ 32 ≈ 0.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.14&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;盐&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1 kg / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周2.75茶匙，约16.5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128&#34;&gt;Windsor Iodized Table Salt&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1.63 × 16.5 ÷ 1000 ≈ 0.03&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;特级初榨橄榄油（Terra Delyssa，突尼斯产）&lt;/td&gt;
+          &lt;td&gt;橄榄油&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1 L / 瓶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补；每周35 mL，约28.6周一瓶&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259&#34;&gt;Terra Delyssa Premium Extra Virgin Olive Oil&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;11.97 × 35 ÷ 1000 ≈ 0.42&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.42&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;乳清蛋白粉（DIESEL New Zealand Whey Protein，Vanilla Ice Cream）&lt;/td&gt;
+          &lt;td&gt;乳清蛋白粉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;908 g / 桶；1勺35 g粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;偶尔按需喝，每次1/4勺；用完补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/diesel-new-zealand-whey-protein-vanilla-ice-cream/6000197353191&#34;&gt;DIESEL Vanilla Ice Cream&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;不计固定周费用；39.98 / 桶，每次约0.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.00&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;每周平均合计&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;食材及调味料，不含偶尔喝的蛋白粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按消耗量摊算，未舍入值求和；未含税及配送等费用&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约166.51&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;流程表&#34;&gt;流程表&lt;/h3&gt;
-&lt;p&gt;用量：&lt;/p&gt;
-&lt;p&gt;以下调味量均对应这一次做菜的总量；1 茶匙 = 5 mL。油喷子完整按压 1 次约为 1/4 茶匙（1.25 mL）；1 茶匙约为 4 次完整按压。调味罐按中等力度短抖估算：小孔罐 1 下约为 1/24 茶匙；大孔罐 1 下约为 1/12 茶匙。&lt;/p&gt;
-&lt;table class=&#34;table-centered&#34;&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;食材&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;每次用量&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;按购买包装直接取&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;分成几顿&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约150 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2块&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;去骨去皮鸡大腿肉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约415 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Coho 三文鱼&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;490 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4块（2盒）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿，每顿2块（1盒）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2块（约327.5 g，去肥前）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿，每顿1块（平均约164 g，去肥前）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;鸡蛋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;9个&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;早餐 + 2顿正餐&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;酸奶油细香葱味即食土豆泥&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;56.5 g干粉（每顿约28 g）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋（113 g装）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;白米&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3/4 杯&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3/4 杯&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;全麦意面&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;100 g干重（每顿50 g）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;用秤称取100 g；dispenser 仅用于粗取，最小档实测90–109 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;全麦卷饼皮（即食）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1张（约61 g）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1张&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;冷冻混合蔬菜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;375 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋，剩余密封放回冷冻室&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿，每顿约188 g&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;227 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;嫩菠菜（Baby Spinach）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;142 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1顿&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;罐装番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;沥干后约700 g（每顿约350 g）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1罐&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2顿&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$186.18&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;并行做菜流程&#34;&gt;并行做菜流程&lt;/h3&gt;
-&lt;h4 id=&#34;阶段-1先启动所有耗时设备&#34;&gt;阶段 1：先启动所有耗时设备&lt;/h4&gt;
+&lt;p&gt;1茶匙 = 5 mL；喷油1下约1/4茶匙；调味罐短抖1下：小孔约1/24茶匙，大孔约1/12茶匙（均为估算）。&lt;/p&gt;
+&lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;烤箱预热至 400°F，需 15 分钟&lt;/li&gt;
-&lt;li&gt;空气炸锅预热至 400°F，需 5 分钟&lt;/li&gt;
-&lt;li&gt;鸡蛋煮锅加 1.5–2 L 水；意面煮锅加 2.5–3 L 水。两口锅盖盖并开最大火。&lt;/li&gt;
-&lt;li&gt;用电饭煲配套米杯量3/4杯白米，淘洗后放入电饭煲；水量按说明书对应米量调整，并确认不低于最小煮饭量。选择“白米／White Rice”模式后启动&lt;/li&gt;
+&lt;li&gt;烤箱预热至 400°F，需 15 分钟。&lt;/li&gt;
+&lt;li&gt;鸡蛋煮锅和意面煮锅加水，大火烧开。&lt;/li&gt;
+&lt;li&gt;白米淘洗用电饭煲开煮。&lt;/li&gt;
+&lt;li&gt;熟虾仁装防漏密封袋浸冷水解冻。&lt;/li&gt;
+&lt;li&gt;空气炸锅预热至 400°F，需 5 分钟。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;阶段-2处理肉类及调味&#34;&gt;阶段 2：处理肉类及调味&lt;/h4&gt;
+&lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;准备两个烘焙盘并铺上烘焙纸；再准备一个调味盆和一个干净砧板。&lt;/li&gt;
-&lt;li&gt;两块去骨猪排切掉边缘明显肥肉，再与鸡大腿肉分别用纸巾擦干，放到两个烘焙盘。四块 Coho 三文鱼擦干后放入调味盆；&lt;/li&gt;
-&lt;li&gt;按表调味：三文鱼在盆中，鸡大腿肉、猪排在烘焙盘上。&lt;/li&gt;
+&lt;li&gt;三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排。&lt;/li&gt;
+&lt;li&gt;按下表调味&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;顺序&lt;/th&gt;
           &lt;th&gt;食材&lt;/th&gt;
           &lt;th&gt;橄榄油&lt;/th&gt;
           &lt;th&gt;盐&lt;/th&gt;
@@ -645,9 +698,8 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1&lt;/td&gt;
-          &lt;td&gt;Coho 三文鱼（4块）&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙（2.5 mL）&lt;/td&gt;
+          &lt;td&gt;Coho 三文鱼&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
@@ -656,9 +708,8 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙（2.5 mL）&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
@@ -667,29 +718,28 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3&lt;/td&gt;
-          &lt;td&gt;去骨中段及肋部猪排&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙（2.5 mL）&lt;/td&gt;
+          &lt;td&gt;牛排&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;阶段-3炒锅以外开始并行烹调&#34;&gt;阶段 3：炒锅以外开始并行烹调&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;空气炸锅预热好后：四块 Coho 三文鱼单层摆放、不重叠，以 400°F 烹调，暂按8分钟检查；按厚度调整至中心达到&lt;a href=&#34;https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html&#34;&gt;158°F&lt;/a&gt;。放不下则分批，不因块数翻倍就把时间翻倍。&lt;/li&gt;
-&lt;li&gt;烤箱达到温度后：两盘同时入烤箱。猪排计时烤 15 分钟；鸡大腿肉计时烤 25 分钟。&lt;/li&gt;
-&lt;li&gt;鸡蛋煮锅水沸腾后：放入鸡蛋，计时8分钟。&lt;/li&gt;
-&lt;li&gt;意面煮锅水沸腾后：放入全麦意面，暂按10分钟，具体以包装时间为准。&lt;/li&gt;
-&lt;li&gt;冷冻混合蔬菜无需解冻，倒入微波炉适用容器，按包装对应分量的加水、加盖及时间说明充分做熟；拌入1/4茶匙蒜粉、1/8茶匙黑胡椒。均分到第 4、6 顿餐盒。&lt;/li&gt;
-&lt;li&gt;微波炉土豆泥：用微波炉做土豆泥。分到第 1、6 顿餐盒。&lt;/li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;三文鱼：Air fry 400°F 8 分钟。&lt;/li&gt;
+&lt;li&gt;鸡大腿肉烤 25 分钟。&lt;/li&gt;
+&lt;li&gt;牛排烤 8 分钟，4 分钟时翻面。&lt;/li&gt;
+&lt;li&gt;鸡蛋：水开下 7 个煮 8 分钟。&lt;/li&gt;
+&lt;li&gt;意面：水开下锅煮 10 分钟。&lt;/li&gt;
+&lt;li&gt;混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。&lt;/li&gt;
+&lt;li&gt;土豆泥：按包装微波做法制作，不加黄油。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;阶段-4炒锅&#34;&gt;阶段 4：炒锅&lt;/h4&gt;
-&lt;p&gt;炒锅每次都各加入1/2 茶匙（2.5 mL）食用油。&lt;/p&gt;
+&lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
+&lt;p&gt;每锅每轮用油 1/2 茶匙，调味如下&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -698,7 +748,7 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;th&gt;黑胡椒&lt;/th&gt;
           &lt;th&gt;蒜粉&lt;/th&gt;
           &lt;th&gt;洋葱粉&lt;/th&gt;
-          &lt;th&gt;干牛至叶&lt;/th&gt;
+          &lt;th&gt;意式混合香草&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -711,20 +761,12 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;番茄泥、意面&lt;/td&gt;
+          &lt;td&gt;不另加&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
@@ -734,32 +776,88 @@ h^0(U^{\mathrm {an}},\mathrm{Hom}(\mathcal F,\mathcal G))+h^0(U^{\mathrm {an}},\
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;虾仁、鸡蛋&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;牛排下锅前在砧板上按表调味，两面抹匀。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;清洗沥干菠菜，打开番茄罐子并沥干。&lt;/li&gt;
-&lt;li&gt;两个炒锅同时开大火，加油预热 2 分钟；期间清洗沥干蘑菇。&lt;/li&gt;
-&lt;li&gt;第一轮：两锅分别同时炒菠菜、番茄，大火 2 分钟，盛出备用。&lt;/li&gt;
-&lt;li&gt;两锅清除残汁，分别补入本轮用油。&lt;/li&gt;
-&lt;li&gt;第二轮：一锅煎牛排，另一锅同时炒蘑菇。牛排每面煎 2 分钟、侧面 1 分钟，共5分钟，盛出备用；蘑菇大火炒满7分钟。&lt;/li&gt;
+&lt;li&gt;菠菜洗净沥干；番茄泥取半瓶（340 mL），余下立即冷藏，按瓶身期限用完，来不及则冷冻。&lt;/li&gt;
+&lt;li&gt;两锅加油预热。&lt;/li&gt;
+&lt;li&gt;第一锅炒蘑菇，7 分钟。&lt;/li&gt;
+&lt;li&gt;第二锅炒菠菜，2 分钟。&lt;/li&gt;
+&lt;li&gt;第二锅重新加油炒虾仁和鸡蛋：鸡蛋炒 2 分钟，加入虾仁继续炒 2 分钟。&lt;/li&gt;
+&lt;li&gt;第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;阶段-5收尾分盘&#34;&gt;阶段 5：收尾、分盘&lt;/h4&gt;
+&lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;第 5 顿搭放一张全麦卷饼皮。&lt;/li&gt;
-&lt;li&gt;空气炸锅完成后：Coho 三文鱼每2块（1盒的量）分入第 3 顿和第 6 顿餐盒。&lt;/li&gt;
-&lt;li&gt;猪排烤好后：每块分别放入第 4 顿和第 7 顿餐盒。&lt;/li&gt;
-&lt;li&gt;鸡大腿肉烤好后：分到第 2 顿和第 5 顿。&lt;/li&gt;
-&lt;li&gt;鸡蛋煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。&lt;/li&gt;
-&lt;li&gt;意面煮锅时间到后：全麦意面分入第 3 顿和第 7 顿。&lt;/li&gt;
-&lt;li&gt;电饭煲完成后：白米分入第 2 顿和第 4 顿。&lt;/li&gt;
-&lt;li&gt;土豆泥均分到第 1、6 顿餐盒。&lt;/li&gt;
-&lt;li&gt;菠菜放入第 2 顿&lt;/li&gt;
-&lt;li&gt;番茄均分到第 3、7 顿餐盒。&lt;/li&gt;
-&lt;li&gt;牛排放入第 1 顿&lt;/li&gt;
-&lt;li&gt;蘑菇均分到第 1、5 顿餐盒。&lt;/li&gt;
-&lt;li&gt;餐盒盖上放冰箱。&lt;/li&gt;
-&lt;li&gt;收拾洗净厨具。&lt;/li&gt;
+&lt;li&gt;按如下分盘&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;食材&lt;/th&gt;
+          &lt;th&gt;分到第几盘&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;牛排&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td&gt;3、6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;4、7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;虾仁炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;2、5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;米饭&lt;/td&gt;
+          &lt;td&gt;2、5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;番茄意面&lt;/td&gt;
+          &lt;td&gt;3、7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;土豆泥&lt;/td&gt;
+          &lt;td&gt;1、6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td&gt;1、4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;混合蔬菜&lt;/td&gt;
+          &lt;td&gt;2、6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;水煮蛋&lt;/td&gt;
+          &lt;td&gt;早餐&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;洗厨具、清理厨房。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
 &lt;p&gt;目前热量赤字估计：每周约4,200 kcal。放纵餐抵消一周热量赤字比例计算如下。&lt;/p&gt;

@@ -22,153 +22,133 @@ aliases = ['/posts/healthy-eating-plan/']
 - 周三晚上：做周三晚餐 ～ 周六晚餐，共7顿
 - 两次使用完全相同的食材、数量和流程
 
-早餐固定为：2个水煮鸡蛋 + 混合水果 + Fibre 1 Crunchy Original 125 mL（半个标准量杯，干重约31 g）+ 脱脂奶
+早餐固定为：2个水煮鸡蛋 + 混合水果 + 高纤维谷物早餐 125 mL（半杯，约31 g）+ 脱脂奶
 
 
 | 星期 | 餐次 | 碳水 | 蛋白质 | 蔬菜 |
 |---|---|---|---|---|
 | 周日（做菜） | 午餐 | 土豆泥 | 牛排 | 蘑菇 |
-| 周日 | 晚餐 | 白米饭 | 鸡大腿肉 | 菠菜 |
-| 周一 | 午餐 | 全麦意面 | 三文鱼 + 1个鸡蛋 | 番茄 |
-| 周一 | 晚餐 | 白米饭 | 去骨中段及肋部猪排 | 混合蔬菜 |
-| 周二 | 午餐 | 全麦卷饼皮 | 鸡大腿肉 | 蘑菇 |
-| 周二 | 晚餐 | 土豆泥 | 三文鱼 + 1个鸡蛋 | 混合蔬菜 |
-| 周三 | 午餐 | 全麦意面 | 去骨中段及肋部猪排 | 番茄 |
+| 周日 | 晚餐 | 白米饭 | 虾仁炒鸡蛋 | 混合蔬菜 |
+| 周一 | 午餐 | 全麦意面 | 三文鱼 | 番茄 |
+| 周一 | 晚餐 | 全麦卷饼皮 | 鸡大腿肉 | 蘑菇 |
+| 周二 | 午餐 | 白米饭 | 虾仁炒鸡蛋 | 菠菜 |
+| 周二 | 晚餐 | 土豆泥 | 三文鱼 | 混合蔬菜 |
+| 周三 | 午餐 | 全麦意面 | 鸡大腿肉 | 番茄 |
 | 周三（做菜） | 晚餐 | 土豆泥 | 牛排 | 蘑菇 |
-| 周四 | 午餐 | 白米饭 | 鸡大腿肉 | 菠菜 |
-| 周四 | 晚餐 | 全麦意面 | 三文鱼 + 1个鸡蛋 | 番茄 |
-| 周五 | 午餐 | 白米饭 | 去骨中段及肋部猪排 | 混合蔬菜 |
-| 周五 | 晚餐 | 全麦卷饼皮 | 鸡大腿肉 | 蘑菇 |
-| 周六 | 午餐 | 土豆泥 | 三文鱼 + 1个鸡蛋 | 混合蔬菜 |
-| 周六 | 晚餐 | 全麦意面 | 去骨中段及肋部猪排 | 番茄 |
+| 周四 | 午餐 | 白米饭 | 虾仁炒鸡蛋 | 混合蔬菜 |
+| 周四 | 晚餐 | 全麦意面 | 三文鱼 | 番茄 |
+| 周五 | 午餐 | 全麦卷饼皮 | 鸡大腿肉 | 蘑菇 |
+| 周五 | 晚餐 | 白米饭 | 虾仁炒鸡蛋 | 菠菜 |
+| 周六 | 午餐 | 土豆泥 | 三文鱼 | 混合蔬菜 |
+| 周六 | 晚餐 | 全麦意面 | 鸡大腿肉 | 番茄 |
 {.table-centered}
 
 ### 购物表
 
-| 食材 | 包装规格 | 购买频率 | 商品链接 | 每周价格（CAD） |
-|---|---:|---:|---|---:|
-| 去骨去皮鸡大腿肉 | 830 g / 盒 | 1盒 / 周 | [Maple Leaf Boneless Skinless Chicken Thighs](https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724) | 14.88 |
-| 去骨中段及肋部猪排 | 4块 / 盒，净重655 g | 1盒 / 周 | [Maple Leaf Boneless Pork Loin Centre and Rib Chops](https://www.walmart.ca/en/ip/maple-leaf-boneless-pork-loin-centre-and-rib-chops/47O4DQO61CPA) | 14.68 |
-| 原味 Coho 三文鱼（Your Fresh Market） | 245 g / 盒（2块） | 4盒 / 周，共980 g；每顿1盒 | [Your Fresh Market Coho Salmon Portions](https://www.walmart.ca/en/ip/coho-salmon-portions-your-fresh-market/6000208252814) | 10.47 × 4 = 41.88 |
-| 牛排 | 300 g / 块 | 1块 / 周 | [AA Striploin Steak](https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD) | 14.38 |
-| 鸡蛋 | 18个 / 盒 | 1盒 / 周 | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | 7.33 |
-| 脱脂奶（Skim Milk / 0% Milk） | 2 L / 瓶 | 2瓶 / 周 | [Natrel Fine-Filtered 0% Skim Milk](https://www.walmart.ca/en/ip/natrel-fine-filtered-0-fat-free-skim-milk/10220046) | 5.78 × 2 = 11.56 |
-| 酸奶油细香葱味即食土豆泥（Betty Crocker Sour Cream & Chives） | 113 g / 袋 | 1袋 / 周 | [Betty Crocker Sour Cream & Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO) | 1.99（按截图价格） |
-| Great Value Mixed Vegetables（冷冻混合蔬菜） | 750 g / 袋 | 1袋 / 周，保持冷冻 | [Great Value Frozen Mixed Vegetables](https://www.walmart.ca/en/ip/Great-Value-Frozen-Mixed-Vegetables/6000191274027) | 3.54 |
-| 蘑菇 | 227 g / 盒 | 2盒 / 周 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725) | 2.56 × 2 = 5.12 |
-| 嫩菠菜（Baby Spinach） | 142 g / 袋 | 2袋 / 周 | [Your Fresh Market Baby Spinach 142 g](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL) | 3.61 × 2 = 7.22 |
-| 罐装番茄 | 796 mL / 罐；沥干后按700 g估算 | 2罐 / 周 | [Great Value No Salt Added Diced Tomatoes 796 mL](https://www.walmart.ca/en/ip/Great-Value-No-Salt-Added-Diced-Tomatoes/10303608) | 2.07 × 2 = 4.14 |
-| 混合水果盘 | 1.3 kg / 盒 | 2盒 / 周 | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497) | 16.77 × 2 = 33.54 |
-| 全麦意面（Catelli Healthy Harvest Whole Wheat Spaghetti） | 375 g / 包 | 按需补；每周200 g，约1.88周一包 | [Catelli Whole Grains Spaghetti](https://www.walmart.ca/en/ip/Catelli-Whole-Grains-Spaghetti-Pasta/10299628) | 2.97 × 200 ÷ 375 ≈ 1.58 |
-| 全麦卷饼皮（Dempster’s 100% Whole Wheat，Large；需冷冻） | 610 g / 袋（10张） | 按需补；每周2张，约5周一袋 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091) | 3.97 × 2 ÷ 10 ≈ 0.79 |
-| 白米（Great Value Long Grain White Rice） | 2 kg / 袋 | 按需补；每周约225 g干重，约8.9周一袋 | [Great Value Long Grain White Rice](https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1) | 4.98 × 225 ÷ 2000 ≈ 0.56 |
-| Fibre 1 Crunchy Original | 587 g / 盒；每周约217 g | 用完补，约2.7周一盒 | [Fibre One Crunchy Original 587 g](https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS) | 4.87 × 217 ÷ 587 ≈ 1.80 |
-| 黑胡椒 | 85 g / 袋 | 按需补；每周3.75茶匙，约8.625 g | [Great Value Ground Black Pepper](https://www.walmart.ca/en/ip/Great-Value-Ground-Black-Pepper/10302291) | 2.27 × 8.625 ÷ 85 ≈ 0.23 |
-| 蒜粉 | 150 g / 袋 | 按需补；每周5茶匙，约15.5 g | [Great Value Garlic Powder](https://www.walmart.ca/en/ip/Great-Value-Garlic-Powder/10304038) | 2.27 × 15.5 ÷ 150 ≈ 0.23 |
-| 洋葱粉 | 150 g / 袋 | 按需补；每周4茶匙，约9.6 g | [Great Value Onion Powder](https://www.walmart.ca/en/ip/Great-Value-Onion-Powder/10303684) | 2.27 × 9.6 ÷ 150 ≈ 0.15 |
-| 红椒粉（paprika） | 130 g / 袋 | 按需补；每周6茶匙，约13.8 g | [Great Value Paprika](https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778) | 2.27 × 13.8 ÷ 130 ≈ 0.24 |
-| 干牛至叶（oregano leaves） | 32 g / 袋 | 按需补；每周3茶匙，约3 g | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145) | 2.27 × 3 ÷ 32 ≈ 0.21 |
-| 盐 | 1 kg / 盒 | 按需补；每周2.75茶匙，约16.5 g | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128) | 1.63 × 16.5 ÷ 1000 ≈ 0.03 |
-| 特级初榨橄榄油（Terra Delyssa，突尼斯产） | 1 L / 瓶 | 按需补；每周35 mL，约28.6周一瓶 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259) | 11.97 × 35 ÷ 1000 ≈ 0.42 |
-| 乳清蛋白粉（DIESEL New Zealand Whey Protein，Vanilla Ice Cream） | 908 g / 桶；1勺35 g粉 | 偶尔按需喝，每次1/4勺；用完补 | [DIESEL Vanilla Ice Cream](https://www.walmart.ca/en/ip/diesel-new-zealand-whey-protein-vanilla-ice-cream/6000197353191) | 不计固定周费用；39.98 / 桶，每次约0.39 |
-| 每周平均合计 | 食材及调味料，不含偶尔喝的蛋白粉 | 按消耗量摊算，未舍入值求和；未含税及配送等费用 | — | 约166.51 |
+| 食材 | 包装规格 | 购买频率 | 每次做菜取用 | 商品链接 | 每周价格（CAD） |
+| --- | ---: | ---: | ---: | --- | ---: |
+| 去骨去皮鸡大腿肉 | 830 g / 盒 | 1盒 / 周 | 1/2盒 | [Maple Leaf Boneless Skinless Chicken Thighs](https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724) | $14.88 |
+| 熟虾仁 | 500 g / 袋 | 1袋 / 周 | 1/2袋 | [Great Value Cooked 71/90 Pacific White Shrimp](https://www.walmart.ca/en/ip/Great-Value-Cooked-Pacific-White-Shrimp/6000196383010) | $11.53 |
+| Coho 三文鱼 | 320 g / 盒 | 4盒 / 周 | 2盒 | [Your Fresh Market Coho Salmon Portions](https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814) | $43.52 |
+| 牛排 | 300 g / 块 | 2块 / 周 | 1块 | [AA Striploin Steak](https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD) | $28.76 |
+| 鸡蛋 | 18个 / 盒 | 1盒 / 周 | 1/2盒 | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | $7.33 |
+| 脱脂奶 | 2 L / 瓶 | 2瓶 / 周 | — | [Natrel Fine-Filtered 0% Skim Milk](https://www.walmart.ca/en/ip/natrel-fine-filtered-0-fat-free-skim-milk/10220046) | $11.56 |
+| 无糖无咖啡因汽水 | 355 mL × 12罐 / 箱 | 1箱 / 周 | — | [Fresca Citrus 12 Pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189) | $8.36 |
+| 即食土豆泥 | 113 g / 袋 | 1袋 / 周 | 1/2袋 | [Betty Crocker Sour Cream & Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO) | $1.99 |
+| 冷冻混合蔬菜 | 750 g / 袋 | 1袋 / 周 | 1/2袋 | [Great Value Frozen Mixed Vegetables](https://www.walmart.ca/en/ip/Great-Value-Frozen-Mixed-Vegetables/6000191274027) | $3.54 |
+| 蘑菇 | 227 g / 盒 | 2盒 / 周 | 1盒 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725) | $5.12 |
+| 嫩菠菜 | 142 g / 袋 | 2袋 / 周 | 1袋 | [Your Fresh Market Baby Spinach 142 g](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL) | $7.22 |
+| 番茄泥（Passata） | 680 mL / 瓶 | 1瓶 / 周 | 1/2瓶 | [Primo Passata di Pomodoro](https://www.walmart.ca/fr/ip/Primo-Passata-di-Pomodoro-Coulis-de-Tomates-Sauce-pour-P-tes/6000188765042) | $2.49 |
+| 混合水果盘 | 1.3 kg / 盒 | 2盒 / 周 | — | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497) | $33.54 |
+| 全麦意面 | 375 g / 包 | 按需补 | 120 g干重 | [Catelli Whole Grains Spaghetti](https://www.walmart.ca/en/ip/Catelli-Whole-Grains-Spaghetti-Pasta/10299628) | $1.91 |
+| 全麦卷饼皮 | 610 g / 袋 | 按需补 | 1张 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091) | $0.79 |
+| 白米 | 2 kg / 袋 | 按需补 | 3/4杯 | [Great Value Long Grain White Rice](https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1) | $0.56 |
+| 高纤维谷物早餐 | 587 g / 盒 | 按需补 | — | [Fibre One Crunchy Original 587 g](https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS) | $1.80 |
+| 黑胡椒 | 85 g / 袋 | 按需补 | — | [Great Value Ground Black Pepper](https://www.walmart.ca/en/ip/Great-Value-Ground-Black-Pepper/10302291) | $0.20 |
+| 蒜粉 | 150 g / 袋 | 按需补 | — | [Great Value Garlic Powder](https://www.walmart.ca/en/ip/Great-Value-Garlic-Powder/10304038) | $0.23 |
+| 洋葱粉 | 150 g / 袋 | 按需补 | — | [Great Value Onion Powder](https://www.walmart.ca/en/ip/Great-Value-Onion-Powder/10303684) | $0.11 |
+| 红椒粉 | 130 g / 袋 | 按需补 | — | [Great Value Paprika](https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778) | $0.16 |
+| 干牛至叶 | 32 g / 袋 | 按需补 | — | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145) | $0.14 |
+| 盐 | 1 kg / 盒 | 按需补 | — | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128) | $0.02 |
+| 橄榄油 | 1 L / 瓶 | 按需补 | — | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259) | $0.42 |
+| 乳清蛋白粉 | 908 g / 桶；1勺35 g粉 | 按需补 | — | [DIESEL Vanilla Ice Cream](https://www.walmart.ca/en/ip/diesel-new-zealand-whey-protein-vanilla-ice-cream/6000197353191) | $0.00 |
+| 每周平均合计 | — | — | — | — | $186.18 |
 {.table-centered}
-
-
-### 流程表
-
-用量：
-
-以下调味量均对应这一次做菜的总量；1 茶匙 = 5 mL。油喷子完整按压 1 次约为 1/4 茶匙（1.25 mL）；1 茶匙约为 4 次完整按压。调味罐按中等力度短抖估算：小孔罐 1 下约为 1/24 茶匙；大孔罐 1 下约为 1/12 茶匙。
-
-| 食材 | 每次用量 | 按购买包装直接取 | 分成几顿 |
-|---|---:|---:|---:|
-| 牛排 | 约150 g | 1/2块 | 1顿 |
-| 去骨去皮鸡大腿肉 | 约415 g | 1/2盒 | 2顿 |
-| Coho 三文鱼 | 490 g | 4块（2盒） | 2顿，每顿2块（1盒） |
-| 去骨中段及肋部猪排 | 2块（约327.5 g，去肥前） | 1/2盒 | 2顿，每顿1块（平均约164 g，去肥前） |
-| 鸡蛋 | 9个 | 1/2盒 | 早餐 + 2顿正餐 |
-| 酸奶油细香葱味即食土豆泥 | 56.5 g干粉（每顿约28 g） | 1/2袋（113 g装） | 2顿 |
-| 白米 | 3/4 杯 | 3/4 杯 | 2顿 |
-| 全麦意面 | 100 g干重（每顿50 g） | 用秤称取100 g；dispenser 仅用于粗取，最小档实测90–109 g | 2顿 |
-| 全麦卷饼皮（即食） | 1张（约61 g） | 1张 | 1顿 |
-| 冷冻混合蔬菜 | 375 g | 1/2袋，剩余密封放回冷冻室 | 2顿，每顿约188 g |
-| 蘑菇 | 227 g | 1盒 | 2顿 |
-| 嫩菠菜（Baby Spinach） | 142 g | 1袋 | 1顿 |
-| 罐装番茄 | 沥干后约700 g（每顿约350 g） | 1罐 | 2顿 |
-{.table-centered}
-
 
 ### 并行做菜流程
 
+1茶匙 = 5 mL；喷油1下约1/4茶匙；调味罐短抖1下：小孔约1/24茶匙，大孔约1/12茶匙（均为估算）。
 
-#### 阶段 1：先启动所有耗时设备
+#### 阶段 1：预热、烧水、解冻
 
-1. 烤箱预热至 400°F，需 15 分钟
-2. 空气炸锅预热至 400°F，需 5 分钟
-3. 鸡蛋煮锅加 1.5–2 L 水；意面煮锅加 2.5–3 L 水。两口锅盖盖并开最大火。
-4. 用电饭煲配套米杯量3/4杯白米，淘洗后放入电饭煲；水量按说明书对应米量调整，并确认不低于最小煮饭量。选择“白米／White Rice”模式后启动
+1. 烤箱预热至 400°F，需 15 分钟。
+2. 鸡蛋煮锅和意面煮锅加水，大火烧开。
+3. 白米淘洗用电饭煲开煮。
+4. 熟虾仁装防漏密封袋浸冷水解冻。
+5. 空气炸锅预热至 400°F，需 5 分钟。
 
-#### 阶段 2：处理肉类及调味
+#### 阶段 2：调味、并行烹调
 
-1. 准备两个烘焙盘并铺上烘焙纸；再准备一个调味盆和一个干净砧板。
-2. 两块去骨猪排切掉边缘明显肥肉，再与鸡大腿肉分别用纸巾擦干，放到两个烘焙盘。四块 Coho 三文鱼擦干后放入调味盆；
-3. 按表调味：三文鱼在盆中，鸡大腿肉、猪排在烘焙盘上。
+1. 三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排。
+2. 按下表调味
 
-| 顺序 | 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
-|---:|---|---|---|---|---|---|---|---|
-| 1 | Coho 三文鱼（4块） | 1/2 茶匙（2.5 mL） | 1/4 茶匙 | 1/2 茶匙 | — | — | 1 茶匙 | — |
-| 2 | 鸡大腿肉 | 1/2 茶匙（2.5 mL） | 1/4 茶匙 | — | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
-| 3 | 去骨中段及肋部猪排 | 1/2 茶匙（2.5 mL） | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
+| 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
+|---|---|---|---|---|---|---|---|
+| Coho 三文鱼 | 1/2 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | — | 1 茶匙 | — |
+| 鸡大腿肉 | 1/2 茶匙 | 1/4 茶匙 | — | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
+| 牛排 | 1/2 茶匙 | 1/4 茶匙 | 1/4 茶匙 | — | 1/4 茶匙 | — | — |
 {.table-centered}
 
 
-#### 阶段 3：炒锅以外开始并行烹调
+3. 三文鱼：Air fry 400°F 8 分钟。
+4. 鸡大腿肉烤 25 分钟。
+5. 牛排烤 8 分钟，4 分钟时翻面。
+6. 鸡蛋：水开下 7 个煮 8 分钟。
+7. 意面：水开下锅煮 10 分钟。
+8. 混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。
+9. 土豆泥：按包装微波做法制作，不加黄油。
 
-1. 空气炸锅预热好后：四块 Coho 三文鱼单层摆放、不重叠，以 400°F 烹调，暂按8分钟检查；按厚度调整至中心达到[158°F](https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html)。放不下则分批，不因块数翻倍就把时间翻倍。
-2. 烤箱达到温度后：两盘同时入烤箱。猪排计时烤 15 分钟；鸡大腿肉计时烤 25 分钟。
-3. 鸡蛋煮锅水沸腾后：放入鸡蛋，计时8分钟。
-4. 意面煮锅水沸腾后：放入全麦意面，暂按10分钟，具体以包装时间为准。
-5. 冷冻混合蔬菜无需解冻，倒入微波炉适用容器，按包装对应分量的加水、加盖及时间说明充分做熟；拌入1/4茶匙蒜粉、1/8茶匙黑胡椒。均分到第 4、6 顿餐盒。
-6. 微波炉土豆泥：用微波炉做土豆泥。分到第 1、6 顿餐盒。
 
+#### 阶段 3：炒锅
 
-#### 阶段 4：炒锅
+每锅每轮用油 1/2 茶匙，调味如下
 
-炒锅每次都各加入1/2 茶匙（2.5 mL）食用油。
-
-| 食材 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 干牛至叶 |
+| 食材 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 意式混合香草 |
 |---|---|---|---|---|---|
 | 菠菜 | 1/8 茶匙 | — | 1/4 茶匙 | 1/4 茶匙 | — |
-| 番茄 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | 1/2 茶匙 |
-| 牛排 | 1/4 茶匙 | 1/4 茶匙 | — | 1/4 茶匙 | — |
+| 番茄泥、意面 | 不另加 | 1/4 茶匙 | 1/2 茶匙 | — | 1/2 茶匙 |
 | 蘑菇 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | — |
+| 虾仁、鸡蛋 | — | 1/4 茶匙 | 1/2 茶匙 | — | — |
 {.table-centered}
 
-牛排下锅前在砧板上按表调味，两面抹匀。
+1. 菠菜洗净沥干；番茄泥取半瓶（340 mL），余下立即冷藏，按瓶身期限用完，来不及则冷冻。
+2. 两锅加油预热。
+3. 第一锅炒蘑菇，7 分钟。
+5. 第二锅炒菠菜，2 分钟。
+6. 第二锅重新加油炒虾仁和鸡蛋：鸡蛋炒 2 分钟，加入虾仁继续炒 2 分钟。
+7. 第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。
 
-1. 清洗沥干菠菜，打开番茄罐子并沥干。
-2. 两个炒锅同时开大火，加油预热 2 分钟；期间清洗沥干蘑菇。
-3. 第一轮：两锅分别同时炒菠菜、番茄，大火 2 分钟，盛出备用。
-4. 两锅清除残汁，分别补入本轮用油。
-5. 第二轮：一锅煎牛排，另一锅同时炒蘑菇。牛排每面煎 2 分钟、侧面 1 分钟，共5分钟，盛出备用；蘑菇大火炒满7分钟。
+#### 阶段 4：收尾、分盘
 
-#### 阶段 5：收尾、分盘
+1. 按如下分盘
 
-1. 第 5 顿搭放一张全麦卷饼皮。
-2. 空气炸锅完成后：Coho 三文鱼每2块（1盒的量）分入第 3 顿和第 6 顿餐盒。
-3. 猪排烤好后：每块分别放入第 4 顿和第 7 顿餐盒。
-4. 鸡大腿肉烤好后：分到第 2 顿和第 5 顿。
-5. 鸡蛋煮锅时间到后：各放 1 个鸡蛋到第 3 顿和第 6 顿；剩余鸡蛋带壳冷藏作早餐。
-6. 意面煮锅时间到后：全麦意面分入第 3 顿和第 7 顿。
-7. 电饭煲完成后：白米分入第 2 顿和第 4 顿。
-8. 土豆泥均分到第 1、6 顿餐盒。
-9. 菠菜放入第 2 顿
-10. 番茄均分到第 3、7 顿餐盒。
-11. 牛排放入第 1 顿
-12. 蘑菇均分到第 1、5 顿餐盒。
-13. 餐盒盖上放冰箱。
-14. 收拾洗净厨具。
+| 食材 | 分到第几盘 |
+|---|---|
+| 牛排 | 1 |
+| 三文鱼 | 3、6 | 
+| 鸡大腿肉 | 4、7 |
+| 虾仁炒鸡蛋 | 2、5 | 
+| 米饭 | 2、5 | 
+| 番茄意面 | 3、7 | 
+| 土豆泥 | 1、6 | 
+| 全麦卷饼皮 | 4 | 
+| 蘑菇 | 1、4 | 
+| 菠菜 | 5 | 
+| 混合蔬菜 | 2、6 | 
+| 水煮蛋 | 早餐 |
+{.table-centered}
+
+2. 洗厨具、清理厨房。
 
 ### 放纵餐
 
