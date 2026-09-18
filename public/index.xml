@@ -318,8 +318,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
       <pubDate>Sun, 30 Aug 2026 11:43:05 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/06e58c7/</guid>
-      <description>&lt;p&gt;最近打算减肥，我用AI给自己做了如下计划。&lt;/p&gt;
-&lt;h2 id=&#34;饮食&#34;&gt;饮食&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;饮食&#34;&gt;饮食&lt;/h2&gt;
 &lt;h3 id=&#34;计划表&#34;&gt;计划表&lt;/h3&gt;
 &lt;p&gt;该饮食计划有两个目标：&lt;/p&gt;
 &lt;ol&gt;
@@ -546,7 +545,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
           &lt;td style=&#34;text-align: right&#34;&gt;$7.22&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;番茄泥（Passata）&lt;/td&gt;
+          &lt;td&gt;番茄泥&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;680 mL / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1瓶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1/2瓶&lt;/td&gt;
@@ -666,12 +665,12 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
 &lt;li&gt;烤箱预热至 400°F，需 15 分钟。&lt;/li&gt;
 &lt;li&gt;意面煮锅加水烧开。&lt;/li&gt;
 &lt;li&gt;白米淘洗用电饭煲开煮。&lt;/li&gt;
-&lt;li&gt;取1袋340 g扇贝装防漏密封袋浸冷水解冻，每30分钟换冷水；另一袋保持冷冻。解冻后沥干、吸干表面水分，随即烹调。&lt;/li&gt;
+&lt;li&gt;扇贝如未解冻，装防漏密封袋浸冷水解冻，需 30 分钟。&lt;/li&gt;
 &lt;li&gt;空气炸锅预热至 400°F，需 5 分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、半块牛排。&lt;/li&gt;
+&lt;li&gt;三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排。&lt;/li&gt;
 &lt;li&gt;按下表调味&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -726,7 +725,7 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
 &lt;li&gt;牛排烤 8 分钟，4 分钟时翻面。&lt;/li&gt;
 &lt;li&gt;意面：水开下锅煮 10 分钟。&lt;/li&gt;
 &lt;li&gt;混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。&lt;/li&gt;
-&lt;li&gt;土豆泥：按包装微波做法制作，不加黄油。&lt;/li&gt;
+&lt;li&gt;土豆泥：按包装微波做法制作。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
 &lt;p&gt;每锅每轮用油 1/2 茶匙，调味如下&lt;/p&gt;
@@ -777,12 +776,11 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol&gt;
-&lt;li&gt;菠菜洗净沥干；番茄泥取半瓶（340 mL），余下立即冷藏，按瓶身期限用完，来不及则冷冻。&lt;/li&gt;
 &lt;li&gt;两锅加油预热。&lt;/li&gt;
-&lt;li&gt;第一锅炒蘑菇，7 分钟。&lt;/li&gt;
-&lt;li&gt;第二锅炒菠菜，2 分钟。&lt;/li&gt;
-&lt;li&gt;第二锅重新加油，中火炒扇贝约3—4分钟，倒入3个打散的鸡蛋和调味，再炒约1–2分钟。&lt;/li&gt;
-&lt;li&gt;第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。&lt;/li&gt;
+&lt;li&gt;第一锅炒蘑菇，调味后大火炒 7 分钟起锅。&lt;/li&gt;
+&lt;li&gt;第二锅炒菠菜，调味后大火炒 2 分钟起锅。&lt;/li&gt;
+&lt;li&gt;第二锅重新加油，中火炒扇贝约 3—4 分钟，倒入 3 个打散的鸡蛋并调味，再炒约 1–2 分钟起锅。&lt;/li&gt;
+&lt;li&gt;第二锅重新加油，加入半瓶番茄泥、调味和沥干的熟意面，拌匀中小火 2 分钟起锅。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;

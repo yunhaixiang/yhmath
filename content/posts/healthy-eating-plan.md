@@ -5,7 +5,6 @@ slug = '06e58c7'
 aliases = ['/posts/healthy-eating-plan/']
 +++
 
-最近打算减肥，我用AI给自己做了如下计划。
 
 ## 饮食
 
@@ -59,7 +58,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 冷冻混合蔬菜 | 750 g / 袋 | 1袋 / 周 | 1/2袋 | [Great Value Frozen Mixed Vegetables](https://www.walmart.ca/en/ip/Great-Value-Frozen-Mixed-Vegetables/6000191274027) | $3.54 |
 | 蘑菇 | 227 g / 盒 | 2盒 / 周 | 1盒 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725) | $5.12 |
 | 嫩菠菜 | 142 g / 袋 | 2袋 / 周 | 1袋 | [Your Fresh Market Baby Spinach 142 g](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL) | $7.22 |
-| 番茄泥（Passata） | 680 mL / 瓶 | 1瓶 / 周 | 1/2瓶 | [Primo Passata di Pomodoro](https://www.walmart.ca/fr/ip/Primo-Passata-di-Pomodoro-Coulis-de-Tomates-Sauce-pour-P-tes/6000188765042) | $2.49 |
+| 番茄泥 | 680 mL / 瓶 | 1瓶 / 周 | 1/2瓶 | [Primo Passata di Pomodoro](https://www.walmart.ca/fr/ip/Primo-Passata-di-Pomodoro-Coulis-de-Tomates-Sauce-pour-P-tes/6000188765042) | $2.49 |
 | 混合水果盘 | 1.3 kg / 盒 | 2盒 / 周 | — | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497) | $33.54 |
 | 全麦意面 | 375 g / 包 | 按需补 | 120 g干重 | [Catelli Whole Grains Spaghetti](https://www.walmart.ca/en/ip/Catelli-Whole-Grains-Spaghetti-Pasta/10299628) | $1.91 |
 | 全麦卷饼皮 | 610 g / 袋 | 按需补 | 1张 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091) | $0.79 |
@@ -84,12 +83,12 @@ aliases = ['/posts/healthy-eating-plan/']
 1. 烤箱预热至 400°F，需 15 分钟。
 2. 意面煮锅加水烧开。
 3. 白米淘洗用电饭煲开煮。
-4. 取1袋340 g扇贝装防漏密封袋浸冷水解冻，每30分钟换冷水；另一袋保持冷冻。解冻后沥干、吸干表面水分，随即烹调。
+4. 扇贝如未解冻，装防漏密封袋浸冷水解冻，需 30 分钟。
 5. 空气炸锅预热至 400°F，需 5 分钟。
 
 #### 阶段 2：调味、并行烹调
 
-1. 三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、半块牛排。
+1. 三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排。
 2. 按下表调味
 
 | 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
@@ -105,7 +104,7 @@ aliases = ['/posts/healthy-eating-plan/']
 5. 牛排烤 8 分钟，4 分钟时翻面。
 6. 意面：水开下锅煮 10 分钟。
 7. 混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。
-8. 土豆泥：按包装微波做法制作，不加黄油。
+8. 土豆泥：按包装微波做法制作。
 
 
 #### 阶段 3：炒锅
@@ -120,12 +119,12 @@ aliases = ['/posts/healthy-eating-plan/']
 | 扇贝、鸡蛋 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | — |
 {.table-centered}
 
-1. 菠菜洗净沥干；番茄泥取半瓶（340 mL），余下立即冷藏，按瓶身期限用完，来不及则冷冻。
-2. 两锅加油预热。
-3. 第一锅炒蘑菇，7 分钟。
-5. 第二锅炒菠菜，2 分钟。
-6. 第二锅重新加油，中火炒扇贝约3—4分钟，倒入3个打散的鸡蛋和调味，再炒约1–2分钟。
-7. 第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。
+
+1. 两锅加油预热。
+2. 第一锅炒蘑菇，调味后大火炒 7 分钟起锅。
+3. 第二锅炒菠菜，调味后大火炒 2 分钟起锅。
+4. 第二锅重新加油，中火炒扇贝约 3—4 分钟，倒入 3 个打散的鸡蛋并调味，再炒约 1–2 分钟起锅。
+5. 第二锅重新加油，加入半瓶番茄泥、调味和沥干的熟意面，拌匀中小火 2 分钟起锅。
 
 #### 阶段 4：收尾、分盘
 
