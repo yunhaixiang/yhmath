@@ -22,7 +22,9 @@ aliases = ['/posts/healthy-eating-plan/']
 - 周三晚上：做周三晚餐 ～ 周六晚餐，共7顿
 - 两次使用完全相同的食材、数量和流程
 
-早餐固定为：2个水煮鸡蛋 + 混合水果 + 高纤维谷物早餐 125 mL（半杯，约31 g）+ 脱脂奶
+早餐固定为：混合水果 + 高纤维谷物早餐 125 mL（半杯，约31 g）+ 脱脂奶；周一到周六各加1个水煮蛋，周日不加蛋。
+
+每周共12个鸡蛋：早餐6个，虾仁炒蛋6个。每次做菜取6个：3个水煮，3个配250 g虾仁炒好，分两盘。
 
 
 | 星期 | 餐次 | 碳水 | 蛋白质 | 蔬菜 |
@@ -51,7 +53,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 熟虾仁 | 500 g / 袋 | 1袋 / 周 | 1/2袋 | [Great Value Cooked 71/90 Pacific White Shrimp](https://www.walmart.ca/en/ip/Great-Value-Cooked-Pacific-White-Shrimp/6000196383010) | $11.53 |
 | Coho 三文鱼 | 320 g / 盒 | 4盒 / 周 | 2盒 | [Your Fresh Market Coho Salmon Portions](https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814) | $43.52 |
 | 牛排 | 300 g / 块 | 2块 / 周 | 1块 | [AA Striploin Steak](https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD) | $28.76 |
-| 鸡蛋 | 18个 / 盒 | 1盒 / 周 | 1/2盒 | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | $7.33 |
+| 鸡蛋 | 18个 / 盒 | 2盒 / 3周 | 6个：3个水煮、3个炒虾仁 | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | $4.89 |
 | 脱脂奶 | 2 L / 瓶 | 2瓶 / 周 | — | [Natrel Fine-Filtered 0% Skim Milk](https://www.walmart.ca/en/ip/natrel-fine-filtered-0-fat-free-skim-milk/10220046) | $11.56 |
 | 无糖无咖啡因汽水 | 355 mL × 12罐 / 箱 | 1箱 / 周 | — | [Fresca Citrus 12 Pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189) | $8.36 |
 | 即食土豆泥 | 113 g / 袋 | 1袋 / 周 | 1/2袋 | [Betty Crocker Sour Cream & Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO) | $1.99 |
@@ -72,7 +74,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 盐 | 1 kg / 盒 | 按需补 | — | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128) | $0.02 |
 | 橄榄油 | 1 L / 瓶 | 按需补 | — | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259) | $0.42 |
 | 乳清蛋白粉 | 908 g / 桶；1勺35 g粉 | 按需补 | — | [DIESEL Vanilla Ice Cream](https://www.walmart.ca/en/ip/diesel-new-zealand-whey-protein-vanilla-ice-cream/6000197353191) | $0.00 |
-| 每周平均合计 | — | — | — | — | $186.18 |
+| 每周平均合计 | — | — | — | — | $183.74 |
 {.table-centered}
 
 ### 并行做菜流程
@@ -103,7 +105,7 @@ aliases = ['/posts/healthy-eating-plan/']
 3. 三文鱼：Air fry 400°F 8 分钟。
 4. 鸡大腿肉烤 25 分钟。
 5. 牛排烤 8 分钟，4 分钟时翻面。
-6. 鸡蛋：水开下 7 个煮 8 分钟。
+6. 鸡蛋：水开下 3 个煮 8 分钟，另留 3 个炒虾仁。
 7. 意面：水开下锅煮 10 分钟。
 8. 混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。
 9. 土豆泥：按包装微波做法制作，不加黄油。
@@ -125,7 +127,7 @@ aliases = ['/posts/healthy-eating-plan/']
 2. 两锅加油预热。
 3. 第一锅炒蘑菇，7 分钟。
 5. 第二锅炒菠菜，2 分钟。
-6. 第二锅重新加油炒虾仁和鸡蛋：鸡蛋炒 2 分钟，加入虾仁继续炒 2 分钟。
+6. 第二锅重新加油炒虾仁和鸡蛋：3个鸡蛋打散炒 2 分钟，加入250 g熟虾仁继续炒 2 分钟。
 7. 第二锅加入重新加油、半瓶番茄泥、调味和沥干的熟意面，拌匀加热 2 分钟。
 
 #### 阶段 4：收尾、分盘
@@ -137,7 +139,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 牛排 | 1 |
 | 三文鱼 | 3、6 | 
 | 鸡大腿肉 | 4、7 |
-| 虾仁炒鸡蛋 | 2、5 | 
+| 虾仁炒鸡蛋（250 g虾仁＋3个蛋） | 2、5，均分 |
 | 米饭 | 2、5 | 
 | 番茄意面 | 3、7 | 
 | 土豆泥 | 1、6 | 
@@ -145,33 +147,33 @@ aliases = ['/posts/healthy-eating-plan/']
 | 蘑菇 | 1、4 | 
 | 菠菜 | 5 | 
 | 混合蔬菜 | 2、6 | 
-| 水煮蛋 | 早餐 |
+| 水煮蛋（3个） | 周日做的供周一至周三早餐；周三做的供周四至周六早餐，每早1个 |
 {.table-centered}
 
 2. 洗厨具、清理厨房。
 
 ### 放纵餐
 
-目前热量赤字估计：每周约4,200 kcal。放纵餐抵消一周热量赤字比例计算如下。
+目前热量赤字粗估：每周约4,700 kcal（沿用原估算，计入鸡蛋减量；实际以体重趋势校准）。放纵餐抵消一周热量赤字比例计算如下。
 
 
 | 食物 | 份量 | 热量（kcal） | 抵消本周预计赤字（额外加吃） |
 |---|---|---:|---:|
-| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约18% |
-| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约16% |
-| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约15% |
-| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约14% |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约14% |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约13% |
-| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约12% |
-| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约11% |
-| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约10% |
-| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约9% |
-| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约8% |
-| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约8% |
-| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约7% |
+| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约16% |
+| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约14% |
+| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约13% |
+| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约13% |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约12% |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约11% |
+| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约11% |
+| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约10% |
+| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约9% |
+| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约8% |
+| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约7% |
+| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约7% |
+| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约6% |
 | [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约6% |
-| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约5% |
+| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约4% |
 | [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约3% |
 {.table-centered}
 
