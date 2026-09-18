@@ -51,7 +51,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 冷冻扇贝肉 | 340 g / 袋 | 2袋 / 周 | 1袋 | [Green Ocean Bay Scallops](https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G) | $13.40 |
 | Coho 三文鱼 | 320 g / 盒 | 4盒 / 周 | 2盒 | [Your Fresh Market Coho Salmon Portions](https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814) | $43.52 |
 | 牛排 | 300 g / 块 | 1块 / 周 | 1/2块 | [AA Striploin Steak](https://www.walmart.ca/en/ip/aa-striploin-steak-013-04kg/1S6UN8B3ANOD) | $14.38 |
-| 鸡蛋 | 18个 / 盒 | 1盒 / 3周 | — | [Gray Ridge Premium Large White 18 Eggs](https://www.walmart.ca/en/ip/Gray-Ridge-Premium-Large-White-18-Eggs/6000191268613) | $2.44 |
+| 鸡蛋 | 12个 / 盒 | 1盒 / 2周 | 3个 | [Great Value Large 12 Eggs](https://www.walmart.ca/en/ip/Great-Value-Large-Eggs/10052944) | $1.97 |
 | 无糖豆奶 | 1.89 L / 桶 | 2桶 / 周 | — | [Silk Organic Soy Unsweetened Original](https://www.walmart.ca/en/ip/Silk-Soy-Milk-Alternative-Unsweetened-Dairy-Free-of-protein/6000190182706) | $9.06 |
 | 无糖无咖啡因汽水 | 355 mL × 12罐 / 箱 | 1箱 / 周 | — | [Fresca Citrus 12 Pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189) | $8.36 |
 | 即食土豆泥 | 113 g / 袋 | 1袋 / 周 | 1/2袋 | [Betty Crocker Sour Cream & Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO) | $1.99 |
@@ -71,7 +71,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 干牛至叶 | 32 g / 袋 | 按需补 | — | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145) | $0.14 |
 | 盐 | 1 kg / 盒 | 按需补 | — | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128) | $0.02 |
 | 橄榄油 | 1 L / 瓶 | 按需补 | — | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259) | $0.42 |
-| 每周平均合计 | — | — | — | — | $166.28 |
+| 每周平均合计 | — | — | — | — | $165.81 |
 {.table-centered}
 
 ### 并行做菜流程
