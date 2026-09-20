@@ -234,43 +234,15 @@ $$\begin{aligned}
 \end{aligned}$$
 The preceding theorem therefore shows that $\mathcal F$ is physically rigid: any triple $(D_0,D_1,D_\infty)$ with product $I$ and with each $D_s$ conjugate to $A_s$ is simultaneously conjugate to this triple.
 
-The cohomological data also make the criterion concrete. Global endomorphisms commute with both $A_0$ and $A_1$, and the displayed commuting algebras intersect in $\mathbb C I$. Thus $h^0(X,j_*\mathrm{End}(\mathcal F))=1$; duality gives $h^2=1$, and $\chi=2$ forces $h^1=0$:
+The cohomological data also make the criterion concrete. A global section of $\mathrm{End}(\mathcal F)$ is determined by its value $M$ at the base point: transport determines its value at every other point. This gives a well-defined section precisely when transport around every loop returns $M$ to itself. Since monodromy on endomorphisms is conjugation, this means $A_\gamma M A_\gamma^{-1}=M$, or equivalently $A_\gamma M=MA_\gamma$. The loops around $0$ and $1$ generate $\pi_1(U)$, so it suffices that $M$ commute with $A_0$ and $A_1$. By the definition of direct image, therefore,
+$$H^0(X,j_*\mathrm{End}(\mathcal F))
+=H^0(U,\mathrm{End}(\mathcal F))
+\cong\mathfrak z(A_0)\cap\mathfrak z(A_1).$$
+An element of this intersection must have both displayed forms:
+$$M=\begin{pmatrix}a&b\\0&a\end{pmatrix}
+=\begin{pmatrix}c&0\\d&c\end{pmatrix}.$$
+Comparing entries gives $b=d=0$ and $a=c$, so $M=aI$. Thus the space of global sections is $\mathbb C I$, which has dimension $1$, giving $h^0(X,j_*\mathrm{End}(\mathcal F))=1$. Duality gives $h^2=1$, and $\chi=2$ forces $h^1=0$:
 $$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathrm{End}(\mathcal F))=(1,0,1).$$
-By contrast, $h^1(U,\mathrm{End}(\mathcal F))=5$, since $h^0(U,\mathrm{End}(\mathcal F))=1$ and $\chi(U,\mathrm{End}(\mathcal F))=-4$. The vanishing relevant to rigidity is on $X$ with $j_*\mathrm{End}(\mathcal F)$, not ordinary cohomology of the endomorphism local system on $U$.
-
-For comparison, applying Euler–Poincaré to $\mathcal F$ itself gives
-$$\chi(X,j_*\mathcal F)=(2-3)\cdot2+(1+1+0)=0,$$
-not $2$. It is essential that the rigidity criterion uses $\mathrm{End}(\mathcal F)$. Finally, the dimension count in the proof has $\dim Y=3\cdot2^2=12$ and $\dim G=(2^2-1)+3\cdot2=9$, so the two bounds become $9\ge\dim\pi^{-1}(I)\ge9$.
-{{< /example >}}
-
-{{< example note="Euler–Poincaré for nontrivial unipotent monodromy" id="euler-unipotent-example">}}
-For a simpler illustration of {{< refer "euler">}}, take $X=\mathbb P^1$ and $U=\mathbb C^\times=\mathbb P^1\setminus\{0,\infty\}$. Define a rank-two local system $\mathcal H$ by
-$$T_0=\begin{pmatrix}1&1\\0&1\end{pmatrix},\qquad
-T_\infty=T_0^{-1}=\begin{pmatrix}1&-1\\0&1\end{pmatrix}.$$
-The product relation holds, and both local monodromies are nontrivial. Nevertheless, both have a one-dimensional invariant subspace:
-$$\mathcal H^{I(0)}=\ker(T_0-I)=\mathbb Ce_1,\qquad
-\mathcal H^{I(\infty)}=\ker(T_\infty-I)=\mathbb Ce_1.$$
-Thus both boundary stalks of $j_*\mathcal H$ have dimension $1$, whereas the stalks on $U$ have dimension $2$.
-
-We can compute the open-curve cohomology directly. Since $\pi_1(U)\cong\mathbb Z$, it is computed by
-$$0\longrightarrow\mathbb C^2\xrightarrow{\,T_0-I\,}\mathbb C^2\longrightarrow0,
-\qquad (a,b)\longmapsto(b,0).$$
-The kernel and cokernel both have dimension $1$, so
-$$h^0(U,\mathcal H)=h^1(U,\mathcal H)=1,\qquad
-\chi(U,\mathcal H)=1-1=0.$$
-Euler–Poincaré now adds the two boundary contributions:
-$$\begin{aligned}
-\chi(X,j_*\mathcal H)
-&=\chi(U,\mathcal H)+\dim\mathcal H^{I(0)}+\dim\mathcal H^{I(\infty)}\\
-&=0+1+1=2\\
-&=(2-0-2)\cdot2+1+1.
-\end{aligned}$$
-This exhibits the roles of all terms in the formula: the open-curve contribution is zero, but each puncture contributes its invariant subspace.
-
-For completeness, $h^0(X,j_*\mathcal H)=1$. The dual local system has monodromy $(T_0^{-1})^{\mathsf T}$ and also has a one-dimensional invariant subspace, so duality gives $h^2(X,j_*\mathcal H)=1$. The value $\chi=2$ then gives $h^1(X,j_*\mathcal H)=0$. Thus
-$$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathcal H)=(1,0,1),\qquad
-\chi_c(U,\mathcal H)=\chi(U,\mathcal H)=0.$$
-The difference between $\chi(X,j_*\mathcal H)$ and $\chi_c(U,\mathcal H)$ is exactly the dimension $1+1$ of the boundary quotient in $$0\to j_!\mathcal H\to j_*\mathcal H\to Q\to 0.$$
 {{< /example >}}
 
 ## Higher Genus
