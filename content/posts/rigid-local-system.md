@@ -163,7 +163,7 @@ $$CA_iC^{-1}=B_iA_iB_i^{-1}\qquad\text{for every }i.$$
 
 Let $\mathfrak z(A_i)$ be the algebra of matrices in $M_n(\mathbb C)$ commuting with $A_i$, and let $Z(A_i)$ be its group of invertible elements. Since local monodromy acts on $\mathrm{End}(\mathcal F)$ by conjugation, its invariant subspace at $s_i$ is $\mathfrak z(A_i)$. By {{< refer "euler">}},
 $$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim_{\mathbb C}\mathfrak z(A_i).$$
-The group $Z(A_i)$ is a nonempty open subset of the vector space $\mathfrak z(A_i)$, defined by the nonvanishing of the determinant. Consequently $\dim Z(A_i)=\dim_{\mathbb C}\mathfrak z(A_i)$, and
+The group $Z(A_i)$ is a nonempty Zariski open subset of $\mathfrak z(A_i)$ as a irreducible variety. Consequently $\dim Z(A_i)=\dim_{\mathbb C}\mathfrak z(A_i)$, and
 $$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i).$$
 
 Consider $Y=(\mathrm{GL}_n(\mathbb C))^m$ and the map
@@ -179,16 +179,101 @@ and on $\mathrm{SL}_n(\mathbb C)$ by conjugation through $C$. The map $\pi$ is e
 The matrix characterization of physical rigidity says exactly that $G$ acts transitively on $\pi^{-1}(I)$. Indeed, for a point $(B_i)$ of the fibre, choose the simultaneous conjugating matrix $C$ above. Then $Z_i:=B_i^{-1}C$ commutes with $A_i$, and $B_i=CZ_i^{-1}$, so $(B_i)$ lies in the orbit of $(I,\ldots,I)$. Conversely, membership in this orbit gives simultaneous conjugacy. Therefore
 $$\dim G\ge\dim\pi^{-1}(I).$$
 
-Since $\mathrm{SL}_n(\mathbb C)$ is smooth of dimension $n^2-1$, the point $I$ is locally defined by $n^2-1$ equations. Pulling them back by $\pi$, each irreducible component $W$ of the fibre satisfies
+Since $\mathrm{SL}_n(\mathbb C)$ is smooth of dimension $n^2-1$, the point $I$ is locally defined by $n^2-1$ equations. Pulling these equations back by $\pi$ shows that the fibre is locally cut out in $Y$ by $n^2-1$ equations. We now apply Krull's height theorem {{< cite key="Stacks" note="Tag 0BBZ, Lemma 10.60.12(1)" >}}: a locus cut out by $r$ equations in a smooth equidimensional variety has every irreducible component of codimension at most $r$. Thus each irreducible component $W$ of the fibre satisfies
 $$\dim W\ge\dim Y-(n^2-1).$$
 The fibre is nonempty, as it contains $(I,\ldots,I)$. Thus
 $$\dim G\ge\dim\pi^{-1}(I)\ge\dim Y-(n^2-1).$$
 Substituting $\dim Y=mn^2$ and $\dim G=(n^2-1)+\sum_i\dim Z(A_i)$ gives
-$$(n^2-1)+\sum_i\dim Z(A_i)\ge mn^2-(n^2-1),$$
-or
-$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i)\ge2.$$
+$$\begin{aligned}
+\chi(X,j_*\mathrm{End}(\mathcal F))
+&=(2-m)n^2+\sum_i\dim Z(A_i)\\
+&=(2-m)n^2+\dim G-(n^2-1)\\
+&\ge(2-m)n^2+\dim\pi^{-1}(I)-(n^2-1)\\
+&\ge(2-m)n^2+\dim Y-2(n^2-1)\\
+&=(2-m)n^2+mn^2-2(n^2-1)\\
+&=2n^2-2n^2+2\\
+&=2.
+\end{aligned}$$
 Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathrm{End}(\mathcal F))=2$.
 {{< /proof >}}
+
+{{< example note="An irreducible physically rigid local system of rank two" id="rigid-rank-two-example">}}
+Take $X=\mathbb P^1$ and $U=\mathbb P^1\setminus\{0,1,\infty\}$. Choose based loops with $c_0c_1c_\infty=1$, and define a rank-two local system $\mathcal F$ by the monodromy matrices
+$$A_0=\begin{pmatrix}1&1\\0&1\end{pmatrix},\qquad
+A_1=\begin{pmatrix}1&0\\1&1\end{pmatrix},\qquad
+A_\infty=(A_0A_1)^{-1}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}.$$
+Their product is $I$, so they define a representation of $\pi_1(U)$ and hence a local system. All three determinants are $1$, so $\det\mathcal F$ is trivial. This is a genuinely nontrivial example: $A_0^k=\begin{pmatrix}1&k\\0&1\end{pmatrix}$, so its monodromy group is infinite.
+
+To check irreducibility, write $e_1,e_2$ for the standard basis of $\mathbb C^2$. The only invariant line of $A_0$ is $\mathbb Ce_1$, whereas the only invariant line of $A_1$ is $\mathbb Ce_2$. Thus there is no common invariant line, and the representation is irreducible.
+
+Both $A_0$ and $A_1$ have one size-two Jordan block with eigenvalue $1$. The characteristic polynomial of $A_\infty$ is $t^2-3t+1$, with distinct eigenvalues $\lambda_\pm=(3\pm\sqrt5)/2$, neither equal to $1$. In particular,
+$$\ker(A_0-I)=\mathbb Ce_1,\qquad
+\ker(A_1-I)=\mathbb Ce_2,\qquad
+\ker(A_\infty-I)=0.$$
+For the endomorphism local system we must instead compute the commuting algebras. Solving $MA_s=A_sM$ gives
+$$\begin{aligned}
+\mathfrak z(A_0)&=\left\{\begin{pmatrix}a&b\\0&a\end{pmatrix}:a,b\in\mathbb C\right\},\\
+\mathfrak z(A_1)&=\left\{\begin{pmatrix}a&0\\b&a\end{pmatrix}:a,b\in\mathbb C\right\},\\
+\mathfrak z(A_\infty)&=\left\{\begin{pmatrix}a&b\\b&a-b\end{pmatrix}:a,b\in\mathbb C\right\}.
+\end{aligned}$$
+Each has dimension $2$. Thus the relevant local data are
+$$\begin{array}{c|c|c|c}
+s&\text{Jordan form of }A_s&\dim\mathcal F^{I(s)}
+&\dim\mathrm{End}(\mathcal F)^{I(s)}\\ \hline
+0&J_2(1)&1&2\\
+1&J_2(1)&1&2\\
+\infty&\operatorname{diag}(\lambda_+,\lambda_-)&0&2
+\end{array}$$
+where $J_2(1)=\begin{pmatrix}1&1\\0&1\end{pmatrix}$. Notice that the last two columns are different: fixed vectors of $A_s$ are not the same as endomorphisms commuting with $A_s$.
+
+Since $g=0$, $m=3$, and $\mathrm{rank}\,\mathrm{End}(\mathcal F)=2^2=4$, Euler–Poincaré gives
+$$\begin{aligned}
+\chi(U,\mathrm{End}(\mathcal F))&=(2-3)\cdot4=-4,\\
+\chi(X,j_*\mathrm{End}(\mathcal F))
+&=-4+(2+2+2)=2.
+\end{aligned}$$
+The preceding theorem therefore shows that $\mathcal F$ is physically rigid: any triple $(D_0,D_1,D_\infty)$ with product $I$ and with each $D_s$ conjugate to $A_s$ is simultaneously conjugate to this triple.
+
+The cohomological data also make the criterion concrete. Global endomorphisms commute with both $A_0$ and $A_1$, and the displayed commuting algebras intersect in $\mathbb C I$. Thus $h^0(X,j_*\mathrm{End}(\mathcal F))=1$; duality gives $h^2=1$, and $\chi=2$ forces $h^1=0$:
+$$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathrm{End}(\mathcal F))=(1,0,1).$$
+By contrast, $h^1(U,\mathrm{End}(\mathcal F))=5$, since $h^0(U,\mathrm{End}(\mathcal F))=1$ and $\chi(U,\mathrm{End}(\mathcal F))=-4$. The vanishing relevant to rigidity is on $X$ with $j_*\mathrm{End}(\mathcal F)$, not ordinary cohomology of the endomorphism local system on $U$.
+
+For comparison, applying Euler–Poincaré to $\mathcal F$ itself gives
+$$\chi(X,j_*\mathcal F)=(2-3)\cdot2+(1+1+0)=0,$$
+not $2$. It is essential that the rigidity criterion uses $\mathrm{End}(\mathcal F)$. Finally, the dimension count in the proof has $\dim Y=3\cdot2^2=12$ and $\dim G=(2^2-1)+3\cdot2=9$, so the two bounds become $9\ge\dim\pi^{-1}(I)\ge9$.
+{{< /example >}}
+
+{{< example note="Euler–Poincaré for nontrivial unipotent monodromy" id="euler-unipotent-example">}}
+For a simpler illustration of {{< refer "euler">}}, take $X=\mathbb P^1$ and $U=\mathbb C^\times=\mathbb P^1\setminus\{0,\infty\}$. Define a rank-two local system $\mathcal H$ by
+$$T_0=\begin{pmatrix}1&1\\0&1\end{pmatrix},\qquad
+T_\infty=T_0^{-1}=\begin{pmatrix}1&-1\\0&1\end{pmatrix}.$$
+The product relation holds, and both local monodromies are nontrivial. Nevertheless, both have a one-dimensional invariant subspace:
+$$\mathcal H^{I(0)}=\ker(T_0-I)=\mathbb Ce_1,\qquad
+\mathcal H^{I(\infty)}=\ker(T_\infty-I)=\mathbb Ce_1.$$
+Thus both boundary stalks of $j_*\mathcal H$ have dimension $1$, whereas the stalks on $U$ have dimension $2$.
+
+We can compute the open-curve cohomology directly. Since $\pi_1(U)\cong\mathbb Z$, it is computed by
+$$0\longrightarrow\mathbb C^2\xrightarrow{\,T_0-I\,}\mathbb C^2\longrightarrow0,
+\qquad (a,b)\longmapsto(b,0).$$
+The kernel and cokernel both have dimension $1$, so
+$$h^0(U,\mathcal H)=h^1(U,\mathcal H)=1,\qquad
+\chi(U,\mathcal H)=1-1=0.$$
+Euler–Poincaré now adds the two boundary contributions:
+$$\begin{aligned}
+\chi(X,j_*\mathcal H)
+&=\chi(U,\mathcal H)+\dim\mathcal H^{I(0)}+\dim\mathcal H^{I(\infty)}\\
+&=0+1+1=2\\
+&=(2-0-2)\cdot2+1+1.
+\end{aligned}$$
+This exhibits the roles of all terms in the formula: the open-curve contribution is zero, but each puncture contributes its invariant subspace.
+
+For completeness, $h^0(X,j_*\mathcal H)=1$. The dual local system has monodromy $(T_0^{-1})^{\mathsf T}$ and also has a one-dimensional invariant subspace, so duality gives $h^2(X,j_*\mathcal H)=1$. The value $\chi=2$ then gives $h^1(X,j_*\mathcal H)=0$. Thus
+$$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathcal H)=(1,0,1),\qquad
+\chi_c(U,\mathcal H)=\chi(U,\mathcal H)=0.$$
+The difference between $\chi(X,j_*\mathcal H)$ and $\chi_c(U,\mathcal H)$ is exactly the dimension $1+1$ of the boundary quotient in $$0\to j_!\mathcal H\to j_*\mathcal H\to Q\to 0.$$
+{{< /example >}}
+
+## Higher Genus
 
 ## References
 
@@ -201,5 +286,8 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
   {{< /bibitem >}}
   {{< bibitem key="Rie57" author="Bernhard Riemann" type="article" journal="Journal für die reine und angewandte Mathematik" volume="54" pages="115--155" year="1857" doi="10.1515/crll.1857.54.115" >}}
   Theorie der Abel’schen Functionen
+  {{< /bibitem >}}
+  {{< bibitem key="Stacks" author="The Stacks Project Authors" type="online" url="https://stacks.math.columbia.edu/tag/0BBZ" >}}
+  The Stacks Project, Tag 0BBZ (Krull's height theorem)
   {{< /bibitem >}}
 {{< /bibliography >}}

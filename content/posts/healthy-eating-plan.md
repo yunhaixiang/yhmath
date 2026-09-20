@@ -19,9 +19,9 @@ aliases = ['/posts/healthy-eating-plan/']
 
 - 周日中午：做周日午餐 ～ 周三午餐，共7顿
 - 周三晚上：做周三晚餐 ～ 周六晚餐，共7顿
-- 两次使用相同的食材、数量和流程
+- 两次正餐使用相同的食材、数量和流程；仅周日额外煮6个早餐蛋
 
-早餐：混合水果 + 高纤维谷物早餐 30 g + 无糖豆奶150 g。
+早餐：混合水果 + 高纤维谷物早餐 30 g + 无糖豆奶150 g；周一至周六各加1个水煮蛋，周日不加。每周共12个蛋：早餐6个，扇贝炒蛋6个。
 
 
 
@@ -50,8 +50,8 @@ aliases = ['/posts/healthy-eating-plan/']
 | 去骨去皮鸡大腿肉 | 830 g / 盒 | 1盒 / 周 | 1/2盒 | [Maple Leaf Boneless Skinless Chicken Thighs](https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724) | $14.88 |
 | 冷冻扇贝肉 | 340 g / 袋 | 4袋 / 周 | 2袋（680 g） | [Green Ocean Bay Scallops](https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G) | $26.80 |
 | Atlantic 三文鱼 | 620 g / 盒，2块 | 2盒 / 周 | 1盒（620 g） | [Your Fresh Market Atlantic Salmon](https://www.walmart.ca/en/ip/Your-Fresh-Market-Atlantic-Salmon-Portion/6000203959332) | $48.94 |
-| Tri-Tip 牛排 | 约480 g / 盒 | 1盒 / 周 | 1/2盒（约240 g） | [Your Fresh Market AAA Angus Beef Tri Tip Sirloin Steak](https://www.walmart.ca/en/ip/aaa-angus-beef-tri-tip-sirloin-steak-your-fresh-market/6000206032828) | $17.07 |
-| 鸡蛋 | 12个 / 盒 | 1盒 / 2周 | 3个 | [Great Value Large 12 Eggs](https://www.walmart.ca/en/ip/Great-Value-Large-Eggs/10052944) | $1.97 |
+| Striploin 牛排 | 约300 g / 盒，1块 | 1盒 / 周 | 1/2盒（约150 g） | [Your Fresh Market AAA Angus Beef Striploin Steak](https://www.walmart.ca/en/ip/strip-loin-beef-steak-your-fresh-market/1099056) | $14.99 |
+| 鸡蛋 | 12个 / 盒 | 1盒 / 周 | 周日9个（煮6、炒3）；周三3个炒蛋 | [Great Value Large 12 Eggs](https://www.walmart.ca/en/ip/Great-Value-Large-Eggs/10052944) | $3.94 |
 | 无糖豆奶 | 1.89 L / 桶 | 2桶 / 周 | — | [Silk Organic Soy Unsweetened Original](https://www.walmart.ca/en/ip/Silk-Soy-Milk-Alternative-Unsweetened-Dairy-Free-of-protein/6000190182706) | $9.06 |
 | 无糖无咖啡因汽水 | 355 mL × 12罐 / 箱 | 1箱 / 周 | — | [Fresca Citrus 12 Pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189) | $8.36 |
 | 即食土豆泥 | 113 g / 袋 | 1袋 / 周 | 1/2袋 | [Betty Crocker Sour Cream & Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO) | $1.99 |
@@ -71,11 +71,11 @@ aliases = ['/posts/healthy-eating-plan/']
 | 干牛至叶 | 32 g / 袋 | 按需补 | — | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145) | $0.14 |
 | 盐 | 1 kg / 盒 | 按需补 | — | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128) | $0.02 |
 | 橄榄油 | 1 L / 瓶 | 按需补 | — | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259) | $0.42 |
-| 每周平均合计 | — | — | — | — | $187.32 |
+| 每周平均合计 | — | — | — | — | $187.21 |
 {.table-centered}
 
 <!-- 
-三文鱼链接仅供参考；重量和价格按你的截图记录：每盒约620 g、2块、$24.47，每周2盒，共1240 g、$48.94，不采用链接页面的规格数值。Tri-Tip同样按截图约480 g、$17.07记账，不采用链接页面的包装重量；两者实际以到货净重为准。每周食材平均合计$187.32，未含税、配送费、平台服务费及小费。-->
+三文鱼链接仅供参考；重量和价格按你的截图记录：每盒约620 g、2块、$24.47，每周2盒，共1240 g、$48.94，不采用链接页面的规格数值。Striploin同样按截图约300 g、$14.99记账，不采用链接页面的包装重量；两者实际以到货净重为准。每周食材平均合计$187.21，未含税、配送费、平台服务费及小费。-->
 
 ### 并行做菜流程
 
@@ -88,26 +88,28 @@ aliases = ['/posts/healthy-eating-plan/']
 3. 白米淘洗用电饭煲开煮。
 4. 扇贝取2袋（680 g），优先提前一晚按包装要求冷藏解冻；未解冻则装防漏袋浸冷水，每30分钟换水，解冻后立即烹调。
 5. 空气炸锅预热至 400°F，需 5 分钟。
+6. 仅周日：另取小锅烧水，准备6个早餐蛋。
 
 #### 阶段 2：调味、并行烹调
 
-1. Tri-Tip取半盒（约240 g），切掉明显肥边、擦干；三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排，牛排单层摆放。
+1. Striploin取半块（约150 g，沿中间分开，不削薄厚度），切掉明显肥边、擦干；三个烤盘铺烘焙纸，分别放入三文鱼、鸡大腿肉、牛排，牛排单层摆放。
 2. 按下表调味
 
 | 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
 |---|---|---|---|---|---|---|---|
 | Atlantic 三文鱼 | 1/2 茶匙 | 1/4 茶匙 | 1/2 茶匙 | — | — | 1 茶匙 | — |
 | 鸡大腿肉 | 1/2 茶匙 | 1/4 茶匙 | — | 1/2 茶匙 | 1/2 茶匙 | 1 茶匙 | 1/2 茶匙 |
-| Tri-Tip 牛排 | 1/4 茶匙 | 1/8 茶匙 | 1/8 茶匙 | — | 1/8 茶匙 | — | — |
+| Striploin 牛排 | 1/4 茶匙 | 1/8 茶匙 | 1/8 茶匙 | — | 1/8 茶匙 | — | — |
 {.table-centered}
 
 
 3. 三文鱼：Air fry 400°F，8分钟开始检查，按厚度延长至最厚处中心70°C，不以固定时间保证熟度。
 4. 鸡大腿肉烤 25 分钟。
-5. Tri-Tip：烤箱400°F，约1.5 cm厚时4分钟翻面、8分钟开始检查；较厚需延长，按包装要求和中心温度确认熟度，不能仅凭时间判断。出炉静置后逆纹切片。
+5. Striploin：烤箱400°F，约1.5 cm厚时4分钟翻面、8分钟开始检查；较厚需延长，按包装要求和中心温度确认熟度，不能仅凭时间判断。出炉静置后逆纹切片。
 6. 意面：取120 g干意面，水开下锅煮10分钟。
 7. 混合蔬菜：加盖微波 5 分钟；拌 1/4 茶匙蒜粉、1/8 茶匙黑胡椒。
 8. 土豆泥：按包装微波做法制作。
+9. 仅周日：6个早餐蛋水开下锅，8分钟开始检查，煮至蛋白、蛋黄完全凝固；冷水降温后带壳装盒，煮好后2小时内放入≤4°C冰箱，周一至周六每天取1个，最多冷藏1周。周三跳过。
 
 
 #### 阶段 3：炒锅
@@ -135,7 +137,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 | 食材 | 分到第几盘 |
 |---|---|
-| Tri-Tip 牛排 | 1（半盒，切肥边前约240 g生重） |
+| Striploin 牛排 | 1（半块，切肥边前约150 g生重） |
 | 三文鱼 | 3、6（每盘1块，平均约310 g生重） |
 | 鸡大腿肉 | 4、7 |
 | 扇贝炒鸡蛋 | 2、5（均分，每盘扇贝约340 g，按烹调前重量） |
@@ -152,31 +154,31 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ### 放纵餐
 
-按目前计划重新粗估：每周摄入约12,900 kcal，总消耗约16,800 kcal，**每周赤字约3,900 kcal**，下表统一按此计算。
+按目前计划重新粗估：每周摄入约13,000 kcal，总消耗约16,500 kcal，**每周赤字约3,500 kcal**，下表统一按此计算。
 
-估算前提：男性26岁、170 cm、83 kg，训练外主要久坐；每周训练5次，每次约30分钟力量训练和40分钟游泳；每周两桶无糖豆奶共3.78 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。
+估算前提：男性26岁、170 cm、83 kg，训练外主要久坐；每周力量训练5次、每次约30分钟；周一、周二、周四、周五各30分钟低冲击HIIT，周六游泳40分钟；每周两桶无糖豆奶共3.78 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。
 
-下表按**额外加吃**计算；若替代正餐，应先减去被替代那餐的热量，再除以3,900。百分比只表示热量赤字变化，不代表全部健身成果，也不表示对血脂的影响。
+下表按**额外加吃**计算；若替代正餐，应先减去被替代那餐的热量，再除以3,500。百分比只表示热量赤字变化，不代表全部健身成果，也不表示对血脂的影响。
 
 <!-- 赤字估算审计，2026-09-19：
 食材均按购入生重或干重，不再乘熟重热量。每周kcal取整：
 鸡腿830g×149/100≈1237；扇贝1360g×90/100=1224；Atlantic三文鱼1240g×208/100≈2579；
-Tri-Tip牛排暂按480g×154/100≈739（去可分离脂肪的生肉参考值，未扣修边重量）；鸡蛋6×72=432；无糖豆奶3780mL×90/250≈1361；
+Striploin牛排暂按300g×149/100≈447（去可分离脂肪的生肉参考值，未扣修边重量）；鸡蛋12×72=864（早餐6个、炒蛋6个）；无糖豆奶3780mL×90/250≈1361；
 土豆泥粉113g整袋4份×110=440（不加黄油）；混合蔬菜750g×65/100≈488；
 蘑菇454g×22/100≈100；菠菜284g×23/100≈65；番茄泥680mL×25/125=136；
 水果2600g×40/100≈1040；全麦意面240g×310/85≈875；卷饼2×170=340；
 米杯暂按每次3/4杯=112.5g干米，两次225g×365/100≈821；
 Fibre One 210g×90/31≈610；
-橄榄油每周6.5茶匙=32.5mL≈29.6g×884/100≈262；干调味约118。统一估算口径后合计约12866，展示取12900。
-每周营养估算：蛋白质1048g、脂肪447g、饱和脂肪91.8g、碳水1191g、纤维236g、总糖308g、钠16654mg、膳食胆固醇3345mg。钠已含烹调用盐约5130mg及Fresca约840mg，未另计意面煮水吸收的盐。总糖不是添加糖。豆奶3.78L包含早餐用量，不重复加算。米杯干米重量、水果比例和干调味量仍为估值。牛肉仅切明显肥边未必达到数据库瘦肉修整程度，饱和脂肪可能高于此估计；烤盘弃油未精确扣除。
+橄榄油每周6.5茶匙=32.5mL≈29.6g×884/100≈262；干调味约118。统一估算口径后合计约13006，展示取13000。
+每周营养估算：蛋白质1053g、脂肪461g、饱和脂肪98.5g、碳水1193g、纤维236g、总糖309g、钠16959mg、膳食胆固醇4328mg。钠已含烹调用盐约5130mg及Fresca约840mg，未另计意面煮水吸收的盐。总糖不是添加糖。豆奶3.78L包含早餐用量，不重复加算。米杯干米重量、水果比例和干调味量仍为估值。牛肉仅切明显肥边未必达到数据库瘦肉修整程度，饱和脂肪可能高于此估计；烤盘弃油未精确扣除。
 豆奶每周价格按用户截图促销价2×$4.53=$9.06；热量按每250mL约90kcal，实物标签优先。
-鸡腿、Atlantic三文鱼、牛排等用的是热量估值，未核实当前实物包装，不能当作精确营养标签。Atlantic暂用普通养殖大西洋三文鱼生重208kcal/100g参考值（USDA FDC 175167），以实物标签为准。Tri-Tip按用户截图每盒约480g、$17.07记账；去可分离脂肪生肉参考蛋白质约21g、脂肪约7g/100g，不是商品标签值，实际以净重和配送平台结算价为准。
-Tri-Tip参考：https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf
+鸡腿、Atlantic三文鱼、牛排等用的是热量估值，未核实当前实物包装，不能当作精确营养标签。Atlantic暂用普通养殖大西洋三文鱼生重208kcal/100g参考值（USDA FDC 175167），以实物标签为准。Striploin按用户截图每盒约300g、$14.99记账；去可分离脂肪生肉参考149kcal、蛋白质22.93g、脂肪6.34g、饱和脂肪2.515g/100g（USDA FDC 174003），不是商品标签值，实际以净重和配送平台结算价为准。
+Striploin参考：https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf
 Mifflin-St Jeor：10×83+6.25×170−5×26+5=1767.5 kcal/天；
 久坐基础1767.5×1.2×7=14847；
-力量按3.5 MET，游泳平均暂按6 MET，净运动消耗扣除同期1 MET：
-(3.5−1)×83×0.5×5+(6−1)×83×40/60×5≈1902；
-周总消耗约16749，取16800；周赤字约3883，展示取3900。不是可保证的减重速度。
+力量按3.5 MET，游泳暂按6 MET；低冲击HIIT跟练整节平均暂按6 MET（非实测，含间歇；减速或延长休息时更低），净运动消耗扣除同期1 MET：
+(3.5−1)×83×0.5×5+(6−1)×83×0.5×4+(6−1)×83×40/60≈1625；
+周总消耗约16472，展示取16500；周赤字约3466，展示取3500。不是可保证的减重速度。
 方法：https://pubmed.ncbi.nlm.nih.gov/2305711/
 MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompendium.com/water-activities/
 意面：https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
@@ -185,39 +187,41 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 | 食物 | 份量 | 热量（kcal） | 抵消本周预计赤字（额外加吃） |
 |---|---|---:|---:|
-| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约19% |
-| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约17% |
-| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约16% |
-| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约15% |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约15% |
-| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约14% |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约14% |
-| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约13% |
-| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约12% |
-| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约11% |
-| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约11% |
-| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约10% |
-| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约9% |
-| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约8% |
-| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约7% |
+| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约21% |
+| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约19% |
+| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约18% |
+| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约17% |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约16% |
+| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约15% |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约15% |
+| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约15% |
+| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约14% |
+| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约13% |
+| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约12% |
+| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约11% |
+| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约10% |
+| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约9% |
+| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约8% |
 | [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约7% |
-| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约6% |
-| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约5% |
+| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约7% |
+| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约6% |
 | [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约4% |
 {.table-centered}
 
 
 ## 锻炼
 
-每周训练 5 天；每次先进行 25 – 35 分钟徒手力量训练，再进行 40 分钟游泳。
+每周训练5天，力量训练安排不变；先力量、后有氧：周一、周二、周四、周五做30分钟低冲击HIIT，周六游泳40分钟。周三、周日休息或轻松散步。
 
-有氧运动主要为游泳，每次力量训练之后完成。每个来回均为自由泳去、蛙泳回。共 25 个来回；按 25 m 泳池计算，共 1,250 m。
+周一、周二、周四、周五：[30分钟低冲击HIIT跟练](https://www.youtube.com/watch?v=M0uO8X3_tEA&t=508s)。按体能降低动作速度或延长间歇，不要求四次都全力冲刺；下肢训练后若疲劳明显，改为轻松低冲击有氧。
+
+周六游泳：每个来回均为自由泳去、蛙泳回。共25个来回；按25 m泳池计算，共1,250 m，约40分钟。
 
 - 热身：5 个来回，轻松游。
 - 主训练：3 组 × 5 个来回；保持稳定节奏，组间休息 30–60 秒。可偶尔将去程的自由泳换成蝶泳。
 - 放松：5 个来回，减慢速度、轻松游。
 
-如当天无法游泳，可完成一节 [30 分钟低冲击 HIIT 跟练](https://www.youtube.com/watch?v=M0uO8X3_tEA&t=508s) 替代。若做不了HIIT，也可让带 * 的项目多做一组。
+周六无法游泳时，可用上述30分钟低冲击跟练替代；恢复不足时改为轻松活动，不额外增加力量组数来补消耗。
 
 力量训练每组之间休息 30 秒到 1 分钟。
 

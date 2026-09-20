@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic-Geometry on Yunhai Xiang</title>
-    <link>http://localhost:65038/tags/algebraic-geometry/</link>
+    <link>http://localhost:62994/tags/algebraic-geometry/</link>
     <description>Recent content in Algebraic-Geometry on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:65038/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:62994/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rigid Local Systems</title>
-      <link>http://localhost:65038/posts/07bd743/</link>
+      <link>http://localhost:62994/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/07bd743/</guid>
+      <guid>http://localhost:62994/posts/07bd743/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The art of doing mathematics consists in finding that special case which contains all the germs of generality.
@@ -256,7 +256,7 @@ there exists $C\in\mathrm{SL}_n(\mathbb C)$ such that
 $$CA_iC^{-1}=B_iA_iB_i^{-1}\qquad\text{for every }i.$$&lt;p&gt;Let $\mathfrak z(A_i)$ be the algebra of matrices in $M_n(\mathbb C)$ commuting with $A_i$, and let $Z(A_i)$ be its group of invertible elements. Since local monodromy acts on $\mathrm{End}(\mathcal F)$ by conjugation, its invariant subspace at $s_i$ is $\mathfrak z(A_i)$. By &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;euler&#34;&gt;⟦ref:euler⟧&lt;/span&gt;,
 &lt;/p&gt;
 $$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim_{\mathbb C}\mathfrak z(A_i).$$&lt;p&gt;
-The group $Z(A_i)$ is a nonempty open subset of the vector space $\mathfrak z(A_i)$, defined by the nonvanishing of the determinant. Consequently $\dim Z(A_i)=\dim_{\mathbb C}\mathfrak z(A_i)$, and
+The group $Z(A_i)$ is a nonempty Zariski open subset of $\mathfrak z(A_i)$ as a irreducible variety. Consequently $\dim Z(A_i)=\dim_{\mathbb C}\mathfrak z(A_i)$, and
 &lt;/p&gt;
 $$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i).$$&lt;p&gt;Consider $Y=(\mathrm{GL}_n(\mathbb C))^m$ and the map
 &lt;/p&gt;
@@ -272,7 +272,10 @@ $$(C,Z_1,\ldots,Z_m)\cdot(B_1,\ldots,B_m)
 and on $\mathrm{SL}_n(\mathbb C)$ by conjugation through $C$. The map $\pi$ is equivariant for these actions. Since $I$ is fixed under conjugation, the fibre $\pi^{-1}(I)$ is preserved by $G$.&lt;/p&gt;
 &lt;p&gt;The matrix characterization of physical rigidity says exactly that $G$ acts transitively on $\pi^{-1}(I)$. Indeed, for a point $(B_i)$ of the fibre, choose the simultaneous conjugating matrix $C$ above. Then $Z_i:=B_i^{-1}C$ commutes with $A_i$, and $B_i=CZ_i^{-1}$, so $(B_i)$ lies in the orbit of $(I,\ldots,I)$. Conversely, membership in this orbit gives simultaneous conjugacy. Therefore
 &lt;/p&gt;
-$$\dim G\ge\dim\pi^{-1}(I).$$&lt;p&gt;Since $\mathrm{SL}_n(\mathbb C)$ is smooth of dimension $n^2-1$, the point $I$ is locally defined by $n^2-1$ equations. Pulling them back by $\pi$, each irreducible component $W$ of the fibre satisfies
+$$\dim G\ge\dim\pi^{-1}(I).$$&lt;p&gt;Since $\mathrm{SL}_n(\mathbb C)$ is smooth of dimension $n^2-1$, the point $I$ is locally defined by $n^2-1$ equations. Pulling these equations back by $\pi$ shows that the fibre is locally cut out in $Y$ by $n^2-1$ equations. We now apply Krull&#39;s height theorem &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Stacks&#34; data-cite-note=&#34;Tag 0BBZ, Lemma 10.60.12(1)&#34;&gt;
+⟦cite:Stacks⟧
+&lt;/span&gt;: a locus cut out by $r$ equations in a smooth equidimensional variety has every irreducible component of codimension at most $r$. Thus each irreducible component $W$ of the fibre satisfies
 &lt;/p&gt;
 $$\dim W\ge\dim Y-(n^2-1).$$&lt;p&gt;
 The fibre is nonempty, as it contains $(I,\ldots,I)$. Thus
@@ -280,15 +283,126 @@ The fibre is nonempty, as it contains $(I,\ldots,I)$. Thus
 $$\dim G\ge\dim\pi^{-1}(I)\ge\dim Y-(n^2-1).$$&lt;p&gt;
 Substituting $\dim Y=mn^2$ and $\dim G=(n^2-1)+\sum_i\dim Z(A_i)$ gives
 &lt;/p&gt;
-$$(n^2-1)+\sum_i\dim Z(A_i)\ge mn^2-(n^2-1),$$&lt;p&gt;
-or
-&lt;/p&gt;
-$$\chi(X,j_*\mathrm{End}(\mathcal F))=(2-m)n^2+\sum_i\dim Z(A_i)\ge2.$$&lt;p&gt;
+$$\begin{aligned}
+\chi(X,j_*\mathrm{End}(\mathcal F))
+&amp;=(2-m)n^2+\sum_i\dim Z(A_i)\\
+&amp;=(2-m)n^2+\dim G-(n^2-1)\\
+&amp;\ge(2-m)n^2+\dim\pi^{-1}(I)-(n^2-1)\\
+&amp;\ge(2-m)n^2+\dim Y-2(n^2-1)\\
+&amp;=(2-m)n^2+mn^2-2(n^2-1)\\
+&amp;=2n^2-2n^2+2\\
+&amp;=2.
+\end{aligned}$$&lt;p&gt;
 Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathrm{End}(\mathcal F))=2$.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;rigid-rank-two-example&#34;
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(An irreducible physically rigid local system of rank two)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Take $X=\mathbb P^1$ and $U=\mathbb P^1\setminus\{0,1,\infty\}$. Choose based loops with $c_0c_1c_\infty=1$, and define a rank-two local system $\mathcal F$ by the monodromy matrices
+&lt;/p&gt;
+$$A_0=\begin{pmatrix}1&amp;1\\0&amp;1\end{pmatrix},\qquad
+A_1=\begin{pmatrix}1&amp;0\\1&amp;1\end{pmatrix},\qquad
+A_\infty=(A_0A_1)^{-1}=\begin{pmatrix}1&amp;-1\\-1&amp;2\end{pmatrix}.$$&lt;p&gt;
+Their product is $I$, so they define a representation of $\pi_1(U)$ and hence a local system. All three determinants are $1$, so $\det\mathcal F$ is trivial. This is a genuinely nontrivial example: $A_0^k=\begin{pmatrix}1&amp;k\\0&amp;1\end{pmatrix}$, so its monodromy group is infinite.&lt;/p&gt;
+&lt;p&gt;To check irreducibility, write $e_1,e_2$ for the standard basis of $\mathbb C^2$. The only invariant line of $A_0$ is $\mathbb Ce_1$, whereas the only invariant line of $A_1$ is $\mathbb Ce_2$. Thus there is no common invariant line, and the representation is irreducible.&lt;/p&gt;
+&lt;p&gt;Both $A_0$ and $A_1$ have one size-two Jordan block with eigenvalue $1$. The characteristic polynomial of $A_\infty$ is $t^2-3t+1$, with distinct eigenvalues $\lambda_\pm=(3\pm\sqrt5)/2$, neither equal to $1$. In particular,
+&lt;/p&gt;
+$$\ker(A_0-I)=\mathbb Ce_1,\qquad
+\ker(A_1-I)=\mathbb Ce_2,\qquad
+\ker(A_\infty-I)=0.$$&lt;p&gt;
+For the endomorphism local system we must instead compute the commuting algebras. Solving $MA_s=A_sM$ gives
+&lt;/p&gt;
+$$\begin{aligned}
+\mathfrak z(A_0)&amp;=\left\{\begin{pmatrix}a&amp;b\\0&amp;a\end{pmatrix}:a,b\in\mathbb C\right\},\\
+\mathfrak z(A_1)&amp;=\left\{\begin{pmatrix}a&amp;0\\b&amp;a\end{pmatrix}:a,b\in\mathbb C\right\},\\
+\mathfrak z(A_\infty)&amp;=\left\{\begin{pmatrix}a&amp;b\\b&amp;a-b\end{pmatrix}:a,b\in\mathbb C\right\}.
+\end{aligned}$$&lt;p&gt;
+Each has dimension $2$. Thus the relevant local data are
+&lt;/p&gt;
+$$\begin{array}{c|c|c|c}
+s&amp;\text{Jordan form of }A_s&amp;\dim\mathcal F^{I(s)}
+&amp;\dim\mathrm{End}(\mathcal F)^{I(s)}\\ \hline
+0&amp;J_2(1)&amp;1&amp;2\\
+1&amp;J_2(1)&amp;1&amp;2\\
+\infty&amp;\operatorname{diag}(\lambda_+,\lambda_-)&amp;0&amp;2
+\end{array}$$&lt;p&gt;
+where $J_2(1)=\begin{pmatrix}1&amp;1\\0&amp;1\end{pmatrix}$. Notice that the last two columns are different: fixed vectors of $A_s$ are not the same as endomorphisms commuting with $A_s$.&lt;/p&gt;
+&lt;p&gt;Since $g=0$, $m=3$, and $\mathrm{rank}\,\mathrm{End}(\mathcal F)=2^2=4$, Euler–Poincaré gives
+&lt;/p&gt;
+$$\begin{aligned}
+\chi(U,\mathrm{End}(\mathcal F))&amp;=(2-3)\cdot4=-4,\\
+\chi(X,j_*\mathrm{End}(\mathcal F))
+&amp;=-4+(2+2+2)=2.
+\end{aligned}$$&lt;p&gt;
+The preceding theorem therefore shows that $\mathcal F$ is physically rigid: any triple $(D_0,D_1,D_\infty)$ with product $I$ and with each $D_s$ conjugate to $A_s$ is simultaneously conjugate to this triple.&lt;/p&gt;
+&lt;p&gt;The cohomological data also make the criterion concrete. Global endomorphisms commute with both $A_0$ and $A_1$, and the displayed commuting algebras intersect in $\mathbb C I$. Thus $h^0(X,j_*\mathrm{End}(\mathcal F))=1$; duality gives $h^2=1$, and $\chi=2$ forces $h^1=0$:
+&lt;/p&gt;
+$$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathrm{End}(\mathcal F))=(1,0,1).$$&lt;p&gt;
+By contrast, $h^1(U,\mathrm{End}(\mathcal F))=5$, since $h^0(U,\mathrm{End}(\mathcal F))=1$ and $\chi(U,\mathrm{End}(\mathcal F))=-4$. The vanishing relevant to rigidity is on $X$ with $j_*\mathrm{End}(\mathcal F)$, not ordinary cohomology of the endomorphism local system on $U$.&lt;/p&gt;
+&lt;p&gt;For comparison, applying Euler–Poincaré to $\mathcal F$ itself gives
+&lt;/p&gt;
+$$\chi(X,j_*\mathcal F)=(2-3)\cdot2+(1+1+0)=0,$$&lt;p&gt;
+not $2$. It is essential that the rigidity criterion uses $\mathrm{End}(\mathcal F)$. Finally, the dimension count in the proof has $\dim Y=3\cdot2^2=12$ and $\dim G=(2^2-1)+3\cdot2=9$, so the two bounds become $9\ge\dim\pi^{-1}(I)\ge9$.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    id=&#34;euler-unipotent-example&#34;
+     data-kind=&#34;example&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Example&#39;&gt;&lt;/span&gt; &lt;span class=&#34;math-note&#34;&gt;(Euler–Poincaré for nontrivial unipotent monodromy)&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;For a simpler illustration of &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;math&#34; data-ref-id=&#34;euler&#34;&gt;⟦ref:euler⟧&lt;/span&gt;, take $X=\mathbb P^1$ and $U=\mathbb C^\times=\mathbb P^1\setminus\{0,\infty\}$. Define a rank-two local system $\mathcal H$ by
+&lt;/p&gt;
+$$T_0=\begin{pmatrix}1&amp;1\\0&amp;1\end{pmatrix},\qquad
+T_\infty=T_0^{-1}=\begin{pmatrix}1&amp;-1\\0&amp;1\end{pmatrix}.$$&lt;p&gt;
+The product relation holds, and both local monodromies are nontrivial. Nevertheless, both have a one-dimensional invariant subspace:
+&lt;/p&gt;
+$$\mathcal H^{I(0)}=\ker(T_0-I)=\mathbb Ce_1,\qquad
+\mathcal H^{I(\infty)}=\ker(T_\infty-I)=\mathbb Ce_1.$$&lt;p&gt;
+Thus both boundary stalks of $j_*\mathcal H$ have dimension $1$, whereas the stalks on $U$ have dimension $2$.&lt;/p&gt;
+&lt;p&gt;We can compute the open-curve cohomology directly. Since $\pi_1(U)\cong\mathbb Z$, it is computed by
+&lt;/p&gt;
+$$0\longrightarrow\mathbb C^2\xrightarrow{\,T_0-I\,}\mathbb C^2\longrightarrow0,
+\qquad (a,b)\longmapsto(b,0).$$&lt;p&gt;
+The kernel and cokernel both have dimension $1$, so
+&lt;/p&gt;
+$$h^0(U,\mathcal H)=h^1(U,\mathcal H)=1,\qquad
+\chi(U,\mathcal H)=1-1=0.$$&lt;p&gt;
+Euler–Poincaré now adds the two boundary contributions:
+&lt;/p&gt;
+$$\begin{aligned}
+\chi(X,j_*\mathcal H)
+&amp;=\chi(U,\mathcal H)+\dim\mathcal H^{I(0)}+\dim\mathcal H^{I(\infty)}\\
+&amp;=0+1+1=2\\
+&amp;=(2-0-2)\cdot2+1+1.
+\end{aligned}$$&lt;p&gt;
+This exhibits the roles of all terms in the formula: the open-curve contribution is zero, but each puncture contributes its invariant subspace.&lt;/p&gt;
+&lt;p&gt;For completeness, $h^0(X,j_*\mathcal H)=1$. The dual local system has monodromy $(T_0^{-1})^{\mathsf T}$ and also has a one-dimensional invariant subspace, so duality gives $h^2(X,j_*\mathcal H)=1$. The value $\chi=2$ then gives $h^1(X,j_*\mathcal H)=0$. Thus
+&lt;/p&gt;
+$$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathcal H)=(1,0,1),\qquad
+\chi_c(U,\mathcal H)=\chi(U,\mathcal H)=0.$$&lt;p&gt;
+The difference between $\chi(X,j_*\mathcal H)$ and $\chi_c(U,\mathcal H)$ is exactly the dimension $1+1$ of the boundary quotient in &lt;/p&gt;
+$$0\to j_!\mathcal H\to j_*\mathcal H\to Q\to 0.$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;higher-genus&#34;&gt;Higher Genus&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
   &lt;ul class=&#34;bib-list&#34;&gt;
@@ -307,6 +421,11 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
   &lt;span class=&#34;bib-entry&#34;&gt;Bernhard Riemann. &lt;em&gt;Theorie der Abel’schen Functionen&lt;/em&gt;. Journal für die reine und angewandte Mathematik. 54. pp. 115--155. 1857. &lt;a href=&#34;https://doi.org/10.1515/crll.1857.54.115&#34;&gt;doi:10.1515/crll.1857.54.115&lt;/a&gt;.&lt;/span&gt;
 &lt;/li&gt;
 
+  &lt;li data-bib-key=&#34;Stacks&#34;&gt;
+  &lt;span id=&#34;bib-Stacks&#34; class=&#34;bib-label&#34;&gt;[Stacks]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;The Stacks Project Authors. &lt;em&gt;The Stacks Project, Tag 0BBZ (Krull&#39;s height theorem)&lt;/em&gt;. &lt;a href=&#34;https://stacks.math.columbia.edu/tag/0BBZ&#34;&gt;https://stacks.math.columbia.edu/tag/0BBZ&lt;/a&gt;.&lt;/span&gt;
+&lt;/li&gt;
+
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -315,10 +434,10 @@ Together with the upper bound from irreducibility, this proves $\chi(X,j_*\mathr
     
     <item>
       <title>Tannakian Category and Tannaka–Krein  Duality</title>
-      <link>http://localhost:65038/posts/f2c37cb/</link>
+      <link>http://localhost:62994/posts/f2c37cb/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/f2c37cb/</guid>
+      <guid>http://localhost:62994/posts/f2c37cb/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My lawful wife is mathematics; my mistress is mechanics.
@@ -1276,10 +1395,10 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
     
     <item>
       <title>Six Functor Formalism</title>
-      <link>http://localhost:65038/posts/b3f91ac/</link>
+      <link>http://localhost:62994/posts/b3f91ac/</link>
       <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/b3f91ac/</guid>
+      <guid>http://localhost:62994/posts/b3f91ac/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
@@ -1645,10 +1764,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves</title>
-      <link>http://localhost:65038/posts/06d0bcc/</link>
+      <link>http://localhost:62994/posts/06d0bcc/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/06d0bcc/</guid>
+      <guid>http://localhost:62994/posts/06d0bcc/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     In mathematics the art of proposing a question must be held of higher value than solving it.
@@ -2420,10 +2539,10 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:65038/posts/ccda5dd/</link>
+      <link>http://localhost:62994/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/ccda5dd/</guid>
+      <guid>http://localhost:62994/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -2602,10 +2721,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:65038/posts/e7d7cf9/</link>
+      <link>http://localhost:62994/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/e7d7cf9/</guid>
+      <guid>http://localhost:62994/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -3184,10 +3303,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Brauer Group III</title>
-      <link>http://localhost:65038/posts/d04997f/</link>
+      <link>http://localhost:62994/posts/d04997f/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>http://localhost:65038/posts/d04997f/</guid>
+      <guid>http://localhost:62994/posts/d04997f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -3291,10 +3410,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:65038/posts/2878d6e/</link>
+      <link>http://localhost:62994/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:65038/posts/2878d6e/</guid>
+      <guid>http://localhost:62994/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -3457,15 +3576,15 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:65038/posts/ae85645/</link>
+      <link>http://localhost:62994/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:65038/posts/ae85645/</guid>
+      <guid>http://localhost:62994/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:65038/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:62994/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -3964,10 +4083,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:65038/posts/5e33123/</link>
+      <link>http://localhost:62994/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:65038/posts/5e33123/</guid>
+      <guid>http://localhost:62994/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -4527,10 +4646,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:65038/posts/83ed120/</link>
+      <link>http://localhost:62994/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>http://localhost:65038/posts/83ed120/</guid>
+      <guid>http://localhost:62994/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -4617,10 +4736,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:65038/posts/40383e2/</link>
+      <link>http://localhost:62994/posts/40383e2/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:65038/posts/40383e2/</guid>
+      <guid>http://localhost:62994/posts/40383e2/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -4677,10 +4796,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:65038/posts/94f3165/</link>
+      <link>http://localhost:62994/posts/94f3165/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:65038/posts/94f3165/</guid>
+      <guid>http://localhost:62994/posts/94f3165/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -4929,10 +5048,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:65038/posts/5b8f0de/</link>
+      <link>http://localhost:62994/posts/5b8f0de/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:65038/posts/5b8f0de/</guid>
+      <guid>http://localhost:62994/posts/5b8f0de/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -5100,10 +5219,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:65038/posts/33a60a9/</link>
+      <link>http://localhost:62994/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:65038/posts/33a60a9/</guid>
+      <guid>http://localhost:62994/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
