@@ -114,7 +114,7 @@ as required.
 
 Now set $X=\mathbb P^1$. 
 
-{{< theorem >}}
+{{< theorem id="thm-rigid" >}}
 An irreducible local system $\mathcal F$ of rank $\ge 1$ on $U$ is physically rigid iff $\chi(X,j_*\mathrm{End}(\mathcal F) )=2$
 {{< /theorem >}}
 
@@ -224,7 +224,6 @@ s&\text{Jordan form of }A_s&\dim\mathcal F^{I(s)}
 1&J_2(1)&1&2\\
 \infty&\operatorname{diag}(\lambda_+,\lambda_-)&0&2
 \end{array}$$
-where $J_2(1)=\begin{pmatrix}1&1\\0&1\end{pmatrix}$. Notice that the last two columns are different: fixed vectors of $A_s$ are not the same as endomorphisms commuting with $A_s$.
 
 Since $g=0$, $m=3$, and $\mathrm{rank}\,\mathrm{End}(\mathcal F)=2^2=4$, Euler–Poincaré gives
 $$\begin{aligned}
@@ -246,6 +245,19 @@ $$\bigl(h^0,h^1,h^2\bigr)(X,j_*\mathrm{End}(\mathcal F))=(1,0,1).$$
 {{< /example >}}
 
 ## Higher Genus
+
+For $g\ge1$, no nonzero local system is physically rigid. Katz introduces the weaker notions of weakly physically rigid and weakly physically semi-rigid, which allow isomorphism up to tensoring with the restriction of a rank-one local system on $X$ (and in the semi-rigid case, with a finite list of local systems). Every rank-one local system is weakly physically rigid, in any genus. In genus $1$, an irreducible local system is weakly physically rigid if and only if all its local monodromies are scalar; for irreducible local systems in this genus, weak physical semi-rigidity is equivalent to weak physical rigidity. However, for $g\ge2$ and rank $\ge2$, no local system is even weakly physically semi-rigid. Applying a similar argument as in the second direction in {{< refer "thm-rigid">}}, Katz proved that
+$$\chi(X,j_*\mathrm{End}(\mathcal F))\ge 2-2g$$
+
+for every nonzero weakly physically semi-rigid local system $\mathcal F$. But, writing $n=\mathrm{rank}(\mathcal F)$ and $A_i$ for its local monodromy matrices, Euler–Poincaré gives
+$$\begin{aligned}
+\chi(X,j_*\mathrm{End}(\mathcal F))
+&=(2-2g-m)n^2+\sum_i\dim\mathfrak z(A_i)\\
+&\le(2-2g-m)n^2+mn^2\\
+&=(2-2g)n^2\\
+&<2-2g,
+\end{aligned}$$
+where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when $g\ge2$ and $n\ge2$. This contradicts the necessary condition above, so no such local system is weakly physically semi-rigid.
 
 ## References
 

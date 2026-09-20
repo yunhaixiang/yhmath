@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category-Theory on Yunhai Xiang</title>
-    <link>http://localhost:63022/tags/category-theory/</link>
+    <link>http://localhost:52409/tags/category-theory/</link>
     <description>Recent content in Category-Theory on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:63022/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:52409/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tannakian Category and Tannaka–Krein  Duality</title>
-      <link>http://localhost:63022/posts/f2c37cb/</link>
+      <link>http://localhost:52409/posts/f2c37cb/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:63022/posts/f2c37cb/</guid>
+      <guid>http://localhost:52409/posts/f2c37cb/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My lawful wife is mathematics; my mistress is mechanics.
@@ -970,10 +970,10 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
     
     <item>
       <title>Simplicial Sets and Infinity-Categories</title>
-      <link>http://localhost:63022/posts/0c3e076/</link>
+      <link>http://localhost:52409/posts/0c3e076/</link>
       <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
       
-      <guid>http://localhost:63022/posts/0c3e076/</guid>
+      <guid>http://localhost:52409/posts/0c3e076/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
@@ -1073,10 +1073,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:63022/posts/910cedd/</link>
+      <link>http://localhost:52409/posts/910cedd/</link>
       <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:63022/posts/910cedd/</guid>
+      <guid>http://localhost:52409/posts/910cedd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -1299,10 +1299,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:63022/posts/00c73a8/</link>
+      <link>http://localhost:52409/posts/00c73a8/</link>
       <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:63022/posts/00c73a8/</guid>
+      <guid>http://localhost:52409/posts/00c73a8/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -1486,10 +1486,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:63022/posts/563818b/</link>
+      <link>http://localhost:52409/posts/563818b/</link>
       <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:63022/posts/563818b/</guid>
+      <guid>http://localhost:52409/posts/563818b/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
