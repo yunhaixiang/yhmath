@@ -19,9 +19,9 @@ aliases = ['/posts/healthy-eating-plan/']
 
 - 周日中午：做周日午餐 ～ 周三午餐，共7顿
 - 周三晚上：做周三晚餐 ～ 周六晚餐，共7顿
-- 两次正餐使用相同的食材、数量和流程；仅周日额外煮6个早餐蛋
+- 两次正餐使用相同的食材、数量和流程
 
-早餐：混合水果 + 高纤维谷物早餐 40 g + 无糖豆奶200 g；周一至周六各加1个水煮蛋，周日不加。
+早餐：混合水果 + 高纤维谷物早餐 40 g + 无糖豆奶200 g。
 
 
 
@@ -49,9 +49,9 @@ aliases = ['/posts/healthy-eating-plan/']
 | --- | ---: | ---: | ---: | --- | ---: |
 | 去骨去皮鸡大腿肉 | 约510 g / 盒 | 2盒 / 周 | 1盒 | [Zabiha Halal Boneless Skinless Chicken Thighs](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/halal-boneless-skinless-chicken-thighs/p/234146) | $21.12 |
 | 冷冻扇贝肉 | 700 g / 袋 | 2袋 / 周 | 1袋 | [Irrésistible Frozen Bay Scallops, Value Pack](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/frozen-fish-seafood/packages-bulk/frozen-bay-scallops/p/059749998017) | $23.98 |
-| 三文鱼 | 113 g / 块 | 4块 / 周 | 2块 | [Metro Fresh Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-atlantic-salmon-portion/p/223459) | $19.96 |
+| 三文鱼 | 113 g / 块 | 8块 / 周 | 4块 | [Metro Fresh Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-atlantic-salmon-portion/p/223459) | $39.92 |
 | 牛排 | 约260 g / 盒，1块 | 2盒 / 周 | 1盒 | [Platinum Grill Angus Beef Striploin Steak](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142) | $34.38 |
-| 鸡蛋 | 12个 / 盒 | 1盒 / 周 | 3个炒扇贝；仅周日6个水煮 | [Conestoga Farms Omega-3 Free Run Brown Eggs L](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-free-run-omega-3-brown-eggs/p/064767343909) | $7.39 |
+| 鸡蛋 | 6个 / 盒 | 1盒 / 周 | 3个 | [Gray Ridge Egg Farms Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/064767343312) | $3.39 |
 | 无糖豆奶 | 1.75 L / 桶 | 2桶 / 周 | — | [Earth’s Own Organic Unsweetened Original Soy Milk](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-gluten-free-unsweetened-original-soy-beverage/p/626027221022) | $9.98 |
 | 无糖无咖啡因汽水 | 355 mL × 12罐 / 箱 | 1箱 / 周 | — | [Fresca Citrus 12 Pack](https://www.metro.ca/en/online-grocery/aisles/beverages/soft-drinks/citrus-lemon-lime/sugar-free-citrus-flavoured-soft-drink/p/067000104923) | $9.49 |
 | 即食土豆泥 | 113 g / 袋 | 1袋 / 周 | 1/2袋 | [Betty Crocker Sour Cream & Chives](https://www.metro.ca/en/online-grocery/aisles/pantry/sides/sour-cream-and-chive-mashed-potato/p/065633231382) | $1.99 |
@@ -72,14 +72,14 @@ aliases = ['/posts/healthy-eating-plan/']
 | 意式混合香草 | 35 g / 瓶 | 按需补 | — | [Selection Italian Seasoning](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899) | $0.09 |
 | 盐 | 1 kg / 盒 | 按需补 | — | [Windsor Iodized Table Salt](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055) | $0.02 |
 | 橄榄油 | 1 L / 瓶 | 按需补 | — | [Terra Delyssa Premium Smooth Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627) | $0.58 |
-| 每周平均合计 | — | — | — | — | $190.95 |
+| 每周平均合计 | — | — | — | — | $206.91 |
 {.table-centered}
 
 <!-- 
 购物链接已全部改为Metro。番茄泥按截图$4.99/瓶，水果盘$11.99/盒、每周2盒共2.8 kg；其余新选商品按Metro公开价格预算。土豆泥恢复酸奶油细香葱味113 g装，每周1袋、每次半袋，不加黄油；Metro同款链接已核实，但网页未显示价格且本次截图无法读取，暂沿用原$1.99预算。按需补商品的每周价格是按用量分摊，不是每周都买整包；部分页面显示缺货，实际库存和价格以所选门店结算为准。合计未含税、配送费、平台服务费及小费。-->
 
 <!-- 
-三文鱼改为Metro Fresh Atlantic Salmon Portion，官网规格113 g/块，按截图$4.99/块；每周4块共452 g、$19.96，每次做菜2块，每份正餐1块。收到后核对实物净重，不沿用旧款620 g/盒。鸡蛋换为Conestoga Farms Omega-3 Free Run Brown Eggs L，12个/盒、每周1盒，按截图$7.39，不采用官网不同价格。豆奶换为Earth’s Own Organic Unsweetened Original 1.75 L，每周2桶共3.5 L，按截图$4.99/桶、每周$9.98。Platinum Grill普通款Striploin按用户提供每盒约260 g、每周2盒共520 g，不采用网页平均291 g；价格暂用2026-09-20查到Metro公开单价$66.12/kg，520 g约$34.38，并非用户配送平台报价。鸡腿按截图每盒约510 g、$10.56，每周两盒约1020 g、$21.12；截图标题350 g与估重不一致，Metro官网也为标题350 g但平均505 g，本计划暂沿用截图下方510 g，收到后核对净重。截图显示暂时缺货，此处只更新计划，不表示当前有货。扇贝改为Irrésistible原味生Bay Scallops 700 g×2袋，共1400 g；按截图$11.99/袋，每周$23.98，非裹粉扇贝饼。所有称重商品实际以到货净重和结算价为准。每周食材平均合计$190.95，未含税、配送费、平台服务费及小费。-->
+三文鱼改为Metro Fresh Atlantic Salmon Portion，官网规格113 g/块，按截图$4.99/块；每周暂定8块共904 g、$39.92，每次做菜4块，每份正餐2块。收到后核对实物净重，不沿用旧款620 g/盒。鸡蛋换为Gray Ridge Egg Farms Large Eggs，6个/盒、每周1盒，每次炒扇贝3个，按截图$3.39/盒；Metro商品号064767343312与6个装规格已核实。豆奶换为Earth’s Own Organic Unsweetened Original 1.75 L，每周2桶共3.5 L，按截图$4.99/桶、每周$9.98。Platinum Grill普通款Striploin按用户提供每盒约260 g、每周2盒共520 g，不采用网页平均291 g；价格暂用2026-09-20查到Metro公开单价$66.12/kg，520 g约$34.38，并非用户配送平台报价。鸡腿按截图每盒约510 g、$10.56，每周两盒约1020 g、$21.12；截图标题350 g与估重不一致，Metro官网也为标题350 g但平均505 g，本计划暂沿用截图下方510 g，收到后核对净重。截图显示暂时缺货，此处只更新计划，不表示当前有货。扇贝改为Irrésistible原味生Bay Scallops 700 g×2袋，共1400 g；按截图$11.99/袋，每周$23.98，非裹粉扇贝饼。所有称重商品实际以到货净重和结算价为准。每周食材平均合计$206.91，未含税、配送费、平台服务费及小费。-->
 
 ### 并行做菜流程
 
@@ -89,15 +89,14 @@ aliases = ['/posts/healthy-eating-plan/']
 
 1. 烤箱预热至 400°F，需 15 分钟。
 2. 意面煮锅加水烧开。
-3. 仅周日：鸡蛋煮锅加水烧开。
-4. 取白米，淘洗后用电饭煲开煮。
-5. 扇贝放入滤盆解冻。
-6. 空气炸锅预热至 400°F，需 5 分钟。
+3. 取白米，淘洗后用电饭煲开煮。
+4. 扇贝放入滤盆解冻。
+5. 空气炸锅预热至 400°F，需 5 分钟。
 
 
 #### 阶段 2：调味、并行烹调
 
-1. 取出三文鱼、牛排、和鸡大腿肉。牛排、和鸡大腿肉分别放入两个烤盘，三文鱼放在砧板上擦干。
+1. 取出三文鱼、牛排和鸡大腿肉。牛排切去明显肥边，与鸡大腿肉分别放入两个烤盘；三文鱼擦干。
 2. 按下表调味
 
 | 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
@@ -108,13 +107,12 @@ aliases = ['/posts/healthy-eating-plan/']
 {.table-centered}
 
 
-3. 三文鱼：2块单层摆放，Air fry 400°F，8分钟。
+3. 三文鱼：4块单层摆放，不叠放，放不下则分批；Air fry 400°F，8分钟后检查熟度，未熟则继续加热。
 4. 鸡大腿肉：400°F烤25分钟。
 5. 牛排：400°F烤6分钟，翻面再烤6分钟。
 6. 意面：水开下锅煮10分钟。
 7. 豌豆胡萝卜：开罐沥水、高火微波炉1–2分钟后拌匀。
 8. 土豆泥：加0.75L水到微波炉微2分钟，放入即食土豆泥拌匀微波炉3分钟。
-9. 仅周日：鸡蛋煮8分钟。
 
 
 #### 阶段 3：炒锅
@@ -138,7 +136,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 #### 阶段 4：收尾、分盘
 
-1. 按如下分盘
+1. 按如下分盘。
 
 | 食材 | 分到第几盘 |
 |---|---|
@@ -163,6 +161,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 <!--
 以下内容按用户要求仅保留于源码，不在正文显示。
+以下为此前赤字计算记录；当前摄入、赤字及营养总量以第1.5节2026-09-21营养统计审计为准。
 当前早餐为Fibre 1 40g配豆奶200g；每周谷物280g，豆奶早餐1400g，按近似密度换算约1.4L。豆奶仍按每周两桶共3.5L全部喝完计入，其余约2.1L在早餐外饮用，不重复计热量。当前四天力量、四次HIIT、一次周六游泳下，赤字及表格按4300 kcal；下方旧版本另作历史记录。
 本次训练调整审计：力量训练四天预计30–40、35–40、35–45、30–40分钟，取中点共147.5分钟/周；HIIT仍4×30分钟，游泳改1×40分钟，仅周六。沿用原体格及久坐基础14847 kcal/周，力量平均3.5 MET、低冲击HIIT及游泳平均6 MET均为估值，净运动消耗扣除同期1 MET：
 14847+(3.5-1)×83×147.5/60+(6-1)×83×0.5×4+(6-1)×83×40/60≈16464 kcal/周。
@@ -239,6 +238,141 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 {.table-centered}
 
 
+### 营养统计
+
+以下为估算，不含放纵餐。
+
+| 营养指标 | 每周合计 | 平均每天 | 建议每日范围或目标 |
+|---|---:|---:|---|
+| 热量 | 约12,200 kcal | 约1,740 kcal | 1,800–2,000 kcal |
+| 蛋白质 | 约1,010 g | 约144 g | 130–170 g |
+| 总脂肪 | 约410 g | 约58.6 g | 45–65 g |
+| 饱和脂肪 | 约92 g | 约13.1 g | ≤11 g |
+| 碳水化合物 | 约1,240 g | 约177 g | 180–240 g |
+| 膳食纤维 | 约256 g | 约36.5 g | 30–38 g |
+| 总糖 | 约320 g | 约46 g | – |
+| 添加糖 | 27 g | 3.9 g | ≤25 g |
+| 膳食胆固醇 | 约3,370 mg | 约482 mg | – |
+| 钠 | 约18,500 mg | 约2,640 mg | ≤2,300 mg |
+| 钙 | 约7,180 mg | 约1,030 mg | 1,000 mg |
+| 铁 | 约121 mg | 约17.3 mg | 8 mg |
+| 钾 | 约29,200 mg | 约4,170 mg | ≥3,400 mg |
+| 维生素D | 约127 µg | 约18.2 µg | 15 µg |
+| 维生素B12 | 约63 µg | 约9.0 µg | 2.4 µg |
+| 碘 | 约1,030 µg | 约147 µg | 150 µg |
+| Omega-3：ALA | 约4.2 g | 约0.6 g | 1.6 g |
+| Omega-3：EPA+DHA | 约19.2 g | 约2.7 g | 250 mg |
+{.table-centered}
+
+
+<!--
+表格来源限定：维生素D（豆奶、三文鱼小计）；维生素B12（豆奶、海鲜小计）；碘（仅碘盐，未计损耗）；Omega-3：ALA（仅豆奶估算）；Omega-3：EPA+DHA（仅海鲜估算）。未计入的食物含量不视为零。
+
+计算口径：豆奶每周3.5 L全部喝完，已包含早餐每天200 g；计入6个鸡蛋、全部调味、橄榄油37.5 mL及盐约13.5 g。白米270 mL暂按干米225 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
+
+表内均为估值：包装食品优先采用商品营养表，未取得完整标签的肉类、扇贝、蔬果和香料使用同类食物参考值；实际净重、肥瘦、沥水和烹调损耗会影响结果。总糖包含水果等食物自带的糖，不等于添加糖；钠包含食物本身及加盐；铁为摄入量，不是吸收量。
+
+主要核对来源：[Fibre 1营养表](https://voila.ca/products/fibre-one-cereal-crunchy-original-587-g/887547EA)、[豆奶营养表](https://earthsown.com/products/soy-unsweetened-original-chilled-carton/)、[鸡蛋营养表](https://grayridge.com/recipes-and-nutrition/)、[USDA食物成分数据库](https://fdc.nal.usda.gov/)。
+
+建议值依据（2026-09-21）：
+添加糖计算及目标补充（2026-09-21）：加拿大营养标签通常只列总糖，配料表可确认是否加糖，但不能准确量化添加糖。当前没有做菜额外加糖；完整切块水果、原味肉蛋海鲜、普通米面蔬菜、橄榄油不作为添加糖来源。Earth's Own无糖豆奶、Mutti原味番茄泥、Fibre1及Fresca按当前配料和无添加糖/无糖信息计0g添加糖；其天然糖仍保留在总糖中，三氯蔗糖等甜味剂不当作糖。
+Selection豌豆胡萝卜配料含糖，Dempster's卷饼皮含糖和糖蜜。添加糖无法从总糖直接分离，因此将罐头现有代理总糖20.8g/周、卷饼总糖2g/周，以及土豆泥总糖4g/周全部暂作为添加糖的保守上界情景：20.8+2+4=26.8g/周，除7=3.8286g/日；向上取整展示约27g/周、约3.9g/日。此计算刻意包含这些食物的天然糖，不是实际添加糖点估计；罐头总糖及沥干量仍是同类食物代理值，不能把这个上界情景当作经实物标签证实的严格上限。碘盐用于稳定碘化物的微量糖及标签舍入误差未能量化；如商品配方、果盘糖浆或调味发生变化须重算。添加糖属于原总糖的一部分，不再重复加到总糖、碳水或热量中。
+添加糖实用目标≤25g/日，按AHA建议不超过总能量6%，当前约1720kcal折合25.8g后取整；AHA成年男性常用上限36g/日不是当前低能量计划必须吃到的量。WHO的游离糖包括蜂蜜、糖浆、果汁中的糖，定义不完全等于添加糖，不能把其限量套到全部水果天然糖上。总糖没有适用于所有人的统一克数限量；加拿大标签100g总糖每日参考值是标签比较基准，不作本计划推荐目标。
+膳食胆固醇不使用过往300mg/日作为统一安全界限，也不将“无统一限量”理解为不必控制；表格采用AHA所述在保证营养充足前提下尽量降低的方向，具体程度应结合整体膳食、饱和脂肪及血脂复查。钠采用AHA≤2300mg/日、多数成人逐步接近1500mg/日的目标，1500mg不是最低需要量，明显大量出汗等情况需个体化。本次不改变食材用量、三文鱼块数、热量或赤字。
+本次核对来源：
+https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html
+https://www.heart.org/en/healthy-living/healthy-eating/healthy-food-facts
+https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+https://www.heart.org/en/news/2023/08/25/heres-the-latest-on-dietary-cholesterol-and-how-it-fits-in-with-a-healthy-diet
+https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-should-i-eat-per-day
+https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618
+https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/whole-wheat-tortillas/p/068721038252
+https://api.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/whole-grain-wheat-and-corn-bran-cereal/p/065633186040
+
+热量1800–2000kcal是基于前文维持消耗约2352kcal/日的暂定减脂起点，约350–550kcal/日赤字，并非通用医学下限；依据2–4周体重均值、饥饿感、训练表现调整。本次仅增加参考列，未改食材或当前4300–4400kcal/周赤字模型。
+蛋白质按此前83kg参考体重约1.6–2.0g/kg，取整为130–170g/日，支持力量训练和减脂保肌；不是人人都需要这个量。总脂肪45–65g属于上述能量下的大致适用范围，碳水180–240g是优先满足蛋白质和脂肪后分配剩余热量的实用起点，不是通用AMDR或必须吃到的最低量，各宏量范围不能同时取上限。
+饱和脂肪结合用户曾提供的LDL偏高情况，采用AHA降LDL的约5–6%能量目标，按当前1720kcal约9.6–11.5g，显示尽量≤11g；并非所有人的统一上限。
+纤维30–38g为实际饮食目标，成年男性AI38g/日，不是安全上限；耐受良好时超过38g并不自动意味着过量。总糖无统一推荐区间，不能直接用添加糖或游离糖限量衡量水果中的总糖。
+膳食胆固醇不虚构适用于所有人的安全阈值；AHA强调低胆固醇的整体饮食模式。考虑既往LDL偏高，建议从当前630mg/日降低并结合复查血脂评估，不能据某个食物胆固醇数字预测血LDL变化。
+钠2300mg为限制目标，1500mg是多数成人可逐步接近的目标，并非必须达到的下限；大量出汗时个体化。钙1000mg、铁8mg为当前成年男性RDA；钾3400mg为AI，不是越高越好。肾病或影响血钾的药物使用者不能直接照搬高钾/高蛋白目标。不建议为追求表格数值自行补铁或补钾。
+参考来源（按用户要求隐藏）：
+https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-macronutrients.html
+https://pubmed.ncbi.nlm.nih.gov/28698222/
+https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/fats-in-foods
+https://www.heart.org/en/news/2019/12/16/diets-low-in-cholesterol-can-help-reduce-heart-disease-stroke-risk
+https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-should-i-eat-per-day
+https://ods.od.nih.gov/factsheets/Calcium-Consumer/
+https://ods.od.nih.gov/factsheets/Iron-Consumer/
+https://ods.od.nih.gov/factsheets/Potassium-Consumer/
+
+营养统计审计，2026-09-21；此处为当前版本，下文之外的旧估算仅作历史记录。
+单位顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。
+下表各行表示：食材 | 每周倍数 | 每一基准份的12项营养。未另注明的基准份为100g；香料和盐行为整周合计。
+鸡腿肉 | 10.2 | 149 | 18.6 | 7.9 | 1.7 | 0 | 0 | 0 | 92 | 62.3 | 5 | 0.6 | 231
+原味扇贝（原标签代理） | 14 | 90 | 17 | 1 | 0.1 | 2 | 0 | 0 | 35 | 160 | 10 | 0.3 | 200
+三文鱼 | 9.04 | 208 | 20.42 | 13.42 | 3.05 | 0 | 0 | 0 | 55 | 59 | 9 | 0.34 | 363
+牛排（去肥边，暂估10%修边损失） | 4.68 | 171 | 22 | 9 | 3.8 | 0 | 0 | 0 | 59 | 45 | 15.3 | 1.9 | 271
+鸡蛋（Gray Ridge，每2个；钙铁钾仍为代理值） | 3 | 140 | 12 | 10 | 3 | 2 | 0 | 0 | 390 | 130 | 50 | 1.75 | 125
+豆奶（每250mL） | 14 | 70 | 7 | 3.5 | 0.5 | 3 | 1 | 1 | 0 | 90 | 300 | 1 | 250
+Fresca（每355mL） | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 75 | 0 | 0 | 0
+土豆泥（每1/4袋） | 4 | 110 | 2 | 2 | 0.2 | 21 | 2 | 1 | 0 | 480 | 20 | 0.3 | 300
+豌豆胡萝卜（代理估值） | 5.2 | 55 | 3 | 0.4 | 0.08 | 10.5 | 3.5 | 4 | 0 | 300 | 25 | 1 | 160
+蘑菇 | 4.54 | 22 | 2.5 | 0.1 | 0.02 | 4.3 | 0.6 | 1.7 | 0 | 6 | 18 | 0.4 | 448
+菠菜 | 2.84 | 23 | 2.86 | 0.39 | 0.063 | 3.63 | 2.2 | 0.42 | 0 | 79 | 99 | 2.71 | 558
+番茄泥（每60mL） | 11.33333 | 20 | 1 | 0 | 0 | 4 | 1 | 3 | 0 | 115 | 10 | 0.2 | 250
+混合水果（比例未知近似） | 28 | 40 | 0.7 | 0.2 | 0.03 | 10 | 1.2 | 8 | 0 | 10 | 12 | 0.3 | 170
+全麦意面（每85g） | 2.82353 | 310 | 12 | 2 | 0.4 | 59 | 8 | 2 | 0 | 4 | 30 | 3 | 150
+卷饼皮（每61g） | 2 | 170 | 5 | 4 | 1 | 28 | 3 | 1 | 0 | 320 | 30 | 1.5 | 225
+白米（未强化干米代理） | 2.25 | 365 | 7.13 | 0.66 | 0.18 | 79.95 | 1.3 | 0.12 | 0 | 5 | 28 | 0.8 | 115
+Fibre1（每62g） | 4.51613 | 140 | 4 | 1 | 0.2 | 53 | 27 | 1 | 0 | 220 | 250 | 8 | 150
+橄榄油（34.125g） | 0.34125 | 884 | 0 | 100 | 13.8 | 0 | 0 | 0 | 0 | 2 | 1 | 0.56 | 1
+干香料合计估值 | 1 | 118 | 5.5 | 2.3 | 0.4 | 25 | 8 | 2 | 0 | 30 | 130 | 3.3 | 550
+盐（13.5g） | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5310.9 | 0 | 0 | 0
+
+未取整周合计：12186.734, 1006.7724, 410.3314, 91.969, 1236.595, 255.554, 320.144, 3371.720, 18482.028, 7183.257, 121.0058, 29185.013。
+各项先按未取整数求和，再除7，最后分别取整展示；因此显示的日均乘7不必与显示的周总数完全一致。
+豆奶200g近似200mL；共3.5L只计一次。肉类采用生重，意面、白米、土豆泥和谷物采用干重，不把熟食每100g值乘生重。
+鸡腿为通用去骨去皮生鸡腿参考；牛排改用USDA Retail Beef Cuts 3.01印刷第42页Choice top loin steak、外层脂肪修至0英寸、lean and fat、生肉的完整成分组作代理，每100g171kcal、蛋白质22g、脂肪9g、饱和脂肪3.8g。不是Platinum Grill实测，也不表示加拿大等级与USDA Choice等同。外层肥边去除后仍有肌内脂肪。修边损失10%仅为工作假设；未再扣烤盘油或扇贝弃水带走的营养。参考：https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf
+新Irrésistible原味生扇贝没有取得完整标签，沿用用户此前Green Ocean原味扇贝每100g标签作为代理：90kcal、蛋白质17g、脂肪1g、饱和0.1g、碳水2g、胆固醇35mg、钠160mg、钙10mg、铁0.3mg、钾200mg；不是新品牌已核实数据，尤其钠需实物标签确认。
+豌豆胡萝卜每100g采用55kcal、蛋白质3g、脂肪0.4g、饱和0.08g、碳水10.5g、纤维3.5g、糖4g、钠300mg、钙25mg、铁1mg、钾160mg的同类沥干蔬菜估计，并非Selection标签。水果比例未知，按每100g40kcal、蛋白质0.7g、脂肪0.2g、饱和0.03g、碳水10g、纤维1.2g、糖8g、钠10mg、钙12mg、铁0.3mg、钾170mg的瓜果混合近似。
+干香料按购物审计约40.2g合计，以通用香料成分近似；不可视作实测营养。盐按氯化钠约393.4mg钠/g，油按密度0.91g/mL。Fresca计12罐的钠，不把零热量当作零钠。
+Fibre1黑色96%包装采用587g款新标签：每62g140kcal、纤维27g；取代旧90kcal/31g估算。土豆泥每袋按4份，不再把113/28当作精确份数，不加黄油或奶。
+新增维生素D、B12、碘及Omega-3审计，2026-09-21：仅报告有依据的来源小计，不编造完整总量，未改变原12项营养合计或饮食安排。参考值按原料投入量估算，未计烹调、弃水、储存损耗；不是实际吸收量或化验结果。
+豆奶采用Earth's Own当前厂家标签，每250mL含维生素D 2µg、B12 1µg、Omega-3 0.3g；每周14份分别为28µg、14µg、4.2g。厂家未分列脂肪酸种类，根据大豆原料且无鱼油或藻油强化，将其Omega-3暂按ALA估算，不计入EPA+DHA。
+三文鱼采用USDA通用生养殖大西洋三文鱼（FDC 175167）参考，每100g维生素D 11µg、B12 3.23µg、EPA 0.862g、DHA 1.104g。904g分别为99.44µg、29.1992µg、EPA+DHA 17.77264g；非当前Metro商品实测。
+扇贝B12暂按通用生扇贝1.4µg/100g、EPA+DHA按Seafish生扇贝营养资料103mg/100g估算。1400g分别贡献19.6µg和1.442g；种类、产地和加工差异使此项不确定性较高，不能当作Irrésistible标签值。
+显示小计：维生素D 28+99.44=127.44µg/周；B12 14+29.1992+19.6=62.7992µg/周；海鲜EPA+DHA 17.77264+1.442=19.21464g/周。鸡蛋和其他肉类等尚未纳入这几项，不能把小计当作完整总量。
+碘只估算购物表Windsor Iodized Table Salt：加拿大碘盐标准含0.01%碘化钾，碘占碘化钾质量约126.904/(126.904+39.098)=76.45%，因此13.5g盐理论贡献约1032µg碘/周。未计烹调或储存损耗，也未计海鲜、鸡蛋等天然碘，不能由此推出实际总碘或吸收量；不要为了补碘增加盐。
+Omega-3未将各类型直接相加套用同一目标。加拿大/美国成年男性ALA适宜摄入量为1.6g/日；EPA+DHA采用EFSA成人250mg/日参考量，并非降甘油三酯治疗剂量或安全上限。Omega-3鸡蛋虽有总Omega-3标示，但未核实ALA/EPA/DHA分项，暂未加入这两行；不能据豆奶ALA小计判断全日ALA不足。
+维生素D 15µg（600IU）、B12 2.4µg、碘150µg为目前年龄段成年人的每日RDA；不是补充剂处方或上限。小计与目标比较只供参考，维生素D未计日晒合成。
+新增项目来源（按要求隐藏）：
+https://earthsown.com/products/soy-unsweetened-original-chilled-carton/
+https://fdc.nal.usda.gov/food-details/175167/nutrients
+https://www.logixpathchef.com/app/food/getfoodnutrition?fdcid=175167&foodname=Fish%2C+salmon%2C+Atlantic%2C+farmed%2C+raw
+https://nutrioscore.com/food/fish-salmon-atlantic-farmed-raw/175167
+https://www.seafish.org/document/?ufprt=CfDJ8GlArUJex6dNtT94Kiyjo7-R4P0UMixtYl95cQllOAzXjFBHFAKwxdGLe4ErudUW_dkdDou42LJrQnQnsCf4QnZzhZtcXntWVlMd7gDDm-v2cRUZ955OqmInNBGHlGnFeg2jLPKYp23yY799SZIcjiLB3qvJEI2sAetgpNzE-ajnT6l8FYoLszQo43CmohW--BkL6VIUsgEiNoUWwq8agM5PCtEgp_MCy5mWKmhB8wKm2RmdtWPxkQg6S-ZM89svU4Vc8Eo6r-Tjpu45eSjrzNo
+https://inspection.canada.ca/en/food-labels/labelling/industry/salt
+https://windsorsalt.com/faq/
+https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/
+https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/
+https://ods.od.nih.gov/factsheets/Iodine-Consumer/
+https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/
+https://www.efsa.europa.eu/en/press/news/120727
+历史记录（去除早餐蛋之前）：牛排去肥边重估：总摄入12726.734kcal/周；沿用原训练消耗模型16464kcal/周，赤字3737.266kcal，展示为3700kcal，放纵餐百分比统一按3700计算。牛排由旧520g参考估值改为修边后468g的完整去肥边成分组，周热量修正-239.72kcal、蛋白质-11.44g、饱和脂肪-9.256g；其中包含纠正旧参考值，不应理解为实测修边效果。三文鱼维持8块共904g；油、盐、其他调味与食材和训练均不变。购物费用沿用截图$4.99/块，三文鱼$39.92/周，总费用$210.91/周。第3、6盘各分2块；此记录优先于前面的历史记录。建议目标列沿用既定目标，未自动放宽。
+历史记录（换购Gray Ridge之前）：取消早餐蛋更新：每周鸡蛋由12个减为6个，两次炒扇贝各3个；每两周买12个装1盒，$7.39/盒，周均$3.695展示$3.70。总食材费用$207.215/周，展示$207.22。每周减少480kcal、蛋白质39g、脂肪33g、饱和脂肪10.5g、碳水3g、膳食胆固醇1200mg、钠390mg、钙150mg、铁5.25mg、钾375mg。周摄入12246.734kcal，沿用周消耗16464kcal，赤字4217.266kcal，展示4200kcal，放纵餐占比以4200计算。维生素D、B12、碘和Omega-3现有部分来源小计原本未计鸡蛋，因此显示小计不变，不表示鸡蛋不含这些营养。此记录为当前版本，优先于所有旧赤字、购买频率和用量记录；其他食材、调味和训练不变。
+Gray Ridge换购更新：每周一盒6个，共$3.39；用量仍为两次炒扇贝各3个，不恢复早餐蛋。周平均食材总费用$206.91。采用厂家普通Large Eggs栏每个53g、70kcal、蛋白质6g、脂肪5g、饱和脂肪1.5g、碳水1g、胆固醇195mg、钠65mg。钙铁仅给%DV且页面可能混用旧版标签基准、钾未列，暂保留此前同类鸡蛋代理值，不冒充已核实含量。维生素及Omega-3既有小计未计鸡蛋，维持不变。营养来源：https://grayridge.com/recipes-and-nutrition/ ，以实物包装为准。周摄入12186.734kcal，沿用周消耗16464kcal，赤字4277.266kcal，显示4300kcal；放纵餐比例按4300计算。此记录为当前版本，优先于历史记录。
+
+补充来源：
+Catelli https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
+Mutti https://mutti-parma.com/can-en/products/strained-tomatoes/
+土豆泥 https://www.saveonfoods.com/product/betty-crocker-mashed-potatoes-sour-cream-%26-chive-flavour-id-00065633231382
+卷饼 https://voila.ca/products/dempster-s-tortillas-100-whole-wheat-large-610-g/452039EA
+Fresca https://www.saveonfoods.com/product/00067000005558
+牛排同类部位参考 https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf
+鸡腿通用参考 https://www.noyemi.com/foods/poultry-products/chicken-thigh-boneless-skinless-raw
+蔬菜参考 https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/table-4-vegetables-vegetable-products-nutrient-value-some-common-foods-2008.html
+-->
+
 ## 锻炼
 
 每周力量训练4天：周一、周二、周四、周五；这四天先力量、后做30分钟低冲击HIIT。周六游泳约40分钟，周三、周日休息。
@@ -272,9 +406,12 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 - 每天统一配重，按当天最吃力的哑铃动作选重量，每组结束保留约 2 次余力；达不到次数下限或动作变形就减轻当天统一重量。较轻松的动作先增加次数，不在训练中频繁换片。
 - 组数保持不变；组间休息 90–120 秒，必要时延长至 2–3 分钟。当天所有哑铃动作均稳定达到次数上限后，下次才尝试统一加重；达不到下限则退回原重量。时间仅为估计，含休息，不因次数减少而强行缩短。
-- 每只两端对称装片，练前检查旋紧锁扣。高脚杯深蹲采用双手握住中间握杆、哑铃横放胸前的方式，不仅托住可拆卸端片；卧推和肩推先用轻重量热身，勿抛落哑铃。-->
+- 每只两端对称装片，练前检查旋紧锁扣。高脚杯深蹲采用双手握住中间握杆、哑铃横放胸前的方式，不仅托住可拆卸端片；卧推和肩推先用轻重量热身，勿抛落哑铃。
+
 
 每天训练前统一装片，中途不换：单只动作取其中一只，双只动作取两只。以下为试练重量；若肩推、弓步或分腿蹲动作变形，应降低当天统一重量，不硬撑。
+
+-->
 
 ### 周一：上肢推拉与核心
 
@@ -282,10 +419,10 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 当天哑铃：每只 10 lb（4.5 kg）；每端装 1 片 2.5 lb。
 
-- [哑铃地板卧推](https://www.youtube.com/watch?v=uUGDRwge4F8)（Dumbbell floor press）：4 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；上臂轻触地面，不反弹
-- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：3 组 × 8–12 次；每只 10 lb（4.5 kg），共 2 只；不借助蹬腿或腰部后仰
-- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；拉至腹侧停 1 秒
-- [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
+- [哑铃地板卧推](https://www.youtube.com/watch?v=uUGDRwge4F8)（Dumbbell floor press）：4 组 × 12–20 次；
+- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：3 组 × 8–12 次；
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 12–20 次；
+- [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
 ### 周二：下肢与臀部
@@ -294,10 +431,10 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 当天哑铃：每只 15 lb（6.8 kg）；每端装 1 片 5 lb。
 
-- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 12–20 次；单只 15 lb（6.8 kg）；最低点停 1 秒
-- [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：3 组 × 8–12 次／腿；每只 15 lb（6.8 kg），共 2 只；最低点停 1 秒
-- [哑铃臀桥](https://www.youtube.com/watch?v=cruqsnAyU6A)（Dumbbell glute bridge）：3 组 × 15–20 次；单只 15 lb（6.8 kg）；髋部垫毛巾、双手固定哑铃，顶点停 2 秒
-- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：3 组 × 12–20 次；每只 15 lb（6.8 kg），共 2 只；平地做，顶点停 1 秒、下放 2 秒
+- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 12–20 次；
+- [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：3 组 × 8–12 次／腿；
+- [哑铃臀桥](https://www.youtube.com/watch?v=cruqsnAyU6A)（Dumbbell glute bridge）：3 组 × 15–20 次；单只 15 lb（6.8 kg）；
+- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：3 组 × 12–20 次；
 
 ### 周四：上肢推拉与核心
 
@@ -305,11 +442,11 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 当天哑铃：每只 10 lb（4.5 kg）；每端装 1 片 2.5 lb。
 
-- [哑铃地板卧推](https://www.youtube.com/watch?v=uUGDRwge4F8)（Dumbbell floor press）：3 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；上臂轻触地面，不反弹
-- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 8–12 次；每只 10 lb（4.5 kg），共 2 只；不借助蹬腿或腰部后仰
-- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；拉至腹侧停 1 秒
-- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
-- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
+- [哑铃地板卧推](https://www.youtube.com/watch?v=uUGDRwge4F8)（Dumbbell floor press）：3 组 × 12–20 次；
+- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 8–12 次；
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 12–20 次；
+- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown）：3 组 × 10–15 次；
+- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；
 - [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
 ### 周五：下肢与核心
@@ -318,8 +455,8 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 当天哑铃：每只 15 lb（6.8 kg）；每端装 1 片 5 lb。
 
-- [哑铃分腿蹲](https://www.youtube.com/watch?v=Wcmg-3iHwjQ)（Dumbbell split squat）：3 组 × 8–12 次／腿；每只 15 lb（6.8 kg），共 2 只；双脚位置固定、后脚不垫高，最低点停 1 秒
-- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
-- [哑铃单腿臀桥](https://www.youtube.com/watch?v=-NT8jrURSt0)（Single-leg dumbbell glute bridge）：3 组 × 8–12 次／腿；单只 15 lb（6.8 kg）；髋部垫毛巾、双手固定哑铃，骨盆保持水平，顶点停 2 秒
-- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；每只 15 lb（6.8 kg），共 2 只；平地做，顶点停 1 秒、下放 2 秒
+- [哑铃分腿蹲](https://www.youtube.com/watch?v=Wcmg-3iHwjQ)（Dumbbell split squat）：3 组 × 8–12 次／腿；
+- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl）：3 组 × 8–12 次／腿；
+- [哑铃单腿臀桥](https://www.youtube.com/watch?v=-NT8jrURSt0)（Single-leg dumbbell glute bridge）：3 组 × 8–12 次／腿；
+- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
 - [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
