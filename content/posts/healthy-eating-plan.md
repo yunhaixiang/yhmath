@@ -157,12 +157,12 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ### 放纵餐
 
-**每周热量赤字估计约4,300 kcal。**
+**每周热量赤字估计约4,100 kcal。**
 
 <!--
 以下内容按用户要求仅保留于源码，不在正文显示。
 以下为此前赤字计算记录；当前摄入、赤字及营养总量以第1.5节2026-09-21营养统计审计为准。
-当前早餐为Fibre 1 40g配豆奶200g；每周谷物280g，豆奶早餐1400g，按近似密度换算约1.4L。豆奶仍按每周两桶共3.5L全部喝完计入，其余约2.1L在早餐外饮用，不重复计热量。当前四天力量、四次HIIT、一次周六游泳下，赤字及表格按4300 kcal；下方旧版本另作历史记录。
+当前早餐为Fibre 1 40g配豆奶200g；每周谷物280g，豆奶早餐1400g，按近似密度换算约1.4L。豆奶仍按每周两桶共3.5L全部喝完计入，其余约2.1L在早餐外饮用，不重复计热量。当前体重81.1 kg，四天力量、四次HIIT、一次周六游泳下，赤字及表格按4100 kcal；下方旧版本另作历史记录。
 本次训练调整审计：力量训练四天预计30–40、35–40、35–45、30–40分钟，取中点共147.5分钟/周；HIIT仍4×30分钟，游泳改1×40分钟，仅周六。沿用原体格及久坐基础14847 kcal/周，力量平均3.5 MET、低冲击HIIT及游泳平均6 MET均为估值，净运动消耗扣除同期1 MET：
 14847+(3.5-1)×83×147.5/60+(6-1)×83×0.5×4+(6-1)×83×40/60≈16464 kcal/周。
 早餐调整后Metro饮食重估12170.87 kcal/周：鸡腿1519.8、原味扇贝1260、三文鱼940.16、去明显肥边牛排暂按200kcal/100g共1040、Conestoga鸡蛋12×80=960、豆奶980、土豆泥443.93、豌豆胡萝卜暂估520g×55/100=286、蘑菇99.88、菠菜65.32、Mutti一瓶680mL×20/60=226.67、水果1120、意面875.29、卷饼340、干米821.25、Fibre1 812.90、原用油261.66、干调味118。
@@ -174,7 +174,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 上次估算参考（尚未计入Metro罐头、番茄泥及水果盘等替换）：每周摄入约11,400 kcal，总消耗约16,500 kcal，**每周赤字约5,100 kcal**（各项独立取整），下表暂按此参考值计算；Selection 398 mL两罐暂估沥干共520 g、每顿130 g，实际重量和营养标签待核实，容量不能直接当作蔬菜重量，当前热量及钠总量需据此及其他新商品标签重算。每周蛋白质约945 g，平均每天约135 g；新三文鱼每块113 g、每周共452 g，比旧计划1240 g少788 g；鸡蛋营养暂用普通大鸡蛋参考值，未核实新款标签；鸡腿暂按每盒510 g计算，需到货核对；新扇贝营养标签尚未核实，暂用原味生扇贝参考值。
 
-估算前提：男性26岁、170 cm、83 kg，训练外主要久坐；每周力量训练5次、每次约30分钟；周一、周二、周四、周五各30分钟低冲击HIIT，周六游泳40分钟；每周两桶无糖豆奶共3.5 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。
+当前估算前提：男性26岁、170 cm、81.1 kg，训练外主要久坐；每周力量训练4次、合计约147.5分钟；周一、周二、周四、周五各30分钟低冲击HIIT，周六游泳40分钟；每周两桶无糖豆奶共3.5 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。已按81.1 kg重算，当前周消耗约16267 kcal、周赤字约4080 kcal；其他83 kg公式仅作历史记录。
 
 下表暂用上次赤字估算，按**额外加吃**计算；若替代正餐，应先减去被替代那餐的热量，再除以5,100。百分比只表示热量赤字变化，不代表全部健身成果，也不表示对血脂的影响。
 
@@ -214,25 +214,25 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 -->
 
-| 食物 | 份量 | 热量（kcal） | 占参考赤字4,300 kcal（额外加吃） |
+| 食物 | 份量 | 热量（kcal） | 占参考赤字4,100 kcal（额外加吃） |
 |---|---|---:|---:|
-| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约17% |
+| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约18% |
 | [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约16% |
-| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约14% |
-| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约14% |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约13% |
+| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约15% |
+| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约15% |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约14% |
 | [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约13% |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约12% |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约13% |
 | [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约12% |
-| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约11% |
-| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约10% |
+| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约12% |
+| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约11% |
 | [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约10% |
 | [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约9% |
 | [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约8% |
-| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约7% |
+| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约8% |
 | [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约7% |
 | [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约6% |
-| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约5% |
+| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约6% |
 | [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约5% |
 | [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约3% |
 {.table-centered}
@@ -245,7 +245,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 | 营养指标 | 每周合计 | 平均每天 | 建议每日范围或目标 |
 |---|---:|---:|---|
 | 热量 | 约12,200 kcal | 约1,740 kcal | 1,800–2,000 kcal |
-| 蛋白质 | 约1,010 g | 约144 g | 130–170 g |
+| 蛋白质 | 约1,010 g | 约144 g | 130–165 g |
 | 总脂肪 | 约410 g | 约58.6 g | 45–65 g |
 | 饱和脂肪 | 约92 g | 约13.1 g | ≤11 g |
 | 碳水化合物 | 约1,240 g | 约177 g | 180–240 g |
@@ -289,8 +289,8 @@ https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/pe
 https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/whole-wheat-tortillas/p/068721038252
 https://api.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/whole-grain-wheat-and-corn-bran-cereal/p/065633186040
 
-热量1800–2000kcal是基于前文维持消耗约2352kcal/日的暂定减脂起点，约350–550kcal/日赤字，并非通用医学下限；依据2–4周体重均值、饥饿感、训练表现调整。本次仅增加参考列，未改食材或当前4300–4400kcal/周赤字模型。
-蛋白质按此前83kg参考体重约1.6–2.0g/kg，取整为130–170g/日，支持力量训练和减脂保肌；不是人人都需要这个量。总脂肪45–65g属于上述能量下的大致适用范围，碳水180–240g是优先满足蛋白质和脂肪后分配剩余热量的实用起点，不是通用AMDR或必须吃到的最低量，各宏量范围不能同时取上限。
+热量1800–2000kcal为既定减脂摄入参考，按81.1kg重算维持消耗约2324kcal/日，对应约324–524kcal/日赤字，并非通用医学下限；依据2–4周体重均值、饥饿感、训练表现调整。当前实际食谱估计约1741kcal/日，低于该参考范围，未自动增加食材；模型赤字约583kcal/日。
+蛋白质按当前81.1kg参考体重约1.6–2.0g/kg，计算为129.76–162.2g/日，实用范围取整为130–165g/日，支持力量训练和减脂保肌；不是人人都需要这个量。总脂肪45–65g属于上述能量下的大致适用范围，碳水180–240g是优先满足蛋白质和脂肪后分配剩余热量的实用起点，不是通用AMDR或必须吃到的最低量，各宏量范围不能同时取上限。
 饱和脂肪结合用户曾提供的LDL偏高情况，采用AHA降LDL的约5–6%能量目标，按当前1720kcal约9.6–11.5g，显示尽量≤11g；并非所有人的统一上限。
 纤维30–38g为实际饮食目标，成年男性AI38g/日，不是安全上限；耐受良好时超过38g并不自动意味着过量。总糖无统一推荐区间，不能直接用添加糖或游离糖限量衡量水果中的总糖。
 膳食胆固醇不虚构适用于所有人的安全阈值；AHA强调低胆固醇的整体饮食模式。考虑既往LDL偏高，建议从当前630mg/日降低并结合复查血脂评估，不能据某个食物胆固醇数字预测血LDL变化。
@@ -360,7 +360,8 @@ https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/
 https://www.efsa.europa.eu/en/press/news/120727
 历史记录（去除早餐蛋之前）：牛排去肥边重估：总摄入12726.734kcal/周；沿用原训练消耗模型16464kcal/周，赤字3737.266kcal，展示为3700kcal，放纵餐百分比统一按3700计算。牛排由旧520g参考估值改为修边后468g的完整去肥边成分组，周热量修正-239.72kcal、蛋白质-11.44g、饱和脂肪-9.256g；其中包含纠正旧参考值，不应理解为实测修边效果。三文鱼维持8块共904g；油、盐、其他调味与食材和训练均不变。购物费用沿用截图$4.99/块，三文鱼$39.92/周，总费用$210.91/周。第3、6盘各分2块；此记录优先于前面的历史记录。建议目标列沿用既定目标，未自动放宽。
 历史记录（换购Gray Ridge之前）：取消早餐蛋更新：每周鸡蛋由12个减为6个，两次炒扇贝各3个；每两周买12个装1盒，$7.39/盒，周均$3.695展示$3.70。总食材费用$207.215/周，展示$207.22。每周减少480kcal、蛋白质39g、脂肪33g、饱和脂肪10.5g、碳水3g、膳食胆固醇1200mg、钠390mg、钙150mg、铁5.25mg、钾375mg。周摄入12246.734kcal，沿用周消耗16464kcal，赤字4217.266kcal，展示4200kcal，放纵餐占比以4200计算。维生素D、B12、碘和Omega-3现有部分来源小计原本未计鸡蛋，因此显示小计不变，不表示鸡蛋不含这些营养。此记录为当前版本，优先于所有旧赤字、购买频率和用量记录；其他食材、调味和训练不变。
-Gray Ridge换购更新：每周一盒6个，共$3.39；用量仍为两次炒扇贝各3个，不恢复早餐蛋。周平均食材总费用$206.91。采用厂家普通Large Eggs栏每个53g、70kcal、蛋白质6g、脂肪5g、饱和脂肪1.5g、碳水1g、胆固醇195mg、钠65mg。钙铁仅给%DV且页面可能混用旧版标签基准、钾未列，暂保留此前同类鸡蛋代理值，不冒充已核实含量。维生素及Omega-3既有小计未计鸡蛋，维持不变。营养来源：https://grayridge.com/recipes-and-nutrition/ ，以实物包装为准。周摄入12186.734kcal，沿用周消耗16464kcal，赤字4277.266kcal，显示4300kcal；放纵餐比例按4300计算。此记录为当前版本，优先于历史记录。
+历史记录（81.1 kg重算之前）：Gray Ridge换购更新：每周一盒6个，共$3.39；用量仍为两次炒扇贝各3个，不恢复早餐蛋。周平均食材总费用$206.91。采用厂家普通Large Eggs栏每个53g、70kcal、蛋白质6g、脂肪5g、饱和脂肪1.5g、碳水1g、胆固醇195mg、钠65mg。钙铁仅给%DV且页面可能混用旧版标签基准、钾未列，暂保留此前同类鸡蛋代理值，不冒充已核实含量。维生素及Omega-3既有小计未计鸡蛋，维持不变。营养来源：https://grayridge.com/recipes-and-nutrition/ ，以实物包装为准。周摄入12186.734kcal，沿用周消耗16464kcal，赤字4277.266kcal，显示4300kcal；放纵餐比例按4300计算。此记录为当前版本，优先于历史记录。
+体重81.1 kg重算：男性26岁、170cm；Mifflin-St Jeor基础代谢10×81.1+6.25×170−5×26+5=1748.5kcal/日。非运动久坐基础1748.5×1.2×7=14687.4kcal/周。当前力量四天取时长中点共147.5分钟，四次HIIT各30分钟，周六游泳40分钟；沿用力量3.5MET、HIIT和游泳6MET，扣同期1MET，净运动消耗(3.5−1)×81.1×147.5/60+(6−1)×81.1×0.5×4+(6−1)×81.1×40/60=1579.7604kcal/周。总消耗16267.1604kcal/周、2323.8801kcal/日；摄入维持12186.734kcal/周、1740.962kcal/日；赤字4080.4264kcal/周、582.9181kcal/日，显示4100kcal/周，放纵餐百分比按4100计算。与之前约16464kcal/周消耗相比，赤字减少约197kcal/周。蛋白质摄入1006.7724g/周不变，折合约1.77g/kg/日；只调整体重相关目标，不改食材、营养摄入、购物费用或训练。此记录优先于所有此前体重及消耗审计。运动MET和久坐系数均为估计，非实测，须用体重趋势校准。
 
 补充来源：
 Catelli https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
