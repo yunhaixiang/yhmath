@@ -133,7 +133,7 @@ aliases = ['/posts/healthy-eating-plan/']
 1. 两锅加油预热。
 2. 第一锅炒蘑菇，调味后大火炒7分钟起锅。
 3. 第二锅炒菠菜，调味后中火炒7分钟起锅。
-4. 第一锅重新加油，加扇贝中大火炒8分钟，沥干水重新加油下锅，放入打散鸡蛋并调味，中火炒2分钟起锅。
+4. 第一锅重新加油，加扇贝中大火炒5分钟，沥干水重新加油下锅，放入打散鸡蛋并调味，中火炒3分钟起锅。
 5. 第二锅重新加油，加入番茄泥调味小火炒5分钟，加入煮熟的意面中小火炒3分钟。
 
 #### 阶段 4：收尾、分盘
@@ -265,13 +265,26 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 周六无法游泳时，可用上述30分钟低冲击跟练替代。
 
+<!-- 
+器械：[CAP Barbell 40-Pound Adjustable Dumbbell Set with Case](https://www.amazon.ca/dp/B000VCDXNS)。整套配 4 片 2.5 lb、4 片 5 lb；40 lb 为整套标称重量，不是每只重量。[厂家规格](https://capbarbell.com/products/cap-cast-iron-dumbbell-set-with-case-40-lb)
+
+下列重量均为含握杆、锁扣的单只哑铃标称总重，供首次试练，实际以称重为准。常用装法：10 lb 档每端装 1 片 2.5 lb；15 lb 档每端装 1 片 5 lb；20 lb 档每端各装 1 片 5 lb 和 1 片 2.5 lb。
+
+- 每天统一配重，按当天最吃力的哑铃动作选重量，每组结束保留约 2 次余力；达不到次数下限或动作变形就减轻当天统一重量。较轻松的动作先增加次数，不在训练中频繁换片。
+- 组数保持不变；组间休息 90–120 秒，必要时延长至 2–3 分钟。当天所有哑铃动作均稳定达到次数上限后，下次才尝试统一加重；达不到下限则退回原重量。时间仅为估计，含休息，不因次数减少而强行缩短。
+- 每只两端对称装片，练前检查旋紧锁扣。高脚杯深蹲采用双手握住中间握杆、哑铃横放胸前的方式，不仅托住可拆卸端片；卧推和肩推先用轻重量热身，勿抛落哑铃。-->
+
+每天训练前统一装片，中途不换：单只动作取其中一只，双只动作取两只。以下为试练重量；若肩推、弓步或分腿蹲动作变形，应降低当天统一重量，不硬撑。
+
 ### 周一：上肢推拉与核心
 
 预估时间：30–40 分钟。
 
-- \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；最低点停 1 秒
-- \* [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：3 组 × 8–15 次；手臂伸直的顶点停 1 秒
-- \* [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row；双手同时拉）：4 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
+当天哑铃：每只 10 lb（4.5 kg）；每端装 1 片 2.5 lb。
+
+- [哑铃地板卧推](https://www.youtube.com/watch?v=uUGDRwge4F8)（Dumbbell floor press）：4 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；上臂轻触地面，不反弹
+- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：3 组 × 8–12 次；每只 10 lb（4.5 kg），共 2 只；不借助蹬腿或腰部后仰
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；拉至腹侧停 1 秒
 - [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；每次触肩短暂停约 1 秒，不需停留
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
@@ -279,28 +292,34 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 预估时间：35–40 分钟。
 
-- \* [深蹲](https://www.youtube.com/watch?v=8uoaYwS6iFM)（Squat）：4 组 × 15–20 次；最低点停 1 秒
-- \* [反向弓步](https://www.youtube.com/watch?v=xrPteyQLGAo)（Reverse lunge）：3 组 × 10–15 次／腿；最低点停 1 秒
-- \* [臀桥](https://www.youtube.com/watch?v=wPM8icPu6H8)（Glute bridge）：3 组 × 12–20 次；顶点夹紧臀部停 2 秒
-- [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：3 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
+当天哑铃：每只 15 lb（6.8 kg）；每端装 1 片 5 lb。
+
+- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 12–20 次；单只 15 lb（6.8 kg）；最低点停 1 秒
+- [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：3 组 × 8–12 次／腿；每只 15 lb（6.8 kg），共 2 只；最低点停 1 秒
+- [哑铃臀桥](https://www.youtube.com/watch?v=cruqsnAyU6A)（Dumbbell glute bridge）：3 组 × 15–20 次；单只 15 lb（6.8 kg）；髋部垫毛巾、双手固定哑铃，顶点停 2 秒
+- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：3 组 × 12–20 次；每只 15 lb（6.8 kg），共 2 只；平地做，顶点停 1 秒、下放 2 秒
 
 ### 周四：上肢推拉与核心
 
 预估时间：35–45 分钟。
 
-- \* [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；最低点停 1 秒
-- \* [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 8–15 次；手臂伸直的顶点停 1 秒
-- \* [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row；双手同时拉）：3 组 × 8–15 次；拉至腹侧、肩胛骨夹紧时停 1 秒
-- \* [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
-- \* [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
+当天哑铃：每只 10 lb（4.5 kg）；每端装 1 片 2.5 lb。
+
+- [哑铃地板卧推](https://www.youtube.com/watch?v=uUGDRwge4F8)（Dumbbell floor press）：3 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；上臂轻触地面，不反弹
+- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 8–12 次；每只 10 lb（4.5 kg），共 2 只；不借助蹬腿或腰部后仰
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 12–20 次；每只 10 lb（4.5 kg），共 2 只；拉至腹侧停 1 秒
+- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown；健身馆替代：高位下拉 / Lat pulldown）：3 组 × 10–15 次；拉至锁骨附近时停 1 秒
+- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；手脚伸展到最远处停 1 秒
 - [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
 ### 周五：下肢与核心
 
 预估时间：30–40 分钟。
 
-- \* [分腿蹲](https://www.youtube.com/watch?v=hXpGSa5HYqY)（Split squat）：3 组 × 12 次／腿；最低点停 1 秒
-- \* [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
-- [单腿臀桥](https://www.youtube.com/watch?v=AVAXhy6pl7o)（Single-leg glute bridge）：3 组 × 12–20 次／腿；顶点夹紧臀部停 2 秒
-- [双腿提踵](https://www.youtube.com/watch?v=gwLzBJYoWlI)（Standing calf raise）：2 组 × 20–30 次；直接站在平地，脚跟最高点停 1 秒、下放 2 秒
+当天哑铃：每只 15 lb（6.8 kg）；每端装 1 片 5 lb。
+
+- [哑铃分腿蹲](https://www.youtube.com/watch?v=Wcmg-3iHwjQ)（Dumbbell split squat）：3 组 × 8–12 次／腿；每只 15 lb（6.8 kg），共 2 只；双脚位置固定、后脚不垫高，最低点停 1 秒
+- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl；健身馆替代：俯卧腿弯举 / Lying leg curl）：3 组 × 8–12 次／腿；小腿收至最弯曲处停 1 秒
+- [哑铃单腿臀桥](https://www.youtube.com/watch?v=-NT8jrURSt0)（Single-leg dumbbell glute bridge）：3 组 × 8–12 次／腿；单只 15 lb（6.8 kg）；髋部垫毛巾、双手固定哑铃，骨盆保持水平，顶点停 2 秒
+- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；每只 15 lb（6.8 kg），共 2 只；平地做，顶点停 1 秒、下放 2 秒
 - [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Yunhai Xiang</title>
-    <link>http://localhost:52753/categories/notes/</link>
+    <link>http://localhost:53007/categories/notes/</link>
     <description>Recent content in Notes on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:52753/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jul 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:53007/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Japanese Part I</title>
-      <link>http://localhost:52753/posts/72d4e91/</link>
+      <link>http://localhost:53007/posts/72d4e91/</link>
       <pubDate>Sun, 26 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:52753/posts/72d4e91/</guid>
+      <guid>http://localhost:53007/posts/72d4e91/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The goal of mathematics is harmony in truth, and the goal of art is harmony in beauty; emotion is at work in both.
