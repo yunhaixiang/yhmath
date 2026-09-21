@@ -1,6 +1,6 @@
 ---
 title: $\ell$-Independence
-date: 2026-08-09 00:00:00 +0800
+date: 2026-10-09 00:00:00 +0800
 slug: 2d8f6b0
 aliases:
   - /posts/ell-independence/
