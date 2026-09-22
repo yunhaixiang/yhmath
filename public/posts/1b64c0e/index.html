@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" style="font-size: 105%">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55001&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60624&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,23 +10,19 @@
 
   
   
-  <meta name="description" content="Motivation
-Middle Extension
-Perverse Sheaves on Curves
-Convolution
-Middle Convolution
-Examples
-References
-
+  <meta name="description" content="
   
-
-">
+    Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled.
+  — Nicholas M. Katz
+In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book 
+  ⟦cite:Kat96⟧
+. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:55001//images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:55001//images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:55001//images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:60624//images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:60624//images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:60624//images/favicon-16x16.png">
 
   
   
@@ -91,10 +87,10 @@ References
   
 
   
-  <meta property="og:url" content="http://localhost:55001/posts/1b64c0e/">
+  <meta property="og:url" content="http://localhost:60624/posts/1b64c0e/">
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="Middle Extension and Middle Convolution">
-  <meta property="og:description" content="Motivation Middle Extension Perverse Sheaves on Curves Convolution Middle Convolution Examples References">
+  <meta property="og:description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -106,16 +102,16 @@ References
 
 
   
-  <link rel="canonical" href="http://localhost:55001/posts/1b64c0e/">
+  <link rel="canonical" href="http://localhost:60624/posts/1b64c0e/">
 
   
   
   
   <meta itemprop="name" content="Middle Extension and Middle Convolution">
-  <meta itemprop="description" content="Motivation Middle Extension Perverse Sheaves on Curves Convolution Middle Convolution Examples References">
+  <meta itemprop="description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
   <meta itemprop="datePublished" content="2026-09-16T00:00:01-04:00">
   <meta itemprop="dateModified" content="2026-07-25T23:57:14-04:00">
-  <meta itemprop="wordCount" content="12">
+  <meta itemprop="wordCount" content="279">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
 
   
@@ -138,7 +134,7 @@ References
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Middle Extension and Middle Convolution">
-  <meta name="twitter:description" content="Motivation Middle Extension Perverse Sheaves on Curves Convolution Middle Convolution Examples References">
+  <meta name="twitter:description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
 
 
   
@@ -167,7 +163,7 @@ References
 
 <header id="header">
   <h1>
-    <a href="http://localhost:55001/">Yunhai Xiang</a>
+    <a href="http://localhost:60624/">Yunhai Xiang</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -235,7 +231,7 @@ References
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          12 words
+          279 words
         </span>
       
       
@@ -248,7 +244,7 @@ References
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~1 min
+          ~2 mins
         </span>
       
     </div>
@@ -256,17 +252,17 @@ References
     <div class="post-taxonomy-line">
       
         
-          <a class="link tag" href='http://localhost:55001/categories/expositions'>@expositions</a>
+          <a class="link tag" href='http://localhost:60624/categories/expositions'>@expositions</a>
         
       
 
       
         
-          <a class="link tag" href='http://localhost:55001/tags/math'>#math</a>
+          <a class="link tag" href='http://localhost:60624/tags/math'>#math</a>
         
-          <a class="link tag" href='http://localhost:55001/tags/algebraic-geometry'>#algebraic-geometry</a>
+          <a class="link tag" href='http://localhost:60624/tags/algebraic-geometry'>#algebraic-geometry</a>
         
-          <a class="link tag" href='http://localhost:55001/tags/cohomology'>#cohomology</a>
+          <a class="link tag" href='http://localhost:60624/tags/cohomology'>#cohomology</a>
         
       
 
@@ -284,12 +280,7 @@ References
     </summary>
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
-    <li><a href="#motivation">Motivation</a></li>
     <li><a href="#middle-extension">Middle Extension</a></li>
-    <li><a href="#perverse-sheaves-on-curves">Perverse Sheaves on Curves</a></li>
-    <li><a href="#convolution">Convolution</a></li>
-    <li><a href="#middle-convolution">Middle Convolution</a></li>
-    <li><a href="#examples">Examples</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -297,15 +288,58 @@ References
   
   <article class="content numbered-subtitles">
     
-    <h2 id="motivation">Motivation</h2>
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled.
+  </div><div class="yh-pullquote-attrib">— Nicholas M. Katz</div></aside>
+<p>In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz's book <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Kat96">
+  ⟦cite:Kat96⟧
+</span>. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.</p>
 <h2 id="middle-extension">Middle Extension</h2>
-<h2 id="perverse-sheaves-on-curves">Perverse Sheaves on Curves</h2>
-<h2 id="convolution">Convolution</h2>
-<h2 id="middle-convolution">Middle Convolution</h2>
-<h2 id="examples">Examples</h2>
+<p>Let $S$ be a finite subset of $X=\mathbb P^1(\mathbb C)$ of size $m\ge 1$, let $U=\mathbb P^1- S$ with inclusion $j:U\rightarrow X$, and let $\mathcal F$ be an irreducible $\mathbb C$-local system on $U$ of rank $n\ge 1$. We know that $\mathcal F$ is physically rigid iff $\chi(X,j_*\mathrm{End}(\mathcal F))=2$.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    Define the <em>index of rigidity</em> of $\mathcal F$ on $U$ to be $\mathrm{rig}(\mathcal F,U)=\chi(X,j_*\mathrm{End}(\mathcal F))$.
+  </div>
+</div>
+
+<p>Rigidity index is preserved under tensoring with rank $1$ local systems and removing finite sets, i.e. </p>
+$$\chi(\mathcal F\otimes \mathcal L, U)=\chi(\mathcal F, U)=\chi(i^*\mathcal F, T)$$<p> for any rank $1$ local system $\mathcal L$ and any $i:T\hookrightarrow S$ where $S\setminus T$ is finite.  The first equality because </p>
+$$\mathrm{End}(\mathcal F\otimes \mathcal L)\cong (\mathcal F\otimes \mathcal L)^\vee \otimes (\mathcal F\otimes \mathcal L)\cong \mathcal F\otimes\underline{\mathbb C}\cong\mathcal F$$<p> The second equality because $i_*i^*\mathcal G\cong \mathcal G$ for any local system $\mathcal G$, so
+</p>
+$$j_*\mathrm{End}(\mathcal F)=j_*i_*i^*\mathrm{End}(\mathcal F)=j_*i_*\mathrm{End}(i^*\mathcal F)=(j\circ i)_*\mathrm{End}(i^*\mathcal F)$$<p>
+and the rest is easy.</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    On a smooth connected curve $U/\mathbb C$, a sheaf of $\mathbb C$-vector spaces $\mathcal F$ on $U$ is called a <em>middle extension sheaf</em> if it is algebraically constructible (i.e. ) and
+  </div>
+</div>
+
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
+  <li data-bib-key="Kat96">
+  <span id="bib-Kat96" class="bib-label">[Kat96]</span>
+  <span class="bib-entry">Nicholas M. Katz. <em>Rigid Local Systems</em>. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.</span>
+</li>
+
 </ul>
 </div>
 
@@ -345,10 +379,10 @@ References
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:55001/posts/07bd743/" title="Rigid Local Systems"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="http://localhost:60624/posts/07bd743/" title="Rigid Local Systems"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a class="link" href="http://localhost:55001/posts/68915c5/" title="Néron–Ogg–Shafarevich and Serre–Tate Criteria">Next <span class="arrow-icon">🢡</span></a>
+    <a class="link" href="http://localhost:60624/posts/68915c5/" title="Néron–Ogg–Shafarevich and Serre–Tate Criteria">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
@@ -389,15 +423,15 @@ References
   </div>
 
   
-  <script src='http://localhost:55001/js/script.js' defer></script>
+  <script src='http://localhost:60624/js/script.js' defer></script>
 
   
   
-  <link media="screen" rel="stylesheet" href="http://localhost:55001/css/typography.css" />
+  <link media="screen" rel="stylesheet" href="http://localhost:60624/css/typography.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:55001/css/publications.css" />
+  <link media="screen" rel="stylesheet" href="http://localhost:60624/css/publications.css" />
   
-  <link media="screen" rel="stylesheet" href="http://localhost:55001/css/codeblock.css" />
+  <link media="screen" rel="stylesheet" href="http://localhost:60624/css/codeblock.css" />
   
 
   

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Yunhai Xiang</title>
-    <link>http://localhost:60602/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:60602/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rigid Local Systems</title>
-      <link>http://localhost:60602/posts/07bd743/</link>
+      <link>http://localhost:1313/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/07bd743/</guid>
+      <guid>http://localhost:1313/posts/07bd743/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The art of doing mathematics consists in finding that special case which contains all the germs of generality.
@@ -402,10 +402,10 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
     
     <item>
       <title>健康饮食锻炼计划</title>
-      <link>http://localhost:60602/posts/06e58c7/</link>
+      <link>http://localhost:1313/posts/06e58c7/</link>
       <pubDate>Sun, 30 Aug 2026 11:43:05 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/06e58c7/</guid>
+      <guid>http://localhost:1313/posts/06e58c7/</guid>
       <description>&lt;h2 id=&#34;饮食&#34;&gt;饮食&lt;/h2&gt;
 &lt;h3 id=&#34;计划表&#34;&gt;计划表&lt;/h3&gt;
 &lt;p&gt;该饮食计划有两个目标：&lt;/p&gt;
@@ -419,7 +419,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;li&gt;周三晚上：做周三晚餐 ～ 周六晚餐，共7顿&lt;/li&gt;
 &lt;li&gt;两次正餐使用相同的食材、数量和流程&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;早餐：混合水果 + 高纤维谷物早餐 40 g + 无糖豆奶200 g。&lt;/p&gt;
+&lt;p&gt;早餐：混合水果约357 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g；周一至周六另加1个水煮蛋。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -579,10 +579,10 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;tr&gt;
           &lt;td&gt;鸡蛋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;6个 / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3个&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;周日9个；周三3个&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/064767343312&#34;&gt;Gray Ridge Egg Farms Large Eggs&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$3.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$6.78&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;无糖豆奶&lt;/td&gt;
@@ -642,19 +642,19 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;混合水果盘&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1.4 kg / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2.5 kg / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900&#34;&gt;Fresh Fruit Carousel&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$23.98&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦意面&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;375 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;120 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;100 g&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/whole-wheat-spaghetti-pasta/p/064200115926&#34;&gt;Catelli Whole Wheat Spaghetti&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$2.55&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.13&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
@@ -668,9 +668,9 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;白米&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;900 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;135 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;120 mL&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902373&#34;&gt;Selection Long Grain White Rice&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.75&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.66&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;高纤维谷物早餐&lt;/td&gt;
@@ -745,32 +745,33 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td style=&#34;text-align: right&#34;&gt;$0.58&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;每周平均合计&lt;/td&gt;
+          &lt;td&gt;每周已知小计&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$207.90&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$186.80&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;!-- 
-购物链接已全部改为Metro。番茄泥改为Allessia无添加盐720mL，每周1瓶；$3.99暂用Instacart的Metro常规参考价，官网未显示价格，待门店结算确认。水果盘$11.99/盒、每周2盒共2.8 kg；其余新选商品按Metro公开价格预算。土豆泥改为Homestyle原味180 g装，每周1袋、每次半袋90 g，不加黄油、奶或盐；Metro商品号065633208285，公开价$3.99，实际以门店结算为准。按需补商品的每周价格是按用量分摊，不是每周都买整包；部分页面显示缺货，实际库存和价格以所选门店结算为准。合计未含税、配送费、平台服务费及小费。--&gt;
+购物链接已全部改为Metro。番茄泥改为Allessia无添加盐720mL，每周1瓶；$3.99暂用Instacart的Metro常规参考价，官网未显示价格，待门店结算确认。水果盘按用户指定改为2.5 kg/盒、每周1盒，新规格价格未提供，不沿用旧1.4 kg款价格；商品链接暂保留原款作为参考，未核实2.5 kg对应链接；其余新选商品按Metro公开价格预算。土豆泥改为Homestyle原味180 g装，每周1袋、每次半袋90 g，不加黄油、奶或盐；Metro商品号065633208285，公开价$3.99，实际以门店结算为准。按需补商品的每周价格是按用量分摊，不是每周都买整包；部分页面显示缺货，实际库存和价格以所选门店结算为准。合计未含税、配送费、平台服务费及小费。--&gt;
 &lt;!-- 
-三文鱼改为Metro Fresh Atlantic Salmon Portion，官网规格113 g/块，按截图$4.99/块；每周暂定8块共904 g、$39.92，每次做菜4块，每份正餐2块。收到后核对实物净重，不沿用旧款620 g/盒。鸡蛋换为Gray Ridge Egg Farms Large Eggs，6个/盒、每周1盒，每次炒扇贝3个，按截图$3.39/盒；Metro商品号064767343312与6个装规格已核实。豆奶换为Earth’s Own Organic Unsweetened Original 1.75 L，每周2桶共3.5 L，按截图$4.99/桶、每周$9.98。Platinum Grill普通款Striploin按用户提供每盒约260 g、每周2盒共520 g，不采用网页平均291 g；价格暂用2026-09-20查到Metro公开单价$66.12/kg，520 g约$34.38，并非用户配送平台报价。鸡腿按截图每盒约510 g、$10.56，每周两盒约1020 g、$21.12；截图标题350 g与估重不一致，Metro官网也为标题350 g但平均505 g，本计划暂沿用截图下方510 g，收到后核对净重。截图显示暂时缺货，此处只更新计划，不表示当前有货。扇贝改为Irrésistible原味生Bay Scallops 700 g×2袋，共1400 g；按截图$11.99/袋，每周$23.98，非裹粉扇贝饼。所有称重商品实际以到货净重和结算价为准。每周食材平均合计$207.90，未含税、配送费、平台服务费及小费。--&gt;
+三文鱼改为Metro Fresh Atlantic Salmon Portion，官网规格113 g/块，按截图$4.99/块；每周暂定8块共904 g、$39.92，每次做菜4块，每份正餐2块。收到后核对实物净重，不沿用旧款620 g/盒。鸡蛋换为Gray Ridge Egg Farms Large Eggs，6个/盒、每周2盒，每次炒扇贝3个，周日另煮6个早餐蛋，按截图$3.39/盒、每周$6.78；Metro商品号064767343312与6个装规格已核实。豆奶换为Earth’s Own Organic Unsweetened Original 1.75 L，每周2桶共3.5 L，按截图$4.99/桶、每周$9.98。Platinum Grill普通款Striploin按用户提供每盒约260 g、每周2盒共520 g，不采用网页平均291 g；价格暂用2026-09-20查到Metro公开单价$66.12/kg，520 g约$34.38，并非用户配送平台报价。鸡腿按截图每盒约510 g、$10.56，每周两盒约1020 g、$21.12；截图标题350 g与估重不一致，Metro官网也为标题350 g但平均505 g，本计划暂沿用截图下方510 g，收到后核对净重。截图显示暂时缺货，此处只更新计划，不表示当前有货。扇贝改为Irrésistible原味生Bay Scallops 700 g×2袋，共1400 g；按截图$11.99/袋，每周$23.98，非裹粉扇贝饼。所有称重商品实际以到货净重和结算价为准。每周已知食材小计$186.80，另加2.5 kg水果盘价格；未含税、配送费、平台服务费及小费。--&gt;
 &lt;h3 id=&#34;并行做菜流程&#34;&gt;并行做菜流程&lt;/h3&gt;
 &lt;p&gt;1茶匙 = 5 mL；喷油1下约1/4茶匙；调味罐短抖1下：小孔约1/24茶匙，大孔约1/12茶匙（均为估算）。&lt;/p&gt;
 &lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;烤箱预热至 400°F，需 15 分钟。&lt;/li&gt;
 &lt;li&gt;意面煮锅加水烧开。&lt;/li&gt;
-&lt;li&gt;取白米，淘洗后用电饭煲开煮。&lt;/li&gt;
+&lt;li&gt;取120 mL干白米，淘洗后用电饭煲开煮。&lt;/li&gt;
 &lt;li&gt;扇贝放入滤盆解冻。&lt;/li&gt;
 &lt;li&gt;空气炸锅预热至 400°F，需 5 分钟。&lt;/li&gt;
+&lt;li&gt;仅周日：另锅烧水，水开轻放6个鸡蛋，煮8分钟后检查，蛋白、蛋黄未凝固则续煮；煮好立即冷却，2小时内带壳放入密封盒，≤4°C冷藏，周一至周六早餐各取1个。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;取出三文鱼、牛排和鸡大腿肉。牛排切去明显肥边，与鸡大腿肉分别放入两个烤盘；三文鱼擦干。&lt;/li&gt;
+&lt;li&gt;取出三文鱼、牛排和鸡大腿肉。牛排切去明显肥边，鸡大腿肉剪掉明显白色肥脂，分别放入两个烤盘；三文鱼擦干。&lt;/li&gt;
 &lt;li&gt;按下表调味&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -823,7 +824,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;li&gt;三文鱼：4块单层摆放，不叠放，放不下则分批；Air fry 400°F，8分钟后检查熟度，未熟则继续加热。&lt;/li&gt;
 &lt;li&gt;鸡大腿肉：400°F烤25分钟。&lt;/li&gt;
 &lt;li&gt;牛排：400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
-&lt;li&gt;意面：120 g干面，水开下锅煮10分钟，分两份。&lt;/li&gt;
+&lt;li&gt;意面：100 g干面，水开下锅煮10分钟，分两份，每份干重50 g。&lt;/li&gt;
 &lt;li&gt;豌豆胡萝卜：开罐沥水、高火微波炉1–2分钟后拌匀。&lt;/li&gt;
 &lt;li&gt;土豆泥：约500 mL水高火微波至热，加入半袋原味土豆泥拌匀，再高火2–3分钟，静置2分钟；不加黄油、奶或盐，太稠时少量补热水。&lt;/li&gt;
 &lt;/ol&gt;
@@ -944,11 +945,11 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;li&gt;洗厨具、清理厨房。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;每周热量赤字估计约3,900 kcal。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;每周热量赤字估计约4,300 kcal。&lt;/strong&gt;&lt;/p&gt;
 &lt;!--
 以下内容按用户要求仅保留于源码，不在正文显示。
 以下为此前赤字计算记录；当前摄入、赤字及营养总量以第1.5节2026-09-21营养统计审计为准。
-当前早餐为Fibre 1 40g配豆奶200g；每周谷物280g，豆奶早餐1400g，按近似密度换算约1.4L。豆奶仍按每周两桶共3.5L全部喝完计入，其余约2.1L在早餐外饮用，不重复计热量。当前体重81.1 kg，四天力量、四次HIIT、一次周六游泳下，赤字及表格按3900 kcal；下方旧版本另作历史记录。
+当前早餐为Fibre 1 40g配豆奶200g；每周谷物280g，豆奶早餐1400g，按近似密度换算约1.4L。豆奶仍按每周两桶共3.5L全部喝完计入，其余约2.1L在早餐外饮用，不重复计热量。当前体重81.1 kg，四天力量、四次HIIT、一次周六游泳下，赤字及表格按4300 kcal；下方旧版本另作历史记录。
 本次训练调整审计：力量训练四天预计30–40、35–40、35–45、30–40分钟，取中点共147.5分钟/周；HIIT仍4×30分钟，游泳改1×40分钟，仅周六。沿用原体格及久坐基础14847 kcal/周，力量平均3.5 MET、低冲击HIIT及游泳平均6 MET均为估值，净运动消耗扣除同期1 MET：
 14847+(3.5-1)×83×147.5/60+(6-1)×83×0.5×4+(6-1)×83×40/60≈16464 kcal/周。
 早餐调整后Metro饮食重估12170.87 kcal/周：鸡腿1519.8、原味扇贝1260、三文鱼940.16、去明显肥边牛排暂按200kcal/100g共1040、Conestoga鸡蛋12×80=960、豆奶980、土豆泥443.93、豌豆胡萝卜暂估520g×55/100=286、蘑菇99.88、菠菜65.32、Mutti一瓶680mL×20/60=226.67、水果1120、意面875.29、卷饼340、干米821.25、Fibre1 812.90、原用油261.66、干调味118。
@@ -960,7 +961,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 
 上次估算参考（尚未计入Metro罐头、番茄泥及水果盘等替换）：每周摄入约11,400 kcal，总消耗约16,500 kcal，**每周赤字约5,100 kcal**（各项独立取整），下表暂按此参考值计算；Selection 398 mL两罐暂估沥干共520 g、每顿130 g，实际重量和营养标签待核实，容量不能直接当作蔬菜重量，当前热量及钠总量需据此及其他新商品标签重算。每周蛋白质约945 g，平均每天约135 g；新三文鱼每块113 g、每周共452 g，比旧计划1240 g少788 g；鸡蛋营养暂用普通大鸡蛋参考值，未核实新款标签；鸡腿暂按每盒510 g计算，需到货核对；新扇贝营养标签尚未核实，暂用原味生扇贝参考值。
 
-当前估算前提：男性26岁、170 cm、81.1 kg，训练外主要久坐；每周力量训练4次、合计约147.5分钟；周一、周二、周四、周五各30分钟低冲击HIIT，周六游泳40分钟；每周两桶无糖豆奶共3.5 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。已按81.1 kg、意面每顿60g、Allessia番茄泥720mL及原味土豆泥180g/周重算，当前周消耗约16267 kcal、周赤字约3867 kcal；其他83 kg公式仅作历史记录。
+当前估算前提：男性26岁、170 cm、81.1 kg，训练外主要久坐；每周力量训练4次、合计约147.5分钟；周一、周二、周四、周五各30分钟低冲击HIIT，周六游泳40分钟；每周两桶无糖豆奶共3.5 L全部喝完（已包含早餐用量）。肉类热量、米杯重量及运动强度仍有误差，以连续2–4周的体重均值趋势校准。已按81.1 kg、意面每顿50g、每次干白米120mL、Allessia番茄泥720mL及原味土豆泥180g/周重算，水果每周2.5kg，当前周消耗约16754 kcal、周赤字约4291 kcal；其他83 kg公式仅作历史记录。
 
 下表暂用上次赤字估算，按**额外加吃**计算；若替代正餐，应先减去被替代那餐的热量，再除以5,100。百分比只表示热量赤字变化，不代表全部健身成果，也不表示对血脂的影响。
 
@@ -1005,7 +1006,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,900 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,300 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1013,85 +1014,85 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/large-pizza/&#34;&gt;Pepperoni 披萨（Pizza Pizza，大号）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3片&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约750&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约312 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约620&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约570&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;6个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡（KFC Original Recipe）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2块鸡大腿，不含配餐和蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约440&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约340&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸鸡柳（DQ Chicken Strips）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3条，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约320&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;薯条（DQ Fries）&lt;/a&gt;&lt;/td&gt;
@@ -1103,13 +1104,13 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸洋葱圈（DQ Onion Rings）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约260&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;香草冰淇淋（DQ Vanilla Cone）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Small甜筒，不加脆皮和配料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约230&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
@@ -1121,7 +1122,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1罐355 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约140&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约3%&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1139,44 +1140,44 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,400 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,770 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,460 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,780 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,015 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约145 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,042 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约149 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约405 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约57.8 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约433 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约61.9 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约92 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13.1 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约101 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14.4 g&lt;/td&gt;
           &lt;td&gt;≤11 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,310 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约187 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,240 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约177 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约264 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约37.7 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约257 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约36.6 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约318 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约45 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约293 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约42 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1187,32 +1188,32 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食胆固醇&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约3,370 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约482 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,540 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约649 mg&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13,200 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,890 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,600 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,940 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7,200 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,030 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7,280 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,040 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约122 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17.5 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约125 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17.9 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约30,600 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,360 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约30,300 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,330 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1250,7 +1251,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 &lt;!--
 表格来源限定：维生素D（豆奶、三文鱼小计）；维生素B12（豆奶、海鲜小计）；碘（仅碘盐，未计损耗）；Omega-3：ALA（仅豆奶估算）；Omega-3：EPA+DHA（仅海鲜估算）。未计入的食物含量不视为零。
 
-计算口径：豆奶每周3.5 L全部喝完，已包含早餐每天200 g；计入6个鸡蛋、全部调味、橄榄油37.5 mL及盐约7.5 g。白米270 mL暂按干米225 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
+计算口径：豆奶每周3.5 L全部喝完，已包含早餐每天200 g；计入12个鸡蛋、全部调味、橄榄油37.5 mL及盐约7.5 g。白米240 mL暂按干米200 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
 
 表内均为估值：包装食品优先采用商品营养表，未取得完整标签的肉类、扇贝、蔬果和香料使用同类食物参考值；实际净重、肥瘦、沥水和烹调损耗会影响结果。总糖包含水果等食物自带的糖，不等于添加糖；钠包含食物本身及加盐；铁为摄入量，不是吸收量。
 
@@ -1271,7 +1272,7 @@ https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/pe
 https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/whole-wheat-tortillas/p/068721038252
 https://api.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/whole-grain-wheat-and-corn-bran-cereal/p/065633186040
 
-热量1800–2000kcal为既定减脂摄入参考，按81.1kg重算维持消耗约2324kcal/日，对应约324–524kcal/日赤字，并非通用医学下限；依据2–4周体重均值、饥饿感、训练表现调整。当前实际食谱估计约1771kcal/日，略低于该参考范围下端；模型赤字约552kcal/日。
+热量1800–2000kcal为既定减脂摄入参考，按81.1kg及最新活动估算维持消耗约2393kcal/日，对应约393–593kcal/日赤字，并非通用医学下限；依据2–4周体重均值、饥饿感、训练表现调整。当前实际食谱估计约1780kcal/日，略低于该参考范围下端；模型赤字约613kcal/日。
 蛋白质按当前81.1kg参考体重约1.6–2.0g/kg，计算为129.76–162.2g/日，实用范围取整为130–165g/日，支持力量训练和减脂保肌；不是人人都需要这个量。总脂肪45–65g属于上述能量下的大致适用范围，碳水180–240g是优先满足蛋白质和脂肪后分配剩余热量的实用起点，不是通用AMDR或必须吃到的最低量，各宏量范围不能同时取上限。
 饱和脂肪结合用户曾提供的LDL偏高情况，采用AHA降LDL的约5–6%能量目标，按当前1720kcal约9.6–11.5g，显示尽量≤11g；并非所有人的统一上限。
 纤维30–38g为实际饮食目标，成年男性AI38g/日，不是安全上限；耐受良好时超过38g并不自动意味着过量。总糖无统一推荐区间，不能直接用添加糖或游离糖限量衡量水果中的总糖。
@@ -1294,7 +1295,7 @@ https://ods.od.nih.gov/factsheets/Potassium-Consumer/
 原味扇贝（原标签代理） | 14 | 90 | 17 | 1 | 0.1 | 2 | 0 | 0 | 35 | 160 | 10 | 0.3 | 200
 三文鱼 | 9.04 | 208 | 20.42 | 13.42 | 3.05 | 0 | 0 | 0 | 55 | 59 | 9 | 0.34 | 363
 牛排（去肥边，暂估10%修边损失） | 4.68 | 171 | 22 | 9 | 3.8 | 0 | 0 | 0 | 59 | 45 | 15.3 | 1.9 | 271
-鸡蛋（Gray Ridge，每2个；钙铁钾仍为代理值） | 3 | 140 | 12 | 10 | 3 | 2 | 0 | 0 | 390 | 130 | 50 | 1.75 | 125
+鸡蛋（Gray Ridge，每2个；钙铁钾仍为代理值） | 6 | 140 | 12 | 10 | 3 | 2 | 0 | 0 | 390 | 130 | 50 | 1.75 | 125
 豆奶（每250mL） | 14 | 70 | 7 | 3.5 | 0.5 | 3 | 1 | 1 | 0 | 90 | 300 | 1 | 250
 Fresca（每355mL） | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 75 | 0 | 0 | 0
 土豆泥原味（每1/8袋） | 8 | 80 | 2 | 0.3 | 0.1 | 19 | 2 | 0 | 0 | 25 | 10 | 0.3 | 300
@@ -1302,16 +1303,16 @@ Fresca（每355mL） | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 75 | 0 | 0 | 0
 蘑菇 | 4.54 | 22 | 2.5 | 0.1 | 0.02 | 4.3 | 0.6 | 1.7 | 0 | 6 | 18 | 0.4 | 448
 菠菜 | 2.84 | 23 | 2.86 | 0.39 | 0.063 | 3.63 | 2.2 | 0.42 | 0 | 79 | 99 | 2.71 | 558
 番茄泥（Allessia每60mL，钠暂估，其余用旧款代理） | 12 | 20 | 1 | 0 | 0 | 4 | 1 | 3 | 0 | 10 | 10 | 0.2 | 250
-混合水果（比例未知近似） | 28 | 40 | 0.7 | 0.2 | 0.03 | 10 | 1.2 | 8 | 0 | 10 | 12 | 0.3 | 170
-全麦意面（每85g） | 2.82352941 | 310 | 12 | 2 | 0.4 | 59 | 8 | 2 | 0 | 4 | 30 | 3 | 150
+混合水果（比例未知近似） | 25 | 40 | 0.7 | 0.2 | 0.03 | 10 | 1.2 | 8 | 0 | 10 | 12 | 0.3 | 170
+全麦意面（每85g） | 2.35294118 | 310 | 12 | 2 | 0.4 | 59 | 8 | 2 | 0 | 4 | 30 | 3 | 150
 卷饼皮（每61g） | 2 | 170 | 5 | 4 | 1 | 28 | 3 | 1 | 0 | 320 | 30 | 1.5 | 225
-白米（未强化干米代理） | 2.25 | 365 | 7.13 | 0.66 | 0.18 | 79.95 | 1.3 | 0.12 | 0 | 5 | 28 | 0.8 | 115
+白米（未强化干米代理） | 2 | 365 | 7.13 | 0.66 | 0.18 | 79.95 | 1.3 | 0.12 | 0 | 5 | 28 | 0.8 | 115
 Fibre1（每62g） | 4.51613 | 140 | 4 | 1 | 0.2 | 53 | 27 | 1 | 0 | 220 | 250 | 8 | 150
 橄榄油（34.125g） | 0.34125 | 884 | 0 | 100 | 13.8 | 0 | 0 | 0 | 0 | 2 | 1 | 0.56 | 1
 干香料合计估值 | 1 | 118 | 5.5 | 2.3 | 0.4 | 25 | 8 | 2 | 0 | 30 | 130 | 3.3 | 550
 盐（7.5g） | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2950.5 | 0 | 0 | 0
 
-未取整周合计：12400.0674, 1015.4391, 404.7314, 91.9690, 1307.2617, 264.2207, 318.1440, 3371.7200, 13218.2947, 7189.9236, 122.3392, 30551.6796。
+未取整周合计：12462.9350, 1041.9095, 433.0252, 100.6458, 1235.5095, 256.5310, 293.1728, 4541.7200, 13575.1623, 7282.8060, 125.0774, 30317.3414。
 各项先按未取整数求和，再除7，最后分别取整展示；因此显示的日均乘7不必与显示的周总数完全一致。
 豆奶200g近似200mL；共3.5L只计一次。肉类采用生重，意面、白米、土豆泥和谷物采用干重，不把熟食每100g值乘生重。
 鸡腿为通用去骨去皮生鸡腿参考；牛排改用USDA Retail Beef Cuts 3.01印刷第42页Choice top loin steak、外层脂肪修至0英寸、lean and fat、生肉的完整成分组作代理，每100g171kcal、蛋白质22g、脂肪9g、饱和脂肪3.8g。不是Platinum Grill实测，也不表示加拿大等级与USDA Choice等同。外层肥边去除后仍有肌内脂肪。修边损失10%仅为工作假设；未再扣烤盘油或扇贝弃水带走的营养。参考：https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf
@@ -1363,6 +1364,13 @@ https://www.instacart.ca/products/26965215-allessia-organic-tomato-puree-720-ml
 
 无添加盐番茄泥钠估算补齐，2026-09-21：按用户要求不留空。Allessia暂设每60mL含钠10mg作为工作估值，不是该品牌已核实标签，也不是零钠；720mL整瓶约120mg/周。参考纯番茄类无添加盐产品的低钠水平（Pomì官网列每份5mg，但该网页未明确份量，因此不直接换算为Allessia数值）；另有Allessia平台摘要25mg但份量未核实，同样不作精确标签依据。10mg/60mL为用于计划的近似假设，不是统计置信区间或保证上限。当前周总钠13098.2947+120=13218.2947mg，日均1888.3278mg，分别显示约13200mg/周、1890mg/日。若将番茄泥假设改为5–25mg/60mL，日均总钠约1880–1914mg，说明这项误差对全周均值影响相对小；其他食材代理值和实际用盐仍有误差。营养表标明估算，不含放纵餐；低于2300mg的是估算日均，并非保证每一天都达标。其余营养、热量、赤字、份量和价格不变。此记录取代此前钠总量待核实状态。
 参考：https://www.pomi.us.com/en-us/products/strained-tomatoes/strained-tomatoes-usa/
+
+恢复六个早餐蛋，2026-09-21：每周12个鸡蛋，其中6个用于两次扇贝炒蛋，另6个周日一次煮好供周一至周六早餐。沿用Gray Ridge 6个装，每周2盒共$6.78，周日取9个、周三取3个，周购物总价$211.29。相较此前6个蛋版本，每周增加420kcal、蛋白质36g、总脂肪30g、饱和脂肪9g、碳水6g、胆固醇1170mg、钠390mg、钙150mg、铁5.25mg、钾375mg；纤维和糖不变。周摄入12820.0674kcal，周消耗仍为16267.1604kcal，赤字3447.0930kcal，显示3450kcal，放纵餐比例按3450计算。日均蛋白质150.2056g、饱和脂肪14.4241g、胆固醇648.8171mg、钠1944.0421mg。维生素D、B12、碘及Omega-3原有来源小计未包含鸡蛋，此次仍保留小计，不代表鸡蛋不含这些营养。营养建议列、其他食材和训练不变；此记录优先于所有之前的版本记录。加回鸡蛋是用户选择，不表示已确认对其LDL无影响。
+早餐蛋沿用用户此前8分钟偏好作为检查起点，不保证所有大小和起始温度均能熟透；用于一周备餐须煮至蛋白蛋黄凝固，立即冷却、2小时内密封冷藏≤4°C，一周内吃完。保存依据：https://www.canada.ca/en/health-canada/services/meat-poultry-fish-seafood-safety/eggs.html 、 https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table
+
+意面及白米减量更新，2026-09-21：意面每顿50g干重、每次100g、每周四顿共200g；白米每次120mL干米、每周240mL，沿用原密度代理暂按200g/周、每次100g，米饭每次仍分两份。相较上一版每周少40g意面及25g干米，按既有营养基准减少237.1324kcal、蛋白质7.4296g、碳水47.7522g、纤维4.0897g。周摄入12582.9350kcal、日均1797.5621kcal；周消耗16267.1604kcal不变，周赤字3684.2254kcal，显示3680kcal，放纵餐比例按3680计算。日均蛋白质149.1442g、碳水180.7871g、饱和脂肪14.3908g；胆固醇和维生素等现有来源小计不变。意面周费用$3.99×200/375=$2.13，白米$2.99×200/900=$0.66，购物各行显示金额合计$210.78。鸡蛋仍每周12个，其中周日一次煮6个早餐蛋；其他食材、调味、训练和建议目标不变。此记录优先于所有历史版本。
+
+水果盘规格更新，2026-09-21：按用户指定每周1盒2.5kg，取代1.4kg×2盒；每周按全部2500g可食水果计入，早餐平均2500/7≈357g。沿用混合瓜果每100g代理值，较2800g版本每周减少120kcal、蛋白质2.1g、脂肪0.6g、饱和脂肪0.09g、碳水30g、纤维3.6g、总糖24g、钠30mg、钙36mg、铁0.9mg、钾510mg；胆固醇和添加糖不变。周摄入12462.9350kcal、日均1780.4193kcal；周消耗16267.1604kcal不变，周赤字3804.2254kcal，显示3800kcal，放纵餐比例按3800计算。日均蛋白质148.8442g，仍显示约149g；既有维生素及Omega-3来源小计不变。2.5kg商品价格和对应链接未提供，不按重量同比推算售价、不冒用1.4kg价格；原商品链接仅作同类参考。已知每周费用210.78−23.98=$186.80，完整费用待加新果盘价格。其他食材、调味、鸡蛋、训练和营养目标不变；鸡腿剪明显肥脂仍未额外扣减热量。此记录优先于此前版本。
 
 补充来源：
 Catelli https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
@@ -1459,7 +1467,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CkFzgR55gho&#34;&gt;哑铃高脚杯深蹲&lt;/a&gt;（Dumbbell goblet squat）：4 组 × 12–20 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Q2k3kYbtOcI&#34;&gt;哑铃反向弓步&lt;/a&gt;（Dumbbell reverse lunge）：3 组 × 8–12 次／腿；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cruqsnAyU6A&#34;&gt;哑铃臀桥&lt;/a&gt;（Dumbbell glute bridge）：3 组 × 15–20 次；单只 15 lb（6.8 kg）；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cruqsnAyU6A&#34;&gt;哑铃臀桥&lt;/a&gt;（Dumbbell glute bridge）：3 组 × 15–20 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：3 组 × 12–20 次；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周四上肢推拉与核心&#34;&gt;周四：上肢推拉与核心&lt;/h3&gt;
@@ -1488,10 +1496,10 @@ Fresca https://www.saveonfoods.com/product/00067000005558
     
     <item>
       <title>How is AI Going to Change the Socioeconomics of Math?</title>
-      <link>http://localhost:60602/posts/c4a91f7/</link>
+      <link>http://localhost:1313/posts/c4a91f7/</link>
       <pubDate>Tue, 28 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/c4a91f7/</guid>
+      <guid>http://localhost:1313/posts/c4a91f7/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Like any social universe, the academic world is the site of a struggle over the truth.
@@ -1512,10 +1520,10 @@ What is even the point of all this if I can’t study or work on what &lt;em&gt;
     
     <item>
       <title>Learning Japanese Part I</title>
-      <link>http://localhost:60602/posts/72d4e91/</link>
+      <link>http://localhost:1313/posts/72d4e91/</link>
       <pubDate>Sun, 26 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/72d4e91/</guid>
+      <guid>http://localhost:1313/posts/72d4e91/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The goal of mathematics is harmony in truth, and the goal of art is harmony in beauty; emotion is at work in both.
@@ -3033,10 +3041,10 @@ What is even the point of all this if I can’t study or work on what &lt;em&gt;
     
     <item>
       <title>Curry–Howard Isomorphism</title>
-      <link>http://localhost:60602/posts/fa7e807/</link>
+      <link>http://localhost:1313/posts/fa7e807/</link>
       <pubDate>Sat, 25 Jul 2026 17:40:43 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/fa7e807/</guid>
+      <guid>http://localhost:1313/posts/fa7e807/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
@@ -3416,10 +3424,10 @@ $$&lt;p&gt;is an equivalence for every $A,B : \mathcal U$.&lt;/p&gt;
     
     <item>
       <title>Tannakian Category and Tannaka–Krein  Duality</title>
-      <link>http://localhost:60602/posts/f2c37cb/</link>
+      <link>http://localhost:1313/posts/f2c37cb/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/f2c37cb/</guid>
+      <guid>http://localhost:1313/posts/f2c37cb/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My lawful wife is mathematics; my mistress is mechanics.
@@ -4377,10 +4385,10 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
     
     <item>
       <title>Six Functor Formalism</title>
-      <link>http://localhost:60602/posts/b3f91ac/</link>
+      <link>http://localhost:1313/posts/b3f91ac/</link>
       <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/b3f91ac/</guid>
+      <guid>http://localhost:1313/posts/b3f91ac/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
@@ -4746,10 +4754,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Aperiodic Tilings</title>
-      <link>http://localhost:60602/posts/0f6a2bd/</link>
+      <link>http://localhost:1313/posts/0f6a2bd/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/0f6a2bd/</guid>
+      <guid>http://localhost:1313/posts/0f6a2bd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is no such thing as quasicrystals, only quasi-scientists.
@@ -4896,10 +4904,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves</title>
-      <link>http://localhost:60602/posts/06d0bcc/</link>
+      <link>http://localhost:1313/posts/06d0bcc/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/06d0bcc/</guid>
+      <guid>http://localhost:1313/posts/06d0bcc/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     In mathematics the art of proposing a question must be held of higher value than solving it.
@@ -5671,10 +5679,10 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     
     <item>
       <title>AI and the Game of Go</title>
-      <link>http://localhost:60602/posts/636adda/</link>
+      <link>http://localhost:1313/posts/636adda/</link>
       <pubDate>Sun, 07 Jun 2026 17:38:48 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/636adda/</guid>
+      <guid>http://localhost:1313/posts/636adda/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
@@ -5737,7 +5745,7 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
 &lt;p&gt;I submitted it to train on the Trillium supercomputer for 12 hours on a H100 with 10 core CPU. GitHub link is &lt;a href=&#34;https://github.com/yunhaixiang/sygo/tree/main&#34;&gt;here&lt;/a&gt;. I decided to call it Sygo. Training consist of alternating ResNet training and self play. The ResNet improves upon itself by the self play results by minimizing the cross entropy loss between its own results and that of the self play. One immediate bug I encountered during my first few training is that the AI will overwhelmingly prefer passing, so the game ends very early. I dont know why this happens. Initially I tried to fix it by not allowing it to pass in the first N steps, but immediately after it tries to pass again. My solution was to force it to play till the end, until there are very vew legal moves. The downside to this strategy is I expect it to learn bad habits like filling its own eyes. Here is a game I (black) played with my AI (white) after a few hours of training on my own laptop.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:60602/img/game.jpg&#34;
+        src=&#34;http://localhost:1313/img/game.jpg&#34;
         alt=&#34;A game played against Sygo&#34;
         style=&#34;max-width: 30%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -5755,10 +5763,10 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
     
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:60602/posts/ccda5dd/</link>
+      <link>http://localhost:1313/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/ccda5dd/</guid>
+      <guid>http://localhost:1313/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -5937,10 +5945,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>The Work of Art (and Science) in the Age of Algorithmic Reproducibility</title>
-      <link>http://localhost:60602/posts/f1d86af/</link>
+      <link>http://localhost:1313/posts/f1d86af/</link>
       <pubDate>Sun, 31 May 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/f1d86af/</guid>
+      <guid>http://localhost:1313/posts/f1d86af/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
@@ -5960,7 +5968,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;and he attached the following image:&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:60602/img/monet.jpeg&#34;
+        src=&#34;http://localhost:1313/img/monet.jpeg&#34;
         alt=&#34;An AI-generated image in the style of a Monet painting&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -5981,7 +5989,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;Should we then value a work of art by its exhibition value? I also believe not, but with a subtlety. Today, we are in an age where the meaning of exhibition is very different from what it was when Benjamin lived. In particular, we have commodified the exhibition of our lives on social media to an extent that is pathological. The attention of social media users has become the commodity of the information age. Every single platform is pushing for more engagement, more attention from users, and more dopamine, which has permanently altered our brain chemistry. It is no wonder that AI art gets a high number of views – it is trained to do precisely that: videos of Stephen Hawking skateboarding in his wheelchair, Peter Griffin as a real-life person, historical figures coming back to life and getting speeding tickets, etc. Our spiritual life has become &lt;em&gt;the Bagel&lt;/em&gt; from the film &lt;em&gt;Everything Everywhere All at Once&lt;/em&gt;. There is everything, but also nothing, and we are forced to be spectators. To me, experiencing social media feels like being Malcolm McDowell strapped to the seat and having my eyes forcibly held open.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:60602/img/malcolm.jpg&#34;
+        src=&#34;http://localhost:1313/img/malcolm.jpg&#34;
         alt=&#34;Malcolm McDowell with his eyes held open in A Clockwork Orange&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -5996,7 +6004,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own right with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable artwork could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.&lt;/p&gt;
 &lt;h2 id=&#34;algorithmic-reproducibility-of-science&#34;&gt;Algorithmic Reproducibility of Science&lt;/h2&gt;
 &lt;p&gt;When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One cannot claim that math is like art just because human researchers have a sense of which kinds of math are more beautiful or elegant – that is an &lt;em&gt;aesthetic&lt;/em&gt; formed from personal experience, and an aesthetic is very different from art. What then will AI bring to science?&lt;/p&gt;
-&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:60602/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:1313/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In short, I do not think AI challenges science as much as it does art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -6024,10 +6032,10 @@ Please describe, in as much detail as possible, what makes this inferior to a re
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>http://localhost:60602/posts/6bf3326/</link>
+      <link>http://localhost:1313/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/6bf3326/</guid>
+      <guid>http://localhost:1313/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -6122,10 +6130,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>A Case for AI-Assisted Math</title>
-      <link>http://localhost:60602/posts/8ad6b3f/</link>
+      <link>http://localhost:1313/posts/8ad6b3f/</link>
       <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/8ad6b3f/</guid>
+      <guid>http://localhost:1313/posts/8ad6b3f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The struggle itself toward the heights is enough to fill a man’s heart.
@@ -6159,10 +6167,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:60602/posts/e7d7cf9/</link>
+      <link>http://localhost:1313/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/e7d7cf9/</guid>
+      <guid>http://localhost:1313/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -6741,10 +6749,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Brauer Group III</title>
-      <link>http://localhost:60602/posts/d04997f/</link>
+      <link>http://localhost:1313/posts/d04997f/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>http://localhost:60602/posts/d04997f/</guid>
+      <guid>http://localhost:1313/posts/d04997f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -6848,10 +6856,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>http://localhost:60602/posts/ad8f57d/</link>
+      <link>http://localhost:1313/posts/ad8f57d/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:60602/posts/ad8f57d/</guid>
+      <guid>http://localhost:1313/posts/ad8f57d/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -7403,10 +7411,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>http://localhost:60602/posts/85ac599/</link>
+      <link>http://localhost:1313/posts/85ac599/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>http://localhost:60602/posts/85ac599/</guid>
+      <guid>http://localhost:1313/posts/85ac599/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.
@@ -7507,10 +7515,10 @@ where $\eta$ is called the learning rate, which controls how much we update the 
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:60602/posts/2878d6e/</link>
+      <link>http://localhost:1313/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:60602/posts/2878d6e/</guid>
+      <guid>http://localhost:1313/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -7673,10 +7681,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Expander Graphs</title>
-      <link>http://localhost:60602/posts/4ce12e1/</link>
+      <link>http://localhost:1313/posts/4ce12e1/</link>
       <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
       
-      <guid>http://localhost:60602/posts/4ce12e1/</guid>
+      <guid>http://localhost:1313/posts/4ce12e1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
@@ -7748,15 +7756,15 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:60602/posts/ae85645/</link>
+      <link>http://localhost:1313/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:60602/posts/ae85645/</guid>
+      <guid>http://localhost:1313/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:60602/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -8255,10 +8263,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:60602/posts/5e33123/</link>
+      <link>http://localhost:1313/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/5e33123/</guid>
+      <guid>http://localhost:1313/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -8818,10 +8826,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>做数学科研一定要在学术界吗</title>
-      <link>http://localhost:60602/posts/64e091b/</link>
+      <link>http://localhost:1313/posts/64e091b/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/64e091b/</guid>
+      <guid>http://localhost:1313/posts/64e091b/</guid>
       <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
 &lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
 &lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着长期的孤独。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。第五、在学术界不意味着能够做喜欢的课题，往往需要追逐时髦，在非自己本职的领域内花时间也不太可能，而我往往只能花时间在自己感兴趣的课题上。&lt;/p&gt;
@@ -8832,10 +8840,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Learning French Part I</title>
-      <link>http://localhost:60602/posts/fcfb2b0/</link>
+      <link>http://localhost:1313/posts/fcfb2b0/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/fcfb2b0/</guid>
+      <guid>http://localhost:1313/posts/fcfb2b0/</guid>
       <description>&lt;p&gt;I&#39;m learning french. Here&#39;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
 &lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
 &lt;ul&gt;
@@ -9309,10 +9317,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>天空之王</title>
-      <link>http://localhost:60602/posts/6554748/</link>
+      <link>http://localhost:1313/posts/6554748/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/6554748/</guid>
+      <guid>http://localhost:1313/posts/6554748/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  那天，我看见一个自由的灵魂翱翔于西雅图的天空。他从云层的褶皱中钻出，夕阳点燃了他的翅膀。他大笑着，翻滚着，好像地上的熙熙攘攘都和他无关。地上的人听不到他的笑声，只忙于在灯火与钢铁中穿梭。偶尔有人抬头，也只觉得这天上的鸟儿飞得古怪。只有那个驻足在那里的牵着气球的小男孩，他看着那天空默默的怔了。&lt;/p&gt;
 &lt;p&gt;  一切都要从那个奇怪的无线电讯息说起。&lt;/p&gt;
@@ -9342,10 +9350,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>论「纯粹」</title>
-      <link>http://localhost:60602/posts/73356ed/</link>
+      <link>http://localhost:1313/posts/73356ed/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/73356ed/</guid>
+      <guid>http://localhost:1313/posts/73356ed/</guid>
       <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
 &lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
 &lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
@@ -9356,10 +9364,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Simplicial Sets and Infinity-Categories</title>
-      <link>http://localhost:60602/posts/0c3e076/</link>
+      <link>http://localhost:1313/posts/0c3e076/</link>
       <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/0c3e076/</guid>
+      <guid>http://localhost:1313/posts/0c3e076/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
@@ -9459,10 +9467,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>吹着口琴的人</title>
-      <link>http://localhost:60602/posts/0ebab34/</link>
+      <link>http://localhost:1313/posts/0ebab34/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/0ebab34/</guid>
+      <guid>http://localhost:1313/posts/0ebab34/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;吹着口琴的人，&lt;br&gt;
 肩上撑着脚。&lt;br&gt;
@@ -9480,10 +9488,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>失眠</title>
-      <link>http://localhost:60602/posts/a467f03/</link>
+      <link>http://localhost:1313/posts/a467f03/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/a467f03/</guid>
+      <guid>http://localhost:1313/posts/a467f03/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
 无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
@@ -9525,10 +9533,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:60602/posts/c72806c/</link>
+      <link>http://localhost:1313/posts/c72806c/</link>
       <pubDate>Wed, 18 Dec 2024 10:06:03 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/c72806c/</guid>
+      <guid>http://localhost:1313/posts/c72806c/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
@@ -9591,10 +9599,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:60602/posts/83ed120/</link>
+      <link>http://localhost:1313/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/83ed120/</guid>
+      <guid>http://localhost:1313/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -9681,10 +9689,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>http://localhost:60602/posts/7ab795f/</link>
+      <link>http://localhost:1313/posts/7ab795f/</link>
       <pubDate>Thu, 29 Feb 2024 00:10:11 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/7ab795f/</guid>
+      <guid>http://localhost:1313/posts/7ab795f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
@@ -9768,10 +9776,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:60602/posts/1927129/</link>
+      <link>http://localhost:1313/posts/1927129/</link>
       <pubDate>Wed, 07 Feb 2024 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/1927129/</guid>
+      <guid>http://localhost:1313/posts/1927129/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
@@ -9855,10 +9863,10 @@ $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:60602/posts/40383e2/</link>
+      <link>http://localhost:1313/posts/40383e2/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/40383e2/</guid>
+      <guid>http://localhost:1313/posts/40383e2/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -9915,10 +9923,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>What is This Thing Called Knowledge?</title>
-      <link>http://localhost:60602/posts/bc677f9/</link>
+      <link>http://localhost:1313/posts/bc677f9/</link>
       <pubDate>Mon, 07 Aug 2023 18:36:05 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/bc677f9/</guid>
+      <guid>http://localhost:1313/posts/bc677f9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Epistemology without contact with science becomes an empty scheme. Science without epistemology is -- insofar as it is thinkable at all -- primitive and muddled.
@@ -9961,10 +9969,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:60602/posts/910cedd/</link>
+      <link>http://localhost:1313/posts/910cedd/</link>
       <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/910cedd/</guid>
+      <guid>http://localhost:1313/posts/910cedd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -10187,10 +10195,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:60602/posts/00c73a8/</link>
+      <link>http://localhost:1313/posts/00c73a8/</link>
       <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/00c73a8/</guid>
+      <guid>http://localhost:1313/posts/00c73a8/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -10374,10 +10382,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:60602/posts/563818b/</link>
+      <link>http://localhost:1313/posts/563818b/</link>
       <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/563818b/</guid>
+      <guid>http://localhost:1313/posts/563818b/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
@@ -10795,10 +10803,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:60602/posts/94f3165/</link>
+      <link>http://localhost:1313/posts/94f3165/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/94f3165/</guid>
+      <guid>http://localhost:1313/posts/94f3165/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -11047,10 +11055,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:60602/posts/5b8f0de/</link>
+      <link>http://localhost:1313/posts/5b8f0de/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/5b8f0de/</guid>
+      <guid>http://localhost:1313/posts/5b8f0de/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -11218,20 +11226,20 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Magic Tricks</title>
-      <link>http://localhost:60602/posts/648e7d3/</link>
+      <link>http://localhost:1313/posts/648e7d3/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/648e7d3/</guid>
+      <guid>http://localhost:1313/posts/648e7d3/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://localhost:60602/posts/e852d2e/</link>
+      <link>http://localhost:1313/posts/e852d2e/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/e852d2e/</guid>
+      <guid>http://localhost:1313/posts/e852d2e/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
@@ -11420,10 +11428,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Films</title>
-      <link>http://localhost:60602/posts/ca93bc7/</link>
+      <link>http://localhost:1313/posts/ca93bc7/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/ca93bc7/</guid>
+      <guid>http://localhost:1313/posts/ca93bc7/</guid>
       <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
@@ -11488,10 +11496,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Books</title>
-      <link>http://localhost:60602/posts/326caca/</link>
+      <link>http://localhost:1313/posts/326caca/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/326caca/</guid>
+      <guid>http://localhost:1313/posts/326caca/</guid>
       <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
@@ -11572,10 +11580,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Anime</title>
-      <link>http://localhost:60602/posts/1cea07d/</link>
+      <link>http://localhost:1313/posts/1cea07d/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/1cea07d/</guid>
+      <guid>http://localhost:1313/posts/1cea07d/</guid>
       <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
@@ -11624,10 +11632,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Music</title>
-      <link>http://localhost:60602/posts/864c59b/</link>
+      <link>http://localhost:1313/posts/864c59b/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/864c59b/</guid>
+      <guid>http://localhost:1313/posts/864c59b/</guid>
       <description>&lt;p&gt;Here are some of my favorite Jazz artists.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave Brubeck&lt;/li&gt;
@@ -11650,10 +11658,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Video Games</title>
-      <link>http://localhost:60602/posts/fe5a259/</link>
+      <link>http://localhost:1313/posts/fe5a259/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/fe5a259/</guid>
+      <guid>http://localhost:1313/posts/fe5a259/</guid>
       <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
@@ -11678,10 +11686,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Mermaid Diagrams</title>
-      <link>http://localhost:60602/posts/4492ad2/</link>
+      <link>http://localhost:1313/posts/4492ad2/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/4492ad2/</guid>
+      <guid>http://localhost:1313/posts/4492ad2/</guid>
       <description>&lt;h2 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h2&gt;
 &lt;div class=&#34;mermaid&#34;&gt;graph LR;
     A[Hard edge] --&gt;|Link text| B(Round edge)
@@ -11827,10 +11835,10 @@ test_entity - satisfies -&gt; test_req
     
     <item>
       <title>Math Test</title>
-      <link>http://localhost:60602/posts/863b176/</link>
+      <link>http://localhost:1313/posts/863b176/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/863b176/</guid>
+      <guid>http://localhost:1313/posts/863b176/</guid>
       <description>&lt;p&gt;In this post, we test mathematical typesettings.&lt;/p&gt;
 &lt;h2 id=&#34;basic-katex&#34;&gt;Basic KaTeX&lt;/h2&gt;
 &lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
@@ -12275,10 +12283,10 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:60602/posts/33a60a9/</link>
+      <link>http://localhost:1313/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60602/posts/33a60a9/</guid>
+      <guid>http://localhost:1313/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
