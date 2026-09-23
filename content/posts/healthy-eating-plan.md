@@ -59,7 +59,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 冷冻扇贝肉 | [Green Ocean Bay Scallops](https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G)<br>340 g / 袋 | 4袋 / 周 | 2袋 | $25.52 |
 | 三文鱼 | [Coho Salmon Portions, Your Fresh Market](https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814)<br>约320 g / 盒，2块 | 4盒 / 周 | 2盒 | $43.52 |
 | 牛排 | [Your Fresh Market AAA Angus Beef Striploin Steak](https://www.walmart.ca/en/ip/strip-loin-beef-steak-your-fresh-market/1099056)<br>约300 g / 盒，1块 | 1盒 / 周 | 1/2块 | $15.00 |
-| 鸡蛋 | [Conestoga Farms Free Run Omega-3 Large Brown 12 Eggs](https://www.walmart.ca/en/ip/Conestoga-Farms-Free-Run-Omega-3-Large-Brown-Eggs/6000197453383)<br>12个 / 盒 | 1盒 / 周 | 9个 / 3个 | $7.79 |
+| 鸡蛋 | [Great Value Grade A White Eggs, Large, 12 ct](https://www.walmart.ca/en/ip/Great-Value-Large-Eggs/10052944)<br>12个 / 盒 | 1盒 / 周 | 9个 / 3个 | $4.13 |
 | 无糖豆奶 | [Earth’s Own Gluten-Free, Unsweetened Original Organic Soy Milk Alternative](https://www.walmart.ca/en/ip/Earth-s-Own-Gluten-Free-Unsweetened-Original-Organic-Soy-Milk-Alternative-1-75L/79B8HJXTEAPZ)<br>1.75 L / 桶 | 2桶 / 周 | — | $8.94 |
 | 无糖无咖啡因汽水 | [Fresca Citrus Soda Pop Mini Cans, 222 mL, 6 Pack](https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164)<br>222 mL × 6罐 / 包 | 1包 / 周 | — | $3.97 |
 | 即食土豆泥 | [Betty Crocker Homestyle Mashed Potatoes](https://www.walmart.ca/en/ip/Betty-Crocker-Mashed-Potatoes-Homestyle/10169982)<br>180 g / 盒 | 1盒 / 周 | 90 g | $2.59 |
@@ -80,7 +80,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 意式混合香草 | [Great Value Italian Seasoning](https://www.walmart.ca/en/ip/Great-Value-Italian-Seasoning/10302881)<br>50 g / 袋 | 按需补 | — | $0.05 |
 | 盐 | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128)<br>1 kg / 盒 | 按需补 | — | $0.01 |
 | 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259)<br>1 L / 瓶 | 按需补 | — | $0.45 |
-| 每周合计 | — | — | — | $183.21 |
+| 每周合计 | — | — | — | $179.55 |
 {.table-centered}
 
 <!--
@@ -199,7 +199,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 1. 两锅加油预热。
 2. 第一锅：蘑菇加调味，大火炒7分钟，盛出。
 3. 第二锅：菠菜加调味，中火炒7分钟，盛出。
-4. 第一锅：加油，扇贝中大火炒约5分钟、沥水；再加1/2茶匙油、3个蛋及调味，中火炒约3分钟。
+4. 第一锅：加油，扇贝中大火炒约5分钟、沥水；再加油、3个蛋及调味，中火炒约3分钟。
 5. 第二锅：加油，番茄泥加调味小火炒2分钟；加入意面再拌煮2分钟。
 
 #### 阶段 4：收尾、分盘
@@ -408,6 +408,10 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
 厂家https://conestogafarms.com/free-run-eggs/确认Omega-3产品，但营养图片本次未能读取；目前暂沿用原普通大鸡蛋代理值，每2个140kcal、蛋白质12g、脂肪10g、饱和脂肪3g、碳水2g、纤维0g、糖0g、胆固醇390mg、钠130mg、钙50mg、铁1.75mg、钾125mg，并非本款已核实标签。宏量营养总计及周赤字4484.5531kcal暂不调整，不表示两品牌精确等同；未取得ALA/EPA/DHA分项，不将Omega-3宣传量计入分项。此前维生素D、B12、碘及Omega-3部分来源小计仍未计鸡蛋，待实物营养表补齐。此条为当前换购记录，历史品牌及采购记录保留。
 -->
 
+<!--
+鸡蛋再次换购更新，2026-09-23：按用户IMG_8022.PNG改回Great Value Grade A White Eggs, Large, 12 ct，每周1盒12个，价格按截图$4.13；6个早餐蛋、6个炒蛋及周日9个、周三3个的取用安排不变。沿用此前该款Walmart商品链接。周购物总额183.21−7.79+4.13=$179.55。上一条Conestoga记录转为历史，不再是当前商品。此前未将Conestoga的额外Omega-3计入营养，因此无需扣减；继续沿用普通大鸡蛋营养代理值，营养总计与热量赤字不变，并非已核实本包装营养标签。
+-->
+
 ### 营养统计
 
 以下为估算，不含放纵餐。
@@ -429,16 +433,36 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
 | 钾 | 约33,000 mg | 约4,720 mg | ≥3,400 mg |
 | 维生素D | 约143 µg | 约20.5 µg | 15 µg |
 | 维生素B12 | 约67.2 µg | 约9.6 µg | 2.4 µg |
-| 碘 | 约573 µg | 约82 µg | 150 µg |
-| Omega-3：ALA | 约4.2 g | 约0.6 g | 1.6 g |
+| 碘 | 约1,100 µg | 约160 µg | 150 µg |
+| Omega-3：ALA | 约7.9 g | 约1.1 g | 1.6 g |
 | Omega-3：EPA+DHA | 约16.8 g | 约2.4 g | 250 mg |
 {.table-centered}
 
 
 <!--
-表格来源限定：维生素D（豆奶、三文鱼小计）；维生素B12（豆奶、海鲜小计）；碘（仅碘盐，未计损耗）；Omega-3：ALA（仅豆奶估算）；Omega-3：EPA+DHA（仅海鲜估算）。未计入的食物含量不视为零。
+表格来源限定：维生素D（豆奶、三文鱼小计）；维生素B12（豆奶、海鲜小计）；Omega-3：EPA+DHA（仅海鲜估算）。碘与ALA改为下述扩展食材估算，不再采用仅碘盐、仅豆奶的小计；仍含同类食物代理值，并非本批商品实测的完整总量。
 
-计算口径：豆奶每周5.25 L全部喝完，另计Fresca迷你罐222mL×6罐/周，已包含早餐每天200 g；计入6个鸡蛋、全部调味、橄榄油37.5 mL及盐约7.5 g。白米240 mL暂按干米200 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
+碘与ALA补算，2026-09-23：仅更新这两项，不改变食材、其他营养合计、费用或赤字。当前口径为豆奶3.5L、普通大鸡蛋12个（去壳可食生重约600g）、养殖Coho生鱼1280g、原味生扇贝1360g、去骨去皮鸡腿生重1000g、牛排修边后生重270g、橄榄油37.5mL约34.125g、碘盐7.5g/周；其他食材沿用当前消费量。以下新记录取代历史碘/ALA小计说明；后面的旧采购与营养记录保留供追溯。
+
+碘：依据USDA/FDA/ODS-NIH碘数据库Release 4（2024年10月），以µg/100g可食部分计算。鸡蛋49×6=294µg/周；生扇贝混合品种7.4×13.6=100.64；未加海藻、未强化碘的豆饮料代理值1.3×35=45.5。无Coho直接匹配值，暂用养殖Atlantic生鱼3.2×12.8=40.96，只是碘的替代参数，不改变Coho宏量营养或EPA+DHA；不套用鳕鱼等高碘鱼种。碘盐沿用加拿大0.01%碘化钾投入量估算7.5×76.45=573.375µg，不能改套美国碘盐浓度，也不把包装食品全部钠当作碘盐。
+其他碘来源约61.52µg/周：鸡腿用烤熟去皮肉0.9µg/100g×750g=6.75，牛肉用熟loin/sirloin 4.7×202.5/100=9.5175；两者仅为套用熟食数据库而假定75%出成率，不把生重直接乘熟食浓度。菠菜6.7×2.84=19.028、蘑菇0.3×4.54=1.362、混合蔬菜0.2×5=1、番茄酱代理0.9×7.2=6.48、水果按低碘混合水果0.3×25=7.5、麸皮谷物代理0.7×2.8=1.96、意面按熟重550g×0.3/100=1.65、白米按熟重600g×0.2/100=1.2、油0.2×0.34125=0.06825。卷饼、土豆粉、香料和汽水无匹配品牌碘表，合并暂留5µg/周粗估，非实测值。投入量合计1115.99075µg/周、159.43µg/日，显示约1100/160；未把烹调流失或沥掉的扇贝汁当作已测得的固定损耗。
+碘敏感性情景约100–230µg/日，不是置信区间，也不是保证的上下限：碘盐留存暂试70–100%，蛋49的替代范围试27–70µg/100g，Coho代理试1.5–20，扇贝试4–12，豆饮料试0.3–3，其他食物合计试20–90µg/周。范围用于反映产地、饲料和弃汁等不确定性，并非这些品牌的检测范围。仅把碘盐按80%留存计算，其余参数不变，日均约143µg。因此中心估计接近150µg目标，不再能由旧82µg小计推断缺碘，但也不能保证每天足量；不因此增加盐或自行补碘。
+
+ALA：优先采用明确列出的18:3 n-3 c,c,c；缺分项时使用18:3 undifferentiated作代理并保留不确定性，不将EPA/DHA计作ALA。
+主要来源g/周：Earth’s Own标签Omega-3 0.3g/250mL×14=4.2（大豆来源、无鱼油藻油，暂按ALA，标签未直接分型）；Coho生养殖鱼USDA NDB15238的18:3未分型0.075g/100g×12.8=0.96；菠菜NDB11457的18:3未分型0.138×2.84=0.39192；橄榄油NDB04053的18:3未分型0.761×0.34125=0.25969125。鸡腿NDB05096的ALA0.045g/149g×1000=0.3020134；普通大鸡蛋NDB01123每50g ALA0.018×12=0.216；扇贝NDB15172每30g ALA0.001×1360/30=0.0453333（原数值已舍入）；去脂牛排暂用生top loin瘦肉NDB23303的0.027g/114g×270=0.0639474，非当前加拿大商品实测。上述主要来源小计6.4389054g/周。
+其余ALA按同类食物量级作低精度补项，不声称取得这些品牌的ALA标签。暂定g/100g：混合水果0.025、豆角胡萝卜0.05、番茄泥0.01、麸皮谷物0.06、全麦卷饼0.12、土豆粉0.05、干白米0.01；分别乘每周2500、500、720、280、122、180、200g，贡献0.625、0.25、0.072、0.168、0.1464、0.09、0.02g。Protein+干面暂用普通干意面ALA0.022g/91g×220=0.0531868，香料合计暂估0.05g，蘑菇及无糖汽水未单独加可量化ALA。补项共1.4745868g/周；总计7.9134922g/周、1.1304989g/日，显示7.9/1.1。水果组成、卷饼用油、豆奶标签舍入与鱼类饲料会改变结果，粗略敏感性范围约0.8–1.5g/日，非统计置信区间：主要来源合计试5.2–8.0g/周、次要补项试0.4–2.5g/周，向外取整。比原0.6g单一来源估计完整，但不能据此诊断必需脂肪酸缺乏；1.6g为成年男性ALA适宜摄入量AI。
+
+本次来源：
+https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
+https://ods.od.nih.gov/pubs/usdandb/ALA-Food.pdf.pdf
+https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg15.pdf （Coho NDB15238，PDF第421页）
+https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg11.pdf （菠菜NDB11457，PDF第1820页）
+https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg04.pdf （橄榄油NDB04053，PDF第303页）
+https://earthsown.com/products/soy-unsweetened-original-chilled-carton/
+https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
+https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/
+
+历史计算口径（不是当前用量）：豆奶每周5.25 L全部喝完，另计Fresca迷你罐222mL×6罐/周，已包含早餐每天200 g；计入6个鸡蛋、全部调味、橄榄油37.5 mL及盐约7.5 g。白米240 mL暂按干米200 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
 
 表内均为估值：包装食品优先采用商品营养表，未取得完整标签的肉类、扇贝、蔬果和香料使用同类食物参考值；实际净重、肥瘦、沥水和烹调损耗会影响结果。总糖包含水果等食物自带的糖，不等于添加糖；钠包含食物本身及加盐；铁为摄入量，不是吸收量。
 
