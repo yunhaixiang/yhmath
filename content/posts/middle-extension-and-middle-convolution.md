@@ -17,18 +17,33 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
 
 ## Middle Extension
 
-Let $S$ be a finite subset of $X=\mathbb P^1(\mathbb C)$ of size $m\ge 1$, let $U=\mathbb P^1- S$ with inclusion $j:U\rightarrow X$, and let $\mathcal F$ be an irreducible $\mathbb C$-local system on $U$ of rank $n\ge 1$. We know that $\mathcal F$ is physically rigid iff $\chi(X,j_*\mathrm{End}(\mathcal F))=2$. 
+Let $X=\mathbb P^1_{\mathbb C}$, $S\subset X(\mathbb C)$ a finite set of size $m\ge1$, $U=X\setminus S$, and $j:U\hookrightarrow X$ be the open immersion inducing $j^{\mathrm{an}}:U^{\mathrm{an}}\hookrightarrow X^{\mathrm{an}}$. Let $\mathcal F$ be an irreducible $\mathbb C$-local system on $U^{\mathrm{an}}$ of rank $n\ge1$. We know that $\mathcal F$ is physically rigid iff $\chi(X^{\mathrm{an}},(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F))=2$.
 
 {{< definition >}}
-Define the *index of rigidity* of $\mathcal F$ on $U$ to be $\mathrm{rig}(\mathcal F,U)=\chi(X,j_*\mathrm{End}(\mathcal F))$. 
+Define the *index of rigidity* of $\mathcal F$ on $U^{\mathrm{an}}$ to be $\mathrm{rig}(\mathcal F,U^{\mathrm{an}})=\chi(X^{\mathrm{an}},(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F))$.
 {{< /definition >}}
 
-Rigidity index is preserved under tensoring with rank $1$ local systems and removing finite sets, i.e. $$\chi(\mathcal F\otimes \mathcal L, U)=\chi(\mathcal F, U)=\chi(i^*\mathcal F, T)$$ for any rank $1$ local system $\mathcal L$ and any $i:T\hookrightarrow S$ where $S\setminus T$ is finite.  The first equality because $$\mathrm{End}(\mathcal F\otimes \mathcal L)\cong (\mathcal F\otimes \mathcal L)^\vee \otimes (\mathcal F\otimes \mathcal L)\cong \mathcal F\otimes\underline{\mathbb C}\cong\mathcal F$$ The second equality because $i_*i^*\mathcal G\cong \mathcal G$ for any local system $\mathcal G$, so 
-$$j_*\mathrm{End}(\mathcal F)=j_*i_*i^*\mathrm{End}(\mathcal F)=j_*i_*\mathrm{End}(i^*\mathcal F)=(j\circ i)_*\mathrm{End}(i^*\mathcal F)$$
-and the rest is easy. 
+The index of rigidity is preserved under tensoring with rank-one local systems and removing finitely many points. Namely, let $\mathcal L$ be a rank-one local system on $U^{\mathrm{an}}$, and let $i:V\hookrightarrow U$ be a nonempty Zariski open subset with finite complement. Then
+$$\mathrm{rig}(\mathcal F\otimes\mathcal L,U^{\mathrm{an}})=\mathrm{rig}(\mathcal F,U^{\mathrm{an}})=\mathrm{rig}((i^{\mathrm{an}})^*\mathcal F,V^{\mathrm{an}}).$$
+The first equality follows from
+$$\mathrm{End}(\mathcal F\otimes\mathcal L)\cong(\mathcal F\otimes\mathcal L)^\vee\otimes(\mathcal F\otimes\mathcal L)\cong\mathrm{End}(\mathcal F)\otimes(\mathcal L^\vee\otimes\mathcal L)\cong\mathrm{End}(\mathcal F).$$
+For the second, $\mathcal G\cong(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathcal G$ for every local system $\mathcal G$ on $U^{\mathrm{an}}$, so
+$$\begin{aligned}
+(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F)
+&\cong(j^{\mathrm{an}})_*(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathrm{End}(\mathcal F)\\
+&\cong(j^{\mathrm{an}})_*(i^{\mathrm{an}})_*\mathrm{End}((i^{\mathrm{an}})^*\mathcal F)\\
+&\cong((j\circ i)^{\mathrm{an}})_*\mathrm{End}((i^{\mathrm{an}})^*\mathcal F).
+\end{aligned}$$
+Taking Euler characteristics on $X^{\mathrm{an}}$ gives the second equality.
 
 {{< definition >}}
-On a smooth connected curve $U/\mathbb C$, a sheaf of $\mathbb C$-vector spaces $\mathcal F$ on $U$ is called a *middle extension sheaf* if it is algebraically constructible (i.e. ) and 
+On a smooth connected algebraic curve $U/\mathbb C$, a sheaf of $\mathbb C$-vector spaces $\mathcal F$ on $U^{\mathrm{an}}$ is called a *middle extension sheaf* if it is algebraically constructible and, for some (equivalently, every) nonempty Zariski open subset $i:V\hookrightarrow U$ such that $(i^{\mathrm{an}})^*\mathcal F$ is a local system on $V^{\mathrm{an}}$, the natural restriction morphism
+$$\mathcal F\longrightarrow(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathcal F$$
+is an isomorphism. Here *algebraically constructible* means that there is a finite partition $|U|=\bigsqcup_\alpha|U_\alpha|$ into the underlying sets of smooth connected locally closed algebraic subvarieties $U_\alpha\hookrightarrow U$ such that each $\mathcal F|_{U_\alpha^{\mathrm{an}}}$ is a finite-rank local system. The partition includes all scheme points, closed and non-closed; it is not a coproduct decomposition of schemes. On a curve, this simply means that there is a finite set $T\subset U(\mathbb C)$ such that $\mathcal F|_{(U\setminus T)^{\mathrm{an}}}$ is a finite-rank local system and stalks $\mathcal F_t$ for $t\in T$ are finite-dimensional. 
+{{< /definition >}}
+
+{{< definition >}}
+
 {{< /definition >}}
 
 ## References

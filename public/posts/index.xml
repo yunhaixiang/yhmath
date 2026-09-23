@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Yunhai Xiang</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:54268/posts/</link>
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:54268/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rigid Local Systems</title>
-      <link>http://localhost:1313/posts/07bd743/</link>
+      <link>http://localhost:54268/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/07bd743/</guid>
+      <guid>http://localhost:54268/posts/07bd743/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The art of doing mathematics consists in finding that special case which contains all the germs of generality.
@@ -402,10 +402,10 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
     
     <item>
       <title>健康饮食锻炼计划</title>
-      <link>http://localhost:1313/posts/06e58c7/</link>
+      <link>http://localhost:54268/posts/06e58c7/</link>
       <pubDate>Sun, 30 Aug 2026 11:43:05 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/06e58c7/</guid>
+      <guid>http://localhost:54268/posts/06e58c7/</guid>
       <description>&lt;h2 id=&#34;饮食&#34;&gt;饮食&lt;/h2&gt;
 &lt;h3 id=&#34;计划表&#34;&gt;计划表&lt;/h3&gt;
 &lt;p&gt;该饮食计划有两个目标：&lt;/p&gt;
@@ -417,9 +417,10 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;ul&gt;
 &lt;li&gt;周日中午：做周日午餐 ～ 周三午餐，共7顿&lt;/li&gt;
 &lt;li&gt;周三晚上：做周三晚餐 ～ 周六晚餐，共7顿&lt;/li&gt;
-&lt;li&gt;两次正餐使用相同的食材、数量和流程&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;早餐：混合水果约357 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g；周一至周六另加1个水煮蛋。&lt;/p&gt;
+&lt;!-- 两次共用同一套食材和流程。 --&gt;
+&lt;p&gt;早餐：混合水果约357 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g；周一至周六各加1个水煮蛋。&lt;/p&gt;
+&lt;!-- 豆奶每天共约500 mL，包含早餐用量，其余分次饮用。 --&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -443,40 +444,40 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;豆角胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;全麦意面&lt;/td&gt;
+          &lt;td&gt;高蛋白意面&lt;/td&gt;
           &lt;td&gt;三文鱼&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;周二&lt;/td&gt;
-          &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二&lt;/td&gt;
+          &lt;td&gt;午餐&lt;/td&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;土豆泥&lt;/td&gt;
           &lt;td&gt;三文鱼&lt;/td&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;豆角胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;全麦意面&lt;/td&gt;
+          &lt;td&gt;高蛋白意面&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
@@ -492,287 +493,316 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;豆角胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;全麦意面&lt;/td&gt;
+          &lt;td&gt;高蛋白意面&lt;/td&gt;
           &lt;td&gt;三文鱼&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td&gt;白米饭&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;土豆泥&lt;/td&gt;
           &lt;td&gt;三文鱼&lt;/td&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;豆角胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;全麦意面&lt;/td&gt;
+          &lt;td&gt;高蛋白意面&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;购物表&#34;&gt;购物表&lt;/h3&gt;
+&lt;!--
+2026-09-23双店商品列：沃尔玛24项旧商品及规格恢复自Git版本84f23a10的父版本，仅作为替代购买参考；没有恢复旧版用量、价格、早餐蛋或旧营养合计。意式混合香草在该版沃尔玛表没有对应商品，暂留破折号，不编造链接。沃尔玛三文鱼保留用户此前指定的参考链接；620g/盒、2块按用户截图，不以链接页规格覆盖。沃尔玛旧鸡腿830g、扇贝340g、三文鱼620g、牛排约300g、鸡蛋12个、豆奶1.89L、Fresca12罐、酸奶油细香葱土豆泥113g、冷冻豆角胡萝卜500g、Primo680mL、水果1.3kg、全麦意面375g等与Metro当前商品不等量或不同配方；不能将当前Metro的盒数、袋数直接套用，也不视为营养等价。当前烹饪、营养、赤字与Metro预算保持不变；历史链接未重新验证库存、售价或在售包装。下方“链接已全部改为Metro”文字为此前Metro选品记录。
+--&gt;
+&lt;!-- 当前以沃尔玛商品为主；无添加糖、无添加盐番茄泥暂保留 Allessia。价格为预算，以所选门店结算为准。 --&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;食材&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;包装规格&lt;/th&gt;
+          &lt;th&gt;商品&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;购买频率&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每次做菜取用&lt;/th&gt;
-          &lt;th&gt;商品链接&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每周价格（CAD）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;去骨去皮鸡大腿肉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约510 g / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/halal-boneless-skinless-chicken-thighs/p/234146&#34;&gt;Zabiha Halal Boneless Skinless Chicken Thighs&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$21.12&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724&#34;&gt;Maple Leaf Boneless Skinless Chicken Thighs&lt;/a&gt;&lt;br&gt;约1 kg / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;500 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$17.10&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;冷冻扇贝肉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;700 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2袋 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1袋&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fish-seafood/frozen-fish-seafood/packages-bulk/frozen-bay-scallops/p/059749998017&#34;&gt;Irrésistible Frozen Bay Scallops, Value Pack&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$23.98&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G&#34;&gt;Green Ocean Bay Scallops&lt;/a&gt;&lt;br&gt;340 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$25.52&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;三文鱼&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;113 g / 块&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;8块 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4块&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-atlantic-salmon-portion/p/223459&#34;&gt;Metro Fresh Atlantic Salmon Portion&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$39.92&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814&#34;&gt;Coho Salmon Portions, Your Fresh Market&lt;/a&gt;&lt;br&gt;约320 g / 盒，2块&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$43.52&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约260 g / 盒，1块&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142&#34;&gt;Platinum Grill Angus Beef Striploin Steak&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$34.38&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/strip-loin-beef-steak-your-fresh-market/1099056&#34;&gt;Your Fresh Market AAA Angus Beef Striploin Steak&lt;/a&gt;&lt;br&gt;约300 g / 盒，1块&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2块&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$15.00&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡蛋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;6个 / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;周日9个；周三3个&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/064767343312&#34;&gt;Gray Ridge Egg Farms Large Eggs&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$6.78&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Conestoga-Farms-Free-Run-Omega-3-Large-Brown-Eggs/6000197453383&#34;&gt;Conestoga Farms Free Run Omega-3 Large Brown 12 Eggs&lt;/a&gt;&lt;br&gt;12个 / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;9个 / 3个&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$7.79&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;无糖豆奶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1.75 L / 桶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Earth-s-Own-Gluten-Free-Unsweetened-Original-Organic-Soy-Milk-Alternative-1-75L/79B8HJXTEAPZ&#34;&gt;Earth’s Own Gluten-Free, Unsweetened Original Organic Soy Milk Alternative&lt;/a&gt;&lt;br&gt;1.75 L / 桶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2桶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-gluten-free-unsweetened-original-soy-beverage/p/626027221022&#34;&gt;Earth’s Own Organic Unsweetened Original Soy Milk&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$9.98&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$8.94&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;无糖无咖啡因汽水&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;355 mL × 12罐 / 箱&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1箱 / 周&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164&#34;&gt;Fresca Citrus Soda Pop Mini Cans, 222 mL, 6 Pack&lt;/a&gt;&lt;br&gt;222 mL × 6罐 / 包&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1包 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/beverages/soft-drinks/citrus-lemon-lime/sugar-free-citrus-flavoured-soft-drink/p/067000104923&#34;&gt;Fresca Citrus 12 Pack&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$9.49&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$3.97&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;即食土豆泥&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;180 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1/2袋&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/sides/potato-rice-sides/homestyle-mashed-potato/p/065633208285&#34;&gt;Betty Crocker Homestyle Mashed Potato&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Betty-Crocker-Mashed-Potatoes-Homestyle/10169982&#34;&gt;Betty Crocker Homestyle Mashed Potatoes&lt;/a&gt;&lt;br&gt;180 g / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.59&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;豌豆胡萝卜罐头&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;398 mL / 罐&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2罐 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1罐&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618&#34;&gt;Selection Peas and Carrots 398 mL&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$2.98&lt;/td&gt;
+          &lt;td&gt;配菜蔬菜&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Bean-and-Carrot-Medley/6000198576427&#34;&gt;Great Value Bean and Carrot Medley&lt;/a&gt;&lt;br&gt;500 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;250 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$3.37&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;227 g / 盒&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725&#34;&gt;Your Fresh Market Sliced Cremini Mushrooms&lt;/a&gt;&lt;br&gt;227 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157&#34;&gt;Belle Grove Crimini Mushroom Slices&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$7.98&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$4.88&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;有机嫩菠菜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;142 g / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018&#34;&gt;Fresh Attitude Organic Baby Spinach&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$11.98&lt;/td&gt;
+          &lt;td&gt;嫩菠菜&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL&#34;&gt;Your Fresh Market Baby Spinach 142 g&lt;/a&gt;&lt;br&gt;142 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2袋 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$6.88&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;番茄泥&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;720 mL / 瓶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/organic-strained-tomatoes/p/061659021679&#34;&gt;Allessia Organic Strained Tomatoes, Passata&lt;/a&gt;&lt;br&gt;720 mL / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1瓶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1/2瓶&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/organic-strained-tomatoes/p/061659021679&#34;&gt;Allessia Organic Strained Tomatoes, Passata&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;混合水果盘&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2.5 kg / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497&#34;&gt;Your Fresh Market Extra Large Party Fruit Tray&lt;/a&gt;&lt;br&gt;1.3 kg / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900&#34;&gt;Fresh Fruit Carousel&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$31.94&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;全麦意面&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;375 g / 包&lt;/td&gt;
+          &lt;td&gt;意面&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Catelli-Protein-Spaghetti-Pasta-High-in-Protein/10HMLTQIF7A4&#34;&gt;Catelli PROTEIN+ Spaghetti Pasta&lt;/a&gt;&lt;br&gt;340 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;100 g&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/whole-wheat-spaghetti-pasta/p/064200115926&#34;&gt;Catelli Whole Wheat Spaghetti&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$2.13&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;110 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.57&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;610 g / 袋&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091&#34;&gt;Dempster’s 100% Whole Wheat Large Tortillas&lt;/a&gt;&lt;br&gt;610 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1张&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/whole-wheat-tortillas/p/068721038252&#34;&gt;Dempster’s Large Whole Wheat Tortillas&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$1.20&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.79&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;白米&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;900 g / 袋&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1&#34;&gt;Great Value Long Grain White Rice&lt;/a&gt;&lt;br&gt;2 kg / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;120 mL&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902373&#34;&gt;Selection Long Grain White Rice&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.50&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;高纤维谷物早餐&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;587 g / 盒&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS&#34;&gt;Fibre One Crunchy Original 587 g&lt;/a&gt;&lt;br&gt;587 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040&#34;&gt;General Mills Fibre 1 Original Flavoured Crunchy Cereal&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$4.29&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.61&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;黑胡椒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;105 g / 瓶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Ground-Black-Pepper/10302291&#34;&gt;Great Value Ground Black Pepper&lt;/a&gt;&lt;br&gt;85 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094&#34;&gt;Selection Ground Black Pepper&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.18&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蒜粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;120 g / 瓶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Garlic-Powder/10304038&#34;&gt;Great Value Garlic Powder&lt;/a&gt;&lt;br&gt;150 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254&#34;&gt;Selection Garlic Powder&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.45&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.23&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;洋葱粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;100 g / 瓶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Onion-Powder/10303684&#34;&gt;Great Value Onion Powder&lt;/a&gt;&lt;br&gt;150 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384&#34;&gt;Selection Onion Powder&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.20&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;红椒粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;95 g / 瓶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018&#34;&gt;Selection Paprika&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.29&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;干牛至叶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;30 g / 瓶&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936&#34;&gt;Selection Oregano Leaves&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.10&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;意式混合香草&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;35 g / 瓶&lt;/td&gt;
+          &lt;td&gt;红椒粉&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778&#34;&gt;Great Value Paprika&lt;/a&gt;&lt;br&gt;130 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899&#34;&gt;Selection Italian Seasoning&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.16&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;干牛至叶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145&#34;&gt;Great Value Oregano Leaves&lt;/a&gt;&lt;br&gt;32 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.07&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;意式混合香草&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Italian-Seasoning/10302881&#34;&gt;Great Value Italian Seasoning&lt;/a&gt;&lt;br&gt;50 g / 袋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.05&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;盐&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1 kg / 盒&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128&#34;&gt;Windsor Iodized Table Salt&lt;/a&gt;&lt;br&gt;1 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055&#34;&gt;Windsor Iodized Table Salt&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.01&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;橄榄油&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1 L / 瓶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259&#34;&gt;Terra Delyssa Premium Extra Virgin Olive Oil&lt;/a&gt;&lt;br&gt;1 L / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627&#34;&gt;Terra Delyssa Premium Smooth Extra Virgin Olive Oil&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.58&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.45&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;每周已知小计&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;每周合计&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$186.80&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$183.21&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;!--
+Metro 原购物表及此前双店对照，完整保留，仅作历史备选，不计入当前购买量或营养：
+| 食材 | Metro | 沃尔玛 | 购买频率 | 每次做菜取用 | 每周价格（CAD） |
+| --- | --- | --- | ---: | ---: | ---: |
+| 去骨去皮鸡大腿肉 | [Zabiha Halal Boneless Skinless Chicken Thighs](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/halal-boneless-skinless-chicken-thighs/p/234146)&lt;br&gt;约510 g / 盒 | [Maple Leaf Boneless Skinless Chicken Thighs](https://www.walmart.ca/en/ip/maple-leaf-boneless-skinless-chicken-thighs/6000197999724)&lt;br&gt;830 g / 盒 | 2盒 / 周 | 1盒 | $21.12 |
+| 冷冻扇贝肉 | [Irrésistible Frozen Bay Scallops, Value Pack](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/frozen-fish-seafood/packages-bulk/frozen-bay-scallops/p/059749998017)&lt;br&gt;700 g / 袋 | [Green Ocean Bay Scallops](https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G)&lt;br&gt;340 g / 袋 | 2袋 / 周 | 1袋 | $23.98 |
+| 三文鱼 | [Metro Fresh Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-atlantic-salmon-portion/p/223459)&lt;br&gt;113 g / 块 | [Your Fresh Market Atlantic Salmon](https://www.walmart.ca/en/ip/Your-Fresh-Market-Atlantic-Salmon-Portion/6000203959332)&lt;br&gt;620 g / 盒，2块 | 8块 / 周 | 4块 | $39.92 |
+| 牛排 | [Platinum Grill Angus Beef Striploin Steak](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142)&lt;br&gt;约260 g / 盒，1块 | [Your Fresh Market AAA Angus Beef Striploin Steak](https://www.walmart.ca/en/ip/strip-loin-beef-steak-your-fresh-market/1099056)&lt;br&gt;约300 g / 盒，1块 | 2盒 / 周 | 1盒 | $34.38 |
+| 鸡蛋 | [Gray Ridge Egg Farms Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/064767343312)&lt;br&gt;6个 / 盒 | [Great Value Large 12 Eggs](https://www.walmart.ca/en/ip/Great-Value-Large-Eggs/10052944)&lt;br&gt;12个 / 盒 | 1盒 / 周 | 3个 | $3.39 |
+| 无糖豆奶 | [Earth’s Own Organic Unsweetened Original Soy Milk](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-gluten-free-unsweetened-original-soy-beverage/p/626027221022)&lt;br&gt;1.75 L / 桶 | [Silk Organic Soy Unsweetened Original](https://www.walmart.ca/en/ip/Silk-Soy-Milk-Alternative-Unsweetened-Dairy-Free-of-protein/6000190182706)&lt;br&gt;1.89 L / 桶 | 3桶 / 周 | — | $14.97 |
+| 无糖无咖啡因汽水 | [Fresca Sugar-Free Grapefruit Flavoured Soft Drink, Mini](https://www.metro.ca/epicerie-en-ligne/allees/boissons/boissons-gazeuses/citron-lime-et-agrumes/boisson-gazeuse-a-saveur-de-pamplemousse-sans-sucre/p/067000112430)&lt;br&gt;222 mL × 6罐 / 包 | [Fresca Citrus 12 Pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189)&lt;br&gt;355 mL × 12罐 / 箱 | 1包 / 周 | — | $5.49 |
+| 即食土豆泥 | [Betty Crocker Homestyle Mashed Potato](https://www.metro.ca/en/online-grocery/aisles/pantry/sides/potato-rice-sides/homestyle-mashed-potato/p/065633208285)&lt;br&gt;180 g / 袋 | [Betty Crocker Sour Cream &amp; Chives](https://www.walmart.ca/en/ip/Betty-Crocker-Sour-Cream-and-Chives-Mashed-Potatoes/3MFGGPAPT9OO)&lt;br&gt;113 g / 袋 | 1袋 / 周 | 1/2袋 | $3.99 |
+| 配菜蔬菜 | [Selection Peas and Carrots 398 mL](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618)&lt;br&gt;398 mL / 罐 | [Great Value Bean and Carrot Medley](https://www.walmart.ca/en/ip/Great-Value-Bean-and-Carrot-Medley/6000198576427)&lt;br&gt;500 g / 袋 | 2罐 / 周 | 1罐 | $2.98 |
+| 蘑菇 | [Belle Grove Crimini Mushroom Slices](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157)&lt;br&gt;227 g / 盒 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725)&lt;br&gt;227 g / 盒 | 2盒 / 周 | 1盒 | $7.98 |
+| 嫩菠菜 | [Fresh Attitude Organic Baby Spinach](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018)&lt;br&gt;142 g / 盒 | [Your Fresh Market Baby Spinach 142 g](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL)&lt;br&gt;142 g / 袋 | 2盒 / 周 | 1盒 | $11.98 |
+| 番茄泥 | [Allessia Organic Strained Tomatoes, Passata](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/organic-strained-tomatoes/p/061659021679)&lt;br&gt;720 mL / 瓶 | [Primo Passata di Pomodoro](https://www.walmart.ca/fr/ip/Primo-Passata-di-Pomodoro-Coulis-de-Tomates-Sauce-pour-P-tes/6000188765042)&lt;br&gt;680 mL / 瓶 | 1瓶 / 周 | 1/2瓶 | $3.99 |
+| 混合水果盘 | [Fresh Fruit Carousel](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900)&lt;br&gt;2.5 kg / 盒 | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497)&lt;br&gt;1.3 kg / 盒 | 1盒 / 周 | — | — |
+| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714)&lt;br&gt;340 g / 包 | [Catelli Whole Grains Spaghetti](https://www.walmart.ca/en/ip/Catelli-Whole-Grains-Spaghetti-Pasta/10299628)&lt;br&gt;375 g / 包 | 按需补 | 110 g | $3.23 |
+| 全麦卷饼皮 | [Dempster’s Large Whole Wheat Tortillas](https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/whole-wheat-tortillas/p/068721038252)&lt;br&gt;610 g / 袋 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091)&lt;br&gt;610 g / 袋 | 按需补 | 1张 | $1.20 |
+| 白米 | [Selection Long Grain White Rice](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902373)&lt;br&gt;900 g / 袋 | [Great Value Long Grain White Rice](https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1)&lt;br&gt;2 kg / 袋 | 按需补 | 120 mL | $0.66 |
+| 高纤维谷物早餐 | [General Mills Fibre 1 Original Flavoured Crunchy Cereal](https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040)&lt;br&gt;587 g / 盒 | [Fibre One Crunchy Original 587 g](https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS)&lt;br&gt;587 g / 盒 | 按需补 | — | $4.29 |
+| 黑胡椒 | [Selection Ground Black Pepper](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094)&lt;br&gt;105 g / 瓶 | [Great Value Ground Black Pepper](https://www.walmart.ca/en/ip/Great-Value-Ground-Black-Pepper/10302291)&lt;br&gt;85 g / 袋 | 按需补 | — | $0.23 |
+| 蒜粉 | [Selection Garlic Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254)&lt;br&gt;120 g / 瓶 | [Great Value Garlic Powder](https://www.walmart.ca/en/ip/Great-Value-Garlic-Powder/10304038)&lt;br&gt;150 g / 袋 | 按需补 | — | $0.45 |
+| 洋葱粉 | [Selection Onion Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384)&lt;br&gt;100 g / 瓶 | [Great Value Onion Powder](https://www.walmart.ca/en/ip/Great-Value-Onion-Powder/10303684)&lt;br&gt;150 g / 袋 | 按需补 | — | $0.20 |
+| 红椒粉 | [Selection Paprika](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018)&lt;br&gt;95 g / 瓶 | [Great Value Paprika](https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778)&lt;br&gt;130 g / 袋 | 按需补 | — | $0.29 |
+| 干牛至叶 | [Selection Oregano Leaves](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936)&lt;br&gt;30 g / 瓶 | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145)&lt;br&gt;32 g / 袋 | 按需补 | — | $0.10 |
+| 意式混合香草 | [Selection Italian Seasoning](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899)&lt;br&gt;35 g / 瓶 | — | 按需补 | — | $0.09 |
+| 盐 | [Windsor Iodized Table Salt](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055)&lt;br&gt;1 kg / 盒 | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128)&lt;br&gt;1 kg / 盒 | 按需补 | — | $0.01 |
+| 橄榄油 | [Terra Delyssa Premium Smooth Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627)&lt;br&gt;1 L / 瓶 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259)&lt;br&gt;1 L / 瓶 | 按需补 | — | $0.58 |
+| 每周已知小计 | — | — | — | — | $185.50 |
+{.table-centered}
+--&gt;
 &lt;!-- 
 购物链接已全部改为Metro。番茄泥改为Allessia无添加盐720mL，每周1瓶；$3.99暂用Instacart的Metro常规参考价，官网未显示价格，待门店结算确认。水果盘按用户指定改为2.5 kg/盒、每周1盒，新规格价格未提供，不沿用旧1.4 kg款价格；商品链接暂保留原款作为参考，未核实2.5 kg对应链接；其余新选商品按Metro公开价格预算。土豆泥改为Homestyle原味180 g装，每周1袋、每次半袋90 g，不加黄油、奶或盐；Metro商品号065633208285，公开价$3.99，实际以门店结算为准。按需补商品的每周价格是按用量分摊，不是每周都买整包；部分页面显示缺货，实际库存和价格以所选门店结算为准。合计未含税、配送费、平台服务费及小费。--&gt;
 &lt;!-- 
-三文鱼改为Metro Fresh Atlantic Salmon Portion，官网规格113 g/块，按截图$4.99/块；每周暂定8块共904 g、$39.92，每次做菜4块，每份正餐2块。收到后核对实物净重，不沿用旧款620 g/盒。鸡蛋换为Gray Ridge Egg Farms Large Eggs，6个/盒、每周2盒，每次炒扇贝3个，周日另煮6个早餐蛋，按截图$3.39/盒、每周$6.78；Metro商品号064767343312与6个装规格已核实。豆奶换为Earth’s Own Organic Unsweetened Original 1.75 L，每周2桶共3.5 L，按截图$4.99/桶、每周$9.98。Platinum Grill普通款Striploin按用户提供每盒约260 g、每周2盒共520 g，不采用网页平均291 g；价格暂用2026-09-20查到Metro公开单价$66.12/kg，520 g约$34.38，并非用户配送平台报价。鸡腿按截图每盒约510 g、$10.56，每周两盒约1020 g、$21.12；截图标题350 g与估重不一致，Metro官网也为标题350 g但平均505 g，本计划暂沿用截图下方510 g，收到后核对净重。截图显示暂时缺货，此处只更新计划，不表示当前有货。扇贝改为Irrésistible原味生Bay Scallops 700 g×2袋，共1400 g；按截图$11.99/袋，每周$23.98，非裹粉扇贝饼。所有称重商品实际以到货净重和结算价为准。每周已知食材小计$186.80，另加2.5 kg水果盘价格；未含税、配送费、平台服务费及小费。--&gt;
+历史采购记录（下半周替换前）：三文鱼改为Metro Fresh Atlantic Salmon Portion，官网规格113 g/块，按截图$4.99/块；每周暂定8块共904 g、$39.92，每次做菜4块，每份正餐2块。收到后核对实物净重，不沿用旧款620 g/盒。鸡蛋换为Gray Ridge Egg Farms Large Eggs，6个/盒、每周1盒，每次炒扇贝3个，不另做早餐蛋，按截图$3.39/盒、每周$3.39；Metro商品号064767343312与6个装规格已核实。豆奶为Earth’s Own Organic Unsweetened Original 1.75 L，每周3桶共5.25 L，按既定$4.99/桶、每周$14.97；Fresca改为222mL×6罐装，每周1包$5.49。Platinum Grill普通款Striploin按用户提供每盒约260 g、每周2盒共520 g，不采用网页平均291 g；价格暂用2026-09-20查到Metro公开单价$66.12/kg，520 g约$34.38，并非用户配送平台报价。鸡腿按截图每盒约510 g、$10.56，每周两盒约1020 g、$21.12；截图标题350 g与估重不一致，Metro官网也为标题350 g但平均505 g，本计划暂沿用截图下方510 g，收到后核对净重。截图显示暂时缺货，此处只更新计划，不表示当前有货。扇贝改为Irrésistible原味生Bay Scallops 700 g×2袋，共1400 g；按截图$11.99/袋，每周$23.98，非裹粉扇贝饼。所有称重商品实际以到货净重和结算价为准。每周已知食材小计$184.40，另加2.5 kg水果盘价格；未含税、配送费、平台服务费及小费。--&gt;
+&lt;!--
+沃尔玛恢复审计，2026-09-23；本条和下方“沃尔玛当前营养审计”优先于所有旧版记录。没有恢复早餐蛋、旧意面或酸奶油口味土豆泥；训练不变。高蛋白Spaghetti仍55g/顿、220g/周；原味Homestyle180g/周。没有核实到加拿大沃尔玛无添加盐passata：Primo、Great Value、Aurora、Rodolfi及Divella配料均含盐；暂保留现有Allessia720mL无添加糖、无添加盐款及Metro链接，不擅自提高加盐量。若改Primo须另行重算钠，不能将无添加糖等同无添加盐。
+包装安排：鸡腿现为称重0.77–1.14kg/盒，选约1kg一盒，每次500g、分两餐；$1.71/100g预算$17.10。旧830g只是历史规格。扇贝340g×4袋，每次2袋680g、每餐340g。三文鱼按用户此前指定620g/盒、2块，2盒/周共1240g、每次1盒2块，$24.47/盒；网站参考链接显示不同重量，不能套用其盒重或均价，仍需按到货标签确认。牛排每盒选择约300g、2盒/周600g，单价$5/100g预算$30；去明显肥边按10%损失，营养以540g生净肉估算。鸡蛋12个装每两周1盒，周用6个；炒蛋每次3个。Silk1.89L×3共5.67L，含早餐每周1.4L，其余饮用。Fresca355mL×12每两周一箱、每周6罐，与Metro222mL迷你罐容量不同，热量仍0。
+果盘1.3kg×2预算$31.94，网页明确含酸奶蘸酱，本计划不食用蘸酱；为保留原水果摄入量，暂估两盒可食水果共约2.5kg、蘸酱等约100g，未经称量，收到后应核对。不能把包装总重2.6kg全部算水果。
+价格于本次查看Walmart公开页或索引：扇贝6.38/袋、鸡蛋3.93/打、豆奶4.98/桶、Fresca8.28/箱、蔬菜3.37/袋、蘑菇2.44/盒、菠菜3.44/袋、果盘15.97/盒、Protein+3.97/340g、卷饼3.97/10张、米4.98/2kg、Fibre1 5.47/587g、五款Great Value单味香料及Italian Seasoning均2.27/袋、橄榄油促销11.97/L。盐价格未重新核实，周用7.5g预算沿用$0.01。各项商品来源为表中链接；页面默认门店并非已确认用户门店，不保证库存。
+原味土豆泥Walmart商品页仍为Homestyle180g（盒内2袋），没有可读当前售价且显示缺货；$2.59仅为Instacart Walmart同款参考预算，不表示当前有货：https://www.instacart.ca/store/walmart-canada/products/40023598-betty-crocker-roasted-homestyle-mashed-potatoes-180-g 。Allessia沿用原预算3.99，未确认新价。三文鱼沿用用户价格。以上未确认项目均不是声称实时价格。
+按需补分摊：意面3.97×220/340，卷饼3.97×2/10，米4.98×200/2000，Fibre1 5.47×280/587；黑胡椒6.9g/85g、蒜粉15.5g/150g、洋葱粉6.6g/150g、红椒粉9.2g/130g、牛至1g/32g、Italian1g/50g各乘2.27；油11.97×37.5/1000。各行四舍五入后加总$203.98/周，含水果，不含税、运费和平台费用。
+--&gt;
+&lt;!--
+文案维护约定：正文只保留直接执行所需的用量、步骤、时间、温度、分盘表及关键安全条件。每日总量分配、计算口径、品牌选择理由和其他补充解释放HTML注释；不删购物表、营养表、商品链接或历史备选。
+本次仅精简表达，不改变食材数量、调味用量、营养及赤字。意面每次110g分两份，各干重55g；煮面时间按包装及软硬调整。土豆泥偏稠可少量补热水；三文鱼未达到目标中心温度时按1–2分钟递增。早餐蛋周一至周六各1个，周三无需再煮。牛排保持厚度切分，不按重量减半而把烤制时间减半。
+--&gt;
 &lt;h3 id=&#34;并行做菜流程&#34;&gt;并行做菜流程&lt;/h3&gt;
-&lt;p&gt;1茶匙 = 5 mL；喷油1下约1/4茶匙；调味罐短抖1下：小孔约1/24茶匙，大孔约1/12茶匙（均为估算）。&lt;/p&gt;
+&lt;p&gt;1茶匙 = 5 mL；以下时间均为参考。&lt;/p&gt;
+&lt;!-- 用户要求正文仅保留时间，不列测温和熟度检查。时间受厚度、起始温度、装锅量和设备影响，不能保证熟透；原检查条件保留：早餐蛋煮至蛋白蛋黄凝固，三文鱼中心70°C，扇贝炒蛋中心74°C且蛋凝固，蔬菜热透，意面按包装和软硬调整。不因移入注释而将参考时间视为安全保证。 --&gt;
+&lt;!-- 喷油1下约1/4茶匙；调味罐短抖1下：小孔约1/24茶匙，大孔约1/12茶匙，均为旧估算，实际随喷头和罐孔变化。 --&gt;
+&lt;!--
+历史方案（已撤回；当前两次均用扇贝、三文鱼）：
+2026-09-23下半周换食材：上半周扇贝700g、三文鱼4×113g；下半周Sunrise Extra Firm豆腐2×350g、Canadian Rainbow Trout Fillet约2×200g。鸡蛋仍6个/周，每次3个。豆腐Metro参考$3.99/盒，虹鳟$6.17/份，门店库存及称重价格以结算为准；豆腐索引曾显示缺货，不表示已确认用户门店现货。每周已知小计184.40−11.99−19.96+7.98+12.34=$172.77，另加果盘价格。
+--&gt;
 &lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;烤箱预热至 400°F，需 15 分钟。&lt;/li&gt;
-&lt;li&gt;意面煮锅加水烧开。&lt;/li&gt;
-&lt;li&gt;取120 mL干白米，淘洗后用电饭煲开煮。&lt;/li&gt;
-&lt;li&gt;扇贝放入滤盆解冻。&lt;/li&gt;
-&lt;li&gt;空气炸锅预热至 400°F，需 5 分钟。&lt;/li&gt;
-&lt;li&gt;仅周日：另锅烧水，水开轻放6个鸡蛋，煮8分钟后检查，蛋白、蛋黄未凝固则续煮；煮好立即冷却，2小时内带壳放入密封盒，≤4°C冷藏，周一至周六早餐各取1个。&lt;/li&gt;
+&lt;li&gt;取干米淘洗电饭煲开煮&lt;/li&gt;
+&lt;li&gt;烤箱400°F预热15分钟&lt;/li&gt;
+&lt;li&gt;空气炸锅400°F预热4分钟。&lt;/li&gt;
+&lt;li&gt;意面煮锅加水开大火烧开&lt;/li&gt;
+&lt;li&gt;（仅周日）鸡蛋煮锅加水开大火烧开&lt;/li&gt;
+&lt;li&gt;扇贝装滤盆室温解冻&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;取出三文鱼、牛排和鸡大腿肉。牛排切去明显肥边，鸡大腿肉剪掉明显白色肥脂，分别放入两个烤盘；三文鱼擦干。&lt;/li&gt;
-&lt;li&gt;按下表调味&lt;/li&gt;
+&lt;li&gt;取鸡腿去明显肥脂，放烤盘。&lt;/li&gt;
+&lt;li&gt;取牛肉（周日切半）去明显去明显肥脂，放烤盘。&lt;/li&gt;
+&lt;li&gt;取三文鱼放砧板擦干。&lt;/li&gt;
+&lt;li&gt;按表调味。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -820,16 +850,17 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;三文鱼：4块单层摆放，不叠放，放不下则分批；Air fry 400°F，8分钟后检查熟度，未熟则继续加热。&lt;/li&gt;
-&lt;li&gt;鸡大腿肉：400°F烤25分钟。&lt;/li&gt;
-&lt;li&gt;牛排：400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
-&lt;li&gt;意面：100 g干面，水开下锅煮10分钟，分两份，每份干重50 g。&lt;/li&gt;
-&lt;li&gt;豌豆胡萝卜：开罐沥水、高火微波炉1–2分钟后拌匀。&lt;/li&gt;
-&lt;li&gt;土豆泥：约500 mL水高火微波至热，加入半袋原味土豆泥拌匀，再高火2–3分钟，静置2分钟；不加黄油、奶或盐，太稠时少量补热水。&lt;/li&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;三文鱼空气炸锅400°F烤8分钟&lt;/li&gt;
+&lt;li&gt;鸡腿：400°F烤25分钟。&lt;/li&gt;
+&lt;li&gt;半块牛排：400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
+&lt;li&gt;意面煮锅水开后：取意面煮约8分钟，滤盆沥水。&lt;/li&gt;
+&lt;li&gt;（仅周日）鸡蛋煮锅水开后：取鸡蛋6个煮约8分钟。&lt;/li&gt;
+&lt;li&gt;混合蔬菜：放盘盖微波炉盖，微波炉高火4–6分钟。&lt;/li&gt;
+&lt;li&gt;土豆泥：500 mL水微波加热2分钟，拌入粉，再高火2–3分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
-&lt;p&gt;每锅每轮用油 1/2 茶匙，调味如下&lt;/p&gt;
+&lt;p&gt;每锅每轮用油1/2茶匙，按表调味。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -878,14 +909,14 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;/table&gt;
 &lt;ol&gt;
 &lt;li&gt;两锅加油预热。&lt;/li&gt;
-&lt;li&gt;第一锅炒蘑菇，调味后大火炒7分钟起锅。&lt;/li&gt;
-&lt;li&gt;第二锅炒菠菜，调味后中火炒7分钟起锅。&lt;/li&gt;
-&lt;li&gt;第一锅重新加油，加扇贝中大火炒5分钟，沥干水重新加油下锅，放入打散鸡蛋并调味，中火炒3分钟起锅。&lt;/li&gt;
-&lt;li&gt;第二锅重新加油，加入番茄泥调味小火炒2分钟，加入煮熟的意面后调味小火炒2分钟。&lt;/li&gt;
+&lt;li&gt;第一锅：蘑菇加调味，大火炒7分钟，盛出。&lt;/li&gt;
+&lt;li&gt;第二锅：菠菜加调味，中火炒7分钟，盛出。&lt;/li&gt;
+&lt;li&gt;第一锅：加油，扇贝中大火炒约5分钟、沥水；再加1/2茶匙油、3个蛋及调味，中火炒约3分钟。&lt;/li&gt;
+&lt;li&gt;第二锅：加油，番茄泥加调味小火炒2分钟；加入意面再拌煮2分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;按如下分盘。&lt;/li&gt;
+&lt;li&gt;按表分盘，分到两盘的均分。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -905,15 +936,15 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;4、7&lt;/td&gt;
+          &lt;td&gt;5、7&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
-          &lt;td&gt;2、5&lt;/td&gt;
+          &lt;td&gt;2、4&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;米饭&lt;/td&gt;
-          &lt;td&gt;2、5&lt;/td&gt;
+          &lt;td&gt;2、4&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;番茄意面&lt;/td&gt;
@@ -925,30 +956,30 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td&gt;4&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td&gt;1、4&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
           &lt;td&gt;5&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td&gt;1、5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;豆角胡萝卜&lt;/td&gt;
           &lt;td&gt;2、6&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;洗厨具、清理厨房。&lt;/li&gt;
+&lt;li&gt;冷藏分好的餐，清洗厨具。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;每周热量赤字估计约4,300 kcal。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;每周热量赤字估计约4,480 kcal。&lt;/strong&gt;&lt;/p&gt;
 &lt;!--
 以下内容按用户要求仅保留于源码，不在正文显示。
-以下为此前赤字计算记录；当前摄入、赤字及营养总量以第1.5节2026-09-21营养统计审计为准。
+以下为此前赤字计算记录，仅作历史对照；当前摄入及营养总量以营养统计中的2026-09-23恢复下半周扇贝、三文鱼更新为准，赤字约4100kcal/周。
 当前早餐为Fibre 1 40g配豆奶200g；每周谷物280g，豆奶早餐1400g，按近似密度换算约1.4L。豆奶仍按每周两桶共3.5L全部喝完计入，其余约2.1L在早餐外饮用，不重复计热量。当前体重81.1 kg，四天力量、四次HIIT、一次周六游泳下，赤字及表格按4300 kcal；下方旧版本另作历史记录。
 本次训练调整审计：力量训练四天预计30–40、35–40、35–45、30–40分钟，取中点共147.5分钟/周；HIIT仍4×30分钟，游泳改1×40分钟，仅周六。沿用原体格及久坐基础14847 kcal/周，力量平均3.5 MET、低冲击HIIT及游泳平均6 MET均为估值，净运动消耗扣除同期1 MET：
 14847+(3.5-1)×83×147.5/60+(6-1)×83×0.5×4+(6-1)×83×40/60≈16464 kcal/周。
@@ -1006,7 +1037,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,300 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,480 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1020,7 +1051,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
@@ -1032,7 +1063,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
@@ -1044,7 +1075,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
@@ -1056,7 +1087,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
@@ -1074,13 +1105,13 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
@@ -1098,7 +1129,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;薯条（DQ Fries）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约280&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸洋葱圈（DQ Onion Rings）&lt;/a&gt;&lt;/td&gt;
@@ -1116,7 +1147,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶500 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约200&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
@@ -1126,6 +1157,99 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;!--
+沃尔玛换店及Fresca历史营养审计，2026-09-23（豆奶现行口径以“Earth’s Own三桶更新”为准）：
+Fresca六罐装更新，2026-09-23：改为Walmart Fresca Citrus Soda Pop Mini Cans 222mL×6，每周1包，公开页价$3.97，实际以门店结算为准；链接：https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164 。取代下文此前355mL×12每两周一箱的包装和价格记录，Metro备选原表不改。沿用同款222mL标签每罐0kcal、钠45mg、钾10mg：https://www.nofrills.ca/en/grapefruit-soda/p/21022955_C06 。相比每周6罐355mL，钠减少180mg/周，钾减少30mg/周，热量、蛋白质和赤字均不变。购物总额203.98−4.14+3.97=$203.81；下列明细、未取整合计及可见营养表已同步，旧355mL说明只作历史保留。
+赤字变化逐项复核（Metro→Walmart）：三文鱼904→1240g，+698.88kcal/周；豆奶5250mL×70/250→5670mL×90/250，+571.20；牛排购入520→600g，按同样10%修边损失，+123.12；鸡腿1020→1000g，−29.80；扇贝1400→1360g，−36；蔬菜520g罐头→500g冷冻，−80.1176。净增1247.2824kcal/周，旧赤字4097.7353→2850.4531，显示4100→2850。豆奶增加中151.2kcal来自增加420mL，420kcal来自同体积品牌标签70→90kcal/250mL。Fresca两版均0kcal，与赤字下降无关。上述变化是上次按不同包装设定份量和品牌后的结果，不是单纯更换商店所致。
+生/干重口径：鸡腿1000g、Green Ocean扇贝1360g、三文鱼1240g、牛排600g购入并暂扣10%肥边后540g、普通大鸡蛋6个、Silk无糖豆奶5670mL、Fresca6×355mL、Homestyle原味土豆泥180g、冷冻豆角胡萝卜500g、蘑菇454g、菠菜284g、Allessia番茄泥720mL、水果暂估2500g、Protein+ Spaghetti220g、卷饼2张、干米200g约240mL、Fibre1 280g、橄榄油37.5mL约34.125g、食盐7.5g及全部干调味。豆奶早餐200g近似200mL，包含于周总量，不重复算。热量直接按各标签/数据库能量相加，不因标签舍入而强制用宏量营养倒算。
+鸡腿、修脂牛排、水果和未取得标签的微量营养继续用同类食物代理；剪掉鸡腿明显肥脂未额外扣重、烤盘弃油和扇贝沥水未额外扣营养。普通Great Value鸡蛋暂沿用之前普通大蛋参考，不当作Omega-3强化蛋，也不冒充其已核实营养标签。Green Ocean恢复使用用户截图每100g标签。豆角胡萝卜每85g热量35、P1、碳水7、纤维2、糖3、钠25沿用旧估值；钙25mg、铁0.5mg、钾170mg/85g为无盐冷冻混合蔬菜代理，不是已读取品牌标签。Allessia仍用20kcal/60mL及钠10mg/60mL工作估计，不是零钠。
+Silk加拿大同款1.89L标签每250mL：90kcal、P8g、脂肪4.5g、饱和0.5g、碳水4g、纤维2g、糖1g、Na90mg、Ca300mg、Fe1mg、K350mg、D2µg、B12 1µg；来源：https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA 。不采用Walmart混入糖/香草的描述，也不采用美国版每240mL80kcal值。Fresca普通355mL罐Na暂按75mg、K15mg，来源：https://www.coca-cola.com/ca/en/brands/fresca/products ，以实物为准。
+除卷饼外，现用水果、原味肉蛋鱼米、无糖豆奶、Fibre1、原味土豆泥、无加盐糖冷冻蔬菜、纯香料等按无添加糖估算；卷饼未分列添加糖，仍保守把2张合计2g总糖作为添加糖上限代理。移除旧罐头蔬菜后，添加糖暂估≤2g/周，并非实验室精确值，不计果盘蘸酱。
+单位顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。
+食材 | 每周倍数 | 每份12项数值（未注明份量则100g；香料盐为周总量）
+鸡腿肉 | 10 | 149 | 18.6 | 7.9 | 1.7 | 0 | 0 | 0 | 92 | 62.3 | 5 | 0.6 | 231
+原味扇贝（原标签代理） | 13.6 | 90 | 17 | 1 | 0.1 | 2 | 0 | 0 | 35 | 160 | 10 | 0.3 | 200
+三文鱼 | 12.4 | 208 | 20.42 | 13.42 | 3.05 | 0 | 0 | 0 | 55 | 59 | 9 | 0.34 | 363
+牛排（去肥边，暂估10%修边损失） | 5.4 | 171 | 22 | 9 | 3.8 | 0 | 0 | 0 | 59 | 45 | 15.3 | 1.9 | 271
+鸡蛋（Great Value每2个，暂用普通大鸡蛋代理） | 3 | 140 | 12 | 10 | 3 | 2 | 0 | 0 | 390 | 130 | 50 | 1.75 | 125
+Silk无糖豆奶（每250mL，同款加拿大标签） | 22.68 | 90 | 8 | 4.5 | 0.5 | 4 | 2 | 1 | 0 | 90 | 300 | 1 | 350
+Fresca迷你罐（每222mL） | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 45 | 0 | 0 | 10
+土豆泥原味（每1/8袋） | 8 | 80 | 2 | 0.3 | 0.1 | 19 | 2 | 0 | 0 | 25 | 10 | 0.3 | 300
+冷冻豆角胡萝卜（每85g，营养代理） | 5.882352941176471 | 35 | 1 | 0 | 0 | 7 | 2 | 3 | 0 | 25 | 25 | 0.5 | 170
+蘑菇 | 4.54 | 22 | 2.5 | 0.1 | 0.02 | 4.3 | 0.6 | 1.7 | 0 | 6 | 18 | 0.4 | 448
+菠菜 | 2.84 | 23 | 2.86 | 0.39 | 0.063 | 3.63 | 2.2 | 0.42 | 0 | 79 | 99 | 2.71 | 558
+番茄泥（Allessia每60mL，钠暂估，其余用旧款代理） | 12 | 20 | 1 | 0 | 0 | 4 | 1 | 3 | 0 | 10 | 10 | 0.2 | 250
+混合水果（比例未知近似） | 25 | 40 | 0.7 | 0.2 | 0.03 | 10 | 1.2 | 8 | 0 | 10 | 12 | 0.3 | 170
+高蛋白长条意面（Spaghetti，每85g） | 2.588235294117647 | 300 | 17 | 2 | 0.5 | 58 | 8 | 2 | 0 | 4 | 20 | 2.5 | 400
+卷饼皮（每61g） | 2 | 170 | 5 | 4 | 1 | 28 | 3 | 1 | 0 | 320 | 30 | 1.5 | 225
+白米（未强化干米代理） | 2 | 365 | 7.13 | 0.66 | 0.18 | 79.95 | 1.3 | 0.12 | 0 | 5 | 28 | 0.8 | 115
+Fibre1（每62g） | 4.516129032258065 | 140 | 4 | 1 | 0.2 | 53 | 27 | 1 | 0 | 220 | 250 | 8 | 150
+橄榄油（34.125g） | 0.34125 | 884 | 0 | 100 | 13.8 | 0 | 0 | 0 | 0 | 2 | 1 | 0.56 | 1
+干香料合计估值 | 1 | 118 | 5.5 | 2.3 | 0.4 | 25 | 8 | 2 | 0 | 30 | 130 | 3.3 | 550
+盐（7.5g） | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2950.5 | 0 | 0 | 0
+未取整周合计：13827.2760, 1169.3273, 504.0672, 108.5263, 1275.3002, 283.3381, 299.1705, 3566.6000, 12078.5427, 9771.2970, 127.9303, 36579.2947。
+日均：1975.3251, 167.0468, 72.0096, 15.5038, 182.1857, 40.4769, 42.7386, 509.5143, 1725.5061, 1395.8996, 18.2758, 5225.6135。
+维生素和Omega-3仍是部分来源小计，不是完整摄入量：D=22.68×2+12.4×11=181.76µg/周；B12=22.68+12.4×3.23+13.6×1.4=81.772µg/周；EPA+DHA=12.4×1.966+13.6×0.103=25.7792g/周。Silk未取得ALA分项，暂用无糖豆奶每250mL0.3g代理，22.68份共6.804g/周，不能将旧Earth’s Own数值当作Silk实测。碘盐仍约573µg/周。鸡蛋等未纳入小计不等于不含这些营养。
+沿用已有周消耗16677.7291kcal及隐私注释中的活动口径，不重新增加活动：赤字16677.7291−13827.2760=2850.4531kcal/周，显示2850；放纵餐百分比按显示值2850作分母。相比Metro当前基线12579.9938kcal，每周摄入增加1247.2822kcal，主要因三文鱼904→1240g、豆奶品种和容量变化，以及牛排520→600g；不是只换店就凭空改变热量。运动消耗和营养代理均有误差，赤字非精确承诺。
+--&gt;
+&lt;!--
+Earth’s Own三桶历史记录，2026-09-23（已由下方两桶更新取代）：
+按用户确认改为Walmart Earth’s Own Organic Unsweetened Original 1.75L×3桶，共5.25L/周；日均750mL含早餐200g近似200mL，早餐以外约550mL/日。早餐Fibre1仍40g，Fresca仍222mL×6每周一包，其他食材、调味及训练不变。Walmart公开页$4.47/桶，周13.41；购物总额203.81−14.94+13.41=$202.28，门店库存及结算价格可能不同。购物链接：https://www.walmart.ca/en/ip/Earth-s-Own-Gluten-Free-Unsweetened-Original-Organic-Soy-Milk-Alternative-1-75L/79B8HJXTEAPZ 。
+厂家标签：https://earthsown.com/products/soy-unsweetened-original-chilled-carton/ ，每250mL：70kcal、蛋白质7g、脂肪3.5g、饱和0.5g、碳水3g、纤维1g、糖1g、胆固醇0mg、钠90mg、钙300mg、铁1mg、钾250mg；维生素D2µg、B12 1µg、Omega-3 0.3g。Omega-3按植物大豆来源暂归ALA，非EPA+DHA。
+复算公式：从Fresca六罐更新后总量，减去Silk22.68份（每250mL），加入Earth’s Own21份；不重复计早餐豆奶。周热量减少571.2kcal、蛋白质减少34.44g；其余差额逐项按标签计算。
+当前计算明细替换行（单位顺序与下方历史12项明细一致）：Earth’s Own豆奶（每250mL） | 21 | 70 | 7 | 3.5 | 0.5 | 3 | 1 | 1 | 0 | 90 | 300 | 1 | 250
+当前未取整周合计：13256.0760, 1134.8873, 475.5072, 107.6863, 1247.5802, 258.9781, 297.4905, 3566.6000, 11927.3427, 9267.2970, 126.2503, 33891.2947。
+当前日均：1893.7251, 162.1268, 67.9296, 15.3838, 178.2257, 36.9969, 42.4986, 509.5143, 1703.9061, 1323.8996, 18.0358, 4841.6135。
+其他明细仍采用下方沃尔玛表及222mL Fresca行；Silk行被上述新行替代。添加糖估计上限仍约2g/周；膳食胆固醇及碘、海鲜EPA+DHA不变。来源小计：维生素D=21×2+12.4×11=178.4µg/周；B12=21+12.4×3.23+13.6×1.4=80.092µg/周；ALA=21×0.3=6.3g/周；海鲜EPA+DHA25.7792g/周、碘盐573µg/周。仍不是这些微量营养的全膳食完整总量。
+沿用周消耗16677.7291kcal，周赤字16677.7291−13256.0760=3421.6531kcal；显示3420，放纵餐表按3420分母重新计算。不是保证的减重速度，食材代理及活动消耗误差仍存在。
+--&gt;
+&lt;!--
+Earth’s Own两桶更新，2026-09-23（现行口径，优先于此前三桶、Silk及Metro版本）：
+用户要求豆奶改回每周2桶Earth’s Own无糖原味1.75L，总量3.5L，日均500mL；早餐仍200g近似200mL，剩余约300mL/日另饮。全部豆奶只计一次。Fresca六罐、其他食材、调味和训练不变，Metro备选表保留原样。沿用刚核实的Walmart $4.47/桶，周8.94；周费用202.28−4.47=$197.81，实际以门店结算为准。
+营养来源仍为 https://earthsown.com/products/soy-unsweetened-original-chilled-carton/ 。从三桶版扣除7份250mL豆奶，周减少490kcal、蛋白质49g、脂肪24.5g、饱和3.5g、碳水21g、纤维7g、总糖7g、钠630mg、钙2100mg、铁7mg、钾1750mg；胆固醇及添加糖不变。
+现行明细替换行（单位顺序沿用历史12项表）：Earth’s Own豆奶（每250mL） | 14 | 70 | 7 | 3.5 | 0.5 | 3 | 1 | 1 | 0 | 90 | 300 | 1 | 250
+未取整周合计：12766.0760, 1085.8873, 451.0072, 104.1863, 1226.5802, 251.9781, 290.4905, 3566.6000, 11297.3427, 7167.2970, 119.2503, 32141.2947。
+日均：1823.7251, 155.1268, 64.4296, 14.8838, 175.2257, 35.9969, 41.4986, 509.5143, 1613.9061, 1023.8996, 17.0358, 4591.6135。
+部分来源小计同步扣除豆奶：D178.4−14=164.4µg/周，B12 80.092−7=73.092µg/周，ALA6.3−2.1=4.2g/周；碘盐573µg/周、海鲜EPA+DHA25.7792g/周不变。这些仍不是完整全膳食微量营养总量。
+周消耗沿用16677.7291kcal，周摄入12766.0760kcal，赤字3911.6531kcal，显示3910；放纵餐比例按3910重新计算。相对三桶版周赤字增加490kcal。所有数字为计划估计，不是精确减重承诺。
+--&gt;
+&lt;!--
+撤回白米减量，2026-09-23（现行）：用户明确不改米饭量，恢复每次干白米120mL、每周240mL暂按200g，意面仍55g/顿；豆奶仍Earth’s Own1.75L×2桶，其他食材与训练不动，不自动改减其他食材。营养恢复上方“Earth’s Own两桶更新”的全部合计：周摄入12766.0760kcal、蛋白质1085.8873g、周赤字3911.6531kcal（显示3910），周预算$197.81。白米周费用恢复$0.50，放纵餐表按3910重算。此前110mL减量方案已撤回，不作为当前计划。
+--&gt;
+&lt;!--
+恢复早餐六蛋，2026-09-23（最新口径，覆盖此前六蛋版营养、赤字和预算）：早餐周一至周六各1个水煮蛋，周日一次煮6个；炒扇贝每次3个、每周6个不变，合计12个/周。Great Value 12个装改每周1盒，$3.93；按显示价格计算周购物合计$199.77。每次取用9个/3个分别指周日、周三，周日其中6个单独煮作早餐。
+沿用既有普通大号鸡蛋参考值，每2个：140kcal、蛋白质12g、总脂肪10g、饱和脂肪3g、碳水2g、膳食纤维0g、糖0g、胆固醇390mg、钠130mg、钙50mg、铁1.75mg、钾125mg；不是本款完整实测标签。新增6个/周相应增加420kcal、蛋白质36g、脂肪30g、饱和脂肪9g、碳水6g、胆固醇1170mg、钠390mg、钙150mg、铁5.25mg、钾375mg。维生素D、B12、碘和Omega-3仍沿用限定来源小计，未补入鸡蛋含量，不表示鸡蛋含量为零。
+新每周合计按kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg顺序：
+[13186.076,1121.8873,481.0072,113.1863,1232.5802,251.9781,290.4905,4736.6,11687.3427,7317.297,124.5003,32516.2947]
+周消耗仍16677.7291kcal，周摄入13186.076kcal，赤字3491.6531kcal（显示3490）；放纵餐比例按3490计算。意面55g/顿、干白米120mL/次、豆奶两桶和其他安排不变。
+煮蛋储存依据：Health Canada建议煮至蛋白蛋黄凝固；熟蛋2小时内冷藏，密封冷藏最多1周：https://www.canada.ca/en/health-canada/services/meat-poultry-fish-seafood-safety/eggs.html
+--&gt;
+&lt;!--
+Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和赤字）：用户确认换为类似量Coho。按用户此前320g/盒、每盒2块，购4盒/周=1280g、8块；每次取2盒640g、4块，分两餐各320g、2块。保留早餐6蛋和炒蛋6个，其他食材、调味、米饭120mL/次、意面55g/顿及运动不变。空气炸锅因块数增加需单层分批，不把时间当熟度保证。
+核实Walmart原味Coho页面：https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814 ，成分仅Salmon，标BAP养殖认证，因此采用养殖Coho代理，不套野生最低热量。页面规格0.26–0.31kg/盒，平均价格$9.72、单价$3.40/100g；计划320g/盒沿用用户既往实际重量作为预算，非声称网页固定包装320g。实际净重、库存与结算以当地标签为准；按1280g×$3.40/100g=$43.52/周，总预算199.77−48.94+43.52=$194.35。
+宏量和矿物使用USDA SR28 NDB15238/FDC173715原味生养殖Coho每100g：
+160kcal、蛋白质21.27g、脂肪7.67g、饱和脂肪1.816g、碳水0g、纤维0g、糖按0g估计、胆固醇51mg、钠47mg、钙12mg、铁0.34mg、钾450mg；B12 2.67µg、EPA0.385g、DHA0.821g。不是本商品实测标签。
+来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg15.pdf （PDF第420–421页，NDB15238）；https://fdc.nal.usda.gov/food-details/173715/nutrients 。Coho养殖条目维生素D缺失，依用户此前“估算不要留空”的偏好，暂以同物种野生生Coho NDB15081每100g9µg粗略代理（PDF第429页）；不把缺值当0、不声称养殖与野生维生素D相同。
+计算：从“恢复早餐六蛋”12项未取整周合计减12.4份Atlantic旧参考组，加12.8份Coho新参考组。新周合计顺序为kcal、蛋白质g、总脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg：
+[12654.876,1140.9353,412.7752,98.6111,1232.5802,251.9781,290.4905,4707.4,11557.3427,7359.297,124.6363,33775.0947]
+相较Atlantic版周热量−531.2kcal、蛋白质+19.048g、饱和脂肪−14.5752g；周消耗仍16677.7291kcal，周摄入12654.876kcal，赤字4022.8531kcal（显示4020），放纵餐比例按4020计算。
+部分来源小计同步更新：D=14×2+12.8×9=143.2µg/周；B12=14+12.8×2.67+13.6×1.4=67.216µg/周；EPA+DHA=12.8×1.206+13.6×0.103=16.8376g/周；ALA仍仅豆奶4.2g/周，碘仍仅碘盐573µg/周。这些不是全膳食完整微量营养总量，鸡蛋未计入不代表不含；替换后三文鱼Omega-3估值下降已计入，未保留Atlantic数值。旧Metro备选原表及以下历史记录保留不删。
+本次被替换的Atlantic购物行，仅作历史参考：
+| 三文鱼 | [Your Fresh Market Atlantic Salmon](https://www.walmart.ca/en/ip/Your-Fresh-Market-Atlantic-Salmon-Portion/6000203959332)&lt;br&gt;620 g / 盒，2块 | 2盒 / 周 | 1盒 | $48.94 |
+--&gt;
+&lt;!--
+牛排一周一块更新，2026-09-23（最新，覆盖Coho版牛排数量、总营养、预算及赤字）：用户要求牛排每周一块。原商品不变，约300g一盒每周买1盒；仍保留原两顿牛排餐，每次做饭取半块，购入重约150g/餐，沿用去明显肥边10%损耗估计后约135g/餐。周日切分时保留原厚度，周三那份立即密封冷冻、周二晚移冷藏解冻；不自动缩短烤制时间。
+肉量由每周购入600g、修边后540g减至购入300g、修边后270g。按现有USDA去肥边Striploin代理每100g：171kcal、蛋白质22g、脂肪9g、饱和脂肪3.8g、胆固醇59mg、钠45mg、钙15.3mg、铁1.9mg、钾271mg。每周少461.7kcal、蛋白质59.4g、脂肪24.3g、饱和脂肪10.26g、胆固醇159.3mg、钠121.5mg、钙41.31mg、铁5.13mg、钾731.7mg。调味及用油暂保持原两次份量，不重复扣减；其余食材、早餐蛋、Coho和训练不变。
+新每周12项合计（kcal、蛋白质g、总脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg）：
+[12193.176,1081.5353,388.4752,88.3511,1232.5802,251.9781,290.4905,4548.1,11435.8427,7317.987,119.5063,33043.3947]
+周消耗仍16677.7291kcal；周摄入12193.176kcal，日均1741.8823kcal；周赤字4484.5531kcal（显示4480），较Coho两块牛排版增加461.7kcal，放纵餐比例按4480计算。日均蛋白质154.505g、饱和脂肪12.6216g；日均热量低于表内原1800–2000kcal参考区间，目标列不自动下调，实际体重与训练恢复用于后续评估。维生素、碘和Omega-3仍为原限定来源小计，未涵盖牛排，故可见小计不变；不是说牛排不含这些营养。
+价格沿用现有预算$15/块，周预算194.35−15=$179.35，未声称重新核实实时售价。Metro备选原表和历史记录均保留。
+冷藏解冻与储存参考：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/defrosting-safety.html 、https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-food-storage.html 。
+--&gt;
+&lt;!--
+鸡蛋换购更新，2026-09-23：现用Conestoga Farms Free Run Omega-3 Large Brown 12 Eggs，每周1盒12个；6个早餐蛋、6个炒蛋不变，周日取9个、周三取3个。售价按用户IMG_8021.PNG截图$7.79，不采用网页其他门店价格；周购物合计179.35−3.93+7.79=$183.21。截图672g为商品包装规格，不作去壳可食重量使用。商品链接：https://www.walmart.ca/en/ip/Conestoga-Farms-Free-Run-Omega-3-Large-Brown-Eggs/6000197453383 。
+厂家https://conestogafarms.com/free-run-eggs/确认Omega-3产品，但营养图片本次未能读取；目前暂沿用原普通大鸡蛋代理值，每2个140kcal、蛋白质12g、脂肪10g、饱和脂肪3g、碳水2g、纤维0g、糖0g、胆固醇390mg、钠130mg、钙50mg、铁1.75mg、钾125mg，并非本款已核实标签。宏量营养总计及周赤字4484.5531kcal暂不调整，不表示两品牌精确等同；未取得ALA/EPA/DHA分项，不将Omega-3宣传量计入分项。此前维生素D、B12、碘及Omega-3部分来源小计仍未计鸡蛋，待实物营养表补齐。此条为当前换购记录，历史品牌及采购记录保留。
+--&gt;
 &lt;h3 id=&#34;营养统计&#34;&gt;营养统计&lt;/h3&gt;
 &lt;p&gt;以下为估算，不含放纵餐。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -1140,92 +1264,92 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,460 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,780 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,200 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,740 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,042 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约149 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,082 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约155 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约433 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约61.9 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约388 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约55.5 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约101 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14.4 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约88.4 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12.6 g&lt;/td&gt;
           &lt;td&gt;≤11 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,240 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约177 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,233 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约176 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约257 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约36.6 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约252 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约36.0 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约293 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约42 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约290 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约41.5 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;添加糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;23 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.3 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.3 g&lt;/td&gt;
           &lt;td&gt;≤25 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食胆固醇&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,540 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约649 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,550 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约650 mg&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13,600 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,940 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约11,400 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,630 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7,280 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,040 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7,320 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,050 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约125 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17.9 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约120 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17.1 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约30,300 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,330 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约33,000 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,720 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;维生素D&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约127 µg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约18.2 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约143 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约20.5 µg&lt;/td&gt;
           &lt;td&gt;15 µg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;维生素B12&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约63 µg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约9.0 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约67.2 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约9.6 µg&lt;/td&gt;
           &lt;td&gt;2.4 µg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1242,8 +1366,8 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Omega-3：EPA+DHA&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19.2 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.7 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约16.8 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.4 g&lt;/td&gt;
           &lt;td&gt;250 mg&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -1251,7 +1375,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 &lt;!--
 表格来源限定：维生素D（豆奶、三文鱼小计）；维生素B12（豆奶、海鲜小计）；碘（仅碘盐，未计损耗）；Omega-3：ALA（仅豆奶估算）；Omega-3：EPA+DHA（仅海鲜估算）。未计入的食物含量不视为零。
 
-计算口径：豆奶每周3.5 L全部喝完，已包含早餐每天200 g；计入12个鸡蛋、全部调味、橄榄油37.5 mL及盐约7.5 g。白米240 mL暂按干米200 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
+计算口径：豆奶每周5.25 L全部喝完，另计Fresca迷你罐222mL×6罐/周，已包含早餐每天200 g；计入6个鸡蛋、全部调味、橄榄油37.5 mL及盐约7.5 g。白米240 mL暂按干米200 g，豌豆胡萝卜两罐暂按沥干520 g，牛排每周购入520 g，暂估修边损失10%，按去肥边后468 g生重计算；实际损失待称量。
 
 表内均为估值：包装食品优先采用商品营养表，未取得完整标签的肉类、扇贝、蔬果和香料使用同类食物参考值；实际净重、肥瘦、沥水和烹调损耗会影响结果。总糖包含水果等食物自带的糖，不等于添加糖；钠包含食物本身及加盐；铁为摄入量，不是吸收量。
 
@@ -1260,7 +1384,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 建议值依据（2026-09-21）：
 添加糖计算及目标补充（2026-09-21）：加拿大营养标签通常只列总糖，配料表可确认是否加糖，但不能准确量化添加糖。当前没有做菜额外加糖；完整切块水果、原味肉蛋海鲜、普通米面蔬菜、橄榄油不作为添加糖来源。Earth&#39;s Own无糖豆奶、Allessia无添加盐番茄泥、Fibre1及Fresca按当前配料和无添加糖/无糖信息计0g添加糖；其天然糖仍保留在总糖中，三氯蔗糖等甜味剂不当作糖。
 Selection豌豆胡萝卜配料含糖，Dempster&#39;s卷饼皮含糖和糖蜜。添加糖无法从总糖直接分离，因此将罐头现有代理总糖20.8g/周、卷饼总糖2g/周全部暂作为添加糖的保守上界情景；Homestyle原味土豆泥按无添加糖配料计0g：20.8+2=22.8g/周，除7=3.2571g/日；向上取整展示约23g/周、约3.3g/日。此计算刻意包含这些食物的天然糖，不是实际添加糖点估计；罐头总糖及沥干量仍是同类食物代理值，不能把这个上界情景当作经实物标签证实的严格上限。碘盐用于稳定碘化物的微量糖及标签舍入误差未能量化；如商品配方、果盘糖浆或调味发生变化须重算。添加糖属于原总糖的一部分，不再重复加到总糖、碳水或热量中。
-添加糖实用目标≤25g/日，按AHA建议不超过总能量6%，当前约1720kcal折合25.8g后取整；AHA成年男性常用上限36g/日不是当前低能量计划必须吃到的量。WHO的游离糖包括蜂蜜、糖浆、果汁中的糖，定义不完全等于添加糖，不能把其限量套到全部水果天然糖上。总糖没有适用于所有人的统一克数限量；加拿大标签100g总糖每日参考值是标签比较基准，不作本计划推荐目标。
+添加糖实用目标≤25g/日，按AHA建议不超过总能量6%，当前约1790kcal折合26.9g，实用目标仍取25g；AHA成年男性常用上限36g/日不是当前低能量计划必须吃到的量。WHO的游离糖包括蜂蜜、糖浆、果汁中的糖，定义不完全等于添加糖，不能把其限量套到全部水果天然糖上。总糖没有适用于所有人的统一克数限量；加拿大标签100g总糖每日参考值是标签比较基准，不作本计划推荐目标。
 膳食胆固醇不使用过往300mg/日作为统一安全界限，也不将“无统一限量”理解为不必控制；表格采用AHA所述在保证营养充足前提下尽量降低的方向，具体程度应结合整体膳食、饱和脂肪及血脂复查。钠采用AHA≤2300mg/日、多数成人逐步接近1500mg/日的目标，1500mg不是最低需要量，明显大量出汗等情况需个体化。本次不改变食材用量、三文鱼块数、热量或赤字。
 本次核对来源：
 https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html
@@ -1274,7 +1398,7 @@ https://api.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/gran
 
 热量1800–2000kcal为既定减脂摄入参考，按81.1kg及最新活动估算维持消耗约2393kcal/日，对应约393–593kcal/日赤字，并非通用医学下限；依据2–4周体重均值、饥饿感、训练表现调整。当前实际食谱估计约1780kcal/日，略低于该参考范围下端；模型赤字约613kcal/日。
 蛋白质按当前81.1kg参考体重约1.6–2.0g/kg，计算为129.76–162.2g/日，实用范围取整为130–165g/日，支持力量训练和减脂保肌；不是人人都需要这个量。总脂肪45–65g属于上述能量下的大致适用范围，碳水180–240g是优先满足蛋白质和脂肪后分配剩余热量的实用起点，不是通用AMDR或必须吃到的最低量，各宏量范围不能同时取上限。
-饱和脂肪结合用户曾提供的LDL偏高情况，采用AHA降LDL的约5–6%能量目标，按当前1720kcal约9.6–11.5g，显示尽量≤11g；并非所有人的统一上限。
+饱和脂肪结合用户曾提供的LDL偏高情况，采用AHA降LDL的约5–6%能量目标，按当前1790kcal约9.9–11.9g，显示尽量≤11g；并非所有人的统一上限。
 纤维30–38g为实际饮食目标，成年男性AI38g/日，不是安全上限；耐受良好时超过38g并不自动意味着过量。总糖无统一推荐区间，不能直接用添加糖或游离糖限量衡量水果中的总糖。
 膳食胆固醇不虚构适用于所有人的安全阈值；AHA强调低胆固醇的整体饮食模式。考虑既往LDL偏高，建议从当前630mg/日降低并结合复查血脂评估，不能据某个食物胆固醇数字预测血LDL变化。
 钠2300mg为限制目标，1500mg是多数成人可逐步接近的目标，并非必须达到的下限；大量出汗时个体化。钙1000mg、铁8mg为当前成年男性RDA；钾3400mg为AI，不是越高越好。肾病或影响血钾的药物使用者不能直接照搬高钾/高蛋白目标。不建议为追求表格数值自行补铁或补钾。
@@ -1288,23 +1412,30 @@ https://ods.od.nih.gov/factsheets/Calcium-Consumer/
 https://ods.od.nih.gov/factsheets/Iron-Consumer/
 https://ods.od.nih.gov/factsheets/Potassium-Consumer/
 
-营养统计审计，2026-09-21；此处为当前版本，下文之外的旧估算仅作历史记录。
+营养统计审计，2026-09-23；当前以恢复下半周扇贝、三文鱼更新及明细表为准，其余为历史对照。
+豆奶替换审计：取消每周12罐Fresca，豆奶由2桶增至3桶，共5.25L；早餐仍200g/日，近似200mL，余下3.85L在早餐外饮用，全部喝完且不重复计量。厂家每250mL标签已于2026-09-23核对：https://earthsown.com/products/soy-unsweetened-original-chilled-carton/ 。新增7份豆奶增加490kcal、蛋白质49g、脂肪24.5g、饱和脂肪3.5g、碳水21g、纤维7g、总糖7g、钠630mg、钙2100mg、铁7mg、钾1750mg；去掉Fresca按既有每罐75mg钠扣900mg，故钠净减少270mg/周，胆固醇及添加糖不变。日均摄入1790.4193kcal、蛋白质150.7014g；保持最新训练模型总消耗16677.7291kcal/周，周赤字4144.7941kcal，显示约4100kcal，放纵餐比例按4100计算。豆奶价格沿用每桶$4.99，总费用183.41−9.49+4.99=$178.91，另加果盘价格。此记录为豆奶替换后的基线，后续Fresca迷你六罐装更新见下，优先于更早的饮食、训练审计；训练本身不变。
+新增Fresca迷你六罐装审计，2026-09-23：保留豆奶3桶/周，新增Metro Fresca Sugar-Free Grapefruit Flavoured Soft Drink, Mini，222mL×6罐，共1.332L/周，产品号067000112430；Metro搜索索引及分类页标价$5.49，实际以本地门店结算为准，不代表库存保证。商品链接：https://www.metro.ca/epicerie-en-ligne/allees/boissons/boissons-gazeuses/citron-lime-et-agrumes/boisson-gazeuse-a-saveur-de-pamplemousse-sans-sucre/p/067000112430 。同款加拿大六罐装营养参考：https://www.nofrills.ca/en/grapefruit-soda/p/21022955_C06 ，每222mL为0kcal、蛋白质0g、糖0g、钠45mg、钾10mg；每周增加钠270mg、钾60mg，其他已统计营养不变。钠合计13185.1623mg/周、1883.5946mg/日；钾31752.3414mg/周、4536.0488mg/日。热量、蛋白质及赤字不变，已知费用178.91+5.49=$184.40，另加果盘价格。此为下半周替换前基线，最新更新见下。
+下半周替换审计，2026-09-23（高蛋白意面替换前）：扣除700g扇贝及452g三文鱼，加入700g Sunrise Extra Firm豆腐和400g虹鳟。油盐总量不变，豆腐一锅用1茶匙油，等于原扇贝两阶段各1/2茶匙。豆腐按Voilà同款每85g：130kcal、蛋白质14g、脂肪8g、饱和1g、碳水3g、糖1g、钠15mg、钙75mg、铁2mg、钾150mg；纤维0g及胆固醇0mg与同款其他零售标签交叉核对，营养随包装版本变化。来源：https://voila.ca/products/sunrise-tofu-extra-firm-350-g/36348EA 、 https://www.pricesmartfoods.com/sm/pickup/rsid/2280/product/sunrise-tofu-extra-firm-id-00057864000080 。按700/85份计算，不把包装舍入的1/4份当精确重量。虹鳟采用USDA FDC 173717养殖生虹鳟的完整参考组（141kcal/100g），不同于前面对比时BIM的127kcal/100g样本，不是Metro实测。来源：https://fdc.nal.usda.gov/food-details/173717/nutrients ，数据镜像：https://whatyoueat.io/foods/173717-farmed-rainbow-trout 。每周摄入12597.3632kcal、日均1799.6233kcal，周蛋白质1038.6652g、日均148.3807g；沿用周消耗16677.7291kcal，赤字4080.3659kcal，显示仍约4100kcal，放纵餐表继续按4100计算。相较此前周热量增加64.4282kcal，周蛋白质减少16.2443g，饱和脂肪减少0.7187g，胆固醇减少257.6mg，钠减少1059.1506mg。所有推荐目标及训练不变。食品安全参考：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html 。
+高蛋白意面替换审计，2026-09-23（55g用量更新前）：换为Metro Catelli PROTEIN+ Spaghetti 340g，商品号064200130714；保留每顿50g干重、每次100g、每周200g。Metro公开价$4.99/包，按周用量分摊$2.94，已知小计172.77−2.13+2.94=$173.58，另加水果盘；库存与结算价以门店为准。按用户要求改为Spaghetti长条面。Metro页面标题误列Garden Select，但商品号064200130714与厂家PROTEIN+ Spaghetti规格表一致，配料也对应，故使用此Metro链接。营养继续采用此前Spaghetti参考组，不再作为Rotini的同系列代理；每85g：300kcal、蛋白质17g、脂肪2g、饱和脂肪0.5g、碳水58g、纤维8g、总糖2g、胆固醇0mg、钠4mg、钙20mg、铁2.5mg、钾400mg；厂家HTML缺热量，300kcal沿用此前同款标签交叉参考。相对旧全麦意面，每周蛋白质约+11.76g、热量约−23.53kcal；最新周摄入12573.8338kcal、蛋白质1050.4299g，日均蛋白质150.0614g。周消耗仍16677.7291kcal，赤字4103.8953kcal，显示仍4100kcal，放纵餐比例不变。Spaghetti产品说明al dente约8分钟，厂家食谱建议比包装时间少煮2分钟后入酱锅；因后续入番茄锅2分钟，先煮约6分钟试口感，最终以手中包装及软硬为准。
+来源：https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714 、 https://www.barillaforprofessionals.com/media/en-us/filer_public/5f/99/5f9986d1-7ada-4ea6-9fcc-9347e9560514/catelli_protein_sellsheet_0824_fre.pdf 、 https://www.catelli.ca/en/pastas/spaghetti/ 、 https://www.nutritionvalue.org/public_ingredient_62981.html 、 https://www.walmart.ca/en/ip/Catelli-Protein-Spaghetti-Pasta-High-in-Protein/10HMLTQIF7A4 、 https://www.catelli.ca/en/recipe/protein-spaghetti-aglio-olio-e-peperoncino/ 。
+意面55g用量更新，2026-09-23（最新）：Catelli PROTEIN+ Spaghetti每顿干重55g，每次做菜110g分两份，每周四顿共220g；其他食材和训练不变。相比50g版本，每周多20g干面，增加70.5882kcal、蛋白质4g、脂肪0.4706g、饱和脂肪0.1176g、碳水13.6471g、纤维1.8824g、总糖0.4706g、钠0.9412mg、钙4.7059mg、铁0.5882mg、钾94.1176mg；胆固醇及添加糖不变。按原营养参考组重算周摄入12644.4220kcal、日均1806.3460kcal，蛋白质1054.4299g/周、150.6328g/日。周消耗仍16677.7291kcal，赤字4033.3071kcal，展示4000kcal；放纵餐比例统一按4000计算。意面费用按$4.99×220/340=$3.23，已知小计173.58−2.94+3.23=$173.87，另加水果盘价格。煮面时间不因这次少量增重改变。
+恢复下半周扇贝、三文鱼更新，2026-09-23（最新，取代前述替换方案及其“最新”标记）：下半周撤回700g豆腐和400g虹鳟，恢复700g扇贝及452g三文鱼；全周扇贝2×700g、三文鱼8×113g，鸡蛋仍6个，意面仍每顿55g，其余食材、用油、调味和训练不变。此前350g豆腐分两顿仅为讨论方案，未写入计划，因此从文件中700g豆腐版本回算。沿用现有营养代理组，每周蛋白质增加16.2443g、热量减少64.4282kcal；每周摄入12579.9938kcal、蛋白质1070.6742g，日均约1797.1420kcal、152.9535g蛋白质。周消耗仍16677.7291kcal，赤字4097.7353kcal，显示4100kcal，放纵餐表按4100重算比例。每周已知费用173.87−7.98−12.34+11.99+19.96=$185.50，另加2.5kg水果盘价格；价格沿用原预算，未声称重新核实门店实时价格。维生素及Omega-3来源小计同步恢复，两次做菜流程统一。下列明细和总计为当前版本。
 单位顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。
 下表各行表示：食材 | 每周倍数 | 每一基准份的12项营养。未另注明的基准份为100g；香料和盐行为整周合计。
 鸡腿肉 | 10.2 | 149 | 18.6 | 7.9 | 1.7 | 0 | 0 | 0 | 92 | 62.3 | 5 | 0.6 | 231
 原味扇贝（原标签代理） | 14 | 90 | 17 | 1 | 0.1 | 2 | 0 | 0 | 35 | 160 | 10 | 0.3 | 200
 三文鱼 | 9.04 | 208 | 20.42 | 13.42 | 3.05 | 0 | 0 | 0 | 55 | 59 | 9 | 0.34 | 363
 牛排（去肥边，暂估10%修边损失） | 4.68 | 171 | 22 | 9 | 3.8 | 0 | 0 | 0 | 59 | 45 | 15.3 | 1.9 | 271
-鸡蛋（Gray Ridge，每2个；钙铁钾仍为代理值） | 6 | 140 | 12 | 10 | 3 | 2 | 0 | 0 | 390 | 130 | 50 | 1.75 | 125
-豆奶（每250mL） | 14 | 70 | 7 | 3.5 | 0.5 | 3 | 1 | 1 | 0 | 90 | 300 | 1 | 250
-Fresca（每355mL） | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 75 | 0 | 0 | 0
+鸡蛋（Gray Ridge，每2个；钙铁钾仍为代理值） | 3 | 140 | 12 | 10 | 3 | 2 | 0 | 0 | 390 | 130 | 50 | 1.75 | 125
+豆奶（每250mL） | 21 | 70 | 7 | 3.5 | 0.5 | 3 | 1 | 1 | 0 | 90 | 300 | 1 | 250
+Fresca迷你罐（每222mL） | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 45 | 0 | 0 | 10
 土豆泥原味（每1/8袋） | 8 | 80 | 2 | 0.3 | 0.1 | 19 | 2 | 0 | 0 | 25 | 10 | 0.3 | 300
 豌豆胡萝卜（代理估值） | 5.2 | 55 | 3 | 0.4 | 0.08 | 10.5 | 3.5 | 4 | 0 | 300 | 25 | 1 | 160
 蘑菇 | 4.54 | 22 | 2.5 | 0.1 | 0.02 | 4.3 | 0.6 | 1.7 | 0 | 6 | 18 | 0.4 | 448
 菠菜 | 2.84 | 23 | 2.86 | 0.39 | 0.063 | 3.63 | 2.2 | 0.42 | 0 | 79 | 99 | 2.71 | 558
 番茄泥（Allessia每60mL，钠暂估，其余用旧款代理） | 12 | 20 | 1 | 0 | 0 | 4 | 1 | 3 | 0 | 10 | 10 | 0.2 | 250
 混合水果（比例未知近似） | 25 | 40 | 0.7 | 0.2 | 0.03 | 10 | 1.2 | 8 | 0 | 10 | 12 | 0.3 | 170
-全麦意面（每85g） | 2.35294118 | 310 | 12 | 2 | 0.4 | 59 | 8 | 2 | 0 | 4 | 30 | 3 | 150
+高蛋白长条意面（Spaghetti，每85g） | 2.58823529 | 300 | 17 | 2 | 0.5 | 58 | 8 | 2 | 0 | 4 | 20 | 2.5 | 400
 卷饼皮（每61g） | 2 | 170 | 5 | 4 | 1 | 28 | 3 | 1 | 0 | 320 | 30 | 1.5 | 225
 白米（未强化干米代理） | 2 | 365 | 7.13 | 0.66 | 0.18 | 79.95 | 1.3 | 0.12 | 0 | 5 | 28 | 0.8 | 115
 Fibre1（每62g） | 4.51613 | 140 | 4 | 1 | 0.2 | 53 | 27 | 1 | 0 | 220 | 250 | 8 | 150
@@ -1312,19 +1443,19 @@ Fibre1（每62g） | 4.51613 | 140 | 4 | 1 | 0.2 | 53 | 27 | 1 | 0 | 220 | 250 |
 干香料合计估值 | 1 | 118 | 5.5 | 2.3 | 0.4 | 25 | 8 | 2 | 0 | 30 | 130 | 3.3 | 550
 盐（7.5g） | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2950.5 | 0 | 0 | 0
 
-未取整周合计：12462.9350, 1041.9095, 433.0252, 100.6458, 1235.5095, 256.5310, 293.1728, 4541.7200, 13575.1623, 7282.8060, 125.0774, 30317.3414。
+未取整周合计：12579.9938, 1070.6742, 427.9958, 95.4987, 1261.8037, 265.4134, 300.6434, 3371.7200, 13186.1035, 9213.9825, 126.2391, 32434.6943。
 各项先按未取整数求和，再除7，最后分别取整展示；因此显示的日均乘7不必与显示的周总数完全一致。
-豆奶200g近似200mL；共3.5L只计一次。肉类采用生重，意面、白米、土豆泥和谷物采用干重，不把熟食每100g值乘生重。
+豆奶200g近似200mL；共5.25L只计一次。肉类采用生重，意面、白米、土豆泥和谷物采用干重，不把熟食每100g值乘生重。
 鸡腿为通用去骨去皮生鸡腿参考；牛排改用USDA Retail Beef Cuts 3.01印刷第42页Choice top loin steak、外层脂肪修至0英寸、lean and fat、生肉的完整成分组作代理，每100g171kcal、蛋白质22g、脂肪9g、饱和脂肪3.8g。不是Platinum Grill实测，也不表示加拿大等级与USDA Choice等同。外层肥边去除后仍有肌内脂肪。修边损失10%仅为工作假设；未再扣烤盘油或扇贝弃水带走的营养。参考：https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf
 新Irrésistible原味生扇贝没有取得完整标签，沿用用户此前Green Ocean原味扇贝每100g标签作为代理：90kcal、蛋白质17g、脂肪1g、饱和0.1g、碳水2g、胆固醇35mg、钠160mg、钙10mg、铁0.3mg、钾200mg；不是新品牌已核实数据，尤其钠需实物标签确认。
 豌豆胡萝卜每100g采用55kcal、蛋白质3g、脂肪0.4g、饱和0.08g、碳水10.5g、纤维3.5g、糖4g、钠300mg、钙25mg、铁1mg、钾160mg的同类沥干蔬菜估计，并非Selection标签。水果比例未知，按每100g40kcal、蛋白质0.7g、脂肪0.2g、饱和0.03g、碳水10g、纤维1.2g、糖8g、钠10mg、钙12mg、铁0.3mg、钾170mg的瓜果混合近似。
-干香料按购物审计约40.2g合计，以通用香料成分近似；不可视作实测营养。盐按氯化钠约393.4mg钠/g，油按密度0.91g/mL。Fresca计12罐的钠，不把零热量当作零钠。
+干香料按购物审计约40.2g合计，以通用香料成分近似；不可视作实测营养。盐按氯化钠约393.4mg钠/g，油按密度0.91g/mL。当前计入Fresca迷你罐6×222mL，每周270mg钠；不再使用原12×355mL的900mg钠。
 Fibre1黑色96%包装采用587g款新标签：每62g140kcal、纤维27g；取代旧90kcal/31g估算。Homestyle原味土豆泥180g每袋按8份标签份量计算，不把180/23当作精确份数，不加黄油、奶或盐。
 新增维生素D、B12、碘及Omega-3审计，2026-09-21：仅报告有依据的来源小计，不编造完整总量，未改变原12项营养合计或饮食安排。参考值按原料投入量估算，未计烹调、弃水、储存损耗；不是实际吸收量或化验结果。
-豆奶采用Earth&#39;s Own当前厂家标签，每250mL含维生素D 2µg、B12 1µg、Omega-3 0.3g；每周14份分别为28µg、14µg、4.2g。厂家未分列脂肪酸种类，根据大豆原料且无鱼油或藻油强化，将其Omega-3暂按ALA估算，不计入EPA+DHA。
+豆奶采用Earth&#39;s Own当前厂家标签，每250mL含维生素D 2µg、B12 1µg、Omega-3 0.3g；每周21份分别为42µg、21µg、6.3g。厂家未分列脂肪酸种类，根据大豆原料且无鱼油或藻油强化，将其Omega-3暂按ALA估算，不计入EPA+DHA。
 三文鱼采用USDA通用生养殖大西洋三文鱼（FDC 175167）参考，每100g维生素D 11µg、B12 3.23µg、EPA 0.862g、DHA 1.104g。904g分别为99.44µg、29.1992µg、EPA+DHA 17.77264g；非当前Metro商品实测。
 扇贝B12暂按通用生扇贝1.4µg/100g、EPA+DHA按Seafish生扇贝营养资料103mg/100g估算。1400g分别贡献19.6µg和1.442g；种类、产地和加工差异使此项不确定性较高，不能当作Irrésistible标签值。
-显示小计：维生素D 28+99.44=127.44µg/周；B12 14+29.1992+19.6=62.7992µg/周；海鲜EPA+DHA 17.77264+1.442=19.21464g/周。鸡蛋和其他肉类等尚未纳入这几项，不能把小计当作完整总量。
+显示小计：维生素D 42+99.44=141.44µg/周；B12 21+29.1992+19.6=69.7992µg/周；海鲜EPA+DHA 17.77264+1.442=19.21464g/周。鸡蛋和其他肉类等尚未纳入这几项，不能把小计当作完整总量。
 碘只估算购物表Windsor Iodized Table Salt：加拿大碘盐标准含0.01%碘化钾，碘占碘化钾质量约126.904/(126.904+39.098)=76.45%，因此7.5g盐理论贡献约573µg碘/周。未计烹调或储存损耗，也未计海鲜、鸡蛋等天然碘，不能由此推出实际总碘或吸收量；不要为了补碘增加盐。
 Omega-3未将各类型直接相加套用同一目标。加拿大/美国成年男性ALA适宜摄入量为1.6g/日；EPA+DHA采用EFSA成人250mg/日参考量，并非降甘油三酯治疗剂量或安全上限。Omega-3鸡蛋虽有总Omega-3标示，但未核实ALA/EPA/DHA分项，暂未加入这两行；不能据豆奶ALA小计判断全日ALA不足。
 维生素D 15µg（600IU）、B12 2.4µg、碘150µg为目前年龄段成年人的每日RDA；不是补充剂处方或上限。小计与目标比较只供参考，维生素D未计日晒合成。
@@ -1371,6 +1502,8 @@ https://www.instacart.ca/products/26965215-allessia-organic-tomato-puree-720-ml
 意面及白米减量更新，2026-09-21：意面每顿50g干重、每次100g、每周四顿共200g；白米每次120mL干米、每周240mL，沿用原密度代理暂按200g/周、每次100g，米饭每次仍分两份。相较上一版每周少40g意面及25g干米，按既有营养基准减少237.1324kcal、蛋白质7.4296g、碳水47.7522g、纤维4.0897g。周摄入12582.9350kcal、日均1797.5621kcal；周消耗16267.1604kcal不变，周赤字3684.2254kcal，显示3680kcal，放纵餐比例按3680计算。日均蛋白质149.1442g、碳水180.7871g、饱和脂肪14.3908g；胆固醇和维生素等现有来源小计不变。意面周费用$3.99×200/375=$2.13，白米$2.99×200/900=$0.66，购物各行显示金额合计$210.78。鸡蛋仍每周12个，其中周日一次煮6个早餐蛋；其他食材、调味、训练和建议目标不变。此记录优先于所有历史版本。
 
 水果盘规格更新，2026-09-21：按用户指定每周1盒2.5kg，取代1.4kg×2盒；每周按全部2500g可食水果计入，早餐平均2500/7≈357g。沿用混合瓜果每100g代理值，较2800g版本每周减少120kcal、蛋白质2.1g、脂肪0.6g、饱和脂肪0.09g、碳水30g、纤维3.6g、总糖24g、钠30mg、钙36mg、铁0.9mg、钾510mg；胆固醇和添加糖不变。周摄入12462.9350kcal、日均1780.4193kcal；周消耗16267.1604kcal不变，周赤字3804.2254kcal，显示3800kcal，放纵餐比例按3800计算。日均蛋白质148.8442g，仍显示约149g；既有维生素及Omega-3来源小计不变。2.5kg商品价格和对应链接未提供，不按重量同比推算售价、不冒用1.4kg价格；原商品链接仅作同类参考。已知每周费用210.78−23.98=$186.80，完整费用待加新果盘价格。其他食材、调味、鸡蛋、训练和营养目标不变；鸡腿剪明显肥脂仍未额外扣减热量。此记录优先于此前版本。
+
+取消早餐蛋更新，2026-09-22：每周鸡蛋由12个减为6个，Gray Ridge六个装每周1盒$3.39；周日、周三各取3个用于扇贝炒蛋，删除周日煮早餐蛋步骤，早餐其他食物不变。每周减少420kcal、蛋白质36g、总脂肪30g、饱和脂肪9g、碳水6g、膳食胆固醇1170mg、钠390mg、钙150mg、铁5.25mg、钾375mg；纤维、糖和添加糖估值不变。周摄入12042.9350kcal、日均1720.4193kcal；沿用现有周消耗16753.7604kcal，周赤字4710.8254kcal、日均672.9751kcal，展示约4700kcal/周，放纵餐比例按4700计算。日均蛋白质143.7014g、饱和脂肪13.0923g、膳食胆固醇481.6743mg、钠1883.5946mg。每周已知购物小计186.80−3.39=$183.41，另加2.5kg果盘实际价格。维生素D、B12、碘及Omega-3现有来源小计未计鸡蛋，显示保持不变，不表示鸡蛋不含这些营养。建议目标、其他食材及训练不变；此记录为最新版本，取代此前恢复早餐蛋和原摄入/赤字记录。
 
 补充来源：
 Catelli https://www.catelli.ca/en/pastas/whole-wheat-spaghetti/
@@ -1438,56 +1571,53 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;li&gt;放松：5 个来回，减慢速度、轻松游。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;周六无法游泳时，可用上述30分钟低冲击跟练替代。&lt;/p&gt;
+&lt;p&gt;哑铃：每只配重片合计10 lb（约4.5 kg），每端装1片5 lb。&lt;/p&gt;
 &lt;!-- 
 器械：[CAP Barbell 40-Pound Adjustable Dumbbell Set with Case](https://www.amazon.ca/dp/B000VCDXNS)。整套配 4 片 2.5 lb、4 片 5 lb；40 lb 为整套标称重量，不是每只重量。[厂家规格](https://capbarbell.com/products/cap-cast-iron-dumbbell-set-with-case-40-lb)
 
-下列重量均为含握杆、锁扣的单只哑铃标称总重，供首次试练，实际以称重为准。常用装法：10 lb 档每端装 1 片 2.5 lb；15 lb 档每端装 1 片 5 lb；20 lb 档每端各装 1 片 5 lb 和 1 片 2.5 lb。
+全周统一配重及组次数更新，2026-09-23：按用户指定，每端1片5 lb，每只配重片合计10 lb，约4.54 kg；全周不换片，标注仅计算片重，不计握杆和锁扣。此前每端2.5 lb现已取代；原将握杆和锁扣合计按5 lb估算未经核实，仍撤销该假设。此次每只片重由5 lb增至10 lb，实际整只重量还包含未计入的握杆和锁扣。动作及视频链接不变；缩减部分哑铃动作工作组，按动作设置试练次数范围，不按重量倍数机械折算次数，也不承诺训练效果完全相同。
 
-- 每天统一配重，按当天最吃力的哑铃动作选重量，每组结束保留约 2 次余力；达不到次数下限或动作变形就减轻当天统一重量。较轻松的动作先增加次数，不在训练中频繁换片。
-- 组数保持不变；组间休息 90–120 秒，必要时延长至 2–3 分钟。当天所有哑铃动作均稳定达到次数上限后，下次才尝试统一加重；达不到下限则退回原重量。时间仅为估计，含休息，不因次数减少而强行缩短。
+- 全周采用同一单只重量，不按日期或动作换片。每组结束保留约2次余力；达不到次数下限或动作变形时，安全优先，降低全周统一重量。较轻松的动作只在现有次数范围内递增，不为固定重量无限增加次数。
+- 哑铃动作每项2–3个工作组，肩推6–10次、划船10–15次；高脚杯深蹲10–15次、弓步和分腿蹲8–12次/腿、双腿臀桥及提踵12–20次、单腿臀桥10–15次/腿。非哑铃动作保持原组次数。以上是可调整起点，不代表仅凭片重就能确认适合用户；肩推达不到6次或动作变形时，不为维持统一重量勉强完成。固定重量下达到上限仍轻松时，需后续调整难度；不无限增加次数。
 - 每只两端对称装片，练前检查旋紧锁扣。高脚杯深蹲采用双手握住中间握杆、哑铃横放胸前的方式，不仅托住可拆卸端片；卧推和肩推先用轻重量热身，勿抛落哑铃。
 
 
-每天训练前统一装片，中途不换：单只动作取其中一只，双只动作取两只。以下为试练重量；若肩推、弓步或分腿蹲动作变形，应降低当天统一重量，不硬撑。
+训练时间同步估为周一25–35、周二25–35、周四30–40、周五25–35分钟，均仅含力量训练，不含随后30分钟HIIT。沿用旧粗估方法，力量周时长中点由147.5降至125分钟，周净消耗估值减少76.0313kcal，周总消耗16753.7604−76.0313=16677.7291kcal；周摄入12042.9350kcal不变，周赤字4634.7941kcal，展示约4600kcal，放纵餐比例按4600计算。重量加大不自动视为消耗增加，实际时间、休息、努力程度会影响结果；这些不是实测消耗。此记录取代此前训练组次数、时间及赤字估计，饮食和有氧不变。训练原则参考ACSM 2026：负重和训练量需个体化，简化方案不意味着重量翻倍就能把次数或组数减半而效果不变。https://acsm.org/resistance-training-guidelines-update-2026/
 
 --&gt;
 &lt;h3 id=&#34;周一上肢推拉与核心&#34;&gt;周一：上肢推拉与核心&lt;/h3&gt;
-&lt;p&gt;预估时间：30–40 分钟。&lt;/p&gt;
-&lt;p&gt;当天哑铃：每只 10 lb（4.5 kg）；每端装 1 片 2.5 lb。&lt;/p&gt;
+&lt;p&gt;预估时间：25–35 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WDIpL0pjun0&#34;&gt;俯卧撑&lt;/a&gt;（Push-up）：4 组 × 8–15 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aI2hGzsAMXs&#34;&gt;站姿哑铃肩推&lt;/a&gt;（Standing dumbbell shoulder press）：3 组 × 8–12 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6gvmcqr226U&#34;&gt;双哑铃俯身划船&lt;/a&gt;（Dumbbell bent-over row）：4 组 × 12–20 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aI2hGzsAMXs&#34;&gt;站姿哑铃肩推&lt;/a&gt;（Standing dumbbell shoulder press）：2 组 × 6–10 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6gvmcqr226U&#34;&gt;双哑铃俯身划船&lt;/a&gt;（Dumbbell bent-over row）：3 组 × 10–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=amA9sc6dmH0&#34;&gt;交替触肩&lt;/a&gt;（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=mwlp75MS6Rg&#34;&gt;平板支撑&lt;/a&gt;（Plank）：2 组 × 30–60 秒&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周二下肢与臀部&#34;&gt;周二：下肢与臀部&lt;/h3&gt;
-&lt;p&gt;预估时间：35–40 分钟。&lt;/p&gt;
-&lt;p&gt;当天哑铃：每只 15 lb（6.8 kg）；每端装 1 片 5 lb。&lt;/p&gt;
+&lt;p&gt;预估时间：25–35 分钟。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CkFzgR55gho&#34;&gt;哑铃高脚杯深蹲&lt;/a&gt;（Dumbbell goblet squat）：4 组 × 12–20 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Q2k3kYbtOcI&#34;&gt;哑铃反向弓步&lt;/a&gt;（Dumbbell reverse lunge）：3 组 × 8–12 次／腿；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cruqsnAyU6A&#34;&gt;哑铃臀桥&lt;/a&gt;（Dumbbell glute bridge）：3 组 × 15–20 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：3 组 × 12–20 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CkFzgR55gho&#34;&gt;哑铃高脚杯深蹲&lt;/a&gt;（Dumbbell goblet squat）：3 组 × 10–15 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Q2k3kYbtOcI&#34;&gt;哑铃反向弓步&lt;/a&gt;（Dumbbell reverse lunge）：2 组 × 8–12 次／腿；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cruqsnAyU6A&#34;&gt;哑铃臀桥&lt;/a&gt;（Dumbbell glute bridge）：2 组 × 12–20 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：2 组 × 12–20 次；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周四上肢推拉与核心&#34;&gt;周四：上肢推拉与核心&lt;/h3&gt;
-&lt;p&gt;预估时间：35–45 分钟。&lt;/p&gt;
-&lt;p&gt;当天哑铃：每只 10 lb（4.5 kg）；每端装 1 片 2.5 lb。&lt;/p&gt;
+&lt;p&gt;预估时间：30–40 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WDIpL0pjun0&#34;&gt;俯卧撑&lt;/a&gt;（Push-up）：3 组 × 8–15 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aI2hGzsAMXs&#34;&gt;站姿哑铃肩推&lt;/a&gt;（Standing dumbbell shoulder press）：2 组 × 8–12 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6gvmcqr226U&#34;&gt;双哑铃俯身划船&lt;/a&gt;（Dumbbell bent-over row）：3 组 × 12–20 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aI2hGzsAMXs&#34;&gt;站姿哑铃肩推&lt;/a&gt;（Standing dumbbell shoulder press）：2 组 × 6–10 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6gvmcqr226U&#34;&gt;双哑铃俯身划船&lt;/a&gt;（Dumbbell bent-over row）：3 组 × 10–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=myKN7H6ju38&#34;&gt;阻力带高位下拉&lt;/a&gt;（Resistance-band lat pulldown）：3 组 × 10–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bxn9FBrt4-A&#34;&gt;死虫式&lt;/a&gt;（Dead bug）：2 组 × 10 次／侧；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=44ND4bOB-T0&#34;&gt;侧平板支撑&lt;/a&gt;（Side plank）：2 组 × 30–45 秒／侧&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周五下肢与核心&#34;&gt;周五：下肢与核心&lt;/h3&gt;
-&lt;p&gt;预估时间：30–40 分钟。&lt;/p&gt;
-&lt;p&gt;当天哑铃：每只 15 lb（6.8 kg）；每端装 1 片 5 lb。&lt;/p&gt;
+&lt;p&gt;预估时间：25–35 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Wcmg-3iHwjQ&#34;&gt;哑铃分腿蹲&lt;/a&gt;（Dumbbell split squat）：3 组 × 8–12 次／腿；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yJp4m0wS3MA&#34;&gt;阻力带腿弯举&lt;/a&gt;（Resistance-band leg curl）：3 组 × 8–12 次／腿；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-NT8jrURSt0&#34;&gt;哑铃单腿臀桥&lt;/a&gt;（Single-leg dumbbell glute bridge）：3 组 × 8–12 次／腿；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-NT8jrURSt0&#34;&gt;哑铃单腿臀桥&lt;/a&gt;（Single-leg dumbbell glute bridge）：2 组 × 10–15 次／腿；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：2 组 × 12–20 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jLxtFNO0r50&#34;&gt;空心支撑&lt;/a&gt;（Hollow hold）：2 组 × 20–40 秒&lt;/li&gt;
 &lt;/ul&gt;
@@ -1496,10 +1626,10 @@ Fresca https://www.saveonfoods.com/product/00067000005558
     
     <item>
       <title>How is AI Going to Change the Socioeconomics of Math?</title>
-      <link>http://localhost:1313/posts/c4a91f7/</link>
+      <link>http://localhost:54268/posts/c4a91f7/</link>
       <pubDate>Tue, 28 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/c4a91f7/</guid>
+      <guid>http://localhost:54268/posts/c4a91f7/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Like any social universe, the academic world is the site of a struggle over the truth.
@@ -1520,10 +1650,10 @@ What is even the point of all this if I can’t study or work on what &lt;em&gt;
     
     <item>
       <title>Learning Japanese Part I</title>
-      <link>http://localhost:1313/posts/72d4e91/</link>
+      <link>http://localhost:54268/posts/72d4e91/</link>
       <pubDate>Sun, 26 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/72d4e91/</guid>
+      <guid>http://localhost:54268/posts/72d4e91/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The goal of mathematics is harmony in truth, and the goal of art is harmony in beauty; emotion is at work in both.
@@ -3041,10 +3171,10 @@ What is even the point of all this if I can’t study or work on what &lt;em&gt;
     
     <item>
       <title>Curry–Howard Isomorphism</title>
-      <link>http://localhost:1313/posts/fa7e807/</link>
+      <link>http://localhost:54268/posts/fa7e807/</link>
       <pubDate>Sat, 25 Jul 2026 17:40:43 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/fa7e807/</guid>
+      <guid>http://localhost:54268/posts/fa7e807/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
@@ -3424,10 +3554,10 @@ $$&lt;p&gt;is an equivalence for every $A,B : \mathcal U$.&lt;/p&gt;
     
     <item>
       <title>Tannakian Category and Tannaka–Krein  Duality</title>
-      <link>http://localhost:1313/posts/f2c37cb/</link>
+      <link>http://localhost:54268/posts/f2c37cb/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/f2c37cb/</guid>
+      <guid>http://localhost:54268/posts/f2c37cb/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My lawful wife is mathematics; my mistress is mechanics.
@@ -4385,10 +4515,10 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
     
     <item>
       <title>Six Functor Formalism</title>
-      <link>http://localhost:1313/posts/b3f91ac/</link>
+      <link>http://localhost:54268/posts/b3f91ac/</link>
       <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/b3f91ac/</guid>
+      <guid>http://localhost:54268/posts/b3f91ac/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
@@ -4754,10 +4884,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Aperiodic Tilings</title>
-      <link>http://localhost:1313/posts/0f6a2bd/</link>
+      <link>http://localhost:54268/posts/0f6a2bd/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/0f6a2bd/</guid>
+      <guid>http://localhost:54268/posts/0f6a2bd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is no such thing as quasicrystals, only quasi-scientists.
@@ -4904,10 +5034,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves</title>
-      <link>http://localhost:1313/posts/06d0bcc/</link>
+      <link>http://localhost:54268/posts/06d0bcc/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/06d0bcc/</guid>
+      <guid>http://localhost:54268/posts/06d0bcc/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     In mathematics the art of proposing a question must be held of higher value than solving it.
@@ -5679,10 +5809,10 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     
     <item>
       <title>AI and the Game of Go</title>
-      <link>http://localhost:1313/posts/636adda/</link>
+      <link>http://localhost:54268/posts/636adda/</link>
       <pubDate>Sun, 07 Jun 2026 17:38:48 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/636adda/</guid>
+      <guid>http://localhost:54268/posts/636adda/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
@@ -5745,7 +5875,7 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
 &lt;p&gt;I submitted it to train on the Trillium supercomputer for 12 hours on a H100 with 10 core CPU. GitHub link is &lt;a href=&#34;https://github.com/yunhaixiang/sygo/tree/main&#34;&gt;here&lt;/a&gt;. I decided to call it Sygo. Training consist of alternating ResNet training and self play. The ResNet improves upon itself by the self play results by minimizing the cross entropy loss between its own results and that of the self play. One immediate bug I encountered during my first few training is that the AI will overwhelmingly prefer passing, so the game ends very early. I dont know why this happens. Initially I tried to fix it by not allowing it to pass in the first N steps, but immediately after it tries to pass again. My solution was to force it to play till the end, until there are very vew legal moves. The downside to this strategy is I expect it to learn bad habits like filling its own eyes. Here is a game I (black) played with my AI (white) after a few hours of training on my own laptop.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/game.jpg&#34;
+        src=&#34;http://localhost:54268/img/game.jpg&#34;
         alt=&#34;A game played against Sygo&#34;
         style=&#34;max-width: 30%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -5763,10 +5893,10 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
     
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:1313/posts/ccda5dd/</link>
+      <link>http://localhost:54268/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/ccda5dd/</guid>
+      <guid>http://localhost:54268/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -5945,10 +6075,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>The Work of Art (and Science) in the Age of Algorithmic Reproducibility</title>
-      <link>http://localhost:1313/posts/f1d86af/</link>
+      <link>http://localhost:54268/posts/f1d86af/</link>
       <pubDate>Sun, 31 May 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/f1d86af/</guid>
+      <guid>http://localhost:54268/posts/f1d86af/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
@@ -5968,7 +6098,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;and he attached the following image:&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/monet.jpeg&#34;
+        src=&#34;http://localhost:54268/img/monet.jpeg&#34;
         alt=&#34;An AI-generated image in the style of a Monet painting&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -5989,7 +6119,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;Should we then value a work of art by its exhibition value? I also believe not, but with a subtlety. Today, we are in an age where the meaning of exhibition is very different from what it was when Benjamin lived. In particular, we have commodified the exhibition of our lives on social media to an extent that is pathological. The attention of social media users has become the commodity of the information age. Every single platform is pushing for more engagement, more attention from users, and more dopamine, which has permanently altered our brain chemistry. It is no wonder that AI art gets a high number of views – it is trained to do precisely that: videos of Stephen Hawking skateboarding in his wheelchair, Peter Griffin as a real-life person, historical figures coming back to life and getting speeding tickets, etc. Our spiritual life has become &lt;em&gt;the Bagel&lt;/em&gt; from the film &lt;em&gt;Everything Everywhere All at Once&lt;/em&gt;. There is everything, but also nothing, and we are forced to be spectators. To me, experiencing social media feels like being Malcolm McDowell strapped to the seat and having my eyes forcibly held open.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/malcolm.jpg&#34;
+        src=&#34;http://localhost:54268/img/malcolm.jpg&#34;
         alt=&#34;Malcolm McDowell with his eyes held open in A Clockwork Orange&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -6004,7 +6134,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own right with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable artwork could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.&lt;/p&gt;
 &lt;h2 id=&#34;algorithmic-reproducibility-of-science&#34;&gt;Algorithmic Reproducibility of Science&lt;/h2&gt;
 &lt;p&gt;When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One cannot claim that math is like art just because human researchers have a sense of which kinds of math are more beautiful or elegant – that is an &lt;em&gt;aesthetic&lt;/em&gt; formed from personal experience, and an aesthetic is very different from art. What then will AI bring to science?&lt;/p&gt;
-&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:1313/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:54268/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In short, I do not think AI challenges science as much as it does art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -6032,10 +6162,10 @@ Please describe, in as much detail as possible, what makes this inferior to a re
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>http://localhost:1313/posts/6bf3326/</link>
+      <link>http://localhost:54268/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/6bf3326/</guid>
+      <guid>http://localhost:54268/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -6130,10 +6260,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>A Case for AI-Assisted Math</title>
-      <link>http://localhost:1313/posts/8ad6b3f/</link>
+      <link>http://localhost:54268/posts/8ad6b3f/</link>
       <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/8ad6b3f/</guid>
+      <guid>http://localhost:54268/posts/8ad6b3f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The struggle itself toward the heights is enough to fill a man’s heart.
@@ -6167,10 +6297,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:1313/posts/e7d7cf9/</link>
+      <link>http://localhost:54268/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/e7d7cf9/</guid>
+      <guid>http://localhost:54268/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -6749,10 +6879,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Brauer Group III</title>
-      <link>http://localhost:1313/posts/d04997f/</link>
+      <link>http://localhost:54268/posts/d04997f/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/d04997f/</guid>
+      <guid>http://localhost:54268/posts/d04997f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -6856,10 +6986,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>http://localhost:1313/posts/ad8f57d/</link>
+      <link>http://localhost:54268/posts/ad8f57d/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ad8f57d/</guid>
+      <guid>http://localhost:54268/posts/ad8f57d/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -7411,10 +7541,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>http://localhost:1313/posts/85ac599/</link>
+      <link>http://localhost:54268/posts/85ac599/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/85ac599/</guid>
+      <guid>http://localhost:54268/posts/85ac599/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.
@@ -7515,10 +7645,10 @@ where $\eta$ is called the learning rate, which controls how much we update the 
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:1313/posts/2878d6e/</link>
+      <link>http://localhost:54268/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2878d6e/</guid>
+      <guid>http://localhost:54268/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -7681,10 +7811,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Expander Graphs</title>
-      <link>http://localhost:1313/posts/4ce12e1/</link>
+      <link>http://localhost:54268/posts/4ce12e1/</link>
       <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/4ce12e1/</guid>
+      <guid>http://localhost:54268/posts/4ce12e1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
@@ -7756,15 +7886,15 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:1313/posts/ae85645/</link>
+      <link>http://localhost:54268/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ae85645/</guid>
+      <guid>http://localhost:54268/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:54268/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -8263,10 +8393,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/5e33123/</link>
+      <link>http://localhost:54268/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/5e33123/</guid>
+      <guid>http://localhost:54268/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -8826,10 +8956,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>做数学科研一定要在学术界吗</title>
-      <link>http://localhost:1313/posts/64e091b/</link>
+      <link>http://localhost:54268/posts/64e091b/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/64e091b/</guid>
+      <guid>http://localhost:54268/posts/64e091b/</guid>
       <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
 &lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
 &lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着长期的孤独。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。第五、在学术界不意味着能够做喜欢的课题，往往需要追逐时髦，在非自己本职的领域内花时间也不太可能，而我往往只能花时间在自己感兴趣的课题上。&lt;/p&gt;
@@ -8840,10 +8970,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Learning French Part I</title>
-      <link>http://localhost:1313/posts/fcfb2b0/</link>
+      <link>http://localhost:54268/posts/fcfb2b0/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fcfb2b0/</guid>
+      <guid>http://localhost:54268/posts/fcfb2b0/</guid>
       <description>&lt;p&gt;I&#39;m learning french. Here&#39;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
 &lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
 &lt;ul&gt;
@@ -9317,10 +9447,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>天空之王</title>
-      <link>http://localhost:1313/posts/6554748/</link>
+      <link>http://localhost:54268/posts/6554748/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/6554748/</guid>
+      <guid>http://localhost:54268/posts/6554748/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  那天，我看见一个自由的灵魂翱翔于西雅图的天空。他从云层的褶皱中钻出，夕阳点燃了他的翅膀。他大笑着，翻滚着，好像地上的熙熙攘攘都和他无关。地上的人听不到他的笑声，只忙于在灯火与钢铁中穿梭。偶尔有人抬头，也只觉得这天上的鸟儿飞得古怪。只有那个驻足在那里的牵着气球的小男孩，他看着那天空默默的怔了。&lt;/p&gt;
 &lt;p&gt;  一切都要从那个奇怪的无线电讯息说起。&lt;/p&gt;
@@ -9350,10 +9480,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>论「纯粹」</title>
-      <link>http://localhost:1313/posts/73356ed/</link>
+      <link>http://localhost:54268/posts/73356ed/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/73356ed/</guid>
+      <guid>http://localhost:54268/posts/73356ed/</guid>
       <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
 &lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
 &lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
@@ -9364,10 +9494,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Simplicial Sets and Infinity-Categories</title>
-      <link>http://localhost:1313/posts/0c3e076/</link>
+      <link>http://localhost:54268/posts/0c3e076/</link>
       <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/0c3e076/</guid>
+      <guid>http://localhost:54268/posts/0c3e076/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
@@ -9467,10 +9597,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>吹着口琴的人</title>
-      <link>http://localhost:1313/posts/0ebab34/</link>
+      <link>http://localhost:54268/posts/0ebab34/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/0ebab34/</guid>
+      <guid>http://localhost:54268/posts/0ebab34/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;吹着口琴的人，&lt;br&gt;
 肩上撑着脚。&lt;br&gt;
@@ -9488,10 +9618,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>失眠</title>
-      <link>http://localhost:1313/posts/a467f03/</link>
+      <link>http://localhost:54268/posts/a467f03/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/a467f03/</guid>
+      <guid>http://localhost:54268/posts/a467f03/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
 无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
@@ -9533,10 +9663,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:1313/posts/c72806c/</link>
+      <link>http://localhost:54268/posts/c72806c/</link>
       <pubDate>Wed, 18 Dec 2024 10:06:03 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/c72806c/</guid>
+      <guid>http://localhost:54268/posts/c72806c/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
@@ -9599,10 +9729,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:1313/posts/83ed120/</link>
+      <link>http://localhost:54268/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/83ed120/</guid>
+      <guid>http://localhost:54268/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -9689,10 +9819,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>http://localhost:1313/posts/7ab795f/</link>
+      <link>http://localhost:54268/posts/7ab795f/</link>
       <pubDate>Thu, 29 Feb 2024 00:10:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/7ab795f/</guid>
+      <guid>http://localhost:54268/posts/7ab795f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
@@ -9776,10 +9906,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:1313/posts/1927129/</link>
+      <link>http://localhost:54268/posts/1927129/</link>
       <pubDate>Wed, 07 Feb 2024 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1927129/</guid>
+      <guid>http://localhost:54268/posts/1927129/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
@@ -9863,10 +9993,10 @@ $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/40383e2/</link>
+      <link>http://localhost:54268/posts/40383e2/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/40383e2/</guid>
+      <guid>http://localhost:54268/posts/40383e2/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -9923,10 +10053,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>What is This Thing Called Knowledge?</title>
-      <link>http://localhost:1313/posts/bc677f9/</link>
+      <link>http://localhost:54268/posts/bc677f9/</link>
       <pubDate>Mon, 07 Aug 2023 18:36:05 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bc677f9/</guid>
+      <guid>http://localhost:54268/posts/bc677f9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Epistemology without contact with science becomes an empty scheme. Science without epistemology is -- insofar as it is thinkable at all -- primitive and muddled.
@@ -9969,10 +10099,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:1313/posts/910cedd/</link>
+      <link>http://localhost:54268/posts/910cedd/</link>
       <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/910cedd/</guid>
+      <guid>http://localhost:54268/posts/910cedd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -10195,10 +10325,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:1313/posts/00c73a8/</link>
+      <link>http://localhost:54268/posts/00c73a8/</link>
       <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/00c73a8/</guid>
+      <guid>http://localhost:54268/posts/00c73a8/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -10382,10 +10512,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:1313/posts/563818b/</link>
+      <link>http://localhost:54268/posts/563818b/</link>
       <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/563818b/</guid>
+      <guid>http://localhost:54268/posts/563818b/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
@@ -10803,10 +10933,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:1313/posts/94f3165/</link>
+      <link>http://localhost:54268/posts/94f3165/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/94f3165/</guid>
+      <guid>http://localhost:54268/posts/94f3165/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -11055,10 +11185,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:1313/posts/5b8f0de/</link>
+      <link>http://localhost:54268/posts/5b8f0de/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/5b8f0de/</guid>
+      <guid>http://localhost:54268/posts/5b8f0de/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -11226,20 +11356,20 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Magic Tricks</title>
-      <link>http://localhost:1313/posts/648e7d3/</link>
+      <link>http://localhost:54268/posts/648e7d3/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/648e7d3/</guid>
+      <guid>http://localhost:54268/posts/648e7d3/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/posts/e852d2e/</link>
+      <link>http://localhost:54268/posts/e852d2e/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/e852d2e/</guid>
+      <guid>http://localhost:54268/posts/e852d2e/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
@@ -11428,10 +11558,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Films</title>
-      <link>http://localhost:1313/posts/ca93bc7/</link>
+      <link>http://localhost:54268/posts/ca93bc7/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/ca93bc7/</guid>
+      <guid>http://localhost:54268/posts/ca93bc7/</guid>
       <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
@@ -11496,10 +11626,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Books</title>
-      <link>http://localhost:1313/posts/326caca/</link>
+      <link>http://localhost:54268/posts/326caca/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/326caca/</guid>
+      <guid>http://localhost:54268/posts/326caca/</guid>
       <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
@@ -11580,10 +11710,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Anime</title>
-      <link>http://localhost:1313/posts/1cea07d/</link>
+      <link>http://localhost:54268/posts/1cea07d/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1cea07d/</guid>
+      <guid>http://localhost:54268/posts/1cea07d/</guid>
       <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
@@ -11632,10 +11762,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/posts/864c59b/</link>
+      <link>http://localhost:54268/posts/864c59b/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/864c59b/</guid>
+      <guid>http://localhost:54268/posts/864c59b/</guid>
       <description>&lt;p&gt;Here are some of my favorite Jazz artists.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave Brubeck&lt;/li&gt;
@@ -11658,10 +11788,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Video Games</title>
-      <link>http://localhost:1313/posts/fe5a259/</link>
+      <link>http://localhost:54268/posts/fe5a259/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fe5a259/</guid>
+      <guid>http://localhost:54268/posts/fe5a259/</guid>
       <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
@@ -11686,10 +11816,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Mermaid Diagrams</title>
-      <link>http://localhost:1313/posts/4492ad2/</link>
+      <link>http://localhost:54268/posts/4492ad2/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/4492ad2/</guid>
+      <guid>http://localhost:54268/posts/4492ad2/</guid>
       <description>&lt;h2 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h2&gt;
 &lt;div class=&#34;mermaid&#34;&gt;graph LR;
     A[Hard edge] --&gt;|Link text| B(Round edge)
@@ -11835,10 +11965,10 @@ test_entity - satisfies -&gt; test_req
     
     <item>
       <title>Math Test</title>
-      <link>http://localhost:1313/posts/863b176/</link>
+      <link>http://localhost:54268/posts/863b176/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/863b176/</guid>
+      <guid>http://localhost:54268/posts/863b176/</guid>
       <description>&lt;p&gt;In this post, we test mathematical typesettings.&lt;/p&gt;
 &lt;h2 id=&#34;basic-katex&#34;&gt;Basic KaTeX&lt;/h2&gt;
 &lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
@@ -12283,10 +12413,10 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/33a60a9/</link>
+      <link>http://localhost:54268/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/33a60a9/</guid>
+      <guid>http://localhost:54268/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;

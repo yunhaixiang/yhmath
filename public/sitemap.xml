@@ -2,301 +2,286 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:60624/posts/2d8f6b0/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
+    <loc>http://localhost:54268/posts/</loc>
+    <lastmod>2026-09-21T23:28:39-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/algebraic-geometry/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/categories/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/posts/7a9c1e4/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/categories/expositions/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/tags/math/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/tags/number-theory/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/posts/</loc>
-    <lastmod>2026-09-21T16:50:44-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/tags/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/posts/6439cea/</loc>
-    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/posts/68915c5/</loc>
-    <lastmod>2026-08-12T11:35:47+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/tags/cohomology/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/posts/1b64c0e/</loc>
-    <lastmod>2026-07-25T23:57:14-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:60624/posts/07bd743/</loc>
+    <loc>http://localhost:54268/tags/algebraic-geometry/</loc>
     <lastmod>2026-09-20T12:53:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/06e58c7/</loc>
-    <lastmod>2026-09-21T16:50:44-04:00</lastmod>
+    <loc>http://localhost:54268/categories/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/ai/</loc>
+    <loc>http://localhost:54268/categories/expositions/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/tags/math/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/tags/number-theory/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/posts/07bd743/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/tags/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/posts/06e58c7/</loc>
+    <lastmod>2026-09-21T23:28:39-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/tags/ai/</loc>
     <lastmod>2026-08-12T16:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/essays/</loc>
+    <loc>http://localhost:54268/categories/essays/</loc>
     <lastmod>2026-08-12T16:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/c4a91f7/</loc>
+    <loc>http://localhost:54268/posts/c4a91f7/</loc>
     <lastmod>2026-08-12T16:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/sociology/</loc>
+    <loc>http://localhost:54268/tags/sociology/</loc>
     <lastmod>2026-08-12T16:37:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/japanese/</loc>
+    <loc>http://localhost:54268/tags/japanese/</loc>
     <lastmod>2026-07-30T19:22:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/language-learning/</loc>
+    <loc>http://localhost:54268/tags/language-learning/</loc>
     <lastmod>2026-07-30T19:22:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/72d4e91/</loc>
+    <loc>http://localhost:54268/posts/72d4e91/</loc>
     <lastmod>2026-07-30T19:22:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/notes/</loc>
+    <loc>http://localhost:54268/categories/notes/</loc>
     <lastmod>2026-07-30T19:22:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/fa7e807/</loc>
+    <loc>http://localhost:54268/posts/fa7e807/</loc>
     <lastmod>2026-07-26T19:57:53-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/logic/</loc>
+    <loc>http://localhost:54268/tags/logic/</loc>
     <lastmod>2026-07-26T19:57:53-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/type-theory/</loc>
+    <loc>http://localhost:54268/tags/type-theory/</loc>
     <lastmod>2026-07-26T19:57:53-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/category-theory/</loc>
+    <loc>http://localhost:54268/tags/category-theory/</loc>
     <lastmod>2026-07-25T23:57:14-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/f2c37cb/</loc>
+    <loc>http://localhost:54268/posts/f2c37cb/</loc>
     <lastmod>2026-07-25T23:57:14-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/b3f91ac/</loc>
+    <loc>http://localhost:54268/tags/cohomology/</loc>
     <lastmod>2026-06-29T11:50:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/0f6a2bd/</loc>
+    <loc>http://localhost:54268/posts/b3f91ac/</loc>
     <lastmod>2026-06-29T11:50:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/combinatorics/</loc>
+    <loc>http://localhost:54268/posts/0f6a2bd/</loc>
     <lastmod>2026-06-29T11:50:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/geometry/</loc>
+    <loc>http://localhost:54268/tags/combinatorics/</loc>
     <lastmod>2026-06-29T11:50:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/algebra/</loc>
+    <loc>http://localhost:54268/tags/geometry/</loc>
+    <lastmod>2026-06-29T11:50:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54268/tags/algebra/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/06d0bcc/</loc>
+    <loc>http://localhost:54268/posts/06d0bcc/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/636adda/</loc>
+    <loc>http://localhost:54268/posts/636adda/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/coding/</loc>
+    <loc>http://localhost:54268/tags/coding/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/games/</loc>
+    <loc>http://localhost:54268/tags/games/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/go/</loc>
+    <loc>http://localhost:54268/tags/go/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/projects/</loc>
+    <loc>http://localhost:54268/categories/projects/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/ccda5dd/</loc>
+    <loc>http://localhost:54268/posts/ccda5dd/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/philosophy/</loc>
+    <loc>http://localhost:54268/tags/philosophy/</loc>
     <lastmod>2026-08-19T21:25:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/f1d86af/</loc>
+    <loc>http://localhost:54268/posts/f1d86af/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/discrete-geometry/</loc>
+    <loc>http://localhost:54268/tags/discrete-geometry/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/6bf3326/</loc>
+    <loc>http://localhost:54268/posts/6bf3326/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/8ad6b3f/</loc>
+    <loc>http://localhost:54268/posts/8ad6b3f/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/e7d7cf9/</loc>
+    <loc>http://localhost:54268/posts/e7d7cf9/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/d04997f/</loc>
+    <loc>http://localhost:54268/posts/d04997f/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/ad8f57d/</loc>
+    <loc>http://localhost:54268/posts/ad8f57d/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/85ac599/</loc>
+    <loc>http://localhost:54268/posts/85ac599/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/algebraic-topology/</loc>
+    <loc>http://localhost:54268/tags/algebraic-topology/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/2878d6e/</loc>
+    <loc>http://localhost:54268/posts/2878d6e/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/4ce12e1/</loc>
+    <loc>http://localhost:54268/posts/4ce12e1/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/ae85645/</loc>
+    <loc>http://localhost:54268/posts/ae85645/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/5e33123/</loc>
+    <loc>http://localhost:54268/posts/5e33123/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/64e091b/</loc>
+    <loc>http://localhost:54268/posts/64e091b/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/fcfb2b0/</loc>
+    <loc>http://localhost:54268/posts/fcfb2b0/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/existentialism/</loc>
+    <loc>http://localhost:54268/tags/existentialism/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/stories/</loc>
+    <loc>http://localhost:54268/categories/stories/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/6554748/</loc>
+    <loc>http://localhost:54268/posts/6554748/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/73356ed/</loc>
+    <loc>http://localhost:54268/posts/73356ed/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/homotopy-theory/</loc>
+    <loc>http://localhost:54268/tags/homotopy-theory/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/0c3e076/</loc>
+    <loc>http://localhost:54268/posts/0c3e076/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/films/</loc>
+    <loc>http://localhost:54268/tags/films/</loc>
     <lastmod>2026-08-30T15:23:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/poems/</loc>
+    <loc>http://localhost:54268/categories/poems/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/0ebab34/</loc>
+    <loc>http://localhost:54268/posts/0ebab34/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/a467f03/</loc>
+    <loc>http://localhost:54268/posts/a467f03/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/c72806c/</loc>
+    <loc>http://localhost:54268/posts/c72806c/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/83ed120/</loc>
+    <loc>http://localhost:54268/posts/83ed120/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/7ab795f/</loc>
+    <loc>http://localhost:54268/posts/7ab795f/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/1927129/</loc>
+    <loc>http://localhost:54268/posts/1927129/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/40383e2/</loc>
+    <loc>http://localhost:54268/posts/40383e2/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/epistemology/</loc>
+    <loc>http://localhost:54268/tags/epistemology/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/bc677f9/</loc>
+    <loc>http://localhost:54268/posts/bc677f9/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/910cedd/</loc>
+    <loc>http://localhost:54268/posts/910cedd/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/00c73a8/</loc>
+    <loc>http://localhost:54268/posts/00c73a8/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/563818b/</loc>
+    <loc>http://localhost:54268/posts/563818b/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/94f3165/</loc>
+    <loc>http://localhost:54268/posts/94f3165/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/5b8f0de/</loc>
+    <loc>http://localhost:54268/posts/5b8f0de/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/archives/</loc>
+    <loc>http://localhost:54268/categories/archives/</loc>
     <lastmod>2026-08-30T15:23:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/648e7d3/</loc>
+    <loc>http://localhost:54268/posts/648e7d3/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/magic-tricks/</loc>
+    <loc>http://localhost:54268/tags/magic-tricks/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/e852d2e/</loc>
+    <loc>http://localhost:54268/posts/e852d2e/</loc>
     <lastmod>2026-08-19T21:25:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/ca93bc7/</loc>
+    <loc>http://localhost:54268/posts/ca93bc7/</loc>
     <lastmod>2026-08-30T15:23:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/326caca/</loc>
+    <loc>http://localhost:54268/posts/326caca/</loc>
     <lastmod>2026-08-14T19:27:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/1cea07d/</loc>
+    <loc>http://localhost:54268/posts/1cea07d/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/anime/</loc>
+    <loc>http://localhost:54268/tags/anime/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/864c59b/</loc>
+    <loc>http://localhost:54268/posts/864c59b/</loc>
     <lastmod>2026-08-12T11:35:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/music/</loc>
+    <loc>http://localhost:54268/tags/music/</loc>
     <lastmod>2026-08-12T11:35:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/fe5a259/</loc>
+    <loc>http://localhost:54268/posts/fe5a259/</loc>
     <lastmod>2026-06-29T11:50:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/video-games/</loc>
+    <loc>http://localhost:54268/tags/video-games/</loc>
     <lastmod>2026-06-29T11:50:28-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/4492ad2/</loc>
+    <loc>http://localhost:54268/posts/4492ad2/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/863b176/</loc>
+    <loc>http://localhost:54268/posts/863b176/</loc>
     <lastmod>2026-06-18T16:52:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/linguistics/</loc>
+    <loc>http://localhost:54268/tags/linguistics/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/posts/33a60a9/</loc>
+    <loc>http://localhost:54268/posts/33a60a9/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/media/</loc>
+    <loc>http://localhost:54268/categories/media/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/tags/novels/</loc>
+    <loc>http://localhost:54268/tags/novels/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/categories/reviews/</loc>
+    <loc>http://localhost:54268/categories/reviews/</loc>
     <lastmod>2026-06-24T20:16:08-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/math/</loc>
+    <loc>http://localhost:54268/math/</loc>
     <lastmod>2026-08-26T14:32:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60624/</loc>
+    <loc>http://localhost:54268/</loc>
     <lastmod>2026-08-19T21:25:29+08:00</lastmod>
   </url>
 </urlset>
