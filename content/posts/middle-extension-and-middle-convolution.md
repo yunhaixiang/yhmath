@@ -6,7 +6,6 @@ aliases:
   - /posts/middle-extension-and-middle-convolution/
 categories: [expositions]
 tags: [math, algebraic-geometry, cohomology]
-draft: true
 ---
 
 {{< pullquote author="Nicholas M. Katz" >}}
@@ -15,7 +14,7 @@ Even a cursory glance … leaves one with the impression that there is a fascina
 
 In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz's book {{< cite key="Kat96" >}}. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems. 
 
-## Middle Extension
+## Middle Extension Sheaves
 
 Let $X=\mathbb P^1_{\mathbb C}$, $S\subset X(\mathbb C)$ a finite set of size $m\ge1$, $U=X\setminus S$, and $j:U\hookrightarrow X$ be the open immersion inducing $j^{\mathrm{an}}:U^{\mathrm{an}}\hookrightarrow X^{\mathrm{an}}$. Let $\mathcal F$ be an irreducible $\mathbb C$-local system on $U^{\mathrm{an}}$ of rank $n\ge1$. We know that $\mathcal F$ is physically rigid iff $\chi(X^{\mathrm{an}},(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F))=2$.
 
@@ -37,14 +36,48 @@ $$\begin{aligned}
 Taking Euler characteristics on $X^{\mathrm{an}}$ gives the second equality.
 
 {{< definition >}}
-On a smooth connected algebraic curve $U/\mathbb C$, a sheaf of $\mathbb C$-vector spaces $\mathcal F$ on $U^{\mathrm{an}}$ is called a *middle extension sheaf* if it is algebraically constructible and, for some (equivalently, every) nonempty Zariski open subset $i:V\hookrightarrow U$ such that $(i^{\mathrm{an}})^*\mathcal F$ is a local system on $V^{\mathrm{an}}$, the natural restriction morphism
-$$\mathcal F\longrightarrow(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathcal F$$
-is an isomorphism. Here *algebraically constructible* means that there is a finite partition $|U|=\bigsqcup_\alpha|U_\alpha|$ into the underlying sets of smooth connected locally closed algebraic subvarieties $U_\alpha\hookrightarrow U$ such that each $\mathcal F|_{U_\alpha^{\mathrm{an}}}$ is a finite-rank local system. The partition includes all scheme points, closed and non-closed; it is not a coproduct decomposition of schemes. On a curve, this simply means that there is a finite set $T\subset U(\mathbb C)$ such that $\mathcal F|_{(U\setminus T)^{\mathrm{an}}}$ is a finite-rank local system and stalks $\mathcal F_t$ for $t\in T$ are finite-dimensional. 
+Let $X$ be a separated $\mathbb C$-scheme locally of finite type. A *partition* of $X$ is a family of locally closed immersions $i_\alpha:Y_\alpha\hookrightarrow X_{\mathrm{red}}$, indexed by a set $A$, with each $Y_\alpha$ nonempty, smooth, and connected, such that:
+
+1. $Y_\alpha\times_{X_{\mathrm{red}}}Y_\beta=\varnothing$ whenever $\alpha\ne\beta$;
+2. the induced morphism $\coprod_\alpha Y_\alpha\longrightarrow X_{\mathrm{red}}$ is surjective.
+
+The schemes $Y_\alpha$ are called the *pieces* of the partition. The partition is *finite* if $A$ is finite.
+
 {{< /definition >}}
+
 
 {{< definition >}}
-
+Let $X$ be a separated $\mathbb C$-scheme of finite type. A sheaf $\mathcal F$ of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ is *algebraically constructible* if there exists a finite partition $\{i_\alpha:Y_\alpha\hookrightarrow X_{\mathrm{red}}\}$ such that $(a_\alpha^{\mathrm{an}})^*\mathcal F$ is a finite-rank local system on each $Y_\alpha^{\mathrm{an}}$, where $a_\alpha:Y_\alpha\hookrightarrow X$ is the composite of $i_\alpha$ with $X_{\mathrm{red}}\hookrightarrow X$. This is an equivalent formulation of Katz's definition {{< cite key="Kat96" note="§2.1.1" >}}.
 {{< /definition >}}
+
+When $X$ is a smooth connected curve, constructibility equivalently means that there is a finite set $T\subset X(\mathbb C)$ such that $\mathcal F|_{(X\setminus T)^{\mathrm{an}}}$ is a finite-rank local system and the stalks $\mathcal F_t$ for $t\in T$ are finite-dimensional.
+
+{{< definition >}}
+On a smooth connected algebraic curve $U/\mathbb C$, a sheaf of $\mathbb C$-vector spaces $\mathcal F$ on $U^{\mathrm{an}}$ is called a *middle extension sheaf* if it is algebraically constructible and, for some (equivalently, every) nonempty Zariski open subset $i:V\hookrightarrow U$ such that $(i^{\mathrm{an}})^*\mathcal F$ is a local system on $V^{\mathrm{an}}$, the natural restriction morphism
+$$\mathcal F\longrightarrow(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathcal F$$
+is an isomorphism. 
+A middle extension sheaf $\mathcal F$ is called *irreducible* if, for some (equivalently, every) nonempty Zariski open subset $i:V\hookrightarrow U$ on which $(i^{\mathrm{an}})^*\mathcal F$ is a local system, that local system is irreducible.
+{{< /definition >}}
+
+
+{{< definition >}}
+Let $j:U\hookrightarrow\mathbb P^1_{\mathbb C}$ be a nonempty Zariski open subset, and let $\mathcal F$ be an irreducible middle extension sheaf on $U^{\mathrm{an}}$. Choose a nonempty Zariski open subset $i:V\hookrightarrow U$ such that $(i^{\mathrm{an}})^*\mathcal F$ is an irreducible local system on $V^{\mathrm{an}}$. Define the *index of rigidity* of $\mathcal F$ as
+$$\begin{aligned}
+\mathrm{rig}_{U^{\mathrm{an}}}(\mathcal F)
+&:=\mathrm{rig}((i^{\mathrm{an}})^*\mathcal F,V^{\mathrm{an}})\\
+&=\chi\!\left((\mathbb P^1_{\mathbb C})^{\mathrm{an}},(j^{\mathrm{an}})_*(i^{\mathrm{an}})_*\mathrm{End}((i^{\mathrm{an}})^*\mathcal F)\right).
+\end{aligned}$$
+{{< /definition >}}
+
+This is independent of the choice of $V$: given two choices $V_1,V_2$, restrict both local systems to $(V_1\cap V_2)^{\mathrm{an}}$. Each restriction removes only finitely many points, so the invariance proved above shows that both choices give the same index. 
+
+For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}^{\mathrm{irr}}(U)$ of irreducible middle extension sheaves. Whenever $i:V\hookrightarrow U$ is an open inclusion the functors $(i^{\mathrm{an}})_*$ and $(i^{\mathrm{an}})^*$ are inverse equivalences between $\mathrm{ME}^{\mathrm{irr}}(U)$ and $\mathrm{ME}^{\mathrm{irr}}(V)$. Given two nonempty Zariski opens $U_1,U_2$ and pick any nonempty $V\subseteq U_1\cap U_2$ (exists by irreducibility) with inclusions $i_1:V\hookrightarrow U_1$ and $i_2:V\hookrightarrow U_2$. We get equivalences $\varphi_{1,2}=(i_2^{\mathrm{an}})_*(i_1^{\mathrm{an}})^*$ between $\mathrm{ME}^{\mathrm{irr}}(U_1)$ and $\mathrm{ME}^{\mathrm{irr}}(U_2)$. Moreover, given three such opens then $\varphi_{1,3}=\varphi_{2,3}\circ \varphi_{1,2}$. Hence all these categories can be identified canonically.
+
+## Review of Perverse Sheaves
+
+## Review of Convolution
+
+## Middle Convolution
 
 ## References
 

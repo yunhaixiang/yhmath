@@ -4,6 +4,7 @@
 @use "../syntax" as *;
 
 .content {
+  --content-block-gap: 0.5rem;
   line-break: strict;
   overflow-wrap: anywhere;
 
@@ -293,13 +294,33 @@ button.copy-button {
 
 .content p,
 .content .math-env {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--content-block-gap);
 }
 
-// Match the space before a list (typically a paragraph's bottom margin).
+// Lists share the paragraph rhythm, including tight Markdown lists and
+// lists following the inline opening paragraph of a math environment.
 .content ol,
 .content ul {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--content-block-gap);
+}
+
+.content ol,
+.content ul:where(:not(.bib-list)) {
+  margin-top: var(--content-block-gap);
+}
+
+.content :where(ol, ul:not(.bib-list)) > li + li {
+  margin-top: var(--content-block-gap);
+}
+
+// Loose-list paragraph wrappers must not add a second gap at item edges.
+.content li > p:first-child,
+.content > :is(ol, ul):first-child {
+  margin-top: 0;
+}
+
+.content li > :last-child {
+  margin-bottom: 0;
 }
 
 .content h1,

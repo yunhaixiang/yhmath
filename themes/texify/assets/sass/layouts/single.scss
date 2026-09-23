@@ -146,7 +146,7 @@
 
 .math-body > p {
   display: block;
-  margin: 0 0 0.75rem;
+  margin: 0 0 var(--content-block-gap, 0.5rem);
 }
 
 .math-body > p:first-child {
@@ -155,7 +155,7 @@
 }
 
 .math-body > p:first-child + p {
-  margin-top: 0.75rem;
+  margin-top: var(--content-block-gap, 0.5rem);
 }
 
 .math-body > p:last-child {
@@ -245,12 +245,6 @@
 
 .style-proof[data-proof-align="right"] .proof-mark {
   float: right;
-}
-
-/* Trim bottom margin for lists inside math environments. */
-.math-env ol,
-.math-env ul {
-  margin-bottom: 0;
 }
 
 body { counter-reset: fig; }

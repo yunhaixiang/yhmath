@@ -8,6 +8,147 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Middle Extension and Middle Convolution</title>
+      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Nicholas M. Katz&lt;/div&gt;&lt;/aside&gt;
+&lt;p&gt;In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+      data-cite-key=&#34;Kat96&#34;&gt;
+  ⟦cite:Kat96⟧
+&lt;/span&gt;. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.&lt;/p&gt;
+&lt;h2 id=&#34;middle-extension-sheaves&#34;&gt;Middle Extension Sheaves&lt;/h2&gt;
+&lt;p&gt;Let $X=\mathbb P^1_{\mathbb C}$, $S\subset X(\mathbb C)$ a finite set of size $m\ge1$, $U=X\setminus S$, and $j:U\hookrightarrow X$ be the open immersion inducing $j^{\mathrm{an}}:U^{\mathrm{an}}\hookrightarrow X^{\mathrm{an}}$. Let $\mathcal F$ be an irreducible $\mathbb C$-local system on $U^{\mathrm{an}}$ of rank $n\ge1$. We know that $\mathcal F$ is physically rigid iff $\chi(X^{\mathrm{an}},(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F))=2$.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    Define the &lt;em&gt;index of rigidity&lt;/em&gt; of $\mathcal F$ on $U^{\mathrm{an}}$ to be $\mathrm{rig}(\mathcal F,U^{\mathrm{an}})=\chi(X^{\mathrm{an}},(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F))$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The index of rigidity is preserved under tensoring with rank-one local systems and removing finitely many points. Namely, let $\mathcal L$ be a rank-one local system on $U^{\mathrm{an}}$, and let $i:V\hookrightarrow U$ be a nonempty Zariski open subset with finite complement. Then
+&lt;/p&gt;
+$$\mathrm{rig}(\mathcal F\otimes\mathcal L,U^{\mathrm{an}})=\mathrm{rig}(\mathcal F,U^{\mathrm{an}})=\mathrm{rig}((i^{\mathrm{an}})^*\mathcal F,V^{\mathrm{an}}).$$&lt;p&gt;
+The first equality follows from
+&lt;/p&gt;
+$$\mathrm{End}(\mathcal F\otimes\mathcal L)\cong(\mathcal F\otimes\mathcal L)^\vee\otimes(\mathcal F\otimes\mathcal L)\cong\mathrm{End}(\mathcal F)\otimes(\mathcal L^\vee\otimes\mathcal L)\cong\mathrm{End}(\mathcal F).$$&lt;p&gt;
+For the second, $\mathcal G\cong(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathcal G$ for every local system $\mathcal G$ on $U^{\mathrm{an}}$, so
+&lt;/p&gt;
+$$\begin{aligned}
+(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F)
+&amp;\cong(j^{\mathrm{an}})_*(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathrm{End}(\mathcal F)\\
+&amp;\cong(j^{\mathrm{an}})_*(i^{\mathrm{an}})_*\mathrm{End}((i^{\mathrm{an}})^*\mathcal F)\\
+&amp;\cong((j\circ i)^{\mathrm{an}})_*\mathrm{End}((i^{\mathrm{an}})^*\mathcal F).
+\end{aligned}$$&lt;p&gt;
+Taking Euler characteristics on $X^{\mathrm{an}}$ gives the second equality.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $X$ be a separated $\mathbb C$-scheme locally of finite type. A &lt;em&gt;partition&lt;/em&gt; of $X$ is a family of locally closed immersions $i_\alpha:Y_\alpha\hookrightarrow X_{\mathrm{red}}$, indexed by a set $A$, with each $Y_\alpha$ nonempty, smooth, and connected, such that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$Y_\alpha\times_{X_{\mathrm{red}}}Y_\beta=\varnothing$ whenever $\alpha\ne\beta$;&lt;/li&gt;
+&lt;li&gt;the induced morphism $\coprod_\alpha Y_\alpha\longrightarrow X_{\mathrm{red}}$ is surjective.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The schemes $Y_\alpha$ are called the &lt;em&gt;pieces&lt;/em&gt; of the partition. The partition is &lt;em&gt;finite&lt;/em&gt; if $A$ is finite.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    Let $X$ be a separated $\mathbb C$-scheme of finite type. A sheaf $\mathcal F$ of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ is &lt;em&gt;algebraically constructible&lt;/em&gt; if there exists a finite partition $\{i_\alpha:Y_\alpha\hookrightarrow X_{\mathrm{red}}\}$ such that $(a_\alpha^{\mathrm{an}})^*\mathcal F$ is a finite-rank local system on each $Y_\alpha^{\mathrm{an}}$, where $a_\alpha:Y_\alpha\hookrightarrow X$ is the composite of $i_\alpha$ with $X_{\mathrm{red}}\hookrightarrow X$. This is an equivalent formulation of Katz&#39;s definition &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Kat96&#34; data-cite-note=&#34;§2.1.1&#34;&gt;
+⟦cite:Kat96⟧
+&lt;/span&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When $X$ is a smooth connected curve, constructibility equivalently means that there is a finite set $T\subset X(\mathbb C)$ such that $\mathcal F|_{(X\setminus T)^{\mathrm{an}}}$ is a finite-rank local system and the stalks $\mathcal F_t$ for $t\in T$ are finite-dimensional.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;On a smooth connected algebraic curve $U/\mathbb C$, a sheaf of $\mathbb C$-vector spaces $\mathcal F$ on $U^{\mathrm{an}}$ is called a &lt;em&gt;middle extension sheaf&lt;/em&gt; if it is algebraically constructible and, for some (equivalently, every) nonempty Zariski open subset $i:V\hookrightarrow U$ such that $(i^{\mathrm{an}})^*\mathcal F$ is a local system on $V^{\mathrm{an}}$, the natural restriction morphism
+&lt;/p&gt;
+$$\mathcal F\longrightarrow(i^{\mathrm{an}})_*(i^{\mathrm{an}})^*\mathcal F$$&lt;p&gt;
+is an isomorphism.
+A middle extension sheaf $\mathcal F$ is called &lt;em&gt;irreducible&lt;/em&gt; if, for some (equivalently, every) nonempty Zariski open subset $i:V\hookrightarrow U$ on which $(i^{\mathrm{an}})^*\mathcal F$ is a local system, that local system is irreducible.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $j:U\hookrightarrow\mathbb P^1_{\mathbb C}$ be a nonempty Zariski open subset, and let $\mathcal F$ be an irreducible middle extension sheaf on $U^{\mathrm{an}}$. Choose a nonempty Zariski open subset $i:V\hookrightarrow U$ such that $(i^{\mathrm{an}})^*\mathcal F$ is an irreducible local system on $V^{\mathrm{an}}$. Define the &lt;em&gt;index of rigidity&lt;/em&gt; of $\mathcal F$ as
+&lt;/p&gt;
+$$\begin{aligned}
+\mathrm{rig}_{U^{\mathrm{an}}}(\mathcal F)
+&amp;:=\mathrm{rig}((i^{\mathrm{an}})^*\mathcal F,V^{\mathrm{an}})\\
+&amp;=\chi\!\left((\mathbb P^1_{\mathbb C})^{\mathrm{an}},(j^{\mathrm{an}})_*(i^{\mathrm{an}})_*\mathrm{End}((i^{\mathrm{an}})^*\mathcal F)\right).
+\end{aligned}$$
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is independent of the choice of $V$: given two choices $V_1,V_2$, restrict both local systems to $(V_1\cap V_2)^{\mathrm{an}}$. Each restriction removes only finitely many points, so the invariance proved above shows that both choices give the same index.&lt;/p&gt;
+&lt;p&gt;For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}^{\mathrm{irr}}(U)$ of irreducible middle extension sheaves. Whenever $i:V\hookrightarrow U$ is an open inclusion the functors $(i^{\mathrm{an}})_*$ and $(i^{\mathrm{an}})^*$ are inverse equivalences between $\mathrm{ME}^{\mathrm{irr}}(U)$ and $\mathrm{ME}^{\mathrm{irr}}(V)$. Given two nonempty Zariski opens $U_1,U_2$ and pick any nonempty $V\subseteq U_1\cap U_2$ (exists by irreducibility) with inclusions $i_1:V\hookrightarrow U_1$ and $i_2:V\hookrightarrow U_2$. We get equivalences $\varphi_{1,2}=(i_2^{\mathrm{an}})_*(i_1^{\mathrm{an}})^*$ between $\mathrm{ME}^{\mathrm{irr}}(U_1)$ and $\mathrm{ME}^{\mathrm{irr}}(U_2)$. Moreover, given three such opens then $\varphi_{1,3}=\varphi_{2,3}\circ \varphi_{1,2}$. Hence all these categories can be identified canonically.&lt;/p&gt;
+&lt;h2 id=&#34;review-of-perverse-sheaves&#34;&gt;Review of Perverse Sheaves&lt;/h2&gt;
+&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+  &lt;li data-bib-key=&#34;Kat96&#34;&gt;
+  &lt;span id=&#34;bib-Kat96&#34; class=&#34;bib-label&#34;&gt;[Kat96]&lt;/span&gt;
+  &lt;span class=&#34;bib-entry&#34;&gt;Nicholas M. Katz. &lt;em&gt;Rigid Local Systems&lt;/em&gt;. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Rigid Local Systems</title>
       <link>http://localhost:1313/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
@@ -463,7 +604,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;tr&gt;
           &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td&gt;卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
@@ -512,7 +653,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td&gt;卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
@@ -606,10 +747,10 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;配菜蔬菜&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Bean-and-Carrot-Medley/6000198576427&#34;&gt;Great Value Bean and Carrot Medley&lt;/a&gt;&lt;br&gt;500 g / 袋&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;250 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$3.37&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/great-value-peas-carrots/10275334&#34;&gt;Great Value Peas &amp;amp; Carrots&lt;/a&gt;&lt;br&gt;398 mL / 罐&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2罐 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1罐&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.74&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
@@ -728,7 +869,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$179.55&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$178.92&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -856,7 +997,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;li&gt;半块牛排：400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
 &lt;li&gt;意面煮锅水开后：取意面煮约8分钟，滤盆沥水。&lt;/li&gt;
 &lt;li&gt;（仅周日）鸡蛋煮锅水开后：取鸡蛋6个煮约8分钟。&lt;/li&gt;
-&lt;li&gt;混合蔬菜：放盘盖微波炉盖，微波炉高火4–6分钟。&lt;/li&gt;
+&lt;li&gt;豌豆胡萝卜：开1罐，沥水冲洗，倒入碗中加盖，微波炉高火约2分钟。&lt;/li&gt;
 &lt;li&gt;土豆泥：500 mL水微波加热2分钟，拌入粉，再高火2–3分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
@@ -967,7 +1108,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
           &lt;td&gt;4&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;豆角胡萝卜&lt;/td&gt;
+          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
           &lt;td&gt;2、6&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -976,7 +1117,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;li&gt;冷藏分好的餐，清洗厨具。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;每周热量赤字估计约4,480 kcal。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;每周热量赤字估计约4,400 kcal。&lt;/strong&gt;&lt;/p&gt;
 &lt;!--
 以下内容按用户要求仅保留于源码，不在正文显示。
 以下为此前赤字计算记录，仅作历史对照；当前摄入及营养总量以营养统计中的2026-09-23恢复下半周扇贝、三文鱼更新为准，赤字约4100kcal/周。
@@ -1037,7 +1178,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,480 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,400 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1063,7 +1204,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
@@ -1087,7 +1228,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
@@ -1105,13 +1246,13 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
@@ -1147,7 +1288,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶500 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约200&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
@@ -1267,50 +1408,50 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,200 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,740 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,270 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,750 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,082 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约155 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,091 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约156 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约388 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约55.5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约391 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约55.8 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约88.4 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12.6 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约88.8 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12.7 g&lt;/td&gt;
           &lt;td&gt;≤11 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,233 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约176 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,246 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约178 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约252 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约36.0 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约258 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约36.9 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约290 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约41.5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约294 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约41.9 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;添加糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约0.3 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2–23 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.3–3.3 g&lt;/td&gt;
           &lt;td&gt;≤25 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1321,26 +1462,26 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11,400 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,630 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,850 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,840 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7,320 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,050 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7,300 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,040 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约120 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17.1 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约122 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17.4 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约33,000 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,720 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约32,880 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,700 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1377,6 +1518,11 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
 &lt;/table&gt;
 &lt;!--
 表格来源限定：维生素D（豆奶、三文鱼小计）；维生素B12（豆奶、海鲜小计）；Omega-3：EPA+DHA（仅海鲜估算）。碘与ALA改为下述扩展食材估算，不再采用仅碘盐、仅豆奶的小计；仍含同类食物代理值，并非本批商品实测的完整总量。
+
+豌豆胡萝卜罐头更新，2026-09-23（当前版本）：用户确认把500g/周冷冻豆角胡萝卜改成Great Value Peas &amp; Carrots 398mL×2罐/周。每次取1罐，沥水冲洗后倒入微波碗加盖加热约2分钟，再均分到第2、6盘；不连金属罐加热，不额外加盐。每罐沥干暂估260g、全周520g、每餐130g，是工作估计，未核实本款实际沥干重量，不能将398mL直接当398g蔬菜。购物链接 https://www.walmart.ca/en/ip/great-value-peas-carrots/10275334 ，公开页$1.37/罐，周费用$2.74，总价179.55−3.37+2.74=$178.92；门店实际价可能不同，Metro历史备选表不改。
+该页配料信息不完整且未取得可读营养表，不声称无添加盐、无添加糖，也不把同类品牌标签当本款标签。暂沿用计划已有的同类沥干豌豆胡萝卜代理：每100g依次为55kcal、蛋白质3g、脂肪0.4g、饱和脂肪0.08g、碳水10.5g、纤维3.5g、总糖4g、胆固醇0mg、钠300mg、钙25mg、铁1mg、钾160mg。沥干520g乘5.2；冲洗未另外扣钠或糖，因实际降低比例不明。不是Great Value实测值。
+扣除旧冷冻蔬菜500/85×[35,1,0,0,7,2,3,0,25,25,0.5,170]，加上新罐头5.2×[55,3,0.4,0.08,10.5,3.5,4,0,300,25,1,160]。顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。周合计变为[12273.293647,1091.252947,390.5552,88.7671,1246.003729,258.413394,293.643441,4548.1,12848.783876,7300.928176,121.765124,32875.3947]；日均[1753.327664,155.893278,55.7936,12.681014,178.000533,36.916199,41.949063,649.728571,1835.540554,1042.989739,17.395018,4696.484957]。周消耗仍16677.7291kcal，周赤字4404.435453kcal，显示4400；相较此前少80.117647kcal/周，放纵餐比例同步按4400计算。钠粗估增加201.85mg/日，实际以罐头标签和沥水情况为准。
+添加糖先作情景估算：旧卷饼代理2g/周保持；新罐头是否添加糖及含量未核实，从不另计到将全周20.8g总糖全部视作添加糖作保守情景，合计2–22.8g/周，显示约2–23g、0.3–3.3g/日。高端包含天然糖，并非实际添加糖预测或经检测确认的上限；此范围取代旧单值0.3g/日，且已包括在总糖内，不重复加热量。碘仍用低碘混合蔬菜0.2µg/100g，520g贡献1.04µg/周，较旧多0.04；ALA仍用0.05g/100g代理，贡献0.26g/周，较旧多0.01。碘新合计1116.03075µg/周，ALA7.9234922g/周，原显示精度下两行不变；D/B12/EPA+DHA限定来源小计不变。以下既有审计均保留为历史，蔬菜与当前合计以本条为准。
 
 碘与ALA补算，2026-09-23：仅更新这两项，不改变食材、其他营养合计、费用或赤字。当前口径为豆奶3.5L、普通大鸡蛋12个（去壳可食生重约600g）、养殖Coho生鱼1280g、原味生扇贝1360g、去骨去皮鸡腿生重1000g、牛排修边后生重270g、橄榄油37.5mL约34.125g、碘盐7.5g/周；其他食材沿用当前消费量。以下新记录取代历史碘/ALA小计说明；后面的旧采购与营养记录保留供追溯。
 
