@@ -676,18 +676,6 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 周六无法游泳时，可用上述30分钟低冲击跟练替代。
 
-哑铃重量仅计配重片，不计握杆和锁扣。
-
-| 日期 | 每只哑铃片重 | 每端装片 |
-|---|---|---|
-| 周一、周四 | 10 lb | 1片5 lb |
-| 周二、周五 | 15 lb | 1片5 lb＋1片2.5 lb |
-{.table-centered}
-
-常规每周换片四次：周二、周五每端加1片2.5 lb，周四、下周一取下；侧平举过重时另行减重。
-
-下肢日用15 lb时，应能动作稳定地完成次数下限，并保留约2次余力；否则该动作用10 lb。
-
 <!-- 2026-09-23当前配重方案（按用户纠正）：周二、周五下肢训练日每只采用15 lb片重，周一、周四上肢训练日每只10 lb片重；两只哑铃的两端均对称装片，每周周二、周五加片，周四、下周一减片，共四次。此前仅周五15 lb的写入是误解，已纠正。保留当前各动作组数和次数，包括此前确认增加的四个工作组；训练时间、有氧、饮食及每周赤字3902.808983 kcal估值不变，不因重量增加自动上调消耗。此方案取代下方历史记录中的全周统一10 lb方案。 -->
 
 
@@ -711,6 +699,8 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 ### 周一：上肢推拉与核心
 
+哑铃配重：10 lb
+
 预估时间：27–39 分钟。
 
 - [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；
@@ -721,6 +711,8 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 ### 周二：下肢与臀部
 
+哑铃配重：15 lb
+
 预估时间：27–39 分钟。
 
 - [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 10–15 次；
@@ -729,6 +721,8 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 - [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
 
 ### 周四：上肢推拉与核心
+
+哑铃配重：10 lb
 
 预估时间：32–44 分钟。
 
@@ -740,6 +734,8 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 - [侧平板支撑](https://www.youtube.com/watch?v=44ND4bOB-T0)（Side plank）：2 组 × 30–45 秒／侧
 
 ### 周五：下肢与核心
+
+哑铃配重：15 lb
 
 预估时间：27–39 分钟。
 
