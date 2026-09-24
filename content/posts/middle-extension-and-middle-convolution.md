@@ -41,6 +41,7 @@ Let $X$ be a separated $\mathbb C$-scheme locally of finite type. A *partition* 
 1. $Y_\alpha\times_{X_{\mathrm{red}}}Y_\beta=\varnothing$ whenever $\alpha\ne\beta$;
 2. the induced morphism $\coprod_\alpha Y_\alpha\longrightarrow X_{\mathrm{red}}$ is surjective.
 
+
 The schemes $Y_\alpha$ are called the *pieces* of the partition. The partition is *finite* if $A$ is finite.
 
 {{< /definition >}}

@@ -313,6 +313,29 @@ button.copy-button {
   margin-top: var(--content-block-gap);
 }
 
+// Opt in with {.no-gap} immediately after a Markdown list. Only compact
+// this list's items; preserve surrounding paragraph and nested-list spacing.
+.content :is(ol, ul).no-gap > li + li {
+  margin-top: 0;
+}
+
+// {.no-padding} removes the outer vertical gap, not the marker indentation.
+// Include adjacent block margins, which would otherwise collapse with the list.
+.content :is(ol, ul).no-padding {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.content :has(+ :is(ol, ul).no-padding) {
+  margin-bottom: 0;
+}
+
+.content :is(ol, ul).no-padding + * {
+  margin-top: 0;
+}
+
 // Loose-list paragraph wrappers must not add a second gap at item edges.
 .content li > p:first-child,
 .content > :is(ol, ul):first-child {
