@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2d8f6b0/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-09-23T22:10:40-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/algebraic-geometry/</loc>
     <lastmod>2026-09-23T20:13:13-04:00</lastmod>
@@ -11,8 +11,8 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-09-23T20:13:13-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/7a9c1e4/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
+    <loc>http://localhost:1313/tags/cohomology/</loc>
+    <lastmod>2026-09-23T20:13:13-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/expositions/</loc>
     <lastmod>2026-09-23T20:13:13-04:00</lastmod>
@@ -20,32 +20,20 @@
     <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2026-09-23T20:13:13-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/number-theory/</loc>
-    <lastmod>2026-09-20T20:00:30-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/posts/1b64c0e/</loc>
     <lastmod>2026-09-23T20:13:13-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-09-23T20:13:13-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/6439cea/</loc>
-    <lastmod>2026-07-27T02:12:46-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/68915c5/</loc>
-    <lastmod>2026-08-12T11:35:47+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cohomology/</loc>
-    <lastmod>2026-09-23T20:13:13-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/1b64c0e/</loc>
-    <lastmod>2026-09-23T20:13:13-04:00</lastmod>
+    <loc>http://localhost:1313/tags/number-theory/</loc>
+    <lastmod>2026-09-20T12:53:28-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/07bd743/</loc>
     <lastmod>2026-09-20T12:53:28-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/06e58c7/</loc>
-    <lastmod>2026-09-23T20:13:13-04:00</lastmod>
+    <lastmod>2026-09-23T22:10:40-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2026-08-12T16:37:28+08:00</lastmod>

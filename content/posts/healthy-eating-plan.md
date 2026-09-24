@@ -70,7 +70,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 嫩菠菜 | [Your Fresh Market Baby Spinach 142 g](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL)<br>142 g / 袋 | 2袋 / 周 | 1袋 | $6.88 |
 | 番茄泥 | [Allessia Organic Strained Tomatoes, Passata](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/organic-strained-tomatoes/p/061659021679)<br>720 mL / 瓶 | 1瓶 / 周 | 1/2瓶 | $3.99 |
 | 混合水果盘 | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497)<br>1.3 kg / 盒 | 2盒 / 周 | — | $31.94 |
-| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.walmart.ca/en/ip/Catelli-Protein-Spaghetti-Pasta-High-in-Protein/10HMLTQIF7A4)<br>340 g / 包 | 按需补 | 120 g | $2.80 |
+| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.walmart.ca/en/ip/Catelli-Protein-Spaghetti-Pasta-High-in-Protein/10HMLTQIF7A4)<br>340 g / 包 | 按需补 | 110 g | $2.57 |
 | 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091)<br>610 g / 袋 | 按需补 | 1张 | $0.79 |
 | 白米 | [Great Value Long Grain White Rice](https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1)<br>2 kg / 袋 | 按需补 | 120 mL | $0.50 |
 | 高纤维谷物早餐 | [Fibre One Crunchy Original 587 g](https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS)<br>587 g / 盒 | 按需补 | — | $2.61 |
@@ -86,7 +86,7 @@ aliases = ['/posts/healthy-eating-plan/']
 | 玉米淀粉 | [Great Value Corn Starch](https://www.walmart.ca/en/ip/great-value-corn-starch/10317740)<br>454 g / 盒 | 按需补 | 2茶匙 | $0.04 |
 | 盐 | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128)<br>1 kg / 盒 | 按需补 | — | $0.01 |
 | 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259)<br>1 L / 瓶 | 按需补 | — | $0.45 |
-| 每周合计 | — | — | — | $178.80 |
+| 每周合计 | — | — | — | $178.57 |
 {.table-centered}
 
 <!-- 普通酱油更新：Kikkoman Soy Sauce591mL，Walmart商品2U4Q708C3YSP公开价$6.77；每周下半周一锅用10mL，费用6.77×10/591≈$0.11，替换减盐款$0.14，购物表合计178.83−0.03=$178.80。价格、库存以用户所选门店为准；其他调味及用量不变。 -->
@@ -143,7 +143,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 
 <!--
 文案维护约定：正文只保留直接执行所需的用量、步骤、时间、温度、分盘表及关键安全条件。每日总量分配、计算口径、品牌选择理由和其他补充解释放HTML注释；不删购物表、营养表、商品链接或历史备选。
-意面每次120g分两份，各干重60g；煮面时间按包装及软硬调整。土豆泥偏稠可少量补热水；三文鱼未达到目标中心温度时按1–2分钟递增。早餐蛋周一至周六各1个，周三无需再煮。牛排保持厚度切分，不按重量减半而把烤制时间减半。
+意面每次110g分两份，各干重55g；煮面时间按包装及软硬调整。土豆泥偏稠可少量补热水；三文鱼未达到目标中心温度时按1–2分钟递增。早餐蛋周一至周六各1个，周三无需再煮。牛排保持厚度切分，不按重量减半而把烤制时间减半。
 -->
 
 ### 并行做菜流程
@@ -241,7 +241,9 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 
 ### 放纵餐
 
-**每周热量赤字估计3,902.81 kcal，理论脂肪等价值约0.507 kg／周，不代表实际纯脂肪减量。**
+**每周热量赤字估计3,973.40 kcal，理论脂肪等价值约0.516 kg／周，不代表实际纯脂肪减量。**
+
+<!-- 2026-09-23意面减至55g/顿（当前口径，优先于下方所有旧用量、营养及赤字记录）：每次110g、每周四餐220g；较60g/顿少20g/周。沿用Catelli PROTEIN+每85g营养组[300,17,2,0.5,58,8,2,0,4,20,2.5,400]，周减少70.588235294 kcal、4g蛋白质、0.470588g脂肪、0.117647g饱和脂肪、13.647059g碳水、1.882353g纤维、0.470588g总糖、0.941176mg钠、4.705882mg钙、0.588235mg铁、94.117647mg钾，胆固醇不变。周摄入含原豆腐调味50kcal中点为12744.881881706 kcal，周消耗16718.2791不变，赤字3973.397218294 kcal，显示3973.40；脂肪等价值除7700为0.516025613kg/周。放纵餐百分比按未取整赤字重算。意面周费用3.97×220/340=2.568824，显示2.57；按显示行合计178.80−2.80+2.57=178.57。米饭、其他食材、调味和训练均不变，Metro历史表不改。 -->
 
 <!-- 脂肪等价值按约7700 kcal/kg粗略换算：3902.808983÷7700=0.5068583095 kg/周。不是实际纯脂肪减少量或体重下降保证；水分、糖原、瘦体重变化及消耗随减重下降均会影响结果，不作长期线性预测。参考：https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner 。本次仅增加换算说明，不改饮食、训练或赤字。 -->
 
@@ -304,15 +306,15 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 -->
 
-| 食物 | 份量 | 热量（kcal） | 占参考赤字3,902.81 kcal（额外加吃） |
+| 食物 | 份量 | 热量（kcal） | 占参考赤字3,973.40 kcal（额外加吃） |
 |---|---|---:|---:|
 | [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约19% |
 | [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约17% |
 | [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约16% |
 | [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约15% |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约15% |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约14% |
 | [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约14% |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约14% |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约13% |
 | [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约13% |
 | [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约12% |
 | [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约11% |
@@ -449,21 +451,23 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
 
 以下为估算，不含放纵餐。
 
+<!-- 本表按55g意面更新：从虹鳟豆腐版未取整周合计扣除20g干面；热量另合并此前已计入赤字的豆腐新增调味50kcal/周，钠合并已记录普通酱油约640mg/周，避免表内继续漏记这两项。其他调味宏量和微量增量仍未取得完整标签，沿用此前单独估计口径，不声称本表为完整标签精算。意面减量后碘约1067.63075µg/周、ALA约11.893825g/周，展示不变；D/B12/EPA+DHA及添加糖不变。 -->
+
 | 营养指标 | 每周合计 | 平均每天 | 建议每日范围或目标 |
 |---|---:|---:|---|
-| 热量 | 约12,770 kcal | 约1,820 kcal | 1,800–2,000 kcal |
-| 蛋白质 | 约1,098 g | 约157 g | 130–165 g |
-| 总脂肪 | 约444 g | 约63.5 g | 45–65 g |
-| 饱和脂肪 | 约94.5 g | 约13.5 g | ≤11 g |
-| 碳水化合物 | 约1,271 g | 约182 g | 180–240 g |
-| 膳食纤维 | 约260 g | 约37.2 g | 30–38 g |
-| 总糖 | 约302 g | 约43.2 g | – |
+| 热量 | 约12,740 kcal | 约1,820 kcal | 1,800–2,000 kcal |
+| 蛋白质 | 约1,094 g | 约156 g | 130–165 g |
+| 总脂肪 | 约444 g | 约63.4 g | 45–65 g |
+| 饱和脂肪 | 约94.4 g | 约13.5 g | ≤11 g |
+| 碳水化合物 | 约1,257 g | 约180 g | 180–240 g |
+| 膳食纤维 | 约258 g | 约36.9 g | 30–38 g |
+| 总糖 | 约302 g | 约43.1 g | – |
 | 添加糖 | 约2–23 g | 约0.3–3.3 g | ≤25 g |
 | 膳食胆固醇 | 约4,400 mg | 约628 mg | – |
-| 钠 | 约12,210 mg | 约1,740 mg | ≤2,300 mg |
+| 钠 | 约12,850 mg | 约1,840 mg | ≤2,300 mg |
 | 钙 | 约7,950 mg | 约1,140 mg | 1,000 mg |
-| 铁 | 约137 mg | 约19.5 mg | 8 mg |
-| 钾 | 约32,660 mg | 约4,670 mg | ≥3,400 mg |
+| 铁 | 约136 mg | 约19.5 mg | 8 mg |
+| 钾 | 约32,570 mg | 约4,650 mg | ≥3,400 mg |
 | 维生素D | 约197 µg | 约28.1 µg | 15 µg |
 | 维生素B12 | 约70.7 µg | 约10.1 µg | 2.4 µg |
 | 碘 | 约1,070 µg | 约150 µg | 150 µg |
@@ -672,10 +676,24 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 周六无法游泳时，可用上述30分钟低冲击跟练替代。
 
-哑铃：每只配重片合计10 lb（约4.5 kg），每端装1片5 lb。
+哑铃重量仅计配重片，不计握杆和锁扣。
+
+| 日期 | 每只哑铃片重 | 每端装片 |
+|---|---|---|
+| 周一、周四 | 10 lb | 1片5 lb |
+| 周二、周五 | 15 lb | 1片5 lb＋1片2.5 lb |
+{.table-centered}
+
+常规每周换片四次：周二、周五每端加1片2.5 lb，周四、下周一取下；侧平举过重时另行减重。
+
+下肢日用15 lb时，应能动作稳定地完成次数下限，并保留约2次余力；否则该动作用10 lb。
+
+<!-- 2026-09-23当前配重方案（按用户纠正）：周二、周五下肢训练日每只采用15 lb片重，周一、周四上肢训练日每只10 lb片重；两只哑铃的两端均对称装片，每周周二、周五加片，周四、下周一减片，共四次。此前仅周五15 lb的写入是误解，已纠正。保留当前各动作组数和次数，包括此前确认增加的四个工作组；训练时间、有氧、饮食及每周赤字3902.808983 kcal估值不变，不因重量增加自动上调消耗。此方案取代下方历史记录中的全周统一10 lb方案。 -->
 
 
 <!-- 
+历史记录：下方全周统一10 lb方案已由上方当前配重方案取代；旧组数、时间和赤字仅供追溯。
+
 器械：[CAP Barbell 40-Pound Adjustable Dumbbell Set with Case](https://www.amazon.ca/dp/B000VCDXNS)。整套配 4 片 2.5 lb、4 片 5 lb；40 lb 为整套标称重量，不是每只重量。[厂家规格](https://capbarbell.com/products/cap-cast-iron-dumbbell-set-with-case-40-lb)
 
 全周统一配重及组次数更新，2026-09-23：按用户指定，每端1片5 lb，每只配重片合计10 lb，约4.54 kg；全周不换片，标注仅计算片重，不计握杆和锁扣。此前每端2.5 lb现已取代；原将握杆和锁扣合计按5 lb估算未经核实，仍撤销该假设。此次每只片重由5 lb增至10 lb，实际整只重量还包含未计入的握杆和锁扣。动作及视频链接不变；缩减部分哑铃动作工作组，按动作设置试练次数范围，不按重量倍数机械折算次数，也不承诺训练效果完全相同。
@@ -689,6 +707,8 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 -->
 
+<!-- 2026-09-23动作替换：用户确认周一交替触肩改为哑铃侧平举2组×12–20次，周二双腿哑铃臀桥改为哑铃罗马尼亚硬拉2组×10–15次；周五单腿臀桥及其余动作不变。侧平举仅在动作稳定、不借力且保留约2次余力时沿用上肢日每只10 lb片重，否则改为每端1片2.5 lb、每只5 lb片重，必要时更轻；安全减重可能增加换片次数，不为统一重量勉强完成。罗马尼亚硬拉工作组目标每只15 lb片重，先轻重量练习髋铰链，动作不稳时降至10 lb。次数为试练范围，不保证同重量适合所有动作。总工作组不变，训练时间和赤字暂沿用原估值，不假定替换动作会产生可精确计算的额外消耗。示范链接：https://www.youtube.com/watch?v=PzsMitRdI_8 ，https://www.youtube.com/watch?v=QFbZevA7dps 。 -->
+
 ### 周一：上肢推拉与核心
 
 预估时间：27–39 分钟。
@@ -696,7 +716,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 - [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；
 - [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次；
 - [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 10–15 次；
-- [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；
+- [哑铃侧平举](https://www.youtube.com/watch?v=PzsMitRdI_8)（Dumbbell lateral raise）：2 组 × 12–20 次；每只10 lb，需甩动借力或达不到12次时减至5 lb或更轻；
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
 ### 周二：下肢与臀部
@@ -705,7 +725,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 - [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 10–15 次；
 - [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：2 组 × 8–12 次／腿；
-- [哑铃臀桥](https://www.youtube.com/watch?v=cruqsnAyU6A)（Dumbbell glute bridge）：2 组 × 12–20 次；
+- [哑铃罗马尼亚硬拉](https://www.youtube.com/watch?v=QFbZevA7dps)（Dumbbell Romanian deadlift）：2 组 × 10–15 次；每只15 lb，先轻重量熟悉动作；膝微屈、髋向后推、背部保持中立；
 - [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
 
 ### 周四：上肢推拉与核心
