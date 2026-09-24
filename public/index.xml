@@ -7,6 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>$\ell$-Independence</title>
+      <link>http://localhost:1313/posts/2d8f6b0/</link>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compatible Systems and Rationality</title>
+      <link>http://localhost:1313/posts/7a9c1e4/</link>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
+      <link>http://localhost:1313/posts/6439cea/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/6439cea/</guid>
+      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
+an $\ell$-adic representation arising from geometry is quasi-unipotent. This
+post will explain the local Galois groups involved, state the theorem, and
+discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
+&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
+&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
+&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
+&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
+&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
+      <link>http://localhost:1313/posts/68915c5/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/68915c5/</guid>
+      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
+  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
+    Mathematics is the art of giving the same name to different things.
+  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
+&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
+&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
+&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;bib-env&#34;&gt;
+  &lt;ul class=&#34;bib-list&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Middle Extension and Middle Convolution</title>
       <link>http://localhost:1313/posts/1b64c0e/</link>
       <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
@@ -949,7 +1011,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;li&gt;空气炸锅400°F预热4分钟。&lt;/li&gt;
 &lt;li&gt;意面煮锅加水开大火烧开&lt;/li&gt;
 &lt;li&gt;（仅周日）鸡蛋煮锅加水开大火烧开&lt;/li&gt;
-&lt;li&gt;上半周：临炒扇贝前，拆袋平铺微波盘，解冻档输入0.68 kg，每1分钟暂停翻散；仍冰凉略带冰晶时停止，沥水后立即下锅。下半周：豆腐2盒沥水擦干，切小块。&lt;/li&gt;
+&lt;li&gt;上半周：临炒扇贝前，拆袋平铺微波盘，解冻档输入0.68 kg，每1分钟暂停翻散；仍冰凉略带冰晶时停止，沥水后立即下锅。下半周：豆腐700 g擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/8茶匙轻拌，不加水；另将3个蛋加黑胡椒1/8茶匙打散。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- 微波解冻取代原室温解冻：虽列于阶段1，实际应等阶段3炒扇贝的锅位即将空出时再进行，不在解冻后等待其余备菜完成。无自动解冻档可用约30%功率，变软后每30秒查看；总时长随功率、厚度和结冰情况变化，不设固定完成时间。容器须可微波，不连原包装加热；解冻后连续完成烹调。参考：https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely --&gt;
 &lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
@@ -1053,7 +1115,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;扇贝或豆腐、鸡蛋&lt;/td&gt;
+          &lt;td&gt;扇贝、鸡蛋（上半周）&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
@@ -1062,11 +1124,52 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;下半周豆腐炒蛋调味：&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;调料&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;整锅用量&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;玉米淀粉&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2茶匙&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;蒜粉&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2茶匙&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;黑胡椒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/4茶匙&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;减盐酱油&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2茶匙&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;醋&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1/2茶匙&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;熟芝麻&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1茶匙&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- 豆腐炒蛋调味表是阶段1及阶段3的整锅合计，不重复添加；黑胡椒豆腐和蛋液各1/8茶匙。每锅700g豆腐、3个蛋分两餐；橄榄油两阶段各1/2茶匙，共1茶匙，原用油不变。不加水、不额外加盐、不加蚝油。减盐酱油并非无钠；按此前龟甲万参考标签10mL约393mg钠，实际以手中品牌为准。相对原蒜粉黑胡椒版，新增淀粉约5.3g、熟芝麻约3g、减盐酱油10mL、普通无糖醋2.5mL，热量增量暂估约45–55kcal/周、钠约400mg/周；盐、原有香料和油不重复计算。商品品牌及完整标签未定，本次营养增量单独记录，原营养总表尚未合并这一调味增量；原周赤字3912kcal扣除后约3857–3867kcal，按百位展示仍约3900kcal。 --&gt;
 &lt;ol&gt;
 &lt;li&gt;两锅加油预热。&lt;/li&gt;
 &lt;li&gt;第一锅：蘑菇加调味，大火炒7分钟，盛出。&lt;/li&gt;
 &lt;li&gt;第二锅：菠菜加调味，中火炒7分钟，盛出。&lt;/li&gt;
-&lt;li&gt;第一锅：上半周加油，扇贝中大火炒约5分钟、沥水；下半周加油，豆腐中大火翻炒约6–8分钟。再加油、3个蛋及调味，中火炒约3分钟至蛋凝固。&lt;/li&gt;
+&lt;li&gt;第一锅：
+&lt;ul&gt;
+&lt;li&gt;上半周：加油1/2茶匙，扇贝中大火炒约5分钟、沥水；再加油1/2茶匙、3个蛋及调味，中火炒约3分钟至蛋凝固。&lt;/li&gt;
+&lt;li&gt;下半周：不粘锅加油1/2茶匙，拌好的豆腐铺开，中火煎约6–8分钟，间隔翻面至略黄；转中小火，加减盐酱油2茶匙翻匀15–20秒。豆腐推到一边，空处加油1/2茶匙，倒入调好的蛋液，中火炒约2–3分钟至凝固，与豆腐混合；关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;第二锅：加油，番茄泥加调味小火炒2分钟；加入意面再拌煮2分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;

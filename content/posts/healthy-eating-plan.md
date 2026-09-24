@@ -80,10 +80,18 @@ aliases = ['/posts/healthy-eating-plan/']
 | 红椒粉 | [Great Value Paprika](https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778)<br>130 g / 袋 | 按需补 | — | $0.16 |
 | 干牛至叶 | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145)<br>32 g / 袋 | 按需补 | — | $0.07 |
 | 意式混合香草 | [Great Value Italian Seasoning](https://www.walmart.ca/en/ip/Great-Value-Italian-Seasoning/10302881)<br>50 g / 袋 | 按需补 | — | $0.05 |
+| 熟芝麻 | [Kadoya Roasted Sesame Seed Black](https://www.walmart.ca/en/ip/ROASTED-SESAME-SEED-BLACK/2A4T0Z70D3ZH)<br>1 kg / 袋 | 按需补 | 1茶匙 | $0.04 |
+| 酱油 | [Kikkoman Soy Sauce 591mL](https://www.walmart.ca/en/ip/Kikkoman-Soy-Sauce-591mL/2U4Q708C3YSP)<br>591 mL / 瓶 | 按需补 | 2茶匙 | $0.11 |
+| 米醋 | [Marukan Genuine Brewed Rice Vinegar](https://www.walmart.ca/en/ip/Marukan-Genuine-Brewed-Rice-Vinegar/6000188761326)<br>710 mL / 瓶 | 按需补 | 1/2茶匙 | $0.03 |
+| 玉米淀粉 | [Great Value Corn Starch](https://www.walmart.ca/en/ip/great-value-corn-starch/10317740)<br>454 g / 盒 | 按需补 | 2茶匙 | $0.04 |
 | 盐 | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128)<br>1 kg / 盒 | 按需补 | — | $0.01 |
 | 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259)<br>1 L / 瓶 | 按需补 | — | $0.45 |
-| 每周合计 | — | — | — | $178.58 |
+| 每周合计 | — | — | — | $178.80 |
 {.table-centered}
+
+<!-- 普通酱油更新：Kikkoman Soy Sauce591mL，Walmart商品2U4Q708C3YSP公开价$6.77；每周下半周一锅用10mL，费用6.77×10/591≈$0.11，替换减盐款$0.14，购物表合计178.83−0.03=$178.80。价格、库存以用户所选门店为准；其他调味及用量不变。 -->
+
+<!-- 历史采购补项（酱油现已改普通款，价格以当前购物表为准）：2026-09-23补齐豆腐炒蛋新增调料购物项：四项仅下半周做豆腐时取用，每周一锅；“每次做菜取用”列保留纯用量。已有同类调料可继续用，不要求重复购买。Kadoya已烘烤黑芝麻1kg，Walmart页面$13.97，按每周3g分摊$0.04；页面当前显示缺货，链接仅作产品参考，不保证用户门店库存。不把未标烘烤的Great Value Sesame Seeds当作熟芝麻，也未选$39.99的第三方进口芝麻。Kikkoman Lite591mL公开价$8.07，按10mL/周分摊$0.14；Marukan Genuine Brewed米醋710mL公开价$7.97，按2.5mL/周分摊$0.03，配料米醋（水、米）、无添加糖盐，页面当前显示缺货；不选调味寿司醋。Great Value玉米淀粉454g公开价$3.77，按约5.3g/周分摊$0.04。所有价格为网页参考、不是用户门店报价。四行周费用增加$0.25，显示行合计178.58+0.25=178.83；营养增量仍按炒锅表后注释记录，本次不重复计入。 -->
 
 <!--
 Metro 原购物表及此前双店对照，完整保留，仅作历史备选，不计入当前购买量或营养：
@@ -158,15 +166,15 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 3. 空气炸锅400°F预热4分钟。
 4. 意面煮锅加水开大火烧开
 5. （仅周日）鸡蛋煮锅加水开大火烧开
-6. 上半周：临炒扇贝前，拆袋平铺微波盘，解冻档输入0.68 kg，每1分钟暂停翻散；仍冰凉略带冰晶时停止，沥水后立即下锅。下半周：豆腐2盒沥水擦干，切小块。
+6. （仅周日）：临炒扇贝前，拆袋平铺微波盘，解冻档输入0.68 kg，每1分钟暂停翻散；仍冰凉略带冰晶时停止，沥水后立即下锅。
 
 <!-- 微波解冻取代原室温解冻：虽列于阶段1，实际应等阶段3炒扇贝的锅位即将空出时再进行，不在解冻后等待其余备菜完成。无自动解冻档可用约30%功率，变软后每30秒查看；总时长随功率、厚度和结冰情况变化，不设固定完成时间。容器须可微波，不连原包装加热；解冻后连续完成烹调。参考：https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely -->
 
 
 #### 阶段 2：调味、并行烹调
 
-1. 取鸡腿去明显肥脂，放烤盘。
-2. 取牛肉（周日切半）去明显去明显肥脂，放烤盘。
+1. 去鸡腿去明显肥脂，放烤盘。
+2. 取牛肉（仅周日切半）去明显去明显肥脂，放烤盘。
 3. 取已解冻的鱼擦干：上半周三文鱼，下半周虹鳟。
 4. 按表调味。
 
@@ -191,19 +199,23 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 
 每锅每轮用油1/2茶匙，按表调味。
 
-| 食材 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 意式混合香草 |
-|---|---|---|---|---|---|
-| 菠菜 | 1/8 茶匙 | — | 1/4 茶匙 | 1/4 茶匙 | — |
-| 番茄泥、意面 | — | 1/4 茶匙 | 1/2 茶匙 | — | 1/2 茶匙 |
-| 蘑菇 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | — |
-| 扇贝或豆腐、鸡蛋 | — | 1/4 茶匙 | 1/2 茶匙 | — | — |
+| 食材 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 意式混合香草 | 其他调味 |
+|---|---|---|---|---|---|---|
+| 菠菜 | 1/8 茶匙 | — | 1/4 茶匙 | 1/4 茶匙 | — | — |
+| 番茄泥、意面 | — | 1/4 茶匙 | 1/2 茶匙 | — | 1/2 茶匙 | — |
+| 蘑菇 | 1/8 茶匙 | 1/4 茶匙 | 1/2 茶匙 | 1/2 茶匙 | — | — |
+| 扇贝、鸡蛋（上半周） | — | 1/4 茶匙 | 1/2 茶匙 | — | — | — |
+| 豆腐、鸡蛋（下半周） | — | 1/4 茶匙 | 1/2 茶匙 | — | — | 玉米淀粉2茶匙<br>酱油2茶匙<br>醋1/2茶匙<br>熟芝麻1茶匙 |
 {.table-centered}
 
+<!-- 豆腐炒蛋调味表是阶段3的整锅合计，不重复添加；黑胡椒1/4茶匙全部拌入豆腐，蛋液不单独调味；整锅调味总量不变。每锅700g豆腐、3个蛋分两餐；橄榄油两阶段各1/2茶匙，共1茶匙，原用油不变。不加水、不额外加盐、不加蚝油。用户改为普通酱油；龟甲万普通款厂家参考标签每15mL钠960mg，故10mL约640mg，比此前减盐款约多247mg/周、日均多35mg；加拿大手中包装优先。来源：https://kikkomanusa.com/products/soy-sauce-non-gmo/ 。相对原蒜粉黑胡椒版，新增淀粉约5.3g、熟芝麻约3g、普通酱油10mL、普通无糖醋2.5mL，热量增量暂估约45–55kcal/周、钠约640mg/周；盐、原有香料和油不重复计算。商品品牌及完整标签未定，本次营养增量单独记录，原营养总表尚未合并这一调味增量；原周赤字3912kcal扣除后约3857–3867kcal，按百位展示仍约3900kcal。 -->
 
 1. 两锅加油预热。
 2. 第一锅：蘑菇加调味，大火炒7分钟，盛出。
 3. 第二锅：菠菜加调味，中火炒7分钟，盛出。
-4. 第一锅：上半周加油，扇贝中大火炒约5分钟、沥水；下半周加油，豆腐中大火翻炒约6–8分钟。再加油、3个蛋及调味，中火炒约3分钟至蛋凝固。
+4. 第一锅：
+   - 上半周：加油1/2茶匙，扇贝中大火炒约5分钟、沥水；再加油1/2茶匙、3个蛋及调味，中火炒约3分钟至蛋凝固。
+   - 下半周：豆腐700 g擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀，不加水；另将3个蛋打散，不单独调味。不粘锅加油1/2茶匙，放入豆腐铺开，中火煎约6–8分钟，间隔翻面至略黄；转中小火，加酱油2茶匙翻匀15–20秒。豆腐推到一边，空处加油1/2茶匙，倒入蛋液，中火炒约2–3分钟至凝固，与豆腐混合；关火拌入醋1/2茶匙，撒熟芝麻1茶匙。
 5. 第二锅：加油，番茄泥加调味小火炒2分钟；加入意面再拌煮2分钟。
 
 #### 阶段 4：收尾、分盘
@@ -229,7 +241,13 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 
 ### 放纵餐
 
-**每周热量赤字估计约3,900 kcal。**
+**每周热量赤字估计3,902.81 kcal，理论脂肪等价值约0.507 kg／周，不代表实际纯脂肪减量。**
+
+<!-- 脂肪等价值按约7700 kcal/kg粗略换算：3902.808983÷7700=0.5068583095 kg/周。不是实际纯脂肪减少量或体重下降保证；水分、糖原、瘦体重变化及消耗随减重下降均会影响结果，不作长期线性预测。参考：https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner 。本次仅增加换算说明，不改饮食、训练或赤字。 -->
+
+<!-- 2026-09-23力量加组后当前口径：用户确认周一划船、周二高脚杯深蹲、周四俯卧撑、周五阻力带腿弯举各增加1组，每周共4组；次数、配重、有氧和饮食不变。每次额外2–4分钟，取3分钟中点，共12分钟/周。沿用3.5 MET训练、扣除同期1 MET静息的模型，新增净消耗=(3.5−1)×81.1×12/60=40.55 kcal/周；周总消耗16677.7291+40.55=16718.2791 kcal，周摄入含新增调味中点12765.470117+50=12815.470117 kcal，赤字3902.808983 kcal/周，显示3902.81。放纵餐比例按未取整赤字重算，仍显示整数百分比。下方3862.258983为加组前记录，不再是当前赤字。新增运动消耗粗估范围27.033333–54.066667 kcal/周，不代表实测精度。来源：https://pacompendium.com/wp-content/uploads/2024/03/4_2024_adult-compendium-tracking-guide-1-2024.pdf 。 -->
+
+<!-- 2026-09-23赤字展示口径更新：按用户要求不再将赤字取整至整数、十位或百位，正文保留两位小数，计算继续使用未取整数值。豆腐新增调味热量仍为45–55 kcal/周的估算区间；取中点50 kcal，则3912.258983−50=3862.258983 kcal/周，展示3862.26；对应范围3857.258983–3867.258983 kcal/周。小数仅为计算结果，不代表实际精度。放纵餐百分比按3862.258983作分母，百分比显示仍取整数。此前注释中的“按百位展示3900”等为历史口径，不再适用。未实施刚讨论的力量训练加组建议，未提前计入额外运动消耗。 -->
 
 <!--
 以下内容按用户要求仅保留于源码，不在正文显示。
@@ -286,7 +304,7 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 
 -->
 
-| 食物 | 份量 | 热量（kcal） | 占参考赤字3,900 kcal（额外加吃） |
+| 食物 | 份量 | 热量（kcal） | 占参考赤字3,902.81 kcal（额外加吃） |
 |---|---|---:|---:|
 | [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约19% |
 | [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约17% |
@@ -673,28 +691,28 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 ### 周一：上肢推拉与核心
 
-预估时间：25–35 分钟。
+预估时间：27–39 分钟。
 
 - [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；
 - [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次；
-- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 10–15 次；
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 10–15 次；
 - [交替触肩](https://www.youtube.com/watch?v=amA9sc6dmH0)（Shoulder tap）：2 组 × 16–24 次总数（左右各 8–12 次）；
 - [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
 
 ### 周二：下肢与臀部
 
-预估时间：25–35 分钟。
+预估时间：27–39 分钟。
 
-- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：3 组 × 10–15 次；
+- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 10–15 次；
 - [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：2 组 × 8–12 次／腿；
 - [哑铃臀桥](https://www.youtube.com/watch?v=cruqsnAyU6A)（Dumbbell glute bridge）：2 组 × 12–20 次；
 - [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
 
 ### 周四：上肢推拉与核心
 
-预估时间：30–40 分钟。
+预估时间：32–44 分钟。
 
-- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：3 组 × 8–15 次；
+- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；
 - [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次；
 - [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 10–15 次；
 - [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown）：3 组 × 10–15 次；
@@ -703,10 +721,10 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 
 ### 周五：下肢与核心
 
-预估时间：25–35 分钟。
+预估时间：27–39 分钟。
 
 - [哑铃分腿蹲](https://www.youtube.com/watch?v=Wcmg-3iHwjQ)（Dumbbell split squat）：3 组 × 8–12 次／腿；
-- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl）：3 组 × 8–12 次／腿；
+- [阻力带腿弯举](https://www.youtube.com/watch?v=yJp4m0wS3MA)（Resistance-band leg curl）：4 组 × 8–12 次／腿；
 - [哑铃单腿臀桥](https://www.youtube.com/watch?v=-NT8jrURSt0)（Single-leg dumbbell glute bridge）：2 组 × 10–15 次／腿；
 - [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
 - [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
