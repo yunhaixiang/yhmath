@@ -194,7 +194,34 @@ $$\begin{aligned}
 &lt;p&gt;This is independent of the choice of $V$: given two choices $V_1,V_2$, restrict both local systems to $(V_1\cap V_2)^{\mathrm{an}}$. Each restriction removes only finitely many points, so the invariance proved above shows that both choices give the same index.&lt;/p&gt;
 &lt;p&gt;For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}^{\mathrm{irr}}(U)$ of irreducible middle extension sheaves. Whenever $i:V\hookrightarrow U$ is an open inclusion the functors $(i^{\mathrm{an}})_*$ and $(i^{\mathrm{an}})^*$ are inverse equivalences between $\mathrm{ME}^{\mathrm{irr}}(U)$ and $\mathrm{ME}^{\mathrm{irr}}(V)$. Given two nonempty Zariski opens $U_1,U_2$ and pick any nonempty $V\subseteq U_1\cap U_2$ (exists by irreducibility) with inclusions $i_1:V\hookrightarrow U_1$ and $i_2:V\hookrightarrow U_2$. We get equivalences $\varphi_{1,2}=(i_2^{\mathrm{an}})_*(i_1^{\mathrm{an}})^*$ between $\mathrm{ME}^{\mathrm{irr}}(U_1)$ and $\mathrm{ME}^{\mathrm{irr}}(U_2)$. Moreover, given three such opens then $\varphi_{1,3}=\varphi_{2,3}\circ \varphi_{1,2}$. Hence all these categories can be identified canonically.&lt;/p&gt;
 &lt;h2 id=&#34;review-of-perverse-sheaves&#34;&gt;Review of Perverse Sheaves&lt;/h2&gt;
-&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
+&lt;p&gt;Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $f:X\to\operatorname{Spec}\mathbb C$ be the structural morphism. The &lt;em&gt;dualizing complex&lt;/em&gt; is
+&lt;/p&gt;
+$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(f^{\mathrm{an}})^!\mathbb C,$$&lt;p&gt;
+where $(f^{\mathrm{an}})^!$ is the right adjoint of $\mathrm R(f^{\mathrm{an}})_!$. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its &lt;em&gt;Verdier dual&lt;/em&gt; is
+&lt;/p&gt;
+$$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$&lt;p&gt;
+Here $\mathrm R\mathcal{H}om$ is the derived &lt;strong&gt;sheaf&lt;/strong&gt; Hom, so the result is again an object of $D_c^b(X^{\mathrm{an}},\mathbb C)$, not a complex of global Hom spaces. This defines a contravariant functor, and the natural biduality morphism $K\to\mathbb D_{X/\mathbb C}\mathbb D_{X/\mathbb C}K$ is an isomorphism &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Kat96&#34; data-cite-note=&#34;§§2.1.1–2.1.2&#34;&gt;
+⟦cite:Kat96⟧
+&lt;/span&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If $X$ is smooth of pure complex dimension $d$, then $\omega_{X^{\mathrm{an}}}^{\bullet}\cong\underline{\mathbb C}_{X^{\mathrm{an}}}[2d]$. In particular, for a finite-rank local system $\mathcal L$ on $X^{\mathrm{an}}$,
+&lt;/p&gt;
+$$\mathbb D_{X/\mathbb C}(\mathcal L[d])\cong\mathcal L^\vee[d].$$&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
 &lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -1037,20 +1064,20 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 --&gt;
 &lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;取干米淘洗电饭煲开煮&lt;/li&gt;
-&lt;li&gt;烤箱400°F预热15分钟&lt;/li&gt;
-&lt;li&gt;空气炸锅400°F预热4分钟。&lt;/li&gt;
-&lt;li&gt;意面煮锅加水开大火烧开&lt;/li&gt;
-&lt;li&gt;（仅周日）鸡蛋煮锅加水开大火烧开&lt;/li&gt;
-&lt;li&gt;（仅周日）：临炒扇贝前，拆袋平铺微波盘，解冻档输入0.68 kg，每1分钟暂停翻散；仍冰凉略带冰晶时停止，沥水后立即下锅。&lt;/li&gt;
+&lt;li&gt;煮饭：取干米淘洗用电饭煲开煮&lt;/li&gt;
+&lt;li&gt;烤箱预热：烤箱400°F预热15分钟&lt;/li&gt;
+&lt;li&gt;空气炸锅预热：空气炸锅400°F预热4分钟。&lt;/li&gt;
+&lt;li&gt;煮开水：意面煮锅加水开大火烧开&lt;/li&gt;
+&lt;li&gt;（仅周日）煮开水：鸡蛋煮锅加水开大火烧开&lt;/li&gt;
+&lt;li&gt;（仅周日）解冻扇贝：扇贝拆袋平铺微波盘，解冻档解冻。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- 微波解冻取代原室温解冻：虽列于阶段1，实际应等阶段3炒扇贝的锅位即将空出时再进行，不在解冻后等待其余备菜完成。无自动解冻档可用约30%功率，变软后每30秒查看；总时长随功率、厚度和结冰情况变化，不设固定完成时间。容器须可微波，不连原包装加热；解冻后连续完成烹调。参考：https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely --&gt;
 &lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;去鸡腿去明显肥脂，放烤盘。&lt;/li&gt;
-&lt;li&gt;取牛肉（仅周日切半）去明显去明显肥脂，放烤盘。&lt;/li&gt;
-&lt;li&gt;取已解冻的鱼擦干：上半周三文鱼，下半周虹鳟。&lt;/li&gt;
-&lt;li&gt;按表调味。&lt;/li&gt;
+&lt;li&gt;准备鸡肉：去鸡腿去明显肥脂，放烤盘。&lt;/li&gt;
+&lt;li&gt;准备牛肉：取牛肉（仅周日切半）去明显去明显肥脂，放烤盘。&lt;/li&gt;
+&lt;li&gt;准备鱼肉：取三文鱼或虹鳟擦干，放砧板。&lt;/li&gt;
+&lt;li&gt;按表调味：&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -1099,13 +1126,13 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;鱼单层放空气炸锅400°F：上半周三文鱼约8分钟；下半周虹鳟约8–10分钟，放不下则分批。&lt;/li&gt;
-&lt;li&gt;鸡腿：400°F烤25分钟。&lt;/li&gt;
-&lt;li&gt;半块牛排：400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
-&lt;li&gt;意面煮锅水开后：取意面煮约8分钟，滤盆沥水。&lt;/li&gt;
-&lt;li&gt;（仅周日）鸡蛋煮锅水开后：取鸡蛋6个煮约8分钟。&lt;/li&gt;
-&lt;li&gt;豌豆胡萝卜：开1罐，沥水冲洗，倒入碗中加盖，微波炉高火约2分钟。&lt;/li&gt;
-&lt;li&gt;土豆泥：500 mL水微波加热2分钟，拌入粉，再高火2–3分钟。&lt;/li&gt;
+&lt;li&gt;烤鱼：鱼放空气炸锅400°F烤8分钟。&lt;/li&gt;
+&lt;li&gt;烤鸡腿：鸡腿400°F烤25分钟。&lt;/li&gt;
+&lt;li&gt;烤牛排：牛排400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
+&lt;li&gt;煮意面：意面煮锅水开后，取意面煮约8分钟，滤盆沥水。&lt;/li&gt;
+&lt;li&gt;（仅周日）煮鸡蛋：鸡蛋煮锅水开后，取鸡蛋6个煮约8分钟。&lt;/li&gt;
+&lt;li&gt;加热豌豆胡萝卜：开1罐豌豆胡萝卜，沥水冲洗，倒入碗中加盖，微波炉高火约2分钟。&lt;/li&gt;
+&lt;li&gt;做土豆泥：500 mL水微波加热2分钟，拌入粉，再高火2–3分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
 &lt;p&gt;每锅每轮用油1/2茶匙，按表调味。&lt;/p&gt;
@@ -1172,15 +1199,15 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;!-- 豆腐炒蛋调味表是阶段3的整锅合计，不重复添加；黑胡椒1/4茶匙全部拌入豆腐，蛋液不单独调味；整锅调味总量不变。每锅700g豆腐、3个蛋分两餐；橄榄油两阶段各1/2茶匙，共1茶匙，原用油不变。不加水、不额外加盐、不加蚝油。用户改为普通酱油；龟甲万普通款厂家参考标签每15mL钠960mg，故10mL约640mg，比此前减盐款约多247mg/周、日均多35mg；加拿大手中包装优先。来源：https://kikkomanusa.com/products/soy-sauce-non-gmo/ 。相对原蒜粉黑胡椒版，新增淀粉约5.3g、熟芝麻约3g、普通酱油10mL、普通无糖醋2.5mL，热量增量暂估约45–55kcal/周、钠约640mg/周；盐、原有香料和油不重复计算。商品品牌及完整标签未定，本次营养增量单独记录，原营养总表尚未合并这一调味增量；原周赤字3912kcal扣除后约3857–3867kcal，按百位展示仍约3900kcal。 --&gt;
 &lt;ol&gt;
 &lt;li&gt;两锅加油预热。&lt;/li&gt;
-&lt;li&gt;第一锅：蘑菇加调味，大火炒7分钟，盛出。&lt;/li&gt;
-&lt;li&gt;第二锅：菠菜加调味，中火炒7分钟，盛出。&lt;/li&gt;
+&lt;li&gt;第一锅：蘑菇下锅加调味，大火炒7分钟，盛出。&lt;/li&gt;
+&lt;li&gt;第二锅：菠菜下锅加调味，中大火炒7分钟，盛出。&lt;/li&gt;
 &lt;li&gt;第一锅：
 &lt;ul&gt;
-&lt;li&gt;上半周：加油1/2茶匙，扇贝中大火炒约5分钟、沥水；再加油1/2茶匙、3个蛋及调味，中火炒约3分钟至蛋凝固。&lt;/li&gt;
-&lt;li&gt;下半周：豆腐700 g擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀，不加水；另将3个蛋打散，不单独调味。不粘锅加油1/2茶匙，放入豆腐铺开，中火煎约6–8分钟，间隔翻面至略黄；转中小火，加酱油2茶匙翻匀15–20秒。豆腐推到一边，空处加油1/2茶匙，倒入蛋液，中火炒约2–3分钟至凝固，与豆腐混合；关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
+&lt;li&gt;上半周：重新加油1/4茶匙，扇贝中大火炒约6–8分钟、沥水；重新加油1/4茶匙下锅，加打散的3个蛋及调味，中大火炒约3分钟至蛋凝固，与豆腐混合。&lt;/li&gt;
+&lt;li&gt;下半周：豆腐擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀；重新加油，豆腐下锅中火煎约6–8分钟，转中小火，加酱油或蚝油2茶匙翻匀，重新加油1/4茶匙倒入蛋液，中火炒约3分钟至凝固，与豆腐混合，关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;第二锅：加油，番茄泥加调味小火炒2分钟；加入意面再拌煮2分钟。&lt;/li&gt;
+&lt;li&gt;第二锅：加油，番茄泥加调味小火炒约6–8分钟分钟；加入意面再小火拌煮3分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;
 &lt;ol&gt;
@@ -1883,30 +1910,6 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;li&gt;放松：5 个来回，减慢速度、轻松游。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;周六无法游泳时，可用上述30分钟低冲击跟练替代。&lt;/p&gt;
-&lt;p&gt;哑铃重量仅计配重片，不计握杆和锁扣。&lt;/p&gt;
-&lt;table class=&#34;table-centered&#34;&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;日期&lt;/th&gt;
-          &lt;th&gt;每只哑铃片重&lt;/th&gt;
-          &lt;th&gt;每端装片&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;周一、周四&lt;/td&gt;
-          &lt;td&gt;10 lb&lt;/td&gt;
-          &lt;td&gt;1片5 lb&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;周二、周五&lt;/td&gt;
-          &lt;td&gt;15 lb&lt;/td&gt;
-          &lt;td&gt;1片5 lb＋1片2.5 lb&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;常规每周换片四次：周二、周五每端加1片2.5 lb，周四、下周一取下；侧平举过重时另行减重。&lt;/p&gt;
-&lt;p&gt;下肢日用15 lb时，应能动作稳定地完成次数下限，并保留约2次余力；否则该动作用10 lb。&lt;/p&gt;
 &lt;!-- 2026-09-23当前配重方案（按用户纠正）：周二、周五下肢训练日每只采用15 lb片重，周一、周四上肢训练日每只10 lb片重；两只哑铃的两端均对称装片，每周周二、周五加片，周四、下周一减片，共四次。此前仅周五15 lb的写入是误解，已纠正。保留当前各动作组数和次数，包括此前确认增加的四个工作组；训练时间、有氧、饮食及每周赤字3902.808983 kcal估值不变，不因重量增加自动上调消耗。此方案取代下方历史记录中的全周统一10 lb方案。 --&gt;
 &lt;!-- 
 历史记录：下方全周统一10 lb方案已由上方当前配重方案取代；旧组数、时间和赤字仅供追溯。
@@ -1925,6 +1928,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 --&gt;
 &lt;!-- 2026-09-23动作替换：用户确认周一交替触肩改为哑铃侧平举2组×12–20次，周二双腿哑铃臀桥改为哑铃罗马尼亚硬拉2组×10–15次；周五单腿臀桥及其余动作不变。侧平举仅在动作稳定、不借力且保留约2次余力时沿用上肢日每只10 lb片重，否则改为每端1片2.5 lb、每只5 lb片重，必要时更轻；安全减重可能增加换片次数，不为统一重量勉强完成。罗马尼亚硬拉工作组目标每只15 lb片重，先轻重量练习髋铰链，动作不稳时降至10 lb。次数为试练范围，不保证同重量适合所有动作。总工作组不变，训练时间和赤字暂沿用原估值，不假定替换动作会产生可精确计算的额外消耗。示范链接：https://www.youtube.com/watch?v=PzsMitRdI_8 ，https://www.youtube.com/watch?v=QFbZevA7dps 。 --&gt;
 &lt;h3 id=&#34;周一上肢推拉与核心&#34;&gt;周一：上肢推拉与核心&lt;/h3&gt;
+&lt;p&gt;哑铃配重：10 lb&lt;/p&gt;
 &lt;p&gt;预估时间：27–39 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WDIpL0pjun0&#34;&gt;俯卧撑&lt;/a&gt;（Push-up）：4 组 × 8–15 次；&lt;/li&gt;
@@ -1934,6 +1938,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=mwlp75MS6Rg&#34;&gt;平板支撑&lt;/a&gt;（Plank）：2 组 × 30–60 秒&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周二下肢与臀部&#34;&gt;周二：下肢与臀部&lt;/h3&gt;
+&lt;p&gt;哑铃配重：15 lb&lt;/p&gt;
 &lt;p&gt;预估时间：27–39 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CkFzgR55gho&#34;&gt;哑铃高脚杯深蹲&lt;/a&gt;（Dumbbell goblet squat）：4 组 × 10–15 次；&lt;/li&gt;
@@ -1942,6 +1947,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：2 组 × 12–20 次；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周四上肢推拉与核心&#34;&gt;周四：上肢推拉与核心&lt;/h3&gt;
+&lt;p&gt;哑铃配重：10 lb&lt;/p&gt;
 &lt;p&gt;预估时间：32–44 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WDIpL0pjun0&#34;&gt;俯卧撑&lt;/a&gt;（Push-up）：4 组 × 8–15 次；&lt;/li&gt;
@@ -1952,6 +1958,7 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=44ND4bOB-T0&#34;&gt;侧平板支撑&lt;/a&gt;（Side plank）：2 组 × 30–45 秒／侧&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周五下肢与核心&#34;&gt;周五：下肢与核心&lt;/h3&gt;
+&lt;p&gt;哑铃配重：15 lb&lt;/p&gt;
 &lt;p&gt;预估时间：27–39 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Wcmg-3iHwjQ&#34;&gt;哑铃分腿蹲&lt;/a&gt;（Dumbbell split squat）：3 组 × 8–12 次／腿；&lt;/li&gt;

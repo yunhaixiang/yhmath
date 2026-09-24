@@ -76,6 +76,19 @@ For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}
 
 ## Review of Perverse Sheaves
 
+Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves. 
+
+{{< definition >}}
+Let $f:X\to\operatorname{Spec}\mathbb C$ be the structural morphism. The *dualizing complex* is
+$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(f^{\mathrm{an}})^!\mathbb C,$$
+where $(f^{\mathrm{an}})^!$ is the right adjoint of $\mathrm R(f^{\mathrm{an}})_!$. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its *Verdier dual* is
+$$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$
+Here $\mathrm R\mathcal{H}om$ is the derived **sheaf** Hom, so the result is again an object of $D_c^b(X^{\mathrm{an}},\mathbb C)$, not a complex of global Hom spaces. This defines a contravariant functor, and the natural biduality morphism $K\to\mathbb D_{X/\mathbb C}\mathbb D_{X/\mathbb C}K$ is an isomorphism {{< cite key="Kat96" note="§§2.1.1–2.1.2" >}}.
+{{< /definition >}}
+
+If $X$ is smooth of pure complex dimension $d$, then $\omega_{X^{\mathrm{an}}}^{\bullet}\cong\underline{\mathbb C}_{X^{\mathrm{an}}}[2d]$. In particular, for a finite-rank local system $\mathcal L$ on $X^{\mathrm{an}}$,
+$$\mathbb D_{X/\mathbb C}(\mathcal L[d])\cong\mathcal L^\vee[d].$$
+
 ## Review of Convolution
 
 ## Middle Convolution
