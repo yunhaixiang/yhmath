@@ -7,68 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>$\ell$-Independence</title>
-      <link>http://localhost:1313/posts/2d8f6b0/</link>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compatible Systems and Rationality</title>
-      <link>http://localhost:1313/posts/7a9c1e4/</link>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
-      <link>http://localhost:1313/posts/6439cea/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/6439cea/</guid>
-      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
-an $\ell$-adic representation arising from geometry is quasi-unipotent. This
-post will explain the local Galois groups involved, state the theorem, and
-discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
-&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
-&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
-&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
-&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
-&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
-&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
-      <link>http://localhost:1313/posts/68915c5/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/68915c5/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Mathematics is the art of giving the same name to different things.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
-&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
-&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>Middle Extension and Middle Convolution</title>
       <link>http://localhost:1313/posts/1b64c0e/</link>
       <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
@@ -649,7 +587,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;/ul&gt;
 &lt;!-- 两次共用流程；上半周三文鱼、扇贝炒鸡蛋，下半周虹鳟、豆腐炒鸡蛋，其余食材不变。 --&gt;
 &lt;p&gt;早餐：混合水果约357 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g；周一至周六各加1个水煮蛋。&lt;/p&gt;
-&lt;!-- 豆奶每天共约500 mL，包含早餐用量，其余分次饮用。 --&gt;
+&lt;!-- 豆奶每周两桶Silk无糖原味1.89L，共3.78L，日均540mL；早餐每天200g近似200mL已包含，其余分次饮用，不重复计量。 --&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -827,11 +765,18 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td style=&#34;text-align: right&#34;&gt;$4.13&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td&gt;纯蛋清&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Naturegg-Simply-Egg-Whites-Free-Run-Burnbrae-Farms/6000195508423&#34;&gt;Burnbrae Farms Naturegg Simply Egg Whites Free Run&lt;/a&gt;&lt;br&gt;500 g / 盒&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;250 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$5.47&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td&gt;无糖豆奶&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Earth-s-Own-Gluten-Free-Unsweetened-Original-Organic-Soy-Milk-Alternative-1-75L/79B8HJXTEAPZ&#34;&gt;Earth’s Own Gluten-Free, Unsweetened Original Organic Soy Milk Alternative&lt;/a&gt;&lt;br&gt;1.75 L / 桶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Silk-Organic-Soy-Milk-Alternative-Unsweetened-Original-Dairy-Free/6000190182706&#34;&gt;Silk Soy Milk Alternative, Unsweetened, Dairy Free&lt;/a&gt;&lt;br&gt;1.89 L / 桶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2桶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$8.94&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$9.96&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;无糖无咖啡因汽水&lt;/td&gt;
@@ -886,8 +831,8 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Catelli-Protein-Spaghetti-Pasta-High-in-Protein/10HMLTQIF7A4&#34;&gt;Catelli PROTEIN+ Spaghetti Pasta&lt;/a&gt;&lt;br&gt;340 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;110 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$2.57&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;100 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$2.34&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
@@ -900,8 +845,8 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;白米&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1&#34;&gt;Great Value Long Grain White Rice&lt;/a&gt;&lt;br&gt;2 kg / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;120 mL&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.50&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;91.7 g ≈ 110 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.46&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;高纤维谷物早餐&lt;/td&gt;
@@ -999,7 +944,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$178.57&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$184.79&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1051,7 +996,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 --&gt;
 &lt;!--
 文案维护约定：正文只保留直接执行所需的用量、步骤、时间、温度、分盘表及关键安全条件。每日总量分配、计算口径、品牌选择理由和其他补充解释放HTML注释；不删购物表、营养表、商品链接或历史备选。
-意面每次110g分两份，各干重55g；煮面时间按包装及软硬调整。土豆泥偏稠可少量补热水；三文鱼未达到目标中心温度时按1–2分钟递增。早餐蛋周一至周六各1个，周三无需再煮。牛排保持厚度切分，不按重量减半而把烤制时间减半。
+意面每次100g分两份，各干重50g；煮面时间按包装及软硬调整。土豆泥偏稠可少量补热水；三文鱼未达到目标中心温度时按1–2分钟递增。早餐蛋周一至周六各1个，周三无需再煮。牛排保持厚度切分，不按重量减半而把烤制时间减半。
 --&gt;
 &lt;h3 id=&#34;并行做菜流程&#34;&gt;并行做菜流程&lt;/h3&gt;
 &lt;p&gt;1茶匙 = 5 mL；以下时间均为参考。&lt;/p&gt;
@@ -1063,7 +1008,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 --&gt;
 &lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;煮饭：取干米淘洗用电饭煲开煮&lt;/li&gt;
+&lt;li&gt;煮饭：取91.7 g ≈ 110 mL干米淘洗，用电饭煲开煮&lt;/li&gt;
 &lt;li&gt;烤箱预热：烤箱400°F预热15分钟&lt;/li&gt;
 &lt;li&gt;空气炸锅预热：空气炸锅400°F预热4分钟。&lt;/li&gt;
 &lt;li&gt;煮开水：意面煮锅加水开大火烧开&lt;/li&gt;
@@ -1128,7 +1073,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;li&gt;烤鱼：鱼放空气炸锅400°F烤8分钟。&lt;/li&gt;
 &lt;li&gt;烤鸡腿：鸡腿400°F烤25分钟。&lt;/li&gt;
 &lt;li&gt;烤牛排：牛排400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
-&lt;li&gt;煮意面：意面煮锅水开后，取意面煮约8分钟，滤盆沥水。&lt;/li&gt;
+&lt;li&gt;煮意面：意面煮锅水开后，取100 g意面煮约8分钟，滤盆沥水。&lt;/li&gt;
 &lt;li&gt;（仅周日）煮鸡蛋：鸡蛋煮锅水开后，取鸡蛋6个煮约8分钟。&lt;/li&gt;
 &lt;li&gt;加热豌豆胡萝卜：开1罐豌豆胡萝卜，沥水冲洗，倒入碗中加盖，微波炉高火约2分钟。&lt;/li&gt;
 &lt;li&gt;做土豆泥：500 mL水微波加热2分钟，拌入粉，再高火2–3分钟。&lt;/li&gt;
@@ -1195,15 +1140,15 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;!-- 豆腐炒蛋调味表是阶段3的整锅合计，不重复添加；黑胡椒1/4茶匙全部拌入豆腐，蛋液不单独调味；整锅调味总量不变。每锅700g豆腐、3个蛋分两餐；橄榄油两阶段各1/2茶匙，共1茶匙，原用油不变。不加水、不额外加盐、不加蚝油。用户改为普通酱油；龟甲万普通款厂家参考标签每15mL钠960mg，故10mL约640mg，比此前减盐款约多247mg/周、日均多35mg；加拿大手中包装优先。来源：https://kikkomanusa.com/products/soy-sauce-non-gmo/ 。相对原蒜粉黑胡椒版，新增淀粉约5.3g、熟芝麻约3g、普通酱油10mL、普通无糖醋2.5mL，热量增量暂估约45–55kcal/周、钠约640mg/周；盐、原有香料和油不重复计算。商品品牌及完整标签未定，本次营养增量单独记录，原营养总表尚未合并这一调味增量；原周赤字3912kcal扣除后约3857–3867kcal，按百位展示仍约3900kcal。 --&gt;
+&lt;!-- 豆腐炒蛋调味表是阶段3的整锅合计，不重复添加；黑胡椒1/4茶匙全部拌入豆腐，蛋液不单独调味；整锅调味总量不变。每锅700g豆腐、3个蛋加250g纯蛋清分两餐；橄榄油两阶段各1/2茶匙，共1茶匙，原用油不变。不加水、不额外加盐、不加蚝油。用户改为普通酱油；龟甲万普通款厂家参考标签每15mL钠960mg，故10mL约640mg，比此前减盐款约多247mg/周、日均多35mg；加拿大手中包装优先。来源：https://kikkomanusa.com/products/soy-sauce-non-gmo/ 。相对原蒜粉黑胡椒版，新增淀粉约5.3g、熟芝麻约3g、普通酱油10mL、普通无糖醋2.5mL，热量增量暂估约45–55kcal/周、钠约640mg/周；盐、原有香料和油不重复计算。商品品牌及完整标签未定，本次营养增量单独记录，原营养总表尚未合并这一调味增量；原周赤字3912kcal扣除后约3857–3867kcal，按百位展示仍约3900kcal。 --&gt;
 &lt;ol&gt;
-&lt;li&gt;两锅加油预热。&lt;/li&gt;
+&lt;li&gt;3个鸡蛋与250 g蛋清打匀；两锅加油预热。&lt;/li&gt;
 &lt;li&gt;第一锅：蘑菇下锅加调味，大火炒7分钟，盛出。&lt;/li&gt;
 &lt;li&gt;第二锅：菠菜下锅加调味，中大火炒7分钟，盛出。&lt;/li&gt;
 &lt;li&gt;第一锅：
 &lt;ul&gt;
-&lt;li&gt;上半周：重新加油1/4茶匙，扇贝中大火炒约6–8分钟、沥水；重新加油1/4茶匙下锅，加打散的3个蛋及调味，中大火炒约3分钟至蛋凝固，与豆腐混合。&lt;/li&gt;
-&lt;li&gt;下半周：豆腐擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀；重新加油，豆腐下锅中火煎约6–8分钟，转中小火，加酱油或蚝油2茶匙翻匀，重新加油1/4茶匙倒入蛋液，中火炒约3分钟至凝固，与豆腐混合，关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
+&lt;li&gt;上半周：重新加油1/4茶匙，扇贝中大火炒约6–8分钟、沥水；重新加油1/4茶匙下锅，加混合蛋液及调味，中小火炒约3–5分钟至蛋液凝固。&lt;/li&gt;
+&lt;li&gt;下半周：豆腐擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀；重新加油，豆腐下锅中火煎约6–8分钟，转中小火，加酱油或蚝油2茶匙翻匀，重新加油1/4茶匙倒入混合蛋液，中小火炒约3–5分钟至凝固，与豆腐混合，关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;第二锅：加油，番茄泥加调味小火炒约6–8分钟分钟；加入意面再小火拌煮3分钟。&lt;/li&gt;
@@ -1270,7 +1215,6 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;li&gt;冷藏分好的餐，清洗厨具。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;每周热量赤字估计3,973.40 kcal，理论脂肪等价值约0.516 kg／周，不代表实际纯脂肪减量。&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 2026-09-23意面减至55g/顿（当前口径，优先于下方所有旧用量、营养及赤字记录）：每次110g、每周四餐220g；较60g/顿少20g/周。沿用Catelli PROTEIN+每85g营养组[300,17,2,0.5,58,8,2,0,4,20,2.5,400]，周减少70.588235294 kcal、4g蛋白质、0.470588g脂肪、0.117647g饱和脂肪、13.647059g碳水、1.882353g纤维、0.470588g总糖、0.941176mg钠、4.705882mg钙、0.588235mg铁、94.117647mg钾，胆固醇不变。周摄入含原豆腐调味50kcal中点为12744.881881706 kcal，周消耗16718.2791不变，赤字3973.397218294 kcal，显示3973.40；脂肪等价值除7700为0.516025613kg/周。放纵餐百分比按未取整赤字重算。意面周费用3.97×220/340=2.568824，显示2.57；按显示行合计178.80−2.80+2.57=178.57。米饭、其他食材、调味和训练均不变，Metro历史表不改。 --&gt;
 &lt;!-- 脂肪等价值按约7700 kcal/kg粗略换算：3902.808983÷7700=0.5068583095 kg/周。不是实际纯脂肪减少量或体重下降保证；水分、糖原、瘦体重变化及消耗随减重下降均会影响结果，不作长期线性预测。参考：https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner 。本次仅增加换算说明，不改饮食、训练或赤字。 --&gt;
 &lt;!-- 2026-09-23力量加组后当前口径：用户确认周一划船、周二高脚杯深蹲、周四俯卧撑、周五阻力带腿弯举各增加1组，每周共4组；次数、配重、有氧和饮食不变。每次额外2–4分钟，取3分钟中点，共12分钟/周。沿用3.5 MET训练、扣除同期1 MET静息的模型，新增净消耗=(3.5−1)×81.1×12/60=40.55 kcal/周；周总消耗16677.7291+40.55=16718.2791 kcal，周摄入含新增调味中点12765.470117+50=12815.470117 kcal，赤字3902.808983 kcal/周，显示3902.81。放纵餐比例按未取整赤字重算，仍显示整数百分比。下方3862.258983为加组前记录，不再是当前赤字。新增运动消耗粗估范围27.033333–54.066667 kcal/周，不代表实测精度。来源：https://pacompendium.com/wp-content/uploads/2024/03/4_2024_adult-compendium-tracking-guide-1-2024.pdf 。 --&gt;
@@ -1329,13 +1273,14 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
 〔原注释结束〕
 
 --&gt;
+&lt;h4 id=&#34;常见放纵餐&#34;&gt;常见放纵餐&lt;/h4&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,973.40 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字比例（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1343,91 +1288,91 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/large-pizza/&#34;&gt;Pepperoni 披萨（Pizza Pizza，大号）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3片&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约750&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约21%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约312 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约620&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约570&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;6个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡（KFC Original Recipe）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2块鸡大腿，不含配餐和蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约440&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约340&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸鸡柳（DQ Chicken Strips）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3条，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约320&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;薯条（DQ Fries）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约280&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸洋葱圈（DQ Onion Rings）&lt;/a&gt;&lt;/td&gt;
@@ -1439,13 +1384,13 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;香草冰淇淋（DQ Vanilla Cone）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Small甜筒，不加脆皮和配料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约230&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶500 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约200&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
@@ -1455,6 +1400,121 @@ MET参考：https://pacompendium.com/conditioning-exercise/ 、 https://pacompen
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h4 id=&#34;零卡或低卡放纵餐替代品&#34;&gt;零卡或低卡放纵餐替代品&lt;/h4&gt;
+&lt;p&gt;以下为可选替代，不计入固定饮食；若额外加吃，仍扣减相应热量赤字。&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;想吃／喝&lt;/th&gt;
+          &lt;th&gt;替代品&lt;/th&gt;
+          &lt;th&gt;份量&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,499.02 kcal（额外加吃）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;含糖汽水&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164&#34;&gt;Fresca Citrus Soda Pop Mini Cans&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1罐222 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;含糖可乐&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/coca-cola/products/coca-cola-zero-sugar&#34;&gt;Coca-Cola Zero Sugar Zero Caffeine&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1罐355 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;汽水，不想要甜味&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/fr/ip/Bubly-Eau-P-tillante-Saveur-Lime-12x-355-ml-Canettes/6000197924484&#34;&gt;bubly Lime Sparkling Water&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1罐355 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;含糖冰茶&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Nestea-Zero-Sugar-Iced-Tea/2QW2HXHP2Z41&#34;&gt;Nestea Zero Sugar Iced Tea&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1瓶473 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.3%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;果冻、甜点&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Jell-O-Zero-Sugar-Strawberry-Jelly-Powder-Mix-10-1-g-Box/6000188760145&#34;&gt;Jell-O Zero Sugar Strawberry Jelly Powder Mix&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;加水制成125 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.3%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;巧克力甜点&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/seort/10287782&#34;&gt;Snack Pack No Sugar Added Chocolate Pudding Cups&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1杯99 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.7%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;香草奶味甜点&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/snack-pack-no-sugar-added-vanilla-pudding-cups/10287875&#34;&gt;Snack Pack No Sugar Added Vanilla Pudding Cups&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1杯99 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.7%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;冰淇淋、雪糕&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/DEL-MONTE-Strawberry-Frozen-Fruit-Bars-10-Pack-10-x-50-ml/6000202764024&#34;&gt;DEL MONTE Strawberry Frozen Fruit Bars&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1支50 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约50&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.4%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;巧克力雪糕&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/popsicle-fudgsicle-frozen-dairy-dessert-bars/6000195509106&#34;&gt;Popsicle Fudgsicle Frozen Dairy Dessert Bars&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1支60 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.3%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;奶味冰淇淋&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Halo-Top-Vanilla-Bean-Frozen-Dessert/6000199406471&#34;&gt;Halo Top Vanilla Bean Frozen Dessert&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;125 mL&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.3%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;饼干、脆口零食&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Quaker-Crispy-Minis-Original-Large-Brown-Rice-Cakes/10284949&#34;&gt;Quaker Crispy Minis Original Large Brown Rice Cakes&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;2片，不加抹酱&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约70&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.0%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;薯片、咸味零食&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/fr/ip/Delicious-Kitchen-Collations-d-Algues-R-ties/6000201549050&#34;&gt;Delicious Kitchen Roasted Seaweed Snacks&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1小包5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约25&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.7%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;薯片、咸脆零食&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags-8-x-31-g-248-g/206256&#34;&gt;Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1迷你袋31 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约110&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约3.1%&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- 2026-09-24扩充6款低卡替代：总共13项，不改变固定购物、饮食、营养合计或基线赤字。新增百分比按3367.597218294kcal计算。Nestea使用加拿大当前473mL瓶装零糖款，页面包装显示10kcal，不沿用旧罐装零卡配方；无糖不等于零卡。Snack Pack巧克力及香草均为No Sugar Added 4×99g装，每杯60kcal，不使用普通款数值；巧克力厂家标签每杯饱和脂肪1.5g、钠115mg、蛋白质1g，不能视为高蛋白或不限量甜品。Fudgsicle使用加拿大12×60mL原味版，每支80kcal，不误用美国无添加糖40kcal版；零售页面配料段存在旧50mL口径，未据此推算其他营养，以实物标签为准。
+Quaker原味大米饼每片35kcal，表列两片70kcal，不是整包70kcal；不是同品牌迷你米脆片。Delicious Kitchen海苔为12×5g装，Walmart确认商品和规格，热量采用同款Instacart标签25kcal/小包，非60g整袋；含油和盐，碘含量未经核实，不推荐大量连续食用，也不把它当定量补碘食品。各产品当地库存及实物标签优先。
+新增来源：商品链接；巧克力布丁厂家 https://www.conagrabrands.ca/en/brands/snack-pack/sensible-sweets/no-sugar-added-chocolate ；米饼份量 https://www.saveonfoods.com/product/quaker-original-brown-rice-cakes-00055577107799 ；海苔标签 https://www.instacart.ca/products/24513893-delicious-kitchen-roasted-seaweed-snacks-each 。
+--&gt;
+&lt;!-- 2026-09-24放纵餐替代选项：仅增加备选表，不新增固定购买量、不改变当前每周营养、费用或3367.597218294kcal基线赤字。已有Fresca两包的固定摄入不重复计算。表内百分比为该份量热量/基线赤字×100，显示一位小数；不能将小份替代与大份原品的差额解读为同重量营养优劣。真正替代时，净热量变化=替代品热量−原食物热量，不把“节省”额外加到本来就不含放纵餐的基线。
+产品及份量核对：Fresca沿用现行222mL标签0kcal。Coca-Cola加拿大官方无糖无咖啡因版355mL标签0kcal；bubly链接包装标示无热量、无甜味剂。零卡按标签舍入，不等于任意大量饮用的绝对零能量。Jell-O加拿大10.1g盒加250mL热水及250mL冷水，约4份，每份10kcal；只加水，不加果汁、糖或奶油，整盒约40kcal。DEL MONTE草莓冰棒50mL每支50kcal、糖9g，不是无糖食品。Smart Pop选8×31g迷你袋、每整袋110kcal，不套用到70g大袋，不额外加黄油或糖。
+Halo Top加拿大香草款零售文字每125mL80kcal；厂家现版每188mL120kcal，与125mL约80kcal相符。不是整桶80kcal，含脱脂奶、奶蛋白、奶油及蛋，非无乳、非无糖；若个人正在排查乳制品与痘痘的关系，可优先选无乳替代，不承诺本品不会诱发痘痘。零售页库存依门店，当前参考页Halo Top显示缺货；配方和标签变化时以手中包装为准。
+此表只比较份量对应热量，不把低卡等同低钠、低饱和脂肪或可不限量。商品链接为来源；补充品牌核对：https://halotop.ca/flavours/vanilla-bean/ 、 https://www.coca-cola.com/ca/en/brands/coca-cola/products/coca-cola-zero-sugar 。原放纵餐表及隐私注释完整保留。
+--&gt;
 &lt;!--
 沃尔玛换店及Fresca历史营养审计，2026-09-23（豆奶现行口径以“Earth’s Own三桶更新”为准）：
 Fresca六罐装更新，2026-09-23：改为Walmart Fresca Citrus Soda Pop Mini Cans 222mL×6，每周1包，公开页价$3.97，实际以门店结算为准；链接：https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164 。取代下文此前355mL×12每两周一箱的包装和价格记录，Metro备选原表不改。沿用同款222mL标签每罐0kcal、钠45mg、钾10mg：https://www.nofrills.ca/en/grapefruit-soda/p/21022955_C06 。相比每周6罐355mL，钠减少180mg/周，钾减少30mg/周，热量、蛋白质和赤字均不变。购物总额203.98−4.14+3.97=$203.81；下列明细、未取整合计及可见营养表已同步，旧355mL说明只作历史保留。
@@ -1552,6 +1612,23 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
 鸡蛋再次换购更新，2026-09-23：按用户IMG_8022.PNG改回Great Value Grade A White Eggs, Large, 12 ct，每周1盒12个，价格按截图$4.13；6个早餐蛋、6个炒蛋及周日9个、周三3个的取用安排不变。沿用此前该款Walmart商品链接。周购物总额183.21−7.79+4.13=$179.55。上一条Conestoga记录转为历史，不再是当前商品。此前未将Conestoga的额外Omega-3计入营养，因此无需扣减；继续沿用普通大鸡蛋营养代理值，营养总计与热量赤字不变，并非已核实本包装营养标签。
 --&gt;
 &lt;h3 id=&#34;营养统计&#34;&gt;营养统计&lt;/h3&gt;
+&lt;!-- 2026-09-25干米改用克标注：沿用此前240mL≈200g的估算换算，每次110mL≈91.666667g，正文显示91.7g，每次分两餐；每周两次约183.3g。仅改计量单位，营养和费用继续按未取整183.333333g/周计算，不将显示舍入视为份量调整。此换算不是实测米密度；以后按干米重量称取，历史体积记录和Metro备选不改。 --&gt;
+&lt;!-- 2026-09-25主食微减（当前最新口径，覆盖旧用量与合计）：意面每顿干重50g，每次100g、每周200g；白米每次干米110mL，每周220mL，沿用240mL≈200g代理，暂折183.333333g/周。较上一版每周少20g意面、16.666667g干米。沿用意面每85g营养组[300,17,2,0.5,58,8,2,0,4,20,2.5,400]及干米每100g[365,7.13,0.66,0.18,79.95,1.3,0.12,0,5,28,0.8,115]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。新周合计[13219.260313079,1162.170731667,462.268964530,94.793346882,1253.617552352,272.554374451,302.508146530,4396.7,13749.538777725,8325.402685627,136.588143079,34873.404504216]。周热量减少131.421568627kcal；消耗仍16718.2791kcal，赤字3499.018786921kcal，展示3499.02；除7700为理论脂肪等价值0.454418kg/周，不是实际纯脂肪减量保证。意面碘代理减少0.15µg/周、米减少0.1µg/周；ALA分别减少0.004835g、0.001667g/周，均不影响现有显示精度。其他维生素、EPA+DHA及添加糖不变。费用沿用单价：意面3.97×200/340=2.335294，显示2.34；米4.98×183.333333/2000=0.4565，显示0.46；周预算按显示行合计185.06−2.57−0.50+2.34+0.46=184.79。同步放纵餐比例；旧审计和Metro备选保留。未增加此前讨论的额外步行，油、调味、其他饮食及训练不变。 --&gt;
+&lt;p&gt;&lt;strong&gt;每周热量赤字估计3,499.02 kcal，理论脂肪等价值约0.454 kg／周，不代表实际纯脂肪减量。&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 2026-09-24新增纯蛋清（当前最新口径，覆盖下面旧总量）：Naturegg Simply Egg Whites Free Run 500g，每周1盒；周日与周三各250g，分别与原有3个全蛋打匀后炒扇贝或豆腐，每锅分两餐。不替换原12个全蛋，不增加油盐；早餐不变。开封后冷藏0–4°C，按包装5–7天内用完且不超过有效期；取用后立即放回冰箱。蛋液增加后炒制约3–5分钟仅为参考，以完全凝固为准。
+采用厂家相同UPC065651005262、500g装标签，每100g营养组[45,10,0,0,1,0,0,0,160,10,0,125]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。整盒周增[225,50,0,0,5,0,0,0,800,50,0,625]；标签零值受舍入影响，不是检测绝对为零。
+以紧接下方Silk版本为基线，新周合计[13350.681881706,1167.359065,462.849552765,94.940993941,1280.589611176,274.653394059,302.998734765,4396.7,13751.313287529,8334.775234647,137.309711706,34986.688817941]；日均热量1907.240268815kcal、蛋白质166.765580714g、钠1964.473326790mg。其余维生素、碘和Omega-3因没有本品分项数据，沿用此前来源小计/代理估值，不把未计入等同于不含。
+周消耗16718.2791kcal不变，赤字3367.597218294kcal，显示3367.60；理论脂肪等价值0.437350288kg/周，显示0.437。放纵餐百分比同步以未取整赤字更新。费用沿用本轮核实Walmart公开参考价5.47加元/盒，周购物179.59+5.47=185.06；门店价格与库存可能不同。
+标签：https://servicesalimentaires.burnbraefarms.com/en/products/le/00526.html ；商品：https://www.walmart.ca/en/ip/Naturegg-Simply-Egg-Whites-Free-Run-Burnbrae-Farms/6000195508423 ；保存：https://www.burnbraefarms.com/en/products/simply-egg-whites/naturegg-simply-egg-whites-free 。
+--&gt;
+&lt;!-- 2026-09-24豆奶更新（最新口径，优先于以下所有历史营养及赤字记录）：Earth’s Own 1.75L×2换为Silk无糖原味1.89L×2，每周3780mL；早餐200g/天已包含，其他食材和运动不变，Metro历史表保留。
+营养组顺序[kcal,蛋白质g,脂肪g,饱和脂肪g,碳水g,纤维g,总糖g,胆固醇mg,钠mg,钙mg,铁mg,钾mg]。旧豆奶每250mL[70,7,3.5,0.5,3,1,1,0,90,300,1,250]，新豆奶[90,8,4.5,0.5,4,2,1,0,90,300,1,350]。
+周变化[380.8,22.96,19.04,0.56,18.48,16.24,1.12,0,100.8,336,1.12,1792]；新周总量[13125.681881706,1117.359065,462.849552765,94.940993941,1275.589611176,274.653394059,302.998734765,4396.7,12951.313287529,8284.775234647,137.309711706,34361.688817941]。沿用豆腐调味50kcal、640mg钠中点；其他调味细项仍为近似估计，并非完整标签实测。
+周消耗16718.2791kcal不变；赤字3592.597218294kcal，显示3592.60；除7700得到理论脂肪等价值0.466571067kg/周，显示0.467；放纵餐比例按未取整赤字计算。
+新豆奶每250mL维生素D2µg、B12 1µg，周总量分别199.14µg、71.828µg。ALA未取得品牌实测，沿用每250mL 0.3g代理，周总量12.229825g；碘沿用1.3µg/100mL代理，周总量1071.27075µg，二者不确定性较大。EPA+DHA及添加糖范围不变。
+公开参考价4.98加元/桶，周9.96；周购物合计178.57−8.94+9.96=179.59，实际门店价格可能不同。
+来源：商品 https://www.walmart.ca/en/ip/Silk-Organic-Soy-Milk-Alternative-Unsweetened-Original-Dairy-Free/6000190182706 ；品牌 https://www.silkcanada.ca/products/plant-based-beverage/unsweetened-soy-beverage/ ；同款加拿大标签 https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA 。
+--&gt;
 &lt;!-- 下半周虹鳟与豆腐确认，2026-09-23（现行最高优先级）：上半周Coho三文鱼640g、Green Ocean扇贝680g；下半周Your Fresh Market Rainbow Trout Fillet约350g×2盒共700g、Sunrise Extra Firm Tofu350g×2盒共700g。下半周两餐鱼各1片约350g，豆腐炒蛋700g配3个蛋均分两餐；其余用量、调味及运动不变。虹鳟链接https://www.walmart.ca/en/ip/your-fresh-market-rainbow-trout-fillet/6000203879906 ，商品公开规格每盒1片、280–450g，用户指定按350g估算，不把平均重量当固定净重。沿用本轮已查$3.30/100g，700g预算$23.10；三文鱼减为两盒$21.76，周预算177.24−21.76+23.10=$178.58；实付以到货重量和当地门店为准。周三使用的生鱼若周末购买应及时冷冻，使用前在冰箱解冻；流程空气炸锅时间按完全解冻、薄鱼柳单层估计，不能保证仅凭时间熟透；鱼中心70°C检查条件沿用，较厚时需延长，分批不重复加整份调味。
 以上一条豆腐版为基线，扣640g Coho并加700g生养殖虹鳟。Coho每100g沿用[160,21.27,7.67,1.816,0,0,0,51,47,12,0.34,450]；虹鳟USDA FDC173717每100g[141,19.94,6.18,1.383,0,0,0,59,51,25,0.31,377]，依次为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。虹鳟D15.9µg、B12 4.3µg、ALA0.059g、EPA0.217g、DHA0.516g/100g；来源https://fdc.nal.usda.gov/food-details/173717/nutrients ，已读数据镜像https://whatyoueat.io/foods/173717-farmed-rainbow-trout 。这不是Walmart本批次营养标签；物种、饲料和脂肪含量影响估值。
 新周合计[12765.470117,1098.399065,444.280141,94.498641,1270.756670,260.295747,302.349323,4396.7,12211.454464,7953.481117,136.777947,32663.806465]；日均[1823.638588,156.914152,63.468592,13.499806,181.536667,37.185107,43.192760,628.1,1744.493495,1136.211588,19.539707,4666.258066]。周热量比仅换豆腐版少37kcal，蛋白质多3.452g；周消耗仍16677.7291kcal，赤字3912.258983kcal，显示3900，放纵餐表的显示分母不变。相比扇贝和三文鱼均未换的版本，周热量净增加421.588235kcal，不能把换鱼误算为抵消全部豆腐增量。
@@ -1574,44 +1651,44 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,740 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,820 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,219 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,888 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,094 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约156 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,162 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约166 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约444 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约63.4 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约462 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约66.0 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约94.4 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约94.8 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约13.5 g&lt;/td&gt;
           &lt;td&gt;≤11 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,257 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约180 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,254 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约179 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约258 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约36.9 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约273 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约38.9 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约302 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约43.1 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约303 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约43.2 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1628,38 +1705,38 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,850 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,840 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,750 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,960 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7,950 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,140 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8,330 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,190 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约136 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约137 mg&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约19.5 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约32,570 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,650 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约34,870 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,980 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;维生素D&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约197 µg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约28.1 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约199 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约28.4 µg&lt;/td&gt;
           &lt;td&gt;15 µg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;维生素B12&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约70.7 µg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约10.1 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约71.8 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10.3 µg&lt;/td&gt;
           &lt;td&gt;2.4 µg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1670,7 +1747,7 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Omega-3：ALA&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11.9 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12.2 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约1.7 g&lt;/td&gt;
           &lt;td&gt;1.6 g&lt;/td&gt;
       &lt;/tr&gt;
@@ -1928,12 +2005,13 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;!-- 2026-09-23动作替换：用户确认周一交替触肩改为哑铃侧平举2组×12–20次，周二双腿哑铃臀桥改为哑铃罗马尼亚硬拉2组×10–15次；周五单腿臀桥及其余动作不变。侧平举仅在动作稳定、不借力且保留约2次余力时沿用上肢日每只10 lb片重，否则改为每端1片2.5 lb、每只5 lb片重，必要时更轻；安全减重可能增加换片次数，不为统一重量勉强完成。罗马尼亚硬拉工作组目标每只15 lb片重，先轻重量练习髋铰链，动作不稳时降至10 lb。次数为试练范围，不保证同重量适合所有动作。总工作组不变，训练时间和赤字暂沿用原估值，不假定替换动作会产生可精确计算的额外消耗。示范链接：https://www.youtube.com/watch?v=PzsMitRdI_8 ，https://www.youtube.com/watch?v=QFbZevA7dps 。 --&gt;
 &lt;h3 id=&#34;周一上肢推拉与核心&#34;&gt;周一：上肢推拉与核心&lt;/h3&gt;
 &lt;p&gt;哑铃配重：10 lb&lt;/p&gt;
-&lt;p&gt;预估时间：27–39 分钟。&lt;/p&gt;
+&lt;p&gt;预估时间：30–44 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WDIpL0pjun0&#34;&gt;俯卧撑&lt;/a&gt;（Push-up）：4 组 × 8–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aI2hGzsAMXs&#34;&gt;站姿哑铃肩推&lt;/a&gt;（Standing dumbbell shoulder press）：2 组 × 6–10 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6gvmcqr226U&#34;&gt;双哑铃俯身划船&lt;/a&gt;（Dumbbell bent-over row）：4 组 × 10–15 次；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PzsMitRdI_8&#34;&gt;哑铃侧平举&lt;/a&gt;（Dumbbell lateral raise）：2 组 × 12–20 次；每只10 lb，需甩动借力或达不到12次时减至5 lb或更轻；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PzsMitRdI_8&#34;&gt;哑铃侧平举&lt;/a&gt;（Dumbbell lateral raise）：2 组 × 12–20 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H-rqYm0xSZk&#34;&gt;哑铃反向飞鸟&lt;/a&gt;（Dumbbell reverse fly）：2 组 × 12–20 次；每只5 lb或更轻；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=mwlp75MS6Rg&#34;&gt;平板支撑&lt;/a&gt;（Plank）：2 组 × 30–60 秒&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周二下肢与臀部&#34;&gt;周二：下肢与臀部&lt;/h3&gt;
@@ -1942,20 +2020,22 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CkFzgR55gho&#34;&gt;哑铃高脚杯深蹲&lt;/a&gt;（Dumbbell goblet squat）：4 组 × 10–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Q2k3kYbtOcI&#34;&gt;哑铃反向弓步&lt;/a&gt;（Dumbbell reverse lunge）：2 组 × 8–12 次／腿；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QFbZevA7dps&#34;&gt;哑铃罗马尼亚硬拉&lt;/a&gt;（Dumbbell Romanian deadlift）：2 组 × 10–15 次；每只15 lb，先轻重量熟悉动作；膝微屈、髋向后推、背部保持中立；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QFbZevA7dps&#34;&gt;哑铃罗马尼亚硬拉&lt;/a&gt;（Dumbbell Romanian deadlift）：2 组 × 10–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：2 组 × 12–20 次；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;周四上肢推拉与核心&#34;&gt;周四：上肢推拉与核心&lt;/h3&gt;
 &lt;p&gt;哑铃配重：10 lb&lt;/p&gt;
-&lt;p&gt;预估时间：32–44 分钟。&lt;/p&gt;
+&lt;p&gt;预估时间：35–49 分钟。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WDIpL0pjun0&#34;&gt;俯卧撑&lt;/a&gt;（Push-up）：4 组 × 8–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aI2hGzsAMXs&#34;&gt;站姿哑铃肩推&lt;/a&gt;（Standing dumbbell shoulder press）：2 组 × 6–10 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6gvmcqr226U&#34;&gt;双哑铃俯身划船&lt;/a&gt;（Dumbbell bent-over row）：3 组 × 10–15 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=myKN7H6ju38&#34;&gt;阻力带高位下拉&lt;/a&gt;（Resistance-band lat pulldown）：3 组 × 10–15 次；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PzsMitRdI_8&#34;&gt;哑铃侧平举&lt;/a&gt;（Dumbbell lateral raise）：2 组 × 12–20 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bxn9FBrt4-A&#34;&gt;死虫式&lt;/a&gt;（Dead bug）：2 组 × 10 次／侧；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=44ND4bOB-T0&#34;&gt;侧平板支撑&lt;/a&gt;（Side plank）：2 组 × 30–45 秒／侧&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kovofitness.com/exercises/kettlebell-suitcase-hold&#34;&gt;单手哑铃提重站立&lt;/a&gt;（Suitcase hold）：2 组 × 30–45 秒／侧&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- Suitcase hold替代侧平板，组数、预估时长和热量赤字暂不变。10 lb沿用周四片重，仅为起点，不保证与原侧平板刺激等效；负重不足时侧腹增肌刺激有限。链接为壶铃静态示范，本计划使用哑铃。 --&gt;
 &lt;h3 id=&#34;周五下肢与核心&#34;&gt;周五：下肢与核心&lt;/h3&gt;
 &lt;p&gt;哑铃配重：15 lb&lt;/p&gt;
 &lt;p&gt;预估时间：27–39 分钟。&lt;/p&gt;
@@ -1966,6 +2046,179 @@ Fresca https://www.saveonfoods.com/product/00067000005558
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wxwY7GXxL4k&#34;&gt;哑铃双腿提踵&lt;/a&gt;（Standing dumbbell calf raise）：2 组 × 12–20 次；&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jLxtFNO0r50&#34;&gt;空心支撑&lt;/a&gt;（Hollow hold）：2 组 × 20–40 秒&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;主要健身肌群与每周训练量&#34;&gt;主要健身肌群与每周训练量&lt;/h3&gt;
+&lt;!-- 2026-09-25反向飞鸟加入：用户确认周一增加反向飞鸟2组×12–20次，视频沿用已提供的Zesty Health and Fitness示范。此动作先用每只5 lb片重（每端1片2.5 lb）或更轻，不为统一10 lb牺牲控制；握杆、锁扣重量仍未计入标重。周一16组、周四18组，全周57组；周一预估额外3–5分钟。肩后侧直接2组加划船间接参与，定性评价暂为基本充足的起点，不表示最优；斜方肌增加辅助反向飞鸟2组。替代下方“反向飞鸟未加入”的历史状态，其他训练和饮食不变；延续前次保守口径，不将少量新增消耗计入赤字。动作要点参考：https://www.strengthlog.com/reverse-dumbbell-flyes/ 。 --&gt;
+&lt;!-- 2026-09-25肩外侧加组：用户只确认增加最高优先级的肩外侧训练。周四新增侧平举2组×12–20次，与周一相同，共4组/周，配重及减重条件沿用周一；其他动作不变，反向飞鸟仅作对话演示、未加入计划。周四18组，全周55组（单侧按每侧计一次），取代旧53组审计；周四预估额外3–5分钟。肩外侧在难度足够的前提下调为基本充足的起点，不表示增肌最优。少量新增消耗未计入赤字，暂保留原热量估值，不把此次加组作为可保证的额外消耗。 --&gt;
+&lt;h4 id=&#34;示意图&#34;&gt;示意图&lt;/h4&gt;
+&lt;div class=&#34;fig-env&#34; id=&#34;muscle-anatomy-front&#34; data-lang=&#34;zh&#34;&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img
+        src=&#34;http://localhost:1313/img/fitness-muscles-front.png&#34;
+        alt=&#34;主要健身肌群正面简图：胸肌 Chest、肩前侧 Front delts、肩外侧 Side delts、二头肌 Biceps、小臂 Forearms、腹肌 Abs、侧腹 Obliques、大腿前侧 Quads。&#34;
+        style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
+      &gt;&lt;/div&gt;
+
+  &lt;div class=&#34;fig-caption&#34;&gt;
+    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;fig-text&#34;&gt;主要健身肌群：正面。AI生成简图，仅示意大致位置。&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;fig-env&#34; id=&#34;muscle-anatomy-back&#34; data-lang=&#34;zh&#34;&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img
+        src=&#34;http://localhost:1313/img/fitness-muscles-back.png&#34;
+        alt=&#34;主要健身肌群背面简图：肩后侧 Rear delts、斜方肌 Traps、背阔肌 Lats、三头肌 Triceps、下背 Lower back、臀部 Glutes、大腿后侧 Hamstrings、小腿 Calves。&#34;
+        style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
+      &gt;&lt;/div&gt;
+
+  &lt;div class=&#34;fig-caption&#34;&gt;
+    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;fig-text&#34;&gt;主要健身肌群：背面。AI生成简图，仅示意大致位置。&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;当前计划对应表&#34;&gt;当前计划对应表&lt;/h4&gt;
+&lt;!-- 
+
+只列主要健身肌群，使用常用中英文名称。数字为每周组数，单侧按每侧计；「—」表示没有单独列计，不代表完全没练到。
+
+统一按增肌目标估计：充足、基本充足、偏少；信息不足时标为「难判断」。假设动作规范、目标肌群受到足够负荷；评价不代表实测效果或最优训练量。--&gt;
+&lt;!-- 2026-09-25统一评价口径：以增肌训练覆盖程度为唯一评价目标，替代此前混用稳定功能的分级。腹肌6个直接核心组在动作难度足够的前提下估为基本充足；侧腹仅2个直接组，保守估为偏少；小臂、下背主要依赖握持和姿势维持，缺少局部受力及疲劳信息，标为难判断，不把稳定功能覆盖直接等同于增肌充足。均为计划层面估计，不是量化阈值；动作、组数、配重和热量估值不变。 --&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;肌群&lt;/th&gt;
+          &lt;th&gt;常用英文&lt;/th&gt;
+          &lt;th&gt;主要训练：动作与组数&lt;/th&gt;
+          &lt;th&gt;辅助参与或稳定&lt;/th&gt;
+          &lt;th&gt;训练量水平&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;胸肌&lt;/td&gt;
+          &lt;td&gt;Chest&lt;/td&gt;
+          &lt;td&gt;俯卧撑8组&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;肩前侧&lt;/td&gt;
+          &lt;td&gt;Front delts&lt;/td&gt;
+          &lt;td&gt;肩推4组&lt;/td&gt;
+          &lt;td&gt;俯卧撑8组&lt;/td&gt;
+          &lt;td&gt;充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;肩外侧&lt;/td&gt;
+          &lt;td&gt;Side delts&lt;/td&gt;
+          &lt;td&gt;侧平举4组&lt;/td&gt;
+          &lt;td&gt;肩推4组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;肩后侧&lt;/td&gt;
+          &lt;td&gt;Rear delts&lt;/td&gt;
+          &lt;td&gt;反向飞鸟2组&lt;/td&gt;
+          &lt;td&gt;划船7组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;背阔肌&lt;/td&gt;
+          &lt;td&gt;Lats&lt;/td&gt;
+          &lt;td&gt;划船7组、下拉3组&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;斜方肌&lt;/td&gt;
+          &lt;td&gt;Traps&lt;/td&gt;
+          &lt;td&gt;划船7组&lt;/td&gt;
+          &lt;td&gt;下拉3组、肩推4组、侧平举4组、反向飞鸟2组、单手提重站立2组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;二头肌&lt;/td&gt;
+          &lt;td&gt;Biceps&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;划船7组、下拉3组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;三头肌&lt;/td&gt;
+          &lt;td&gt;Triceps&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;俯卧撑8组、肩推4组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;小臂&lt;/td&gt;
+          &lt;td&gt;Forearms&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;划船7组、罗马尼亚硬拉2组、单手提重站立2组&lt;/td&gt;
+          &lt;td&gt;难判断&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;腹肌&lt;/td&gt;
+          &lt;td&gt;Abs&lt;/td&gt;
+          &lt;td&gt;平板支撑2组、死虫式2组、空心支撑2组&lt;/td&gt;
+          &lt;td&gt;俯卧撑8组、高脚杯深蹲4组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;侧腹&lt;/td&gt;
+          &lt;td&gt;Obliques&lt;/td&gt;
+          &lt;td&gt;单手提重站立2组&lt;/td&gt;
+          &lt;td&gt;平板支撑2组、死虫式2组、空心支撑2组&lt;/td&gt;
+          &lt;td&gt;偏少&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下背&lt;/td&gt;
+          &lt;td&gt;Lower back&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;划船7组、罗马尼亚硬拉2组、高脚杯深蹲4组、单手提重站立2组&lt;/td&gt;
+          &lt;td&gt;难判断&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;臀部&lt;/td&gt;
+          &lt;td&gt;Glutes&lt;/td&gt;
+          &lt;td&gt;高脚杯深蹲4组、反向弓步2组、罗马尼亚硬拉2组、分腿蹲3组、单腿臀桥2组&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;大腿前侧&lt;/td&gt;
+          &lt;td&gt;Quads&lt;/td&gt;
+          &lt;td&gt;高脚杯深蹲4组、反向弓步2组、分腿蹲3组&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;大腿后侧&lt;/td&gt;
+          &lt;td&gt;Hamstrings&lt;/td&gt;
+          &lt;td&gt;罗马尼亚硬拉2组、腿弯举4组&lt;/td&gt;
+          &lt;td&gt;单腿臀桥2组&lt;/td&gt;
+          &lt;td&gt;基本充足&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;小腿&lt;/td&gt;
+          &lt;td&gt;Calves&lt;/td&gt;
+          &lt;td&gt;直膝提踵4组&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;偏少&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- 2026-09-25简化肌群图表：正背面均改为内置imagegen生成的常用中英名称简图，只表达大致位置，不作为精细解剖图。表格从24行精简为16行，与图中标签一致，删除深层稳定肌和细分解剖全称。Traps合并此前中束与上、下束两行，评价概括整体覆盖，不表示各束刺激相同；不增加或减少任何实际训练。旧OpenStax文件及下方署名记录仅作为历史保留，不是新图来源。 --&gt;
+&lt;!-- 2026-09-25训练量定性评价：按用户要求新增简短评价列，保留全部动作和组数，不恢复折算组数或冲量列，不调整训练及热量估值。评价是一般增肌和基础稳定功能目标下的计划层面推断，不是研究验证的个人分级；“基本充足”表示可作为起点，不表示手臂无需直接训练或所有肌肉均能获得最优增长。参考ACSM 2026关于努力程度、个体化及增肌周训练量的原则：https://acsm.org/resistance-training-guidelines-update-2026/ 。不把约10组视为统一达标线。后束按当前肘靠近躯干的划船假设保守评为偏少；小腿4组仍可有效，偏少不等于无效；稳定肌的基本覆盖不代表专项功能、康复需求或肌肥大已充分满足。固定配重若完成次数上限仍轻松，实际刺激可能低于表内估计；需随动作质量、余力、恢复和进步调整。 --&gt;
+&lt;!-- 
+目前胸、背、股四头肌和臀部的主要组数较多；肩中束只有2个直接组，肩后束和手臂主要靠复合动作，小腿4组。这里只统计，不自动增减训练。
+
+还可记录「训练容量」（volume load）＝重量×次数×组数，例如10 kg×12次×3组＝360 kg·次；适合比较同一动作的进步，不适合直接比较深蹲、俯卧撑和弹力带，也不是某块肌肉实际承受的总负荷。你的哑铃标重只计配重片，若计算总负荷需另加握杆和锁扣。等长动作另记组数×保持秒数。[计量说明](https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/)--&gt;
+&lt;!-- 2026-09-25肌肉覆盖审计：仅新增知识图及统计，不改变动作、次数、配重、饮食、训练消耗或赤字。按正文而非旧注释核对：周一14组、周二10组、周四16组、周五13组，共53个动作工作组（单侧按每侧计一次；不代表实际左右轮次总和）。俯卧撑8、肩推4、划船7、侧平举2、下拉3、深蹲4、反向弓步2、RDL2、分腿蹲3、腿弯举4、单腿臀桥2、提踵4、平板2、死虫2、侧平板2、空心支撑2。
+主要/辅助归类是基于当前动作名称的保守记账约定，并非逐动作干预试验确认的个人折算系数。肩推对三头、划船/下拉对屈肘肌虽可产生实质刺激，仍列辅助，以免把复合动作对所有肌肉一律算满。划船暂按肘较靠近躯干且肩胛有控制移动的常规方式；肘张开程度会改变背阔肌/后束分配。深蹲、弓步、分腿蹲的臀肌刺激随深度、步幅、躯干姿态变化。前臂握持、肩袖、前锯肌、竖脊肌等稳定参与不强行折算；0专门组不等于无训练效应。核心等长工作组不与动态增肌组机械等效。
+只有难度足够、动作控制和活动范围合适的工作组才有较好的可比性；不知道用户实际RIR，不能把计划组数当作已完成的有效刺激量。若固定配重下做完次数上限仍很轻松，应先检查难度，而不是仅凭表格加组。0.5只是Pelland等元回归比较的一种假设，不是已验证的每块肌肉恒定换算率。
+图片：OpenStax Anatomy and Physiology 8.25版，2016；Wikimedia Commons原文件 https://upload.wikimedia.org/wikipedia/commons/9/91/1105_Anterior_and_Posterior_Views_of_Muscles.jpg ，下载原图、未修改，CC BY 4.0许可与署名见figure图注。未使用OpenStax当前改为其他许可的新版图；此旧版授权取自Commons文件页。表格仅涵盖健身常用主要肌群，不声称列尽人体全部肌肉。图中股直肌/股内侧肌/股外侧肌属于股四头肌，股二头肌/半腱肌/半膜肌属于腘绳肌群；图是不同深度的解剖展示，不是全部肌肉同时在体表可见。
+解剖核对：https://openstax.org/books/anatomy-and-physiology/pages/11-2-naming-skeletal-muscles ；训练量资料：https://acsm.org/resistance-training-guidelines-update-2026/ 、https://www.fisiologiadelejercicio.com/wp-content/uploads/2025/12/The-Resistance-Training-Dose-Response.pdf 、https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ 。 --&gt;
 </description>
     </item>
     

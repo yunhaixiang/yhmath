@@ -6,69 +6,7 @@
     <description>Recent content in Expositions on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>$\ell$-Independence</title>
-      <link>http://localhost:1313/posts/2d8f6b0/</link>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/2d8f6b0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compatible Systems and Rationality</title>
-      <link>http://localhost:1313/posts/7a9c1e4/</link>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/7a9c1e4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grothendieck’s $\ell$-adic Monodromy Theorem</title>
-      <link>http://localhost:1313/posts/6439cea/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/6439cea/</guid>
-      <description>&lt;p&gt;Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
-an $\ell$-adic representation arising from geometry is quasi-unipotent. This
-post will explain the local Galois groups involved, state the theorem, and
-discuss the monodromy operator that records the unipotent part.&lt;/p&gt;
-&lt;h2 id=&#34;local-fields-and-inertia&#34;&gt;Local Fields and Inertia&lt;/h2&gt;
-&lt;h2 id=&#34;-adic-representations&#34;&gt;$\ell$-adic Representations&lt;/h2&gt;
-&lt;h2 id=&#34;statement-of-the-monodromy-theorem&#34;&gt;Statement of the Monodromy Theorem&lt;/h2&gt;
-&lt;h2 id=&#34;the-monodromy-operator&#34;&gt;The Monodromy Operator&lt;/h2&gt;
-&lt;h2 id=&#34;weildeligne-representations&#34;&gt;Weil–Deligne Representations&lt;/h2&gt;
-&lt;h2 id=&#34;examples-and-consequences&#34;&gt;Examples and Consequences&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Néron–Ogg–Shafarevich and Serre–Tate Criteria</title>
-      <link>http://localhost:1313/posts/68915c5/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:01 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/68915c5/</guid>
-      <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
-  &lt;div class=&#34;yh-pullquote-text&#34;&gt;
-    Mathematics is the art of giving the same name to different things.
-  &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Henri Poincaré&lt;/div&gt;&lt;/aside&gt;
-&lt;h2 id=&#34;néron-models-and-good-reduction&#34;&gt;Néron Models and Good Reduction&lt;/h2&gt;
-&lt;h2 id=&#34;the-néronoggshafarevich-criterion&#34;&gt;The Néron–Ogg–Shafarevich Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;the-serretate-criterion&#34;&gt;The Serre–Tate Criterion&lt;/h2&gt;
-&lt;h2 id=&#34;comparison-and-examples&#34;&gt;Comparison and Examples&lt;/h2&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;div class=&#34;bib-env&#34;&gt;
-  &lt;ul class=&#34;bib-list&#34;&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-    </item>
-    
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/expositions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Middle Extension and Middle Convolution</title>
       <link>http://localhost:1313/posts/1b64c0e/</link>
@@ -194,7 +132,34 @@ $$\begin{aligned}
 &lt;p&gt;This is independent of the choice of $V$: given two choices $V_1,V_2$, restrict both local systems to $(V_1\cap V_2)^{\mathrm{an}}$. Each restriction removes only finitely many points, so the invariance proved above shows that both choices give the same index.&lt;/p&gt;
 &lt;p&gt;For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}^{\mathrm{irr}}(U)$ of irreducible middle extension sheaves. Whenever $i:V\hookrightarrow U$ is an open inclusion the functors $(i^{\mathrm{an}})_*$ and $(i^{\mathrm{an}})^*$ are inverse equivalences between $\mathrm{ME}^{\mathrm{irr}}(U)$ and $\mathrm{ME}^{\mathrm{irr}}(V)$. Given two nonempty Zariski opens $U_1,U_2$ and pick any nonempty $V\subseteq U_1\cap U_2$ (exists by irreducibility) with inclusions $i_1:V\hookrightarrow U_1$ and $i_2:V\hookrightarrow U_2$. We get equivalences $\varphi_{1,2}=(i_2^{\mathrm{an}})_*(i_1^{\mathrm{an}})^*$ between $\mathrm{ME}^{\mathrm{irr}}(U_1)$ and $\mathrm{ME}^{\mathrm{irr}}(U_2)$. Moreover, given three such opens then $\varphi_{1,3}=\varphi_{2,3}\circ \varphi_{1,2}$. Hence all these categories can be identified canonically.&lt;/p&gt;
 &lt;h2 id=&#34;review-of-perverse-sheaves&#34;&gt;Review of Perverse Sheaves&lt;/h2&gt;
-&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
+&lt;p&gt;Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves.&lt;/p&gt;
+&lt;div class=&#34;math-env style-defn&#34; 
+    
+     data-kind=&#34;definition&#34;
+     data-lang=&#34;en&#34;
+     data-numbered=&#34;true&#34;&gt;
+  &lt;span class=&#34;math-heading&#34;&gt;
+  &lt;span class=&#34;math-title&#34;
+        data-label=&#39;Definition&#39;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;math-body&#34;&gt;
+    &lt;p&gt;Let $f:X\to\operatorname{Spec}\mathbb C$ be the structural morphism. The &lt;em&gt;dualizing complex&lt;/em&gt; is
+&lt;/p&gt;
+$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(f^{\mathrm{an}})^!\mathbb C,$$&lt;p&gt;
+where $(f^{\mathrm{an}})^!$ is the right adjoint of $\mathrm R(f^{\mathrm{an}})_!$. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its &lt;em&gt;Verdier dual&lt;/em&gt; is
+&lt;/p&gt;
+$$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$&lt;p&gt;
+Here $\mathrm R\mathcal{H}om$ is the derived &lt;strong&gt;sheaf&lt;/strong&gt; Hom, so the result is again an object of $D_c^b(X^{\mathrm{an}},\mathbb C)$, not a complex of global Hom spaces. This defines a contravariant functor, and the natural biduality morphism $K\to\mathbb D_{X/\mathbb C}\mathbb D_{X/\mathbb C}K$ is an isomorphism &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+data-cite-key=&#34;Kat96&#34; data-cite-note=&#34;§§2.1.1–2.1.2&#34;&gt;
+⟦cite:Kat96⟧
+&lt;/span&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If $X$ is smooth of pure complex dimension $d$, then $\omega_{X^{\mathrm{an}}}^{\bullet}\cong\underline{\mathbb C}_{X^{\mathrm{an}}}[2d]$. In particular, for a finite-rank local system $\mathcal L$ on $X^{\mathrm{an}}$,
+&lt;/p&gt;
+$$\mathbb D_{X/\mathbb C}(\mathcal L[d])\cong\mathcal L^\vee[d].$$&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
 &lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;

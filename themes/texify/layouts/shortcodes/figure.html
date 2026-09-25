@@ -5,16 +5,28 @@
 {{- $caption := .Get "caption" | default "" -}}
 {{- $width   := .Get "width"   | default "60%" -}}
 {{- $lang    := .Get "lang"    | default .Page.Language.Lang -}}
+{{- $cropAspect := .Get "cropAspect" | default "" -}}
+{{- $cropPosition := .Get "cropPosition" | default "center" -}}
 {{- $captionHTML := $caption | markdownify | replaceRE `(?s)^\s*<p>(.*)</p>\s*$` `$1` -}}
 
 <div class="fig-env" {{ with $id }}id="{{ . }}"{{ end }} data-lang="{{ $lang }}">
   <div class="fig-body">
     {{- with $src -}}
+      {{- if $cropAspect -}}
+      <div style="width: {{ $width }}; max-width: 100%; aspect-ratio: {{ $cropAspect | safeCSS }}; position: relative; overflow: hidden; margin: 0 auto;">
+        <img
+          src="{{ . }}"
+          alt="{{ $alt }}"
+          style="position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: {{ $cropPosition }}; display: block;"
+        >
+      </div>
+      {{- else -}}
       <img
         src="{{ . }}"
         alt="{{ $alt }}"
         style="max-width: {{ $width }}; height: auto; display: block; margin: 0 auto;"
       >
+      {{- end -}}
     {{- end -}}
   </div>
 
