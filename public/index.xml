@@ -147,18 +147,11 @@ $$\begin{aligned}
 $$\omega_{X^{\mathrm{an}}}^{\bullet}:=(f^{\mathrm{an}})^!\mathbb C,$$&lt;p&gt;
 where $(f^{\mathrm{an}})^!$ is the right adjoint of $\mathrm R(f^{\mathrm{an}})_!$. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its &lt;em&gt;Verdier dual&lt;/em&gt; is
 &lt;/p&gt;
-$$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$&lt;p&gt;
-Here $\mathrm R\mathcal{H}om$ is the derived &lt;strong&gt;sheaf&lt;/strong&gt; Hom, so the result is again an object of $D_c^b(X^{\mathrm{an}},\mathbb C)$, not a complex of global Hom spaces. This defines a contravariant functor, and the natural biduality morphism $K\to\mathbb D_{X/\mathbb C}\mathbb D_{X/\mathbb C}K$ is an isomorphism &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
-data-cite-key=&#34;Kat96&#34; data-cite-note=&#34;§§2.1.1–2.1.2&#34;&gt;
-⟦cite:Kat96⟧
-&lt;/span&gt;.&lt;/p&gt;
-
+$$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;If $X$ is smooth of pure complex dimension $d$, then $\omega_{X^{\mathrm{an}}}^{\bullet}\cong\underline{\mathbb C}_{X^{\mathrm{an}}}[2d]$. In particular, for a finite-rank local system $\mathcal L$ on $X^{\mathrm{an}}$,
-&lt;/p&gt;
-$$\mathbb D_{X/\mathbb C}(\mathcal L[d])\cong\mathcal L^\vee[d].$$&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
+&lt;h2 id=&#34;review-of-convolution&#34;&gt;Review of Convolution&lt;/h2&gt;
 &lt;h2 id=&#34;middle-convolution&#34;&gt;Middle Convolution&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
