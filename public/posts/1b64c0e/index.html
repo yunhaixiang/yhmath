@@ -16,7 +16,7 @@
   — Nicholas M. Katz
 In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book 
   ⟦cite:Kat96⟧
-. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
+. This chapter introduces middle extension sheaves, which can be used to build perverse sheaves.">
   
 
   
@@ -89,13 +89,13 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
   
   <meta property="og:url" content="http://localhost:1313/posts/1b64c0e/">
   <meta property="og:site_name" content="Yunhai Xiang">
-  <meta property="og:title" content="Middle Extension and Middle Convolution">
-  <meta property="og:description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
+  <meta property="og:title" content="Middle Extension Sheaves">
+  <meta property="og:description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle extension sheaves, which can be used to build perverse sheaves.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-09-16T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-09-24T13:26:42-04:00">
+    <meta property="article:modified_time" content="2026-09-16T00:00:01-04:00">
     <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Algebraic-Geometry">
     <meta property="article:tag" content="Cohomology">
@@ -107,11 +107,11 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
   
   
   
-  <meta itemprop="name" content="Middle Extension and Middle Convolution">
-  <meta itemprop="description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
+  <meta itemprop="name" content="Middle Extension Sheaves">
+  <meta itemprop="description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle extension sheaves, which can be used to build perverse sheaves.">
   <meta itemprop="datePublished" content="2026-09-16T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-09-24T13:26:42-04:00">
-  <meta itemprop="wordCount" content="809">
+  <meta itemprop="dateModified" content="2026-09-16T00:00:01-04:00">
+  <meta itemprop="wordCount" content="1153">
   <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
 
   
@@ -127,14 +127,14 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
 
   
   
-  <title>Middle Extension and Middle Convolution - Yunhai Xiang</title>
+  <title>Middle Extension Sheaves - Yunhai Xiang</title>
   
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Middle Extension and Middle Convolution">
-  <meta name="twitter:description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.">
+  <meta name="twitter:title" content="Middle Extension Sheaves">
+  <meta name="twitter:description" content="Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled. — Nicholas M. Katz In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz&#39;s book ⟦cite:Kat96⟧ . This chapter introduces middle extension sheaves, which can be used to build perverse sheaves.">
 
 
   
@@ -217,7 +217,7 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
 <main id="main" class="post">
   
   <div class="post-heading">
-    <h1 class="post-title">Middle Extension and Middle Convolution</h1>
+    <h1 class="post-title">Middle Extension Sheaves</h1>
     <div class="publish-metadata">
       
       <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -231,7 +231,7 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          809 words
+          1153 words
         </span>
       
       
@@ -244,7 +244,7 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12L14.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          ~4 mins
+          ~6 mins
         </span>
       
     </div>
@@ -283,7 +283,6 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
     <li><a href="#middle-extension-sheaves">Middle Extension Sheaves</a></li>
     <li><a href="#review-of-perverse-sheaves">Review of Perverse Sheaves</a></li>
     <li><a href="#review-of-convolution">Review of Convolution</a></li>
-    <li><a href="#middle-convolution">Middle Convolution</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -298,7 +297,7 @@ In the last post, I wrote about rigid local systems à la Katz, in particular th
 <p>In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz's book <span class="yh-ref" data-ref-kind="bib"
       data-cite-key="Kat96">
   ⟦cite:Kat96⟧
-</span>. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems.</p>
+</span>. This chapter introduces middle extension sheaves, which can be used to build perverse sheaves.</p>
 <h2 id="middle-extension-sheaves">Middle Extension Sheaves</h2>
 <p>Let $X=\mathbb P^1_{\mathbb C}$, $S\subset X(\mathbb C)$ a finite set of size $m\ge1$, $U=X\setminus S$, and $j:U\hookrightarrow X$ be the open immersion inducing $j^{\mathrm{an}}:U^{\mathrm{an}}\hookrightarrow X^{\mathrm{an}}$. Let $\mathcal F$ be an irreducible $\mathbb C$-local system on $U^{\mathrm{an}}$ of rank $n\ge1$. We know that $\mathcal F$ is physically rigid iff $\chi(X^{\mathrm{an}},(j^{\mathrm{an}})_*\mathrm{End}(\mathcal F))=2$.</p>
 <div class="math-env style-defn" 
@@ -410,7 +409,7 @@ $$\begin{aligned}
 <p>This is independent of the choice of $V$: given two choices $V_1,V_2$, restrict both local systems to $(V_1\cap V_2)^{\mathrm{an}}$. Each restriction removes only finitely many points, so the invariance proved above shows that both choices give the same index.</p>
 <p>For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}^{\mathrm{irr}}(U)$ of irreducible middle extension sheaves. Whenever $i:V\hookrightarrow U$ is an open inclusion the functors $(i^{\mathrm{an}})_*$ and $(i^{\mathrm{an}})^*$ are inverse equivalences between $\mathrm{ME}^{\mathrm{irr}}(U)$ and $\mathrm{ME}^{\mathrm{irr}}(V)$. Given two nonempty Zariski opens $U_1,U_2$ and pick any nonempty $V\subseteq U_1\cap U_2$ (exists by irreducibility) with inclusions $i_1:V\hookrightarrow U_1$ and $i_2:V\hookrightarrow U_2$. We get equivalences $\varphi_{1,2}=(i_2^{\mathrm{an}})_*(i_1^{\mathrm{an}})^*$ between $\mathrm{ME}^{\mathrm{irr}}(U_1)$ and $\mathrm{ME}^{\mathrm{irr}}(U_2)$. Moreover, given three such opens then $\varphi_{1,3}=\varphi_{2,3}\circ \varphi_{1,2}$. Hence all these categories can be identified canonically.</p>
 <h2 id="review-of-perverse-sheaves">Review of Perverse Sheaves</h2>
-<p>Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves.</p>
+<p>Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves. This formalism supports Grothendieck's &quot;six operations&quot; which we will use.</p>
 <div class="math-env style-defn" 
     
      data-kind="definition"
@@ -421,23 +420,167 @@ $$\begin{aligned}
         data-label='Definition'></span>
   </span>
   <div class="math-body">
-    <p>Let $f:X\to\operatorname{Spec}\mathbb C$ be the structural morphism. The <em>dualizing complex</em> is
+    <p>For a morphism $f:X\to Y$ of separated $\mathbb C$-schemes of finite type, the <em>direct image with proper support</em> is the functor defined, for a sheaf $\mathcal F$ on $X^{\mathrm{an}}$ and an open subset $V\subseteq Y^{\mathrm{an}}$, by
 </p>
-$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(f^{\mathrm{an}})^!\mathbb C,$$<p>
-where $(f^{\mathrm{an}})^!$ is the right adjoint of $\mathrm R(f^{\mathrm{an}})_!$. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its <em>Verdier dual</em> is
+$$\bigl((f^{\mathrm{an}})_!\mathcal F\bigr)(V)=\bigl\{s\in\Gamma((f^{\mathrm{an}})^{-1}(V),\mathcal F):\textrm{The map }\operatorname{Supp}(s)\hookrightarrow(f^{\mathrm{an}})^{-1}(V)\xrightarrow{f^{\mathrm{an}}}V\text{ is proper}\bigr\}.$$<p>The <em>extraordinary inverse image</em> $(f^{\mathrm{an}})^!$ is its right adjoint, characterized by isomorphisms
+</p>
+$$\operatorname{Hom}_{\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)}\!\left(K,(f^{\mathrm{an}})^!L\right)\cong\operatorname{Hom}_{\mathrm D_c^b(Y^{\mathrm{an}},\mathbb C)}\!\left(\mathrm R(f^{\mathrm{an}})_!K,L\right),$$<p>
+natural in $K\in\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ and $L\in\mathrm D_c^b(Y^{\mathrm{an}},\mathbb C)$. We denote $a:X\to\operatorname{Spec}\mathbb C$ as the structural morphism. The <em>dualizing complex</em> is
+</p>
+$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(a^{\mathrm{an}})^!\mathbb C,$$<p>
+where $\mathbb C$ is concentrated at degree zero. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its <em>Verdier dual</em> <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Mat11" data-cite-note="Theorem 1.3 and §4">
+⟦cite:Mat11⟧
+</span> is
 </p>
 $$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$
   </div>
 </div>
 
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>A complex $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ is called <em>semiperverse</em> if
+</p>
+$$\mathrm{dim}\,\mathrm{Supp}(\mathcal H^i(K))\le -i$$<p>
+for all $i\in\mathbb Z$, and <em>perverse</em> if both $K$ and $\mathbb D_{X/\mathbb C}K$ are semiperverse.</p>
+
+  </div>
+</div>
+
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $\mathcal D$ be a triangulated category with shift functor $[1]$. A <em>$t$-structure</em> on $\mathcal D$ is a pair of full subcategories $(\mathcal D^{\le0},\mathcal D^{\ge0})$, closed under isomorphisms, satisfying the following axioms. Put $\mathcal D^{\le n}:=\mathcal D^{\le0}[-n]$ and $\mathcal D^{\ge n}:=\mathcal D^{\ge0}[-n]$.</p>
+<ol>
+<li>
+<p>$\mathcal D^{\le0}\subseteq\mathcal D^{\le1}$ and $\mathcal D^{\ge1}\subseteq\mathcal D^{\ge0}$.</p>
+</li>
+<li>
+<p>$\operatorname{Hom}_{\mathcal D}(A,B)=0$ whenever $A\in\mathcal D^{\le0}$ and $B\in\mathcal D^{\ge1}$.</p>
+</li>
+<li>
+<p>Every $K\in\mathcal D$ admits a distinguished triangle $A\to K\to B\to A[1]$ with $A\in\mathcal D^{\le0}$ and $B\in\mathcal D^{\ge1}$.</p>
+</li>
+</ol>
+<p>Its <em>heart</em> is the full subcategory $\mathcal D^\heartsuit:=\mathcal D^{\le0}\cap\mathcal D^{\ge0}$.</p>
+
+  </div>
+</div>
+
+<p><div class="math-env style-plain" 
+    id="thm-heart-abelian"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <div class="math-body">
+    Let $\mathcal D$ be a triangulated category with a $t$-structure $(\mathcal D^{\le0},\mathcal D^{\ge0})$, then $\mathcal D^\heartsuit$ is an abelian category.
+  </div>
+</div>
+
+<div class="math-env style-proof"
+     data-kind="proof"
+     data-lang="en"
+     data-numbered="false"
+     data-proof-mark="empty"
+     data-proof-align="trail">
+  <span class="math-heading">
+    <span class="math-title"
+          data-label='Proof'></span>
+  </span>
+  <div class="math-body">
+    See <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="BBD82" data-cite-note="Theorem 1.3.6">
+⟦cite:BBD82⟧
+</span>.<span class="proof-mark" aria-hidden="true"></span>
+  </div>
+</div>
+</p>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>On $\mathcal D=\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, put
+</p>
+$${}^p\mathcal D^{\le0}:=\{K\in\mathcal D:K\text{ is semiperverse}\},$$<p>
+</p>
+$${}^p\mathcal D^{\ge0}:=\{K\in\mathcal D:\mathbb D_{X/\mathbb C}K\text{ is semiperverse}\}.$$<p>
+These subcategories form the <em>middle perverse $t$-structure</em> <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="BBD82" data-cite-note="§2.2">
+⟦cite:BBD82⟧
+</span>. The <em>category of perverse sheaves</em> is its heart:
+</p>
+$$\mathrm{Perv}(X^{\mathrm{an}},\mathbb C):={}^p\mathcal D^{\le0}\cap{}^p\mathcal D^{\ge0}.$$
+  </div>
+</div>
+
 <h2 id="review-of-convolution">Review of Convolution</h2>
-<h2 id="middle-convolution">Middle Convolution</h2>
+<div class="math-env style-defn" 
+    
+     data-kind="definition"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Definition'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $G$ be a smooth separated group scheme of finite type over $\mathbb C$, with multiplication $m:G\times_{\mathbb C}G\to G$ and projections $p_1,p_2:G\times_{\mathbb C}G\to G$. For $K,L\in\mathrm D_c^b(G^{\mathrm{an}},\mathbb C)$, their <em>external tensor product</em> is
+</p>
+$$K\boxtimes L:=(p_1^{\mathrm{an}})^*K\otimes_{\mathbb C}^{\mathbf L}(p_2^{\mathrm{an}})^*L\in\mathrm D_c^b((G\times_{\mathbb C}G)^{\mathrm{an}},\mathbb C).$$<p>
+Their <em>compact convolution</em> (or <em>$!$-convolution</em>) and <em>$*$-convolution</em> are respectively <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Kat96" data-cite-note="§2.5.1 and §2.5.4">
+⟦cite:Kat96⟧
+</span>
+</p>
+$$K*_!L:=\mathrm R(m^{\mathrm{an}})_!(K\boxtimes L),$$<p>
+</p>
+$$K*_*L:=\mathrm R(m^{\mathrm{an}})_*(K\boxtimes L).$$<p>
+The natural forget-supports morphism $\mathrm R(m^{\mathrm{an}})_!\to\mathrm R(m^{\mathrm{an}})_*$ induces a morphism $K*_!L\to K*_*L$.</p>
+
+  </div>
+</div>
+
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
+  <li data-bib-key="BBD82">
+  <span id="bib-BBD82" class="bib-label">[BBD82]</span>
+  <span class="bib-entry">Alexander A. Beilinson, Joseph Bernstein, and Pierre Deligne. <em>Faisceaux pervers</em>. Astérisque. Vol. 100. Société Mathématique de France. 1982. <a href="https://www.numdam.org/item/AST_1982__100__1_0/">https://www.numdam.org/item/AST_1982__100__1_0/</a>.</span>
+</li>
+
   <li data-bib-key="Kat96">
   <span id="bib-Kat96" class="bib-label">[Kat96]</span>
   <span class="bib-entry">Nicholas M. Katz. <em>Rigid Local Systems</em>. Annals of Mathematics Studies. Vol. 139. Princeton University Press. 1996.</span>
+</li>
+
+  <li data-bib-key="Mat11">
+  <span id="bib-Mat11" class="bib-label">[Mat11]</span>
+  <span class="bib-entry">Akhil Mathew. <em>Verdier Duality</em>. 2011. <a href="https://math.uchicago.edu/~amathew/verd.pdf">https://math.uchicago.edu/~amathew/verd.pdf</a>.</span>
 </li>
 
 </ul>

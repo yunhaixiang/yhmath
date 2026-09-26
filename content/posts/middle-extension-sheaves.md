@@ -1,9 +1,9 @@
 ---
-title: Middle Extension and Middle Convolution
+title: Middle Extension Sheaves
 date: 2026-09-16 00:00:01 -0400
 slug: 1b64c0e
 aliases:
-  - /posts/middle-extension-and-middle-convolution/
+  - /posts/middle-extension-sheaves/
 categories: [expositions]
 tags: [math, algebraic-geometry, cohomology]
 ---
@@ -12,7 +12,7 @@ tags: [math, algebraic-geometry, cohomology]
 Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled.
 {{< /pullquote >}}
 
-In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz's book {{< cite key="Kat96" >}}. This chapter introduces middle convolution and middle extension, which can be used to build rigid local systems. 
+In the last post, I wrote about rigid local systems à la Katz, in particular the notion of rigidity. Continuing from our previous post, we now read Chapter 2 of Katz's book {{< cite key="Kat96" >}}. This chapter introduces middle extension sheaves, which can be used to build perverse sheaves. 
 
 ## Middle Extension Sheaves
 
@@ -76,25 +76,80 @@ For any nonempty open $U\subseteq\mathbb P^1$, we have the category $\mathrm{ME}
 
 ## Review of Perverse Sheaves
 
-Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves. 
+Let $X$ be a separated $\mathbb C$-scheme of finite type. Write $\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ for the full subcategory of the derived category of all sheaves of $\mathbb C$-vector spaces on $X^{\mathrm{an}}$ consisting of complexes $K$ whose cohomology sheaves $\mathcal H^i(K)$ are algebraically constructible and vanish for all but finitely many $i$, i.e. equivalent to bounded derived category of algebraically constructible sheaves. This formalism supports Grothendieck's "six operations" which we will use. 
 
 {{< definition >}}
-Let $f:X\to\operatorname{Spec}\mathbb C$ be the structural morphism. The *dualizing complex* is
-$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(f^{\mathrm{an}})^!\mathbb C,$$
-where $(f^{\mathrm{an}})^!$ is the right adjoint of $\mathrm R(f^{\mathrm{an}})_!$. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its *Verdier dual* is
+For a morphism $f:X\to Y$ of separated $\mathbb C$-schemes of finite type, the *direct image with proper support* is the functor defined, for a sheaf $\mathcal F$ on $X^{\mathrm{an}}$ and an open subset $V\subseteq Y^{\mathrm{an}}$, by
+$$\bigl((f^{\mathrm{an}})_!\mathcal F\bigr)(V)=\bigl\{s\in\Gamma((f^{\mathrm{an}})^{-1}(V),\mathcal F):\textrm{The map }\operatorname{Supp}(s)\hookrightarrow(f^{\mathrm{an}})^{-1}(V)\xrightarrow{f^{\mathrm{an}}}V\text{ is proper}\bigr\}.$$
+
+The *extraordinary inverse image* $(f^{\mathrm{an}})^!$ is its right adjoint, characterized by isomorphisms
+$$\operatorname{Hom}_{\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)}\!\left(K,(f^{\mathrm{an}})^!L\right)\cong\operatorname{Hom}_{\mathrm D_c^b(Y^{\mathrm{an}},\mathbb C)}\!\left(\mathrm R(f^{\mathrm{an}})_!K,L\right),$$
+natural in $K\in\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ and $L\in\mathrm D_c^b(Y^{\mathrm{an}},\mathbb C)$. We denote $a:X\to\operatorname{Spec}\mathbb C$ as the structural morphism. The *dualizing complex* is 
+$$\omega_{X^{\mathrm{an}}}^{\bullet}:=(a^{\mathrm{an}})^!\mathbb C,$$
+where $\mathbb C$ is concentrated at degree zero. For $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, its *Verdier dual* {{< cite key="Mat11" note="Theorem 1.3 and §4" >}} is
 $$\mathbb D_{X/\mathbb C}K:=\mathrm R\mathcal{H}om_{\mathbb C}\!\left(K,\omega_{X^{\mathrm{an}}}^{\bullet}\right).$$
+{{< /definition >}}
+
+{{< definition >}}
+A complex $K\in \mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$ is called *semiperverse* if 
+$$\mathrm{dim}\,\mathrm{Supp}(\mathcal H^i(K))\le -i$$
+for all $i\in\mathbb Z$, and *perverse* if both $K$ and $\mathbb D_{X/\mathbb C}K$ are semiperverse. 
+{{< /definition >}}
+
+{{< definition >}}
+Let $\mathcal D$ be a triangulated category with shift functor $[1]$. A *$t$-structure* on $\mathcal D$ is a pair of full subcategories $(\mathcal D^{\le0},\mathcal D^{\ge0})$, closed under isomorphisms, satisfying the following axioms. Put $\mathcal D^{\le n}:=\mathcal D^{\le0}[-n]$ and $\mathcal D^{\ge n}:=\mathcal D^{\ge0}[-n]$.
+
+1. $\mathcal D^{\le0}\subseteq\mathcal D^{\le1}$ and $\mathcal D^{\ge1}\subseteq\mathcal D^{\ge0}$.
+
+2. $\operatorname{Hom}_{\mathcal D}(A,B)=0$ whenever $A\in\mathcal D^{\le0}$ and $B\in\mathcal D^{\ge1}$.
+
+3. Every $K\in\mathcal D$ admits a distinguished triangle $A\to K\to B\to A[1]$ with $A\in\mathcal D^{\le0}$ and $B\in\mathcal D^{\ge1}$.
+
+Its *heart* is the full subcategory $\mathcal D^\heartsuit:=\mathcal D^{\le0}\cap\mathcal D^{\ge0}$.
+{{< /definition >}}
+
+{{< theorem id="thm-heart-abelian" >}}
+Let $\mathcal D$ be a triangulated category with a $t$-structure $(\mathcal D^{\le0},\mathcal D^{\ge0})$, then $\mathcal D^\heartsuit$ is an abelian category.
+{{< /theorem >}}
+{{< proof >}}
+See {{< cite key="BBD82" note="Theorem 1.3.6" >}}.
+{{< /proof >}}
+
+
+
+{{< definition >}}
+On $\mathcal D=\mathrm D_c^b(X^{\mathrm{an}},\mathbb C)$, put
+$${}^p\mathcal D^{\le0}:=\{K\in\mathcal D:K\text{ is semiperverse}\},$$
+$${}^p\mathcal D^{\ge0}:=\{K\in\mathcal D:\mathbb D_{X/\mathbb C}K\text{ is semiperverse}\}.$$
+These subcategories form the *middle perverse $t$-structure* {{< cite key="BBD82" note="§2.2" >}}. The *category of perverse sheaves* is its heart:
+$$\mathrm{Perv}(X^{\mathrm{an}},\mathbb C):={}^p\mathcal D^{\le0}\cap{}^p\mathcal D^{\ge0}.$$
 {{< /definition >}}
 
 
 
 ## Review of Convolution
 
-## Middle Convolution
+{{< definition >}}
+Let $G$ be a smooth separated group scheme of finite type over $\mathbb C$, with multiplication $m:G\times_{\mathbb C}G\to G$ and projections $p_1,p_2:G\times_{\mathbb C}G\to G$. For $K,L\in\mathrm D_c^b(G^{\mathrm{an}},\mathbb C)$, their *external tensor product* is
+$$K\boxtimes L:=(p_1^{\mathrm{an}})^*K\otimes_{\mathbb C}^{\mathbf L}(p_2^{\mathrm{an}})^*L\in\mathrm D_c^b((G\times_{\mathbb C}G)^{\mathrm{an}},\mathbb C).$$
+Their *compact convolution* (or *$!$-convolution*) and *$*$-convolution* are respectively {{< cite key="Kat96" note="§2.5.1 and §2.5.4" >}}
+$$K*_!L:=\mathrm R(m^{\mathrm{an}})_!(K\boxtimes L),$$
+$$K*_*L:=\mathrm R(m^{\mathrm{an}})_*(K\boxtimes L).$$
+The natural forget-supports morphism $\mathrm R(m^{\mathrm{an}})_!\to\mathrm R(m^{\mathrm{an}})_*$ induces a morphism $K*_!L\to K*_*L$.
+{{< /definition >}}
+
+
 
 ## References
 
 {{< bibliography >}}
+  {{< bibitem key="BBD82" author="Alexander A. Beilinson, Joseph Bernstein, and Pierre Deligne" type="book" series="Astérisque" volume="100" publisher="Société Mathématique de France" year="1982" url="https://www.numdam.org/item/AST_1982__100__1_0/" >}}
+  Faisceaux pervers
+  {{< /bibitem >}}
   {{< bibitem key="Kat96" author="Nicholas M. Katz" type="book" series="Annals of Mathematics Studies" volume="139" publisher="Princeton University Press" year="1996" >}}
   Rigid Local Systems
+  {{< /bibitem >}}
+  {{< bibitem key="Mat11" author="Akhil Mathew" type="online" year="2011" url="https://math.uchicago.edu/~amathew/verd.pdf" >}}
+  Verdier Duality
   {{< /bibitem >}}
 {{< /bibliography >}}
