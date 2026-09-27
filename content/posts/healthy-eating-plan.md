@@ -18,9 +18,9 @@ aliases = ['/posts/healthy-eating-plan/']
 
 - 周日中午：做周日午餐 ～ 周三午餐，共7顿
 - 周三晚上：做周三晚餐 ～ 周六晚餐，共7顿
-<!-- 两次共用流程；上半周Coho三文鱼、扇贝炒鸡蛋，下半周虹鳟、豆腐炒鸡蛋，其余食材不变。 -->
+<!-- 两次共用流程；上半周Atlantic三文鱼、扇贝炒鸡蛋，下半周虹鳟、豆腐炒鸡蛋，其余食材不变。 -->
 
-早餐：混合水果约371 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g。
+早餐：混合水果约357 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g。
 
 <!-- 豆奶每周两桶Silk无糖原味1.89L，共3.78L；包含早餐每天200g近似200mL及土豆泥每次100mL、每周200mL，其余分次饮用，不重复计量。 -->
 
@@ -47,46 +47,48 @@ aliases = ['/posts/healthy-eating-plan/']
 
 ### 购物表
 
+<!-- 2026-09-27完成Metro采购替换：普通大鸡蛋选择Selection Large Eggs12个装，商品059749896054，官网参考价3.99CAD/盒，仍12个/周、每次6个；不换成特大号或Omega-3款。白米选择Selection Long Grain White Rice900g，商品059749902373，官网参考价2.99CAD/袋；每次干米约133.3g≈160mL，每周按未取整266.6667g分摊2.99×266.6667/900=0.88593CAD，显示0.89。两项均保留现有同类食物营养代理与用量，不将换店换品牌视为精确营养变化；未取得新包装完整标签，赤字暂估不变。周预算197.12−4.13+3.99−0.66+0.89=197.21CAD，未含税配送，价格库存以所选门店为准。固定购物表现全部为Metro商品链接；历史备选、引用与旧记录保留。海苔原仅在低卡可选替代表，从未计入固定采购、摄入或赤字；本次移除该可见备选行，不扣任何营养或费用。 -->
+
 <!--
 2026-09-23双店商品列：沃尔玛24项旧商品及规格恢复自Git版本84f23a10的父版本，仅作为替代购买参考；没有恢复旧版用量、价格、早餐蛋或旧营养合计。意式混合香草在该版沃尔玛表没有对应商品，暂留破折号，不编造链接。沃尔玛三文鱼保留用户此前指定的参考链接；620g/盒、2块按用户截图，不以链接页规格覆盖。沃尔玛旧鸡腿830g、扇贝340g、三文鱼620g、牛排约300g、鸡蛋12个、豆奶1.89L、Fresca12罐、酸奶油细香葱土豆泥113g、冷冻豆角胡萝卜500g、Primo680mL、水果1.3kg、全麦意面375g等与Metro当前商品不等量或不同配方；不能将当前Metro的盒数、袋数直接套用，也不视为营养等价。当前烹饪、营养、赤字与Metro预算保持不变；历史链接未重新验证库存、售价或在售包装。下方“链接已全部改为Metro”文字为此前Metro选品记录。
 -->
 
-<!-- 当前以沃尔玛商品为主；番茄酱改为Catelli Garden Select Tomato & Basil 600mL。价格为预算，以所选门店结算为准。 -->
+<!-- 2026-09-27 Metro同款迁移（部分完成）：已核对并更换12项常规购物商品及11项低卡备选链接；品牌、配方、每周食用量不变，沿用现有营养与赤字估计。Great Value、Your Fresh Market等非同品牌替换及米醋规格差异尚待确认，不将同类商品冒称同款。商品名称保留，Metro意面网页误标Garden Select；UPC064200130714由Catelli厂家销售表确认是PROTEIN+ Spaghetti340g（https://www.barillaforprofessionals.com/media/en-us/filer_public/5f/99/5f9986d1-7ada-4ea6-9fcc-9347e9560514/catelli_protein_sellsheet_0824_fre.pdf）；番茄酱按UPC064200010122匹配600mL Tomato & Basil，不选640mL旧规格。预算统一采用本次查到的常规价，不将过期促销当长期预算：豆腐3.99、蛋清6.49、豆奶5.99×2、Fresca9.49、土豆泥3.99、番茄酱3.99、意面4.99×280/340、卷饼5.99×2/10、Fibre1为8.99×280/587、酱油8.99×10/591、盐1.29×6/1000、橄榄油17.99×38.75/1000。其他行价格暂留；表内行费用四舍五入后相加为199.11CAD/周，未含税、配送或可选零食。公开页面库存不是所选门店库存，实际售价以结算为准。历史记录与营养引用中的沃尔玛链接保留。 -->
 
 | 食材 | 商品 | 购买频率 | 每次做菜取用 | 每周价格（CAD） |
 | --- | --- | ---: | ---: | ---: |
 | 去骨去皮鸡大腿肉 | [Zabiha Halal Boneless Skinless Chicken Thighs](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/halal-boneless-skinless-chicken-thighs/p/234146)<br>约510 g / 盒 | 2盒 / 周 | 1盒 | $21.12 |
-| 冷冻扇贝肉 | [Green Ocean Bay Scallops](https://www.walmart.ca/en/ip/Green-Ocean-Bay-Scallops-340g/7967HKMBT38G)<br>340 g / 袋 | 2袋 / 周 | 2袋 | $12.76 |
-| 硬豆腐 | [Sunrise Extra Firm Tofu](https://www.walmart.ca/en/ip/sunrise-extra-firm-tofu/6000194100244)<br>350 g / 盒 | 1盒 / 周 | 1盒 | $3.44 |
-| 三文鱼 | [Coho Salmon Portions, Your Fresh Market](https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814)<br>约320 g / 盒，2块 | 2盒 / 周 | 2盒 | $21.76 |
-| 虹鳟 | [Your Fresh Market Rainbow Trout Fillet](https://www.walmart.ca/en/ip/your-fresh-market-rainbow-trout-fillet/6000203879906)<br>约350 g / 盒，1片 | 2盒 / 周 | 2盒 | $23.10 |
-| 牛排 | [Your Fresh Market AAA Angus Beef Striploin Steak](https://www.walmart.ca/en/ip/strip-loin-beef-steak-your-fresh-market/1099056)<br>约300 g / 盒，1块 | 1盒 / 周 | 1/2块 | $15.00 |
-| 鸡蛋 | [Great Value Grade A White Eggs, Large, 12 ct](https://www.walmart.ca/en/ip/Great-Value-Large-Eggs/10052944)<br>12个 / 盒 | 1盒 / 周 | 6个 | $4.13 |
-| 纯蛋清 | [Burnbrae Farms Naturegg Simply Egg Whites Free Run](https://www.walmart.ca/en/ip/Naturegg-Simply-Egg-Whites-Free-Run-Burnbrae-Farms/6000195508423)<br>500 g / 盒 | 1盒 / 周 | 250 g | $5.47 |
-| 无糖豆奶 | [Silk Soy Milk Alternative, Unsweetened, Dairy Free](https://www.walmart.ca/en/ip/Silk-Organic-Soy-Milk-Alternative-Unsweetened-Original-Dairy-Free/6000190182706)<br>1.89 L / 桶 | 2桶 / 周 | — | $9.96 |
-| 无糖无咖啡因汽水 | [Fresca Citrus Soda Pop Fridge Pack Cans, 355 mL, 12 pack](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189)<br>355 mL × 12罐 / 箱 | 1箱 / 周 | — | $8.28 |
-| 即食土豆泥 | [Betty Crocker Homestyle Mashed Potatoes](https://www.walmart.ca/en/ip/Betty-Crocker-Mashed-Potatoes-Homestyle/10169982)<br>180 g / 盒 | 1盒 / 周 | 90 g | $2.59 |
-| 豌豆胡萝卜 | [Great Value Peas & Carrots](https://www.walmart.ca/en/ip/great-value-peas-carrots/10275334)<br>398 mL / 罐，沥干260 g | 2罐 / 周 | 1罐 | $2.74 |
-| 蘑菇 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725)<br>227 g / 盒 | 2盒 / 周 | 1盒 | $4.88 |
-| 嫩菠菜 | [Your Fresh Market Baby Spinach 142 g](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL)<br>142 g / 袋 | 2袋 / 周 | 1袋 | $6.88 |
-| 番茄意面酱 | [Catelli Garden Select Tomato & Basil Pasta Sauce](https://www.walmart.ca/en/ip/Catelli-Garden-Select-Tomato-Basil-Pasta-Sauce-600-mL/3B5Q7OZH5XF7)<br>600 mL / 瓶 | 1瓶 / 周 | 300 mL | $2.67 |
-| 混合水果盘 | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497)<br>1.3 kg / 盒 | 2盒 / 周 | — | $31.94 |
-| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.walmart.ca/en/ip/Catelli-Protein-Spaghetti-Pasta-High-in-Protein/10HMLTQIF7A4)<br>340 g / 包 | 按需补 | 140 g | $3.27 |
-| 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/dempsters-100-whole-wheat-large-tortillas/6000191270091)<br>610 g / 袋 | 按需补 | 1张 | $0.79 |
-| 白米 | [Great Value Long Grain White Rice](https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/2SKX03FD25M1)<br>2 kg / 袋 | 按需补 | 133.3 g ≈ 160 mL | $0.66 |
-| 高纤维谷物早餐 | [Fibre One Crunchy Original 587 g](https://www.walmart.ca/en/ip/Fibre-One-Breakfast-Cereal-Crunchy-Original-High-Fibre-and-Whole-Grains-587-g/1OUNWA7P5WCS)<br>587 g / 盒 | 按需补 | — | $2.61 |
-| 黑胡椒 | [Great Value Ground Black Pepper](https://www.walmart.ca/en/ip/Great-Value-Ground-Black-Pepper/10302291)<br>85 g / 袋 | 按需补 | — | $0.18 |
-| 蒜粉 | [Great Value Garlic Powder](https://www.walmart.ca/en/ip/Great-Value-Garlic-Powder/10304038)<br>150 g / 袋 | 按需补 | — | $0.23 |
-| 洋葱粉 | [Great Value Onion Powder](https://www.walmart.ca/en/ip/Great-Value-Onion-Powder/10303684)<br>150 g / 袋 | 按需补 | — | $0.10 |
-| 红椒粉 | [Great Value Paprika](https://www.walmart.ca/en/ip/Great-Value-Paprika/10303778)<br>130 g / 袋 | 按需补 | — | $0.16 |
-| 干牛至叶 | [Great Value Oregano Leaves](https://www.walmart.ca/en/ip/Great-Value-Oregano-Leaves/6000202666145)<br>32 g / 袋 | 按需补 | — | $0.07 |
-| 意式混合香草 | [Great Value Italian Seasoning](https://www.walmart.ca/en/ip/Great-Value-Italian-Seasoning/10302881)<br>50 g / 袋 | 按需补 | — | $0.05 |
-| 酱油 | [Kikkoman Soy Sauce 591mL](https://www.walmart.ca/en/ip/Kikkoman-Soy-Sauce-591mL/2U4Q708C3YSP)<br>591 mL / 瓶 | 按需补 | 2茶匙 | $0.11 |
-| 米醋 | [Marukan Genuine Brewed Rice Vinegar](https://www.walmart.ca/en/ip/Marukan-Genuine-Brewed-Rice-Vinegar/6000188761326)<br>710 mL / 瓶 | 按需补 | 1/2茶匙 | $0.03 |
-| 玉米淀粉 | [Great Value Corn Starch](https://www.walmart.ca/en/ip/great-value-corn-starch/10317740)<br>454 g / 盒 | 按需补 | 2茶匙 | $0.04 |
-| 盐 | [Windsor Iodized Table Salt](https://www.walmart.ca/en/ip/Windsor-Iodized-Table-Salt/10210128)<br>1 kg / 盒 | 按需补 | — | $0.01 |
-| 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259)<br>1 L / 瓶 | 按需补 | — | $0.51 |
-| 每周合计 | — | — | — | $185.54 |
+| 冷冻扇贝肉 | [Irrésistible Frozen Bay Scallops, Value Pack](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/frozen-fish-seafood/packages-bulk/frozen-bay-scallops/p/059749998017)<br>700 g / 袋 | 1袋 / 周 | 1袋 | $11.99 |
+| 硬豆腐 | [Sunrise Extra Firm Tofu](https://www.metro.ca/en/online-grocery/Aisles/Fruits%20%26%20Vegetables/Vegan%20%26%20Vegetarian/Tofu%20%26%20Tempeh/p/057864000080)<br>350 g / 盒 | 1盒 / 周 | 1盒 | $3.99 |
+| 三文鱼 | [Fresh Skin-On Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skin-on-atlantic-salmon-portion/p/229257)<br>113 g / 块 | 4块 / 周 | 4块，共452 g | $19.96 |
+| 虹鳟 | [Fresh Skinless Rainbow Trout Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skinless-rainbow-trout-portion/p/222361)<br>140 g / 块 | 4块 / 周 | 4块，共560 g | $19.96 |
+| 牛排 | [Platinum Grill Angus Beef Striploin Steak](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/angus-aged-beef/angus-beef-striploin-steak/p/235142)<br>约300 g / 盒，1块 | 1盒 / 周 | 1/2块，约150 g | $20.50 |
+| 鸡蛋 | [Selection Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/059749896054)<br>12个 / 盒 | 1盒 / 周 | 6个 | $3.99 |
+| 纯蛋清 | [Burnbrae Farms Naturegg Simply Egg Whites Free Run](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/liquid-eggs-egg-whites/simply-egg-whites-free-run-liquid-egg-whites/p/065651005262)<br>500 g / 盒 | 1盒 / 周 | 250 g | $6.49 |
+| 无糖豆奶 | [Silk Soy Milk Alternative, Unsweetened, Dairy Free](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735)<br>1.89 L / 桶 | 2桶 / 周 | — | $11.98 |
+| 无糖无咖啡因汽水 | [Fresca Citrus Soda Pop Fridge Pack Cans, 355 mL, 12 pack](https://www.metro.ca/epicerie-en-ligne/allees/boissons/boissons-gazeuses/citron-lime-et-agrumes/boisson-gazeuse-a-saveur-de-pamplemousse-sans-sucre/p/067000104923)<br>355 mL × 12罐 / 箱 | 1箱 / 周 | — | $9.49 |
+| 即食土豆泥 | [Betty Crocker Homestyle Mashed Potatoes](https://www.metro.ca/en/online-grocery/aisles/pantry/sides/potato-rice-sides/homestyle-mashed-potato/p/065633208285)<br>180 g / 盒 | 1盒 / 周 | 90 g | $3.99 |
+| 豌豆胡萝卜 | [Selection Peas and Carrots, Packed in Season](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618)<br>398 mL / 罐，沥干约260 g | 2罐 / 周 | 1罐 | $2.98 |
+| 蘑菇 | [Belle Grove Crimini Mushroom Slices](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157)<br>227 g / 盒 | 2盒 / 周 | 1盒 | $7.98 |
+| 嫩菠菜 | [Fresh Attitude Organic Baby Spinach](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018)<br>142 g / 盒 | 2盒 / 周 | 1盒 | $10.98 |
+| 番茄意面酱 | [Catelli Garden Select Tomato & Basil Pasta Sauce](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-basil-pasta-sauce/p/064200010122)<br>600 mL / 瓶 | 1瓶 / 周 | 300 mL | $3.99 |
+| 混合水果盘 | [Medium Fruit Tray](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/medium-fruit-tray/p/234506)<br>2.5 kg / 盒 | 1盒 / 周 | — | $24.99 |
+| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714)<br>340 g / 包 | 按需补 | 140 g | $4.11 |
+| 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.metro.ca/epicerie-en-ligne/allees/pains-et-patisseries/tortillas-et-pains-plats/tortillas/tortillas-de-ble-entier/p/068721038252)<br>610 g / 袋 | 按需补 | 1张 | $1.20 |
+| 白米 | [Selection Long Grain White Rice](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902373)<br>900 g / 袋 | 按需补 | 133.3 g ≈ 160 mL | $0.89 |
+| 高纤维谷物早餐 | [Fibre One Crunchy Original 587 g](https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040)<br>587 g / 盒 | 按需补 | — | $4.29 |
+| 黑胡椒 | [Selection Ground Black Pepper](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094)<br>105 g / 瓶 | 按需补 | — | $0.23 |
+| 蒜粉 | [Selection Garlic Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254)<br>120 g / 瓶 | 按需补 | — | $0.45 |
+| 洋葱粉 | [Selection Onion Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384)<br>100 g / 瓶 | 按需补 | — | $0.23 |
+| 红椒粉 | [Selection Paprika](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018)<br>95 g / 瓶 | 按需补 | — | $0.29 |
+| 干牛至叶 | [Selection Oregano Leaves](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936)<br>30 g / 瓶 | 按需补 | — | $0.10 |
+| 意式混合香草 | [Selection Italian Seasoning](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899)<br>35 g / 瓶 | 按需补 | — | $0.09 |
+| 酱油 | [Kikkoman Soy Sauce 591mL](https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/international-condiments/soy-sauce/p/041390000034)<br>591 mL / 瓶 | 按需补 | 2茶匙 | $0.15 |
+| 米醋 | [Kikkoman Rice Vinegar](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/specialty-oil-vinegar/rice-vinegar/p/041390020315)<br>296 mL / 瓶 | 按需补 | 1/2茶匙 | $0.04 |
+| 玉米淀粉 | [Selection Corn Starch](https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199)<br>454 g / 盒 | 按需补 | 2茶匙 | $0.05 |
+| 盐 | [Windsor Iodized Table Salt](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055)<br>1 kg / 盒 | 按需补 | — | $0.01 |
+| 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627)<br>1 L / 瓶 | 按需补 | — | $0.70 |
+| 每周合计 | — | — | — | $197.21 |
 {.table-centered}
 
 <!-- 普通酱油更新：Kikkoman Soy Sauce591mL，Walmart商品2U4Q708C3YSP公开价$6.77；每周下半周一锅用10mL，费用6.77×10/591≈$0.11，替换减盐款$0.14，购物表合计178.83−0.03=$178.80。价格、库存以用户所选门店为准；其他调味及用量不变。 -->
@@ -166,7 +168,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 3. 空气炸锅预热：空气炸锅400°F预热4分钟。
 4. 煮开水：意面煮锅加水开大火烧开
 5. 煮开水：鸡蛋煮锅加水开大火烧开
-6. （仅周日）解冻扇贝：扇贝拆袋平铺微波盘，解冻档解冻。
+6. （仅周日）解冻扇贝：取1袋700 g扇贝，拆袋平铺微波盘，解冻档解冻。
 
 <!-- 微波解冻取代原室温解冻：虽列于阶段1，实际应等阶段3炒扇贝的锅位即将空出时再进行，不在解冻后等待其余备菜完成。无自动解冻档可用约30%功率，变软后每30秒查看；总时长随功率、厚度和结冰情况变化，不设固定完成时间。容器须可微波，不连原包装加热；解冻后连续完成烹调。参考：https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely -->
 
@@ -174,8 +176,8 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 #### 阶段 2：调味、并行烹调
 
 1. 准备鸡肉：取鸡腿肉1盒，放烤盘。
-2. 准备牛肉：取牛肉（仅周日切半），放烤盘。
-3. 准备鱼肉：上半周取Coho三文鱼2盒，下半周取虹鳟2盒；擦干，放砧板。
+2. 准备牛肉：取半块牛排（约150 g），放烤盘；周日将另一半密封冷冻，周二晚移冷藏解冻。
+3. 准备鱼肉：上半周取三文鱼4块（452 g），下半周取虹鳟4块（560 g）；擦干，放砧板。
 4. 按表调味：
 
 | 食材 | 橄榄油 | 盐 | 黑胡椒 | 蒜粉 | 洋葱粉 | 红椒粉 | 干牛至叶 |
@@ -214,8 +216,8 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 <!-- 豆腐炒蛋调味表是阶段3的整锅合计，不重复添加；黑胡椒1/4茶匙全部拌入豆腐，蛋液不单独调味；整锅调味总量不变。每锅700g豆腐、3个蛋加250g纯蛋清分两餐；橄榄油两阶段各1/2茶匙，共1茶匙，原用油不变。不加水、不额外加盐、不加蚝油。用户改为普通酱油；龟甲万普通款厂家参考标签每15mL钠960mg，故10mL约640mg，比此前减盐款约多247mg/周、日均多35mg；加拿大手中包装优先。来源：https://kikkomanusa.com/products/soy-sauce-non-gmo/ 。相对原蒜粉黑胡椒版，新增淀粉约5.3g、熟芝麻约3g、普通酱油10mL、普通无糖醋2.5mL，热量增量暂估约45–55kcal/周、钠约640mg/周；盐、原有香料和油不重复计算。商品品牌及完整标签未定，本次营养增量单独记录，原营养总表尚未合并这一调味增量；原周赤字3912kcal扣除后约3857–3867kcal，按百位展示仍约3900kcal。 -->
 
 1. 2个鸡蛋与250 g蛋清打匀；两锅加油预热。
-2. 第一锅：蘑菇下锅加调味，大火炒7分钟，盛出。
-3. 第二锅：菠菜下锅加调味，中大火炒7分钟，盛出。
+2. 第一锅：预洗蘑菇片开盒直接下锅，加调味，大火炒7分钟，盛出。
+3. 第二锅：预洗菠菜开盒直接下锅，加调味，中大火炒7分钟，盛出。
 4. 第一锅：
    - 上半周：重新加油1/4茶匙，扇贝中大火炒约6–8分钟、沥水；重新加油1/4茶匙，扇贝回锅，加入沥干的整罐豌豆胡萝卜炒约1–2分钟；加混合蛋液及调味，中小火炒约3–5分钟至蛋液凝固。
    - 下半周：1盒350 g豆腐擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀；重新加油，豆腐下锅中火煎约6–8分钟，加入沥干的整罐豌豆胡萝卜炒约1–2分钟；转中小火，加酱油或蚝油2茶匙翻匀，重新加油1/4茶匙倒入混合蛋液，中小火炒约3–5分钟至凝固，与豆腐混合，关火拌入醋1/2茶匙。
@@ -229,7 +231,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 |---|---|
 | 牛排 | 1 |
 | 水煮蛋 | 1、4 |
-| 三文鱼（上半周）／虹鳟（下半周） | 3、6 |
+| 三文鱼（上半周）／虹鳟（下半周） | 3、6，各2块 |
 | 鸡大腿肉 | 4、7 |
 | 扇贝炒鸡蛋（上半周）／豆腐炒鸡蛋（下半周），含豌豆胡萝卜 | 2、5 |
 | 米饭 | 2、5 |
@@ -325,30 +327,30 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
 除bb.q截图热量外，五款均没有取得对应整份营养标签；以上是配料分解工作估值，不是餐厅公布值或统计置信区间。暂不凭菜名编造精确饱和脂肪、蛋白质或钠含量。表内链接用于核对餐品，不能解读为估值的官方背书。
 -->
 
-| 食物 | 份量 | 热量（kcal） | 占参考赤字3,228.75 kcal（额外加吃） |
+| 食物 | 份量 | 热量（kcal） | 占参考赤字3,531.99 kcal（额外加吃） |
 |---|---|---:|---:|
-| [酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）](https://www.bbqchickenca.com/) | 1整份，1.2 lb | 1,156，菜单标注 | 约36% |
-| [凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）](https://6ixtywings.com/menu_items/chicken-caesar-wrap/) | 1个＋默认普通薯条 | 估1,100–1,500 | 约34–46% |
-| [炸鸡汉堡（Burger Burger Johnny Cash Chicken）](https://order.online/store/burger-burger-25113744) | 1个 | 估750–1,050 | 约23–33% |
-| [炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）](https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ) | 1整套，含米饭、饺子、yam配菜、汤及沙拉 | 估1,100–1,600 | 约34–50% |
-| [脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）](https://osmows.com/nutrition-calculator) | 1个Regular，含蒜酱及OzPotle酱 | 估750–1,050 | 约23–33% |
-| 新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings） | 1整份，1 lb带骨 | 估650–950 | 约20–29% |
-| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约23% |
-| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约21% |
-| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约19% |
-| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约19% |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约18% |
-| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约17% |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约16% |
-| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约16% |
-| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约15% |
-| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约14% |
-| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约13% |
-| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约12% |
-| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约11% |
-| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约10% |
-| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约9% |
-| [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约8% |
+| [酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）](https://www.bbqchickenca.com/) | 1整份，1.2 lb | 1,156，菜单标注 | 约33% |
+| [凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）](https://6ixtywings.com/menu_items/chicken-caesar-wrap/) | 1个＋默认普通薯条 | 估1,100–1,500 | 约31–42% |
+| [炸鸡汉堡（Burger Burger Johnny Cash Chicken）](https://order.online/store/burger-burger-25113744) | 1个 | 估750–1,050 | 约21–30% |
+| [炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）](https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ) | 1整套，含米饭、饺子、yam配菜、汤及沙拉 | 估1,100–1,600 | 约31–45% |
+| [脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）](https://osmows.com/nutrition-calculator) | 1个Regular，含蒜酱及OzPotle酱 | 估750–1,050 | 约21–30% |
+| 新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings） | 1整份，1 lb带骨 | 估650–950 | 约18–27% |
+| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约21% |
+| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约19% |
+| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约18% |
+| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约17% |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约16% |
+| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约15% |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约15% |
+| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约14% |
+| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约14% |
+| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约12% |
+| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约12% |
+| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约11% |
+| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约10% |
+| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约9% |
+| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约8% |
+| [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约7% |
 | [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约7% |
 | [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约6% |
 | [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约4% |
@@ -358,21 +360,20 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
 
 以下为可选替代，不计入固定饮食；若额外加吃，仍扣减相应热量赤字。
 
-| 想吃／喝 | 替代品 | 份量 | 热量（kcal） | 占参考赤字3,228.75 kcal（额外加吃） |
+| 想吃／喝 | 替代品 | 份量 | 热量（kcal） | 占参考赤字3,531.99 kcal（额外加吃） |
 |---|---|---|---:|---:|
-| 含糖汽水 | [Fresca Citrus Soda Pop Fridge Pack Cans](https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189) | 1罐355 mL | 0 | 0% |
+| 含糖汽水 | [Fresca Citrus Soda Pop Fridge Pack Cans](https://www.metro.ca/epicerie-en-ligne/allees/boissons/boissons-gazeuses/citron-lime-et-agrumes/boisson-gazeuse-a-saveur-de-pamplemousse-sans-sucre/p/067000104923) | 1罐355 mL | 0 | 0% |
 | 含糖可乐 | [Coca-Cola Zero Sugar Zero Caffeine](https://www.coca-cola.com/ca/en/brands/coca-cola/products/coca-cola-zero-sugar) | 1罐355 mL | 0 | 0% |
-| 汽水，不想要甜味 | [bubly Lime Sparkling Water](https://www.walmart.ca/fr/ip/Bubly-Eau-P-tillante-Saveur-Lime-12x-355-ml-Canettes/6000197924484) | 1罐355 mL | 0 | 0% |
-| 含糖冰茶 | [Nestea Zero Sugar Iced Tea](https://www.walmart.ca/en/ip/Nestea-Zero-Sugar-Iced-Tea/2QW2HXHP2Z41) | 1瓶473 mL | 约10 | 约0.3% |
-| 果冻、甜点 | [Jell-O Zero Sugar Strawberry Jelly Powder Mix](https://www.walmart.ca/en/ip/Jell-O-Zero-Sugar-Strawberry-Jelly-Powder-Mix-10-1-g-Box/6000188760145) | 加水制成125 mL | 约10 | 约0.3% |
-| 巧克力甜点 | [Snack Pack No Sugar Added Chocolate Pudding Cups](https://www.walmart.ca/en/ip/seort/10287782) | 1杯99 g | 约60 | 约1.9% |
-| 香草奶味甜点 | [Snack Pack No Sugar Added Vanilla Pudding Cups](https://www.walmart.ca/en/ip/snack-pack-no-sugar-added-vanilla-pudding-cups/10287875) | 1杯99 g | 约60 | 约1.9% |
-| 冰淇淋、雪糕 | [DEL MONTE Strawberry Frozen Fruit Bars](https://www.walmart.ca/en/ip/DEL-MONTE-Strawberry-Frozen-Fruit-Bars-10-Pack-10-x-50-ml/6000202764024) | 1支50 mL | 约50 | 约1.5% |
-| 巧克力雪糕 | [Popsicle Fudgsicle Frozen Dairy Dessert Bars](https://www.walmart.ca/en/ip/popsicle-fudgsicle-frozen-dairy-dessert-bars/6000195509106) | 1支60 mL | 约80 | 约2.5% |
-| 奶味冰淇淋 | [Halo Top Vanilla Bean Frozen Dessert](https://www.walmart.ca/en/ip/Halo-Top-Vanilla-Bean-Frozen-Dessert/6000199406471) | 125 mL | 约80 | 约2.5% |
-| 饼干、脆口零食 | [Quaker Crispy Minis Original Large Brown Rice Cakes](https://www.walmart.ca/en/ip/Quaker-Crispy-Minis-Original-Large-Brown-Rice-Cakes/10284949) | 2片，不加抹酱 | 约70 | 约2.2% |
-| 薯片、咸味零食 | [Delicious Kitchen Roasted Seaweed Snacks](https://www.walmart.ca/fr/ip/Delicious-Kitchen-Collations-d-Algues-R-ties/6000201549050) | 1小包5 g | 约25 | 约0.8% |
-| 薯片、咸脆零食 | [Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags](https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags-8-x-31-g-248-g/206256) | 1迷你袋31 g | 约110 | 约3.4% |
+| 汽水，不想要甜味 | [bubly Lime Sparkling Water](https://www.metro.ca/en/online-grocery/aisles/beverages/water/sparkling-water/lime-flavoured-sparkling-water/p/069000149188) | 1罐355 mL | 0 | 0% |
+| 含糖冰茶 | [Nestea Zero Sugar Iced Tea](https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/zero-sugar-lemon-iced-tea-bottle/p/990484000125) | 1瓶473 mL | 约10 | 约0.3% |
+| 果冻、甜点 | [Jell-O Zero Sugar Strawberry Jelly Powder Mix](https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/kits-mixes-fillings/strawberry-jelly-powder-without-added-sugar/p/066188020001) | 加水制成125 mL | 约10 | 约0.3% |
+| 巧克力甜点 | [Snack Pack No Sugar Added Chocolate Pudding Cups](https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-chocolate-pudding-cups/p/058807414018) | 1杯99 g | 约60 | 约1.7% |
+| 香草奶味甜点 | [Snack Pack No Sugar Added Vanilla Pudding Cups](https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-vanilla-pudding-cups/p/058807414025) | 1杯99 g | 约60 | 约1.7% |
+| 冰淇淋、雪糕 | [DEL MONTE Strawberry Frozen Fruit Bars](https://api.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/popsicles-fruit-bars/strawberry-frozen-fruit-bars/p/055000141154) | 1支50 mL | 约50 | 约1.4% |
+| 巧克力雪糕 | [Popsicle Fudgsicle Frozen Dairy Dessert Bars](https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream-bars-treats/fudge-frozen-dairy-dessert-bars/p/058779399825) | 1支60 mL | 约80 | 约2.3% |
+| 奶味冰淇淋 | [Halo Top Vanilla Bean Frozen Dessert](https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream/vanilla-bean-flavoured-ice-cream/p/851041008018) | 125 mL | 约80 | 约2.3% |
+| 饼干、脆口零食 | [Quaker Crispy Minis Original Large Brown Rice Cakes](https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/rice-gluten-free-snacks/plain-brown-rice-cakes/p/055577107799) | 2片，不加抹酱 | 约70 | 约2.0% |
+| 薯片、咸脆零食 | [Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags](https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/reduced-fat-popping-corn/p/058807480754) | 1迷你袋31 g | 约110 | 约3.1% |
 {.table-centered}
 
 
@@ -496,6 +497,22 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
 
 ### 营养统计
 
+<!-- 2026-09-27 Metro指定商品及调料替换：本记录覆盖此前同日“同款迁移（部分完成）”的待确认项中本次已选商品。截图IMG_8048–8050确认Selection Peas and Carrots398mL两罐/周（1.49×2=2.98）、Fresh Attitude Organic Baby Spinach142g两盒/周（截图现价5.49×2=10.98，常规5.99）、Medium Fruit Tray2.5kg一盒/周24.99；截图只取商品、规格与价格。豌豆胡萝卜继续按每罐沥干约260g估计，旧款的实测不能当新款实测；营养沿用同类沥干蔬菜代理，每100g55kcal、蛋白质3g、脂肪0.4g、饱和0.08g、碳水10.5g、纤维3.5g、糖4g、钠300mg、钙25mg、铁1mg、钾160mg，未声称Selection实测或冲洗后的精确钠含量。新菠菜预洗，仍用通用生菠菜代理284g/周。新水果含草莓、西瓜、哈密瓜、蜜瓜、菠萝（Metro fresh2go对应Medium Fruit Tray），比例未知，沿用每100g组[40,0.7,0.2,0.03,10,1.2,8,0,10,12,0.3,170]，顺序kcal/P/F/饱和/C/纤维/糖/胆固醇/钠/钙/铁/钾；从2600g减到2500g，早餐2500/7约357g。干调味改Selection纯粉/香草，不新增盐糖；米醋改Kikkoman296mL，官网配料water/rice vinegar，不是seasoned rice vinegar；2.5mL/周继续沿用微量热量忽略估计。酱油、盐、油已是Metro，保留品牌与用量。分摊预算按黑胡椒6.9g、蒜粉15.5g、洋葱粉7.8g、红椒粉9.2g、牛至1g、意式香草1g、淀粉16/3g每周，克数是茶匙密度近似；洋葱粉费用与现行土豆泥加量一致。新预算197.12CAD/周，截图与官网参考价非永久报价，未含税配送；若菠菜按常规价则加1CAD/周。仅截图三款和调料获准替换，鸡蛋、米及可选海苔本次未另指定，暂保留，不能称已全部Metro。营养仍为代理估计：新周组[13186.286726280836,1060.0027291192282,459.675728296964,99.87192668880456,1365.3642617488931,274.59209171410504,288.5290613851993,4285.4,14881.411896900694,7983.54034875079,131.31343632669197,31857.501514152435]；摄入13186.286726280836kcal/周，周消耗不变，周赤字3531.992373719164、日均504.5703391027377kcal；其他已有限定微量小计保持当前显示精度，添加糖范围保留，未编造未取得的新标签。 -->
+
+<!-- 2026-09-27 Metro牛排减为每周一块（最新）：保留Platinum Grill Angus Beef Striploin Steak和商品链接，按用户指定300g/块、每周1盒计算，取代此前260g×2=520g/周；两顿牛排餐各150g生重，不剪肥边，油盐调味、鸡蛋分配、米面、鱼类和训练不变。周日保留原厚度切分，一半烹调、另一半密封冷冻，周二晚冷藏解冻用于周三。参考烤制时间不因切半而减半。
+沿用未剪脂牛排每100g组[205,21,13,5.7,0,0,0,61,44,15.8,1.9,253]，顺序kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg，为同类肉代理不是本品标签。本次减220g/周，即热量−451kcal、蛋白质−46.2g、饱和脂肪−12.54g；逐餐两表各减110g牛排。新周组[13226.286726280836,1060.7027291192283,459.875728296964,99.90192668880456,1375.3642617488931,275.792091714105,296.5290613851993,4285.4,14891.411896900694,7995.54034875079,131.61343632669198,32027.501514152435]；日组[1889.4695323258336,151.5289613027469,65.696532613852,14.271703812686367,196.48060882127044,39.39887024487215,42.361294483599906,612.1999999999999,2127.344556700099,1142.2200498215414,18.80191947524171,4575.357359164634]；周消耗16718.2791不变，周赤字3491.992373719164、日均498.856053388452kcal。其余限定微量营养小计沿用上次口径，未将此前未完整计入的牛排维生素/脂肪酸再作虚假扣减；添加糖不变。两张放纵餐占比同步更新。
+牛排价格沿用用户截图单价68.32加元/kg，而不是沿用260g单块价；300g估20.496，购物表显示20.50。周显示预算203.45−35.52+20.50=188.43加元；实际称重价格以结算为准，非重新查价。历史方案保留供追溯。 -->
+
+<!-- 2026-09-27鱼与牛排换Metro（最新执行口径，覆盖此前商品和总量）：上半周Fresh Skin-On Atlantic Salmon Portion 113g×4=452g，下半周Fresh Skinless Rainbow Trout Portion 140g×4=560g，各分两餐、每餐两块。牛排改Platinum Grill Angus Beef Striploin Steak，每盒1块，按用户IMG_8047.PNG约260g×2=520g/周，每次做菜取整盒，不剪肥边；不是预腌或Fast Fry款。商品链接见购物表，官网核对两种鱼单块规格及牛排1 per tray；牛排实际称重以标签为准，官网平均291g不是本计划采用重量。鱼沿用公开参考价4.99/块，牛排按用户截图17.76/盒，预算187.87−21.76−23.10−15+19.96+19.96+35.52=203.45加元/周，库存、价格以门店结算为准。
+旧Walmart备选保留：Coho640g/周 https://www.walmart.ca/en/ip/Your-Fresh-Market-Coho-Salmon-Portions/6000208252814 ；虹鳟700g/周 https://www.walmart.ca/en/ip/your-fresh-market-rainbow-trout-fillet/6000203879906 ；牛排300g/周 https://www.walmart.ca/en/ip/strip-loin-beef-steak-your-fresh-market/1099056 。
+未取得三款完整实物营养标签，按现有生重同类代理：Atlantic每100g[208,20.42,13.42,3.05,0,0,0,55,59,9,0.34,363]；虹鳟[141,19.94,6.18,1.383,0,0,0,59,51,25,0.31,377]；未剪肥边牛排[205,21,13,5.7,0,0,0,61,44,15.8,1.9,253]，单位顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。不把肉品牌变化当作营养实测；带皮三文鱼暂按全部购入重计算，未单独扣皮或烤盘弃油，实物肥瘦、是否吃皮会影响结果。来源沿用 https://fdc.nal.usda.gov/food-details/175167/nutrients 、https://fdc.nal.usda.gov/food-details/173717/nutrients 、https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf 。
+鱼替换周热量−281.24kcal、蛋白质−71.7456g；牛排增量220g增加451kcal、46.2g蛋白质；合计+169.76kcal、−25.5456g蛋白质/周。全部油盐调味、主食、蛋量、训练不变。逐餐以旧未取整数据替换鱼肉及牛肉；周组[13677.286726280836,1106.9027291192283,488.475728296964,112.44192668880457,1375.3642617488931,275.792091714105,296.5290613851993,4419.599999999999,14988.211896900693,8030.30034875079,135.793436326692,32584.101514152433]；日组[1953.8981037544052,158.1289613027469,69.78224689956629,16.06313238411494,196.48060882127044,39.39887024487215,42.361294483599906,631.3714285714285,2141.1731281286707,1147.1857641072559,19.39906233238457,4654.871644878919]。周消耗16718.2791不变，周赤字3040.992373719164、日均434.42748195988054kcal；小数只为计算精度，不代表实测。同步两张逐餐表、周营养、放纵餐占比。
+微量仍为限定来源小计：D=199.14−6.4×9−1.4×15.9+4.52×11=169µg/周；B12=71.828−6.4×2.67−1.4×4.3+4.52×3.23=63.3196µg/周；EPA+DHA=13.5498−6.4×1.206−1.4×0.733+4.52×1.966=13.69152g/周。ALA以原约10.23g为基线，扣Coho0.075×6.4和虹鳟0.059×1.4，加Atlantic0.126/85×452，约10.34g/周；碘两种鱼沿用3.2µg/100g代理，较旧总量约960µg减少10.496µg，约950µg/周。新增牛排的D、B12、碘及脂肪酸未完整量化，不视为零含量，不伪称完整精算；添加糖不变。牛排与鱼烤制时间保留现行参考值，不由重量推断厚度或保证熟度。 -->
+
+<!-- 2026-09-27扇贝换Metro（最新）：Irrésistible Frozen Bay Scallops, Value Pack 700g，一周1袋，周日整袋用于上半周两顿、每顿350g；下半周豆腐和其他食材、蛋量、调味、训练不变。商品链接https://www.metro.ca/en/online-grocery/aisles/fish-seafood/frozen-fish-seafood/packages-bulk/frozen-bay-scallops/p/059749998017 ，截图及Metro索引价11.99；旧Green Ocean340g×2共680g、12.76元，周预算188.64−12.76+11.99=187.87。未核实到该SKU完整官方营养标签；第三方Eat This Much同名条目未证实相同SKU，未当成商品标签引用。暂沿用同类生扇贝每100g代理[90,17,1,0.1,2,0,0,35,160,10,0.3,200]，顺序kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg，不代表两品牌营养相同；以后优先用实物营养标签重算。当前仅按多20g周增18kcal、3.4g蛋白质；维生素、碘和Omega-3维持既有低精度估值，不声称已取得新品牌数据。新周营养合计[13507.526726280832,1132.4483291192284,456.9573282969639,99.67452668880456,1375.3642617488931,275.79209171410497,296.52906138519927,4445.799999999999,14996.931896900696,8066.660348750791,132.68663632669197,33794.541514152435]；周赤字3210.752373719168、日均458.6789105313097，仍为估算。 -->
+
+<!-- 2026-09-27蘑菇换Metro预洗切片款：Belle Grove Crimini Mushroom Slices 227g，每周2盒、每次1盒；商品名及规格由Metro索引核对，截图包装为Highline Mini Bella，明确标注washed and sliced。采用用户截图$3.99/盒，共$7.98/周，替代原Walmart同重切片褐蘑菇$4.88/周，预算185.54+3.10=188.64。历史双店备选保留。仍按同类生褐蘑菇估值及454g/周计算，未取得新商品完整营养标签，不因换商店自行改变营养、赤字。菠菜商品和用量不变；用户确认预洗，Walmart商品页描述ready to use。流程对两者均采用预洗即用，不增加清洗、切片步骤；若实际包装要求清洗，则以包装指示为准。预洗或即食蔬果无需再次清洗的参考：https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely 。 -->
+
 <!-- 2026-09-27意面恢复70g/顿（最新）：撤回上一轮65g调整；每次140g分两顿，每周280g。其他食材和鸡蛋分配不变，干米仍每次160mL≈133.3g。周热量恢复13489.526726280832kcal，周赤字3228.752373719168kcal，日均461.25033910273834kcal；购物显示行合计185.54。每餐营养、周合计及放纵餐占比恢复70g口径。下方65g记录仅作历史保留。 -->
 
 <!-- 2026-09-27意面下调：每顿干意面70g改65g，每次130g分两顿，每周四顿260g。沿用Catelli PROTEIN+每85g营养向量[300,17,2,0.5,58,8,2,0,4,20,2.5,400]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg；每周少20g干面，减少70.588235kcal。新周合计[13418.938490986715,1125.0483291192284,456.2867400616698,99.53687962998103,1361.3172029253635,273.9097387729285,296.0584731499051,4438.799999999999,14963.990720430109,8059.9544663978495,132.0384010325743,33660.42386709361]；周消耗16718.2791不变，周赤字3299.3406090132858、日均471.3343727161837。意面周费用3.97×260/340≈3.04，购物显示行合计185.31。原每半周6个蛋分配、160mL干米、全部调味和训练不变。每餐表及放纵餐占比同步更新。本条优先于旧意面用量记录。 -->
@@ -580,7 +597,7 @@ D来源小计199.14−7×15.9+6.2×11=156.04µg/周；B12=71.828−7×4.3+6.2×3
 
 <!-- 2026-09-25撤回Conestoga换购（当前鸡蛋口径）：恢复Great Value Grade A White Eggs, Large, 12 ct，每周1盒12个、$4.13，分配及蛋清不变。撤回上一条Conestoga代理营养增量，恢复主食微减记录的周总量：热量13219.260313079kcal、蛋白质1162.170731667g、脂肪462.268964530g、饱和脂肪94.793346882g、碳水1253.617552352g、胆固醇4396.7mg；其余指标不变。周赤字3499.018786921kcal，脂肪等价值0.454418kg；周预算184.79。普通大鸡蛋仍用既有代理值，并非已核实品牌实物标签；价格沿用用户截图，未重新查价。上一条Conestoga记录仅作历史。 -->
 
-**每周热量赤字估计3,228.75 kcal，日均461.25 kcal；理论脂肪等价值约0.419 kg／周，不代表实际纯脂肪减量。**
+**每周热量赤字估计3,531.99 kcal，日均504.57 kcal；理论脂肪等价值约0.459 kg／周，不代表实际纯脂肪减量。**
 
 <!-- 2026-09-24新增纯蛋清（当前最新口径，覆盖下面旧总量）：Naturegg Simply Egg Whites Free Run 500g，每周1盒；周日与周三各250g，分别与原有3个全蛋打匀后炒扇贝或豆腐，每锅分两餐。不替换原12个全蛋，不增加油盐；早餐不变。开封后冷藏0–4°C，按包装5–7天内用完且不超过有效期；取用后立即放回冰箱。蛋液增加后炒制约3–5分钟仅为参考，以完全凝固为准。
 采用厂家相同UPC065651005262、500g装标签，每100g营养组[45,10,0,0,1,0,0,0,160,10,0,125]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。整盒周增[225,50,0,0,5,0,0,0,800,50,0,625]；标签零值受舍入影响，不是检测绝对为零。
@@ -615,40 +632,40 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
 
 | 营养指标 | 每周合计 | 平均每天 | 建议每日范围或目标 |
 |---|---:|---:|---|
-| 热量 | 约13,490 kcal | 约1,927 kcal | 1,800–2,000 kcal |
-| 蛋白质 | 约1,129 g | 约161 g | 130–165 g |
-| 总脂肪 | 约457 g | 约65.3 g | 45–65 g |
-| 饱和脂肪 | 约99.7 g | 约14.2 g | ≤总热量6%=13 g |
-| 碳水化合物 | 约1,375 g | 约196 g | 180–240 g |
-| 膳食纤维 | 约276 g | 约39.4 g | 30–38 g |
-| 总糖 | 约297 g | 约42.4 g | – |
+| 热量 | 约13,186 kcal | 约1,884 kcal | 1,800–2,000 kcal |
+| 蛋白质 | 约1,060 g | 约151 g | 130–165 g |
+| 总脂肪 | 约460 g | 约65.7 g | 45–65 g |
+| 饱和脂肪 | 约99.9 g | 约14.3 g | ≤总热量6%=13 g |
+| 碳水化合物 | 约1,365 g | 约195 g | 180–240 g |
+| 膳食纤维 | 约275 g | 约39.2 g | 30–38 g |
+| 总糖 | 约289 g | 约41.2 g | – |
 | 添加糖 | 约2–47 g | 约0.3–6.7 g | ≤25 g |
-| 膳食胆固醇 | 约4,440 mg | 约634 mg | – |
-| 钠 | 约14,960 mg | 约2,140 mg | ≤2,300 mg |
-| 钙 | 约8,060 mg | 约1,150 mg | 1,000 mg |
-| 铁 | 约133 mg | 约18.9 mg | 8 mg |
-| 钾 | 约33,750 mg | 约4,820 mg | ≥3,400 mg |
-| 维生素D | 约199 µg | 约28.4 µg | 15 µg |
-| 维生素B12 | 约71.8 µg | 约10.3 µg | 2.4 µg |
-| 碘 | 约960 µg | 约140 µg | 150 µg |
-| Omega-3：ALA | 约10.2 g | 约1.5 g | 1.6 g |
-| Omega-3：EPA+DHA | 约13.5 g | 约1.9 g | 250 mg |
+| 膳食胆固醇 | 约4,290 mg | 约612 mg | – |
+| 钠 | 约14,880 mg | 约2,130 mg | ≤2,300 mg |
+| 钙 | 约7,980 mg | 约1,140 mg | 1,000 mg |
+| 铁 | 约131 mg | 约18.8 mg | 8 mg |
+| 钾 | 约31,860 mg | 约4,550 mg | ≥3,400 mg |
+| 维生素D | 约169 µg | 约24.1 µg | 15 µg |
+| 维生素B12 | 约63.3 µg | 约9.0 µg | 2.4 µg |
+| 碘 | 约950 µg | 约140 µg | 150 µg |
+| Omega-3：ALA | 约10.3 g | 约1.5 g | 1.6 g |
+| Omega-3：EPA+DHA | 约13.7 g | 约2.0 g | 250 mg |
 {.table-centered}
 
 每餐热量与宏量营养（估算；相同餐合并列出，数值均为一顿）：
 
 | 餐次与搭配 | 热量 kcal | 蛋白质 g | 脂肪 g | 饱和脂肪 g | 碳水 g | 纤维 g | 总糖 g |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 每天早餐 | 311 | 11.6 | 5.0 | 0.6 | 74.5 | 23.5 | 31.2 |
+| 每天早餐 | 305 | 11.5 | 5.0 | 0.6 | 73.1 | 23.3 | 30.0 |
 | 周日午／周三晚：牛排水煮蛋土豆泥蘑菇 | 689 | 52.3 | 34.7 | 12.4 | 47.5 | 5.7 | 2.3 |
-| 周日晚／周二午：扇贝炒蛋豌豆胡萝卜米饭 | 760 | 85.1 | 10.6 | 2.2 | 76.6 | 5.6 | 5.3 |
-| 周一午：三文鱼番茄意面 | 849 | 83.7 | 30.5 | 6.8 | 60.7 | 8.5 | 7.8 |
+| 周日晚／周二午：扇贝炒蛋豌豆胡萝卜米饭 | 769 | 86.8 | 10.7 | 2.2 | 76.8 | 5.6 | 5.3 |
+| 周一午：三文鱼番茄意面 | 807 | 61.8 | 36.2 | 7.9 | 60.7 | 8.5 | 7.8 |
 | 周一晚／周五午：鸡腿水煮蛋卷饼蘑菇 | 749 | 67.9 | 36.8 | 8.7 | 37.8 | 4.6 | 3.2 |
-| 周二晚：三文鱼土豆泥菠菜 | 774 | 78.3 | 31.4 | 6.9 | 46.4 | 8.3 | 1.0 |
+| 周二晚：三文鱼土豆泥菠菜 | 732 | 56.3 | 37.2 | 7.9 | 46.4 | 8.3 | 1.0 |
 | 周三午／周六晚：鸡腿番茄意面 | 721 | 63.3 | 26.1 | 5.3 | 61.5 | 8.7 | 7.9 |
 | 周四午／周五晚：豆腐炒蛋豌豆胡萝卜米饭 | 740 | 56.8 | 24.2 | 4.0 | 78.6 | 5.6 | 7.4 |
-| 周四晚：虹鳟番茄意面 | 831 | 85.5 | 27.5 | 5.8 | 60.7 | 8.5 | 7.8 |
-| 周六午：虹鳟土豆泥菠菜 | 756 | 80.0 | 28.5 | 5.9 | 46.4 | 8.3 | 1.0 |
+| 周四晚：虹鳟番茄意面 | 732 | 71.5 | 23.2 | 4.9 | 60.7 | 8.5 | 7.8 |
+| 周六午：虹鳟土豆泥菠菜 | 657 | 66.0 | 24.1 | 4.9 | 46.4 | 8.3 | 1.0 |
 | 餐外饮品（日均） | 112 | 10.0 | 5.6 | 0.6 | 5.0 | 2.5 | 1.2 |
 {.table-centered}
 
@@ -656,16 +673,16 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
 
 | 餐次与搭配 | 胆固醇 mg | 钠 mg | 钙 mg | 铁 mg | 钾 mg |
 |---|---:|---:|---:|---:|---:|
-| 每天早餐 | 0 | 251 | 446 | 7.1 | 1008 |
+| 每天早餐 | 0 | 250 | 444 | 7.0 | 984 |
 | 周日午／周三晚：牛排水煮蛋土豆泥蘑菇 | 482 | 716 | 184 | 6.1 | 1724 |
-| 周日晚／周二午：扇贝炒蛋豌豆胡萝卜米饭 | 314 | 1203 | 126 | 3.8 | 1196 |
-| 周一午：三文鱼番茄意面 | 163 | 700 | 90 | 4.0 | 2237 |
+| 周日晚／周二午：扇贝炒蛋豌豆胡萝卜米饭 | 318 | 1219 | 127 | 3.8 | 1216 |
+| 周一午：三文鱼番茄意面 | 124 | 683 | 72 | 3.7 | 1617 |
 | 周一晚／周五午：鸡腿水煮蛋卷饼蘑菇 | 625 | 767 | 128 | 5.6 | 1512 |
-| 周二晚：三文鱼土豆泥菠菜 | 163 | 629 | 272 | 6.1 | 2956 |
+| 周二晚：三文鱼土豆泥菠菜 | 124 | 612 | 254 | 5.8 | 2336 |
 | 周三午／周六晚：鸡腿番茄意面 | 235 | 709 | 68 | 4.6 | 1403 |
 | 周四午／周五晚：豆腐炒蛋豌豆胡萝卜米饭 | 195 | 1010 | 246 | 6.9 | 825 |
-| 周四晚：虹鳟番茄意面 | 207 | 728 | 139 | 4.0 | 2116 |
-| 周六午：虹鳟土豆泥菠菜 | 207 | 657 | 321 | 6.1 | 2836 |
+| 周四晚：虹鳟番茄意面 | 165 | 692 | 122 | 3.8 | 1852 |
+| 周六午：虹鳟土豆泥菠菜 | 165 | 621 | 303 | 5.9 | 2572 |
 | 餐外饮品（日均） | 0 | 241 | 374 | 1.2 | 462 |
 {.table-centered}
 
