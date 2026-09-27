@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Middle Extension Sheaves</title>
       <link>http://localhost:1313/posts/1b64c0e/</link>
@@ -725,7 +725,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;/ul&gt;
 &lt;!-- 两次共用流程；上半周Coho三文鱼、扇贝炒鸡蛋，下半周虹鳟、豆腐炒鸡蛋，其余食材不变。 --&gt;
 &lt;p&gt;早餐：混合水果约357 g + 高纤维谷物早餐 40 g + 无糖豆奶200 g；周一至周六各加1个水煮蛋。&lt;/p&gt;
-&lt;!-- 豆奶每周两桶Silk无糖原味1.89L，共3.78L，日均540mL；早餐每天200g近似200mL已包含，其余分次饮用，不重复计量。 --&gt;
+&lt;!-- 豆奶每周两桶Silk无糖原味1.89L，共3.78L；包含早餐每天200g近似200mL及土豆泥每次100mL、每周200mL，其余分次饮用，不重复计量。 --&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -761,23 +761,23 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;周二&lt;/td&gt;
-          &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二&lt;/td&gt;
+          &lt;td&gt;午餐&lt;/td&gt;
+          &lt;td&gt;白米饭&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;土豆泥&lt;/td&gt;
           &lt;td&gt;三文鱼&lt;/td&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三&lt;/td&gt;
@@ -810,23 +810,23 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
-          &lt;td&gt;白米饭&lt;/td&gt;
-          &lt;td&gt;豆腐炒鸡蛋&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;卷饼皮&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
-          &lt;td&gt;卷饼皮&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td&gt;白米饭&lt;/td&gt;
+          &lt;td&gt;豆腐炒鸡蛋&lt;/td&gt;
+          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;土豆泥&lt;/td&gt;
           &lt;td&gt;虹鳟&lt;/td&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
@@ -918,10 +918,10 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;无糖无咖啡因汽水&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164&#34;&gt;Fresca Citrus Soda Pop Mini Cans, 222 mL, 6 Pack&lt;/a&gt;&lt;br&gt;222 mL × 6罐 / 包&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2包 / 周&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189&#34;&gt;Fresca Citrus Soda Pop Fridge Pack Cans, 355 mL, 12 pack&lt;/a&gt;&lt;br&gt;355 mL × 12罐 / 箱&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1箱 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$7.94&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$8.28&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;即食土豆泥&lt;/td&gt;
@@ -932,7 +932,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/great-value-peas-carrots/10275334&#34;&gt;Great Value Peas &amp;amp; Carrots&lt;/a&gt;&lt;br&gt;398 mL / 罐&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/great-value-peas-carrots/10275334&#34;&gt;Great Value Peas &amp;amp; Carrots&lt;/a&gt;&lt;br&gt;398 mL / 罐，沥干260 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2罐 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1罐&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$2.74&lt;/td&gt;
@@ -1075,14 +1075,14 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Terra-Delyssa-Premium-Extra-Virgin-Olive-Oil-1L/6000196167259&#34;&gt;Terra Delyssa Premium Extra Virgin Olive Oil&lt;/a&gt;&lt;br&gt;1 L / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$0.45&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$0.51&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;每周合计&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$188.62&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$189.02&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1210,12 +1210,13 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;烤鱼：鱼放空气炸锅400°F烤8分钟。&lt;/li&gt;
 &lt;li&gt;烤鸡腿：鸡腿400°F烤25分钟。&lt;/li&gt;
-&lt;li&gt;烤牛排：牛排400°F烤6分钟，翻面再烤6分钟。&lt;/li&gt;
+&lt;li&gt;烤牛排：牛排400°F烤4分钟，翻面再烤4分钟。&lt;/li&gt;
 &lt;li&gt;煮意面：意面煮锅水开后，取140 g意面煮约8分钟，滤盆沥水。&lt;/li&gt;
 &lt;li&gt;（仅周日）煮鸡蛋：鸡蛋煮锅水开后，取鸡蛋6个煮约8分钟。&lt;/li&gt;
-&lt;li&gt;加热豌豆胡萝卜：开1罐豌豆胡萝卜，沥水冲洗，倒入碗中加盖，微波炉高火约2分钟。&lt;/li&gt;
-&lt;li&gt;做土豆泥：500 mL水微波加热2分钟，拌入粉，再高火2–3分钟。&lt;/li&gt;
+&lt;li&gt;准备豌豆胡萝卜：开1罐，冲洗后充分沥干，留待炒蛋时加入。&lt;/li&gt;
+&lt;li&gt;做土豆泥：400 mL水＋100 mL无糖豆奶微波高火加热4分钟，拌入90 g土豆泥粉和1/2茶匙橄榄油，再高火2–3分钟，静置3–5分钟后拌匀。&lt;/li&gt;
 &lt;/ol&gt;
+&lt;!-- 土豆泥液体预热4分钟按约1000W微波炉估计，并非所有功率和起始温度下都能达到相同温度；容器留出空间、不密封，避免溢出，取出时防烫。 --&gt;
 &lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
 &lt;p&gt;每锅每轮用油1/2茶匙，按表调味。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -1255,7 +1256,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;扇贝、鸡蛋（上半周）&lt;/td&gt;
+          &lt;td&gt;扇贝、鸡蛋、豌豆胡萝卜（上半周）&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
@@ -1263,7 +1264,7 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;豆腐、鸡蛋（下半周）&lt;/td&gt;
+          &lt;td&gt;豆腐、鸡蛋、豌豆胡萝卜（下半周）&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
@@ -1279,8 +1280,8 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
 &lt;li&gt;第二锅：菠菜下锅加调味，中大火炒7分钟，盛出。&lt;/li&gt;
 &lt;li&gt;第一锅：
 &lt;ul&gt;
-&lt;li&gt;上半周：重新加油1/4茶匙，扇贝中大火炒约6–8分钟、沥水；重新加油1/4茶匙下锅，加混合蛋液及调味，中小火炒约3–5分钟至蛋液凝固。&lt;/li&gt;
-&lt;li&gt;下半周：豆腐擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀；重新加油，豆腐下锅中火煎约6–8分钟，转中小火，加酱油或蚝油2茶匙翻匀，重新加油1/4茶匙倒入混合蛋液，中小火炒约3–5分钟至凝固，与豆腐混合，关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
+&lt;li&gt;上半周：重新加油1/4茶匙，扇贝中大火炒约6–8分钟、沥水；重新加油1/4茶匙，扇贝回锅，加入沥干的整罐豌豆胡萝卜炒约1–2分钟；加混合蛋液及调味，中小火炒约3–5分钟至蛋液凝固。&lt;/li&gt;
+&lt;li&gt;下半周：豆腐擦干切块，放调味盆，加玉米淀粉2茶匙、蒜粉1/2茶匙、黑胡椒1/4茶匙轻拌均匀；重新加油，豆腐下锅中火煎约6–8分钟，加入沥干的整罐豌豆胡萝卜炒约1–2分钟；转中小火，加酱油或蚝油2茶匙翻匀，重新加油1/4茶匙倒入混合蛋液，中小火炒约3–5分钟至凝固，与豆腐混合，关火拌入醋1/2茶匙，撒熟芝麻1茶匙。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;第二锅：加油，300 mL番茄意面酱加调味小火加热约2–3分钟；加入意面再小火拌煮3分钟。&lt;/li&gt;
@@ -1307,15 +1308,15 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;5、7&lt;/td&gt;
+          &lt;td&gt;4、7&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;扇贝炒鸡蛋（上半周）／豆腐炒鸡蛋（下半周）&lt;/td&gt;
-          &lt;td&gt;2、4&lt;/td&gt;
+          &lt;td&gt;扇贝炒鸡蛋（上半周）／豆腐炒鸡蛋（下半周），含豌豆胡萝卜&lt;/td&gt;
+          &lt;td&gt;2、5&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;米饭&lt;/td&gt;
-          &lt;td&gt;2、4&lt;/td&gt;
+          &lt;td&gt;2、5&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;番茄意面&lt;/td&gt;
@@ -1327,22 +1328,20 @@ Metro 原购物表及此前双店对照，完整保留，仅作历史备选，�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td&gt;5&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td&gt;1、5&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
           &lt;td&gt;4&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td&gt;2、6&lt;/td&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td&gt;1、4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;6&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;!-- 2026-09-27餐序交换（当前）：周一晚餐与周二午餐交换，下半周对应周五午餐与晚餐交换；两次做菜均交换第4、5盘内容。炒蛋含豌豆胡萝卜及米饭改分第2、5盘；鸡腿第4、7盘、卷饼第4盘、蘑菇第1、4盘。只改餐序，食材用量、做法、购物、营养及赤字不变。 --&gt;
+&lt;!-- 2026-09-27蔬菜分配更新（分盘编号已被上方餐序交换取代）：两次做菜各将1罐398mL豌豆胡萝卜冲洗沥干后加入当次扇贝炒蛋或豆腐炒蛋，整锅均分第2、4盘；取消豌豆胡萝卜单独微波步骤，不额外增加油盐或调味。原第4盘菠菜移到第6盘，分别配周二晚三文鱼、周六午虹鳟。每周豌豆胡萝卜仍2罐、菠菜仍2袋，购物、营养周总量和赤字估计不变；旧注释中第2、6盘及微波加热记录仅作历史。 --&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;冷藏分好的餐，清洗厨具。&lt;/li&gt;
 &lt;/ol&gt;
@@ -1422,7 +1421,7 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,882.70 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,842.48 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1430,31 +1429,31 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.bbqchickenca.com/&#34;&gt;酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整份，1.2 lb&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1,156，菜单标注&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约40%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约41%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://6ixtywings.com/menu_items/chicken-caesar-wrap/&#34;&gt;凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个＋默认普通薯条&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,500&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约38–52%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约39–53%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://order.online/store/burger-burger-25113744&#34;&gt;炸鸡汉堡（Burger Burger Johnny Cash Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约26–36%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约26–37%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ&#34;&gt;炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整套，含米饭、饺子、yam配菜、汤及沙拉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约38–56%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约39–56%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://osmows.com/nutrition-calculator&#34;&gt;脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Regular，含蒜酱及OzPotle酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约26–36%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约26–37%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings）&lt;/td&gt;
@@ -1472,7 +1471,7 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约23%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约24%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
@@ -1502,7 +1501,7 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
@@ -1587,14 +1586,14 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;th&gt;替代品&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,882.70 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,842.48 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;含糖汽水&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-222mL-Can-x-6/6000196928164&#34;&gt;Fresca Citrus Soda Pop Mini Cans&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;1罐222 mL&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189&#34;&gt;Fresca Citrus Soda Pop Fridge Pack Cans&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1罐355 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;0%&lt;/td&gt;
       &lt;/tr&gt;
@@ -1617,14 +1616,14 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Nestea-Zero-Sugar-Iced-Tea/2QW2HXHP2Z41&#34;&gt;Nestea Zero Sugar Iced Tea&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶473 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约0.3%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.4%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;果冻、甜点&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Jell-O-Zero-Sugar-Strawberry-Jelly-Powder-Mix-10-1-g-Box/6000188760145&#34;&gt;Jell-O Zero Sugar Strawberry Jelly Powder Mix&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;加水制成125 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约0.3%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.4%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;巧克力甜点&lt;/td&gt;
@@ -1645,7 +1644,7 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/DEL-MONTE-Strawberry-Frozen-Fruit-Bars-10-Pack-10-x-50-ml/6000202764024&#34;&gt;DEL MONTE Strawberry Frozen Fruit Bars&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1支50 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约50&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1.7%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.8%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;巧克力雪糕&lt;/td&gt;
@@ -1666,7 +1665,7 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Quaker-Crispy-Minis-Original-Large-Brown-Rice-Cakes/10284949&#34;&gt;Quaker Crispy Minis Original Large Brown Rice Cakes&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2片，不加抹酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约70&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.4%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.5%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;薯片、咸味零食&lt;/td&gt;
@@ -1680,7 +1679,7 @@ IMG_8042：Mr. Panda BBQ新奥尔良烤翅1 lb为菜单标重，不能当453.6g�
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags-8-x-31-g-248-g/206256&#34;&gt;Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1迷你袋31 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约110&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约3.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约3.9%&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1790,6 +1789,9 @@ Coho替换，2026-09-23（最新口径，覆盖此前Atlantic营养、预算和�
 鸡蛋再次换购更新，2026-09-23：按用户IMG_8022.PNG改回Great Value Grade A White Eggs, Large, 12 ct，每周1盒12个，价格按截图$4.13；6个早餐蛋、6个炒蛋及周日9个、周三3个的取用安排不变。沿用此前该款Walmart商品链接。周购物总额183.21−7.79+4.13=$179.55。上一条Conestoga记录转为历史，不再是当前商品。此前未将Conestoga的额外Omega-3计入营养，因此无需扣减；继续沿用普通大鸡蛋营养代理值，营养总计与热量赤字不变，并非已核实本包装营养标签。
 --&gt;
 &lt;h3 id=&#34;营养统计&#34;&gt;营养统计&lt;/h3&gt;
+&lt;!-- 2026-09-27豌豆胡萝卜沥干重量确认：用户提供当前Great Value Peas &amp; Carrots每罐沥干260g，取代此前每罐260g的重量暂估。每周2罐共520g，每次做菜1罐分两餐，每餐130g。与原计算重量一致，因此不改变营养合计、热量赤字或费用；每100g营养仍为既有同类食品代理估值，重量确认不代表本款营养标签已核实。历史重量暂估说明保留供追溯，以本条为准。 --&gt;
+&lt;!-- 2026-09-27 Fresca恢复12罐装（当前汽水、钠钾及预算口径）：222mL×6罐×2包/周改为355mL×12罐×1箱/周，周容量2664→4260mL，仍每周12罐。Walmart链接恢复10277189，本次公开页参考价8.28加元/箱，门店及结算价可能不同；预算188.68−7.94+8.28=189.02加元/周。每355mL沿用0kcal、糖0g、钠75mg、钾15mg的既有估值；本次加拿大零售标签检索再次支持钠75mg，钾15mg仍沿用旧记录，以实物标签为准。替换原每222mL钠45mg、钾10mg后，钠增加360mg/周、51.428571mg/日，钾增加60mg/周、8.571429mg/日。最新周钠14413.821150274018mg、日均2059.117307182002mg；周钾34131.95392578463mg、日均4875.993417969233mg。热量、其他营养、赤字2842.477179077865kcal/周及406.068168439695kcal/日不变。购物与低卡替代表同步换链接；历史Metro及旧版本注释保留。来源：https://www.walmart.ca/en/ip/Fresca-355mL-Cans-12-Pack/10277189 ，https://www.saveonfoods.com/sm/planning/rsid/4420/product/fresca-sparkling-soda-id-00067000005558 。 --&gt;
+&lt;!-- 2026-09-27土豆泥配方更新（当前最高优先级）：每次90g粉配400mL水、100mL现有无糖豆奶、1/2茶匙橄榄油，分两餐，每周两次。豆奶每周总量仍3780mL，其中200mL用于土豆泥，从早餐外饮用量调配，不重复增加营养或采购；不加黄油或盐。橄榄油周总量37.5→42.5mL，新增5mL暂按4.55g，沿用每100g营养组[884,0,100,13.8,0,0,0,0,2,1,0.56,1]，周增加40.222kcal、脂肪4.55g、饱和脂肪0.6279g，ALA代理增加0.0346255g，显示仍12.3g/周、1.8g/日。新周营养组[13875.801920922135,1180.6323983336665,478.03131747117655,97.34183511729414,1370.0307876461177,273.96711954903924,292.4904994711765,4415.1,14053.821150274018,8344.605048372097,139.75323092213725,34071.95392578463]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。周消耗仍16718.2791kcal，周赤字2842.477179077865kcal，日均406.068168439695kcal，理论脂肪等价值0.3691528804kg/周。其他营养及训练不变；油预算沿用11.97/L，42.5mL为0.508725加元，显示0.51；周显示行合计188.68。微波时间依功率调整，容器留出膨胀空间，不密封加热；500mL液体为用户选定配方，成品可能较稀。 --&gt;
 &lt;!-- 2026-09-27意面增加到70g（当前最高优先级，覆盖下方65g版本）：每顿干面70g，每次140g分两餐，每周四餐280g；干米仍每次133.333333g≈160mL，分两餐，其他安排不变。沿用Catelli PROTEIN+每85g营养组[300,17,2,0.5,58,8,2,0,4,20,2.5,400]，每周增加20g意面，即70.588235294 kcal、4g蛋白质、13.647058824g碳水。新周营养组[13835.579920922,1180.632398334,473.481317471,96.713935117,1370.030787646,273.967119549,292.490499471,4415.1,14053.730150274,8344.559548372,139.727750922,34071.908425785]，依次为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。周消耗仍16718.2791 kcal，赤字2882.699179078 kcal/周、411.814168440 kcal/日，理论脂肪等价值0.374376517kg/周；均为模型估计，不代表实际纯脂肪减少。碘与ALA按既有代理分别增加0.15µg及0.004835g/周，显示精度不变；其他微量营养限定来源小计与添加糖范围不变。意面费用3.97×280/340=3.269412，显示3.27；显示行预算188.39−3.04+3.27=188.62。同步购物、流程、营养和两张放纵餐表；保留Metro及历史记录。 --&gt;
 &lt;!-- 2026-09-27干米增加到每次160mL（当前最高优先级，覆盖下方米面旧版本）：每次做饭干米约133.333333g≈160mL，分两餐，每餐约66.666667g≈80mL；每周两次共266.666667g≈320mL。意面维持65g/餐、130g/次、260g/周。相较每次120mL版本，每周增加干米66.666667g；沿用每100g营养组[365,7.13,0.66,0.18,79.95,1.3,0.12,0,5,28,0.8,115]，新增243.333333333 kcal/周。新周营养组[13764.991685628,1176.632398334,473.010729236,96.596288058,1356.383728823,272.084766608,292.019911236,4415.1,14052.788973803,8339.853666019,139.139515628,33977.790778726]，依次为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。消耗仍16718.2791 kcal/周，赤字2953.287414372 kcal/周、421.898202053 kcal/日；理论脂肪等价值0.383543820kg/周，不代表实际纯脂肪减量。碘沿用代理增加约0.4µg/周，显示不变；ALA增加约0.006667g/周，合计约12.2521g/周、1.7503g/日，显示12.3/1.8g，跨舍入边界不代表显著变化。其他维生素、EPA+DHA、添加糖不变。米费用4.98×266.666667/2000=0.664，显示0.66；购物显示行合计188.23−0.50+0.66=188.39。两张放纵餐表同步分母及比例，其余食材、调味、训练、Metro备选与历史记录不变。 --&gt;
 &lt;!-- 2026-09-27意面增加到65g（当前最高优先级，取代紧随其后的60g版本）：每顿干面65g，每次130g分两餐，每周四餐共260g；干米仍每次100g≈120mL，其他食材、调味和训练不变。沿用Catelli PROTEIN+每85g营养组[300,17,2,0.5,58,8,2,0,4,20,2.5,400]，较60g版每周多20g，增加70.588235294 kcal、4g蛋白质、13.647058824g碳水。新周合计[13521.658352295,1171.879065,472.570729236,96.476288058,1303.083728823,271.218099941,291.939911236,4415.1,14049.455640470,8321.186999352,138.606182295,33901.124112059]，依次为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。周消耗仍16718.2791 kcal，周赤字3196.620747705 kcal、日均456.660106815 kcal；理论脂肪等价值0.415145552kg/周，不代表实际纯脂肪减量。碘按既有代理增加0.15µg/周、ALA增加0.004835g/周，原显示精度不变；D、B12、EPA+DHA和添加糖范围不变。意面周分摊3.97×260/340=3.035882，显示3.04；显示行合计187.99−2.80+3.04=188.23。同步两张放纵餐表分母及比例；历史记录和Metro备选保留。 --&gt;
@@ -1827,7 +1829,7 @@ D来源小计199.14−7×15.9+6.2×11=156.04µg/周；B12=71.828−7×4.3+6.2×3
 &lt;!-- 2026-09-25主食微减（当前最新口径，覆盖旧用量与合计）：意面每顿干重50g，每次100g、每周200g；白米每次干米110mL，每周220mL，沿用240mL≈200g代理，暂折183.333333g/周。较上一版每周少20g意面、16.666667g干米。沿用意面每85g营养组[300,17,2,0.5,58,8,2,0,4,20,2.5,400]及干米每100g[365,7.13,0.66,0.18,79.95,1.3,0.12,0,5,28,0.8,115]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。新周合计[13219.260313079,1162.170731667,462.268964530,94.793346882,1253.617552352,272.554374451,302.508146530,4396.7,13749.538777725,8325.402685627,136.588143079,34873.404504216]。周热量减少131.421568627kcal；消耗仍16718.2791kcal，赤字3499.018786921kcal，展示3499.02；除7700为理论脂肪等价值0.454418kg/周，不是实际纯脂肪减量保证。意面碘代理减少0.15µg/周、米减少0.1µg/周；ALA分别减少0.004835g、0.001667g/周，均不影响现有显示精度。其他维生素、EPA+DHA及添加糖不变。费用沿用单价：意面3.97×200/340=2.335294，显示2.34；米4.98×183.333333/2000=0.4565，显示0.46；周预算按显示行合计185.06−2.57−0.50+2.34+0.46=184.79。同步放纵餐比例；旧审计和Metro备选保留。未增加此前讨论的额外步行，油、调味、其他饮食及训练不变。 --&gt;
 &lt;!-- 2026-09-25鸡蛋换回Conestoga Farms Free Run Omega-3 Large Brown 12 Eggs：每周1盒12个，早餐6个、炒蛋6个，周日9个／周三3个及500g蛋清不变。价格沿用用户IMG_8021.PNG的$7.79，非当前默认门店网页$7.28；预算184.79−4.13+7.79=$188.45。厂家确认品种，但官网营养图片无法读取；营养暂采用同品牌同品种Large Brown的18个装公开标签作代理：https://voila.ca/products/conestoga-farms-omega-3-eggs-free-run-large-value-size-18-count/947433EA 。每2个105g：160kcal、蛋白质13g、脂肪11g、饱和3.5g、碳水1g、胆固醇400mg、钠130mg、钾125mg、钙50mg、铁1.75mg；纤维和糖暂计0。与原普通蛋代理每2个[140,12,10,3,2,0,0,390,130,50,1.75,125]相比，12个/周增加[120,6,6,3,-6,0,0,60,0,0,0,0]，依次为kcal、P、脂肪、饱和、碳水、纤维、糖、胆固醇、钠、钙、铁、钾。当前周总量[13339.260313079,1168.170731667,468.268964530,97.793346882,1247.617552352,272.554374451,302.508146530,4456.7,13749.538777725,8325.402685627,136.588143079,34873.404504216]。周消耗16718.2791不变，赤字3379.018786921kcal、脂肪等价值0.438833609kg。标签Omega-3总量0.8g/2蛋，周共4.8g，未分ALA/EPA/DHA，不能全归某一项；现有ALA普通蛋代理和EPA+DHA海鲜小计暂保留，不另加总量以免重复，微量营养分项仍不完整。其他零售标签饱和脂肪有4g/2蛋版本，以到货标签为准。本条覆盖旧鸡蛋换购和营养记录，Metro历史不改。 --&gt;
 &lt;!-- 2026-09-25撤回Conestoga换购（当前鸡蛋口径）：恢复Great Value Grade A White Eggs, Large, 12 ct，每周1盒12个、$4.13，分配及蛋清不变。撤回上一条Conestoga代理营养增量，恢复主食微减记录的周总量：热量13219.260313079kcal、蛋白质1162.170731667g、脂肪462.268964530g、饱和脂肪94.793346882g、碳水1253.617552352g、胆固醇4396.7mg；其余指标不变。周赤字3499.018786921kcal，脂肪等价值0.454418kg；周预算184.79。普通大鸡蛋仍用既有代理值，并非已核实品牌实物标签；价格沿用用户截图，未重新查价。上一条Conestoga记录仅作历史。 --&gt;
-&lt;p&gt;&lt;strong&gt;每周热量赤字估计2,882.70 kcal，日均411.81 kcal；理论脂肪等价值约0.374 kg／周，不代表实际纯脂肪减量。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;每周热量赤字估计2,842.48 kcal，日均406.07 kcal；理论脂肪等价值约0.369 kg／周，不代表实际纯脂肪减量。&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 2026-09-24新增纯蛋清（当前最新口径，覆盖下面旧总量）：Naturegg Simply Egg Whites Free Run 500g，每周1盒；周日与周三各250g，分别与原有3个全蛋打匀后炒扇贝或豆腐，每锅分两餐。不替换原12个全蛋，不增加油盐；早餐不变。开封后冷藏0–4°C，按包装5–7天内用完且不超过有效期；取用后立即放回冰箱。蛋液增加后炒制约3–5分钟仅为参考，以完全凝固为准。
 采用厂家相同UPC065651005262、500g装标签，每100g营养组[45,10,0,0,1,0,0,0,160,10,0,125]，顺序为kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。整盒周增[225,50,0,0,5,0,0,0,800,50,0,625]；标签零值受舍入影响，不是检测绝对为零。
 以紧接下方Silk版本为基线，新周合计[13350.681881706,1167.359065,462.849552765,94.940993941,1280.589611176,274.653394059,302.998734765,4396.7,13751.313287529,8334.775234647,137.309711706,34986.688817941]；日均热量1907.240268815kcal、蛋白质166.765580714g、钠1964.473326790mg。其余维生素、碘和Omega-3因没有本品分项数据，沿用此前来源小计/代理估值，不把未计入等同于不含。
@@ -1864,8 +1866,8 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13,836 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,977 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,876 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,982 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1876,14 +1878,14 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约473 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约67.6 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约478 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约68.3 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约96.7 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13.8 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约97.3 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13.9 g&lt;/td&gt;
           &lt;td&gt;≤11 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1918,8 +1920,8 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14,050 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2,010 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14,410 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2,060 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1936,8 +1938,8 @@ D来源小计196.9µg/周、28.13µg/日；B12来源小计70.708µg/周、10.10�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约34,070 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,870 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约34,130 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,880 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
