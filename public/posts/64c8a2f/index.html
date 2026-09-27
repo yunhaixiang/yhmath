@@ -10,10 +10,13 @@
 
   
   
-  <meta name="description" content="Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
-an $\ell$-adic representation arising from geometry is quasi-unipotent. This
-post will explain the local Galois groups involved, state the theorem, and
-discuss the monodromy operator that records the unipotent part.">
+  <meta name="description" content="
+  
+    Mathematical science is in my opinion an indivisible whole, an organism whose vitality is conditioned upon the connection of its parts.
+  — David Hilbert
+Verdier duality extends Poincaré duality from manifolds to a sheaf-theoretic framework that also accommodates singular spaces. This post develops the dualizing complex and the Verdier dual, and explains how they relate ordinary and compactly supported cohomology.
+Poincaré Duality
+Recall the classical topological statement, using singular homology and cohomology with coefficients in a field $k$.">
   
 
   
@@ -84,32 +87,34 @@ discuss the monodromy operator that records the unipotent part.">
   
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/6439cea/">
+  <meta property="og:url" content="http://localhost:1313/posts/64c8a2f/">
   <meta property="og:site_name" content="Yunhai Xiang">
-  <meta property="og:title" content="Grothendieck’s $\ell$-adic Monodromy Theorem">
-  <meta property="og:description" content="Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on an $\ell$-adic representation arising from geometry is quasi-unipotent. This post will explain the local Galois groups involved, state the theorem, and discuss the monodromy operator that records the unipotent part.">
+  <meta property="og:title" content="Verdier Duality">
+  <meta property="og:description" content="Mathematical science is in my opinion an indivisible whole, an organism whose vitality is conditioned upon the connection of its parts. — David Hilbert Verdier duality extends Poincaré duality from manifolds to a sheaf-theoretic framework that also accommodates singular spaces. This post develops the dualizing complex and the Verdier dual, and explains how they relate ordinary and compactly supported cohomology.
+Poincaré Duality Recall the classical topological statement, using singular homology and cohomology with coefficients in a field $k$.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-10-27T00:00:01-04:00">
-    <meta property="article:modified_time" content="2026-07-27T02:12:46-04:00">
+    <meta property="article:published_time" content="2026-09-26T09:37:56-04:00">
+    <meta property="article:modified_time" content="2026-09-26T09:37:56-04:00">
     <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Number-Theory">
     <meta property="article:tag" content="Algebraic-Geometry">
+    <meta property="article:tag" content="Cohomology">
 
 
   
-  <link rel="canonical" href="http://localhost:1313/posts/6439cea/">
+  <link rel="canonical" href="http://localhost:1313/posts/64c8a2f/">
 
   
   
   
-  <meta itemprop="name" content="Grothendieck’s $\ell$-adic Monodromy Theorem">
-  <meta itemprop="description" content="Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on an $\ell$-adic representation arising from geometry is quasi-unipotent. This post will explain the local Galois groups involved, state the theorem, and discuss the monodromy operator that records the unipotent part.">
-  <meta itemprop="datePublished" content="2026-10-27T00:00:01-04:00">
-  <meta itemprop="dateModified" content="2026-07-27T02:12:46-04:00">
-  <meta itemprop="wordCount" content="60">
-  <meta itemprop="keywords" content="Math,Number-Theory,Algebraic-Geometry">
+  <meta itemprop="name" content="Verdier Duality">
+  <meta itemprop="description" content="Mathematical science is in my opinion an indivisible whole, an organism whose vitality is conditioned upon the connection of its parts. — David Hilbert Verdier duality extends Poincaré duality from manifolds to a sheaf-theoretic framework that also accommodates singular spaces. This post develops the dualizing complex and the Verdier dual, and explains how they relate ordinary and compactly supported cohomology.
+Poincaré Duality Recall the classical topological statement, using singular homology and cohomology with coefficients in a field $k$.">
+  <meta itemprop="datePublished" content="2026-09-26T09:37:56-04:00">
+  <meta itemprop="dateModified" content="2026-09-26T09:37:56-04:00">
+  <meta itemprop="wordCount" content="207">
+  <meta itemprop="keywords" content="Math,Algebraic-Geometry,Cohomology">
 
   
   
@@ -124,14 +129,15 @@ discuss the monodromy operator that records the unipotent part.">
 
   
   
-  <title>Grothendieck’s $\ell$-adic Monodromy Theorem - Yunhai Xiang</title>
+  <title>Verdier Duality - Yunhai Xiang</title>
   
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Grothendieck’s $\ell$-adic Monodromy Theorem">
-  <meta name="twitter:description" content="Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on an $\ell$-adic representation arising from geometry is quasi-unipotent. This post will explain the local Galois groups involved, state the theorem, and discuss the monodromy operator that records the unipotent part.">
+  <meta name="twitter:title" content="Verdier Duality">
+  <meta name="twitter:description" content="Mathematical science is in my opinion an indivisible whole, an organism whose vitality is conditioned upon the connection of its parts. — David Hilbert Verdier duality extends Poincaré duality from manifolds to a sheaf-theoretic framework that also accommodates singular spaces. This post develops the dualizing complex and the Verdier dual, and explains how they relate ordinary and compactly supported cohomology.
+Poincaré Duality Recall the classical topological statement, using singular homology and cohomology with coefficients in a field $k$.">
 
 
   
@@ -214,13 +220,13 @@ discuss the monodromy operator that records the unipotent part.">
 <main id="main" class="post">
   
   <div class="post-heading">
-    <h1 class="post-title">Grothendieck’s $\ell$-adic Monodromy Theorem</h1>
+    <h1 class="post-title">Verdier Duality</h1>
     <div class="publish-metadata">
       
       <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      October 27, 2026
+      September 26, 2026
       
       
         &nbsp;
@@ -228,7 +234,7 @@ discuss the monodromy operator that records the unipotent part.">
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          60 words
+          207 words
         </span>
       
       
@@ -257,9 +263,9 @@ discuss the monodromy operator that records the unipotent part.">
         
           <a class="link tag" href='http://localhost:1313/tags/math'>#math</a>
         
-          <a class="link tag" href='http://localhost:1313/tags/number-theory'>#number-theory</a>
-        
           <a class="link tag" href='http://localhost:1313/tags/algebraic-geometry'>#algebraic-geometry</a>
+        
+          <a class="link tag" href='http://localhost:1313/tags/cohomology'>#cohomology</a>
         
       
 
@@ -277,12 +283,7 @@ discuss the monodromy operator that records the unipotent part.">
     </summary>
     <div class="toc numbered-subtitles"><nav id="TableOfContents">
   <ul>
-    <li><a href="#local-fields-and-inertia">Local Fields and Inertia</a></li>
-    <li><a href="#-adic-representations">-adic Representations</a></li>
-    <li><a href="#statement-of-the-monodromy-theorem">Statement of the Monodromy Theorem</a></li>
-    <li><a href="#the-monodromy-operator">The Monodromy Operator</a></li>
-    <li><a href="#weildeligne-representations">Weil–Deligne Representations</a></li>
-    <li><a href="#examples-and-consequences">Examples and Consequences</a></li>
+    <li><a href="#poincaré-duality">Poincaré Duality</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
@@ -290,21 +291,66 @@ discuss the monodromy operator that records the unipotent part.">
   
   <article class="content numbered-subtitles">
     
-    <p>Grothendieck’s $\ell$-adic monodromy theorem says that the inertia action on
-an $\ell$-adic representation arising from geometry is quasi-unipotent. This
-post will explain the local Galois groups involved, state the theorem, and
-discuss the monodromy operator that records the unipotent part.</p>
-<h2 id="local-fields-and-inertia">Local Fields and Inertia</h2>
-<h2 id="-adic-representations">$\ell$-adic Representations</h2>
-<h2 id="statement-of-the-monodromy-theorem">Statement of the Monodromy Theorem</h2>
-<h2 id="the-monodromy-operator">The Monodromy Operator</h2>
-<h2 id="weildeligne-representations">Weil–Deligne Representations</h2>
-<h2 id="examples-and-consequences">Examples and Consequences</h2>
+    <aside class="yh-pullquote" style="--yh-pullquote-w: 50%;">
+  <div class="yh-pullquote-text">
+    Mathematical science is in my opinion an indivisible whole, an organism whose vitality is conditioned upon the connection of its parts.
+  </div><div class="yh-pullquote-attrib">— David Hilbert</div></aside>
+<p>Verdier duality extends Poincaré duality from manifolds to a sheaf-theoretic framework that also accommodates singular spaces. This post develops the dualizing complex and the Verdier dual, and explains how they relate ordinary and compactly supported cohomology.</p>
+<h2 id="poincaré-duality">Poincaré Duality</h2>
+<p>Recall the classical topological statement, using singular homology and cohomology with coefficients in a field $k$.</p>
+<div class="math-env style-plain" 
+    id="thm-poincare-topological"
+     data-kind="theorem"
+     data-lang="en"
+     data-numbered="true">
+  <span class="math-heading">
+  <span class="math-title"
+        data-label='Theorem'></span>
+  </span>
+  <div class="math-body">
+    <p>Let $M$ be a connected compact oriented real $n$-dimensional manifold without boundary, and let $[M]\in H_n(M;k)$ be its fundamental class. Cap product with $[M]$ gives isomorphisms
+</p>
+$$H^i(M;k)\xrightarrow{\sim}H_{n-i}(M;k),\qquad \alpha\longmapsto\alpha\frown[M].$$<p>
+Equivalently, cup product followed by evaluation on $[M]$ gives a perfect pairing
+</p>
+$$H^i(M;k)\otimes_k H^{n-i}(M;k)\longrightarrow k,\qquad \alpha\otimes\beta\longmapsto\langle\alpha\smile\beta,[M]\rangle.$$<p>
+Thus $H^{n-i}(M;k)\cong H^i(M;k)^\vee$, where $V^\vee:=\operatorname{Hom}_k(V,k)$ <span class="yh-ref" data-ref-kind="bib"
+data-cite-key="Hat02" data-cite-note="Theorem 3.30 and §3.3">
+⟦cite:Hat02⟧
+</span>.</p>
+
+  </div>
+</div>
+
+<p>If $M$ is not compact, the corresponding statement is $H_c^i(M;k)\cong H_{n-i}(M;k)$, where compactly supported cohomology is defined without sheaves by
+</p>
+$$H_c^i(M;k):=\varinjlim_{K\subseteq M\text{ compact}}H^i(M,M\setminus K;k).$$<p>
+Consequently $H^{n-i}(M;k)\cong H_c^i(M;k)^\vee$; when these groups are finite-dimensional, the associated pairing is perfect <span class="yh-ref" data-ref-kind="bib"
+      data-cite-key="Hat02" data-cite-note="Theorem 3.35">
+  ⟦cite:Hat02⟧
+</span>.</p>
 <h2 id="references">References</h2>
 <div class="bib-env">
   <ul class="bib-list">
+  <li data-bib-key="Hat02">
+  <span id="bib-Hat02" class="bib-label">[Hat02]</span>
+  <span class="bib-entry">Allen Hatcher. <em>Algebraic Topology</em>. Cambridge University Press. 2002. <a href="https://pi.math.cornell.edu/~hatcher/AT/AT.pdf">https://pi.math.cornell.edu/~hatcher/AT/AT.pdf</a>.</span>
+</li>
+
+  <li data-bib-key="Mil13">
+  <span id="bib-Mil13" class="bib-label">[Mil13]</span>
+  <span class="bib-entry">James S. Milne. <em>Lectures on Étale Cohomology (Version 2.21)</em>. 2013. <a href="https://www.jmilne.org/math/CourseNotes/LEC.pdf">https://www.jmilne.org/math/CourseNotes/LEC.pdf</a>.</span>
+</li>
+
+  <li data-bib-key="Hil02">
+  <span id="bib-Hil02" class="bib-label">[Hil02]</span>
+  <span class="bib-entry">David Hilbert. <em>Mathematical Problems</em>. Bulletin of the American Mathematical Society. 8(10). pp. 437–479. 1902. <a href="https://cs.clarku.edu/~djoyce/hilbert/problems.html">https://cs.clarku.edu/~djoyce/hilbert/problems.html</a>.</span>
+</li>
+
 </ul>
 </div>
+
+
     
 
     
@@ -340,10 +386,10 @@ discuss the monodromy operator that records the unipotent part.</p>
 </div>
   <div class="paginator">
     
-    <a class="link" href="http://localhost:1313/posts/68915c5/" title="Néron–Ogg–Shafarevich and Serre–Tate Criteria"><span class="arrow-icon">🢠</span> Prev</a>
+    <a class="link" href="http://localhost:1313/posts/1b64c0e/" title="Middle Extension Sheaves"><span class="arrow-icon">🢠</span> Prev</a>
     
     
-    <a></a>
+    <a class="link" href="http://localhost:1313/posts/7a9c1e4/" title="Compatible Systems and Rationality">Next <span class="arrow-icon">🢡</span></a>
     
   </div>
   
