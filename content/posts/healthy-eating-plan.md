@@ -56,9 +56,9 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 | 牛排 | [Platinum Grill Angus Beef Striploin Steak](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142)<br>1块 / 盒，平均291 g生重 / 块 | 2盒 / 周 | 1块 | 约$38.48 |
 | 三文鱼 | [Fresh Skin-On Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skin-on-atlantic-salmon-portion/p/229257)<br>113 g / 块 | 4块 / 周 | 2块 | $19.96 |
 | 虹鳟 | [Fresh Skinless Rainbow Trout Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skinless-rainbow-trout-portion/p/222361)<br>140 g / 块 | 4块 / 周 | 2块 | $19.96 |
-| 去骨去皮鸡胸肉 | [Prime Boneless Skinless Chicken Breasts](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-skinless-chicken-breasts/p/244931)<br>474 g / 盒、2块 | 1盒 / 周 | 1块，约237 g | 约$14.10 |
-| 豆腐 | [Sunrise Soya Foods Smoked Tofu](https://www.metro.ca/en/online-grocery/aisles/vegan-vegetarian-food/tofu-tempeh-other-protein/smoked-tofu/p/057864001438)<br>180 g / 包，Original | 2包 / 周 | 1包，180 g | $9.98 |
-| 鸡蛋 | [Selection Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054)<br>12个 / 盒 | 1盒 / 周 | 每次6个，均水煮 | $3.99 |
+| 去骨去皮鸡胸肉 | [Prime Boneless Skinless Chicken Breasts](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-skinless-chicken-breasts/p/244931)<br>474 g / 盒、2块 | 1盒 / 周 | 1块 | 约$14.10 |
+| 豆腐 | [Sunrise Soya Foods Smoked Tofu](https://www.metro.ca/en/online-grocery/aisles/vegan-vegetarian-food/tofu-tempeh-other-protein/smoked-tofu/p/057864001438)<br>180 g / 包，Original | 2包 / 周 | 1包 | $9.98 |
+| 鸡蛋 | [Selection Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054)<br>12个 / 盒 | 1盒 / 周 | 6个 | $3.99 |
 | 无糖豆奶 | [Silk Soy Milk Alternative, Unsweetened, Dairy Free](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735)<br>1.89 L / 桶 | 2桶 / 周 | — | $11.98 |
 | 无糖无咖啡因汽水 | [Fresca Citrus Soda Pop Fridge Pack Cans, 355 mL, 12 pack](https://www.metro.ca/epicerie-en-ligne/allees/boissons/boissons-gazeuses/citron-lime-et-agrumes/boisson-gazeuse-a-saveur-de-pamplemousse-sans-sucre/p/067000104923)<br>355 mL × 12罐 / 箱 | 1箱 / 周 | — | $9.49 |
 | 切块红薯 | [Diced Sweet Potatoes / Sweet Potato Cubes](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/sweet-potato-cubes/p/681548000723)<br>400 g / 盒 | 2盒 / 周 | 1盒 | $9.98 |
@@ -82,7 +82,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 | 玉米淀粉 | [Selection Corn Starch](https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199)<br>454 g / 盒 | 按需补 | 2茶匙 | $0.10 |
 | 盐 | [Windsor Iodized Table Salt](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055)<br>1 kg / 盒 | 按需补 | — | $0.01 |
 | 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627)<br>1 L / 瓶 | 按需补 | — | $0.81 |
-| 无添加糖／盐番茄蘸酱 | [Heinz No Added Sugar or Salt Ketchup Style Sauce, Zero](https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings-page-3)<br>375 mL / 瓶，参考$4.49 | 按需补 | 15 mL，鸡胸肉餐蘸用 | $0.36 |
+| 无添加糖／盐番茄蘸酱 | [Heinz No Added Sugar or Salt Ketchup Style Sauce, Zero](https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings-page-3)<br>375 mL / 瓶，参考$4.49 | 按需补 | 15 mL | $0.36 |
 | 每周合计 | — | — | — | $228.73 |
 {.table-centered}
 
