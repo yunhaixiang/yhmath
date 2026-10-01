@@ -375,13 +375,15 @@ https://www.efsa.europa.eu/en/press/news/120727
 
 每周力量训练4天：周一、周二、周四、周五；这四天先力量、后做HIIT跟练（含热身、放松约29分钟，可跟低冲击版本）。周六游泳约40分钟，周三、周日休息。
 
+每次力量训练约40分钟（约38–42分钟，含5分钟热身、组间休息和换动作，不含HIIT）。推、拉、深蹲、弓步和硬拉组间休息90–120秒；其余动作约60秒。单侧动作左右做完算一组，换侧约15秒，再组间休息。下列动作时间均包含休息和换动作，作为时间预算，不必为凑时间加组或赶动作。
+
 | 星期 | 力量训练 | 有氧 |
 |---|---|---|
-| 周一 | 上肢推拉与核心| HIIT  |
-| 周二 | 下肢与臀部 | HIIT  |
+| 周一 | 上肢推拉与核心，约40分钟 | HIIT  |
+| 周二 | 下肢、臀部与核心，约40分钟 | HIIT  |
 | 周三 | 休息 | 休息 |
-| 周四 | 上肢推拉与核心 | HIIT  |
-| 周五 | 下肢与核心 | HIIT |
+| 周四 | 上肢推拉与核心，约40分钟 | HIIT  |
+| 周五 | 下肢与核心，约40分钟 | HIIT |
 | 周六 | 休息 | 游泳 |
 | 周日 | 休息 | 休息 |
 {.table-centered}
@@ -419,51 +421,51 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 
 哑铃配重：10 lb
 
-预估时间：30–44 分钟。
+预估时间：约40分钟（热身5分钟＋以下35分钟）。
 
-- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；
-- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次；
-- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 10–15 次；
-- [哑铃侧平举](https://www.youtube.com/watch?v=PzsMitRdI_8)（Dumbbell lateral raise）：2 组 × 12–20 次；
-- [哑铃反向飞鸟](https://www.youtube.com/watch?v=H-rqYm0xSZk)（Dumbbell reverse fly）：2 组 × 12–20 次；
-- [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒
+- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次，约9分钟；
+- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次，约5分钟；
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：4 组 × 10–15 次，约9分钟；
+- [哑铃侧平举](https://www.youtube.com/watch?v=PzsMitRdI_8)（Dumbbell lateral raise）：2 组 × 12–20 次，约4分钟；
+- [哑铃反向飞鸟](https://www.youtube.com/watch?v=H-rqYm0xSZk)（Dumbbell reverse fly）：2 组 × 12–20 次，约4分钟；
+- [平板支撑](https://www.youtube.com/watch?v=mwlp75MS6Rg)（Plank）：2 组 × 30–60 秒，约4分钟
 
-### 周二：下肢与臀部
+### 周二：下肢、臀部与核心
 
 哑铃配重：10 lb
 
-预估时间：27–39 分钟。
+预估时间：约40分钟（热身5分钟＋以下35分钟）。
 
-- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 10–15 次；
-- [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：2 组 × 8–12 次／腿；
-- [哑铃罗马尼亚硬拉](https://www.youtube.com/watch?v=QFbZevA7dps)（Dumbbell Romanian deadlift）：2 组 × 10–15 次；
-- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
+- [哑铃高脚杯深蹲](https://www.youtube.com/watch?v=CkFzgR55gho)（Dumbbell goblet squat）：4 组 × 10–15 次，约9分钟；
+- [哑铃反向弓步](https://www.youtube.com/watch?v=Q2k3kYbtOcI)（Dumbbell reverse lunge）：2 组 × 8–12 次／腿，约7分钟；
+- [哑铃罗马尼亚硬拉](https://www.youtube.com/watch?v=QFbZevA7dps)（Dumbbell Romanian deadlift）：3 组 × 10–15 次，约7分钟；
+- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：3 组 × 12–20 次，约6分钟；
+- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧，约6分钟
 
 ### 周四：上肢推拉与核心
 
 哑铃配重：10 lb
 
-预估时间：35–49 分钟。
+预估时间：约40分钟（热身5分钟＋以下35分钟）。
 
-- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次；
-- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次；
-- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 10–15 次；
-- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown）：3 组 × 10–15 次；
-- [哑铃侧平举](https://www.youtube.com/watch?v=PzsMitRdI_8)（Dumbbell lateral raise）：2 组 × 12–20 次；
-- [死虫式](https://www.youtube.com/watch?v=bxn9FBrt4-A)（Dead bug）：2 组 × 10 次／侧；
-- [单手哑铃提重站立](https://www.kovofitness.com/exercises/kettlebell-suitcase-hold)（Suitcase hold）：2 组 × 30–45 秒／侧
+- [俯卧撑](https://www.youtube.com/watch?v=WDIpL0pjun0)（Push-up）：4 组 × 8–15 次，约9分钟；
+- [站姿哑铃肩推](https://www.youtube.com/watch?v=aI2hGzsAMXs)（Standing dumbbell shoulder press）：2 组 × 6–10 次，约4分钟；
+- [双哑铃俯身划船](https://www.youtube.com/watch?v=6gvmcqr226U)（Dumbbell bent-over row）：3 组 × 10–15 次，约7分钟；
+- [阻力带高位下拉](https://www.youtube.com/watch?v=myKN7H6ju38)（Resistance-band lat pulldown）：3 组 × 10–15 次，约6分钟；
+- [哑铃侧平举](https://www.youtube.com/watch?v=PzsMitRdI_8)（Dumbbell lateral raise）：2 组 × 12–20 次，约4分钟；
+- [站姿弹力带转体](https://www.youtube.com/watch?v=9D-jlEUo1Os)（Standing band trunk rotation）：2 组 × 10–15 次／侧，约5分钟
 
 ### 周五：下肢与核心
 
 哑铃配重：10 lb
 
-预估时间：27–39 分钟。
+预估时间：约40分钟（热身5分钟＋以下35分钟）。
 
-- [哑铃分腿蹲](https://www.youtube.com/watch?v=Wcmg-3iHwjQ)（Dumbbell split squat）：3 组 × 8–12 次／腿；
-- [支撑式单腿哑铃罗马尼亚硬拉](https://www.youtube.com/watch?v=_BlxWSGtGXg)（Hand-supported single-leg dumbbell Romanian deadlift）：3 组 × 10–15 次／腿；
-- [哑铃单腿臀桥](https://www.youtube.com/watch?v=-NT8jrURSt0)（Single-leg dumbbell glute bridge）：2 组 × 10–15 次／腿；
-- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：2 组 × 12–20 次；
-- [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒
+- [哑铃分腿蹲](https://www.youtube.com/watch?v=Wcmg-3iHwjQ)（Dumbbell split squat）：3 组 × 8–12 次／腿，约9分钟；
+- [支撑式单腿哑铃罗马尼亚硬拉](https://www.youtube.com/watch?v=_BlxWSGtGXg)（Hand-supported single-leg dumbbell Romanian deadlift）：3 组 × 10–15 次／腿，约10分钟；
+- [哑铃单腿臀桥](https://www.youtube.com/watch?v=-NT8jrURSt0)（Single-leg dumbbell glute bridge）：2 组 × 10–15 次／腿，约7分钟；
+- [哑铃双腿提踵](https://www.youtube.com/watch?v=wxwY7GXxL4k)（Standing dumbbell calf raise）：3 组 × 12–20 次，约6分钟；
+- [空心支撑](https://www.youtube.com/watch?v=jLxtFNO0r50)（Hollow hold）：2 组 × 20–40 秒，约3分钟
 
 ### 主要健身肌群与每周训练量
 
@@ -500,19 +502,20 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 | 肩外侧 | Side delts | 侧平举4组 | 肩推4组 | 基本充足 |
 | 肩后侧 | Rear delts | 反向飞鸟2组 | 划船7组 | 基本充足 |
 | 背阔肌 | Lats | 划船7组、下拉3组 | — | 充足 |
-| 斜方肌 | Traps | 划船7组 | 下拉3组、肩推4组、侧平举4组、反向飞鸟2组、单手提重站立2组 | 基本充足 |
+| 斜方肌 | Traps | 划船7组 | 下拉3组、肩推4组、侧平举4组、反向飞鸟2组 | 基本充足 |
 | 二头肌 | Biceps | — | 划船7组、下拉3组 | 基本充足 |
 | 三头肌 | Triceps | — | 俯卧撑8组、肩推4组 | 基本充足 |
-| 小臂 | Forearms | — | 划船7组、罗马尼亚硬拉2组、支撑式单腿硬拉3组、单手提重站立2组 | 难判断 |
-| 腹肌 | Abs | 平板支撑2组、死虫式2组、空心支撑2组 | 俯卧撑8组、高脚杯深蹲4组 | 基本充足 |
-| 侧腹 | Obliques | 单手提重站立2组 | 平板支撑2组、死虫式2组、空心支撑2组 | 偏少 |
-| 下背 | Lower back | — | 划船7组、罗马尼亚硬拉2组、支撑式单腿硬拉3组、高脚杯深蹲4组、单手提重站立2组 | 难判断 |
-| 臀部 | Glutes | 高脚杯深蹲4组、反向弓步2组、罗马尼亚硬拉2组、支撑式单腿硬拉3组、分腿蹲3组、单腿臀桥2组 | — | 充足 |
+| 小臂 | Forearms | — | 划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 难判断 |
+| 腹肌 | Abs | 平板支撑2组、死虫式2组、空心支撑2组 | 俯卧撑8组、高脚杯深蹲4组、弹力带转体2组 | 基本充足 |
+| 侧腹 | Obliques | 弹力带转体2组 | 平板支撑2组、死虫式2组、空心支撑2组 | 偏少 |
+| 下背 | Lower back | — | 划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、高脚杯深蹲4组 | 难判断 |
+| 臀部 | Glutes | 高脚杯深蹲4组、反向弓步2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、分腿蹲3组、单腿臀桥2组 | — | 充足 |
 | 大腿前侧 | Quads | 高脚杯深蹲4组、反向弓步2组、分腿蹲3组 | — | 充足 |
-| 大腿后侧 | Hamstrings | 罗马尼亚硬拉2组、支撑式单腿硬拉3组 | 单腿臀桥2组 | 基本充足 |
-| 小腿 | Calves | 直膝提踵4组 | — | 偏少 |
+| 大腿后侧 | Hamstrings | 罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 单腿臀桥2组 | 基本充足 |
+| 小腿 | Calves | 直膝提踵6组 | — | 基本充足 |
 {.table-centered}
 
 <!--
 肌群图由imagegen生成，仅示意主要健身肌群的大致位置，非精细解剖图。训练量评价是假设负荷及动作难度足够的计划估计，非实测；稳定参与不等于增肌充足，单腿硬拉不能完整替代屈膝腿弯举功能。参考：https://acsm.org/resistance-training-guidelines-update-2026/ 。
+力量训练40分钟为含热身、休息和换动作的预算，非40分钟连续做功；本次净增硬拉1组、提踵2组，死虫式仅移日。未因时间预算增加而机械上调消耗，营养统计暂沿用原保守活动估计，待实际时长与体重趋势校准。
 -->
