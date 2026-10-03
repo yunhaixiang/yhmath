@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Middle Extension Sheaves</title>
       <link>http://localhost:1313/posts/1b64c0e/</link>
@@ -740,7 +740,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周日（做菜）&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;煮红薯块&lt;/td&gt;
-          &lt;td&gt;牛排＋水煮蛋2个&lt;/td&gt;
+          &lt;td&gt;牛排1块＋水煮蛋2个&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;724&lt;/td&gt;
       &lt;/tr&gt;
@@ -748,23 +748,23 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周日&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;808&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;728&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;混合米饭&lt;/td&gt;
-          &lt;td&gt;原味硬豆腐块＋水煮蛋1个&lt;/td&gt;
+          &lt;td&gt;硬豆腐¼块＋鸡胸肉½块＋炒蛋1个&lt;/td&gt;
           &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;681&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;713&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;卷饼皮&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉＋水煮蛋2个&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉2块＋水煮蛋2个&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;712&lt;/td&gt;
       &lt;/tr&gt;
@@ -772,7 +772,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;煮红薯块&lt;/td&gt;
-          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td&gt;三文鱼2块&lt;/td&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;727&lt;/td&gt;
       &lt;/tr&gt;
@@ -780,23 +780,23 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;混合米饭&lt;/td&gt;
-          &lt;td&gt;鸡胸肉块＋水煮蛋1个&lt;/td&gt;
+          &lt;td&gt;硬豆腐¼块＋鸡胸肉½块＋炒蛋1个&lt;/td&gt;
           &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;744&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;713&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;683&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;728&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三（做菜）&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;煮红薯块&lt;/td&gt;
-          &lt;td&gt;牛排＋水煮蛋2个&lt;/td&gt;
+          &lt;td&gt;牛排1块＋水煮蛋2个&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;724&lt;/td&gt;
       &lt;/tr&gt;
@@ -804,23 +804,23 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;808&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;728&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;混合米饭&lt;/td&gt;
-          &lt;td&gt;原味硬豆腐块＋水煮蛋1个&lt;/td&gt;
+          &lt;td&gt;硬豆腐¼块＋鸡胸肉½块＋炒蛋1个&lt;/td&gt;
           &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;681&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;713&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;卷饼皮&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉＋水煮蛋2个&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉2块＋水煮蛋2个&lt;/td&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;712&lt;/td&gt;
       &lt;/tr&gt;
@@ -828,7 +828,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;煮红薯块&lt;/td&gt;
-          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td&gt;三文鱼2块&lt;/td&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;727&lt;/td&gt;
       &lt;/tr&gt;
@@ -836,17 +836,17 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;混合米饭&lt;/td&gt;
-          &lt;td&gt;鸡胸肉块＋水煮蛋1个&lt;/td&gt;
+          &lt;td&gt;硬豆腐¼块＋鸡胸肉½块＋炒蛋1个&lt;/td&gt;
           &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;744&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;713&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;意面&lt;/td&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;683&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;728&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -856,7 +856,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 意面UPC064200130714对应PROTEIN+ Spaghetti 340g，Metro标题曾误标Garden Select；厂家规格：https://www.barillaforprofessionals.com/media/en-us/filer_public/5f/99/5f9986d1-7ada-4ea6-9fcc-9347e9560514/catelli_protein_sellsheet_0824_fre.pdf
 鸡胸肉每周一盒共两块，按用户指定518g/盒、518g/周；每半周用一块，价格按原参考$29.75/kg约$15.41/周。Sunrise Extra Firm Tofu350g/盒，每周一盒，每半周用半盒175g，Metro参考价$3.99/盒、$3.99/周。牛排商品235142为1块/盒，按本次实测260g生重/块，每周两盒共520g；每块去肥边35g后剩225g生可食部，每周共450g；沿用参考价$66.12/kg，约$34.38/周。官网不同门店/缓存价格有差异，称重商品以实收净重、结账价格为准。
 Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能当作新品牌实测。
-Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干料120g，均分两餐，每餐60g。一袋约用1.875周，按需补货。Good Food For Good Organic Ketchup按截图参考价$7.29/250mL、每周30mL分摊约$0.87；价格和库存以所选门店为准。
+Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干料120g，均分两餐，每餐60g。一袋约用1.88周，按需补货。Good Food For Good Organic Ketchup按截图参考价$7.29/250mL、每周30mL分摊约$0.87；价格和库存以所选门店为准。
 --&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -865,6 +865,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;th&gt;商品&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;购买频率&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每次做菜取用&lt;/th&gt;
+          &lt;th&gt;是否冷冻&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每周价格（CAD）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
@@ -874,6 +875,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/boneless-skinless-chicken-thighs/p/246800&#34;&gt;Boneless Skinless Chicken Thighs&lt;/a&gt;&lt;br&gt;约460 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
+          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$20.26&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -881,6 +883,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142&#34;&gt;Platinum Grill Angus Beef Striploin Steak&lt;/a&gt;&lt;br&gt;1块 / 盒，厚约2 cm；每块生重260 g，去肥边35 g后剩225 g生重&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1块&lt;/td&gt;
+          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$34.38&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -888,6 +891,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skin-on-atlantic-salmon-portion/p/229257&#34;&gt;Fresh Skin-On Atlantic Salmon Portion&lt;/a&gt;&lt;br&gt;113 g / 块&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;8块 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;4块&lt;/td&gt;
+          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$39.92&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -895,6 +899,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-skinless-chicken-breasts/p/244931&#34;&gt;Prime Boneless Skinless Chicken Breasts&lt;/a&gt;&lt;br&gt;518 g / 盒、2块&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1块&lt;/td&gt;
+          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$15.41&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -902,13 +907,15 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/p/057864000080&#34;&gt;Sunrise Soya Foods Extra Firm Tofu&lt;/a&gt;&lt;br&gt;350 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;半盒175 g&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡蛋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054&#34;&gt;Selection Large Eggs&lt;/a&gt;&lt;br&gt;12个 / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;6个&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6个：水煮4个、炒饭2个&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -916,6 +923,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735&#34;&gt;Silk Soy Milk Alternative, Unsweetened, Dairy Free&lt;/a&gt;&lt;br&gt;1.89 L / 桶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2桶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$11.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -923,6 +931,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/beverages/water/bottled-water/organic-blueberry-and-peach-spring-water/p/840277001283&#34;&gt;Flow Organic Blueberry and Peach Spring Water&lt;/a&gt;&lt;br&gt;1 L / 盒，无气泡版&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;4盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$11.96&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -930,6 +939,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/sweet-potato-cubes/p/681548000723&#34;&gt;Diced Sweet Potatoes / Sweet Potato Cubes&lt;/a&gt;&lt;br&gt;400 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$9.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -937,6 +947,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618&#34;&gt;Selection Peas and Carrots, Packed in Season&lt;/a&gt;&lt;br&gt;398 mL / 罐，沥干约260 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2罐 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1罐&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$2.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -944,6 +955,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157&#34;&gt;Belle Grove Crimini Mushroom Slices&lt;/a&gt;&lt;br&gt;227 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$7.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -951,6 +963,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018&#34;&gt;Fresh Attitude Organic Baby Spinach&lt;/a&gt;&lt;br&gt;142 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$10.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -958,6 +971,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-basil-pasta-sauce/p/064200010122&#34;&gt;Catelli Garden Select Tomato &amp;amp; Basil Pasta Sauce&lt;/a&gt;&lt;br&gt;600 mL / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1瓶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;300 mL&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -965,6 +979,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900&#34;&gt;Fresh Fruit Carousel&lt;/a&gt;&lt;br&gt;1.4 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;早餐每天400 g&lt;/td&gt;
+          &lt;td&gt;否，冷藏&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$29.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -972,20 +987,23 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-mixed-berries/p/059749875981&#34;&gt;Irrésistible Frozen Mixed Berries&lt;/a&gt;&lt;br&gt;600 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1袋 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;早餐每天约86 g&lt;/td&gt;
+          &lt;td&gt;是&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$5.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714&#34;&gt;Catelli PROTEIN+ Spaghetti Pasta&lt;/a&gt;&lt;br&gt;340 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;140 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$4.11&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;130 g&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$3.82&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/epicerie-en-ligne/allees/pains-et-patisseries/tortillas-et-pains-plats/tortillas/tortillas-de-ble-entier/p/068721038252&#34;&gt;Dempster’s 100% Whole Wheat Large Tortillas&lt;/a&gt;&lt;br&gt;610 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1张&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$1.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -993,6 +1011,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-rice-blend/p/056725251067&#34;&gt;Dainty Wholegrain Rice Blend, Borealis&lt;/a&gt;&lt;br&gt;450 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;干料120 g；配水约330 mL&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$2.39&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1000,6 +1019,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040&#34;&gt;Fibre One Crunchy Original 587 g&lt;/a&gt;&lt;br&gt;587 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;早餐每天40 g&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$4.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1007,6 +1027,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094&#34;&gt;Selection Ground Black Pepper&lt;/a&gt;&lt;br&gt;105 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.23&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1014,6 +1035,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254&#34;&gt;Selection Garlic Powder&lt;/a&gt;&lt;br&gt;120 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.50&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1021,6 +1043,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384&#34;&gt;Selection Onion Powder&lt;/a&gt;&lt;br&gt;100 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1028,6 +1051,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018&#34;&gt;Selection Paprika&lt;/a&gt;&lt;br&gt;95 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.36&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1035,6 +1059,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936&#34;&gt;Selection Oregano Leaves&lt;/a&gt;&lt;br&gt;30 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.10&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1042,6 +1067,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899&#34;&gt;Selection Italian Seasoning&lt;/a&gt;&lt;br&gt;35 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.09&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1049,6 +1075,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199&#34;&gt;Selection Corn Starch&lt;/a&gt;&lt;br&gt;454 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;5茶匙&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.25&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1056,6 +1083,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055&#34;&gt;Windsor Iodized Table Salt&lt;/a&gt;&lt;br&gt;1 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.01&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1063,6 +1091,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627&#34;&gt;Terra Delyssa Premium Extra Virgin Olive Oil&lt;/a&gt;&lt;br&gt;1 L / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.81&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1070,6 +1099,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/ketchup-mustard/organic-ketchup/p/627843402633&#34;&gt;Good Food For Good Organic Ketchup&lt;/a&gt;&lt;br&gt;250 mL / 瓶，含海盐、椰枣泥，参考$7.29&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;15 mL&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.87&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1077,6 +1107,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600&#34;&gt;LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）&lt;/a&gt;&lt;br&gt;无味，300 g / 罐，参考$27.98&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补，约60天 / 罐&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$3.26&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1084,7 +1115,8 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$232.53&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$232.24&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1099,17 +1131,157 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
 &lt;!--
 微波解冻时间按设备说明、食材重量及厚度调整，不设统一分钟数；解冻一批立即烹调一批，不先全部解冻等待。解冻安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/microwaves.html 。烹调时间受厚度、起始温度、装锅量及设备影响，不保证熟度。牛排按约2cm整切肉给出起始时间，中心至少63°C后静置3分钟；若为机械嫩化肉按包装并至少翻两次。水煮蛋的蛋白和蛋黄须凝固。安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html 。
 --&gt;
-&lt;h4 id=&#34;阶段-1预热烧水解冻&#34;&gt;阶段 1：预热、烧水、解冻&lt;/h4&gt;
+&lt;p&gt;各厨具线程可并行；炒锅一负责蘑菇、番茄意面，炒锅二负责菠菜、炒饭。意面和混合米饭分别煮好后再交给对应炒锅。调味表均为每次做菜用量。&lt;/p&gt;
+&lt;h4 id=&#34;任务依赖图&#34;&gt;任务依赖图&lt;/h4&gt;
+&lt;p&gt;箭头表示先后依赖，不表示耗时比例。&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;flowchart TB
+    subgraph rice[电饭煲]
+        R1[煮混合米饭] --&gt; R2[焖饭、拨松]
+    end
+    subgraph oven[烤箱]
+        O0[预热] --&gt; O1[烤牛排、静置]
+        O0 --&gt; O2[烤鸡大腿肉]
+    end
+    subgraph air[空气炸锅]
+        A0[预热] --&gt; A1[三文鱼] --&gt; A2[鸡胸肉块] --&gt; A3[豆腐块]
+    end
+    subgraph pots[煮锅]
+        P1[意面锅：煮意面]
+        P2[鸡蛋锅：煮水煮蛋] --&gt; P3[换水煮红薯]
+    end
+    subgraph wok1[炒锅一]
+        W1[炒蘑菇、盛出] --&gt; W3[番茄酱拌意面、盛出]
+    end
+    subgraph wok2[炒锅二]
+        W2[炒菠菜、盛出] --&gt; W4[炒蛋、混合米饭、豌豆胡萝卜]
+    end
+    P1 --&gt; W3
+    R2 --&gt; W4
+    O1 --&gt; F[收尾、按表分盘]
+    O2 --&gt; F
+    A3 --&gt; F
+    P3 --&gt; F
+    W3 --&gt; F
+    W4 --&gt; F
+    F --&gt; C[冷藏、清洗厨具]
+&lt;/div&gt;
+
+&lt;h4 id=&#34;分盘表&#34;&gt;分盘表&lt;/h4&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;食材&lt;/th&gt;
+          &lt;th&gt;分到第几盘&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;牛排&lt;/td&gt;
+          &lt;td&gt;1：1块&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;原味硬豆腐块&lt;/td&gt;
+          &lt;td&gt;3、6：均分，各¼块（87.5 g）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鸡胸肉块&lt;/td&gt;
+          &lt;td&gt;3、6：均分，各½块（129.5 g）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;水煮蛋&lt;/td&gt;
+          &lt;td&gt;1、4：各2个&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;三文鱼&lt;/td&gt;
+          &lt;td&gt;2、7：各1块；5：2块&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;2、7：各1块；4：2块&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;混合米饭+豌豆胡萝卜+炒蛋&lt;/td&gt;
+          &lt;td&gt;3、6：均分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;番茄蘸酱&lt;/td&gt;
+          &lt;td&gt;3、6：均分，各7.5 mL&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;番茄意面&lt;/td&gt;
+          &lt;td&gt;2、7：均分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;煮红薯块&lt;/td&gt;
+          &lt;td&gt;1、5：均分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;蘑菇&lt;/td&gt;
+          &lt;td&gt;1、4：均分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;菠菜&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;分盘后冷藏、清洗厨具。豆腐鸡胸肉餐食用时配番茄蘸酱；蘸酱开封后冷藏，按厂家建议30–60天内用完。&lt;/p&gt;
+&lt;h4 id=&#34;电饭煲线程&#34;&gt;电饭煲线程&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;混合米按表加水，用 Mixed Grain（杂粮）模式煮。&lt;/li&gt;
+&lt;li&gt;结束焖10分钟，拨松，交给炒锅二炒饭，最终分到3、6盘。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;烤箱线程&#34;&gt;烤箱线程&lt;/h4&gt;
+&lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;食材&lt;/th&gt;
+          &lt;th&gt;橄榄油&lt;/th&gt;
+          &lt;th&gt;盐&lt;/th&gt;
+          &lt;th&gt;黑胡椒&lt;/th&gt;
+          &lt;th&gt;蒜粉&lt;/th&gt;
+          &lt;th&gt;洋葱粉&lt;/th&gt;
+          &lt;th&gt;红椒粉&lt;/th&gt;
+          &lt;th&gt;干牛至叶&lt;/th&gt;
+          &lt;th&gt;玉米淀粉&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鸡大腿肉&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1 茶匙&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;牛排&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;ol&gt;
 &lt;li&gt;烤箱400°F预热15分钟。&lt;/li&gt;
-&lt;li&gt;混合米按表加水，用 Mixed Grain（杂粮）模式煮，结束焖10分钟，拨松。&lt;/li&gt;
-&lt;li&gt;意面锅烧水。&lt;/li&gt;
-&lt;li&gt;鸡蛋锅烧水。&lt;/li&gt;
-&lt;li&gt;空气炸锅400°F预热4分钟。&lt;/li&gt;
-&lt;li&gt;周三微波解冻：拆去包装及吸水垫，放微波炉适用盘，用解冻档按设备说明操作，中途翻面、分开肉块；按牛排、鸡大腿肉、三文鱼、鸡胸肉的烹调顺序逐批解冻，每批解冻后立即接阶段2对应步骤，尚未轮到的留在冷冻室。&lt;/li&gt;
+&lt;li&gt;牛排：未解冻则用微波炉解冻，随后立即烹调；切去边缘明显肥肉，擦干拌调味，400°F先烤4分钟，翻面再烤4分钟；未达63°C则继续烤，出炉静置3分钟，放到1盘。&lt;/li&gt;
+&lt;li&gt;鸡大腿肉：未解冻则用微波炉解冻，随后立即烹调；擦干调味，与牛排分盘放烤箱下层，400°F烤25分钟，中心达74°C，分到2、4、7盘。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;阶段-2调味并行烹调&#34;&gt;阶段 2：调味、并行烹调&lt;/h4&gt;
-&lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
+&lt;h4 id=&#34;空气炸锅线程&#34;&gt;空气炸锅线程&lt;/h4&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1137,49 +1309,48 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/8 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1 茶匙&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/8 茶匙&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
           &lt;td&gt;鸡胸肉块&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
-          &lt;td&gt;1/16 茶匙&lt;/td&gt;
-          &lt;td&gt;1/16 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/16 茶匙&lt;/td&gt;
+          &lt;td&gt;1/16 茶匙&lt;/td&gt;
           &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;3 茶匙&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;原味硬豆腐块&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/16 茶匙&lt;/td&gt;
-          &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/8 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;2 茶匙&lt;/td&gt;
       &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;空气炸锅400°F预热4分钟。&lt;/li&gt;
+&lt;li&gt;三文鱼：未解冻则用微波炉解冻，随后立即烹调；擦干调味，400°F烤8分钟，分到2、5、7盘。&lt;/li&gt;
+&lt;li&gt;鸡胸肉：鱼出锅后，未解冻则用微波炉解冻，随后立即烹调；擦干切2–3 cm块，拌调味，玉米淀粉分两次撒入拌匀成薄层；单层入空气炸锅，400°F烤8分钟，翻动再烤2–4分钟，中心达74°C；放不下则分批，出锅均分到3、6盘。&lt;/li&gt;
+&lt;li&gt;原味硬豆腐：吸干表面，切约2 cm块，另盆拌调味，玉米淀粉分两次撒入拌匀成薄层；鸡胸肉出锅后单层入空气炸锅，沿用400°F烤约10分钟，中途翻动，想更脆再加2分钟，出锅均分到3、6盘。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;煮锅线程&#34;&gt;煮锅线程&lt;/h4&gt;
+&lt;table class=&#34;table-centered&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;食材&lt;/th&gt;
+          &lt;th&gt;橄榄油&lt;/th&gt;
+          &lt;th&gt;盐&lt;/th&gt;
+          &lt;th&gt;黑胡椒&lt;/th&gt;
+          &lt;th&gt;蒜粉&lt;/th&gt;
+          &lt;th&gt;洋葱粉&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;煮红薯块&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
@@ -1187,23 +1358,15 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;1/8 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
-          &lt;td&gt;—&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol&gt;
-&lt;li&gt;牛排：切去边缘明显肥肉，擦干拌调味，烤箱400°F先烤4分钟，翻面再烤4分钟；未达63°C则继续烤，出炉静置3分钟。&lt;/li&gt;
-&lt;li&gt;鸡大腿肉：擦干调味，与牛排分盘放烤箱下层，400°F烤25分钟，中心达74°C。&lt;/li&gt;
-&lt;li&gt;三文鱼：擦干调味，空气炸锅400°F烤8分钟。&lt;/li&gt;
-&lt;li&gt;鸡胸肉：擦干切2–3 cm块，拌调味，玉米淀粉分两次撒入拌匀成薄层；鱼出锅后单层入空气炸锅，400°F烤8分钟，翻动再烤2–4分钟，中心达74°C；放不下则分批。&lt;/li&gt;
-&lt;li&gt;原味硬豆腐：吸干表面，切约2 cm块，另盆拌调味，玉米淀粉分两次撒入拌匀成薄层；鸡胸肉出锅后单层入空气炸锅，沿用400°F烤约10分钟，中途翻动，想更脆再加2分钟。&lt;/li&gt;
-&lt;li&gt;意面：水开后煮约8分钟，捞出。&lt;/li&gt;
-&lt;li&gt;鸡蛋：水开后煮约8分钟，捞出。&lt;/li&gt;
-&lt;li&gt;红薯：冲洗，切至约2 cm；鸡蛋锅换水烧开，煮10–15分钟至叉子能轻松插入，沥干拌调味。&lt;/li&gt;
+&lt;li&gt;意面锅：烧水，水开后煮意面约8分钟，捞出，交给炒锅一拌酱，最终分到2、7盘。&lt;/li&gt;
+&lt;li&gt;鸡蛋锅：烧水；按购物表留出炒饭用蛋，其余水开后煮约8分钟，捞出，分到1、4盘。&lt;/li&gt;
+&lt;li&gt;鸡蛋锅接着煮红薯：红薯冲洗、切至约2 cm；锅内换水烧开，煮10–15分钟至叉子能轻松插入，沥干拌调味，分到1、5盘。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;阶段-3炒锅&#34;&gt;阶段 3：炒锅&lt;/h4&gt;
+&lt;h4 id=&#34;炒锅线程两锅并行&#34;&gt;炒锅线程（两锅并行）&lt;/h4&gt;
 &lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -1217,6 +1380,14 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;混合米蛋炒饭&lt;/td&gt;
+          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;1/4 茶匙&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+      &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
           &lt;td&gt;1/2 茶匙&lt;/td&gt;
@@ -1243,80 +1414,15 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h5 id=&#34;炒锅一&#34;&gt;炒锅一&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;第一锅：加油，蘑菇加调味大火炒7分钟，盛出。&lt;/li&gt;
-&lt;li&gt;第二锅：加油，菠菜加调味大火炒7分钟，盛出。&lt;/li&gt;
-&lt;li&gt;第二锅：加油，番茄意面酱及调味小火煮2–3分钟；拌入意面再煮3分钟至热透。&lt;/li&gt;
+&lt;li&gt;加油，蘑菇加调味大火炒7分钟，分到1、4盘。&lt;/li&gt;
+&lt;li&gt;意面煮好后，加油，番茄意面酱及调味小火煮2–3分钟；拌入意面再煮3分钟至热透，分到2、7盘。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;阶段-4收尾分盘&#34;&gt;阶段 4：收尾、分盘&lt;/h4&gt;
-&lt;p&gt;分盘表：&lt;/p&gt;
-&lt;table class=&#34;table-centered&#34;&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;食材&lt;/th&gt;
-          &lt;th&gt;分到第几盘&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td&gt;1&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;原味硬豆腐块&lt;/td&gt;
-          &lt;td&gt;3&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;鸡胸肉块&lt;/td&gt;
-          &lt;td&gt;6&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;水煮蛋&lt;/td&gt;
-          &lt;td&gt;1、4：各2个；3、6：各1个&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;三文鱼&lt;/td&gt;
-          &lt;td&gt;2、5，各2块&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;鸡大腿肉&lt;/td&gt;
-          &lt;td&gt;4、7&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;豌豆胡萝卜&lt;/td&gt;
-          &lt;td&gt;3、6&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;混合米饭&lt;/td&gt;
-          &lt;td&gt;3、6&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;番茄意面&lt;/td&gt;
-          &lt;td&gt;2、7&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;煮红薯块&lt;/td&gt;
-          &lt;td&gt;1、5&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td&gt;4&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td&gt;1、4&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
-          &lt;td&gt;5&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h5 id=&#34;炒锅二&#34;&gt;炒锅二&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;豌豆胡萝卜开罐沥干，按表直接分盘；其余食材按表分盘。&lt;/li&gt;
-&lt;li&gt;冷藏分好的餐&lt;/li&gt;
-&lt;li&gt;清洗厨具。&lt;/li&gt;
-&lt;li&gt;鸡胸肉餐食用时配番茄蘸酱；蘸酱开封后冷藏，按厂家建议30–60天内用完。&lt;/li&gt;
+&lt;li&gt;加油，菠菜加调味大火炒7分钟，放到5盘。&lt;/li&gt;
+&lt;li&gt;混合米饭煮好并焖松后，豌豆胡萝卜开罐沥干，鸡蛋打散；加油，中火倒入蛋液炒至凝固，加入混合米饭、豌豆胡萝卜及调味，炒散至热透、鸡蛋全熟，出锅均分到3、6盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
 &lt;h4 id=&#34;常见放纵餐&#34;&gt;常见放纵餐&lt;/h4&gt;
@@ -1335,7 +1441,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,865.46 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,936.05 kcal（额外加吃）&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;剩余每周赤字（kcal，额外加吃）&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;剩余日均赤字（kcal）&lt;/th&gt;
       &lt;/tr&gt;
@@ -1345,201 +1451,201 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.bbqchickenca.com/&#34;&gt;酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整份，1.2 lb&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1,156，菜单标注&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约40%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,709.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;244.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约39%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,780.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;254.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://6ixtywings.com/menu_items/chicken-caesar-wrap/&#34;&gt;凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个＋默认普通薯条&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,500&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约38–52%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,365.46–1,765.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;195.07–252.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约37–51%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,436.05–1,836.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;205.15–262.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://order.online/store/burger-burger-25113744&#34;&gt;炸鸡汉堡（Burger Burger Johnny Cash Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约26–37%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,815.46–2,115.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;259.35–302.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约26–36%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,886.05–2,186.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;269.44–312.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ&#34;&gt;炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整套，含米饭、饺子、yam配菜、汤及沙拉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约38–56%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,265.46–1,765.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;180.78–252.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约37–54%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,336.05–1,836.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;190.86–262.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://osmows.com/nutrition-calculator&#34;&gt;脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Regular，含蒜酱及OzPotle酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约26–37%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,815.46–2,115.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;259.35–302.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约26–36%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,886.05–2,186.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;269.44–312.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings）&lt;/td&gt;
           &lt;td&gt;1整份，1 lb带骨&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估650–950&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约23–33%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,915.46–2,215.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;273.64–316.49&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约22–32%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,986.05–2,286.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;283.72–326.58&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/large-pizza/&#34;&gt;Pepperoni 披萨（Pizza Pizza，大号）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3片&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约750&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约26%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,115.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;302.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,186.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;312.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约23%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,195.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;313.64&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,266.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;323.72&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约312 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约620&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约22%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,245.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;320.78&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约21%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,316.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;330.86&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约21%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,265.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;323.64&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约20%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,336.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;333.72&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约570&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约20%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,295.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;327.92&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,366.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;338.01&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,325.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;332.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,396.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;342.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,335.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;333.64&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,406.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;343.72&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,355.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;336.49&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,426.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;346.58&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;6个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,385.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;340.78&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,456.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;350.86&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡（KFC Original Recipe）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2块鸡大腿，不含配餐和蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约440&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,425.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;346.49&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,496.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;356.58&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,445.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;349.35&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,516.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;359.44&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,485.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;355.07&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,556.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;365.15&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约340&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,525.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;360.78&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,596.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;370.86&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸鸡柳（DQ Chicken Strips）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3条，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约320&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,545.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;363.64&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,616.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;373.72&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;薯条（DQ Fries）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约280&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,585.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;369.35&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,656.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;379.44&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸洋葱圈（DQ Onion Rings）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约260&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,605.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;372.21&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,676.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;382.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;香草冰淇淋（DQ Vanilla Cone）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Small甜筒，不加脆皮和配料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约230&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,635.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;376.49&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,706.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;386.58&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶500 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约200&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,665.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;380.78&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,736.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;390.86&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1罐355 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约140&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,725.46&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;389.35&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,796.05&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;399.44&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1552,7 +1658,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;th&gt;替代品&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,865.46 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字2,936.05 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1589,14 +1695,14 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-chocolate-pudding-cups/p/058807414018&#34;&gt;Snack Pack No Sugar Added Chocolate Pudding Cups&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯99 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.1%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.0%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;香草奶味甜点&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-vanilla-pudding-cups/p/058807414025&#34;&gt;Snack Pack No Sugar Added Vanilla Pudding Cups&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯99 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.1%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.0%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;冰淇淋、雪糕&lt;/td&gt;
@@ -1610,14 +1716,14 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream-bars-treats/fudge-frozen-dairy-dessert-bars/p/058779399825&#34;&gt;Popsicle Fudgsicle Frozen Dairy Dessert Bars&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1支60 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.7%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;奶味冰淇淋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream/vanilla-bean-flavoured-ice-cream/p/851041008018&#34;&gt;Halo Top Vanilla Bean Frozen Dessert&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;125 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.7%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饼干、脆口零食&lt;/td&gt;
@@ -1631,7 +1737,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/reduced-fat-popping-corn/p/058807480754&#34;&gt;Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1迷你袋31 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约110&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约3.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约3.7%&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1642,15 +1748,15 @@ Jell-O仅加水，整盒约4份、40kcal；Smart Pop是31g迷你整袋；米饼�
 --&gt;
 &lt;h3 id=&#34;营养统计&#34;&gt;营养统计&lt;/h3&gt;
 &lt;!--
-现行营养计算口径（2026-10-03）：每周牛排两块共520g购入生重、去肥边后450g生可食部、鸡胸肉一盒两块共518g生重、Extra Firm豆腐一盒共350g，每顿分别为去肥边牛排225g生可食部、鸡胸肉259g及Extra Firm豆腐175g估算，不计扇贝。牛排每半周做菜当天吃，其余一顿鸡胸肉、一顿豆腐、两顿鸡腿肉、两顿鱼。鸡胸肉去骨去皮；Metro去骨去皮鸡腿按用户指定460g/盒、两盒共920g/周，每顿230g生重，不扣修脂。鸡腿沿用同部位营养代理，非本款实测；商品链接采用Metro无品牌Boneless Skinless Chicken Thighs（246800），网页平均重量随门店而异，计划重量以用户指定为准；参考$22.02/kg，周费用约$20.26。牛排按用户本次实测每块260g、修去35g、剩225g生可食部估算，修剪率约13.5%，暂用于两块计划份量，不代表每块固定损耗。营养改用USDA同部位去可见脂肪生肉代理（NDB 23370，choice，separable lean only），直接乘修剪后生重，不再套熟重换算或重复扣肥边。35g修剪组织并非35g纯脂肪，且仍保留肌内脂肪；实际修剪程度、油花及烹调出油不同会改变结果，并非Metro实测。其他肉按生重，谷物按干重，红薯按生可食部，罐头按沥干重，不重复计生熟重量。每顿鱼餐为2块三文鱼共226g，每周8块共904g；按块数替换原鱼份量，不按等重替换。
-豆奶3780mL/周（两桶）：早餐1400mL、餐外2380mL；早餐200g近似200mL，日均餐外340mL、豆奶总量540mL。Fibre One280g/周，水果盘2800g/周，另加混合莓果600g/周。12个全蛋均水煮，早餐不含蛋；周日、周三各煮6个：牛排餐、鸡腿卷饼餐各2个，豆腐餐、鸡胸肉餐各1个；两种鱼餐和鸡腿意面餐不加蛋。Borealis混合米240g干重/周（4餐，每餐60g），意面280g干重/周（4餐各70g），红薯800g生重/周（4餐各200g）。
-周橄榄油45mL，密度0.91g/mL；食盐6.75g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡胸肉5、豆腐5、牛排5、红薯5、蘑菇5、菠菜5、意面5；豌豆胡萝卜不加油或调味，开罐沥干直接分盘。干香料合计19.5茶匙，采用原混合代理；鸡胸肉和原味硬豆腐分别按表调味；原味硬豆腐不额外加盐，油和其他调味按表计入。淀粉1茶匙暂按8/3g，每次鸡胸肉3茶匙、豆腐2茶匙，每周10茶匙共80/3g；不再计酱油、米醋或熟芝麻。表列调味已逐项计入，不能只算肉类差额；烤盘弃油等尚未实测。
+现行营养计算口径（2026-10-03）：每周牛排两块共520g购入生重、去肥边后450g生可食部、鸡胸肉一盒两块共518g生重、Extra Firm豆腐一盒共350g，牛排每顿225g生可食部；每半周的鸡胸肉259g与Extra Firm豆腐175g分别均分到两顿混合米饭餐，每顿鸡胸肉129.5g、豆腐87.5g，不计扇贝。牛排每半周做菜当天吃，其余两顿豆腐鸡胸肉、一顿鸡腿卷饼、一顿三文鱼红薯、两顿鸡腿肉配三文鱼意面。鸡胸肉去骨去皮；Metro去骨去皮鸡腿按用户指定460g/盒、两盒共920g/周，卷饼餐230g生重、每顿意面115g生重，不扣修脂。鸡腿沿用同部位营养代理，非本款实测；商品链接采用Metro无品牌Boneless Skinless Chicken Thighs（246800），网页平均重量随门店而异，计划重量以用户指定为准；参考$22.02/kg，周费用约$20.26。牛排按用户本次实测每块260g、修去35g、剩225g生可食部估算，修剪率约13.5%，暂用于两块计划份量，不代表每块固定损耗。营养改用USDA同部位去可见脂肪生肉代理（NDB 23370，choice，separable lean only），直接乘修剪后生重，不再套熟重换算或重复扣肥边。35g修剪组织并非35g纯脂肪，且仍保留肌内脂肪；实际修剪程度、油花及烹调出油不同会改变结果，并非Metro实测。其他肉按生重，谷物按干重，红薯按生可食部，罐头按沥干重，不重复计生熟重量。红薯鱼餐每顿2块三文鱼共226g，意面餐每顿1块113g，每周8块共904g；两份意面原有的鸡大腿肉、三文鱼及随肉调味均分，实际鸡腿块数以包装为准。
+豆奶3780mL/周（两桶）：早餐1400mL、餐外2380mL；早餐200g近似200mL，日均餐外340mL、豆奶总量540mL。Fibre One280g/周，水果盘2800g/周，另加混合莓果600g/周。每周12个全蛋，早餐不含蛋；周日、周三各用6个：4个水煮，牛排餐2个，鸡腿卷饼餐2个；2个蛋炒入混合米饭和豌豆胡萝卜，均分到两顿豆腐鸡胸肉餐，每餐相当于1个炒蛋；三文鱼红薯餐和两顿意面餐不加蛋。Borealis混合米240g干重/周（4餐，每餐60g），意面260g干重/周（4餐各65g），红薯800g生重/周（4餐各200g）。
+周橄榄油45mL，密度0.91g/mL；食盐6.75g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡胸肉2.5、豆腐2.5、混合米蛋炒饭5、牛排5、红薯5、蘑菇5、菠菜5、意面5；豌豆胡萝卜沥干后炒入混合米饭。每次炒饭的油1/2茶匙、蒜粉1/4茶匙和洋葱粉1/4茶匙由鸡胸肉及豆腐原调味等量分出，不额外加盐；鸡胸肉、豆腐及各自调味和蘸酱均分到两顿混合米饭餐，周用油、盐及香料总量不变；每周混合米240g干重，鸡蛋共12个，其中水煮8个、炒饭4个。干香料合计19.5茶匙，采用原混合代理；鸡胸肉和原味硬豆腐分别按表调味；原味硬豆腐不额外加盐，油和其他调味按表计入。淀粉1茶匙暂按8/3g，每次鸡胸肉3茶匙、豆腐2茶匙，每周10茶匙共80/3g；不再计酱油、米醋或熟芝麻。表列调味已逐项计入，不能只算肉类差额；烤盘弃油等尚未实测。
 以下营养向量顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。保留用于后续增减计算；同类食品代理不代表当前品牌实测。
 鸡腿/100g：[149,18.6,7.9,1.7,0,0,0,92,62.3,5,0.6,231]
 牛排/去可见脂肪生可食部100g：[149,22.93,6.34,2.515,0,0,0,58,46,15,1.93,283]，每周450g；USDA SR28 NDB 23370（top loin/strip steak，boneless，lip off，separable lean only，choice，raw），不是无脂肉。来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg13.pdf ，PDF第1294–1295页。
 Atlantic/100g：[208,20.42,13.42,3.05,0,0,0,55,59,9,0.34,363]
 生去骨去皮鸡胸肉/100g：[120,22.5,2.62,0.563,0,0,0,73,45,5,0.37,334]
-Sunrise Extra Firm Tofu/85g：[130,14,8,1,3,0,1,0,5,75,2,150]。每周350g，每餐175g；厂家标签“1/4包（85g）”与350g净重略有出入，统一按标示克数换算，不按份数推算。配料未列添加盐或糖，钠按标签计入。营养来源：https://sunrise-soya.com/wp-content/uploads/2025/09/SR-Extra-Firm.png ；商品：https://sunrise-soya.com/product/sunrise-extra-firm-tofu/ 。
+Sunrise Extra Firm Tofu/85g：[130,14,8,1,3,0,1,0,5,75,2,150]。每周350g，分四餐、每餐87.5g；厂家标签“1/4包（85g）”与350g净重略有出入，统一按标示克数换算，不按份数推算。配料未列添加盐或糖，钠按标签计入。营养来源：https://sunrise-soya.com/wp-content/uploads/2025/09/SR-Extra-Firm.png ；商品：https://sunrise-soya.com/product/sunrise-extra-firm-tofu/ 。
 普通大鸡蛋/个：[70,6,5,1.5,1,0,0,195,65,25,0.875,62.5]
 Silk无糖豆奶/250mL：[90,8,4.5,0.5,4,2,1,0,90,300,1,350]
 Flow桃子蓝莓无气泡水每周4盒×1L，共4L，计入餐外饮品；厂家标示零热量、零糖、无甜味剂，因此热量、宏量营养和赤字不变。泉水矿物质未取得本款完整定量资料，暂不计入矿物质小计，不等于不含。价格按Metro参考$2.99/盒，每周$11.96；营养来源：https://flowhydration.ca/products/12-pack-of-1l-peach-blueberry 。
@@ -1661,16 +1767,16 @@ Flow桃子蓝莓无气泡水每周4盒×1L，共4L，计入餐外饮品；厂家
 Catelli番茄酱/125mL：[50,1,1.5,0.2,9,1,5,0,330,20,0.5,350]（纤维1g为代理）
 混合水果/100g：[40,0.7,0.2,0.03,10,1.2,8,0,10,12,0.3,170]。Fresh Fruit Carousel每周两盒共2800g，沿用混合水果代理，非该商品实测；费用按常规参考价$14.99/盒，不套用过期促销。
 冷冻混合莓果/140g：[70,1,0,0,18,3,10,0,0,28,0.7,250]。Metro配料为黑莓、蓝莓、草莓、覆盆子，无添加糖；暂未取得当前包装完整营养标签，热量及宏量、钠、钾暂用FatSecret同名商品历史记录，零值含标签舍入，钙28mg、铁0.7mg为混合莓果同类粗估而非商品实测。每袋600g约300kcal，食用前按包装处理要求，不默认解冻即可直接食用。来源：https://www.fatsecret.ca/calories-nutrition/irresistibles/frozen-mixed-berries/3-4-cup ；商品及价格来源见购物表。
-PROTEIN+意面/85g：[300,17,2,0.5,58,8,2,0,4,20,2.5,400]。每次做菜干面140g均分两餐；每周280g，沿用参考价$4.99/340g，分摊约$4.11/周。
+PROTEIN+意面/85g：[300,17,2,0.5,58,8,2,0,4,20,2.5,400]。每次做菜干面130g均分两餐；每周260g，沿用参考价$4.99/340g，分摊约$3.82/周。
 卷饼/61g：[170,5,4,1,28,3,1,0,320,30,1.5,225]
 Dainty Borealis/干重45g：[170,4,1.5,0.2,34,2,0,0,0,10,0.75,125]。按厂家当前营养标签，纤维为2g/45g；配料为糙米、红米、黑米、野米和藜麦。来源：https://dainty.ca/product/borealis-a-wild-rice-blend/ 。
 Fibre1/62g：[140,4,1,0.2,53,27,1,0,220,250,8,150]
 橄榄油/100g：[884,0,100,13.8,0,0,0,0,2,1,0.56,1]
 基础干香料每16茶匙：[118,5.5,2.3,0.4,25,8,2,0,30,130,3.3,550]
 淀粉/8g：[30,0,0,0,7,0,0,0,0,1,0,0]，每周80/3g，其中鸡胸肉16g、豆腐32/3g；按全部食用估计，盆中残留未扣除。
-Good Food For Good Organic Ketchup/15mL：[10,0,0,0,2,0,1,0,65,0,0,75]；每周两顿鸡胸肉餐各15mL，共30mL。加拿大零售表明确列出热量、碳水、总糖、钠、钾；其余未列值暂未计入，不等于实测为零，不拼接不同地区标签。含海盐和椰枣泥，不称为零糖或无盐。营养来源：https://voila.ca/products/good-food-for-good-organic-classic-ketchup-250-ml/748804EA ；厂家：https://goodfoodforgood.ca/products/organic-ketchup-tomato-sauce 。按用量约8.3周用完一瓶，开封冷藏且遵循厂家30–60天建议与瓶身日期，以更早者为准。
-未取整周合计：[13571.4846429475,1014.4779475716088,484.7786657969641,101.5087583554712,1456.1160772250832,307.3742345712479,390.7874542423422,4322.739999999999,12293.164592979123,8120.891807084124,142.05841549335864,33660.51071058101]。Extra Firm豆腐350g/周不额外加盐，鸡蛋12个，Good Food For Good蘸酱30mL/周已计入。豆奶3780mL仅计一次。每餐表存在少量舍入尾差，热量采用标签/参考值，不强制由宏量倒算。
-周消耗更新为16436.945766666668kcal：取消原周六游泳净消耗270.3333333333333kcal，四个训练日各选HIIT或游泳，统一按净消耗200kcal/次、800kcal/周估算；其他消耗参数暂不变。周赤字2865.4611237191675、日均409.3515891027382kcal；除7700得理论脂肪等价值约0.372kg/周，不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
+Good Food For Good Organic Ketchup/15mL：[10,0,0,0,2,0,1,0,65,0,0,75]；每周四顿豆腐鸡胸肉餐各7.5mL，共30mL。加拿大零售表明确列出热量、碳水、总糖、钠、钾；其余未列值暂未计入，不等于实测为零，不拼接不同地区标签。含海盐和椰枣泥，不称为零糖或无盐。营养来源：https://voila.ca/products/good-food-for-good-organic-classic-ketchup-250-ml/748804EA ；厂家：https://goodfoodforgood.ca/products/organic-ketchup-tomato-sauce 。按用量约8.3周用完一瓶，开封冷藏且遵循厂家30–60天建议与瓶身日期，以更早者为准。
+未取整周合计：[13500.896407653383,1010.4779475716088,484.30807756166996,101.39111129664767,1442.4690184015537,305.4918816300714,390.3168660070481,4322.739999999999,12292.223416508536,8116.185924731182,141.47018019924099,33566.393063522184]。Extra Firm豆腐350g/周不额外加盐，鸡蛋12个，Good Food For Good蘸酱30mL/周已计入。豆奶3780mL仅计一次。每餐表存在少量舍入尾差，热量采用标签/参考值，不强制由宏量倒算。
+周消耗更新为16436.945766666668kcal：取消原周六游泳净消耗270.3333333333333kcal，四个训练日各选HIIT或游泳，统一按净消耗200kcal/次、800kcal/周估算；其他消耗参数暂不变。周赤字2936.0493590132846、日均419.4356227161835kcal；除7700得理论脂肪等价值约0.381kg/周，不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
 主要来源：
 牛排：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg13.pdf （NDB 23370，去可见脂肪生肉）；按修剪后225g/餐，不进行生熟换算。
 豆奶：https://www.silkcanada.ca/products/plant-based-beverage/unsweetened-soy-beverage/ 、https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA
@@ -1686,7 +1792,7 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
 其余商品来源见购物表；尚缺本款完整标签的鸡腿、蔬果及香料采用同类参考。
 --&gt;
 &lt;h4 id=&#34;一周营养统计&#34;&gt;一周营养统计&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;热量估计（不含放纵餐）：每周摄入13,571.48 kcal、消耗16,436.95 kcal、赤字2,865.46 kcal；日均摄入1,938.78 kcal、消耗2,348.14 kcal、赤字409.35 kcal。理论脂肪等价值约0.372 kg／周，不代表实际纯脂肪减量。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;热量估计（不含放纵餐）：每周摄入13,500.90 kcal、消耗16,436.95 kcal、赤字2,936.05 kcal；日均摄入1,928.70 kcal、消耗2,348.14 kcal、赤字419.44 kcal。理论脂肪等价值约0.381 kg／周，不代表实际纯脂肪减量。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;消耗构成（估算）：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -1743,43 +1849,43 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13,571 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,939 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13,501 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,929 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,014 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约144.9 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,010 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约144.4 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约485 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约69.3 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约484 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约69.2 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约101.5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约101.4 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约14.5 g&lt;/td&gt;
           &lt;td&gt;≤总热量6%≈12.9 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,456 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约208 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,442 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约206 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约307 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约43.9 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约305 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约43.6 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约391 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约390 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约55.8 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
@@ -1797,26 +1903,26 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,293 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,292 mg&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约1,756 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8,121 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,160 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8,116 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,159 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约142.1 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约20.3 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约141.5 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约20.2 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约33,661 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,809 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约33,566 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,795 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1899,37 +2005,37 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
           &lt;td style=&#34;text-align: right&#34;&gt;796&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;180&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;8.3&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2005&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2006&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周日晚／周四午&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;808&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;61.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;36.2&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;60.7&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;8.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;728&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;59.3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;30.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;57.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8.1&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;7.8&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;125&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;683&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;72&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.8&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1617&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;169&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;688&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;69&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,457&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一午／周四晚&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;681&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;44.3&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;26.3&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4.2&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;71.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;713&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;59.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;21.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;71.0&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;7.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;195&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;466&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;233&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;771&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;290&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;626&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;163&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;5.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,087&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一晚／周五午&lt;/td&gt;
@@ -1944,7 +2050,7 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
           &lt;td style=&#34;text-align: right&#34;&gt;751&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;127&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;5.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1456&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1457&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二午／周五晚&lt;/td&gt;
@@ -1963,33 +2069,33 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二晚／周六午&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;744&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;73.8&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;16.7&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;70.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;713&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;59.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;21.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;71.0&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;7.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;6.3&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;384&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;785&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;92&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4.3&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1402&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;290&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;626&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;163&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;5.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,087&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三午／周六晚&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;683&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;58.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;24.1&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;5.0&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;61.5&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;8.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;212&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;693&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;67&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4.5&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1345&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;728&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;59.3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;30.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;57.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;7.8&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;169&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;688&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;69&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,457&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;餐外饮品（日均）&lt;/td&gt;
@@ -2013,7 +2119,7 @@ Borealis水量：厂家体积比米:水=1:2；45g约1/4杯，120g约160–167mL�
 维生素D约130.0µg/周、B12约51.8µg/周、EPA+DHA约17.8g/周为限定来源估值。豆奶按3780mL计；去肥边牛排450g生可食部，USDA NDB 23370每100g D0.1µg、B12 1.71µg，替换原带脂熟肉分项后，D为130.01µg、B12为51.7546µg。鸡胸肉、全蛋及豆腐未纳入这些限定来源小计，牛排EPA+DHA亦未定量。豆奶每250mL D2µg、B12 1µg；Atlantic每100g D11µg、B12 3.23µg、EPA+DHA1.966g，904g三文鱼EPA+DHA小计17.77264g。
 碘暂列900–1000µg/周的低精度工作估计，非上下界或置信区间：沿用低精度代理1015.875µg，取消0.75g加碘盐后按约76.45µg碘/g盐扣减57.34µg，得约958.54µg。换算基于加拿大食盐0.01%碘化钾要求，Extra Firm豆腐配料未列加碘盐：https://inspection.canada.ca/en/food-labels/labelling/industry/salt ；鸡胸肉、牛排和豆腐未可靠定量，其他小额来源未独立计量。盐的实际碘含量、储存及烹调留存有差异。ALA暂列8–9g/周的低精度工作估计，非上下界或置信区间：原限定来源代理10.546656g扣除豆奶1890mL×0.3g/250mL，得8.278656g；肉类及新增豆腐ALA未计。本次换鱼未取得可与原估值衔接的ALA及碘分项，不能精确调整，故两项只保留粗略范围，不当作已核实的新总量。主要ALA来源为豆奶及鱼类；豆奶ALA为同类代理，非Silk实测。未计入不等于零，不凭限定来源小计诊断不足。
 总糖包含天然糖；蘸酱每周2g总糖含椰枣及番茄来源，椰枣贡献无法单独定量，故添加糖估计高端额外预留2g。添加糖约2–49g/周是卷饼2g及罐头、番茄酱总糖的宽情景估计，高端包含天然糖，不是实测值或严格上限，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐。
-宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质130–165g基于约81.1kg与1.6–2.0g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列12.9g为约1939kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
+宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质130–165g基于约81.1kg与1.6–2.0g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列12.9g为约1929kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
 依据：
 https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
 https://ods.od.nih.gov/pubs/usdandb/ALA-Food.pdf.pdf
