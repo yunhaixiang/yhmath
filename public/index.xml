@@ -864,7 +864,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;th&gt;商品&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;购买频率&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每次做菜取用&lt;/th&gt;
-          &lt;th&gt;是否冷冻&lt;/th&gt;
+          &lt;th&gt;后半周部分冷冻与否&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每周价格（CAD）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
@@ -874,7 +874,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/boneless-skinless-chicken-thighs/p/246800&#34;&gt;Boneless Skinless Chicken Thighs&lt;/a&gt;&lt;br&gt;约460 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
+          &lt;td&gt;是&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$20.26&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -882,7 +882,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142&#34;&gt;Platinum Grill Angus Beef Striploin Steak&lt;/a&gt;&lt;br&gt;1块 / 盒，厚约2 cm；每块生重260 g，去肥边35 g后剩225 g生重&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1块&lt;/td&gt;
-          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
+          &lt;td&gt;是&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$34.38&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -890,7 +890,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skin-on-atlantic-salmon-portion/p/229257&#34;&gt;Fresh Skin-On Atlantic Salmon Portion&lt;/a&gt;&lt;br&gt;113 g / 块&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;8块 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;4块&lt;/td&gt;
-          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
+          &lt;td&gt;是&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$39.92&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -898,7 +898,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-skinless-chicken-breasts/p/244931&#34;&gt;Prime Boneless Skinless Chicken Breasts&lt;/a&gt;&lt;br&gt;518 g / 盒、2块&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1块&lt;/td&gt;
-          &lt;td&gt;周三用的冷冻；周日用的冷藏&lt;/td&gt;
+          &lt;td&gt;是&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$15.41&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -906,7 +906,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/p/057864000080&#34;&gt;Sunrise Soya Foods Extra Firm Tofu&lt;/a&gt;&lt;br&gt;350 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;半盒175 g&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -914,7 +914,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054&#34;&gt;Selection Large Eggs&lt;/a&gt;&lt;br&gt;12个 / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;6个：水煮4个、炒饭2个&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -922,7 +922,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735&#34;&gt;Silk Soy Milk Alternative, Unsweetened, Dairy Free&lt;/a&gt;&lt;br&gt;1.89 L / 桶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2桶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$11.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -938,7 +938,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/sweet-potato-cubes/p/681548000723&#34;&gt;Diced Sweet Potatoes / Sweet Potato Cubes&lt;/a&gt;&lt;br&gt;400 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$9.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -954,7 +954,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157&#34;&gt;Belle Grove Crimini Mushroom Slices&lt;/a&gt;&lt;br&gt;227 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$7.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -962,7 +962,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018&#34;&gt;Fresh Attitude Organic Baby Spinach&lt;/a&gt;&lt;br&gt;142 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$10.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -978,7 +978,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900&#34;&gt;Fresh Fruit Carousel&lt;/a&gt;&lt;br&gt;1.4 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;早餐每天400 g&lt;/td&gt;
-          &lt;td&gt;否，冷藏&lt;/td&gt;
+          &lt;td&gt;否&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$29.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;

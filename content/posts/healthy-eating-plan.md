@@ -51,38 +51,38 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干料120g，均分两餐，每餐60g。一袋约用1.88周，按需补货。Good Food For Good Organic Ketchup按截图参考价$7.29/250mL、每周30mL分摊约$0.87；价格和库存以所选门店为准。
 -->
 
-| 食材 | 商品 | 购买频率 | 每次做菜取用 | 是否冷冻 | 每周价格（CAD） |
+| 食材 | 商品 | 购买频率 | 每次做菜取用 | 冷冻 | 每周价格（CAD） |
 | --- | --- | ---: | ---: | --- | ---: |
-| 去骨去皮鸡大腿肉 | [Boneless Skinless Chicken Thighs](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/boneless-skinless-chicken-thighs/p/246800)<br>约460 g / 盒 | 2盒 / 周 | 1盒 | 周三用的冷冻；周日用的冷藏 | 约$20.26 |
-| 牛排 | [Platinum Grill Angus Beef Striploin Steak](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142)<br>1块 / 盒，厚约2 cm；每块生重260 g，去肥边35 g后剩225 g生重 | 2盒 / 周 | 1块 | 周三用的冷冻；周日用的冷藏 | 约$34.38 |
-| 三文鱼 | [Fresh Skin-On Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skin-on-atlantic-salmon-portion/p/229257)<br>113 g / 块 | 8块 / 周 | 4块 | 周三用的冷冻；周日用的冷藏 | $39.92 |
-| 去骨去皮鸡胸肉 | [Prime Boneless Skinless Chicken Breasts](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-skinless-chicken-breasts/p/244931)<br>518 g / 盒、2块 | 1盒 / 周 | 1块 | 周三用的冷冻；周日用的冷藏 | 约$15.41 |
-| 豆腐 | [Sunrise Soya Foods Extra Firm Tofu](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/p/057864000080)<br>350 g / 盒 | 1盒 / 周 | 半盒175 g | 否，冷藏 | $3.99 |
-| 鸡蛋 | [Selection Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054)<br>12个 / 盒 | 1盒 / 周 | 6个：水煮4个、炒饭2个 | 否，冷藏 | $3.99 |
-| 无糖豆奶 | [Silk Soy Milk Alternative, Unsweetened, Dairy Free](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735)<br>1.89 L / 桶 | 2桶 / 周 | — | 否，冷藏 | $11.98 |
-| 桃子蓝莓无气泡水 | [Flow Organic Blueberry and Peach Spring Water](https://www.metro.ca/en/online-grocery/aisles/beverages/water/bottled-water/organic-blueberry-and-peach-spring-water/p/840277001283)<br>1 L / 盒，无气泡版 | 4盒 / 周 | — | 否 | $11.96 |
-| 切块红薯 | [Diced Sweet Potatoes / Sweet Potato Cubes](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/sweet-potato-cubes/p/681548000723)<br>400 g / 盒 | 2盒 / 周 | 1盒 | 否，冷藏 | $9.98 |
-| 豌豆胡萝卜 | [Selection Peas and Carrots, Packed in Season](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618)<br>398 mL / 罐，沥干约260 g | 2罐 / 周 | 1罐 | 否 | $2.98 |
-| 蘑菇 | [Belle Grove Crimini Mushroom Slices](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157)<br>227 g / 盒 | 2盒 / 周 | 1盒 | 否，冷藏 | $7.98 |
-| 嫩菠菜 | [Fresh Attitude Organic Baby Spinach](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018)<br>142 g / 盒 | 2盒 / 周 | 1盒 | 否，冷藏 | $10.98 |
-| 番茄意面酱 | [Catelli Garden Select Tomato & Basil Pasta Sauce](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-basil-pasta-sauce/p/064200010122)<br>600 mL / 瓶 | 1瓶 / 周 | 300 mL | 否 | $3.99 |
-| 混合水果盘 | [Fresh Fruit Carousel](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900)<br>1.4 kg / 盒 | 2盒 / 周 | 早餐每天400 g | 否，冷藏 | $29.98 |
+| 去骨去皮鸡大腿肉 | [Boneless Skinless Chicken Thighs](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/boneless-skinless-chicken-thighs/p/246800)<br>约460 g / 盒 | 2盒 / 周 | 1盒 | 是 | 约$20.26 |
+| 牛排 | [Platinum Grill Angus Beef Striploin Steak](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/aaa-aged-beef/angus-beef-striploin-steak/p/235142)<br>1块 / 盒，厚约2 cm；每块生重260 g，去肥边35 g后剩225 g生重 | 2盒 / 周 | 1块 | 是 | 约$34.38 |
+| 三文鱼 | [Fresh Skin-On Atlantic Salmon Portion](https://www.metro.ca/en/online-grocery/aisles/fish-seafood/fresh-fish/salmon-trout-tuna/fresh-skin-on-atlantic-salmon-portion/p/229257)<br>113 g / 块 | 8块 / 周 | 4块 | 是 | $39.92 |
+| 去骨去皮鸡胸肉 | [Prime Boneless Skinless Chicken Breasts](https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-skinless-chicken-breasts/p/244931)<br>518 g / 盒、2块 | 1盒 / 周 | 1块 | 是 | 约$15.41 |
+| 豆腐 | [Sunrise Soya Foods Extra Firm Tofu](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/p/057864000080)<br>350 g / 盒 | 1盒 / 周 | 半盒175 g | — | $3.99 |
+| 鸡蛋 | [Selection Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054)<br>12个 / 盒 | 1盒 / 周 | 6个：水煮4个、炒饭2个 | — | $3.99 |
+| 无糖豆奶 | [Silk Soy Milk Alternative, Unsweetened, Dairy Free](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735)<br>1.89 L / 桶 | 2桶 / 周 | — | — | $11.98 |
+| 桃子蓝莓无气泡水 | [Flow Organic Blueberry and Peach Spring Water](https://www.metro.ca/en/online-grocery/aisles/beverages/water/bottled-water/organic-blueberry-and-peach-spring-water/p/840277001283)<br>1 L / 盒，无气泡版 | 4盒 / 周 | — | — | $11.96 |
+| 切块红薯 | [Diced Sweet Potatoes / Sweet Potato Cubes](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/sweet-potato-cubes/p/681548000723)<br>400 g / 盒 | 2盒 / 周 | 1盒 | — | $9.98 |
+| 豌豆胡萝卜 | [Selection Peas and Carrots, Packed in Season](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618)<br>398 mL / 罐，沥干约260 g | 2罐 / 周 | 1罐 | — | $2.98 |
+| 蘑菇 | [Belle Grove Crimini Mushroom Slices](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157)<br>227 g / 盒 | 2盒 / 周 | 1盒 | — | $7.98 |
+| 嫩菠菜 | [Fresh Attitude Organic Baby Spinach](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018)<br>142 g / 盒 | 2盒 / 周 | 1盒 | — | $10.98 |
+| 番茄意面酱 | [Catelli Garden Select Tomato & Basil Pasta Sauce](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-basil-pasta-sauce/p/064200010122)<br>600 mL / 瓶 | 1瓶 / 周 | 300 mL | — | $3.99 |
+| 混合水果盘 | [Fresh Fruit Carousel](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900)<br>1.4 kg / 盒 | 2盒 / 周 | 早餐每天400 g | — | $29.98 |
 | 冷冻混合莓果 | [Irrésistible Frozen Mixed Berries](https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-mixed-berries/p/059749875981)<br>600 g / 袋 | 1袋 / 周 | 早餐每天约86 g | 是 | $5.99 |
-| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714)<br>340 g / 包 | 按需补 | 130 g | 否 | $3.82 |
-| 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.metro.ca/epicerie-en-ligne/allees/pains-et-patisseries/tortillas-et-pains-plats/tortillas/tortillas-de-ble-entier/p/068721038252)<br>610 g / 袋 | 按需补 | 1张 | 否 | $1.20 |
-| 混合米 | [Dainty Wholegrain Rice Blend, Borealis](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-rice-blend/p/056725251067)<br>450 g / 袋 | 按需补 | 干料120 g；配水约330 mL | 否 | $2.39 |
-| 高纤维谷物早餐 | [Fibre One Crunchy Original 587 g](https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040)<br>587 g / 盒 | 按需补 | 早餐每天40 g | 否 | $4.29 |
-| 黑胡椒 | [Selection Ground Black Pepper](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094)<br>105 g / 瓶 | 按需补 | — | 否 | $0.23 |
-| 蒜粉 | [Selection Garlic Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254)<br>120 g / 瓶 | 按需补 | — | 否 | $0.50 |
-| 洋葱粉 | [Selection Onion Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384)<br>100 g / 瓶 | 按需补 | — | 否 | $0.29 |
-| 红椒粉 | [Selection Paprika](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018)<br>95 g / 瓶 | 按需补 | — | 否 | $0.36 |
-| 干牛至叶 | [Selection Oregano Leaves](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936)<br>30 g / 瓶 | 按需补 | — | 否 | $0.10 |
-| 意式混合香草 | [Selection Italian Seasoning](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899)<br>35 g / 瓶 | 按需补 | — | 否 | $0.09 |
-| 玉米淀粉 | [Selection Corn Starch](https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199)<br>454 g / 盒 | 按需补 | 5茶匙 | 否 | $0.25 |
-| 盐 | [Windsor Iodized Table Salt](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055)<br>1 kg / 盒 | 按需补 | — | 否 | $0.01 |
-| 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627)<br>1 L / 瓶 | 按需补 | — | 否 | $0.81 |
-| 番茄蘸酱 | [Good Food For Good Organic Ketchup](https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/ketchup-mustard/organic-ketchup/p/627843402633)<br>250 mL / 瓶，含海盐、椰枣泥，参考$7.29 | 按需补 | 15 mL | 否 | $0.87 |
-| 一水肌酸 | [LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）](https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600)<br>无味，300 g / 罐，参考$27.98 | 按需补，约60天 / 罐 | — | 否 | 约$3.26 |
+| 意面 | [Catelli PROTEIN+ Spaghetti Pasta](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714)<br>340 g / 包 | 按需补 | 130 g | — | $3.82 |
+| 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.metro.ca/epicerie-en-ligne/allees/pains-et-patisseries/tortillas-et-pains-plats/tortillas/tortillas-de-ble-entier/p/068721038252)<br>610 g / 袋 | 按需补 | 1张 | — | $1.20 |
+| 混合米 | [Dainty Wholegrain Rice Blend, Borealis](https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-rice-blend/p/056725251067)<br>450 g / 袋 | 按需补 | 干料120 g；配水约330 mL | — | $2.39 |
+| 高纤维谷物早餐 | [Fibre One Crunchy Original 587 g](https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040)<br>587 g / 盒 | 按需补 | 早餐每天40 g | — | $4.29 |
+| 黑胡椒 | [Selection Ground Black Pepper](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094)<br>105 g / 瓶 | 按需补 | — | — | $0.23 |
+| 蒜粉 | [Selection Garlic Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254)<br>120 g / 瓶 | 按需补 | — | — | $0.50 |
+| 洋葱粉 | [Selection Onion Powder](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384)<br>100 g / 瓶 | 按需补 | — | — | $0.29 |
+| 红椒粉 | [Selection Paprika](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018)<br>95 g / 瓶 | 按需补 | — | — | $0.36 |
+| 干牛至叶 | [Selection Oregano Leaves](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936)<br>30 g / 瓶 | 按需补 | — | — | $0.10 |
+| 意式混合香草 | [Selection Italian Seasoning](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899)<br>35 g / 瓶 | 按需补 | — | — | $0.09 |
+| 玉米淀粉 | [Selection Corn Starch](https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199)<br>454 g / 盒 | 按需补 | 5茶匙 | — | $0.25 |
+| 盐 | [Windsor Iodized Table Salt](https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055)<br>1 kg / 盒 | 按需补 | — | — | $0.01 |
+| 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627)<br>1 L / 瓶 | 按需补 | — | — | $0.81 |
+| 番茄蘸酱 | [Good Food For Good Organic Ketchup](https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/ketchup-mustard/organic-ketchup/p/627843402633)<br>250 mL / 瓶，含海盐、椰枣泥，参考$7.29 | 按需补 | 15 mL | — | $0.87 |
+| 一水肌酸 | [LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）](https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600)<br>无味，300 g / 罐，参考$27.98 | 按需补，约60天 / 罐 | — | — | 约$3.26 |
 | 每周合计 | — | — | — | — | $232.24 |
 {.table-centered}
 
@@ -101,7 +101,6 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
 微波解冻时间按设备说明、食材重量及厚度调整，不设统一分钟数；解冻一批立即烹调一批，不先全部解冻等待。解冻安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/microwaves.html 。烹调时间受厚度、起始温度、装锅量及设备影响，不保证熟度。牛排按约2cm整切肉给出起始时间，中心至少63°C后静置3分钟；若为机械嫩化肉按包装并至少翻两次。水煮蛋的蛋白和蛋黄须凝固。安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html 。
 -->
 
-各厨具线程可并行；炒锅一负责蘑菇、番茄意面，炒锅二负责菠菜、炒饭。意面和混合米饭分别煮好后再交给对应炒锅。调味表均为每次做菜用量。
 
 #### 任务依赖图
 
@@ -144,7 +143,7 @@ flowchart TB
 
 | 食材 | 分到第几盘 |
 |---|---|
-| 牛排 | 1：1块 |
+| 牛排 | 1 |
 | 原味硬豆腐块 | 3、6：均分，各¼块（87.5 g） |
 | 鸡胸肉块 | 3、6：均分，各½块（129.5 g） |
 | 水煮蛋 | 1、4：各2个 |
@@ -159,7 +158,6 @@ flowchart TB
 | 菠菜 | 5 |
 {.table-centered}
 
-分盘后冷藏、清洗厨具。豆腐鸡胸肉餐食用时配番茄蘸酱；蘸酱开封后冷藏，按厂家建议30–60天内用完。
 
 #### 电饭煲线程
 
