@@ -731,7 +731,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;th&gt;碳水&lt;/th&gt;
           &lt;th&gt;蛋白质&lt;/th&gt;
           &lt;th&gt;蔬菜&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;热量（估算，kcal）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -864,7 +864,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;th&gt;商品&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;购买频率&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每次做菜取用&lt;/th&gt;
-          &lt;th&gt;后半周部分冷冻与否&lt;/th&gt;
+          &lt;th&gt;冷冻&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;每周价格（CAD）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
@@ -906,7 +906,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/p/057864000080&#34;&gt;Sunrise Soya Foods Extra Firm Tofu&lt;/a&gt;&lt;br&gt;350 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;半盒175 g&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -914,7 +914,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054&#34;&gt;Selection Large Eggs&lt;/a&gt;&lt;br&gt;12个 / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;6个：水煮4个、炒饭2个&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -922,7 +922,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735&#34;&gt;Silk Soy Milk Alternative, Unsweetened, Dairy Free&lt;/a&gt;&lt;br&gt;1.89 L / 桶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2桶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$11.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -930,7 +930,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/beverages/water/bottled-water/organic-blueberry-and-peach-spring-water/p/840277001283&#34;&gt;Flow Organic Blueberry and Peach Spring Water&lt;/a&gt;&lt;br&gt;1 L / 盒，无气泡版&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;4盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$11.96&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -938,7 +938,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/sweet-potato-cubes/p/681548000723&#34;&gt;Diced Sweet Potatoes / Sweet Potato Cubes&lt;/a&gt;&lt;br&gt;400 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$9.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -946,7 +946,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618&#34;&gt;Selection Peas and Carrots, Packed in Season&lt;/a&gt;&lt;br&gt;398 mL / 罐，沥干约260 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2罐 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1罐&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$2.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -954,7 +954,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157&#34;&gt;Belle Grove Crimini Mushroom Slices&lt;/a&gt;&lt;br&gt;227 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$7.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -962,7 +962,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018&#34;&gt;Fresh Attitude Organic Baby Spinach&lt;/a&gt;&lt;br&gt;142 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盒&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$10.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -970,7 +970,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-basil-pasta-sauce/p/064200010122&#34;&gt;Catelli Garden Select Tomato &amp;amp; Basil Pasta Sauce&lt;/a&gt;&lt;br&gt;600 mL / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1瓶 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;300 mL&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.99&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -978,7 +978,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/fresh-cut-fruits-vegetables/fresh-fruit-carousel/p/204900&#34;&gt;Fresh Fruit Carousel&lt;/a&gt;&lt;br&gt;1.4 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;早餐每天400 g&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$29.98&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -994,7 +994,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200130714&#34;&gt;Catelli PROTEIN+ Spaghetti Pasta&lt;/a&gt;&lt;br&gt;340 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;130 g&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$3.82&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1002,7 +1002,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/epicerie-en-ligne/allees/pains-et-patisseries/tortillas-et-pains-plats/tortillas/tortillas-de-ble-entier/p/068721038252&#34;&gt;Dempster’s 100% Whole Wheat Large Tortillas&lt;/a&gt;&lt;br&gt;610 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1张&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$1.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1010,7 +1010,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-rice-blend/p/056725251067&#34;&gt;Dainty Wholegrain Rice Blend, Borealis&lt;/a&gt;&lt;br&gt;450 g / 袋&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;干料120 g；配水约330 mL&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$2.39&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1018,7 +1018,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/original-flavoured-crunchy-cereal/p/065633186040&#34;&gt;Fibre One Crunchy Original 587 g&lt;/a&gt;&lt;br&gt;587 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;早餐每天40 g&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$4.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1026,7 +1026,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/ground-black-pepper/p/059749889094&#34;&gt;Selection Ground Black Pepper&lt;/a&gt;&lt;br&gt;105 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.23&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1034,7 +1034,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/garlic-powder/p/059749889254&#34;&gt;Selection Garlic Powder&lt;/a&gt;&lt;br&gt;120 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.50&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1042,7 +1042,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/onion-powder/p/059749889384&#34;&gt;Selection Onion Powder&lt;/a&gt;&lt;br&gt;100 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.29&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1050,7 +1050,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/paprika/p/059749889018&#34;&gt;Selection Paprika&lt;/a&gt;&lt;br&gt;95 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.36&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1058,7 +1058,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/spices/oregano-leaves/p/059749888936&#34;&gt;Selection Oregano Leaves&lt;/a&gt;&lt;br&gt;30 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.10&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1066,7 +1066,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/herb-spice-blends/italian-seasoning/p/059749888899&#34;&gt;Selection Italian Seasoning&lt;/a&gt;&lt;br&gt;35 g / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.09&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1074,7 +1074,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199&#34;&gt;Selection Corn Starch&lt;/a&gt;&lt;br&gt;454 g / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;5茶匙&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.25&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1082,7 +1082,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/herbs-spices-sauces/salt-pepper/iodized-table-salt/p/066010001055&#34;&gt;Windsor Iodized Table Salt&lt;/a&gt;&lt;br&gt;1 kg / 盒&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.01&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1090,7 +1090,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627&#34;&gt;Terra Delyssa Premium Extra Virgin Olive Oil&lt;/a&gt;&lt;br&gt;1 L / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.81&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1098,7 +1098,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/ketchup-mustard/organic-ketchup/p/627843402633&#34;&gt;Good Food For Good Organic Ketchup&lt;/a&gt;&lt;br&gt;250 mL / 瓶，含海盐、椰枣泥，参考$7.29&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;15 mL&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;$0.87&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1106,7 +1106,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600&#34;&gt;LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）&lt;/a&gt;&lt;br&gt;无味，300 g / 罐，参考$27.98&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补，约60天 / 罐&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td&gt;否&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$3.26&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1130,7 +1130,6 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
 &lt;!--
 微波解冻时间按设备说明、食材重量及厚度调整，不设统一分钟数；解冻一批立即烹调一批，不先全部解冻等待。解冻安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/microwaves.html 。烹调时间受厚度、起始温度、装锅量及设备影响，不保证熟度。牛排按约2cm整切肉给出起始时间，中心至少63°C后静置3分钟；若为机械嫩化肉按包装并至少翻两次。水煮蛋的蛋白和蛋黄须凝固。安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html 。
 --&gt;
-&lt;p&gt;各厨具线程可并行；炒锅一负责蘑菇、番茄意面，炒锅二负责菠菜、炒饭。意面和混合米饭分别煮好后再交给对应炒锅。调味表均为每次做菜用量。&lt;/p&gt;
 &lt;h4 id=&#34;任务依赖图&#34;&gt;任务依赖图&lt;/h4&gt;
 &lt;p&gt;箭头表示先后依赖，不表示耗时比例。&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34;&gt;flowchart TB
@@ -1176,7 +1175,7 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;牛排&lt;/td&gt;
-          &lt;td&gt;1：1块&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;原味硬豆腐块&lt;/td&gt;
@@ -1228,11 +1227,10 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;分盘后冷藏、清洗厨具。豆腐鸡胸肉餐食用时配番茄蘸酱；蘸酱开封后冷藏，按厂家建议30–60天内用完。&lt;/p&gt;
 &lt;h4 id=&#34;电饭煲线程&#34;&gt;电饭煲线程&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;混合米按表加水，用 Mixed Grain（杂粮）模式煮。&lt;/li&gt;
-&lt;li&gt;结束焖10分钟，拨松，交给炒锅二炒饭，最终分到3、6盘。&lt;/li&gt;
+&lt;li&gt;结束焖10分钟，拨松，交给炒锅二炒饭，最终均分到第3、6盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;烤箱线程&#34;&gt;烤箱线程&lt;/h4&gt;
 &lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
@@ -1277,8 +1275,8 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
 &lt;/table&gt;
 &lt;ol&gt;
 &lt;li&gt;烤箱400°F预热15分钟。&lt;/li&gt;
-&lt;li&gt;牛排：未解冻则用微波炉解冻，随后立即烹调；切去边缘明显肥肉，擦干拌调味，400°F先烤4分钟，翻面再烤4分钟；未达63°C则继续烤，出炉静置3分钟，放到1盘。&lt;/li&gt;
-&lt;li&gt;鸡大腿肉：未解冻则用微波炉解冻，随后立即烹调；擦干调味，与牛排分盘放烤箱下层，400°F烤25分钟，中心达74°C，分到2、4、7盘。&lt;/li&gt;
+&lt;li&gt;牛排：未解冻则用微波炉解冻，随后立即烹调；切去边缘明显肥肉，擦干拌调味，400°F先烤4分钟，翻面再烤4分钟；未达63°C则继续烤，出炉静置3分钟，整块放到第1盘（1块）。&lt;/li&gt;
+&lt;li&gt;鸡大腿肉：未解冻则用微波炉解冻，随后立即烹调；擦干调味，与牛排分盘放烤箱下层，400°F烤25分钟，中心达74°C，第2、7盘各放1块，第4盘放2块。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;空气炸锅线程&#34;&gt;空气炸锅线程&lt;/h4&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -1333,9 +1331,9 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
 &lt;/table&gt;
 &lt;ol&gt;
 &lt;li&gt;空气炸锅400°F预热4分钟。&lt;/li&gt;
-&lt;li&gt;三文鱼：未解冻则用微波炉解冻，随后立即烹调；擦干调味，400°F烤8分钟，分到2、5、7盘。&lt;/li&gt;
-&lt;li&gt;鸡胸肉：鱼出锅后，未解冻则用微波炉解冻，随后立即烹调；擦干切2–3 cm块，拌调味，玉米淀粉分两次撒入拌匀成薄层；单层入空气炸锅，400°F烤8分钟，翻动再烤2–4分钟，中心达74°C；放不下则分批，出锅均分到3、6盘。&lt;/li&gt;
-&lt;li&gt;原味硬豆腐：吸干表面，切约2 cm块，另盆拌调味，玉米淀粉分两次撒入拌匀成薄层；鸡胸肉出锅后单层入空气炸锅，沿用400°F烤约10分钟，中途翻动，想更脆再加2分钟，出锅均分到3、6盘。&lt;/li&gt;
+&lt;li&gt;三文鱼：未解冻则用微波炉解冻，随后立即烹调；擦干调味，400°F烤8分钟，第2、7盘各放1块，第5盘放2块。&lt;/li&gt;
+&lt;li&gt;鸡胸肉：鱼出锅后，未解冻则用微波炉解冻，随后立即烹调；擦干切2–3 cm块，拌调味，玉米淀粉分两次撒入拌匀成薄层；单层入空气炸锅，400°F烤8分钟，翻动再烤2–4分钟，中心达74°C；放不下则分批，出锅均分到第3、6盘，每盘相当于切块前的½块鸡胸肉。&lt;/li&gt;
+&lt;li&gt;原味硬豆腐：吸干表面，切约2 cm块，另盆拌调味，玉米淀粉分两次撒入拌匀成薄层；鸡胸肉出锅后单层入空气炸锅，沿用400°F烤约10分钟，中途翻动，想更脆再加2分钟，出锅均分到第3、6盘，每盘相当于整盒豆腐的¼块。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;煮锅线程&#34;&gt;煮锅线程&lt;/h4&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -1361,9 +1359,9 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ol&gt;
-&lt;li&gt;意面锅：烧水，水开后煮意面约8分钟，捞出，交给炒锅一拌酱，最终分到2、7盘。&lt;/li&gt;
-&lt;li&gt;鸡蛋锅：烧水；按购物表留出炒饭用蛋，其余水开后煮约8分钟，捞出，分到1、4盘。&lt;/li&gt;
-&lt;li&gt;鸡蛋锅接着煮红薯：红薯冲洗、切至约2 cm；锅内换水烧开，煮10–15分钟至叉子能轻松插入，沥干拌调味，分到1、5盘。&lt;/li&gt;
+&lt;li&gt;意面锅：烧水，水开后煮意面约8分钟，捞出，交给炒锅一拌酱，最终均分到第2、7盘。&lt;/li&gt;
+&lt;li&gt;鸡蛋锅：烧水；按购物表留出炒饭用蛋，其余水开后煮约8分钟，捞出，第1、4盘各放2个。&lt;/li&gt;
+&lt;li&gt;鸡蛋锅接着煮红薯：红薯冲洗、切至约2 cm；锅内换水烧开，煮10–15分钟至叉子能轻松插入，沥干拌调味，均分到第1、5盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;炒锅线程两锅并行&#34;&gt;炒锅线程（两锅并行）&lt;/h4&gt;
 &lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
@@ -1415,13 +1413,13 @@ Borealis按Metro截图参考价$4.49/450g、每周240g分摊约$2.39；每次干
 &lt;/table&gt;
 &lt;h5 id=&#34;炒锅一&#34;&gt;炒锅一&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;加油，蘑菇加调味大火炒7分钟，分到1、4盘。&lt;/li&gt;
-&lt;li&gt;意面煮好后，加油，番茄意面酱及调味小火煮2–3分钟；拌入意面再煮3分钟至热透，分到2、7盘。&lt;/li&gt;
+&lt;li&gt;加油，蘑菇加调味大火炒7分钟，均分到第1、4盘。&lt;/li&gt;
+&lt;li&gt;意面煮好后，加油，番茄意面酱及调味小火煮2–3分钟；拌入意面再煮3分钟至热透，均分到第2、7盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h5 id=&#34;炒锅二&#34;&gt;炒锅二&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;加油，菠菜加调味大火炒7分钟，放到5盘。&lt;/li&gt;
-&lt;li&gt;混合米饭煮好并焖松后，豌豆胡萝卜开罐沥干，鸡蛋打散；加油，中火倒入蛋液炒至凝固，加入混合米饭、豌豆胡萝卜及调味，炒散至热透、鸡蛋全熟，出锅均分到3、6盘。&lt;/li&gt;
+&lt;li&gt;加油，菠菜加调味大火炒7分钟，全部放到第5盘。&lt;/li&gt;
+&lt;li&gt;混合米饭煮好并焖松后，豌豆胡萝卜开罐沥干，鸡蛋打散；加油，中火倒入蛋液炒至凝固，加入混合米饭、豌豆胡萝卜及调味，炒散至热透、鸡蛋全熟，出锅均分到第3、6盘，每盘相当于1个炒蛋。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
 &lt;h4 id=&#34;常见放纵餐&#34;&gt;常见放纵餐&lt;/h4&gt;
