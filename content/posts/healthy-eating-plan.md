@@ -60,7 +60,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 | 鸡蛋 | [Selection Large Eggs](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-white-eggs/p/059749896054)<br>12个 / 盒 | 1盒 / 周 | 6个：水煮4个、炒饭2个 | — | $3.99 |
 | 无糖豆奶 | [Silk Soy Milk Alternative, Unsweetened, Dairy Free](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-unsweetened-fortified-soy-beverage/p/025293000735)<br>1.89 L / 桶 | 2桶 / 周 | — | — | $11.98 |
 | 桃子蓝莓无气泡水 | [Flow Organic Blueberry and Peach Spring Water](https://www.metro.ca/en/online-grocery/aisles/beverages/water/bottled-water/organic-blueberry-and-peach-spring-water/p/840277001283)<br>1 L / 盒，无气泡版 | 4盒 / 周 | — | — | $11.96 |
-| 土豆 | 散装土豆，约300 g / 个 | 3个 / 周，约900 g | 1½个，约450 g；分两餐各225 g生重 | — | 待按实际单价计入 |
+| 土豆 | [Metro White Potato](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/potatoes-carrots-celery/white-potato/p/4083)<br>约300 g / 个，参考$1.94 / 个 | 3个 / 周，约900 g | 1½个，约450 g；分两餐各225 g生重 | — | $5.82 |
 | 豌豆胡萝卜 | [Selection Peas and Carrots, Packed in Season](https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/peas-and-carrots/p/059749887618)<br>398 mL / 罐，沥干约260 g | 2罐 / 周 | 1罐 | — | $2.98 |
 | 蘑菇 | [Belle Grove Crimini Mushroom Slices](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/mushrooms/crimini-mushroom-slices/p/887462000157)<br>227 g / 盒 | 2盒 / 周 | 1盒 | — | $7.98 |
 | 嫩菠菜 | [Fresh Attitude Organic Baby Spinach](https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/packaged-salads-vegetables/organic-baby-spinach/p/888048100018)<br>142 g / 盒 | 2盒 / 周 | 1盒 | — | $10.98 |
@@ -81,7 +81,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 | 橄榄油 | [Terra Delyssa Premium Extra Virgin Olive Oil](https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/6191509903627)<br>1 L / 瓶 | 按需补 | — | — | $0.81 |
 | 番茄蘸酱 | [Good Food For Good Organic Ketchup](https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/ketchup-mustard/organic-ketchup/p/627843402633)<br>250 mL / 瓶，含海盐、椰枣泥，参考$7.29 | 按需补 | 15 mL | — | $0.87 |
 | 一水肌酸 | [LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）](https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600)<br>无味，300 g / 罐，参考$27.98 | 按需补，约60天 / 罐 | — | — | 约$3.26 |
-| 每周合计 | — | — | — | — | $226.02＋散装土豆费用 |
+| 每周合计 | — | — | — | — | $231.84 |
 {.table-centered}
 
 <!--
@@ -299,7 +299,7 @@ Atlantic/100g：[208,20.42,13.42,3.05,0,0,0,55,59,9,0.34,363]
 普通大鸡蛋/个：[70,6,5,1.5,1,0,0,195,65,25,0.875,62.5]
 Silk无糖豆奶/250mL：[90,8,4.5,0.5,4,2,1,0,90,300,1,350]
 Flow桃子蓝莓无气泡水每周4盒×1L，共4L，计入餐外饮品；厂家标示零热量、零糖、无甜味剂，因此热量、宏量营养和赤字不变。泉水矿物质未取得本款完整定量资料，暂不计入矿物质小计，不等于不含。价格按Metro参考$2.99/盒，每周$11.96；营养来源：https://flowhydration.ca/products/12-pack-of-1l-peach-blueberry 。
-土豆/生重110g营养代理：[80,2,0,0,18,2,1,0,0,0,0.8,480]。改为散装土豆每周3个、每个约300g，共约900g；每半周450g、每餐225g。按用户确认方案，暂沿用此前Boomer Gold小土豆标签作为估算代理，非散装土豆实测，品种和实际重量不同会产生差异；标签零值含舍入。代理来源：https://www.kroger.com/p/the-little-potato-company-boomer-gold-potatoes/0062930712334 。按生重计算，空气炸失水不另增热量，调味及每周5mL橄榄油不变、只计一次。散装单价未确认，购物合计暂不含土豆费用。
+土豆/生重110g营养代理：[80,2,0,0,18,2,1,0,0,0,0.8,480]。改为散装土豆每周3个、每个约300g，共约900g；每半周450g、每餐225g。按用户确认方案，暂沿用此前Boomer Gold小土豆标签作为估算代理，非散装土豆实测，品种和实际重量不同会产生差异；标签零值含舍入。代理来源：https://www.kroger.com/p/the-little-potato-company-boomer-gold-potatoes/0062930712334 。按生重计算，空气炸失水不另增热量，调味及每周5mL橄榄油不变、只计一次。Metro White Potato（4083）每个平均295g，计划按用户指定约300g/个估算；按$1.94/个、每周3个计$5.82，已计入购物合计，称重商品以结账为准。
 沥干豌豆胡萝卜/100g：[55,3,0.4,0.08,10.5,3.5,4,0,300,25,1,160]
 蘑菇/100g：[22,2.5,0.1,0.02,4.3,0.6,1.7,0,6,18,0.4,448]
 菠菜/100g：[23,2.86,0.39,0.063,3.63,2.2,0.42,0,79,99,2.71,558]
