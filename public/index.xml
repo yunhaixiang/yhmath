@@ -1113,7 +1113,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 
 买回当天将周三用的鸡大腿肉、鸡胸肉和三文鱼分装密封冷冻，周日用的部分冷藏。排骨原为冷冻熟食，冷藏至可分开且仍有冰晶时分成两份，周三部分立即密封回冻；只解冻、加热本次食用部分，不把整盒微波解冻或加热后再回冻。--&gt;
 &lt;!--
-微波解冻时间按设备说明、食材重量及厚度调整，不设统一分钟数；拆掉非微波安全包装，解冻一批立即加热或烹调一批。解冻安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/microwaves.html 。排骨为全熟产品，优先执行实物包装复热说明；下文375°F、约20分钟加3–5分钟为冷藏解冻后通用试用流程，非本款官方参数，中心须达74°C。水煮蛋的蛋白和蛋黄须凝固。安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-you.html 。
+微波解冻时间按设备说明、食材重量及厚度调整，不设统一分钟数；拆掉非微波安全包装，解冻一批立即加热或烹调一批。解冻安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/microwaves.html 。排骨为全熟产品，优先执行实物包装复热说明；下文400°F、盖锡纸先烤15分钟检查、再揭开烤3–5分钟为冷藏解冻后通用试用流程，非本款官方参数，时间不保证热透，中心须达74°C。水煮蛋的蛋白和蛋黄须凝固。安全核对：https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-you.html 。
 --&gt;
 &lt;h4 id=&#34;任务依赖图&#34;&gt;任务依赖图&lt;/h4&gt;
 &lt;div class=&#34;mermaid&#34;&gt;flowchart TB
@@ -1122,7 +1122,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
     end
     subgraph oven[烤箱]
         O0[预热400°F] --&gt; O2[烤鸡大腿肉]
-        O2 --&gt; O3[降至375°F] --&gt; O1[复热BBQ排骨]
+        O0 --&gt; O1[复热BBQ排骨]
     end
     subgraph air[空气炸锅]
         A0[预热] --&gt; A4[土豆块] --&gt; A1[三文鱼] --&gt; A2[鸡胸肉块]
@@ -1245,8 +1245,8 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 &lt;ol&gt;
 &lt;li&gt;烤箱400°F预热15分钟。&lt;/li&gt;
 &lt;li&gt;鸡大腿肉：未解冻则用微波炉解冻，随后立即烹调；擦干调味，400°F烤25分钟，中心达74°C，第2、7盘各放1块，第4盘放2块。&lt;/li&gt;
-&lt;li&gt;BBQ排骨：鸡大腿肉出锅后，烤箱降至375°F；本次排骨未解冻则用微波炉解冻，随后立即加热。拆包装，骨面朝下放烤盘，抹袋内酱汁、盖锡纸，不另加油盐。&lt;/li&gt;
-&lt;li&gt;排骨按包装说明复热；未取得说明时，解冻后先烤约20分钟，再揭开锡纸烤3–5分钟，中心须达74°C，未达则继续加热；全部放第1盘。&lt;/li&gt;
+&lt;li&gt;BBQ排骨：本次排骨未解冻则用微波炉解冻，随后立即加热。拆包装，骨面朝下放烤盘，抹袋内酱汁、盖锡纸，不另加油盐；与鸡大腿肉分盘同炉，鸡大腿肉放下层，避免肉汁滴到排骨。&lt;/li&gt;
+&lt;li&gt;排骨按包装说明复热；未取得说明时，解冻后400°F盖锡纸先烤15分钟检查，再揭开锡纸烤3–5分钟，留意酱汁焦化；中心须达74°C，未达则盖回锡纸继续加热。全部放第1盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;空气炸锅线程&#34;&gt;空气炸锅线程&lt;/h4&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -2184,10 +2184,11 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 来源：https://pacompendium.com/water-activities/ 。
 --&gt;
 &lt;!--
-哑铃标重只计配重片：每只10lb，每端1片5lb，不计握杆和锁扣。统一重量不代表各动作刺激等效；动作失控或借力时需减重。器械：https://www.amazon.ca/dp/B000VCDXNS 。
+哑铃标重只计配重片，不计握杆和锁扣：周一、周四每只10lb；周二、周五每只15lb，各端配重相同。15lb为下肢训练试用重量，未依据实际完成记录确认。器械：https://www.amazon.ca/dp/B000VCDXNS 。
 --&gt;
 &lt;h3 id=&#34;力量训练在家&#34;&gt;力量训练（在家）&lt;/h3&gt;
-&lt;!--哑铃配重：10 lb；每次约40分钟（热身5分钟＋表内35分钟）。--&gt;
+&lt;p&gt;哑铃配重：周一、周四每只10 lb；周二、周五每只15 lb（均不含握杆和锁扣）。单哑铃动作只用一只；徒手和弹力带动作不变。15 lb先试用，不能稳定完成规定次数则退回10 lb。&lt;/p&gt;
+&lt;!--每次约40分钟（热身5分钟＋表内35分钟）。--&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
 &lt;thead&gt;
 &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;星期&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;动作&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;组数 × 次数／时长&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;预计用时&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;每组完成&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;训练肌群&lt;/th&gt;&lt;/tr&gt;
