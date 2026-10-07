@@ -717,7 +717,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
 &lt;li&gt;适合减肥增肌，降低血脂：蛋白质 &amp;gt; 蔬菜 &amp;gt; 碳水&lt;/li&gt;
 &lt;li&gt;做菜和购物流程快速、简单、固定：一周两次做菜，一次七顿&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;每周集中做菜两次，每次预计时间60–80分钟（食材已解冻；空气炸锅分批时更久）：&lt;/p&gt;
+&lt;p&gt;每周集中做菜两次，每次预计时间60–80分钟：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;周日中午：做周日午餐 ～ 周三午餐，共7顿&lt;/li&gt;
 &lt;li&gt;周三晚上：做周三晚餐 ～ 周六晚餐，共7顿&lt;/li&gt;
@@ -1221,7 +1221,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 &lt;li&gt;程序结束后直接交给炒锅二炒饭，最终均分到第3、6盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;烤箱线程&#34;&gt;烤箱线程&lt;/h4&gt;
-&lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
+&lt;p&gt;调味表：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1257,6 +1257,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 &lt;li&gt;排骨按包装说明复热；未取得说明时，解冻后400°F盖锡纸先烤15分钟检查，再揭开锡纸烤3–5分钟，留意酱汁焦化；中心须达74°C，未达则盖回锡纸继续加热。全部放第1盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;空气炸锅线程&#34;&gt;空气炸锅线程&lt;/h4&gt;
+&lt;p&gt;调味表：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1320,7 +1321,7 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 &lt;li&gt;鸡蛋锅：烧水；按购物表留出炒饭用蛋，其余水开后煮约8分钟，捞出，第1盘放1个，第4盘放2个。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;炒锅线程两锅并行&#34;&gt;炒锅线程（两锅并行）&lt;/h4&gt;
-&lt;p&gt;调味表（每次做菜）：&lt;/p&gt;
+&lt;p&gt;调味表：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1781,7 +1782,7 @@ BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-me
           &lt;td style=&#34;text-align: right&#34;&gt;66.14&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;有氧：HIIT或游泳，4次／周（净增加）&lt;/td&gt;
+          &lt;td&gt;有氧：HIIT、游泳或跑步机，4次／周（净增加）&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;800.00&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;114.29&lt;/td&gt;
       &lt;/tr&gt;
@@ -1798,7 +1799,8 @@ BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-me
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;运动按扣除同期基础消耗后的净增加量计入，避免重复计算；日常加成不代表单独测得的食物热效应。&lt;/p&gt;
-&lt;p&gt;以下暂按排骨整盒450 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约7.4%；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。&lt;/p&gt;
+&lt;!-- 
+以下暂按排骨整盒450 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约7.4%；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。--&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2099,7 +2101,7 @@ https://www.efsa.europa.eu/en/press/news/120727
 &lt;h2 id=&#34;锻炼&#34;&gt;锻炼&lt;/h2&gt;
 &lt;h3 id=&#34;计划表-1&#34;&gt;计划表&lt;/h3&gt;
 &lt;!-- 
-每周训练4天：周一、周二、周四、周五；先力量，后在HIIT与游泳中任选一种有氧，每天不叠加。周三、周六、周日完全休息，不安排训练。--&gt;
+每周训练4天：周一、周二、周四、周五；先力量，后在HIIT、游泳与跑步机中任选一种有氧，每天不叠加。周三、周六、周日完全休息，不安排训练。--&gt;
 &lt;!-- 
 每次力量训练约40分钟（约38–42分钟，含5分钟热身、组间休息和换动作，不含有氧）。推、拉、深蹲、弓步和硬拉组间休息90–120秒；其余动作约60秒。单侧动作左右做完算一组，换侧约15秒，再组间休息。下列动作时间均包含休息和换动作，作为时间预算，不必为凑时间加组或赶动作。--&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -2114,12 +2116,12 @@ https://www.efsa.europa.eu/en/press/news/120727
       &lt;tr&gt;
           &lt;td&gt;周一&lt;/td&gt;
           &lt;td&gt;上肢推拉与核心，约40分钟&lt;/td&gt;
-          &lt;td&gt;HIIT或游泳&lt;/td&gt;
+          &lt;td&gt;HIIT／游泳／跑步机（三选一）&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二&lt;/td&gt;
           &lt;td&gt;下肢、臀部与核心，约40分钟&lt;/td&gt;
-          &lt;td&gt;HIIT或游泳&lt;/td&gt;
+          &lt;td&gt;HIIT／游泳／跑步机（三选一）&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周三&lt;/td&gt;
@@ -2129,12 +2131,12 @@ https://www.efsa.europa.eu/en/press/news/120727
       &lt;tr&gt;
           &lt;td&gt;周四&lt;/td&gt;
           &lt;td&gt;上肢推拉与核心，约40分钟&lt;/td&gt;
-          &lt;td&gt;HIIT或游泳&lt;/td&gt;
+          &lt;td&gt;HIIT／游泳／跑步机（三选一）&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周五&lt;/td&gt;
           &lt;td&gt;下肢与核心，约40分钟&lt;/td&gt;
-          &lt;td&gt;HIIT或游泳&lt;/td&gt;
+          &lt;td&gt;HIIT／游泳／跑步机（三选一）&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周六&lt;/td&gt;
@@ -2177,7 +2179,7 @@ https://www.efsa.europa.eu/en/press/news/120727
 HIIT实际执行：每次从头到尾完成，主要跟高强度版本，做不动时偶尔短暂跟低强度版本。无法仅凭该描述确定个人实际MET或精确消耗；短暂降强度不等于整套低冲击训练，因此保留约200kcal／次的净消耗规划估值，不对未知的简化动作时长作精确扣减。
 HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主训练连同短间歇和轮间休息约21分钟，其余约8分钟为热身、放松、讲解。Toya提供简化动作。原链接附带t=508s（8:28），已移除时间戳；从中途开始不适用上述整套估计。
 沿用计算体重81.1kg，净消耗≈体重×Σ[(MET−1)×小时数]；完整版本示例：主训练含间歇平均7.5MET，其余平均2.3MET，81.1×[(7.5−1)×21/60+(2.3−1)×8/60]≈198.56kcal。阶段平均强度为估算，并非视频或个人实测；低冲击可暂估140kcal净消耗／次，完整版本可暂估200kcal／次。未单独叠加运动后额外消耗。
-强度参考2024身体活动能耗汇编：https://pacompendium.com/conditioning-exercise/ 。个人节奏、动作幅度及额外休息会影响实际消耗。旧HIIT模型202.75kcal/次本次归整为约200kcal/次；四次有氧无论选择HIIT或游泳，均按规划净消耗共800kcal/周计入，不把两种有氧重复相加。整套低冲击版可能仅约130–160kcal，不保证达到200kcal。
+强度参考2024身体活动能耗汇编：https://pacompendium.com/conditioning-exercise/ 。个人节奏、动作幅度及额外休息会影响实际消耗。旧HIIT模型202.75kcal/次本次归整为约200kcal/次；四次有氧无论选择HIIT、游泳或跑步机，均按规划净消耗共800kcal/周计入，不把三种有氧重复相加。整套低冲击版可能仅约130–160kcal，不保证达到200kcal。
 --&gt;
 &lt;ul&gt;
 &lt;li&gt;有氧选项二：游泳。每个来回自由泳去、蛙泳回；每次20个来回，按25 m泳池计算共1,000 m，预计约30–35分钟&lt;!--（含短暂休息）--&gt;。&lt;!-- 净消耗粗估180–220 kcal，统计按约200 kcal／次；--&gt;
@@ -2189,8 +2191,22 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
-游泳换算：原计划25个来回约40分钟仅为规划配速，按相同配速20个来回约32分钟；不是用户已测得的完成时间。25m泳池一个来回50m，20个来回1000m，3+2×7+3=20。净消耗≈体重kg×Σ[(MET−1)×小时数]；2024汇编休闲自由泳5.8MET、休闲蛙泳5.3MET，可粗取游动平均约5.5MET，池边休息约1.3MET。以最近报告78.45kg、实际游动30–34分钟加短休息估计，净消耗约180–200多kcal，规划写约180–220kcal而非实测区间；较长休息、更轻松或明显更快完成时不能套用。记录实际游动与休息时间后再校准。当前统一按200kcal作为HIIT与游泳二选一的记账值，未重新估计其他活动或步行频率。
+游泳换算：原计划25个来回约40分钟仅为规划配速，按相同配速20个来回约32分钟；不是用户已测得的完成时间。25m泳池一个来回50m，20个来回1000m，3+2×7+3=20。净消耗≈体重kg×Σ[(MET−1)×小时数]；2024汇编休闲自由泳5.8MET、休闲蛙泳5.3MET，可粗取游动平均约5.5MET，池边休息约1.3MET。以最近报告78.45kg、实际游动30–34分钟加短休息估计，净消耗约180–200多kcal，规划写约180–220kcal而非实测区间；较长休息、更轻松或明显更快完成时不能套用。记录实际游动与休息时间后再校准。当前统一按200kcal作为HIIT、游泳与跑步机三选一的记账值，未重新估计其他活动或步行频率。
 来源：https://pacompendium.com/water-activities/ 。
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;有氧选项三：跑步机。约30分钟，坡度0%；与HIIT、游泳三选一，先力量后有氧。
+&lt;ul&gt;
+&lt;li&gt;热身：5分钟，4–5 km/h（约2.5–3.1 mph）走路。&lt;/li&gt;
+&lt;li&gt;主训练：20分钟，约8 km/h（约5 mph）慢跑。&lt;/li&gt;
+&lt;li&gt;放松：5分钟，逐渐降到3–4 km/h（约1.9–2.5 mph）走路。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+  - 速度以能稳定完成为准；跑不动可降速或跑走交替，不为凑热量硬撑。净消耗粗估约200–230 kcal，统计暂按200 kcal／次；明显降速或缩短时间后需重新估算。--&gt;
+&lt;!--
+跑步机消耗以最近报告78.45kg估计，非机器实测。沿用本计划净消耗≈体重×Σ[(MET−1)×小时数]口径，20分钟约8km/h平地慢跑取8.5MET，热身与放松共10分钟粗取3MET，净消耗约222.3kcal；规划按约200–230kcal、记账保守取200kcal。MET为人群平均代理，体能、步态、扶握扶手及设备差异均会改变实际消耗，不能保证个人达到该范围；机器显示值也可能是含静息的总消耗。每周仍为四次有氧三选一，共800kcal净增加，不额外提高消耗或赤字。来源：https://pacompendium.com/running/ ，https://pacompendium.com/walking/ 。
 --&gt;
 &lt;!--
 哑铃标重只计配重片，不计握杆和锁扣：周一、周四每只10lb；周二、周五每只15lb，各端配重相同。15lb为下肢训练试用重量，未依据实际完成记录确认。器械：https://www.amazon.ca/dp/B000VCDXNS 。
