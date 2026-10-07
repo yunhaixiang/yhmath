@@ -160,6 +160,8 @@ flowchart TB
 
 #### 电饭煲线程
 
+<!-- 电饭煲 White Rice（白米）模式煮米约50分钟。 -->
+
 1. 白米淘洗沥干，按表加水，用 White Rice（白米）模式煮。
 2. 程序结束后直接交给炒锅二炒饭，最终均分到第3、6盘。
 
@@ -425,15 +427,15 @@ https://www.efsa.europa.eu/en/press/news/120727
 每周训练4天：周一、周二、周四、周五；先力量，后在HIIT、游泳与跑步机中任选一种有氧，每天不叠加。周三、周六、周日完全休息，不安排训练。-->
 
 <!-- 
-每次力量训练约40分钟（约38–42分钟，含5分钟热身、组间休息和换动作，不含有氧）。推、拉、深蹲、弓步和硬拉组间休息90–120秒；其余动作约60秒。单侧动作左右做完算一组，换侧约15秒，再组间休息。下列动作时间均包含休息和换动作，作为时间预算，不必为凑时间加组或赶动作。-->
+在家力量训练约43–49分钟，健身馆约40–45分钟（均含热身、组间休息和换动作，不含有氧）。推、拉、深蹲、弓步和硬拉组间休息90–120秒；其余动作约60秒。单侧动作左右做完算一组，换侧约15秒，再组间休息。下列动作时间均包含休息和换动作，作为时间预算，不必为凑时间加组或赶动作。-->
 
 | 星期 | 力量训练 | 有氧 |
 |---|---|---|
-| 周一 | 上肢推拉与核心，约40分钟 | HIIT／游泳／跑步机（三选一） |
-| 周二 | 下肢、臀部与核心，约40分钟 | HIIT／游泳／跑步机（三选一） |
+| 周一 | 上肢推拉与核心，在家约48分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
+| 周二 | 下肢、臀部与核心，在家约43分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
 | 周三 | 休息 | 休息 |
-| 周四 | 上肢推拉与核心，约40分钟 | HIIT／游泳／跑步机（三选一） |
-| 周五 | 下肢与核心，约40分钟 | HIIT／游泳／跑步机（三选一） |
+| 周四 | 上肢推拉与核心，在家约43分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
+| 周五 | 下肢与核心，在家约49分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
 | 周六 | 休息 | 休息 |
 | 周日 | 休息 | 休息 |
 {.table-centered}
@@ -483,10 +485,12 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 ### 力量训练（在家）
 
 哑铃配重：周一、周四每只10 lb；周二、周五每只15 lb。
+<!--
+周一新增反向卷腹、周五新增卷腹：前两周各2组，恢复良好后各3组；第3组勾选框从第3周起使用。卷腹可逐渐改为胸前抱轻哑铃，每组保留1–3次余力，达到次数上限后小幅加重，不套用当天哑铃配重。 -->
 <!-- 
-腹部训练以增厚为目标：卷腹、反向卷腹和侧平板髋部升降先徒手，每组保留约1–3次余力。卷腹或侧平板髋部升降全部组达到次数上限后，可小幅加重，不直接套用当天哑铃重量；侧平板髋部升降左右做完再勾一组。-->
+腹部训练以增厚为目标，侧平板髋部升降左右做完再勾一组；反向卷腹卷起骨盆，不靠摆腿。若持续酸痛影响其他训练或出现腰痛，应减量或调整动作。-->
 
-<!--含5分钟热身：周一约41分钟，周二、周四约40分钟，周五约42分钟。-->
+<!--按完整组数、含5分钟热身：周一约48分钟，周二、周四约43分钟，周五约49分钟；每周比原计划增加约20分钟，实际可约20–30分钟。前两周新增动作各少1组，时长略短。-->
 
 <table class="table-centered">
 <thead>
@@ -494,7 +498,7 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 </thead>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">一</th>
+<th scope="rowgroup" rowspan="7" style="vertical-align: middle; text-align: center;">一</th>
 <td><a href="https://www.youtube.com/watch?v=WDIpL0pjun0">俯卧撑</a><br>Push-up</td>
 <td>4组 × 8–15 次</td>
 <td>9分钟</td>
@@ -536,6 +540,13 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td><label><input type="checkbox" aria-label="周一卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一卷腹第3组"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
+<td>2→3组 × 10–15 次</td>
+<td>7分钟</td>
+<td><label><input type="checkbox" aria-label="周一反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一反向卷腹第3组（第3周起）"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
 </tbody>
 <tbody>
 <tr>
@@ -569,9 +580,9 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=LgaYt4Hi6-g">侧平板髋部升降</a><br>Side plank hip lift</td>
-<td>2组 × 8–15 次／侧</td>
-<td>6分钟</td>
-<td><label><input type="checkbox" aria-label="周二侧平板髋部升降第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周二侧平板髋部升降第2组（左右）"> 2</label></td>
+<td>3组 × 8–15 次／侧</td>
+<td>9分钟</td>
+<td><label><input type="checkbox" aria-label="周二侧平板髋部升降第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周二侧平板髋部升降第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周二侧平板髋部升降第3组（左右）"> 3</label></td>
 <td>侧腹（腹斜肌）、腰方肌；肩部支撑</td>
 </tr>
 </tbody>
@@ -614,15 +625,15 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=LgaYt4Hi6-g">侧平板髋部升降</a><br>Side plank hip lift</td>
-<td>2组 × 8–15 次／侧</td>
-<td>5分钟</td>
-<td><label><input type="checkbox" aria-label="周四侧平板髋部升降第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周四侧平板髋部升降第2组（左右）"> 2</label></td>
+<td>3组 × 8–15 次／侧</td>
+<td>8分钟</td>
+<td><label><input type="checkbox" aria-label="周四侧平板髋部升降第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周四侧平板髋部升降第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周四侧平板髋部升降第3组（左右）"> 3</label></td>
 <td>侧腹（腹斜肌）、腰方肌；肩部支撑</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="5" style="vertical-align: middle; text-align: center;">五</th>
+<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">五</th>
 <td><a href="https://www.youtube.com/watch?v=Wcmg-3iHwjQ">哑铃分腿蹲</a><br>Dumbbell split squat</td>
 <td>3组 × 8–12 次／腿</td>
 <td>9分钟</td>
@@ -651,10 +662,17 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td>小腿</td>
 </tr>
 <tr>
-<td><a href="https://www.youtube.com/watch?v=7rRWy7-Gokg">反向卷腹</a><br>Reverse crunch</td>
+<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
 <td>3组 × 10–15 次</td>
 <td>5分钟</td>
 <td><label><input type="checkbox" aria-label="周五反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五反向卷腹第3组"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
+<td>2→3组 × 10–20 次</td>
+<td>7分钟</td>
+<td><label><input type="checkbox" aria-label="周五卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五卷腹第3组（第3周起）"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
 </tbody>
@@ -884,8 +902,8 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 | 二头肌<br>Biceps | — | 哑铃划船7组、阻力带下拉3组 | 基本充足 |
 | 三头肌<br>Triceps | — | 俯卧撑8组、哑铃肩推4组 | 基本充足 |
 | 小臂<br>Forearms | — | 哑铃划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 难判断 |
-| 腹肌<br>Abs | 卷腹3组、反向卷腹3组 | 俯卧撑8组、高脚杯深蹲4组、侧平板髋部升降每侧4组 | 基本充足 |
-| 侧腹<br>Obliques | 侧平板髋部升降每侧4组 | 卷腹3组、反向卷腹3组 | 基本充足 |
+| 腹肌<br>Abs | 卷腹5→6组、反向卷腹5→6组；合计10→12组 | 俯卧撑8组、高脚杯深蹲4组、侧平板髋部升降每侧6组 | 充足 |
+| 侧腹<br>Obliques | 侧平板髋部升降每侧6组 | 卷腹5→6组、反向卷腹5→6组 | 基本充足 |
 | 下背<br>Lower back | — | 哑铃划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、高脚杯深蹲4组 | 难判断 |
 | 臀部<br>Glutes | 高脚杯深蹲4组、反向弓步2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、分腿蹲3组、单腿臀桥2组 | — | 充足 |
 | 大腿前侧<br>Quads | 高脚杯深蹲4组、反向弓步2组、分腿蹲3组 | — | 充足 |
@@ -917,5 +935,5 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 
 <!--
 肌群图由imagegen生成，仅示意主要健身肌群的大致位置，非精细解剖图。训练量评价是假设负荷及动作难度足够的计划估计，非实测；稳定参与不等于增肌充足，单腿硬拉不能完整替代屈膝腿弯举功能。参考：https://acsm.org/resistance-training-guidelines-update-2026/ 。
-在家力量训练约40–42分钟为含热身、休息和换动作的预算，非连续做功；周一卷腹3组、周五反向卷腹3组，周二、周四侧平板髋部升降各每侧2组。腹部训练以增厚为目标，侧腹训练量评价以侧腹而非肩部率先接近力竭为前提；动作参考：https://www.catalystathletics.com/exercise/499/Side-Plank-Lift/ 。健身馆方案不变。未因动作变化而机械上调消耗，营养统计暂沿用原保守活动估计，待实际时长与体重趋势校准。
+在家力量训练约43–49分钟为含热身、休息和换动作的预算，非连续做功；周一卷腹3组加反向卷腹2→3组、周五反向卷腹3组加卷腹2→3组，前两周腹直肌10组／周，恢复良好后12组／周。周二、周四侧平板髋部升降各每侧3组，合计每侧6组／周。腹部训练以增厚为目标，侧腹训练量评价以侧腹而非肩部率先接近力竭为前提；动作参考：https://www.catalystathletics.com/exercise/499/Side-Plank-Lift/ 。健身馆方案不变。未因动作变化而机械上调消耗，营养统计暂沿用原保守活动估计，待实际时长与体重趋势校准。
 -->
