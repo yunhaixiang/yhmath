@@ -400,6 +400,20 @@ button.copy-button {
   text-wrap: pretty;
 }
 
+// Keep article paragraph spacing and alignment out of diagram labels.
+.content .mermaid {
+  div, p {
+    margin: 0;
+  }
+
+  .nodeLabel, .cluster-label {
+    &, p {
+      text-align: center !important;
+      text-wrap: wrap;
+    }
+  }
+}
+
 .punctuation-glue {
   display: inline-block;
   white-space: nowrap;
