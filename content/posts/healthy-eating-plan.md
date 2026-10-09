@@ -11,7 +11,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 
 
-早餐：混合水果400 g + 高纤维谷物早餐40 g + 无糖豆奶200 g + 一水肌酸 5g。
+早餐：混合水果400 g + 高纤维谷物早餐40 g + 无糖豆奶270 mL + 一水肌酸 5g。
 
 
 
@@ -234,52 +234,52 @@ flowchart TB
 商品与菜单来源见正文链接；这些估计区间不是统计置信区间。
 -->
 
-| 食物 | 份量 | 热量（kcal） | 占参考赤字3,078.96 kcal（额外加吃） | 剩余每周赤字（kcal，额外加吃） | 剩余日均赤字（kcal） |
+| 食物 | 份量 | 热量（kcal） | 占参考赤字2,877.98 kcal（额外加吃） | 剩余每周赤字（kcal，额外加吃） | 剩余日均赤字（kcal） |
 |---|---|---:|---:|---:|---:|
-| [酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）](https://www.bbqchickenca.com/) | 1整份，1.2 lb | 1,156，菜单标注 | 约38% | 1,922.96 | 274.71 |
-| [凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）](https://6ixtywings.com/menu_items/chicken-caesar-wrap/) | 1个＋默认普通薯条 | 估1,100–1,500 | 约36–49% | 1,578.96–1,978.96 | 225.57–282.71 |
-| [炸鸡汉堡（Burger Burger Johnny Cash Chicken）](https://order.online/store/burger-burger-25113744) | 1个 | 估750–1,050 | 约24–34% | 2,028.96–2,328.96 | 289.85–332.71 |
-| [炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）](https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ) | 1整套，含米饭、饺子、yam配菜、汤及沙拉 | 估1,100–1,600 | 约36–52% | 1,478.96–1,978.96 | 211.28–282.71 |
-| [脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）](https://osmows.com/nutrition-calculator) | 1个Regular，含蒜酱及OzPotle酱 | 估750–1,050 | 约24–34% | 2,028.96–2,328.96 | 289.85–332.71 |
-| 新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings） | 1整份，1 lb带骨 | 估650–950 | 约21–31% | 2,128.96–2,428.96 | 304.14–346.99 |
-| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约24% | 2,328.96 | 332.71 |
-| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约22% | 2,408.96 | 344.14 |
-| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约20% | 2,458.96 | 351.28 |
-| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约19% | 2,478.96 | 354.14 |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约19% | 2,508.96 | 358.42 |
-| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约18% | 2,538.96 | 362.71 |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约17% | 2,548.96 | 364.14 |
-| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约17% | 2,568.96 | 366.99 |
-| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约16% | 2,598.96 | 371.28 |
-| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约14% | 2,638.96 | 376.99 |
-| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约14% | 2,658.96 | 379.85 |
-| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约12% | 2,698.96 | 385.57 |
-| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约11% | 2,738.96 | 391.28 |
-| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约10% | 2,758.96 | 394.14 |
-| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约9% | 2,798.96 | 399.85 |
-| [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约8% | 2,818.96 | 402.71 |
-| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约7% | 2,848.96 | 406.99 |
-| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约6% | 2,878.96 | 411.28 |
-| [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约5% | 2,938.96 | 419.85 |
+| [酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）](https://www.bbqchickenca.com/) | 1整份，1.2 lb | 1,156，菜单标注 | 约40% | 1,721.98 | 246.00 |
+| [凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）](https://6ixtywings.com/menu_items/chicken-caesar-wrap/) | 1个＋默认普通薯条 | 估1,100–1,500 | 约38–52% | 1,377.98–1,777.98 | 196.85–254.00 |
+| [炸鸡汉堡（Burger Burger Johnny Cash Chicken）](https://order.online/store/burger-burger-25113744) | 1个 | 估750–1,050 | 约26–36% | 1,827.98–2,127.98 | 261.14–304.00 |
+| [炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）](https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ) | 1整套，含米饭、饺子、yam配菜、汤及沙拉 | 估1,100–1,600 | 约38–56% | 1,277.98–1,777.98 | 182.57–254.00 |
+| [脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）](https://osmows.com/nutrition-calculator) | 1个Regular，含蒜酱及OzPotle酱 | 估750–1,050 | 约26–36% | 1,827.98–2,127.98 | 261.14–304.00 |
+| 新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings） | 1整份，1 lb带骨 | 估650–950 | 约23–33% | 1,927.98–2,227.98 | 275.43–318.28 |
+| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约26% | 2,127.98 | 304.00 |
+| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约23% | 2,207.98 | 315.43 |
+| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约22% | 2,257.98 | 322.57 |
+| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约21% | 2,277.98 | 325.43 |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约20% | 2,307.98 | 329.71 |
+| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约19% | 2,337.98 | 334.00 |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约18% | 2,347.98 | 335.43 |
+| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约18% | 2,367.98 | 338.28 |
+| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约17% | 2,397.98 | 342.57 |
+| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约15% | 2,437.98 | 348.28 |
+| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约15% | 2,457.98 | 351.14 |
+| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约13% | 2,497.98 | 356.85 |
+| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约12% | 2,537.98 | 362.57 |
+| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约11% | 2,557.98 | 365.43 |
+| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约10% | 2,597.98 | 371.14 |
+| [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约9% | 2,617.98 | 374.00 |
+| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约8% | 2,647.98 | 378.28 |
+| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约7% | 2,677.98 | 382.57 |
+| [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约5% | 2,737.98 | 391.14 |
 {.table-centered}
 
 #### 零卡或低卡放纵餐替代品
 
 以下为可选替代，不计入固定饮食；若额外加吃，仍扣减相应热量赤字。
 
-| 想吃／喝 | 替代品 | 份量 | 热量（kcal） | 占参考赤字3,078.96 kcal（额外加吃） |
+| 想吃／喝 | 替代品 | 份量 | 热量（kcal） | 占参考赤字2,877.98 kcal（额外加吃） |
 |---|---|---|---:|---:|
 | 含糖可乐 | [Coca-Cola Zero Sugar Zero Caffeine](https://www.coca-cola.com/ca/en/brands/coca-cola/products/coca-cola-zero-sugar) | 1罐355 mL | 0 | 0% |
 | 汽水，不想要甜味 | [bubly Lime Sparkling Water](https://www.metro.ca/en/online-grocery/aisles/beverages/water/sparkling-water/lime-flavoured-sparkling-water/p/069000149188) | 1罐355 mL | 0 | 0% |
 | 含糖冰茶 | [Nestea Zero Sugar Iced Tea](https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/zero-sugar-lemon-iced-tea-bottle/p/990484000125) | 1瓶473 mL | 约10 | 约0.3% |
 | 果冻、甜点 | [Jell-O Zero Sugar Strawberry Jelly Powder Mix](https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/kits-mixes-fillings/strawberry-jelly-powder-without-added-sugar/p/066188020001) | 加水制成125 mL | 约10 | 约0.3% |
-| 巧克力甜点 | [Snack Pack No Sugar Added Chocolate Pudding Cups](https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-chocolate-pudding-cups/p/058807414018) | 1杯99 g | 约60 | 约1.9% |
-| 香草奶味甜点 | [Snack Pack No Sugar Added Vanilla Pudding Cups](https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-vanilla-pudding-cups/p/058807414025) | 1杯99 g | 约60 | 约1.9% |
-| 冰淇淋、雪糕 | [DEL MONTE Strawberry Frozen Fruit Bars](https://api.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/popsicles-fruit-bars/strawberry-frozen-fruit-bars/p/055000141154) | 1支50 mL | 约50 | 约1.6% |
-| 巧克力雪糕 | [Popsicle Fudgsicle Frozen Dairy Dessert Bars](https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream-bars-treats/fudge-frozen-dairy-dessert-bars/p/058779399825) | 1支60 mL | 约80 | 约2.6% |
-| 奶味冰淇淋 | [Halo Top Vanilla Bean Frozen Dessert](https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream/vanilla-bean-flavoured-ice-cream/p/851041008018) | 125 mL | 约80 | 约2.6% |
-| 饼干、脆口零食 | [Quaker Crispy Minis Original Large Brown Rice Cakes](https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/rice-gluten-free-snacks/plain-brown-rice-cakes/p/055577107799) | 2片，不加抹酱 | 约70 | 约2.3% |
-| 薯片、咸脆零食 | [Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags](https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/reduced-fat-popping-corn/p/058807480754) | 1迷你袋31 g | 约110 | 约3.6% |
+| 巧克力甜点 | [Snack Pack No Sugar Added Chocolate Pudding Cups](https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-chocolate-pudding-cups/p/058807414018) | 1杯99 g | 约60 | 约2.1% |
+| 香草奶味甜点 | [Snack Pack No Sugar Added Vanilla Pudding Cups](https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/pudding-jelly/no-sugar-added-vanilla-pudding-cups/p/058807414025) | 1杯99 g | 约60 | 约2.1% |
+| 冰淇淋、雪糕 | [DEL MONTE Strawberry Frozen Fruit Bars](https://api.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/popsicles-fruit-bars/strawberry-frozen-fruit-bars/p/055000141154) | 1支50 mL | 约50 | 约1.7% |
+| 巧克力雪糕 | [Popsicle Fudgsicle Frozen Dairy Dessert Bars](https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream-bars-treats/fudge-frozen-dairy-dessert-bars/p/058779399825) | 1支60 mL | 约80 | 约2.8% |
+| 奶味冰淇淋 | [Halo Top Vanilla Bean Frozen Dessert](https://www.metro.ca/en/online-grocery/aisles/frozen/ice-cream-treats/ice-cream/vanilla-bean-flavoured-ice-cream/p/851041008018) | 125 mL | 约80 | 约2.8% |
+| 饼干、脆口零食 | [Quaker Crispy Minis Original Large Brown Rice Cakes](https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/rice-gluten-free-snacks/plain-brown-rice-cakes/p/055577107799) | 2片，不加抹酱 | 约70 | 约2.4% |
+| 薯片、咸脆零食 | [Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags](https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/reduced-fat-popping-corn/p/058807480754) | 1迷你袋31 g | 约110 | 约3.8% |
 {.table-centered}
 
 <!--
@@ -292,7 +292,7 @@ Jell-O仅加水，整盒约4份、40kcal；Smart Pop是31g迷你整袋；米饼�
 
 <!--
 现行营养计算口径（2026-10-04）：每周BBQ熟猪背排骨一盒680g，替代两顿牛排；每餐用半盒340g带骨重量，暂按225g熟可食部分（肉与酱汁）、每周450g计算；整盒排骨均分第1、8盘，不分给鸡胸肉餐。450g是假设而非品牌公布出肉率；实称去骨后可食重量后应重算，不把680g带骨重量全部乘营养标签。鸡胸肉两盒四块共1036g生重，整周1036g分到四顿白米饭餐，每顿1块约259g生重，不计豆腐或扇贝。鸡胸肉去骨去皮；鸡腿460g/盒、两盒共920g/周，卷饼餐230g生重、每顿意面115g生重，不扣修脂；沿用同部位营养代理，非本款实测。其余肉按生重、谷物按干重、土豆按生可食部、罐头按沥干重。三文鱼每周8块共904g：土豆鱼餐2块226g，意面餐1块113g。
-豆奶3780mL/周（两桶）：早餐1400mL、餐外2380mL；早餐200g近似200mL，日均餐外340mL、豆奶总量540mL。Fibre One280g/周，水果盘2800g/周。每周12个全蛋，早餐不含蛋；周六一次用12个：6个水煮，每顿排骨餐1个、每顿鸡腿卷饼餐2个；6个蛋炒入白米饭和豌豆胡萝卜，均分到四顿鸡胸肉餐，每餐相当于1.5个炒蛋；三文鱼土豆餐和意面餐不加蛋。白米216g干重/周（4餐，每餐54g），意面260g干重/周（4餐各65g），土豆900g生重/周（4餐各225g）。
+豆奶3780mL/周（两桶）：一桶1890mL全部用于早餐，另一桶1890mL用于餐外；日均早餐270mL、餐外270mL、豆奶总量540mL。Fibre One280g/周，水果盘2800g/周。每周12个全蛋，早餐不含蛋；周六一次用12个：6个水煮，每顿排骨餐1个、每顿鸡腿卷饼餐2个；6个蛋炒入白米饭和豌豆胡萝卜，均分到四顿鸡胸肉餐，每餐相当于1.5个炒蛋；三文鱼土豆餐和意面餐不加蛋。白米216g干重/周（4餐，每餐54g），意面260g干重/周（4餐各65g），土豆900g生重/周（4餐各225g）。
 周橄榄油40mL，密度0.91g/mL；食盐5.25g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡胸肉5、蛋炒饭5、土豆5、蘑菇5、菠菜5、意面5。排骨自带酱汁，取消原牛排每周5mL油、1.5g盐及1.5茶匙香料；排骨酱汁已含在标签中，不重复添加。整周炒饭用油1茶匙、蒜粉1/2茶匙和洋葱粉1/2茶匙，不额外加盐；每周炒饭酱油30mL、鸡粉1/4茶匙，品牌标签待确认，暂未计入营养及费用。每周白米216g干重、鸡蛋12个（水煮6个、炒饭6个）。干香料合计18茶匙，采用原混合代理；淀粉80/3g/周。烤盘弃油、未食用酱汁尚未实测。
 以下营养向量顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。保留用于后续增减计算；同类食品代理不代表当前品牌实测。
 鸡腿/100g：[149,18.6,7.9,1.7,0,0,0,92,62.3,5,0.6,231]
@@ -317,7 +317,7 @@ Fibre1/62g：[140,4,1,0.2,53,27,1,0,220,250,8,150]
 基础干香料每16茶匙：[118,5.5,2.3,0.4,25,8,2,0,30,130,3.3,550]
 淀粉/8g：[30,0,0,0,7,0,0,0,0,1,0,0]，每周80/3g，全部用于鸡胸肉；按全部食用估计，盆中残留未扣除。
 未取整周合计：[13357.982292170826,1023.5513667783821,482.5256189482246,109.88503757115748,1369.30086402162,276.3897084698983,354.7270228443285,4664.879999999999,12816.96025264299,7529.247490557513,125.73937134133419,33909.62120816186]。按原周合计扣去450g修脂生牛排（每100g：[149,22.93,6.34,2.515,0,0,0,58,46,15,1.93,283]）、5mL橄榄油、1.5g盐及1.5茶匙基础干香料，加入450g熟排骨可食部分。当前分配：第1、8盘各半盒排骨、配1个水煮蛋；第3、6、10、13盘均分6个炒蛋。每餐表由原半盒排骨配2蛋、鸡胸肉配1蛋的显示值按鸡蛋营养向量调整；炒饭油量不变；不计番茄蘸酱。鸡胸肉1036g/周、鸡蛋12个、豆奶3780mL均不变；排骨出肉率、配菜代理及标签舍入产生估算误差。
-周消耗维持16436.945766666668kcal：基础及日常14687.4、力量训练462.945766666668、有氧800、步行486.6；周赤字3078.963474495842、日均439.85192492797745kcal；除7700得理论脂肪等价值约0.400kg/周，不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
+周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字2877.9760411625084、日均411.13943445178694kcal；除7700得理论脂肪等价值约0.374kg/周，不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
 主要来源：
 BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-meat/pork/frozen-cooked-pork-back-ribs/p/059749881203 ，营养标签链接见上；旧牛排扣除值沿用USDA NDB23370修脂生肉代理。
 豆奶：https://www.silkcanada.ca/products/plant-based-beverage/unsweetened-soy-beverage/ 、https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA
@@ -335,18 +335,18 @@ BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-me
 
 #### 一周营养统计
 
-**热量估计（不含放纵餐）：每周摄入13,357.98 kcal、消耗16,436.95 kcal、赤字3,078.96 kcal；日均摄入1,908.28 kcal、消耗2,348.14 kcal、赤字439.85 kcal。理论脂肪等价值约0.400 kg／周，不代表实际纯脂肪减量。**
+**热量估计（不含放纵餐）：每周摄入13,357.98 kcal、消耗16,235.96 kcal、赤字2,877.98 kcal；日均摄入1,908.28 kcal、消耗2,319.42 kcal、赤字411.14 kcal。理论脂肪等价值约0.374 kg／周，不代表实际纯脂肪减量。**
 
 消耗构成（估算）：
 
 | 类型 | 每周 kcal | 日均 kcal |
 |---|---:|---:|
-| 基础代谢 | 12,239.50 | 1,748.50 |
-| 日常活动等（久坐系数加成） | 2,447.90 | 349.70 |
-| 力量训练（净增加） | 462.95 | 66.14 |
+| 基础代谢 | 12,092.50 | 1,727.50 |
+| 日常活动等（久坐系数加成） | 2,418.50 | 345.50 |
+| 力量训练（净增加） | 450.96 | 64.42 |
 | 有氧：HIIT、游泳或跑步机，4次／周（净增加） | 800.00 | 114.29 |
-| 步行（估计每周12 km，净增加） | 486.60 | 69.51 |
-| 合计 | 16,436.95 | 2,348.14 |
+| 步行（估计每周12 km，净增加） | 474.00 | 67.71 |
+| 合计 | 16,235.96 | 2,319.42 |
 {.table-centered}
 
 运动按扣除同期基础消耗后的净增加量计入，避免重复计算；日常加成不代表单独测得的食物热效应。
@@ -380,7 +380,7 @@ BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-me
 
 | 餐次 | 热量 kcal | 蛋白质 g | 脂肪 g | 饱和脂肪 g | 碳水 g | 纤维 g | 总糖 g | 胆固醇 mg | 钠 mg | 钙 mg | 铁 mg | 钾 mg |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 每天早餐 | 322 | 11.8 | 5.0 | 0.6 | 77.4 | 23.8 | 33.4 | 0 | 254 | 449 | 7.2 | 1,057 |
+| 每天早餐 | 348 | 14.0 | 6.3 | 0.8 | 78.5 | 24.4 | 33.7 | 0 | 279 | 533 | 7.4 | 1,155 |
 | 周日午／周三晚 | 767 | 45.4 | 36.3 | 13.1 | 66.6 | 5.4 | 23.4 | 308 | 1,057 | 119 | 4.9 | 2,072 |
 | 周日晚／周四午 | 728 | 59.3 | 30.1 | 6.5 | 57.7 | 8.1 | 7.8 | 169 | 688 | 69 | 4.1 | 1,457 |
 | 周一午／周四晚 | 736 | 75.3 | 17.5 | 4.3 | 65.2 | 5.7 | 5.5 | 483 | 683 | 106 | 4.2 | 1,255 |
@@ -388,7 +388,7 @@ BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-me
 | 周二午／周五晚 | 719 | 54.9 | 35.7 | 7.6 | 44.4 | 8.0 | 2.9 | 125 | 544 | 174 | 6.5 | 2,651 |
 | 周二晚／周六午 | 736 | 75.3 | 17.5 | 4.3 | 65.2 | 5.7 | 5.5 | 483 | 683 | 106 | 4.2 | 1,255 |
 | 周五午／周六晚 | 728 | 59.3 | 30.1 | 6.5 | 57.7 | 8.1 | 7.8 | 169 | 688 | 69 | 4.1 | 1,457 |
-| 餐外饮品（日均） | 122 | 10.9 | 6.1 | 0.7 | 5.4 | 2.7 | 1.4 | 0 | 122 | 408 | 1.4 | 476 |
+| 餐外饮品（日均） | 97 | 8.6 | 4.9 | 0.5 | 4.3 | 2.2 | 1.1 | 0 | 97 | 324 | 1.1 | 378 |
 {.table-centered}
 
 <!--
@@ -396,7 +396,7 @@ BBQ排骨：https://www.metro.ca/en/online-grocery/aisles/meat-poultry/frozen-me
 维生素D、B12为限定来源小计：原值130.01µg、51.7546µg扣去旧牛排450g对应D0.45µg、B12 7.695µg后，已计D129.56µg/周、B12 44.0596µg/周；排骨标签未列D、B12，暂不补入，不代表排骨不含。鸡胸肉及全蛋也未纳入这些限定来源小计。EPA+DHA沿用三文鱼904g的小计17.77264g/周，排骨未定量。
 碘暂列800–900µg/周：旧估计958.54µg扣去本次取消1.5g加碘盐约114.68µg后为843.86µg，取宽范围；排骨中的盐不假定为加碘盐，肉类碘未可靠定量。加碘盐依据：https://inspection.canada.ca/en/food-labels/labelling/industry/salt ，暂按每克盐76.45µg碘。ALA仍仅粗估8–9g/周（主要来自豆奶、鱼类，油量减少影响小），排骨未可靠计入；未计入不等于零，不能据此诊断不足。
 总糖包含天然糖；排骨酱汁明确含添加糖，但标签12g总糖/140g不能准确拆成添加糖与天然糖，故不再沿用旧添加糖范围。罐头和番茄意面酱的糖来源仍需核对，待完整资料补算；已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但炒饭酱油、鸡粉待补算。
-宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质130–165g基于约81.1kg与1.6–2.0g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列12.7g为约1908kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
+宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列12.7g为约1908kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
 依据：
 https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
 https://ods.od.nih.gov/pubs/usdandb/ALA-Food.pdf.pdf
@@ -412,7 +412,7 @@ https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labe
 https://www.efsa.europa.eu/en/press/news/120727
 -->
 
-[private-walking-estimate]: # "私密计算参数，仅留源码：男性26岁、170cm、81.1kg；Mifflin-St Jeor基础代谢1748.5kcal/日，久坐基础14687.4kcal/周。活动模型沿用力量137分钟/周、3.5MET；四个训练日有氧在HIIT、游泳与跑步机中三选一，净消耗按200kcal/次、800kcal/周估算，已扣同期静息消耗；周六、周三、周日不安排训练。平均每周3次外出，每次来回步行约4km；按5km/h、3.8MET并扣被替代的1.3MET坐姿，净增486.6kcal/周。总消耗更新为16436.945766666668kcal/周；基础代谢、力量训练和步行仍沿用旧体重参数，未按最新体重或健身馆器械重新校准；步行与久坐系数可能重叠，均非实测，以2–4周体重均值校准。正文仅显示每周步行总距离；体格、外出频率和单次距离仍不公开显示。方法：https://pubmed.ncbi.nlm.nih.gov/2305711/ ，https://pacompendium.com/walking/ ，https://pacompendium.com/conditioning-exercise/ 。引用定义不在页面显示，但公开源码仍可被读取。"
+[private-walking-estimate]: # "私密计算参数，仅留源码：男性26岁、170cm、79kg；Mifflin-St Jeor基础代谢1727.5kcal/日，久坐基础14511kcal/周。活动模型沿用力量137分钟/周、3.5MET；四个训练日有氧在HIIT、游泳与跑步机中三选一，净消耗按200kcal/次、800kcal/周估算，已扣同期静息消耗；周六、周三、周日不安排训练。平均每周3次外出，每次来回步行约4km；按5km/h、3.8MET并扣被替代的1.3MET坐姿，净增474kcal/周。总消耗更新为16235.958333333334kcal/周；基础代谢、力量训练和步行已按79kg计算；运动时长和MET仍为原规划估计，未按实际训练或健身馆器械校准；有氧仍保留约200kcal/次的取整规划值；步行与久坐系数可能重叠，均非实测，以2–4周体重均值校准。正文仅显示每周步行总距离；体格、外出频率和单次距离仍不公开显示。方法：https://pubmed.ncbi.nlm.nih.gov/2305711/ ，https://pacompendium.com/walking/ ，https://pacompendium.com/conditioning-exercise/ 。引用定义不在页面显示，但公开源码仍可被读取。"
 
 ## 锻炼
 
@@ -422,15 +422,15 @@ https://www.efsa.europa.eu/en/press/news/120727
 每周训练4天：周一、周二、周四、周五；先力量，后在HIIT、游泳与跑步机中任选一种有氧，每天不叠加。周三、周六、周日完全休息，不安排训练。-->
 
 <!-- 
-在家力量训练约43–49分钟，健身馆约40–45分钟（均含热身、组间休息和换动作，不含有氧）。推、拉、深蹲、弓步和硬拉组间休息90–120秒；其余动作约60秒。单侧动作左右做完算一组，换侧约15秒，再组间休息。下列动作时间均包含休息和换动作，作为时间预算，不必为凑时间加组或赶动作。-->
+在家和健身馆力量训练均约48–52分钟（含热身、组间休息和换动作，不含有氧）。推、拉、深蹲、弓步和硬拉组间休息90–120秒；其余动作约60秒，15lb侧平举组间休息90–120秒。单侧动作左右做完算一组，换侧约15秒，再组间休息。总时长为力量训练排程估计，不含有氧及器材排队。-->
 
 | 星期 | 力量训练 | 有氧 |
 |---|---|---|
-| 周一 | 上肢推拉与核心，在家约48分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
-| 周二 | 下肢、臀部与核心，在家约43分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
+| 周一 | 上肢推拉与核心 | HIIT／游泳／跑步机（三选一） |
+| 周二 | 下肢、臀部与核心 | HIIT／游泳／跑步机（三选一） |
 | 周三 | 休息 | 休息 |
-| 周四 | 上肢推拉与核心，在家约43分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
-| 周五 | 下肢与核心，在家约49分钟／健身馆约40–45分钟 | HIIT／游泳／跑步机（三选一） |
+| 周四 | 上肢推拉与核心 | HIIT／游泳／跑步机（三选一） |
+| 周五 | 下肢与核心 | HIIT／游泳／跑步机（三选一） |
 | 周六 | 休息 | 休息 |
 | 周日 | 休息 | 休息 |
 {.table-centered}
@@ -448,7 +448,7 @@ https://www.efsa.europa.eu/en/press/news/120727
 <!--
 HIIT实际执行：每次从头到尾完成，主要跟高强度版本，做不动时偶尔短暂跟低强度版本。无法仅凭该描述确定个人实际MET或精确消耗；短暂降强度不等于整套低冲击训练，因此保留约200kcal／次的净消耗规划估值，不对未知的简化动作时长作精确扣减。
 HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主训练连同短间歇和轮间休息约21分钟，其余约8分钟为热身、放松、讲解。Toya提供简化动作。原链接附带t=508s（8:28），已移除时间戳；从中途开始不适用上述整套估计。
-沿用计算体重81.1kg，净消耗≈体重×Σ[(MET−1)×小时数]；完整版本示例：主训练含间歇平均7.5MET，其余平均2.3MET，81.1×[(7.5−1)×21/60+(2.3−1)×8/60]≈198.56kcal。阶段平均强度为估算，并非视频或个人实测；低冲击可暂估140kcal净消耗／次，完整版本可暂估200kcal／次。未单独叠加运动后额外消耗。
+计算体重79kg，净消耗≈体重×Σ[(MET−1)×小时数]；完整版本示例：主训练含间歇平均7.5MET，其余平均2.3MET，79×[(7.5−1)×21/60+(2.3−1)×8/60]≈193.42kcal。阶段平均强度为估算，并非视频或个人实测；低冲击可暂估140kcal净消耗／次，完整版本可暂估200kcal／次。未单独叠加运动后额外消耗。
 强度参考2024身体活动能耗汇编：https://pacompendium.com/conditioning-exercise/ 。个人节奏、动作幅度及额外休息会影响实际消耗。旧HIIT模型202.75kcal/次本次归整为约200kcal/次；四次有氧无论选择HIIT、游泳或跑步机，均按规划净消耗共800kcal/周计入，不把三种有氧重复相加。整套低冲击版可能仅约130–160kcal，不保证达到200kcal。
 -->
 
@@ -458,7 +458,7 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
   - 放松：3 个来回，轻松游。
 
 <!--
-游泳换算：原计划25个来回约40分钟仅为规划配速，按相同配速20个来回约32分钟；不是用户已测得的完成时间。25m泳池一个来回50m，20个来回1000m，3+2×7+3=20。净消耗≈体重kg×Σ[(MET−1)×小时数]；2024汇编休闲自由泳5.8MET、休闲蛙泳5.3MET，可粗取游动平均约5.5MET，池边休息约1.3MET。以最近报告78.45kg、实际游动30–34分钟加短休息估计，净消耗约180–200多kcal，规划写约180–220kcal而非实测区间；较长休息、更轻松或明显更快完成时不能套用。记录实际游动与休息时间后再校准。当前统一按200kcal作为HIIT、游泳与跑步机三选一的记账值，未重新估计其他活动或步行频率。
+游泳换算：原计划25个来回约40分钟仅为规划配速，按相同配速20个来回约32分钟；不是用户已测得的完成时间。25m泳池一个来回50m，20个来回1000m，3+2×7+3=20。净消耗≈体重kg×Σ[(MET−1)×小时数]；2024汇编休闲自由泳5.8MET、休闲蛙泳5.3MET，可粗取游动平均约5.5MET，池边休息约1.3MET。以计算体重79kg、实际游动30–34分钟加短休息估计，净消耗约180–200多kcal，规划写约180–220kcal而非实测区间；较长休息、更轻松或明显更快完成时不能套用。记录实际游动与休息时间后再校准。当前统一按200kcal作为HIIT、游泳与跑步机三选一的记账值，未重新估计其他活动或步行频率。
 来源：https://pacompendium.com/water-activities/ 。
 -->
 
@@ -470,204 +470,196 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
   - 速度以能稳定完成为准；跑不动可降速或跑走交替，不为凑热量硬撑。净消耗粗估约200–230 kcal，统计暂按200 kcal／次；明显降速或缩短时间后需重新估算。-->
 
 <!--
-跑步机消耗以最近报告78.45kg估计，非机器实测。沿用本计划净消耗≈体重×Σ[(MET−1)×小时数]口径，20分钟约8km/h平地慢跑取8.5MET，热身与放松共10分钟粗取3MET，净消耗约222.3kcal；规划按约200–230kcal、记账保守取200kcal。MET为人群平均代理，体能、步态、扶握扶手及设备差异均会改变实际消耗，不能保证个人达到该范围；机器显示值也可能是含静息的总消耗。每周仍为四次有氧三选一，共800kcal净增加，不额外提高消耗或赤字。来源：https://pacompendium.com/running/ ，https://pacompendium.com/walking/ 。
+跑步机消耗以计算体重79kg估计，非机器实测。沿用本计划净消耗≈体重×Σ[(MET−1)×小时数]口径，20分钟约8km/h平地慢跑取8.5MET，热身与放松共10分钟粗取3MET，净消耗约223.8kcal；规划按约200–230kcal、记账保守取200kcal。MET为人群平均代理，体能、步态、扶握扶手及设备差异均会改变实际消耗，不能保证个人达到该范围；机器显示值也可能是含静息的总消耗。每周仍为四次有氧三选一，共800kcal净增加，不额外提高消耗或赤字。来源：https://pacompendium.com/running/ ，https://pacompendium.com/walking/ 。
 -->
 
 <!--
-哑铃标重只计配重片，不计握杆和锁扣：周一、周四每只10lb；周二、周五每只15lb，各端配重相同。15lb为下肢训练试用重量，未依据实际完成记录确认。器械：https://www.amazon.ca/dp/B000VCDXNS 。
+哑铃标重只计配重片，不计握杆和锁扣：各训练日、各哑铃动作每只15lb，各端配重相同。用户反馈侧平举目前每组约6次，其余动作均可；侧平举改为每周两次、每次3组×6–10次。以动作规范完成的次数计数，不靠摆动凑次数。器械：https://www.amazon.ca/dp/B000VCDXNS 。
 -->
 
 ### 力量训练（在家）
 
-哑铃配重：周一、周四每只10 lb；周二、周五每只15 lb。
+哑铃配重：每只15 lb。
 <!--
-周一新增反向卷腹、周五新增卷腹：前两周各2组，恢复良好后各3组；第3组勾选框从第3周起使用。卷腹可逐渐改为胸前抱轻哑铃，每组保留1–3次余力，达到次数上限后小幅加重，不套用当天哑铃配重。 -->
+卷腹可逐渐改为胸前抱轻哑铃，每组保留1–3次余力，达到次数上限后小幅加重，不套用当天哑铃配重。 -->
 <!-- 
-腹部训练以增厚为目标，侧平板髋部升降左右做完再勾一组；反向卷腹卷起骨盆，不靠摆腿。若持续酸痛影响其他训练或出现腰痛，应减量或调整动作。-->
+腹部训练以增厚为目标，哑铃侧屈左右做完再勾一组；反向卷腹卷起骨盆，不靠摆腿。若持续酸痛影响其他训练或出现腰痛，应减量或调整动作。-->
 
-<!--按完整组数、含5分钟热身：周一约48分钟，周二、周四约43分钟，周五约49分钟；每周比原计划增加约20分钟，实际可约20–30分钟。前两周新增动作各少1组，时长略短。-->
+<!--总时长按完整组数、含5分钟热身估计。-->
 
 <table class="table-centered">
 <thead>
-<tr><th scope="col">星期</th><th scope="col">动作</th><th scope="col">组数 × 次数／时长</th><th scope="col">预计用时</th><th scope="col">每组完成</th><th scope="col">训练肌群</th></tr>
+<tr><th scope="col">星期</th><th scope="col">总时长</th><th scope="col">动作</th><th scope="col">组数 × 次数／时长</th><th scope="col">每组完成</th><th scope="col">训练肌群</th></tr>
 </thead>
 <tbody>
 <tr>
 <th scope="rowgroup" rowspan="7" style="vertical-align: middle; text-align: center;">一</th>
+<td rowspan="7" style="vertical-align: middle; text-align: center;">约50–52分钟</td>
 <td><a href="https://www.youtube.com/watch?v=WDIpL0pjun0">俯卧撑</a><br>Push-up</td>
 <td>4组 × 8–15 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="周一俯卧撑第1组"> 1</label> <label><input type="checkbox" aria-label="周一俯卧撑第2组"> 2</label> <label><input type="checkbox" aria-label="周一俯卧撑第3组"> 3</label> <label><input type="checkbox" aria-label="周一俯卧撑第4组"> 4</label></td>
 <td>胸肌、三头肌、肩前侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=aI2hGzsAMXs">站姿哑铃肩推</a><br>Standing dumbbell shoulder press</td>
 <td>2组 × 6–10 次</td>
-<td>5分钟</td>
 <td><label><input type="checkbox" aria-label="周一站姿哑铃肩推第1组"> 1</label> <label><input type="checkbox" aria-label="周一站姿哑铃肩推第2组"> 2</label></td>
 <td>肩前侧、肩外侧、三头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=6gvmcqr226U">双哑铃俯身划船</a><br>Dumbbell bent-over row</td>
 <td>4组 × 10–15 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="周一双哑铃俯身划船第1组"> 1</label> <label><input type="checkbox" aria-label="周一双哑铃俯身划船第2组"> 2</label> <label><input type="checkbox" aria-label="周一双哑铃俯身划船第3组"> 3</label> <label><input type="checkbox" aria-label="周一双哑铃俯身划船第4组"> 4</label></td>
 <td>背阔肌、上背、肩后侧、二头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=PzsMitRdI_8">哑铃侧平举</a><br>Dumbbell lateral raise</td>
-<td>2组 × 12–20 次</td>
-<td>4分钟</td>
-<td><label><input type="checkbox" aria-label="周一哑铃侧平举第1组"> 1</label> <label><input type="checkbox" aria-label="周一哑铃侧平举第2组"> 2</label></td>
+<td>3组 × 6–10 次</td>
+<td><label><input type="checkbox" aria-label="周一哑铃侧平举第1组"> 1</label> <label><input type="checkbox" aria-label="周一哑铃侧平举第2组"> 2</label> <label><input type="checkbox" aria-label="周一哑铃侧平举第3组"> 3</label></td>
 <td>肩外侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=H-rqYm0xSZk">哑铃反向飞鸟</a><br>Dumbbell reverse fly</td>
 <td>2组 × 12–20 次</td>
-<td>4分钟</td>
 <td><label><input type="checkbox" aria-label="周一哑铃反向飞鸟第1组"> 1</label> <label><input type="checkbox" aria-label="周一哑铃反向飞鸟第2组"> 2</label></td>
 <td>肩后侧、上背</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
 <td>3组 × 10–20 次</td>
-<td>5分钟</td>
 <td><label><input type="checkbox" aria-label="周一卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一卷腹第3组"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
-<td>2→3组 × 10–15 次</td>
-<td>7分钟</td>
-<td><label><input type="checkbox" aria-label="周一反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一反向卷腹第3组（第3周起）"> 3</label></td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="周一反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一反向卷腹第3组"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="5" style="vertical-align: middle; text-align: center;">二</th>
+<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">二</th>
+<td rowspan="6" style="vertical-align: middle; text-align: center;">约50分钟</td>
 <td><a href="https://www.youtube.com/watch?v=CkFzgR55gho">哑铃高脚杯深蹲</a><br>Dumbbell goblet squat</td>
 <td>4组 × 10–15 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第1组"> 1</label> <label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第2组"> 2</label> <label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第3组"> 3</label> <label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第4组"> 4</label></td>
 <td>大腿前侧、臀部</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=Q2k3kYbtOcI">哑铃反向弓步</a><br>Dumbbell reverse lunge</td>
 <td>2组 × 8–12 次／腿</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="周二哑铃反向弓步第1组"> 1</label> <label><input type="checkbox" aria-label="周二哑铃反向弓步第2组"> 2</label></td>
 <td>大腿前侧、臀部</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=QFbZevA7dps">哑铃罗马尼亚硬拉</a><br>Dumbbell Romanian deadlift</td>
 <td>3组 × 10–15 次</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="周二哑铃罗马尼亚硬拉第1组"> 1</label> <label><input type="checkbox" aria-label="周二哑铃罗马尼亚硬拉第2组"> 2</label> <label><input type="checkbox" aria-label="周二哑铃罗马尼亚硬拉第3组"> 3</label></td>
 <td>大腿后侧、臀部；下背稳定</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=0z7O5m3kMO0">滑巾腿弯举</a><br>Sliding leg curl</td>
+<td>3组 × 8–12 次</td>
+<td><label><input type="checkbox" aria-label="周二滑巾腿弯举第1组"> 1</label> <label><input type="checkbox" aria-label="周二滑巾腿弯举第2组"> 2</label> <label><input type="checkbox" aria-label="周二滑巾腿弯举第3组"> 3</label></td>
+<td>大腿后侧、臀部</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=wxwY7GXxL4k">哑铃双腿提踵</a><br>Standing dumbbell calf raise</td>
 <td>3组 × 12–20 次</td>
-<td>6分钟</td>
 <td><label><input type="checkbox" aria-label="周二哑铃双腿提踵第1组"> 1</label> <label><input type="checkbox" aria-label="周二哑铃双腿提踵第2组"> 2</label> <label><input type="checkbox" aria-label="周二哑铃双腿提踵第3组"> 3</label></td>
 <td>小腿</td>
 </tr>
 <tr>
-<td><a href="https://www.youtube.com/watch?v=LgaYt4Hi6-g">侧平板髋部升降</a><br>Side plank hip lift</td>
-<td>3组 × 8–15 次／侧</td>
-<td>9分钟</td>
-<td><label><input type="checkbox" aria-label="周二侧平板髋部升降第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周二侧平板髋部升降第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周二侧平板髋部升降第3组（左右）"> 3</label></td>
-<td>侧腹（腹斜肌）、腰方肌；肩部支撑</td>
+<td><a href="https://www.youtube.com/watch?v=0kSm6-5m7ek">单手哑铃侧屈</a><br>Dumbbell side bend</td>
+<td>3组 × 10–15 次／侧</td>
+<td><label><input type="checkbox" aria-label="周二哑铃侧屈第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周二哑铃侧屈第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周二哑铃侧屈第3组（左右）"> 3</label></td>
+<td>侧腹（腹斜肌）、腰方肌</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">四</th>
+<th scope="rowgroup" rowspan="7" style="vertical-align: middle; text-align: center;">四</th>
+<td rowspan="7" style="vertical-align: middle; text-align: center;">约48–50分钟</td>
 <td><a href="https://www.youtube.com/watch?v=WDIpL0pjun0">俯卧撑</a><br>Push-up</td>
 <td>4组 × 8–15 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="周四俯卧撑第1组"> 1</label> <label><input type="checkbox" aria-label="周四俯卧撑第2组"> 2</label> <label><input type="checkbox" aria-label="周四俯卧撑第3组"> 3</label> <label><input type="checkbox" aria-label="周四俯卧撑第4组"> 4</label></td>
 <td>胸肌、三头肌、肩前侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=aI2hGzsAMXs">站姿哑铃肩推</a><br>Standing dumbbell shoulder press</td>
 <td>2组 × 6–10 次</td>
-<td>4分钟</td>
 <td><label><input type="checkbox" aria-label="周四站姿哑铃肩推第1组"> 1</label> <label><input type="checkbox" aria-label="周四站姿哑铃肩推第2组"> 2</label></td>
 <td>肩前侧、肩外侧、三头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=6gvmcqr226U">双哑铃俯身划船</a><br>Dumbbell bent-over row</td>
 <td>3组 × 10–15 次</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="周四双哑铃俯身划船第1组"> 1</label> <label><input type="checkbox" aria-label="周四双哑铃俯身划船第2组"> 2</label> <label><input type="checkbox" aria-label="周四双哑铃俯身划船第3组"> 3</label></td>
 <td>背阔肌、上背、肩后侧、二头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=myKN7H6ju38">阻力带高位下拉</a><br>Resistance-band lat pulldown</td>
 <td>3组 × 10–15 次</td>
-<td>6分钟</td>
 <td><label><input type="checkbox" aria-label="周四阻力带高位下拉第1组"> 1</label> <label><input type="checkbox" aria-label="周四阻力带高位下拉第2组"> 2</label> <label><input type="checkbox" aria-label="周四阻力带高位下拉第3组"> 3</label></td>
 <td>背阔肌、二头肌</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=ddU72Ce0vzo">哑铃弯举</a><br>Dumbbell biceps curl</td>
+<td>2组 × 8–12 次</td>
+<td><label><input type="checkbox" aria-label="周四哑铃弯举第1组"> 1</label> <label><input type="checkbox" aria-label="周四哑铃弯举第2组"> 2</label></td>
+<td>二头肌、小臂</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=PzsMitRdI_8">哑铃侧平举</a><br>Dumbbell lateral raise</td>
-<td>2组 × 12–20 次</td>
-<td>4分钟</td>
-<td><label><input type="checkbox" aria-label="周四哑铃侧平举第1组"> 1</label> <label><input type="checkbox" aria-label="周四哑铃侧平举第2组"> 2</label></td>
+<td>3组 × 6–10 次</td>
+<td><label><input type="checkbox" aria-label="周四哑铃侧平举第1组"> 1</label> <label><input type="checkbox" aria-label="周四哑铃侧平举第2组"> 2</label> <label><input type="checkbox" aria-label="周四哑铃侧平举第3组"> 3</label></td>
 <td>肩外侧</td>
 </tr>
 <tr>
-<td><a href="https://www.youtube.com/watch?v=LgaYt4Hi6-g">侧平板髋部升降</a><br>Side plank hip lift</td>
-<td>3组 × 8–15 次／侧</td>
-<td>8分钟</td>
-<td><label><input type="checkbox" aria-label="周四侧平板髋部升降第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周四侧平板髋部升降第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周四侧平板髋部升降第3组（左右）"> 3</label></td>
-<td>侧腹（腹斜肌）、腰方肌；肩部支撑</td>
+<td><a href="https://www.youtube.com/watch?v=0kSm6-5m7ek">单手哑铃侧屈</a><br>Dumbbell side bend</td>
+<td>3组 × 10–15 次／侧</td>
+<td><label><input type="checkbox" aria-label="周四哑铃侧屈第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周四哑铃侧屈第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周四哑铃侧屈第3组（左右）"> 3</label></td>
+<td>侧腹（腹斜肌）、腰方肌</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
 <th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">五</th>
+<td rowspan="6" style="vertical-align: middle; text-align: center;">约49分钟</td>
 <td><a href="https://www.youtube.com/watch?v=Wcmg-3iHwjQ">哑铃分腿蹲</a><br>Dumbbell split squat</td>
 <td>3组 × 8–12 次／腿</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="周五哑铃分腿蹲第1组"> 1</label> <label><input type="checkbox" aria-label="周五哑铃分腿蹲第2组"> 2</label> <label><input type="checkbox" aria-label="周五哑铃分腿蹲第3组"> 3</label></td>
 <td>大腿前侧、臀部</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=_BlxWSGtGXg">支撑式单腿哑铃罗马尼亚硬拉</a><br>Hand-supported single-leg dumbbell Romanian deadlift</td>
 <td>3组 × 10–15 次／腿</td>
-<td>10分钟</td>
 <td><label><input type="checkbox" aria-label="周五支撑式单腿哑铃罗马尼亚硬拉第1组"> 1</label> <label><input type="checkbox" aria-label="周五支撑式单腿哑铃罗马尼亚硬拉第2组"> 2</label> <label><input type="checkbox" aria-label="周五支撑式单腿哑铃罗马尼亚硬拉第3组"> 3</label></td>
 <td>大腿后侧、臀部；下背稳定</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=-NT8jrURSt0">哑铃单腿臀桥</a><br>Single-leg dumbbell glute bridge</td>
 <td>2组 × 10–15 次／腿</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="周五哑铃单腿臀桥第1组"> 1</label> <label><input type="checkbox" aria-label="周五哑铃单腿臀桥第2组"> 2</label></td>
 <td>臀部、大腿后侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=wxwY7GXxL4k">哑铃双腿提踵</a><br>Standing dumbbell calf raise</td>
 <td>3组 × 12–20 次</td>
-<td>6分钟</td>
 <td><label><input type="checkbox" aria-label="周五哑铃双腿提踵第1组"> 1</label> <label><input type="checkbox" aria-label="周五哑铃双腿提踵第2组"> 2</label> <label><input type="checkbox" aria-label="周五哑铃双腿提踵第3组"> 3</label></td>
 <td>小腿</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
 <td>3组 × 10–15 次</td>
-<td>5分钟</td>
 <td><label><input type="checkbox" aria-label="周五反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五反向卷腹第3组"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
-<td>2→3组 × 10–20 次</td>
-<td>7分钟</td>
-<td><label><input type="checkbox" aria-label="周五卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五卷腹第3组（第3周起）"> 3</label></td>
+<td>3组 × 10–20 次</td>
+<td><label><input type="checkbox" aria-label="周五卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五卷腹第3组"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
 </tbody>
@@ -676,184 +668,190 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 ### 力量训练（在健身馆）
 
 <!-- 
-与在家方案二选一，不叠加。每周4天，共59个工作组；每次约40–45分钟（表内35分钟＋热身及热身组5–10分钟，不含器材排队和有氧）。-->
+与在家方案二选一，不叠加。每周4天，共71个工作组；每次约48–52分钟（含热身及热身组，不含器材排队和有氧）。-->
 
 <!-- 各动作分别选重量，最后一组保留约2次余力；全部工作组达到次数上限后小幅加重，热身组不计入勾选框。-->
 
 <table class="table-centered">
 <thead>
-<tr><th scope="col">星期</th><th scope="col">动作</th><th scope="col">组数 × 次数／时长</th><th scope="col">预计用时</th><th scope="col">每组完成</th><th scope="col">训练肌群</th></tr>
+<tr><th scope="col">星期</th><th scope="col">总时长</th><th scope="col">动作</th><th scope="col">组数 × 次数／时长</th><th scope="col">每组完成</th><th scope="col">训练肌群</th></tr>
 </thead>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">一</th>
+<th scope="rowgroup" rowspan="7" style="vertical-align: middle; text-align: center;">一</th>
+<td rowspan="7" style="vertical-align: middle; text-align: center;">约48–52分钟</td>
 <td><a href="https://www.youtube.com/watch?v=z_r6hDOYtO0">史密斯机平板卧推</a><br>Smith machine bench press</td>
 <td>4组 × 8–12 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周一史密斯机平板卧推第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一史密斯机平板卧推第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周一史密斯机平板卧推第3组"> 3</label> <label><input type="checkbox" aria-label="健身馆周一史密斯机平板卧推第4组"> 4</label></td>
 <td>胸肌、三头肌、肩前侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=GcY6TZxfS0k">坐姿器械肩推</a><br>Machine shoulder press</td>
 <td>2组 × 8–12 次</td>
-<td>5分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周一坐姿器械肩推第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械肩推第2组"> 2</label></td>
 <td>肩前侧、肩外侧、三头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=TeFo51Q_Nsc">坐姿器械划船</a><br>Machine seated row</td>
 <td>4组 × 10–15 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周一坐姿器械划船第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械划船第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械划船第3组"> 3</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械划船第4组"> 4</label></td>
 <td>背阔肌、上背、肩后侧、二头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=JlT2xB92lY8">单臂绳索侧平举</a><br>Single-arm cable lateral raise</td>
 <td>2组 × 12–20 次／侧</td>
-<td>4分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周一单臂绳索侧平举第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一单臂绳索侧平举第2组"> 2</label></td>
 <td>肩外侧</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=nMqQNGo4Jtg">绳索三头下压</a><br>Cable triceps pushdown</td>
+<td>2组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周一绳索三头下压第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一绳索三头下压第2组"> 2</label></td>
+<td>三头肌</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=vpPjY_2Kq1A">器械反向飞鸟</a><br>Reverse pec deck</td>
 <td>2组 × 12–20 次</td>
-<td>4分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周一器械反向飞鸟第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一器械反向飞鸟第2组"> 2</label></td>
 <td>肩后侧、上背</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=CNHS2OoUi30">坐姿器械卷腹</a><br>Machine abdominal crunch</td>
-<td>2组 × 10–15 次</td>
-<td>4分钟</td>
-<td><label><input type="checkbox" aria-label="健身馆周一坐姿器械卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械卷腹第2组"> 2</label></td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周一坐姿器械卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周一坐姿器械卷腹第3组"> 3</label></td>
 <td>腹肌、侧腹</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="5" style="vertical-align: middle; text-align: center;">二</th>
+<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">二</th>
+<td rowspan="6" style="vertical-align: middle; text-align: center;">约48–52分钟</td>
 <td><a href="https://www.youtube.com/watch?v=fUNkEW3N_ug">史密斯机深蹲</a><br>Smith machine squat</td>
 <td>4组 × 8–12 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周二史密斯机深蹲第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机深蹲第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机深蹲第3组"> 3</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机深蹲第4组"> 4</label></td>
 <td>大腿前侧、臀部</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=SRJWDaHqJII">史密斯机反向弓步</a><br>Smith machine reverse lunge</td>
 <td>2组 × 8–12 次／腿</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周二史密斯机反向弓步第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机反向弓步第2组"> 2</label></td>
 <td>大腿前侧、臀部</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=nmGzbW15qYo">史密斯机罗马尼亚硬拉</a><br>Smith machine Romanian deadlift</td>
 <td>3组 × 8–12 次</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周二史密斯机罗马尼亚硬拉第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机罗马尼亚硬拉第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机罗马尼亚硬拉第3组"> 3</label></td>
 <td>大腿后侧、臀部；下背稳定</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=QjNFk4F5dAs">俯卧器械腿弯举</a><br>Lying leg curl</td>
+<td>2组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周二俯卧器械腿弯举第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二俯卧器械腿弯举第2组"> 2</label></td>
+<td>大腿后侧</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=FNdI5TynYxs">史密斯机站姿提踵</a><br>Smith machine standing calf raise</td>
 <td>3组 × 12–20 次</td>
-<td>6分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周二史密斯机站姿提踵第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机站姿提踵第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周二史密斯机站姿提踵第3组"> 3</label></td>
 <td>小腿</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=CNHS2OoUi30">坐姿器械卷腹</a><br>Machine abdominal crunch</td>
-<td>2组 × 10–15 次</td>
-<td>6分钟</td>
-<td><label><input type="checkbox" aria-label="健身馆周二坐姿器械卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二坐姿器械卷腹第2组"> 2</label></td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周二坐姿器械卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周二坐姿器械卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周二坐姿器械卷腹第3组"> 3</label></td>
 <td>腹肌、侧腹</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">四</th>
+<th scope="rowgroup" rowspan="7" style="vertical-align: middle; text-align: center;">四</th>
+<td rowspan="7" style="vertical-align: middle; text-align: center;">约48–52分钟</td>
 <td><a href="https://www.youtube.com/watch?v=z_r6hDOYtO0">史密斯机平板卧推</a><br>Smith machine bench press</td>
 <td>4组 × 8–12 次</td>
-<td>9分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周四史密斯机平板卧推第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四史密斯机平板卧推第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周四史密斯机平板卧推第3组"> 3</label> <label><input type="checkbox" aria-label="健身馆周四史密斯机平板卧推第4组"> 4</label></td>
 <td>胸肌、三头肌、肩前侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=GcY6TZxfS0k">坐姿器械肩推</a><br>Machine shoulder press</td>
 <td>2组 × 8–12 次</td>
-<td>4分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周四坐姿器械肩推第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四坐姿器械肩推第2组"> 2</label></td>
 <td>肩前侧、肩外侧、三头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=TeFo51Q_Nsc">坐姿器械划船</a><br>Machine seated row</td>
 <td>3组 × 10–15 次</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周四坐姿器械划船第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四坐姿器械划船第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周四坐姿器械划船第3组"> 3</label></td>
 <td>背阔肌、上背、肩后侧、二头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=JGeRYIZdojU">高位下拉</a><br>Lat pulldown</td>
 <td>3组 × 10–15 次</td>
-<td>6分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周四高位下拉第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四高位下拉第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周四高位下拉第3组"> 3</label></td>
 <td>背阔肌、二头肌</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=NFzTWp2qpiE">绳索弯举</a><br>Cable biceps curl</td>
+<td>2组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周四绳索弯举第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四绳索弯举第2组"> 2</label></td>
+<td>二头肌、小臂</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=JlT2xB92lY8">单臂绳索侧平举</a><br>Single-arm cable lateral raise</td>
 <td>2组 × 12–20 次／侧</td>
-<td>4分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周四单臂绳索侧平举第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四单臂绳索侧平举第2组"> 2</label></td>
 <td>肩外侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=yCB0KSYFgkE">站姿绳索转体</a><br>Standing cable torso rotation</td>
-<td>2组 × 10–15 次／侧</td>
-<td>5分钟</td>
-<td><label><input type="checkbox" aria-label="健身馆周四站姿绳索转体第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四站姿绳索转体第2组"> 2</label></td>
+<td>3组 × 10–15 次／侧</td>
+<td><label><input type="checkbox" aria-label="健身馆周四站姿绳索转体第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周四站姿绳索转体第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周四站姿绳索转体第3组"> 3</label></td>
 <td>侧腹、腹肌</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<th scope="rowgroup" rowspan="5" style="vertical-align: middle; text-align: center;">五</th>
+<th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">五</th>
+<td rowspan="6" style="vertical-align: middle; text-align: center;">约48–52分钟</td>
 <td><a href="https://www.youtube.com/watch?v=qCR9bN3G1t4">坐姿腿举</a><br>Seated leg press</td>
 <td>3组 × 10–15 次</td>
-<td>8分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周五坐姿腿举第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五坐姿腿举第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周五坐姿腿举第3组"> 3</label></td>
 <td>大腿前侧、臀部</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=xd9m2S_Rw4s">坐姿器械腿屈伸</a><br>Leg extension</td>
+<td>2组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周五坐姿器械腿屈伸第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五坐姿器械腿屈伸第2组"> 2</label></td>
+<td>大腿前侧</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=QjNFk4F5dAs">俯卧器械腿弯举</a><br>Lying leg curl</td>
 <td>3组 × 10–15 次</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周五俯卧器械腿弯举第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五俯卧器械腿弯举第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周五俯卧器械腿弯举第3组"> 3</label></td>
 <td>大腿后侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=SiYiv9lLjdU">史密斯机臀推</a><br>Smith machine hip thrust</td>
 <td>2组 × 10–15 次</td>
-<td>8分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周五史密斯机臀推第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五史密斯机臀推第2组"> 2</label></td>
 <td>臀部、大腿后侧</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=FNdI5TynYxs">史密斯机站姿提踵</a><br>Smith machine standing calf raise</td>
 <td>3组 × 12–20 次</td>
-<td>7分钟</td>
 <td><label><input type="checkbox" aria-label="健身馆周五史密斯机站姿提踵第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五史密斯机站姿提踵第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周五史密斯机站姿提踵第3组"> 3</label></td>
 <td>小腿</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=CNHS2OoUi30">坐姿器械卷腹</a><br>Machine abdominal crunch</td>
-<td>2组 × 10–15 次</td>
-<td>5分钟</td>
-<td><label><input type="checkbox" aria-label="健身馆周五坐姿器械卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五坐姿器械卷腹第2组"> 2</label></td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="健身馆周五坐姿器械卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="健身馆周五坐姿器械卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="健身馆周五坐姿器械卷腹第3组"> 3</label></td>
 <td>腹肌、侧腹</td>
 </tr>
 </tbody>
 </table>
 
 <!--
-健身馆方案为替代方案，不与在家方案累加；每天工作组16、14、16、13，共59组，单侧动作左右做完计一组。按动作模式及主要肌群匹配相近训练量，不声称组数相同即刺激或能耗完全相等。健身馆方案优先固定器械、绳索和史密斯机：卧推8组、史密斯深蹲4组、史密斯反向弓步2组、史密斯罗马尼亚硬拉3组、单臂绳索侧平举4组。周五保留腿举3组、腿弯举3组、史密斯机臀推2组；周一、周二、周五各器械卷腹2组，周四绳索转体2组。卷腹改为动态腹部训练，不与原抗伸展稳定动作视为功能完全等同。大腿后侧同时覆盖髋伸和屈膝。固定器械对稳定肌的要求不同，下方肌群训练量表分别统计两种方案。
+健身馆方案为替代方案，不与在家方案累加；每天工作组19、17、19、16，共71组，单侧动作左右做完计一组。按动作模式及主要肌群匹配相近训练量，不声称组数相同即刺激或能耗完全相等。健身馆方案优先固定器械、绳索和史密斯机：卧推8组、史密斯深蹲4组、史密斯反向弓步2组、史密斯罗马尼亚硬拉3组、单臂绳索侧平举4组。周一绳索三头下压2组、周四绳索弯举2组；周二腿弯举2组，周五腿弯举3组、腿举3组、腿屈伸2组、史密斯机臀推2组；周一、周二、周五各器械卷腹3组，周四绳索转体3组。卷腹改为动态腹部训练，不与原抗伸展稳定动作视为功能完全等同。大腿后侧同时覆盖髋伸和屈膝。固定器械对稳定肌的要求不同，下方肌群训练量表分别统计两种方案。
 为减少对专用设备的依赖，侧平举用可调滑轮绳索机，臀推与提踵用史密斯机，卷腹用坐姿腹肌训练机；侧平举单侧左右做完计一组。设备以常规商业健身馆为目标，实际配置需按分店确认；腿弯举可用坐姿或俯卧机型，不要求两台都有。器械可用性参考：https://www.puregym.com/equipment/ 。
 训练安排参考ACSM 2026阻力训练指南：https://acsm.org/resistance-training-guidelines-update-2026/ ；动作演示见表内YouTube链接。动作时间为排程估计，器材调节、热身和排队会影响实际时长；本次未据器械更换增加热量消耗或赤字。
 -->
@@ -890,19 +888,19 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 |---|---|---|---|
 | 胸肌<br>Chest | 俯卧撑8组 | — | 充足 |
 | 肩前侧<br>Front delts | 哑铃肩推4组 | 俯卧撑8组 | 充足 |
-| 肩外侧<br>Side delts | 哑铃侧平举4组 | 哑铃肩推4组 | 基本充足 |
+| 肩外侧<br>Side delts | 哑铃侧平举6组 | 哑铃肩推4组 | 基本充足 |
 | 肩后侧<br>Rear delts | 哑铃反向飞鸟2组 | 哑铃划船7组 | 基本充足 |
 | 背阔肌<br>Lats | 哑铃划船7组、阻力带下拉3组 | — | 充足 |
-| 斜方肌<br>Traps | 哑铃划船7组 | 阻力带下拉3组、哑铃肩推4组、哑铃侧平举4组、哑铃反向飞鸟2组 | 基本充足 |
-| 二头肌<br>Biceps | — | 哑铃划船7组、阻力带下拉3组 | 基本充足 |
+| 斜方肌<br>Traps | 哑铃划船7组 | 阻力带下拉3组、哑铃肩推4组、哑铃侧平举6组、哑铃反向飞鸟2组 | 基本充足 |
+| 二头肌<br>Biceps | 哑铃弯举2组 | 哑铃划船7组、阻力带下拉3组 | 基本充足 |
 | 三头肌<br>Triceps | — | 俯卧撑8组、哑铃肩推4组 | 基本充足 |
-| 小臂<br>Forearms | — | 哑铃划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 难判断 |
-| 腹肌<br>Abs | 卷腹5→6组、反向卷腹5→6组；合计10→12组 | 俯卧撑8组、高脚杯深蹲4组、侧平板髋部升降每侧6组 | 充足 |
-| 侧腹<br>Obliques | 侧平板髋部升降每侧6组 | 卷腹5→6组、反向卷腹5→6组 | 基本充足 |
+| 小臂<br>Forearms | — | 哑铃划船7组、哑铃弯举2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 难判断 |
+| 腹肌<br>Abs | 卷腹6组、反向卷腹6组；合计12组 | 俯卧撑8组、高脚杯深蹲4组、哑铃侧屈每侧6组 | 充足 |
+| 侧腹<br>Obliques | 哑铃侧屈每侧6组 | 卷腹6组、反向卷腹6组 | 基本充足 |
 | 下背<br>Lower back | — | 哑铃划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、高脚杯深蹲4组 | 难判断 |
 | 臀部<br>Glutes | 高脚杯深蹲4组、反向弓步2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、分腿蹲3组、单腿臀桥2组 | — | 充足 |
 | 大腿前侧<br>Quads | 高脚杯深蹲4组、反向弓步2组、分腿蹲3组 | — | 充足 |
-| 大腿后侧<br>Hamstrings | 罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 单腿臀桥2组 | 基本充足 |
+| 大腿后侧<br>Hamstrings | 罗马尼亚硬拉3组、支撑式单腿硬拉3组、滑巾腿弯举3组 | 单腿臀桥2组 | 基本充足 |
 | 小腿<br>Calves | 哑铃提踵6组 | — | 基本充足 |
 {.table-centered}
 
@@ -916,19 +914,19 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 | 肩后侧<br>Rear delts | 器械反向飞鸟2组 | 器械划船7组 | 基本充足 |
 | 背阔肌<br>Lats | 器械划船7组、高位下拉3组 | — | 充足 |
 | 斜方肌<br>Traps | 器械划船7组 | 高位下拉3组、器械肩推4组、单臂绳索侧平举4组、器械反向飞鸟2组 | 基本充足 |
-| 二头肌<br>Biceps | — | 器械划船7组、高位下拉3组 | 基本充足 |
-| 三头肌<br>Triceps | — | 史密斯机卧推8组、器械肩推4组 | 基本充足 |
-| 小臂<br>Forearms | — | 器械划船7组、高位下拉3组、史密斯机罗马尼亚硬拉3组 | 难判断 |
-| 腹肌<br>Abs | 器械卷腹6组 | 史密斯机深蹲4组、史密斯机罗马尼亚硬拉3组、绳索转体2组 | 基本充足 |
-| 侧腹<br>Obliques | 绳索转体2组 | 器械卷腹6组 | 偏少 |
+| 二头肌<br>Biceps | 绳索弯举2组 | 器械划船7组、高位下拉3组 | 基本充足 |
+| 三头肌<br>Triceps | 绳索三头下压2组 | 史密斯机卧推8组、器械肩推4组 | 基本充足 |
+| 小臂<br>Forearms | — | 器械划船7组、高位下拉3组、绳索弯举2组、史密斯机罗马尼亚硬拉3组 | 难判断 |
+| 腹肌<br>Abs | 器械卷腹9组 | 史密斯机深蹲4组、史密斯机罗马尼亚硬拉3组、绳索转体3组 | 基本充足 |
+| 侧腹<br>Obliques | 绳索转体3组 | 器械卷腹9组 | 偏少 |
 | 下背<br>Lower back | — | 史密斯机深蹲4组、史密斯机罗马尼亚硬拉3组 | 难判断 |
 | 臀部<br>Glutes | 史密斯机深蹲4组、坐姿腿举3组、史密斯机反向弓步2组、史密斯机罗马尼亚硬拉3组、史密斯机臀推2组 | — | 充足 |
-| 大腿前侧<br>Quads | 史密斯机深蹲4组、坐姿腿举3组、史密斯机反向弓步2组 | — | 充足 |
-| 大腿后侧<br>Hamstrings | 史密斯机罗马尼亚硬拉3组、器械腿弯举3组 | 史密斯机臀推2组 | 基本充足 |
+| 大腿前侧<br>Quads | 史密斯机深蹲4组、坐姿腿举3组、史密斯机反向弓步2组、器械腿屈伸2组 | — | 充足 |
+| 大腿后侧<br>Hamstrings | 史密斯机罗马尼亚硬拉3组、器械腿弯举5组 | 史密斯机臀推2组 | 基本充足 |
 | 小腿<br>Calves | 史密斯机提踵6组 | — | 基本充足 |
 {.table-centered}
 
 <!--
 肌群图由imagegen生成，仅示意主要健身肌群的大致位置，非精细解剖图。训练量评价是假设负荷及动作难度足够的计划估计，非实测；稳定参与不等于增肌充足，单腿硬拉不能完整替代屈膝腿弯举功能。参考：https://acsm.org/resistance-training-guidelines-update-2026/ 。
-在家力量训练约43–49分钟为含热身、休息和换动作的预算，非连续做功；周一卷腹3组加反向卷腹2→3组、周五反向卷腹3组加卷腹2→3组，前两周腹直肌10组／周，恢复良好后12组／周。周二、周四侧平板髋部升降各每侧3组，合计每侧6组／周。腹部训练以增厚为目标，侧腹训练量评价以侧腹而非肩部率先接近力竭为前提；动作参考：https://www.catalystathletics.com/exercise/499/Side-Plank-Lift/ 。健身馆方案不变。未因动作变化而机械上调消耗，营养统计暂沿用原保守活动估计，待实际时长与体重趋势校准。
+在家及健身馆力量训练约48–52分钟为含热身、休息和换动作的预算，非连续做功；在家方案周一、周五各卷腹3组、反向卷腹3组，腹直肌合计12组／周。周二、周四哑铃侧屈各每侧3组，合计每侧6组／周。腹部训练以增厚为目标。未因动作变化而机械上调消耗，营养统计暂沿用原保守活动估计，待实际时长与体重趋势校准。
 -->
