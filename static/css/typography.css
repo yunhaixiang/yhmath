@@ -37,6 +37,29 @@ body.small-caps-sections .toc a {
   overflow-wrap: anywhere;
 }
 
+.content .yh-trend-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.content .yh-trend-chart-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+}
+
+.content .yh-trend-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content .yh-trend-chart-empty {
+  grid-column: 1 / -1;
+  color: var(--fg4);
+}
+
 /* Reusable annotations for kana modified by dakuten and handakuten. */
 .content .kana-dakuten,
 .content .kana-handakuten {
