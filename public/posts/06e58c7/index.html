@@ -154,222 +154,7 @@
       
   
 
-购物表
-
-
-  
-      
-          食材
-          商品
-          购买频率
-          每周价格（CAD）
-      
-  
-  
-      
-          去骨去皮鸡大腿肉
-          Boneless Skinless Chicken Thighs约460 g / 盒
-          2盒 / 周
-          约$20.26
-      
-      
-          BBQ熟猪背排骨
-          Irrésistible Frozen BBQ Pork Back Ribs680 g / 盒，含骨及酱汁；营养暂估450 g可食部分 / 盒
-          1盒 / 周
-          $15.99
-      
-      
-          三文鱼
-          Fresh Skin-On Atlantic Salmon Portion113 g / 块
-          8块 / 周
-          $39.92
-      
-      
-          特瘦鸡肉末
-          Life Smart Extra Lean Ground Chicken450 g / 盒
-          2盒 / 周
-          约$14.98
-      
-      
-          鸡蛋
-          Selection Large Eggs12个 / 盒
-          1盒 / 周
-          $3.99
-      
-      
-          无糖豆奶
-          Silk Soy Milk Alternative, Unsweetened, Dairy Free1.89 L / 桶
-          2桶 / 周
-          $11.98
-      
-      
-          Fresca无糖汽水
-          Fresca Sugar-Free Grapefruit Flavoured Soft Drink12罐×355 mL / 箱
-          1箱 / 周
-          $9.49
-      
-      
-          土豆
-          Metro White Potato按实际约160 g / 个估算
-          7个 / 周，约1,120 g
-          约$13.58
-      
-      
-          豌豆胡萝卜
-          Selection Peas and Carrots, Packed in Season398 mL / 罐，沥干约260 g
-          2罐 / 周
-          $2.98
-      
-      
-          蘑菇
-          Belle Grove Crimini Mushroom Slices227 g / 盒
-          2盒 / 周
-          $7.98
-      
-      
-          嫩菠菜
-          Fresh Attitude Organic Baby Spinach142 g / 盒
-          2盒 / 周
-          $10.98
-      
-      
-          番茄意面酱
-          Catelli Garden Select Tomato &amp; Basil Pasta Sauce600 mL / 瓶
-          1瓶 / 周
-          $3.99
-      
-      
-          混合水果盘
-          Fresh Fruit Carousel1.4 kg / 盒
-          2盒 / 周
-          $29.98
-      
-      
-          意面
-          Catelli PROTEIN&#43; Spaghetti Pasta340 g / 包
-          按需补
-          $3.82
-      
-      
-          全麦卷饼皮
-          Dempster’s 100% Whole Wheat Large Tortillas610 g / 袋
-          按需补
-          $1.20
-      
-      
-          白米
-          Selection Long Grain White Rice900 g / 袋
-          按需补
-          $0.96
-      
-      
-          高纤维谷物早餐
-          Fibre One Crunchy Original 587 g587 g / 盒
-          按需补
-          $4.29
-      
-      
-          黑胡椒
-          Selection Ground Black Pepper105 g / 瓶
-          按需补
-          $0.19
-      
-      
-          蒜粉
-          Selection Garlic Powder120 g / 瓶
-          按需补
-          $0.45
-      
-      
-          洋葱粉
-          Selection Onion Powder100 g / 瓶
-          按需补
-          $0.25
-      
-      
-          红椒粉
-          Selection Paprika95 g / 瓶
-          按需补
-          $0.36
-      
-      
-          干牛至叶
-          Selection Oregano Leaves30 g / 瓶
-          按需补
-          $0.10
-      
-      
-          意式混合香草
-          Selection Italian Seasoning35 g / 瓶
-          按需补
-          $0.09
-      
-      
-          盐
-          Windsor Iodized Table Salt1 kg / 盒
-          按需补
-          $0.01
-      
-      
-          橄榄油
-          Terra Delyssa Premium Extra Virgin Olive Oil1 L / 瓶
-          按需补
-          $0.63
-      
-      
-          一水肌酸
-          LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）无味，300 g / 罐，参考$27.98
-          按需补，约60天 / 罐
-          约$3.26
-      
-      
-          每周合计
-          —
-          —
-          约$201.71
-      
-  
-
-
-并行做菜流程
-
-
-任务依赖图
-flowchart TB
-    subgraph rice[电饭煲]
-        R1[煮白米饭]
-    end
-    subgraph oven[烤箱]
-        O0[预热400°F] --&gt; O2[烤鸡大腿肉]
-        O0 --&gt; O1[复热BBQ排骨]
-    end
-    subgraph air[空气炸锅]
-        A0[预热] --&gt; A4[土豆块] --&gt; A1[三文鱼]
-    end
-    subgraph pots[煮锅]
-        P3[煮锅一：烧开水] --&gt; P2[煮水煮蛋]
-        P0[煮锅二：烧开水] --&gt; P1[煮意面]
-    end
-    subgraph woks[炒锅]
-        W1[炒锅一：炒蘑菇、盛出] --&gt; W3[番茄酱拌意面、盛出]
-        W2[炒锅二：炒菠菜、盛出] --&gt; W4[炒鸡肉末、蛋、白米饭、豌豆胡萝卜]
-    end
-    P1 --&gt; W3
-    R1 --&gt; W4
-    O1 --&gt; F[收尾：分盘、入冰箱、清洗]
-    O2 --&gt; F
-    A4 --&gt; F
-    A1 --&gt; F
-    P2 --&gt; F
-    W1 --&gt; F
-    W2 --&gt; F
-    W3 --&gt; F
-    W4 --&gt; F
-    T1[准备全麦卷饼皮] --&gt; F
-
-
-分盘表
-第1–14盘依次对应周日午餐至周六晚餐，每天先午后晚。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
+每周六晚集中做饭。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
   
 
   
@@ -444,38 +229,12 @@ flowchart TB
   <meta property="og:site_name" content="Yunhai Xiang">
   <meta property="og:title" content="减肥饮食锻炼计划">
   <meta property="og:description" content="饮食 计划表 早餐：混合水果400 g &#43; 高纤维谷物早餐40 g &#43; 无糖豆奶270 mL &#43; 一水肌酸 5g。
-编号 星期 餐次 碳水 蛋白质 蔬菜 热量（kcal） 1 周日 午餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 2 周日 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 3 周一 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 4 周一 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 5 周二 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 6 周二 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 7 周三 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 8 周三 晚餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 9 周四 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 10 周四 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 11 周五 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 12 周五 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 13 周六 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 14 周六 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 购物表 食材 商品 购买频率 每周价格（CAD） 去骨去皮鸡大腿肉 Boneless Skinless Chicken Thighs
-约460 g / 盒 2盒 / 周 约$20.26 BBQ熟猪背排骨 Irrésistible Frozen BBQ Pork Back Ribs
-680 g / 盒，含骨及酱汁；营养暂估450 g可食部分 / 盒 1盒 / 周 $15.99 三文鱼 Fresh Skin-On Atlantic Salmon Portion
-113 g / 块 8块 / 周 $39.92 特瘦鸡肉末 Life Smart Extra Lean Ground Chicken
-450 g / 盒 2盒 / 周 约$14.98 鸡蛋 Selection Large Eggs
-12个 / 盒 1盒 / 周 $3.99 无糖豆奶 Silk Soy Milk Alternative, Unsweetened, Dairy Free
-1.89 L / 桶 2桶 / 周 $11.98 Fresca无糖汽水 Fresca Sugar-Free Grapefruit Flavoured Soft Drink
-12罐×355 mL / 箱 1箱 / 周 $9.49 土豆 Metro White Potato
-按实际约160 g / 个估算 7个 / 周，约1,120 g 约$13.58 豌豆胡萝卜 Selection Peas and Carrots, Packed in Season
-398 mL / 罐，沥干约260 g 2罐 / 周 $2.98 蘑菇 Belle Grove Crimini Mushroom Slices
-227 g / 盒 2盒 / 周 $7.98 嫩菠菜 Fresh Attitude Organic Baby Spinach
-142 g / 盒 2盒 / 周 $10.98 番茄意面酱 Catelli Garden Select Tomato &amp; Basil Pasta Sauce
-600 mL / 瓶 1瓶 / 周 $3.99 混合水果盘 Fresh Fruit Carousel
-1.4 kg / 盒 2盒 / 周 $29.98 意面 Catelli PROTEIN&#43; Spaghetti Pasta
-340 g / 包 按需补 $3.82 全麦卷饼皮 Dempster’s 100% Whole Wheat Large Tortillas
-610 g / 袋 按需补 $1.20 白米 Selection Long Grain White Rice
-900 g / 袋 按需补 $0.96 高纤维谷物早餐 Fibre One Crunchy Original 587 g
-587 g / 盒 按需补 $4.29 黑胡椒 Selection Ground Black Pepper
-105 g / 瓶 按需补 $0.19 蒜粉 Selection Garlic Powder
-120 g / 瓶 按需补 $0.45 洋葱粉 Selection Onion Powder
-100 g / 瓶 按需补 $0.25 红椒粉 Selection Paprika
-95 g / 瓶 按需补 $0.36 干牛至叶 Selection Oregano Leaves
-30 g / 瓶 按需补 $0.10 意式混合香草 Selection Italian Seasoning
-35 g / 瓶 按需补 $0.09 盐 Windsor Iodized Table Salt
-1 kg / 盒 按需补 $0.01 橄榄油 Terra Delyssa Premium Extra Virgin Olive Oil
-1 L / 瓶 按需补 $0.63 一水肌酸 LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）
-无味，300 g / 罐，参考$27.98 按需补，约60天 / 罐 约$3.26 每周合计 — — 约$201.71 并行做菜流程 任务依赖图 flowchart TB subgraph rice[电饭煲] R1[煮白米饭] end subgraph oven[烤箱] O0[预热400°F] --&gt; O2[烤鸡大腿肉] O0 --&gt; O1[复热BBQ排骨] end subgraph air[空气炸锅] A0[预热] --&gt; A4[土豆块] --&gt; A1[三文鱼] end subgraph pots[煮锅] P3[煮锅一：烧开水] --&gt; P2[煮水煮蛋] P0[煮锅二：烧开水] --&gt; P1[煮意面] end subgraph woks[炒锅] W1[炒锅一：炒蘑菇、盛出] --&gt; W3[番茄酱拌意面、盛出] W2[炒锅二：炒菠菜、盛出] --&gt; W4[炒鸡肉末、蛋、白米饭、豌豆胡萝卜] end P1 --&gt; W3 R1 --&gt; W4 O1 --&gt; F[收尾：分盘、入冰箱、清洗] O2 --&gt; F A4 --&gt; F A1 --&gt; F P2 --&gt; F W1 --&gt; F W2 --&gt; F W3 --&gt; F W4 --&gt; F T1[准备全麦卷饼皮] --&gt; F 分盘表 第1–14盘依次对应周日午餐至周六晚餐，每天先午后晚。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
+编号 星期 餐次 碳水 蛋白质 蔬菜 热量（kcal） 1 周日 午餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 2 周日 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 3 周一 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 4 周一 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 5 周二 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 6 周二 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 7 周三 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 8 周三 晚餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 9 周四 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 10 周四 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 11 周五 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 12 周五 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 13 周六 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 14 周六 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 每周六晚集中做饭。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-08-30T11:43:05-04:00">
-    <meta property="article:modified_time" content="2026-10-11T11:10:14-04:00">
+    <meta property="article:modified_time" content="2026-10-11T12:08:43-04:00">
 
 
   
@@ -486,36 +245,10 @@ flowchart TB
   
   <meta itemprop="name" content="减肥饮食锻炼计划">
   <meta itemprop="description" content="饮食 计划表 早餐：混合水果400 g &#43; 高纤维谷物早餐40 g &#43; 无糖豆奶270 mL &#43; 一水肌酸 5g。
-编号 星期 餐次 碳水 蛋白质 蔬菜 热量（kcal） 1 周日 午餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 2 周日 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 3 周一 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 4 周一 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 5 周二 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 6 周二 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 7 周三 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 8 周三 晚餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 9 周四 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 10 周四 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 11 周五 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 12 周五 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 13 周六 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 14 周六 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 购物表 食材 商品 购买频率 每周价格（CAD） 去骨去皮鸡大腿肉 Boneless Skinless Chicken Thighs
-约460 g / 盒 2盒 / 周 约$20.26 BBQ熟猪背排骨 Irrésistible Frozen BBQ Pork Back Ribs
-680 g / 盒，含骨及酱汁；营养暂估450 g可食部分 / 盒 1盒 / 周 $15.99 三文鱼 Fresh Skin-On Atlantic Salmon Portion
-113 g / 块 8块 / 周 $39.92 特瘦鸡肉末 Life Smart Extra Lean Ground Chicken
-450 g / 盒 2盒 / 周 约$14.98 鸡蛋 Selection Large Eggs
-12个 / 盒 1盒 / 周 $3.99 无糖豆奶 Silk Soy Milk Alternative, Unsweetened, Dairy Free
-1.89 L / 桶 2桶 / 周 $11.98 Fresca无糖汽水 Fresca Sugar-Free Grapefruit Flavoured Soft Drink
-12罐×355 mL / 箱 1箱 / 周 $9.49 土豆 Metro White Potato
-按实际约160 g / 个估算 7个 / 周，约1,120 g 约$13.58 豌豆胡萝卜 Selection Peas and Carrots, Packed in Season
-398 mL / 罐，沥干约260 g 2罐 / 周 $2.98 蘑菇 Belle Grove Crimini Mushroom Slices
-227 g / 盒 2盒 / 周 $7.98 嫩菠菜 Fresh Attitude Organic Baby Spinach
-142 g / 盒 2盒 / 周 $10.98 番茄意面酱 Catelli Garden Select Tomato &amp; Basil Pasta Sauce
-600 mL / 瓶 1瓶 / 周 $3.99 混合水果盘 Fresh Fruit Carousel
-1.4 kg / 盒 2盒 / 周 $29.98 意面 Catelli PROTEIN&#43; Spaghetti Pasta
-340 g / 包 按需补 $3.82 全麦卷饼皮 Dempster’s 100% Whole Wheat Large Tortillas
-610 g / 袋 按需补 $1.20 白米 Selection Long Grain White Rice
-900 g / 袋 按需补 $0.96 高纤维谷物早餐 Fibre One Crunchy Original 587 g
-587 g / 盒 按需补 $4.29 黑胡椒 Selection Ground Black Pepper
-105 g / 瓶 按需补 $0.19 蒜粉 Selection Garlic Powder
-120 g / 瓶 按需补 $0.45 洋葱粉 Selection Onion Powder
-100 g / 瓶 按需补 $0.25 红椒粉 Selection Paprika
-95 g / 瓶 按需补 $0.36 干牛至叶 Selection Oregano Leaves
-30 g / 瓶 按需补 $0.10 意式混合香草 Selection Italian Seasoning
-35 g / 瓶 按需补 $0.09 盐 Windsor Iodized Table Salt
-1 kg / 盒 按需补 $0.01 橄榄油 Terra Delyssa Premium Extra Virgin Olive Oil
-1 L / 瓶 按需补 $0.63 一水肌酸 LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）
-无味，300 g / 罐，参考$27.98 按需补，约60天 / 罐 约$3.26 每周合计 — — 约$201.71 并行做菜流程 任务依赖图 flowchart TB subgraph rice[电饭煲] R1[煮白米饭] end subgraph oven[烤箱] O0[预热400°F] --&gt; O2[烤鸡大腿肉] O0 --&gt; O1[复热BBQ排骨] end subgraph air[空气炸锅] A0[预热] --&gt; A4[土豆块] --&gt; A1[三文鱼] end subgraph pots[煮锅] P3[煮锅一：烧开水] --&gt; P2[煮水煮蛋] P0[煮锅二：烧开水] --&gt; P1[煮意面] end subgraph woks[炒锅] W1[炒锅一：炒蘑菇、盛出] --&gt; W3[番茄酱拌意面、盛出] W2[炒锅二：炒菠菜、盛出] --&gt; W4[炒鸡肉末、蛋、白米饭、豌豆胡萝卜] end P1 --&gt; W3 R1 --&gt; W4 O1 --&gt; F[收尾：分盘、入冰箱、清洗] O2 --&gt; F A4 --&gt; F A1 --&gt; F P2 --&gt; F W1 --&gt; F W2 --&gt; F W3 --&gt; F W4 --&gt; F T1[准备全麦卷饼皮] --&gt; F 分盘表 第1–14盘依次对应周日午餐至周六晚餐，每天先午后晚。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
+编号 星期 餐次 碳水 蛋白质 蔬菜 热量（kcal） 1 周日 午餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 2 周日 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 3 周一 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 4 周一 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 5 周二 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 6 周二 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 7 周三 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 8 周三 晚餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 9 周四 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 10 周四 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 11 周五 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 12 周五 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 13 周六 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 14 周六 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 每周六晚集中做饭。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
   <meta itemprop="datePublished" content="2026-08-30T11:43:05-04:00">
-  <meta itemprop="dateModified" content="2026-10-11T11:10:14-04:00">
-  <meta itemprop="wordCount" content="8738">
+  <meta itemprop="dateModified" content="2026-10-11T12:08:43-04:00">
+  <meta itemprop="wordCount" content="8720">
 
   
   
@@ -538,33 +271,7 @@ flowchart TB
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="减肥饮食锻炼计划">
   <meta name="twitter:description" content="饮食 计划表 早餐：混合水果400 g &#43; 高纤维谷物早餐40 g &#43; 无糖豆奶270 mL &#43; 一水肌酸 5g。
-编号 星期 餐次 碳水 蛋白质 蔬菜 热量（kcal） 1 周日 午餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 2 周日 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 3 周一 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 4 周一 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 5 周二 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 6 周二 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 7 周三 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 8 周三 晚餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 9 周四 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 10 周四 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 11 周五 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 12 周五 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 13 周六 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 14 周六 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 购物表 食材 商品 购买频率 每周价格（CAD） 去骨去皮鸡大腿肉 Boneless Skinless Chicken Thighs
-约460 g / 盒 2盒 / 周 约$20.26 BBQ熟猪背排骨 Irrésistible Frozen BBQ Pork Back Ribs
-680 g / 盒，含骨及酱汁；营养暂估450 g可食部分 / 盒 1盒 / 周 $15.99 三文鱼 Fresh Skin-On Atlantic Salmon Portion
-113 g / 块 8块 / 周 $39.92 特瘦鸡肉末 Life Smart Extra Lean Ground Chicken
-450 g / 盒 2盒 / 周 约$14.98 鸡蛋 Selection Large Eggs
-12个 / 盒 1盒 / 周 $3.99 无糖豆奶 Silk Soy Milk Alternative, Unsweetened, Dairy Free
-1.89 L / 桶 2桶 / 周 $11.98 Fresca无糖汽水 Fresca Sugar-Free Grapefruit Flavoured Soft Drink
-12罐×355 mL / 箱 1箱 / 周 $9.49 土豆 Metro White Potato
-按实际约160 g / 个估算 7个 / 周，约1,120 g 约$13.58 豌豆胡萝卜 Selection Peas and Carrots, Packed in Season
-398 mL / 罐，沥干约260 g 2罐 / 周 $2.98 蘑菇 Belle Grove Crimini Mushroom Slices
-227 g / 盒 2盒 / 周 $7.98 嫩菠菜 Fresh Attitude Organic Baby Spinach
-142 g / 盒 2盒 / 周 $10.98 番茄意面酱 Catelli Garden Select Tomato &amp; Basil Pasta Sauce
-600 mL / 瓶 1瓶 / 周 $3.99 混合水果盘 Fresh Fruit Carousel
-1.4 kg / 盒 2盒 / 周 $29.98 意面 Catelli PROTEIN&#43; Spaghetti Pasta
-340 g / 包 按需补 $3.82 全麦卷饼皮 Dempster’s 100% Whole Wheat Large Tortillas
-610 g / 袋 按需补 $1.20 白米 Selection Long Grain White Rice
-900 g / 袋 按需补 $0.96 高纤维谷物早餐 Fibre One Crunchy Original 587 g
-587 g / 盒 按需补 $4.29 黑胡椒 Selection Ground Black Pepper
-105 g / 瓶 按需补 $0.19 蒜粉 Selection Garlic Powder
-120 g / 瓶 按需补 $0.45 洋葱粉 Selection Onion Powder
-100 g / 瓶 按需补 $0.25 红椒粉 Selection Paprika
-95 g / 瓶 按需补 $0.36 干牛至叶 Selection Oregano Leaves
-30 g / 瓶 按需补 $0.10 意式混合香草 Selection Italian Seasoning
-35 g / 瓶 按需补 $0.09 盐 Windsor Iodized Table Salt
-1 kg / 盒 按需补 $0.01 橄榄油 Terra Delyssa Premium Extra Virgin Olive Oil
-1 L / 瓶 按需补 $0.63 一水肌酸 LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）
-无味，300 g / 罐，参考$27.98 按需补，约60天 / 罐 约$3.26 每周合计 — — 约$201.71 并行做菜流程 任务依赖图 flowchart TB subgraph rice[电饭煲] R1[煮白米饭] end subgraph oven[烤箱] O0[预热400°F] --&gt; O2[烤鸡大腿肉] O0 --&gt; O1[复热BBQ排骨] end subgraph air[空气炸锅] A0[预热] --&gt; A4[土豆块] --&gt; A1[三文鱼] end subgraph pots[煮锅] P3[煮锅一：烧开水] --&gt; P2[煮水煮蛋] P0[煮锅二：烧开水] --&gt; P1[煮意面] end subgraph woks[炒锅] W1[炒锅一：炒蘑菇、盛出] --&gt; W3[番茄酱拌意面、盛出] W2[炒锅二：炒菠菜、盛出] --&gt; W4[炒鸡肉末、蛋、白米饭、豌豆胡萝卜] end P1 --&gt; W3 R1 --&gt; W4 O1 --&gt; F[收尾：分盘、入冰箱、清洗] O2 --&gt; F A4 --&gt; F A1 --&gt; F P2 --&gt; F W1 --&gt; F W2 --&gt; F W3 --&gt; F W4 --&gt; F T1[准备全麦卷饼皮] --&gt; F 分盘表 第1–14盘依次对应周日午餐至周六晚餐，每天先午后晚。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
+编号 星期 餐次 碳水 蛋白质 蔬菜 热量（kcal） 1 周日 午餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 2 周日 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 3 周一 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 4 周一 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 5 周二 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 6 周二 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 7 周三 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 8 周三 晚餐 卷饼皮 鸡大腿肉2块＋水煮蛋2个 蘑菇＋菠菜 718 9 周四 午餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 10 周四 晚餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 11 周五 午餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 12 周五 晚餐 土豆块 BBQ排骨1/4盒＋三文鱼1块 蘑菇＋菠菜 735 13 周六 午餐 白米饭 鸡肉末＋炒蛋2个 豌豆胡萝卜 758 14 周六 晚餐 意面 鸡大腿肉1块＋三文鱼1块 番茄 728 每周六晚集中做饭。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。">
 
 
   
@@ -661,7 +368,7 @@ flowchart TB
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          8738 words
+          8720 words
         </span>
       
       
@@ -867,6 +574,7 @@ flowchart TB
       </tr>
   </tbody>
 </table>
+<p>每周六晚集中做饭。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。</p>
 <h3 id="购物表">购物表</h3>
 <!--
 采购口径：价格为截图或官网参考价，按周用量分摊，未含税及配送；称重商品以实收净重计，门店库存和售价可能变化。固定采购以正文购物表为准，肌酸在Walmart购买，其余在Metro购买。
@@ -1095,7 +803,6 @@ Selection豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不能�
 </div>
 
 <h4 id="分盘表">分盘表</h4>
-<p>第1–14盘依次对应周日午餐至周六晚餐，每天先午后晚。1–8盘冷藏；9–14盘冷冻。周三至周五早上将次日两餐移入冷藏解冻。</p>
 <table class="table-centered">
   <thead>
       <tr>
