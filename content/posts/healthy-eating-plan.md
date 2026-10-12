@@ -60,7 +60,7 @@ Great Value豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不�
 | 蘑菇 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725)<br>227 g / 盒 | 2盒 / 周 | $4.88 |
 | 嫩菠菜 | [Your Fresh Market Baby Spinach](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL)<br>142 g / 盒 | 2盒 / 周 | $6.88 |
 | 番茄意面酱 | [Catelli Garden Select Tomato & Basil Pasta Sauce](https://www.walmart.ca/en/ip/Catelli-Garden-Select-Tomato-Basil-Pasta-Sauce-600-mL-Jar/3B5Q7OZH5XF7)<br>600 mL / 瓶 | 1瓶 / 周 | $2.67 |
-| 混合水果盘 | [Your Fresh Market Large Party Fruit Tray](https://www.walmart.ca/en/ip/your-fresh-market-large-party-fruit-tray/6000205351477)<br>1 kg / 盒 | 3盒 / 周，冷藏 | $35.91 |
+| 混合水果盘 | [Your Fresh Market Large Party Fruit Tray](https://www.walmart.ca/en/ip/your-fresh-market-large-party-fruit-tray/6000205351477)<br>1 kg / 盒 | 3盒 / 周 | $35.91 |
 | 意面 | [Primo Spaghetti](https://www.walmart.ca/en/ip/PRIMO-SPAGHETTI/1YCQ0A4KHLLW)<br>454 g / 包 | 按需补 | 约$0.56 |
 | 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Large Tortillas](https://www.walmart.ca/en/ip/seort/6000191270091)<br>610 g / 袋 | 按需补 | 约$0.79 |
 | 白米 | [Great Value Long Grain White Rice](https://www.walmart.ca/en/ip/Great-Value-Long-Grain-White-Rice/4UD9P76BEQB4)<br>900 g / 袋 | 按需补 | 约$0.83 |
@@ -75,7 +75,7 @@ Great Value豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不�
 | 橄榄油 | [Great Value Extra Virgin Olive Oil](https://www.walmart.ca/en/ip/seort/6000203408497)<br>1 L / 瓶 | 按需补 | 约$0.38 |
 | 减盐酱油 | [Great Value Reduced Sodium Soya Sauce](https://www.walmart.ca/en/ip/Great-Value-Reduced-Sodium-Soya-Sauce/6000187053934)<br>450 mL / 瓶 | 按需补 | 约$0.15 |
 | 鸡粉 | [Knorr Chicken Instant Stock Mix](https://www.walmart.ca/en/ip/Knorr-Chicken-Instant-Stock-Mix/10303650)<br>150 g / 罐 | 按需补 | 约$0.03 |
-| 一水肌酸 | [LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）](https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600)<br>无味，300 g / 罐，参考$27.98 | 按需补，约60天 / 罐 | 约$3.26 |
+| 一水肌酸 | [LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）](https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600)<br>无味，300 g / 罐，参考$27.98 | 按需补 | 约$3.26 |
 | 每周合计 | — | — | 约$174 |
 {.table-centered}
 
