@@ -1154,8 +1154,8 @@ Great Value豌豆胡萝卜每罐沥干260g仍为估计，旧品牌的实测不�
 &lt;/table&gt;
 &lt;h4 id=&#34;冷冻解冻线程&#34;&gt;冷冻／解冻线程&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;前半周：用冷藏的鸡腿肉、鸡肉末、三文鱼和提前一日移入冷藏解冻的半盒排骨；后半周份密封冷冻。&lt;/li&gt;
-&lt;li&gt;后半周：提前约36小时将冷冻的鸡腿肉、鸡肉末、三文鱼和半盒排骨移入冷藏，置于防漏容器中解冻。&lt;/li&gt;
+&lt;li&gt;前半周：冷冻后半周的鸡腿肉、鸡肉末、三文鱼和半盒排骨。&lt;/li&gt;
+&lt;li&gt;后半周：提前约36小时将冷冻的鸡腿肉、鸡肉末、三文鱼和半盒排骨移入冷藏解冻。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;电饭煲线程&#34;&gt;电饭煲线程&lt;/h4&gt;
 &lt;!-- 电饭煲 White Rice（白米）模式煮米约50分钟。 --&gt;
@@ -2352,8 +2352,8 @@ BBQ排骨当前商品见购物表；旧品牌营养代理链接见上，待Walma
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;添加糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;无法准确拆分&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;无法准确拆分&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;粗估约30–60 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;粗估约4–9 g&lt;/td&gt;
           &lt;td&gt;≤25 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -2388,8 +2388,8 @@ BBQ排骨当前商品见购物表；旧品牌营养代理链接见上，待Walma
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;维生素D&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;已计约30.1 µg（未计三文鱼）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;已计约4.3 µg（未计三文鱼）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;粗估约159 µg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;粗估约23 µg&lt;/td&gt;
           &lt;td&gt;15 µg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -2547,10 +2547,10 @@ BBQ排骨当前商品见购物表；旧品牌营养代理链接见上，待Walma
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;!--
-微量营养与目标说明：以下D、B12、EPA+DHA为限定来源小计，非完整摄入量；未计入不等于不含。ALA和碘亦为低精度估计，未可靠计入肉类的分项含量，不能根据小幅低于目标诊断不足。
-维生素D、B12为限定来源小计：旧D129.56µg/周减去原Atlantic三文鱼904g所计99.44µg，余30.12µg；USDA Coho原始条目未报告可靠维生素D数据，不能据此判断新计划的维生素D是否达标。B12已计49.0364µg/周；排骨和鸡肉末的标签资料不全，暂不补入，不代表不含。全蛋也未纳入这些限定来源小计。Coho三文鱼EPA+DHA按每100g约1.206g、全周1,280g计约15.44g，排骨未定量。
+微量营养与目标说明：D为低精度食物代理估算；B12、EPA+DHA为限定来源小计，非完整摄入量；未计入不等于不含。ALA和碘亦为低精度估计，未可靠计入肉类的分项含量，不能根据小幅低于目标诊断不足。
+维生素D：此前已计30.12µg/周（旧129.56减去原Atlantic三文鱼904g所计99.44）；现购养殖Coho无可靠实测D数据，暂借用USDA野生Coho生鱼307 IU/85g≈9.03µg/100g，按1,280g/周估115.58µg；12个全蛋按NIH每个约1.1µg估13.2µg；合计约158.9µg/周、22.7µg/天。养殖与野生、饲料和实收鱼重均可能改变实际值，不应将此粗估当成实测摄入或维生素D状态。来源：https://ods.od.nih.gov/pubs/usdandb/VitaminD-Food.pdf 、https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/ 。B12已计49.0364µg/周；排骨和鸡肉末的标签资料不全，暂不补入，不代表不含。全蛋也未纳入B12限定来源小计。Coho三文鱼EPA+DHA按每100g约1.206g、全周1,280g计约15.44g，排骨未定量。
 碘暂列800–900µg/周：旧估计958.54µg扣去本次取消1.5g加碘盐约114.68µg后为843.86µg，取宽范围；排骨中的盐不假定为加碘盐，肉类碘未可靠定量。加碘盐依据：https://inspection.canada.ca/en/food-labels/labelling/industry/salt ，暂按每克盐76.45µg碘。ALA仍仅粗估8–9g/周（主要来自豆奶、鱼类，油量减少影响小），排骨未可靠计入；未计入不等于零，不能据此诊断不足。
-总糖包含天然糖；排骨酱汁明确含添加糖，但标签12g总糖/140g不能准确拆成添加糖与天然糖，故不再沿用旧添加糖范围。罐头和番茄意面酱的糖来源仍需核对，待完整资料补算；已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但炒饭酱油、鸡粉待补算。
+总糖包含天然糖；添加糖粗估约30–60g/周：BBQ排骨按旧品牌总糖12g/140g、暂估450g可食部计总糖上限约39g/周，结合现购Walmart配料中的糖、糖蜜与杏脯泥，暂估其中添加糖约20–40g；Catelli番茄意面酱每周600mL、总糖约24g且配料含糖，暂估添加糖约8–18g；两片全麦卷饼等其余来源暂估0–2g。范围取整且不是统计置信区间；现购排骨缺少可核实的添加糖分项，实值可能超出范围。Fibre One配料未列糖，混合水果与无糖豆奶的天然糖不算添加糖。来源：https://www.walmart.ca/en/ip/great-value-barbecue-pork-back-ribs/1ISG5NVNNL8S 、https://www.kraftheinz.com/en-CA/catelli/products/00064200010122-garden-select-tomato-basil-pasta-sauce 、https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html 。糖已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但炒饭酱油、鸡粉待补算。
 宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列12.2g为约1830kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
 依据：
 https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
