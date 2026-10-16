@@ -982,22 +982,22 @@ https://www.efsa.europa.eu/en/press/news/120727
 
 ### 趋势追踪
 
-本节只记录最近两周的数据；更早的记录从下列表格移除。训练用时不单独记录，消耗估计以按计划完成力量训练和有氧为前提。
+本节只记录最近四周的数据；更早的记录从下列表格移除。训练用时不单独记录，消耗估计以按计划完成力量训练和有氧为前提。
 
 #### 身体组成（Hume Body Pod）
 
-起床如厕后、进食饮水前测量；腰围用软尺量。体重看7日平均值，体脂和肌肉等估计值看数周趋势，不凭单次读数判断增减肌。[设备指标](https://humehealth.com/pages/hume-pod-v4) · [测量条件](https://humehealth.com/pages/faq)
+<!-- 起床如厕后、进食饮水前测量；围度用软尺量，原有腰围始终量同一位置。身高（固定参数，cm）：—。腹围量肚脐水平，颈围量喉结下方；正常呼气、不收腹，软尺贴身但不勒紧。男性围度估算体脂率（%）= 495 ÷ [1.0324 − 0.19077 × log₁₀(腹围 − 颈围) + 0.15456 × log₁₀(身高)] − 450，长度均以 cm 计。体重看7日平均值，各种体脂和肌肉估计值看数周趋势，不凭单次读数判断增减肌。[设备指标](https://humehealth.com/pages/hume-pod-v4) · [测量条件](https://humehealth.com/pages/faq) · [围度公式](https://doczz.net/doc/7924325/prediction-of-percent-body-fat-for-us-navy-men-from-body) -->
 
-| 日期 | 体重 kg | 体脂率 % | 腰围 cm | 脂肪量 kg | 骨骼肌量 kg | 内脏脂肪（App 数值） | 体水分 % |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| — | — | — | — | — | — | — | — |
+| 日期 | 体重 kg | Hume 体脂率 % | 腰围 cm | 颈围 cm | 肚脐腹围 cm | 围度估算体脂率 % | 脂肪量 kg | 骨骼肌量 kg | 内脏脂肪（App 数值） | 体水分 % |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| — | — | — | — | — | — | — | — | — | — | — |
 {#body-trend-data .table-centered}
 
-<div class="yh-trend-charts" data-source="body-trend-data" data-columns="1,2,5"></div>
+<div class="yh-trend-charts" data-source="body-trend-data" data-columns="1,2,6,8"></div>
 
 #### 睡眠（Oura Ring）
 
-按起床日期记录前一晚的实际睡眠。优先比较总睡眠和作息时间的长期趋势；深睡、REM 的单晚分钟数不列为核心指标。[睡眠指标](https://support.ouraring.com/hc/en-us/articles/5949130374547-Glossary) · [夜间心率与 HRV](https://support.ouraring.com/hc/en-us/articles/360025441974-Heart-Rate-Variability)
+<!-- 按起床日期记录前一晚的实际睡眠。优先比较总睡眠和作息时间的长期趋势；深睡、REM 的单晚分钟数不列为核心指标。[睡眠指标](https://support.ouraring.com/hc/en-us/articles/5949130374547-Glossary) · [夜间心率与 HRV](https://support.ouraring.com/hc/en-us/articles/360025441974-Heart-Rate-Variability) -->
 
 | 起床日期 | 实际入睡 | 起床时间 | 总睡眠 h | 入睡耗时 min | 睡眠效率 % | 睡眠评分 | 夜间最低静息心率 bpm | 夜间平均 HRV ms |
 |---|---|---|---:|---:|---:|---:|---:|---:|
