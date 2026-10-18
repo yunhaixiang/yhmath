@@ -170,7 +170,7 @@ flowchart TB
 1. 前半周：冷冻后半周的鸡腿肉、鸡肉末、三文鱼和半盒排骨；五袋冻果各取半袋（共1,160 g）密封放冷藏解冻，其余继续冷冻。
 2. 后半周：提前约36小时将冷冻的鸡腿肉、鸡肉末、三文鱼和半盒排骨移入冷藏解冻；五袋冻果各取剩余半袋密封放冷藏解冻。
 
-解冻水果保持冷藏（≤4°C），每批约3–4天内吃完；莓果樱桃袋可能含樱桃核碎片，入口前留意。
+
 
 #### 电饭煲线程
 
@@ -448,9 +448,9 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td>大腿后侧、臀部；下背稳定</td>
 </tr>
 <tr>
-<td><a href="https://www.youtube.com/watch?v=0z7O5m3kMO0">滑巾腿弯举</a><br>Sliding leg curl</td>
-<td>3组 × 8–12 次</td>
-<td><label><input type="checkbox" aria-label="周二滑巾腿弯举第1组"> 1</label> <label><input type="checkbox" aria-label="周二滑巾腿弯举第2组"> 2</label> <label><input type="checkbox" aria-label="周二滑巾腿弯举第3组"> 3</label></td>
+<td><a href="https://www.youtube.com/watch?v=7Ni46OtElu8">臀桥脚跟走步</a><br>Hamstring walkout</td>
+<td>3组 × 6–10 次</td>
+<td><label><input type="checkbox" aria-label="周二臀桥脚跟走步第1组"> 1</label> <label><input type="checkbox" aria-label="周二臀桥脚跟走步第2组"> 2</label> <label><input type="checkbox" aria-label="周二臀桥脚跟走步第3组"> 3</label></td>
 <td>大腿后侧、臀部</td>
 </tr>
 <tr>
@@ -948,7 +948,7 @@ https://www.efsa.europa.eu/en/press/news/120727
 | 下背<br>Lower back | — | 哑铃划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、高脚杯深蹲4组 | 难判断 |
 | 臀部<br>Glutes | 高脚杯深蹲4组、反向弓步2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、分腿蹲3组、单腿臀桥2组 | — | 充足 |
 | 大腿前侧<br>Quads | 高脚杯深蹲4组、反向弓步2组、分腿蹲3组 | — | 充足 |
-| 大腿后侧<br>Hamstrings | 罗马尼亚硬拉3组、支撑式单腿硬拉3组、滑巾腿弯举3组 | 单腿臀桥2组 | 基本充足 |
+| 大腿后侧<br>Hamstrings | 罗马尼亚硬拉3组、支撑式单腿硬拉3组、臀桥脚跟走步3组 | 单腿臀桥2组 | 基本充足 |
 | 小腿<br>Calves | 哑铃提踵6组 | — | 基本充足 |
 {.table-centered}
 
