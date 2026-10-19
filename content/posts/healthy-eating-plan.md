@@ -11,7 +11,7 @@ aliases = ['/posts/healthy-eating-plan/']
 
 
 
-每天早餐：混合水果约331 g + 高纤维谷物早餐40 g + 无糖豆奶约270 g + 一水肌酸 5g。
+每天早餐：高纤维谷物早餐40 g + 无糖豆奶约270 g + 一水肌酸 5g；周日—周二另吃混合水果盘的水果（3天均分），周三—周六每天另吃完整奇异果2个。
 
 
 
@@ -42,7 +42,7 @@ aliases = ['/posts/healthy-eating-plan/']
 采购口径：全部食材及肌酸从Walmart购买；价格为官网参考价，按周用量分摊，未含税及配送；称重商品以实收净重计，门店库存和售价可能变化。
 鸡腿按用户选定的8块、$14.88一盒采购；营养按整盒830g、每块约103.75g生重估算，实重不同须重算。周日、周三各烤4块。Coho三文鱼按每盒2块、320g计算；整周买4盒，周日、周三各做2盒共4块，周三份先冷冻。
 特瘦鸡肉末454g每周两盒，前、后半周各做一盒，后半周份购买后冷冻。Swiss Chalet BBQ熟猪背排骨每周一盒600g（含骨和酱汁），每半周各解冻复热半盒，均分到本半周的第4、7盘；暂沿用旧盒450/680的可食比例，估全盒约397g、每餐约99g可食部分，非实测出肉率；营养已改按Swiss Chalet同款标签计算。
-Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与鸡肉末、鸡蛋一起炒，均分两顿白米饭餐；营养暂按每罐沥干约260g估算，实收沥干重量优先。冷冻水果每周买5袋共2320g；每半周各袋取半袋，共1160g冷藏解冻，一周全部用于7天早餐。
+Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与鸡肉末、鸡蛋一起炒，均分两顿白米饭餐；营养暂按每罐沥干约260g估算，实收沥干重量优先。水果盘每周一盘1.3kg，周日—周二吃完；内附巧克力酸奶蘸酱不吃。完整奇异果每周8个，周三—周六每天2个。
 白米为Great Value Long Grain White Rice 900g。每次量干米120mL（按约0.8g/mL估96g），每周两次共约192g，各均分两餐；每次加水约120mL，作为沿用此前米水体积比1:1的试煮起点。
 -->
 
@@ -61,10 +61,8 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
 | 蘑菇 | [Your Fresh Market Sliced Cremini Mushrooms](https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725)<br>227 g / 盒 | 1盒 / 周 | $2.44 |
 | 嫩菠菜 | [Your Fresh Market Baby Spinach](https://www.walmart.ca/en/ip/baby-spinach-142g/1Z471AOSG7GL)<br>142 g / 盒 | 4盒 / 周 | $13.76 |
 | 番茄意面酱 | [Catelli Garden Select Tomato & Basil Pasta Sauce](https://www.walmart.ca/en/ip/Catelli-Garden-Select-Tomato-Basil-Pasta-Sauce-600-mL-Jar/3B5Q7OZH5XF7)<br>600 mL / 瓶 | 1瓶 / 周 | $2.67 |
-| 冷冻四莓混合水果 | [Great Value 4 Berry Blend](https://www.walmart.ca/en/ip/Great-Value-4-Berry-Blend/40BRV9VQC1J8)<br>500 g / 袋 | 1袋 / 周 | $4.66 |
-| 冷冻莓果樱桃 | [Great Value Berry Cherry Medley](https://www.walmart.ca/en/ip/Great-Value-Berry-Cherry-Medley/7C3ZOZRR30IU)<br>500 g / 袋 | 1袋 / 周 | $4.66 |
-| 冷冻混合水果 | [Great Value Peach, Strawberry and Tropical Fruit Blend](https://www.walmart.ca/en/ip/Great-Value-Peach-Strawberry-and-Tropical-Fruit-Blend/6000191275612)<br>600 g / 袋 | 1袋 / 周 | $4.66 |
-| 冷冻奇异果片 | [Family Delight Frozen Sliced Kiwi](https://www.walmart.ca/en/ip/Family-Delight-Frozen-Sliced-Kiwi-360g-Tropical/1WY6UJQ4FZWK?classType=REGULAR)<br>360 g / 袋 | 2袋 / 周 | $5.96 |
+| 新鲜混合水果盘 | [Your Fresh Market Extra Large Party Fruit Tray](https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497)<br>1.3 kg / 盘；不吃随附巧克力酸奶蘸酱 | 1盘 / 周 | 约$15.97 |
+| 完整奇异果 | [Zespri Kiwi](https://www.walmart.ca/en/ip/kiwi/6000196794990)<br>单颗售卖 | 8个 / 周 | 约$7.76 |
 | 意面 | [Primo Spaghetti](https://www.walmart.ca/en/ip/PRIMO-SPAGHETTI/1YCQ0A4KHLLW)<br>454 g / 包 | 按需补 | 约$0.45 |
 | 全麦卷饼皮 | [Dempster’s 100% Whole Wheat Medium Tortillas](https://www.walmart.ca/en/ip/Dempster-s-100-Whole-Wheat-Medium-Tortillas/1060329)<br>340 g / 袋，10片（34 g / 片） | 按需补 | 约$0.54 |
 | Chipotle蛋黄酱 | [Hellmann’s Mild Chipotle Mayonnaise](https://www.walmart.ca/en/ip/Hellmann-s-Chipotle-Mayonnaise-Mild-Dressing-340ml/5NDTYWNJRQ1Y)<br>340 mL / 瓶 | 按需补 | 约$0.22 |
@@ -81,7 +79,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
 | 减盐酱油 | [Great Value Reduced Sodium Soya Sauce](https://www.walmart.ca/en/ip/Great-Value-Reduced-Sodium-Soya-Sauce/6000187053934)<br>450 mL / 瓶 | 按需补 | 约$0.15 |
 | 鸡粉 | [Knorr Chicken Instant Stock Mix](https://www.walmart.ca/en/ip/Knorr-Chicken-Instant-Stock-Mix/10303650)<br>150 g / 罐 | 按需补 | 约$0.03 |
 | 一水肌酸 | [LEANFIT SPORT Creatine Monohydrate — Unflavoured（Walmart）](https://www.walmart.ca/fr/ip/leanfit-sport-creatine-monohydrate-en-poudre-non-aromatis-300-g-5-g-de-cratine-par-portion-certification-informed-choice-cratine-micronise-et-de-quali/6000208594600)<br>无味，300 g / 罐，参考$27.98 | 按需补 | 约$3.26 |
-| 每周合计 | — | — | 约$163 |
+| 每周合计 | — | — | 约$167 |
 {.table-centered}
 
 
@@ -110,9 +108,8 @@ flowchart TB
     subgraph cold[冷冻／解冻线程]
         C0{本次备餐} -->|前半周| C1[本次鸡腿肉、鸡肉末和三文鱼冷藏；半盒BBQ排骨提前解冻；后半周份冷冻]
         C0 -->|后半周| C2[鸡腿肉、鸡肉末、三文鱼及半盒BBQ排骨提前约36小时移入冷藏解冻]
-        C1 --> C4[五袋冻果各取半袋，密封冷藏解冻]
-        C2 --> C4
-        C4 --> C3[本次食材就绪]
+        C1 --> C3[本次食材就绪]
+        C2 --> C3
     end
     subgraph rice[电饭煲线程]
         SR[白米]
@@ -180,8 +177,8 @@ flowchart TB
 
 #### 冷冻／解冻线程
 
-1. 前半周：冷冻后半周的鸡腿肉、鸡肉末、三文鱼和半盒排骨；五袋冻果各取半袋（共1,160 g）密封放冷藏解冻，其余继续冷冻。
-2. 后半周：提前约36小时将冷冻的鸡腿肉、鸡肉末、三文鱼和半盒排骨移入冷藏解冻；五袋冻果各取剩余半袋密封放冷藏解冻。
+1. 前半周：冷冻后半周的鸡腿肉、鸡肉末、三文鱼和半盒排骨。
+2. 后半周：提前约36小时将冷冻的鸡腿肉、鸡肉末、三文鱼和半盒排骨移入冷藏解冻。
 
 
 
@@ -271,30 +268,30 @@ flowchart TB
 | 食物 | 份量 | 热量（kcal） | 占参考赤字3,805 kcal（额外加吃） | 剩余每周赤字（kcal，额外加吃） | 剩余日均赤字（kcal） |
 |---|---|---:|---:|---:|---:|
 | [酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）](https://www.bbqchickenca.com/) | 1整份，1.2 lb | 1,156，菜单标注 | 约30% | 2,649.44 | 378.49 |
-| [凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）](https://6ixtywings.com/menu_items/chicken-caesar-wrap/) | 1个＋默认普通薯条 | 估1,100–1,500 | 约29–39% | 2,305.44–2,705.44 | 329.35–386.49 |
-| [炸鸡汉堡（Burger Burger Johnny Cash Chicken）](https://order.online/store/burger-burger-25113744) | 1个 | 估750–1,050 | 约20–28% | 2,755.44–3,055.44 | 393.63–436.49 |
-| [炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）](https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ) | 1整套，含米饭、饺子、yam配菜、汤及沙拉 | 估1,100–1,600 | 约29–42% | 2,205.44–2,705.44 | 315.06–386.49 |
-| [脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）](https://osmows.com/nutrition-calculator) | 1个Regular，含蒜酱及OzPotle酱 | 估750–1,050 | 约20–28% | 2,755.44–3,055.44 | 393.63–436.49 |
-| 新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings） | 1整份，1 lb带骨 | 估650–950 | 约17–25% | 2,855.44–3,155.44 | 407.92–450.78 |
-| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约20% | 3,055.44 | 436.49 |
-| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约18% | 3,135.44 | 447.92 |
-| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约16% | 3,185.44 | 455.06 |
-| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约16% | 3,205.44 | 457.92 |
-| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约15% | 3,235.44 | 462.21 |
-| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约14% | 3,265.44 | 466.49 |
-| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约14% | 3,275.44 | 467.92 |
-| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约13% | 3,295.44 | 470.78 |
-| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约13% | 3,325.44 | 475.06 |
-| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约12% | 3,365.44 | 480.78 |
-| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约11% | 3,385.44 | 483.63 |
-| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约10% | 3,425.44 | 489.35 |
-| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约9% | 3,465.44 | 495.06 |
-| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约8% | 3,485.44 | 497.92 |
-| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约7% | 3,525.44 | 503.63 |
-| [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约7% | 3,545.44 | 506.49 |
-| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约6% | 3,575.44 | 510.78 |
-| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约5% | 3,605.44 | 515.06 |
-| [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约4% | 3,665.44 | 523.63 |
+| [凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）](https://6ixtywings.com/menu_items/chicken-caesar-wrap/) | 1个＋默认普通薯条 | 估1,100–1,500 | 约26–36% | 2,673.64–3,073.64 | 381.95–439.09 |
+| [炸鸡汉堡（Burger Burger Johnny Cash Chicken）](https://order.online/store/burger-burger-25113744) | 1个 | 估750–1,050 | 约18–25% | 3,123.64–3,423.64 | 446.23–489.09 |
+| [炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）](https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ) | 1整套，含米饭、饺子、yam配菜、汤及沙拉 | 估1,100–1,600 | 约26–38% | 2,573.64–3,073.64 | 367.66–439.09 |
+| [脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）](https://osmows.com/nutrition-calculator) | 1个Regular，含蒜酱及OzPotle酱 | 估750–1,050 | 约18–25% | 3,123.64–3,423.64 | 446.23–489.09 |
+| 新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings） | 1整份，1 lb带骨 | 估650–950 | 约16–23% | 3,223.64–3,523.64 | 460.52–503.38 |
+| [Pepperoni 披萨（Pizza Pizza，大号）](https://www.pizzapizza.ca/about-us/nutrition/large-pizza/) | 3片 | 约750 | 约18% | 3,423.64 | 489.09 |
+| [奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约670 | 约16% | 3,503.64 | 500.52 |
+| [炒饭（Panda Express Fried Rice，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约312 g | 约620 | 约15% | 3,553.64 | 507.66 |
+| [肉汁奶酪薯条（Pizza Pizza Classic Poutine）](https://www.pizzapizza.ca/about-us/nutrition/poutine/) | 1份 | 约600 | 约14% | 3,573.64 | 510.52 |
+| [巨无霸汉堡（加拿大 McDonald’s）](https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac) | 1个，不含薯条和饮料 | 约570 | 约14% | 3,603.64 | 514.81 |
+| [炸鸡汉堡（KFC Famous Chicken Sandwich）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 1个，不含薯条和饮料 | 约540 | 约13% | 3,633.64 | 519.09 |
+| [巧克力奶昔（DQ Chocolate Shake）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1杯Small | 约530 | 约13% | 3,643.64 | 520.52 |
+| [陈皮鸡（Panda Express Orange Chicken，美版参考）](https://www.pandaexpress.com/nutritioninformation) | 1份约168 g，不含米饭 | 约510 | 约12% | 3,663.64 | 523.38 |
+| [迷你布朗尼（Pizza Pizza Two-Bite Brownies）](https://www.pizzapizza.ca/about-us/nutrition/desserts/) | 6个 | 约480 | 约12% | 3,693.64 | 527.66 |
+| [炸鸡（KFC Original Recipe）](https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf) | 2块鸡大腿，不含配餐和蘸酱 | 约440 | 约11% | 3,733.64 | 533.38 |
+| [原味波浪薯片（Wavy Lay’s）](https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips) | 75 g | 约420 | 约10% | 3,753.64 | 536.23 |
+| [焦糖星冰乐（Starbucks Caramel Frappuccino）](https://fr.starbucks.ca/menu/product/424/iced) | 1杯Grande，473 mL，标准配方 | 约380 | 约9% | 3,793.64 | 541.95 |
+| [牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个 | 约340 | 约8% | 3,833.64 | 547.66 |
+| [炸鸡柳（DQ Chicken Strips）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 3条，不含蘸酱 | 约320 | 约8% | 3,853.64 | 550.52 |
+| [薯条（DQ Fries）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约280 | 约7% | 3,893.64 | 556.23 |
+| [炸洋葱圈（DQ Onion Rings）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1份Regular，不含蘸酱 | 约260 | 约6% | 3,913.64 | 559.09 |
+| [香草冰淇淋（DQ Vanilla Cone）](https://www.dairyqueen.com/en-ca/nutrition/food-treats/) | 1个Small甜筒，不加脆皮和配料 | 约230 | 约6% | 3,943.64 | 563.38 |
+| [普通雪碧](https://www.coca-cola.com/ca/en/brands/sprite/products) | 1瓶500 mL | 约200 | 约5% | 3,973.64 | 567.66 |
+| [普通可口可乐](https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394) | 1罐355 mL | 约140 | 约3% | 4,033.64 | 576.23 |
 {.table-centered}
 
 #### 零卡或低卡放纵餐替代品
@@ -305,15 +302,15 @@ flowchart TB
 |---|---|---|---:|---:|
 | 含糖可乐 | [Coca-Cola Zero Sugar Zero Caffeine](https://www.walmart.ca/en/ip/Coca-Cola-Zero-Sugar-Zero-Caffeine-355mL-Can-12-Pack/6000202941547) | 1罐355 mL | 0 | 0% |
 | 汽水，不想要甜味 | [bubly Lime Sparkling Water](https://www.walmart.ca/en/ip/Bubly-Lime-Sparkling-Water-355ml-cans-pack-of-12/6000197924484) | 1罐355 mL | 0 | 0% |
-| 含糖冰茶 | [Nestea Zero Sugar Iced Tea](https://www.walmart.ca/en/ip/Nestea-Zero-Sugar-Iced-Tea-473mL/2QW2HXHP2Z41) | 1瓶473 mL | 约10 | 约0.3% |
-| 果冻、甜点 | [Jell-O Zero Sugar Strawberry Jelly Powder Mix](https://www.walmart.ca/en/ip/Jell-O-Strawberry-Jelly-Powder-Light-Gelatin-Mix/6000188760145) | 加水制成125 mL | 约10 | 约0.3% |
-| 巧克力甜点 | [Snack Pack No Sugar Added Chocolate Pudding Cups](https://www.walmart.ca/en/ip/seort/10287782) | 1杯99 g | 约60 | 约1.6% |
-| 香草奶味甜点 | [Snack Pack No Sugar Added Vanilla Pudding Cups](https://www.walmart.ca/en/ip/snack-pack-no-sugar-added-vanilla-pudding-cups/10287875) | 1杯99 g | 约60 | 约1.6% |
-| 冰淇淋、雪糕 | [DEL MONTE Strawberry Frozen Fruit Bars](https://www.walmart.ca/en/ip/DEL-MONTE-Strawberry-Frozen-Fruit-Bars-10-x-50-ml/6000202764024) | 1支50 mL | 约50 | 约1.3% |
-| 巧克力雪糕 | [Popsicle Fudgsicle Frozen Dairy Dessert Bars](https://www.walmart.ca/en/ip/Popsicle-Fudgsicle-Frozen-Dairy-Dessert-Bars-12-x-60-ml/6000195509106) | 1支60 mL | 约80 | 约2% |
-| 奶味冰淇淋 | [Halo Top Vanilla Bean Frozen Dessert](https://www.walmart.ca/en/ip/Halo-Top-Vanilla-Bean-Frozen-Dessert/6000199406471) | 125 mL | 约80 | 约2% |
+| 含糖冰茶 | [Nestea Zero Sugar Iced Tea](https://www.walmart.ca/en/ip/Nestea-Zero-Sugar-Iced-Tea-473mL/2QW2HXHP2Z41) | 1瓶473 mL | 约10 | 约11% |
+| 果冻、甜点 | [Jell-O Zero Sugar Strawberry Jelly Powder Mix](https://www.walmart.ca/en/ip/Jell-O-Strawberry-Jelly-Powder-Light-Gelatin-Mix/6000188760145) | 加水制成125 mL | 约10 | 约3% |
+| 巧克力甜点 | [Snack Pack No Sugar Added Chocolate Pudding Cups](https://www.walmart.ca/en/ip/seort/10287782) | 1杯99 g | 约60 | 约2% |
+| 香草奶味甜点 | [Snack Pack No Sugar Added Vanilla Pudding Cups](https://www.walmart.ca/en/ip/snack-pack-no-sugar-added-vanilla-pudding-cups/10287875) | 1杯99 g | 约60 | 约2% |
+| 冰淇淋、雪糕 | [DEL MONTE Strawberry Frozen Fruit Bars](https://www.walmart.ca/en/ip/DEL-MONTE-Strawberry-Frozen-Fruit-Bars-10-x-50-ml/6000202764024) | 1支50 mL | 约50 | 约1.2% |
+| 巧克力雪糕 | [Popsicle Fudgsicle Frozen Dairy Dessert Bars](https://www.walmart.ca/en/ip/Popsicle-Fudgsicle-Frozen-Dairy-Dessert-Bars-12-x-60-ml/6000195509106) | 1支60 mL | 约80 | 约1.4% |
+| 奶味冰淇淋 | [Halo Top Vanilla Bean Frozen Dessert](https://www.walmart.ca/en/ip/Halo-Top-Vanilla-Bean-Frozen-Dessert/6000199406471) | 125 mL | 约80 | 约3% |
 | 饼干、脆口零食 | [Quaker Crispy Minis Original Large Brown Rice Cakes](https://www.walmart.ca/en/ip/quaker-crispy-minis-rice-cakes-original/10284949) | 2片，不加抹酱 | 约70 | 约1.8% |
-| 薯片、咸脆零食 | [Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags](https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags/206256) | 1迷你袋31 g | 约110 | 约3% |
+| 薯片、咸脆零食 | [Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags](https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags/206256) | 1迷你袋31 g | 约110 | 约0.7% |
 {.table-centered}
 
 <!--
@@ -821,8 +818,8 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 ### 营养统计
 
 <!--
-现行营养计算口径（2026-10-18）：每周Swiss Chalet BBQ熟猪背排骨一盒600g；四顿各用1/4盒150g含骨及酱汁重量。暂沿用旧盒450/680的可食比例，按每周约397.06g、每顿约99.26g熟可食部分计算，非Swiss Chalet公布出肉率；营养向量已用同款标签，实称去骨后可食重量后应重算。特瘦鸡肉末每周两盒共908g生重，均分四顿白米饭餐，每顿约227g；营养总量仍按旧900g代理，待实物标签重算。鸡腿为8块一盒，按830g/周、每块103.75g生重估算，卷饼餐2块207.5g生重、每顿意面1块103.75g生重，不扣修脂；沿用同部位营养代理，非本款实测。其余肉按生重、谷物按干重、土豆按生可食重，豌豆+胡萝卜按沥干可食重。Coho三文鱼每周4盒共8块，按每盒320g、全周1,280g、每餐1块160g生重计算，实收净重不同须重算。
-豆奶每周两桶、每桶标称1.89L：一桶全部用于7天早餐，早餐按质量称重，前6天各约270g、第7天用尽余量；另一桶用于餐外。1.89L不等于精确的1890g，早餐实际每份质量以该桶净重的1/7为准。营养仍按标称体积计每周3.78L（早餐1.89L、餐外1.89L），因为营养标签按mL标示。Fibre One280g/周，五袋冷冻水果共2320g/周，平均每天早餐约2320/7g。每周12个全蛋，早餐不含蛋；周日、周三各用6个（2个水煮、4个鸡肉末炒蛋）；每顿鸡腿卷饼餐2个水煮蛋，每顿白米饭餐相当于2个炒蛋；土豆餐和意面餐不加蛋。白米约192g干重/周（每次120mL约96g、4餐各约48g），意面160g干重/周（4餐各40g），小土豆按680g生可食重量估算（4餐各170g）；购入后按实称重量均分。
+现行营养计算口径（2026-10-19）：每周Swiss Chalet BBQ熟猪背排骨一盒600g；四顿各用1/4盒150g含骨及酱汁重量。暂沿用旧盒450/680的可食比例，按每周约397.06g、每顿约99.26g熟可食部分计算，非Swiss Chalet公布出肉率；营养向量已用同款标签，实称去骨后可食重量后应重算。特瘦鸡肉末每周两盒共908g生重，均分四顿白米饭餐，每顿约227g；营养总量仍按旧900g代理，待实物标签重算。鸡腿为8块一盒，按830g/周、每块103.75g生重估算，卷饼餐2块207.5g生重、每顿意面1块103.75g生重，不扣修脂；沿用同部位营养代理，非本款实测。其余肉按生重、谷物按干重、土豆按生可食重，豌豆+胡萝卜按沥干可食重。Coho三文鱼每周4盒共8块，按每盒320g、全周1,280g、每餐1块160g生重计算，实收净重不同须重算。
+豆奶每周两桶、每桶标称1.89L：一桶全部用于7天早餐，早餐按质量称重，前6天各约270g、第7天用尽余量；另一桶用于餐外。1.89L不等于精确的1890g，早餐实际每份质量以该桶净重的1/7为准。营养仍按标称体积计每周3.78L（早餐1.89L、餐外1.89L），因为营养标签按mL标示。Fibre One280g/周；水果盘标称1.3kg含蘸酱，营养暂按1.3kg均为可食水果估算（实际水果重量较少），分3天吃；奇异果8个，暂按每个去皮后75g、全周600g估算，分4天吃。每周12个全蛋，早餐不含蛋；周日、周三各用6个（2个水煮、4个鸡肉末炒蛋）；每顿鸡腿卷饼餐2个水煮蛋，每顿白米饭餐相当于2个炒蛋；土豆餐和意面餐不加蛋。白米约192g干重/周（每次120mL约96g、4餐各约48g），意面160g干重/周（4餐各40g），小土豆按680g生可食重量估算（4餐各170g）；购入后按实称重量均分。
 周橄榄油37.5mL，密度0.91g/mL；食盐4.5g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡肉末炒蛋5、土豆5、蘑菇2.5、菠菜10、意面5。每半周蘑菇取半盒约113.5g只给卷饼，菠菜取2盒共284g均分土豆餐；每周蘑菇227g、菠菜568g。排骨酱汁已含在Swiss Chalet标签中，不重复添加。整周鸡肉末炒蛋用油1茶匙、蒜粉1/2茶匙和洋葱粉1/2茶匙，不额外加盐；每周减盐酱油30mL、鸡粉1/4茶匙，Walmart新品牌标签待确认，暂未计入营养；费用已粗估。每周白米约192g干重、鸡蛋12个（水煮4个、鸡肉末炒蛋8个）。干香料合计16.25茶匙，采用原混合代理。锅中未食用的油脂、酱汁尚未实测。
 以下营养向量顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。保留用于后续增减计算；同类食品代理不代表当前品牌实测。
 鸡腿/100g：[149,18.6,7.9,1.7,0,0,0,92,62.3,5,0.6,231]
@@ -837,7 +834,7 @@ Little Yellows（与Boomer Gold同UPC）/110g包装标示：[80,2,0,0,16,2,1,0,0
 蘑菇/100g：[22,2.5,0.1,0.02,4.3,0.6,1.7,0,6,18,0.4,448]
 菠菜/100g：[23,2.86,0.39,0.063,3.63,2.2,0.42,0,79,99,2.71,558]
 Catelli番茄酱/125mL：[50,1,1.5,0.2,9,1,5,0,330,20,0.5,350]（纤维1g为代理）
-前三袋冷冻混合水果合并代理/100g：[55,0.7,0.2,0.03,13,2,10,0,5,15,0.3,175]，合计1600g/周；各产品水果比例及完整营养标签未核实，非三袋实测。冷冻奇异果两袋共720g/周暂以USDA生奇异果/100g代理：[61,1.14,0.52,0.029,14.66,3,8.99,0,3,34,0.31,312]，非本款实测；来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg09.pdf （NDB 09148）。五袋参考价合计$19.94/周；前三袋各$4.66，奇异果两袋各$2.98。
+新鲜混合水果盘/100g暂估：[45,0.6,0.15,0.03,10.7,1.1,8.7,0,5,12,0.25,170]，按1.3kg水果估算；季节配比不固定，且标称重量包含不吃的蘸酱，因此是低精度代理而非本款标签。完整奇异果8个、暂按去皮后75g/个共600g，沿用USDA生奇异果/100g代理：[61,1.14,0.52,0.029,14.66,3,8.99,0,3,34,0.31,312]；来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg09.pdf （NDB 09148）。水果盘与奇异果参考价合计$23.73/周；水果盘$15.97，奇异果8个×$0.97。
 Primo意面/85g：[310,11,1.5,0.4,64,4,2,0,0,20,2.5,175]。每周干面160g，两次各80g、各均分两餐；按Walmart参考价$1.27/454g，分摊约$0.45/周。营养采用同款454g包装的较完整零售标签：https://www.fortinos.ca/en/spaghetti-pasta/p/20731217001_EA ；Walmart页面仅列部分营养，Primo官网数据与零售标签略有差别，实物标签优先。
 全麦Medium卷饼/34g：[90,3,2.5,0.5,15,2,0,0,180,0,0.75,125]，每顿1片；标签来源：https://www.fortinos.ca/en/100-whole-wheat-medium-tortillas/p/20135127_EA 。
 Hellmann’s Mild Chipotle蛋黄酱/15mL：[35,0.1,3.5,0.3,1,0,1,0,105,0,0,0]。每顿10mL、每周20mL；钾、铁未列标签，此处暂按0计，并非证实绝对不含。配料含添加糖。来源：https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 。
@@ -846,8 +843,8 @@ Hellmann’s Mild Chipotle蛋黄酱/15mL：[35,0.1,3.5,0.3,1,0,1,0,105,0,0,0]。
 Fibre1/62g：[140,4,1,0.2,53,27,1,0,220,250,8,150]
 橄榄油/100g：[884,0,100,13.8,0,0,0,0,2,1,0.56,1]
 基础干香料每16茶匙：[118,5.5,2.3,0.4,25,8,2,0,30,130,3.3,550]
-未取整周合计：[12430.52025977006,983.1169307250584,452.8515693538747,109.33891370561127,1225.6062106821698,281.0456176726038,334.81522761648137,4750.748739495798,12783.527157080371,7927.844512112475,121.46141178651667,33733.305196106456]。卷饼每顿用熟去壳毛豆25g作馅、Chipotle蛋黄酱10mL；鸡肉末炒蛋每次用1/2茶匙油，按油全部食用计算。未根据Walmart其他新品牌全面重算，新鸡肉末每周908g而基线为900g。排骨出肉率、罐头沥干重、量杯松紧、品牌标签及锅中弃油造成估算误差。
-周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字3805.4380735632736、日均543.6340105090391kcal；除7700得理论脂肪等价值约0.494±0.211kg/周（周消耗±1623.60kcal对应），不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
+未取整周合计：[12062.32025977006,978.3489307250584,450.9775693538747,109.21411370561128,1139.1142106821699,259.74561767260377,277.1272276164814,4750.748739495798,12764.92715708037,7803.044512112475,119.53941178651667,32768.905196106454]。卷饼每顿用熟去壳毛豆25g作馅、Chipotle蛋黄酱10mL；鸡肉末炒蛋每次用1/2茶匙油，按油全部食用计算。未根据Walmart其他新品牌全面重算，新鸡肉末每周908g而基线为900g。排骨出肉率、罐头沥干重、量杯松紧、品牌标签及锅中弃油造成估算误差。
+周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字4173.638073563274、日均596.2340105090391kcal；除7700得理论脂肪等价值约0.542±0.211kg/周（周消耗±1623.60kcal对应），不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
 主要来源：
 BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉率仍为估计。
 豆奶：https://www.silkcanada.ca/products/plant-based-beverage/unsweetened-soy-beverage/ 、https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA
@@ -864,9 +861,9 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 
 #### 一周营养统计
 
-**热量估计（不含放纵餐）：日均摄入约1,776 kcal、消耗约2,319 ± 232 kcal、赤字约544 ± 232 kcal；对应每周摄入约12,431 kcal、消耗约16,236 ± 1,624 kcal、赤字约3,805 ± 1,624 kcal。按7,700 kcal/kg粗算，理论脂肪等价值约减0.49 ± 0.21 kg／周，不等于实际体重下降量。** [估算局限](https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner)
+**热量估计（不含放纵餐）：日均摄入约1,723 kcal、消耗约2,319 ± 232 kcal、赤字约596 ± 232 kcal；对应每周摄入约12,062 kcal、消耗约16,236 ± 1,624 kcal、赤字约4,174 ± 1,624 kcal。按7,700 kcal/kg粗算，理论脂肪等价值约减0.54 ± 0.21 kg／周，不等于实际体重下降量。** [估算局限](https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner)
 
-<!-- 按当前约定，摄入固定为计划值；消耗的“±”暂按10%作规划情景，不是实测误差或95%置信区间。按中心值换算的理论脂肪等价值约0.49 ± 0.21 kg／周，不代表实际纯脂肪减量。 -->
+<!-- 按当前约定，摄入固定为计划值；消耗的“±”暂按10%作规划情景，不是实测误差或95%置信区间。按中心值换算的理论脂肪等价值约0.54 ± 0.21 kg／周，不代表实际纯脂肪减量。 -->
 
 消耗构成（估算）：
 
@@ -883,24 +880,24 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 运动按扣除同期基础消耗后的净增加量计入，避免重复计算；日常加成不代表单独测得的食物热效应。
 
 <!--
-以下暂按Swiss Chalet排骨整盒约397 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约7.9%（109.3g×9kcal/g÷12,431kcal）；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。摄入无偏差仅为当前赤字模型约定，不代表标签、食材重量与实际食用量均已核实。-->
+以下暂按Swiss Chalet排骨整盒约397 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约8.1%（109.2g×9kcal/g÷12,062kcal）；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。摄入无偏差仅为当前赤字模型约定，不代表标签、食材重量与实际食用量均已核实。-->
 
 | 营养指标 | 每周合计 | 平均每天 | 建议每日范围或目标 |
 |---|---:|---:|---|
-| 热量 | 约12,431 kcal | 约1,776 kcal | 1,800–2,000 kcal |
-| 蛋白质 | 约983 g | 约140.4 g | 130–165 g |
-| 总脂肪 | 约453 g | 约64.7 g | 45–65 g |
-| 饱和脂肪 | 约109.3 g | 约15.6 g | 11.8 g |
-| 饱和脂肪占总热量 | 约7.9% | 约7.9% | ≤6% |
-| 碳水化合物 | 约1,226 g | 约175.1 g | 180–240 g |
-| 膳食纤维 | 约281 g | 约40.1 g | 30–38 g |
-| 总糖 | 约335 g | 约47.8 g | – |
+| 热量 | 约12,062 kcal | 约1,723 kcal | 1,800–2,000 kcal |
+| 蛋白质 | 约978 g | 约139.8 g | 130–165 g |
+| 总脂肪 | 约451 g | 约64.4 g | 45–65 g |
+| 饱和脂肪 | 约109.2 g | 约15.6 g | 11.5 g |
+| 饱和脂肪占总热量 | 约8.1% | 约8.1% | ≤6% |
+| 碳水化合物 | 约1,139 g | 约162.7 g | 180–240 g |
+| 膳食纤维 | 约260 g | 约37.1 g | 30–38 g |
+| 总糖 | 约277 g | 约39.6 g | – |
 | 添加糖 | 粗估约31–66 g | 粗估约4–9 g | ≤25 g |
 | 膳食胆固醇 | 约4,751 mg | 约679 mg | – |
-| 钠 | 约12,784 mg | 约1,826 mg | ≤2,300 mg |
-| 钙 | 约7,928 mg | 约1,133 mg | 1,000 mg |
-| 铁 | 约121.5 mg | 约17.4 mg | 8 mg |
-| 钾 | 约33,733 mg | 约4,819 mg | ≥3,400 mg |
+| 钠 | 约12,765 mg | 约1,824 mg | ≤2,300 mg |
+| 钙 | 约7,803 mg | 约1,115 mg | 1,000 mg |
+| 铁 | 约119.5 mg | 约17.1 mg | 8 mg |
+| 钾 | 约32,769 mg | 约4,681 mg | ≥3,400 mg |
 | 维生素D | 粗估约159 µg | 粗估约23 µg | 15 µg |
 | 维生素B12 | 已计约49.0 µg | 已计约7.0 µg | 2.4 µg |
 | 碘 | 粗估800–900 µg | 粗估114–129 µg | 150 µg |
@@ -914,7 +911,8 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 
 | 餐次 | 热量 kcal | 蛋白质 g | 脂肪 g | 饱和脂肪 g | 碳水 g | 纤维 g | 总糖 g | 胆固醇 mg | 钠 mg | 钙 mg | 铁 mg | 钾 mg |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 每天早餐 | 376 | 14.0 | 6.5 | 0.8 | 83.4 | 27.2 | 33.8 | 0 | 254 | 553 | 7.2 | 1,195 |
+| 周日—周二早餐（水果盘） | 383 | 13.8 | 6.2 | 0.8 | 85.0 | 24.3 | 39.4 | 0 | 261 | 536 | 7.3 | 1,211 |
+| 周三—周六早餐（奇异果） | 279 | 12.9 | 6.3 | 0.7 | 60.6 | 24.0 | 15.2 | 0 | 244 | 535 | 6.7 | 942 |
 | 周二午／周三晚／周五晚／周日午 | 646 | 54.4 | 26.7 | 7.7 | 43.9 | 7.6 | 10.1 | 128 | 877 | 199 | 6.6 | 2,576 |
 | 周日晚／周四午 | 655 | 60.0 | 35.4 | 8.0 | 27.9 | 4.9 | 3.5 | 581 | 668 | 112 | 5.3 | 1,412 |
 | 周一午／周二晚／周四晚／周六午 | 659 | 61.8 | 23.4 | 8.0 | 51.7 | 5.0 | 3.8 | 594 | 685 | 121 | 3.5 | 884 |
@@ -927,7 +925,7 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 维生素D：此前已计30.12µg/周（旧129.56减去原Atlantic三文鱼904g所计99.44）；现购养殖Coho无可靠实测D数据，暂借用USDA野生Coho生鱼307 IU/85g≈9.03µg/100g，按1,280g/周估115.58µg；12个全蛋按NIH每个约1.1µg估13.2µg；合计约158.9µg/周、22.7µg/天。养殖与野生、饲料和实收鱼重均可能改变实际值，不应将此粗估当成实测摄入或维生素D状态。来源：https://ods.od.nih.gov/pubs/usdandb/VitaminD-Food.pdf 、https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/ 。B12已计49.0364µg/周；排骨和鸡肉末的标签资料不全，暂不补入，不代表不含。全蛋也未纳入B12限定来源小计。Coho三文鱼EPA+DHA按每100g约1.206g、全周1,280g计约15.44g，排骨未定量。
 碘暂列800–900µg/周：旧估计958.54µg扣去本次取消1.5g加碘盐约114.68µg后为843.86µg，取宽范围；排骨中的盐不假定为加碘盐，肉类碘未可靠定量。加碘盐依据：https://inspection.canada.ca/en/food-labels/labelling/industry/salt ，暂按每克盐76.45µg碘。ALA仍仅粗估8–9g/周（主要来自豆奶、鱼类，油量减少影响小），排骨未可靠计入；未计入不等于零，不能据此诊断不足。
 总糖包含天然糖；添加糖粗估约31–66g/周：Swiss Chalet BBQ排骨标签总糖11g/140g，暂估397g可食部计总糖约31g/周；配料含糖、糖浆和糖蜜，暂估其中添加糖约20–35g；Catelli番茄意面酱每周600mL、总糖约24g且配料含糖，暂估添加糖约8–18g；Hellmann’s Chipotle蛋黄酱每周约1.3g糖、配料含添加糖；豌豆+胡萝卜罐头配料含糖，暂估两罐合计0–4g添加糖；两片全麦卷饼等其余来源暂估0–2g。范围取整且不是统计置信区间；排骨和罐头均未单列添加糖，实值可能超出范围。Fibre One配料未列糖，混合水果与无糖豆奶的天然糖不算添加糖。来源：https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8209140 、https://www.kraftheinz.com/en-CA/catelli/products/00064200010122-garden-select-tomato-basil-pasta-sauce 、https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 、https://www.walmart.ca/en/ip/Great-Value-Peas-and-Carrots-398-mL/5YDQIJZT1APQ 、https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html 。糖已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但鸡肉末炒蛋所用酱油、鸡粉待补算。
-宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列11.8g为约1776kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
+宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列11.5g为约1723kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
 依据：
 https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
 https://ods.od.nih.gov/pubs/usdandb/ALA-Food.pdf.pdf
