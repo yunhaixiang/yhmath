@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yunhai Xiang</title>
-    <link>http://localhost:1313/</link>
+    <link>https://yunhaimath.com/</link>
     <description>Recent content on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://yunhaimath.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Middle Extension Sheaves</title>
-      <link>http://localhost:1313/posts/1b64c0e/</link>
+      <link>https://yunhaimath.com/posts/1b64c0e/</link>
       <pubDate>Wed, 16 Sep 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/1b64c0e/</guid>
+      <guid>https://yunhaimath.com/posts/1b64c0e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Even a cursory glance … leaves one with the impression that there is a fascinating bestiary waiting to be compiled.
@@ -313,10 +313,10 @@ The natural forget-supports morphism $\mathrm R(m^{\mathrm{an}})_!\to\mathrm R(m
     
     <item>
       <title>Rigid Local Systems</title>
-      <link>http://localhost:1313/posts/07bd743/</link>
+      <link>https://yunhaimath.com/posts/07bd743/</link>
       <pubDate>Thu, 03 Sep 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/07bd743/</guid>
+      <guid>https://yunhaimath.com/posts/07bd743/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The art of doing mathematics consists in finding that special case which contains all the germs of generality.
@@ -706,13 +706,13 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
     
     <item>
       <title>减肥饮食锻炼计划</title>
-      <link>http://localhost:1313/posts/06e58c7/</link>
+      <link>https://yunhaimath.com/posts/06e58c7/</link>
       <pubDate>Sun, 30 Aug 2026 11:43:05 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/06e58c7/</guid>
+      <guid>https://yunhaimath.com/posts/06e58c7/</guid>
       <description>&lt;h2 id=&#34;饮食&#34;&gt;饮食&lt;/h2&gt;
 &lt;h3 id=&#34;计划表&#34;&gt;计划表&lt;/h3&gt;
-&lt;p&gt;每天早餐：高纤维谷物早餐40 g + 无糖豆奶约270 g + 一水肌酸 5g；周日—周二另吃混合水果盘的水果（3天均分），周三—周六每天另吃完整奇异果2个。&lt;/p&gt;
+&lt;p&gt;每天早餐：高纤维谷物早餐40 g + 无糖豆奶约270 g + 一水肌酸 5g + 水果；水果前半周是混合水果拼盘，后半周是奇异果。&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -854,13 +854,13 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;滚动备餐：周日午餐饭后做上1–上7；周三晚餐饭后做下1–下7。&lt;/p&gt;
+&lt;p&gt;滚动备餐：周日午餐饭后做上1–上7；周三晚餐饭后做下1–下7。周二中午记得拿出冻肉到冷藏解冻。&lt;/p&gt;
 &lt;h3 id=&#34;购物表&#34;&gt;购物表&lt;/h3&gt;
 &lt;!--
 采购口径：全部食材及肌酸从Walmart购买；价格为官网参考价，按周用量分摊，未含税及配送；称重商品以实收净重计，门店库存和售价可能变化。
 鸡腿按用户选定的8块、$14.88一盒采购；营养按整盒830g、每块约103.75g生重估算，实重不同须重算。周日、周三各烤4块。Coho三文鱼按每盒2块、320g计算；整周买4盒，周日、周三各做2盒共4块，周三份先冷冻。
 特瘦鸡肉末454g每周两盒，前、后半周各做一盒，后半周份购买后冷冻。Swiss Chalet BBQ熟猪背排骨每周一盒600g（含骨和酱汁），每半周各解冻复热半盒，均分到本半周的第4、7盘；暂沿用旧盒450/680的可食比例，估全盒约397g、每餐约99g可食部分，非实测出肉率；营养已改按Swiss Chalet同款标签计算。
-Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与鸡肉末、鸡蛋一起炒，均分两顿白米饭餐；营养暂按每罐沥干约260g估算，实收沥干重量优先。水果盘每周一盘1.3kg，周日—周二吃完；内附巧克力酸奶蘸酱不吃。完整奇异果每周8个，周三—周六每天2个。
+Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与鸡肉末、鸡蛋一起炒，均分两顿白米饭餐；营养暂按每罐沥干约260g估算，实收沥干重量优先。水果盘每周一盘1.3kg，周日—周二吃完。完整奇异果每周7个，周三—周五每天2个、周六1个。
 白米为Great Value Long Grain White Rice 900g。每次量干米120mL（按约0.8g/mL估96g），每周两次共约192g，各均分两餐；每次加水约120mL，作为沿用此前米水体积比1:1的试煮起点。
 --&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -953,15 +953,15 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;新鲜混合水果盘&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497&#34;&gt;Your Fresh Market Extra Large Party Fruit Tray&lt;/a&gt;&lt;br&gt;1.3 kg / 盘；不吃随附巧克力酸奶蘸酱&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/extra-large-party-fruit-tray-your-fresh-market/6000205351497&#34;&gt;Your Fresh Market Extra Large Party Fruit Tray&lt;/a&gt;&lt;br&gt;1.3 kg / 盘&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1盘 / 周&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约$15.97&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;完整奇异果&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/kiwi/6000196794990&#34;&gt;Zespri Kiwi&lt;/a&gt;&lt;br&gt;单颗售卖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;8个 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$7.76&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;7个 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$6.79&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;意面&lt;/td&gt;
@@ -1063,7 +1063,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;每周合计&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$167&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$166&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1375,7 +1375,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,805 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,219 kcal（额外加吃）&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;剩余每周赤字（kcal，额外加吃）&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;剩余日均赤字（kcal）&lt;/th&gt;
       &lt;/tr&gt;
@@ -1385,193 +1385,193 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;&lt;a href=&#34;https://www.bbqchickenca.com/&#34;&gt;酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整份，1.2 lb&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1,156，菜单标注&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约30%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,649.44&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;378.49&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约27%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,063.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;437.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://6ixtywings.com/menu_items/chicken-caesar-wrap/&#34;&gt;凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个＋默认普通薯条&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,500&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约26–36%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,673.64–3,073.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;381.95–439.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,719.39–3,119.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;388.48–445.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://order.online/store/burger-burger-25113744&#34;&gt;炸鸡汉堡（Burger Burger Johnny Cash Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约18–25%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,123.64–3,423.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;446.23–489.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,169.39–3,469.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;452.77–495.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ&#34;&gt;炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整套，含米饭、饺子、yam配菜、汤及沙拉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,600&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约26–38%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,573.64–3,073.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;367.66–439.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,619.39–3,119.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;374.20–445.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://osmows.com/nutrition-calculator&#34;&gt;脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Regular，含蒜酱及OzPotle酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约18–25%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,123.64–3,423.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;446.23–489.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,169.39–3,469.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;452.77–495.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings）&lt;/td&gt;
           &lt;td&gt;1整份，1 lb带骨&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估650–950&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约16–23%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,223.64–3,523.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;460.52–503.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15–23%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,269.39–3,569.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;467.06–509.91&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/large-pizza/&#34;&gt;Pepperoni 披萨（Pizza Pizza，大号）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3片&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约750&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,423.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;489.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,469.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;495.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,503.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;500.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,549.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;507.06&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约312 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约620&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,553.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;507.66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,599.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;514.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,573.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;510.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,619.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;517.06&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约570&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,603.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;514.81&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,649.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;521.34&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,633.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;519.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,679.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;525.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,643.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;520.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,689.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;527.06&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,663.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;523.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,709.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;529.91&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;6个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,693.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;527.66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,739.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;534.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡（KFC Original Recipe）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2块鸡大腿，不含配餐和蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约440&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,733.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;533.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,779.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;539.91&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,753.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;536.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,799.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;542.77&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,793.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;541.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,839.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;548.48&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约340&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,833.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;547.66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,879.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;554.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸鸡柳（DQ Chicken Strips）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3条，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约320&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,853.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;550.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,899.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;557.06&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;薯条（DQ Fries）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约280&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,893.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;556.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,939.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;562.77&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸洋葱圈（DQ Onion Rings）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约260&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,913.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;559.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,959.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;565.63&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;香草冰淇淋（DQ Vanilla Cone）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Small甜筒，不加脆皮和配料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约230&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,943.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;563.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,989.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;569.91&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶500 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约200&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,973.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;567.66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4,019.39&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;574.20&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
@@ -1592,7 +1592,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;th&gt;替代品&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,805 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字4,219 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1615,28 +1615,28 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Nestea-Zero-Sugar-Iced-Tea-473mL/2QW2HXHP2Z41&#34;&gt;Nestea Zero Sugar Iced Tea&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶473 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.2%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;果冻、甜点&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Jell-O-Strawberry-Jelly-Powder-Light-Gelatin-Mix/6000188760145&#34;&gt;Jell-O Zero Sugar Strawberry Jelly Powder Mix&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;加水制成125 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约3%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约0.2%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;巧克力甜点&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/seort/10287782&#34;&gt;Snack Pack No Sugar Added Chocolate Pudding Cups&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯99 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.4%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;香草奶味甜点&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/snack-pack-no-sugar-added-vanilla-pudding-cups/10287875&#34;&gt;Snack Pack No Sugar Added Vanilla Pudding Cups&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯99 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.4%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;冰淇淋、雪糕&lt;/td&gt;
@@ -1650,28 +1650,28 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Popsicle-Fudgsicle-Frozen-Dairy-Dessert-Bars-12-x-60-ml/6000195509106&#34;&gt;Popsicle Fudgsicle Frozen Dairy Dessert Bars&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1支60 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1.4%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;奶味冰淇淋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Halo-Top-Vanilla-Bean-Frozen-Dessert/6000199406471&#34;&gt;Halo Top Vanilla Bean Frozen Dessert&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;125 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约3%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饼干、脆口零食&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/quaker-crispy-minis-rice-cakes-original/10284949&#34;&gt;Quaker Crispy Minis Original Large Brown Rice Cakes&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2片，不加抹酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约70&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.7%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;薯片、咸脆零食&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags/206256&#34;&gt;Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1迷你袋31 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约110&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约0.7%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.6%&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2166,7 +2166,7 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 &lt;h3 id=&#34;主要健身肌群示意图&#34;&gt;主要健身肌群示意图&lt;/h3&gt;
 &lt;div class=&#34;fig-env&#34; id=&#34;muscle-anatomy-front&#34; data-lang=&#34;zh&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/fitness-muscles-front.png&#34;
+        src=&#34;https://yunhaimath.com/img/fitness-muscles-front.png&#34;
         alt=&#34;主要健身肌群正面简图：胸肌 Chest、肩前侧 Front delts、肩外侧 Side delts、二头肌 Biceps、小臂 Forearms、腹肌 Abs、侧腹 Obliques、大腿前侧 Quads。&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -2179,7 +2179,7 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 
 &lt;div class=&#34;fig-env&#34; id=&#34;muscle-anatomy-back&#34; data-lang=&#34;zh&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/fitness-muscles-back.png&#34;
+        src=&#34;https://yunhaimath.com/img/fitness-muscles-back.png&#34;
         alt=&#34;主要健身肌群背面简图：肩后侧 Rear delts、斜方肌 Traps、背阔肌 Lats、三头肌 Triceps、下背 Lower back、臀部 Glutes、大腿后侧 Hamstrings、小腿 Calves。&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -2251,7 +2251,7 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 &lt;h3 id=&#34;营养统计&#34;&gt;营养统计&lt;/h3&gt;
 &lt;!--
 现行营养计算口径（2026-10-19）：每周Swiss Chalet BBQ熟猪背排骨一盒600g；四顿各用1/4盒150g含骨及酱汁重量。暂沿用旧盒450/680的可食比例，按每周约397.06g、每顿约99.26g熟可食部分计算，非Swiss Chalet公布出肉率；营养向量已用同款标签，实称去骨后可食重量后应重算。特瘦鸡肉末每周两盒共908g生重，均分四顿白米饭餐，每顿约227g；营养总量仍按旧900g代理，待实物标签重算。鸡腿为8块一盒，按830g/周、每块103.75g生重估算，卷饼餐2块207.5g生重、每顿意面1块103.75g生重，不扣修脂；沿用同部位营养代理，非本款实测。其余肉按生重、谷物按干重、土豆按生可食重，豌豆+胡萝卜按沥干可食重。Coho三文鱼每周4盒共8块，按每盒320g、全周1,280g、每餐1块160g生重计算，实收净重不同须重算。
-豆奶每周两桶、每桶标称1.89L：一桶全部用于7天早餐，早餐按质量称重，前6天各约270g、第7天用尽余量；另一桶用于餐外。1.89L不等于精确的1890g，早餐实际每份质量以该桶净重的1/7为准。营养仍按标称体积计每周3.78L（早餐1.89L、餐外1.89L），因为营养标签按mL标示。Fibre One280g/周；水果盘标称1.3kg含蘸酱，营养暂按1.3kg均为可食水果估算（实际水果重量较少），分3天吃；奇异果8个，暂按每个去皮后75g、全周600g估算，分4天吃。每周12个全蛋，早餐不含蛋；周日、周三各用6个（2个水煮、4个鸡肉末炒蛋）；每顿鸡腿卷饼餐2个水煮蛋，每顿白米饭餐相当于2个炒蛋；土豆餐和意面餐不加蛋。白米约192g干重/周（每次120mL约96g、4餐各约48g），意面160g干重/周（4餐各40g），小土豆按680g生可食重量估算（4餐各170g）；购入后按实称重量均分。
+豆奶每周两桶、每桶标称1.89L：一桶全部用于7天早餐，早餐按质量称重，前6天各约270g、第7天用尽余量；另一桶用于餐外。1.89L不等于精确的1890g，早餐实际每份质量以该桶净重的1/7为准。营养仍按标称体积计每周3.78L（早餐1.89L、餐外1.89L），因为营养标签按mL标示。Fibre One280g/周；水果盘按1.3kg可食水果估算，分3天吃；奇异果7个，暂按每个去皮后75g、全周525g估算，分4天吃（2、2、2、1个）。每周12个全蛋，早餐不含蛋；周日、周三各用6个（2个水煮、4个鸡肉末炒蛋）；每顿鸡腿卷饼餐2个水煮蛋，每顿白米饭餐相当于2个炒蛋；土豆餐和意面餐不加蛋。白米约192g干重/周（每次120mL约96g、4餐各约48g），意面160g干重/周（4餐各40g），小土豆按680g生可食重量估算（4餐各170g）；购入后按实称重量均分。
 周橄榄油37.5mL，密度0.91g/mL；食盐4.5g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡肉末炒蛋5、土豆5、蘑菇2.5、菠菜10、意面5。每半周蘑菇取半盒约113.5g只给卷饼，菠菜取2盒共284g均分土豆餐；每周蘑菇227g、菠菜568g。排骨酱汁已含在Swiss Chalet标签中，不重复添加。整周鸡肉末炒蛋用油1茶匙、蒜粉1/2茶匙和洋葱粉1/2茶匙，不额外加盐；每周减盐酱油30mL、鸡粉1/4茶匙，Walmart新品牌标签待确认，暂未计入营养；费用已粗估。每周白米约192g干重、鸡蛋12个（水煮4个、鸡肉末炒蛋8个）。干香料合计16.25茶匙，采用原混合代理。锅中未食用的油脂、酱汁尚未实测。
 以下营养向量顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。保留用于后续增减计算；同类食品代理不代表当前品牌实测。
 鸡腿/100g：[149,18.6,7.9,1.7,0,0,0,92,62.3,5,0.6,231]
@@ -2266,7 +2266,7 @@ Little Yellows（与Boomer Gold同UPC）/110g包装标示：[80,2,0,0,16,2,1,0,0
 蘑菇/100g：[22,2.5,0.1,0.02,4.3,0.6,1.7,0,6,18,0.4,448]
 菠菜/100g：[23,2.86,0.39,0.063,3.63,2.2,0.42,0,79,99,2.71,558]
 Catelli番茄酱/125mL：[50,1,1.5,0.2,9,1,5,0,330,20,0.5,350]（纤维1g为代理）
-新鲜混合水果盘/100g暂估：[45,0.6,0.15,0.03,10.7,1.1,8.7,0,5,12,0.25,170]，按1.3kg水果估算；季节配比不固定，且标称重量包含不吃的蘸酱，因此是低精度代理而非本款标签。完整奇异果8个、暂按去皮后75g/个共600g，沿用USDA生奇异果/100g代理：[61,1.14,0.52,0.029,14.66,3,8.99,0,3,34,0.31,312]；来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg09.pdf （NDB 09148）。水果盘与奇异果参考价合计$23.73/周；水果盘$15.97，奇异果8个×$0.97。
+新鲜混合水果盘/100g暂估：[45,0.6,0.15,0.03,10.7,1.1,8.7,0,5,12,0.25,170]，按1.3kg水果估算；季节配比不固定，因此是低精度代理而非本款标签。完整奇异果7个、暂按去皮后75g/个共525g，沿用USDA生奇异果/100g代理：[61,1.14,0.52,0.029,14.66,3,8.99,0,3,34,0.31,312]；来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg09.pdf （NDB 09148）。水果盘与奇异果参考价合计$22.76/周；水果盘$15.97，奇异果7个×$0.97。
 Primo意面/85g：[310,11,1.5,0.4,64,4,2,0,0,20,2.5,175]。每周干面160g，两次各80g、各均分两餐；按Walmart参考价$1.27/454g，分摊约$0.45/周。营养采用同款454g包装的较完整零售标签：https://www.fortinos.ca/en/spaghetti-pasta/p/20731217001_EA ；Walmart页面仅列部分营养，Primo官网数据与零售标签略有差别，实物标签优先。
 全麦Medium卷饼/34g：[90,3,2.5,0.5,15,2,0,0,180,0,0.75,125]，每顿1片；标签来源：https://www.fortinos.ca/en/100-whole-wheat-medium-tortillas/p/20135127_EA 。
 Hellmann’s Mild Chipotle蛋黄酱/15mL：[35,0.1,3.5,0.3,1,0,1,0,105,0,0,0]。每顿10mL、每周20mL；钾、铁未列标签，此处暂按0计，并非证实绝对不含。配料含添加糖。来源：https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 。
@@ -2275,8 +2275,8 @@ Hellmann’s Mild Chipotle蛋黄酱/15mL：[35,0.1,3.5,0.3,1,0,1,0,105,0,0,0]。
 Fibre1/62g：[140,4,1,0.2,53,27,1,0,220,250,8,150]
 橄榄油/100g：[884,0,100,13.8,0,0,0,0,2,1,0.56,1]
 基础干香料每16茶匙：[118,5.5,2.3,0.4,25,8,2,0,30,130,3.3,550]
-未取整周合计：[12062.32025977006,978.3489307250584,450.9775693538747,109.21411370561128,1139.1142106821699,259.74561767260377,277.1272276164814,4750.748739495798,12764.92715708037,7803.044512112475,119.53941178651667,32768.905196106454]。卷饼每顿用熟去壳毛豆25g作馅、Chipotle蛋黄酱10mL；鸡肉末炒蛋每次用1/2茶匙油，按油全部食用计算。未根据Walmart其他新品牌全面重算，新鸡肉末每周908g而基线为900g。排骨出肉率、罐头沥干重、量杯松紧、品牌标签及锅中弃油造成估算误差。
-周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字4173.638073563274、日均596.2340105090391kcal；除7700得理论脂肪等价值约0.542±0.211kg/周（周消耗±1623.60kcal对应），不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
+未取整周合计：[12016.57025977006,977.4939307250584,450.5875693538747,109.19236370561129,1128.11921068217,257.49561767260377,270.38472761648137,4750.748739495798,12762.67715708037,7777.544512112475,119.30691178651666,32534.905196106454]。卷饼每顿用熟去壳毛豆25g作馅、Chipotle蛋黄酱10mL；鸡肉末炒蛋每次用1/2茶匙油，按油全部食用计算。未根据Walmart其他新品牌全面重算，新鸡肉末每周908g而基线为900g。排骨出肉率、罐头沥干重、量杯松紧、品牌标签及锅中弃油造成估算误差。
+周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字4219.388073563274、日均602.7697247947534kcal；除7700得理论脂肪等价值约0.548±0.211kg/周（周消耗±1623.60kcal对应），不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
 主要来源：
 BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉率仍为估计。
 豆奶：https://www.silkcanada.ca/products/plant-based-beverage/unsweetened-soy-beverage/ 、https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA
@@ -2291,8 +2291,8 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 其余商品来源见购物表；尚缺本款完整标签的鸡腿、蔬果及香料采用同类参考。
 --&gt;
 &lt;h4 id=&#34;一周营养统计&#34;&gt;一周营养统计&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;热量估计（不含放纵餐）：日均摄入约1,723 kcal、消耗约2,319 ± 232 kcal、赤字约596 ± 232 kcal；对应每周摄入约12,062 kcal、消耗约16,236 ± 1,624 kcal、赤字约4,174 ± 1,624 kcal。按7,700 kcal/kg粗算，理论脂肪等价值约减0.54 ± 0.21 kg／周，不等于实际体重下降量。&lt;/strong&gt; &lt;a href=&#34;https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner&#34;&gt;估算局限&lt;/a&gt;&lt;/p&gt;
-&lt;!-- 按当前约定，摄入固定为计划值；消耗的“±”暂按10%作规划情景，不是实测误差或95%置信区间。按中心值换算的理论脂肪等价值约0.54 ± 0.21 kg／周，不代表实际纯脂肪减量。 --&gt;
+&lt;p&gt;&lt;strong&gt;热量估计（不含放纵餐）：日均摄入约1,717 kcal、消耗约2,319 ± 232 kcal、赤字约603 ± 232 kcal；对应每周摄入约12,017 kcal、消耗约16,236 ± 1,624 kcal、赤字约4,219 ± 1,624 kcal。按7,700 kcal/kg粗算，理论脂肪等价值约减0.55 ± 0.21 kg／周，不等于实际体重下降量。&lt;/strong&gt; &lt;a href=&#34;https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner&#34;&gt;估算局限&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 按当前约定，摄入固定为计划值；消耗的“±”暂按10%作规划情景，不是实测误差或95%置信区间。按中心值换算的理论脂肪等价值约0.55 ± 0.21 kg／周，不代表实际纯脂肪减量。 --&gt;
 &lt;p&gt;消耗构成（估算）：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -2337,7 +2337,7 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 &lt;/table&gt;
 &lt;p&gt;运动按扣除同期基础消耗后的净增加量计入，避免重复计算；日常加成不代表单独测得的食物热效应。&lt;/p&gt;
 &lt;!--
-以下暂按Swiss Chalet排骨整盒约397 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约8.1%（109.2g×9kcal/g÷12,062kcal）；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。摄入无偏差仅为当前赤字模型约定，不代表标签、食材重量与实际食用量均已核实。--&gt;
+以下暂按Swiss Chalet排骨整盒约397 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约8.2%（109.2g×9kcal/g÷12,017kcal）；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。摄入无偏差仅为当前赤字模型约定，不代表标签、食材重量与实际食用量均已核实。--&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2350,14 +2350,14 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,062 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,723 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,017 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,717 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约978 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约139.8 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约977 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约139.6 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -2370,30 +2370,30 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
           &lt;td&gt;饱和脂肪&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约109.2 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约15.6 g&lt;/td&gt;
-          &lt;td&gt;11.5 g&lt;/td&gt;
+          &lt;td&gt;11.4 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪占总热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8.1%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8.1%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8.2%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约8.2%&lt;/td&gt;
           &lt;td&gt;≤6%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,139 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约162.7 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,128 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约161.2 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约260 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约37.1 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约257 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约36.8 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约277 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约39.6 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约270 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约38.6 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -2410,26 +2410,26 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,765 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,824 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,763 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,823 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7,803 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,115 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7,778 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,111 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约119.5 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17.1 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约119.3 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17.0 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约32,769 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,681 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约32,535 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,648 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -2501,7 +2501,7 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
           &lt;td style=&#34;text-align: right&#34;&gt;1,211&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;周三—周六早餐（奇异果）&lt;/td&gt;
+          &lt;td&gt;周三—周五早餐（奇异果2个）&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;279&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;12.9&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;6.3&lt;/td&gt;
@@ -2514,6 +2514,21 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
           &lt;td style=&#34;text-align: right&#34;&gt;535&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;6.7&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;942&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周六早餐（奇异果1个）&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;233&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;12.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;5.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;49.6&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;21.8&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;242&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;510&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;6.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;708&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二午／周三晚／周五晚／周日午&lt;/td&gt;
@@ -2597,7 +2612,7 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 维生素D：此前已计30.12µg/周（旧129.56减去原Atlantic三文鱼904g所计99.44）；现购养殖Coho无可靠实测D数据，暂借用USDA野生Coho生鱼307 IU/85g≈9.03µg/100g，按1,280g/周估115.58µg；12个全蛋按NIH每个约1.1µg估13.2µg；合计约158.9µg/周、22.7µg/天。养殖与野生、饲料和实收鱼重均可能改变实际值，不应将此粗估当成实测摄入或维生素D状态。来源：https://ods.od.nih.gov/pubs/usdandb/VitaminD-Food.pdf 、https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/ 。B12已计49.0364µg/周；排骨和鸡肉末的标签资料不全，暂不补入，不代表不含。全蛋也未纳入B12限定来源小计。Coho三文鱼EPA+DHA按每100g约1.206g、全周1,280g计约15.44g，排骨未定量。
 碘暂列800–900µg/周：旧估计958.54µg扣去本次取消1.5g加碘盐约114.68µg后为843.86µg，取宽范围；排骨中的盐不假定为加碘盐，肉类碘未可靠定量。加碘盐依据：https://inspection.canada.ca/en/food-labels/labelling/industry/salt ，暂按每克盐76.45µg碘。ALA仍仅粗估8–9g/周（主要来自豆奶、鱼类，油量减少影响小），排骨未可靠计入；未计入不等于零，不能据此诊断不足。
 总糖包含天然糖；添加糖粗估约31–66g/周：Swiss Chalet BBQ排骨标签总糖11g/140g，暂估397g可食部计总糖约31g/周；配料含糖、糖浆和糖蜜，暂估其中添加糖约20–35g；Catelli番茄意面酱每周600mL、总糖约24g且配料含糖，暂估添加糖约8–18g；Hellmann’s Chipotle蛋黄酱每周约1.3g糖、配料含添加糖；豌豆+胡萝卜罐头配料含糖，暂估两罐合计0–4g添加糖；两片全麦卷饼等其余来源暂估0–2g。范围取整且不是统计置信区间；排骨和罐头均未单列添加糖，实值可能超出范围。Fibre One配料未列糖，混合水果与无糖豆奶的天然糖不算添加糖。来源：https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8209140 、https://www.kraftheinz.com/en-CA/catelli/products/00064200010122-garden-select-tomato-basil-pasta-sauce 、https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 、https://www.walmart.ca/en/ip/Great-Value-Peas-and-Carrots-398-mL/5YDQIJZT1APQ 、https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html 。糖已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但鸡肉末炒蛋所用酱油、鸡粉待补算。
-宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列11.5g为约1723kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
+宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列11.4g为约1717kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
 依据：
 https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
 https://ods.od.nih.gov/pubs/usdandb/ALA-Food.pdf.pdf
@@ -2908,16 +2923,16 @@ https://www.efsa.europa.eu/en/press/news/120727
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;div class=&#34;yh-trend-charts&#34; data-source=&#34;sleep-trend-data&#34; data-columns=&#34;3,6,8&#34;&gt;&lt;/div&gt;
-&lt;script defer src=&#34;http://localhost:1313/js/healthy-trend-charts.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;https://yunhaimath.com/js/healthy-trend-charts.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>How is AI Going to Change the Socioeconomics of Math?</title>
-      <link>http://localhost:1313/posts/c4a91f7/</link>
+      <link>https://yunhaimath.com/posts/c4a91f7/</link>
       <pubDate>Tue, 28 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/c4a91f7/</guid>
+      <guid>https://yunhaimath.com/posts/c4a91f7/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Like any social universe, the academic world is the site of a struggle over the truth.
@@ -2938,10 +2953,10 @@ What is even the point of all this if I can’t study or work on what &lt;em&gt;
     
     <item>
       <title>Learning Japanese Part I</title>
-      <link>http://localhost:1313/posts/72d4e91/</link>
+      <link>https://yunhaimath.com/posts/72d4e91/</link>
       <pubDate>Sun, 26 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/72d4e91/</guid>
+      <guid>https://yunhaimath.com/posts/72d4e91/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The goal of mathematics is harmony in truth, and the goal of art is harmony in beauty; emotion is at work in both.
@@ -4459,10 +4474,10 @@ What is even the point of all this if I can’t study or work on what &lt;em&gt;
     
     <item>
       <title>Curry–Howard Isomorphism</title>
-      <link>http://localhost:1313/posts/fa7e807/</link>
+      <link>https://yunhaimath.com/posts/fa7e807/</link>
       <pubDate>Sat, 25 Jul 2026 17:40:43 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/fa7e807/</guid>
+      <guid>https://yunhaimath.com/posts/fa7e807/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is an old maxim that says that two empires that are too large will collapse. The analog in set theory is that two different theories that are too powerful must necessarily contradict each other.
@@ -4842,10 +4857,10 @@ $$&lt;p&gt;is an equivalence for every $A,B : \mathcal U$.&lt;/p&gt;
     
     <item>
       <title>Tannakian Category and Tannaka–Krein  Duality</title>
-      <link>http://localhost:1313/posts/f2c37cb/</link>
+      <link>https://yunhaimath.com/posts/f2c37cb/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/f2c37cb/</guid>
+      <guid>https://yunhaimath.com/posts/f2c37cb/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My lawful wife is mathematics; my mistress is mechanics.
@@ -5803,10 +5818,10 @@ $\widetilde\omega$ from the statement.&lt;span class=&#34;proof-mark&#34; aria-h
     
     <item>
       <title>Six Functor Formalism</title>
-      <link>http://localhost:1313/posts/b3f91ac/</link>
+      <link>https://yunhaimath.com/posts/b3f91ac/</link>
       <pubDate>Sat, 27 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/b3f91ac/</guid>
+      <guid>https://yunhaimath.com/posts/b3f91ac/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     We often hear that mathematics consists mainly of “proving theorems.” Is a writer’s job mainly that of “writing sentences?”
@@ -6172,10 +6187,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Aperiodic Tilings</title>
-      <link>http://localhost:1313/posts/0f6a2bd/</link>
+      <link>https://yunhaimath.com/posts/0f6a2bd/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/0f6a2bd/</guid>
+      <guid>https://yunhaimath.com/posts/0f6a2bd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     There is no such thing as quasicrystals, only quasi-scientists.
@@ -6322,10 +6337,10 @@ $$&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
     
     <item>
       <title>Riemann–Hilbert Correspondence and Lisse $\ell$-adic Sheaves</title>
-      <link>http://localhost:1313/posts/06d0bcc/</link>
+      <link>https://yunhaimath.com/posts/06d0bcc/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/06d0bcc/</guid>
+      <guid>https://yunhaimath.com/posts/06d0bcc/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     In mathematics the art of proposing a question must be held of higher value than solving it.
@@ -7097,10 +7112,10 @@ is Verdier dual for $a:X\rightarrow\mathrm{Spec}(k)$. If $X$ is smooth of pure d
     
     <item>
       <title>AI and the Game of Go</title>
-      <link>http://localhost:1313/posts/636adda/</link>
+      <link>https://yunhaimath.com/posts/636adda/</link>
       <pubDate>Sun, 07 Jun 2026 17:38:48 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/636adda/</guid>
+      <guid>https://yunhaimath.com/posts/636adda/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The rules of Go are so elegant, organic, and rigorously logical that if intelligent life forms exist elsewhere in the universe, they almost certainly play Go.
@@ -7163,7 +7178,7 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
 &lt;p&gt;I submitted it to train on the Trillium supercomputer for 12 hours on a H100 with 10 core CPU. GitHub link is &lt;a href=&#34;https://github.com/yunhaixiang/sygo/tree/main&#34;&gt;here&lt;/a&gt;. I decided to call it Sygo. Training consist of alternating ResNet training and self play. The ResNet improves upon itself by the self play results by minimizing the cross entropy loss between its own results and that of the self play. One immediate bug I encountered during my first few training is that the AI will overwhelmingly prefer passing, so the game ends very early. I dont know why this happens. Initially I tried to fix it by not allowing it to pass in the first N steps, but immediately after it tries to pass again. My solution was to force it to play till the end, until there are very vew legal moves. The downside to this strategy is I expect it to learn bad habits like filling its own eyes. Here is a game I (black) played with my AI (white) after a few hours of training on my own laptop.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/game.jpg&#34;
+        src=&#34;https://yunhaimath.com/img/game.jpg&#34;
         alt=&#34;A game played against Sygo&#34;
         style=&#34;max-width: 30%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -7181,10 +7196,10 @@ The first layer is the stem layer. It does a convolution, normalizes results, an
     
     <item>
       <title>Algebraic de Rham Cohomology and Gauss–Manin Connections</title>
-      <link>http://localhost:1313/posts/ccda5dd/</link>
+      <link>https://yunhaimath.com/posts/ccda5dd/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/ccda5dd/</guid>
+      <guid>https://yunhaimath.com/posts/ccda5dd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     My first impression on seeing him (Grothendieck) lecture was that he had been transported from an advanced alien civilization in some distant solar system to visit ours in order to speed up our intellectual evolution.
@@ -7363,10 +7378,10 @@ $$\nabla_{\mathrm{GM}}:\mathcal H^n_{\mathrm{dR}}(X/S)\longrightarrow \mathcal H
     
     <item>
       <title>The Work of Art (and Science) in the Age of Algorithmic Reproducibility</title>
-      <link>http://localhost:1313/posts/f1d86af/</link>
+      <link>https://yunhaimath.com/posts/f1d86af/</link>
       <pubDate>Sun, 31 May 2026 00:00:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/f1d86af/</guid>
+      <guid>https://yunhaimath.com/posts/f1d86af/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Each good mathematician is at least half a philosopher, and each good philosopher is at least half a mathematician.
@@ -7386,7 +7401,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;and he attached the following image:&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/monet.jpeg&#34;
+        src=&#34;https://yunhaimath.com/img/monet.jpeg&#34;
         alt=&#34;An AI-generated image in the style of a Monet painting&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -7407,7 +7422,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;Should we then value a work of art by its exhibition value? I also believe not, but with a subtlety. Today, we are in an age where the meaning of exhibition is very different from what it was when Benjamin lived. In particular, we have commodified the exhibition of our lives on social media to an extent that is pathological. The attention of social media users has become the commodity of the information age. Every single platform is pushing for more engagement, more attention from users, and more dopamine, which has permanently altered our brain chemistry. It is no wonder that AI art gets a high number of views – it is trained to do precisely that: videos of Stephen Hawking skateboarding in his wheelchair, Peter Griffin as a real-life person, historical figures coming back to life and getting speeding tickets, etc. Our spiritual life has become &lt;em&gt;the Bagel&lt;/em&gt; from the film &lt;em&gt;Everything Everywhere All at Once&lt;/em&gt;. There is everything, but also nothing, and we are forced to be spectators. To me, experiencing social media feels like being Malcolm McDowell strapped to the seat and having my eyes forcibly held open.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/malcolm.jpg&#34;
+        src=&#34;https://yunhaimath.com/img/malcolm.jpg&#34;
         alt=&#34;Malcolm McDowell with his eyes held open in A Clockwork Orange&#34;
         style=&#34;max-width: 50%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;
@@ -7422,7 +7437,7 @@ Please describe, in as much detail as possible, what makes this inferior to a re
 &lt;p&gt;In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own right with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable artwork could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.&lt;/p&gt;
 &lt;h2 id=&#34;algorithmic-reproducibility-of-science&#34;&gt;Algorithmic Reproducibility of Science&lt;/h2&gt;
 &lt;p&gt;When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One cannot claim that math is like art just because human researchers have a sense of which kinds of math are more beautiful or elegant – that is an &lt;em&gt;aesthetic&lt;/em&gt; formed from personal experience, and an aesthetic is very different from art. What then will AI bring to science?&lt;/p&gt;
-&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;http://localhost:1313/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have recently written an essay specifically discussing this in the case of &lt;a href=&#34;https://yunhaimath.com/posts/a-case-for-ai-assisted-math/&#34;&gt;math&lt;/a&gt;. For physics, there is a very good &lt;a href=&#34;https://www.youtube.com/watch?v=PctlBxRh0p4&#34;&gt;discussion by Prof. David Kipping&lt;/a&gt; on YouTube. In computer science, there have been experiments such as &lt;a href=&#34;https://arxiv.org/abs/2408.14033&#34;&gt;autonomous researchers&lt;/a&gt;. In biology labs, people are experimenting with &lt;a href=&#34;https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/&#34;&gt;autonomous AI research via robots&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In short, I do not think AI challenges science as much as it does art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;div class=&#34;bib-env&#34;&gt;
@@ -7450,10 +7465,10 @@ Please describe, in as much detail as possible, what makes this inferior to a re
     
     <item>
       <title>The Disproof of Unit Distance Conjecture</title>
-      <link>http://localhost:1313/posts/6bf3326/</link>
+      <link>https://yunhaimath.com/posts/6bf3326/</link>
       <pubDate>Thu, 28 May 2026 17:13:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/6bf3326/</guid>
+      <guid>https://yunhaimath.com/posts/6bf3326/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Why did the two algebraic geometers get arrested at the airport? Because they were talking about blowing up six points on the plane.
@@ -7548,10 +7563,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>A Case for AI-Assisted Math</title>
-      <link>http://localhost:1313/posts/8ad6b3f/</link>
+      <link>https://yunhaimath.com/posts/8ad6b3f/</link>
       <pubDate>Sun, 24 May 2026 22:59:19 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/8ad6b3f/</guid>
+      <guid>https://yunhaimath.com/posts/8ad6b3f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The struggle itself toward the heights is enough to fill a man’s heart.
@@ -7585,10 +7600,10 @@ If $\Lambda$ can be found such that $U_\Lambda$ is large, then for $R&gt;1$, the
     
     <item>
       <title>Hyperelliptic Jacobians and Hasse–Witt Matrix</title>
-      <link>http://localhost:1313/posts/e7d7cf9/</link>
+      <link>https://yunhaimath.com/posts/e7d7cf9/</link>
       <pubDate>Fri, 15 May 2026 14:28:09 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/e7d7cf9/</guid>
+      <guid>https://yunhaimath.com/posts/e7d7cf9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     God exists since mathematics is consistent, and the Devil exists since we cannot prove it.
@@ -8167,10 +8182,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Brauer Group III</title>
-      <link>http://localhost:1313/posts/d04997f/</link>
+      <link>https://yunhaimath.com/posts/d04997f/</link>
       <pubDate>Tue, 07 Apr 2026 16:42:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/d04997f/</guid>
+      <guid>https://yunhaimath.com/posts/d04997f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps.
@@ -8274,10 +8289,10 @@ and we are done.&lt;span class=&#34;proof-mark&#34; aria-hidden=&#34;true&#34;&g
     
     <item>
       <title>Formalization of a Result of Fibonacci Sequence</title>
-      <link>http://localhost:1313/posts/ad8f57d/</link>
+      <link>https://yunhaimath.com/posts/ad8f57d/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ad8f57d/</guid>
+      <guid>https://yunhaimath.com/posts/ad8f57d/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity. And if mathematicians tend to burn out early in their careers, it is probably because life has forced them to acquire too much common sense, thereby rendering them too sane to work. But by then they are sane enough to teach, so a use can still be found for them.
@@ -8829,10 +8844,10 @@ First, lower left of power of diagonal is 0.&lt;/p&gt;
     
     <item>
       <title>AI for Math</title>
-      <link>http://localhost:1313/posts/85ac599/</link>
+      <link>https://yunhaimath.com/posts/85ac599/</link>
       <pubDate>Mon, 02 Mar 2026 15:39:07 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/85ac599/</guid>
+      <guid>https://yunhaimath.com/posts/85ac599/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     This is the way the world ends. Not with a bang but a whimper.
@@ -8933,10 +8948,10 @@ where $\eta$ is called the learning rate, which controls how much we update the 
     
     <item>
       <title>Leray and Serre–Hochschild Spectral Sequences</title>
-      <link>http://localhost:1313/posts/2878d6e/</link>
+      <link>https://yunhaimath.com/posts/2878d6e/</link>
       <pubDate>Mon, 02 Feb 2026 01:07:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2878d6e/</guid>
+      <guid>https://yunhaimath.com/posts/2878d6e/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is the music of reason.
@@ -9099,10 +9114,10 @@ induced by the Čech to derived spectral sequence. This is a useful tool for com
     
     <item>
       <title>Expander Graphs</title>
-      <link>http://localhost:1313/posts/4ce12e1/</link>
+      <link>https://yunhaimath.com/posts/4ce12e1/</link>
       <pubDate>Sat, 24 Jan 2026 23:25:50 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/4ce12e1/</guid>
+      <guid>https://yunhaimath.com/posts/4ce12e1/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Mathematics is not the rigid and rigidity-producing schema that the layman thinks it is; rather, in it we find ourselves at that meeting point of constraint and freedom that is the very essence of human nature.
@@ -9174,15 +9189,15 @@ is at least $h$, where $\partial S$ is the set of edges with exactly one endpoin
     
     <item>
       <title>Brauer Groups Part II</title>
-      <link>http://localhost:1313/posts/ae85645/</link>
+      <link>https://yunhaimath.com/posts/ae85645/</link>
       <pubDate>Sun, 18 Jan 2026 23:38:19 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/ae85645/</guid>
+      <guid>https://yunhaimath.com/posts/ae85645/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The mathematics are usually considered as being the very antipodes of Poesy. Yet Mathesis and Poesy are of the closest kindred, for they are both works of the imagination.
   &lt;/div&gt;&lt;div class=&#34;yh-pullquote-attrib&#34;&gt;— Thomas Hill&lt;/div&gt;&lt;/aside&gt;
-&lt;p&gt;Continuing from &lt;a href=&#34;http://localhost:1313/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
+&lt;p&gt;Continuing from &lt;a href=&#34;https://yunhaimath.com/posts/brauer1&#34;&gt;Part I&lt;/a&gt;, we delve deeper into Brauer groups. In this post, we&#39;ll compute examples of Brauer groups of fields, relate them to cohomology, discuss period-index, and prove several relevant theorems including Skolem–Noether theorem and Wedderburn&#39;s theorem. We will also generalize the Brauer group construction to rings. These will correspond generally to &lt;span class=&#34;yh-ref&#34; data-ref-kind=&#34;bib&#34;
       data-cite-key=&#34;Poo17&#34;&gt;
   ⟦cite:Poo17⟧
 &lt;/span&gt; from chapters 2 and 3, but I will not follow them precisely, and will add some additional details and proofs. We follow previous notation, and fix $K$ a field.&lt;/p&gt;
@@ -9681,10 +9696,10 @@ is an isomorphism of $R$-algebras.&lt;/li&gt;
     
     <item>
       <title>Brauer Groups Part I</title>
-      <link>http://localhost:1313/posts/5e33123/</link>
+      <link>https://yunhaimath.com/posts/5e33123/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/5e33123/</guid>
+      <guid>https://yunhaimath.com/posts/5e33123/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The introduction of cohomology is a &lt;em&gt;technique&lt;/em&gt; for making the invisible visible.
@@ -10244,10 +10259,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>做数学科研一定要在学术界吗</title>
-      <link>http://localhost:1313/posts/64e091b/</link>
+      <link>https://yunhaimath.com/posts/64e091b/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/64e091b/</guid>
+      <guid>https://yunhaimath.com/posts/64e091b/</guid>
       <description>&lt;p&gt;  上个月学校来了一个访问学者给低维拓扑和几何群论的talk，我去参加了。他讲的topic是infinite-type surface mapping class group的，和学校里一个教授合作的成果。我不怎么懂低维拓扑，所以其实也没怎么听进去。不过后来和他聊天，觉得这个人还蛮有意思。我了解到他是现在主业做quant的，副业做数学科研。这其实让我蛮震惊的。北美这边Quant的每周平均工作时间是45~55小时，我们假设是50个小时。一篇纯数学paper大概需要600～800小时，我们假设是700个小时。如果每年产出一篇，除以一年52周，一周需要至少13小时。等于说他大概需要每周工作63小时，这工作时间蛮夸张的（虽然比国内996还算好一些）。如果要产出更高，那很估计得70小时甚至80小时。&lt;/p&gt;
 &lt;p&gt;  数学科研的一个好处是，不需要昂贵的实验仪器，只需要只纸和笔和脑子，就可以做科研。理论上，只要足够肝，一边在industry工作一边做数学科研也是可能的事情。与此同时我也在思考，如果我要毕业后留在学术界，到底能不能存活，拿到tenure？我毫无疑问是喜欢思考数学的，但是说实话现在也感受到一些现实的压力。所以我打算权衡一下利弊。&lt;/p&gt;
 &lt;p&gt;  第一、博士后一般两到三站，基本肯定是需要投加拿大以外的学校。这就对拿PR造成了很大的困难，因为现在PR基本需要job offer了，拿到了以后5年内也必须留加3年。如果坚持在学术界相当于放弃了PR。我从2018年就在加拿大，已经习惯了自由民主，如果最后我必须回国去大厂996我心理上很难接受。第二、博士后薪资极低，而且竞争相当恐怖，也没有一定能申到tenure-track的保证（事实上最近的政治气候来看，纯数学funding越来越少，NSF直接砍了70%）。如果做了两三站我就34，35岁左右了。到了这个年纪，我如果一点自己的存款都没有，我感觉是受不了的。第三、博士后两年换一个地方意味着长期的孤独。第四、学术界也有相当多无聊的数学以外的事情，比如教学（如果是研究生以上的课可能还有些意思，但是事实上大多是教大一微积分这些无聊的，快被AI取代来教的课），申grant，networking，各种committe，administrative work。这些加起来可能占实际工作的一半时间，我都没有兴趣。第五、在学术界不意味着能够做喜欢的课题，往往需要追逐时髦，在非自己本职的领域内花时间也不太可能，而我往往只能花时间在自己感兴趣的课题上。&lt;/p&gt;
@@ -10258,10 +10273,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Learning French Part I</title>
-      <link>http://localhost:1313/posts/fcfb2b0/</link>
+      <link>https://yunhaimath.com/posts/fcfb2b0/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fcfb2b0/</guid>
+      <guid>https://yunhaimath.com/posts/fcfb2b0/</guid>
       <description>&lt;p&gt;I&#39;m learning french. Here&#39;s some notes I wrote to help myself learn. We focus on grammar today.&lt;/p&gt;
 &lt;h2 id=&#34;letters&#34;&gt;Letters&lt;/h2&gt;
 &lt;ul&gt;
@@ -10735,10 +10750,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>天空之王</title>
-      <link>http://localhost:1313/posts/6554748/</link>
+      <link>https://yunhaimath.com/posts/6554748/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/6554748/</guid>
+      <guid>https://yunhaimath.com/posts/6554748/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  那天，我看见一个自由的灵魂翱翔于西雅图的天空。他从云层的褶皱中钻出，夕阳点燃了他的翅膀。他大笑着，翻滚着，好像地上的熙熙攘攘都和他无关。地上的人听不到他的笑声，只忙于在灯火与钢铁中穿梭。偶尔有人抬头，也只觉得这天上的鸟儿飞得古怪。只有那个驻足在那里的牵着气球的小男孩，他看着那天空默默的怔了。&lt;/p&gt;
 &lt;p&gt;  一切都要从那个奇怪的无线电讯息说起。&lt;/p&gt;
@@ -10768,10 +10783,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>论「纯粹」</title>
-      <link>http://localhost:1313/posts/73356ed/</link>
+      <link>https://yunhaimath.com/posts/73356ed/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/73356ed/</guid>
+      <guid>https://yunhaimath.com/posts/73356ed/</guid>
       <description>&lt;p&gt;  我研究的领域叫做纯粹数学，也有人把它称作基础数学或者理论数学，但是我偏爱「纯粹」二字。喜欢纯粹数学的人，往往也是纯粹的人。纯粹是我在一个人中最钦佩的品质，也是我最想拥有的品质。所以我今天不是来聊数学的，而是来聊聊「纯粹」。什么叫「纯粹」？这个词似乎从来没有明确的定义。存在主义哲学中有一个概念叫Authenticity，我认为是和中文语境中「纯粹」是非常相近的，译作「本真」。对于这个概念，不同的哲学家（萨特、尼采、海德格尔）又有不同的诠释。但是我觉得我自己的理解又都与他们有一些微妙的不同。所以这个概念也许每个人都有自己的理解。我今天来谈谈我的理解。&lt;/p&gt;
 &lt;p&gt;  一个纯粹的人应该有什么特质？第一，我认为一个纯粹的人能够沉醉于一件事物中，达到忘我、无我的境界。譬如苏轼在『水龙吟·古来云海茫茫』中写道赤诚居士（也就是司马承祯）「清净无为，坐忘遗照，八篇奇语」、以及谪仙（也就是李白）「八表神游，浩然相对，酒酣箕踞」。纯粹地沉浸在数学，电影，音乐的时候，好像自我已不存在，意识不到了：「我」已经成为了比我自己更大的事物中的一部分，融为了一体。这种事物也没必要是文艺高雅的：仔细的品尝美食、在雪地里打雪仗、品味雨后的公园的气味、与喜欢的人之间畅所欲言，都可以是纯粹的事情。爬到一座高峰之顶，俯瞰群山，感受到自我的渺小和自然的崇高（Sublime），而后自己也成为了群山的一部分，这也是纯粹的。苦思一个数学定理许久，最终得到了更深层次的理解时，能够体会到一种独特的、崇高的美妙，此时心中已然「无我」，这是至高的纯粹。而什么是不纯粹的呢？譬如说化妆。首先我觉得化妆是没任何问题的事情，而且如果它能给你更多自信的话，一定程度上是很有益的事情。但是，化妆这件事是把注意力放在自身上的，是通过他人对自我价值的肯定来得到满足的。有人说化妆是「取悦自己，不是取悦他人」，我觉得是扯蛋的，是在自己骗自己。你可以是不为了取悦任何具体的人，但是总的来说在追求时尚这件事上是有整个社会「大他者」的影子的：本质上是取悦一个抽象的「大他者」，以此来对自我价值得到肯定而感觉到愉悦。譬如说追星，也是同样的道理。看似是把注意力放在他者（明星）身上，但是对于明星的爱慕是对理想自我的投射，是一种另类的自恋。明星作为理想自我的投射，能够提供一种幻想，好像自己也成为了这个明星，这同样也是依赖他者而得到自我价值肯定而带来满足。再譬如说竞技类电子游戏，是通过战胜他人获得对他者的优越感来得到自我价值肯定的愉悦。再譬如男频或者女频小说，基本都是靠满足一种对他者的权力幻想而获得自我价值肯定的满足。换言之，这种无我的境界不是通过他者（或者大他者）对自我的肯定而得到的（这种生活方式被海德格尔称为das Man）。它是把注意力从自我剥离，然后从内心深处地把自我融入这个事物中。在这过程中不去思考自己，不去思考他人，就像李白「酒酣箕踞」，不去考虑自己的坐姿是否难看。在脱离了「他者眼中的自我」的桎梏后，融入了崇高的事物，而获得了主体性。能够体会这种感觉的人，肯定知道我说的是什么，也绝对不会忘记这种感觉。与此正相反的就是沉迷享乐主义和消费主义的人，典型的这种人就是『美国精神病人』的经典角色杀人魔Patrick Bateman。这种人内心是最空虚的，是可怜又可恶的一类人。&lt;/p&gt;
 &lt;p&gt;  第二，一个纯粹的人一定是反威权和反从众的。纯粹不同于纯真或者纯洁。恰恰相反，纯粹的人不是生活在象牙塔中，不谙世事的人。纯粹的人是和所有人一样，经历着社会对自我的异化和物化的人。而他们与他人不同的一点是，他们对这种异化和物化是有坚定的反抗的。他们仍然记得自己本来的样子，顽强的保持着自我。所以纯粹的人是既能够脱离自我，又能够坚持自我的人。『肖申克的救赎』的主角「安迪」就是这样的人。安迪含冤入狱，受到各种非人的对待，典狱长甚至谋害了能够给安迪作证的狱友，但是安迪仍然守护着内心的纯粹。我印象最深的就是安迪给监狱放音乐，他说「音乐是唯一他们从你身上带不走的」。有时候整个社会就像是「肖申克」这个监狱，不断的告诉人，你应当如何如何，然后再把你人格的所有方面都价值化。男女关系是这方面的重灾区，比如什么「生育价值」、「性价值」、「经济价值」，甚至最近我看到了最让我觉得毛骨悚然的词「情绪价值」。连人的真挚的感情都要异化为价值的交换，这让我觉得非常的可悲。我自始至终认为，只有商品可以价值化，人是不能够赋予价值的。我之所以抗拒约会软件就是因为我觉得很多时候那上面的人就像是在做生意，把自己物化，也把他人物化，冷酷又庸俗。我觉得如果老把自己看作某种价值，那就无可避免的陷入自卑或者自负，两者其实一体两面。这让我想起『愤怒的公牛』的主角意大利拳王「杰克·拉莫塔」，面对自己的妻子有极大的自卑感，本质来源于他对自我的物化。自卑转化为愤怒和多疑，最终他失去的妻子也失去的自己的亲兄弟。类似的，『阿玛迪斯』中萨列里对莫扎特的嫉妒也是相同的来源，萨列里把自己看作上帝的乐器，而非像莫扎特一样真实的生活。在现实中，有一个人其实给了我希望，那就是B站up主「有山先生」。他是极少见的真正的纯粹的人，真正的不在乎他人的眼光，沉醉在古代文学中。看他的人生经历也给了我相当大的鼓舞。有趣的是，知乎上很多人讽刺他古文水平低又自大。但在我看来他的自大是表演性质的，并非真正的自大。相比起来，知乎上看不起他的人，即使古文水平更高，性格也是十分阴湿的，更没有他这种超脱众人的纯粹和不惧他人眼光的勇气。纯粹的人应当有这一种魄力，那就是你其他人说什么都是狗屁，根本不在乎你其他人怎么看我。本质上，这和第一点中说的是同一个事情，也就是你对自我的认可是否是依赖他人的。我认为一个纯粹的人就应该有没来由的自信和自我认可，而不是依赖于他人的认可。我最讨厌的一类人也就是所谓的威权主义人格：这种人会把人分成三六九等，很注重一个圈子里的社交地位（social status），对自认为地位比自己低的人嗤之以鼻，对自认为地位比自己高的人极尽谄媚，也就是所谓的「慕强」。社交地位的决定因素由圈子的不同而不同，可能是金钱，外表，也可能是成绩（往往他们不会直说，而是会用「优秀」或「成功」等词替代）。譬如一些竞赛圈子那些动不动「大神」地叫的人就是这种人格。这里不得不提我最厌恶的一种人——学术网红（这里并非指科普博主），比如什么社交媒体随处可见的「牛津学姐」「斯坦福学长」云云。这种人没一个有真本事的，没有一个纯粹地追求学术的。天天分享什么「精致生活」，其实只是享受圈外人的崇拜。&lt;/p&gt;
@@ -10782,10 +10797,10 @@ data-cite-key=&#34;GS06&#34; data-cite-note=&#34;Theorem 2.7.2&#34;&gt;
     
     <item>
       <title>Simplicial Sets and Infinity-Categories</title>
-      <link>http://localhost:1313/posts/0c3e076/</link>
+      <link>https://yunhaimath.com/posts/0c3e076/</link>
       <pubDate>Thu, 25 Sep 2025 20:14:47 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/0c3e076/</guid>
+      <guid>https://yunhaimath.com/posts/0c3e076/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     I am not saying that I believe in the law of the excluded middle, I am just saying that it isn&#39;t not true.
@@ -10885,10 +10900,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>吹着口琴的人</title>
-      <link>http://localhost:1313/posts/0ebab34/</link>
+      <link>https://yunhaimath.com/posts/0ebab34/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/0ebab34/</guid>
+      <guid>https://yunhaimath.com/posts/0ebab34/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;吹着口琴的人，&lt;br&gt;
 肩上撑着脚。&lt;br&gt;
@@ -10906,10 +10921,10 @@ $$C\mapsto \left[[n]\mapsto \mathrm{Hom}_{\mathbf{Cat}}([n],C)\right].$$&lt;p&gt
     
     <item>
       <title>失眠</title>
-      <link>http://localhost:1313/posts/a467f03/</link>
+      <link>https://yunhaimath.com/posts/a467f03/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/a467f03/</guid>
+      <guid>https://yunhaimath.com/posts/a467f03/</guid>
       <description>&lt;div class=&#34;wenkai&#34;&gt;
   &lt;p&gt;  长夜不能眠。罢了，清净的夜也是想事的好时机。
 无法入睡的时候，总是来回踱步。穿梭于家具中，好像这样便能解开缠绕的思绪。
@@ -10951,10 +10966,10 @@ Math Rock以节奏复杂古怪著称。
     
     <item>
       <title>Symmetric Polynomials</title>
-      <link>http://localhost:1313/posts/c72806c/</link>
+      <link>https://yunhaimath.com/posts/c72806c/</link>
       <pubDate>Wed, 18 Dec 2024 10:06:03 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/c72806c/</guid>
+      <guid>https://yunhaimath.com/posts/c72806c/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     “And every science, when we understand it not as an instrument of power and domination but as an adventure in knowledge pursued by our species across the ages, is nothing but this harmony, more or less vast, more or less rich from one epoch to another, which unfurls over the course of generations and centuries, by the delicate counterpoint of all the themes appearing in turn, as if summoned from the void.&amp;quot;
@@ -11017,10 +11032,10 @@ $$s_\lambda e_k=\sum_{\mu \in \lambda \otimes 1^k} s_\mu,\quad s_\lambda h_k=\su
     
     <item>
       <title>Grothendieck-Witt Ring</title>
-      <link>http://localhost:1313/posts/83ed120/</link>
+      <link>https://yunhaimath.com/posts/83ed120/</link>
       <pubDate>Thu, 12 Sep 2024 14:55:58 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/83ed120/</guid>
+      <guid>https://yunhaimath.com/posts/83ed120/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
@@ -11107,10 +11122,10 @@ $$M_f=\begin{pmatrix}0 &amp; 1/2\\\ 1/2 &amp; 0\end{pmatrix}\quad M_g=\begin{pma
     
     <item>
       <title>Uniformization Theorem for Elliptic Curves</title>
-      <link>http://localhost:1313/posts/7ab795f/</link>
+      <link>https://yunhaimath.com/posts/7ab795f/</link>
       <pubDate>Thu, 29 Feb 2024 00:10:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/7ab795f/</guid>
+      <guid>https://yunhaimath.com/posts/7ab795f/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     The pursuit of mathematics is a divine madness of the human spirit.
@@ -11194,10 +11209,10 @@ $$\Phi:\mathbb C/L\rightarrow E(\mathbb C)\quad z\mapsto (\wp(z),\wp^\prime(z))$
     
     <item>
       <title>Grothendieck&#39;s Proof of van Kampen Theorem</title>
-      <link>http://localhost:1313/posts/1927129/</link>
+      <link>https://yunhaimath.com/posts/1927129/</link>
       <pubDate>Wed, 07 Feb 2024 11:49:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1927129/</guid>
+      <guid>https://yunhaimath.com/posts/1927129/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It&#39;s to that being inside of you who knows how to be alone, it is to this infant that I wish to speak, and no-one else.
@@ -11281,10 +11296,10 @@ $$\mathrm{Hom}(\pi_1(X,x),G)=\mathrm{Hom}(\pi_1(U,x),G)\times \mathrm{Hom}(\pi_1
     
     <item>
       <title>Bundles and Divisors on Schemes</title>
-      <link>http://localhost:1313/posts/40383e2/</link>
+      <link>https://yunhaimath.com/posts/40383e2/</link>
       <pubDate>Thu, 25 Jan 2024 01:09:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/40383e2/</guid>
+      <guid>https://yunhaimath.com/posts/40383e2/</guid>
       <description>&lt;p&gt;&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebra is but written geometry and geometry is but figured algebra.
@@ -11341,10 +11356,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>What is This Thing Called Knowledge?</title>
-      <link>http://localhost:1313/posts/bc677f9/</link>
+      <link>https://yunhaimath.com/posts/bc677f9/</link>
       <pubDate>Mon, 07 Aug 2023 18:36:05 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bc677f9/</guid>
+      <guid>https://yunhaimath.com/posts/bc677f9/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Epistemology without contact with science becomes an empty scheme. Science without epistemology is -- insofar as it is thinkable at all -- primitive and muddled.
@@ -11387,10 +11402,10 @@ $$\Gamma(U,\mathcal L)=\{f\in \mathcal K_X(U): \mathrm{div}(f)+D\ge 0\}$$&lt;p&g
     
     <item>
       <title>Derived Category</title>
-      <link>http://localhost:1313/posts/910cedd/</link>
+      <link>https://yunhaimath.com/posts/910cedd/</link>
       <pubDate>Wed, 07 Sep 2022 20:06:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/910cedd/</guid>
+      <guid>https://yunhaimath.com/posts/910cedd/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Algebraic geometry seems to have acquired the reputation of being esoteric, exclusive, and very abstract, with adherents who are secretly plotting to take over all the rest of mathematics. In one respect this last point is accurate.
@@ -11613,10 +11628,10 @@ where $s_i\in S$. A &lt;em&gt;localizing class&lt;/em&gt; $S$ of a category $\ma
     
     <item>
       <title>Triangulated Categories</title>
-      <link>http://localhost:1313/posts/00c73a8/</link>
+      <link>https://yunhaimath.com/posts/00c73a8/</link>
       <pubDate>Mon, 05 Sep 2022 20:00:36 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/00c73a8/</guid>
+      <guid>https://yunhaimath.com/posts/00c73a8/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     It is impossible to be a mathematician without being a poet in soul.
@@ -11800,10 +11815,10 @@ and as expected, the cohomology functor $H^n:K(\mathcal A)\rightarrow\mathcal A$
     
     <item>
       <title>Abelian Categories and Derived Functors</title>
-      <link>http://localhost:1313/posts/563818b/</link>
+      <link>https://yunhaimath.com/posts/563818b/</link>
       <pubDate>Mon, 25 Jul 2022 15:28:14 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/563818b/</guid>
+      <guid>https://yunhaimath.com/posts/563818b/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories. One can imagine that the ultimate mathematician is one who can see analogies between analogies.
@@ -12221,10 +12236,10 @@ where $G$ is the subgroup of nullhomotopic chain maps.&lt;/p&gt;
     
     <item>
       <title>Fppf Site, Faithfully Flat Descent, and Fibred Categories</title>
-      <link>http://localhost:1313/posts/94f3165/</link>
+      <link>https://yunhaimath.com/posts/94f3165/</link>
       <pubDate>Wed, 16 Feb 2022 12:24:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/94f3165/</guid>
+      <guid>https://yunhaimath.com/posts/94f3165/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Serious mathematics (contrary to a popular misconception) is not &amp;quot;about&amp;quot; proofs and logic any more than serious literature is &amp;quot;about&amp;quot; grammar, or music is &amp;quot;about&amp;quot; notes.
@@ -12473,10 +12488,10 @@ data-cite-key=&#34;Ols16&#34; data-cite-note=&#34;Proposition 3.2.2&#34;&gt;
     
     <item>
       <title>Grothendieck Topology, Sites, and Topoi</title>
-      <link>http://localhost:1313/posts/5b8f0de/</link>
+      <link>https://yunhaimath.com/posts/5b8f0de/</link>
       <pubDate>Wed, 19 Jan 2022 11:15:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/5b8f0de/</guid>
+      <guid>https://yunhaimath.com/posts/5b8f0de/</guid>
       <description>&lt;aside class=&#34;yh-pullquote&#34; style=&#34;--yh-pullquote-w: 50%;&#34;&gt;
   &lt;div class=&#34;yh-pullquote-text&#34;&gt;
     Complex analysis is the good twin and real analysis the evil one: beautiful formulas and elegant theorems seem to blossom spontaneously in the complex domain, while toil and pathology rule the reals.
@@ -12644,20 +12659,20 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Magic Tricks</title>
-      <link>http://localhost:1313/posts/648e7d3/</link>
+      <link>https://yunhaimath.com/posts/648e7d3/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/648e7d3/</guid>
+      <guid>https://yunhaimath.com/posts/648e7d3/</guid>
       <description>&lt;p&gt;Learning, performing, and creating magic tricks have been my hobbies since I was 9 years old. I especially liked card tricks. I will update this page will more stuff in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/posts/e852d2e/</link>
+      <link>https://yunhaimath.com/posts/e852d2e/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/e852d2e/</guid>
+      <guid>https://yunhaimath.com/posts/e852d2e/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://golem.ph.utexas.edu/category/&#34;&gt;The n-Category Café&lt;/a&gt;&lt;/li&gt;
@@ -12846,10 +12861,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Films</title>
-      <link>http://localhost:1313/posts/ca93bc7/</link>
+      <link>https://yunhaimath.com/posts/ca93bc7/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/ca93bc7/</guid>
+      <guid>https://yunhaimath.com/posts/ca93bc7/</guid>
       <description>&lt;h2 id=&#34;films-i-want-to-watch&#34;&gt;Films I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;The Act of Killing&lt;/em&gt; (2012)&lt;/li&gt;
@@ -12914,10 +12929,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Books</title>
-      <link>http://localhost:1313/posts/326caca/</link>
+      <link>https://yunhaimath.com/posts/326caca/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/326caca/</guid>
+      <guid>https://yunhaimath.com/posts/326caca/</guid>
       <description>&lt;h2 id=&#34;books-i-want-to-read&#34;&gt;Books I Want to Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Saul Kripke, &lt;em&gt;Naming and Necessity&lt;/em&gt; (1980)&lt;/li&gt;
@@ -12998,10 +13013,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Anime</title>
-      <link>http://localhost:1313/posts/1cea07d/</link>
+      <link>https://yunhaimath.com/posts/1cea07d/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1cea07d/</guid>
+      <guid>https://yunhaimath.com/posts/1cea07d/</guid>
       <description>&lt;h2 id=&#34;anime-i-want-to-watch&#34;&gt;Anime I Want to Watch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0096633/&#34;&gt;&lt;em&gt;Legend of the Galactic Heroes&lt;/em&gt; (1988)&lt;/a&gt;&lt;/li&gt;
@@ -13050,10 +13065,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/posts/864c59b/</link>
+      <link>https://yunhaimath.com/posts/864c59b/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/864c59b/</guid>
+      <guid>https://yunhaimath.com/posts/864c59b/</guid>
       <description>&lt;p&gt;Here are some of my favorite Jazz artists.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave Brubeck&lt;/li&gt;
@@ -13076,10 +13091,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Video Games</title>
-      <link>http://localhost:1313/posts/fe5a259/</link>
+      <link>https://yunhaimath.com/posts/fe5a259/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/fe5a259/</guid>
+      <guid>https://yunhaimath.com/posts/fe5a259/</guid>
       <description>&lt;h2 id=&#34;video-games-i-want-to-play&#34;&gt;Video Games I Want to Play&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Planescape: Torment&lt;/em&gt; (1999)&lt;/li&gt;
@@ -13104,10 +13119,10 @@ and for each $h:U_1\rightarrow U_2$ in $\mathcal C$, there is functor $\mathcal 
     
     <item>
       <title>Mermaid Diagrams</title>
-      <link>http://localhost:1313/posts/4492ad2/</link>
+      <link>https://yunhaimath.com/posts/4492ad2/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/4492ad2/</guid>
+      <guid>https://yunhaimath.com/posts/4492ad2/</guid>
       <description>&lt;h2 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h2&gt;
 &lt;div class=&#34;mermaid&#34;&gt;graph LR;
     A[Hard edge] --&gt;|Link text| B(Round edge)
@@ -13253,10 +13268,10 @@ test_entity - satisfies -&gt; test_req
     
     <item>
       <title>Math Test</title>
-      <link>http://localhost:1313/posts/863b176/</link>
+      <link>https://yunhaimath.com/posts/863b176/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/863b176/</guid>
+      <guid>https://yunhaimath.com/posts/863b176/</guid>
       <description>&lt;p&gt;In this post, we test mathematical typesettings.&lt;/p&gt;
 &lt;h2 id=&#34;basic-katex&#34;&gt;Basic KaTeX&lt;/h2&gt;
 &lt;p&gt;We use $\KaTeX$. First we test inline math&lt;/p&gt;
@@ -13701,10 +13716,10 @@ with $u \in R^\times$ a unit and $n \in \mathbb{Z}$, where $\pi$ is a fixed unif
     
     <item>
       <title>Markdown Test</title>
-      <link>http://localhost:1313/posts/33a60a9/</link>
+      <link>https://yunhaimath.com/posts/33a60a9/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/33a60a9/</guid>
+      <guid>https://yunhaimath.com/posts/33a60a9/</guid>
       <description>&lt;p&gt;In this post we test markdown syntax.&lt;/p&gt;
 &lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Xerum, quo qui aut unt expliquam qui dolut labo&lt;/em&gt;. &lt;strong&gt;Aque venitatiusda cum&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;voluptionse latur&lt;/em&gt;&lt;/strong&gt; &amp;quot;sitiae dolessi aut parist&amp;quot; &lt;code&gt;aut dollo&lt;/code&gt; enim qui &lt;code&gt;voluptate ma&lt;/code&gt; dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?&lt;/p&gt;
