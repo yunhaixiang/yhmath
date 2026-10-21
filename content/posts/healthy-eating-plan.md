@@ -532,15 +532,15 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <tr>
 <th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">五</th>
 <td rowspan="6" style="vertical-align: middle; text-align: center;">约49分钟</td>
-<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
-<td>3组 × 10–15 次</td>
-<td><label><input type="checkbox" aria-label="周五反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五反向卷腹第3组"> 3</label></td>
-<td>腹直肌；侧腹辅助</td>
-</tr>
-<tr>
 <td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
 <td>3组 × 10–20 次</td>
 <td><label><input type="checkbox" aria-label="周五卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五卷腹第3组"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="周五反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五反向卷腹第3组"> 3</label></td>
 <td>腹直肌；侧腹辅助</td>
 </tr>
 <tr>
