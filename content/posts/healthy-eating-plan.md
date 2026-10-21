@@ -406,6 +406,18 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td>胸肌、三头肌、肩前侧</td>
 </tr>
 <tr>
+<td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
+<td>3组 × 10–20 次</td>
+<td><label><input type="checkbox" aria-label="周一卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一卷腹第3组"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="周一反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一反向卷腹第3组"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=aI2hGzsAMXs">站姿哑铃肩推</a><br>Standing dumbbell shoulder press</td>
 <td>2组 × 6–10 次</td>
 <td><label><input type="checkbox" aria-label="周一站姿哑铃肩推第1组"> 1</label> <label><input type="checkbox" aria-label="周一站姿哑铃肩推第2组"> 2</label></td>
@@ -429,23 +441,17 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td><label><input type="checkbox" aria-label="周一哑铃反向飞鸟第1组"> 1</label> <label><input type="checkbox" aria-label="周一哑铃反向飞鸟第2组"> 2</label></td>
 <td>肩后侧、上背</td>
 </tr>
-<tr>
-<td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
-<td>3组 × 10–20 次</td>
-<td><label><input type="checkbox" aria-label="周一卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一卷腹第3组"> 3</label></td>
-<td>腹直肌；侧腹辅助</td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
-<td>3组 × 10–15 次</td>
-<td><label><input type="checkbox" aria-label="周一反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周一反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周一反向卷腹第3组"> 3</label></td>
-<td>腹直肌；侧腹辅助</td>
-</tr>
 </tbody>
 <tbody>
 <tr>
 <th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">二</th>
 <td rowspan="6" style="vertical-align: middle; text-align: center;">约50分钟</td>
+<td><a href="https://www.youtube.com/watch?v=7Ni46OtElu8">臀桥脚跟走步</a><br>Hamstring walkout</td>
+<td>3组 × 6–10 次</td>
+<td><label><input type="checkbox" aria-label="周二臀桥脚跟走步第1组"> 1</label> <label><input type="checkbox" aria-label="周二臀桥脚跟走步第2组"> 2</label> <label><input type="checkbox" aria-label="周二臀桥脚跟走步第3组"> 3</label></td>
+<td>大腿后侧、臀部</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=CkFzgR55gho">哑铃高脚杯深蹲</a><br>Dumbbell goblet squat</td>
 <td>4组 × 10–15 次</td>
 <td><label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第1组"> 1</label> <label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第2组"> 2</label> <label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第3组"> 3</label> <label><input type="checkbox" aria-label="周二哑铃高脚杯深蹲第4组"> 4</label></td>
@@ -462,12 +468,6 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td>3组 × 10–15 次</td>
 <td><label><input type="checkbox" aria-label="周二哑铃罗马尼亚硬拉第1组"> 1</label> <label><input type="checkbox" aria-label="周二哑铃罗马尼亚硬拉第2组"> 2</label> <label><input type="checkbox" aria-label="周二哑铃罗马尼亚硬拉第3组"> 3</label></td>
 <td>大腿后侧、臀部；下背稳定</td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/watch?v=7Ni46OtElu8">臀桥脚跟走步</a><br>Hamstring walkout</td>
-<td>3组 × 6–10 次</td>
-<td><label><input type="checkbox" aria-label="周二臀桥脚跟走步第1组"> 1</label> <label><input type="checkbox" aria-label="周二臀桥脚跟走步第2组"> 2</label> <label><input type="checkbox" aria-label="周二臀桥脚跟走步第3组"> 3</label></td>
-<td>大腿后侧、臀部</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=wxwY7GXxL4k">哑铃双腿提踵</a><br>Standing dumbbell calf raise</td>
@@ -532,6 +532,18 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <tr>
 <th scope="rowgroup" rowspan="6" style="vertical-align: middle; text-align: center;">五</th>
 <td rowspan="6" style="vertical-align: middle; text-align: center;">约49分钟</td>
+<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
+<td>3组 × 10–15 次</td>
+<td><label><input type="checkbox" aria-label="周五反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五反向卷腹第3组"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
+<td>3组 × 10–20 次</td>
+<td><label><input type="checkbox" aria-label="周五卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五卷腹第3组"> 3</label></td>
+<td>腹直肌；侧腹辅助</td>
+</tr>
+<tr>
 <td><a href="https://www.youtube.com/watch?v=Wcmg-3iHwjQ">哑铃分腿蹲</a><br>Dumbbell split squat</td>
 <td>3组 × 8–12 次／腿</td>
 <td><label><input type="checkbox" aria-label="周五哑铃分腿蹲第1组"> 1</label> <label><input type="checkbox" aria-label="周五哑铃分腿蹲第2组"> 2</label> <label><input type="checkbox" aria-label="周五哑铃分腿蹲第3组"> 3</label></td>
@@ -554,18 +566,6 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td>3组 × 12–20 次</td>
 <td><label><input type="checkbox" aria-label="周五哑铃双腿提踵第1组"> 1</label> <label><input type="checkbox" aria-label="周五哑铃双腿提踵第2组"> 2</label> <label><input type="checkbox" aria-label="周五哑铃双腿提踵第3组"> 3</label></td>
 <td>小腿</td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/watch?v=zQ_IeJkqut8">反向卷腹</a><br>Reverse crunch</td>
-<td>3组 × 10–15 次</td>
-<td><label><input type="checkbox" aria-label="周五反向卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五反向卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五反向卷腹第3组"> 3</label></td>
-<td>腹直肌；侧腹辅助</td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/watch?v=NIqgTCTd2MM">卷腹</a><br>Crunch</td>
-<td>3组 × 10–20 次</td>
-<td><label><input type="checkbox" aria-label="周五卷腹第1组"> 1</label> <label><input type="checkbox" aria-label="周五卷腹第2组"> 2</label> <label><input type="checkbox" aria-label="周五卷腹第3组"> 3</label></td>
-<td>腹直肌；侧腹辅助</td>
 </tr>
 </tbody>
 </table>
