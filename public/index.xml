@@ -13,7 +13,7 @@
       
       <guid>http://localhost:1313/posts/c219c1f/</guid>
       <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday, inspired by scrabble.
-It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up in this GitHub repository an interactive UI you can use to play it. Try it out!&lt;/p&gt;
+It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an interactive UI you can use to play it. Try it out!&lt;/p&gt;
 &lt;h2 id=&#34;rules&#34;&gt;Rules&lt;/h2&gt;
 &lt;p&gt;The game is played on a square board with 10 by 10 squares. Each player has a starting pile of 37 square tiles labelled as follows.&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;

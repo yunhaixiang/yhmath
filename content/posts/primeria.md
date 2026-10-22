@@ -7,7 +7,7 @@ aliases = ['/posts/primeria/']
 
 
 Hi, I want to share with you a board game I invented yesterday, inspired by scrabble. 
-It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up in this GitHub repository an interactive UI you can use to play it. Try it out! 
+It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an interactive UI you can use to play it. Try it out! 
 
 ## Rules
 
