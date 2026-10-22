@@ -21,11 +21,12 @@ I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which y
 The game is played on a square board with 9 x 9, 11 x 11, 13 x 13, or 15 x 15 squares. 
 Each player start with a pile of 36 tiles labelled with digits 0 ~ 9.
 For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, 9 each. 
-Two players take turns to place tiles on the square.
-Flip a coin to decide which player plays first. 
+
 
 ## Moves
 
+Two players take turns to place tiles on the square.
+Flip a coin to decide which player plays first. 
 At each turn, the player chooses from one of three kinds of moves. 
 
 **Single Drop**: the player places one of their tiles on any empty square.
