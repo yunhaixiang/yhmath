@@ -37,7 +37,7 @@ The two players flip a coin or do rock paper scissors to decide who moves first.
 
 In particular, these rules imply that when there are no tiles on the board, the only option is single drop. 
 
-There is also a special rule for 0 and 5: the 0 and 5 tiles cannot be placed in any position without any adjacent tiles. Additionally, 0 cannot be placed at the beginning or end of a number, after a move is finished. 
+There is also a special rule for 0 and 5: the 0 and 5 tiles cannot be placed in any position without any adjacent tiles. Additionally, 0 cannot be placed at the beginning or end of a number, after a turn is finished. 
 
 
 ## Time Controls
