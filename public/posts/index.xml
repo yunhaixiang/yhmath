@@ -16,7 +16,7 @@
       <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday, inspired by scrabble.
 It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an interactive UI you can use to play it. Try it out!&lt;/p&gt;
 &lt;h2 id=&#34;rules&#34;&gt;Rules&lt;/h2&gt;
-&lt;p&gt;The game is played on a square board with 10 by 10 squares. Each player has a starting pile of 37 square tiles labelled as follows.&lt;/p&gt;
+&lt;p&gt;The game is played on a square board with 9 by 9, 11 by 11, or 13 by 13 squares. Each player has a starting pile of 37 square tiles labelled as follows.&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -39,7 +39,7 @@ It is a fun two person turn based perfect information abstract strategy game wit
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;To win the game, a player must play all their tiles before their opponent does. Other than winning by playing all tiles, one can win by opponent resigning or running out of time in a time controlled game. As an optional time out rule: if the game extends beyond 1 hour, then the winner is decided as the first player to have less tiles than the opponent for 10 consecutive turns.&lt;/p&gt;
+&lt;p&gt;To win the game, a player must play all their tiles before their opponent does. Other than winning by playing all tiles, one can win by opponent resigning or running out of time in a time controlled game. As an optional time out rule: if the game extends beyond a certain time, say 1 hour, then the winner is decided as the first player to have less tiles than the opponent for 10 consecutive turns.&lt;/p&gt;
 &lt;p&gt;The two players flip a coin or do rock paper scissors to decide who moves first. On each move, a player has three options&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: Place a single tile on any vacant space on the board.&lt;/li&gt;

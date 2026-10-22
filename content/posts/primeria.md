@@ -11,7 +11,7 @@ It is a fun two person turn based perfect information abstract strategy game wit
 
 ## Rules
 
-The game is played on a square board with 10 by 10 squares. Each player has a starting pile of 37 square tiles labelled as follows.
+The game is played on a square board with 9 by 9, 11 by 11, or 13 by 13 squares. Each player has a starting pile of 37 square tiles labelled as follows.
 
 | Tile labels | Number of each tile |
 | :---: | :---: |
@@ -20,7 +20,7 @@ The game is played on a square board with 10 by 10 squares. Each player has a st
 | 1, 3, 7, 9 | 5 |
 {.table-centered}
 
-To win the game, a player must play all their tiles before their opponent does. Other than winning by playing all tiles, one can win by opponent resigning or running out of time in a time controlled game. As an optional time out rule: if the game extends beyond 1 hour, then the winner is decided as the first player to have less tiles than the opponent for 10 consecutive turns. 
+To win the game, a player must play all their tiles before their opponent does. Other than winning by playing all tiles, one can win by opponent resigning or running out of time in a time controlled game. As an optional time out rule: if the game extends beyond a certain time, say 1 hour, then the winner is decided as the first player to have less tiles than the opponent for 10 consecutive turns. 
 
 
 The two players flip a coin or do rock paper scissors to decide who moves first. On each move, a player has three options
