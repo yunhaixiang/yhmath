@@ -155,7 +155,14 @@
       const key = (a.getAttribute("data-cite-key") || "").trim();
       if (!key) return;
       const note = (a.getAttribute("data-cite-note") || "").trim();
-      a.textContent = note ? `[${key}, ${note}]` : `[${key}]`;
+      let citation = a.parentElement;
+      if (!citation.classList.contains("bib-citation")) {
+        citation = document.createElement("span");
+        citation.className = "bib-citation";
+        a.replaceWith(citation);
+      }
+      a.textContent = key;
+      citation.replaceChildren("[", a, note ? `, ${note}]` : "]");
     });
   }
 
