@@ -75,5 +75,6 @@ A good strategy is to make use of the following facts:
 3. a number is a multiple of 3 if and only if the sum of its digits is a multiple of 3,
 4. a number is a multiple of 7 if and only if subtracting 3 times its last two digits from the number formed by the remaining digits gives a multiple of 7,
 5. a number is a multiple of 11 if and only if the alternating sum of its digits is a multiple of 11,
-6. A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks is a multiple of 7, 11, or 13, respectively.
+6. a number is a multiple of 13 if and only if subtracting 9 times its last digit from the number formed by the remaining digits gives a multiple of 13,
+7. A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks is a multiple of 7, 11, or 13, respectively.
 
