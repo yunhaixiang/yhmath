@@ -22,7 +22,7 @@ The game is played on a square board with 9 by 9, 11 by 11, or 13 by 13 squares.
 | Tile labels | Number of each tile |
 | :---: | :---: |
 | 0, 5 | 2 |
-| 2, 4, 5, 6, 8 | 3 |
+| 2, 4, 6, 8 | 3 |
 | 1, 3, 7, 9 | 5 |
 {.table-centered}
 
