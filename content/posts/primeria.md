@@ -63,7 +63,7 @@ Players can choose one of the following time controls.
 | Casual | Unlimited | — |
 {.table-centered}
 
-Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping the clock. The clock continues inbetween attempts. The clock can remain stopped when transferring the tiles after a successful attempt. 
+Your clock still runs while challenging. 
 
 ## Tips
 
