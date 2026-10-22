@@ -12,8 +12,9 @@
       <pubDate>Wed, 21 Oct 2026 07:16:16 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/c219c1f/</guid>
-      <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday, inspired by scrabble.
-It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;interactive UI&lt;/a&gt; you can use to play it. Try it out!&lt;/p&gt;
+      <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday.
+It is a two person board game which combines clever strategies with quick mental arithmetic skills.
+I have here an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;interactive UI&lt;/a&gt; which you can try out.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
         src=&#34;http://localhost:1313/img/primeria.jpeg&#34;
@@ -27,39 +28,31 @@ It is a fun two person turn based perfect information abstract strategy game wit
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;rules&#34;&gt;Rules&lt;/h2&gt;
-&lt;p&gt;The game is played on a square board with 9 by 9, 11 by 11, or 13 by 13 squares. Each player has a starting pile of 36 square tiles labelled as follows.&lt;/p&gt;
-&lt;table class=&#34;table-centered&#34;&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Tile labels&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Number of each tile&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;0, 5&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2, 4, 6, 8&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1, 3, 7, 9&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;To win the game, a player must play all their tiles before their opponent does. Other than winning by playing all tiles, one can win by opponent resigning or running out of time in a time controlled game. As an optional time out rule: if the game extends beyond a certain time, say 1 hour, then the winner is decided as the first player to have less tiles than the opponent for 10 consecutive turns.&lt;/p&gt;
-&lt;p&gt;The two players flip a coin or do rock paper scissors to decide who moves first. On each move, a player has three options&lt;/p&gt;
+&lt;h2 id=&#34;set-up&#34;&gt;Set-up&lt;/h2&gt;
+&lt;p&gt;The game is played on a square board with 9 x 9, 11 x 11, 13 x 13, or 15 x 15 squares.
+Each player start with a pile of 36 tiles labelled with digits 0 ~ 9.
+For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, 9 each.
+Two players take turns to place tiles on the square.
+Flip a coin to decide which player plays first.&lt;/p&gt;
+&lt;h2 id=&#34;moves&#34;&gt;Moves&lt;/h2&gt;
+&lt;p&gt;At each turn, there are three kinds of moves.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: the player places one of their tiles on any empty square.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Double Down&lt;/strong&gt;: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: the player points to a connected row or column of digits, and declares to &lt;em&gt;challenge&lt;/em&gt; the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger&#39;s perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1-3 digits gets 1 attempt, 4-6 digits gets 2 attempts, 7-9 digits get 3 attempts, and so on.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent&#39;s pile. The ones digit is put away, in neither player&#39;s pile.&lt;/li&gt;
+&lt;li&gt;If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The zero tile works slightly differently than others.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Special Rule for Zero&lt;/strong&gt;: After each turn, no 0-tile can be placed in the first or last square in a connected row or column, nor a square without any adjacent tiles. If, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in a connected row or column or an isolated tile without any adjacent tiles, then that 0-tile is immediately removed from the board and put away in neither player&#39;s pile.&lt;/p&gt;
+&lt;h2 id=&#34;winning&#34;&gt;Winning&lt;/h2&gt;
+&lt;p&gt;There are three ways to win a game (and one optional way)&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: Place a single tile on any vacant space on the board.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Double Down&lt;/strong&gt;: Place a tile on a vacant square on the board such that it is adjacent to an existing tile, then place another tile on a vacant square on the board such that it is adjacent to any existing tile (where it could be the tile just placed).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: Point out that a number (horizontal left to right or vertical top to down, from the challenger&#39;s perspective) on the board, other than the single digit $1$, is not a prime number, by proposing a nontrivial factor of it, and then verifying the claim with a calculator. If the player is correct and hence the number is not a prime, then this number is picked up from the board, and all but the last digit is put into the opponent&#39;s pile, where the last digit called the &lt;em&gt;tax&lt;/em&gt; is put away as neither player&#39;s pile. If the player is incorrect, and the number proposed is not a factor of the number, then no tile is placed this turn, and the opponent begins their turn. For longer numbers, the challenger gets more attempts, numbers 1-3 digits long gets 1 attempt, 4-6 digits long gets 2 attempts, 7-9 digits long gets 3 attempts, and so on.&lt;/li&gt;
+&lt;li&gt;Clear-out: a player wins by playing all their tiles in their pile,&lt;/li&gt;
+&lt;li&gt;Time: a player wins by its opponent running out of time,&lt;/li&gt;
+&lt;li&gt;Resignation: a player wins by its opponent resigning the game,&lt;/li&gt;
+&lt;li&gt;(Optional Rule) Tie-breaker: if the game extends for a long time, for example 1 hour, then the first player to have less tiles for 10 consecutive turns wins.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;In particular, these rules imply that when there are no tiles on the board, the only option is single drop.&lt;/p&gt;
-&lt;p&gt;There is also a special rule for 0 and 5: the 0 and 5 tiles cannot be placed in any position without any adjacent tiles. Additionally, 0 cannot be placed at the beginning or end of a number, after a turn is finished.&lt;/p&gt;
 &lt;h2 id=&#34;time-controls&#34;&gt;Time Controls&lt;/h2&gt;
 &lt;p&gt;Players can choose one of the following time controls.&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -98,17 +91,17 @@ It is a fun two person turn based perfect information abstract strategy game wit
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping your clock. Pause both clocks while verifying the challenge and transferring tiles, then start the opponent&#39;s clock.&lt;/p&gt;
-&lt;h2 id=&#34;strategy&#34;&gt;Strategy&lt;/h2&gt;
-&lt;p&gt;One straightforward trick is to use small prime factor tests.&lt;/p&gt;
+&lt;p&gt;Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping the clock. The clock continues inbetween attempts. The clock can remain stopped when transfering the tiles after a successful attempt.&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;p&gt;A good strategy is to make use of the following facts:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;a number is divisible by $3$ (resp. $9$) iff its sum of digits is divisible by $3$ (resp. $9$)&lt;/li&gt;
-&lt;li&gt;a number is divisible by $11$ iff its alternating sum of digits is divisible by $11$&lt;/li&gt;
-&lt;li&gt;a number is divisible by $7$ iff subtracting twice its last digit from the number formed by the remaining digits gives a multiple of $7$.&lt;/li&gt;
-&lt;li&gt;a number is divisible by $13$ iff adding four times its last digit to the number formed by the remaining digits gives a multiple of $13$.&lt;/li&gt;
-&lt;li&gt;split the number into three-digit blocks from the right and take their alternating sum. The original number is divisible by $7$, $11$, or $13$ iff that sum is divisible by the corresponding divisor, since $1001=7\cdot11\cdot13$.&lt;/li&gt;
+&lt;li&gt;a number is a multiple of 2 if and only if it ends in 0, 2, 4, 6, or 8,&lt;/li&gt;
+&lt;li&gt;a number is a multiple of 5 if and only if it ends in 0 or 5,&lt;/li&gt;
+&lt;li&gt;a number is a multiple of 3 if and only if the sum of its digits is a multiple of 3,&lt;/li&gt;
+&lt;li&gt;a number is a multiple of 7 if and only if subtracting 3 times its last two digits from the number formed by the remaining digits gives a multiple of 7,&lt;/li&gt;
+&lt;li&gt;a number is a multiple of 11 if and only if the alternating sum of its digits is a multiple of 11,&lt;/li&gt;
+&lt;li&gt;A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks is a multiple of 7, 11, or 13, respectively.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;There is also a trade off between single drop and double down. Double down is more efficient in playing tiles, but single drop allows more freedom. One could use single drops to avoid forming long numbers which are more likely to be composite. Challenging also has a trade off. If succeeds, picking up a number could change existing numbers on the board, and if they are composite, this opens up opportunities for the opponent to challenge these numbers. There are likely more strategies to be discovered.&lt;/p&gt;
 </description>
     </item>
     
@@ -839,7 +832,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉2块＋水煮蛋2个&lt;/td&gt;
           &lt;td&gt;蘑菇+毛豆&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;655&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;685&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;上2&lt;/td&gt;
@@ -848,7 +841,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;鸡肉末炒蛋2个&lt;/td&gt;
           &lt;td&gt;豌豆+胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;659&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;669&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;上3&lt;/td&gt;
@@ -857,7 +850,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;649&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;667&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;上4&lt;/td&gt;
@@ -865,8 +858,8 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;烤土豆&lt;/td&gt;
           &lt;td&gt;BBQ排骨1/4盒＋三文鱼1块&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;646&lt;/td&gt;
+          &lt;td&gt;菠菜+蘑菇&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;666&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;上5&lt;/td&gt;
@@ -875,7 +868,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;鸡肉末炒蛋2个&lt;/td&gt;
           &lt;td&gt;豌豆+胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;659&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;669&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;上6&lt;/td&gt;
@@ -884,7 +877,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;649&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;667&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;上7&lt;/td&gt;
@@ -892,8 +885,8 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;烤土豆&lt;/td&gt;
           &lt;td&gt;BBQ排骨1/4盒＋三文鱼1块&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;646&lt;/td&gt;
+          &lt;td&gt;菠菜+蘑菇&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;666&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下1&lt;/td&gt;
@@ -902,7 +895,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;卷饼皮&lt;/td&gt;
           &lt;td&gt;鸡大腿肉2块＋水煮蛋2个&lt;/td&gt;
           &lt;td&gt;蘑菇+毛豆&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;655&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;685&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下2&lt;/td&gt;
@@ -911,7 +904,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;鸡肉末炒蛋2个&lt;/td&gt;
           &lt;td&gt;豌豆+胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;659&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;669&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下3&lt;/td&gt;
@@ -920,7 +913,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;649&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;667&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下4&lt;/td&gt;
@@ -928,8 +921,8 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;晚餐&lt;/td&gt;
           &lt;td&gt;烤土豆&lt;/td&gt;
           &lt;td&gt;BBQ排骨1/4盒＋三文鱼1块&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;646&lt;/td&gt;
+          &lt;td&gt;菠菜+蘑菇&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;666&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下5&lt;/td&gt;
@@ -938,7 +931,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;白米饭&lt;/td&gt;
           &lt;td&gt;鸡肉末炒蛋2个&lt;/td&gt;
           &lt;td&gt;豌豆+胡萝卜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;659&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;669&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下6&lt;/td&gt;
@@ -947,7 +940,7 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;鸡大腿肉1块＋三文鱼1块&lt;/td&gt;
           &lt;td&gt;番茄&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;649&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;667&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;下7&lt;/td&gt;
@@ -955,8 +948,8 @@ where we used $\dim\mathfrak z(A_i)\le n^2$, and the last inequality holds when 
           &lt;td&gt;午餐&lt;/td&gt;
           &lt;td&gt;烤土豆&lt;/td&gt;
           &lt;td&gt;BBQ排骨1/4盒＋三文鱼1块&lt;/td&gt;
-          &lt;td&gt;菠菜&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;646&lt;/td&gt;
+          &lt;td&gt;菠菜+蘑菇&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;666&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1037,13 +1030,13 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;冷冻去壳毛豆&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Natures-Classic-Young-Edamame-Shelled-Soybean/6000197072340&#34;&gt;Nature’s Classic Young Edamame Shelled Soybean&lt;/a&gt;&lt;br&gt;454 g / 盒（2袋×227 g）&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$0.48&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$0.19&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/mushrooms-sliced-cremini-your-fresh-market/6000196148725&#34;&gt;Your Fresh Market Sliced Cremini Mushrooms&lt;/a&gt;&lt;br&gt;227 g / 盒&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1盒 / 周&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$2.44&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2盒 / 周&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;$4.88&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;嫩菠菜&lt;/td&gt;
@@ -1073,19 +1066,19 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;意面&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/PRIMO-SPAGHETTI/1YCQ0A4KHLLW&#34;&gt;Primo Spaghetti&lt;/a&gt;&lt;br&gt;454 g / 包&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$0.45&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$0.50&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;全麦卷饼皮&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Dempster-s-100-Whole-Wheat-Medium-Tortillas/1060329&#34;&gt;Dempster’s 100% Whole Wheat Medium Tortillas&lt;/a&gt;&lt;br&gt;340 g / 袋，10片（34 g / 片）&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Dempster-s-100-Whole-Wheat-Large-Tortillas/6000191270091&#34;&gt;Dempster’s 100% Whole Wheat Large Tortillas&lt;/a&gt;&lt;br&gt;610 g / 袋，10片（61 g / 片）&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$0.54&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$0.86&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Chipotle蛋黄酱&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Hellmann-s-Chipotle-Mayonnaise-Mild-Dressing-340ml/5NDTYWNJRQ1Y&#34;&gt;Hellmann’s Mild Chipotle Mayonnaise&lt;/a&gt;&lt;br&gt;340 mL / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$0.22&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$0.06&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;白米&lt;/td&gt;
@@ -1145,7 +1138,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;橄榄油&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/seort/6000203408497&#34;&gt;Great Value Extra Virgin Olive Oil&lt;/a&gt;&lt;br&gt;1 L / 瓶&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;按需补&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$0.41&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$0.46&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;减盐酱油&lt;/td&gt;
@@ -1169,7 +1162,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;每周合计&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;—&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约$171&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约$173&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1288,7 +1281,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蘑菇&lt;/td&gt;
-          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1、4、7 （1/5+2/5+2/5）&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;菠菜&lt;/td&gt;
@@ -1389,7 +1382,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
 &lt;/ol&gt;
 &lt;h5 id=&#34;煮锅二&#34;&gt;煮锅二&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;意面：烧水煮干面80 g，煮约8分钟。&lt;/li&gt;
+&lt;li&gt;意面：烧水煮干面90 g，煮约8分钟。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;炒锅线程&#34;&gt;炒锅线程&lt;/h4&gt;
 &lt;p&gt;调味表：橄榄油短喷约30喷＝1茶匙；粉状调味料约30下＝1茶匙&lt;/p&gt;
@@ -1409,7 +1402,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;鸡肉末+豌豆+胡萝卜+炒蛋&lt;/td&gt;
-          &lt;td&gt;1/2 茶匙&lt;/td&gt;
+          &lt;td&gt;1 茶匙&lt;/td&gt;
           &lt;td&gt;—&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
           &lt;td&gt;1/4 茶匙&lt;/td&gt;
@@ -1451,19 +1444,19 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
 &lt;/table&gt;
 &lt;h5 id=&#34;小炒锅&#34;&gt;小炒锅&lt;/h5&gt;
 &lt;ol&gt;
-&lt;li&gt;蘑菇：取半盒约114 g，大火加油、调味，炒约7分钟至熟；放第1盘。&lt;/li&gt;
+&lt;li&gt;蘑菇：取1盒227 g，大火加油、调味，炒约7分钟至熟；1/5放第1盘，其余4/5均分到第4、7盘。&lt;/li&gt;
 &lt;li&gt;番茄+意面：用番茄意面酱半瓶，小火加油、调味，煮2–3分钟；拌入意面煮约3分钟至热透；均分到第3、6盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h5 id=&#34;大炒锅&#34;&gt;大炒锅&lt;/h5&gt;
 &lt;ol&gt;
 &lt;li&gt;菠菜：取2盒共284 g，大火加油、调味，炒约7分钟至熟；均分到第4、7盘。&lt;/li&gt;
-&lt;li&gt;鸡肉末+豌豆+胡萝卜+炒蛋：炒完菠菜后擦干锅；中火加1/2茶匙油，放入鸡肉末1盒，铺开稍定型后炒散至中心74°C；加入沥干的豌豆+胡萝卜1罐炒热；转中小火倒入4个打散的鸡蛋和调味，炒至凝固；均分到第2、5盘。&lt;/li&gt;
+&lt;li&gt;鸡肉末+豌豆+胡萝卜+炒蛋：炒完菠菜后擦干锅；中火加1/2茶匙油，放入鸡肉末1盒，铺开稍定型后炒散至中心74°C；加入沥干的豌豆+胡萝卜1罐炒热；将肉菜拨到锅边，转中小火在空处再加1/2茶匙油，倒入4个打散的鸡蛋和调味，炒至凝固后拌匀；均分到第2、5盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;卷饼线程&#34;&gt;卷饼线程&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;全麦卷饼皮抹 Hellmann’s Mild Chipotle 蛋黄酱2茶匙（10 mL）。&lt;/li&gt;
-&lt;li&gt;冷冻去壳毛豆25 g微波加热至热透，稍放凉。&lt;/li&gt;
-&lt;li&gt;将毛豆、掰碎的鸡大腿肉、水煮蛋和蘑菇放入卷饼皮，卷好放第1盘。&lt;/li&gt;
+&lt;li&gt;全麦卷饼皮抹 Hellmann’s Mild Chipotle 蛋黄酱1/2茶匙（约2.5 mL）。&lt;/li&gt;
+&lt;li&gt;冷冻去壳毛豆10 g微波加热至热透，稍放凉。&lt;/li&gt;
+&lt;li&gt;将毛豆、掰碎的鸡大腿肉、水煮蛋和蘑菇放入大号卷饼皮，卷好放第1盘。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;放纵餐&#34;&gt;放纵餐&lt;/h3&gt;
 &lt;h4 id=&#34;常见放纵餐&#34;&gt;常见放纵餐&lt;/h4&gt;
@@ -1481,7 +1474,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;th&gt;食物&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,991 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,739 kcal（额外加吃）&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;剩余每周赤字（kcal，额外加吃）&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;剩余日均赤字（kcal）&lt;/th&gt;
       &lt;/tr&gt;
@@ -1491,201 +1484,201 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;&lt;a href=&#34;https://www.bbqchickenca.com/&#34;&gt;酱蒜无骨炸鸡（bb.q Chicken Soy Garlic Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整份，1.2 lb&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;1,156，菜单标注&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约29%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,834.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;404.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约31%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,583.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;369.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://6ixtywings.com/menu_items/chicken-caesar-wrap/&#34;&gt;凯撒鸡肉卷（6IXTY WINGS Chicken Caesar Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个＋默认普通薯条&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,500&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约28–38%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,490.64–2,890.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;355.81–412.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约29–40%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,239.12–2,639.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;319.87–377.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://order.online/store/burger-burger-25113744&#34;&gt;炸鸡汉堡（Burger Burger Johnny Cash Chicken）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19–26%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,940.64–3,240.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;420.09–462.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约20–28%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,689.12–2,989.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;384.16–427.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.ubereats.com/ca/store/ozen-sushi/yCgRS0Q7S_Wlx8Flww4rWQ&#34;&gt;炸鸡排套餐（Ozen Sushi Chicken Katsu Combo）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1整套，含米饭、饺子、yam配菜、汤及沙拉&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估1,100–1,600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约28–40%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,390.64–2,890.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;341.52–412.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约29–43%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,139.12–2,639.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;305.59–377.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://osmows.com/nutrition-calculator&#34;&gt;脆鸡沙威玛卷（Osmow’s Crispy Chicken Shawarma Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Regular，含蒜酱及OzPotle酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估750–1,050&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19–26%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,940.64–3,240.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;420.09–462.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约20–28%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,689.12–2,989.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;384.16–427.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;新奥尔良烤翅（Mr. Panda BBQ Sweet Roasted Chicken Wings）&lt;/td&gt;
           &lt;td&gt;1整份，1 lb带骨&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;估650–950&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约16–24%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,040.64–3,340.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;434.38–477.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17–25%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,789.12–3,089.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;398.45–441.30&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/large-pizza/&#34;&gt;Pepperoni 披萨（Pizza Pizza，大号）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3片&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约750&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约19%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,240.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;462.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约20%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,989.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;427.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;奥利奥暴风雪冰淇淋（DQ OREO Cookie Blizzard）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约670&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,320.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;474.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约18%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,069.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;438.45&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;炒饭（Panda Express Fried Rice，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约312 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约620&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,370.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;481.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,119.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;445.59&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/poutine/&#34;&gt;肉汁奶酪薯条（Pizza Pizza Classic Poutine）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约600&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,390.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;484.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约16%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,139.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;448.45&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://rippedrestaurants.com/ca/chains/mcdonalds/big-mac&#34;&gt;巨无霸汉堡（加拿大 McDonald’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约570&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,420.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;488.66&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,169.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;452.73&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡汉堡（KFC Famous Chicken Sandwich）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个，不含薯条和饮料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约540&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,450.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;492.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,199.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;457.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;巧克力奶昔（DQ Chocolate Shake）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Small&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约530&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,460.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;494.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,209.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;458.45&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pandaexpress.com/nutritioninformation&#34;&gt;陈皮鸡（Panda Express Orange Chicken，美版参考）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份约168 g，不含米饭&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约510&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,480.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;497.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约14%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,229.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;461.30&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.pizzapizza.ca/about-us/nutrition/desserts/&#34;&gt;迷你布朗尼（Pizza Pizza Two-Bite Brownies）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;6个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,510.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;501.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约13%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,259.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;465.59&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://assets.ctfassets.net/a2mgcrjjefyo/3AUi2N7aacNo4rjQ1jE3di/4de20ade3ee68d86901ad9d97230accf/KFC_Website_Nutritional_Information__W4_2024_.pdf&#34;&gt;炸鸡（KFC Original Recipe）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2块鸡大腿，不含配餐和蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约440&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,550.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;507.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,299.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;471.30&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.tastyrewards.com/en-ca/brands/lays/products/wavy-laysr-original-potato-chips&#34;&gt;原味波浪薯片（Wavy Lay’s）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;75 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约420&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约11%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,570.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;510.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,319.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;474.16&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://fr.starbucks.ca/menu/product/424/iced&#34;&gt;焦糖星冰乐（Starbucks Caramel Frappuccino）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯Grande，473 mL，标准配方&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约380&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约10%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,610.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;515.81&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,359.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;479.87&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;牧场酱脆鸡卷（DQ Ranch Crispy Chicken Wrap）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约340&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,650.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;521.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,399.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;485.59&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸鸡柳（DQ Chicken Strips）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;3条，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约320&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约8%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,670.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;524.38&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约9%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,419.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;488.45&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;薯条（DQ Fries）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约280&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,710.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;530.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,459.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;494.16&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;炸洋葱圈（DQ Onion Rings）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1份Regular，不含蘸酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约260&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约7%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,730.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;532.95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,479.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;497.02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.dairyqueen.com/en-ca/nutrition/food-treats/&#34;&gt;香草冰淇淋（DQ Vanilla Cone）&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1个Small甜筒，不加脆皮和配料&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约230&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约6%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,760.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;537.23&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,509.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;501.30&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.coca-cola.com/ca/en/brands/sprite/products&#34;&gt;普通雪碧&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1瓶500 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约200&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约5%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,790.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;541.52&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,539.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;505.59&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8203394&#34;&gt;普通可口可乐&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1罐355 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约140&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约4%&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3,850.64&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;550.09&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3,599.12&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;514.16&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1698,7 +1691,7 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;th&gt;替代品&lt;/th&gt;
           &lt;th&gt;份量&lt;/th&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;热量（kcal）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,991 kcal（额外加吃）&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;占参考赤字3,739 kcal（额外加吃）&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -1735,14 +1728,14 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/seort/10287782&#34;&gt;Snack Pack No Sugar Added Chocolate Pudding Cups&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯99 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1.5%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.6%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;香草奶味甜点&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/snack-pack-no-sugar-added-vanilla-pudding-cups/10287875&#34;&gt;Snack Pack No Sugar Added Vanilla Pudding Cups&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1杯99 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约60&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1.5%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.6%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;冰淇淋、雪糕&lt;/td&gt;
@@ -1756,28 +1749,28 @@ Great Value豌豆+胡萝卜每周两罐398mL，每半周用一罐，沥干后与
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Popsicle-Fudgsicle-Frozen-Dairy-Dessert-Bars-12-x-60-ml/6000195509106&#34;&gt;Popsicle Fudgsicle Frozen Dairy Dessert Bars&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1支60 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.0%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.1%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;奶味冰淇淋&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Halo-Top-Vanilla-Bean-Frozen-Dessert/6000199406471&#34;&gt;Halo Top Vanilla Bean Frozen Dessert&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;125 mL&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约80&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.0%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.1%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饼干、脆口零食&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/quaker-crispy-minis-rice-cakes-original/10284949&#34;&gt;Quaker Crispy Minis Original Large Brown Rice Cakes&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;2片，不加抹酱&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约70&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1.9%&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;薯片、咸脆零食&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.walmart.ca/en/ip/Orville-Redenbacher-Smart-Pop-Mircowave-Popcorn-8-Mini-Bags/206256&#34;&gt;Orville Redenbacher Smart Pop! Microwave Popcorn Mini Bags&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;1迷你袋31 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;约110&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约2.8%&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约2.9%&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2357,8 +2350,8 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 &lt;h3 id=&#34;营养统计&#34;&gt;营养统计&lt;/h3&gt;
 &lt;!--
 现行营养计算口径（2026-10-19）：每周Swiss Chalet BBQ熟猪背排骨一盒600g；四顿各用1/4盒150g含骨及酱汁重量。暂沿用旧盒450/680的可食比例，按每周约397.06g、每顿约99.26g熟可食部分计算，非Swiss Chalet公布出肉率；营养向量已用同款标签，实称去骨后可食重量后应重算。特瘦鸡肉末每周两盒共908g生重，均分四顿白米饭餐，每顿约227g；营养总量仍按旧900g代理，待实物标签重算。鸡腿为8块一盒，按830g/周、每块103.75g生重估算，卷饼餐2块207.5g生重、每顿意面1块103.75g生重，不扣修脂；沿用同部位营养代理，非本款实测。其余肉按生重、谷物按干重、土豆按生可食重，豌豆+胡萝卜按沥干可食重。Coho三文鱼每周4盒共8块，按每盒320g、全周1,280g、每餐1块160g生重计算，实收净重不同须重算。
-豆奶每周两桶、每桶标称1.89L：一桶全部用于7天早餐，早餐按质量称重，前6天各约270g、第7天用尽余量；另一桶用于餐外。1.89L不等于精确的1890g，早餐实际每份质量以该桶净重的1/7为准。营养仍按标称体积计每周3.78L（早餐1.89L、餐外1.89L），因为营养标签按mL标示。Fibre One280g/周；水果盘按1.3kg可食水果估算，分3天吃；奇异果12个，暂按每个去皮后75g、全周900g估算，分4天吃（每天3个）。每周12个全蛋，早餐不含蛋；周日、周三各用6个（2个水煮、4个鸡肉末炒蛋）；每顿鸡腿卷饼餐2个水煮蛋，每顿白米饭餐相当于2个炒蛋；土豆餐和意面餐不加蛋。白米约192g干重/周（每次120mL约96g、4餐各约48g），意面160g干重/周（4餐各40g），小土豆按680g生可食重量估算（4餐各170g）；购入后按实称重量均分。
-周橄榄油37.5mL，密度0.91g/mL；食盐4.5g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡肉末炒蛋5、土豆5、蘑菇2.5、菠菜10、意面5。每半周蘑菇取半盒约113.5g只给卷饼，菠菜取2盒共284g均分土豆餐；每周蘑菇227g、菠菜568g。排骨酱汁已含在Swiss Chalet标签中，不重复添加。整周鸡肉末炒蛋用油1茶匙、蒜粉1/2茶匙和洋葱粉1/2茶匙，不额外加盐；每周减盐酱油30mL、鸡粉1/4茶匙，Walmart新品牌标签待确认，暂未计入营养；费用已粗估。每周白米约192g干重、鸡蛋12个（水煮4个、鸡肉末炒蛋8个）。干香料合计16.25茶匙，采用原混合代理。锅中未食用的油脂、酱汁尚未实测。
+豆奶每周两桶、每桶标称1.89L：一桶全部用于7天早餐，早餐按质量称重，前6天各约270g、第7天用尽余量；另一桶用于餐外。1.89L不等于精确的1890g，早餐实际每份质量以该桶净重的1/7为准。营养仍按标称体积计每周3.78L（早餐1.89L、餐外1.89L），因为营养标签按mL标示。Fibre One280g/周；水果盘按1.3kg可食水果估算，分3天吃；奇异果12个，暂按每个去皮后75g、全周900g估算，分4天吃（每天3个）。每周12个全蛋，早餐不含蛋；周日、周三各用6个（2个水煮、4个鸡肉末炒蛋）；每顿鸡腿卷饼餐2个水煮蛋，每顿白米饭餐相当于2个炒蛋；土豆餐和意面餐不加蛋。白米约192g干重/周（每次120mL约96g、4餐各约48g），意面180g干重/周（4餐各45g），小土豆按680g生可食重量估算（4餐各170g）；购入后按实称重量均分。
+周橄榄油42.5mL，密度0.91g/mL；食盐4.5g，每克钠393.4mg，1茶匙盐暂按6g。油分配mL/周：鱼5、鸡腿5、鸡肉末炒蛋10、土豆5、蘑菇2.5、菠菜10、意面5。每半周蘑菇取1盒227g，约1/5给卷饼、4/5均分给两顿菠菜土豆餐；菠菜取2盒共284g均分土豆餐；每周蘑菇454g、菠菜568g。排骨酱汁已含在Swiss Chalet标签中，不重复添加。整周鸡肉末炒蛋用油2茶匙、蒜粉1/2茶匙和洋葱粉1/2茶匙，不额外加盐；每周减盐酱油30mL、鸡粉1/4茶匙，Walmart新品牌标签待确认，暂未计入营养；费用已粗估。每周白米约192g干重、鸡蛋12个（水煮4个、鸡肉末炒蛋8个）。干香料合计16.25茶匙，采用原混合代理。锅中未食用的油脂、酱汁尚未实测。
 以下营养向量顺序：kcal、蛋白质g、脂肪g、饱和脂肪g、碳水g、纤维g、总糖g、胆固醇mg、钠mg、钙mg、铁mg、钾mg。保留用于后续增减计算；同类食品代理不代表当前品牌实测。
 鸡腿/100g：[149,18.6,7.9,1.7,0,0,0,92,62.3,5,0.6,231]
 Swiss Chalet Smoky BBQ猪背排骨/140g可食部分：[270,18,14,6,17,1,11,65,660,40,1,350]，每周暂估397.06g，酱汁已计入；同款GTIN 066701009421标签：https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8209140 。
@@ -2373,16 +2366,16 @@ Little Yellows（与Boomer Gold同UPC）/110g包装标示：[80,2,0,0,16,2,1,0,0
 菠菜/100g：[23,2.86,0.39,0.063,3.63,2.2,0.42,0,79,99,2.71,558]
 Catelli番茄酱/125mL：[50,1,1.5,0.2,9,1,5,0,330,20,0.5,350]（纤维1g为代理）
 新鲜混合水果盘/100g暂估：[45,0.6,0.15,0.03,10.7,1.1,8.7,0,5,12,0.25,170]，按1.3kg水果估算；季节配比不固定，因此是低精度代理而非本款标签。完整奇异果12个、暂按去皮后75g/个共900g，沿用USDA生奇异果/100g代理：[61,1.14,0.52,0.029,14.66,3,8.99,0,3,34,0.31,312]；来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg09.pdf （NDB 09148）。水果盘与奇异果参考价合计$27.61/周；水果盘$15.97，奇异果12个×$0.97。
-Primo意面/85g：[310,11,1.5,0.4,64,4,2,0,0,20,2.5,175]。每周干面160g，两次各80g、各均分两餐；按Walmart参考价$1.27/454g，分摊约$0.45/周。营养采用同款454g包装的较完整零售标签：https://www.fortinos.ca/en/spaghetti-pasta/p/20731217001_EA ；Walmart页面仅列部分营养，Primo官网数据与零售标签略有差别，实物标签优先。
-全麦Medium卷饼/34g：[90,3,2.5,0.5,15,2,0,0,180,0,0.75,125]，每顿1片；标签来源：https://www.fortinos.ca/en/100-whole-wheat-medium-tortillas/p/20135127_EA 。
-Hellmann’s Mild Chipotle蛋黄酱/15mL：[35,0.1,3.5,0.3,1,0,1,0,105,0,0,0]。每顿10mL、每周20mL；钾、铁未列标签，此处暂按0计，并非证实绝对不含。配料含添加糖。来源：https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 。
-熟去壳毛豆/82g：[100,9,4,0.6068,8,4.3,2,0,5,52,1.9,357]。每顿25g、每周50g；除饱和脂肪外，营养采用Health Canada表中熟毛豆（82g）值；饱和脂肪按USDA熟毛豆0.74g/100g折算，非所购品牌实测。来源：https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/table-4-vegetables-vegetable-products-nutrient-value-some-common-foods-2008.html 、https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg11.pdf 。
+Primo意面/85g：[310,11,1.5,0.4,64,4,2,0,0,20,2.5,175]。每周干面180g，两次各90g、各均分两餐；按Walmart参考价$1.27/454g，分摊约$0.50/周。营养采用同款454g包装的较完整零售标签：https://www.fortinos.ca/en/spaghetti-pasta/p/20731217001_EA ；Walmart页面仅列部分营养，Primo官网数据与零售标签略有差别，实物标签优先。
+全麦Large卷饼/61g：[170,5,4,1,28,3,1,0,320,30,1.5,225]，每顿1片；标签来源：https://www.nofrills.ca/en/100-whole-wheat-large-tortillas/p/21424015_EA 。
+Hellmann’s Mild Chipotle蛋黄酱/15mL：[35,0.1,3.5,0.3,1,0,1,0,105,0,0,0]。每顿2.5mL、每周5mL；钾、铁未列标签，此处暂按0计，并非证实绝对不含。配料含添加糖。来源：https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 。
+熟去壳毛豆/82g：[100,9,4,0.6068,8,4.3,2,0,5,52,1.9,357]。每顿10g、每周20g；除饱和脂肪外，营养采用Health Canada表中熟毛豆（82g）值；饱和脂肪按USDA熟毛豆0.74g/100g折算，非所购品牌实测。来源：https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/table-4-vegetables-vegetable-products-nutrient-value-some-common-foods-2008.html 、https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg11.pdf 。
 白米/干重100g：[365,7.13,0.66,0.18,79.95,1.3,0.12,0,5,28,0.8,115]。沿用此前USDA SR28 NDB 20444未强化长粒白米代理，非Great Value商品实测；每次120mL、按0.8g/mL估96g，每周两次约192g、每餐约48g干重，淘洗及烹调流失未另扣。来源：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg20.pdf 。
 Fibre1/62g：[140,4,1,0.2,53,27,1,0,220,250,8,150]
 橄榄油/100g：[884,0,100,13.8,0,0,0,0,2,1,0.56,1]
 基础干香料每16茶匙：[118,5.5,2.3,0.4,25,8,2,0,30,130,3.3,550]
-未取整周合计：[12245.32025977006,981.7689307250583,452.5375693538747,109.30111370561129,1183.09421068217,268.74561767260377,304.09722761648135,4750.748739495798,12773.92715708037,7905.044512112475,120.46941178651666,33704.905196106454]。卷饼每顿用熟去壳毛豆25g作馅、Chipotle蛋黄酱10mL；鸡肉末炒蛋每次用1/2茶匙油，按油全部食用计算。未根据Walmart其他新品牌全面重算，新鸡肉末每周908g而基线为900g。排骨出肉率、罐头沥干重、量杯松紧、品牌标签及锅中弃油造成估算误差。
-周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字3990.638073563274、日均570.091153366182kcal；除7700得理论脂肪等价值约0.518±0.211kg/周（周消耗±1623.60kcal对应），不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
+未取整周合计：[12496.83807038699,990.6394830923466,455.7040958961989,110.54653135267012,1229.9872049432888,271.4756234114847,308.6951085347023,4750.748739495798,12960.808888787687,7991.631504221514,122.7960051294148,34832.47741059713]。卷饼每顿用熟去壳毛豆10g作馅、Chipotle蛋黄酱2.5mL；鸡肉末炒蛋每次用1茶匙油，按油全部食用计算。未根据Walmart其他新品牌全面重算，新鸡肉末每周908g而基线为900g。排骨出肉率、罐头沥干重、量杯松紧、品牌标签及锅中弃油造成估算误差。
+周消耗维持16235.958333333334kcal：基础及日常14511、力量训练450.9583333333333、有氧800、步行474；周赤字3739.120262946344、日均534.1600375637635kcal；除7700得理论脂肪等价值约0.486±0.211kg/周（周消耗±1623.60kcal对应），不是实际纯脂肪减量保证。赤字显示两位小数仅为算术精度，须以体重趋势校准；未计放纵餐。
 主要来源：
 BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉率仍为估计。
 豆奶：https://www.silkcanada.ca/products/plant-based-beverage/unsweetened-soy-beverage/ 、https://www.provigo.ca/en/soy-milk-alternative-unsweetened-dairy-free/p/20308979_EA
@@ -2391,14 +2384,14 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 谷物：https://voila.ca/products/fibre-one-cereal-crunchy-original-587-g/887547EA
 白米水量：每次量120mL干米；按此前约0.8g/mL的松散装杯密度，估约96g。沿用用户指定米水体积比1:1，淘洗沥干后加约120mL水作为试煮起点。沿用Toshiba电饭煲White Rice模式，程序结束后单独分盘。米的密度及淘洗后残留水量会改变实际口感，必要时按试煮结果微调加水；营养按估计干重计算。
 土豆：商品和规格见购物表，包装注明预洗、无需去皮。每次取半袋整颗烤箱400°F约30分钟，以叉子能刺透为准；油和调味沿用现有表，不冷冻土豆。烤制时间依据：https://www.littlepotatoes.com/product/little-yellows/ 。
-卷饼：https://www.walmart.ca/en/ip/Dempster-s-100-Whole-Wheat-Medium-Tortillas/1060329 ；每片营养标签：https://www.fortinos.ca/en/100-whole-wheat-medium-tortillas/p/20135127_EA
+卷饼：https://www.walmart.ca/en/ip/Dempster-s-100-Whole-Wheat-Large-Tortillas/6000191270091 ；每片营养标签：https://www.nofrills.ca/en/100-whole-wheat-large-tortillas/p/21424015_EA
 鱼：https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg15.pdf （NDB 15238）；https://fdc.nal.usda.gov/food-details/173715/nutrients
 鸡肉末：https://www.eatthismuch.com/calories/extra-lean-ground-chicken-3342704 （第三方品牌记录，实物标签优先）
 其余商品来源见购物表；尚缺本款完整标签的鸡腿、蔬果及香料采用同类参考。
 --&gt;
 &lt;h4 id=&#34;一周营养统计&#34;&gt;一周营养统计&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;热量估计（不含放纵餐）：日均摄入约1,749 kcal、消耗约2,319 ± 232 kcal、赤字约570 ± 232 kcal；对应每周摄入约12,245 kcal、消耗约16,236 ± 1,624 kcal、赤字约3,991 ± 1,624 kcal。按7,700 kcal/kg粗算，理论脂肪等价值约减0.52 ± 0.21 kg／周，不等于实际体重下降量。&lt;/strong&gt; &lt;a href=&#34;https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner&#34;&gt;估算局限&lt;/a&gt;&lt;/p&gt;
-&lt;!-- 按当前约定，摄入固定为计划值；消耗的“±”暂按10%作规划情景，不是实测误差或95%置信区间。按中心值换算的理论脂肪等价值约0.52 ± 0.21 kg／周，不代表实际纯脂肪减量。 --&gt;
+&lt;p&gt;&lt;strong&gt;热量估计（不含放纵餐）：日均摄入约1,785 kcal、消耗约2,319 ± 232 kcal、赤字约534 ± 232 kcal；对应每周摄入约12,497 kcal、消耗约16,236 ± 1,624 kcal、赤字约3,739 ± 1,624 kcal。按7,700 kcal/kg粗算，理论脂肪等价值约减0.49 ± 0.21 kg／周，不等于实际体重下降量。&lt;/strong&gt; &lt;a href=&#34;https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/nih-body-weight-planner&#34;&gt;估算局限&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 按当前约定，摄入固定为计划值；消耗的“±”暂按10%作规划情景，不是实测误差或95%置信区间。按中心值换算的理论脂肪等价值约0.49 ± 0.21 kg／周，不代表实际纯脂肪减量。 --&gt;
 &lt;p&gt;消耗构成（估算）：&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
@@ -2443,7 +2436,7 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 &lt;/table&gt;
 &lt;p&gt;运动按扣除同期基础消耗后的净增加量计入，避免重复计算；日常加成不代表单独测得的食物热效应。&lt;/p&gt;
 &lt;!--
-以下暂按Swiss Chalet排骨整盒约397 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约8.0%（109.3g×9kcal/g÷12,245kcal）；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。摄入无偏差仅为当前赤字模型约定，不代表标签、食材重量与实际食用量均已核实。--&gt;
+以下暂按Swiss Chalet排骨整盒约397 g去骨可食部分估算，尚待实称；不含放纵餐。饱和脂肪供能约8.0%（110.5g×9kcal/g÷12,497kcal）；新增酱油、鸡粉及Fresca的钠尚未计入，需按实际产品标签补算。摄入无偏差仅为当前赤字模型约定，不代表标签、食材重量与实际食用量均已核实。--&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2456,27 +2449,27 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;热量&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,245 kcal&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,749 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,497 kcal&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,785 kcal&lt;/td&gt;
           &lt;td&gt;1,800–2,000 kcal&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;蛋白质&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约982 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约140.3 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约991 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约141.5 g&lt;/td&gt;
           &lt;td&gt;130–165 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约453 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约64.6 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约456 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约65.1 g&lt;/td&gt;
           &lt;td&gt;45–65 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约109.3 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约15.6 g&lt;/td&gt;
-          &lt;td&gt;11.7 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约110.5 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约15.8 g&lt;/td&gt;
+          &lt;td&gt;11.9 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;饱和脂肪占总热量&lt;/td&gt;
@@ -2486,25 +2479,25 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;碳水化合物&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,183 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约169.0 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,230 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约175.7 g&lt;/td&gt;
           &lt;td&gt;180–240 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;膳食纤维&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约269 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约38.4 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约271 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约38.8 g&lt;/td&gt;
           &lt;td&gt;30–38 g&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;总糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约304 g&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约43.4 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约309 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约44.1 g&lt;/td&gt;
           &lt;td&gt;–&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;添加糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;粗估约31–66 g&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;粗估约30–65 g&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;粗估约4–9 g&lt;/td&gt;
           &lt;td&gt;≤25 g&lt;/td&gt;
       &lt;/tr&gt;
@@ -2516,26 +2509,26 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钠&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约12,774 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,825 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约12,961 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,852 mg&lt;/td&gt;
           &lt;td&gt;≤2,300 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钙&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约7,905 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约1,129 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约7,992 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约1,142 mg&lt;/td&gt;
           &lt;td&gt;1,000 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;铁&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约120.5 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约17.2 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约122.8 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约17.5 mg&lt;/td&gt;
           &lt;td&gt;8 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;钾&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约33,705 mg&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;约4,815 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约34,832 mg&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;约4,976 mg&lt;/td&gt;
           &lt;td&gt;≥3,400 mg&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -2623,40 +2616,40 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周二午／周三晚／周五晚／周日午&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;646&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;54.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;26.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;666&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;56.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;26.8&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;7.7&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;43.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;10.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;47.9&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;11.7&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;128&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;877&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;199&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;6.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;2,576&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;883&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;216&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;7.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2,983&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周日晚／周四午&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;655&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;60.0&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;35.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;8.0&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;27.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;4.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;685&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;58.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;34.4&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8.3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;36.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;2.5&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;581&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;668&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;112&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;5.3&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,412&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;751&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;120&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;5.4&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,142&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一午／周二晚／周四晚／周六午&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;659&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;669&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;61.8&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;23.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;8.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;24.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;8.2&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;51.7&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;5.0&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;3.8&lt;/td&gt;
@@ -2668,18 +2661,18 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;周一晚／周三午／周五午／周六晚&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;649&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;60.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;25.4&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;667&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;61.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;25.5&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;5.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;43.4&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.9&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;7.3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;47.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4.1&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;7.4&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;179&lt;/td&gt;
           &lt;td style=&#34;text-align: right&#34;&gt;686&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;72&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;3.6&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,518&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;73&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;3.7&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;1,528&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;餐外饮品（日均）&lt;/td&gt;
@@ -2702,8 +2695,8 @@ BBQ排骨当前商品见购物表；营养按Swiss Chalet同款标签，出肉�
 微量营养与目标说明：D为低精度食物代理估算；B12、EPA+DHA为限定来源小计，非完整摄入量；未计入不等于不含。ALA和碘亦为低精度估计，未可靠计入肉类的分项含量，不能根据小幅低于目标诊断不足。
 维生素D：此前已计30.12µg/周（旧129.56减去原Atlantic三文鱼904g所计99.44）；现购养殖Coho无可靠实测D数据，暂借用USDA野生Coho生鱼307 IU/85g≈9.03µg/100g，按1,280g/周估115.58µg；12个全蛋按NIH每个约1.1µg估13.2µg；合计约158.9µg/周、22.7µg/天。养殖与野生、饲料和实收鱼重均可能改变实际值，不应将此粗估当成实测摄入或维生素D状态。来源：https://ods.od.nih.gov/pubs/usdandb/VitaminD-Food.pdf 、https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/ 。B12已计49.0364µg/周；排骨和鸡肉末的标签资料不全，暂不补入，不代表不含。全蛋也未纳入B12限定来源小计。Coho三文鱼EPA+DHA按每100g约1.206g、全周1,280g计约15.44g，排骨未定量。
 碘暂列800–900µg/周：旧估计958.54µg扣去本次取消1.5g加碘盐约114.68µg后为843.86µg，取宽范围；排骨中的盐不假定为加碘盐，肉类碘未可靠定量。加碘盐依据：https://inspection.canada.ca/en/food-labels/labelling/industry/salt ，暂按每克盐76.45µg碘。ALA仍仅粗估8–9g/周（主要来自豆奶、鱼类，油量减少影响小），排骨未可靠计入；未计入不等于零，不能据此诊断不足。
-总糖包含天然糖；添加糖粗估约31–66g/周：Swiss Chalet BBQ排骨标签总糖11g/140g，暂估397g可食部计总糖约31g/周；配料含糖、糖浆和糖蜜，暂估其中添加糖约20–35g；Catelli番茄意面酱每周600mL、总糖约24g且配料含糖，暂估添加糖约8–18g；Hellmann’s Chipotle蛋黄酱每周约1.3g糖、配料含添加糖；豌豆+胡萝卜罐头配料含糖，暂估两罐合计0–4g添加糖；两片全麦卷饼等其余来源暂估0–2g。范围取整且不是统计置信区间；排骨和罐头均未单列添加糖，实值可能超出范围。Fibre One配料未列糖，混合水果与无糖豆奶的天然糖不算添加糖。来源：https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8209140 、https://www.kraftheinz.com/en-CA/catelli/products/00064200010122-garden-select-tomato-basil-pasta-sauce 、https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 、https://www.walmart.ca/en/ip/Great-Value-Peas-and-Carrots-398-mL/5YDQIJZT1APQ 、https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html 。糖已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但鸡肉末炒蛋所用酱油、鸡粉待补算。
-宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列11.7g为约1749kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
+总糖包含天然糖；添加糖粗估约30–65g/周：Swiss Chalet BBQ排骨标签总糖11g/140g，暂估397g可食部计总糖约31g/周；配料含糖、糖浆和糖蜜，暂估其中添加糖约20–35g；Catelli番茄意面酱每周600mL、总糖约24g且配料含糖，暂估添加糖约8–18g；Hellmann’s Chipotle蛋黄酱每周约0.3g糖、配料含添加糖；豌豆+胡萝卜罐头配料含糖，暂估两罐合计0–4g添加糖；两片全麦卷饼等其余来源暂估0–2g。范围取整且不是统计置信区间；排骨和罐头均未单列添加糖，实值可能超出范围。Fibre One配料未列糖，混合水果与无糖豆奶的天然糖不算添加糖。来源：https://www.repertoirealimentsquebecois.gouv.qc.ca/Produit/Index/8209140 、https://www.kraftheinz.com/en-CA/catelli/products/00064200010122-garden-select-tomato-basil-pasta-sauce 、https://www.hellmanns.com/ca/en/p/chipotle-mayonnaise.html/00068400004097 、https://www.walmart.ca/en/ip/Great-Value-Peas-and-Carrots-398-mL/5YDQIJZT1APQ 、https://www.canada.ca/en/health-canada/services/nutrients/sugars/using-food-labels.html 。糖已包含在热量中，不重复加热量。铁为摄入量，非吸收量；钠含食品及加盐，但鸡肉末炒蛋所用酱油、鸡粉待补算。
+宏量建议为减脂训练的实用范围，不是统一医学阈值。蛋白质目标暂保留130–165g，按79kg约为1.65–2.09g/kg；纤维38g是成年男性AI，不是上限。ALA1.6g是AI，EPA+DHA250mg为成人参考量，二者不能互相替代。饱和脂肪目标按个人血脂背景采用约6%能量，表列11.9g为约1785kcal×6%÷9后的近似。营养目标需结合个体情况，不为追表自行补铁、钾或碘。
 依据：
 https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Iodine/IODINE_DATABASE_RELEASE_4_PER_100G.pdf
 https://ods.od.nih.gov/pubs/usdandb/ALA-Food.pdf.pdf

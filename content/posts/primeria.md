@@ -6,8 +6,9 @@ aliases = ['/posts/primeria/']
 +++
 
 
-Hi, I want to share with you a board game I invented yesterday, inspired by scrabble. 
-It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an [interactive UI](https://yunhaixiang.github.io/primeria/) you can use to play it. Try it out! 
+Hi, I want to share with you a board game I invented yesterday. 
+It is a two person board game which combines clever strategies with quick mental arithmetic skills. 
+I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which you can try out. 
 
 {{< figure
   src="/img/primeria.jpeg"
@@ -15,30 +16,38 @@ It is a fun two person turn based perfect information abstract strategy game wit
   caption="A game of Primeria in the interactive UI."
   width="100%">}}
 
-## Rules
+## Set-up
 
-The game is played on a square board with 9 by 9, 11 by 11, or 13 by 13 squares. Each player has a starting pile of 36 square tiles labelled as follows.
+The game is played on a square board with 9 x 9, 11 x 11, 13 x 13, or 15 x 15 squares. 
+Each player start with a pile of 36 tiles labelled with digits 0 ~ 9.
+For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, 9 each. 
+Two players take turns to place tiles on the square.
+Flip a coin to decide which player plays first. 
 
-| Tile labels | Number of each tile |
-| :---: | :---: |
-| 0, 5 | 2 |
-| 2, 4, 6, 8 | 3 |
-| 1, 3, 7, 9 | 5 |
-{.table-centered}
+## Moves
 
-To win the game, a player must play all their tiles before their opponent does. Other than winning by playing all tiles, one can win by opponent resigning or running out of time in a time controlled game. As an optional time out rule: if the game extends beyond a certain time, say 1 hour, then the winner is decided as the first player to have less tiles than the opponent for 10 consecutive turns. 
+At each turn, there are three kinds of moves. 
 
+**Single Drop**: the player places one of their tiles on any empty square.
 
-The two players flip a coin or do rock paper scissors to decide who moves first. On each move, a player has three options
+**Double Down**: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed). 
 
-1. **Single Drop**: Place a single tile on any vacant space on the board. 
-1. **Double Down**: Place a tile on a vacant square on the board such that it is adjacent to an existing tile, then place another tile on a vacant square on the board such that it is adjacent to any existing tile (where it could be the tile just placed). 
-1. **Challenge**: Point out that a number (horizontal left to right or vertical top to down, from the challenger's perspective) on the board, other than the single digit $1$, is not a prime number, by proposing a nontrivial factor of it, and then verifying the claim with a calculator. If the player is correct and hence the number is not a prime, then this number is picked up from the board, and all but the last digit is put into the opponent's pile, where the last digit called the *tax* is put away as neither player's pile. If the player is incorrect, and the number proposed is not a factor of the number, then no tile is placed this turn, and the opponent begins their turn. For longer numbers, the challenger gets more attempts, numbers 1-3 digits long gets 1 attempt, 4-6 digits long gets 2 attempts, 7-9 digits long gets 3 attempts, and so on. 
+**Challenge**: the player points to a connected row or column of digits, and declares to _challenge_ the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger's perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1-3 digits gets 1 attempt, 4-6 digits gets 2 attempts, 7-9 digits get 3 attempts, and so on. 
+- If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent's pile. The ones digit is put away, in neither player's pile. 
+- If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn. 
 
-In particular, these rules imply that when there are no tiles on the board, the only option is single drop. 
+The zero tile works slightly differently than others. 
 
-There is also a special rule for 0 and 5: the 0 and 5 tiles cannot be placed in any position without any adjacent tiles. Additionally, 0 cannot be placed at the beginning or end of a number, after a turn is finished. 
+**Special Rule for Zero**: After each turn, no 0-tile can be placed in the first or last square in a connected row or column, nor a square without any adjacent tiles. If, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in a connected row or column or an isolated tile without any adjacent tiles, then that 0-tile is immediately removed from the board and put away in neither player's pile. 
 
+## Winning
+
+There are three ways to win a game (and one optional way)
+
+1. Clear-out: a player wins by playing all their tiles in their pile,
+2. Time: a player wins by its opponent running out of time,
+3. Resignation: a player wins by its opponent resigning the game,
+4. (Optional Rule) Tie-breaker: if the game extends for a long time, for example 1 hour, then the first player to have less tiles for 10 consecutive turns wins. 
 
 ## Time Controls
 
@@ -53,18 +62,17 @@ Players can choose one of the following time controls.
 | Casual | Unlimited | — |
 {.table-centered}
 
-Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping your clock. Pause both clocks while verifying the challenge and transferring tiles, then start the opponent's clock. 
+Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping the clock. The clock continues inbetween attempts. The clock can remain stopped when transfering the tiles after a successful attempt. 
+
+## Tips
 
 
-## Strategy
+A good strategy is to make use of the following facts:
 
-One straightforward trick is to use small prime factor tests.
+1. a number is a multiple of 2 if and only if it ends in 0, 2, 4, 6, or 8,
+2. a number is a multiple of 5 if and only if it ends in 0 or 5,
+3. a number is a multiple of 3 if and only if the sum of its digits is a multiple of 3,
+4. a number is a multiple of 7 if and only if subtracting 3 times its last two digits from the number formed by the remaining digits gives a multiple of 7,
+5. a number is a multiple of 11 if and only if the alternating sum of its digits is a multiple of 11,
+6. A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks is a multiple of 7, 11, or 13, respectively.
 
-1. a number is divisible by $3$ (resp. $9$) iff its sum of digits is divisible by $3$ (resp. $9$)
-2. a number is divisible by $11$ iff its alternating sum of digits is divisible by $11$
-3. a number is divisible by $7$ iff subtracting twice its last digit from the number formed by the remaining digits gives a multiple of $7$. 
-4. a number is divisible by $13$ iff adding four times its last digit to the number formed by the remaining digits gives a multiple of $13$.
-5. split the number into three-digit blocks from the right and take their alternating sum. The original number is divisible by $7$, $11$, or $13$ iff that sum is divisible by the corresponding divisor, since $1001=7\cdot11\cdot13$.
-
-
-There is also a trade off between single drop and double down. Double down is more efficient in playing tiles, but single drop allows more freedom. One could use single drops to avoid forming long numbers which are more likely to be composite. Challenging also has a trade off. If succeeds, picking up a number could change existing numbers on the board, and if they are composite, this opens up opportunities for the opponent to challenge these numbers. There are likely more strategies to be discovered. 
