@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yunhai Xiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 07:16:16 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primeria: A Board Game about Prime Numbers</title>
       <link>http://localhost:1313/posts/c219c1f/</link>
@@ -36,10 +36,10 @@ For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 e
 Two players take turns to place tiles on the square.
 Flip a coin to decide which player plays first.&lt;/p&gt;
 &lt;h2 id=&#34;moves&#34;&gt;Moves&lt;/h2&gt;
-&lt;p&gt;At each turn, there are three kinds of moves.&lt;/p&gt;
+&lt;p&gt;At each turn, the player chooses from one of three kinds of moves.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: the player places one of their tiles on any empty square.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Double Down&lt;/strong&gt;: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: the player points to a connected row or column of digits, and declares to &lt;em&gt;challenge&lt;/em&gt; the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger&#39;s perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1-3 digits gets 1 attempt, 4-6 digits gets 2 attempts, 7-9 digits get 3 attempts, and so on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: the player points to a connected row or column of digits, and declares to &lt;em&gt;challenge&lt;/em&gt; the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger&#39;s perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1 ~ 3 digits gets 1 attempt, 4 ~ 6 digits gets 2 attempts, 7 ~ 9 digits get 3 attempts, and so on.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent&#39;s pile. The ones digit is put away, in neither player&#39;s pile.&lt;/li&gt;
 &lt;li&gt;If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.&lt;/li&gt;
@@ -92,7 +92,7 @@ Flip a coin to decide which player plays first.&lt;/p&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping the clock. The clock continues inbetween attempts. The clock can remain stopped when transfering the tiles after a successful attempt.&lt;/p&gt;
+&lt;p&gt;Your clock runs while you choose a placement or find a factor. To challenge, identify both the number and the proposed factor before stopping the clock. The clock continues inbetween attempts. The clock can remain stopped when transferring the tiles after a successful attempt.&lt;/p&gt;
 &lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
 &lt;p&gt;A good strategy is to make use of the following facts:&lt;/p&gt;
 &lt;ol&gt;
