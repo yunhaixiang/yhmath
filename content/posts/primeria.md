@@ -7,7 +7,13 @@ aliases = ['/posts/primeria/']
 
 
 Hi, I want to share with you a board game I invented yesterday, inspired by scrabble. 
-It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an interactive UI you can use to play it. Try it out! 
+It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an [interactive UI](https://yunhaixiang.github.io/primeria/) you can use to play it. Try it out! 
+
+{{< figure
+  src="/img/primeria.jpeg"
+  alt="Primeria game board, player clocks, and tile piles in the interactive UI"
+  caption="A game of Primeria in the interactive UI."
+  width="100%">}}
 
 ## Rules
 
@@ -27,7 +33,7 @@ The two players flip a coin or do rock paper scissors to decide who moves first.
 
 1. **Single Drop**: Place a single tile on any vacant space on the board. 
 1. **Double Down**: Place a tile on a vacant square on the board such that it is adjacent to an existing tile, then place another tile on a vacant square on the board such that it is adjacent to any existing tile (where it could be the tile just placed). 
-1. **Challenge**: Point out that a number (horizontal or vertical in either direction) on the board, other than the single digit $1$, is not a prime number, by proposing a nontrivial factor of it, and then verifying the claim with a calculator. If the player is correct and hence the number is not a prime, then this number is picked up from the board and put into the opponent's pile. If the player is incorrect, and the number proposed is not a factor of the number, then no tile is placed this turn, and the opponent begins their turn. 
+1. **Challenge**: Point out that a number (horizontal or vertical in either direction) on the board, other than the single digit $1$, is not a prime number, by proposing a nontrivial factor of it, and then verifying the claim with a calculator. If the player is correct and hence the number is not a prime, then this number is picked up from the board and all but the last digit is put into the opponent's pile, and the last digit is put away as neither player's pile. If the player is incorrect, and the number proposed is not a factor of the number, then no tile is placed this turn, and the opponent begins their turn. 
 
 In particular, these rules imply that when there are no tiles on the board, the only option is single drop. 
 

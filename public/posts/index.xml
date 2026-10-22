@@ -14,7 +14,20 @@
       
       <guid>http://localhost:1313/posts/c219c1f/</guid>
       <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday, inspired by scrabble.
-It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an interactive UI you can use to play it. Try it out!&lt;/p&gt;
+It is a fun two person turn based perfect information abstract strategy game with very simple rules, where one applies clever strategy as well as quick mental arithmetic skills. I have coded up an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;interactive UI&lt;/a&gt; you can use to play it. Try it out!&lt;/p&gt;
+&lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
+  &lt;div class=&#34;fig-body&#34;&gt;&lt;img
+        src=&#34;http://localhost:1313/img/primeria.jpeg&#34;
+        alt=&#34;Primeria game board, player clocks, and tile piles in the interactive UI&#34;
+        style=&#34;max-width: 100%; height: auto; display: block; margin: 0 auto;&#34;
+      &gt;&lt;/div&gt;
+
+  &lt;div class=&#34;fig-caption&#34;&gt;
+    &lt;span class=&#34;fig-label&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;fig-text&#34;&gt;A game of Primeria in the interactive UI.&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;rules&#34;&gt;Rules&lt;/h2&gt;
 &lt;p&gt;The game is played on a square board with 9 by 9, 11 by 11, or 13 by 13 squares. Each player has a starting pile of 37 square tiles labelled as follows.&lt;/p&gt;
 &lt;table class=&#34;table-centered&#34;&gt;
@@ -44,7 +57,7 @@ It is a fun two person turn based perfect information abstract strategy game wit
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: Place a single tile on any vacant space on the board.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Double Down&lt;/strong&gt;: Place a tile on a vacant square on the board such that it is adjacent to an existing tile, then place another tile on a vacant square on the board such that it is adjacent to any existing tile (where it could be the tile just placed).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: Point out that a number (horizontal or vertical in either direction) on the board, other than the single digit $1$, is not a prime number, by proposing a nontrivial factor of it, and then verifying the claim with a calculator. If the player is correct and hence the number is not a prime, then this number is picked up from the board and put into the opponent&#39;s pile. If the player is incorrect, and the number proposed is not a factor of the number, then no tile is placed this turn, and the opponent begins their turn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: Point out that a number (horizontal or vertical in either direction) on the board, other than the single digit $1$, is not a prime number, by proposing a nontrivial factor of it, and then verifying the claim with a calculator. If the player is correct and hence the number is not a prime, then this number is picked up from the board and all but the last digit is put into the opponent&#39;s pile, and the last digit is put away as neither player&#39;s pile. If the player is incorrect, and the number proposed is not a factor of the number, then no tile is placed this turn, and the opponent begins their turn.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;In particular, these rules imply that when there are no tiles on the board, the only option is single drop.&lt;/p&gt;
 &lt;p&gt;There is also a special rule for zero: the zero tile cannot be placed in any position without any adjacent tiles.&lt;/p&gt;
