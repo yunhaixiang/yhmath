@@ -105,7 +105,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-10-21T07:16:16-04:00">
-    <meta property="article:modified_time" content="2026-10-22T18:46:12-04:00">
+    <meta property="article:modified_time" content="2026-10-22T18:52:36-04:00">
 
 
   
@@ -118,7 +118,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
   <meta itemprop="description" content="Hi, I want to share with you a board game I invented yesterday. It is a two person board game which combines clever strategies with quick mental arithmetic skills. I have here an interactive UI which you can try out.
 A game of Primeria in the interactive UI. Set-up The game is played on a square board with 9 x 9, 11 x 11, 13 x 13, or 15 x 15 squares. Each player start with a pile of 36 tiles labelled with digits 0 ~ 9. For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, 9 each.">
   <meta itemprop="datePublished" content="2026-10-21T07:16:16-04:00">
-  <meta itemprop="dateModified" content="2026-10-22T18:46:12-04:00">
+  <meta itemprop="dateModified" content="2026-10-22T18:52:36-04:00">
   <meta itemprop="wordCount" content="765">
 
   
@@ -301,13 +301,21 @@ For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 e
 <p>Two players take turns to place tiles on the square.
 Flip a coin to decide which player plays first.
 At each turn, the player chooses from one of three kinds of moves.</p>
+<ol>
+<li>
 <p><strong>Single Drop</strong>: the player places one of their tiles on any empty square.</p>
+</li>
+<li>
 <p><strong>Double Down</strong>: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed).</p>
+</li>
+<li>
 <p><strong>Challenge</strong>: the player points to a connected row or column of digits, and declares to <em>challenge</em> the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger's perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1 ~ 3 digits gets 1 attempt, 4 ~ 6 digits gets 2 attempts, 7 ~ 9 digits get 3 attempts, and so on.</p>
 <ul>
 <li>If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent's pile. The ones digit is put away, in neither player's pile.</li>
 <li>If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.</li>
 </ul>
+</li>
+</ol>
 <p>The zero tile works slightly differently than others.</p>
 <p><strong>Special Rule for Zero</strong>: After each turn, no 0-tile can be placed in the first or last square in a connected row or column, nor a square without any adjacent tiles. If, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in a connected row or column or an isolated tile without any adjacent tiles, then that 0-tile is immediately removed from the board and put away in neither player's pile.</p>
 <h2 id="winning">Winning</h2>

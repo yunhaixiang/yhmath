@@ -29,13 +29,13 @@ Two players take turns to place tiles on the square.
 Flip a coin to decide which player plays first. 
 At each turn, the player chooses from one of three kinds of moves. 
 
-**Single Drop**: the player places one of their tiles on any empty square.
+1. **Single Drop**: the player places one of their tiles on any empty square.
 
-**Double Down**: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed). 
+2. **Double Down**: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed). 
 
-**Challenge**: the player points to a connected row or column of digits, and declares to _challenge_ the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger's perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1 ~ 3 digits gets 1 attempt, 4 ~ 6 digits gets 2 attempts, 7 ~ 9 digits get 3 attempts, and so on. 
-- If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent's pile. The ones digit is put away, in neither player's pile. 
-- If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn. 
+3. **Challenge**: the player points to a connected row or column of digits, and declares to _challenge_ the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger's perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1 ~ 3 digits gets 1 attempt, 4 ~ 6 digits gets 2 attempts, 7 ~ 9 digits get 3 attempts, and so on. 
+    - If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent's pile. The ones digit is put away, in neither player's pile. 
+    - If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn. 
 
 The zero tile works slightly differently than others. 
 
