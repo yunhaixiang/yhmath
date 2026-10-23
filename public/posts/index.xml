@@ -53,7 +53,7 @@ At each turn, the player chooses from one of three kinds of moves.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The zero tile works slightly differently than others.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Special Rule for Zero&lt;/strong&gt;: After each turn, no 0-tile can be placed in the first or last square in a connected row or column, nor a square without any adjacent tiles. If, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in a connected row or column or an isolated tile without any adjacent tiles, then that 0-tile is immediately removed from the board and put away in neither player&#39;s pile.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Special Rule for Zero&lt;/strong&gt;: After each turn, no 0-tile can be placed in the first or last square in a connected row or column, nor a square without any adjacent tiles. If, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in a connected row or column, or becomes isolated without any adjacent tiles, then that 0-tile is immediately removed from the board and put away in neither player&#39;s pile.&lt;/p&gt;
 &lt;h2 id=&#34;winning&#34;&gt;Winning&lt;/h2&gt;
 &lt;p&gt;There are three ways to win a game (and one optional way)&lt;/p&gt;
 &lt;ol&gt;
