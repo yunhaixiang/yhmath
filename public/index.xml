@@ -15,7 +15,7 @@
       <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;interactive UI&lt;/a&gt; which you can try out.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
-        src=&#34;http://localhost:1313/img/primeria.jpeg&#34;
+        src=&#34;http://localhost:1313/img/primeria.png&#34;
         alt=&#34;Primeria game board, player clocks, and tile piles in the interactive UI&#34;
         style=&#34;max-width: 100%; height: auto; display: block; margin: 0 auto;&#34;
       &gt;&lt;/div&gt;

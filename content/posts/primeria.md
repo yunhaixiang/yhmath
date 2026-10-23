@@ -8,7 +8,7 @@ aliases = ['/posts/primeria/']
 Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which you can try out.
 
 {{< figure
-  src="/img/primeria.jpeg"
+  src="/img/primeria.png"
   alt="Primeria game board, player clocks, and tile piles in the interactive UI"
   caption="A game of Primeria in the interactive UI."
   width="100%">}}
