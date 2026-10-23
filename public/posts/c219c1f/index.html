@@ -101,7 +101,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-10-21T07:16:16-04:00">
-    <meta property="article:modified_time" content="2026-10-23T02:13:09-04:00">
+    <meta property="article:modified_time" content="2026-10-23T02:59:29-04:00">
 
 
   
@@ -114,8 +114,8 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
   <meta itemprop="description" content="Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an interactive UI which you can try out.
 A game of Primeria in the interactive UI. Set-up The game is played on a square board with 9 × 9, 11 × 11, 13 × 13, or 15 × 15 squares. Each player starts with a pile of 36 tiles labelled with digits 0 ~ 9. Each player gets 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, and 9 each.">
   <meta itemprop="datePublished" content="2026-10-21T07:16:16-04:00">
-  <meta itemprop="dateModified" content="2026-10-23T02:13:09-04:00">
-  <meta itemprop="wordCount" content="791">
+  <meta itemprop="dateModified" content="2026-10-23T02:59:29-04:00">
+  <meta itemprop="wordCount" content="782">
 
   
   
@@ -235,7 +235,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
           <svg width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4998 5.49994L18.3282 8.32837M3 20.9997L3.04745 20.6675C3.21536 19.4922 3.29932 18.9045 3.49029 18.3558C3.65975 17.8689 3.89124 17.4059 4.17906 16.9783C4.50341 16.4963 4.92319 16.0765 5.76274 15.237L17.4107 3.58896C18.1918 2.80791 19.4581 2.80791 20.2392 3.58896C21.0202 4.37001 21.0202 5.63634 20.2392 6.41739L8.37744 18.2791C7.61579 19.0408 7.23497 19.4216 6.8012 19.7244C6.41618 19.9932 6.00093 20.2159 5.56398 20.3879C5.07171 20.5817 4.54375 20.6882 3.48793 20.9012L3 20.9997Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          791 words
+          782 words
         </span>
       
       
@@ -290,6 +290,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
 <h2 id="set-up">Set-up</h2>
 <p>The game is played on a square board with 9 × 9, 11 × 11, 13 × 13, or 15 × 15 squares. Each player starts with a pile of 36 tiles labelled with digits 0 ~ 9. Each player gets 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, and 9 each.</p>
 <h2 id="moves">Moves</h2>
+<p>During the game, tiles will be placed on the squares. Two tiles are <strong>adjacent</strong> if their squares share an edge. Diagonal contact does not count. A tile is <strong>isolated</strong> if it has no adjacent tiles. A <strong>number</strong> is a complete, uninterrupted horizontal or vertical run of one or more tiles, read from left to right or top to bottom from the current player’s perspective.</p>
 <p>Players take turns making moves. Flip a coin to decide which player plays first. At each turn, the player chooses from one of three kinds of moves.</p>
 <ol>
 <li>
@@ -299,10 +300,10 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
 <p><strong>Double Down</strong>: Place two tiles, one at a time. Each tile must be placed adjacent to a tile already on the board when it is placed. In particular, the second tile may be placed adjacent to the first.</p>
 </li>
 <li>
-<p><strong>Challenge</strong>: Declare a number on the board to challenge, formed by an uninterrupted horizontal or vertical run of tiles, read from left to right or top to bottom, from the challenger’s perspective. The challenger gets one or more attempts to challenge this number depending on its length: 1 ~ 3 digits get 1 attempt, 4 ~ 6 digits get 2 attempts, 7 ~ 9 digits get 3 attempts, and so on. An attempt consists of a proposal of a factor of the number, other than 1 or itself, and then, depending on whether the game is being played over the board or on a screen, either the challenger verifies the factor with a calculator, or the computer checks it automatically. The clock does not stop during calculator verification.</p>
+<p><strong>Challenge</strong>: Declare a number on the board to challenge. The challenger gets one or more attempts to challenge this number depending on its length: 1 ~ 3 digits get 1 attempt, 4 ~ 6 digits get 2 attempts, 7 ~ 9 digits get 3 attempts, and so on. An attempt consists of proposing a factor of the number, other than 1 or itself. Depending on whether the game is being played over the board or on a screen, either the challenger verifies the factor with a calculator, or the computer checks it automatically. The clock does not stop during calculator verification.</p>
 <ul>
 <li>
-<p>If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent’s pile. The ones digit is put away, in neither player’s pile.</p>
+<p>If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent’s pile. The ones digit is discarded. Discarded tiles are removed from play and placed in neither player’s pile.</p>
 </li>
 <li>
 <p>If all attempts fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.</p>
@@ -310,8 +311,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
 </ul>
 </li>
 </ol>
-<p>Two tiles are <strong>adjacent</strong> if their squares share an edge. Diagonal contact does not count. A tile is <strong>isolated</strong> if it has no adjacent tiles.</p>
-<p><strong>Special Rule for Zero</strong>: At the end of a turn, no 0-tile may be isolated or lie at either end of a number. For Double Down, this restriction is checked after both tiles have been placed. Additionally, if, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in an uninterrupted horizontal or vertical run of tiles, or becomes isolated, then that 0-tile is immediately removed from the board and put away, in neither player's pile.</p>
+<p><strong>Special Rule for Zero</strong>: At the end of a turn, no 0-tile may be isolated or lie at either end of any number. If removing tiles in a successful Challenge leaves a 0-tile isolated or at either end of any number, immediately remove it from the board and discard it.</p>
 <h2 id="winning">Winning</h2>
 <p>There are three ways to win a game (and one optional way).</p>
 <ol>
@@ -325,7 +325,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
 <p>Resignation: a player wins by their opponent resigning the game.</p>
 </li>
 <li>
-<p>(Optional Rule) Tie-breaker: After the selected time limit is reached, a player wins by having fewer tiles than their opponent after 10 consecutive completed turns, counting both players’ turns. Equal pile sizes reset the count.</p>
+<p>(Optional Rule) Tie-breaker: Once the selected time limit is reached, a player wins if they have fewer tiles than their opponent at the end of each of 10 consecutive completed turns, counting both players’ turns. Equal pile sizes reset the count.</p>
 </li>
 </ol>
 <h2 id="time-controls">Time Controls</h2>
@@ -362,7 +362,7 @@ A game of Primeria in the interactive UI. Set-up The game is played on a square 
   </tbody>
 </table>
 <h2 id="tips">Tips</h2>
-<p>A good strategy is to make use of the following facts:</p>
+<p>The following divisibility tests can help you find factors quickly:</p>
 <ol>
 <li>
 <p>A number is a multiple of 2 if and only if it ends in 0, 2, 4, 6, or 8.</p>
