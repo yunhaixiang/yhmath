@@ -11,7 +11,7 @@ Hi, I want to share with you a board game I invented yesterday. It is a two-play
   src="/img/primeria.png"
   alt="Primeria game board, player clocks, and tile piles in the interactive UI"
   caption="A game of Primeria in the interactive UI."
-  width="100%">}}
+  width="50%">}}
 
 ## Set-up
 
