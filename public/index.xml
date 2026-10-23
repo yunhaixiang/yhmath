@@ -12,9 +12,7 @@
       <pubDate>Wed, 21 Oct 2026 07:16:16 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/c219c1f/</guid>
-      <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday.
-It is a two person board game which combines clever strategies with quick mental arithmetic skills.
-I have here an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;interactive UI&lt;/a&gt; which you can try out.&lt;/p&gt;
+      <description>&lt;p&gt;Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;interactive UI&lt;/a&gt; which you can try out.&lt;/p&gt;
 &lt;div class=&#34;fig-env&#34;  data-lang=&#34;en&#34;&gt;
   &lt;div class=&#34;fig-body&#34;&gt;&lt;img
         src=&#34;http://localhost:1313/img/primeria.jpeg&#34;
@@ -29,37 +27,45 @@ I have here an &lt;a href=&#34;https://yunhaixiang.github.io/primeria/&#34;&gt;i
 &lt;/div&gt;
 
 &lt;h2 id=&#34;set-up&#34;&gt;Set-up&lt;/h2&gt;
-&lt;p&gt;The game is played on a square board with 9 x 9, 11 x 11, 13 x 13, or 15 x 15 squares.
-Each player start with a pile of 36 tiles labelled with digits 0 ~ 9.
-For each player, they get 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, 9 each.&lt;/p&gt;
+&lt;p&gt;The game is played on a square board with 9 × 9, 11 × 11, 13 × 13, or 15 × 15 squares. Each player starts with a pile of 36 tiles labelled with digits 0 ~ 9. Each player gets 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, and 9 each.&lt;/p&gt;
 &lt;h2 id=&#34;moves&#34;&gt;Moves&lt;/h2&gt;
-&lt;p&gt;Two players take turns to place tiles on the square.
-Flip a coin to decide which player plays first.
-At each turn, the player chooses from one of three kinds of moves.&lt;/p&gt;
+&lt;p&gt;Players take turns making moves. Flip a coin to decide which player plays first. At each turn, the player chooses from one of three kinds of moves.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: the player places one of their tiles on any empty square.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Single Drop&lt;/strong&gt;: Place one tile on any empty square.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Double Down&lt;/strong&gt;: the player places one of their tiles on an empty square adjacent to an existing tile on the board, and then places another one of their tiles on an empty square adjacent to an existing tile on the board (which could be the one just placed).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Double Down&lt;/strong&gt;: Place two tiles, one at a time. Each tile must be placed adjacent to a tile already on the board when it is placed. The second tile may be placed adjacent to the first.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: the player points to a connected row or column of digits, and declares to &lt;em&gt;challenge&lt;/em&gt; the number formed by this row or column (viewed left to right and top to bottom, from the player/challenger&#39;s perspective). An attempt of a challenge is to write down a factor of the number, other than 1 or itself, and then verifying it with a calculator. The longer of the number, the more attempts the challenger gets: 1 ~ 3 digits gets 1 attempt, 4 ~ 6 digits gets 2 attempts, 7 ~ 9 digits get 3 attempts, and so on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenge&lt;/strong&gt;: Declare a number on the board to challenge, formed by an uninterrupted horizontal or vertical run of tiles, read from left to right or top to bottom, from the challenger’s perspective. The challenger gets one or more attempts to challenge this number depending on its length: 1 ~ 3 digits get 1 attempt, 4 ~ 6 digits get 2 attempts, 7 ~ 9 digits get 3 attempts, and so on. An attempt consists of a proposal of a factor of the number, other than 1 or itself, and then, depending on whether the game is being played over the board or on a screen, either the challenger verifies the factor with a calculator, or the computer checks it automatically. The clock does not stop during calculator verification.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent&#39;s pile. The ones digit is put away, in neither player&#39;s pile.&lt;/li&gt;
-&lt;li&gt;If all attempt fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If an attempt succeeds: the number is removed from the board, and all but its ones digit is put into the opponent’s pile. The ones digit is put away, in neither player’s pile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If all attempts fail: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The zero tile works slightly differently than others.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Special Rule for Zero&lt;/strong&gt;: After each turn, no 0-tile can be placed in the first or last square in a connected row or column, nor a square without any adjacent tiles. If, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in a connected row or column, or becomes isolated without any adjacent tiles, then that 0-tile is immediately removed from the board and put away in neither player&#39;s pile.&lt;/p&gt;
+&lt;p&gt;Two tiles are &lt;strong&gt;adjacent&lt;/strong&gt; if their squares share an edge. Diagonal contact does not count. A tile is &lt;strong&gt;isolated&lt;/strong&gt; if it has no adjacent tiles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Special Rule for Zero&lt;/strong&gt;: At the end of a turn, no 0-tile may be isolated or lie at either end of a number. For Double Down, this restriction is checked after both tiles have been placed. Additionally, if, as a result of removing tiles from a challenge, a 0-tile becomes the first or last square in an uninterrupted horizontal or vertical run of tiles, or becomes isolated, then that 0-tile is immediately removed from the board and put away, in neither player&#39;s pile.&lt;/p&gt;
 &lt;h2 id=&#34;winning&#34;&gt;Winning&lt;/h2&gt;
-&lt;p&gt;There are three ways to win a game (and one optional way)&lt;/p&gt;
+&lt;p&gt;There are three ways to win a game (and one optional way).&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Clear-out: a player wins by playing all their tiles in their pile,&lt;/li&gt;
-&lt;li&gt;Time: a player wins by its opponent running out of time,&lt;/li&gt;
-&lt;li&gt;Resignation: a player wins by its opponent resigning the game,&lt;/li&gt;
-&lt;li&gt;(Optional Rule) Tie-breaker: if the game extends for a long time, for example 1 hour, then the first player to have less tiles for 10 consecutive turns wins.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clear-out: a player wins by playing all the tiles in their pile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Time: a player wins by their opponent running out of time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Resignation: a player wins by their opponent resigning the game.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(Optional Rule) Tie-breaker: After the selected time limit is reached, a player wins by having fewer tiles than their opponent after 10 consecutive completed turns, counting both players’ turns. Equal pile sizes reset the count.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;time-controls&#34;&gt;Time Controls&lt;/h2&gt;
 &lt;p&gt;Players can choose one of the following time controls.&lt;/p&gt;
@@ -92,24 +98,32 @@ At each turn, the player chooses from one of three kinds of moves.&lt;/p&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;45 minutes&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;60 seconds&lt;/td&gt;
       &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Casual&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Unlimited&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;—&lt;/td&gt;
-      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Your clock still runs while challenging.&lt;/p&gt;
 &lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
 &lt;p&gt;A good strategy is to make use of the following facts:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;a number is a multiple of 2 if and only if it ends in 0, 2, 4, 6, or 8,&lt;/li&gt;
-&lt;li&gt;a number is a multiple of 5 if and only if it ends in 0 or 5,&lt;/li&gt;
-&lt;li&gt;a number is a multiple of 3 if and only if the sum of its digits is a multiple of 3,&lt;/li&gt;
-&lt;li&gt;a number is a multiple of 7 if and only if subtracting 3 times its last two digits from the number formed by the remaining digits gives a multiple of 7,&lt;/li&gt;
-&lt;li&gt;a number is a multiple of 11 if and only if the alternating sum of its digits is a multiple of 11,&lt;/li&gt;
-&lt;li&gt;a number is a multiple of 13 if and only if subtracting 9 times its last digit from the number formed by the remaining digits gives a multiple of 13,&lt;/li&gt;
-&lt;li&gt;A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks is a multiple of 7, 11, or 13, respectively.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 2 if and only if it ends in 0, 2, 4, 6, or 8.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 5 if and only if it ends in 0 or 5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 3 if and only if the sum of its digits is a multiple of 3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 7 if and only if subtracting 3 times its last two digits from the number formed by the remaining digits gives a multiple of 7.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 11 if and only if the alternating sum of its digits is a multiple of 11.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 13 if and only if subtracting 9 times its last digit from the number formed by the remaining digits gives a multiple of 13.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks, formed starting from the right, is a multiple of 7, 11, or 13, respectively.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
