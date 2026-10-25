@@ -485,7 +485,7 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <tbody>
 <tr>
 <th scope="rowgroup" rowspan="7" style="vertical-align: middle; text-align: center;">四</th>
-<td rowspan="7" style="vertical-align: middle; text-align: center;">约48–50分钟</td>
+<td rowspan="7" style="vertical-align: middle; text-align: center;">约50–53分钟</td>
 <td><a href="https://www.youtube.com/watch?v=WDIpL0pjun0">俯卧撑</a><br>Push-up</td>
 <td>4组 × 8–15 次</td>
 <td><label><input type="checkbox" aria-label="周四俯卧撑第1组"> 1</label> <label><input type="checkbox" aria-label="周四俯卧撑第2组"> 2</label> <label><input type="checkbox" aria-label="周四俯卧撑第3组"> 3</label> <label><input type="checkbox" aria-label="周四俯卧撑第4组"> 4</label></td>
@@ -504,10 +504,10 @@ HIIT估算依据：视频全长29:02，20×50秒＝16分40秒实际动作；主�
 <td>背阔肌、上背、肩后侧、二头肌</td>
 </tr>
 <tr>
-<td><a href="https://www.youtube.com/watch?v=myKN7H6ju38">阻力带高位下拉</a><br>Resistance-band lat pulldown</td>
-<td>3组 × 10–15 次</td>
-<td><label><input type="checkbox" aria-label="周四阻力带高位下拉第1组"> 1</label> <label><input type="checkbox" aria-label="周四阻力带高位下拉第2组"> 2</label> <label><input type="checkbox" aria-label="周四阻力带高位下拉第3组"> 3</label></td>
-<td>背阔肌、二头肌</td>
+<td><a href="https://www.youtube.com/watch?v=Qi5W_9e4Q8M">单臂支撑哑铃划船</a><br>Supported single-arm dumbbell row</td>
+<td>3组 × 8–15 次／侧</td>
+<td><label><input type="checkbox" aria-label="周四单臂支撑哑铃划船第1组（左右）"> 1</label> <label><input type="checkbox" aria-label="周四单臂支撑哑铃划船第2组（左右）"> 2</label> <label><input type="checkbox" aria-label="周四单臂支撑哑铃划船第3组（左右）"> 3</label></td>
+<td>背阔肌、上背、二头肌</td>
 </tr>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=ddU72Ce0vzo">哑铃弯举</a><br>Dumbbell biceps curl</td>
@@ -957,11 +957,11 @@ https://www.efsa.europa.eu/en/press/news/120727
 | 肩前侧<br>Front delts | 哑铃肩推4组 | 俯卧撑8组 | 充足 |
 | 肩外侧<br>Side delts | 哑铃侧平举6组 | 哑铃肩推4组 | 基本充足 |
 | 肩后侧<br>Rear delts | 哑铃反向飞鸟2组 | 哑铃划船7组 | 基本充足 |
-| 背阔肌<br>Lats | 哑铃划船7组、阻力带下拉3组 | — | 充足 |
-| 斜方肌<br>Traps | 哑铃划船7组 | 阻力带下拉3组、哑铃肩推4组、哑铃侧平举6组、哑铃反向飞鸟2组 | 基本充足 |
-| 二头肌<br>Biceps | 哑铃弯举2组 | 哑铃划船7组、阻力带下拉3组 | 基本充足 |
+| 背阔肌<br>Lats | 双哑铃俯身划船7组、单臂支撑哑铃划船3组 | — | 充足 |
+| 斜方肌<br>Traps | 双哑铃俯身划船7组 | 单臂支撑哑铃划船3组、哑铃肩推4组、哑铃侧平举6组、哑铃反向飞鸟2组 | 基本充足 |
+| 二头肌<br>Biceps | 哑铃弯举2组 | 双哑铃俯身划船7组、单臂支撑哑铃划船3组 | 基本充足 |
 | 三头肌<br>Triceps | — | 俯卧撑8组、哑铃肩推4组 | 基本充足 |
-| 小臂<br>Forearms | — | 哑铃划船7组、哑铃弯举2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 难判断 |
+| 小臂<br>Forearms | — | 双哑铃俯身划船7组、单臂支撑哑铃划船3组、哑铃弯举2组、罗马尼亚硬拉3组、支撑式单腿硬拉3组 | 难判断 |
 | 腹肌<br>Abs | 卷腹6组、反向卷腹6组；合计12组 | 俯卧撑8组、高脚杯深蹲4组、哑铃侧屈每侧6组 | 充足 |
 | 侧腹<br>Obliques | 哑铃侧屈每侧6组 | 卷腹6组、反向卷腹6组 | 基本充足 |
 | 下背<br>Lower back | — | 哑铃划船7组、罗马尼亚硬拉3组、支撑式单腿硬拉3组、高脚杯深蹲4组 | 难判断 |
