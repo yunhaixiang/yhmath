@@ -1,2 +1,7 @@
 .DS_Store
 node_modules/
+
+# Hugo generated output and local build state
+/public/
+/resources/_gen/
+/.hugo_build.lock

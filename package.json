@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "PATH=./bin:$PATH hugo",
-    "server": "PATH=./bin:$PATH hugo server",
+    "build": "PATH=\"$PWD/bin:$PATH\" hugo",
+    "server": "PATH=\"$PWD/bin:$PATH\" hugo server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -27,10 +27,9 @@ Here are my (possibly unfinished) notes for various topics
 
 Here are my (possibly unfinished) short notes for a few specific topics
 
-1. [_Arithmetic Monodromy and Middle Convolution of $\ell$-adic Perverse Sheaves_ (PhD Candidacy Exam)](https://yunhaixiang.github.io/candidacy/writeup/writeup.pdf)
+1. [_Arithmetic Monodromy and Middle Convolution of $\ell$-adic Perverse Sheaves_ (PhD Candidacy Report)](https://yunhaixiang.github.io/candidacy/writeup/writeup.pdf)
 
 Here are my slides for past presentations
 
 1. [_Trace of Frobenius_](https://yunhaixiang.github.io/slides/trace_of_frob/main.pdf)
-2. _Arithmetic Monodromy and Middle Convolution of $\ell$-adic Perverse Sheaves_ (PhD Candidacy Exam), coming soon
-
+2. [_Arithmetic Monodromy and Middle Convolution of $\ell$-adic Perverse Sheaves_ (PhD Candidacy Presentation)](https://yunhaixiang.github.io/candidacy/presentation/presentation.pdf)
