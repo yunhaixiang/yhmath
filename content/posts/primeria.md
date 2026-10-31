@@ -8,71 +8,99 @@ aliases = ['/posts/primeria/']
 Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which you can try out.
 
 {{< figure
-  src="/img/primeria.png"
-  alt="Primeria game board, player clocks, and tile piles in the interactive UI"
-  caption="A game of Primeria in the interactive UI."
-  width="50%">}}
+  src="/img/primeria-board.jpg"
+  alt="The current Primeria board with branching blue and orange claimed paths and unclaimed tiles"
+  caption="Claimed paths and unclaimed tiles on the current Primeria board."
+  width="100%">}}
 
-## Set-up
+These are the current rules.
 
-The game is played on a square board with 9 × 9, 11 × 11, 13 × 13, or 15 × 15 squares. Each player starts with a pile of 36 tiles labelled with digits 0 ~ 9. Each player gets 2 copies of 0 and 5 each, 3 copies of 2, 4, 6, and 8 each, and 5 copies of 1, 3, 7, and 9 each.
+## Setup
+
+The game is played on a 15 × 15 board. There are two kinds of tiles:
+
+**Regular tiles** carry one of the digits 0, 2, 4, 5, 6 or 8 and a straight arrow, a left bend or a right bend.
+
+**Junction tiles** carry one of the digits 1, 3, 7 or 9 and a fork arrow: straight + left, straight + right, left + right, or straight + left + right.
+
+Each tile shows the same digit on both sides. The **arrow side** also shows its arrow, while the **digit side** indicates which arrow appears on the back.
+
+Each digit has one arrow type. Each player has 58 tiles:
+
+| Tile | Digit(s) | Arrow | Copies per digit |
+|---|---|---|---:|
+| Regular | 0 | Left bend | 5 |
+| Regular | 2, 4, 6, 8 | Straight | 5 |
+| Regular | 5 | Right bend | 5 |
+| Junction | 1 | Straight + left + right | 7 |
+| Junction | 9 | Left + right | 7 |
+| Junction | 3 | Straight + left | 7 |
+| Junction | 7 | Straight + right | 7 |
 
 ## Moves
 
-During the game, tiles will be placed on the squares. Two tiles are **adjacent** if their squares share an edge. Diagonal contact does not count. A tile is **isolated** if it has no adjacent tiles. By a **number**, we mean a number formed by a complete uninterrupted horizontal or vertical run of one or more tiles, viewed from any direction: top to bottom, bottom to top, left to right, or right to left.
+Players take turns. Flip a coin to decide who goes first. On your turn, choose one move: Drop, Claim, Challenge or Pass.
 
-Players take turns making moves. Flip a coin to decide which player plays first. At each turn, the player chooses from one of three kinds of moves.
+**Drop.** Place one of your unused tiles on an empty square, digit side up.
 
-1. **Single Drop**: Place one tile on any empty square.
+*Note: Tiles are **adjacent** if they share an edge. A **path** is a sequence of at least two arrow-side tiles belonging to the same player, connected in the direction of the arrows.*
 
-2. **Double Down**: Place two tiles, one at a time. Each tile must be placed adjacent to a tile already on the board when it is placed. After the move, both new tiles must belong to the same complete uninterrupted horizontal or vertical run.
+**Claim.** Flip at least two of your digit-side-up tiles on the board to form a path. This path must be part of a path containing at least nine tiles.
 
-3. **Challenge**: Declare a number on the board to *challenge*: a challenge consists of proposing a factor of the number, other than 1 or itself, and then verifying it with a calculator (verification is automatic on a virtual board).
+*Note: A **cycle** is a path whose last tile connects back to its first.*
 
-    - If challenge succeeds: the number is removed from the board. Its first and last tiles are discarded, and all remaining tiles are put into the opponent’s pile. Discarded tiles are removed from play and placed in neither player’s pile.
+**No Cycle Rule.** A Claim is illegal if it creates a cycle on the board.
 
-    - If challenge fails: the number remains on the board, no tile is placed this turn, and the game moves on to the next turn.
+*Note: A **segment** is a path whose endpoints are junction tiles or regular tiles with exactly one connection.*
 
-**Special Rule for Zero**: At the end of a turn, no 0-tile may be isolated or lie at either end of any number. If removing tiles in a successful Challenge leaves a 0-tile isolated or at either end of any number, immediately remove it from the board and discard it.
+**Challenge.** Give one of your unused tiles to your opponent as a captured tile. Choose an opponent's segment and read its number from the last tile to the first. Propose a factor other than 1 or the number itself, then check it with a calculator. If correct, remove all tiles in the segment and keep them as captured tiles. Otherwise, your turn ends.
 
-## Winning
+*Note: On a virtual board, the program checks your proposed factor automatically.*
 
-There are three ways to win a game (and one optional way).
+**No Leading Zero Rule.** A Claim is illegal if any segment would begin with 0 when read from the last tile to the first. After a capture, remove any 0 that becomes a leading digit and give it to its owner’s opponent as a captured tile.
 
-1. Clear-out: a player wins by playing all the tiles in their pile.
+**No Isolated Arrow Rule.** After a capture, remove every arrow-side tile with no connections and give it to its owner's opponent as a captured tile.
 
-2. Time: a player wins by their opponent running out of time.
+*Note: After a capture, apply both removal rules until neither removes a tile.*
 
-3. Resignation: a player wins by their opponent resigning the game.
+**Pass.** Do nothing this turn.
 
-4. (Optional Rule) Tie-breaker: Once the selected time limit is reached, a player wins if they have fewer tiles than their opponent at the end of each of 10 consecutive completed turns, counting both players’ turns. Equal pile sizes reset the count.
+## Endgame
+
+The game ends after two consecutive passes. Remove all unclaimed tiles from the board and give each to its owner's opponent as a captured tile.
+
+Score one point for each of your tiles remaining on a claimed path and for each captured tile. The player with the higher score wins; equal scores result in a draw.
+
+A player also loses by resigning or running out of time.
 
 ## Time Controls
 
-Players can choose one of the following time controls.
+Choose a time control before starting.
 
-| Mode | Time per player | Increment per turn |
-| :---: | :---: | :---: |
+| Mode | Starting time per player | Increment per completed turn |
+|---|---:|---:|
 | Blitz | 10 minutes | 10 seconds |
 | Rapid | 20 minutes | 20 seconds |
 | Standard | 30 minutes | 30 seconds |
 | Classical | 45 minutes | 60 seconds |
-{.table-centered}
+| Casual | No clock | — |
+
+Your clock runs throughout your turn, including factor verification and removing captured tiles.
 
 ## Tips
 
-The following divisibility tests can help you find factors quickly:
+These divisibility tests can help you find factors:
 
-1. A number is a multiple of 2 if and only if it ends in 0, 2, 4, 6, or 8.
+1. A number is divisible by 2 if and only if its last digit is even.
 
-2. A number is a multiple of 5 if and only if it ends in 0 or 5.
+2. A number is divisible by 5 if and only if its last digit is 0 or 5.
 
-3. A number is a multiple of 3 if and only if the sum of its digits is a multiple of 3.
+3. A number is divisible by 3 if and only if the sum of its digits is divisible by 3.
 
-4. A number is a multiple of 7 if and only if subtracting 3 times its last two digits from the number formed by the remaining digits gives a multiple of 7.
+4. A number is divisible by 7 if and only if subtracting three times its last two digits from the remaining number gives a multiple of 7.
 
-5. A number is a multiple of 11 if and only if the alternating sum of its digits is a multiple of 11.
+5. Alternately add and subtract the digits of the number. The number is divisible by 11 if and only if the result is divisible by 11.
 
-6. A number is a multiple of 13 if and only if subtracting 9 times its last digit from the number formed by the remaining digits gives a multiple of 13.
+6. A number is divisible by 13 if and only if subtracting nine times its last digit from the remaining number gives a multiple of 13.
 
-7. A number is a multiple of 7, 11, or 13 if and only if the alternating sum of its three-digit blocks, formed starting from the ones digit, is a multiple of 7, 11, or 13, respectively.
+7. Split the number into groups of three digits from the right, then alternately add and subtract the groups. The original number is divisible by 7 if and only if the result is divisible by 7. The same test works for 11 and 13.
