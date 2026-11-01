@@ -8,9 +8,9 @@ aliases = ['/posts/primeria/']
 Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which you can try out.
 
 {{< figure
-  src="/img/primeria-board.jpg?v=15x15-r40"
-  alt="A 15 by 15 Primeria board with branching blue and orange arrow networks"
-  caption="An example position on the 15 × 15 board, with completed paths and unfinished construction."
+  src="/img/primeria-board.jpg?v=15x15-r40-full"
+  alt="A densely occupied 15 by 15 Primeria board with the blue segment D4–D6 selected for a challenge"
+  caption="Primeria’s branching blue and orange networks on a 15 × 15 board. The selected blue segment D4–D6 reads 341 against the arrows; Orange can capture it with factor 11."
   width="100%">}}
 
 These are the current rules.
