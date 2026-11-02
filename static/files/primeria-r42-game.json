@@ -1,0 +1,5497 @@
+{
+  "seed": 20261104,
+  "strength": "intermediate",
+  "scores": [
+    56,
+    51
+  ],
+  "breakdown": [
+    {
+      "eligible": 20,
+      "growing": 0,
+      "unfinished": 0,
+      "captured": 56,
+      "territory": 0,
+      "groups": [
+        7,
+        6,
+        7
+      ],
+      "total": 56
+    },
+    {
+      "eligible": 14,
+      "growing": 0,
+      "unfinished": 0,
+      "captured": 51,
+      "territory": 0,
+      "groups": [
+        7,
+        7
+      ],
+      "total": 51
+    }
+  ],
+  "turns": 143,
+  "actions": 143,
+  "winner": 0,
+  "moves": {
+    "drop": 141,
+    "challenge": 0,
+    "pass": 2
+  },
+  "board": " .   .   .   .   .   .   .   .   .   .   .   .   .   .   . \n .   .   .   .   .   .   .   .   .  O3*  .   .   .   .   . \n .   .   .   .   .   .   .   .  O3* O1* O3*  .   .   .   . \n .   .   .   .   .   .   .  O3* O1* O1*  .   .   .   .   . \n .   .   .   .   .   .   .   .   .   .   .   .   .   .   . \n .   .   .   .   .   .   .   .   .  O3*  .  O3*  .   .   . \n .   .   .   .   .   .   .   .  O3* O1* O1* O1* O3*  .   . \n .   .   .   .   .   .   .   .  B3* B1* B1* B1* B3*  .   . \n .   .   .   .   .   .   .   .   .  B3*  .  B3*  .   .   . \n .   .   .   .   .   .   .   .  B1*  .   .   .   .  B1* B3*\n .   .   .   .   .   .   .   .  B8* B1*  .   .   .  B3* B7*\n .   .   .   .   .   .   .   .   .  B1* B1*  .   .  B7* B9*\n .   .   .   .   .   .   .   .   .   .  B3*  .   .   .  B7*\n .   .   .   .   .   .   .   .   .   .   .   .   .   .   . \n .   .   .   .   .   .   .   .   .   .   .   .   .   .   . ",
+  "analysis": [
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.9
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.9
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.72
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.72
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.3
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.78
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.1
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.3
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.78
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.38
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.9
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.38
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.38
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.94
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.72
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.3
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.78
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.3
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.78
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.4
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.1
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.02
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.3
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.38
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.93
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.42
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.78
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.02
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.7
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.86
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.97
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.62
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.22
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 1.4
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.46
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.14
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.356
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.218
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.011
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.193
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.306
+    },
+    {
+      "reason": "Develop a completed path without exposing a known composite",
+      "budget": 576,
+      "value": 0.168
+    },
+    {
+      "reason": "No safe beneficial placement found within the budget",
+      "budget": 576
+    },
+    {
+      "reason": "No safe beneficial placement found within the budget",
+      "budget": 576
+    }
+  ],
+  "state": {
+    "rulesVersion": 42,
+    "boardSize": 15,
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 62,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 60,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 56,
+        "type": "j1",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 64,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 58,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 54,
+        "type": "j1",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 30,
+        "type": "j1",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 6,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      {
+        "id": 16,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 8,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 4,
+        "type": "j1",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 2,
+        "type": "j1",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 14,
+        "type": "j1",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 1
+      },
+      {
+        "id": 18,
+        "type": "j3",
+        "owner": 1,
+        "face": "arrow",
+        "rotation": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 7,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 3,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 1,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 13,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 1
+      },
+      {
+        "id": 17,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 5,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 2
+      },
+      null,
+      {
+        "id": 15,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 2
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 35,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 49,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 67,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 45,
+        "type": "r8",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 3
+      },
+      {
+        "id": 41,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      null,
+      null,
+      {
+        "id": 65,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 81,
+        "type": "j7",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 47,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 51,
+        "type": "j1",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 1
+      },
+      null,
+      null,
+      {
+        "id": 71,
+        "type": "j7",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 0
+      },
+      {
+        "id": 77,
+        "type": "j9",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 53,
+        "type": "j3",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 2
+      },
+      null,
+      null,
+      null,
+      {
+        "id": 79,
+        "type": "j7",
+        "owner": 0,
+        "face": "arrow",
+        "rotation": 2
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "reserves": [
+      {
+        "j1": 0,
+        "r2": 18,
+        "j3": 0,
+        "r4": 18,
+        "r5": 18,
+        "r6": 18,
+        "j7": 0,
+        "r8": 17,
+        "j9": 2
+      },
+      {
+        "j1": 0,
+        "r2": 18,
+        "j3": 0,
+        "r4": 18,
+        "r5": 18,
+        "r6": 18,
+        "j7": 0,
+        "r8": 18,
+        "j9": 2
+      }
+    ],
+    "captured": [
+      [
+        {
+          "id": 102,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 5
+        },
+        {
+          "id": 98,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 6
+        },
+        {
+          "id": 96,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 21
+        },
+        {
+          "id": 100,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 22
+        },
+        {
+          "id": 104,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 7
+        },
+        {
+          "id": 86,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 35
+        },
+        {
+          "id": 84,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 36
+        },
+        {
+          "id": 80,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 51
+        },
+        {
+          "id": 68,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 41
+        },
+        {
+          "id": 32,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 56
+        },
+        {
+          "id": 70,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 57
+        },
+        {
+          "id": 66,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 66
+        },
+        {
+          "id": 42,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 67
+        },
+        {
+          "id": 94,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 104
+        },
+        {
+          "id": 90,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 119
+        },
+        {
+          "id": 92,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 2,
+          "at": 134
+        },
+        {
+          "id": 88,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 118
+        },
+        {
+          "id": 24,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 112
+        },
+        {
+          "id": 22,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 127
+        },
+        {
+          "id": 28,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 126
+        },
+        {
+          "id": 26,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 2,
+          "at": 142
+        },
+        {
+          "id": 10,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 128
+        },
+        {
+          "id": 12,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 130
+        },
+        {
+          "id": 34,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 145
+        },
+        {
+          "id": 36,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 144
+        },
+        {
+          "id": 40,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 146
+        },
+        {
+          "id": 38,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 160
+        },
+        {
+          "id": 20,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 132
+        },
+        {
+          "id": 46,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 133
+        },
+        {
+          "id": 44,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 147
+        },
+        {
+          "id": 74,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 156
+        },
+        {
+          "id": 72,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 157
+        },
+        {
+          "id": 76,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 171
+        },
+        {
+          "id": 78,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 2,
+          "at": 186
+        },
+        {
+          "id": 82,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 170
+        },
+        {
+          "id": 106,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 169
+        },
+        {
+          "id": 108,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 184
+        },
+        {
+          "id": 112,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 2,
+          "at": 199
+        },
+        {
+          "id": 110,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 183
+        },
+        {
+          "id": 50,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 172
+        },
+        {
+          "id": 48,
+          "type": "j1",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 173
+        },
+        {
+          "id": 52,
+          "type": "j3",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 188
+        },
+        {
+          "id": 114,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 201
+        },
+        {
+          "id": 116,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 202
+        },
+        {
+          "id": 118,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 2,
+          "at": 217
+        },
+        {
+          "id": 124,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 214
+        },
+        {
+          "id": 122,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 215
+        },
+        {
+          "id": 120,
+          "type": "j7",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 216
+        },
+        {
+          "id": 138,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 34
+        },
+        {
+          "id": 132,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 58
+        },
+        {
+          "id": 130,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 63
+        },
+        {
+          "id": 128,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 64
+        },
+        {
+          "id": 126,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 65
+        },
+        {
+          "id": 134,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 73
+        },
+        {
+          "id": 136,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 95
+        },
+        {
+          "id": 140,
+          "type": "j9",
+          "owner": 1,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 109
+        }
+      ],
+      [
+        {
+          "id": 25,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 55
+        },
+        {
+          "id": 21,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 70
+        },
+        {
+          "id": 23,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 69
+        },
+        {
+          "id": 27,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 71
+        },
+        {
+          "id": 11,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 85
+        },
+        {
+          "id": 37,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 68
+        },
+        {
+          "id": 9,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 83
+        },
+        {
+          "id": 39,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 82
+        },
+        {
+          "id": 55,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 81
+        },
+        {
+          "id": 69,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 72
+        },
+        {
+          "id": 19,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 87
+        },
+        {
+          "id": 73,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 88
+        },
+        {
+          "id": 97,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 74
+        },
+        {
+          "id": 95,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 89
+        },
+        {
+          "id": 61,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 96
+        },
+        {
+          "id": 33,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 111
+        },
+        {
+          "id": 63,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 110
+        },
+        {
+          "id": 111,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 122
+        },
+        {
+          "id": 109,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 123
+        },
+        {
+          "id": 107,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 124
+        },
+        {
+          "id": 99,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 139
+        },
+        {
+          "id": 103,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 154
+        },
+        {
+          "id": 105,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 153
+        },
+        {
+          "id": 75,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 140
+        },
+        {
+          "id": 29,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 141
+        },
+        {
+          "id": 43,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 161
+        },
+        {
+          "id": 59,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 162
+        },
+        {
+          "id": 57,
+          "type": "j3",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 176
+        },
+        {
+          "id": 115,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 167
+        },
+        {
+          "id": 113,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 168
+        },
+        {
+          "id": 119,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 182
+        },
+        {
+          "id": 87,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 189
+        },
+        {
+          "id": 89,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 2,
+          "at": 204
+        },
+        {
+          "id": 91,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 3,
+          "at": 203
+        },
+        {
+          "id": 121,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 218
+        },
+        {
+          "id": 123,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 219
+        },
+        {
+          "id": 101,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 37
+        },
+        {
+          "id": 133,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 59
+        },
+        {
+          "id": 131,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 78
+        },
+        {
+          "id": 129,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 79
+        },
+        {
+          "id": 127,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 80
+        },
+        {
+          "id": 137,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 93
+        },
+        {
+          "id": 135,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 94
+        },
+        {
+          "id": 31,
+          "type": "j1",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 97
+        },
+        {
+          "id": 93,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 103
+        },
+        {
+          "id": 141,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 1,
+          "at": 107
+        },
+        {
+          "id": 139,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 108
+        },
+        {
+          "id": 125,
+          "type": "j9",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 121
+        },
+        {
+          "id": 85,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 125
+        },
+        {
+          "id": 83,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 155
+        },
+        {
+          "id": 117,
+          "type": "j7",
+          "owner": 0,
+          "face": "arrow",
+          "rotation": 0,
+          "at": 187
+        }
+      ]
+    ],
+    "names": [
+      "Ada",
+      "Emmy"
+    ],
+    "mode": "casual",
+    "turn": 1,
+    "clocks": [
+      null,
+      null
+    ],
+    "increment": 0,
+    "started": true,
+    "paused": false,
+    "lastTick": 0,
+    "ended": {
+      "winner": 0,
+      "reason": "passes",
+      "scores": [
+        56,
+        51
+      ]
+    },
+    "passCount": 2,
+    "challengeUsed": false,
+    "challengeSucceeded": false,
+    "turnNumber": 144,
+    "history": [
+      {
+        "player": 0,
+        "turnNumber": 1,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 115,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 115,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 2,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 100,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 100,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 3,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 114,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 114,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 4,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 99,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 99,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 5,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 129,
+        "tile": "j3",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 129,
+          "tile": "j3",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 6,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 84,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 84,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 7,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 113,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 113,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 8,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 98,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 98,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 9,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 83,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 83,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 10,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 128,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 128,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 11,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 85,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 85,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 12,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 130,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 130,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 13,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 116,
+        "tile": "j1",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 116,
+          "tile": "j1",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 14,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 101,
+        "tile": "j1",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 101,
+          "tile": "j1",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 15,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 131,
+        "tile": "j3",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 131,
+          "tile": "j3",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 16,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 86,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 86,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 17,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 117,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 117,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 18,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 102,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 102,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 19,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 87,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 87,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 20,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 132,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 132,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 21,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 70,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 70,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 22,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 127,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 127,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 23,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 69,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 69,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 24,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 112,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 112,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 25,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 55,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 55,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 26,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 142,
+        "tile": "j3",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 142,
+          "tile": "j3",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 27,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 71,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 71,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 28,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 126,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 126,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 29,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 141,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 141,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 30,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 54,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 54,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 31,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 97,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 97,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 32,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 56,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 56,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 33,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 111,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 111,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 34,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 145,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 145,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 35,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 143,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 143,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 36,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 144,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 144,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 37,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 68,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 68,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 38,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 160,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 160,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 39,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 82,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 82,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 40,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 146,
+        "tile": "j1",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 146,
+          "tile": "j1",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 41,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 159,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 159,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 42,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 67,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 67,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 43,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 161,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 161,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 44,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 147,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 147,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 45,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 158,
+        "tile": "r8",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 158,
+          "tile": "r8",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 46,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 133,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 133,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 47,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 174,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 174,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 48,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 173,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 173,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 49,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 148,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 148,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 50,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 172,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 172,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 51,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 175,
+        "tile": "j1",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 175,
+          "tile": "j1",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 52,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 188,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 188,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 53,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 190,
+        "tile": "j3",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 190,
+          "tile": "j3",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 54,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 53,
+        "tile": "j1",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 53,
+          "tile": "j1",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 55,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 81,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 81,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 56,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 39,
+        "tile": "j1",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 39,
+          "tile": "j1",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 57,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 176,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 176,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 58,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 52,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 52,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 59,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 162,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 162,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 60,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 38,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 38,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 61,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 96,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 96,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 62,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 24,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 24,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 63,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 110,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 110,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 64,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 40,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 40,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 65,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 163,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 163,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 66,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 66,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 66,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 67,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 149,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 149,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 68,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 41,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 41,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 69,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 72,
+        "tile": "j3",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 72,
+          "tile": "j3",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 70,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 57,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 57,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 71,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 178,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 178,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 72,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 157,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 157,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 73,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 88,
+        "tile": "j3",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 88,
+          "tile": "j3",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 74,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 156,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 156,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 75,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 140,
+        "tile": "j3",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 140,
+          "tile": "j3",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 76,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 171,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 171,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 77,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 179,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 179,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 78,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 186,
+        "tile": "j7",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 186,
+          "tile": "j7",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 79,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 194,
+        "tile": "j7",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 194,
+          "tile": "j7",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 80,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 51,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 51,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 81,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 164,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 164,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 82,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 170,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 170,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 83,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 155,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 155,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 84,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 36,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 36,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 85,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 125,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 125,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 86,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 35,
+        "tile": "j7",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 35,
+          "tile": "j7",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 87,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 189,
+        "tile": "j7",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 189,
+          "tile": "j7",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 88,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 118,
+        "tile": "j7",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 118,
+          "tile": "j7",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 89,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 204,
+        "tile": "j9",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 204,
+          "tile": "j9",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 90,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 119,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 119,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 91,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 203,
+        "tile": "j7",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 203,
+          "tile": "j7",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 92,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 134,
+        "tile": "j7",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 134,
+          "tile": "j7",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 93,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 103,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 103,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 94,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 104,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 104,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 95,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 89,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 89,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 96,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 21,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 21,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 97,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 74,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 74,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 98,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 6,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 6,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 99,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 139,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 139,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 100,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 22,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 22,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 101,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 37,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 37,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 102,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 5,
+        "tile": "j7",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 5,
+          "tile": "j7",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 103,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 154,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 154,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 104,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 7,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 7,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 105,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 153,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 153,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 106,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 169,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 169,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 107,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 124,
+        "tile": "j7",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 124,
+          "tile": "j7",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 108,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 184,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 184,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 109,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 123,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 123,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 110,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 183,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 183,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 111,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 122,
+        "tile": "j7",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 122,
+          "tile": "j7",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 112,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 199,
+        "tile": "j7",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 199,
+          "tile": "j7",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 113,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 168,
+        "tile": "j7",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 168,
+          "tile": "j7",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 114,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 201,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 201,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 115,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 167,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 167,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 116,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 202,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 202,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 117,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 187,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 187,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 118,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 217,
+        "tile": "j7",
+        "rotation": 2,
+        "command": {
+          "type": "drop",
+          "at": 217,
+          "tile": "j7",
+          "rotation": 2
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 119,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 182,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 182,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 120,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 216,
+        "tile": "j7",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 216,
+          "tile": "j7",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 121,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 218,
+        "tile": "j7",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 218,
+          "tile": "j7",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 122,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 215,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 215,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 123,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 219,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 219,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 124,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 214,
+        "tile": "j7",
+        "rotation": 3,
+        "command": {
+          "type": "drop",
+          "at": 214,
+          "tile": "j7",
+          "rotation": 3
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 125,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 121,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 121,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 126,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 65,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 65,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 127,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 80,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 80,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 128,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 64,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 64,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 129,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 79,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 79,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 130,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 63,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 63,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 131,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 78,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 78,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 132,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 58,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 58,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 133,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 59,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 59,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 134,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 73,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 73,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 135,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 94,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 94,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 136,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 95,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 95,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 137,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 93,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 93,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 138,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 34,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 34,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 139,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 108,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 108,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 140,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 109,
+        "tile": "j9",
+        "rotation": 0,
+        "command": {
+          "type": "drop",
+          "at": 109,
+          "tile": "j9",
+          "rotation": 0
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 141,
+        "completesTurn": true,
+        "type": "drop",
+        "at": 107,
+        "tile": "j9",
+        "rotation": 1,
+        "command": {
+          "type": "drop",
+          "at": 107,
+          "tile": "j9",
+          "rotation": 1
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 1,
+        "turnNumber": 142,
+        "completesTurn": true,
+        "type": "pass",
+        "command": {
+          "type": "pass"
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          0,
+          0
+        ]
+      },
+      {
+        "player": 0,
+        "turnNumber": 143,
+        "completesTurn": true,
+        "type": "pass",
+        "unclaimed": [],
+        "smallGroups": [
+          5,
+          6,
+          21,
+          22,
+          7,
+          35,
+          36,
+          51,
+          41,
+          56,
+          57,
+          55,
+          70,
+          69,
+          71,
+          85,
+          66,
+          67,
+          68,
+          83,
+          82,
+          81,
+          72,
+          87,
+          88,
+          74,
+          89,
+          96,
+          111,
+          110,
+          104,
+          119,
+          134,
+          118,
+          112,
+          127,
+          126,
+          142,
+          128,
+          122,
+          123,
+          124,
+          130,
+          145,
+          144,
+          146,
+          160,
+          132,
+          133,
+          147,
+          139,
+          154,
+          153,
+          140,
+          141,
+          156,
+          157,
+          171,
+          186,
+          170,
+          161,
+          162,
+          176,
+          167,
+          168,
+          182,
+          169,
+          184,
+          199,
+          183,
+          172,
+          173,
+          188,
+          189,
+          204,
+          203,
+          201,
+          202,
+          217,
+          214,
+          215,
+          216,
+          218,
+          219,
+          34,
+          37,
+          58,
+          59,
+          63,
+          64,
+          65,
+          73,
+          78,
+          79,
+          80,
+          93,
+          94,
+          95,
+          97,
+          103,
+          107,
+          108,
+          109,
+          121,
+          125,
+          155,
+          187
+        ],
+        "command": {
+          "type": "pass"
+        },
+        "clocks": [
+          null,
+          null
+        ],
+        "scores": [
+          56,
+          51
+        ]
+      }
+    ],
+    "revision": 143,
+    "nextId": 142
+  }
+}

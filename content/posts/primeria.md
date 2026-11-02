@@ -8,9 +8,9 @@ aliases = ['/posts/primeria/']
 Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which you can try out.
 
 {{< figure
-  src="/img/primeria-board.jpg?v=15x15-r40-full"
-  alt="A densely occupied 15 by 15 Primeria board with the blue segment D4–D6 selected for a challenge"
-  caption="The selected segment, 341 = 11 × 31, can be captured."
+  src="/img/primeria-board.jpg?v=territory-captures-r42-played"
+  alt="The actual board after turn 141 of a recorded 15 by 15 Primeria self-play game"
+  caption="Turn 141 of a [recorded game](/files/primeria-r42-game.json)."
   width="100%">}}
 
 These are the current rules.
@@ -35,7 +35,7 @@ Flip a coin to decide who goes first. Players take turns. Before your move, you 
 
 *Note: Two of your tiles are **connected** if they share an edge and their arrows connect. A **path** is a sequence of at least two of your tiles connected in the direction of the arrows. A **cycle** is a path whose last tile connects back to its first. A **segment** is a path whose first and last tiles are junction tiles. A **group** consists of your tiles connected through matching arrows, in either direction.*
 
-**Drop.** Place one of your unused tiles on an empty square, choosing its arrow orientation. A junction must connect to one of your tiles when placed. A Drop is illegal if it creates a cycle. Tiles cannot be rotated after placement.
+**Drop.** Place one of your unused tiles on an empty square, choosing its arrow orientation. A Drop is illegal if it creates a cycle. Tiles cannot be rotated after placement.
 
 **Pass.** End your turn without placing a tile.
 
@@ -49,7 +49,9 @@ Two consecutive passes end the game. A successful Challenge breaks the pass stre
 
 First, remove all regular tiles that do not lie on a segment. Then remove all tiles in groups of fewer than six. Give each removed tile to its owner’s opponent as a capture.
 
-Score one point for each of your tiles left on the board and each tile you captured. The higher score wins; equal scores are a draw.
+An **empty region** consists of empty squares connected horizontally or vertically. It is your **territory** if it does not touch the board edge and every tile bordering it is yours. Other regions are neutral.
+
+Score one point for each square in your territory and each captured tile. Tiles left on the board do not score. The higher score wins; equal scores are a draw.
 
 A player also loses by resigning or running out of time.
 
