@@ -10,7 +10,7 @@ Hi, I want to share with you a board game I invented yesterday. It is a two-play
 {{< figure
   src="/img/primeria-board.jpg?v=15x15-r40-full"
   alt="A densely occupied 15 by 15 Primeria board with the blue segment D4–D6 selected for a challenge"
-  caption="Primeria’s branching blue and orange networks on a 15 × 15 board. The selected blue segment D4–D6 reads 341 against the arrows; Orange can capture it with factor 11."
+  caption="The selected segment, 341 = 11 × 31, can be captured."
   width="100%">}}
 
 These are the current rules.
@@ -39,15 +39,15 @@ Flip a coin to decide who goes first. Players take turns. Before your move, you 
 
 **Pass.** End your turn without placing a tile.
 
-**Challenge.** Choose an opponent’s segment and read its number from the last tile to the first, against the arrows. Propose a positive integer factor greater than 1 and smaller than the number, then verify it with a calculator. If correct, remove all tiles in the segment and keep them as captures. Whether correct or not, then make your Drop or Pass.
+**Challenge.** Choose an opponent’s segment and read its number from the last tile to the first, against the arrows. Propose a positive integer factor greater than 1 and smaller than the number, then verify it with a calculator. If correct, remove all tiles in the segment and keep them as captures. Captured tiles stay out of play. Whether correct or not, then make your Drop or Pass.
 
-*Note: On a virtual board, factor verification is automatic. Captured tiles stay out of play.*
+*Note: On a virtual board, factor verification is automatic.*
 
 ## Endgame
 
 Two consecutive passes end the game. A successful Challenge breaks the pass streak; a turn with a successful Challenge does not count as a pass.
 
-First, remove all regular tiles that do not lie on a segment. Then remove all tiles in groups of fewer than nine. Give each removed tile to its owner’s opponent as a capture.
+First, remove all regular tiles that do not lie on a segment. Then remove all tiles in groups of fewer than six. Give each removed tile to its owner’s opponent as a capture.
 
 Score one point for each of your tiles left on the board and each tile you captured. The higher score wins; equal scores are a draw.
 
