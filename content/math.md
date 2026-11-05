@@ -1,5 +1,5 @@
 ---
-title: "Math"
+title: "Research"
 ---
 
 ## Interests

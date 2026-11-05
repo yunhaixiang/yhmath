@@ -54,7 +54,7 @@ categories = "categories"
 
 [[menu.main]]
     identifier = "math"
-    name       = "Math"
+    name       = "Research"
     url        = "/math/"
     weight     = 3
     pre = """
