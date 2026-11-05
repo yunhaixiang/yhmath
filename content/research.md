@@ -1,5 +1,6 @@
 ---
 title: "Research"
+aliases: ["/math/"]
 ---
 
 ## Interests
