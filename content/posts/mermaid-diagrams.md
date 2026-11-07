@@ -1,6 +1,7 @@
 ---
 author: Michael Neuper
 title: Mermaid Diagrams
+draft: true
 date: 2019-11-10
 slug: 4492ad2
 aliases:

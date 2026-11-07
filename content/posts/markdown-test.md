@@ -1,10 +1,11 @@
 ---
 title: "Markdown Test"
+draft: true
 date: "2019-03-11"
 slug: 33a60a9
 aliases:
   - /posts/markdown-test/
-categories: ["media", "expositions", "essays", "poems", "archives", "stories", "reviews"]
+categories: ["media", "expositions", "essays", "poems", "stories", "reviews"]
 tags: ["math", "philosophy", "music", "films", "video-games", "anime", "magic-tricks", "coding", "number-theory", "algebraic-geometry", "algebra", "existentialism", "epistemology", "logic", "linguistics", "novels"]
 ---
 

@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Video Games
+build:
+  list: never
 date: 2021-12-25 00:00:00 +0000
 slug: fe5a259
 aliases:
   - /posts/video-games/
 tags: [video-games]
-categories: [archives]
 ---
 
 

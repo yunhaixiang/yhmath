@@ -1,5 +1,6 @@
 ---
 title: "Math Test"
+draft: true
 date: "2019-03-12"
 slug: 863b176
 aliases:
