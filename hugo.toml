@@ -47,6 +47,7 @@ categories = "categories"
 name = "Yunhai Xiang"
 
 [params]
+postsPerPage = 10
 title = "Yunhai Xiang"
 author = "Yunhai Xiang"
 description = ""
