@@ -6,7 +6,7 @@ aliases: ["/math/"]
 ## Interests
 
 My main interests in mathematics lie in [number theory](https://en.wikipedia.org/wiki/Number_theory) and particularly [arithmetic geometry](https://en.wikipedia.org/wiki/Arithmetic_geometry), which studies arithmetic by applying insights  from geometry and topology. 
-Specifically, I am interested in *arithmetic monodromy*, and related topics such as arithmetic statistics, abelian varieties, Drinfeld modules, ramification theory, and rational points. Outside of my main interests, I’m also interested in representation theory, type theory, mathematical logic, and cryptography.
+Specifically, I am interested in *arithmetic monodromy*, and related topics such as arithmetic statistics, abelian varieties, Drinfeld modules, ramification theory, and rational points. Outside of my main interests, I’m also interested in representation theory, homotopy theory, type theory, mathematical logic, and cryptography.
 
 ## Publications
 
