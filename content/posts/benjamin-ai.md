@@ -1,5 +1,5 @@
 ---
-title: The Work of Art (and Science) in the Age of Algorithmic Reproducibility
+title: Walter Benjamin and AI
 date: 2026-05-31 00:00:01 -0400
 slug: f1d86af
 aliases:
