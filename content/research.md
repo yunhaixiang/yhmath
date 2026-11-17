@@ -5,7 +5,7 @@ aliases: ["/math/"]
 
 ## Interests
 
-My primary interests lie in [number theory](https://en.wikipedia.org/wiki/Number_theory), particularly [arithmetic geometry](https://en.wikipedia.org/wiki/Arithmetic_geometry). Specifically, I am interested in *monodromy groups* and their connections to a broad range of topics, including arithmetic statistics, abelian varieties, Drinfeld modules, braid groups, wild ramifications, rational points, inverse Galois problems, and Hodge theory. Outside my primary interests, as AI is increasingly relevant to mathematical research, I’d love to learn more about type theory, formalization of mathematics, and machine learning. I also care about real world applications of pure mathematics, such as cryptography, quantum computing, and computer graphics. 
+My primary interests lie in [number theory](https://en.wikipedia.org/wiki/Number_theory), particularly [arithmetic geometry](https://en.wikipedia.org/wiki/Arithmetic_geometry). Specifically, I am interested in *monodromy groups* and their connections to a broad range of topics, including arithmetic statistics, abelian varieties, Drinfeld modules, braid groups, wild ramifications, rational points, inverse Galois problems, and Hodge theory. I also care about real world applications of pure mathematics, such as cryptography, quantum computing, machine learning, and computer graphics. 
 
 ## Publications
 
