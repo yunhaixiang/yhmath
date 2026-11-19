@@ -3,6 +3,7 @@ date = '2026-10-21T07:16:16-04:00'
 title = 'Primeria: A Board Game about Prime Numbers'
 slug = 'c219c1f'
 aliases = ['/posts/primeria/']
+draft = true
 +++
 
 Hi, I want to share with you a board game I invented yesterday. It is a two-player board game which combines clever strategies with quick mental arithmetic skills. I have here an [interactive UI](https://yunhaixiang.github.io/primeria/) which you can try out.
