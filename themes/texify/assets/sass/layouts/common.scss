@@ -4,6 +4,12 @@
 @use "../fonts" as *;
 
 // global
+html {
+  // Keep mobile text autosizing from scaling paragraphs and inline text unevenly.
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
