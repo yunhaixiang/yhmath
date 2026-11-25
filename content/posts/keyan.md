@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 title: 做数学科研一定要在学术界吗
 date: 2025-11-30 00:00:00 +0000

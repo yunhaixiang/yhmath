@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 title: 论「纯粹」
 date: 2025-10-17 00:00:00 +0000
