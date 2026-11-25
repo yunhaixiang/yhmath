@@ -1,5 +1,5 @@
 ---
-title: A Case for AI-Assisted Math
+title: Are We Cooked? 
 date: 2026-05-24 22:59:19 -0400
 slug: 8ad6b3f
 aliases:
