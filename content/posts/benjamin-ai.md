@@ -54,17 +54,6 @@ I still believe exhibition value, in the sense Benjamin intended, remains deeply
 
 In Benjamin’s essay, he claimed that while technologies like photography and film have decimated cult value, they have become unique art forms in their own right with tremendous exhibition value. Whether AI has the same potential is a very interesting question. I will make the perhaps outrageous claim here that it probably does. If AI could be used in a way that reflects human authenticity, it is not inconceivable that a genuinely valuable artwork could be born from it, although none has so far. This is by far my biggest disagreement with mainstream opinion from artists.  
 
-## Algorithmic Reproducibility of Science
-
-When it comes to AI in science, it becomes a very different issue, as the goal is the search for truth regardless of tools. Some people have claimed that there is an artistic element to math research when it comes to research taste. I beg to differ. One cannot claim that math is like art just because human researchers have a sense of which kinds of math are more beautiful or elegant – that is an *aesthetic* formed from personal experience, and an aesthetic is very different from art. What then will AI bring to science?
-
-I have recently written an essay specifically discussing this in the case of [math](/posts/a-case-for-ai-assisted-math/). For physics, there is a very good [discussion by Prof. David Kipping](https://www.youtube.com/watch?v=PctlBxRh0p4) on YouTube. In computer science, there have been experiments such as [autonomous researchers](https://arxiv.org/abs/2408.14033). In biology labs, people are experimenting with [autonomous AI research via robots](https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/). 
-
-In short, I do not think AI challenges science as much as it does art. The core motivation of science still remains unchanged, but how one does science, and who will be good at the new way of doing science, will likely be different. I expect that the new generation of mathematicians will be training themselves with AI, and will likely be operating on a higher level of reasoning than their predecessors once they are used to working with AI. 
-
-
-
-
 
 ## References
 
