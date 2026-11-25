@@ -1,5 +1,6 @@
 ---
 title: How is AI Going to Change the Socioeconomics of Math?
+draft: true
 date: 2026-07-28 00:00:01 -0400
 slug: c4a91f7
 aliases:

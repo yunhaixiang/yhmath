@@ -1,5 +1,6 @@
 ---
 title: Formalization of a Result of Fibonacci Sequence
+draft: true
 date: 2026-03-08 12:00:00 -0500
 slug: ad8f57d
 aliases:

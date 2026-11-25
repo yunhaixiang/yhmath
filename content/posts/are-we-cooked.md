@@ -1,5 +1,6 @@
 ---
 title: Are We Cooked? 
+draft: true
 date: 2026-05-24 22:59:19 -0400
 slug: 8ad6b3f
 aliases:

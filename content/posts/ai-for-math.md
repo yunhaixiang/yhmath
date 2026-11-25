@@ -1,5 +1,6 @@
 ---
 title: AI for Math
+draft: true
 date: 2026-03-02 15:39:07 -0500
 slug: 85ac599
 aliases:

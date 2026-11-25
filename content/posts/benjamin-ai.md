@@ -1,5 +1,6 @@
 ---
 title: Walter Benjamin and AI
+draft: true
 date: 2026-05-31 00:00:01 -0400
 slug: f1d86af
 aliases:
